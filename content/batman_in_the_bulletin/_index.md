@@ -1,5 +1,5 @@
 +++
-title = "Rules"
+title = "Batman In the Bulletin"
 description = ""
 weight = 2
 +++
