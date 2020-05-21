@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+// Colours and variables
+
+$grand-green: #1b4d3e; //Brunswick Green
+$grand-stone: #e3d6c2; //Portland stone
+
+.bg-grandgreen
+{
+background-color: $grand-green;
+}
+
+// Typography
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4, .navbar-brand {
+    font-family: 'Libre Baskerville', serif;
+}
+.main h2
+{
+    padding-top: 2rem;
+}
+
+//links and buttons
+.main a{
+    color: $grand-green;
+    text-decoration: underline;
+}

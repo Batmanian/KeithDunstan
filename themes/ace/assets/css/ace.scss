@@ -1,0 +1,169 @@
+/* -------------------------------------------------------------------------
+*   ACE DOCUMENTATION
+*   Stylesheet
+*   @author Vantage Design
+*   @version 1.0.0
+*   @license https://github.com/vantagedesign/ace-documentation/blob/master/LICENSE
+* ------------------------------------------------------------------------ */
+
+$primary:       #007bff;
+$secondary:     #6610f2;
+$success:       #28a745;
+$info:          #17a2b8;
+$warning:       #ffc107;
+$danger:        #dc3545;
+$light:         #f8f9fa;
+$dark:          #343a40;
+
+@import "bootstrap/bootstrap";
+
+/* Typography styling */
+
+.main > {
+    h1 {
+      padding-top: 2rem;
+    }
+  
+    h2 {
+      padding-top: 4rem;
+      margin-top: -1rem;
+    }
+  
+    h3, h4, h5, h6 {
+      padding-top: 4rem;
+      margin-top: -3rem;
+    }
+  }
+  
+  .haschildren {
+    ul {
+      color: gray;
+      display: none;
+    }
+  
+    &.active ul, &.parent ul {
+      display: block;
+    }
+  }
+  
+  .highlight > pre {
+    padding: 15px;
+  }
+  
+  /* Side navigation menus */
+  
+  .docs-sidenav span.badge.badge-primary {
+    font-size: 10px;
+  }
+  
+  .docs-toc {
+    span.badge.badge-primary {
+      font-size: 10px;
+    }
+  
+    padding-top: 10px;
+  
+    a {
+      font-size: 14px;
+      color: gray;
+  
+      &:hover {
+        color: #333;
+      }
+    }
+  
+    ul {
+      list-style: none;
+      padding-left: 8px;
+      margin-top: 3px;
+  
+      &:first-child {
+        padding-left: 0;
+      }
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .docs-sidenav, .docs-toc {
+      height: calc(100vh - 4rem);
+      top: 4rem;
+      position: sticky;
+    }
+  
+    .docs-sidenav .navbar, .docs-toc .navbar {
+      padding-right: 0;
+    }
+  
+    .docs-sidenav {
+      .navbar-collapse, .navbar-nav {
+        width: 100%;
+      }
+  
+      .nav-link {
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+      }
+    }
+  
+    .docs-toc li a {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+    }
+  
+    .docs-sidenav .nav-link > span.badge.badge-primary, .docs-toc li a > span.badge.badge-primary {
+      margin-top: 5px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .docs-toc.large {
+      height: calc(100vh - 4rem);
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .docs-toc.large {
+      display: none;
+    }
+  }
+  
+  /* Table tweak for JavaScript methods */
+  
+  table {
+    td:first-child > code {
+      word-break: normal;
+    }
+  
+    > tbody > tr > td {
+      padding: .75rem;
+      vertical-align: top;
+      border: 1px solid #dee2e6;
+    }
+  }
+  
+  .bd-content > table > {
+    tbody > tr > th {
+      padding: .75rem;
+      vertical-align: top;
+      border: 1px solid #dee2e6;
+    }
+  
+    tfoot > tr > {
+      td, th {
+        padding: .75rem;
+        vertical-align: top;
+        border: 1px solid #dee2e6;
+      }
+    }
+  
+    thead > tr > {
+      td, th {
+        padding: .75rem;
+        vertical-align: top;
+        border: 1px solid #dee2e6;
+      }
+    }
+  }
+  @import "grandstyles";
