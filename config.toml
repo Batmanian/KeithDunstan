@@ -1,6 +1,6 @@
-baseURL = "https://batmanian.github.io/GrandDocs/"
+baseURL = "https://batmanian.github.io/KeithDunstan/"
 languageCode = "en-au"
-title = "Grand Central Apartments"
+title = "Keith Dunstan"
 theme = "ace"
 publishdir = "docs"
 

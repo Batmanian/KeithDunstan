@@ -1,6 +1,6 @@
 
 +++
-title = "Grand Central Apartments"
+title = "Keith Dunstan"
 description = ""
 weight = 2
 +++
@@ -8,6 +8,4 @@ weight = 2
 This site is in development
 
 
-Grand Central Apartments
-33 – 71C Spencer Street, Docklands 3008
-Owners Corporation PS 331362S
+**John Keith Dunstan OAM** (3 February 1925 – 11 September 2013), known as Keith Dunstan, was an Australian journalist and author. He was a prolific writer and the author of more than 25 books.
