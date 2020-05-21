@@ -3,203 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://batmanian.github.io/KeithDunstan/rules/1definitions/</loc>
+    <loc>https://batmanian.github.io/keithdunstan/about_keith/</loc>
   </url>
   
   <url>
-    <loc>https://batmanian.github.io/KeithDunstan/manual/introduction/</loc>
+    <loc>https://batmanian.github.io/keithdunstan/batman_in_the_bulletin/</loc>
   </url>
   
   <url>
-    <loc>https://batmanian.github.io/KeithDunstan/about/</loc>
+    <loc>https://batmanian.github.io/keithdunstan/</loc>
   </url>
   
   <url>
-    <loc>https://batmanian.github.io/KeithDunstan/manual/principal-service-providers/</loc>
+    <loc>https://batmanian.github.io/keithdunstan/melbourne_i_remember/</loc>
   </url>
   
   <url>
-    <loc>https://batmanian.github.io/KeithDunstan/rules/2rules/</loc>
+    <loc>https://batmanian.github.io/keithdunstan/publications/</loc>
   </url>
   
   <url>
-    <loc>https://batmanian.github.io/KeithDunstan/</loc>
+    <loc>https://batmanian.github.io/keithdunstan/categories/</loc>
   </url>
   
   <url>
-    <loc>https://batmanian.github.io/KeithDunstan/rules/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/manual/contact-list/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/rules/3ownersobligations/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/manual/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/rules/4alterations/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/manual/moving-in-and-out/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/history/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/manual/building-access/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/rules/5vehicles/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/manual/apartment-services/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/rules/6insurance/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/rules/7security/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/manual/waste/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/manual/maintenance/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/rules/8waste/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/rules/9notice/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/manual/parking/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/rules/10contractors/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/manual/recreation/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/rules/11notification/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/manual/renovations/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/rules/12ownerscorporationrules/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/manual/special-rules/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/rules/13retail/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/manual/annex-1/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/rules/14provision/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/manual/annex-2/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/manual/annex-3/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/rules/15storage/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/manual/annex-4/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/rules/16fire/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/manual/annex-5/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/rules/17ownerscorporationmanager/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/manual/annex-6/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/rules/18notices/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/rules/19complaints/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/rules/20gst/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/rules/22heritage/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/rules/22hotel/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/rules/23relocations/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/rules/24changelog/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/manual/changelog/</loc>
-  </url>
-  
-  <url>
-    <loc>https://batmanian.github.io/KeithDunstan/tags/</loc>
+    <loc>https://batmanian.github.io/keithdunstan/tags/</loc>
   </url>
   
 </urlset>
