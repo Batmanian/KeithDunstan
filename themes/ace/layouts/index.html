@@ -5,15 +5,26 @@
 
 	{{.Site.Home.Content}}
 	{{else}}
-			<h1>Customize your own home page</h1>
-			<p>
-			  The site is working. Don't forget to customize this homepage with your own. You typically have 2 choices :
+
+			<div class="col-6 offset-3">
+			<img src="keith_dunstan.jpg" class="rounded mx-auto d-block img-fluid" alt="IMage of Keith Dunstan riding a bicycle">
+		</div>
+			<h1 class="text-center">Keith Dunstan</h1>
+			<p class="lead text-center">
+				(3 February 1925 – 11 September 2013)
+				<br><br>Keith Dunstan was an Australian journalist and author. He was a prolific writer and the author of more than 25 books.
 			</p>
-			<ul>
-			  <li><b>1. </b> Create an _index.md document in the content folder</li>
-			  <li><b>2. </b> Configure your server to automatically redirect this home page to one of your documentation pages</li>
-			</ul>
-		<p><i class="fa fa-heart fa-4x"></i></p>
+			
+
+	
+		<style>
+			#navbarMain, body > div > div > div.docs-sidenav.order-0.col-12.col-md-3.col-lg-2.col-xl-2.position-sticky.border-right > nav
+			{
+				display: none;
+				
+			
+			}
+			</style>
 	{{ end }}
 
 {{ end }}

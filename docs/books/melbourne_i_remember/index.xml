@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Melbourne I Remember on Keith Dunstan</title>
+    <link>https://keithdunstan.org/books/melbourne_i_remember/</link>
+    <description>Recent content in The Melbourne I Remember on Keith Dunstan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    
+	<atom:link href="https://keithdunstan.org/books/melbourne_i_remember/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>
