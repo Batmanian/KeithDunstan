@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Keith Dunstan</title>
-    <link>https://batmanian.github.io/keithdunstan/categories/</link>
+    <link>https://keithdunstan.org/categories/</link>
     <description>Recent content in Categories on Keith Dunstan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     
-	<atom:link href="https://batmanian.github.io/keithdunstan/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://keithdunstan.org/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
