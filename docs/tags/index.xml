@@ -10,5 +10,41 @@
 	<atom:link href="https://batmanian.github.io/keithdunstan/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Blogging</title>
+      <link>https://batmanian.github.io/keithdunstan/tags/blogging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://batmanian.github.io/keithdunstan/tags/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>https://batmanian.github.io/keithdunstan/tags/development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://batmanian.github.io/keithdunstan/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fast</title>
+      <link>https://batmanian.github.io/keithdunstan/tags/fast/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://batmanian.github.io/keithdunstan/tags/fast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>https://batmanian.github.io/keithdunstan/tags/go/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://batmanian.github.io/keithdunstan/tags/go/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
