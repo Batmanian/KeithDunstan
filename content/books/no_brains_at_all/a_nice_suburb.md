@@ -1,4 +1,8 @@
-### A Nice Suburb
++++
+title = "A nice suburb"
+description = ""
+weight = 2
++++
 
 It is much easier to write a novel or an autobiography if you have been miserable as a child, persecuted, tortured or banished. That is why the Russians Dostoevsky, Tolstoy, Turgenev and Gogol remain the greatest writers. Not only were they able to draw on their own emotional, anguished lives; they were also able to call upon the sufferings of their country: upon the poverty, the class conflicts, the frigid winters, the wars and the subjugation of the Russian people. Some writers who have found their lives not sufficiently awful have even gone out of their way to make them so. Philip Roth the United States novelist has admitted to doing this.What a handicap it is to have been happy. My parents were loving and generous. The climate in Melbourne was only frigid superficially - perhaps briefly in July or August. The political suffering under the benign dictatorships of Messrs Bruce, Lyons, Menzies, Curtin and Chifley hardly compared with that under the tsars.
 What's more I grew up in an utterly affluent suburb.

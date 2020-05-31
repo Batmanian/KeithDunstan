@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Batman In the Bulletin on Keith Dunstan</title>
+    <title>Keith Dunstan</title>
     <link>https://keithdunstan.org/books/batman_in_the_bulletin/</link>
-    <description>Recent content in Batman In the Bulletin on Keith Dunstan</description>
+    <description>Recent content on Keith Dunstan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     
@@ -11,7 +11,7 @@
     
     
     <item>
-      <title>Index</title>
+      <title></title>
       <link>https://keithdunstan.org/books/batman_in_the_bulletin/index_of_contents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

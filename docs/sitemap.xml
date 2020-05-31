@@ -3,7 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://keithdunstan.org/books/no_brains_at_all/introduction/</loc>
+  </url>
+  
+  <url>
+    <loc>https://keithdunstan.org/books/no_brains_at_all/a_nice_suburb/</loc>
+  </url>
+  
+  <url>
+    <loc>https://keithdunstan.org/books/no_brains_at_all/</loc>
+  </url>
+  
+  <url>
+    <loc>https://keithdunstan.org/books/no_brains_at_all/education_by_flagelation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://keithdunstan.org/books/</loc>
+  </url>
+  
+  <url>
+    <loc>https://keithdunstan.org/books/no_brains_at_all/siberia/</loc>
+  </url>
+  
+  <url>
+    <loc>https://keithdunstan.org/books/no_brains_at_all/index_of_contents/</loc>
+  </url>
+  
+  <url>
     <loc>https://keithdunstan.org/about_keith/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://keithdunstan.org/about_keith/eulogy/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -19,14 +53,6 @@
   </url>
   
   <url>
-    <loc>https://keithdunstan.org/books/</loc>
-  </url>
-  
-  <url>
-    <loc>https://keithdunstan.org/about_keith/eulogy/</loc>
-  </url>
-  
-  <url>
     <loc>https://keithdunstan.org/books/melbourne_i_remember/bookies/</loc>
   </url>
   
@@ -35,47 +61,7 @@
   </url>
   
   <url>
-    <loc>https://keithdunstan.org/books/no_brains_at_all/</loc>
-  </url>
-  
-  <url>
-    <loc>https://keithdunstan.org/books/no_brains_at_all/a_nice_suburb/</loc>
-  </url>
-  
-  <url>
-    <loc>https://keithdunstan.org/books/no_brains_at_all/education_by_flagelation/</loc>
-  </url>
-  
-  <url>
-    <loc>https://keithdunstan.org/books/no_brains_at_all/index_of_contents/</loc>
-  </url>
-  
-  <url>
-    <loc>https://keithdunstan.org/books/no_brains_at_all/introduction/</loc>
-  </url>
-  
-  <url>
-    <loc>https://keithdunstan.org/books/no_brains_at_all/siberia/</loc>
-  </url>
-  
-  <url>
-    <loc>https://keithdunstan.org/tags/blogging/</loc>
-  </url>
-  
-  <url>
     <loc>https://keithdunstan.org/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://keithdunstan.org/tags/development/</loc>
-  </url>
-  
-  <url>
-    <loc>https://keithdunstan.org/tags/fast/</loc>
-  </url>
-  
-  <url>
-    <loc>https://keithdunstan.org/tags/go/</loc>
   </url>
   
   <url>

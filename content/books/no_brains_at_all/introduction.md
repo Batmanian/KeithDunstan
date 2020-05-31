@@ -1,3 +1,9 @@
++++
+title = "Introduction"
+description = ""
+weight = 1
++++
+
 ## Introduction
 
 Doing this is like sitting naked in the bath while a television crew films you for the 'Today' show. A dreadful experience. So why do it? Vanity? It is an act of vanity, yes. But I must put in a plea of guilty with extenuating circumstances.

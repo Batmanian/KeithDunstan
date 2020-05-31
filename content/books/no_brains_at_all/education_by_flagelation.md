@@ -1,4 +1,8 @@
-### Education by flagellation
++++
+title = "Education by flagellation"
+description = ""
+weight = 3
++++
 
 So many people look upon school-days as the happiest time of their life. For me school was little pleasure. I suspect my misery was self-inflicted. Home was such a warm, pleasurable place; school such a hideous, disciplined contrast.
 At the age of 7 1 was dispatched to Wadhurst, the preparatory school for Melbourne Grammar, which was in the grounds of the senior school. Melbourne Grammar, Anglican, bluestone, was created by Bishop Perry in 1849 and was one of the great public schools. The former prime minister Stanley, Lord Bruce, was a famous old boy, and the school much later could boast another prime minister, Malcolm Fraser.
