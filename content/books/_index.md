@@ -4,9 +4,9 @@ description = ""
 weight = 4
 +++
 
-Available here
+Available online here
 
-[No Brains at All (1990)](https://keithdunstan.org/books/no_brains_at_all/)
+[No Brains at All; 1990](https://keithdunstan.org/books/no_brains_at_all/)
 
 In development
 
