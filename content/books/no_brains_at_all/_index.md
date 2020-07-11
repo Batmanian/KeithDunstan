@@ -4,6 +4,7 @@ description = ""
 weight = 2
 +++
 
+##### From the 1990 cover
 
 Keith Dunstan was born in Melbourne in 1925. After completing school, as a boarder at Geelong Grammar, he enlisted in the RAAF and served in Borneo during the Second World War. He joined the Herald and Weekly Times as a cadet reporter after the war. His talent as a writer was quickly recognised by Sir Keith Murdoch, who in 1949 sent him to the USA and England as a journalist. 
 
