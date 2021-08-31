@@ -1,3 +1,4 @@
-/node_modules
-/content_old
-
+node_modules
+.DS_Store
+dev
+public
