@@ -1,0 +1,21 @@
+<div class="bg-light p-4 rounded">
+  <!--<h3>Sidebar Single</h3>-->
+<p class="lead">
+        {{ summary }}
+      </p>
+
+  {%- for tag in tags | filterTagList -%}
+            {%- set tagUrl %}/keyword/{{ tag | slug }}/{% endset -%}
+            <a href="{{ tagUrl | url }}" class="btn btn-outline-dark btn-sm me-2">{{ tag }}</a>
+          {%- endfor %}
+
+
+       
+</div>
+
+<div class="p-4 mt-5 border-top">
+  <!--<h3>Tag List</h3>
+  <p>
+    {% include 'snippets/tagslist.njk' %}
+  </p>-->
+</div>

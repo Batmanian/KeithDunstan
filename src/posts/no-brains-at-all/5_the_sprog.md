@@ -1,0 +1,166 @@
+---
+title: The Sprog
+date: 1990-11-11
+summary: The fifth chapter of his first book of memoirs, 'No Brains At All".
+tags:
+  - Air Training Corps
+  - Bob Dalziel
+  - Mustang
+  - RAAF
+  - Spitfire
+  - Tiger Moth
+  - WAAAF
+  - Wirraway
+
+---
+
+Yes, heaven indeed it was to be close to real aeroplanes at last. In 1938 my father had taken me to Essendon to see the first Douglas DC2, the forerunner of the DC3. It had only one wing and I couldn't believe the enormous size of the thing. In 1942 1 had my first flight in an aeroplane. This was organised for cadets in the Air Training Corps and we flew from a flying-field not far from Geelong Grammar. Now here was the opportunity to look at and feel DH82 Tiger Moths. They fitted the romantic ideal of the planes flown by Richthofen, Johns and all the heroes of the First World War. The DH82s, with canvas, two wings and open cockpits, were little different from the Camels, SE5s and Bristols of 1918.
+
+The first month was an orientation period, with no actual flying. We were the lowest form of life on the base and known as 'erks'. Other erks on 37 course were Weston Bate, future historian and professor of history at Deakin University, and Bill Borthwick, another famous name. Bill was to become deputy premier of Victoria.
+
+The erks' task was to assist with the starting of the Tigers. Tiger Moths, like ancient automobiles in the 1920s, had no starter mechanisms and had to be hand cranked. But instead of turning a crank handle the erk had to throw the propeller. The pilot turned on the switches, called 'Contact', then the erk had to throw the propeller. This meant standing in front of the Tiger, grabbing the propeller high, near the tip, and giving a mighty heave downwards. Ker-dunk. The motor would turn over once. Having been warned that the most dangerous place on any aerodrome was within range of a propeller this was an unnerving experience.
+
+On cold mornings the Tigers with their four-cylinder Gypsy Major engines could be reluctant to start. I remembered my Rocket and Ibis model aircraft. So much winding had to be done to these Tigers that maybe they, too, were powered by a rubber band.
+
+After swinging the propeller, the erk had to whip away his hand before the engine coughed into life. The biggest danger was a backfire, a kickback, when the propeller swung the other way. In my first week it did precisely that and cracked my right hand, across the metacarpals. The whole hand swelled like a small football and there was no propeller swinging for the next three weeks. I was just able to use it in time for the start of pilot training.
+
+Flight instructors by tradition are nervous, frustrated people, brilliant at invective. In moments of crisis the student is roared at, cursed at and abused into acquiring the correct skills. My instructor was Flight Sergeant Bill Dale, a gentle man, who used an entirely different approach. He never raised his voice, never showed fear when a heavy-handed student was approaching earth at a suicide angle; he just said calmly, 'I will take over now'. His system was to coax and plead. The student, or 'sprog', sat in the back seat and the instructor in front. Both wore leather flying-helmets, which were inescapably vintage Biggles, and communicated through a speaking-tube.
+
+I went through all the classic moments of training. There were those vivid seconds when for the first time Bill Dale turned the Tiger upside down, and we were both hanging by the straps at 1000 metres. I was startled by a gentle rain of sweets papers and cigarette butts past my nose. The next moment of middling terror came when we were chugging happily in the Benalla sunshine, looking blissfully across to the Warby Range, and Bill Dale suddenly pulled off the throttle..
+
+'You now have a dead motor. You have, of course, been paying attention, constantly looking for emergency landing areas. Now find one!', Bill said.
+
+There were just twenty seconds to look for a suitable paddock, put the plane in a gliding mode and try to avoid gum trees and electricity wires. Just before touch-down Bill pushed on the power again.
+
+'Today we do spins', Bill announced, after six hours of training. We climbed and climbed to 2500 metres. He pulled the stick right back, gave it full left rudder. The Tiger stalled, then went into a violent, top-like spin. The entire world went into a mad revolution.
+
+'You get out of this', said the calm Sergeant Dale, 'with stick right forward, full right rudder, and see, you dive out of it. Now we will do a spin to the right'.
+
+We did this again and again and again. Soon I cared little whether we spun left, right, forwards or back. If only he would stop. The scrambled eggs and bacon we had had for breakfast were churning. Suddenly they erupted all over the dashboard and my flying suit. We kept on. 'Now you do the spin to the right.' I vomited again. and the slip stream blew the vomit back into my face. Eventually, oh mercifully, we returned to earth. Bill Dale looked at the disaster behind him.
+
+'We have just one rule here, LAC', he said. 'When you are sick in the aircraft you clean it up yourself. Go and get a bucket of water.'
+
+On good days the Benalla sky was filled with Tiger Moths. There was no actual airstrip. Aircraft took off from the smooth grass. Nor was there radio; pilots received a signal from the control tower and took off into the wind, indicated by a wind-sock. If there was excessive wind, junior erks held the wings and steadied the Tigers as they taxied. The DH82s had two wheels up front and a tail skid at the rear, so clear vision was to be had only by sticking a head out either side. On one bright, sunny morning two Tiger Moths took off side by side. A trainee pilot in one aircraft had his head out to the left, a trainee in the other had his head out to the right. At a height of 20 metres the two Tiger Moths collided and in a terrible tangle crashed to the ground. Both pilots were killed.
+
+Next day there was the funeral at the Benalla cemetary, with cadets all in their best blue. We did that terrible, slow funeral march, which seemed more than ever to add to the horror of the occasion, as weeping parents looked on. I was a very good letter writer and reported almost everything to my parents. But not this. As in my boarding-school days, parents were told only what was good for them.
+
+It was the normal custom immediately after an accident to get all pilots up in the air. The theory was that there must be no time for them to meditate or they would lose their nerve and confidence. As many as possible immediately took to the air, but my chance did not come until the next day. The time was 11 a.m. We taxied to the end of the field and parked for a moment before turning into the wind, ready for take off. My log-book stated I had received only nine hours ten minutes instruction. There was some conspicuous fumbling in the front seat. Bill Dale was throwing off his straps, he was climbing out and now he was standing beside the plane. He had his stick in his hand. (Never was it referred to as a joy stick. That was only for comics and Boys' Own Paper adventure stories. It was either the stick or the control column.)
+
+'I reckon you're okay. Just carry on and fly the way you have been flying. But this time you're on your own. Do a couple of circuits, land and come back. I'll wait here. Good luck.'
+
+It is not easy to recapture those exact moments in your life when you are convinced that you are completely happy, approaching perfect nirvana. There was my first visit to Luna Park, my wedding, my first byline article in a newspaper, my first home-grown, flawless dahlia and - ah, yes - going solo. Oddly enough there were no nerves, no terror. Taking off is always the most thrilling moment in an aeroplane; just the act of pushing the throttle right forward to give maximum power is extraordinary. We had one pilot on the course who said: 'When I get a chance I'm going to fly a dirty big bastard, a Liberator or a Lancaster. I want to push four throttles - you know, in a bunch together, all held in my hand at the one time - all the way'. One throttle was sufficient for me. How marvellous it was to feel the pressure in the middle of my back, see the scenery moving faster and faster.
+
+`Look at the speed. Forty ... Fifty . . Lift the tail. Sixty . . . Sixty-six . . . Lift off. Climb away. Steady now. Keep her straight on course. Five hundred feet, turning left . . . Climb on..
+
+My state of ecstasy was beyond belief. I was free. I was a bird. 'I'M FREE! I'M FREE! I'M GOING SOLO', I shouted at the top of my voice, with no one to hear me.
+
+I did two circuits, made a last careful approach and in my euphoria hit the ground with a most indelicate bump. There was one hop, another and I was down.
+
+After the first solo there was another and another and another. There were even solo cross-country exercises, with visits to Shepparton and Tocumwa.I. One day when I was flying at 800 metres I spotted the crack Victorian streamlined train, the Spirit of Progress.
+
+`This is Cobber Kane, DFC, swinging to the attack!'
+
+I peeled off in the best Spitfire manner, went into a shallow dive on the Spirit's tail and dived and dived and dived. The Spirit was moving at over 110 kilometres per hour. There was a head wind of at least 50 kilometres per hour. Slowly the Spirit pulled away, the easy victor. My DI-182 never had a chance. It was another of my little flying humiliations.
+
+Training proceeded. Next on the list were aerobatics, stall turns, loops and rolls. Barrel rolls were just fine but, being left-handed, I found slow rolls the very devil. Rolls to the left were also fine, but rolls to the right against the torque of the propeller required extra strength and much co-ordination. The problem was always to keep the nose up, left rudder, over on the back, stick forward, over side-on again, right rudder, then back up again. I found I had to use both hands on the stick.
+
+Night flying was worse. It seemed impossible to judge height just by two rows of dim lights on either side of the strip. Night flying took place by turns and the durk-a-durk sound of Tigers went on right through to midnight. Nights at Benalla were inevitably cold, clear and beautiful, and with the black-out there was the glow of a million stars, but flying after dark had its perils. One night very early in our training all flying was suddenly cancelled after 9 o'clock. There had been a mysterious and never adequately explained accident. A Tiger Moth containing an instructor and a student pilot had crashed right in the circuit area. The DI-182 had hit the ground vertically, engines and wings leaving a deep imprint in the earth. Both men had died instantly. What happened will never be known, but the theory was that the student had frozen on the controls. All instructors held a fear that a student would become so frightened that his hands would become rigid on the control column. In many modern trainer aeroplanes the instructor and the trainee pilot sit side by side. In the Tiger Moth, instructor and student were well separated, so there was little a teacher could do beyond shouting.
+
+There was another funeral at the Benalla cemetery, another slow march, more tortured parents. The Australian public never knew how many air crew died long before they ever met the enemy.
+
+On our course it was at least 15 per cent. The public did not know because accidents in training were not reported in the newspapers. Such information would not have been good for morale or conducive to the war effort.
+If 15 per cent died by their own hands, maybe another 20 per cent failed to complete the course. Either they failed academically or their flying and navigation skills did not reach the required standards. Trainees had regular tests, not with their instructors, but with a more august official, a senior pilot or the chief flying instructor. If a trainee failed to pass his test a dreaded shift resulted, maybe to air gunner, navigator or ground staff.
+
+We had just a week to go before completing our elementary training when Bob Dalziel received word that his father, the redoubtable sea captain, had died suddenly. Perhaps in a more civilised time, when there was room for a little compassion, he would have received a month's leave. All Bob received was a day's leave for the funeral. He lost all concentration and found himself unco-ordinated when he went for his flying tests. There was a word for it: he was scrubbed. We were both devastated by the news. He shifted to ground staff, and I saw little of him until the war's end.
+
+Before leaving Benalla, trainees had to make another choice: whether to do their future training on multi-engines, which meant almost inevitably twin-engined Avro Ansons, or on single-engined Wirraways. I told my new assessment officer how I had always dreamed of single-engined fighters, how I had watched Kittyhawks and Aircobras flying overhead at Geelong. I was convinced I would be better at this kind of flying than on multi-engines. But I had a fear that I dared not mention. If I was a bomber pilot, making nightly air raids over Europe, could I drop bombs on German cities? Could I drop bombs, possibly on domestic houses, not knowing what I was doing, whom I was killing? My thoughts no doubt were illogical. German bombers had already caused terrible destruction and death in London. The pilotless buzz bombs were still operating. But it seemed that if I flew single engines at least I would have a better idea of whom and what I was shooting at. This time I was lucky. The posting was to Number 7 Senior Flying Training School at Deniliquin, to fly Wirraways.
+
+The Wirraway was Australian-made, a development of the United States Harvard. It had a 650-horsepower Wasp engine and a cruising speed of 225 kilometres per hour. Absurdly in 1991 it was our front-line aircraft, and a squadron of Australian pilots had the suicidal task of defending Rabaul with Wirraways, against the Japanese Zeros. However, it was good for training. It handled splendidly in aerobatics, its only failing a tendency to ground loop in a cross-wind on landing.
+
+We had several more accidents. Two Wirraways collided during formation flying, one coming down on the top of the other. The pilot in the lower aircraft was decapitated by the propeller of the other. Another accident was the result of a cross-country flying exercise at night.
+
+There were all sorts of cross-country trips. Some were conducted at low level, the entire route being flown at less than 150 metres. This made navigation difficult. The smart thing for the pilot to do was to find out where he was by reading the signs on railway stations. Some stations, however, removed their signs to confuse any invading Japanese. Their hypothetical confusion was nothing compared with the confusion experienced by train travellers and lost Australian pilots.
+
+Low-level flying was tricky, but much more difficult was the night cross-country. At the time it seemed madness. The Wirraways provided only one form of navigation, a compass aided by map reading. There were no radio aids. Our course was a triangular affair, done solo: Deniliquin to Moulamein, Moulamein to Jerilderie and Jerilderie back to Deniliquin. It was a time of black-out, but by agreement a light was left on in both Moulamein and Jerilderie. Then, of course, the runway lights were left on back in Deniliquin. What happened when clouds came down or you missed a single light, nobody explained. Presumably you just kept on flying into the arid northern wastes, back of Bourke.
+Mercifully, on my night cross-country flight, I found those two lonely lights and returned safely, but one pilot lost his way. Or did he go to sleep? A week later a sheep farmer found the crashed Wirraway, called the RAAF and asked to have it removed from his paddock. At Deniliquin headquarters they had a board with photographs of every trainee pilot. If a trainee was scrubbed off course, a big X was put over his photograph. if a trainee died in an accident, his photograph was marked with a cross. Now we had three crosses on our SFTS course.
+
+I graduated in November, just eight months after I started. The thrill of having wings pinned on my left breast was something better than a baronetcy, Order of Merit or anything else the King could bestow. My wings had to be sewn on my tunics and on all the summer rig shirts. What a pity they could not also be worn on pyjamas. For a week there was a tendency to walk with the left breast slightly in front of the right. On graduation night there was a party, with furniture being broken and elated, super-excited pilots fighting it out with hoses on the parade ground. It was all a failure for me. Alcohol instead of inducing courage and euphoria had the opposite effect on me. While this mayhem was taking place I was curled up in the corner of my hut, asleep. Our commanding officer, the group captain, reacted precisely like Dr Darling after a boat race. We were all a disgrace to the RAAF and our leave was cancelled for twenty-four hours.
+
+My pleasure at graduating did not subside easily. I needed the family car to celebrate properly, but up to then I had not acquired a driving licence. My father asked a Herald and Weekly Times driver, Bill Dixey, to take me to the Motor Registration Branch for a driving test. A large policeman told me to drive round the city. That was reasonable enough. Next he put me through a routine of hill starts and complex backing manoeuvres. I was hopeless. My backing finished metres from the kerb. The policeman scratched his head.
+
+'Dunno. I don't think you're good enough.'<br>
+'You know, he's a pilot', Bill Dixey said. 'He already has a flying licence.'<br>
+'You don't say?', replied the cop. 'Can he do the loop-the-loop?'<br>
+'Easy', said Bill. 'Slow rolls, any aerobatics you like.'<br>
+The cop was impressed.
+
+'Crikey. if he can fly a plane he must be able to drive a car. I had better give him his licence.'
+1 was posted to Army Co-operation and became Pilot Officer Dunstan. The percentage of officer pilots to sergeant pilots was maybe one in three. I had no merit over any of the other pilots, probably less, but being posted to Army Co-operation meant automatic officer rank. This was an RAAF ploy, in the face of having to deal with the Army. The RAAF felt its representatives should have the advantage of the King's commission. A very odd, pink-cheeked officer I was, too. My training had been shortened by a month, I had jumped from 38 course to 37, so for a brief period I was the youngest, rawest, most inexperienced officer in the RAAF, aged only 18 years 8 months.
+
+No Army Co-operation course was available, so to fill in time I received a posting to a wireless air gunnery school at Maryborough, Queensland. My job there was to fly trainee WAGs in Wackett Trainers. The Wackett Trainer was another product from Wing Commander Wackett. It was like a poor person's Wirraway: similar in shape but hideously underpowered and with a most unreliable United States engine.
+
+My ambitions were great, but my flying skills singularly unremarkable. The Wackett Trainer was so heavy and so lacking in power that we were warned never, repeat never, to attempt to go round again just before landing. I had been at Maryborough only a week when, only 70 metres from the ground and just about to touch down, I found another aeroplane fully occupying the strip. I had no choice, I had to do the dreaded impossible. So I pushed the throttle right forward and limped on, trying to go round again. I had full flap and, had I raised the flaps, in one move the Wackett would have dropped out of the sky. Wackett Trainers had a fixed undercarriage, so I could gain no advantage by pulling up the wheels. I inched up a small flap, but we sank a little. Inched up a little more, but we sank further. In, out and round the trees, close to church steeples, just over telegraph wires, I brought up those flaps millimetre by millimetre until I was eventually able to climb safely away. Never was I closer to death in the Air Force and never was I more terrified. I landed safely on the strip and had difficulty in standing I was so frightened. In the process I had forgotten all about my sprog WAG in the rear seat. He came up and took me by the arm.
+
+'Gee thanks, Sir. That was marvellous. I have never been in a beat-up like that before', he said, beaming.
+I did not explain how close he had been to death.
+
+WAGs were not the only inmates of Maryborough. There was a group of pilots who were waiting for re-posting to other duties. They were sergeants, flight sergeants and warrant officers who had performed with a Vultee Vengeance squadron in New Guinea and the Indonesian islands. The Vultees were dive bombers, huge single-engined aircraft with ugly, cranked wings. Pilots who flew them peeled off like a string of sausages and went down in a vertical dive to attack the enemy. Those who flew them were heroes, indeed. They deserved kind treatment. The Air Force owned a holiday house at Pialba, which was the lovely tropical seaside resort just a few kilometres down the road. One day the commanding officer called me in and said the visiting pilots, plus some Women's Auxiliary Australian Air Force personnel, were going to the house for the weekend. I would be in command.
+
+'Dunstan', he said, `I don't want the place wrecked. I expect you to maintain good order and discipline'.
+
+I was almost as frightened as I had been in the powerless Wackett. How was I going to handle these sergeant pilots? Some were even senior sergeants. Some were nearly 30, for heaven's sake. They were experienced, veterans of real war. How could I, 18 years 8 months, order them around?
+
+The house at Pialba was one of those rambling Queensland houses, raised on stilts. It had a splendid verandah all around. I immediately established good order and discipline. Males would sleep in bedrooms at one end, females at the other. Lights would go out at 10.30 p.m., reveille would be at 7 a.m.
+
+The party was in full cry by 6 p.m. The Vultee boys not only had beer but case after case of Bundaberg rum. By 11 o'clock lights were off, okay, but everyone had paired off - WAAAFs and male sergeants all bedded in together. Not only could I imagine what they were doing, I could hear the squeals of delight and all the other accompanying noises of sexual union.
+What could I do? I had no WAAAF. Could I go in there and scream 'Stop it! This is immoral. All get back to your own beds!'? I sat, lonely and miserable, on the verandah and didn't go to bed. Actually there was no longer a bed available for me. I looked out on the still, moonlit waters of the Pacific and had the most wretched night of my life.
+'You've failed. You're not an officer at all. There's no discipline in there. They're all sleeping together. Unmarried. Those WAAAFs will get pregnant, have babies, and it will be your fault. When the CO finds out, you'll get court-martialled. Dunstan, the incompetent officer who ran the RAAF bawdy house.'
+
+There was one other young officer at Maryborough, although not quite as young as I was. He was 21 years old. In this sex-charged atmosphere at Pialba he suggested the only way to beat the thing was to join it. We went to a dance down at the local hall. There was dancing both inside and outside. The dancing outside was bare foot, almost on the sand, to lots of 'In the Mood', 'Deep Purple' and 'Moonlight Becomes You'. It was not long before we had moved from bare-foot dancing to the beach.
+
+After forty-five minutes of remarkable cuddling it was singularly clear that my colleague was doing all those things skilfully perpetrated by the sergeant pilots. My WAAAF had shirt off, bra off, and bliss seemed at hand. Her name was Wendy. She was a brunette, with a turned-up nose, and very slim. She told me her brother was in the RAAF and flying with a bomber squadron in England. Suddenly I thought, 'What do I do now?'. Women always become pregnant when they get into bed with men. The two sexy books by Messrs Cronin and Roberts that I had managed to read under cover in the school library had made this perfectly clear. It took precisely one night, one copulation, to get a woman pregnant. There I was about to do this to a fellow officer's sister while he was fighting for his country in England. Enough! I suggested it was time to return to the camp.
+
+Wendy had been very nice, very friendly, indeed. The following afternoon I suggested we go to a movie. There was a good show on with Greer Carson and Walter Pigeon. She did not answer. She just looked at some distant object over my left shoulder. That night she was with Jack Humphrey, one of the more aggressive Vultee pilots.
+Despite my forebodings the Pialba weekend was without repercussions. No one cried 'Rape!', no one had an unwanted pregnancy and no questions were ever asked. Dunstan had escaped court martial for the time being.
+
+Flying at Maryborough continued to be alarming. The Warner Scarab engines in the Wacketts had a habit of losing power. I had two forced landings in twenty hours, one on the beach not far from our love-nest. The other was directly on the airport at Maryborough; my engine expired at 1000 metres - fortunately over Maryborough - and I was able to glide down to the airstrip.
+
+At last my posting came to Army Co-operation headquarters at Canberra. There I did a course on how to co-operate with the Army and did exercises in spotting for the artillery. We flew Wirraways and yet another of Wing Commander Wackett's creations, the Boomerang. The Boomerang was Australia's single seater fighter. It cruised at about 180 knots. Theoretically it had a top speed over 480 kilometres per hour. Maybe it did if it was put into a vertical dive. It was light, manoeuvrable and had a good rate of climb, but it was no contest for almost any front line enemy fighter, so the RAAF used it for Army Co-operation.
+
+At the end of the course there was no position for Dunstan in any Army Co-operation squadron. At just 19 years he was considered too young for overseas service, so there was yet another posting, this time to a wireless air gunnery school at Sale. The job was to fly Fairey Battles and tow drogues. The Fairey Battle, like the Spitfire, had a Rolls-Royce Merlin engine, but there the similarity ended. At the beginning of the Second World War the RAF used Fairey Battles as light bombers on extremely hazardous raids over Europe, but even then they were obsolete. They flew like a truck, a large reliable truck, and were long, commodious and single engined. At Sale we used them to tow drogues, a type of wind-sock. The drogues were dragged behind on a long cable. Air gunners in Avro Ansons had gunnery practice shooting at the drogues. We flew over Bass Strait for periods of up to three hours, flying A to B, B back to A, then A to B again. It was very monotonous flying. There was a song well known in the operations hut. It went like this:
+
+I Coined the Air Force keen to be,<br>
+A fighter pilot, DFC.<br>
+Do you want to know what happened to me?<br>
+I finished towing drogues from A to B.
+
+As time passed it was obvious to us all that the RAAF had far too many trained pilots. The Empire Air Training Scheme was continuing to produce pilots by the thousand, but insufficient squadrons were available to accommodate them. At Sale there was a mess full of pilots, more than twice the number needed to operate the Fairey Battles and Avro Ansons. Pilots had to manoeuvre, connive and plead just to get their hands on an aeroplane.
+
+There was a little Ryan at Sale, a United States aircraft kept for the pleasure of the CO. How it got there, I don't know. It was designed in the 1930s, ahead of its time. It was a low-winged two-seater, very clean, almost like a junior Spitfire. it took weeks and weeks of nagging to get permission to fly the Ryan. The CO put me in the book to take it up at 1 p.m. on a certain day. A colleague had it for 12 noon. He flew all over the sky doing aerobatics. The Ryan had supporting spars that braced the wings from the top of the fuselage. After he pulled out of a dive, a bolt that held one of the wings sheared off. The wing folded upwards and hit him on the head, knocking him out. He never had a chance to use his parachute. He went down with the Ryan and was killed. So I did not fly at 1 p.m.
+
+There were many days with little to do. I filled in my time playing music. 1 had a small electric turntable with pick-up, which plugged into an AWA mantel-radio set, plus my large collection of Beethoven, Mozart, Tchaikovsky and Rachmaninov. By this time my devotion to Russian composers ran deep. Tchaikovsky`s Sixth Symphony, with all its moody crying and warlike declamations, suited my gloom. Steel- and diamond-tipped needles were disastrous for acetate records. Fibre needles, which came with a special fibre sharpener, had to be used. I went one better. I used cactus needles that I plucked from cactus in the rock garden at Wallace Avenue. I sharpened the needles on emery boards purloined from Mum. Cactus needles did not stay sharp for longer than a side and a half, so Tchaikovsky and the agony of the retreat from Moscow, or whatever was taking place, would become dimmer and dimmer, scratchier and scratchier. Therefore, while listening, it was important to keep sharpening needles for the next side. It kept one occupied.
+
+The RAAF came up with a new idea to resolve the problem of surplus pilots: a special course at Deniliquin where all spare pilots could be sorted out and only the best, the most skilled, picked for squadrons in the Pacific. It was known as the 'scrubbo' course, the course designed specifically to get rid of excess labour.
+
+Ahead I saw doom. The dreaded posting to the scrubbo course duly arrived. Flights at Sale had become even harder to get and I had not flown for a month. I felt like a cricketer chosen to play a Test without having bowled all season. Once again my father came to the rescue. He spoke to his friends at the Naval and Military Club and arranged for some special instruction at Point Cook. A somewhat bewildered flying instructor gave me several hours, flying circuits and landing in a Win-away, until he considered all wrinkles gained from flying heavy Fairey Battles had been removed.
+
+So I went to Deniliquin. There were nigh on 130 pilots waiting for execution. The day for my big test came. I waited on the tarmac. One pilot would get out of a Wirraway and another get in. When it was my turn, the instructor told me to take off, fly a circuit and do some aerobatics. I was pleased, all seemed to be going perfectly. The instructor told me to land. It seemed to me that our circuit was a little high and our approach steep, but the landing was mercifully smooth, with no dreaded crunching of the under-carriage. Then a sour voice came over the intercom.
+
+'Flying Officer, will you please check your altimeter.'
+
+He wanted me to check the barometric pressure on the altimeter. Oh God, it was reading 70 metres too high. It should have been set to zero when I got into the cockpit.
+
+'Did you check it when you got into the aircraft?'<br>
+'I think I forgot that one, Sir.'<br>
+'Shouldn't it be part of your cockpit drill?'<br>
+'Yes, Sir, but I presumed that it had been done by the previous pilot.'<br>
+'Dunstan, you don't presume anything. Aeroplanes are dangerous vehicles. Get out!'
+
+It had all been a carefully planned trick. He had told the previous pilot to give the altimeter knob a quick turn. So I had a false reading, and I did my circuit at 370 metres instead of 300 as ordered.
+
+Of the 130 pilots tested only ten passed and went on to fly Mustangs with squadrons in the Pacific. I was scrubbed, remustered to ground staff. I lost my flying allowance of 6 shillings a day. That was unimportant compared with the humiliation. It was almost like being cashiered in classic fashion from the French Army - slapped in the face, stripped of regimental insignia and marched off the parade ground.
+
+The next move was to Number 1 Personnel Depot, at the Melbourne Cricket Ground. The trip back by train to Melbourne was the longest I could remember. It was barely a year since the previous trip on the same train. Then I had been triumphant, with a glorious flying future ahead. Now I was grounded, wings clipped, the prospect of ever flying again remote. Suddenly the entire world seemed to have come to an end and I could visualise no future.
+
+<hr>
+Continue to chapter six: <a href="{{ '/posts/no-brains-at-all/6_the_stevedore' | url }}">The stevedore</a>
