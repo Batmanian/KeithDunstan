@@ -95,10 +95,12 @@ Dad was chairman of a newsprint pool and he often went away on long trips. One t
 It was not entirely easy for Nell to look after a family of three, so my parents thought they would reduce her workload by boarding Helen at her school, St Catherine's in Toorak. Helen saw this as an injustice while her brothers remained at home. Consequently, every so often she ran away. A good time was on Sunday mornings when the young ladies of St Catherine's were marched off to church at St John's, Toorak. Off they paraded in pairs, the perfect crocodile, while Helen slipped away and ran home. Nell was always terrified when Helen rang the front doorbell. Suspecting the police were already searching for Helen, she would telephone the headmistress. Immediately a car would be dispatched from St Catherine's, driven by a chauffeur in a grey uniform. At the sight of it, Helen would flee up the stairs, into the attic and out onto the balconied look-out, screaming. Bill always had to fetch her down.
 
 Helen had beautiful blonde hair, braided into a thick plait. Every night we used to watch her brushing this glorious, long hair. Brush, brush, brush. Thirty, forty, fifty brushings until it shone. Was she 15 or 16 at the time? In any case, a plait was not modern, not right for 1938, but my father insisted she keep it. One day, while still at boarding-school, she had an excuse to go to the city for a dental appointment. Dad's barber was in Collins Street, close to the Athenaeum. Helen went in and asked the kindly gentleman to cut her plait off.
-'I can't, Helen', he said.
-'You must.'
-`Look, I won't do it. I could never face your father if 1 did.' Helen looked very menacing, indeed.
-'Either you cut it off or I will.'
+
+'I can't, Helen', he said.<br>
+'You must.'<br>
+`Look, I won't do it. I could never face your father if I did.' Helen looked very menacing, indeed.<br>
+'Either you cut it off or I will.'<br>
+
 There was no choice. The barber cut off her magnificent plait, the hair that went almost to her waist. Carefully he put the locks in a parcel and gave it to her. A new era for Helen had begun. She celebrated by crossing the road and purchasing some figs from Mr Jonas, who had the superb fruit shop in Melbourne Mansions. She ate those figs on the way home and forgot about her hair. She left the precious parcel in the tram.
 Aunt Nell looked at the short-haired blonde and screamed. Whatever would she tell Helen's parents? Bill was even more shocked. Tears ran down his cheeks.
 Although in 1932 I had started school at Wadhurst, the preparatory school for Melbourne Grammar, my best education came from comics. It was the English comic that taught me to read. There was the Magnet, the Gem, the Champion, the Triumph, Chums and Boys' Own Paper. I would get them all. The Magnet and the Gem were both written by the astonishing Frank Richards.

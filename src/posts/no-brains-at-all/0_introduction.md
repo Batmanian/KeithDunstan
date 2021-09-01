@@ -16,9 +16,9 @@ Every family should have its own historian, biographer, diarist, someone to keep
 
 I believe lives are being eclipsed more completely than ever before. When I started in journalism obituaries were all-important. The newspaper's library had its 'dead' file, its morgue. Often there were moments late at night when the journalists appeared to be idle. It was then that the Chief of Staff would cast a searching eye around the reporters' room.
 
-'What are you doing, Dunstan? What are you up to, Bennetts? Have you finished your last story, Tucker?'
-'We're not doing anything, Mr Travis.'
-'All right, 1 want obituaries on Mr Chifley, Thomas White and Dr Hurley.'
+'What are you doing, Dunstan? What are you up to, Bennetts? Have you finished your last story, Tucker?'<br>
+'We're not doing anything, Mr Travis.'<br>
+'All right, I want obituaries on Mr Chifley, Thomas White and Dr Hurley.'
 
 All three gentlemen were alive and apparently healthy, but it was the custom always to have obituaries of leading figures ready and waiting. That does not happen any more. These days eminent politicians would still get an obituary, but not middle-of-the-road successful citizens. Obituaries have gone out of fashion, and the majority of us live and die without our stories appearing in the newspapers. The best hope of having an obituary published is to have been a Test cricketer or to have played Australian Rules football.
 

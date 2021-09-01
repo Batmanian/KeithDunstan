@@ -1,6 +1,6 @@
 {% for tag in collections.tagList %}
-  {% set tagUrl %}/keywords/{{ tag.tagName | slug }}/{% endset %}
-  <a href="{{ '/keywords/' | url }}{{ tag.tagName | slug }}" class="btn btn-outline-dark btn-sm me-2">{{ tag.tagName }}
+  {% set tagUrl %}/keyword/{{ tag.tagName | slug }}/{% endset %}
+  <a href="{{ '/keyword/' | url }}{{ tag.tagName | slug }}" class="mb-2 btn btn-outline-dark btn-sm me-2">{{ tag.tagName }}
     <span class="ms-1 badge bg-dark">
     {{ tag.tagCount }}
     </span>
