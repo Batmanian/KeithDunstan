@@ -13,12 +13,12 @@ pagination:
 layout: layouts/default.njk
 eleventyComputed:
   title: Content with keywords “{{ tag }}”
-permalink: /keywords/{{ tag | slug }}/
+permalink: /keyword/{{ tag | slug }}/
 ---
 
 
 {% block content %}
   {% set posts = collections[tag] %}
   {% include 'snippets/postloop.njk' %}
-  <p>See <a href="{{ '/keywords/' | url }}">all tags</a>.</p>
+  <p>See <a href="{{ '/keyword/' | url }}">all tags</a>.</p>
 {% endblock %}
