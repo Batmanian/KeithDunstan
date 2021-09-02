@@ -5,7 +5,7 @@ title: About this site
 ---
 
 <hr/><p class="lead">This site is being developed as repository for Keith's writing.</p>
-<p>For copyright requests, suggestions, edits or contributions, please email <a href="mailto:keith@dunsta.net">the administrator</a>
+<p>For copyright requests, suggestions, edits or contributions, <a href="mailto:keith@dunsta.net"> please email us</a>
 
 <h3>Statistics on this site, past 12 months</h3>
 <p><small>This site was launched in September 2021</p> 
