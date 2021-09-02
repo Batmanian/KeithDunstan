@@ -1,7 +1,7 @@
 ---
 title: Byline Dreamer
 date: 1990-11-11
-summary: In this seventh chapter of the first book of memoirs, 'No Brains At All" Keith's early career as a junior writer for the Murdoch newspaper
+summary: In this seventh chapter of the first book of memoirs, 'No Brains At All' Keith's recalls his early career as a junior writer for the Herald and Weekly Times newspapers.
 tags:
   - Archer Thomas
   - Australian Railways Union

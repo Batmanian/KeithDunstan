@@ -1,7 +1,7 @@
 ---
-title: Chapter nine Walking the tightrope
+title: Walking the tightrope
 date: 1990-11-11
-summary: In this ninth chapter of the first book of memoirs, 'No Brains At All" Keith reflects talks of the significance of the Death fo Sir Keith Murdoch leading and his career as a columnist leading to his own father's death, Willima Dunstan V.C.
+summary: In this ninth chapter of the first book of memoirs, 'No Brains At All, Keith reflects talks of the significance of the death of Sir Keith Murdoch leading and his career as a columnist leading to his own father's death, William Dunstan V.C.
 tags:
   - Adelaide News
   - Anglicanism
