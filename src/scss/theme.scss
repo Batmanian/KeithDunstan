@@ -1,7 +1,27 @@
 @import "themes/base/variables-theme"; //Thats your main variable file to set up all the basic design stuff like contrast or accent color, global paddings, font families and more
-
 @import "assets/bootstrap/bootstrap"; // Bootstrap default styles
-
 @import "themes/base/style-theme"; //Thats your main variable file to set up all the basic design stuff like contrast or accent color, global paddings, font families and more
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
+
+/*
+.navbar-brand {
+    background: url('/img/keith-square.png');
+    background-size: cover;
+    height: 230px;
+    width: 220px;
+    .kd {
+        width: 220px;
+        position: absolute;
+        bottom: 0;
+    }
+}
+*/
+
+
+/* hide tags with one tag on partial taglist teamplate */
+
+.partial-list {
+    .tagcount-1 {
+        display: none;
+    }
+}

@@ -1,13 +1,18 @@
 ---
 title: Jumping the generation gap
 date: 1990-11-11
-summary: In this twelfth chapter of the first book of memoirs, 'No Brains At All". This chapter remembers his children David, Jane, Kate and Sarah and the influence of the Vietnam war in the 1970's 
+summary: In this twelfth chapter of the first book of memoirs, 'No Brains At All'. This chapter remembers his children David, Jane, Kate and Sarah and the influence of the Vietnam war in the 1970's 
 tags:
   - Bob Dalziel
+  - Caulfield Grammar
+  - Dr Bob Birrell
+  - Dr. Bertram Wainer
   - Dr. Jim Cairns
   - East Malvern
   - George's
   - Henry Bolte
+  - John Landy
+  - Korowa Girls School
   - Marie Rose
   - Monash University
   - Phillip Adams
@@ -23,7 +28,7 @@ Yes, our suburb was quiet and well-behaved; the Anglican Church team played cric
 
 Metropolitan Golf Course before land prices became too high and the club moved to Oakleigh. Our house was part of the glorious housing scheme, the grand subdivision of 1912, and we often wondered precisely where we were in the historic order of things. Was our house on the fourteenth green or was the fourth tee on our back lawn, close by our vegetable garden? The result of the great subdivision was pure Edwardiana. The houses in Central Park Road were variations on the one architectural theme: red-tile roof, red brick and stucco walls, with wooden additions at the back for kitchen and outhouses. They were built flat on the earth, with an eternal problem of rising damp.
 
-At the end of Central Park Road, bounded by Wattletree Road, Burke Road and Kingston Street, was the lovely Central Park. John Landy, the ww ld champion mile runner, used to train there. His parents lived opposite the park, in the area the real estate agents thought the better end of Central Park Road. Sometimes when I was jogging on foggy winter mornings he would pass me, perhaps two or three times in one circuit, and say 'Good morning'. One time the police picked him up in Central Park Road. There he was, running down the street in the dark, long after midnight. The wireless patrol thought anyone running along Central Park Road in the dark, wearing a track suit, had to be up to no good. East Malvern was home to us for eighteen years. The three girls went to Korowa Anglican Girls' School, David went to Caulfield Grammar.
+At the end of Central Park Road, bounded by Wattletree Road, Burke Road and Kingston Street, was the lovely Central Park. John Landy, the world champion mile runner, used to train there. His parents lived opposite the park, in the area the real estate agents thought the better end of Central Park Road. Sometimes when I was jogging on foggy winter mornings he would pass me, perhaps two or three times in one circuit, and say 'Good morning'. One time the police picked him up in Central Park Road. There he was, running down the street in the dark, long after midnight. The wireless patrol thought anyone running along Central Park Road in the dark, wearing a track suit, had to be up to no good. East Malvern was home to us for eighteen years. The three girls went to Korowa Anglican Girls' School, David went to Caulfield Grammar.
 
 I always believed that good marriages begot good marriages. My mother and father had an extraordinary relationship. Although Dad was a forceful extrovert of a man, I cannot recall a cross word between them. Their example made a profound impression on Marie and me. If ever we had a tiff, if ever we had a cross word, the crisis was never so grave that I actually missed a meal. For one thing the cooking of Marie Rose was too good, and for another I needed her love. 
 
@@ -40,7 +45,7 @@ Certainly there were tensions during the 1980s, and they were mostly male caused
 
 Marie would have loved to return to nursing. Every time she went near a hospital she had a thrill of excitement. just the smell of antiseptic in the corridors evoked a desire to get back into uniform and start working again. She had no chance to do that until all the children had left home. They came first.
 
-But there was the problem of one income. I worked out that, even though I was on an A grade journalist's salary with a margin, it was necessary to double my salary to keep four children at public schools. This had its complications. Just as the Vatican in Rome possessed its servants, so the Herald and Weekly Times owned its journalists body and soul. The company considered that the honour of working for it should be enough. It was a benevolent organisation that looked after its employees in time of trouble, but it was a mortal sin for any of its journalists to indulge in freelance activities for Pre;s, radio or television unless these were under the company blanket. During the 1960s I did the 'Batman' column for the Bulletin and wrote an advertising column for Georges department store, news commentaries for 3DB radio and a Saturday feature for the Sun, as well as a daily column.
+But there was the problem of one income. I worked out that, even though I was on an A grade journalist's salary with a margin, it was necessary to double my salary to keep four children at public schools. This had its complications. Just as the Vatican in Rome possessed its servants, so the Herald and Weekly Times owned its journalists body and soul. The company considered that the honour of working for it should be enough. It was a benevolent organisation that looked after its employees in time of trouble, but it was a mortal sin for any of its journalists to indulge in freelance activities for Press, radio or television unless these were under the company blanket. During the 1960s I did the 'Batman' column for the Bulletin and wrote an advertising column for Georges department store, news commentaries for 3DB radio and a Saturday feature for the Sun, as well as a daily column.
 
 The 'Batman' column began in 1961. Peter Hastings, Editor of the Bulletin, chose the name in honour of John Batman, one of Melbourne's founders. The column ran for four years before Frank Daly, Editor of the Sun, began to detect curious similarities in style between it and my Sun column. He called me into his office and demanded to know whether I was Batman. I confessed that I was. For quarter of an hour I was poised between resignation and dismissal, but finally Daly agreed to keep my secret as long as the Sun did not miss out on any stories.
 
@@ -77,7 +82,7 @@ Jane went to the local school and it was almost as different from Korowa as it c
 
 Education covered a broad spectrum at this American school, and the liberal arts teacher was particularly gifted. He helped make Jane's year fascinating. She could choose her own subjects within liberal arts; alas, none of them were much help for her future Matriculation exams, although they were splendid right then. She picked such areas as public speaking, poetry and American history. Her fine teacher inspired her to study the wonders of T. S. Eliot, and they made a special study of a famous American musical and how it was put together. 
 
-During the year the liberal arts teacher rnadc the students do a thesis. Jane chose relations between blacks and whites in the United States. This was a matter of some wonder to Sam and Mary. Why would an Australian girl want to research such a difficult subject? Growing up in North Carolina, Sam and Mary had been very close to black repression, and here was Jane studying the activities of the Black Panthers and bringing home books by black radicals. Yet everyone was co-operative, and as a climax Jane spent several days at an all-black school in an industrial suburb of Toledo. 
+During the year the liberal arts teacher made the students do a thesis. Jane chose relations between blacks and whites in the United States. This was a matter of some wonder to Sam and Mary. Why would an Australian girl want to research such a difficult subject? Growing up in North Carolina, Sam and Mary had been very close to black repression, and here was Jane studying the activities of the Black Panthers and bringing home books by black radicals. Yet everyone was co-operative, and as a climax Jane spent several days at an all-black school in an industrial suburb of Toledo. 
 
 'At first I was pretty frightened', Jane recalls. But I think it made a difference being a foreign student and they asked questions about Australia. They didn't even know where Australia was. I remember they had this wonderful school assembly with music and they all clapped hands and sang. It was a real culture shock for me. Then I was billeted with a young black girl and her grandmother. We went out to a party where they played all the glorious black soul music I had never heard before.'
 
@@ -191,11 +196,14 @@ Everything about Dalziel was neat. His features were small and neat, perhaps a t
 'I am in mourning today for the economic policy of the Government:
 Or, when he became tired of that: 'I wear a black tie as a gesture to efficiency. When I get up in the morning what tie I wear is one less decision I have to make'.
 The real reason was he hated any personal display, any kind of publicity. He wanted to be a back room operator, a manipulator. Flamboyance was not for him. Dalziel did not need a tie to put on a show, the show came from his personality and his sharp mind. He was a member of the Melbourne Club and his favourite game at lunch there was to taunt the other members. He would observe the tenor of the conversation - maybe the members were discussing the latest strike of the waterside workers, the need for banning the Communist Party or the awful R certificate movies depicting males and females copulating - then automatically take the opposite view, until the crusty members were very nearly beating the table with their fists.
+
 Yes, he was unpredictable in everything. He made money, a lot of it. Just after his fortieth birthday, he telephoned me.
-'rve retired.'
-'You're joking.'
-'No, I'm not. I finished at Davies and Dalziel this afternoon.' 'Tell me, Bob. Perhaps I can help. You've done something terrible, haven't you?'
+
+'I've retired.'<br>
+'You're joking.'<br>
+'No, I'm not. I finished at Davies and Dalziel this afternoon.' 'Tell me, Bob. Perhaps I can help. You've done something terrible, haven't you?'<br>
 'No, I haven't. I've just retired. There's no need any more to go on with sharebroking. It's a bore just doing the same thing over and over again. I've got enough money now, so I'm going to do nothing. That requires a very special skill, doing nothing.'
+
 For a time Dalziel really did retire. He considered the mere making of money, once you had enough, a pointless exercise. In 1985 he bought a pearl-shell business in the Solomon Islands. This was very romantic, a throw back to his origins, we felt, a hankering after the seafaring life of his father. It proved to be a good way of losing money and he sold out in 1968.
 Actually Dalziel did a great many things. He was a considerable force behind the scenes in the Liberal Party. Again this was his style, to be an influence without showing his nose. He tortured his fellow Liberals just as he tortured the members of the Melbourne Club.
 
@@ -211,9 +219,12 @@ He liked the idea of a financial reason for staying alive and he managed his ill
 I went to see him at the Austin Hospital almost every second day. Only once did I hear him complain. He cursed that dying was such an undignified business. He did not lose dignity in my eyes. Finally the pain became too much.
 'I want to die', he told me. 'Find someone who will finish me off.'
 I rang doctor after doctor.
+
 'Can't we give him something? Surely there is a drug, an unnoticeable drug that will take him away easily, quietly?'
 The doctors told me it was part of the Hippocratic oath that they heal people. It was not their job to murder.
+
 'This is not murder, this is human relief.'
+
 Only one said he would go to see Dalziel, but he would promise absolutely nothing. Dalziel died a few days later, on 13 February 1978. I don't know whether that doctor did anything. I did not ask him and the subject was never discussed.
 Bob's wife, Elizabeth, endured all this. A flinty character, she was as brave as he. Soon after the funeral she said there was a history in her family of cardiac asthma and she would be dead within a year. Her prediction was precisely correct. They left two sons, Andrew and Matthew. The Daiziels I will always remember as my people of the 1970s.
 

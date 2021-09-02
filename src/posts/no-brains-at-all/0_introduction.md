@@ -1,7 +1,7 @@
 ---
 title: Introduction
 date: 1990-11-11
-summary: The opening for his first book of memiors, 'No Brains At All, 1990".
+summary: The opening for his first book of memiors, 'No Brains At All'.
 tags:
 ---
 

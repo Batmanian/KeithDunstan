@@ -1,7 +1,7 @@
 ---
 title: Siberia
 date: 1990-11-11
-summary: In this third chapter of his first book of memoirs, 'No Brains At All" Keith reflects on growing up in Melbourne in the 1930's and at school. Being a boarder at school he likens to the the hard, cold winters of Russia's extremities.
+summary: In this third chapter of his first book of memoirs, 'No Brains At All', Keith reflects on growing up in Melbourne in the 1930's and at school. Being a boarder at school he likens to the the hard, cold winters of Russia's extremities.
 tags:
   - Australian Broadcasting Commission
   - Boarding school

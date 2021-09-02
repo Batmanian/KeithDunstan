@@ -1,11 +1,13 @@
 ---
 title: Pedalling passion
 date: 1990-11-11
-summary: In this first chapter of the first book of memoirs, 'No Brains At All" Keith reflects on growing up in Melbourne in the 1930's and at school.
+summary: In this first chapter of the first book of memoirs, 'No Brains At All', Keith reflects on growing up in Melbourne in the 1930's and at school.
 tags:
   - Bikecentennial
   - Brian Dixon
+  - China
   - Cycling
+  - Greg Siple
   - Herald and Weekly Times
   - Honolulu
   - Jeff Hook
@@ -15,6 +17,7 @@ tags:
   - Sigmund Jorgensen
   - United States
   - Victorian Bicycle Institute
+  - United States
   - Walhalla
 ---
 
@@ -54,12 +57,13 @@ There was a last-minute message from the most famous cyclist of all, Sir Hubert 
 Already we had been educated in the mysteries of the chamois. Bicycling shorts, like old footy boots, have their shortcomings. One never wears underpants. The shorts must be worn next to the skin. Sewn into the crotch is a leather insert. For a happy crotch this must be kept well greased with Vaseline. Marie and other ladies in the party looked at the unlovely shorts and said, 'Nothing in God's earth will ever get me into a pair of those'. They were all wearing them within three days.
 
 We had a stopover at Honolulu and the full team took time off to sit on the beach at Waikiki. It was then that Marie gained a faint idea of what makes up a true cyclist. The scene out in front was one of the most beautiful on earth. Over yonder was Diamond Head, the sun was shining out of a stainless sky, the sea was even bluer than Elizabeth Taylor's eyes and young women of every shade and hue were stretched out on the sand, wearing very little. The conversation went like this.
-'I don't reckon myself there's anything better than a Campagnolo derailleur.'
-`What do you use with it?'
-'Aw, a 14-32 sprocket. Works pretty well.'
-'I got a Shimano, myself - 14-34.'
-'A ten-speed?'
-'No, a fifteen-speed. I put on a little twenty-eight chain wheel. Well need 'em.'
+
+'I don't reckon myself there's anything better than a Campagnolo derailleur.'<br>
+'What do you use with it?'<br>
+'Aw, a 14-32 sprocket. Works pretty well.'<br>
+'I got a Shimano, myself - 14-34.'<br>
+'A ten-speed?'<br>
+'No, a fifteen-speed. I put on a little twenty-eight chain wheel. Well need 'em.'<br>
 Nothing really diverts true bicycle nuts. They didn't even notice Waikiki.
 
 We started from Reedsport in Oregon on 18 May. We went in groups of twelve or thirteen. In our group there were nine Americans, a 20-year-old Englishman, on leave from Cambridge, and four Australians, including Marie, myself and Jeff Hook. The fourth was Fred Smith, a 50-year-old plasterer from Alexandra in Victoria and an ex-professional cyclist.

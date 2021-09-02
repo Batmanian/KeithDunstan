@@ -1,18 +1,21 @@
 ---
 title: Correspondent
 date: 1990-11-11
-summary: The eighth chapter of the first book of memoirs, 'No Brains At All"
+summary: The eighth chapter of the first book of memoirs, 'No Brains At All',
 tags:
   - Australian Journalists' Association
+  - Colin Bednall
   - Honolulu
-  - Los Angeles
-  - United States
-  - New York
-  - Sir Keith Murdoch
+  - Imogene Coca
   - London
+  - Los Angeles
+  - New York
+  - Randal Heymanson
+  - Sid Caesar 
+  - Sir Keith Murdoch
+  - Theodore F. Racoosin
+  - United States
 ---
-
-
 
 Of course, as a honeymoon, it was beyond most people's dreams: a flight across the Pacific in a Boeing Stratocruiser. This was a large, four-engine, propeller-driven aircraft. Journalists by order of the Australian Journalists' Association had to travel first class. The Stratocruisers actually had beds - very narrow ones, but beds nevertheless, with curtains like railway Pullmans. So we slept together at an altitude of 4500 to 6000 metres, across the Pacific.
 
@@ -52,7 +55,7 @@ Another time Sir Keith Murdoch was visiting and he announced: 'Justine I have ab
 'Oh, will you?', she said.
 That's precisely what I did. It was like old times, taking Sir Keith's letters, but he didn't know I was there.
 
-When I arrived Heymanson and Noble were like Stalin and President Truman. Actual hostilities had not been declared but there was an ugly case of cold war. They did not speak to each other. This was not easy in a small office, but they managed. Heymanson did a day shift, Noble a night shift, starting at 5 p.m. Noble in the evenings watched all the wire services and the early editions of the morning newspapers and provided what was called the Melbourne Herald Cable Service. Heymanson looked after events during the day and made sure he was gone by 4.30 p.m. It was all right to exchange notes, but not to speak to each other. I wondered why there was not an explosion, given the tension. Why wasn't either Heymanson or Noble removed? The answer was they were both indispensable. Hey manson was more than a journalist. He ran the Australian American Association, and he had contacts in New York and Washington. He could arrange meetings with important people for Murdoch and others. Noble, on the other hand, was a ceaseless fountain of usable copy. So the situation continued.
+When I arrived Heymanson and Noble were like Stalin and President Truman. Actual hostilities had not been declared but there was an ugly case of cold war. They did not speak to each other. This was not easy in a small office, but they managed. Heymanson did a day shift, Noble a night shift, starting at 5 p.m. Noble in the evenings watched all the wire services and the early editions of the morning newspapers and provided what was called the Melbourne Herald Cable Service. Heymanson looked after events during the day and made sure he was gone by 4.30 p.m. It was all right to exchange notes, but not to speak to each other. I wondered why there was not an explosion, given the tension. Why wasn't either Heymanson or Noble removed? The answer was they were both indispensable. Heymanson was more than a journalist. He ran the Australian American Association, and he had contacts in New York and Washington. He could arrange meetings with important people for Murdoch and others. Noble, on the other hand, was a ceaseless fountain of usable copy. So the situation continued.
 
 This sort of atmosphere was not unusual for an overseas office. Fifteen thousand kilometres from home it is very easy to develop a persecution complex, a sense of not being wanted. Many a story that seems brilliant, vital, even of world importance, in New York, Paris or London, fades terribly when it lands on a desk in Melbourne, Sydney or Brisbane. How can it compare with four dead in a crash on the Hume Highway or the star full-forward who has just been suspended at the Monday night tribunal?
 
@@ -62,7 +65,7 @@ Yet there were other opportunities, such as being the first to see the stage pro
 
 The Australian Press were all housed on the one floor of the New York Times building in West 43rd Street by Times Square. There were journalists of outstanding brilliance. Cavan Souter was there for the Sydney Morning Herald, John Yeomans for Sydney's Sun, and Sydney's Daily Telegraph had Peter Hastings, the journalist with the best brain I ever encountered.
 
-Hastings had, and still has, a remarkable memory, a gift for foreign affairs and a marvellous, eclectic knowledge of literature. Our offices were next door to each other, and we put in lonely Sunday night vigils together. The Herald and Weekly Times owned a black and white television set, to us a rare and wonderful thing. Television did not come to Australia until 1956. Hastings and I would eat our evening sandwiches together, watching Sid Caesar and lmogen Coca on television and drinking a bottle of wine. Wine was a commodity that raised little interest in New York, and the only wines we could get were Chilean and South African rieslings for a dollar a bottle.
+Hastings had, and still has, a remarkable memory, a gift for foreign affairs and a marvellous, eclectic knowledge of literature. Our offices were next door to each other, and we put in lonely Sunday night vigils together. The Herald and Weekly Times owned a black and white television set, to us a rare and wonderful thing. Television did not come to Australia until 1956. Hastings and I would eat our evening sandwiches together, watching Sid Caesar and Imogene Coca on television and drinking a bottle of wine. Wine was a commodity that raised little interest in New York, and the only wines we could get were Chilean and South African rieslings for a dollar a bottle.
 
 I had spent years trying to major in English literature at Melbourne University, but Hastings was shocked at my lack of knowledge. Had I read Thomas Mann? - The Magic Mountain, Buddenbrooks? No. Had I read D. H. Lawrence? - The Rainbow, Kangaroo? No. Had I read George Orwell? - Down and Out in Paris and London? No. How about James Joyce? Ulysses, of course, was on the banned list in Australia. In 1941 the Minister for Customs, Mr Harrison, had proclaimed: 'This book holds up to ridicule the Creator and the Church. It ridicules the whole moral standard of civilisation, citizenship and decency'. Some reporters pointed out to him that many critics thought Ulysses was the outstanding novel of the twentieth century. Mr Harrison admitted he had heard such comments, but he challenged newspapers to print a few selected extracts if they did not agree the book was obscene. None did.
 
@@ -126,7 +129,7 @@ Ship travel had such beautiful, charming rituals. Cabin trunks went down to the 
 
 Marie had to make sure she had sufficient evening dresses because passengers dressed for dinner every night, except Sunday. Fancy dress was on the third day out. It took our ship seven days to cross the Atlantic - a blissful experience - and with a young baby we were the centre of attention.
 
-London was a city that had not yet recovered from war. There was still food and petrol rationing, and accommodation of all kinds was desperately short. We went way out of the city to stay in a country inn at Ockley. On the first day I walked across the fields to the railway station to catch a train to London. I stepped into the train - and went off in the wrong direction. I was so used to the United States I expected the train to come up on the right-hand track. I did not get to London until noon and hence made a brilliant inipression on my new chief, Trevor Smith.
+London was a city that had not yet recovered from war. There was still food and petrol rationing, and accommodation of all kinds was desperately short. We went way out of the city to stay in a country inn at Ockley. On the first day I walked across the fields to the railway station to catch a train to London. I stepped into the train - and went off in the wrong direction. I was so used to the United States I expected the train to come up on the right-hand track. I did not get to London until noon and hence made a brilliant impression on my new chief, Trevor Smith.
 
 After much difficulty we managed to rent a house in the depths of suburbia, at Wallington in Surrey. It was large, two storied and the coldest house we can ever remember. It had eleven different heating devices, ranging from coal and gas through to electric bar-heaters, none of which were effective. Mr Schmutzer, the owner, had filled his house with rare, ornate and quite hideous Austrian furniture. He was terrified it would come to harm in the hands of these strange Australians.
 

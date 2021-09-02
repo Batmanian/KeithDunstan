@@ -7877,3 +7877,20 @@ body {
 .py-vh-6 {
   padding-top: 14vh;
   padding-bottom: 14vh; }
+
+/*
+.navbar-brand {
+    background: url('/img/keith-square.png');
+    background-size: cover;
+    height: 230px;
+    width: 220px;
+    .kd {
+        width: 220px;
+        position: absolute;
+        bottom: 0;
+    }
+}
+*/
+/* hide tags with one tag on partial taglist teamplate */
+.partial-list .tagcount-1 {
+  display: none; }

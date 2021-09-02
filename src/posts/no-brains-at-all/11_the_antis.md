@@ -1,13 +1,23 @@
 ---
 title: The Antis
 date: 1990-11-11
-summary: In this first chapter of his first book of memoirs, 'No Brains At All' Keith reflects on growing up in Melbourne in the 1930's and at school.
+summary: In this first chapter of his first book of memoirs, 'No Brains At All', Keith reflects on growing up in Melbourne in the 1930's and at school.
 tags:
   - Anti-Football League
+  - Australian Rules Football
+  - Barry Humphries
+  - Brownlow Medal
+  - Bruce Matear
+  - Fred Goding
+  - Jack Dyer
+  - Kate Bailleu
+  - Lou Richards
+  - Sir Kenneth Luke 
   - Sport
   - Australian Rules Football
   - Douglas Wilkie
   - Sun News-Pictorial
+  - Walter O'Donoghue
 ---
 
 The great difficulty with the Anti Football League was getting people to believe that we were serious. The wife of a United States ambassador, Mrs Ed Clark, had the best line about Australia. She had the feeling she was living in a gymnasium, she said. Australians rarely seem to be beyond the sound of a bouncing ball. Almost since the first white settlement we have been obsessed with sport. As the nineteenth-century immigrants moved inland the first items they built in any town were the pub, the racetrack, the school and the church, often in that order.
@@ -40,7 +50,7 @@ Berry Street was famous: it looked after the homeless, the foundling children.
 All was now set. The idea was to launch the Anti Football League as the lead story in the Sun's weekend magazine on Saturday, 17 June. On the Thursday Wally telephoned. He was very apologetic. His directors did not approve. An anti-football league would be very bad for Myer's image. The company also had a policy about fund raising. It just could not get involved in fund raising like this. It had not worked for charity before and it could not do it now.
 
 This was disaster. The page was all made up ready to run in Saturday's Sun and it was too late to turn back. I now had to pay K. G. Luke's bill for the badges, 500 dollars'-worth. Five hundred dollars in 1987 on a journalist's salary seemed a great deal of money.
-On Monday morning I went to the office and waited for the reaction. There was none. There was not a single letter and by lunch-time still nothing. I sat in misery. 'I should have known. Who would want to be anti-football in Melbourne? I have just lost 500 dollars.' At 1 p.m. there was a call from the post office: 'We didn't bring round your mail this morning because there'c too much of it. How would you like it? We've got it all here in sacks'.
+On Monday morning I went to the office and waited for the reaction. There was none. There was not a single letter and by lunch-time still nothing. I sat in misery. 'I should have known. Who would want to be anti-football in Melbourne? I have just lost 500 dollars.' At 1 p.m. there was a call from the post office: 'We didn't bring round your mail this morning because s too much of it. How would you like it? We've got it all here in sacks'.
 
 Every badge was gone by mid-afternoon and a desperate plea went to Mr Phillips for a new, quadrupled order. I hesitate to say the mail was entirely favourable. One writer said, 'If you don't like football why don't you do the decent thing, get out, go and live in Sydney, or even better Nome, Alaska'. Another wrote, 'Come to the Phoenix Hotel at 5 p.m. and give you a knuckle sandwich'. A third said: 'This is typical of the cheap, nasty things you do. I never liked anything you wrote, never liked anything you said. What's more I can't stand your dull, flat, weak, smug, characterless face on television'. A surprising number said Wilkie and I were either communists or homosexuals. 'You got to be a commo or a poofter', one person wrote. 'It's the only way I can explain someone doing a thing like this in Melbourne.'
 Yet other letters showed a huge sense of relief. For example:
@@ -68,7 +78,7 @@ I had hoped that the winner would be plain to the point of ugly. She turned out 
 The game is a national disease and children are brainwashed to it as soon as they can walk. If you don't like football in Melbourne they think you're some creature from Mars. My dentist is in Harrison House and the trees outside are an example of this hysteria. After tribunal nights there are streamers everywhere and limbs broken off the trees outside where fanatics have been climbing.
 Pixie, or Peggy as we called her, was a loyal supporter of the AFL for the next decade.
 
-Berry Street had a fund raiser, a master organiser, Frcd Coding. Fred was a slim, slight little man, who appeared to be devotedly anti-football. I found out only years later that he had been first rover for Richmond in its years of greatness when it won all its premierships. Fred was keen to earn money on a large scale so we organised a series of raffles.
+Berry Street had a fund raiser, a master organiser, Fred Coding. Fred was a slim, slight little man, who appeared to be devotedly anti-football. I found out only years later that he had been first rover for Richmond in its years of greatness when it won all its premierships. Fred was keen to earn money on a large scale so we organised a series of raffles.
 
 The AFL needed a focus, a rallying point. We instituted an Anti Football Day, which always took place on the eve of the Grand Final. The first time, we went to Ian Johnson, who was secretary of the Melbourne Cricket Club, and asked him for the ground-plan of the Melbourne Cricket Ground. Ian, who was less than devoted to football, said: "I will give you the plan, but you won't broadcast the fact, will you? If you do, I'll be ruined'.
 
@@ -98,7 +108,7 @@ We placed the football on a little stove and lit it, but there was no result. We
 'I told you so', Ian Johnson said. 'There are things you can do and can't do on the MCC. There is something special about the atmosphere of this place. The football will never burn. It won't be allowed.'
 I must admit I started to feel guilty. It was a bit like taking one's pants off in St Paul's Cathedral. But suddenly the football began to burn. There was a marvellous column of black smoke and the sinister smell of burning leather. The Navy people relented. A sailor with a bugle came across and played 'The Last Post'. It was a most moving experience.
 In 1974 first prize for our great non-football match was a Qantas trip for two to Bangkok. Colour television was the novelty of the moment so our second prize was a Sanyo colour television set. The Wilkie winner was Leon Hill, general manager of CTV9. Channel Nine was the first television station to have the courage to give up football match replays on Saturday nights.
-We decided this time to bury a football at sea, and we felt it should be done properly with a tasteful old-time service. We hired all our gear from Formal Wear and our team, which included Fred Coding, looked fine, indeed, in top hats bound with black crepe. We called almost every funeral director in Melbourne but not one would supply us with a hearse. Ultimately we were saved by a young gentleman, Ian Vinnicombe. He was a part•time taxi driver and, curiously, a member of the Collingwood Cheer Squad. Hearses, he said, had become most fashionable. He announced that he had a superb 1940 Dodge hearse that tipped the scale at just over 2 tonnes. He had bought it just ten months ago for 150 dollars from a funeral director in New South Wales.
+We decided this time to bury a football at sea, and we felt it should be done properly with a tasteful old-time service. We hired all our gear from Formal Wear and our team, which included Fred Coding, looked fine, indeed, in top hats bound with black crepe. We called almost every funeral director in Melbourne but not one would supply us with a hearse. Ultimately we were saved by a young gentleman, Ian Vinnicombe. He was a part-time taxi driver and, curiously, a member of the Collingwood Cheer Squad. Hearses, he said, had become most fashionable. He announced that he had a superb 1940 Dodge hearse that tipped the scale at just over 2 tonnes. He had bought it just ten months ago for 150 dollars from a funeral director in New South Wales.
 We drove the hearse to Williamstown at a respectful 30 kilometres an hour. The idea was to hire a boat from Parson's Marina and have our burial at sea. Clearly the gods were against us. There was a true Melburnian storm, with 100-kilometre winds blowing straight from the Antarctic, and the wharf had all the atmosphere of a scene from Hamlet. All boating on the bay was banned.
 There was only one thing to do: conduct our burial service at the end of the Williamstown Pier. We had a beautiful coffin for our football. I placed bricks in the bottom, bored holes in the lid and the four pallbearers gently, with appropriately mournful music, lowered the coffin into the sea.
 'In loving memory of the ailing body of the once great Victorian Football League and its suffering attendances, we commit this expired body to the deep', we all intoned.
@@ -115,7 +125,7 @@ In other years we cut up footballs with chain-saws, we hired magicians who made 
 
 The eating of footballs became popular. How wonderful it would be if we could recycle all footballs and turn them into food, we thought. We bought a fresh football, boiled it for several days, minced it and, with the aid of carrots, onions, tomatoes and lots of herbs, Peter Russell-Clarke, our cooking expert, turned it into a lovely curry. We served it nice and hot at our 1988 Wilkie award ceremony when Terry Lane, writer and ABC broadcaster, was our Wilkie winner.
 
-Sometimes it seemed God was not quite on the side of anti-football. One year Robert Joyce, a sky-writing pilot, offered to draw the Anti Football League symbol across the Melbumian sky. We asked him if he could do it for us on the next Saturday, right above the Melbourne Cricket Ground where the Demons would be indulging in their regular clash with the Magpies.
+Sometimes it seemed God was not quite on the side of anti-football. One year Robert Joyce, a sky-writing pilot, offered to draw the Anti Football League symbol across the Melburnian sky. We asked him if he could do it for us on the next Saturday, right above the Melbourne Cricket Ground where the Demons would be indulging in their regular clash with the Magpies.
 
 Mr Joyce took off in his small aeroplane and he did indeed draw in smoke a wonderful anti-football cube plus the letters AFL. He had suggested the right height for our symbol would be 3000 metres. There was just one thing wrong with this, the wind at 3000 metres on that day was blowing at 160 kilometres an hour. By the time Robert Joyce had finished his sky writing the symbol was somewhere over Dandenong.
 It all seemed a failure, a disaster. However, on the Tuesday morning this letter arrived from Mrs Lesley Dingle of Mitcham:

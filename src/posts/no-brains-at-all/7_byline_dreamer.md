@@ -1,13 +1,14 @@
 ---
 title: Byline Dreamer
 date: 1990-11-11
-summary: In this seventh chapter of the first book of memoirs, 'No Brains At All' Keith's recalls his early career as a junior writer for the Herald and Weekly Times newspapers.
+summary: In this seventh chapter of the first book of memoirs, 'No Brains At All', Keith's recalls his early career as a junior writer for the Herald and Weekly Times newspapers.
 tags:
   - Archer Thomas
   - Australian Railways Union
   - Bob Dalziel 
   - Charles Hector McFadyen
   - Herald and Weekly Times
+  - Lyle Cousland
   - Melbourne City Council
   - Osmar White
   - RAAF
@@ -15,11 +16,13 @@ tags:
   - Rupert Bunny
   - Sir Keith Murdoch
   - T & G Building
+  - Toorak
   - Tramways union
+  
 ---
 
 
-At last it was back to Australia and 1 PD at the Melbourne Cricket Ground. Within days I was discharged. The farewell gesture from the RAAF was an appalling Victory suit, one of those austerity suits invented by Mr Dedman, Minister for Post War Reconstruction. It was cuffless, narrow of lapel and free of lining and had no shape whatever. My father thought differently. He had a cousin, J. Dunstan Lewis, who had a business in the T & G Building, Collins Street. Mr Lewis was a tailor, a kindly gentleman of great patience. A suit was something that had to be constructed with great patience. It took at least a month, in which time there had to be at least three fittings.'On which side do you dress, Keith?', Mr Lewis asked.
+At last it was back to Australia and 1 PD at the Melbourne Cricket Ground. Within days I was discharged. The farewell gesture from the RAAF was an appalling Victory suit, one of those austerity suits invented by Mr Dedman, Minister for Post War Reconstruction. It was cuffless, narrow of lapel and free of lining and had no shape whatever. My father thought differently. He had a cousin, J. Dunstan Lewis, who had a business in the T & G Building, Collins Street. Mr Lewis was a tailor, a kindly gentleman of great patience. A suit was something that had to be constructed with great patience. It took at least a month, in which time there had to be at least three fittings. 'On which side do you dress, Keith?', Mr Lewis asked.
 
 I had no idea what he was talking about. People never referred to the penis in 1946. He explained further.
 
@@ -62,7 +65,7 @@ Reporters on the police round sat and waited and waited, always within earshot o
 Thank God, you've arrived', she said.
 'What do you mean?', I asked.
 'My husband!', she screamed. 'He's out there with a Japanese sword, and he's coming back to kill me.'
-'But . . . but . .	I said. 'i'm just a reporter.'
+'But . . . but . .	I said. 'I'm just a reporter.'
 'Aren't you a policeman?', she moaned.
 
 I explained the terrible truth and immediately started putting up barricades. I was even more terrified than she was. The police arrived ten minutes later and were very amused, It was the longest ten minutes I could remember. The husband meekly surrendered an hour later, and the story was too dull to make the late editions.
@@ -203,7 +206,7 @@ Marie's father, Charles Hector McFadyen, was a senior public servant, who became
 
 Ken, could also run and was an outstanding footballer. Marie, too, was good at all sports. She could beat me easily at tennis, she was good at basketball and her smooth style across the pool was something to behold. She had been a champion swimmer. All this was disturbing for young Dunstan, who had no sporting gifts whatever and in the year 1942 was credited with being Geelong Grammar's slowest creature in the 100 yards sprint. Any sort of Hitlerian selection committee would have banned the liaison at once.
 
-Charles McFadyen, known as Chub, adored horse racing and was a gregarious man, but his standards were high, and he thought also that young people should be chaperoned. Dunstan had to take care. Yet in the years after my return from overseas service there were opportunities for romance, and Marie and I had many interests in common. How wonderful it was on a summer evening to get up on the cast-iron balcony of the old mansion at 20 Wallace Avenue when the azaleas and the rhododendrons were in bloom and we could hear the shriek of the cicadas. Many people condemn that violent noise, but to us it was the most Melbumian of all noises - the signal that at last this was summer. I ran an extension cord up the narrow stairs from the attic to the roof so that we could play my turntable, which operated through an AWA mantel radio and used cactus needles.
+Charles McFadyen, known as Chub, adored horse racing and was a gregarious man, but his standards were high, and he thought also that young people should be chaperoned. Dunstan had to take care. Yet in the years after my return from overseas service there were opportunities for romance, and Marie and I had many interests in common. How wonderful it was on a summer evening to get up on the cast-iron balcony of the old mansion at 20 Wallace Avenue when the azaleas and the rhododendrons were in bloom and we could hear the shriek of the cicadas. Many people condemn that violent noise, but to us it was the most Melburnian of all noises - the signal that at last this was summer. I ran an extension cord up the narrow stairs from the attic to the roof so that we could play my turntable, which operated through an AWA mantel radio and used cactus needles.
 
 'Why do you want to take all those rugs and things upstairs?', asked my mother. Why, indeed.
 We played Scheherazade, so splendidly recommended by Manning Clark, we played Schubert's Unfinished Symphony and the piano concertos of Rachmaninov, our passion at the time, but we were also deeply moved by Bing Crosby. We had a 10-inch HMV record with `Star Dust' on one side and 'Deep Purple' on the other. So the turntable turned, the music poured out over the cicadas below and the air was soft. The steel deck underneath tended to be slightly hard, but our eyrie up there, looking down on Toorak, was very close to heaven.

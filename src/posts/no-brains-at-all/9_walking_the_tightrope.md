@@ -1,13 +1,14 @@
 ---
 title: Walking the tightrope
 date: 1990-11-11
-summary: In this ninth chapter of the first book of memoirs, 'No Brains At All, Keith reflects talks of the significance of the death of Sir Keith Murdoch leading and his career as a columnist leading to his own father's death, William Dunstan V.C.
+summary: In this ninth chapter of the first book of memoirs, 'No Brains At All', Keith reflects talks of the significance of the death of Sir Keith Murdoch leading and his career as a columnist leading to his own father's death, William Dunstan V.C.
 tags:
   - Adelaide News
   - Anglicanism
   - Bob Dalziel
   - Brian Johnstone
   - Brisbane
+  - Colin Bednall
   - Courier-Mail
   - Desmond Zwar
   - Donald Friend
@@ -15,6 +16,7 @@ tags:
   - J. F. Williams
   - Margaret Olley 
   - Peter Carey
+  - Rudolf Pekárek
   - Sir Keith Murdoch
   - The Argus
   - The Financial Review
@@ -48,7 +50,7 @@ None of this seemed to impinge on the Herald and Weekly Times board. J. F. Willi
 
 Ah, but with Caesar's death there was the problem of Caesar's spoils. There was the problem of probate. The properties in New South Wales had to go. Furthermore Rupert, Sir Keith's son, did not have the cash to hang onto both the Courier-Mail in Brisbane and the News in Adelaide. He had to make a choice. lie chose the News and so News Limited ultimately became the launching pad for the great publishing empire he developed around the world. Under the terms of Sir Keith's will the Herald and Weekly Times had first option to buy the controlling interest in the Courier-Mail.
 
-When the Herald and Weekly Times took up the option, Cohn Bednall saw no future in his newspaper career. No longer could his dream of becoming leader of the Herald and Weekly Times empire come true. He did not believe he could work under Williams so he resigned. It was a mistake. Almost certainly Williams would not have been vindictive, and there was just a chance that Bednall might even have outlasted him to become managing director himself.
+When the Herald and Weekly Times took up the option, Colin Bednall saw no future in his newspaper career. No longer could his dream of becoming leader of the Herald and Weekly Times empire come true. He did not believe he could work under Williams so he resigned. It was a mistake. Almost certainly Williams would not have been vindictive, and there was just a chance that Bednall might even have outlasted him to become managing director himself.
 
 In late 1953 Marie and I sailed home with two children, aboard the P & 0 liner Strathmore. It was a glorious, happy five weeks on the water. I arrived in Melbourne to learn that Bednall had resigned from the Courier-Mail and it was very likely that I was out of a job or, if not out of a job, forced to beg a return to the Herald and Weekly Times. 1 rang the new editor-in-chief of the Courier-Mail, Ted Bray, later Sir Theodore Bray.
 
@@ -114,7 +116,7 @@ I took his advice and checked out all the bars. I picked up plenty of stories al
 
 Arthur Richards said that whenever he had got into trouble be had written a little story about his children. He lived in Clayfield and he had called his children the Clayfield Cowboys or the Clayfield Cowhands in his column. He did it so deftly that Brisbane looked forward to the next tale about the cowhands. Richards suggested I should make use of the cowhands at Crescent Road, Hamilton. Our eldest was David, 4 going on five. We called him Steamboat because he had so much steam and as a baby had pushed himself around like a boat. So maybe once a week I threw in a paragraph about Steamboat. I am ashamed to say in arid times I watched him avidly, waiting for some new brilliant activity. Steamboat became quite famous and he was a running serial for nearly eight years. When I dropped him, the Editor-in-Chief of the Herald and Weekly Times even called me in and said Steamboat should continue.
 
-A typical Steamboat paragraph went like this:Water pistols like all forms of armament have improved tremendously in the past twenty years. The latest water pistol is shaped like a Luger and made of plastic. It works by compression and holds a vast store of water. Some even have an auxiliary tank attached to the waist. The skilful operator can obtain fifty to 150 shots at one filling, depending on storage capacity.
+A typical Steamboat paragraph went like this: Water pistols like all forms of armament have improved tremendously in the past twenty years. The latest water pistol is shaped like a Luger and made of plastic. It works by compression and holds a vast store of water. Some even have an auxiliary tank attached to the waist. The skilful operator can obtain fifty to 150 shots at one filling, depending on storage capacity.
 
 Steamboat though has a marvellous refinement. He fills his Luger with soft drink and pulls the trigger. Pure joy. This, very likely, is the finest invention since the flask on the hip.
 Many years later, during the Vietnam War, David was up on a charge of assaulting a policeman at a demonstration in Williamstown. Before the trial we had a discussion with our barrister. The barrister looked at me, looked at David and smiled.

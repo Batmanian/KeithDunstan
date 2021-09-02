@@ -1,7 +1,7 @@
 ---
 title: Education by flagellation
 date: 1990-11-11
-summary: In this second chapter of his first book of memoirs, 'No Brains At All" Keith reflects on growing up in Melbourne in the 1930's, discipline at school and hoidays in Lorne.
+summary: In this second chapter of his first book of memoirs, 'No Brains At All', Keith reflects on growing up in Melbourne in the 1930's, discipline at school and hoidays in Lorne.
 tags:
   - Erskine House
   - Geelong Grammar

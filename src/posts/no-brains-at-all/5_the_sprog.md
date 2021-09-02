@@ -1,15 +1,19 @@
 ---
 title: The Sprog
 date: 1990-11-11
-summary: The fifth chapter of his first book of memoirs, 'No Brains At All".
+summary: The fifth chapter of his first book of memoirs, 'No Brains At All'.
 tags:
   - Air Training Corps
+  - Avro Ansons
   - Bob Dalziel
+  - Manfred von Richthofen
   - Mustang
   - RAAF
+  - Sopwith Camel
   - Spitfire
   - Tiger Moth
   - WAAAF
+  - Weston Bate
   - Wirraway
 
 ---
@@ -26,7 +30,7 @@ After swinging the propeller, the erk had to whip away his hand before the engin
 
 Flight instructors by tradition are nervous, frustrated people, brilliant at invective. In moments of crisis the student is roared at, cursed at and abused into acquiring the correct skills. My instructor was Flight Sergeant Bill Dale, a gentle man, who used an entirely different approach. He never raised his voice, never showed fear when a heavy-handed student was approaching earth at a suicide angle; he just said calmly, 'I will take over now'. His system was to coax and plead. The student, or 'sprog', sat in the back seat and the instructor in front. Both wore leather flying-helmets, which were inescapably vintage Biggles, and communicated through a speaking-tube.
 
-I went through all the classic moments of training. There were those vivid seconds when for the first time Bill Dale turned the Tiger upside down, and we were both hanging by the straps at 1000 metres. I was startled by a gentle rain of sweets papers and cigarette butts past my nose. The next moment of middling terror came when we were chugging happily in the Benalla sunshine, looking blissfully across to the Warby Range, and Bill Dale suddenly pulled off the throttle..
+I went through all the classic moments of training. There were those vivid seconds when for the first time Bill Dale turned the Tiger upside down, and we were both hanging by the straps at 1000 metres. I was startled by a gentle rain of sweets papers and cigarette butts past my nose. The next moment of middling terror came when we were chugging happily in the Benalla sunshine, looking blissfully across to the Warby Range, and Bill Dale suddenly pulled off the throttle...
 
 'You now have a dead motor. You have, of course, been paying attention, constantly looking for emergency landing areas. Now find one!', Bill said.
 
@@ -56,7 +60,7 @@ My state of ecstasy was beyond belief. I was free. I was a bird. 'I'M FREE! I'M 
 
 I did two circuits, made a last careful approach and in my euphoria hit the ground with a most indelicate bump. There was one hop, another and I was down.
 
-After the first solo there was another and another and another. There were even solo cross-country exercises, with visits to Shepparton and Tocumwa.I. One day when I was flying at 800 metres I spotted the crack Victorian streamlined train, the Spirit of Progress.
+After the first solo there was another and another and another. There were even solo cross-country exercises, with visits to Shepparton and Tocumwal. One day when I was flying at 800 metres I spotted the crack Victorian streamlined train, the Spirit of Progress.
 
 `This is Cobber Kane, DFC, swinging to the attack!'
 

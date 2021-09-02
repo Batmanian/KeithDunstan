@@ -1,14 +1,20 @@
 ---
 title: The virus
 date: 1990-11-11
-summary: In this final chapter of the first book of memoirs, 'No Brains At All" Keith writes about writing, it being a virus. The dozens of books written in his career being the result of a pathological affliction.
+summary: In this final chapter of the first book of memoirs, 'No Brains At All', Keith writes about writing, it being a virus. The dozens of books written in his career being the result of a pathological affliction.
 tags:
+  - Barry Humphries
+  - Brian Breheny
   - Crawford Productions
+  - Colin Bednall
   - D24
+  - HG Wells
   - GTV9
   - Los Angeles
+  - Max Suich 
   - Melbourne Cricket Club
   - Phillip Garrett
+  - Squizzy Taylor
   - The Age
   - The Herald
   - William Dunstan V.C.
@@ -69,7 +75,7 @@ Barry was extraordinarily generous with his ideas. It was at his suggestion that
 
 He had another idea for a bestseller for me, Ratbags. He even suggested a range of ratbags who should go into the book - Bea Miles, Frank Thring, Percy Grainger, Germaine Greer and, of course, John Barry Humphries. In the foreword he wrote:
 What is a Ratbag? A Ratbag is a man who saves all his dead matches for that tea tray he knows he will never make. A Ratbag writes letters to Raquel Welch enclosing his photograph and a stamped, addressed envelope.
-If you're a vegetarian, a Jehovah's Witness birdwatcher with five-colored Biros in your breast pocket and you belong to a sky-diving club, you are a potential Ratbag.
+If you're a vegetarian, a Jehovah's Witness birdwatcher with five-coloured Biros in your breast pocket and you belong to a sky-diving club, you are a potential Ratbag.
 
 If you are a hippy over nineteen who thinks Shakespeare was a woman, Hitler was Jewish and if Beethoven were alive today he would be writing TV jingles, you are a transitional Ratbag.
 But if you read The Great Gatsby once a year, if you can whistle the Brahms Hungarian Dances, don't have a television set, grow your own marijuana and have just ghost-written the autobiography of a surfrider, you are a terminal or raving Ratbag.
@@ -78,16 +84,22 @@ There were other books - Sports, a history of Australia's obsession with sport, 
 
 The Amber Nectar was the idea of Paul Ormonde, Public Affairs Director of CUB. It all seemed so simple at the start, but when I began digging at the brewery I was horrified. Where were the old records? They virtually did not exist.
 You see, brewers are suspicious, careful people. They have had to be. Except for the Bible Belt in the United States and the choicer parts of the Middle East, Australia endured the most virulent temperance people in the world. In sumptuous wowser pockets such as Melbourne and Adelaide this continued until the 1960s. The brewers were always under attack so they retired to their fortresses. Not only did they not reveal any information, they never spoke to the Press. When R. F. G. Fogarty was chairman and general manager of CUB he employed an old Army mate, Ginger Burke. Ginger theoretically was the public relations officer, but actually he was the anti-PR officer. It was Ginger's job to keep all reference to CUB out of the papers.
+
 R. F. G. Fogarty had a rule. He never gave interviews. Eventually, by using every wile as a newspaper columnist, I did manage to make friends with him. He gave me careful 'leaks' for my column in the Sun News-Pictorial. One day he called up.
+
 'Keith, we have a new can. Come and look at it.'
 
 I entered the bluestone fortress in Bouverie Street and went into the sacred chamber. 'Old Foge', a term one dared use only behind his back, pulled out the new 28-ounce Foster's Lager can. He gave it to me. It was empty.
 'Do something with that', he said.
+
 It was not an earth-shaking story, but anything to do with beer is news. I took the can back to the office and showed it to the Picture Editor.
+
 'Hard to photograph that', he said. 'Why don't you take it over • to the Phoenix Hotel and photograph it with Lou Richards?'
+
 This I did.
 
 Three months later CUB was renovating the ancient Duke of Wellington Hotel in Flinders Street. Legend had it that once cock fighting used to take place at the Duke. 'I'll ring my old mate Foge', I thought. 'He'll tell me about it.'
+
 His secretary replied coolly to my call. There were no little lies such as 'Mr Fogarty is in conference'. No, she said, 'Mr Fogarty doesn't want to speak to you'.
 
 So I thought, 'All right, Brian Breheny, the Assistant General Manager, he'll talk to me'. Mr Breheny wasn't available. Well, how about Dr Carl Resch, the head brewer? Couldn't get him. So I went right round the building. Not one official would come to the phone. As a last resort I rang Ginger Burke.
@@ -122,17 +134,18 @@ Just two weeks before we were due to leave Morgan had another announcement. Ther
 
 This was awful news. I was almost too terrified to break it to Marie. We remembered Los Angeles as being hot, smog laden, automobile ridden, an awful conglomerate of widely tossed suburbs, with perhaps a city centre but not a place where anyone lived or wanted to be. We moaned, but there was no turning back now. Our tickets had been bought, our house in South Yarra had been let, even our bicycles had been boxed and made ready for departure.
 Our only contact in Los Angeles was an Englishman, Ronald Clarke, the West Coast representative of the Reuters News Agency. Upon arriving, I went into the Reuters office in downtown LA and asked for Mr Clarke.
-'Oh, he never comes in here', said a receptionist.
-'Never?'
-'Well, maybe once a month to pick up his pay.'
-'Where is he, then?'
-'He works from his home out at Woodland Hills.'
-'Where's that?'
-It's about 30 miles north from here. You get there by taking your car out along the Ventura Freeway.'
-But I haven't got a car.'
-The receptionist shrugged. She knew anyone without a car in Los Angeles should go away and cut his throat.
-`But be can't work out there. It's impossible.'
-'Oh no. He's right. He's got his teleprinter, his computer. Everybody does that.'
+
+'Oh, he never comes in here', said a receptionist.<br>
+'Never?'<br>
+'Well, maybe once a month to pick up his pay.'<br>
+'Where is he, then?'<br>
+'He works from his home out at Woodland Hills.'<br>
+'Where's that?'<br>
+It's about 30 miles north from here. You get there by taking your car out along the Ventura Freeway.'<br>
+But I haven't got a car.'<br>
+The receptionist shrugged. She knew anyone without a car in Los Angeles should go away and cut his throat.<br>
+`But be can't work out there. It's impossible.'<br>
+'Oh no. He's right. He's got his teleprinter, his computer. Everybody does that.'<br>
 This was our first discovery of the new era in journalism. Most of the London newspapers had representatives on the West Coast but none of them worked right in LA. They all had their computers and I had to do the same.
 
 I rented a word processor from Reuters, a machine called a Teleram. Laughably it was classed as portable. Actually it weighed nigh on 30 kilograms, and it almost dragged my arm out of its socket when I took it aboard an aeroplane. The portable I acquired seven years later had more than 100 times the memory, worked at twice the speed and weighed only 2 kilograms.
@@ -146,7 +159,7 @@ Yet the Teleram was the answer, the forerunner of all the word processors that m
 I remember sitting out in the makeshift Press room on a frigid desert morning, working very carefully in bare feet to make sure I did not lose my historic message. Some people had camped all night around the base, others had driven out at two, three or four in the morning. By dawn the crowd had built to an astonishing 150 000 people. Of course, everybody had to be there. There were the astronauts Buzz Aldrin, Scott Carpenter and Wally Scherer. From the entertainment world we had Roy Rogers, Dale Evans, John Denver and Frank Sinatra. Then there were some distinguished movie spacemen: Leonard Nimoy, Spock no less, and William Shatner from Star Trek.
 The desert, a pale ochre in colour, like so much of California, reminded me of home. The country was flat and it could have been the very land, say, north of Broken Hill or around Coober Pedy in South Australia. It was devoid of all trees except the curious Joshua trees, 3 to 4 metres high, with strange, gesticulating fingers. Undoubtedly the trees were named after the prophet Joshua and these were his outstretched fingers, yearning after God.
 
-For the crowd at Edwards Air Force Base the moment of greatesttension came when Columbia fired its retro-active rockets over the Indian Ocean. This was the time of the re-entry, with temperatures boosted to 806 degrees Celsius. A television commentator, with an air of gloom, was announcing: 'For sixteen minutes we will not know whether the flight has been a success. We will not know whether the astronauts have come through it alive'.
+For the crowd at Edwards Air Force Base the moment of greatest tension came when Columbia fired its retro-active rockets over the Indian Ocean. This was the time of the re-entry, with temperatures boosted to 806 degrees Celsius. A television commentator, with an air of gloom, was announcing: 'For sixteen minutes we will not know whether the flight has been a success. We will not know whether the astronauts have come through it alive'.
 
 So we waited and waited, nobody saying much, while those minutes ticked by. Then the silence was broken. There were cheers across the great Air Force base as if it were a football final. Columbia was 47 000 metres over Big Sur and we could hear a Southern drawl, 'We're comin' right down the chute - right on the money'.
 
@@ -157,7 +170,7 @@ I was astonished at the size of the space shuttle. It was as big as a DC9. It ha
 Helicopters swooped overhead. There was a sniffer team to check for dangerous gases, vehicles with umbilical cords to cool Columbia down and to clean out its entrails, fire carts, transport wagons and, not the least, a tow vehicle that was to bring the craft in at 9.5 kilometres per hour, a process that took four hours. Some come-down after travelling at 28 715 kilometres per hour.
 It was several hours before we were able to interview the astronauts, John Young and Robert Crippen, whereas the entire landing had been over in twenty seconds. It was a remarkably moving event. I interviewed one lady, Louise Wolfe of Fullarton, California, who said: 'This is the first time we have had a chance of seeing real spacemen come to earth. For me this is history. I wasn't there for Christopher Columbus, but, look, I saw the arrival of the space shuttle'.
 
-To Marie's and my surprise, and despite all our dire misgivings, we learned to love Los Angeles. Oh yes, there were lots of druggies, a high rate of crime, astonishing, weird religious sects, psychopaths and sexual crazies, but 1 think the rate per head of population was little different from that back home in South Yarra. Nobody actually knew how big the Los Angeles population was; the estimate was about 11 million. Nobody was sure where Los Angeles began or ended; the guess was it was about 120 by 80 kilometres. It was a string of eighty communities loosely tied together. Deer wan dered through the Hollywood hills, and farmers still produced vegetables, strawberries and oranges in the most remarkable places.
+To Marie's and my surprise, and despite all our dire misgivings, we learned to love Los Angeles. Oh yes, there were lots of druggies, a high rate of crime, astonishing, weird religious sects, psychopaths and sexual crazies, but 1 think the rate per head of population was little different from that back home in South Yarra. Nobody actually knew how big the Los Angeles population was; the estimate was about 11 million. Nobody was sure where Los Angeles began or ended; the guess was it was about 120 by 80 kilometres. It was a string of eighty communities loosely tied together. Deer wandered through the Hollywood hills, and farmers still produced vegetables, strawberries and oranges in the most remarkable places.
 
 We settled at Calabasas, beyond the smog and just beyond Woodland Hills where we had first met the Reuters man, Ron Clarke. We bought a condominium overlooking an exquisite lake. There was a swimming pool where Marie could swim, and we played tennis almost every afternoon.
 Los Angeles, of course, was the ultimate victim of the automobile. It had no public transport system worthy of the name and BOO kilometres of freeways. You could drive on freeways all day, twenty-four hours a day, without ever retracing your steps and without ever leaving Los Angeles. The creature who did not own a car in Los Angeles was indeed lost beyond redemption. I can never forget the breaking-in agonies. We bought a Chevrolet but the insurance company declared that, unless we acquired Californian licences immediately, the car would be impounded. They laughed at our international licences so carefully purchased in Melbourne. In California they did not even recognise interstate licences let alone the international variety. So I went into the Department of Motor Vehicles in Hollywood. There were at least 500 people battling to get a licence all at the one time. I queued for over four hours. But not everyone queued. During the morning I saw the pop singer Rod Stewart sweep in. Rod's hairdo was tinted a beautiful shade of canary and he had a nice blonde creature on his arm. Rod swept through and won his licence in ten minutes. It pays to be a celebrity in LA.

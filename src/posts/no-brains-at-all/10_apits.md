@@ -1,17 +1,21 @@
 ---
 title: APITS
 date: 1990-11-11
-summary: In this tenth chapter of the first book of memoirs, 'No Brains at All' Keith recalls the three decades he wrote a daily column for Melbourne's Sun News Pictorial newspaper. 'A place in the Sun' was the name of that column, or APITS. 
+summary: In this tenth chapter of the first book of memoirs, 'No Brains at All', Keith recalls the three decades he wrote a daily column for Melbourne's Sun News Pictorial newspaper. 'A place in the Sun' was the name of that column, or APITS. 
 tags:
-  - 6 o'clock swill
+  - 6 Oclock swill
+  - Allan Wilkie
   - Anti-Football League
   - Brian Fitzpatrick
+  - Collins Street
   - Dame Nellie Melba
   - Douglas Wilkie
   - Eastern Market
+  - Ernie Sigley
   - Frank Daly
   - J. Stewart Legge
   - Jeff Hook
+  - Kooyong
   - Melbourne
   - Melbourne Architecture
   - Melbourne Cup
@@ -20,6 +24,7 @@ tags:
   - Michael Davie
   - Noel Hawken
   - Sir Keith Murdoch
+  - South Yarra
   - Sun News-Pictorial
   - The Age
   - The Herald
@@ -83,7 +88,7 @@ One also had to be careful with references to the Almighty. Any appeals to God c
 
 Every evening my column had to be inspected for social purity. Covering court stories was difficult. In court vile words were written down and handed up to the judge, who winced at the sight of them. 'Whore', 'harlot' and 'courtesan' were too awful for our newspaper. 'Lavatory' was never used; we could get away with 'toilet' but often the paper would resort to 'outhouse' or 'the smallest room in the house'.
 
-The process of calling things what they are was slow. I can give you a timetable. 'Lavatories' and 'prostitutes' came in around 1963. We dropped 'houses of ill fame' in 1966 and started calling them 'brothelc'. We were having 'sexual intercourse' by 196'7 and we even wrote 'sodomy', which had been in the Bible for 2000 years. The show Hair changed much of our thinking.
+The process of calling things what they are was slow. I can give you a timetable. 'Lavatories' and 'prostitutes' came in around 1963. We dropped 'houses of ill fame' in 1966 and started calling them 'brothels'. We were having 'sexual intercourse' by 1967 and we even wrote 'sodomy', which had been in the Bible for 2000 years. The show 'Hair' changed much of our thinking.
 By 1971 the word 'bloody' began to appear in print. What a shock that was. 'Bullshit' did not get there until 1974, and after that we descended to 'bugger'.
 
 The ultimate breakthrough came in June 1979. The first paragraph of the Age's coverage of a court case read: 'A magistrate found yesterday that a Skyhooks song with the refrain "Why don't you all get fucked" was not obscene'. Michael Davie, the Age Editor, received a visit from the vice squad, who said the police had received complaints from the public and the Age was liable for prosecution under Section 172 of the Police Offences Act. Davie was unabashed. He pointed out that almost every milk bar was selling paperbacks that contained this word, and he had the impression even children in the street were using it.
@@ -135,7 +140,7 @@ Hook writes with his right hand and draws with his left. It is not easy to expla
 
 'We had an artist in last month', he said. 'He stood right here, and it took him a fortnight to make his drawing. When he finished it wasn't as good as that.' 
 
-Another time we were at Lochsa Lodge, Idaho, in the United States, and Jeff was making a sketch of the scene. A young man stood behind him all the time be was sketching, always unnerving for an artist. Finally the young man said: 'You know that's not bad. You draw a bit. Ever thought of getting anything published?'.Yes, he had had quite a bit published. I am constantly amazed at the ruthless speed with which he can delineate the line of a nose, the sweep of a jaw, the flab of a jowl. There is no sympathy for Dunstan; always I come out with one eye and no teeth. 
+Another time we were at Lochsa Lodge, Idaho, in the United States, and Jeff was making a sketch of the scene. A young man stood behind him all the time be was sketching, always unnerving for an artist. Finally the young man said: 'You know that's not bad. You draw a bit. Ever thought of getting anything published?'. Yes, he had had quite a bit published. I am constantly amazed at the ruthless speed with which he can delineate the line of a nose, the sweep of a jaw, the flab of a jowl. There is no sympathy for Dunstan; always I come out with one eye and no teeth. 
 
 Every year, with Marie and Jeff's wife, Pauline, we went to the Melbourne Cup, always by a different method. You must appreciate that Flemington is difficult to get to on Cup Day so our quest for the perfect system was like the hunt for the Holy Grail. The first time we went to the Cup by Rolls-Royce. It was a hired machine and we looked so rich that the collectors on the gate at the members' entrance did not even ask whether we had a ticket. We just swept in. Another year we went by speedboat along the Maribyrnong - a somewhat smelly adventure. We went in a beautiful coach drawn by four horses. We went by brewery wagon. That did not make us popular with the police, because traffic in Flemington Road had to be practically suspended to make way for our majestic progress. 
 
