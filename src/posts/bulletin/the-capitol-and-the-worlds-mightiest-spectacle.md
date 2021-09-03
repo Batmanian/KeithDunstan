@@ -39,13 +39,13 @@ The dress circle foyer was ‘the most richly furnished, the most dignified, and
 
 As for the men's smoke rooms: ‘They are almost sombre, with that quiet dignity which the modern man so much appreciates for the use of his more intimate friends.  The chairs are in a specially tanned hide of a color something between a brown and a verdigris green, finished and studded with antique steel nails . . . the difference between the ladies' boudoir and the smoke rooms is most marked.’
 
-One could go on.  There were "scenes of bewildering beauty" . . .
+One could go on.  There were 'scenes of bewildering beauty . . .'
 
 One Hoyts man, Colin Mirams, still remembers it all.  The original idea of the ‘atmospheric prelude’ continued right through the 'twenties.  For example, for the silent film ‘Beau Geste’ they built a superb desert fort on the stage.  They staged, too, the 1812 Overture with the fall of Moscow, puffs of smoke, the lot.
 
 The noise of the firing of the cannon was done off-stage in good style.  They used blank cartridges in a double-barrelled shotgun fired against a suspended sheet of galvanized iron.  Jan Rubini, the conductor, composer, violinist, was imported from Los Angeles at vast expense to conduct the 20-piece orchestra and the Postal Institute choir.
 
-And so the Capitol was a big success.  In the first days the crowds' were so big they pushed in the ticketsellers' office.  Mr Mirams arrived as accountant after the first fortnight.  In that time nobody had been to the bank.  They showed him a rolled-top desk that was brimming with cash and bank notes-between ₤7000 and ₤8000.  The money had been pouring in. Outside there was a regular staff of police to control the crowds.
+And so the Capitol was a big success.  In the first days the crowds were so big they pushed in the ticketsellers' office.  Mr Mirams arrived as accountant after the first fortnight.  In that time nobody had been to the bank.  They showed him a rolled-top desk that was brimming with cash and bank notes-between ₤7000 and ₤8000.  The money had been pouring in. Outside there was a regular staff of police to control the crowds.
 
 And that's the trouble, you see; with 2100 seats, the old Capitol is too vast.  People don't fight to get to the movies any more, to relish their ‘Ten Commandments.’  The suggestion is that the Capitol will be converted into a large, modern, shopping arcade.
 
