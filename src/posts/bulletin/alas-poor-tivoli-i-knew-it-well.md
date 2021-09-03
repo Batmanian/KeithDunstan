@@ -23,7 +23,7 @@ tags:
 
 # The night the old Tiv burnt down
 
-I WOULD LIKE to have a good cry over the old Tivoli, but it is not easy. The old dear hasn't been well for long time.  The City Council nearly bought the whole block of Tivoli buildings for $2 million back in 1963 and last year the theatre closed as a variety theatre and reopened as a cinema.
+I would like to have a good cry over the old Tivoli, but it is not easy. The old dear hasn't been well for long time.  The City Council nearly bought the whole block of Tivoli buildings for $2 million back in 1963 and last year the theatre closed as a variety theatre and reopened as a cinema.
 
 Last week in the middle of the night came the fire.  Your correspondent hurried along next morning to look at the cadaver.  The mess was frightful.  The roof and the projection-room had crashed into the dress circle.
 
