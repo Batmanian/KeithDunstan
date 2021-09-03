@@ -10,12 +10,13 @@ tags:
   - The Daily Telegraph
   - Herb Caen
   - Kirwan Ward
+  - Cassandra (William Connor)
   - Lindsay Bassett
   - Malcolm Muggeridge
   - Ronald Searle
   - Roy Dotrice
   - The Beatles
-  - Walter ODonoghue  
+  - Walter O'Donoghue  
 ---
 
 Kirwan Ward of Perth's Daily News once said that writing a daily column was like walking a tightrope across Niagara Falls, a little scary until you got used to it.
@@ -24,9 +25,9 @@ Actually I have always found it a little scary and the tightrope somewhat slippe
 
 Others, indeed most of us, try to find a blend of the two, some good stories, some comment, with maybe a name dropped here and there. The knack of balancing on that tightrope is to have plenty of friends, an army of people who want to tell you what is going on, every day of the year.
 
-I came to column writing quite by chance. I was covering Lindsay Bassett's tour of England in 1952 when an invitation came from the Courier Mail in Brisbane to write a front page column. Why I received the invitation was never clear. Presumably they thought that anyone who could write about a game as peculiar as cricket could also write a column. At that time I didn't realize the size of the task. My predecessor was Arthur Richards, a far better columnist than I could ever be, and adored by all Queensland. The first weeks were desperately difficult.I knew nobody, nobody called in, nobody tele­phoned.
+I came to column writing quite by chance. I was covering Lindsay Hassett's tour of England in 1952 when an invitation came from the Courier-Mail in Brisbane to write a front page column. Why I received the invitation was never clear. Presumably they thought that anyone who could write about a game as peculiar as cricket could also write a column. At that time I didn't realize the size of the task. My predecessor was Arthur Richards, a far better columnist than I could ever be, and adored by all Queensland. The first weeks were desperately difficult. I knew nobody, nobody called in, nobody telephoned.
 
-A grazier from Cunnamulla was down for his holidays and he was having a fine old time. At a very late hour he took a taxi back to his beach house, paid off the driver and received 16/- change. While fumbling for his key he dropped the change on the door step. His co-ordination wasn't so good so he decided to leave it there until the morning. Lo, the next morning on his door step he found twenty-one bottles. of milk.
+A grazier from Cunnamulla was down for his holidays and he was having a fine old time. At a very late hour he took a taxi back to his beach house, paid off the driver and received 16/- change. While fumbling for his key he dropped the change on the door step. His co-ordination wasn't so good so he decided to leave it there until the morning. Lo, the next morning on his door step he found twenty-one bottles of milk.
 
 I put this at the top of the column, but the editor was sceptical, he thought it was too good to be true. Finally he relented and it was 'published in the Courier Mail the next morning.
 
@@ -38,37 +39,37 @@ Several days later there was a call from Surfers Paradise. A slow voice said: 'H
 
 'I bought four bottles of rum and we downed the lot!'
 
-At this time columns were very much in the fashion. They were partly a hang-over from times of desperate shortage of newsprint and it was convenient to give information in short tightly written paragraphs. There was a theory, too, that a bright, entertaining column could somehow assist in circulation. There was barely a newspaper in the country that did not have a column and the Daily Telegraph in Sydney had four. The story went that they did not have another for fear it would be called the Fifth Column.
+At this time columns were very much in the fashion. They were partly a hangover from times of desperate shortage of newsprint and it was convenient to give information in short tightly written paragraphs. There was a theory, too, that a bright, entertaining column could somehow assist in circulation. There was barely a newspaper in the country that did not have a column and the Daily Telegraph in Sydney had four. The story went that they did not have another for fear it would be called the Fifth Column.
 
-On New Year's Day 1958 I transferred to Melbourne to write the column 'A Place in the Sun' for the Sun News-Pictorial. This was a column with a distinguished history. It started on the first day of issue of the Sun News-Pictorial, 11 September 1922. It was a news­ paper very advanced in format and its column was a good one, considerably better than it is now. Appropriately enough it started with a paragraph about the Prime Minister, Billy Hughes.
+On New Year's Day 1958 I transferred to Melbourne to write the column 'A Place in the Sun' for the Sun News-Pictorial. This was a column with a distinguished history. It started on the first day of issue of the Sun News-Pictorial, 11 September 1922. It was a newspaper very advanced in format and its column was a good one, considerably better than it is now. Appropriately enough it started with a paragraph about the Prime Minister, Billy Hughes.
 
 A shopkeeper out at Carlton had put a peanut in his window and labelled it 'Billy Hughes'. One of the members pointed this out to the Prime Minister and said: 'It is simply a marvellous resemblance to you, sir. None of the caricaturists has ever done you so well.'
 
 'Are you quite sure it was a peanut?' growled Billy. 'I was in Carlton this afternoon.'
 
-Writing a column for the Sun was no different to writing a column for the Courier Mail. Always there was a big mail, some­ times kind, sometimes unkind. For example, one day there was a beautiful letter from a nun. She said how much she enjoyed the column and how it was read every day at the convent. Just possibly, this was the worst thing that could have happened. Now, every time I sat down at the typewriter I had a vision of this sweet nun and any paragraph that was even slightly racy I would re-write six times, wondering how it would fare with all the Sisters at the convent.
+Writing a column for the Sun was no different to writing a column for the Courier-Mail. Always there was a big mail, sometimes kind, sometimes unkind. For example, one day there was a beautiful letter from a nun. She said how much she enjoyed the column and how it was read every day at the convent. Just possibly, this was the worst thing that could have happened. Now, every time I sat down at the typewriter I had a vision of this sweet nun and any paragraph that was even slightly racy I would re-write six times, wondering how it would fare with all the Sisters at the convent.
 
 One letter of three pages criticized me for the wretched quality of my English, then finished: 'Dunstan, boy do you stink. I remain, yours sincerely .. .' Not many such letters are ever signed.
 
-Readers are more apt to write when they are annoyed and the best mail always arrives when they are driven to fury. In November 1965 a B.B.C. T.V. programme did a satirical piece on Australia read by actor Roy Dotrice. It said in part: 'You are a vast grey suburb masquerading as a continent. Oh wretched land. Your accent is coarse and your vocabulary obnoxious. In 200 years you have managed to enrich the language of Milton with only three words- Pommie, Bluey and Cobber. You have diminished womanhood, a race that includes Florence Nightingale, Edith Cavell and Helen of Troy to "a bunch of sheilas".
+Readers are more apt to write when they are annoyed and the best mail always arrives when they are driven to fury. In November 1965 a BBC TV programme did a satirical piece on Australia read by actor Roy Dotrice. It said in part: 'You are a vast grey suburb masquerading as a continent. Oh wretched land. Your accent is coarse and your vocabulary obnoxious. In 200 years you have managed to enrich the language of Milton with only three words - Pommie, Bluey and Cobber. You have diminished womanhood, a race that includes Florence Nightingale, Edith Cavell and Helen of Troy to "a bunch of sheilas".'
 
 'Your pound is worth only 15/8. Your wine is like something to be found in joke shops along with sponge rubber eclairs and squeaking buns. Oh, miserable Australia. Why do you drink yourselves stupid every night on cold beer? Is it because you have no past and no future? What does it feel like to have put limbo on the map?'
 
 And so it went on. All this was published back here and it seemed a good idea to write a light-hearted reply.
 
-'Over the past 100 years, England has been known here principally as a breeding ground for convicts and A.B.C. radio announcers. Its principal exports for the past three years have been the Beatles, the Rolling Stones and Screamin' Lord Sutch.
+'Over the past 100 years, England has been known here principally as a breeding ground for convicts and ABC radio announcers. Its principal exports for the past three years have been the Beatles, the Rolling Stones and Screamin' Lord Sutch.
 
-'The main culture comes from the North Country- the Beatles, Z Cars and Harold Wilson. It is a land famous for great sporting venues - Lord's, Wembley, Wimbledon and Scotland's St Andrew's  ideal for watching the triumphs of other countries.
+'The main culture comes from the North Country - the Beatles, Z Cars and Harold Wilson. It is a land famous for great sporting venues - Lord's, Wembley, Wimbledon and Scotland's St Andrew's - ideal for watching the triumphs of other countries.
 
 The editor said sourly: 'The trouble with you, Dunstan, is that you don't carouse enough. You should spend the day carousing around the bars and you'd get plenty of stories.'
 
-So, trying to look like Walter Winchell, I spent all day carousing from bar to bar. I heard a number of quite surprising stories but none of them suitable for the Courier Mail, the family newspaper. I gained a stomach full of beer but no column.
+So, trying to look like Walter Winchell, I spent all day carousing from bar to bar. I heard a number of quite surprising stories but none of them suitable for the Courier-Mail, the family newspaper. I gained a stomach full of beer but no column.
 
 It was then that I remembered the words of Malcolm Muggeridge. When he was editor of Punch he pointed out that the people who attempted to write humour were the saddest and most miserable of men. No laughter was ever heard in the Punch building. When first he went there he was startled by the sight of the framed photographs of all the former editors. They glared down, morose, unhappy, not a smile amongst the whole bearded bunch of them.
 
-I asked Mr Muggeridge whether he put up a nice, smiling Mug­ geridge picture to launch the new era. 'Certainly not,' said he. Yes, all newspaper columnists are the same. They are a haunted crew. It is practically impossible for them to make conversation. They are always listening, picking over every word, hoping that they might hear something that might be useful to the column. They can't even walk down the street normally. They peer wide-eyed in all direc­tions. Very bad cases watch their children, waiting for them to say something funny.
+I asked Mr Muggeridge whether he put up a nice, smiling Muggeridge picture to launch the new era. 'Certainly not,' said he. Yes, all newspaper columnists are the same. They are a haunted crew. It is practically impossible for them to make conversation. They are always listening, picking over every word, hoping that they might hear something that might be useful to the column. They can't even walk down the street normally. They peer wide-eyed in all directions. Very bad cases watch their children, waiting for them to say something funny.
 
-The major agony always comes just before going to press. There was a circuit of passages on the third floor of the Courier Mail known as 'Dunstan's Walk'. Any night it was possible to see this character walking the circuit, head down, hands behind back, worrying for the last paragraph. It was better to do the circuit in an anti-clockwise direction, in keeping with the-water-going-down plugholes.
+The major agony always comes just before going to press. There was a circuit of passages on the third floor of the Courier-Mail known as 'Dunstan's Walk'. Any night it was possible to see this character walking the circuit, head down, hands behind back, worrying for the last paragraph. It was better to do the circuit in an anti-clockwise direction, in keeping with the-water-going-down plugholes.
 
 Yet after some weeks things began to improve. I found that I was living with something alive and people did want to share their experiences. It is extraordinary how few of the stories that one has written can be remembered a month later. But one or two stick in the memory. One of Brisbane's biggest shopping centres was 'the Valley'. There was an English baronet staying at Lennons, the hotel in Brisbane. He called room service.
 
@@ -76,7 +77,7 @@ Yet after some weeks things began to improve. I found that I was living with som
 
 'Easy, mate. You just hop onto a tram out there in Queen Street.' Then there was an intriguing story from Surfers Paradise. 
 
-'It's modern poetry has been produced by good-drinking Welsh­ men and the drama by Irishmen, often in a kitchen sink. The land that produced Florence Nightingale in the 19th century produced Christine Keeler and Mandy Rice Davies in the 20th. And they, enriched the language of Shakespeare with a new word, "Keeler­ haul".
+'It's modern poetry has been produced by good-drinking Welshmen and the drama by Irishmen, often in a kitchen sink. The land that produced Florence Nightingale in the 19th century produced Christine Keeler and Mandy Rice Davies in the 20th. And they, enriched the language of Shakespeare with a new word, "Keeler­ haul".
 
 'Their three best songs are Greensleeves, Heart of Oak and God Save the Queen. The only worthwhile living English artist is Ronald Searle. It is a land of warm beer, mini-sized motor cars, appalling weather, loathsome plumbing, stony beaches, overtaxation, scrawny girls, kippers and fish and chips.'
 
