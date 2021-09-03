@@ -28,13 +28,13 @@ THIS week we are in the midst of merry-making and melancholy.  We're merry-makin
 
 Then we're melancholy because the wreckers are pulling down the dear old Savoy Theatre in Russell Street.  Traditionally it has been the home of vaudeville, strong theatre and clean living in our town.  Its history goes back 91 years and until 1934 it was known as the Temperance Hall, owned by the Order of the Sons of Temperance.
 
-It was built, you see, because so much wicked drinking went on at the open bars of Melbourne's music halls.  A place of entertainment was needed, which would be completely free of this influence.  There were some wonderful shows, particularly on Saturday nights.  Most moving indeed were "The Drunkard's Death" and "Ten Nights In A Barroom."
+It was built, you see, because so much wicked drinking went on at the open bars of Melbourne's music halls.  A place of entertainment was needed, which would be completely free of this influence.  There were some wonderful shows, particularly on Saturday nights.  Most moving indeed were 'The Drunkard's Death' and 'Ten Nights In A Barroom.'
 
 There were some sterling performers.  Dame Nellie Melba made one of her first public appearances at the Temperance Hall, and there were others like John McCormack and Lola Montez.
 
 In 1934 they put in motion picture machinery.  The name changed from the Temperance Hall to the Imperial, from the Imperial to the Savoy.  Up the back there were all sorts of meeting rooms for such guests as the Persian Cat Society, the Racing Pigeon Club, the Football Umpires' Association and it is said, even, that there were meetings of spiritualists where they used to hold hands and burn incense.
 
-Now the WHELAN THE WRECKER IS HERE sign is on the front wall.  Honest John Gilbert walked past last week and made the comment: "This is the best show ever put on at the Savoy – Whelan the Wrecker bringing down the house."
+Now the WHELAN THE WRECKER IS HERE sign is on the front wall.  Honest John Gilbert walked past last week and made the comment: 'This is the best show ever put on at the Savoy – Whelan the Wrecker bringing down the house.'
 
 As for Hoyts it is the story of a glorious advance from Pathe Films to talkies, to 3-D, to Wide Screen, to Cinemascope, to Todd-AO, Stereophonic sound and Cinerama. It all started with Arthur Russell, a Bourke Street dentist.  He used to practise illusions as a hobby and he bought into a small circus called Hoyts.  He put himself on the programme and toured the Western District.  In 1913 he hired St George's Hall in Bourke Street and established Hoyts pictures.  In those days pictures ran from three to ten minutes.
 
