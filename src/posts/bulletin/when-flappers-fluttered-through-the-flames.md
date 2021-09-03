@@ -12,7 +12,7 @@ tags:
 
 ---
 
-Could one ask for your forbearance?  Bv now it must be all too obvious that I have an insufferable passion for old movie houses.  The gush you are about to receive was caused by the advent of ‘Cleopatra.’
+Could one ask for your forbearance?  By now it must be all too obvious that I have an insufferable passion for old movie houses.  The gush you are about to receive was caused by the advent of ‘Cleopatra.’
 
 You must understand that Melbourne was nearly the last city in the world to get ‘Cleopatra.’  We looked in craven envy when Sydney got ‘Cleopatra’ way back on December 5. Rumours seeped through to us how you had the largest hand-painted ‘Cleopatra’ poster outside Times Square in New York - a magnificent 78 feet by 26 feet.  The publicity people here told us that it was all done in small squares, which raised fearful problems.  When they completed it they found there was a line straight down Miss Taylor's bosom, with the result that they had to do several hundred square feet of bosom again.  Now her bosom has been adjusted and tested to keep out the weather for two years.
 
