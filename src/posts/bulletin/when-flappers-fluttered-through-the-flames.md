@@ -4,7 +4,7 @@ date: 1964-03-14
 summary: First published in the Bulletin Magazine, 1964
 tags:
   - Elizabeth Taylor
-  - Frank Thring
+  - Frank Thring Snr
   - Melbourne
   - Sir George Tallis
   - Sir Leo Curtis
@@ -32,7 +32,7 @@ There was Gloria Swanson in ‘The Prodigal Daughters.’ The poster fell rather
 
 Mary Pickford, ‘Everybody's Sweetheart,’ was peeling from one wall, Doris Kenyon in ‘The Last Moment’ was fading on another.  They were described as ‘Paramount Super Productions.’
 
-Then I turned back to the first day, Boxing Day, 1915, when the Paramount opened at a cost of ₤12,000 with a seating capacity of 1500 and a new innovation to Melbourne, a lounge.  Mary Pickford starred in ‘Rags,’ a charming story according to the ‘Argus’, where Miss Pickford rose from poverty to affluence and made the mistake of marrying a thief, a sottish drunkard.
+Then I turned back to the first day, Boxing Day, 1915, when the Paramount opened at a cost of ₤12,000 with a seating capacity of 1500 and a new innovation to Melbourne, a lounge.  Mary Pickford starred in ‘Rags,’ a charming story according to the ‘Argus,’ where Miss Pickford rose from poverty to affluence and made the mistake of marrying a thief, a sottish drunkard.
 
 The next big show was Theda Bara in ‘Carmen,’ and it was fascinating to look at the ads.  In early 1916 there were no fancy blocks.  There was a whole column in the ‘Argus’ headed ‘The Temple of Motion Picture Art.’  The name of Theda Bara, ‘The Most Beautiful Woman in the World,’ was repeated about 400 times down the column in 12 point black caps.
 
