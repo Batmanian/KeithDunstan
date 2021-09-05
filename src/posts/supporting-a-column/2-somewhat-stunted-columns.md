@@ -23,7 +23,7 @@ tags:
   - Frank Chin
 ---
 
-THERE'S nothing very new in writmg stunt columns. There's a columnist in Hawaii who specializes in the most daring of adventures. One day he accused the women of Honolulu of being lazy, of having little to do. The response was satisfactorily devastating, and, if I remember correctly, one mother invited him to take over her menage for twenty-four hours, while she moved out to a hotel. She left behind her ten children. This Hawaii columnist found plenty of material for his column that day.
+THERE'S nothing very new in writing stunt columns. There's a columnist in Hawaii who specializes in the most daring of adventures. One day he accused the women of Honolulu of being lazy, of having little to do. The response was satisfactorily devastating, and, if I remember correctly, one mother invited him to take over her menage for twenty-four hours, while she moved out to a hotel. She left behind her ten children. This Hawaii columnist found plenty of material for his column that day.
 
 The stunt column has the beautiful advantage in that one is right inside the story, taking part. There is no second-hand information, it is all first hand, it makes for much more lively copy. So over the years I have performed as a second at the wrestling, as an extra in grand opera, as Father Christmas at a city store, led a recalcitrant Santa Gertrudis bull around the arena at the Show, been blasted off an aircraft carrier by steam catapult, been frightened in racing cars and galloped in the tail of a Chinese dragon.
 
