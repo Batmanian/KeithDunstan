@@ -13,6 +13,8 @@ tags:
   - Frank Sedgman
   - Lew Hoad
   - Pancho Segura
+  - Stefan Haag
+  - Elizabethan Theatre Trust
   - Her Majestys Theatre
   - Victorian Symphony Orchestra
   - Eric Clapham
