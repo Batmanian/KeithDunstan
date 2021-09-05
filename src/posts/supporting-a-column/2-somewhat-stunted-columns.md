@@ -5,6 +5,7 @@ summary: The second chapter of Keith's second book, 'Supporting a column'.
 tags:
   - Primo Carnera
   - Stanley Kowalski
+  - Bonnie Muir
   - Tennis
   - Kooyong
   - Wrestling
@@ -51,7 +52,7 @@ Stanley, of course, was insulted. He jumped into the ring, stamped his fist: 'YO
 
 Maybe everything would have been all right if only things had stopped there, but some members of the Italian community arrived with a sheaf of flowers. It was perfectly understandable in the circumstances. My man Stanley was outraged. 'WHERE ARE MY FLOWERS ? WHY DON'T I GET ANY ? I'LL KILL HIM.' 
 
-Bonny Muir, the referee, gave his instructions and Carnera advanced. Actually he hulked forward, rolling his shoulders in a fearsome manner. I shrank behind the corner post. If you ever plan to be a second at one of these bouts take my advice and latch on to the corner post — it's a good spot. You'll never get hit by a falling body. 
+Bonnie Muir, the referee, gave his instructions and Carnera advanced. Actually he hulked forward, rolling his shoulders in a fearsome manner. I shrank behind the corner post. If you ever plan to be a second at one of these bouts take my advice and latch on to the corner post — it's a good spot. You'll never get hit by a falling body. 
 
 Stanley didn't hesitate. He flew at Carnera. He rained blows on him, pulled his hair. Carnera most unfairly pulled his hair back. My man had more than Carnera had. 
 
@@ -67,11 +68,11 @@ Several minutes later Stanley came back and pinned the huge Carnera. We could ha
 
 Stanley now was most irritated. With superb skill he managed to get Carnera's neck twisted in the ropes. Then he picked him up by the legs and sat on him so that further pressure might be applied to Primo's neck. Bonny Muir, surprisingly, thought this unsporting. He pulled my man Stanley off by the hair. What else could Stanley do? He turned around and dropped the referee with a rabbit killer. 
 
-I wish you could imagine the noise while this was going on. It was very loud. Bonny Muir then disqualified Stanley. Stanley wouldn't be disqualified. He tore into Carnera and they exchanged blows. Bonny Muir separated them and Stanley — in quite a nice way, you understand — picked him up and threw him out of the ring. 
+I wish you could imagine the noise while this was going on. It was very loud. Bonnie Muir then disqualified Stanley. Stanley wouldn't be disqualified. He tore into Carnera and they exchanged blows. Bonnie Muir separated them and Stanley — in quite a nice way, you understand — picked him up and threw him out of the ring. 
 
-Bonny Muir came back with another referee and there was some confusion. My man Stanley grabbed the microphone and pointed out the terrible injustice, how they had been robbed, how it was written in the contract that there were to be no disqualifications. 
+Bonnie Muir came back with another referee and there was some confusion. My man Stanley grabbed the microphone and pointed out the terrible injustice, how they had been robbed, how it was written in the contract that there were to be no disqualifications. 
 
-Alas, we had to retire and we went down below to the dressing rooms. Naturally I assumed at once that schizoid Mr Kowalski would resume his former personality, but he was furious. Bonny Muir didn't understand. It was agreed by everybody that there were to be no disqualifications. It was in the contract. Muir ought to understand that. He was a former wrestler. He only gave him a rabbit killer and threw him out of the ring. 
+Alas, we had to retire and we went down below to the dressing rooms. Naturally I assumed at once that schizoid Mr Kowalski would resume his former personality, but he was furious. Bonnie Muir didn't understand. It was agreed by everybody that there were to be no disqualifications. It was in the contract. Muir ought to understand that. He was a former wrestler. He only gave him a rabbit killer and threw him out of the ring. 
 
 Half an hour later Stanley was still angry. 
 
