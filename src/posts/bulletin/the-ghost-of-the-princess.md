@@ -11,6 +11,7 @@ tags:
   - The Argus
   - William Pitt
   - June Bronhill
+---  
 
 # The ghost-of-honour didn't make the party
 
@@ -28,13 +29,13 @@ So, seeing that Federici is our only permanent movable ghost game, it is most sa
 
 Now, Federici was an English baritone named Frederick Baker, who came out here to play Mephistopheles in ‘Faust.’ The F. Federici bit was just an idea to give him added style.  Opening night was March 3, 1888.  The performance went very well, indeed; Mephistopheles, as the agent of the devil, had claimed his victim and was descending the stage trap door when he collapsed and died.  As the ‘Illustrated Australian News’ said at, the time, Mephistopheles, while descending with, Faust amid stage-fire and flames, turned the mimic scene, by his own death, into one of tragic reality.
 
-Then the funeral was a very painful affair.  The Reverend T. H. Goodwin, of the Church of England, who exhibited great emotion, according to the ‘Argus,’ collapsed, fainted away, and was unable to be revived for some considerable time.  This happened just after he had finished the second prayer and the coffin was being lowered into the grave.  ‘Mr Charles Warner, the well-known actor, had to take up the reading.’ 
+Then the funeral was a very painful affair.  The Reverend T. H. Goodwin, of the Church of England, who exhibited great emotion, according to the 'Argus,' collapsed, fainted away, and was unable to be revived for some considerable time.  This happened just after he had finished the second prayer and the coffin was being lowered into the grave.  ‘Mr Charles Warner, the well-known actor, had to take up the reading.’ 
 
 Gounod's ‘Faust’ had a very short run at the Princess in 1888.  Some members of the cast claimed that Federici had taken the curtain call on the substitute's first night and again on subsequent nights. 
 
 But, as Frank Cusack points out, the best authenticated stories of Federici's ghost have always had him in evening dress.  George Musgrove, the theatre's original producer, saw him in evening dress at a late rehearsal.  Federici was sitting in the front row of an otherwise empty dress circle.
 
-Miss Betty Beddoes, who worked the greater part of her life at the theatre as wardrobe mistress, saw the ghost in 1917 during the season of Allan Wilkie's ‘School For Scandal.’ She was getting costumes ready for the opening night when a fireman knocked at the door and said: ‘Would you like to see a ghost?’ She and the fireman saw a figure sitting quietly in the second or third row of the dress circle.  Cusack writes: ‘The figure made no movement and could be seen quite plainly and appeared to be staring straight ahead at the empty stage.  It was dressed in evening dress and gave the impression of being well built with either grey hair or a wig.  The face was in profile and not very distinct.  Her most vivid recollection of the occurrence, Miss Beddoes says, is of the studs in the white shirtfront, which seemed in the half-light to give off a sort of glitter.
+Miss Betty Beddoes, who worked the greater part of her life at the theatre as wardrobe mistress, saw the ghost in 1917 during the season of Allan Wilkie's 'School For Scandal.' She was getting costumes ready for the opening night when a fireman knocked at the door and said 'Would you like to see a ghost?' She and the fireman saw a figure sitting quietly in the second or third row of the dress circle.  Cusack writes- 'The figure made no movement and could be seen quite plainly and appeared to be staring straight ahead at the empty stage.  It was dressed in evening dress and gave the impression of being well built with either grey hair or a wig.  The face was in profile and not very distinct.  Her most vivid recollection of the occurrence, Miss Beddoes says, is of the studs in the white shirtfront, which seemed in the half-light to give off a sort of glitter.
 
 ‘The fireman asked her if she were afraid.  In a whispered reply she assured him she wasn't.  Fascinated, they watched it for some time during which there was neither sound nor movement . . . Miss Beddoes does not pretend to be able to explain what she saw.  She cannot accept that it was a case of "imagination playing tricks." She prefers merely to recount what she and another observed and leave it at that.’
 
@@ -44,6 +45,6 @@ Heinemann had a late-night book launching of Cusack's book right there in the th
 
 Everything was done to encourage Federici's appearance.  Miss Betty Beddoes, now in her late 80s, was there.  So, too, was Mrs. Garnet Carroll, who saw Federici in a dark cloak one night during a ballet rehearsal.
 
-Special cocktails, invented just for the evening, were served.  For example, there was the Mephistopheles Cocktail, which was devil-red and consisted of cherry vodka, Polish pure spirit, and pineapple juice.  Then there was ‘The Spectre’ …half an ounce of Polish pure spirit, 1oz.  Zubrowka Bison vodka, and lemon juice.
+Special cocktails, invented just for the evening, were served.  For example, there was the Mephistopheles Cocktail, which was devil-red and consisted of cherry vodka, Polish pure spirit, and pineapple juice.  Then there was 'The Spectre' …half an ounce of Polish pure spirit, 1oz.  Zubrowka Bison vodka, and lemon juice.
 
 However, by 1.30 a.m. Federici had failed to appear.  Undoubtedly it was the cocktails. No respectable devil would be seen drinking them.
