@@ -17,7 +17,8 @@ tags:
   - Roy Dotrice
   - The Beatles
   - Walter O'Donoghue
-  - The Heart of Juliet Jones  
+  - The Heart of Juliet Jones
+  - Steamboat  
 ---
 
 Kirwan Ward of Perth's Daily News once said that writing a daily column was like walking a tightrope across Niagara Falls, a little scary until you got used to it.
