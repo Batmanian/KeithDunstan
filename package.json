@@ -27,7 +27,7 @@
         "bootstrap": "5.1.0",
         "bootstrap-icons": "1.5.0",
         "clean-css": "^5.1.5",
-        "eleventy-plugin-metagen": "^1.4.0",
+        "eleventy-plugin-metagen": "^1.4.7",
         "gulp": "^4.0.2",
         "gulp-clean": "^0.4.0",
         "gulp-clean-css": "^4.2.0",
