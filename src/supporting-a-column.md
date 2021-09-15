@@ -52,9 +52,9 @@ summary: Keith's first book of memoirs, published in 1990 cover his career in wr
             <ul class="lead">
                 <li>Chapter one: <a href="{{ '/posts/supporting-a-column/1-supporting-a-column' | url }}">Supporting a Column</a></li>
                 <li>Chapter two: <a href="{{ '/posts/supporting-a-column/2-somewhat-stunted-columns' | url }}">Somewhat stunted columns</a>     </li>
-                <li>Chapter three: Royal Columns</a>
+                <li>Chapter three: <a href="{{ '/posts/supporting-a-column/3-royal-columns' | url }}">Royal Columns</a>
                 </li>
-                <li>Chapter four: Columns on H.M. and H.R.H</a>
+                <li>Chapter four: <a href="{{ '/posts/supporting-a-column/4-columns-on-hm-and-hrh' | url }}">Columns on H.M. and H.R.H</a>
                 </li>
                 <li>Chapter five: The Columns on the Road to Timbertop</a>
                 </li>

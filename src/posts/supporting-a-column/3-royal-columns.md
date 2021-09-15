@@ -1,7 +1,7 @@
 ---
 title: Somewhat stunted columns
 date: 1966-11-11
-summary: The second chapter of Keith's second book, 'Supporting a column'.
+summary: The third chapter of Keith's second book, 'Supporting a column'.
 tags:
   - Royal Family
   - 1963 Royal Visit to Australia
