@@ -117,7 +117,7 @@ old English kid ever looks seventeen. -
 
 Prince Charles looked at a series of rugged activities. He watched one boy do a Tarzan act swinging from one long rope to another. With his companion Stuart McGregor he went to work with a bush saw and together they started to saw their way through a log. Here he took some steady banter from the photographers. 
 
-‘Look up, Prince Charles.’ |
+‘Look up, Prince Charles.’ 
 
 ‘What?’ (Puff, puff.)
 
@@ -143,9 +143,13 @@ The head master of Geelong Grammar, Mr T. R. Garnett, said ‘with splendid unde
 
 It was interesting to note that for the next roll call Prince Charles was magnificently on time.
  
-Soon afterwards our morning at Timbertop came to an end and the young Prince was left alone to become a schoolboy boarder. There were many rumours after this. We received calls that he
-would turn up at the Fifth cricket Test against’ England, that he would have a privileged position to watch the grand procession at Melbourne’s Moomba Festival, that he would go to football practice.
+Soon afterwards our morning at Timbertop came to an end and the young Prince was left alone to become a schoolboy boarder. There were many rumours after this. We received calls that he would turn up at the Fifth cricket Test against’ England, that he would have a privileged position to watch the grand procession at Melbourne’s Moomba Festival, that he would go to football practice.
+
 But there were no public viewings for Prince Charles. All journeyings that he made were kept very quiet. 
 
+<<<<<<< Updated upstream
 There was criticism. Some said that the newspapers hounded the Prince, that they swamped him in far too much publicity. I don’t agree with this. Already with large migration it can be argued and
 argued well that only half the population had any interest in the monarchy. It needs all the publicity and all the skilful public relations it can get. The day that the newspapers cease to take an interest in visiting members of the Royal Family then the monarchy is done.
+=======
+There was criticism. Some said that the newspapers hounded the Prince, that they swamped him in far too much publicity. I don’t agree with this. Already with large migration it can be argued and argued well that only half the population had any interest in the monarchy. It needs all the publicity and all the skilful public relations it can get. The day that the newspapers cease to take an interest in visiting members of the Royal Family then the monarchy is done.
+>>>>>>> Stashed changes

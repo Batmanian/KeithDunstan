@@ -8,11 +8,11 @@ tags:
   - Prince Philip
   - The Sun News-Pictorial
   - John Cahill 
-  - (Sir) Robert Menzies
+  - Sir Robert Menzies
   - Goorambat
   - 1956 Olympic Games
   - King Metakaka
-  - Papua new Guinea
+  - Papua New Guinea
   - Manus Island
   - Darwin
   - Ivan Fedorovich Skripov

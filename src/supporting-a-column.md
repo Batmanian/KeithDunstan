@@ -62,9 +62,9 @@ summary: Keith's first book of memoirs, published in 1990 cover his career in wr
                 </li>
                 <li>Chapter seven: <a href="{{ '/posts/supporting-a-column/7-essentially-worldy-columns/' | url }}">Essentially Worldly Columns</a>
                 </li>
-                <li>Chapter eight: Columns Produced Debonair Style</a>
+                <li>Chapter eight: <a href="{{ '/posts/supporting-a-column/8-columns-produced-debonair-style/' | url }}">Columns Produced Debonair Style</a>
                 </li>
-                <li>Chapter nine: Columns Secured on the Grapevine</a>
+                <li>Chapter nine: <a href="{{ '/posts/supporting-a-column/9-columns-secured-on-the-grapevine/' | url }}">Columns Secured on the Grapevine</a>
                 </li>
             </ul>
 
