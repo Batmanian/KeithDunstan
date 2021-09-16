@@ -70,7 +70,7 @@ method of hanging on to a taxi. Only two people who came here could be spontaneo
 Ustinov was the wittiest, most amusing man I have known. Furthermore he would ~ it down and talk to anyone. When he arrived he said: ‘You see, I'm a horrible mixture with a Russian grandfather, a German father who became English, an Argentine uncle, two American children and an Egyptian aunt. I've learned to sleep standing up through all sorts of national anthems.’
 
 He came to Australia to play the role of an English remittance man in the film version of Jon Cleary’s book The Sundowners. He was the one person who was completely happy on location at Cooma,
-| New South Wales. He spoke German to the German cook, French to his French driver and Yugoslav to the Yugoslavians. Yet all the rugged, dashing out-of-doors activities he found difficult. Robert
+New South Wales. He spoke German to the German cook, French to his French driver and Yugoslav to the Yugoslavians. Yet all the rugged, dashing out-of-doors activities he found difficult. Robert
 Mitchum, a veteran cowhand was a good rider, but Ustinov, alas, was lamentable. He looked miserable on a horse. He said, ‘It’s like ballet dancing something that one should learn when terribly
 young. I have only ridden once. I was playing General Grant, so naturally I assumed his character. I kept saying General-like things such as “Charge” and “Pass me a high-ball”. This impressed the
 horse and we got on rather well.’
@@ -122,7 +122,7 @@ Danny became serious for a moment and he said to the audience, ‘Don’t you se
 have said. I don’t understand their Russian. But we are all one here. This sort of thing can make the world a better place.’ 
 
 As the curtain came down he signalled to them all to come to his dressing room. What was I to.do? This was a good story, but he had declared that under no circumstances would he talk to any
-newspaper people. I hopped into the middle of the Bolshoi group, and trying to look terribly Russian went with them straight into the dressing room. |
+newspaper people. I hopped into the middle of the Bolshoi group, and trying to look terribly Russian went with them straight into the dressing room. 
 
 Danny looked very happy. Through the interpreter he said, “You know, I used to speak Russian once. I was the only member of our family that was born in America. All the rest of us were born in
 Russia. Where were you born? And you? And you?’ Mercifully he didn’t ask me. I would have had to have said ‘Melborn’.
@@ -136,7 +136,7 @@ Danny screwed up his face. ‘“The leg. It hurt. Almost twist right off.” Th
 'What could I do? I said: “Pliss, I in America. I try to talk Amier-KAHNNN.” »
 'Away he went in American. I said: “Pliss too fast. Too fast.” 
 Then he started to talk very slowly like an Indian. “Look ...I...
-doctor.” |
+doctor.” 
 
 “Ah, yes, I understand. You v doctor.” 
 “No, no, no, I . .. poctor.” ,
@@ -156,7 +156,7 @@ From all reports it was a wonderful party. The other memory of Danny Kaye was hi
 Before he departed he gave Sir Dallas Brooks a ten-gallon hat brought out especially from Dallas, Texas. Then all the time he was here Danny Kaye wore floppy, tweed hats, rather in the Henry
  Higgins style. The Prime Minister, Mr Menzies admired them when he had Danny to lunch at Admiralty House, Sydney. After he had gone back to the U.S. a parcel arrived in Canberra for the Prime Minister. Inside were two floppy hats in different sizes. Danny wasn’t sure of the size of the Prime Ministerial head.
 
-However we. have yet to see Sir Robert walking around looking like Danny Kaye or Henry Higgins. |
+However we. have yet to see Sir Robert walking around looking like Danny Kaye or Henry Higgins. 
 The most amiable, the most easy to please of all the visiting stars was Sophie Tucker. Never was there a lady so careful of her public relations. After she departed, there was a careful ‘thank-you’ for all the newspaper people and for whom almost every person she came in contact. She came here in June 1962 and ever since until she died in 1966 there has been the annual Sophie Tucker Christmas Card. I was not unique in this. Many others received them.
 
 She took four inter-connecting suites at Menzies — four double bedrooms, four bathrooms and two sitting rooms. She sent word that always she liked to have her main meal of the day served in the
@@ -232,10 +232,9 @@ Hughes.”
 
 ‘Billy replied, “Well, brother, as your friend is not a candidate,
 you can appease your conscience by giving your number two vote
-for me.”’ ' ' | - | o g
-~Sir Arthur said that his favourite Billy Hughes story was a true
+for me.”’ 
 
-incident that took place one night at the Hotel Canberra. ‘We were sitting there together in his room when the porter came in and said, “Mr Hughes, there’s a man in the lounge and he says you both humped bags together in Queensland and he wants five shillings for food and bed." "Very well,” said Billy, “bring them up and I'll seec whether they are worth it." Before I went in to see Sir Arthur, one of his friends said: ‘For Heaven’s sake, don’t forget to ask him about the Innisfail goat.’ “Actually it wasn’t Innisfail,” said Sir Arthur, ‘but, you see, in this North Queensland town, the Shire Clerk and the local Irish priest, a very popular man, were good friends. They used to meet every Friday. The Shire Clerk was secretary of the local Masonic Lodge.
+Sir Arthur said that his favourite Billy Hughes story was a true incident that took place one night at the Hotel Canberra. ‘We were sitting there together in his room when the porter came in and said, “Mr Hughes, there’s a man in the lounge and he says you both humped bags together in Queensland and he wants five shillings for food and bed." "Very well,” said Billy, “bring them up and I'll seec whether they are worth it." Before I went in to see Sir Arthur, one of his friends said: ‘For Heaven’s sake, don’t forget to ask him about the Innisfail goat.’ “Actually it wasn’t Innisfail,” said Sir Arthur, ‘but, you see, in this North Queensland town, the Shire Clerk and the local Irish priest, a very popular man, were good friends. They used to meet every Friday. The Shire Clerk was secretary of the local Masonic Lodge.
 
 
 The priest lived in one of those Queensland houses, up on stilts, and one day he called the Shire Clerk: “I am speaking to you in my ~ official capacity,” he said. “There’s a goat dead underneath the presbytery, and it is not improving with age. From its mean, hungry appearance, I'd say it escaped from the Temple.” “The Clerk replied, “As a member of the Church I understand it is your official duty to look after the burial of the dead. Why worry me?”
@@ -295,7 +294,7 @@ Not many people have ever been down there, but some of them have been very disti
 stons issue this astonishing invitation: ‘Would you like to go boating eighty feet under our homestead?’ 
 
 John Livingston told me this story. He didn’t mention any names, but one did not need any divine intuition to guess. He said, ‘A man who plays a major hand in looking after Australia’s affairs was
-visiting Mount Gambier. When he arrived the pipers were out, giving him a good Scottish greeting. As you know, in this limestone area they say that all the caves underground are connected. |
+visiting Mount Gambier. When he arrived the pipers were out, giving him a good Scottish greeting. As you know, in this limestone area they say that all the caves underground are connected. 
 
 ‘Our visitor was coming to see our underground lake so I hurried back first, and when he arrived at Benara I was already down below playing my bagpipes, and playing the same tune that the pipers
 had been playing in Mount Gambier. The tune could be heard coming up dimly through the hole in the ground. So Frank was able to say to the visitors: “There, you see, all the caves are connected.
@@ -307,7 +306,7 @@ John Livingston says that his grandmother dreamt that night there had been a wre
 ~ who reported there was no wreck. Soon after some sailors staggered ashore. The Admella went down with the loss of ninety-one lives. 
 
 John Livingston says his grandfather rode a horse to Mount Gambier to give the news to the telegraph. He rode it so hard that eventually it dropped dead between his knees. Adam Lindsay
-Gordon was working on the property at the time and the story is told in his poem From the Wreck. |
+Gordon was working on the property at the time and the story is told in his poem From the Wreck. 
 
 There is one story about the Livingstons which has never been told in ‘A Place in the Sun’. Every year on Melbourne Cup night at Menzies Hotel they hold Melbourne’s best and most famous party.
 This has been going on for more than twenty years, but no newspaper people, no social editors are ever invited. Often the Governor or the Governor-General is there, but the Livingstons want no
@@ -361,7 +360,7 @@ him at the airport for the second arrival. Perhaps he would not care for the com
 He was wearing a large badge in his buttonhole which read 'I WILL DOMINATE YOU'. ‘So useful,’ he said, ‘to wear in countries where the white races are in a minority.’ He promised also that he was having more badges made in the shape of a Returned Servicemen’s League rosette with the message KEEP VIETNAM YELLoW. ‘Ah yes, too many young fellows of my age are getting rifles put into their hands. I am arranging for a thousand or so of these. A good job, you know, reversible with the message in Vietnamese on the other side. I will apply to the Melbourne City Council for a button day in Collins Street. Then I will sell them on behalf of the Melbourne Grammar Building Fund . . . the old school.”
 
 ‘Two days later I tracked him down for lunch and he was in a more restful mood. He said: ‘I had a lot of trouble finding a name - for the new show. Would I call it the Oldaker-Sutherland Co., the
-Teen-Age Gladys Moncrieff? No, finally I settled for Excuse I— Another Nice Night's Entertainment.” He explained how part of the show was some execrably bad home movies of Mrs Everage in London. It was even rather difficult to find a professional photographer who could do them badly enough. | .
+Teen-Age Gladys Moncrieff? No, finally I settled for Excuse I— Another Nice Night's Entertainment.” He explained how part of the show was some execrably bad home movies of Mrs Everage in London. It was even rather difficult to find a professional photographer who could do them badly enough.  .
 
 I went all around London as Mrs Everage making this film,’ he said. “It’s a curious thing. Once I put on that dress I get the most extraordinary courage, I'll do anything. I particularly wanted to get our Sir Robert Menzies in the film, and, as you know, he was in London. 1 waited outside the Savoy, dressed as Mrs Everage, for two and a half hours. I nearly died with the cold. But I had my
 Australian flag and everybody at the Savoy was very impressed with this devotion. “You must be very loyal,” they said. The doorman gave me a place to stand out of the wind. His chauffeur said, “It’s
@@ -370,7 +369,7 @@ all the way off in his car. But, do you know the fellow who was doing the photog
 
 He said one of his objects was to make a full scale assault on public prejudices. His best gag ever was in 1962. He built up this 
 
-gag very carefully with painstaking care. He discussed a particular couple. He described the house where they lived; up high, wonderful view all around. If the show was in Sydney, he had this house right alongside the Catholic Bishop’s palace. Then he would say after a long pause: ‘Ahhh THEY get all the best spots don’t THEY?® And Barry said: ‘You would notice immediately the prejudice flow- |
+gag very carefully with painstaking care. He discussed a particular couple. He described the house where they lived; up high, wonderful view all around. If the show was in Sydney, he had this house right alongside the Catholic Bishop’s palace. Then he would say after a long pause: ‘Ahhh THEY get all the best spots don’t THEY?® And Barry said: ‘You would notice immediately the prejudice flow- 
 ing out, the feeling of relief like a boil being lanced. Then the prejudice would close up once more. I don’t think I will ever get a gag as good as that again.’ The worst experience was trying to control a television programme with him. It was like trying to manage a runaway railway train after - the engine driver had been shot by Indians. I had him on a Meez the Press after a very good lunch, followed by a very good dinner. He took over, utterly. He said his ambition was to do a musical about the Australian comedian ‘Mo’ Roy Rene. He would have the scene where Sir Benjamin Fuller gave ‘Mo’ the sack. Mo returned ‘ with his family several days later and asked for complimentary tickets for the show. Sir Benjamin sent out a message to say compli-
 mentaries were not available. Mo said to the attendant: “Tell Thir
 Benjamin I have a methage for him . . . just two words.’ ‘What message?’ 
@@ -382,7 +381,7 @@ Grammar boys have that nondescript look. Wesley mostly are Jewish and Chinese. X
 gasped because immediately he added on camera, ‘Never mind, you won’t have to cut that out of the tape. Nobody will know what it means.’
 
 He had an idea for the end of the programme. He would givea particularly oily oration to the Press, saying how marvellous we all were. Then I would walk up to him, and very slowly, very carefully,
-push a custard pie in his face. He would be left silent, magnificently a dignified, his face dripping. On the way to the studio he even prepared his own custard pie, according to the very best face-sticking, whole idea. |
+push a custard pie in his face. He would be left silent, magnificently a dignified, his face dripping. On the way to the studio he even prepared his own custard pie, according to the very best face-sticking, whole idea. 
 
 However Barry still went on with his oily oration. I finished by picking up a bunch of gladioli and in equally oily tones said: “Thank you, Mrs Everage, may we present you with these gladdies to take
 home?’ He pulled one out of the bunch, held it up and said: ‘And how looonnng is your gladdie?’ 
@@ -407,7 +406,7 @@ was exactly the same as before. Noel Hawken put it well in the Melbourne Herald:
 The Miss International competition was extremely heady stuff. The official prospectus read: “The greatest beauty pageant of all time with the richest non-commercial stakes . . .’ and “The greatest international event of its kind in the modern history of the world’ Furthermore the organizers promised to give the girls ‘the ten most glorious days of their lives’.
 
 Miss International, said this prospectus, was crowned with a crown ‘designed and created’ by Dr James J. Boutross of Los Angeles. It was made of solid gold and platinum and contained over 1000
-oriental, cultured and black pearls. The doctor estimated its value at one million dollars. |
+oriental, cultured and black pearls. The doctor estimated its value at one million dollars. 
 
 I called Tania on the telephone when the competition was half over. She had just returned from the International Beauty Parade along Ocean Boulevard, which was viewed by a million people. The girls had to wear their national dress while riding upon great floats, and the spectators put in their votes for the ‘Most Popular Girl’ award. Tania, as her national costume, wore a yellow dress with a
 boomerang of Australian flowers on it. 
@@ -424,7 +423,7 @@ Q: What do you think of your chances?
 A:-Oh no, I haven’t a chance at all. ’
 Q: Surely you don’t mean it? 
 A: I do. I'm so far behind, I wish I was home.
-O: What are the girls like? |
+O: What are the girls like? 
 A: They’re just so beautiful. Gorgeous figures, lovely legs. I wish you could be here to see them. -
 
 Two days later Tania was crowned Miss International. Immediately on her return to Australia she appeared on the HSV7 Meet the Press programme in Melbourne. That day I was a sort of deputy acting chairman of the panel and I was terrified. Tania, on the other hand, was completely cool, unworried and confident. I had expected that she would arrive at HSV7 in a large car with a grand escort of
@@ -457,10 +456,10 @@ politicians and of businessmen so that in the result they found it easier to agr
 
 The truth is that she is one of those advocates who not only persuade you that they are right but leave you faintly ashamed to have thought temporarily that they might have been wrong.’ - Dame Mabel was the daughter of the late Harry Emmerton, an equity lawyer, and the late Alice Mabel Maude Emmerton, CBE. She - was taught mainly by governesses, except that she went to a kindergarten called Miss Templeton’s School, in Shipley Street, South Yarra. R. G. Casey Snr. owned the property, and one of the pupils was R. G. Casey Jnr., later to be Governor-General of Australia.
 Dame Mabel said one time, disarmingly, ‘Dickie Casey was a very nice little boy’. The Brookes have spent their lives at three houses — ‘Kurneh’, ‘Elm Tree’ a few doors up at the corner of Walsh Street, and ‘Cliff - House’, a century old wooden house overlooking the Bay at Mount Eliza. ‘Kurneh’ was sold for a block of flats for a reported £100,000. During the two world wars it was a hospital and during the filming of On the Beach it was a home for the Gregory Pecks. When 1 called
-on Dame Mabel in 1963 for material for a column she was living at ‘Elm Tree’, a lovely old house packed with Persian rugs, Regency French furniture and a book collection to make lovers of Australiana almost sob with envy. -
+on Dame Mabel in 1963 for material for a column she was living at ‘Elm Tree’, a lovely old house packed with Persian rugs, Regency French furniture and a book collection to make lovers of Australiana almost sob with envy. 
 
 Dame Mabel was prepared to talk about anything. On tennis: ‘Expenses? There was no such thing when Norman started. When he went overseas his father wouldn’t pay for it. Norman had to save up. When Norman and Tony Wilding won the Davis Cup they had to pay themselves to bring it back in their luggage. It made me laugh the other day when I read of all the security measures to look after it. We had it on our sideboard for years. You know the size of the thing. Big as a bath. It looked awful. I was glad when they took it away. Though the last time we had it here —I think we had
-the Frank Clarkes to dinner —1 filled it with peonies and it looked very nice.
+the Frank Clarkes to dinner  filled it with peonies and it looked very nice.
 
 Dame Mabel’s great-grandfather, William Balcombe, as Naval Agent and Purveyor for the East India Company, was host to Napoleon during his first few months of exile on St Helena. Napoleon is one of her favourite topics. She bought two houses on St Helena, had them preserved, and presented them to the French nation. ‘Can you imagine the problems?’ she said. ‘Here I was an Australian, who wanted to buy some property in an English colony to give to the French Government. It took a year to go through and it had to go all the way to the British Cabinet for approval.
 

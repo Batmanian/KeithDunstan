@@ -56,9 +56,9 @@ summary: Keith's first book of memoirs, published in 1990 cover his career in wr
                 </li>
                 <li>Chapter four: <a href="{{ '/posts/supporting-a-column/4-columns-on-hm-and-hrh' | url }}">Columns on H.M. and H.R.H</a>
                 </li>
-                <li>Chapter five: The Columns on the Road to Timbertop</a>
+                <li>Chapter five: <a href="{{ '/posts/supporting-a-column/5-the-columns-on-the-road-to-timbertop' | url }}">The Columns on the Road to Timbertop</a>
                 </li>
-                <li>Chapter six: Strictly Personal Columns</a>
+                <li>Chapter six: <a href="{{ '/posts/supporting-a-column/6-strictly-personal-columns' | url }}">Strictly Personal Columns</a>
                 </li>
                 <li>Chapter seven: Worldly Columns</a>
                 </li>
