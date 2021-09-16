@@ -24,11 +24,11 @@ Many an old boy raised an eyebrow at the statement that never had there been any
 
 *Tempo* replied: ‘It is hoped that the report from an unnamed 0GG in London is already known to be untrue from the reports of work in New Guinea, in the Church, in the arts and the thousands of other little things that OGG boys have done. There are very few "rich” boys here, some families are well off, others are sacrificing a lot to send their sons to a place that has Timbertop.’ Nobody, particularly the Palace, quite estimated the curiosity value of the visit to Australia by Prince Charles. A jolly popular song even came on the market. It carried no mention of Geelong Grammar or Prince Charles, but there was no question regarding the source of the inspiration. The song depicted life at Timbertop as pure bliss and described it as ‘a bush-like paradise beneath the skies’. It contained such lines as:
 
-    *Life is gay and free 
-    *Full of harmony
-    *Everyone is so kind 
-    *You will find peace of mind
-    *Here at Timbertop. 
+*Life is gay and free*<br>
+*Full of harmony*<br>
+*Everyone is so kind* <br>
+*You will find peace of mind*<br>
+*Here at Timbertop.*<br>
 
 One could imagine poor little Geelong Grammar boys singing it to themselves somewhere around the sixteenth mile of their marathon through the bush.
 
@@ -147,9 +147,4 @@ Soon afterwards our morning at Timbertop came to an end and the young Prince was
 
 But there were no public viewings for Prince Charles. All journeyings that he made were kept very quiet. 
 
-<<<<<<< Updated upstream
-There was criticism. Some said that the newspapers hounded the Prince, that they swamped him in far too much publicity. I don’t agree with this. Already with large migration it can be argued and
-argued well that only half the population had any interest in the monarchy. It needs all the publicity and all the skilful public relations it can get. The day that the newspapers cease to take an interest in visiting members of the Royal Family then the monarchy is done.
-=======
 There was criticism. Some said that the newspapers hounded the Prince, that they swamped him in far too much publicity. I don’t agree with this. Already with large migration it can be argued and argued well that only half the population had any interest in the monarchy. It needs all the publicity and all the skilful public relations it can get. The day that the newspapers cease to take an interest in visiting members of the Royal Family then the monarchy is done.
->>>>>>> Stashed changes
