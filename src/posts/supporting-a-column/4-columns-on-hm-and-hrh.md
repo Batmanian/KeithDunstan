@@ -26,6 +26,9 @@ tags:
   - Henry James O'Farrell
   - Alice Springs
   - Katherine, N.T.
+  - Hamilton Downs Station
+  - Kununurra
+  - Ord River
 ---
 
 Maybe never again will we see a Royal Visit like that of 1954. The Queen and her Prince were both young, both very handsome and there was a sort of mystic curiosity about them. It became terribly important to see them with one’s eyes, to verify for oneself that they really existed. So it became a competitive game to see the Queen. ‘The Sun News-Pictorial' reported that many women saw the Queen fourteen or fifteen times, but it was a man, Mr W. K. Bartel, of North Balwyn, who broke their record. An amateur photographer, he saw the Queen twenty-two times. 
