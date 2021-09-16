@@ -103,7 +103,7 @@ Pancho won the first set 6-3, and it was 7-7 in the second set. Things couldn't 
 I was about to say something when Frank Doczy gripped my arm. He said nothing and gave Pancho a lovely, mysterious Mona Lisa smile. So that's how I learned to be a tennis linesman . . . never concede anything, give only mysterious Mona Lisa smiles. If we made any mistakes that night we made them with fearless impartiality. Pancho won that last set 8-6. 
 
 
-The linesman job was interesting, but if I could call on the gods to give me some special gift I would ask to be a great tenor. It is always the tenor who finishes up with the girl, and the tenors always look so immensely happy when singing. I was determined somehow or other to get into opera and Stefan Haag of the Elizabethan Theatre Trust finally agreed to give me a job in the chorus of Lohengrin at Melbourne's 'Her Majesty's Theatre'. 
+The linesman job was interesting, but if I could call on the gods to give me some special gift I would ask to be a great tenor. It is always the tenor who finishes up with the girl, and the tenors always look so immensely happy when singing. I was determined somehow or other to get into opera and Stefan Haag of the Elizabethan Theatre Trust finally agreed to give me a job in the chorus of Lohengrin at Melbourne's Her Majesty's Theatre. 
 
 Mr Haag, however, was particularly cruel. He said: 'All right, I let you do this on one condition and one condition only ... that you don't sing. I shall expect you to open your mouth at the right times, but not a sound must come forth from your lips. But for heaven's sake look as if you're singing. One couldn't help but feel deeply about this because opportunities to sing with the Victorian Symphony Orchestra come all too rarely.
 
