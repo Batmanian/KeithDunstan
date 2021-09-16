@@ -115,7 +115,7 @@ The ball took place at Cloudland. This is a dance hall right on the pinnacle of 
 
 Cloudland was made most handsome with 30,000 blooms and Mr C.A.M. Reid, a koala expert, brought along six koala bears from his Lone Pine Sanctuary and installed them in a special bush house by the dais. One distinguished koala, Rex, had already been formally introduced to the Queen Mother on the last tour.
 
-The ball was an agony. Now remember, Princess Alexandra at this time was only twenty-two. They put her on a stage while the guests, 1,200 of them, were down below. They were in a fine strategic position to stare unmercifully all the evening. The entertainment consisted chiefly of a soprano who sang 'Paradise in Waltz Time' and a baritone who sang 'The English Rose From Merry England'. 
+The ball was an agony. Now remember, Princess Alexandra at this time was only twenty-two. They put her on a stage while the guests, 1,200 of them, were down below. They were in a fine strategic position to stare unmercifully all the evening. The entertainment consisted chiefly of a soprano who sang *Paradise in Waltz Time* and a baritone who sang *The English Rose From Merry England*. 
 
 Also there was the great presentation line up. She had to shake hands with the Privy Councillors and their wives, the judiciary and their wives, the clergy and their wives and the parliamentarians and their wives. This went on for an interminable period. Some talk of Alexandra and some of Hercules. By the time she faced the *Scleropages Leichardti* she had undoubtedly earned her nourishment.
 
