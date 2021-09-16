@@ -7,6 +7,11 @@ title: About this site
 <hr/><p class="lead">This site is being developed as repository for Keith's writing.</p>
 <p>For copyright requests, suggestions, edits or contributions, <a href="mailto:keith@dunsta.net"> please email us. </a><br>
 <a href="https://twitter.com/keith_dunstan">Follow content updates</a> on this site via twitter.
+<p>Contributors:
+<ul><li>David Dunstan </li>
+<li>Isabel Dunstan</li>
+<li>Jack Dunstan</li>
+</ul>
 
 <h3>Statistics on this site, past 12 months</h3>
 <p><small>This site was launched in September 2021</p> 
