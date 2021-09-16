@@ -37,7 +37,7 @@ But there has been a theatre on this Tivoli site back to the 1850s, and it has o
 
 Originally the Tiv was the Varieties Music Hall and it was here in the golden 'fifties that the excited diggers threw their nuggets on the stage.  Next it became the Alhambra, then the Opera House, and in 1900 (Dammit, you've guessed already) it was burnt down.
 
-Harry Rickard, the marvellous comic singer and entrepreneur, rebuilt it for ₤13,000.  The ‘Argus’ purred about the glories of the new Opera House.  It wasn't Renaissance like every other piece of architecture in town; it was Moorish with splendid Moorish arches.  There were spandrels, there were arabesques, there was a gold dado and the walls were hung with handsome gold paper richly embosser with flowers.  On the way to the dress circle there were ferns and a fountain.
+Harry Rickard, the marvellous comic singer and entrepreneur, rebuilt it for ₤13,000.  The *‘Argus’* purred about the glories of the new Opera House.  It wasn't Renaissance like every other piece of architecture in town; it was Moorish with splendid Moorish arches.  There were spandrels, there were arabesques, there was a gold dado and the walls were hung with handsome gold paper richly embosser with flowers.  On the way to the dress circle there were ferns and a fountain.
 
 Furthermore, the carpet was the same as the Duke and Duchess of Cornwall and York used in the Ophir on their Royal visit, no less.
 
