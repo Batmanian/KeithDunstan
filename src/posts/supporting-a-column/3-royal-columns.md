@@ -64,7 +64,7 @@ One couldn’t estimate how many roads have been constructed, how many holes fil
 Cities that have had long and frequent royal processions, covering many suburbs, have cause to be grateful. Canberra always gets the most royal processions with the result that the capital gets the most paint, the greatest number of new trees and the best roads. My favourite story goes back to the Royal Tour of 1954. Brisbane has never been an enthusiastic town for paint, and this was causing the city fathers much worry. Before the Royal Tour they urged the citizens to paint their houses and to spruce up their gardens, particularly those along the Royal route from the Eagle Farm airport to the city. There was one character who didn’t do anything. He didn’t paint his house nor did he clean up his garden. Official representations made no difference. On Royal arrival eve he had a touch of conscience. He took out his lawn mower and in the long grass of the
 sloping front lawn he mowed.
 
-                                                                                E II R
+                                                                          E II R
 
 Of course, Royal Tours vary. The happiest tour was that of the Queen Mother in the summer of 1958. I don’t think there was a single newspaperman who didn’t fall for this lady. Even the toughest of us found ourselves writing sentimental things about her. She always gave the impression that this wasn’t just duty. She loved doing it and she loved people. Instinctively she knew what to do. 
 
