@@ -2,6 +2,8 @@
 title: When Flappers Fluttered Through the Flames’ 
 date: 1964-03-14
 summary: First published in the Bulletin Magazine, 1964
+categories:
+- The Bulletin
 tags:
   - Elizabeth Taylor
   - Frank Thring Snr

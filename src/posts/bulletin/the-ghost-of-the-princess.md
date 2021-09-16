@@ -2,6 +2,8 @@
 title: The Ghost of the Princess 
 date: 1967-12-30
 summary: First published in the Bulletin Magazine, 1967.
+categories:
+- The Bulletin
 tags:
   - Melbourne
   - Princess Theatre

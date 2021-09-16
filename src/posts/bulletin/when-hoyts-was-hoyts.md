@@ -2,6 +2,8 @@
 title: When Hoyts was Hoyts
 date: 1963-07-27
 summary: First published in the Bulletin Magazine, 1963.
+categories:
+- The Bulletin
 tags:
   - Arthur Russell
   - Buster Keaton

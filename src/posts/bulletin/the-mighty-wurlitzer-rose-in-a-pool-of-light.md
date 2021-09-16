@@ -2,6 +2,8 @@
 title: The Mighty Wurlitzer Rose in a Pool of Light.  
 date: 1966-04-09
 summary: First published in the Bulletin Magazine, 1966.
+categories:
+- The Bulletin
 tags:
   - Bourke Street
   - Regent Theatre

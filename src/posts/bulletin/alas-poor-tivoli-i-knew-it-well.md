@@ -2,6 +2,8 @@
 title: Alas, poor Tivoli, I knew it well.
 date: 1967-04-15
 summary: First published in the Bulletin Magazine, 1967.
+categories:
+- The Bulletin
 tags:
   - Tivoli theatre
   - Bourke Street

@@ -2,6 +2,8 @@
 title: The Capitol and ‘The World's Mightiest Spectacle.’ 
 date: 1964-01-25
 summary: First published in the Bulletin Magazine, 1964
+categories:
+- The Bulletin
 tags:
   - Cecil B. de Mille
   - Eric Westbrook
