@@ -12,44 +12,27 @@ tags:
   - Sir Robert Menzies
 ---
 
-Why did Prince Charles come to Australia? At first sight it seemed a splendid idea. Here was a grand plan for the young prince to get to know the Commonwealth and for the Commonwealth to get to
-know him. But there were some inexplicable factors. Great lengths were taken not to show him to the general public and he was sent to Timbertop.
+Why did Prince Charles come to Australia? At first sight it seemed a splendid idea. Here was a grand plan for the young prince to get to know the Commonwealth and for the Commonwealth to get to know him. But there were some inexplicable factors. Great lengths were taken not to show him to the general public and he was sent to Timbertop.
 
-Timbertop is a division of Geelong Grammar School in the Australian Alps, 140 miles from Melbourne. It provides a blending of serious study with the ‘Outward Bound’ style of life — running,
-skiing, hiking, bush lore. Geelong Grammar boys go there for one year in the sub-intermediate grade. In other words it is for fifteen-year-olds. So why was Prince Charles going there? He was seventeen. Even members of the Geelong Grammar School council were mystified. Geelong Grammar School itself was not exactly in the “centre of a city. It was at Corio Bay, where also there was much outdoor activity, including running, sailing and hiking. Why not send him there, where he could mix with seventeen-year-olds who were studying at the same level?
+Timbertop is a division of Geelong Grammar School in the Australian Alps, 140 miles from Melbourne. It provides a blending of serious study with the ‘Outward Bound’ style of life — running, skiing, hiking, bush lore. Geelong Grammar boys go there for one year in the sub-intermediate grade. In other words it is for fifteen-year-olds. So why was Prince Charles going there? He was seventeen. Even members of the Geelong Grammar School council were mystified. Geelong Grammar School itself was not exactly in the centre of a city. It was at Corio Bay, where also there was much outdoor activity, including running, sailing and hiking. Why not send him there, where he could mix with seventeen-year-olds who were studying at the same level?
 
-No, we were told, Prince Charles at Timbertop would have a supervisory status. Whatever his status, an artificial situation had to be created for him. Boys who had already left school came back to
-Timbertop to be his companions. And although he was to live with the boys he had his special guard and technicians put in a direct link from Timbertop to Canberra.
+No, we were told, Prince Charles at Timbertop would have a supervisory status. Whatever his status, an artificial situation had to be created for him. Boys who had already left school came back to Timbertop to be his companions. And although he was to live with the boys he had his special guard and technicians put in a direct link from Timbertop to Canberra.
 
-The result of all this was an intense curiosity about Prince Charles and about Geelong Grammar. The school began to suffer with all the publicity, and the school magazine Tempo printed what was
-virtually a Prince Charles issue. There was half a page devoted to ‘fallacies shown in the Australian Press, and others’. It said 
+The result of all this was an intense curiosity about Prince Charles and about Geelong Grammar. The school began to suffer with all the publicity, and the school magazine Tempo printed what was virtually a Prince Charles issue. There was half a page devoted to ‘fallacies shown in the Australian Press, and others’. It said (1) there is no fagging at the school, never has been any and never will be any; (2) only five boys, the school and house captains, are allowed 'the privilege of caning incessant trouble-makers; (3) Prince Charles - will not be treated as a typical boy at Timbertop; he will be - subordinate to the masters only and will be supervising the boys; (4) He only has to get up for breakfast at 7.30; (5) he doesn’t have to perform any menial tasks, and cannot undergo an initiation ceremony that has never existed; (6) Timbertop boys do two three mile cross-country runs a week and a seventeen-mile marathon at the end of the year; (7) the meals are far above the standard of incessant mincemeat and eggs.
 
-1) there is no fagging at the school, never has been any and never will be any; 
-2) only five boys, the school and house captains, are allowed ' the privilege of caning incessant trouble-makers; 
-3) Prince Charles - will not be treated as a typical boy at Timbertop; he will be - subordinate to the masters only and will be supervising the boys;
-4) He only has to get up for breakfast at 7.30; 
-5) he doesn’t have to perform any menial tasks, and cannot undergo an initiation | ceremony that has never existed; 
-6) 6) Timbertop boys do two three mile cross-country runs a week and a seventeen-mile marathon at the end of the year; 
-7) the meals are far above the standard of incessant mincemeat and eggs.
+Many an old boy raised an eyebrow at the statement that never had there been any fagging. Perhaps they meant Timbertop only. But the line that really hurt came from an unnamed Old Geelong Grammarian which appeared in the Londoner’s Diary page of the *Evening Standard*. 'Within two seconds of a Geelong boy coming into a room at a party in Australia you can tell that he went to Geelong largely because they’re so very arrogant. I know I was. They’re very distinctive, and often not much liked. All of the parents have to be loathsomely rich to send their boys there. Except mine, of course,' the old boy said. 
 
-Many an old boy raised an eyebrow at the statement that never had there been any fagging. Perhaps they meant Timbertop only. But the line that really hurt came from an unnamed Old Geelong Grammarian which appeared in the Londoner’s Diary page of the Evening Standard. “Within two seconds of a Geelong boy coming into a room at a party in Australia you can tell that he went to
-Geelong largely because they’re so very arrogant. I know I was. 
+*Tempo* replied: ‘It is hoped that the report from an unnamed 0GG in London is already known to be untrue from the reports of work in New Guinea, in the Church, in the arts and the thousands of other little things that OGG boys have done. There are very few "rich” boys here, some families are well off, others are sacrificing a lot to send their sons to a place that has Timbertop.’ Nobody, particularly the Palace, quite estimated the curiosity value of the visit to Australia by Prince Charles. A jolly popular song even came on the market. It carried no mention of Geelong Grammar or Prince Charles, but there was no question regarding the source of the inspiration. The song depicted life at Timbertop as pure bliss and described it as ‘a bush-like paradise beneath the skies’. It contained such lines as:
 
-They’re very distinctive, and often not much liked. All of the parents have to be loathsomely rich to send their boys there. Except mine, of course,” the old boy said. Tempo replied: ‘It is hoped that the report from an unnamed 0.6.6. in London is already known to be untrue from the reports of
-- work in New Guinea, in the Church, in the arts and the thousands of other little things that 0.6.6.s. boys have done. There are very few “rich” boys here, some families are well off, others are sacrificing a lot to send their sons to a place that has Timbertop.’ Nobody, particularly the Palace, quite estimated the curiosity value of the visit to Australia by Prince Charles. A jolly popular song even came on the market. It carried no mention of Geelong Grammar or Prince Charles, but there was no question regarding the source of the inspiration. The song depicted life at Timbertop as pure bliss and described it as ‘a bush-like paradise beneath the skies’. 
- 
-It contained such lines as:
-Life is gay and free 
-Full of harmony
-Everyone is so kind 
-You will find peace of mind
-Here at Timbertop. 
+    *Life is gay and free 
+    *Full of harmony
+    *Everyone is so kind 
+    *You will find peace of mind
+    *Here at Timbertop. 
 
 One could imagine poor little Geelong Grammar boys singing it to themselves somewhere around the sixteenth mile of their marathon through the bush.
 
-Even Paris Match despatched a reporter and photographer to Australia to cover the tour. No doubt the French sensed some sort of a plot. There had to be other reason for Charles’ banishment to
-the Antipodes: une affaire du coeur, or with the departure of Sir Robert Menzies was the monarchy in jeopardy? The arrival of Prince Charles was timed perfectly to cement Commonwealth
-relations with the new Prime Minister, Harold Holt.
+Even *Paris Match* despatched a reporter and photographer to Australia to cover the tour. No doubt the French sensed some sort of a plot. There had to be other reason for Charles’ banishment to the Antipodes: une affaire du coeur, or with the departure of Sir Robert Menzies was the monarchy in jeopardy? The arrival of Prince Charles was timed perfectly to cement Commonwealth relations with the new Prime Minister, Harold Holt.
 
 Paris Match did not find the assignment an easy task. Nor did I. After spending twenty years trailing after three generations of royalty never was it so tough to get a story. Perhaps one day Buckingham Palace will appoint for an Australian tour an aide who is not a retired serviceman, but someone who knows newspapers, radio and television, who understands the strange behaviour of these
 people, who understands even more what publicity can do and can not do, for the monarchy . .. perhaps.
