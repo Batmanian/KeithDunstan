@@ -60,7 +60,7 @@ summary: Keith's first book of memoirs, published in 1990 cover his career in wr
                 </li>
                 <li>Chapter six: <a href="{{ '/posts/supporting-a-column/6-strictly-personal-columns' | url }}">Strictly Personal Columns</a>
                 </li>
-                <li>Chapter seven: Worldly Columns</a>
+                <li>Chapter seven: <a href="{{ '/posts/supporting-a-column/7-essentially-worldy-columns/' | url }}">Essentially Worldly Columns</a>
                 </li>
                 <li>Chapter eight: Columns Produced Debonair Style</a>
                 </li>
