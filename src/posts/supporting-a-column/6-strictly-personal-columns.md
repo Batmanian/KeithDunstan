@@ -73,7 +73,9 @@ Charlton Heston was another good man for an interview. He could talk expressivel
 However, while talking to Mr Heston, a *Sun* photographer, Graham Walsh, conducted a much better interview with his five-year-old son, Fraser.   
 
    *Fraser*: Do you know why my Daddy’s going to let me see the chariot race? Because I was there when he made it. He had that race over and over again and he won every single      time. 
+   
    *Walsh*: Your father must be the best chariot racer in the world. 
+   
    *Fraser*: Yair. ... Yair, I guess he must be.
 
 Comedians make good interviews, but not for light entertainment. Usually they are lugubrious people. I remember expecting great things of Irene Handl, Irene of the *Rag Trade*, Irene of *Hancock’s ‘Half Hour*, Irene of so many Peter Sellers’ films. She turned out to be an earnest little body in a tweed suit who could talk very well indeed, but no humour, except for one thing. She had just broken her wrist and across the plaster cast she had written ‘Not to be opened until Christmas’.
