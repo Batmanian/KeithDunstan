@@ -3,15 +3,22 @@ title: Strictly personal columns
 date: 1966-11-11
 summary: The sixth chapter of Keith's second book, 'Supporting a column'.
 tags:
-  - Herald and Weekly Times
+  - Herald and Weekly Times Ltd
   - Frank Sinatra
+  - Ava Gardner
+  - *On the Beach*, film
+  - Walter Chiari
+  - *They're a Weird Mob*, film
   - Charlton Heston
+  - *Ben Hur*, film
   - Graham Walsh
+  - Irene Handl
   - Margaret Rutherford
   - Peter Ustinov
-  - Marlene Deitrich
+  - Marlene Dietrich
   - Danny Kaye
-  - Sir Dallas Brooks
+  - Bolshoi Ballet
+  - Sir Dallas Brooks, Governor
   - Sir Robert Menzies
   - Sophie Tucker
   - The Beatles
@@ -28,55 +35,41 @@ tags:
   - Harry Emmerton
 ---
 
-There used to be an old Chief of Staff in Melbourne who had a contempt for all stories that were gathered on the telephone. His favourite saying was: ‘I only like reporters that have mud on their
-boots.” Column writing is no different. It is difficult to write a daily column by warming an office seat. Indeed in the interests of journalism we could even create a ‘Newton’ law of non-motion: “The greater the seat-warming the greater the brilliance of mind and imagination necessary to maintain a column.’ No doubt the very clever and the very creative can fill a space every day without seeing anyone, but not lesser mortals.
+There used to be an old Chief of Staff in Melbourne who had a contempt for all stories that were gathered on the telephone. His favourite saying was: ‘I only like reporters that have mud on their boots.” Column writing is no different. It is difficult to write a daily column by warming an office seat. Indeed in the interests of journalism we could even create a ‘Newton’ law of non-motion: 'The greater the seat-warming the greater the brilliance of mind and imagination necessary to maintain a column.’ No doubt the very clever and the very creative can fill a space every day without seeing anyone, but not lesser mortals.
 
 So the keen columnist should always try to be where things are happening, whether it be a Davis Cup Challenge Round, a flood or a crash on the Stock Exchange. But most important of all, he should see people, lots of them. He should watch names on hotel lists, he should keep in touch with the airlines, the shipping companies, the theatres.
 
-It is far from easy. Some people adore to be interviewed. Others hate it and have a strange terror of seeing their name in the newspapers. The worst type of all is the grand theatrical, who has been
-interviewed 20,000 times and has become arrogant with the years. Usually they have been married a little too often, they have too many soft spots, and they have a natural aversion to the whole interview process. I remember interviewing Frank Sinatra back stage at the Paramount Theatre on Broadway, New York. The year was 1951 and Frankie had passed ‘the swoon’ era. No longer did the teenagers pass out in the aisles and Frankie was trying to kick off on a new career. He was patient, charming and even prepared to talk to a reporter who had come from 10,000 miles out of town, if it meant publicity somewhere. Ten years later, at the peak of his success, he was a very different fellow, a man who could be abusive and threatening. There were several newspapermen in Sydney who were lucky to escape his fists. 
+It is far from easy. Some people adore to be interviewed. Others hate it and have a strange terror of seeing their name in the newspapers. The worst type of all is the grand theatrical, who has been interviewed 20,000 times and has become arrogant with the years. Usually they have been married a little too often, they have too many soft spots, and they have a natural aversion to the whole interview process. I remember interviewing Frank Sinatra back stage at the Paramount Theatre on Broadway, New York. The year was 1951 and Frankie had passed ‘the swoon’ era. No longer did the teenagers pass out in the aisles and Frankie was trying to kick off on a new career. He was patient, charming and even prepared to talk to a reporter who had come from 10,000 miles out of town, if it meant publicity somewhere. Ten years later, at the peak of his success, he was a very different fellow, a man who could be abusive and threatening. There were several newspapermen in Sydney who were lucky to escape his fists. 
 
-Actually theatrical people could be disappointing. We would bank too much on the idea that because they were splendid on screen or stage, they could also provide fascinating thoughts for the news-
-papers. Robert Mitchum was laconic, morose. It was almost impossible to get through to him. Ava Gardner said little that was worth recording, but she was somewhat spectacular in other ways. When in Melbourne for On the Beach she travelled everywhere in a two-tone fawn Bentley, scarf over her head and usually dark glasses. When she did the bathing scene at Canadian Bay she had her caravan parked by the yacht club; less than 100 yards from the jetty. When the production team needed her on the set they put a call over the loudspeaker. There was a large American car by the caravan, but Miss Gardner did not want that. She called for her own two-tone Bentley.
+Actually theatrical people could be disappointing. We would bank too much on the idea that because they were splendid on screen or stage, they could also provide fascinating thoughts for the newspapers. Robert Mitchum was laconic, morose. It was almost impossible to get through to him. Ava Gardner said little that was worth recording, but she was somewhat spectacular in other ways. When in Melbourne for *On the Beach* she travelled everywhere in a two-tone fawn Bentley, scarf over her head and usually dark glasses. When she did the bathing scene at Canadian Bay she had her caravan parked by the yacht club; less than 100 yards from the jetty. When the production team needed her on the set they put a call over the loudspeaker. There was a large American car by the caravan, but Miss Gardner did not want that. She called for her own two-tone Bentley.  The Bentley rolled in, Miss Gardner stepped into the back, and drove the 100 yards to the jetty. 
 
-The Bentley rolled in, Miss Gardner stepped into the back, and drove the 100 yards to the jetty. 
-Some, on the other hand, liked to talk, and were very good at it. One of these was Walter Chiari, the smooth Italian comedian, a genuine screen idol in his homeland. He was everything an Italian
-should be — warm, ebullient, friendly. He came to Australia to play, Nino Culotta, the Italian migrant in the film version of They're a Weird Mob. He had an instinctive understanding of what would make a good line in a newspaper interview. He said that wherever he went in Australia he would be mobbed by Italians. He had just been to lunch at an Italian restaurant in Kings Cross, Sydney. All the time he was eating his spaghetti Italians came up wanting to shake his hand, or to get his autograph. 
+Some, on the other hand, liked to talk, and were very good at it. One of these was Walter Chiari, the smooth Italian comedian, a genuine screen idol in his homeland. He was everything an Italian should be — warm, ebullient, friendly. He came to Australia to play, Nino Culotta, the Italian migrant in the film version of *They're a Weird Mob*. He had an instinctive understanding of what would make a good line in a newspaper interview. He said that wherever he went in Australia he would be mobbed by Italians. He had just been to lunch at an Italian restaurant in Kings Cross, Sydney. All the time he was eating his spaghetti Italians came up wanting to shake his hand, or to get his autograph. 
 
-‘You know the trouble with this country?’ he said.  
+  ‘You know the trouble with this country?’ he said.  
 
-‘No.'
+  ‘No.'
 
-‘It’s too full of bloody Eyeties.’ -
+  ‘It’s too full of bloody Eyeties.’ -
 
-Charlton Heston was another good man for an interview. He could talk expressively of all his experiences in heroic Biblical dramas, of the eating of Christians, and most particularly and most
-enthusiastically of chariot races. He came to Melbourne for the premiere of Ben Hur. 
+Charlton Heston was another good man for an interview. He could talk expressively of all his experiences in heroic Biblical dramas, of the eating of Christians, and most particularly and most enthusiastically of chariot races. He came to Melbourne for the premiere of *Ben Hur*. 
 
-However, while talking to Mr Heston, a Sun photographer, ~ Graham Walsh, conducted a much better interview with his five year old son, Fraser. -  
+However, while talking to Mr Heston, a *Sun* photographer, Graham Walsh, conducted a much better interview with his five-year-old son, Fraser.   
 
-Fraser: Do you know why my Daddy’s going to let me see the chariot race? Because I was there when he made it. He had that race-over and over again and he won every single time. :
+  *Fraser*: Do you know why my Daddy’s going to let me see the chariot race? Because I was there when he made it. He had that race over and over again and he won every single time. 
 
-Walsh: Your father must be the best chariot racer in the world. 
+  *Walsh*: Your father must be the best chariot racer in the world. 
 
-Fraser: Yair. ... Yair, I guess he must be. -
+  *Fraser*: Yair. ... Yair, I guess he must be.
 
-Comedians make good interviews, but not for light entertainment. Usually they are lugubrious people. I remember expecting great things of Irene Handl, Irene of the Rag Trade, Irene of Hancock’s ‘Half Hour, Irene of so many Peter Sellers’ films. She turned out to j be an earnest little body in a tweed suit who could talk very well  indeed, but no humour, except for one thing. She had just broken * her wrist and across the plaster cast she had written ‘Not to be
-a opened until Christmas’.
+Comedians make good interviews, but not for light entertainment. Usually they are lugubrious people. I remember expecting great things of Irene Handl, Irene of the *Rag Trade*, Irene of *Hancock’s ‘Half Hour*, Irene of so many Peter Sellers’ films. She turned out to be an earnest little body in a tweed suit who could talk very well indeed, but no humour, except for one thing. She had just broken her wrist and across the plaster cast she had written ‘Not to be opened until Christmas’.
 
-Nor was Margaret Rutherford the hilarious. character one expected. It was satisfying to note that her magnificent, all-defying chin was just as magnificent in the flesh, but she turned out to be
-a gentle, charming person, not ‘a character’. She impressed Melburnians because every morning, along with her husband, Stringer Davis, she would go for a swim at the Middle - Brighton baths. They would travel from their hotel to the baths by taxi, then they would ask the taxi driver to come for a swim too. Not only was this a kindly, friendly thing to do, but it was an ingenious
-method of hanging on to a taxi. Only two people who came here could be spontaneously and brilliantly funny, Peter Ustinov and Danny Kaye. 
+Nor was Margaret Rutherford the hilarious. character one expected. It was satisfying to note that her magnificent, all-defying chin was just as magnificent in the flesh, but she turned out to be a gentle, charming person, not ‘a character’. She impressed Melburnians because every morning, along with her husband, Stringer Davis, she would go for a swim at the Middle Brighton baths. They would travel from their hotel to the baths by taxi, then they would ask the taxi driver to come for a swim too. Not only was this a kindly, friendly thing to do, but it was an ingenious method of hanging on to a taxi. 
 
-Ustinov was the wittiest, most amusing man I have known. Furthermore he would ~ it down and talk to anyone. When he arrived he said: ‘You see, I'm a horrible mixture with a Russian grandfather, a German father who became English, an Argentine uncle, two American children and an Egyptian aunt. I've learned to sleep standing up through all sorts of national anthems.’
+Only two people who came here could be spontaneously and brilliantly funny, Peter Ustinov and Danny Kaye.  Ustinov was the wittiest, most amusing man I have known. Furthermore he would sit down and talk to anyone. When he arrived he said: ‘You see, I'm a horrible mixture with a Russian grandfather, a German father who became English, an Argentine uncle, two American children and an Egyptian aunt. I've learned to sleep standing up through all sorts of national anthems.’
 
-He came to Australia to play the role of an English remittance man in the film version of Jon Cleary’s book The Sundowners. He was the one person who was completely happy on location at Cooma,
-New South Wales. He spoke German to the German cook, French to his French driver and Yugoslav to the Yugoslavians. Yet all the rugged, dashing out-of-doors activities he found difficult. Robert
-Mitchum, a veteran cowhand was a good rider, but Ustinov, alas, was lamentable. He looked miserable on a horse. He said, ‘It’s like ballet dancing something that one should learn when terribly
-young. I have only ridden once. I was playing General Grant, so naturally I assumed his character. I kept saying General-like things such as “Charge” and “Pass me a high-ball”. This impressed the
-horse and we got on rather well.’
+He came to Australia to play the role of an English remittance man in the film version of Jon Cleary’s book *The Sundowners*. He was the one person who was completely happy on location at Cooma, New South Wales. He spoke German to the German cook, French to his French driver and Yugoslav to the Yugoslavians. Yet all the rugged, dashing out-of-doors activities he found difficult. Robert Mitchum, a veteran cowhand was a good rider, but Ustinov, alas, was lamentable. He looked miserable on a horse. He said, ‘It’s like ballet dancing something that one should learn when terribly young. I have only ridden once. I was playing General Grant, so naturally I assumed his character. I kept saying General-like things such as “Charge” and “Pass me a high-ball”. This impressed the horse and we got on rather well.’
 
-As if riding a horse wasn’t difficult enough, the script demanded that he should crack a stockwhip. Mr Ustinov’s co-ordination was not all that it might be. He practised for hours with this stockwhip,
-but he could not get it right. ‘It is not all that difficult,’ I said.
+As if riding a horse wasn’t difficult enough, the script demanded that he should crack a stockwhip. Mr Ustinov’s co-ordination was not all that it might be. He practised for hours with this stockwhip, but he could not get it right. ‘It is not all that difficult,’ I said.
 
 ‘My dear fellow,” he replied, ‘yow’ll have to be patient. You would be surprised how little opportunity one gets to crack a stockwhip in a flat in London.’ 
 
@@ -86,24 +79,21 @@ Ustinov told us that the most difficult scene of all took place in a pub. He had
 
 Then as if carrying sixteen stone of Mitchum was not sufficient, Ustinov explained that the script called for Mitchum’s dog to bite him on the ankle and hang on to him for the next fifty yards.
 
-‘I didn’t mind that really,” he said, ‘but don’t you see, the dog was trained over and over to do this. He’s a nice dog, but this will happen again. Somewhere else in Australia he will see me in shorts and say — Ahhh, I recognize that calf —and naturally, we’ll have a repeat scene.’
+‘I didn’t mind that really,' he said, ‘but don’t you see, the dog was trained over and over to do this. He’s a nice dog, but this will happen again. Somewhere else in Australia he will see me in shorts and say — Ahhh, I recognize that calf — and naturally, we’ll have a repeat scene.’
 
 Actually the dog never again had the opportunity of another attack on the Ustinovian calf, but I wondered whether it found any other calves that were similarly juicy, plump and round.
 
-Danny Kaye’s visit was quite a different affair. There are just two or three entertainers who have arrived like visiting royalty. Danny Kaye was one, Joan Sutherland was another and Marlene
-~ Dietrich was another. For people of such stature publicity is not really necessary. There was just the one session of press, radio and T.V. interviews for Danny Kaye on arrival and that was the finish. 
+Danny Kaye’s visit was quite a different affair. There are just two or three entertainers who have arrived like visiting royalty. Danny Kaye was one, Joan Sutherland was another and Marlene Dietrich was another. For people of such stature publicity is not really necessary. There was just the one session of press, radio and TV interviews for Danny Kaye on arrival and that was the finish. 
 
 Nobody could get to see him. We were told that he was being paid £2,500 a performance. He took three adjoining suites in his hotel and in one room set up a table tennis table. He was not seen about the town a great deal, but he had his special loves. He spoke to the Jewish communities both in Sydney and Melbourne. What is more he spoke to them in both English and Yiddish. In Sydney he opened by telling them in Yiddish that in his opinion more people had died through eating apple strudel than died in the whole of the last war.
 
 Danny Kaye’s best performance, perhaps his best performance ever, was on a Thursday afternoon matinee at the Princess Theatre. I received a telephone call at about 4 p.m. from Bill Gordon, who was handling the publicity. He said. ‘You've got to run up here quickly. This is tremendous. Danny Kaye is laying it on for the Bolshoi Ballet.’ The Bolshoi Ballet also was performing in Melbourne and this Thursday afternoon was the only occasion when it was possible for the cast to see the great Danny Kaye. 
 
-It was an odd scene. The Russians sat back stage in the wings. One little group on one side, one little group on the other. They sat forward in their seats, their faces full of wonder, desperately trying to understand. There were interpreters who chattered away endlessly, but one has to feel for an interpreter who is trying to put pure Kayesian dialogue into Russian. They were as busy as tow
-n truck operators. ‘For example Danny Kaye told that lovely story how the Vienna Boys’ Choir came into his dressing room in Sydney. He asked them to sing and he gave his interpretation of how they sang Waltzing Matilda.
+It was an odd scene. The Russians sat back stage in the wings. One little group on one side, one little group on the other. They sat forward in their seats, their faces full of wonder, desperately trying to understand. There were interpreters who chattered away endlessly, but one has to feel for an interpreter who is trying to put pure Kayesian dialogue into Russian. They were as busy as tow truck operators. ‘For example Danny Kaye told that lovely story how the Vienna Boys’ Choir came into his dressing room in Sydney. He asked them to sing and he gave his interpretation of how they sang Waltzing Matilda.
 
 "Valtzing Matilda, Valtzing Matilda . ." The very cute little blonde ballerina, Larissa Trembovelskaya wanted to laugh, but it was obvious, she didn’t understand at all. They’ll leave soon, I thought. Maybe Danny thought that too, for he started to change his style.
 
-He did an incredible ballet routine, jumping a full three inches into the air and clicking his heels. Larissa began to giggle. He shouted to the interpreter: “Tell them I am going to sing “It’s
-a Long Way to Tipperary” as the Soviet Army Band sang it when they came to England.’ 
+He did an incredible ballet routine, jumping a full three inches into the air and clicking his heels. Larissa began to giggle. He shouted to the interpreter: “Tell them I am going to sing “It’s a Long Way to Tipperary” as the Soviet Army Band sang it when they came to England.’ 
 
 A stage-hand whispered, “This is new. He’s never done that before.’ 
 
@@ -118,45 +108,42 @@ Just then one of the ballerinas leaned forward and handed him a little posy of f
 
 After that he brought them all on stage, put his arms around Susanna Zvyagina and she said to him, ‘When you come to Moscow?’
 
-Danny became serious for a moment and he said to the audience, ‘Don’t you see? All over the world music, theatre, culture, amusement, it’s all the same. I don’t think they have understood a word I
-have said. I don’t understand their Russian. But we are all one here. This sort of thing can make the world a better place.’ 
+Danny became serious for a moment and he said to the audience, ‘Don’t you see? All over the world music, theatre, culture, amusement, it’s all the same. I don’t think they have understood a word I have said. I don’t understand their Russian. But we are all one here. This sort of thing can make the world a better place.’ 
 
-As the curtain came down he signalled to them all to come to his dressing room. What was I to.do? This was a good story, but he had declared that under no circumstances would he talk to any
-newspaper people. I hopped into the middle of the Bolshoi group, and trying to look terribly Russian went with them straight into the dressing room. 
+As the curtain came down he signalled to them all to come to his dressing room. What was I to do? This was a good story, but he had declared that under no circumstances would he talk to any newspaper people. I hopped into the middle of the Bolshoi group, and trying to look terribly Russian went with them straight into the dressing room. 
 
-Danny looked very happy. Through the interpreter he said, “You know, I used to speak Russian once. I was the only member of our family that was born in America. All the rest of us were born in
-Russia. Where were you born? And you? And you?’ Mercifully he didn’t ask me. I would have had to have said ‘Melborn’.
+Danny looked very happy. Through the interpreter he said, “You know, I used to speak Russian once. I was the only member of our family that was born in America. All the rest of us were born in Russia. Where were you born? And you? And you?’ Mercifully he didn’t ask me. I would have had to have said ‘Melborn’.
 
 He continued, ‘My mother died when 1 was very young. Maybe it was some psychological reaction but I lost all my Russian. But I think if only I could listen to Russian for a time I could pick it up.
 
-‘Funny thing. The Russian Ballet came to San Francisco one time. I'was in one of the passages out the back and a man came up to me, “Are you with the ballet?” I said “Da”.
+‘Funny thing. The Russian Ballet came to San Francisco one time. I was in one of the passages out the back and a man came up to me, “Are you with the ballet?” I said “Da”.
 “Why aren’t you dancing, then?”’ 
 Danny screwed up his face. ‘“The leg. It hurt. Almost twist right off.” Then this man started to speak Russian.
 
-'What could I do? I said: “Pliss, I in America. I try to talk Amier-KAHNNN.” »
+'What could I do? I said: “Pliss, I in America. I try to talk Amier-KAHNNN.”'
 'Away he went in American. I said: “Pliss too fast. Too fast.” 
-Then he started to talk very slowly like an Indian. “Look ...I...
-doctor.” 
+Then he started to talk very slowly like an Indian. “Look ...I...doctor.” 
 
-“Ah, yes, I understand. You v doctor.” 
-“No, no, no, I . .. poctor.” ,
+“Ah, yes, I understand. You EYE doctor.” 
+“No, no, no, I . .. doctor.” ,
 “Yes...you...fix...ze...eyes.”
 
-Danny said the bells began to ring, the doctor went off and he never saw him again. You can imagine how that story went down with the Russians. They had their movie cameras out, all taking pictures of him. It was obvious that he wanted to see them again.
+Danny said the bells began to ring, the doctor went off and he never saw him again. You can imagine how that story went down with the Russians. They had their movie cameras out, all taking pictures of him. It was obvious that he wanted to see them again.  Alas, all their shows coincided with his shows.  
 
-Alas, all their shows coincided with his shows.  ‘I've got an idea,” he said. ‘Do you like stereophonic sound records? Come back to the hotel after your show tonight. I'll give you
-Oistrakh on the violin. I'll give you sandwiches, food .. .er ... I wouldn’t recommend the local caviar. Do you like vodka?’—No.
+‘I've got an idea,” he said. ‘Do you like stereophonic sound records? Come back to the hotel after your show tonight. I'll give you Oistrakh on the violin. I'll give you sandwiches, food .. .er ... I wouldn’t recommend the local caviar. Do you like vodka?’ — No.
 
-‘“Wine, vino?’— No. - Leonid Zhdanov said: ‘After dancing, we hungry. We . . . we
-- ...need Foop ... real Foopn.’ 
-Danny was ready. ‘We’ll have steaks, filet mignons. I'll have them
-served in a special room. Then we’ll go upstairs to my suite and
-~ we'll all play records.’
-From all reports it was a wonderful party. The other memory of Danny Kaye was his fascination for hats. 
-Before he departed he gave Sir Dallas Brooks a ten-gallon hat brought out especially from Dallas, Texas. Then all the time he was here Danny Kaye wore floppy, tweed hats, rather in the Henry
- Higgins style. The Prime Minister, Mr Menzies admired them when he had Danny to lunch at Admiralty House, Sydney. After he had gone back to the U.S. a parcel arrived in Canberra for the Prime Minister. Inside were two floppy hats in different sizes. Danny wasn’t sure of the size of the Prime Ministerial head.
+‘“Wine, vino?’— No. 
 
-However we. have yet to see Sir Robert walking around looking like Danny Kaye or Henry Higgins. 
+Leonid Zhdanov said: ‘After dancing, we hungry. We ... we ...need FOOD ...real FOOD.’
+
+Danny was ready. ‘We’ll have steaks, filet mignons. I'll have them served in a special room. Then we’ll go upstairs to my suite and we'll all play records.’
+
+From all reports it was a wonderful party. 
+
+The other memory of Danny Kaye was his fascination for hats. Before he departed he gave Sir Dallas Brooks a ten-gallon hat brought out especially from Dallas, Texas. Then all the time he was here Danny Kaye wore floppy, tweed hats, rather in the Henry Higgins style. The Prime Minister, Mr Menzies admired them when he had Danny to lunch at Admiralty House, Sydney. After he had gone back to the U.S. a parcel arrived in Canberra for the Prime Minister. Inside were two floppy hats in different sizes. Danny wasn’t sure of the size of the Prime Ministerial head.
+
+However we. have yet to see Sir Robert walking around looking like Danny Kaye or Henry Higgins.
+
 The most amiable, the most easy to please of all the visiting stars was Sophie Tucker. Never was there a lady so careful of her public relations. After she departed, there was a careful ‘thank-you’ for all the newspaper people and for whom almost every person she came in contact. She came here in June 1962 and ever since until she died in 1966 there has been the annual Sophie Tucker Christmas Card. I was not unique in this. Many others received them.
 
 She took four inter-connecting suites at Menzies — four double bedrooms, four bathrooms and two sitting rooms. She sent word that always she liked to have her main meal of the day served in the
