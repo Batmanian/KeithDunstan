@@ -5,16 +5,21 @@ summary: The ninth and final chapter of Keith's second book, 'Supporting a colum
 tags:
   - Wine
   - Florentino Restaurant
+  - Home Bottlers
   - Grape Phylloxera
   - Hugh Fraser 
   - G. F. Morris
   - Rutherglen
   - Sir Rohan Delacombe
   - All Saints Winery
+  - George Sutherland Smith III
   - P. O'Sullivan
-  - Jimmy Watson
+  - John C. Brown
+  - J.C. 'Jimmy' Watson
   - Chateau Tahbilk
+  - Eric Purbrick
   - Great Western
+  - Great Western Champagne
   - Colin Preece
   - Hans Irvine
 ---
@@ -31,7 +36,7 @@ There are clever people who can do this sort of thing, but I am not one of them.
 
 So at wine gatherings it is better to stick to safe remarks. 'It's a well-balanced wine.' (It's sure to be balanced somehow or other.) 'It leaves a noble aftertaste on the palate.' (Good wine usually does.) 'The winemaster is to be congratulated for an excellent choice with this dish.' (The winemaster will love you forever for that.)
 
-'I would say it was a South Australian claret about six years old.' (Devilish risky, but if it's a large gathering it is unlikely that they - will be able to afford either imported wine or wine that is very old. Then you have the laws of probability on your side —the bulk of our wine is produced in South Australia.)
+'I would say it was a South Australian claret about six years old.' (Devilish risky, but if it's a large gathering it is unlikely that they - will be able to afford either imported wine or wine that is very old. Then you have the laws of probability on your side — the bulk of our wine is produced in South Australia.)
 
 But, maybe, like me if you cannot be brilliant you still enjoy your wine. In Australia there is a big advantage — like milk, it is untaxed. No doubt this thought would distress many people. There is tax on rum, whisky, beer, gin, brandy, vodka and all the rest. Every time a beer drinker takes a sip out of his glass he knows that he is working for his country, helping to build a road or finance a jet. Wine drinkers don't have this satisfaction and we miss it.
 
