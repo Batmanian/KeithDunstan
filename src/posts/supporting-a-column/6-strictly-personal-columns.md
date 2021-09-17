@@ -21,7 +21,12 @@ tags:
   - Sir Dallas Brooks, Governor
   - Sir Robert Menzies
   - Sophie Tucker
+  - Menzies Hotel, Melbourne
+  - Sir Maurice Nathan, Lord Mayor
+  - Johnnie Ray
+  - Radio Station 3UZ
   - The Beatles
+  - The Southern Cross Hotel
   - Melbourne
   - Sir Arthur Fadden
   - Griffith
@@ -146,51 +151,43 @@ However we. have yet to see Sir Robert walking around looking like Danny Kaye or
 
 The most amiable, the most easy to please of all the visiting stars was Sophie Tucker. Never was there a lady so careful of her public relations. After she departed, there was a careful ‘thank-you’ for all the newspaper people and for whom almost every person she came in contact. She came here in June 1962 and ever since until she died in 1966 there has been the annual Sophie Tucker Christmas Card. I was not unique in this. Many others received them.
 
-She took four inter-connecting suites at Menzies — four double bedrooms, four bathrooms and two sitting rooms. She sent word that always she liked to have her main meal of the day served in the
-rooms at midnight. After that she liked to continue on, playing cards, writing letters, yarning, and so to bed, usually about 5 a.m. 
+She took four inter-connecting suites at Menzies — four double bedrooms, four bathrooms and two sitting rooms. She sent word that always she liked to have her main meal of the day served in the rooms at midnight. After that she liked to continue on, playing cards, writing letters, yarning, and so to bed, usually about 5 am. 
 
-Long before she came to Melbourne we heard stories — that her clothes and jewels were insured for £200,000, that she personally was insured at the rate of £1000 a pound (we won’t go into the figure)
-and that the time Sophie really came alive was some time around 3 a.m.or 4 am.
+Long before she came to Melbourne we heard stories — that her clothes and jewels were insured for £200,000, that she personally was insured at the rate of £1000 a pound (we won’t go into the figure) and that the time Sophie really came alive was some time around 3 am or 4 am.
 
-All the reports turned out to be true. After writing a paragraph that she always ate in the early hours after her show I was invited to “Tucker at Midnight’. The Lord Mayor and Lady Mayoress, Cr and
-Mrs Nathan were among the twelve guests.
+All the reports turned out to be true. After writing a paragraph that she always ate in the early hours after her show I was invited to 'Tucker at Midnight’. The Lord Mayor and Lady Mayoress, Cr and Mrs Nathan were among the twelve guests.
 
-We entered the suite at 11.30 p.m., the same suite that had been used by General MacArthur and Danny Kaye. It was turned up to real Red Hot Momma temperature, about eighty-five degrees. Miss
-Tucker had changed from her superb on-stage dress. This was shell pink, beaded in crystal and worth £2,200. Now she was wearing a very simple, loose Paisley silk dress.
+We entered the suite at 11.30 p.m., the same suite that had been used by General MacArthur and Danny Kaye. It was turned up to real Red Hot Momma temperature, about eighty-five degrees. Miss Tucker had changed from her superb on-stage dress. This was shell pink, beaded in crystal and worth £2,200. Now she was wearing a very simple, loose Paisley silk dress.
 
-And the tucker! There was Lobster Newburg, Chicken 4 Iz King, strawberries, chocolates, cheeses, fruit and a drooly iced strawberry. cake. One of the guests said Sophie had been down in the Menzies’ kitchen that afternoon and she decorated the cake herself. The icing
-spelt out: SOPHIE TUCKER WISHES YOU ALL THE BEST. »
+And the tucker! There was Lobster Newburg, Chicken *a la King*, strawberries, chocolates, cheeses, fruit and a drooly iced strawberry. cake. One of the guests said Sophie had been down in the Menzies’ kitchen that afternoon and she decorated the cake herself. The icing spelt out: SOPHIE TUCKER WISHES YOU ALL THE BEST.
 
-It was THE meal of the day and she had two helpings of lobster, one of chicken, a sugared strawberry or two and some of that cake. The ladies were anxious to see the jewels and until we are invited to Buckingham Palace I don’t think we will ever see the like. There was a thick rope of hundreds of black and white pearls. There was
-
-a pearl ring with a black pearl as big as a shilling, ropes of green jade, brooches of turquoise intertwined with diamonds and gold.
+It was THE MEAL of the day and she had two helpings of lobster, one of chicken, a sugared strawberry or two and some of that cake. The ladies were anxious to see the jewels and until we are invited to Buckingham Palace I don’t think we will ever see the like. There was a thick rope of hundreds of black and white pearls. There was a pearl ring with a black pearl as big as a shilling, ropes of green jade, brooches of turquoise intertwined with diamonds and gold.
 
 ‘How do you tell real pearls?’ asked Sophie, and at the same time gave her answer: ‘You don’t have to bite ’em. You can tell they’re real if they’re icy cold on your neck.’
 
-In that famous gravel voice she talked. She talked of the millions she had raised for good causes and we heard about one Melburnian knight who came to her for help regarding a local good cause. He
-met his match. He got his help all right, but before he left he had bought a handy-sized copse in the Sophie Tucker forest in Israel.
+In that famous gravel voice she talked. She talked of the millions she had raised for good causes and we heard about one Melburnian knight who came to her for help regarding a local good cause. He met his match. He got his help all right, but before he left he had bought a handy-sized copse in the Sophie Tucker forest in Israel.
 
-She had a large scrap book devoted to her Australian tour, and it contained all the newspaper clippings, telegrams, and letters —all except begging letters. Both Danny Kaye and Sophie Tucker
-suffered from hundreds of pleading, begging letters. The best of them came from an ex-dancer in New South Wales. She asked for a ticket for the show. She asked for her air fare. Then she said that she would adore to have some Sophie Tucker records, for old times’ sake. But then she didn’t have a machine. So could she also have a radiogram for the records?
+She had a large scrap book devoted to her Australian tour, and it contained all the newspaper clippings, telegrams, and letters — all except begging letters. Both Danny Kaye and Sophie Tucker suffered from hundreds of pleading, begging letters. The best of them came from an ex-dancer in New South Wales. She asked for a ticket for the show. She asked for her air fare. Then she said that she would adore to have some Sophie Tucker records, for old times’ sake. But then she didn’t have a machine. So could she also have a radiogram for the records?
 
-Her favourite international begging letter came from an ex-GI. who said he had embezzled 3,000 dollars from his employer and would she please send him a cheque to stop him from going to
-gaol? 
+Her favourite international begging letter came from an ex-G.I. who said he had embezzled 3,000 dollars from his employer and would she please send him a cheque to stop him from going to gaol? 
 
-She answered every letter in longhand and she averaged between thirty and eighty a day. When we left at 2 a.m. the cuttings were waiting to go into the scrapbook, there was a pile of thank-you letters waiting to go out to at least thirty people, and Juanita Harper, her coloured personal maid, was asleep sitting up in her chair. It was Johnnie Ray who really started the tradition of the hysterical airport arrival. The P.R. firm always organized a small beach-head battalion to greet him and to get things moving. Then Johnnie would have his special airport arrival suit, which was only slightly stitched here and there. He always expected to lose at least one sleeve. So the idea grew. Any czar of popdom who arrived at an airport and wasn’t greeted by at least 1,000 fans, just didn'’t rate.
+She answered every letter in longhand and she averaged between thirty and eighty a day. When we left at 2 am the cuttings were waiting to go into the scrapbook, there was a pile of thank-you letters waiting to go out to at least thirty people, and Juanita Harper, her coloured personal maid, was asleep sitting up in her chair. 
 
-Yet I have often wondered whether there was ever an airport arrival to compare with the arrival of the Beatles at Essendon,' Melbourne, on 14 June 1964. There were many reasons why Melbourne went so utterly wild. For one thing they arrived on a Sunday and a Queen’s Birthday week-end at that. There is so little to do in. Melbourne on a Sunday that if anyone stood on his head in Collins 
-Street he would draw a crowd of 5,000. For another it was all so superbly promoted.
+It was Johnnie Ray who really started the tradition of the hysterical airport arrival. The P.R. firm always organized a small beach-head battalion to greet him and to get things moving. Then Johnnie would have his special airport arrival suit, which was only slightly stitched here and there. He always expected to lose at least one sleeve. So the idea grew. Any czar of popdom who arrived at an airport and wasn’t greeted by at least 1,000 fans, just didn'’t rate.
 
-A month beforehand the radio station 3UZ, carefully began to promote Beatlemania. It started all sorts of Beatle competitions. It gave away 400 reserved seats at Beatle concerts. It gave away 100
-pairs of Beatle stockings and 100 Beatle wigs. Sunday 14 June was always described as ‘B™-Day, and announcers were instructed to give out the slogan: 3UZ, Beatle Headquarters.” Then the grand training . for field operations on ‘B’-Day was unbelievably thorough. The staff began rehearsals a fortnight beforehand until everything was tested and perfect.
+Yet I have often wondered whether there was ever an airport arrival to compare with the arrival of the Beatles at Essendon,' Melbourne, on 14 June 1964. There were many reasons why Melbourne went so utterly wild. For one thing they arrived on a Sunday and a Queen’s Birthday week-end at that. There is so little to do in Melbourne on a Sunday that if anyone stood on his head in Collins Street he would draw a crowd of 5,000. For another it was all so superbly promoted.
 
-On the twenty-four hours of ‘B’-Day itself, 3UZ, “The Station with " the Nicest Listeners’, played 114 Beatle discs. To cover the arrival they had twelve announcers placed along the route; they had five mobile cars for broadcasting, plus a Cessna aircraft, also broadcasting, to give the overall picture. Altogether 3UZ had forty outside technicians and announcers on the job. 
+A month beforehand the radio station 3UZ, carefully began to promote Beatlemania. It started all sorts of Beatle competitions. It gave away 400 reserved seats at Beatle concerts. It gave away 100 pairs of Beatle stockings and 100 Beatle wigs. Sunday 14 June was always described as 'B'- Day, and announcers were instructed to give out the slogan: 3UZ, Beatle Headquarters.' Then the grand training for field operations on ‘B’- Day was unbelievably thorough. The staff began rehearsals a fortnight beforehand until everything was tested and perfect.
 
-Nobody knows how many people turned out to see the Beatles that day. One police estimate was 300,000, but, if there were that many, 200,000 had transistor radios. As radio followed their move-
-ments, so the excitement built. The climax came at the Southern Cross Hotel. Here there really
-was a packed crowd of 15,000, and nothing quite like this has ever happened in radio before. Don Lunn, of 3UZ, had an outside broadcast position at Ireland’s florist shop, right opposite the Southern Cross. Now, remember he was broadcasting and everyone had transistors. He called out: ‘Can you hear me out there?” Back came the roar: ‘YEAH, WE caN HEAR You.” This was a radio announcer’s
+On the twenty-four hours of ‘B’- Day itself, 3UZ, 'The Station with the Nicest Listeners’, played 114 Beatle discs. To cover the arrival they had twelve announcers placed along the route; they had five mobile cars for broadcasting, plus a Cessna aircraft, also broadcasting, to give the overall picture. Altogether 3UZ had forty outside technicians and announcers on the job. 
 
-dream. He was getting an actual response from his outside audience. So a conversation went on between the announcer and his huge outside audience. ‘Let’s all sing “WE LOVE THE BEATLES”. And so it went on. ‘We love John, We Love George, We Love Ringo, We Love Paul’ Then there was the announcement that they were less than half a mile away. They were in Bourke Street. They were just around the corner. The excitement was too much to stand. Hysteria took over. The Sun News-Pictorial reported that 350 were treated for fainting, hysteria and minor injuries in the foyer of the Southern Cross. The mounted police came through, picking up swooning girls here and there, laying their limp bodies across the saddle. All this was on live television, and maybe it was the best show Melbourne had ever seen. 
+Nobody knows how many people turned out to see the Beatles that day. One police estimate was 300,000, but, if there were that many, 200,000 had transistor radios. As radio followed their movements, so the excitement built. 
+
+The climax came at the Southern Cross Hotel. Here there really was a packed crowd of 15,000, and nothing quite like this has ever happened in radio before. Don Lunn, of 3UZ, had an outside broadcast position at Ireland’s florist shop, right opposite the Southern Cross. Now, remember he was broadcasting and everyone had transistors. He called out: ‘*Can you hear me out there?*' Back came the roar: ‘YEAH, WE CAN HEAR YOU.” This was a radio announcer’s dream. He was getting an actual response from his outside audience. 
+
+So a conversation went on between the announcer and his huge outside audience. ‘*Let’s all sing* “WE LOVE THE BEATLES”. And so it went on. ‘*We love John, We Love George, We Love Ringo, We Love Paul.*’ Then there was the announcement that they were less than half a mile away. They were in Bourke Street. They were just around the corner. The excitement was too much to stand. Hysteria took over. 
+
+The *Sun News-Pictorial* reported that 350 were treated for fainting, hysteria and minor injuries in the foyer of the Southern Cross. The mounted police came through, picking up swooning girls here and there, laying their limp bodies across the saddle. All this was on live television, and maybe it was the best show Melbourne had ever seen. 
 
 It all looked much more frightening than it actually was. There were no serious casualties, except that one lady burst a blood vessel in her neck from screaming too loud. Most of them were treated by
 Dr Ivan Markovics, a Sydney gynaecologist who was staying in the “hotel. He said he treated only one girl who was genuinely ill. She was suffering from exhaustion and lack of food from sitting up all night. At least twenty-five per cent of the others thought fainting was a magnificent way of getting into the hotel to see the Beatles.
