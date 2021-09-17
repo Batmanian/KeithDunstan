@@ -18,6 +18,7 @@ tags:
   - Marlene Dietrich
   - Danny Kaye
   - Bolshoi Ballet
+  - Larissa Trembovelskaya
   - Sir Dallas Brooks, Governor
   - Sir Robert Menzies
   - Sophie Tucker
