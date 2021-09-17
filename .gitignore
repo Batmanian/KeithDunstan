@@ -1,8 +1,4 @@
 node_modules
+.DS_Store
 dev
 public
-.DS_Store
-dev
-
-.DS_Store
-ocr/index.js

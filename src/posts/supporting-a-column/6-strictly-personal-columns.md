@@ -6,11 +6,11 @@ tags:
   - Herald and Weekly Times Ltd
   - Frank Sinatra
   - Ava Gardner
-  - *On the Beach*, film
+  - On the Beach, film
   - Walter Chiari
-  - *They're a Weird Mob*, film
+  - They're a Weird Mob*, film
   - Charlton Heston
-  - *Ben Hur*, film
+  - Ben Hur, film
   - Graham Walsh
   - Irene Handl
   - Margaret Rutherford
@@ -49,7 +49,7 @@ tags:
   - Sir Norman Brookes
   - Harold Gengoult Smith
   - Harry Emmerton
-  - *On the Beach* film
+  - On the Beach, film
   - Napoleon Bonaparte
 ---
 

@@ -7,12 +7,12 @@ tags:
   - Commonwealth of Nations
   - Timbertop
   - Geelong Grammar School
-  - *Paris Match* magazine
+  - Paris Match magazine
   - Sir Robert Menzies
   - Harold Holt
   - Fiji
   - Nandi airport
-  - *Tailor and Cutter* magazine
+  - Tailor and Cutter magazine
   - Lord Casey, Governor-General 
   - (Sir) David Checketts
   - T.R. (Thomas Ronald) Garnett, headmaster
