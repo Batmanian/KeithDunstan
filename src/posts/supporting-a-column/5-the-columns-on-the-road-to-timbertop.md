@@ -30,11 +30,11 @@ Many an old boy raised an eyebrow at the statement that never had there been any
 
 *Tempo* replied: ‘It is hoped that the report from an unnamed 0GG in London is already known to be untrue from the reports of work in New Guinea, in the Church, in the arts and the thousands of other little things that OGG boys have done. There are very few "rich” boys here, some families are well off, others are sacrificing a lot to send their sons to a place that has Timbertop.’ Nobody, particularly the Palace, quite estimated the curiosity value of the visit to Australia by Prince Charles. A jolly popular song even came on the market. It carried no mention of Geelong Grammar or Prince Charles, but there was no question regarding the source of the inspiration. The song depicted life at Timbertop as pure bliss and described it as ‘a bush-like paradise beneath the skies’. It contained such lines as:
 
-    *Life is gay and free*<br>
-    *Full of harmony*<br>
-    *Everyone is so kind* <br>
-    *You will find peace of mind*<br>
-    *Here at Timbertop.*<br>
+   *Life is gay and free*<br>
+   *Full of harmony*<br>
+   *Everyone is so kind* <br>
+   *You will find peace of mind*<br>
+   *Here at Timbertop.*<br>
 
 One could imagine poor little Geelong Grammar boys singing it to themselves somewhere around the sixteenth mile of their marathon through the bush.
 
@@ -78,9 +78,9 @@ In the afternoon the Royal party changed its tactics. The Press now had Governme
 
 It was the chance remark by the wife of a senior minister later in the afternoon that gave us the tip that he was riding, and the photographers won some excellent pictures. Furthermore Prince Charles was most pleasant and happy to be photographed. ‘How did you fellows get here so quickly?’ he said. Then we had the first recorded conversation between Prince Charles and the Press.
 
-    “That’s a fine horse, Prince Charles,” said the pressman.
+   “That’s a fine horse, Prince Charles,” said the pressman.
 
-    ‘Yes,” he said.
+   ‘Yes,” he said.
 
 Our next main encounter with Prince Charles was at Timbertop on 3 February. There was a special agreement. For an hour or more the photographers would be given an open go, and after that the Prince would be left alone, unharrassed for the rest of his time at Timbertop. This was fair enough, and it was all that was wanted. The Press, at last, was treated with great courtesy. Geelong Grammar went out of its way to plan a programme that supplied radio, TV, everybody, with the best material of the tour. I drove to Timbertop in the early morning. It was a case of having to know the way. Geelong Grammar very carefully had removed all the road signs to discourage the tourists and rubberneckers. It was as bad as the days when we were worried that the Japanese were going to get us. I had my instructions: drive to Mansfield, keep on going along the Mount Buller road, the familiar route for all, the skiing fraternity. Then, soon after passing the Merrijig pub, take a sharp turn to the right and up the hillside. 
 
@@ -90,25 +90,25 @@ The boys at their first day of school wore exactly what they wanted to wear — 
 
 Geelong Grammar had organized a grand tour with Prince Charles, designed to show all the activities of the school in less than forty minutes. With masterly precision something different happened every two minutes. The curiosity amongst the young Geelong Grammar boys was intense; there were faces in every window. As we set out I heard two fourteen-year-olds talking:
 
-    *Ist Boy*: Wouldn't it be awful, all those cameras and everything.
+   *Ist Boy*: Wouldn't it be awful, all those cameras and everything.
 
-    *2nd Boy*: I dunno. I reckon I wouldn’t mind it.
+   *2nd Boy*: I dunno. I reckon I wouldn’t mind it.
 
-    *Ist Boy*: He doesn’t look seventeen, though, does he?
+   *Ist Boy*: He doesn’t look seventeen, though, does he?
 
-    *2nd Boy*: Ah, what you've got to realize is that no seventeen-year-old English kid ever looks seventeen.
+   *2nd Boy*: Ah, what you've got to realize is that no seventeen-year-old English kid ever looks seventeen.
 
 Prince Charles looked at a series of rugged activities. He watched one boy do a Tarzan act swinging from one long rope to another. With his companion Stuart McGregor he went to work with a bush saw and together they started to saw their way through a log. Here he took some steady banter from the photographers. 
 
-    ‘Look up, Prince Charles.’ 
+   ‘Look up, Prince Charles.’ 
 
-    ‘What?’ (Puff, puff.)
+   ‘What?’ (Puff, puff.)
 
-    ‘Look as if you'’re enjoying it, Prince Charles.’
+   ‘Look as if you'’re enjoying it, Prince Charles.’
 
-    ‘You can have a hot shower now, Prince Charles.’
+   ‘You can have a hot shower now, Prince Charles.’
 
-    And the Prince being infinitely patient, said: 'What, now? I think I might.’ |
+   And the Prince being infinitely patient, said: 'What, now? I think I might.’ |
 
 Next there was the fire fighting demonstration and the Prince asked if he could work the hose. As he handled the spray it brought back so many dear, cherished memories. There was the time at the Chelsea Flower Show in 1959 when the photographers were drenched by the electronic sprays and they blamed Prince Philip. There was the time at the Commonwealth Games at Perth in 1962 when the photographers tried to get their revenge.
 
