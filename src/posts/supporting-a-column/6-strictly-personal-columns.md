@@ -72,9 +72,9 @@ Charlton Heston was another good man for an interview. He could talk expressivel
 
 However, while talking to Mr Heston, a *Sun* photographer, Graham Walsh, conducted a much better interview with his five-year-old son, Fraser.   
 
-    *Fraser*: Do you know why my Daddy’s going to let me see the chariot race? Because I was there when he made it. He had that race over and over again and he won every single      time. 
-    *Walsh*: Your father must be the best chariot racer in the world. 
-    *Fraser*: Yair. ... Yair, I guess he must be.
+   *Fraser*: Do you know why my Daddy’s going to let me see the chariot race? Because I was there when he made it. He had that race over and over again and he won every single      time. 
+   *Walsh*: Your father must be the best chariot racer in the world. 
+   *Fraser*: Yair. ... Yair, I guess he must be.
 
 Comedians make good interviews, but not for light entertainment. Usually they are lugubrious people. I remember expecting great things of Irene Handl, Irene of the *Rag Trade*, Irene of *Hancock’s ‘Half Hour*, Irene of so many Peter Sellers’ films. She turned out to be an earnest little body in a tweed suit who could talk very well indeed, but no humour, except for one thing. She had just broken her wrist and across the plaster cast she had written ‘Not to be opened until Christmas’.
 
@@ -399,7 +399,7 @@ The wedding present from Sir Norman and Lady Brookes was 102 pieces of early Geo
 
 Dame Mabel Brookes has a famous husband, but she is famous too — in completely different fields. Prime Ministers, Premiers, managing directors, Cabinet ministers, come to her. It is fascinating to hear her name-dropping — ‘Bob Menzies’, ‘Dickie Casey’ ‘John Latham’... Except that it is not name-dropping. These are the people she deals with constantly. She has been president of the Queen Victoria Hospital for more than forty-two years (surely a world record for any hospital president); she has written five books; she is a world - authority on Napoleon; she has stood unsuccessfully for Parliament twice and she is a former commandant of the Women’s Air Training Corps. 
 
-The best judgement of her comes from her good friend ‘Bob’ Menzies and you will find it in the foreword to her book St Helena Story: 
+The best judgement of her comes from her good friend ‘Bob’ Menzies and you will find it in the foreword to her book *St Helena Story*: 
 
   ‘Inheriting from her father a lawyer-like capacity for analysis and possessing herself a remarkable executive capacity, she has, ever since I first met her, commanded the        minds and judgements of politicians and of businessmen so that in the result they found it easier to agree with her. If this gives you the impression that she has any            domineering mannerism, I have not conveyed myself accurately. The truth is that she is one of those advocates who not only persuade you that they are right but leave you        faintly ashamed to have thought temporarily that they might have been wrong.’ 
   
