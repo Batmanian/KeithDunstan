@@ -64,24 +64,22 @@ Actually theatrical people could be disappointing. We would bank too much on the
 Some, on the other hand, liked to talk, and were very good at it. One of these was Walter Chiari, the smooth Italian comedian, a genuine screen idol in his homeland. He was everything an Italian should be — warm, ebullient, friendly. He came to Australia to play, Nino Culotta, the Italian migrant in the film version of *They're a Weird Mob*. He had an instinctive understanding of what would make a good line in a newspaper interview. He said that wherever he went in Australia he would be mobbed by Italians. He had just been to lunch at an Italian restaurant in Kings Cross, Sydney. All the time he was eating his spaghetti Italians came up wanting to shake his hand, or to get his autograph. 
 
   ‘You know the trouble with this country?’ he said.  
-
   ‘No.'
-
   ‘It’s too full of bloody Eyeties.’ -
+
 
 Charlton Heston was another good man for an interview. He could talk expressively of all his experiences in heroic Biblical dramas, of the eating of Christians, and most particularly and most enthusiastically of chariot races. He came to Melbourne for the premiere of *Ben Hur*. 
 
 However, while talking to Mr Heston, a *Sun* photographer, Graham Walsh, conducted a much better interview with his five-year-old son, Fraser.   
 
-  *Fraser*: Do you know why my Daddy’s going to let me see the chariot race? Because I was there when he made it. He had that race over and over again and he won every single time. 
-
-  *Walsh*: Your father must be the best chariot racer in the world. 
-
-  *Fraser*: Yair. ... Yair, I guess he must be.
+    *Fraser*: Do you know why my Daddy’s going to let me see the chariot race? Because I was there when he made it. He had that race over and over again and he won every single      time. 
+    *Walsh*: Your father must be the best chariot racer in the world. 
+    *Fraser*: Yair. ... Yair, I guess he must be.
 
 Comedians make good interviews, but not for light entertainment. Usually they are lugubrious people. I remember expecting great things of Irene Handl, Irene of the *Rag Trade*, Irene of *Hancock’s ‘Half Hour*, Irene of so many Peter Sellers’ films. She turned out to be an earnest little body in a tweed suit who could talk very well indeed, but no humour, except for one thing. She had just broken her wrist and across the plaster cast she had written ‘Not to be opened until Christmas’.
 
 Nor was Margaret Rutherford the hilarious. character one expected. It was satisfying to note that her magnificent, all-defying chin was just as magnificent in the flesh, but she turned out to be a gentle, charming person, not ‘a character’. She impressed Melburnians because every morning, along with her husband, Stringer Davis, she would go for a swim at the Middle Brighton baths. They would travel from their hotel to the baths by taxi, then they would ask the taxi driver to come for a swim too. Not only was this a kindly, friendly thing to do, but it was an ingenious method of hanging on to a taxi. 
+
 
 Only two people who came here could be spontaneously and brilliantly funny, Peter Ustinov and Danny Kaye.  Ustinov was the wittiest, most amusing man I have known. Furthermore he would sit down and talk to anyone. When he arrived he said: ‘You see, I'm a horrible mixture with a Russian grandfather, a German father who became English, an Argentine uncle, two American children and an Egyptian aunt. I've learned to sleep standing up through all sorts of national anthems.’
 
@@ -162,6 +160,7 @@ The other memory of Danny Kaye was his fascination for hats. Before he departed 
 
 However we. have yet to see Sir Robert walking around looking like Danny Kaye or Henry Higgins.
 
+
 The most amiable, the most easy to please of all the visiting stars was Sophie Tucker. Never was there a lady so careful of her public relations. After she departed, there was a careful ‘thank-you’ for all the newspaper people and for whom almost every person she came in contact. She came here in June 1962 and ever since until she died in 1966 there has been the annual Sophie Tucker Christmas Card. I was not unique in this. Many others received them.
 
 She took four inter-connecting suites at Menzies — four double bedrooms, four bathrooms and two sitting rooms. She sent word that always she liked to have her main meal of the day served in the rooms at midnight. After that she liked to continue on, playing cards, writing letters, yarning, and so to bed, usually about 5 am. 
@@ -185,6 +184,7 @@ She had a large scrap book devoted to her Australian tour, and it contained all 
 Her favourite international begging letter came from an ex-G.I. who said he had embezzled 3,000 dollars from his employer and would she please send him a cheque to stop him from going to gaol? 
 
 She answered every letter in longhand and she averaged between thirty and eighty a day. When we left at 2 am the cuttings were waiting to go into the scrapbook, there was a pile of thank-you letters waiting to go out to at least thirty people, and Juanita Harper, her coloured personal maid, was asleep sitting up in her chair. 
+
 
 It was Johnnie Ray who really started the tradition of the hysterical airport arrival. The P.R. firm always organized a small beach-head battalion to greet him and to get things moving. Then Johnnie would have his special airport arrival suit, which was only slightly stitched here and there. He always expected to lose at least one sleeve. So the idea grew. Any czar of popdom who arrived at an airport and wasn’t greeted by at least 1,000 fans, just didn'’t rate.
 
@@ -232,7 +232,6 @@ Before I went in to see Sir Arthur, one of his friends said: ‘For Heaven’s s
 'Actually it wasn’t Innisfail,' said Sir Arthur, ‘but, you see, in this North Queensland town, the Shire Clerk and the local Irish priest, a very popular man, were good friends. They used to meet every Friday. The Shire Clerk was secretary of the local Masonic Lodge.  The priest lived in one of those Queensland houses, up on stilts, and one day he called the Shire Clerk: “I am speaking to you in my official capacity,” he said. “There’s a goat dead underneath the presbytery, and it is not improving with age. From its mean, hungry appearance, I'd say it escaped from the Temple.” 
 
 'The Clerk replied, “As a member of the Church I understand it is your official duty to look after the burial of the dead. Why worry me?'
-
 'The priest said, “Oh yes, I accept that, but it’s also my official duty to inform the next-of-kin.”' 
 
 At the farewell given by the Press Gallery he told no stories but he recited bush ballads from ‘Banjo’ Paterson for a full hour. Occasionally there was a pause as he groped for a phrase; but there wasn’t a word out of place. I asked him about this and he said that before the First World War when he performed with a negro minstrel troupe that included George Wallace he used to recite ‘Banjo’ Paterson. 
