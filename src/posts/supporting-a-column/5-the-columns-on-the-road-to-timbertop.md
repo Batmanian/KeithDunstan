@@ -12,7 +12,7 @@ tags:
   - Harold Holt
   - Fiji
   - Nandi airport
-  - *Taylor and Cutter* magazine
+  - *Tailor and Cutter* magazine
   - Lord Casey, Governor-General 
   - (Sir) David Checketts
   - T.R. (Thomas Ronald) Garnett, headmaster
@@ -48,7 +48,7 @@ Prince Charles, we were told, was flying through on a normal flight via the Unit
 
 Just in case of trouble the name of Prince Charles was erased from the Fiji newspapers. There was not a word to local citizens, who may have wished to wave a flag, that he was passing through during the early hours of 30 January. A team of security men travelled the 150 miles from Suva to Nandi, and they were placed in, out and around the terminal. There was a security check of all luggage, freight and mail, something which Nandi had not seen in years. Fijian Customs officers with security men standing by, went through luggage, item by item, almost completely unpacking every case. They peered into typewriters, scrutinized transistor radios, looking for telltale ticking noises. Some American travellers who had four or five cases each were only faintly amused. The aircraft, the Qantas 707 *City of Adelaide* arrived at Nandi at 5 a.m. The only real excitement on the way out was the grand arrival at Honolulu. There was a little ensemble at the airport and an Hawaiian girl threw a lei around Prince Charles’ neck. It is absolutely traditional in Hawaii that if a girl puts a lei around a man’s neck she has to kiss him, and she did just that. The startled Prince did not know what to say. Actually he  said: ‘Er — thank — you.’ | |
 
-At Nandi I had my first chance to look at this heir to the throne. I think I shared the opinion of many others. I rather expected to see a dull, chinless man. Always in England he had been dreadfully photographed. But he was not chinless, he was a tall, good-looking young man. He was wearing a single-breasted suit with twin vents and he was well turned out. *Taylor and Cutter* would have approved. His hair was, perhaps, slightly long, but so well brushed that it was everything the headmaster of Geelong Grammar could have desired. His complexion was very much English Public School, the sort of complexion that was desperately sought after in the Victorian era, milk white with rose pink cheeks. One hoped that for a week or two he would not have to do any marathon runs in the sun at Timbertop. 
+At Nandi I had my first chance to look at this heir to the throne. I think I shared the opinion of many others. I rather expected to see a dull, chinless man. Always in England he had been dreadfully photographed. But he was not chinless, he was a tall, good-looking young man. He was wearing a single-breasted suit with twin vents and he was well turned out. *Tailor and Cutter* would have approved. His hair was, perhaps, slightly long, but so well brushed that it was everything the headmaster of Geelong Grammar could have desired. His complexion was very much English Public School, the sort of complexion that was desperately sought after in the Victorian era, milk white with rose pink cheeks. One hoped that for a week or two he would not have to do any marathon runs in the sun at Timbertop. 
 
 In the aircraft he took off his jacket and wore a pale grey lambswool pullover. He had seat 1a and the equerry, Squadron Leader Checketts, had seat 18. They were up front on the port side. From that day 1a on the *City of Adelaide* gained for all time the reputation of being the ‘Prince Charles’ seat! Inspector D. N. Sharp of the Commonwealth Police, his eternal man Friday, sat immediately behind. 
 
@@ -78,9 +78,9 @@ In the afternoon the Royal party changed its tactics. The Press now had Governme
 
 It was the chance remark by the wife of a senior minister later in the afternoon that gave us the tip that he was riding, and the photographers won some excellent pictures. Furthermore Prince Charles was most pleasant and happy to be photographed. ‘How did you fellows get here so quickly?’ he said. Then we had the first recorded conversation between Prince Charles and the Press.
 
-“That’s a fine horse, Prince Charles,” said the pressman.
+    “That’s a fine horse, Prince Charles,” said the pressman.
 
-‘Yes,” he said.
+    ‘Yes,” he said.
 
 Our next main encounter with Prince Charles was at Timbertop on 3 February. There was a special agreement. For an hour or more the photographers would be given an open go, and after that the Prince would be left alone, unharrassed for the rest of his time at Timbertop. This was fair enough, and it was all that was wanted. The Press, at last, was treated with great courtesy. Geelong Grammar went out of its way to plan a programme that supplied radio, TV, everybody, with the best material of the tour. I drove to Timbertop in the early morning. It was a case of having to know the way. Geelong Grammar very carefully had removed all the road signs to discourage the tourists and rubberneckers. It was as bad as the days when we were worried that the Japanese were going to get us. I had my instructions: drive to Mansfield, keep on going along the Mount Buller road, the familiar route for all, the skiing fraternity. Then, soon after passing the Merrijig pub, take a sharp turn to the right and up the hillside. 
 
@@ -90,25 +90,25 @@ The boys at their first day of school wore exactly what they wanted to wear — 
 
 Geelong Grammar had organized a grand tour with Prince Charles, designed to show all the activities of the school in less than forty minutes. With masterly precision something different happened every two minutes. The curiosity amongst the young Geelong Grammar boys was intense; there were faces in every window. As we set out I heard two fourteen-year-olds talking:
 
-  *Ist Boy*: Wouldn't it be awful, all those cameras and everything.
+    *Ist Boy*: Wouldn't it be awful, all those cameras and everything.
 
-  *2nd Boy*: I dunno. I reckon I wouldn’t mind it.
+    *2nd Boy*: I dunno. I reckon I wouldn’t mind it.
 
-  *Ist Boy*: He doesn’t look seventeen, though, does he?
+    *Ist Boy*: He doesn’t look seventeen, though, does he?
 
-  *2nd Boy*: Ah, what you've got to realize is that no seventeen-year-old English kid ever looks seventeen.
+    *2nd Boy*: Ah, what you've got to realize is that no seventeen-year-old English kid ever looks seventeen.
 
 Prince Charles looked at a series of rugged activities. He watched one boy do a Tarzan act swinging from one long rope to another. With his companion Stuart McGregor he went to work with a bush saw and together they started to saw their way through a log. Here he took some steady banter from the photographers. 
 
-  ‘Look up, Prince Charles.’ 
+    ‘Look up, Prince Charles.’ 
 
-  ‘What?’ (Puff, puff.)
+    ‘What?’ (Puff, puff.)
 
-  ‘Look as if you'’re enjoying it, Prince Charles.’
+    ‘Look as if you'’re enjoying it, Prince Charles.’
 
-  ‘You can have a hot shower now, Prince Charles.’
+    ‘You can have a hot shower now, Prince Charles.’
 
-  And the Prince being infinitely patient, said: 'What, now? I think I might.’ |
+    And the Prince being infinitely patient, said: 'What, now? I think I might.’ |
 
 Next there was the fire fighting demonstration and the Prince asked if he could work the hose. As he handled the spray it brought back so many dear, cherished memories. There was the time at the Chelsea Flower Show in 1959 when the photographers were drenched by the electronic sprays and they blamed Prince Philip. There was the time at the Commonwealth Games at Perth in 1962 when the photographers tried to get their revenge.
 
@@ -116,7 +116,7 @@ At Timbertop it seemed to be in the grand tradition. Prince Charles not being a 
 
 The Prince looked at the swimming, at the skiing arrangements, at the hiking gear and the overnight tents. Nothing was spared. He was even shown the Timbertop fly traps. These were kerosene tins which contained pieces of meat. The flies flew inside to the meat, then, unable to get out again they were caught in a large glass jar. The obvious question was: Who gets the hideous job of cleaning out the fly traps?
 
-The head master of Geelong Grammar, Mr T. R. Garnett, said with splendid understatement: ‘We give that to the boy who behaves least well. Anyone who is late for roll call or something like that.’
+The headmaster of Geelong Grammar, Mr T. R. Garnett, said with splendid understatement: ‘We give that to the boy who behaves least well. Anyone who is late for roll call or something like that.’
 
 It was interesting to note that for the next roll call Prince Charles was magnificently on time.
  
