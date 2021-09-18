@@ -3,8 +3,19 @@ title: Essentially worldly columns
 date: 1966-11-11
 summary: The seventh chapter of Keith's second book, 'Supporting a column'. 
 tags:
+  - Darwin
+  - Douglas Lockwood
+  - Fort Worth, Texas
+  - Strategic Air Command (USAAF)
+  - Canadian Pacific Airlines
+  - John Bechervaise
   - 1960 Tokyo Olympics
-  - Alderman Hills
+  - All Nippon Airlines (ANA)
+  - Peter Temm
+  - Kure 'Diggers' waifs
+  - Yone Ito
+  - Masaaki Usui
+  - Percy Cerutty
   - Alderman Hills
   - Bangkok
   - Brian Hill
@@ -16,7 +27,7 @@ tags:
   - Japan
   - Manila
   - Masaaki Usui
-  - Quang Do
+  - (Thich) Quang Do
   - Sir Robert Menzies
   - Sondrestrom
   - Texas
@@ -37,7 +48,7 @@ The arrival in a small out of the way town always causes difficulties. The local
 
 Communications, too, can be a worry. The column has gone by ship's radio, by radio from aircraft, by pedal wireless, by messenger, by teleprinter, by telegram and I am still looking for the day when it will be possible to put it in a bottle and drop it over the side of a boat.
 
-One of the earliest columns on the move was a visit to Washington, where after much pleading with the U.S. Air Force they agreed to fly me to Fort Worth, Texas, and show me the bombers of Strategic Air Commannd. First I was put through a most careful security check. References had to come from the Embassy. No I wasn't, nor had I ever been in the U.S.S.R., Red China or behind the Iron Curtain. I even wondered if it would improve my chances if I pointed out that I was a Liberal voter of ten years standing and a devoted supporter of Robert Gordon Menzies. 
+One of the earliest columns on the move was a visit to Washington, where after much pleading with the U.S. Air Force they agreed to fly me to Fort Worth, Texas, and show me the bombers of Strategic Air Command. First I was put through a most careful security check. References had to come from the Embassy. No I wasn't, nor had I ever been in the U.S.S.R., Red China or behind the Iron Curtain. I even wondered if it would improve my chances if I pointed out that I was a Liberal voter of ten years standing and a devoted supporter of Robert Gordon Menzies. 
 
 Eventually, checked, cross-examined, security-cleared, with a bundle of permits, I was ready to go. 
 
@@ -94,6 +105,7 @@ He started with a series of continuous slow rolls, then a barrel roll, then a lo
 
 After we landed he took one look. 'Gee, I'm sorry; are you all right?',
 
+
 After that it seemed wise to abandon the U.S.A.A.F. and keep to inaugural flights on airlines. The grandest inaugural I remember was the flight across the North Pole by Canadian Pacific Airlines. We flew from Sydney to Hawaii to Vancouver to Sondrestrom, Greenland to Amsterdam. This flight is remembered with such love because we had aboard the top columnists of the U.S. and Canada, leading Mayors, including Alderman Hills, Mayor of Sydney, and the president of Canadian Pacific. When one has the president of the Airline aboard it gives one just that little extra confidence in operations,
 
 Never was a tour laid on with such luxury. The transcontinental flight finished at Amsterdam, but C.P.A. laid on feeder flights to London and Paris. At every city large black Cadillacs were at our disposal. Always a line of Cadillacs was at the hotel front door and if one wanted to drive to Les Halles for a feed of snails or to Versailles to see the spot where Marie Antoinette stood for the last time before they took her away, one had only to signal. Beautiful Cadillacs they were, all with push-button electric windows.
@@ -123,6 +135,7 @@ WE THE MOST NORTHERN AUSTRALIANS ON INAUGURAL FLIGHT ACROSS THE NORTH POLE SEND 
 Several days later in London we daring explorers received the reply from the Antarctic:
 
 GREETINGS HEARTILY RECIPROCATED GRATEFUL YOUR REMEMBERING US AT MAWSON ANTARCTIC FROM JOHN BECHERVAISE.
+
 
 Quite the most rewarding country for writing columns was Japan, and at Christmas 1963 I went there with Barry Woodhouse, a TV cameraman. Until then always I had worked on the premise that enlightened foreigners spoke English.
 
@@ -209,6 +222,7 @@ As he spoke I became more and more nervous. I looked around. These fellows had a
 
 You see, Peter had left his watch behind in one of the lockers and this man was making sure that Peter got it back: The man was one of the gangsters.
 
+
 Some of the columns were far from light-hearted and in this category I put the visit to Kure and the visit to Saigon. Kure could be described as the Portsmouth of Japan. It was the traditional centre for the Navy and for shipbuilding. Immediately after the war it was home for the Australians and the British Commonwealth Occupational Forces. 
 
 Of course, when the war ended and the Japanese Navy ceased to exist, Kure lost its main industry and it became a poverty-stricken, tragic place. We don't know precisely the number of illegitimate children left behind in Japan by the Australian occupation forces. It happens wherever soldiers go to fight, in every garrison city. However Kure gathered all the publicity and it became special because of the wretched conditions in which the half-Australians lived. It became even more special because of colour prejudice. It comes as a shock when prejudice works the other way.
@@ -260,169 +274,140 @@ Miss Ito did not say much, but she was disappointed at the decision. It was like
 So the campaign all around Australia was not the success it could have been. The final result was £21,600 ($43,200) and with donations from the Federal Government there has been just enough money for the waifs of Kure to get by. 
 
 
-Saigon was also a good city for columns, but not the light-hearted variety. The premier Ngo Dinh Diem had just been murdered and all was in a state of chaos. |
+Saigon was also a good city for columns, but not the light-hearted variety. The premier Ngo Dinh Diem had just been murdered and all was in a state of chaos.
 
-This was my first visit since 1945 and outwardly there had been little change. Saigon still looked a lovely piece of provincial France, the tree-lined boulevards, the exquisite little squares and the sidewalk cafés with their superb French cuisine were as before. It was the only city in all Asia where one could buy a cheap bottle of good wine. The dark-haired Vietnamese girls, as slender as lilies, were still the world's most beautiful. Everywhere they rode bicycles and
-one pondered what a miracle it was that the long panels of their national dress did not catch in the spokes. 
+This was my first visit since 1945 and outwardly there had been little change. Saigon still looked a lovely piece of provincial France, the tree-lined boulevards, the exquisite little squares and the sidewalk cafés with their superb French cuisine were as before. It was the only city in all Asia where one could buy a cheap bottle of good wine. The dark-haired Vietnamese girls, as slender as lilies, were still the world's most beautiful. Everywhere they rode bicycles and one pondered what a miracle it was that the long panels of their national dress did not catch in the spokes. 
 
 In 1945 it was a war city. There was a military ruling that no person was to go beyond the city limits and it was unsafe to venture a anywhere after dark without sidearms. Nearly nine years later it was still forbidden to go beyond the city limits and still unsafe after dark.
 
-But there were some changes. For the traveller there was now a somewhat luxurious hotel, the Caravelle. American troops had replaced French troops. Furthermore it had become the custom to sell postcards by the side of the footpath. Postcards? On close inspection one discovered that these were not send-home pictures of harming Saigon scenes, they were colour pictures of Buddhist priests incinerating themselves with petrol. Some gave the full story sequence from the early stages through to the finish.  
+But there were some changes. For the traveller there was now a somewhat luxurious hotel, the Caravelle. American troops had replaced French troops. Furthermore it had become the custom to sell postcards by the side of the footpath. Postcards? On close inspection one discovered that these were not send-home pictures of charming Saigon scenes, they were colour pictures of Buddhist priests incinerating themselves with petrol. Some gave the full story sequence from the early stages through to the finish.  
 
-It was a city uncomfortably full of intrigue. A Vietnamese journa- list told me to expect it everywhere. He said there was barely a hotel, theatre or restaurant in Saigon that was not paying protection money to the Viet Cong. The money was handled through Hong Kong and reached the Communists via Cambodia. Failure to pay
-the money could mean a bomb through the window.
+It was a city uncomfortably full of intrigue. A Vietnamese journalist told me to expect it everywhere. He said there was barely a hotel, theatre or restaurant in Saigon that was not paying protection money to the Viet Cong. The money was handled through Hong Kong and reached the Communists via Cambodia. Failure to pay the money could mean a bomb through the window.
 
 Several days before two Americans had been killed in a bomb outrage. The Australian military attaché, Lieutenant-Colonel Oxley, saw it all. He was eating in a cafe on the other side of the road. Immediately the bomb went off he knocked his wife to the floor to get her out of danger.
 
 Brian Hill, the Australian Ambassador, was leading a difficult life. During the Diem uprising there was fighting all around the Australian Embassy with bullets cutting through the garden. He hid with his children under the dining room table. Because Australia was backing the U.S. in Vietnam his name was on the Viet Cong assassination list. There was a permanent guard outside the Embassy and he always travelled with a bodyguard. In the back of his car he had two thick woollen rugs. These were not to keep him warm in steamy Saigon; they were to smother bombs should they be thrown through the car window. This was a use for pure Australian wool that had yet to be mentioned by the Wool Board. 
 
-Saigon at this time was filled with international reporters and it was important to find a story that was different. A Vietnamese journalist,who had been our local correspondent, said that if I gave him a little time he might be able to organize an interview with the Venerable Quang Do. Already Quang Do was a legendary figure. He was the priest who had organized the Buddhists in their uprising against the Diem Government. He had led riots in the streets; he had
-been gaoled and tortured.
+Saigon at this time was filled with international reporters and it was important to find a story that was different. A Vietnamese journalist, who had been our local correspondent, said that if I gave him a little time he might be able to organize an interview with the Venerable Quang Do. Already Quang Do was a legendary figure. He was the priest who had organized the Buddhists in their uprising against the Diem Government. He had led riots in the streets; he had been gaoled and tortured.
 
-My friend managed to organize the interview in less than twenty-four hours, much faster than I had anticipated. We drove to a temple | on the outskirts of the city and there we met Quang Do in a garden.
+My friend managed to organize the interview in less than twenty-four hours, much faster than I had anticipated. We drove to a temple on the outskirts of the city and there we met Quang Do in a garden. I don't know what I really expected. The title 'Venerable' seemed an odd one. No doubt he would be a little, bent old man with a white beard, a sort of elderly rural dean with an Asian flavour. 
 
-I don't know what I really expected. The title 'Venerable' seemed an odd one. No doubt he would be a little, bent old man with a white beard, a sort of elderly rural dean with an Asian flavour. 
-
-Nothing in Vietnam ever turns out as expected, but I wasn't prepared for the shock of the Venerable Quang Do. He could have been a Harvard graduate. One could even have pictured him handling the P.R. account for a big American firm. He spoke perfect English with an American accent. His smile was warm and his
-handshake friendly. His first act was to pull out a packet from under his brown habit and offer me a cigarette —an American king size filter. He was the smoothest monk I had ever met, and at thirty-eight, the most handsome.
+Nothing in Vietnam ever turns out as expected, but I wasn't prepared for the shock of the Venerable Quang Do. He could have been a Harvard graduate. One could even have pictured him handling the P.R. account for a big American firm. He spoke perfect English with an American accent. His smile was warm and his handshake friendly. His first act was to pull out a packet from under his brown habit and offer me a cigarette — an American king size filter. He was the smoothest monk I had ever met, and at thirty-eight, the most handsome.
 
 We had planned to put the interview on film for television in Australia and I was confused.
-
-'What am I to call you?'
-'Anything at all, I don't mind. If you want to be formal, call me “Venerable”.
+'
+What am I to call you?'
+'Anything at all, I don't mind. If you want to be formal, call me "Venerable".
 'Why Venerable?'
 
 He was entitled to be called Venerable, he said, as he had burned an incense taper right down on to the top of his bare scalp every year for the past twenty. This, I presumed, must have been incredibly painful and I winced at the thought of it.
 
-In a very matter of fact way he began to tell of his experiences. He said that under Diem regime he spent three months in gaol. During this time he was tortured continuously. They pushed salt and soapy water into his mouth. His torturers made cunning use of electricity and they laid him out on a table to thrash him all over
+In a very matter of fact way he began to tell of his experiences. He said that under the Diem regime he spent three months in gaol. During this time he was tortured continuously. They pushed salt and soapy water into his mouth. His torturers made cunning use of electricity and they laid him out on a table to thrash him all over
 with bamboo rods.
 
-“This way you learn to value freedom,' he said. 'We have a saying in Buddhism — one day in gaol is worth 3,000 days of freedom.'
+'This way you learn to value freedom,' he said. 'We have a saying in Buddhism — one day in gaol is worth 3,000 days of freedom.'
 
-I mentioned the coloured postcards of priests incinerating them-
-selves with petrol and that this was something very difficult for the
+I mentioned the coloured postcards of priests incinerating themselves with petrol and that this was something very difficult for the
 Western mind to understand.
 
-“This was an important part of our campaign,' he replied. 'It brought our cause home to the people and impressed all the world.' 
+'This was an important part of our campaign,' he replied. 'It brought our cause home to the people and impressed all the world.' 
 
 'But how could they do it?' I said. 'I wouldn't have the courage to burn my little finger let alone drench myself with petrol.' 
 
-Quang Do burst out laughing. He was being very charming and very Harvard again. Obviously I was being quite absurd. He explained carefully. -
+Quang Do burst out laughing. He was being very charming and very Harvard again. Obviously I was being quite absurd. He explained carefully.
 
 'It is written in the scriptures that when the Buddhist faith is threatened, this is something we must do. There was no shortage of volunteers. They wanted to do it and they were happy to do it. Two were only novices, seventeen and eighteen, in the flower of youth. So far seven monks and one nun have died. If necessary there will be more.
 
-“They did not suffer. It was their opportunity to meet Buddha, you see. When the flames were burning they were perfectly cool because they were in a state of meditation.'
+'They did not suffer. It was their opportunity to meet Buddha, you see. When the flames were burning they were perfectly cool because they were in a state of meditation.'
 
 My expression must have betrayed my disbelief. 
 
 Quang Do smiled again patiently: 'You have seen photographs. These incidents were witnessed by as many as thirty people. In not one case did a priest move or cry out? They were happy. When I burn incense on my head I do not feel it.'
 
-It was diflicult to know what to say. He pointed out that the body of the first Buddhist to incinerate himself, the Venerable Quang Duc, had been preserved as a shrine and was being worshipped by the people in Vietnam. One nun, pretty, only twenty-four, tried to set herself alight in one of the most expensive suites of the Hotel Caravelle. Secret police found out about her exploit just in time.
-Indeed the nuns had played a big part in the uprising. Over 100 of
-
-'them went out in the streets to gather information. And this was  interesting. They shed their habit, bought expensive wigs to cover  their shaved heads and dressed like taxi dancers, even down to their spike heels. This was the give-away for some girls — they had never worn high heels before.
+It was difficult to know what to say. He pointed out that the body of the first Buddhist to incinerate himself, the Venerable Quang Duc, had been preserved as a shrine and was being worshipped by the people in Vietnam. One nun, pretty, only twenty-four, tried to set herself alight in one of the most expensive suites of the Hotel Caravelle. Secret police found out about her exploit just in time. Indeed the nuns had played a big part in the uprising. Over 100 of 'them went out in the streets to gather information. And this was  interesting. They shed their habit, bought expensive wigs to cover their shaved heads and dressed like taxi dancers, even down to their spike heels. This was the give-away for some girls — they had never worn high heels before.
 
 Quang Do could not say exactly how many priests had died in the clashes with Diem's troops, but it was a fact that over 100 were still missing. Nobody knew what had happened to them. 
 
 Only once did the charm of the Venerable Quang Do disappear. I said that frequently it had been written in our newspapers that various sects of Buddhists showed Communist sympathies.
 
-“Yes, they say many things,” he said. “They say we want to be the Government. This is not true. The Viet Cong is always trying to cause a split between the Buddhists and the Government. Before they called us the Communist Buddhists. It is very funny — now we are the Communist Americans.' 
+'Yes, they say many things,' he said. 'They say we want to be the Government. This is not true. The Viet Cong is always trying to cause a split between the Buddhists and the Government. Before they called us the Communist Buddhists. It is very funny — now we are the Communist Americans.' 
 
-And so Barry Woodhouse, the T.V. cameraman, took a film of the Venerable Quang Do for Australian television. He knew exactly what to do and what to say. The Venerable Quang Do was a polished performer.
+And so Barry Woodhouse, the TV cameraman, took a film of the Venerable Quang Do for Australian television. He knew exactly what to do and what to say. The Venerable Quang Do was a polished performer.
 
-We all had to move on because the same day there was a Passion Memorial service for the late President Kennedy in the Xa Loi Pagoda. This was the same monastery where President Diem's troops went through the corridors shooting down monks with machine guns. All the diplomatic corps attended, including the American ambassador, Henry Cabot Lodge; plus the full team of revolutionary generals, including General 'Big' Minh. There was no public advertisement, no official announcement of the service. One doesn't do such things for fear that the Viet Cong might attend also. So the word was spread around privately through the diplomatic
-corps.
+We all had to move on because the same day there was a Passion Memorial service for the late President Kennedy in the Xa Loi Pagoda. This was the same monastery where President Diem's troops went through the corridors shooting down monks with machine guns. All the diplomatic corps attended, including the American Ambassador, Henry Cabot Lodge; plus the full team of revolutionary generals, including General 'Big' Minh. There was no public advertisement, no official announcement of the service. One doesn't do such things for fear that the Viet Cong might attend also. So the word was spread around privately through the diplomatic corps.
 
 At the back of the temple on a stage was a twenty foot high Buddha. At the Buddha's crossed feet was a photograph shrouded in black of President Kennedy. Gongs and drums were beaten, incense filled the air and the priests started their strange rhythmic chant. This was the first chapter in a service that was to go on for three days. 
 
-There was no evidence in the temple that this had been the scene of a bloody battle except for one thing: the diamonds that should have been over the huge Buddha's eyes were missing. These had been stolen when the troops invaded Xa Loi. As I looked at the Buddha towering above and its empty sockets where the jewels should have been, it all reminded me of a story that I once read in Boys' Own
-Paper — or was it Chums?
+There was no evidence in the temple that this had been the scene of a bloody battle except for one thing: the diamonds that should have been over the huge Buddha's eyes were missing. These had been stolen when the troops invaded Xa Loi. As I looked at the Buddha towering above and its empty sockets where the jewels should have been, it all reminded me of a story that I once read in *Boys' Own Paper* — or was it *Chums*?
 
-That evening when I returned to the Caravelle Hotel I discovered that most of the traveller's cheques had been removed from my locked case. Cases of traveller's cheques being forged were very rare indeed, T had been told back in Melbourne. But as it turned out a man entered a Chinese bank in Saigon, wrote my signature six times in front of the teller, and cashed them all without question. This wasa good forging achievement when one considers that I write with 'my left hand. I was not sorry to leave Vietnam. Anyway I had no choice, my money was all gone. 
+That evening when I returned to the Caravelle Hotel I discovered that most of the traveller's cheques had been removed from my locked case. Cases of traveller's cheques being forged were very rare indeed, I had been told back in Melbourne. But as it turned out a man entered a Chinese bank in Saigon, wrote my signature six times in front of the teller, and cashed them all without question. This was a good forging achievement when one considers that I write with my left hand. I was not sorry to leave Vietnam. Anyway I had no choice, my money was all gone. 
 
-However it is quite impossible to escape international politics in Asia. My next resting place was the Hong Kong Hilton hotel. Here there was every conceivable luxury, down to the genuine plastic bamboo decorations in every room. All needs were catered for, the Bible was in one drawer and the life story of Conrad Hilton in another, which no doubt gave a feeling of security in uncomfortable Asia. Furthermore two chocolate mints were placed beside the bed upon retiring every night. There was a bar called 'The Opium Den' which did not serve opium and an 'American Grill' which did serve American style charcoal steaks. In short it was the type of hotel which did everything to make the American tourist as comfortable
-as if he had never left home.
+However it is quite impossible to escape international politics in Asia. My next resting place was the Hong Kong Hilton hotel. Here there was every conceivable luxury, down to the genuine plastic bamboo decorations in every room. All needs were catered for, the Bible was in one drawer and the life story of Conrad Hilton in another, which no doubt gave a feeling of security in uncomfortable Asia. Furthermore two chocolate mints were placed beside the bed upon retiring every night. There was a bar called 'The Opium Den' which did not serve opium and an 'American Grill' which did serve American style charcoal steaks. In short it was the type of hotel which did everything to make the American tourist as comfortable as if he had never left home.
 
-The most interesting, the cheapest and best gifts to be found in Hong Kong were all in the Chinese department store, where the goods came from Red China. It remained cheap because every U.S. tourist who arrived in Hong Kong received a pamphlet from the U.S. Consul pointing out that it was forbidden to buy goods from
-Communist China. Everything they bought had to have a 'certificate of origin'. |
+The most interesting, the cheapest and best gifts to be found in Hong Kong were all in the Chinese department store, where the goods came from Red China. It remained cheap because every U.S. tourist who arrived in Hong Kong received a pamphlet from the U.S. Consul pointing out that it was forbidden to buy goods from Communist China. Everything they bought had to have a 'certificate of origin'.
 
-This was causing some wry thoughts at the Hong Kong Hilton. For example Hong Kong's water came from a reservoir in Commu- nist China, piped in at the rate of thirty million gallons a day. Could a Goldwater Republican in all seriousness put Red Chinese water into his bourbon? Why, he couldn't even have bourbon on the rocks, the ice would also be suspect.
+This was causing some wry thoughts at the Hong Kong Hilton. For example Hong Kong's water came from a reservoir in Communist China, piped in at the rate of thirty million gallons a day. Could a Goldwater Republican in all seriousness put Red Chinese water into his bourbon? Why, he couldn't even have bourbon on the rocks, the ice would also be suspect.
 
-This certificate of origin business was more than just a joke. The Hong Kong Hilton had been opened only eight months. To get the Oriental flavour the architects decided it would be fine to decorate all the rooms with paints, panels and objets d'art from China. Being sound business-men they went to the people who could best provide it. All the furnishings they purchased came originally from mainland China. But what was the harm in this, they said, none of it was
-going back to the U.S.? That was where they made their mistake. 
-
-The U.S. Consul-General stepped in. They had to get rid of all their Chinese decorations. Some of it had been paid for, some of it was till on order. Reports at the time claimed it cost the hotel half a million Hong Kong dollars. Hilton representatives insist that it was no more than 100,000 dollars. The real cost was in the delay.
+This certificate of origin business was more than just a joke. The Hong Kong Hilton had been opened only eight months. To get the Oriental flavour the architects decided it would be fine to decorate all the rooms with paints, panels and objets d'art from China. Being sound businessmen they went to the people who could best provide it. All the furnishings they purchased came originally from mainland China. But what was the harm in this, they said, none of it was going back to the U.S.? That was where they made their mistake. The U.S. Consul-General stepped in. They had to get rid of all their Chinese decorations. Some of it had been paid for, some of it was till on order. Reports at the time claimed it cost the hotel half a million Hong Kong dollars. Hilton representatives insist that it was no more than 100,000 dollars. The real cost was in the delay.
 
 Now one was able to admire the new decorations and they looked very Oriental and very fine indeed. The Hong Kong Hilton people had the politically unclean decorations all copied by good politically clean Taiwan Chinese.
 
 Yet the best place for column material is not in Hong Kong itself but upon the Chinese border, very close to politically unclean Chinese. To get there one must get a special permit from the Hong Kong police and travel twenty-two miles by car from Kowloon, the Hong Kong territory on the mainland.
 
-I was escorted by Chief Inspector Devereaux, of the Hong Kong police. He looked magnificent, just like the police in that T.V. series. He wore splendid Bombay bloomer shorts, belt, revolver, and black boots that shone like Chinese lacquer.
+I was escorted by Chief Inspector Devereaux, of the Hong Kong police. He looked magnificent, just like the police in that TV series. He wore splendid Bombay bloomer shorts, belt, revolver, and black boots that shone like Chinese lacquer.
 
-'Af we approached the border the sensation was eerie. There was 'Red China ahead. From here on in a straight line it was 7,000 miles all the way to Leningrad. If one cared to make the trip one would cross no country that was not Communist and over the border there were at least 900 million people.
+As we approached the border the sensation was eerie. There was 'Red China ahead. From here on in a straight line it was 7,000 miles all the way to Leningrad. If one cared to make the trip one would cross no country that was not Communist and over the border there were at least 900 million people.
 
 Hawks flew above. The country ahead looked forbidding, unwelcome. There were jagged, brown hills, without a mark of vegetation. On one hill huge Chinese characters were carved. Communist propaganda? No, said the Chief Inspector. They meant merely, 'Help Prevent Fires'. 
 
 He explained that some farmers had property on both sides of the border. They received permits to go back and forth every day. What they produced on the Red side had to go to the Chinese communes; what they produced on the British side was sold for good prices on the Hong Kong market. 
 
-The train had just arrived from Canton. There were Chinese returning after seeing relatives. Also aboard were several English businessmen. One as he came through the border gate was wearing a Burberry raincoat, a dark blue suit, Homburg hat and he was carrying a leather case. He looked exactly as if he were on his way to
-Whitehall. 
+The train had just arrived from Canton. There were Chinese returning after seeing relatives. Also aboard were several English businessmen. One as he came through the border gate was wearing a Burberry raincoat, a dark blue suit, Homburg hat and he was carrying a leather case. He looked exactly as if he were on his way to Whitehall. 
 
 The most impressive part about the border gate was the behaviour of the Red Chinese. Their public relations were in very good shape. On the Chinese side was a large red flag of the purest silk. The slightest of breezes forced it to stand out stiff and straight. On the British side the Union Jack, of good lasting Lancashire manufacture, hung limp. 
 
-On the Chinese side there was an amplifier which poured out homely traditional Chinese music; not martial music, you understand, but nostalgic stuff of an era. Padding up to the border came. Chinese with huge bundles of food and clothing. They had special permits to go north to see relatives. Maybe they saved for years to do this. Maybe they came from as far as Malaya or North Borneo and this was their first trip home in thirty years. The sound of that sentimental music was all too much. Tears streamed down their wrinkled cheeks. Then there was an interruption to the amplified music. A sing-song Chinese voice was speaking.
-He was apologizing for the queue and the delay. It was not their fault. It was the fault of 'those black imperialists in Taiwan' who tried to smuggle in bombs, so all bundles had to be checked with mine detectors.
+On the Chinese side there was an amplifier which poured out homely traditional Chinese music; not martial music, you understand, but nostalgic stuff of an era. Padding up to the border came Chinese with huge bundles of food and clothing. They had special permits to go north to see relatives. Maybe they saved for years to do this. Maybe they came from as far as Malaya or North Borneo and this was their first trip home in thirty years. The sound of that sentimental music was all too much. Tears streamed down their wrinkled cheeks. Then there was an interruption to the amplified music. A sing-song Chinese voice was speaking. He was apologizing for the queue and the delay. It was not their fault. It was the fault of 'those black imperialists in Taiwan' who tried to smuggle in bombs, so all bundles had to be checked with mine detectors.
 
-We could walk to within fifteen feet of the gate. The Chinese Communist guards were pleased with themselves. That morning they all went into brand new winter uniforms; not the hideous quilted garb of old, but deep khaki serge with red tabs on the collar. One character was fondling a 30-shot, automatic Russian carbine.
+We could walk to within fifteen feet of the gate. The Chinese Communist guards were pleased with themselves. That morning they all went into brand new winter uniforms; not the hideous quilted garb of old, but deep khaki serge with red tabs on the collar. One character was fondling a 30-shot, automatic Russian carbine. Another was taking photographs of us as we took photographs of him. 
 
-Another was taking photographs of us as we took photographs of him. 
-The Chief Inspector said that he had nothing whatever to do with the Chinese border guards. If he spoke to them they did not reply. Even though they were only six feet away he could only approach them exactly according to protocol. Say he wanted them to turn “down their amplifier at a certain time of day. He would have to make an approach to the Chinese Travel Service in Hong Kong.
+The Chief Inspector said that he had nothing whatever to do with the Chinese border guards. If he spoke to them they did not reply. Even though they were only six feet away he could only approach them exactly according to protocol. Say he wanted them to turn down their amplifier at a certain time of day. He would have to make an approach to the Chinese Travel Service in Hong Kong. They would pass on the message to some political body on the mainland, which in turn would pass it on to that Chinese guard six feet away. And usually, said the Chief Inspector, they were quite obliging.
 
-'They would pass on the message to some political body on the mainland, which in turn would pass it on to that Chinese guard six feet away. And usually, said the Chief Inspector, they were quite obliging.
-
-He explained that the refugee problem was not what it used to be. Legally fifty were allowed in a day with permits, or 18,000 a year. Actually the real figure that slipped into Hong Kong was more like 140,000 a year, and they went back at the rate of only four a week. He had 400 police to patrol the 20-mile border, which was protected by a double fence of chicken and barbed wire. Not many
-got through that fence; there were far easier ways of escaping into Hong Kong.
+He explained that the refugee problem was not what it used to be. Legally fifty were allowed in a day with permits, or 18,000 a year. Actually the real figure that slipped into Hong Kong was more like 140,000 a year, and they went back at the rate of only four a week. He had 400 police to patrol the 20-mile border, which was protected by a double fence of chicken and barbed wire. Not many got through that fence; there were far easier ways of escaping into Hong Kong.
 
 The favourite method was to slip down into Portuguese Macao and from there pick up a pirate junk. These were painted all black, fitted out inside with bunks and secret compartments. Then they travelled on moonless nights and cruised silently into one of Hong Kong's many little harbours. The fare for these poverty-stricken
 Chinese was about £50 sterling. It was a case of nothing down and pay for ever. 
 
-Hong Kong is so wealthy the refugees are not interested in going elsewhere. The population is now over 4 million. Babies are being born at the rate of 112,000 a year, all in an area the size of a postage stamp. The more housing the Government provides the more refugees flow in. What is the future? Nobody knows. Hong Kong,
-as always, only lives for the present.
+Hong Kong is so wealthy the refugees are not interested in going elsewhere. The population is now over 4 million. Babies are being born at the rate of 112,000 a year, all in an area the size of a postage stamp. The more housing the Government provides the more refugees flow in. What is the future? Nobody knows. Hong Kong, as always, only lives for the present.
+
 
 The real fun places for the tourist to the East are Bangkok and Manila. Thailand may be surrounded by such awkward places as Laos, Cambodia and Vietnam, but I could find no evidence of a warlike world in Bangkok. Unshamedly it was a tourist town and upon leaving the airport one was confronted by a large sign:
 
-PEPSI COLA WELCOMES YOU TO BANGKOK
+  PEPSI COLA WELCOMES YOU TO BANGKOK
 
-There were tourists everywhere. At my hotel we had the California Camera Club, the Utah Lions and the American Widows' Club. There was a sign on the hotel noticeboard that Kodak organized an exhibition every Thursday morning of traditional Thai dancing. A gentleman was always there from the company to suggest the right filters and whether one should shoot at 35 or 4°5 and precisely how many frames a second. And so he beamed happily as the film whirred away at the rate of thousands of feet a minute.
+There were tourists everywhere. At my hotel we had the California Camera Club, the Utah Lions and the American Widows' Club. There was a sign on the hotel noticeboard that Kodak organized an exhibition every Thursday morning of traditional Thai dancing. A gentleman was always there from the company to suggest the right filters and whether one should shoot at 3.5 or 4.5 and precisely how many frames a second. And so he beamed happily as the film whirred away at the rate of thousands of feet a minute.
 
 For the tourist, Bangkok, the Venice of the East, was absolutely dream stuff. There were 350 Thai temples to be seen. The star attraction, of course, was the temple of the Golden Buddha. It weighed five tons and the gold was worth nigh on fourteen million dollars. Pilgrims came and went all the time. Very devoutly they knelt before the Buddha, burned incense and offered flowers. Just five yards to the right, inside the temple, there was a not so devout looking character who sold colour slides and miniature brass  Buddhas to the tourists. Buddha was doing his bit for the Thai economy. 
 
 The Thais were warm, kind, friendly and generous. Unlike the French they really liked their tourists. On one of the canals there was an old Thai gentleman, an ex-Naval officer, quite wealthy. Every morning until 10 a.m., he would take up a position outside his house where he would wave and bow to every tourist boat saying: 'Good morning, sir. How are you, sir? Good luck to you, sir.' No doubt he would have said much more but that was all the English he knew. 
 
-My main objects in visiting Bangkok were to see a Siamese cat farm and to see the traditional Thai boxing. Before I left Melbourne my wife bought a Siamese kitten and I was told not to come back from Siam without a beautiful Siamese name for it. The representative of Cathay Pacific Airways, Mr Pakorn Charungcharoenve;j,
-was at first a little startled at the thought of a Siamese cat farm in Siam. It was like inquiring after dim sims or chop suey in Shanghai. Yet eventually he did track down a Siamese cat stud at the home of Mr Chompoo Arthachinda, a leading Thai barrister and a distinguished Siamese cat breeder. I took a taxi out to his house and was met by his daughter, a very smooth English-speaking young
-lady in the tightest of two-way stretch slacks. She took me to the stud at the back of their house where the cats were very comfortably situated in cages. |
+My main objects in visiting Bangkok were to see a Siamese cat farm and to see the traditional Thai boxing. Before I left Melbourne my wife bought a Siamese kitten and I was told not to come back from Siam without a beautiful Siamese name for it. The representative of Cathay Pacific Airways, Mr Pakorn Charungcharoenvej, was at first a little startled at the thought of a Siamese cat farm in Siam. It was like inquiring after dim sims or chop suey in Shanghai. Yet eventually he did track down a Siamese cat stud at the home of Mr Chompoo Arthachinda, a leading Thai barrister and a distinguished Siamese cat breeder. I took a taxi out to his house and was met by his daughter, a very smooth English-speaking young lady in the tightest of two-way stretch slacks. She took me to the stud at the back of their house where the cats were very comfortably situated in cages.
 
 Miss Cha Suri Arthachinda said that most of the legends about Siamese cats were true. They were indeed kept in the stately homes and at the Palace. In ancient times they were even used in battle. The idea was to carry the cat on the back of one's neck and at the appropriate moment hurl it at one's assailant. This the enemy apparently found most disconcerting.
 
-At the stud there were 100 cats, all Siamese and varieties I had never seen. Apart from seal points and blue points there were Siamese of the purest chocolate. There were Siamese that were pure white and one beautiful creature that had the blue eyes, white fur with red tips on the tail, feet, ears and nose. Miss Arthachinda said that all their cats went to the U.S. and they received an average price of $21.50 each. And she added: “There are few cat studs of this size
-
-in Bangkok. We have sold our cats for dollars. There are many more Siamese cats in America than in Thailand.' 
+At the stud there were 100 cats, all Siamese and varieties I had never seen. Apart from seal points and blue points there were Siamese of the purest chocolate. There were Siamese that were pure white and one beautiful creature that had the blue eyes, white fur with red tips on the tail, feet, ears and nose. Miss Arthachinda said that all their cats went to the U.S. and they received an average price of $21.50 each. And she added: “There are few cat studs of this size in Bangkok. We have sold our cats for dollars. There are many more Siamese cats in America than in Thailand.' 
 
 I nearly forgot my mission. I said: 'I have a Siamese kitten at home and I want to get a name for him. I would like to see your most valuable cat, your champion sire.' 
 
-Miss Arthachinda took me to another cage. There was the champion, a huge splendid seal point, and he was just having his main meal for the day, a mixture of fish and rice. "
+Miss Arthachinda took me to another cage. There was the champion, a huge splendid seal point, and he was just having his main meal for the day, a mixture of fish and rice. 
 
-“They always eat fish and rice,” she said. 'We don't give them any red meat.' | '
+'They always eat fish and rice,” she said. 'We don't give them any red meat.'
  
 'But,' I said, 'what's his name? That I must know.' 
 Miss Arthachinda looked down at him with great affection. 
 'We call him Bill.' 
 
-That same night I went to Bangkok's Rajadamnern Stadium for the boxing. A gentleman at the hotel tried to put me off. He pointed out with great sadness that Thai boxing had become insufferably pansy. In the old days, he said, gloves were unknown. Boxers wore rope around the knuckles and they soaked it in water to make it tough. Then the really keen ones worked ground glass into the rope. And
-he said with a happy smile that someone died every other night.
 
-Now there were so many rules and regulations all the suspense had gone.
+That same night I went to Bangkok's Rajadamnern Stadium for the boxing. A gentleman at the hotel tried to put me off. He pointed out with great sadness that Thai boxing had become insufferably pansy. In the old days, he said, gloves were unknown. Boxers wore rope around the knuckles and they soaked it in water to make it tough. Then the really keen ones worked ground glass into the rope. And he said with a happy smile that someone died every other night. Now there were so many rules and regulations all the suspense had gone.
 
 The stadium, like all stadiums, was big and ugly. The main bout was between Khwannarong Looglavo and Krathingthaung of the Thai Marine Corps. Just before they came on there was a high speed bout when the man in the blue corner knocked out the man in the red within two minutes of the first round. He gave him a superb left kick straight to the jaw. The red corner man had to be carried off on a stretcher and from what I could see he was still unconscious as he went out the door.
 
@@ -434,20 +419,20 @@ They stripped, went to the centre of the ring and began to pray, tapping their h
 
 Suddenly they were fighting and at the very first blow the crazy music started. There was a four-piece band, two with long drums like bongos called the Glaw-ng Khae-ek and the other two had very reedy instruments like clarinets. The noise was a crazy beat straight from outer space and the boxers danced in time. 
 
-The Thai gentleman told me that good boxers could kick with astonishing accuracy. In the early stages of the bout they tried to do one thing: kick the opponent on the soft spot inside the knee. This weakened him terribly, preparing him for the kill. Then they worked their kicks progressively upstairs until finally they were
-smashing them into the face.
+The Thai gentleman told me that good boxers could kick with astonishing accuracy. In the early stages of the bout they tried to do one thing: kick the opponent on the soft spot inside the knee. This weakened him terribly, preparing him for the kill. Then they worked their kicks progressively upstairs until finally they were smashing them into the face.
 
-Khwan had a beautiful left kick followed by a good right toe, followed by left and right fists, a true four dimension man. Krath favoured his left foot but at infighting he was bloodcurdling with a magnificent right knee, followed by elbow and head crashes. Soon blood was flowing from cut eyes and the crowd was  screaming so loudly it could have been heard as far off as Phnom-Penh.
+Khwan had a beautiful left kick followed by a good right toe, followed by left and right fists, a true four dimension man. Krath favoured his left foot but at infighting he was bloodcurdling with a magnificent right knee, followed by elbow and head crashes. Soon blood was flowing from cut eyes and the crowd was screaming so loudly it could have been heard as far off as Phnom-Penh.
 
 During the interval a boy brought around bottles of beer, price sixteen ticals each, plus bananas and hard boiled eggs, a style of refreshment that could well be followed at Western stadiums. And so it went on, round two, round three, round four, and then the last round. This was the climax. The Thai band stepped up its rhythm until it was a frenzy. -
 
-The crowd in the bleachers were all on their feet. They were screaming sok sok sok! and kow Kow kow! 'Sok' was a suggestion to use elbows and 'Kow' was a plea to put in the knee. The Thai gentleman beside me, who previously had been most circumspect, was now jumping up and down. Every time he screamed sok or xow he threw out an elbow or a knee. I was in quite a dangerous position. |
+The crowd in the bleachers were all on their feet. They were screaming sok sok sok! and kow Kow kow! 'Sok' was a suggestion to use elbows and 'Kow' was a plea to put in the knee. The Thai gentleman beside me, who previously had been most circumspect, was now jumping up and down. Every time he screamed sok or kow he threw out an elbow or a knee. I was in quite a dangerous position. |
 
 What with the pepped up music Khwan found amazing reserves of energy. Legs, elbows, fists and knees were flying all at once. Occasionally the limbs became entangled like barbed wire and they crashed to the floor. The noise built up and up until it seemed to me to be making shock waves across the surface of my beer. 
 
 Then the bell went and it was all over. The referee went over to consult with the ringside judges and Krath in the red corner was declared the winner. There were respectful bows, some prayers of gratitude and it was all over.
 
 There were several more bouts conducted under the rules of the Marquess of Queensberry but hardly anybody stayed. The Thais find that sort of fighting too dull for words.
+
 
 As for the Philippines, we should write more columns about Manila. It is very close to Australia; in terms of modern aviation almost as close as New Zealand. For the tourist, Manila is a very exciting city. The gangsters are very sophisticated and the crime rate appalling. Yet if they shoot you down in the street they are really very nice about it. The people of Manila are the kindest, most disarming in all Asia. They can make all sorts of things appear quite logical.
 
@@ -459,16 +444,15 @@ An English newspaper correspondent took me on a tour of the gambling spots — t
 
 We knocked on the door, a fellow looked through the keyhole, sized us up, and after deciding we were not police, let us in.
 
-Inside the house was divided into two sections. On the right was a night club, almost in darkness with a Filipino band playing to nobody. On the left was a brilliantly lit gambling room with baccarat, roulette, blackjack, the lot. |
+Inside the house was divided into two sections. On the right was a night club, almost in darkness with a Filipino band playing to nobody. On the left was a brilliantly lit gambling room with baccarat, roulette, blackjack, the lot.
 
-I asked my friend what was the use of the nightclub if nobody was interested. He explained that there was a simple arrangement. Very often before a police raid they received a tip-off, whereupon they closed the gambling room, cleared away all the gear and everyone went into the night club and started dancing—a very smooth arrangement it was. 
+I asked my friend what was the use of the nightclub if nobody was interested. He explained that there was a simple arrangement. Very often before a police raid they received a tip-off, whereupon they closed the gambling room, cleared away all the gear and everyone went into the night club and started dancing — a very smooth arrangement it was. 
 
-As we departed from the gambling house I noticed a sign I had missed: 'Gentlemen are requested to leave their guns and lethal weapons at the door.
+As we departed from the gambling house I noticed a sign I had missed: '*Gentlemen are requested to leave their guns and lethal weapons at the door*.'
 
 Manila was a city where the contrast between the very rich and the very poor was sharper than anywhere in the Far East. My English newspaper friend was determined to press this point home. 
 
-First he took me on a tour of the slums, then we went to a suburb which he said was known to all Manila as 'Millionaires' Row'. It was as lush and as expensive as Beverly Hills, California. However there was one difference. There were four guarded checkpoints in and out of this suburb and barriers went down between
-7 pm. and 7 am. 
+First he took me on a tour of the slums, then we went to a suburb which he said was known to all Manila as 'Millionaires' Row'. It was as lush and as expensive as Beverly Hills, California. However there was one difference. There were four guarded checkpoints in and out of this suburb and barriers went down between 7 pm and 7 am. 
 
 For many house owners even this was not enough. There was such a fear of robbery they had their own security guards on twenty-four hour watch standing with revolvers at the wrought-iron gates outside their homes.
  
@@ -476,37 +460,30 @@ I had one lucky column break. I arrived in Manila on the day of the 'Cocker of t
 
 I went along as guest of the editor of the cock-fighting magazine, Louis Beltran. Louis was quite a character. He was dressed in a white shirt with press and two big fighting cocks embroidered on the back. 
 
-First Louis inquired about the state of cock fighting in Australia. When I said that we did not have any, he looked at me in astonish- ment as if we had no movie theatres. 
+First Louis inquired about the state of cock fighting in Australia. When I said that we did not have any, he looked at me in astonishment as if we had no movie theatres. 
 
-'But,” he said, 'we import fighting cocks from Australia. They come from a place somewhere north of Sydney. They are wonderful big cocks, a bit slow, but we find them excellent for cross-breeding.' Louis explained that the number of cocks imported from Australia was not great because they also came in from Texas, Mexico, Spain, why, all over.
+'But,' he said, 'we import fighting cocks from Australia. They come from a place somewhere north of Sydney. They are wonderful big cocks, a bit slow, but we find them excellent for cross-breeding.' Louis explained that the number of cocks imported from Australia was not great because they also came in from Texas, Mexico, Spain, why, all over.
 
-Louis was very patient. Obviously here was another squeamish foreigner who was not going to approve. He explained that the setup was similar to horse racing. There were some very big owners. For example, there was Jorg Araneta, the son of a very wealthy Manila property owner. He had 2,000 fighting cocks and twenty
-full-time trainers, whose job it was to bring the birds to fighting.
+Louis was very patient. Obviously here was another squeamish foreigner who was not going to approve. He explained that the setup was similar to horse racing. There were some very big owners. For example, there was Jorg Araneta, the son of a very wealthy Manila property owner. He had 2,000 fighting cocks and twenty full-time trainers, whose job it was to bring the birds to fighting pitch.
 
 These trainers loved these birds better than their own children. There was one trainer who at the moment of victory, became almost hysterical with joy and relief. He paraded around the ring reciting poetry. There were many who, at the dreadful moment when their prize cock lay dead on the sand, burst into tears.
 
 Each cock carried a four-inch blade, sharp as a surgical knife, attached to one foot. This meant that it was extremely rare for any fight to last longer than sixty seconds. Oh, it was all most humane, said Louis Beltran. One slash, usually was enough, just one good king slash. The birds died more cleanly than those killed for the table. 
 
-We drove to the cockpit, which was on the outskirts of Manila. This was a large stadium with seats all around the square pit, in the style used for the sale of expensive stud sheep or cattle. Except that here there was a bar, all sorts of exotic Filipino and Western foodstuffs laid out on tables and, of course, there were birds everywhere. Half the roosters seemed to be crowing all the time.
-There was the sort of incredible noise that one hears when trying to sleep at a country hotel at 4 a.m.
+We drove to the cockpit, which was on the outskirts of Manila. This was a large stadium with seats all around the square pit, in the style used for the sale of expensive stud sheep or cattle. Except that here there was a bar, all sorts of exotic Filipino and Western foodstuffs laid out on tables and, of course, there were birds everywhere. Half the roosters seemed to be crowing all the time. There was the sort of incredible noise that one hears when trying to sleep at a country hotel at 4 am.
 
-All the best people in Manila were there — congressmen, businessmen, millionaires. Louis explained that today was the real big-time. 
+All the best people in Manila were there — congressmen, businessmen, millionaires. Louis explained that today was the real big-time. Each owner had to make a minimum bet of $200 on each bird, plus an entry fee of $200. To become Cocker of the Year he had to score four wins. Then, apart from the fortune he would win on bets, he would collect $3,000 plus a two-foot high gold trophy.
 
-Each owner had to make a minimum bet of $200 on each bird, plus an entry fee of $200. To become Cocker of the Year he had to score four wins. Then, apart from the fortune he would win on bets, he would collect $3,000 plus a two-foot high gold trophy.
-
-Louis sat with me at the ringside for several minutes, but he had to leave. He had some of his own birds in the contest, and by now he 'was so excited he could hardly talk. The birds came into the ring with their trainers, and then betting started. There must have been twenty or thirty bookmakers. Everyone stood on their feet, all shouting to each other in Tagalog, all waving their arms.
+Louis sat with me at the ringside for several minutes, but he had to leave. He had some of his own birds in the contest, and by now he was so excited he could hardly talk. The birds came into the ring with their trainers, and then betting started. There must have been twenty or thirty bookmakers. Everyone stood on their feet, all shouting to each other in Tagalog, all waving their arms.
 
 There seemed to be no scribblers to note the bets, but thousands of pesos, up to $4,000 for individual bets were changing hands. The shouting grew in crescendo and so did the tremendous atmosphere.
 
 The second fight was the most frightening. Ringside connoisseurs thought it the best for years. The trainers caressing their birds, brought them to the centre of the ring and allowed them to peck each other several times to goad them into fury. A bell rang, they were put down and now there was silence as the cocks faced each other, beak to beak. 
 
-There was a wild flurry of feathers as they attacked, whirling three feet up in the air and suddenly there was a 'uun!' from the audience as the blades hit home. Both birds fell to the sand. Was it all over? No, they got up and the battle raged for another ten seconds.
+There was a wild flurry of feathers as they attacked, whirling three feet up in the air and suddenly there was a 'HUH!' from the audience as the blades hit home. Both birds fell to the sand. Was it all over? No, they got up and the battle raged for another ten seconds.
 
 Now both birds were lying on the sand again. This was incredible. Had they killed each other at the same instant? The rules of cockfighting are that one bird must always die before bets can be settled. To prove this the winner must give the other bird two pecks.
 
-The tension was unbelievable as the trainers carried their birds to the centre. Thousands in cash depended on the result. One bird 
-
-'suddenly revived. He lunged forward, gave his lifeless opponent two pecks and then himself flopped dead. It was a last heroic gesture which made a fortune for his owner.
+The tension was unbelievable as the trainers carried their birds to the centre. Thousands in cash depended on the result. One bird suddenly revived. He lunged forward, gave his lifeless opponent two pecks and then himself flopped dead. It was a last heroic gesture which made a fortune for his owner.
 
 Well, I never did find out who won the Cocker of the Year contest. Two such fights were enough for a squeamish foreigner and I left. On the way out I noticed that there was a surgeon on the job, complete with anaesthetics, scalpels, forceps, sulpha drugs and such. He was mending the wounds of his winning survivors so that they could fight another day.
-
