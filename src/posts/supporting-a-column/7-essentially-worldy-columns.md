@@ -29,46 +29,45 @@ There come terrible periods in the lives of newspaper columnists when all ideas 
 
 On the other hand dead periods can come for no reason whatever and last for weeks at a time. When that happens, there is only one choice — get out of town, go anywhere, new scenery and new faces are essential. 
 
-Yet travel brings other problems. The column still has to be produced every day and often there is so little time. I have always followed the same principle — there is some person in the town who knows more about it than anyone else —let him do the talking.
+Yet travel brings other problems. The column still has to be produced every day and often there is so little time. I have always followed the same principle — there is some person in the town who knows more about it than anyone else — let him do the talking.
 
 One time I arrived in Darwin, and already it was after dark. There had been delays all the way from Sydney and I had just half an hour to get a column. Mercifully my old colleague, the well known Darwin correspondent, Douglas Lockwood, was there. He sat there by the typewriter, giving out ideas and the column still made it the next day.
 
-The arrival in a small out of the way town always causes difficulties. The local newspaperman or correspondent is usually a help, but sometimes he resents the intrusion. The local Mayor or Shire Clerk ~ always has to be seen but almost inevitably they provide more propaganda than information. After long experience I discovered that the best people to see were the local bank managers. Bank
-managers are never local boys. They have been sent there for a term, perhaps four or five years. So they have been able to look at the town as an outsider. Then nobody knows a town like a bank manager, except, of course, the clergy and they won't talk anyway.
+The arrival in a small out of the way town always causes difficulties. The local newspaperman or correspondent is usually a help, but sometimes he resents the intrusion. The local Mayor or Shire Clerk always has to be seen but almost inevitably they provide more propaganda than information. After long experience I discovered that the best people to see were the local bank managers. Bank managers are never local boys. They have been sent there for a term, perhaps four or five years. So they have been able to look at the town as an outsider. Then nobody knows a town like a bank manager, except, of course, the clergy and they won't talk anyway.
 
 Communications, too, can be a worry. The column has gone by ship's radio, by radio from aircraft, by pedal wireless, by messenger, by teleprinter, by telegram and I am still looking for the day when it will be possible to put it in a bottle and drop it over the side of a boat.
 
-One of the earliest columns on the move was a visit to Washington, where after much pleading with the U.S. Air Force they agreed to fly me to Fort Worth, Texas, and show me the bombers of SMrategic Air Commannd. First I was put through a most careful security check. References had to come from the Embassy. No I wasn't, nor had I ever been in the U.S.S.R., Red China or behind the Iron Curtain. I even wondered if it would improve my chances if I pointed out that I was a Liberal voter of ten years standing and a devoted supporter of Robert Gordon Menzies. 
+One of the earliest columns on the move was a visit to Washington, where after much pleading with the U.S. Air Force they agreed to fly me to Fort Worth, Texas, and show me the bombers of Strategic Air Commannd. First I was put through a most careful security check. References had to come from the Embassy. No I wasn't, nor had I ever been in the U.S.S.R., Red China or behind the Iron Curtain. I even wondered if it would improve my chances if I pointed out that I was a Liberal voter of ten years standing and a devoted supporter of Robert Gordon Menzies. 
 
-iventually, checked, cross-examined, security-cleared, with a bundle of permits, I was ready to go. 
+Eventually, checked, cross-examined, security-cleared, with a bundle of permits, I was ready to go. 
 
-I took off in a dear old vintage DC3, the property of the U.S.A.A.F. and I was just a little surprised that they still had one in service. It had no luxuries, nothing but the hard, cruel, bottom-deadening steel benches down the sides as used in World War Two.
+I took off in a dear old vintage DC3, the property of the USAAF. and I was just a little surprised that they still had one in service. It had no luxuries, nothing but the hard, cruel, bottom-deadening steel benches down the sides as used in World War Two.
 
-The passengers were a curious mixture: G.Ls, sailors, and maybe a dozen of the U.S. Women's Army Corps, one of whom was a major. | was the only passenger in civilian clothes and must have been considered a remarkably important V.IP. The aircraft's destination wis San Antonio, Texas, but the instructions were that it could land at the S.A.C,, Carswell Air Base, Fort Worth, but I would be the only person permitted to leave the aircraft.
+The passengers were a curious mixture: GIs, sailors, and maybe a dozen of the U.S. Women's Army Corps, one of whom was a major. | was the only passenger in civilian clothes and must have been considered a remarkably important VIP. The aircraft's destination was San Antonio, Texas, but the instructions were that it could land at the S.A.C,, Carswell Air Base, Fort Worth, but I would be the only person permitted to leave the aircraft.
 
 You must appreciate that this was a very long flight in an elderly aeroplane. It was designed for an era when it was really unnecessary to provide fancy lavatory facilities. We became more and more strained and tense as we approached the Texas border. There was sulfering on all faces, both male and female.
 
-At last we landed at Carswell Air Base, the door of the DC3 opened and we all rushed out. But wait — two jeeps were there with Browning '50 calibre machine guns on the back.
+At last we landed at Carswell Air Base, the door of the DC3 opened and we all rushed out. But wait — two jeeps were there with Browning .50 calibre machine guns on the back.
 
 I was the only one with a permit, hence I was the only one allowed to proceed. The pilot and co-pilot had permission to walk to the control tower to complete their flight plan, that's all — the others were not allowed to move more than twenty feet from the DC3. Then to make sure that they did not, the jeep covered them with the Browning machine guns.
 
-"The W.A.C. major could only be described as livid. She protested, she complained and one time she even mentioned that she would call on the President of the United States, but it made no difference. Had they been all boys, or all girls maybe they would have been tempted to ease their problems behind the under-carriage somewhere, but they did not. The plant was re-fuelled and off they went, on to San Antonio. I often wondered how they got on.
+The W.A.C. major could only be described as livid. She protested, she complained and one time she even mentioned that she would call on the President of the United States, but it made no difference. Had they been all boys, or all girls maybe they would have been tempted to ease their problems behind the under-carriage somewhere, but they did not. The plane was re-fuelled and off they went, on to San Antonio. I often wondered how they got on.
 
 As for me, I was taken on a guided tour and it was pointed out very bluntly that I would be allowed in no operational building, nor would I be allowed inside any aircraft. It was a great privilege for a foreigner to be allowed on the base at all.
 
 Carswell was just one of a great string of S.A.C. bases in a semicircle around the lower half of the U.S. From here bombers could fly direct to attack such cities as Moscow, Leningrad, Kuibyshev, Kharkov, or Kiev, then maybe finish their runs at bases in England, the Middle East or the Pacific. 
 
-I noticed that pilots, aircrew, groundstaff, all carried Colt -45s or carbines; helmets and gas masks were at their sides. One squadron was always at the ready, other aircrews were under instruction never to go more than one hour's driving time from the base.
+I noticed that pilots, aircrew, groundstaff, all carried Colt .45s or carbines; helmets and gas masks were at their sides. One squadron was always at the ready, other aircrews were under instruction never to go more than one hour's driving time from the base.
 
 There was an atmosphere of war and real business, utterly different from anywhere else. All around the base and off into the distance were the great shapes of the B36 bombers and it had to be presumed that many of them were already loaded with nuclear weapons.
 
-I asked formally to see over a B36 and permission was formally refused. I could walk around one under escort, that was all. The escort was a jeep with a *50 calibre machine gun on the back once again. The B36, now outdated, was a very big aeroplane. Somehow they were like a praying mantis, all out of proportion. Their nose was too long, their tail too high, and it was not easy to tell which way they were heading. Their wings hung down slightly as if it were too great a strain to support the weight of their ten engines. When they started up in the morning the six 3,500 horsepower propeller engines shook the buildings way off in Fort Worth; when the other four jets came in with their treble shriek the combination was terrifying.
+I asked formally to see over a B36 and permission was formally refused. I could walk around one under escort, that was all. The escort was a jeep with a .50 calibre machine gun on the back once again. The B36, now outdated, was a very big aeroplane. Somehow they were like a praying mantis, all out of proportion. Their nose was too long, their tail too high, and it was not easy to tell which way they were heading. Their wings hung down slightly as if it were too great a strain to support the weight of their ten engines. When they started up in the morning the six 3,500 horsepower propeller engines shook the buildings way off in Fort Worth; when the other four jets came in with their treble shriek the combination was terrifying.
 
-So I had my walk slowly around a B36 nucear bomber and as I walked the jeep followed in first gear. When I paused the jeep - paused and all the time a negro corporal had his Browning trained straight at me. One appreciated this enthusiasm for the security of United States war weapons, but it was quite difficult to concentrate on the matter in hand. Indeed when another DC3 took me back to Washington the next day I had difficulty in trying to remember what a B36 looked like. But, nevertheless, 'it made a column'. '
+So I had my walk slowly around a B36 nucear bomber and as I walked the jeep followed in first gear. When I paused the jeep paused and all the time a negro corporal had his Browning trained straight at me. One appreciated this enthusiasm for the security of United States war weapons, but it was quite difficult to concentrate on the matter in hand. Indeed when another DC3 took me back to Washington the next day I had difficulty in trying to remember what a B36 looked like. But, nevertheless, 'it made a column'.
 
-After this I was in favour with the US.A.AF. I mean, a week went by and no vital secrets about S.A.C. and the B36 leaked out to the U.S.S.R. No longer was I such a security risk, so they took me ~down to McGuire Air Force Base, New Jersey, and offered me a ride in a Lockheed F94 night fighter. The F94s were in charge of U.S. defences on the Atlantic seaboard, they could get to 40,000 feet in a matter of minutes and they were loaded with very sophisticated radar equipment.
+After this I was in favour with the USAAF. I mean, a week went by and no vital secrets about S.A.C. and the B36 leaked out to the U.S.S.R. No longer was I such a security risk, so they took me down to McGuire Air Force Base, New Jersey, and offered me a ride in a Lockheed F94 night fighter. The F94s were in charge of U.S. defences on the Atlantic seaboard, they could get to 40,000 feet in a matter of minutes and they were loaded with very sophisticated radar equipment.
 
-My pilot was Lieutenant Ernest Harley who had run up 100 or so combat missions on jets in Korea. He gave me a flying suit, helmet, oxygen mask, Mae West, parachute, then strapped me down so securely in the rear seat that I couldn't move. I think he was rather frightened that I might try to escape. |
+My pilot was Lieutenant Ernest Harley who had run up 100 or so combat missions on jets in Korea. He gave me a flying suit, helmet, oxygen mask, Mae West, parachute, then strapped me down so securely in the rear seat that I couldn't move. I think he was rather frightened that I might try to escape.
 
 'Now don't touch anything, get me, not anything. And particularly don't touch that red knob unless I tell you to. That's the ejector seat. If you touch that you'll get an almighty kick in the backside which will send you seventy feet into the air.
 
@@ -82,7 +81,7 @@ This in itself was an awe-inspiring experience. The other aircraft would make pa
 We flew back to McGuire Base, dropped the drogue from the air, and Licutenant Harley said: 'Say, we got a bit of gas left; would you like me to throw her around a bit?'
 
 'Oh yes, please do,' I said, 
-'I've had a lot of experience of that sort of thing.' ,
+'I've had a lot of experience of that sort of thing.' 
 
 It was one of those brave remarks that one regrets even before they are out. My experience had been long before, training on Tiger Moths and Wirraways. I hadn't quite realized how aeroplanes had come on since then.
 
@@ -93,17 +92,15 @@ He started with a series of continuous slow rolls, then a barrel roll, then a lo
 'Man I'm sorry that I can't give you more. If we don't go back we'll be out of juice.'
 'O, please don't apologize,' I replied, 'it's quite all right, really.'
 
-After we landed he took one look. 'Gee, I'm sorry; are you all
-right?',
+After we landed he took one look. 'Gee, I'm sorry; are you all right?',
 
-After that it seemed wise to abandon the U.S.A.AF. and keep to inaugural flights on airlines. The grandest inaugural I remember was the flight across the North Pole by Canadian Pacific Airlines. We flew from Sydney to Hawaii to Vancouver to Sondrestrom, Greenland to Amsterdam. This flight is remembered with such love because we had aboard the top columnists of the U.S. and Canada, leading Mayors, including Alderman Hills, Mayor of Sydney, and the president of Canadian Pacific. When one has the president of the Airline aboard it gives one just that little extra confidence in operations,
+After that it seemed wise to abandon the U.S.A.A.F. and keep to inaugural flights on airlines. The grandest inaugural I remember was the flight across the North Pole by Canadian Pacific Airlines. We flew from Sydney to Hawaii to Vancouver to Sondrestrom, Greenland to Amsterdam. This flight is remembered with such love because we had aboard the top columnists of the U.S. and Canada, leading Mayors, including Alderman Hills, Mayor of Sydney, and the president of Canadian Pacific. When one has the president of the Airline aboard it gives one just that little extra confidence in operations,
 
-Never was a tour laid on with such luxury. The transcontinental flight finishedat Amsterdam, but CP.R. laid on feeder flights to London and Paris. At every city large black Cadillacs were at our disposal. Always a line of Cadillacs was at the hotel front door and if one wanted to drive to Les Halles for a feed of snails or to Versailles to see the spot where Marie Antoinette stood for the last time before they took her away, one had only to signal. Beautiful Cadillacs they were, all with push-button electric windows.
+Never was a tour laid on with such luxury. The transcontinental flight finished at Amsterdam, but C.P.A. laid on feeder flights to London and Paris. At every city large black Cadillacs were at our disposal. Always a line of Cadillacs was at the hotel front door and if one wanted to drive to Les Halles for a feed of snails or to Versailles to see the spot where Marie Antoinette stood for the last time before they took her away, one had only to signal. Beautiful Cadillacs they were, all with push-button electric windows.
 
 Only the very best hotels were chosen, like the Royal Hawaiian in Honolulu, the George Cinq in Paris or the Savoy in London. Curiously enough the Savoy was voted the best hotel by the American columnists. I think it gained the edge because of its somewhat titanic plumbing and always there was a telephone right beside the toilet, a refinement unthought of even in the United States.
 
-The most spectacular sections of the journeys were, of course, between Vancouver and Amsterdam. The only stop between the two was at Sondrestrom in Greenland. This piece of Danish territory was pretty much like the last place on earth. To approach the strip we had to come right down into an icy fjord. Look out the left
-window and there was sheer rock; look out the right window and there was sheer rock. All the passengers were a little unnerved, until one of the Australians down aft went into action. 
+The most spectacular sections of the journeys were, of course, between Vancouver and Amsterdam. The only stop between the two was at Sondrestrom in Greenland. This piece of Danish territory was pretty much like the last place on earth. To approach the strip we had to come right down into an icy fjord. Look out the left window and there was sheer rock; look out the right window and there was sheer rock. All the passengers were a little unnerved, until one of the Australians down aft went into action. 
 
 Not so long ago every Australian country town had a sign for Rexona soap on the road leading in and the road leading out. It read, say, 
 
@@ -113,48 +110,31 @@ Just at that frightening moment when were approaching this Arctic airport, an Au
 
 WELCOME TO SONDRESTROM — ANOTHER GOOD REXONA TOWN.
 
-Sondrestrom was actually a U.S. leased base. We were taken by car to the refreshment room. We were not allowed to walk about and we were not allowed to take photographs. To the north of Sondrestrom was the legendary U.S. base Thule, which reportedly had cost $350 million. Here the Americans had interceptor squadrons which operated in heated hangars. Both ends of the hangars would open
-and the jets could fly to the attack in ninety-four seconds.
+Sondrestrom was actually a U.S. leased base. We were taken by car to the refreshment room. We were not allowed to walk about and we were not allowed to take photographs. To the north of Sondrestrom was the legendary U.S. base Thule, which reportedly had cost $350 million. Here the Americans had interceptor squadrons which operated in heated hangars. Both ends of the hangars would open and the jets could fly to the attack in ninety-four seconds.
 
-At Thule the ground was frozen to a depth of 1,000 feet and we were told that the troops had every possible luxury except women and modern sewerage arrangements. The lack of women was not 80 casy to explain, but the other item was impossible because of the lack of water and bad ground.
+At Thule the ground was frozen to a depth of 1,000 feet and we were told that the troops had every possible luxury except women and modern sewerage arrangements. The lack of women was not so casy to explain, but the other item was impossible because of the lack of water and bad ground.
 
 We flew north from Sondrestrom out over the great ice cap of Greenland, over immense glaciers where the ice in places was 8,000 feet deep. Then further and further north we went across endless tracts of ice until just before midnight, when the sun had sunk to a red ball on the summer horizon and the whole icy scene was covered with a soft glow of pink.
 
-It was then that we began to feel very much like rugged explorers. Alter all, we had consumed filet de boeuf, Chateau Lafite, Mumms champagne Brut, Russia caviar, and we were on the cognac and cigars. Cabin temperature could have been described as slightly cxcessive, at seventy-five degrees. Someone had the smart idea, why not send a cable to the Australians on Mawson in the Antarctic and
-we worded it:
+It was then that we began to feel very much like rugged explorers. Alter all, we had consumed *filet de boeuf, Chateau Lafite, Mumm's champagne Brut*, Russia caviar, and we were on the cognac and cigars. Cabin temperature could have been described as slightly cxcessive, at seventy-five degrees. Someone had the smart idea, why not send a cable to the Australians on Mawson in the Antarctic and we worded it:
 
-WE THE MOST NORTHERN AUSTRALIANS ON INAUGURAL FLIGHT ACROSS TIIE NORTH POLE SEND GREETINGS TO YOU THE MOST SOUTHERN AUSTRALIANS, and it was signed by Alderman Hills, the Lord Mayor of Sydney. 
+WE THE MOST NORTHERN AUSTRALIANS ON INAUGURAL FLIGHT ACROSS THE NORTH POLE SEND GREETINGS TO YOU THE MOST SOUTHERN AUSTRALIANS, and it was signed by Alderman Hills, the Lord Mayor of Sydney. 
 
-Several days later in London we daring explorers received the reply from the Antarctic: —
+Several days later in London we daring explorers received the reply from the Antarctic:
 
-GREETINGS HEARTILY RECIPROCATED GRATEFUL YOUR REMEMBERING US
+GREETINGS HEARTILY RECIPROCATED GRATEFUL YOUR REMEMBERING US AT MAWSON ANTARCTIC FROM JOHN BECHERVAISE.
 
-AT MAWSON ANTARCTIC FROM JOHN BECHERVAISE.
-Quite the most rewarding country for writing columns was Japan,
-and at Christmas 1963 I went there with Barry Woodhouse, a T.V.
-cameraman. Until then always I had worked on the premise that
-enlightened foreigners spoke English.
+Quite the most rewarding country for writing columns was Japan, and at Christmas 1963 I went there with Barry Woodhouse, a TV cameraman. Until then always I had worked on the premise that enlightened foreigners spoke English.
 
-Indeed, this idea works amazingly well until one arrives in Japan.
-Outside Tokyo, curiously enough, the Japanese speak almost entirely
-in Japanese. Barry and I discovered this at Hiroshima airport. As
-comes to all men, we needed to find a lavatory. There was no point
-in asking any of the airline officials; they did not speak English.
-We looked for signs —even Hommes and Femmes or Signors and
-Signoras would have been good enough. But they did not have these
-cither, only places with Japanese characters above.
+Indeed, this idea works amazingly well until one arrives in Japan. Outside Tokyo, curiously enough, the Japanese speak almost entirely in Japanese. Barry and I discovered this at Hiroshima airport. As comes to all men, we needed to find a lavatory. There was no point in asking any of the airline officials; they did not speak English. We looked for signs — even Hommes and Femmes or Signors and Signoras would have been good enough. But they did not have these either, only places with Japanese characters above.
 
-Barry had the right idea. He suggested we pick a place where a lot of men were coming in and out in rapid succession. This was a very good scheme and it worked amazingly well, except that what we saw inside was rather alarming. Later our Tokyo correspondent explained it all to our satisfaction. How naive we were to expect that in Japan there would be separate toilets for men and women. That - sort of thing was provided only at fancy hotels to soothe the strange foreigners.
+Barry had the right idea. He suggested we pick a place where a lot of men were coming in and out in rapid succession. This was a very good scheme and it worked amazingly well, except that what we saw inside was rather alarming. Later our Tokyo correspondent explained it all to our satisfaction. How naive we were to expect that in Japan there would be separate toilets for men and women. That sort of thing was provided only at fancy hotels to soothe the strange foreigners.
 
-Of course, this was only the beginning of our problems. We had vast difficulty in catching trains, reading platform numbers and, worst of all, trying to discover which station was which. The night we were travelling from Osaka to Tokyo was interesting. We were flying by an an.a. Lockheed Electra. This a.N.A. was not to be confused with any other A.N.A.— Mr Ansett had made no take-over bids. a.N.a. stood for All Nippon Airlines. Nobody could explain to us in English how we should catch this aircraft but, as I said to Barry, it was perfectly simple. It was most unlikely that any other aircraft would be departing at 6.30 p.m. All we had to do was to wait until somebody announced things in Japanese, then board the nearest A.N.A. aircraft.
+Of course, this was only the beginning of our problems. We had vast difficulty in catching trains, reading platform numbers and, worst of all, trying to discover which station was which. The night we were travelling from Osaka to Tokyo was interesting. We were flying by an A.N.A. Lockheed Electra. This A.N.A. was not to be confused with any other A.N.A. such as Australian National Airlines.  Mr Ansett had made no take-over bids. A.N.A. stood for All Nippon Airlines. Nobody could explain to us in English how we should catch this aircraft but, as I said to Barry, it was perfectly simple. It was most unlikely that any other aircraft would be departing at 6.30 p.m. All we had to do was to wait until somebody announced things in Japanese, then board the nearest A.N.A. aircraft.
 
-This we did. Seats in the Electra were on a first-come-first-served basis, so we sat down front. The aircraft taxied off, warmed up at the end of the runway. Then suddenly there was much talk down aft. Maybe the air hostess discovered she had more than the expected number of passengers. Anyway a small man came running up, and 'with great courtesy, said: 'Please, I think your ticket says you are
-going to Tokyo. Very, very sorry, sir. This aeroplane is going to
-Hokkaido.' 
+This we did. Seats in the Electra were on a first-come-first-served basis, so we sat down front. The aircraft taxied off, warmed up at the end of the runway. Then suddenly there was much talk down aft. Maybe the air hostess discovered she had more than the expected number of passengers. Anyway a small man came running up, and 'with great courtesy, said: 'Please, I think your ticket says you are going to Tokyo. Very, very sorry, sir. This aeroplane is going to Hokkaido.' 
 
-So we had to start all over again, lining up in queues and next time we managed to find the right aircraft. Dinner, of course, was served aboard, and no doubt other airline operators would have been interested in the catering. It was simplicity itself. The air hostess, very pretty, very Japanese, gave each of us a carton. We opened our cartons and inside was a piece of bamboo with two ridiculously
-
-short chop sticks and a plastic bubble of soya sauce. Inside the bamboo was a mess of cold rice and raw fish. It can be awkward coping with rice and chop sticks even in the comfort of a Chinese restaurant, but when one is in a bumpy aircraft it's like trying to push camels through needles. It was a situation where a visiting - Australian could not afford to lose face, but finding my face was difficult and most of the rice and raw fish landed on my trousers.
+So we had to start all over again, lining up in queues and next time we managed to find the right aircraft. Dinner, of course, was served aboard, and no doubt other airline operators would have been interested in the catering. It was simplicity itself. The air hostess, very pretty, very Japanese, gave each of us a carton. We opened our cartons and inside was a piece of bamboo with two ridiculously short chop sticks and a plastic bubble of soya sauce. Inside the bamboo was a mess of cold rice and raw fish. It can be awkward coping with rice and chop sticks even in the comfort of a Chinese restaurant, but when one is in a bumpy aircraft it's like trying to push camels through needles. It was a situation where a visiting Australian could not afford to lose face, but finding my face was difficult and most of the rice and raw fish landed on my trousers.
 
 There were other occasions when one badly felt the need for a  knowledge of Japanese. In Hiroshima a pipe smoker was something of a curiosity. Very few Japanese smoke pipes, so I was followed by Japanese children down the street. They would point and giggle. It was bad enough trying to buy pipe tobacco in such a town, but can you imagine the problem of getting pipe cleaners? Naturally, first I tried the most touristy place in town, the Hiroshima Grand Hotel. The girl in the shop there did appear to speak English. I asked for
 pipe cleaners. She looked blank. 
@@ -167,20 +147,15 @@ I smiled, too. At last we were getting somewhere.
 
 Whereupon she took my pipe, put it under a tap and started to clean it with a piece of paper.
 
-Actually the fellow to watch in Japan is the one who believes he understands English. I was shown over the Olympic Games venues by a gentleman from the Public Relations Department. He was most amiable. To every question I asked he replied: 
-'Yes.' 
-'Will you have French, Italian, Greek, and Russian interpreters?' — Yes. 
-'Will you have different cooking for all the various nationalities?' — Yes. 'Will the Emperor attend all events?'— Yes. 
+Actually the fellow to watch in Japan is the one who believes he understands English. I was shown over the Olympic Games venues by a gentleman from the Public Relations Department. He was most amiable. To every question I asked he replied: 'Yes.' 'Will you have French, Italian, Greek, and Russian interpreters?' — Yes. 'Will you have different cooking for all the various nationalities?' — Yes. 'Will the Emperor attend all events?'— Yes. 
 
-Finally, I became suspicious and said: 'Is it true that Japan has
-invited 5,200,000 overseas newspapermen to the Games?'
+Finally, I became suspicious and said: 'Is it true that Japan has invited 5,200,000 overseas newspapermen to the Games?'
 
 He beamed and said: 'Yes.'
 
 Fortunately a great deal of trouble and embarrassment was saved by meeting Peter Temm. Peter, a New Zealander and a freelance correspondent, could read, write and speak fluent Japanese. He was married to a Japanese girl and at home lived Japanese style. 
 
-Peter gave me the opportunity to watch Japanese T.V. and I became a devoted fan of Japanese war films. They were on every night and I presumed that here, very smartly, I would see the entire destruction of the U.S. Navy. But no, they stuck to historical facts. The Japanese servicemen were always immensely brave, doing heroic things against overwhelming odds. The film always ended in deep
-tragedy, grim music, servicemen being blown up, machine gunned, sunk. Apparently it was all most satisfying.
+Peter gave me the opportunity to watch Japanese TV and I became a devoted fan of Japanese war films. They were on every night and I presumed that here, very smartly, I would see the entire destruction of the U.S. Navy. But no, they stuck to historical facts. The Japanese servicemen were always immensely brave, doing heroic things against overwhelming odds. The film always ended in deep tragedy, grim music, servicemen being blown up, machine gunned, sunk. Apparently it was all most satisfying.
 
 Then one had to admire the brilliance of the Japanese dubbing of voices. The Japanese Ben Casey was so perfectly matched it was almost uncanny. His dubbed voice was equally truculent and unbearable. Doctor Kildare again had the same purity of innocence. 
 
@@ -188,22 +163,19 @@ Lucille Ball had the same air raid siren quality and the Japanese Matt Dillon wa
 
 It was explained to me that they went even further than this. Say the character in the movie was a real, slick New Yorker. Then he had a slick Tokyo accent. Say he was a Southerner, then he had a southern Kyushu accent. On the other hand, if he was a pidgin-talking native in a Tarzan film, 'Me M'Bongo, plenty bad native — want kill'. Well, they put that into a sort of pidgin Korean. This suited because there was little love lost between Japanese and Koreans. The only trouble was it took twice as long to say anything in Japanese and the unfortunate Japanese Matt Dillons and Ben Caseys had to go like the devil to get through their speeches in time.
 
-Yet television was nothing. Peter Temm insisted that if I wanted a column about the real Japan then it was essential that I should go  to a bath house. Actually I had already been to a bath house and I remembered the experience with great pleasure. There was a private room, a hot box, a Japanese flower arrangement, shaving gear, perfumed ointments and such, all supplied. The grand climax came as
+Yet television was nothing. Peter Temm insisted that if I wanted a column about the real Japan then it was essential that I should go to a bath house. Actually I had already been to a bath house and I remembered the experience with great pleasure. There was a private room, a hot box, a Japanese flower arrangement, shaving gear, perfumed ointments and such, all supplied. The grand climax came as I stretched face down on the massage table ...the famous walking treatment.
 
-I stretched face down on the massage table . . . the famous walking
-treatment.
-
-The masseuse stood on the insteps of my feet, then with the 'balance of a tight-rope walker, walked up the backs of my legs, then on to my spine. It wasn't any namby pamby stuff, either. As she promenaded she sank in her toes, pushing back any discs that might have slipped lately. The effect was sensational and one couldn't help but think it was high time that our own women learned to walk on our spines. Except, of course, it is wise to have a well-dieted walker. This one was, maybe, nine stone.
+The masseuse stood on the insteps of my feet, then with the balance of a tight-rope walker, walked up the backs of my legs, then on to my spine. It wasn't any namby pamby stuff, either. As she promenaded she sank in her toes, pushing back any discs that might have slipped lately. The effect was sensational and one couldn't help but think it was high time that our own women learned to walk on our spines. Except, of course, it is wise to have a well-dieted walker. This one was, maybe, nine stone.
 
 'How much did it all cost you?' asked Peter Temm.
 
 I told him that it was reasonably cheap, around $1.75.
 
-He was contemptuous. “That's the nonsense that they turn on for the tourists. How about going to a real Japanese bath house, the sort 'they use themselves? I can tell you it won't cost $1.75. You'll get out of it for about five cents.' |
+He was contemptuous. 'That's the nonsense that they turn on for the tourists. How about going to a real Japanese bath house, the sort 'they use themselves? I can tell you it won't cost $1.75. You'll get out of it for about five cents.' 
 
-'Will they let me in?' |
+'Will they let me in?'
 
-Td better go with you,'” he said. “They mightn't appreciate the invasion of foreigners and it's best to have someone around who speaks Japanese.” |
+'I'd better go with you,'” he said. 'They mightn't appreciate the invasion of foreigners and it's best to have someone around who speaks Japanese.”
 
 So we went down the street and Peter explained that this was part of the life. Not many of the houses had their own bathrooms and there was a public bath house on every street corner. The Japanese were probably the cleanest people in the world. 
 
@@ -211,9 +183,9 @@ Our bath house was typical, very pretty with upturned eaves, so that it looked l
 
 We paid twenty-eight yen each at the door, a bored looking girl told us to take off our clothes and indicated a place to put them in a locker. There was a partition down the centre, men on the right and women on the left. The bored looking girl had a seat up aloft so that she could observe both naked males and females. 
 
-We went into a tiled room and sat down on stools in front of buckets of water. Other bathers, Japanese men with almost shaved heads were looking at us with undisguised curiosity. “What are foreigners doing in our bath?' I felt distinctly out of place.
+We went into a tiled room and sat down on stools in front of buckets of water. Other bathers, Japanese men with almost shaved heads were looking at us with undisguised curiosity. 'What are foreigners doing in our bath?' I felt distinctly out of place.
 
-'Just carry on as if you do this every day,” said Peter. “What you have to do now is scrub yourself all over until it hurts. You've got to get yourself clean, really clean and when you've done that you must get rid of every trace of soap. This is so that when you get into the public bath with everyone else — you're perfectly clean.'
+'Just carry on as if you do this every day,' said Peter. 'What you have to do now is scrub yourself all over until it hurts. You've got to get yourself clean, really clean and when you've done that you must get rid of every trace of soap. This is so that when you get into the public bath with everyone else — you're perfectly clean.'
 
 So I scrubbed and washed all over and a rather charming part of the service was the fact that a muscular Japanese with a big scrubbing brush came over and did my back.
 
@@ -231,55 +203,43 @@ But Peter was unworried. He knew a great deal about his subject and talked on. G
 
 There was a special code. If a gangster failed in a mission he suffered fearful loss of face. Often he could restore his position only by cutting off a finger and delivering it to his gang leader. Although he felt that gangsters were softening up considerably. He was. ashamed to say that many of them now went to the hospital and had their gift finger cut off under anaesthetic. 
 
-As he spoke I became more and more nervous. I looked around. These fellows had all their fingers. Obviously they were highly efficient gangsters. We were the only non-Japanese in the place. How easy it would be to carve us up and take our wallets. Nobody had been advised that we were here. We would simply disappear for
-ever, without trace. 
+As he spoke I became more and more nervous. I looked around. These fellows had all their fingers. Obviously they were highly efficient gangsters. We were the only non-Japanese in the place. How easy it would be to carve us up and take our wallets. Nobody had been advised that we were here. We would simply disappear for ever, without trace. 
 
-'Let's get out of here,' I said. We dried ourselves, went to our lockers and quickly dressed. We hurried out the door, but not quickly enough —a man came running. He took Peter Temm aside and talked excitedly to him.
+'Let's get out of here,' I said. We dried ourselves, went to our lockers and quickly dressed. We hurried out the door, but not quickly enough — a man came running. He took Peter Temm aside and talked excitedly to him.
 
 You see, Peter had left his watch behind in one of the lockers and this man was making sure that Peter got it back: The man was one of the gangsters.
 
 Some of the columns were far from light-hearted and in this category I put the visit to Kure and the visit to Saigon. Kure could be described as the Portsmouth of Japan. It was the traditional centre for the Navy and for shipbuilding. Immediately after the war it was home for the Australians and the British Commonwealth Occupational Forces. 
 
-Of course, when the war ended and the Japanese Navy ceased to exist, Kure lost its main industry and it became a poverty-stricken, tragic place. We don't know precisely the number of illegitimate children left behind in Japan by the Australian occupation forces.
-
-It happens wherever soldiers go to fight, in every garrison city. HoweWthered all the publicity and it became special because of the wretched conditions in which the half-Australians lived. §t became even more special because of colour prejudice. It comes as a shock when prejudice works the other way.
+Of course, when the war ended and the Japanese Navy ceased to exist, Kure lost its main industry and it became a poverty-stricken, tragic place. We don't know precisely the number of illegitimate children left behind in Japan by the Australian occupation forces. It happens wherever soldiers go to fight, in every garrison city. However Kure gathered all the publicity and it became special because of the wretched conditions in which the half-Australians lived. It became even more special because of colour prejudice. It comes as a shock when prejudice works the other way.
 
 The man who had done most to spread the word was Mr Alex Ferguson who had an electrical business in Melbourne. After a trip to Japan he was so shocked by the sight of the Kure waifs he decided to devote the rest of his life to helping them. He appeared repeatedly on television and radio, he pleaded with all the newspapers, and he was just in the process of calling rallies in the Melbourne and Sydney Town Halls when he died.
 
-Before I went to Kure there was still a good deal of scepticism about the waifs. One Australian resident in Japan even suggested that the whole thing was a sweet little racket. No more than half a dozen of them had ever appeared in public at the one time. He said: 'Do me a favour, will you? Demand to see all the records, all the case histories and count every one of those orphans, physically.” It
-seemed a pretty tall order. For one thing I had no Japanese and how could I ever tell the waifs from other Japanese children. 
+Before I went to Kure there was still a good deal of scepticism about the waifs. One Australian resident in Japan even suggested that the whole thing was a sweet little racket. No more than half a dozen of them had ever appeared in public at the one time. He said: 'Do me a favour, will you? Demand to see all the records, all the case histories and count every one of those orphans, physically.” It seemed a pretty tall order. For one thing I had no Japanese and how could I ever tell the waifs from other Japanese children. 
 
 At Hiroshima Airport I was met by Miss Yone Ito, the local representative of International Social Service. She had cared for the Australian waifs during the past three years and Mr Ferguson had called her 'The Angel of Kure'.
 
 At first I did not know what to make of Miss Ito. At thirty-three she was quite a good-looking woman and a graduate social worker from Louisville University, Kentucky. She was infinitely courteous - and considerate, but never warm. Always on her bland face there was this half smile, but never a whole smile. 
 
-She told of the last visit by Mr Ferguson, how even then he knew 'that he had not long to live. She said that when staying at the Hiroshima Grand Hotel he had heart attack after heart attack. He ran out of his special pills and even had to borrow some from an American. Yet he insisted on coming to Kure to see the waifs. | Miss Ito had no car, so we used taxis and went to Kure by train.
+She told of the last visit by Mr Ferguson, how even then he knew that he had not long to live. She said that when staying at the Hiroshima Grand Hotel he had heart attack after heart attack. He ran out of his special pills and even had to borrow some from an American. Yet he insisted on coming to Kure to see the waifs. 
 
-She talked quite frankly about the waifs. At school they were called 'specials' or Nisei (mixed bloods) or even 'Gaijin' (foreigner). Being a Nisei at a Japanese school was not easy to live down. Children would not usually forgive that sort of thing. It went much deeper than that. They knew these children were even more different. They had no respectable ancestors, they could not account for their father; a matter for great shame in Japan. Miss Ito was utterly  orrect in everything she said. She never commented, she never condemned.
-
-The only time she came close to censure was when asked if she ever heard from the parents. That half smile almost disappeared. 'Only one,' she said. 'He came to Japan, visited his daughter and her mother. They prayed together. But the father could not do anything. He received only a pension in Australia.' 
+Miss Ito had no car, so we used taxis and went to Kure by train. She talked quite frankly about the waifs. At school they were called 'specials' or Nisei (mixed bloods) or even 'Gaijin' (foreigner). Being a Nisei at a Japanese school was not easy to live down. Children would not usually forgive that sort of thing. It went much deeper than that. They knew these children were even more different. They had no respectable ancestors, they could not account for their father; a matter for great shame in Japan. Miss Ito was utterly  correct in everything she said. She never commented, she never condemned. The only time she came close to censure was when asked if she ever heard from the parents. That half smile almost disappeared. 'Only one,' she said. 'He came to Japan, visited his daughter and her mother. They prayed together. But the father could not do anything. He received only a pension in Australia.' 
 
 Then another time a cheque came from one of the fathers. He lived in northern New South Wales and he regretted it was quite impossible for him to reveal his name. There was only one flaw in his reasoning. The cheque was signed with his name and drawn on the local trading bank. 
 
 We went to Miss Ito's little office and here I did get a chance to inspect the records, all as clear as could be, and all in English. She had been caring for ninety-two orphans of mixed parentage around Kure and of these at least fifty-two had Australian servicemen for fathers.
 
-So we started the rounds of the schools to visit the waifs one by one. There was no point in expecting them to be little Australians. They had been brought up as Japanese, spoke very little English and the boys wore those ugly, black, military school uniforms. They clipped right up to the neck, completely unornamented like school cadet uniforms of the 1930s. Yet it was obvious that the children were almost Australian. One could pick them immediately in every
-class. Miss Ito did not have to say a word. They were taller, their skin was paler, their hait not jet black and they were 'wide-eyed. There was one little kid I will never forget, Yoshio Shimizu, aged twelve. He was a real little devil, into more trouble than Ginger Meggs. His face was covered in freckles. Freckles in Japan are extraordinary, an object of real curiosity. 
+So we started the rounds of the schools to visit the waifs one by one. There was no point in expecting them to be little Australians. They had been brought up as Japanese, spoke very little English and the boys wore those ugly, black, military school uniforms. They clipped right up to the neck, completely unornamented like school cadet uniforms of the 1930s. Yet it was obvious that the children were almost Australian. One could pick them immediately in every class. Miss Ito did not have to say a word. They were taller, their skin was paler, their hair not jet black and they were wide-eyed. There was one little kid I will never forget, Yoshio Shimizu, aged twelve. He was a real little devil, into more trouble than Ginger Meggs. His face was covered in freckles. Freckles in Japan are extraordinary, an object of real curiosity. 
 
-At one high school we met Masaaki Usui, aged sixteen. His father was in the AJLF. His mother worked as a waitress in a Hiroshima hotel for $20 a month. She saw Masaaki only once a month and she paid $16/ out of her wages to keep him at high school. 
+At one high school we met Masaaki Usui, aged sixteen. His father was in the AIF. His mother worked as a waitress in a Hiroshima hotel for $20 a month. She saw Masaaki only once a month and she paid $16 out of her wages to keep him at high school. Masaaki lived in two rooms with his grandmother, who took in needlework. Their biggest luxury was electric light, their water came from a communal tap.
 
-Masaaki lived in two rooms with his grandmother, who took in needlework. Their biggest luxury was electric light, their water came from a communal tap. -
+When we arrived at the high school Masaaki was pounding the track in a green track suit. He had the leanness, the style and stride of Herb Elliott written all over him. His coach Nobuhisa Mitsuta said early on he had been branded as a Nisei, but Masaaki had been such a phenomenal success all this had been forgiven. Masaaki startled the Hiroshima High School by making the track team for 800 metres and 150 metres in his first year and now he had been chosen to go to Okinawa for an international meeting between American, Okinawa and Japanese High Schools.
 
-When we arrived at the high school Masaaki was pounding the track in a green track suit. He had the leanness, the style and stride off Herb Elliott written all over him. His coach Nobuhisa Mitsuta said early on he had been branded as a Nisei, but Masaaki had been such a phenomenal success all this had been forgiven. Masaaki startled the Hiroshima High School by making the track team for
-800 metres and 150 metres in his first year and now he had been chosen to go to Okinawa for an international meeting between American, Okinawa and Japanese High Schools.
+Mitsuta asked if I knew Percy Cerutty. He said they were both carefully following Cerutty's training methods. It was Masaaki's dream to become another Herb Elliott and the way he was shaping he had a very good chance. Before we left there was a gathering of the teachers and with tremendous courtesy and much bowing we were presented with exquisite ashtrays made by students of the school as a memento of our visit. 
 
-Mitsuta asked if I knew Percy Cerutty. He said they were both  carefully following Cerutty's training methods. It was Masaaki's dream to become another Herb Elliott and the way he was shaping he had a very good chance. Before we left there was a gathering of the teachers and with tremendous courtesy and much bowing we were presented with exquisite ashtrays made by students of the
-school as a memento of our visit. 
+We went on. We met Yumiko Hori, sixteen, who was training as a hairdresser in a beauty school at Iwakuni. This girl was beautiful, soft brown hair and big brown eyes. All her expenses were being paid by International Social Service. Her mother was very poor; she worked in a Hiroshima bar. Miss Ito said that Yumiko knew only one thing — her father's surname. It was her plan to visit Australia to find him.
 
-We went on. We met Yumiko Hori, sixteen, who was training as a hairdresser in a beauty school at Iwakuni. This girl was beautiful, soft brown hair and big brown eyes. All her expenses were being paid by International Social Service. Her mother was very poor; she worked in a Hiroshima bar. Miss Ito said that Yumiko knew only one thing — her father's surname. It was her plan to visit Australia
-to find him.
-
-When this happens one can only hope that Yumiko gives her father a little advanced warning. She could create a small sensation if 'she knocked at the front door-one morning and said: 'I'm here to see Dad.' 
+When this happens one can only hope that Yumiko gives her father a little advanced warning. She could create a small sensation if she knocked at the front door-one morning and said: 'I'm here to see Dad.' 
 
 At a primary school we met Karumi, aged nine, one of the youngest of the Australians. She was extremely shy and terrified of being photographed. She was so tall that her teacher had to put her in the back seat of the class. Life was hard for Karumi. Her mother married a Japanese and the man refused to suffer the shame of having her in the house. Karumi had never seen where her mother lived. Her mother's visits were extremely rare. So she lived alone with her great-grandmother who was deaf, over eighty and senile. Their room with its peeling paper walls was utterly wretched and they lived on public assistance from the Kure Welfare Department.
 
@@ -291,13 +251,15 @@ Miss Ito said nothing and we said nothing, but there was real irony in the situa
 
 Soon afterwards Miss Ito flew to Australia on a fund-raising campaign. Much money was needed because education was extremely competitive in Japan. It was vital that the Kure waifs should have above-average education to help them overcome their Nisei shame. They needed to go to universities. At Kure Miss Ito said she wanted £100,000 ($200,000) and she picked out two of the Kure waifs. She showed me the two she had in mind. Beautiful children they were, and the temptation for anyone would have been to adopt them at once. 
 
-Miss Ito arrived in Melbourne, terribly ill after a bumpy flight from Sydney. For the first time I saw her in Japanese dress, not just - the ordinary kimono, but the formal homongi of heavy silk complete ~ with obi. Nothing could have been worse than having to face a formal reception. Not only did she feel ill but for the first time in many a year, she had to wear this strange restricting dress. 
+Miss Ito arrived in Melbourne, terribly ill after a bumpy flight from Sydney. For the first time I saw her in Japanese dress, not just the ordinary kimono, but the formal homongi of heavy silk completwith obi. Nothing could have been worse than having to face a formal reception. Not only did she feel ill but for the first time in many a year, she had to wear this strange restricting dress. 
 
-Alas, she did not bring the children with her. International Social Service did not approve. It felt that the travel, the subjection to all kinds of publicity would not be good for them. Others did not agree and there is no doubt that Australian immigration restrictions would eventually have been overcome for the adoption of the children in Australia. |
+Alas, she did not bring the children with her. International Social Service did not approve. It felt that the travel, the subjection to all kinds of publicity would not be good for them. Others did not agree and there is no doubt that Australian immigration restrictions would eventually have been overcome for the adoption of the children in Australia. 
 
 Miss Ito did not say much, but she was disappointed at the decision. It was like taking away the six-guns from a cowboy. She was bereft of firepower. The children would have been a sensation on every television programme. By herself Miss Ito did not have the personality or appeal to put it over. 
 
 So the campaign all around Australia was not the success it could have been. The final result was £21,600 ($43,200) and with donations from the Federal Government there has been just enough money for the waifs of Kure to get by. 
+
+
 Saigon was also a good city for columns, but not the light-hearted variety. The premier Ngo Dinh Diem had just been murdered and all was in a state of chaos. |
 
 This was my first visit since 1945 and outwardly there had been little change. Saigon still looked a lovely piece of provincial France, the tree-lined boulevards, the exquisite little squares and the sidewalk cafés with their superb French cuisine were as before. It was the only city in all Asia where one could buy a cheap bottle of good wine. The dark-haired Vietnamese girls, as slender as lilies, were still the world's most beautiful. Everywhere they rode bicycles and
