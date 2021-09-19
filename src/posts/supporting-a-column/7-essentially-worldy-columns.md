@@ -34,6 +34,10 @@ tags:
   - Thailand
   - The Philipines
   - Vietnam
+  - Women's Army Corps
+  - Louis Beltran
+  - Rajadamnern Stadium, Bangkok
+  - Boys Own Paper
 ---
 
 There come terrible periods in the lives of newspaper columnists when all ideas seem to dry up, and the hideous thought comes that there may never be another idea again. There are awful dead periods that come in cycles. Sometimes it is because of the season. Maybe it is January, the courts are not sitting, Parliament is in recess and everybody is out of own. Or maybe the football season is just over, cricket has yet to get under way and even the sporting editor is looking grey and frightened.
@@ -423,7 +427,7 @@ The Thai gentleman told me that good boxers could kick with astonishing accuracy
 
 Khwan had a beautiful left kick followed by a good right toe, followed by left and right fists, a true four dimension man. Krath favoured his left foot but at infighting he was bloodcurdling with a magnificent right knee, followed by elbow and head crashes. Soon blood was flowing from cut eyes and the crowd was screaming so loudly it could have been heard as far off as Phnom-Penh.
 
-During the interval a boy brought around bottles of beer, price sixteen ticals each, plus bananas and hard boiled eggs, a style of refreshment that could well be followed at Western stadiums. And so it went on, round two, round three, round four, and then the last round. This was the climax. The Thai band stepped up its rhythm until it was a frenzy. -
+During the interval a boy brought around bottles of beer, price sixteen ticals each, plus bananas and hard boiled eggs, a style of refreshment that could well be followed at Western stadiums. And so it went on, round two, round three, round four, and then the last round. This was the climax. The Thai band stepped up its rhythm until it was a frenzy. 
 
 The crowd in the bleachers were all on their feet. They were screaming sok sok sok! and kow Kow kow! 'Sok' was a suggestion to use elbows and 'Kow' was a plea to put in the knee. The Thai gentleman beside me, who previously had been most circumspect, was now jumping up and down. Every time he screamed sok or kow he threw out an elbow or a knee. I was in quite a dangerous position. |
 
