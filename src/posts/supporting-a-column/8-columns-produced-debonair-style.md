@@ -20,6 +20,7 @@ tags:
   - Boolardy
   - Victoria River Downs
   - six o'clock swill
+  - (Pastor) Sid Denton
 ---
 The best trip I ever made for the column was not overseas, but a tour of the north of Australia. It was the best tour for fun and personal excitement and the best from the newspaper point of view. Some schools followed it as a daily project and one of my happiest possessions is a bundle of letters received from every member of a class at Cheltenham State School.
 
@@ -154,38 +155,35 @@ As John Olive told us, the best way to get to sleep on such nights was to have a
 
 Most people we found had two refrigerators in their kitchen, partly because the extra space was essential and partly because of the fear of one breaking down. One time there was an occasional game of football in Marble Bar, but not any more — the sun-baked ground was like reinforced concrete. In summer there was no sport beyond an occasional game of darts at the Iron Clad. In the winter they played cricket. 
 
-Yet Marble Bar was flourishing, going ahead. Denis O'Meara, the nining registrar, told us it was the headquarters for the busiest nining district in Western Australia and the local tin mines were oroducing $2 million worth of ore a year. Also they were doing well
-vith white asbestos and there was still a little gold mining.
+Yet Marble Bar was flourishing, going ahead. Denis O'Meara, the mining registrar, told us it was the headquarters for the busiest mining district in Western Australia and the local tin mines were oroducing $2 million worth of ore a year. Also they were doing well with white asbestos and there was still a little gold mining.
 
-As we travelled around it was easy to see why Marble Bar was 1 hot box. The town was at the bottom of a saucer surrounded by ills that changed in colour from purple to fire red. And there was
-
-a real marble bar, just a few miles out of town. This was one of the most incredible sights of the tour. The bar was a six-mile stretch of jasper, one of the most glorious of gem stones. The bar was on the surface, the stone striped in reds, browns, blacks and pale pinks, so it looked like a vivid veranda blind. When washed with water the colours bloomed. Furthermore, the Bar was magnificent to photograph in colour. One could not help but think that here was a tourist attraction that was practically unknown. American rock enthusiasts, the famous rock hounds, would kill for some of that jasper. Indeed all the shops, such as they were, sold bracelets made
-of agate, bloodstone, and other gems.
+As we travelled around it was easy to see why Marble Bar was a hot box. The town was at the bottom of a saucer surrounded by hills that changed in colour from purple to fire red. And there was a real marble bar, just a few miles out of town. This was one of the most incredible sights of the tour. The bar was a six-mile stretch of jasper, one of the most glorious of gem stones. The bar was on the surface, the stone striped in reds, browns, blacks and pale pinks, so it looked like a vivid veranda blind. When washed with water the colours bloomed. Furthermore, the Bar was magnificent to photograph in colour. One could not help but think that here was a tourist attraction that was practically unknown. American rock enthusiasts, the famous rock hounds, would kill for some of that jasper. Indeed all the shops, such as they were, sold bracelets made of agate, bloodstone, and other gems.
 
 There was a tourist trade, though small. There was a small caravan park and the story was that a car and caravan passed through every other day. The ideal time, we were told, was to visit in the winter, so if Americans do arrive one day by the thousand, I hope they do not suffer from the cold.
 
 It was at the Iron Clad Hotel that we met Ron Martin and Graham Norton, of Perth. They were on a grand tour of the outback for eight weeks, something they had planned for eighteen months. When they first mentioned it their wives were unswervingly hostile. When they bought their Land Rover the ladies would not even look at it. Yet somebody up there must have liked them. Several days before they left Mrs Norton correctly guessed the weight of a cake and won a free trip to Surfers Paradise. So all was well.
 
-Now the Land Rover was caked deep in red dust. Ron and Graham had just returned from Jigalong Apostolic Mission, and they made it sound quite the most fascinating place in the West.
-This was the Mission where they looked after Stone Age man, and they urged us to go there. It was less than 300 miles to the east, only a few hours off, but perhaps it was not even marked on the map.
+Now the Land Rover was caked deep in red dust. Ron and Graham had just returned from Jigalong Apostolic Mission, and they made it sound quite the most fascinating place in the West. This was the Mission where they looked after Stone Age man, and they urged us to go there. It was less than 300 miles to the east, only a few hours off, but perhaps it was not even marked on the map.
 
-It was all up to Frank Reinehr, our pilot navigator. Frank is a conservative gentleman and it is a comfort to be with a conservative 'man on such occasions. He is the best map reader I have known. His secret is to study his maps long and hard before he sets out and he likes to see the right features coming up, port and starboard, every minute of the journey. 
+It was all up to Frank Reinehr, our pilot navigator. Frank is a conservative gentleman and it is a comfort to be with a conservative man on such occasions. He is the best map reader I have known. His secret is to study his maps long and hard before he sets out and he likes to see the right features coming up, port and starboard, every minute of the journey. 
 
-Frank sat up several hours that night studying his maps. Jigalong was indeed marked. It was the last little oasis of civilization in could carry enough fuel to get us there and back. We could -
-'hardly expect to pick up the correct fuel at Jigalong. Frank decided everything was possible, so we took off early the next morning. As we flew we had misgivings. This time we really were unannounced, and it seemed selfish to call at a mission where undoubtedly they had little time to waste on visitors, but to the journalist the possibility of a good story was irresistible. We pushed on. 
+Frank sat up several hours that night studying his maps. Jigalong was indeed marked. It was the last little oasis of civilization in Western Australia. Beyond was the Great Sandy Desert and 1000 miles and nothing across to the South Australian border. It was a trip that called for careful navigation. Also we had to make sure the Debonair could carry enough fuel to get us there and back. We could hardly expect to pick up the correct fuel at Jigalong. Frank decided everything was possible, so we took off early the next morning. 
 
-Frank Reinehr, as always, made no mistakes. We flew in straight across the mission and even from the air we could get the picture — bare, red earth with here and there clumps of saltbush and windgrass. The only trees were emaciated sticks of mulga, which gave only a hint of shade. They must have heard the sound of our air- craft from way off, because already a Land Rover was on its way to the strip. "
+As we flew we had misgivings. This time we really were unannounced, and it seemed selfish to call at a mission where undoubtedly they had little time to waste on visitors, but to the journalist the possibility of a good story was irresistible. We pushed on. 
 
-We need not have worried. The welcome could not have been warmer or more friendly. In the Land Rover was the chief of the mission, Pastor Sid Denton, a big handsome man, who looked as if
-he could have been a very good footballer. He said he was a one-time carpenter which seemed a good occupation for a man in the church. Then with him was his assistant, Jim Plumb, a one-time
-boilermaker. 
+Frank Reinehr, as always, made no mistakes. We flew in straight across the mission and even from the air we could get the picture — bare, red earth with here and there clumps of saltbush and windgrass. The only trees were emaciated sticks of mulga, which gave only a hint of shade. They must have heard the sound of our aircraft from way off, because already a Land Rover was on its way to the strip.
 
-Pastor Denton took us to his house to meet Mrs Denton. The house was made of galvanized iron and one could only imagine the heat at the height of summer. We were told it was then that the
-whirlie-whirlies blew; it was impossible to see even across the road and next day the dust had to be swept out of the house by the shovel load. Attached to the front of the house was a square, covered with vines. This was a good place to sit when the temperature rose to 112 degrees or more. The idea was to spray the leaves with water and it acted like a good old-fashioned Coolgardie safe. 
+We need not have worried. The welcome could not have been warmer or more friendly. In the Land Rover was the chief of the mission, Pastor Sid Denton, a big handsome man, who looked as if he could have been a very good footballer. He said he was a one-time carpenter which seemed a good occupation for a man in the church. Then with him was his assistant, Jim Plumb, a one-time boilermaker. 
 
-It was important to get Sid Denton talking and I took notes. The little settlement had eleven white people and 240 aborigines. Here they catered for the Stone Age tribes that came in out of the desert.
+Pastor Denton took us to his house to meet Mrs Denton. The house was made of galvanized iron and one could only imagine the heat at the height of summer. We were told it was then that the whirlie-whirlies blew; it was impossible to see even across the road and next day the dust had to be swept out of the house by the shovel load. Attached to the front of the house was a square, covered with vines. This was a good place to sit when the temperature rose to 112 degrees or more. The idea was to spray the leaves with water and it acted like a good old-fashioned Coolgardie safe. 
 
-Some had been discovered by Len Beadell of the Weapons Research - Establishment who went out for six months at a time by Landcates. Her background was a mystery for she came in alone out of
+It was important to get Sid Denton talking and I took notes. The little settlement had eleven white people and 240 Aborigines. Here they catered for the Stone Age tribes that came in out of the desert.
+
+Some had been discovered by Len Beadell of the Weapons Research Establishment who went out for six months at a time by Land 
+
+page 165 is missing
+
+cates. Her background was a mystery for she came in alone out of
 the desert riding a camel. 'Sweet seventeen and never been kissed,' said Pastor Denton. Lois went as close to blushing as an aboriginal girl can, and giggling threw her arms around Mrs Denton. ~ Between Lois and Mrs Denton one could learn a little of bushtucker. There was, of course, kangaroo, lizard, snake, etc. There was a vine which Lois called Muda. It had a root like a sweet potato. Then there were little melons that grew from a type of underground nut grass. These were called bikky lemons. Of course, there were many types of berries and marvellous little fruits that looked like small tomatoes, called gingi-wirries. One could survive "in the desert if one knew where to look.
 
 At the mission children were separated from parents. The children slept in dormitories, wore uniforms and went to school. The parents had their own camp with steel pre-fabricated huts, and the children visited them twice a day. It was the parents who were the more difficult; it was a slow process converting them to the ways of the white man. For one thing, many refused to live in the pre-fabricated hut provided. Instead, right alongside, they built their own little
