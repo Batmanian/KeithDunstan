@@ -7,6 +7,7 @@ tags:
   - Imants Dizgalvis
   - Alfred Heintz
   - Coober Pedy
+  - Ettie Hall
   - Jack Brewster
   - Ayers Rock (Uluru)
   - Walkabout magazine
