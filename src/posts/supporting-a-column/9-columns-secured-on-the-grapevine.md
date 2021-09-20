@@ -8,7 +8,7 @@ tags:
   - Home Bottlers
   - Grape Phylloxera
   - Hugh Fraser 
-  - G. F. Morris
+  - George Francis Morris
   - Rutherglen
   - Sir Rohan Delacombe
   - All Saints Winery
