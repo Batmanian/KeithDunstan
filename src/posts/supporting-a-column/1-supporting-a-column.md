@@ -7,6 +7,7 @@ tags:
   - Bill Tipping
   - Billy Hughes
   - The Courier-Mail
+  - Arthur Richards
   - The Daily Telegraph
   - Herb Caen
   - Kirwan Ward
@@ -56,6 +57,7 @@ Several days later there was a call from Surfers Paradise. A slow voice said: 'H
 'Yes, I do indeed.'
 
 'I bought four bottles of rum and we downed the lot!'
+
 
 At this time columns were very much in the fashion. They were partly a hangover from times of desperate shortage of newsprint and it was convenient to give information in short tightly written paragraphs. There was a theory, too, that a bright, entertaining column could somehow assist in circulation. There was barely a newspaper in the country that did not have a column and the Daily Telegraph in Sydney had four. The story went that they did not have another for fear it would be called the Fifth Column.
 
