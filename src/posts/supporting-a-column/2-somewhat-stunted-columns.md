@@ -5,10 +5,11 @@ summary: The second chapter of Keith's second book, 'Supporting a column'.
 tags:
   - Primo Carnera
   - Stanley Kowalski
-  - Bonnie Muir
+  - Alan Holmes 'Bonnie' Muir
   - Tennis
   - Kooyong
   - Wrestling
+  - Frank Doczy
   - Alex Olmedo
   - Frank Sedgman
   - Lew Hoad
@@ -80,6 +81,7 @@ Half an hour later Stanley was still angry.
 
 We wuz definitely robbed. 
 
+
 After the wrestling it seemed wise to go for something a little more genteel, so I applied for a job as linesman at the professional tennis at Kooyong. There was some fear as to whether this would affect my amateur status at the local tennis club, but Jack Cullen, secretary of the Victorian Lawn Tennis Umpires' Association, put my mind at ease. He said they were all true blue amateurs, and the professionals made a general contribution to Association funds to assist in training. 
 
 Actually umpires were suffering at the time. They were being accused, bitterly, by tennis players on all sides. There was even the case of the viewer who picked Neale Fraser's footfault during the U.S. Nationals at Forest Hills. This armchair linesman saw the footfault perfectly clearly on his TV and he sent a telegram of protest to Forest Hills. This was a record, the first man to disagree with a linesman from 1000 miles off. He was in Minnesota. 
@@ -142,6 +144,7 @@ So he would announce in his beautiful tenor voice: 'I AM LOHENGRIN, SON OF PARSI
 So he went on to tell how he came to Monsalvat, where stood the Temple of the Holy Grail, and during every pause he passed remarks that weren't entirely suited to a silver knight. 
 
 Finally one dropped off with a clatter, he shook it off. 'Oh s--' said he. Yet superbly he transported himself again to sing 'Oh My Faithful Swan', which was waiting to bear him off yonder. So came the climax, trumpets, orchestra, the collapse of Elsa and the final disappearance of the Swan. And as the curtain came down a fellow squire said to me: 'Did you ever hear the old classic Lohengrin story? Lohengrin was due to arrive on stage, see, resplendent and riding on his swan. Well, he'd had a jar or two, he slipped, didn't get on and the swan arrived on stage without him. So he turned to the stage manager and said, "What time does the next swan leave ?" '
+
 
 Again it became a tradition to find some stunt for getting into the Moomba Festival parade. One year the Myer Emporium had the idea of putting a fair dinkum cable tram into the parade, something most Melburnians hadn't seen for more than twenty-five years. They had great trouble in getting one. It turned out that Victoria was getting very light on cable trams, but eventually they found the article, in a school yard at Mount Eliza. 
 
