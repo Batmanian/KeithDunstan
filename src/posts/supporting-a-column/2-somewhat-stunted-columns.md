@@ -178,3 +178,5 @@ It was explained that I would be one of a team of four that would support the ta
 Oh, dear reader, I didn't realize that the dragon had to writhe and squirm. Seeing that it was 120 feet long, what started as a gentle wriggle around the third or fourth vertebrae became a mighty sway at the sixtieth or seventieth vertebrae and at the tail an almighty lash which swished back and forth the width of Swanston Street. So we never stopped running from one side of the street to the other. 
 
 No, running is not the right word — we had to sprint like hell. 
+
+page 28-40 missing
