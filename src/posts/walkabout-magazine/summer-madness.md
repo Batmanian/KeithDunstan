@@ -85,7 +85,7 @@ Surfers is now striving after the Miami look with apartment towers rising 15 sto
 
 Everybody has their favourite resort. Maybe you prefer Victor Harbour, or Port Lincoln, may be you like the genuine heat of Mackay, or are you one of those who insist that the finest beach climate ever created is on the New South Wales south coast and it is utterly essential to go to Merimbula, Bermagui or Bateman’s Bay. If you live in Perth you rest secure in your absolute surety that there is nothing finer than Rottnest Island. 
 
-Every year we get an idea. Why not spend these holidays in the mountains? Go to the Snowy, go to Bright Or Mt. Hotham. 
+Every year we get an idea. Why not spend these holidays in the mountains? Go to the Snowy, go to Bright or Mt. Hotham. 
 
 But come December you start to smell the salt. You wander out to the garage, pull down the kids’ plastic surfboards, check to see whether the moths have eaten through the beach umbrella and even stroke rather fondly the old fishing rod, and maybe put a drop of oil in the reel. 
 
