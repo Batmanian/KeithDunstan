@@ -182,11 +182,17 @@ Pastor Denton took us to his house to meet Mrs Denton. The house was made of gal
 
 It was important to get Sid Denton talking and I took notes. The little settlement had eleven white people and 240 Aborigines. Here they catered for the Stone Age tribes that came in out of the desert.
 
-Some had been discovered by Len Beadell of the Weapons Research Establishment who went out for six months at a time by Land 
+Some had been discovered by Len Beadell of the Weapons Research Establishment who went out for six months at a time by Land  Rover. Some were invited to come in by Native Welfare officers. Yet until they did come in many of these people had never seen a white man. The first group came in eight years ago, another arrived in November 1963. There were nineteen women with their children and they had been wandering without men for two and a half years. When asked what happened to their men they said that 'spirits' had taken them.
 
-page 165 is missing
+We couldn't find out any more,' said Pastor Denton. 'Among these people it is taboo to mention the name of anyone who is dead. They don't even talk about pregnancies. That's "woman's busi- ness".
 
-cates. Her background was a mystery for she came in alone out of the desert riding a camel. 'Sweet seventeen and never been kissed,' said Pastor Denton. Lois went as close to blushing as an Aboriginal girl can, and giggling threw her arms around Mrs Denton. 
+Another group arrived in November 1964 from 1,000 miles off by Jupiter Well. They were quite naked. Upon handing out the mission clothes the men put on the dresses and the women put on the shirts and trousers. They were terrified by the sight of a Land Rover coming towards them, but when they discovered there was a nice easy ride to be had by sitting in the back they abandoned fear with surprising speed. They conversed in their own desert language by voice and sign language. They were not over quick in learning English and Pastor Denton said with a sigh: 'But you should see how quickly they can learn the swear words.'
+
+Then they had dogs. Aboriginals adore dogs and there seemed to be more dogs than people at Jigalong. They were an eternal problem; they had killed fifty sheep during the past year. Jim Plumb said that one group of Stone-Agers brought in some pure-bred dingoes. The dingoes were gentle and friendly with the tribesmen, but when a white man came near they were unbelievably savage. They tore their teeth up and down their chains and bit chunks out of a tree.
+
+The group that came in seven years ago was terribly emaciated, although one learned that the condition of tribes depended very much on the season. How anyone could live for half a day out there was more than we could understand. Yet the last groups that came in looked very well indeed and a Gaylord Hauser undoubtedly would have said that they lived on a perfectly balanced diet.
+
+Mrs Denton has learned a little about 'bush tucker' and she said it was surprising what food there was out in the desert. Helping at the house, Mrs Denton had a girl called Lois. Maybe she was seventeen, but who could tell. Stone Age girls do not have birth certificates. Her background was a mystery for she came in alone out of the desert riding a camel. 'Sweet seventeen and never been kissed,' said Pastor Denton. Lois went as close to blushing as an Aboriginal girl can, and giggling threw her arms around Mrs Denton. 
 
 Between Lois and Mrs Denton one could learn a little of bushtucker. There was, of course, kangaroo, lizard, snake, etc. There was a vine which Lois called Muda. It had a root like a sweet potato. Then there were little melons that grew from a type of underground nut grass. These were called bikky lemons. Of course, there were many types of berries and marvellous little fruits that looked like small tomatoes, called gingi-wirries. One could survive in the desert if one knew where to look.
 
