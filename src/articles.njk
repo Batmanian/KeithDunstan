@@ -1,11 +1,12 @@
 ---
-layout: layouts/blog.njk
-title: Articles
-pagination:
-    data: collections.post
-    size: 10
-    reverse: true
-    alias: posts
+layout: layouts/default.njk
+title: Articles by publication
+
 ---
 
-<p class="lead">All writing on this site, is listed here by date.</p>
+<p class="lead">By original publication</p>
+<p>Writing identified for inclusion on this site are listed here, available articles are linked.</p>
+<h3>The Bulletin</h3>
+    {% include 'snippets/bulletin.njk' %}
+<h3>Walkabout Magazine</h3>
+{% include 'snippets/walkabout.njk' %}
