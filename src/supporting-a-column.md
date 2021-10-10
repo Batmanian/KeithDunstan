@@ -1,6 +1,6 @@
 ---
 layout: layouts/default.njk
-title: Somewhat stunted columns
+title: Supporting a Column
 summary: Keith's first book of memoirs, published in 1990 cover his career in writing, reflections on Melbourne, working abroad and his family life.
 
 ---
