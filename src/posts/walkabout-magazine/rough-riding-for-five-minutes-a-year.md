@@ -1,15 +1,15 @@
 ---
 title: Rough Riding for Five Minutes a Year
 date: 1962-02-01
-summary: First published in Walkabout Magazine, February 1962.
+summary: First published in Walkabout Magazine, September 1962.
 categories:
 - Walkabout Magazine
 tags:
   - Rodeo
   - Myrtletord
   - Rockhampton
-  - The Rough Riders' Association 
-  
+  - The Rough Riders' Association
+  - Bulldogging 
 ---
 
 A young rough-rider leaned against the dogging chute at Myrtletord and made a rare admission: Never a week goes by when some pari of me isn't sore. Then why do you do it? I don't know. I guess I just like to ride, What keeps you going? Just beer and instinct. The taciturn conversation left a great deal unexplained. Why do healthy young men take to professional rodeo riding? There are more than thirty of them on the Australia-wide cir- cuit. They move from town to town like a travelling circus or professional violin players If they are good they make £1000 a year. If they are very good, and can keep their crutches in the hall cupboatd, they make £1500. So, obviously they are not in it for money. Then why do they do it? They are not buffoons. The intelligence of the average rodeo rider is well above average.
@@ -25,7 +25,7 @@ At Rockhampton, it is called the Rocky Round-Up. At Cloncurry, it is the Merr Mu
 
 One of the biggest problems for modern rodeos is to find the right horses and the right bucking bulls. Bulls that are sufficiently mean. As one organizer put it: "Right now we are too busy selling the bulls to the Americans for hamburgers. Nobody wants to buck them off at a rodeo" For the Myrtleford rodeo the Beveridge brothers and Norm McGeehan bring down cattle from their properties on the high plains between Buffalo and Gippsland. Here the cattle are unbranded. They just roam. Some- times the owners go for three years without seeing a particular herd. So Frank Johnson, the rodeo president, was able to put out the awe- some catchline that here were bulls that never before had seen a human being. Curiously enough, when I was there, the High Plains bulls did not perform as well as the Brah- mans from Queensland. Brahmans are top favourites in Oueensland for rodeos. One can hire them for £4 a day, plus transport. They look as if they were designed especially to frighten the wits out of the human race. All the angles are wrong. They have a great humped back, a bulbous head and dangling ears like drainpipes. They put on an awfully good show. During the seconds before they are released they thrash the side of the chute and the clatter of hoofs on timber sounds like the trumpeting of doom. They also have a guttural growl and once they have tossed their rider they charge everyone in sight. So it is always considered an excellent safety measure to sprint like hell for the fence. The crowd always appreciates a sight like that.
 
-Perhaps the horses are an even greater prob- lem. Too often rodeos have to fall back on wild, untrainable horses. They buck out of fear, and hence are unpredictable. They could fall crushing the rider underneath, or they could go into a straightforward catherine wheel. That is something every rodeo rider hopes will never happen to him.
+Perhaps the horses are an even greater problem. Too often rodeos have to fall back on wild, untrainable horses. They buck out of fear, and hence are unpredictable. They could fall crushing the rider underneath, or they could go into a straightforward catherine wheel. That is something every rodeo rider hopes will never happen to him.
 
 Best of all is the trained bucking horse. He puts on the most spectacular show, and he bucks because he likes it. Some of them have such an understanding of the show that when the siren blows for the end of the 10-second ride, they immediately quieten down, almost as if it were a union rule.
 
@@ -48,7 +48,7 @@ At Walgett they have a ladies' bullock race, in which the pretty young ladies of
 
 The big novelty event at Myrtleford was the Wild Horse Race. They put six wild horses in the arena and for each horse there was a team of three: the mugger, who had to grab the horse by the car, the anchor man, who had to put a rope on him, and the jockey. The first man to mount his horse and ride him to the judging point was the winner. As always, the arena immediately became a fearful melee of Aying hoofs, dust and sprinting men. Tommy Cannon of Parkes was the first to ride a wild horse. It went crazy. It charged three times round the arena. It crashed through a closed gate. It hurtled into the yards. An overhanging beam caught Tommy across the face and knocked him unconscious to the ground. Cowhands pulled him clear of the pounding hoofs. We thought Tommy was dead. A doctor and ambulance attendants came running. But slowly Tommy got to his feet. He shooed away the doctor and ambulance men. He wouldn't have a bar of them. His face where the beam hit him looked terrible. But he just walked over to one of his friends and asked to be hosed down with water. Half an hour later I sought out Tommy and asked him why he refused all medical help. *Just hate being fussed over' he said.
 
-
+This article first apeared in Walkabout Magazine, September 1962. The article with pictures, [is available online at Trove.](https://nla.gov.au/nla.obj-752699070/view?sectionId=nla.obj-755724925&partId=nla.obj-752720703#page/n21/mode/1up)
 
 
 
