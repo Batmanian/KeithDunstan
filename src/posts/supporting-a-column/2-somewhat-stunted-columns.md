@@ -29,6 +29,7 @@ tags:
   - Jean Shrimpton
   - Hilton Nicholas
   - Paddy Hopkirk
+  - Bruce Bretherton
 ---
 
 THERE'S nothing very new in writing stunt columns. There's a columnist in Hawaii who specializes in the most daring of adventures. One day he accused the women of Honolulu of being lazy, of having little to do. The response was satisfactorily devastating, and, if I remember correctly, one mother invited him to take over her menage for twenty-four hours, while she moved out to a hotel. She left behind her ten children. This Hawaii columnist found plenty of material for his column that day.
