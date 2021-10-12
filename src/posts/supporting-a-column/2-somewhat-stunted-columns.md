@@ -314,11 +314,17 @@ Bruce Bretherton runs the Vaydin ski school in Prahran, Melbourne. The slope is 
 Mr Bretherton gave me a pair of boots, skis, gloves and took me up the gentlest part of the slope for my first ski lesson. He explained the balance, the positioning of the knees and the easy fluid style of the good skier. Over the amplifiers there was background music of the Tyrol. A large crowd was looking on, including several Olympians. It was important to do things with a certain aplomb. I started off in gentle, smooth style, and it was easy; no possibility of falling over. The nylon brush was a magnificent surface as fast as snow. Suddenly the scenery appeared to be moving past surprisingly quickly. The watching faces were becoming a blur. Then it occurred to me that I didn't know how to stop and the end of the matting was coming up most quickly. I looked for the brakes and there were none. The result was inevitable. I hit the hay bale at the bottom of the slope, went into a catherine wheel and crashed into Alexandra Avenue. All this was done in time to the Alpine music from above. The rest of the day I spent at the Alfred Hospital having my hand put in plaster for a broken metacarpal and a dislocated finger, which made both writing and typing almost impossible for the next month. All this would have been easy to bear but for the comments and length of time it took to explain what had happened.
 
 'How did you do that?'
+
 'Skiing.'
+
 "At this time of the year?'
+
 'Yes, in the Domain.'
+
 'Yair, sheeing in the Domain. That's more like it.'
+
 'No, no, I mean on nylon in the Domain.'
+
 'Yair. Sheeing on nylon wouldn't make any difference.'
 
 And so it would go on. It was very difficult to make people fully understand how easy it was to break one's hand, skiing in the
