@@ -19,6 +19,7 @@ tags:
   - Bulldogging
   - Walgett
   - Marrabel
+  - Tommy Cannon
   -  
 ---
 
@@ -60,7 +61,9 @@ Personally, I like the bulldogging. It calls for a special kind of toughness and
 
 At some of the other rodeos the ladies take part. At Walgett they have a ladies' bullock race, in which the pretty young ladies of the district join in. At Marrabel there is a ladies' buckjump championship. In their last rodeo there were girls like Pam Lacey from WA, Shirley Casey, 'a genuine product of the outback' and Cookie Hutchison from N.Z., plus Rosemary Duggan. As one reporter put it, 'these girls would shake the teeth out of some novice events.'
 
-The big novelty event at Myrtleford was the Wild Horse Race. They put six wild horses in the arena and for each horse there was a team of three: the mugger, who had to grab the horse by the car, the anchor man, who had to put a rope on him, and the jockey. The first man to mount his horse and ride him to the judging point was the winner. As always, the arena immediately became a fearful melee of flying hoofs, dust and sprinting men. Tommy Cannon of Parkes was the first to ride a wild horse. It went crazy. It charged three times round the arena. It crashed through a closed gate. It hurtled into the yards. An overhanging beam caught Tommy across the face and knocked him unconscious to the ground. Cowhands pulled him clear of the pounding hoofs. We thought Tommy was dead. A doctor and ambulance attendants came running. But slowly Tommy got to his feet. He shooed away the doctor and ambulance men. He wouldn't have a bar of them. His face where the beam hit him looked terrible. But he just walked over to one of his friends and asked to be hosed down with water. Half an hour later I sought out Tommy and asked him why he refused all medical help. 'Just hate being fussed over,' he said.
+The big novelty event at Myrtleford was the Wild Horse Race. They put six wild horses in the arena and for each horse there was a team of three: the mugger, who had to grab the horse by the car, the anchor man, who had to put a rope on him, and the jockey. The first man to mount his horse and ride him to the judging point was the winner. As always, the arena immediately became a fearful melee of flying hoofs, dust and sprinting men. Tommy Cannon of Parkes was the first to ride a wild horse. It went crazy. It charged three times round the arena. It crashed through a closed gate. It hurtled into the yards. An overhanging beam caught Tommy across the face and knocked him unconscious to the ground. Cowhands pulled him clear of the pounding hoofs. We thought Tommy was dead. A doctor and ambulance attendants came running. But slowly Tommy got to his feet. He shooed away the doctor and ambulance men. He wouldn't have a bar of them. His face where the beam hit him looked terrible. But he just walked over to one of his friends and asked to be hosed down with water. Half an hour later I sought out Tommy and asked him why he refused all medical help. 
+
+'Just hate being fussed over,' he said.
 
 This article first apeared in *Walkabout Magazine*, September 1962. The article with pictures, [is available online at Trove.](https://nla.gov.au/nla.obj-752699070/view?sectionId=nla.obj-755724925&partId=nla.obj-752720703#page/n21/mode/1up)
 
