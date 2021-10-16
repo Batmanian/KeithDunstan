@@ -26,9 +26,9 @@ A young rough-rider leaned against the dogging chute at Myrtletord and made a ra
 
 *Never a week goes by when some part of me isn't sore.* 
 
-*Then why do you do it? I don't know.* 
+*Then why do you do it?*
 
-*I guess I just like to ride,* 
+*I don't know. I guess I just like to ride* 
 
 *What keeps you going?* 
 
