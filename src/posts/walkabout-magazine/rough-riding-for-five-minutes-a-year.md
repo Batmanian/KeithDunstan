@@ -24,15 +24,15 @@ tags:
 
 A young rough-rider leaned against the dogging chute at Myrtletord and made a rare admission: 
 
-*Never a week goes by when some pari of me isn't sore. 
+*Never a week goes by when some part of me isn't sore.* 
 
-*Then why do you do it? I don't know. 
+*Then why do you do it? I don't know.* 
 
-*I guess I just like to ride, 
+*I guess I just like to ride,* 
 
-*What keeps you going? 
+*What keeps you going?* 
 
-*Just beer and instinct. 
+*Just beer and instinct.* 
 
 The taciturn conversation left a great deal unexplained. Why do healthy young men take to professional rodeo riding? There are more than thirty of them on the Australia-wide circuit. They move from town to town like a travelling circus or professional violin players. If they are good they make £1000 a year. If they are very good, and can keep their crutches in the hall cupboatd, they make £1500. So, obviously they are not in it for money. Then why do they do it? They are not buffoons. The intelligence of the average rodeo rider is well above average.
 
