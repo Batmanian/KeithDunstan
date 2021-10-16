@@ -25,6 +25,7 @@ tags:
   - Boolardy Station
   - Robert Francis Bruce 'Bob' Lefroy
   - (Benjamin) Gayelord Hauser
+  - Charles Eadon-Clarke
 ---
 The best trip I ever made for the column was not overseas, but a tour of the north of Australia. It was the best tour for fun and personal excitement and the best from the newspaper point of view. Some schools followed it as a daily project and one of my happiest possessions is a bundle of letters received from every member of a class at Cheltenham State School.
 
