@@ -104,25 +104,25 @@ Most of the hotels had no female lavatories and it was social ruin for a lady ev
 
 In 1970 the Licensing Commission granted a number of tavern licences. The Hotel Australia in Melbourne had one, a new tavern called Matilda's was another. Glory be, they had carpet on the floor, pictures on the wall, leather and wood panelling and another, called the Eureka Stockade, had gorgeous male-female lavatories. The doors were labelled "Gentlemen" and "Gentlewomen" Young & Jackson's which sported Melbourne's number one icon, the nude painting of Chloe also applied for a tavern licence. This was an event so extraordinary I thought it important to interview Chloe herself on the subject. Chloe you must understand was a lovely French girl, painted by the celebrated artist Jules LeFebvre in 1875. The painting came to Australia for the great International Exhibition of 1880-81. I had heard that she was not a bit pleased about the proposed tavern licence.
 
-    D: I've always liked you, but tell me, why do you object to this tavern licence?
+   D: I've always liked you, but tell me, why do you object to this tavern licence?
 
-    Chloe: Because zis place 'as character. Eet don't need carpet on ze floor. Eet has ze history of a building zat 'as served a million billion beers. Ze men zey 'ave come from     all over ze world to see me 'ere. Zey still do. I remembair even ze American servicemen who threw a glass of beer at me during ze war. Zey very nearly killed him for zat.
+   Chloe: Because zis place 'as character. Eet don't need carpet on ze floor. Eet has ze history of a building zat 'as served a million billion beers. Ze men zey 'ave come from    all over ze world to see me 'ere. Zey still do. I remembair even ze American servicemen who threw a glass of beer at me during ze war. Zey very nearly killed him for zat.
 
-    D: Do you realise though, that if this becomes a tavern it will become a place for ladies too. 
+   D: Do you realise though, that if this becomes a tavern it will become a place for ladies too. 
 
-    Chloe: Comment?
+   Chloe: Comment?
 
-    D: If this becomes a fancy joint with carpet and all there'll be women in the bar.
+   D: If this becomes a fancy joint with carpet and all there'll be women in the bar.
 
-    Chloe: Zey wouldn't DARE!
+   Chloe: Zey wouldn't DARE!
 
-    D: Why would you object? I mean, golly. Nearly 100 years of standing there with nothing on.
+   D: Why would you object? I mean, golly. Nearly 100 years of standing there with nothing on.
 
-    Chloe: Don't you understand anything you ignorant leetle peg. Ze women zey compete, zey fight, zey vie with one anuzzer, not because of what they zey haven't got on, but         because what zey 'ave. Ze naked woman before women 'as nuzzing. Before men she has everything.
+   Chloe: Don't you understand anything you ignorant leetle peg. Ze women zey compete, zey fight, zey vie with one anuzzer, not because of what they zey haven't got on, but        because what zey 'ave. Ze naked woman before women 'as nuzzing. Before men she has everything.
 
-    D: Oh no, I'm sure it will be all right.
+   D: Oh no, I'm sure it will be all right.
 
-    Chloe: All right! Pfui. Zey will be in here in zair horrid mini skirts, zair maxis, zair immoral hot pants. Nevair. I shall tear ze place down. Get out. Get out of here.
+   Chloe: All right! Pfui. Zey will be in here in zair horrid mini skirts, zair maxis, zair immoral hot pants. Nevair. I shall tear ze place down. Get out. Get out of here.
 
 Indeed the Australian with his rich tradition for being a drinking man also acquired a special language. The various words used to cover boozing is amazing. Sidney J. Baker in   his remarkable book: *The Australian Language* gave some of them:
 
