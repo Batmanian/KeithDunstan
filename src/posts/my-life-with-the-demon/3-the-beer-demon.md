@@ -5,6 +5,8 @@ summary: The third chapter of Keith's book on his relationship with wine, beer a
 tags:
   - Wine
   - Six oclock swill
+  - King George V
+  - Rev. E. C. Crotty
   - Henry Bolte
   - Young & Jacksons Hotel
   - Chloe
@@ -24,7 +26,7 @@ tags:
 
 Living in New York was extremely uncomplicated. The Demon drink was half the Australian price. Whisky, Bourbon, Scotch and Rye could even be bought in gallon bottles. Liquor stores were open night and day. They never seemed to close. Why did one not find drunks on the streets as we did in Melbourne? There was no problem about restaurants, even tiny cafes served drinks with meals. How easy it was to slip into this style of life. Our local grocer was an Italian, named Bruno. One Sunday morning I went round to Bruno to buy a dozen bottles of beer.
 
-"Sorry," said Bruno. "We can't sell liquor until noon on Sundays. That's the law in New York.
+"Sorry," said Bruno. "We can't sell liquor until noon on Sundays. That's the law in New York."
 
 I fumed. "What sort of a country is this. You can't buy liquor on Sunday mornings." Suddenly I came to my senses and remembered the unique and wondrous liquor laws back home. We returned to those in 1952.
 
@@ -36,7 +38,7 @@ If this sort of thing was going on in the Old Country, Australia had to do the s
 
 But you see the war was not going well. There had been the defeat in Gallipoli and appalling casualties in France. More effort was needed to defeat the Kaiser and there was the worry that soldiers might be lingering in bars. This would reduce their fighting efficiency.
 
-Originally Victoria was to have a referendum to decide on the ideal closing time, and a number of options were to be offered, 6,7,8,9,10 and 11 pm. Those who wanted early closing would accept nothing but six o'clock. The Argus printed leader after leader pointing out that six was absurd. This was precisely the hour when thousands of men left warehouse and shop. "Yes," said the Reverend E.C. Crotty. "Muzzle the liquor dog at the most dangerous hour for the sheep."
+Originally Victoria was to have a referendum to decide on the ideal closing time, and a number of options were to be offered, 6,7,8,9,10 and 11 pm. Those who wanted early closing would accept nothing but six o'clock. The *Argus* printed leader after leader pointing out that six was absurd. This was precisely the hour when thousands of men left warehouse and shop. "Yes," said the Reverend E.C. Crotty. "Muzzle the liquor dog at the most dangerous hour for the sheep."
 
 But could we wait for a referendum? The Battle of the Somme was at its height. The Premier of Victoria, Sir Alexander Peacock, decided there was no time available for such democratic niceties, so he brought down the six o'clock legislation at once and it came into effect on 25 October 1916.
 
