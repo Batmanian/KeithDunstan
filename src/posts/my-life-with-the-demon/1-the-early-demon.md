@@ -6,7 +6,9 @@ tags:
   - Wine
   - Geelong Grammar
   - The Dean of Melbourne, Dr Macartney
+  - Samuel Mauger
   - Mr E. Tennyson Smith
+  - Sir Keith and Lady Murdoch
 ---
 
 Oh dear, when was the first occasion I was struck down by the demon drink? It could have been when I was a server, an altar boy at Geelong Grammar School. Actually I loved being an altar boy. There was the business of dress ups, the bright red cassock, the white surplice, and a certain feeling of power standing there with the priest by the altar.
@@ -15,7 +17,7 @@ The whole ritual of Holy Communion seemed quite wonderful and still does. My con
 
 The servers were allowed the key to the Vestry. It was their job to make sure the flasks were filled with wine and water, the crucifer supplied with wafers and all the linen in order. My fellow server was a young man named Alan Atwill. Cold wintry Saturday afternoons could be awful at Geelong Grammar. The sou-westerlies which blew across Corio Bay seemed to come direct from Mawson Island and football had few attractions unless one was destined for the school firsts.
 
-It was 3 pm. I said to Atwill: "We had better go over to the Chapel and check. We're on at 8 am tomorrow. We went into the little Vestry, used the smaller of the two keys to open the cupboard and there were the bottles, long, brown with black labels. They held the Vestry wine.
+It was 3 pm. I said to Atwill: "We had better go over to the Chapel and check. We're on at 8 am tomorrow." We went into the little Vestry, used the smaller of the two keys to open the cupboard and there were the bottles, long, brown with black labels. They held the Vestry wine.
 
 "I wonder what it's like. I mean when you are taking Communion you don't really know. You only get a miserable little sip."
 
@@ -30,7 +32,7 @@ drink it, in remembrance of Me."
 
 "W-w-we wouldn't dare. This is the blood of Christ."
 
-"No it's not," said twill, quite accurately. "It's not the blood of Christ until the priest blesses it."
+"No it's not," said Atwill, quite accurately. "It's not the blood of Christ until the priest blesses it."
 
 "What if we were found out. They'd expel us on the spot. We'd have to get the train home this afternoon."
 
@@ -66,11 +68,11 @@ But I guess it was guilt that really stopped me from drinking more Communion win
 
 The Dean of Melbourne, Dr Macartney, said in 1875 he was convinced the forbidden fruit in the Garden of Eden must have been the grape. Adam and Eve, being religious people, would have been accustomed to gathering fruit on Saturday to carry them over until Monday morning, and the effect of the hot Palestine sun would be to promote fermentation and thus intoxicating liquor was first discovered.
 
-When asked about the famous miracle at the marriage in Cain the Reverend Doctor explained it was unfermented grape juice that they produced. What's more, on the stage in Melbourne's Temperance Hall, he defied theologians to produce any evidence in the scriptures for the use of fermented and spirituous liquors.
+When asked about the famous miracle at the marriage in Cana the Reverend Doctor explained it was unfermented grape juice that they produced. What's more, on the stage in Melbourne's Temperance Hall, he defied theologians to produce any evidence in the scriptures for the use of fermented and spirituous liquors.
 
 Mr E. Tennyson Smith, vice president of the International Prohibition Convention, used to lecture all over Australia. On the platform he would shout: "I hate liquor. I hate it so bad that sometimes I wake up at night to hate it a bit more and I feel better for that."
 
-Mr Samual Mauger, a temperance worker and Postmaster General of Australia, claimed in 1887 it was a fact babies were being born in Australia intoxicated. My father, like his father before him, grew up in Ballarat and the Dunstans were all Methodists. Originally they came from Cornwall, looking for gold. There is a belief that the gold rush brought to Victoria a conglomerate of fiercely independent men and women, who were determined to shake off the old beliefs. Rum and booze were their Gods. The reverse is true. The gold rush brought to Australia an extraordinary number of non conformists, Methodists, Presbyterians, Congregationalists and Baptists, but particularly Methodists. The tin miners from Cornwall tended to be devoted Weslyans. In 1854 there were only two Anglican priests on the diggings, but the Methodists did not worry about accredited ministers, laymen did the job. In some places on the goldfields they conducted more services than all the other denominations combined.
+Mr Samuel Mauger, a temperance worker and Postmaster General of Australia, claimed in 1887 it was a fact babies were being born in Australia intoxicated. My father, like his father before him, grew up in Ballarat and the Dunstans were all Methodists. Originally they came from Cornwall, looking for gold. There is a belief that the gold rush brought to Victoria a conglomerate of fiercely independent men and women, who were determined to shake off the old beliefs. Rum and booze were their Gods. The reverse is true. The gold rush brought to Australia an extraordinary number of non conformists, Methodists, Presbyterians, Congregationalists and Baptists, but particularly Methodists. The tin miners from Cornwall tended to be devoted Weslyans. In 1854 there were only two Anglican priests on the diggings, but the Methodists did not worry about accredited ministers, laymen did the job. In some places on the goldfields they conducted more services than all the other denominations combined.
 
 Sunday at the Dunstans' household was sacrosanct. There was no labour beyond reading the Bible and, naturally, all were total abstainers.
 
@@ -80,21 +82,21 @@ There was great delicacy in the approach to the second drink. Never, never did o
 
 There were other alternatives: "Can I freshen that up?" Or perhaps the host could ignore everything that had taken place before and say: "Care for a spot?" as if it were the first drink of the day.
 
-Whisky was the most popular drink. If visitors dropped in, say, for that nip at Saturday lunch time, there was sherry. Indeed sherry was a favorite, a perfect all occasion drink. Many people bought it in bulk. Dad purchased it from Campbells at Rutherglen. It came down by rail delivered in great wicker basket demi johns. They must have held at least four gallons. The wine went into decanters on the sideboard. That was another thing. The demon drink was not to be seen arranged in ugly liquor bottles. It was there in nice glass decanters, each with their silver tags, whisky, port, sherry and gin.
+Whisky was the most popular drink. If visitors dropped in, say, for that nip at Saturday lunch time, there was sherry. Indeed sherry was a favorite, a perfect all occasion drink. Many people bought it in bulk. Dad purchased it from Campbells at Rutherglen. It came down by rail delivered in great wicker basket demi-johns. They must have held at least four gallons. The wine went into decanters on the sideboard. That was another thing. The demon drink was not to be seen arranged in ugly liquor bottles. It was there in nice glass decanters, each with their silver tags, whisky, port, sherry and gin.
 
 What did one offer guests if they did not imbibe the Demon? In our house there was always barley water. The recipe had been handed down through generations of Methodists. Every few days my mother boiled up the barley and added fruit juice, usually orange and lemon to taste.
 
-Barley water was a refinement in many households. The first publisher I met was Cyril Denny, who managed Cassell Australia. He served barley water to his staff at morning and afternoon tea, no doubt inspiring them to greater intellectual efforts. Then one great day - I must have been ten or eleven years old - the Dunstans were invited by Sir Keith and Lady Murdoch to Cruden Farm at Langwarrin. The gardens of roses, the horses for riding, the beautiful furniture and glass, all these were nothing. What impressed me was the butler. He went round to every guests and said, "Sir (or madam), would you care for Rhine wine or barley water?" He put exactly the same question to me and under the watchful eye of my mother I said, "Barley water, thank you." It was right up to standard.
+Barley water was a refinement in many households. The first publisher I met was Cyril Denny, who managed Cassell Australia. He served barley water to his staff at morning and afternoon tea, no doubt inspiring them to greater intellectual efforts. Then one great day - I must have been ten or eleven years old - the Dunstans were invited by Sir Keith and Lady Murdoch to Cruden Farm at Langwarrin. The gardens of roses, the horses for riding, the beautiful furniture and glass, all these were nothing. What impressed me was the butler. He went round to every guest and said, "Sir (or madam), would you care for Rhine wine or barley water?" He put exactly the same question to me and under the watchful eye of my mother I said, "Barley water, thank you." It was right up to standard.
 
 Serving Rhine wine was a remarkable refinement. The Australian who opened a bottle of wine in the 1930s was an exceptional creature. Sherry, port and brandy were big sellers, but the unfortified wines were luxuries only for the most select dinner parties. Even establishments like the Melbourne Club did not keep great wine cellars. The members drank whisky at lunch. The stewards had a vast array of little mini decanters which held just one measure and these were brought to the lunch table. They were most convenient for the other half.
 
-There were three generic terms for wine. All white wine tended to be hock and reds were divided into claret and burgundy. Claret was the lighter wine. If it was big and gutsy, a sort of liquid steak and eggs, then it was a burgundy. This was precisely opposite to the great wines of France. Claret by tradition was Bordeaux where the wines tended to be more robust. Burgundy was the home of pinot noir and so inevita- bly the wines were lighter and more delicate.
+There were three generic terms for wine. All white wine tended to be hock and reds were divided into claret and burgundy. Claret was the lighter wine. If it was big and gutsy, a sort of liquid steak and eggs, then it was a burgundy. This was precisely opposite to the great wines of France. Claret by tradition was Bordeaux where the wines tended to be more robust. Burgundy was the home of pinot noir and so inevitably the wines were lighter and more delicate.
 
 Dad was a wine enthusiast and always a bottle was opened for dinner parties. I strive to remember the labels, Queltaller, Leo Buring, Matthew Lang and Rhine Castle. My father believed passionately in the quality of Australian wine and felt it should receive recognition overseas. He would send cases of red and white wine to friends in the United State, then wait for their glowing comments.
 
 He dearly loved a couple in San Francisco, Mr and Mrs Robert Scanlan, known to all as Buddy and Bobby. Buddy's hair was thinning on top, but she conquered this with great artistry. She had a standing daily order from the local florist and we never saw her without a creation of carnations on the top of her head. It looked enchanting. She adored shooting and she would go on hunting expeditions, and I always presumed she still wore her carnations. Did it make the deer feel any happier when it was shot by a lady wearing carnations on her head? Dad died in 1957, far too early, and Bobby Scanlan died soon afterwards. In 1971 I called on Buddy. She had a spectacular apartment right on Knob Hill with a view of San Francisco.
 
-We had dinner together and when it was over, she said: "Thave a confession to make to you. Years ago your father sent us some wine. It was lovely of him to do that. Well, you know, we Americans don't drink wine. Bobby only drank Scotch or Bourbon. I still have some of it here. Would you like to take it home?" She brought out several bottles of Queltaller, nearly 20 years old. I put them in my suitcase, packing them very carefully amongst the shirts and socks.
+We had dinner together and when it was over, she said: "I have a confession to make to you. Years ago your father sent us some wine. It was lovely of him to do that. Well, you know, we Americans don't drink wine. Bobby only drank Scotch or Bourbon. I still have some of it here. Would you like to take it home?" She brought out several bottles of Queltaller, nearly 20 years old. I put them in my suitcase, packing them very carefully amongst the shirts and socks.
 
 Upon returning home I took out those bottles and gazed at them lovingly. After the shaking of a 10,000 kilometre journey it was important that they should have a good rest and settle back to normal. So on a Saturday, lunch time, we opened a treasured bottle. The Queltaller was now a deep gold, still in good condition, and a lovely wine.
 
