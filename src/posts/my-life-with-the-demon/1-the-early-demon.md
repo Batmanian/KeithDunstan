@@ -4,11 +4,12 @@ date: 1994-11-11
 summary: The first chapter of Keith's book on his relationship with wine, beer and drinking, 'My life with the Demon'.
 tags:
   - Wine
-  - Geelong Grammar
+  - Geelong Grammar School 
   - The Dean of Melbourne, Dr Macartney
   - Samuel Mauger
   - Mr E. Tennyson Smith
   - Sir Keith and Lady Murdoch
+  - William Dunstan VC
 ---
 
 Oh dear, when was the first occasion I was struck down by the demon drink? It could have been when I was a server, an altar boy at Geelong Grammar School. Actually I loved being an altar boy. There was the business of dress ups, the bright red cassock, the white surplice, and a certain feeling of power standing there with the priest by the altar.
