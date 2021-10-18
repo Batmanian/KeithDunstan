@@ -8,7 +8,7 @@ tags:
   - Sir Keith Murdoch
   - Peter Grant Hay
   - Jack Williams
-  - Jck Eddy
+  - Jack Eddy
   - E.W. "Bill" Tipping
   - Stuart Legge
   - Phoenix Hotel
