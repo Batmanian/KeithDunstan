@@ -5,7 +5,7 @@ summary: The second chapter of Keith's second book, 'Supporting a column'.
 tags:
   - Primo Carnera
   - Stanley Kowalski
-  - Alan Holmes 'Bonnie' Muir
+  - Alan Holmes Bonnie Muir
   - Tennis
   - Kooyong
   - Wrestling

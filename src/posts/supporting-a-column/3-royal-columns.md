@@ -23,9 +23,9 @@ tags:
   - Marshal Gyorgy Zhukov
   - King Bhumibol
   - Queen Sirikit
-  - SEATO (Southeast Asia Treaty Organization)
+  - SEATO Southeast Asia Treaty Organization
   - Bing Crosby
-  - Squadron Leader (Lawrence Henry) Hicks
+  - Squadron Leader Lawrence Henry Hicks
   - The Australian National University
   - Farrago
   - Prince Philip

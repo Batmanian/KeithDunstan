@@ -16,10 +16,10 @@ eleventyComputed:
 permalink: /keyword/{{ tag | slug }}/
 ---
 
-
 {% block content %}
   {% set posts = collections[tag] %}
   {% include 'snippets/postloop.njk' %}
   <br>
   <p>See <a href="{{ '/keyword/' | url }}">all keywords</a>.</p>
 {% endblock %}
+
