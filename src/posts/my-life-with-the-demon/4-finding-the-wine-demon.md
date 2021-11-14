@@ -1,7 +1,7 @@
 ---
 title: Finding the wine demon
 date: 1994-11-11
-summary: The first chapter of Keith's book on his relationship with wine, beer and drinking, 'My life with the Demon'.
+summary: The fourth chapter of Keith's book on his relationship with wine, beer and drinking, 'My life with the Demon'.
 tags:
   - Wine
   - Bundaberg Rum
@@ -17,9 +17,8 @@ tags:
   - Len Evans
   - Doug Crittenden
   - Tulloch Wines
+  - Adrian Benns
 ---
-
-
 
 When did my serious trouble with Bacchus actually begin? I reckon it was a lovely day in December 1959. I was driving with my friend Adrian Benns through North East Victoria. There are few areas more lovely. All along the little creeks that run into the Ovens and King Rivers are these River Red Gums. They look well fed and comfortable. The bark is a dazzling white and the trunks are as fat as 1000 gallon drums.
 
@@ -40,7 +39,6 @@ Queensland's fascination with rum goes right back to the last century. The sugar
 </blockquote>
 Chorus<br><br>
 <blockquote>
-
 
     Bundaberg rum, and it's over proof rum
     Will tan your inside and grow hair on your bum.
@@ -135,191 +133,64 @@ There was no escape. Eventually we had to use the woodshed and store the firewoo
 
 We called at Tulloch's winery. The 1960s was a comparatively innocent period. The vignerons of the Hunter River did not feel they had to impress visitors who might indulge in cellar door sales with oak panelled tasting rooms and wineries that looked like castles complete with battlements. Tulloch's architectural beauty was on a par with a shearing shed. The veteran master winemaker was Hector Tulloch and naturally he was impressed by the arrival of Len. Immediately he started pulling out his finest vintages going right back to 1950 and even earlier.
 
-We tasted red after red after red. I noticed that to get these
-lovely old wines Hector Tulloch had to climb stacks which
-were right under the bare galvanised iron roof. No insulation
-and the iron acted just like a splendid radiator. I said: "Mr
-Tulloch, don't terrible things happen to the wine when it gets
-up over 100 degrees?"
-"No, not a thing," he replied. "Been doing it for years. It's OK
-as long as it doesn't boil."
-After this I had faith in my old woodshed and it was
-remarkable how quickly it filled. Eventually it contained nigh
+We tasted red after red after red. I noticed that to get these lovely old wines Hector Tulloch had to climb stacks which were right under the bare galvanised iron roof. No insulation and the iron acted just like a splendid radiator. I said: "Mr Tulloch, don't terrible things happen to the wine when it gets up over 100 degrees?"
 
-on 3000 bottles, which gave one a nice feeling of security I had
-read my Bible concerning the 40 years of plenty and the 40
-years of famine: Come pestilence, drought, taxes, we had
-sufficient wine to last the family nigh on a decade.
-Thad not counted on pestilence. One of the beauties of having
-such a store was being able to check on the progress of say,
-the '62 Everton from Brown's, or the '63 Shiraz from Tahbilk.
-It was in February 1970 that I spotted something very odd.
-Bottles appeared to be leaking and developing ullage. How
-could this be? Always we had purchased top quality corks.
-I was a little embarrassed about this, because I had been
-circumventing the retail market. But one had to show courage
-in a time of crisis, so I went to Dan Murphy and showed him
-one of the guilty bottles.
-He looked at it carefully, "Keith," he said, "you have the cork
-borer."
+"No, not a thing," he replied. "Been doing it for years. It's OK as long as it doesn't boil."
+
+After this I had faith in my old woodshed and it was remarkable how quickly it filled. Eventually it contained nigh on 3000 bottles, which gave one a nice feeling of security I had read my Bible concerning the 40 years of plenty and the 40 years of famine: Come pestilence, drought, taxes, we had sufficient wine to last the family nigh on a decade. Thad not counted on pestilence. One of the beauties of having such a store was being able to check on the progress of say, the '62 Everton from Brown's, or the '63 Shiraz from Tahbilk. It was in February 1970 that I spotted something very odd. Bottles appeared to be leaking and developing ullage. How could this be? Always we had purchased top quality corks. I was a little embarrassed about this, because I had been circumventing the retail market. But one had to show courage in a time of crisis, so I went to Dan Murphy and showed him one of the guilty bottles.
+
+He looked at it carefully, "Keith," he said, "you have the cork borer." 
+
 "Cork borer?"
-"Yes, it is a little insect or beetle that likes cork, bores his way
-into the bottle. He doesn't drink much wine but eventually he
-destroys your wine."
-"What can I do?" I pleaded. "Do I spray?"
-"There's only one thing you can do," replied Dan. "You have
-to replace every cork in every bottle."
-"B-b-but it could happen again."
-"Indeed it could. So what you have to do is seal every top with
-paraffin wax."
-It was a time of terrible urgency. That weekend the entire
-family was pressed into action, Marie, David our son, and
-three daughters. The production line included cork
-extractors, cork putter-inners, and packers. The job took the
-entire weekend. It was quite remarkable how the Wood Shed
 
-Bin survived. We still have some of those bottles, the tops
-coated with wax, the same wax that Marie used for putting
-on the top of her home made strawberry jam and marmalade.
-The bottles go back over 30 years, they have been cooked in
-the heat, chewed by beetles, corked twice, and some look most
-picturesque like bottles that once held candles in some
-old shearing shed. The paraffin has dripped down the side,
-and they still taste glorious. It is hard to kill a robust old
-North Easter.
-Bottles were always an interesting problem. Originally in
-Australia there was a creature called the bottle-oh, technically
-known as the marine dealer. Ours called around once a week
-with his horse drawn wagon. He cried out "Bottle-ohhh in a
-long wailing voice." He wore a splendid waistcoat with red
-buttons. He had a white cavalry moustache and a superb
-slouch hat. His tips for the races were unerring. He would pay
-a few shillings for a bag full of bottles.
-Alas, he disappeared for ever in 1960. So many charity organi-
-sations discovered there was money in bottles. But the
-garbage collectors were the greatest menace to the bottle-oh.
-The garbos carried sacks on the sides of their compactors and
-paid nothing. Ah, but what a remunerative sideline it was.
-Our garbo admitted to us one day he had been on a holiday
-to the South of France on the proceeds.
-Home bottlers had different approaches to their task. Some
-had no shame. They used the old 26 ounce or 750 ml beer
-bottle. There was not a great deal of style when one opened a
-crown seal recycled Foster's at a dinner party, but it worked.
-Nor was it as silly as it sounds. In 1963 John Brown made an
-experiment. He bottled some red wine, put a cork in one
-bottle, a crown seal on the other. In 1978, 15 years later, he
-opened those two bottles and the red wine with the crown
-seal was actually in better condition than the wine with the
-cork. Champagne, of course, before it is disgorged and
-capped with those fancy wired down corks, is kept for several years under crown seals, I asked a member of the Heidsieck
-amily why they did not use crown seals entirely instead of
-darks. Actually, it would be bettair," he said. "But you see, you
-would lose ze POP"
-Yes, some home bottlers were intensely practical. One of our
-ham had a friend in the paint business and he discovered a
-wonderful cache of clean turpentine bottles. They were
-triangular in shape, beautiful for
-stacking in one's bedroom
-cupboard. He thought so much of
-his home-bottled wine he took it
-into all the best restaurants. He
-even had the effrontery to take a
-turpentine special into the Florentino. The shocked waiter
-carried it past the table holding it by two fingers as if it were
-a dead rat.
-However many bottlers, particularly young doctors, liked to
-give home bottlings a certain tone. They had special labels
-done, a particular favorite was a woodcut of tubby little
-Bacchus holding a bunch of grapes in one hand and, if you
-looked carefully, his little penis was peeing into a glass of wine.
-The thing to do was plead for empties from restaurants like
-the Balzac or Fanny's. Very high quality bottles came from
-there. Then there were those who went marauding up
-Heyington Place and St George's Road, Toorak at 6 am on
-Tuesdays. Tuesday was garbage collection morning and one
-would have no trouble finding all the best quality French
-bottles, first growths no end. Some enthusiasts home bottled
-only in French champagne empties. At our place we prized
-the lovely Noilly Prat vermouth bottles. They held a litre.
-Always we felt that a 26 ounce 750 ml bottle was regrettably
-small in size.
-Home bottlers believed deeply in point five dinners. A point
-five dinner was half a bottle of wine with each meal. So the talk was like this. "How was dinner?"'It was a point five."
-could go as low as point three or even up to one point five a
-head but a home bottler felt less guilty if the arithmetic
-referred to litre bottles.
-Home bottling became a great fund-raising thing - Lions
-Apex, School Parents' Associations. I went to one incredible
-night out at Camberwell when they bottled more than 6on
-gallons. The place was ankle deep in shiraz and jolly parents
-were going off down the street, their bottles clanking in
-wheelbarrows.
-Various political parties were in it too and we did our best to
-home bottle several candidates into the House of Repre-
-sentatives.
-Our bottling methods at first were crude. Oh indeed, we did
-try to wash the bottles rather well, we did remove the old
-labels even if they did admit to being a Chateau Lafite or a
-Chateauneuf du Pape 1958. The system was to run a tube of
-three eighth inch plastic tubing from the barrel. Suck on it very
-hard until the wine began to flow, then insert into the bottle.
-The tube had to be squeezed to stop the flow each time but
-that was not easy and inevitably the floor was awash with red.
-Circa 1960 it was possible to buy only crude corkers and one
-literally bashed in the cork with a hammer.
-In 1962 I went on a Canadian Pacific Airlines junket to Paris.
-I knew if only I could find the right place there were superb
-lever action brass corkers to be had, devices that squeezed the
-cork, then with one push of a handle smoothly drove that cork
-into the bottle.
-I explained what I wanted to the concierge at our hotel. Ah
-yes, he said, I should go to Les Halles, the famous markets de
-Paris and there I would find a shop that dealt in everything
-for the winemaker. But how would I ask for a corker? What
-was the name for it? The concierge thought that was very
-complicated. I would have to ask for "un machina pour
+"Yes, it is a little insect or beetle that likes cork, bores his way into the bottle. He doesn't drink much wine but eventually he destroys your wine." 
 
-remplir le boucher de bouteille.", an instrument for putting
-the cork into the bottle.
-did find the shop in Les Halles and I told the French shop
-assistant of my requirements. He called over the manager and
-they both looked at me with amazement. I had learnt French,
-passed my leaving and even continued with French at
-Melbourne University, but I had discovered this earlier. When
-I used my expensively acquired linguistic skill upon the
-French I could well have been speaking Hindustani.
-Heft the puzzled pair, hunted round the shop and eventually
-found the very thing, an utterly beautiful brass corker.
-"Voila", I said in triumph. The manager beamed. "Monsieur,
-c'est Le Corker!" He knew exactly the sort of person I was.
-Then he brought out another marvellous syphoning device
-with a brilliant little tap that turned off when the bottle
-was filled.
-I returned to Melbourne with these gadgets and was the envy
-of all bottledom. But a friend of mine went one better. He had
-a hogshead which held 52 and a half imperial gallons which
-produced nigh on 400 bottles. His garage, set into a hillside,
-had a concrete roof. He put the hogshead on the garage roof
-then ran a fat nylon tube down below where we did the
-bottling. Here he had a dear old fashioned lavatory cistern
-which was equipped with a ball valve. As soon as the lavatory
-cistern was filled with cabernet, CMS or whatever, lo, the ball
-valve stopped the flow. Marvellous. From the lavatory cistern
-there was a series of three eighth inch plastic tubes with taps.
-I tell you, with this set up we could bottle almost as fast
-as Seppelts.
-We had eight or nine years of this. Costs rose. Eventually we
-were paying as much as one shilling and sixpence or 30 cents
-a bottle for our beautiful wine. It was in 1967 that the great
-wine boom began. Suddenly Australians ceased to be
-barbarians and discovered the glories of the natural resources
+"What can I do?" I pleaded. "Do I spray?" 
 
-God had given them. Len Evans, Dr Max Lake and others
-predicted that by 1970 or 1971 there would be a shortage of
-red wine in Australia.
-For us 1968 was the climactic year. Vignerons all around the
-country discovered the way to glory was to put their best wine
-into bottles under their own labels. First quality home bottling
-wine was almost impossible to find.
+"There's only one thing you can do," replied Dan. "You have to replace every cork in every bottle." 
+
+"B-b-but it could happen again." "Indeed it could. So what you have to do is seal every top with paraffin wax."
+
+It was a time of terrible urgency. That weekend the entire family was pressed into action, Marie, David our son, and three daughters. The production line included cork extractors, cork putter-inners, and packers. The job took the entire weekend. It was quite remarkable how the Wood Shed
+
+Bin survived. We still have some of those bottles, the tops coated with wax, the same wax that Marie used for putting on the top of her home made strawberry jam and marmalade. The bottles go back over 30 years, they have been cooked in the heat, chewed by beetles, corked twice, and some look most picturesque like bottles that once held candles in some old shearing shed. The paraffin has dripped down the side, and they still taste glorious. It is hard to kill a robust old North Easter.
+
+Bottles were always an interesting problem. Originally in Australia there was a creature called the bottle-oh, technically known as the marine dealer. Ours called around once a week with his horse drawn wagon. He cried out "Bottle-ohhh in a long wailing voice." He wore a splendid waistcoat with red buttons. He had a white cavalry moustache and a superb slouch hat. His tips for the races were unerring. He would pay a few shillings for a bag full of bottles.
+
+Alas, he disappeared for ever in 1960. So many charity organi- sations discovered there was money in bottles. But the garbage collectors were the greatest menace to the bottle-oh. The garbos carried sacks on the sides of their compactors and paid nothing. Ah, but what a remunerative sideline it was. Our garbo admitted to us one day he had been on a holiday to the South of France on the proceeds.
+
+Home bottlers had different approaches to their task. Some had no shame. They used the old 26 ounce or 750 ml beer bottle. There was not a great deal of style when one opened a crown seal recycled Foster's at a dinner party, but it worked. Nor was it as silly as it sounds. In 1963 John Brown made an experiment. He bottled some red wine, put a cork in one bottle, a crown seal on the other. In 1978, 15 years later, he opened those two bottles and the red wine with the crown seal was actually in better condition than the wine with the cork. Champagne, of course, before it is disgorged and capped with those fancy wired down corks, is kept for several years under crown seals, I asked a member of the Heidsieck amily why they did not use crown seals entirely instead of darks.
+
+"Actually, it would be bettair," he said. "But you see, you would lose ze POP" 
+
+Yes, some home bottlers were intensely practical. One of our ham had a friend in the paint business and he discovered a wonderful cache of clean turpentine bottles. They were triangular in shape, beautiful for stacking in one's bedroom cupboard. He thought so much of his home-bottled wine he took it into all the best restaurants. He even had the effrontery to take a turpentine special into the Florentino. The shocked waiter carried it past the table holding it by two fingers as if it were a dead rat.
+
+However many bottlers, particularly young doctors, liked to give home bottlings a certain tone. They had special labels done, a particular favorite was a woodcut of tubby little Bacchus holding a bunch of grapes in one hand and, if you looked carefully, his little penis was peeing into a glass of wine. The thing to do was plead for empties from restaurants like the Balzac or Fanny's. Very high quality bottles came from there. Then there were those who went marauding up Heyington Place and St George's Road, Toorak at 6 am on Tuesdays. Tuesday was garbage collection morning and one would have no trouble finding all the best quality French bottles, first growths no end. Some enthusiasts home bottled only in French champagne empties. At our place we prized the lovely Noilly Prat vermouth bottles. They held a litre. Always we felt that a 26 ounce 750 ml bottle was regrettably small in size.
+
+Home bottlers believed deeply in point five dinners. A point five dinner was half a bottle of wine with each meal. So the talk was like this. "How was dinner?"'It was a point five."
+
+It could go as low as point three or even up to one point five a head but a home bottler felt less guilty if the arithmetic referred to litre bottles.
+
+Home bottling became a great fund-raising thing - Lions Apex, School Parents' Associations. I went to one incredible night out at Camberwell when they bottled more than 6on gallons. The place was ankle deep in shiraz and jolly parents were going off down the street, their bottles clanking in wheelbarrows.
+
+Various political parties were in it too and we did our best to home bottle several candidates into the House of Repre- sentatives.
+
+Our bottling methods at first were crude. Oh indeed, we did try to wash the bottles rather well, we did remove the old labels even if they did admit to being a Chateau Lafite or a Chateauneuf du Pape 1958. The system was to run a tube of three eighth inch plastic tubing from the barrel. Suck on it very hard until the wine began to flow, then insert into the bottle.
+
+The tube had to be squeezed to stop the flow each time but that was not easy and inevitably the floor was awash with red. Circa 1960 it was possible to buy only crude corkers and one literally bashed in the cork with a hammer.
+
+In 1962 I went on a Canadian Pacific Airlines junket to Paris. I knew if only I could find the right place there were superb lever action brass corkers to be had, devices that squeezed the cork, then with one push of a handle smoothly drove that cork into the bottle.
+
+I explained what I wanted to the concierge at our hotel. Ah yes, he said, I should go to Les Halles, the famous markets de Paris and there I would find a shop that dealt in everything for the winemaker. But how would I ask for a corker? What was the name for it? The concierge thought that was very complicated. I would have to ask for "un machina pour remplir le boucher de bouteille.", an instrument for putting the cork into the bottle.
+
+I did find the shop in Les Halles and I told the French shop assistant of my requirements. He called over the manager and they both looked at me with amazement. I had learnt French, passed my leaving and even continued with French at Melbourne University, but I had discovered this earlier. When I used my expensively acquired linguistic skill upon the French I could well have been speaking Hindustani.
+
+Heft the puzzled pair, hunted round the shop and eventually found the very thing, an utterly beautiful brass corker. "Voila", I said in triumph. The manager beamed. "Monsieur, c'est Le Corker!" He knew exactly the sort of person I was. Then he brought out another marvellous syphoning device with a brilliant little tap that turned off when the bottle was filled.
+
+I returned to Melbourne with these gadgets and was the envy of all bottledom. But a friend of mine went one better. He had a hogshead which held 52 and a half imperial gallons which produced nigh on 400 bottles. His garage, set into a hillside, had a concrete roof. He put the hogshead on the garage roof then ran a fat nylon tube down below where we did the bottling. Here he had a dear old fashioned lavatory cistern which was equipped with a ball valve. As soon as the lavatory cistern was filled with cabernet, CMS or whatever, lo, the ball valve stopped the flow. Marvellous. From the lavatory cistern there was a series of three eighth inch plastic tubes with taps. I tell you, with this set up we could bottle almost as fast as Seppelts.
+
+We had eight or nine years of this. Costs rose. Eventually we were paying as much as one shilling and sixpence or 30 cents a bottle for our beautiful wine. It was in 1967 that the great wine boom began. Suddenly Australians ceased to be barbarians and discovered the glories of the natural resources God had given them. Len Evans, Dr Max Lake and others predicted that by 1970 or 1971 there would be a shortage of red wine in Australia.
+
+For us 1968 was the climactic year. Vignerons all around the country discovered the way to glory was to put their best wine into bottles under their own labels. First quality home bottling wine was almost impossible to find.
+
 Alas, never again, were things the same for the home bottler.
