@@ -72,7 +72,7 @@ It is a known fact that parents of babies are skilled at overlooking the most am
 
 "Actually, this time only 200 dozen."
 
-ß"Ohhh, I see."
+"Ohhh, I see."
 
 The cork people also are unimpressed with the size of your order, as for getting it professionally and hygienically bottled, nobody wants to know you.
 
