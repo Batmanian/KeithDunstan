@@ -5,9 +5,11 @@ summary: The first chapter of Keith's book on his relationship with wine, beer a
 tags:
   - Wine
   - Geelong Grammar School 
-  - The Dean of Melbourne, Dr Macartney
+  - The Dean of Melbourne, Rev. Dr H. B. Macartney
+  - E. Tennyson Smith
   - Samuel Mauger
-  - Mr E. Tennyson Smith
+  - William Dunstan VC
+  - Cyril H. Denny
   - Sir Keith and Lady Murdoch
   - William Dunstan VC
 ---
@@ -73,17 +75,19 @@ When asked about the famous miracle at the marriage in Cana the Reverend Doctor 
 
 Mr E. Tennyson Smith, vice president of the International Prohibition Convention, used to lecture all over Australia. On the platform he would shout: "I hate liquor. I hate it so bad that sometimes I wake up at night to hate it a bit more and I feel better for that."
 
-Mr Samuel Mauger, a temperance worker and Postmaster General of Australia, claimed in 1887 it was a fact babies were being born in Australia intoxicated. My father, like his father before him, grew up in Ballarat and the Dunstans were all Methodists. Originally they came from Cornwall, looking for gold. There is a belief that the gold rush brought to Victoria a conglomerate of fiercely independent men and women, who were determined to shake off the old beliefs. Rum and booze were their Gods. The reverse is true. The gold rush brought to Australia an extraordinary number of non conformists, Methodists, Presbyterians, Congregationalists and Baptists, but particularly Methodists. The tin miners from Cornwall tended to be devoted Weslyans. In 1854 there were only two Anglican priests on the diggings, but the Methodists did not worry about accredited ministers, laymen did the job. In some places on the goldfields they conducted more services than all the other denominations combined.
+Mr Samuel Mauger, a temperance worker and Postmaster General of Australia, claimed in 1887 it was a fact babies were being born in Australia intoxicated. My father, like his father before him, grew up in Ballarat and the Dunstans were all Methodists. Originally they came from Cornwall, looking for gold. There is a belief that the gold rush brought to Victoria a conglomerate of fiercely independent men and women, who were determined to shake off the old beliefs. Rum and booze were their Gods. The reverse is true. The gold rush brought to Australia an extraordinary number of Nonconformists, Methodists, Presbyterians, Congregationalists and Baptists, but particularly Methodists. The tin miners from Cornwall tended to be devoted Weslyans. In 1854 there were only two Anglican priests on the diggings, but the Methodists did not worry about accredited ministers, laymen did the job. In some places on the goldfields they conducted more services than all the other denominations combined.
 
 Sunday at the Dunstans' household was sacrosanct. There was no labour beyond reading the Bible and, naturally, all were total abstainers.
 
-My father was the first to indulge in the Demon, a habit he learned serving with the First AIF. Always drinks were served before dinner, that sublime hour when parents could unwind. The before-dinner drink was Scotch whisky, although my mother was quite happy with Corio. She thought the Australian product was unnecessarily despised. Yet, maybe there was still an old sense of guilt. It was considered nice behavior never to make ugly references to liquor. "Will you have a spot?" was the standard line, or "What will you take for it?"
+My father was the first to indulge in the Demon, a habit he learned serving with the First AIF. Always drinks were served before dinner, that sublime hour when parents could unwind. The before-dinner drink was Scotch whisky, although my mother was quite happy with Corio. She thought the Australian product was unnecessarily despised. Yet, maybe there was still an old sense of guilt. It was considered nice behavior never to make ugly references to liquor. 
+
+"Will you have a spot?" was the standard line, or "What will you take for it?"
 
 There was great delicacy in the approach to the second drink. Never, never did one say: "Will you have ANOTHER drink?" This implied that your guest could be over indulging. My mother always liked the line: "Will you have the other half?" It was very nice, it suggested that the first measure was so paltry it was absolutely necessary to have another. Furthermore, there was no mathematical precision about it, one could go on having the other half almost indefinitely.
 
 There were other alternatives: "Can I freshen that up?" Or perhaps the host could ignore everything that had taken place before and say: "Care for a spot?" as if it were the first drink of the day.
 
-Whisky was the most popular drink. If visitors dropped in, say, for that nip at Saturday lunch time, there was sherry. Indeed sherry was a favorite, a perfect all occasion drink. Many people bought it in bulk. Dad purchased it from Campbells at Rutherglen. It came down by rail delivered in great wicker basket demi-johns. They must have held at least four gallons. The wine went into decanters on the sideboard. That was another thing. The demon drink was not to be seen arranged in ugly liquor bottles. It was there in nice glass decanters, each with their silver tags, whisky, port, sherry and gin.
+Whisky was the most popular drink. If visitors dropped in, say, for that nip at Saturday lunch time, there was sherry. Indeed sherry was a favorite, a perfect all occasion drink. Many people bought it in bulk. Dad purchased it from Campbells at Rutherglen. It came down by rail delivered in great wicker basket demijohns. They must have held at least four gallons. The wine went into decanters on the sideboard. That was another thing. The demon drink was not to be seen arranged in ugly liquor bottles. It was there in nice glass decanters, each with their silver tags, whisky, port, sherry and gin.
 
 What did one offer guests if they did not imbibe the Demon? In our house there was always barley water. The recipe had been handed down through generations of Methodists. Every few days my mother boiled up the barley and added fruit juice, usually orange and lemon to taste.
 
