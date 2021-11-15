@@ -154,15 +154,18 @@ Yes, this wine obviously was made for masked tastings. It is the aim of the conn
 
 He would sit down, of course, to the cheers of the audience. Other wines depend on the beauty and romance of the prose, like Houghton's White Burgundy.
 
+
 <blockquote>
-    A full-bodied white wine which is only produced in Western Australia and developed as a distinctive white burgundy style from semillon and tokay grapes. The       Indian Ocean plays an important part in the production of this wine. The long dry summer and cool ocean breezes at night combine to eliminate the acidity found     in grapes grown in cooler climates. The wine gives a pleasant softness on the palate and is usually served chilled.
+     A full-bodied white wine which is only produced in Western Australia and developed as a distinctive white burgundy style from semillon and tokay grapes. The       Indian Ocean plays an important part in the production of this wine. The long dry summer and cool ocean breezes at night combine to eliminate the acidity found     in grapes grown in cooler climates. The wine gives a pleasant softness on the palate and is usually served chilled.
 <blockquote>
+  
   
 I like the part about the Indian Ocean, the breezes and the long summer, all it needs is a nice sunset. The truth is back labels are rarely honest. No 'honest' is not quite the right word. Winemakers all have what is known as cellar palate. A cellar palate is the same feeling that springs in the breast of every mother. Despite the fact that she may have given birth to a child which is as beautiful as a Kingaroy peanut, she still thinks it is the most attractive creature on the globe and, if entered, would win first prize in any baby show. So winemakers inevitably think that the acid little chardonnay they produced at the last vintage is the equivalent of a Montrachet and their pinot noir could outpace any Romanee Conti.
 
 But sometimes one comes across an honest label. My favorite
 is the product of Dr John Wilson, who also is capable of
 producing a very amusing newsletter.
+  
 
 <blockquote>
     The Wilson Vineyard
@@ -178,6 +181,7 @@ producing a very amusing newsletter.
     John Wilson
     Polish River
 </blockquote>
+  
 
 Of course, it was necessary for us to have our own garrulous label. It would have been nice to have had a label designed by a famous artist. Fred Williams, for example, back around 1970 designed a label for Rothbury. It was classic Williams, lots of little blobs designed to depict a vineyard. But even if you could afford the artist, would the picture help sell the wine? One could see the day when a traditional wine drinker might send back a bottle at the restaurant with the announcement: "I never drink a red by a non-figurative artist." 
   
