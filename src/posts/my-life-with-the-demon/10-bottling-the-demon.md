@@ -168,8 +168,12 @@ producing a very amusing newsletter.
   
 
 <blockquote>
-    The Wilson Vineyard
-    1990 Hippocrene
+    
+          The Wilson Vineyard
+  
+          1990 Hippocrene
+  
+  
     When I went winemaking in 1980, a veteran
     of the trade gave some reassuring advice.
     "You can't lose if the wine won't sell, then you
