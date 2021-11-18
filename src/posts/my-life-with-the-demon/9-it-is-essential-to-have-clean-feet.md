@@ -4,11 +4,13 @@ date: 1994-11-11
 summary: The ninth chapter of Keith's book on his relationship with wine, beer and drinking, 'My life with the Demon'.
 tags:
   - Wine
+  - Len Evans
   - Winemaking
   - Viticuture
+  - T.S. Eliot
 ---
 
-T S. ELIOT used to say April is the cruellest month. It is a time of nervous tension and almost constant prayer. The wise man never believes anything until the grapes are bubbling in the fermenter. One year Len Evans was particularly happy with his vintage. He reported in Saturday's Australian newspaper that the grapes were perfect. This could be the greatest year in the Hunter Valley. They were picking on Monday.
+T S. ELIOT used to say April is the cruellest month. It is a time of nervous tension and almost constant prayer. The wise man never believes anything until the grapes are bubbling in the fermenter. One year Len Evans was particularly happy with his vintage. He reported in Saturday's *Australian* newspaper that the grapes were perfect. This could be the greatest year in the Hunter Valley. They were picking on Monday.
 
 Come the Sunday, with exquisite timing, there was the cyclone that produced twelve inches of rain in 24 hours. Rarely had they seen such a tremendous downpour. All Len could do was sit on his verandah and weep as he watched $100,000 being washed away.
 
@@ -18,9 +20,9 @@ Veraison is that stage when the grapes have reached their maximum size, the stag
 
 When veraison sets in, the bunches are filling out and it is part of the magic of nature watching them turn deep purple. You think that in the grand viticultural obstacle race you are almost there.
 
-But, of course you are not. This is the viticultural game of snakes and ladders. As soon as the grapes change colour the nets must go on. This is another thing set to try good humour. The nets are wonderful for keeping the birds away, but they stop every other activity. One can only get into the vineyard by crawling on one's hands and knees. It is impossible to mow the grass and impossible to spray. So in cruel April we go out every morning, looking for mould, looking for rot, looking for tell tale stains on the leaves.
+But, of course you are not. This is the viticultural game of snakes and ladders. As soon as the grapes change colour the nets must go on. This is another thing set to try good humour. The nets are wonderful for keeping the birds away, but they stop every other activity. One can only get into the vineyard by crawling on one's hands and knees. It is impossible to mow the grass and impossible to spray. So in cruel April we go out every morning, looking for mould, looking for rot, looking for tell-tale stains on the leaves.
 
-"Oh God, please keep it all away until vintage." This is a delicate matter. It is presumptuous for a mere male, but vintage is like being pregnant. There is the same tension, the same awful feeling of suspense and worry. The experts tell with authority the day it will happen, but it never works. The appointed date passes, you become increasingly uncomfor- table, suffer terrible dreams, and there is the constant terror, will the baby be all right?
+"Oh God, please keep it all away until vintage." This is a delicate matter. It is presumptuous for a mere male, but vintage is like being pregnant. There is the same tension, the same awful feeling of suspense and worry. The experts tell with authority the day it will happen, but it never works. The appointed date passes, you become increasingly uncomfortable, suffer terrible dreams, and there is the constant terror, will the baby be all right?
 
 Grape harvest is unconscionably long, almost like the football season. Vineyards up on the Hunter River start picking way back in early February. In North Eastern Victoria and the Barossa Valley it is early March. As we proceed south it gets later and later. In lofty areas of the Mornington Peninsula and Tasmania anything can happen. The dinkum nail biters and perspirers are the growers of cabernet sauvignon. Those damned little berries are the last of the ripeners. Sometimes they hang on right until June. When that happens the growers are praying, burning candles, buying fortune cookies, it is very cruel.
 
@@ -28,28 +30,25 @@ Under normal lovely copy book conditions it is easy. Once a week, say on Tuesday
 
 Are you still there? Can I tell you how it gets worse. In big fancy vineyards they have mechanical harvesters. They are terrifying machines about twice the size of mechanical garbage trucks. They move out at 2 am, to get the grapes when they are nice and cool, then they beat or shake the bejabbers out of their vines to gather the berries. Little vineyards can't afford such stuff. They have to pick in the heat of the day and depend on no-cost labour. There's a tradition that goes back to the dawn of cabernet. You line up your friends, tell them to keep April 13 absolutely free, promise them a damned good lunch with unlimited quantities of the product to imbibe, and lo, all your grapes get picked.
 
-But don't you see? On April 13 the sugar is not right. If we induce the baby at this stage, the wine will be horrid, thin, pale and acid. So we ring around, "Hey Tom, Hey Isabel, Hey Charlie and Hannah, it's all off, you wouldn't possibly be free next week.…by any chance???"
+But don't you see? On April 13 the sugar is not right. If we induce the baby at this stage, the wine will be horrid, thin, pale and acid. So we ring around, "Hey Tom, Hey Isabel, Hey Charlie and Hannah, it's all off, you wouldn't possibly be free next week ...by any chance???"
 
-"'o there is another unnerving week, waiting, looking out the window, watching clouds. One listens to all the cheery chats about the weather with Ranald and Doug and Elaine. Please, please, give us some warmth this week. It rains all day Tuesday, the sugar reading doesn't move and we are set back another week.
+"So there is another unnerving week, waiting, looking out the window, watching clouds. One listens to all the cheery chats about the weather with Ranald and Doug and Elaine. Please, please, give us some warmth this week. It rains all day Tuesday, the sugar reading doesn't move and we are set back another week.
 
-"Tom and Isabel, would you mind.….?" Now your best pickers suddenly have appointments to play golf at Barwon Heads, or are off on a Women's Weekly tour of Paris and Amsterdam. I tell you, after all these changes you have to promise a lunch better than Mietta's, Stephanies and Two Faces all rolled into one. But as the gestation period extends the grapes ripen more and more slowly, bunches start to collapse they begin to turn white and mouldy with botrytis.
-
-It is a sheer question of nerve and holding on. Some say that four times out of five grapes are picked too early, a week or two before they reach their maximum flavour. Flavour versus disease, that is the lottery. Oh dear, being a mother is awful.
+"Tom and Isabel, would you mind.….?" Now your best pickers suddenly have appointments to play golf at Barwon Heads, or are off on a Women's Weekly tour of Paris and Amsterdam. I tell you, after all these changes you have to promise a lunch better than Mietta's, Stephanie's and Two Faces all rolled into one. But as the gestation period extends the grapes ripen more and more slowly, bunches start to collapse they begin to turn white and mouldy with botrytis. It is a sheer question of nerve and holding on. Some say that four times out of five grapes are picked too early, a week or two before they reach their maximum flavour. Flavour versus disease, that is the lottery. Oh dear, being a mother is awful.
 
 Ultimately the baby is born and, of course, the much-put-off pickers are incredibly faithful. It would be impossible to over estimate the feeling of relief and euphoria. Nothing equals the joy of watching the flow of train loads of grapes heading towards the winery. There is an infectious feeling about a harvest and bringing in the fruit. It always affects the grape pickers. Some go about it with all the intensity of stock brokers when the market dollar is sinking. Others talk, unbear their souls, tell the stories of previous husbands and wives, recant the behaviour of their 17-year-olds or why their marmalade won't set.
 
 Old hands in the business give solid rules of thumb on how to handle free pickers.
 
-1.
-Tell them the starting time is two hours earlier than the actual moment you expect to get going. This way you will have at least six pickers at 9 am.
+    1. Tell them the starting time is two hours earlier than the actual moment you expect to get going. This way you will have at least six pickers at 9 am.
 
-2.
-First class equipment, squadrons of buckets, seca- teurs, Band Aids etc. Don't make the secateurs or grape scissors too sharp. You will find that grape pickers sometimes don't see all that well, and fingers can be snipped just like grapes. Good winemakers prefer not to have blood in the wine. The older pickers don't like carrying heavy buckets. Have young muscle to fetch and carry.
+    2. First class equipment, squadrons of buckets, secateurs, Band Aids etc. Don't make the secateurs or grape scissors too sharp. You will find that grape           pickers sometimes don't see all that well, and fingers can be snipped just like grapes. Good winemakers prefer not to have blood in the wine. The older pickers     don't like carrying heavy buckets. Have young muscle to fetch and carry.
 
-3.
-Give them tea or soup breaks at 11 am and 12.30 pm. Never, never, never give them food or wine until all the grapes are picked. It doesn't matter if you don't serve lunch until 5 o'clock, nobody has ever succeeded in getting free pickers back to work again, once the corks are pulled. Watch out for the pickers who just come for the lunch. There is a sliding scale, a sort of law of motion. For example a keen picker should fill at least 40 buckets of grapes. If you get two bottles to the bucket and he/she drinks one bottle at lunch you have an 80 plus picker. If they arrive at 10 am you have a 40 plus picker. Ah, but then you have the true Bacchanalian fun-loving pickers, they might arrive at 1 pm and pick only one bucket. They move on to the minus side of the scale, and they are drinking two bottles of wine for each bucket.
-4.
-Suggest to the pickers, say around 4 pm, would they care to help with the heavy labour of heaving the grapes into the grape crusher and plunging the must in the fermenter. We need some ardent volunteers to keep working through the night. If you don't do this, your ardent pickers who worked so nobly through the morning might go through your whole cellar. We have found all this excellent advice. But vintage day, while full of joy like days when a baby is born, can be unnerving. There is the worry whether the juice has enough colour and flavour. There is the worry about the sugar. One might take samples in the vineyard on Thursday to discover a baume of 13.5 sugar, but when it is in the vat mysteriously it has sunk to 12.5 or 11.8. Grapes in different parts of the vineyard can have different sugar levels.
+    3. Give them tea or soup breaks at 11 am and 12.30 pm. Never, never, never give them food or wine until all the grapes are picked. It doesn't matter if you         don't serve lunch until 5 o'clock, nobody has ever succeeded in getting free pickers back to work again, once the corks are pulled. Watch out for the pickers       who just come for the lunch. There is a sliding scale, a sort of law of motion. For example a keen picker should fill at least 40 buckets of grapes. If you get     two bottles to the bucket and he/she drinks one bottle at lunch you have an 80 plus picker. If they arrive at 10 am you have a 40 plus picker. Ah, but then you     have the true Bacchanalian fun-loving pickers, they might arrive at 1 pm and pick only one bucket. They move on to the minus side of the scale, and they are       drinking two bottles of wine for each bucket.
+
+    4. Suggest to the pickers, say around 4 pm, would they care to help with the heavy labour of heaving the grapes into the grape crusher and plunging the must in     the fermenter. We need some ardent volunteers to keep working through the night. If you don't do this, your ardent pickers who worked so nobly through the         morning might go through your whole cellar. 
+    
+We have found all this excellent advice. But vintage day, while full of joy like days when a baby is born, can be unnerving. There is the worry whether the juice has enough colour and flavour. There is the worry about the sugar. One might take samples in the vineyard on Thursday to discover a baume of 13.5 sugar, but when it is in the vat mysteriously it has sunk to 12.5 or 11.8. Grapes in different parts of the vineyard can       have different sugar levels.
 
 After the pickers have gone home the real work begins. All the grapes have to be put through the crusher de-stemmer. Our wine advisors, Nat and Rosalie White, went 35 hours non stop with the crushing of their 1993 chardonnay. They did not finish until 11 am the following day.
 
