@@ -7,8 +7,10 @@ tags:
   - Wine
   - Viticulture
   - Winemaking
+  - Bonwyn Bishop
   - Jeff Kennett
   - Garry Crittenden
+  - David Dunstan
 ---
 
 An old editor once gave me some advice. Never resign from a job in a fit of rage. Always wait a week until you have calmed down. Before becoming a vigneron it might be a good idea to wait a month or even a year. Think how many hours it will take out of your week then multiply by ten.
