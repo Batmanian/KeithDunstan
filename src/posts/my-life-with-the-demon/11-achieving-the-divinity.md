@@ -33,7 +33,7 @@ Australian tastes were splendid indeed. When Melbourne opened its grand new Town
 
 Mr R.E.N. Twopeny, a famous Australian commentator, wrote in 1881:
 
-      Like their American cousins the Australians are of the opinion that there is no liquid worthy to be mentioned by the side of 'champagne.' It requires some         education to acquire a taste for claret. To the uninitiated sherry and port are chiefly palatable for their spirituousness; but everyone is born with a taste       for champagne... No merchant or lawyer whose income is over 500 pounds a year dare give a party without champagne. It is Champagne which gives *ton*.
+    Like their American cousins the Australians are of the opinion that there is no liquid worthy to be mentioned by the side of 'champagne.' It requires some         education to acquire a taste for claret. To the uninitiated sherry and port are chiefly palatable for their spirituousness; but everyone is born with a taste       for champagne... No merchant or lawyer whose income is over 500 pounds a year dare give a party without champagne. It is Champagne which gives *ton*.
 
 Mr Twopeny went on to say that when a man had made a lucky speculation, or had just received a large order, it was absolutely essential that he treat his friends to a bottle of champagne.
 
@@ -118,7 +118,7 @@ God bless crown seals. Unquestionably it is the most efficient device for sealin
 On 12 April 1903 there was an invitation by the Crown Corporation to a demonstration at the Rowland's factory in Sydney. A report appeared in the *Australian Brewers' Journal*: 
 
 
-      "The system of corking bottles is both cheap and simple. The cork consists of a small metal cap, lined with cork, which is fastened automatically over the         mouth of the bottle by machine pressure. Among the advantages claimed are that it is cheaper than the old system, and in no way injurious. By means of a           small metal hook which can be carried on a key ring, or fastened on a wall the seal can easily be removed."
+     The system of corking bottles is both cheap and simple. The cork consists of a small metal cap, lined with cork, which is fastened automatically over the          mouth of the bottle by machine pressure. Among the advantages claimed are that it is cheaper than the old system, and in no way injurious. By means of a            small metal hook which can be carried on a key ring, or fastened on a wall the seal can easily be removed.
       
 
 By 1913 the big breweries were using nothing else and the colourful old bottles with the tie down corks had disappeared forever. Champagne would remain perfect if, like beer or Coca-Cola, it continued right through to the customer with a crown seal, but as told in another chapter, what would happen to the beautiful romance? It would lose "Ze pop." 
