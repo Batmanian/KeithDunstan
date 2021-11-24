@@ -4,14 +4,27 @@ date: 1994-11-11
 summary: The fifth chapter of Keith's book on his relationship with wine, beer and drinking, 'My life with the Demon'.
 tags:
   - Wine
-  - Alf Bloggenheimer
-  - Rothbury Club
+  - Rothbury Estate Society
   - Len Evans
   - Brown Brothers
   - Viticultural Society of Victoria.
   - James Halliday
+  - Neville Baker
+  - John Beeston
+  - Frank Christie
+  - Peter Joyce
+  - Peter Walker
+  - David Thomas
+  - John Cunnington
+  - Reg Egan
+  - Joe Sullivan
   - Dr Max Lake
-  - Herman Schneider
+  - Hermann Schneider
+  - Doug Crittenden
+  - Tom Seabrook
+  - Douglas Seabrook
+  - Rudi Komon
+  - Berek Segan
 ---
 
 
@@ -74,7 +87,7 @@ I jotted down these notes. When called upon to speak, as mentioned earlier, hold
 
 First it is important to have assessed the lunch. How much did the members pay, $20, $30, $50, $75? If they paid $25 it is certain that you will be sticking to Australian wines, particularly if it is a big lunch. If it is $30 to $50 there will be some fancy boutique Australian wines and if it is $75 or above it is a Monty they will be going for Californian, French or German.
 
-For a start presume it is not an over expensive lunch. Dip your nose into the glass, take a taste, cluck your tongue and point out that you find this wine has an extremely satisfying nose with perhaps just the faintest aroma of crushed violets. (That will really floor them. Nobody else has picked up the scent of violets. It just proves you have a much better sense of smell than they have.) Point out that you found this was a well- balanced wine (it's sure to balance somehow or other). A wine which had spent time on good wood yet still showing some bottle age. Unless the wine society is offering you Chateau Cardboard it is a 90 per cent chance that the wine has been in new or old oak and seeing it is now in a bottle, this is proof it has bottle age.) 
+For a start presume it is not an over expensive lunch. Dip your nose into the glass, take a taste, cluck your tongue and point out that you find this wine has an extremely satisfying nose with perhaps just the faintest aroma of crushed violets. (That will really floor them. Nobody else has picked up the scent of violets. It just proves you have a much better sense of smell than they have.) Point out that you found this was a well-balanced wine (it's sure to balance somehow or other). A wine which had spent time on good wood yet still showing some bottle age. Unless the wine society is offering you Chateau Cardboard it is a 90 per cent chance that the wine has been in new or old oak and seeing it is now in a bottle, this is proof it has bottle age.) 
 
 You compliment the Wine Master for his superb choice in picking the wine to go with the main course today. It compliments exactly the Filet Mignon and who else would have considered that violet nose which goes so well with the broccoli.
 
