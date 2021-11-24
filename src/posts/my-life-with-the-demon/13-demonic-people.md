@@ -240,31 +240,29 @@ Evans was and is famous for his dinners. There was the famous $200 a plate dinne
 
 This was the menu:
 
+(image)
 
+He bought the half bottle of 1727 Rudesheimer at Christies in 1975 for $450 and the 1825 Gruard Larose cost $510 in 1976. There were some savage letters in the newspapers. Mrs D. Hughes of Elwood wrote in the *Herald*, Melbourne:
 
-He bought the half bottle of 1727 Rudesheimer at Christies in 1975 for $450 and the 1825 Guard Larose cost $510 in 1976. There were some savage letters in the newspapers. Mrs D. Hughes of Elwood wrote in the Herald, Melbourne:
-
-"Not only was this event discriminatory but down- right suspect. I'm tired of ruddy snobs, and the pretentious behaviour that accompanies this kind of event. If Mr Evans is sincere in giving to charity why not write a cheque for the equivalent of what this 'do' would cost thus permitting him to keep his precious wines."
+    "Not only was this event discriminatory but down-right suspect. I'm tired of ruddy snobs, and the pretentious behaviour that accompanies this kind of event.       If Mr Evans is sincere in giving to charity why not write a cheque for the equivalent of what this 'do' would cost thus permitting him to keep his precious         wines."
 
 Then there were all sorts of suggestions regarding the sanity of a man who would pay $450 for a bottle of wine and a miserable half bottle at that.
 
-Evans commented in the Bulletin:
+Evans commented in the *Bulletin*:
 
-"Pay $450 for a bottle of wine! The man must be mad, but it's my money, and I don't criticise the gamblers and the questers for the America's Cup and the racehorse owners and the status seekers, all of whom, to me, spend their money other than I would. But it's their business. I just wanted to taste the wine."
+    "Pay $450 for a bottle of wine! The man must be mad, but it's my money, and I don't criticise the gamblers and the questers for the America's Cup and the           racehorse owners and the status seekers, all of whom, to me, spend their money other than I would. But it's their business. I just wanted to taste the wine."
 
 Just about that time I recorded that Evans was a writer, a top wine judge, chairman of one of the nation's biggest vineyards, a raconteur, an unequalled fund raiser for charity, an authority on 18th and 17th century oak, a golfer with a handicap down around three or four, an expert on pewter and silver, his palate one of the six best in the country and, not the least of his achievements, a master teller of salacious stories. What's different now. He is well into his 60s. He has had a triple by-pass heart operation and has anything else changed? Yes, maybe he has speeded up. He is chairman of a few large wine companies, and he is constantly on the move around the nation, at lunches, at dinners, at board meetings. He makes a habit of chairing dinners in Sydney with auctions that raise nigh on a million dollars. He now paints, pots and sculpts, all with some skill.
 
-He has moved out of Sydney and lives permanently near his beloved Rothbury Estate in the Hunter. His new place, Loggerheads, which he and his lovely wife, Trish, have created is beautiful beyond belief. There is a rose garden, a tennis court, a swimming pool, a croquet lawn, a 10-acre golf course. The house is a cross between an old English manor house and a priory.
-
-We stayed with him recently. Our room had Elizabethan furnishings. The bathroom had a dunny seat, which looked like the throne for the Archbishop of Canterbury and the shower was set in a huge wine vat.
+He has moved out of Sydney and lives permanently near his beloved Rothbury Estate in the Hunter. His new place, Loggerheads, which he and his lovely wife, Trish, have created is beautiful beyond belief. There is a rose garden, a tennis court, a swimming pool, a croquet lawn, a 10-acre golf course. The house is a cross between an old English manor house and a priory. We stayed with him recently. Our room had Elizabethan furnishings. The bathroom had a dunny seat, which looked like the throne for the Archbishop of Canterbury and the shower was set in a huge wine vat.
 
 Loggerheads is an odd name for his mansion derived from his home country in Wales but, as Len explains, there is a marvellous advantage. The visitor can say: "I spent the weekend at Loggerheads with Evans."
 
 His recent, and most remarkable achievement, is his rotunda which has an unparalleled view down across the valley vineyards. There are six Ionic marble columns. They are vast, perhaps five or six tonnes each connected on top by a stone tiara. It looks like the Temple of Athena, at the very least a place where you keep half a dozen Vestal Virgins and call on the Oracle at 9 am daily. It is so grand, the foundations had to go down six metres.
 
-One could go on and on about those who have influenced the Demon. There was the ebullient Murray Tyrell, the great power of the Hunter. I remember visiting him as a young innocent, circa 1962. It was the height of vintage and the Shiraz was bubbling in the vat. I said: "Mr Tyrell, what technical equipment do you use to tell the progress of the fermentation?"
+One could go on and on about those who have influenced the Demon. There was the ebullient Murray Tyrrell, the great power of the Hunter. I remember visiting him as a young innocent, circa 1962. It was the height of vintage and the Shiraz was bubbling in the vat. I said: "Mr Tyrrell, what technical equipment do you use to tell the progress of the fermentation?"
 
-"Ah Keith," he replied, " you don't need any of that nonsense. When you've been in the business long enough you can tell.~ Thereupon he stuck his arm right down into an open vat filled with shiraz and said: "You can always tell by the prickles on your skin."
+"Ah Keith," he replied, " you don't need any of that nonsense. When you've been in the business long enough you can tell. Thereupon he stuck his arm right down into an open vat filled with shiraz and said: "You can always tell by the prickles on your skin."
 
 There was Peter Lehmann, the son of a Lutheran pastor and the most thoroughly all round extrovert I ever knew. There used to be a rule that wineries were always open house to devoted lovers of the grape, but never on a Sunday. Sunday was sacred, a day when vignerons deserved a break from intruders.
 
@@ -274,32 +272,31 @@ Tust then the Dunstan car was spotted by Lehmann. "Dunstan you stupid fucking ba
 
 Three minutes later the cork was out of the champagne.
 
-Rudy Komon was another. One would call at the Komon Gallery to see the latest Pughs, Bracks or Boyds, but Rudy would say that good art should always be taken with good wine. The first time we met he opened a bottle of Hugel Alsatian Riesling which melted quite beautifully with the art on his walls.
+Rudy Komon was another. One would call at the Komon Gallery to see the latest Pughs, Bracks or Boyds, but Rudy would say that good art should always be taken with good wine. The first time we met he opened a bottle of Hugel Alsatian Riesling which melded quite beautifully with the art on his walls.
 
 But Rudy, always good company, was an unbending character.
 
-He had a favourite expression; "E's a barbarrrian." His nicely honed Czech accent rolled beautifully over the Rs. 
+He had a favourite expression; "E's a barbarrrian." His nicely honed Czech accent rolled beautifully over the Rs. A barbarian was a creature who did not agree with Rudy, a creature who did not savour the wonders of wine or the arts. In the 1970s Alan Holdsworth, editor of *Epicurean* magazine, held an annual dinner. There was always an award, a sterling silver ladle, for the wine person who had contributed most to the wine and food industry during the year. The rarest of foods and the most antique of wines always were produced. One year it was an ancient riesling. There had been an extraordinary find, a cache of long forgotten bottles in a cellar at Sunbury. The wine was a riesling 100 years old. It became a matter of great prestige to acquire one of these bottles. If you were on the wine social round it became a matter of great *ton*, as they used to say in the 19th century: "Oh yes, I thought the 1876 riesling I had with X' had a brilliant richness of fruit, but not quite the same delicacy and finish on the palate as the 1876 I had at 'Y's' house on Thursday night."
 
-A barbarian was a creature who did not agree with Rudy, a creature who did not savour the wonders of wine or the árta. In the 1970s Alan Holdsworth, editor of Epicurean magazine, held an annual dinner. There was always an award, a sterling silver ladle, for the wine person who had contributed most to the wine and food industry during the year. The rarest of foods and the most antique of wines always were produced.
+The 1971 dinner took place at Two Faces restaurant in South Yarra and I took along Rudy Komon as my guest. The chairman for the day was Douglas Seabrook, celebrated wine dealer, wine judge, and often held in awe as Melbourne's, if not Australia's, best palate. The piece de resistance for the night was a 1872 Craiglee dry red. Douglas gave the history of the wine. He said it was discovered lying in cases on the earth floor of the old winery, by his father, back in 1951.
 
-One year it was an ancient riesling. There had been an extraordinary find, a cache of long forgotten bottles in a cellar at Sunbury. The wine was a riesling 100 years old. It became a matter of great prestige to acquire one of these bottles. If you were on the wine social round it became a matter of great ton, as they used to say in the 19th century: "Oh yes, I thought the 1876 riesling I had with X' had a brilliant richness of fruit, but not quite the same delicacy and finish on the palate as the 1876 I had at 'Y's' house on Thursday night."
+The old wine in its handblown bottle was brought to the table. I am sure Tutankhamen's tomb was opened with none of the ceremony of the opening of this old red. Corkscrew, scalpel, everything came into operation and the process seemed to take a full hour. The cork had to be removed with no shaking and the decanting was done with such steadiness, there was almost the fear that if there was the faintest shake the bottle would explode like an Irish bomb. The wine was shared into small glasses for the 28 guests.
 
-The 1971 dinner took place at Two Faces restaurant in South Yarra and I took along Rudy Komon as my guest. The chairman for the day was Douglas Seabrook, celebrated wine dealer, wine judge, and often held in awe as Melbourne's, if not Australia's, best palate. The piece de resistance for the night was a 1872 Craiglee dry red. Douglas gave the hist- of the wine. He said it was discovered lying in cases o, earth floor of the old winery, by his father, back in 1951.
+It was dark in colour, almost like an old port, interesting, but extreme age was there, a feeling of dealing with a cadaver. Before we moved through to the desserts, Douglas gave his comments on the wine. He agreed that it suffered from extreme age, ah, but one could detect its marvellous qualities, its fruit, its character, the gorgeous softness, etc, 
 
-The old wine en its handblown bottle was brought to the t I am sure Tutankhamen's tomb was opened with none or tIt ceremony of the opening of this old red. Corkscrew, scalpel, everything came into operation and the process seemed to take a full hour. The cork had to be removed with no shaking and the decanting was done with such steadiness, there was almost the fear that if there was the faintest shake the bottle would explode like an Irish bomb. The wine was shared into small glasses for the 28 guests.
+Suddenly there was an interruption: "RUBBISH!" I sank into my chair, the interjection came from my immediate right, it was my guest. Oh Lord, nobody ever interrupted Mr Seabrook.
 
+Mr Seabrook, very dignified, continued. The wine was still basically sound. There were few signs of oxidisation. 
 
-TIl was dark in colour, almost like an old port, interesting, but extreme age was there, a feeling of dealing with a cadaver Before we moved through to the desserts, Douglas gave his comments on the wine. He agreed that it suffered from extreme age, ah, but one could detect its marvellous qualities, its fruit, its character, the gorgeous softness, etc, Suddenly there was an interruption: "RUBBISH!" Isank into my chair, the interjection came from my immediate right, it was my guest. Oh Lord, nobody ever interrupted Mr Seabrook.
-
-Mr Seabrook, very dignified, continued. The wine was still basically sound. There were few signs of oxidisation. "RUBBISH! The wine is finished. Anyone can see that. The man's a barbarian."
+"RUBBISH! The wine is finished. Anyone can see that. The man's a barbarian."
 
 Mr Seabrook still took no notice, but the temperature in the room had suddenly dropped from a comfortable 25 degrees Celsius to 5 degrees, and my relations with Douglas from that moment on were just a little delicate.
 
-Another regular visitor was Dr Max Lake, who loved to stay at the Melbourne Club. Max planted his vineyard in 1963, a remarkable adventure, because it was the first new vineyard on the Hunter for generations. He called it "Lake's Folly". The first vintage was in 1966 and all his mates like Len Evans, gathered for the occasion and legend has it they foot-tramped the grapes in their bare feet while Max played Zorba the Greek on the piano. Max defied the Hunter tradition, which was predominantly hermitage, as the SW people so charmingly called shiraz, and planted cabernet. The cabernet was an extraordinary success. He had his own special family bottling which he called "Lake's Fancy".
+Another regular visitor was Dr Max Lake, who loved to stay at the Melbourne Club. Max planted his vineyard in 1963, a remarkable adventure, because it was the first new vineyard on the Hunter for generations. He called it "Lake's Folly". The first vintage was in 1966 and all his mates like Len Evans, gathered for the occasion and legend has it they foot-tramped the grapes in their bare feet while Max played Zorba the Greek on the piano. Max defied the Hunter tradition, which was predominantly hermitage, as the NSW people so charmingly called shiraz, and planted cabernet. The cabernet was an extraordinary success. He had his own special family bottling which he called "Lake's Fancy".
 
 Whenever Max arrived in town, if you were very lucky, there was a gift bottle of the Fancy under his arm.
 
-Max was, and is, splendid at almost everything. He was splendid in his love of music, food and wine, splendid in dimensions around his girth, splendid in conversation, and renowned as very nearly the finest hand surgeon in Australia. The Sun Herald wrote a story about him. He never mixed his activities, during the week when he was operating he took little wine, perhaps only one or two glasses for the week. The night this article appeared, Frank Margan, Sydney journalist and later restaurateur, held a party for all Max's friends. As he came through the front door everyone chanted: "AND HE ONLY DRINKS ONE OR TWO GLASSES OF WINE A WEEK." Max beamed and took a polite bow.
+Max was, and is, splendid at almost everything. He was splendid in his love of music, food and wine, splendid in dimensions around his girth, splendid in conversation, and renowned as very nearly the finest hand surgeon in Australia. The *Sun-Herald* wrote a story about him. He never mixed his activities, during the week when he was operating he took little wine, perhaps only one or two glasses for the week. The night this article appeared, Frank Margan, Sydney journalist and later restaurateur, held a party for all Max's friends. As he came through the front door everyone chanted: "AND HE ONLY DRINKS ONE OR TWO GLASSES OF WINE A WEEK." Max beamed and took a polite bow.
 
 My favourite story about Max was the day a young gentleman arrived with his girlfriend at Lake's Folly driving a Lamborghini. James Bond could not have been more ostentatiously splendid. This Lamborghini had 12 cylinders and an extraordinary number of carburettors. Each cylinder had its own loving carburettor collection. Max looked at this car in wonder. Could he have a little drive?
 
@@ -317,7 +314,7 @@ Berek started his own little timber factory in the back streets of Brunswick and
 
 His cellar is perfection, wines all air conditioned to the perfect temperature. Several years back, there was a tremor, almost an earthquake in the framework of his racks. Great wines of France crashed to the floor and the rich waterfall of famous French growths which flowed out the door would have brought tears to the eyes of every Melbourne wine lover. But Berek Segan has been one of the greatest educators because he put on show wines which few of us would have an opportunity to see.
 
-Finally one must mention the greatest influence of all. A great palate is a gift from God. There are few of them around. Len Evans is one, Doug Crittenden is another and particularly his wife Judy. James Halliday has a superb palate. My friend Peter Walker is unerring in his skills, so too is the wonderful Herman Schneider. I think my son, David, has a very good palate.
+Finally one must mention the greatest influence of all. A great palate is a gift from God. There are few of them around. Len Evans is one, Doug Crittenden is another and particularly his wife Judy. James Halliday has a superb palate. My friend Peter Walker is unerring in his skills, so too is the wonderful Hermann Schneider. I think my son, David, has a very good palate.
 
 Alas, I do not. My memory is not good and my skills at judging wine only average. But the truth comes almost nightly when at home we look at a different wine. Or especially when we open one of our own vintages. The famed cellar palate is in danger of taking over. It is like looking at your child, there is nothing so beautiful, nothing so exquisite, as a creature spawned in your winery.
 
