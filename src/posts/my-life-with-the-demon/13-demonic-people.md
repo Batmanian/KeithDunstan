@@ -23,6 +23,9 @@ tags:
   - Marie Dunstan
   - Peter Lehmann
   - Dr Max Lake
+  - Berek Segan
+  - James Halliday
+  - Peter Walker
   - Hermann Schneider
 ---
 
