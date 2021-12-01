@@ -13,6 +13,7 @@ tags:
   - Andre Simon
   - Mrs Beeton
   - Marie Dunstan
+  - Lotte the toy poodle
 ---
 
 
