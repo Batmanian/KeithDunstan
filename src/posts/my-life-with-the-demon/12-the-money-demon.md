@@ -1,7 +1,7 @@
 ---
 title: The money demon
 date: 1994-11-11
-summary: The twelth chapter of Keith's book on his relationship with wine, beer and drinking, *My life with the Demon*.
+summary: The twelth chapter of Keith's book on his relationship with wine, beer and drinking, My life with the Demon.
 tags:
 
   - Wine

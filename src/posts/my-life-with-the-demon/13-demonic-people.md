@@ -7,19 +7,10 @@ tags:
   - Winemaking
   - Viticulture
   - Henry Lawson
-  - R.F.G. (Reg) Fogarty
+  - Reg Fogarty
   - Pedler Palmer
   - Lou Richards
-  - John C. Brown
-  - James C. (Jimmy) Watson
-  - Robin Boyd
-  - Carlton and United Breweries
-  - Eric Purbrick
-  - Sir Robert Menzies
-  - D.F. (Dan) Murphy
-  - Douglas Crittenden
-  - Charles Malpas
-  - Leonard Paul (Len) Evans
+  - Len Evans
   - Marie Dunstan
   - Peter Lehmann
   - Dr Max Lake
@@ -27,6 +18,15 @@ tags:
   - James Halliday
   - Peter Walker
   - Hermann Schneider
+  - John C Brown
+  - Sir Robert Menzies
+  - Dan Murphy
+  - Douglas Crittenden
+  - Charles Malpas
+  - Jimmy Watson
+  - Robin Boyd
+  - Carlton United Breweries
+  - Eric Purbrick
 ---
 
 Henry Lawson was a little too fond of the Demon and there are some marvellous Lawson quotes, but my favourite is this. He said the greatest pleasure he ever knew was when his eyes met the eyes of a mate over the top of foaming glass of beer. The demon is a wonderful catalyst, a magic ingredient for mateship and some of the most generous, remarkable people I have met have been in the liquor industry.
@@ -322,15 +322,3 @@ Finally one must mention the greatest influence of all. A great palate is a gift
 Alas, I do not. My memory is not good and my skills at judging wine only average. But the truth comes almost nightly when at home we look at a different wine. Or especially when we open one of our own vintages. The famed cellar palate is in danger of taking over. It is like looking at your child, there is nothing so beautiful, nothing so exquisite, as a creature spawned in your winery.
 
 Marie, I believe, has a very good natural palate and a remarkable gift for detecting faults in a wine. She gives me a loving look, gives her opinion of the wine, and sometimes gently brings me back to planet Earth once more. 
-
-
-
-
-
-
-
-
-
-
-
-

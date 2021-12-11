@@ -107,8 +107,15 @@ Then again you have to know your wine master. Some of them can be mean and decan
 
 Waffle on for five minutes about the beauty of the wine. How you feel it was made from a hermitage or maybe a pinot grape (that's all they have at Mount Pleasant) and then say, you may be wrong, but you feel it has the distinct character of a Mount Pleasant. 
 
-page 72 missing
+French reds normally have splendid red capsules and with, Hile practice you can pick them up so that you will be able t Jav. OF course, this could be a Bordeaux red." As for German wines these mostly have creamy capsules and always they ard magnificently done with gorgeous crests. 
 
+As for the ports,the great vintage ports of Portugal are dipped in black sealing wax, and with a bit of luck you will be able to spot a drop of wax on the bottle. See a drop of wax and this will enable you to prove to all the perspicacity of your taste buds. Many wine masters automatically decant their vintage ports, but do not give up. There are a few old hands who believe it is murder to the wine, any wine, to remove it from its original container. 
+
+Of course, the game of guessing the wine can be played on a much higher level. There are those who are almost uncanny with their skills. One of these was Simon Borten, a retired industrial chemist who was not only one of Melbourne's best cooks, but unquestionably he had the best cellar. A visit to his house was a revelation. He would bring out wine after wine of astonishing rarity and quality, and as he did so, he would always give an embarrassed giggle. Simon had a nose like a divining rod. The bouquet was sufficient to tell him the origin of the wine. The skill never seemed to leave him. 
+
+On his 80th birthday the Melbourne Club gave a dinner in his honour. There were 12 masked wines, most of them French. Simon picked 11 out of the 12. Not only did he pick the area, he picked the actual wines within a year or two of their vintage. It was the greatest tasting achievement I ever witnessed. 
+
+Tasting went a step further and it had a title, the Options Game. Len Evans must receive the credit for inventing this form of gastronomic torture. Jeremy Oliver in his book Evans on Earth' records that it really began in 1966. There were a number of regulars who used to meet on Monday at Len's restaurant in Bulletin Place. There was Tony Albert, James
 
 Halliday, John Beeston, Neville Baker, and of course, Len himself.
 
@@ -146,8 +153,4 @@ Doug Crittenden replied that New South Wales had gone down not on the Victorian 
 
 It was agreed that the St Vincent's trophy would be a perpetual challenge cup on the lines of the America's Cup. Clubs from all over the world would challenge, say, from London, San Francisco, Paris, Rome, Cape Town, or wherever. It would be the duty of the local club to find sponsors and put up the $10 million or so for the challenger.
 
-However it never came to pass. Even now it seems it would be wonderful idea if we could stage annual Wine Test matches between competing wine producing nations. It could certainly be as exciting as some other Test matches one could name. Nor could it ever be interrupted by the weather
-
-
-
-
+However it never came to pass. Even now it seems it would be wonderful idea if we could stage annual Wine Test matches between competing wine producing nations. It could certainly be as exciting as some other Test matches one could name. Nor could it ever be interrupted by the weather.

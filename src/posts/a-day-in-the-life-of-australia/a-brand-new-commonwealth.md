@@ -9,7 +9,7 @@ tags:
   -  Sir Henry Parkes
 ---
 
-### 1 January 1901
+#### 1 January 1901
 
 What an extraordinary day it has been, a new century, a new unity, a brand new Common­wealth. There were hymns in the churches, patriotic songs in the theatres, singing in the clubs.
 
