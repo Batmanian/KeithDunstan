@@ -130,6 +130,5 @@ That was another thing. Pinot noir should not be pampered. Peter McMahon, an old
 
 We gave up watering in 1991. So our expensive little irrigation system has remained unused. We will go into the expense of it all later, but there were some black moments in the summer of 1990 when Marie and I were too frightened to even add the figures on the cheque butts. "Do you know," I said, "if we ever do make a bottle of wine it will cost over $50 a bottle.'
 
-
-
-
+<hr>
+<p class="lead">Follow onto the next chapter, <a href="{{ '/posts/my-life-with-the-demon/7-the-virgin-vintage' | url }}">The virgin vintage</a>

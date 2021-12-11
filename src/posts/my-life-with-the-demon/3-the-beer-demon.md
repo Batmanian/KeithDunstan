@@ -238,3 +238,6 @@ Ian Johnson, former captain of Australia, and a star for the South Melbourne Cri
 There were many attempts to outdazzle W.W. Armstrong with a six on to the hotel down below. They had no luck. For one thing that Star Hotel no longer was there, and a hit on to the roof of the Walhalla Lodge Hotel would have called for a trench mortar. Anyway the sixes were all being belted in the wrong direction.
 
 The Melbourne Cricket Club left for Melbourne in Mr Janson's bus at 6.30 pm. There was still a good supply of Foster's on board. I never did actually find out whether they got back home. I learned a great deal about the Demon beer that day. My education concerning wine was a more serious matter.
+
+<hr>
+<p class="lead">Follow onto the next chapter, <a href="{{ '/posts/my-life-with-the-demon/4-finding-the-wine-demon' | url }}">Finding the wine demon</a>

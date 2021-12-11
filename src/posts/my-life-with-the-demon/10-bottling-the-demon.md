@@ -255,10 +255,5 @@ First public mention of Chloe was made in August 1992 by Terry Laidler on radio 
 
 So developed a very happy relationship. Chloe was sold in front of Chloe and the Princes Bridge Hotel became our best customer.
 
-
-
-
-
-
-
-
+<hr>
+<p class="lead">Follow onto the next chapter, <a href="{{ '/posts/my-life-with-the-demon/11-achieving-divinity' | url }}">Achieving divinity</a></p>

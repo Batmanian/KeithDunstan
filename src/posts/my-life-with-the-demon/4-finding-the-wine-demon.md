@@ -183,3 +183,6 @@ We had eight or nine years of this. Costs rose. Eventually we were paying as muc
 For us 1968 was the climactic year. Vignerons all around the country discovered the way to glory was to put their best wine into bottles under their own labels. First quality home bottling wine was almost impossible to find.
 
 Alas, never again, were things the same for the home bottler.
+
+<hr>
+<p class="lead">Follow onto the next chapter, <a href="{{ '/posts/my-life-with-the-demon/5-the-demon-becomes-a-snob' | url }}">The demon becomes a snob</a>

@@ -29,7 +29,7 @@ tags:
 
 
 
-OF COURSE, few people realise just how much daily columnists suffer. I was a daily columnist for more than 30 years. If any new product came on the market; a new book, a new beer, if a new show was coming to town, if a new building was being opened, a new company created, it was essential to invite the columnists. Every public relations person knew they were desperate for material so always columnists were at the top of the invitation list. 
+Of course, few people realise just how much daily columnists suffer. I was a daily columnist for more than 30 years. If any new product came on the market; a new book, a new beer, if a new show was coming to town, if a new building was being opened, a new company created, it was essential to invite the columnists. Every public relations person knew they were desperate for material so always columnists were at the top of the invitation list. 
 
 There was a rule as rock solid as Mr Newton's Laws of Motion. Indeed there could be a Fourth Law of Motion which would read "Nothing can be launched without adequate food and drink." This still applies and my advice to anyone out of work and in need of sustenance would be to keep an eye on the reception rooms of the city's top hotels. Always there is a board by the registration desk which lists the functions for the day. Usually there are four or five. For example "Ansett Holiday Tour 4 pm." It is important to have a clean shirt, a tie, then announce yourself maybe as Alf Bloggenheimer, columnist for the City News. You will be fed, wined, and given a public relations kit.
 
@@ -154,3 +154,6 @@ Doug Crittenden replied that New South Wales had gone down not on the Victorian 
 It was agreed that the St Vincent's trophy would be a perpetual challenge cup on the lines of the America's Cup. Clubs from all over the world would challenge, say, from London, San Francisco, Paris, Rome, Cape Town, or wherever. It would be the duty of the local club to find sponsors and put up the $10 million or so for the challenger.
 
 However it never came to pass. Even now it seems it would be wonderful idea if we could stage annual Wine Test matches between competing wine producing nations. It could certainly be as exciting as some other Test matches one could name. Nor could it ever be interrupted by the weather.
+
+<hr>
+<p class="lead">Follow onto the next chapter, <a href="{{ '/posts/my-life-with-the-demon/6-the-creative-demon' | url }}">The creative demon</a>

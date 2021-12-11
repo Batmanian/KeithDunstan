@@ -108,3 +108,6 @@ On Tuesday April 17, the Bank Holiday, we bottled. It came to nine bottles.
 I lined them on the kitchen table, took photographs, and purred, our first vintage. The grapes had risen from the dead, and here were the new bottles, our own Ascension. But I wondered how we would cope in 1991. This precedent of foot squashing by virgins could become difficult. What would we do when we had three or four tonnes of grapes? It would be preferable to have virgins with big feet, nice weighty virgins, preferably 70 to 90 kilograms.
 
 Quality virgins like this on the Mornington Peninsula are as rare as Tasmanian Tigers.
+
+<hr>
+<p class="lead">Follow onto the next chapter, <a href="{{ '/posts/my-life-with-the-demon/8-the-bird-demon' | url }}">The bird demon</a>

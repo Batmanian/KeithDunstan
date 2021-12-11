@@ -229,7 +229,7 @@ So he came to town in the 1960s, the new wine guru. He created much jealousy in 
 
 During the Evans era at the Bureau, wine consumption almost doubled. Just at this time he wrote in his Cellarmaster column for the *Bulletin*:
 
-    "In simple terms, you're not doing enough! After all, a measly 1.22 gallons a year. And in a country that produces truly consistent wines of high quality at        most reasonable prices. Of this just over 4 of a gallon is table wine. There are six bottles to a gallon. So you are drinking on an average two bottles of          table wine a year each! Two measly bottles. Yet being conservative, aware of the means of means, assessing off-days, dry-days, sick days, furiously busy days,      I still reckon I average half a bottle a day. That's 182 bottles a year, fifteen-odd dozen, or thirty-one gallons! You other blokes have a hell of a lot of        catching up to do."
+"In simple terms, you're not doing enough! After all, a measly 1.22 gallons a year. And in a country that produces truly consistent wines of high quality at most reasonable prices. Of this just over 4 of a gallon is table wine. There are six bottles to a gallon. So you are drinking on an average two bottles of table wine a year each! Two measly bottles. Yet being conservative, aware of the means of means, assessing off-days, dry-days, sick days, furiously busy days, I still reckon I average half a bottle a day. That's 182 bottles a year, fifteen-odd dozen, or thirty-one gallons! You other blokes have a hell of a lot of catching up to do."
 
 He was lying of course, half a bottle indeed. It would have to be a whole bottle at least, 365 bottles a year, over 60 gallons.
 
@@ -243,17 +243,17 @@ Evans was and is famous for his dinners. There was the famous $200 a plate dinne
 
 This was the menu:
 
-(image)
+<img src="{{ '/img/demon-p207-menu.png' | url }}" class="img-fluid" alt="Menu showing food and wine matching with wine dates indicating some very old wines, mostly European.">
 
 He bought the half bottle of 1727 Rudesheimer at Christies in 1975 for $450 and the 1825 Gruard Larose cost $510 in 1976. There were some savage letters in the newspapers. Mrs D. Hughes of Elwood wrote in the *Herald*, Melbourne:
 
-    "Not only was this event discriminatory but down-right suspect. I'm tired of ruddy snobs, and the pretentious behaviour that accompanies this kind of event.       If Mr Evans is sincere in giving to charity why not write a cheque for the equivalent of what this 'do' would cost thus permitting him to keep his precious         wines."
+"Not only was this event discriminatory but down-right suspect. I'm tired of ruddy snobs, and the pretentious behaviour that accompanies this kind of event. If Mr Evans is sincere in giving to charity why not write a cheque for the equivalent of what this 'do' would cost thus permitting him to keep his precious wines."
 
 Then there were all sorts of suggestions regarding the sanity of a man who would pay $450 for a bottle of wine and a miserable half bottle at that.
 
 Evans commented in the *Bulletin*:
 
-    "Pay $450 for a bottle of wine! The man must be mad, but it's my money, and I don't criticise the gamblers and the questers for the America's Cup and the           racehorse owners and the status seekers, all of whom, to me, spend their money other than I would. But it's their business. I just wanted to taste the wine."
+"Pay $450 for a bottle of wine! The man must be mad, but it's my money, and I don't criticise the gamblers and the questers for the America's Cup and the racehorse owners and the status seekers, all of whom, to me, spend their money other than I would. But it's their business. I just wanted to taste the wine."
 
 Just about that time I recorded that Evans was a writer, a top wine judge, chairman of one of the nation's biggest vineyards, a raconteur, an unequalled fund raiser for charity, an authority on 18th and 17th century oak, a golfer with a handicap down around three or four, an expert on pewter and silver, his palate one of the six best in the country and, not the least of his achievements, a master teller of salacious stories. What's different now. He is well into his 60s. He has had a triple by-pass heart operation and has anything else changed? Yes, maybe he has speeded up. He is chairman of a few large wine companies, and he is constantly on the move around the nation, at lunches, at dinners, at board meetings. He makes a habit of chairing dinners in Sydney with auctions that raise nigh on a million dollars. He now paints, pots and sculpts, all with some skill.
 
@@ -322,3 +322,5 @@ Finally one must mention the greatest influence of all. A great palate is a gift
 Alas, I do not. My memory is not good and my skills at judging wine only average. But the truth comes almost nightly when at home we look at a different wine. Or especially when we open one of our own vintages. The famed cellar palate is in danger of taking over. It is like looking at your child, there is nothing so beautiful, nothing so exquisite, as a creature spawned in your winery.
 
 Marie, I believe, has a very good natural palate and a remarkable gift for detecting faults in a wine. She gives me a loving look, gives her opinion of the wine, and sometimes gently brings me back to planet Earth once more. 
+
+<hr>

@@ -112,3 +112,6 @@ There were all sorts of comments. One character came in pulled up a stool and st
 For three days cars poured through, they cut up the front lawn, they backed in to the roses, but it was lovely watching wine go out the gate, and there was the pure beauty of instant payment. There was the fascination too of meeting people. Old friends we hadn't seen for years suddenly arrived in the winery. It was good also to chat across a glass with Americans, Japanese, English.
 
 Indeed that is the ultimate pleasure, the satisfaction, which makes all the agony worthwhile. Marie and I love pouring our own wine, which, naturally, we think is delicious. David commented on this only last week. He said: "Dad, you have the most finely honed cellar palate I ever encountered."
+
+<hr>
+<p class="lead">Follow onto the final chapter, <a href="{{ '/posts/my-life-with-the-demon/13-demonic-people' | url }}">Demonic people</a></p>

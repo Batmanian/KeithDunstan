@@ -164,3 +164,6 @@ At noon Isabel whizzed out of her pen and she couldn't wait to lay her egg. She 
 We were in hiding, observing from the bedroom. Not two minutes went by before Lotte appeared. She nosed in amongst the ferns, picked up the egg then trotted off. At first we didn't know where she was going. But she put it down very carefully on the grass just near the backdoor and wagged her tail. "There," said Miss Maples, in that smug manner detectives have when they have solved the perfect crime. "Do you believe me now?"
 
 "I do indeed." Actually I should never have doubted. It is well known that poodles, and particularly toy poddles, are psychologically strange and Lotte was no exception.
+
+<hr>
+<p class="lead">Follow onto the next chapter, <a href="{{ '/posts/my-life-with-the-demon/9-it-is-essential-to-have-clean-feet' | url }}">It is essential to have clean feet</a>
