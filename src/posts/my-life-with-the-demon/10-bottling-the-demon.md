@@ -5,7 +5,7 @@ summary: The first chapter of Keith's book on his relationship with wine, beer a
 tags:
   - Wine
   - Winemaking
-  - Viticuure
+  - Viticulture
   - Virgil Thomson
   - Ian Matthews, Portavin
   - Ken and Wendy Bilham
