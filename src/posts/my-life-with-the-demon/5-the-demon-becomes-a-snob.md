@@ -107,7 +107,7 @@ Then again you have to know your wine master. Some of them can be mean and decan
 
 Waffle on for five minutes about the beauty of the wine. How you feel it was made from a hermitage or maybe a pinot grape (that's all they have at Mount Pleasant) and then say, you may be wrong, but you feel it has the distinct character of a Mount Pleasant. 
 
-French reds normally have splendid red capsules and with, Hile practice you can pick them up so that you will be able t Jav. OF course, this could be a Bordeaux red." As for German wines these mostly have creamy capsules and always they ard magnificently done with gorgeous crests. 
+French reds normally have splendid red capsules and with a little practice you can pick them up so that you will be able to say: "Of course, this could be a Bordeaux red." As for German wines these mostly have creamy capsules and always they are magnificently done with gorgeous crests. 
 
 As for the ports,the great vintage ports of Portugal are dipped in black sealing wax, and with a bit of luck you will be able to spot a drop of wax on the bottle. See a drop of wax and this will enable you to prove to all the perspicacity of your taste buds. Many wine masters automatically decant their vintage ports, but do not give up. There are a few old hands who believe it is murder to the wine, any wine, to remove it from its original container. 
 
@@ -115,9 +115,7 @@ Of course, the game of guessing the wine can be played on a much higher level. T
 
 On his 80th birthday the Melbourne Club gave a dinner in his honour. There were 12 masked wines, most of them French. Simon picked 11 out of the 12. Not only did he pick the area, he picked the actual wines within a year or two of their vintage. It was the greatest tasting achievement I ever witnessed. 
 
-Tasting went a step further and it had a title, the Options Game. Len Evans must receive the credit for inventing this form of gastronomic torture. Jeremy Oliver in his book Evans on Earth' records that it really began in 1966. There were a number of regulars who used to meet on Monday at Len's restaurant in Bulletin Place. There was Tony Albert, James
-
-Halliday, John Beeston, Neville Baker, and of course, Len himself.
+Tasting went a step further and it had a title, the Options Game. Len Evans must receive the credit for inventing this form of gastronomic torture. Jeremy Oliver in his book *Evans on Earth* records that it really began in 1966. There were a number of regulars who used to meet on Monday at Len's restaurant in Bulletin Place, Sydney. There was Tony Albert, James Halliday, John Beeston, Neville Baker, and of course, Len himself.
 
 James Halliday described it as "oenological poker." Each player began with $4 worth of 20 cent pieces. The masked bottle would be produced. "Which country?" Those who failed would lose their 20 cents. The next question might be "Is it a Bordeaux. Is it a Pomerol? Is it a '69, a '61, a '47? Every question cost money. 
 
