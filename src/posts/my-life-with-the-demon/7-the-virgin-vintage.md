@@ -7,8 +7,10 @@ tags:
   - Winemaking
   - Lillian Frank
   - Neill Robb
-  - Derek and Patricia Rumbold
-  - Leon and Vivienne Massoni
+  - Derek Rumbold
+  - Patricia Rumbold
+  - Leon Massoni
+  - Vivienne Massoni
   - Kathleen Quealy
 ---
 

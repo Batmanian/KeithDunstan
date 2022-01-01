@@ -21,7 +21,7 @@ tags:
   - John C Brown
   - Sir Robert Menzies
   - Dan Murphy
-  - Douglas Crittenden
+  - Doug Crittenden
   - Charles Malpas
   - Jimmy Watson
   - Robin Boyd

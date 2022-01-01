@@ -6,14 +6,13 @@ tags:
   - Wine
   - Winemaking
   - Viticultre
-  - John C. Brown
+  - John C Brown
   - Reg Egan
   - Leon Massoni
   - Lucian Dressell
   - Andre Simon
   - Mrs Beeton
   - Marie Dunstan
-  - Lotte the toy poodle
 ---
 
 

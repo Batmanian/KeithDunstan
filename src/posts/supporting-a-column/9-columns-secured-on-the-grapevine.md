@@ -14,7 +14,7 @@ tags:
   - All Saints Winery
   - George Sutherland Smith III
   - P. OSullivan
-  - John C. Brown
+  - John C Brown
   - J.C. (Jimmy) Watson
   - Chateau Tahbilk
   - Eric Purbrick
