@@ -3,7 +3,7 @@ title: Correspondent
 date: 1990-11-11
 summary: The eighth chapter of the first book of memoirs, 'No Brains At All',
 tags:
-  - Australian Journalists' Association
+  - Australian Journalists Association
   - Colin Bednall
   - Honolulu
   - Imogene Coca

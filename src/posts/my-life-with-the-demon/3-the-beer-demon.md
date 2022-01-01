@@ -6,7 +6,7 @@ tags:
   - Wine
   - Six oclock swill
   - King George V
-  - Rev. E. C. Crotty
+  - Reverenc E. C. Crotty
   - Sir Alexander Peacock
   - Henry Bolte
   - Cathedral Hotel
@@ -27,7 +27,7 @@ tags:
   - Swan Lager
   - Gough Whitlam
   - Wallhalla
-  - Warwick W. Armstrong
+  - Warwick W Armstrong
   - Home brewing
   - Peter Janson
   - Melbourne Cricket Club

@@ -8,7 +8,7 @@ tags:
   - Tivoli theatre
   - Bourke Street
   - Melbourne
-  - His Majesty's Theatre
+  - His Majestys Theatre
   - Theatre Royal
   - The Bijou Theatre 
   - The Kings Theatre 

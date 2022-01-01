@@ -17,7 +17,7 @@ tags:
   - Australian Rules Football
   - Douglas Wilkie
   - Sun News-Pictorial
-  - Walter O'Donoghue
+  - Walter ODonoghue
 ---
 
 The great difficulty with the Anti Football League was getting people to believe that we were serious. The wife of a United States ambassador, Mrs Ed Clark, had the best line about Australia. She had the feeling she was living in a gymnasium, she said. Australians rarely seem to be beyond the sound of a bouncing ball. Almost since the first white settlement we have been obsessed with sport. As the nineteenth-century immigrants moved inland the first items they built in any town were the pub, the racetrack, the school and the church, often in that order.

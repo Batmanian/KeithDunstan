@@ -17,7 +17,7 @@ tags:
   - Squizzy Taylor
   - The Age
   - The Herald
-  - William Dunstan V.C.
+  - William Dunstan VC
   - Wowsers
   - Writing for Television
  

@@ -13,9 +13,9 @@ tags:
   - Sir Rohan Delacombe
   - All Saints Winery
   - George Sutherland Smith III
-  - P. O'Sullivan
+  - P. OSullivan
   - John C. Brown
-  - J.C. 'Jimmy' Watson
+  - J.C. (Jimmy) Watson
   - Chateau Tahbilk
   - Eric Purbrick
   - Great Western

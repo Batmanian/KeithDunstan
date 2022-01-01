@@ -5,7 +5,7 @@ summary: The opening for his first book of memiors, 'No Brains At All'.
 tags: 
 - Autobiography
 - Cornwall
-- Brunswick, Germany
+- Brunswick - Germany
 ---
 
 

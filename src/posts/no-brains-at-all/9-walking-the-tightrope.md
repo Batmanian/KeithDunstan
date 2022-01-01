@@ -21,7 +21,7 @@ tags:
   - The Argus
   - The Financial Review
   - The London Daily Mirror
-  - William Dunstan V.C.
+  - William Dunstan VC
 ---
 
 

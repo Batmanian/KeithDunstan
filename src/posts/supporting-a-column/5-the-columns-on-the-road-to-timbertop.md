@@ -3,7 +3,7 @@ title: The Columns on the Road to Timbertop
 date: 1966-11-11
 summary: The fifth chapter of Keith's second book, 'Supporting a column'.
 tags:
-  - Charles, Prince of Wales
+  - Charles - Prince of Wales
   - Commonwealth of Nations
   - Timbertop
   - Geelong Grammar School
@@ -15,8 +15,8 @@ tags:
   - Tailor and Cutter magazine
   - Lord Casey, Governor-General 
   - (Sir) David Checketts
-  - T.R. (Thomas Ronald) Garnett, headmaster
-  - The Royal Family, Great Britain
+  - T.R. (Thomas Ronald) Garnett - headmaster
+  - The Royal Family - Great Britain
 ---
 
 Why did Prince Charles come to Australia? At first sight it seemed a splendid idea. Here was a grand plan for the young prince to get to know the Commonwealth and for the Commonwealth to get to know him. But there were some inexplicable factors. Great lengths were taken not to show him to the general public and he was sent to Timbertop.

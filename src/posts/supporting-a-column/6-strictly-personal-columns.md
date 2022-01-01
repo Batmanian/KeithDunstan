@@ -6,11 +6,11 @@ tags:
   - Herald and Weekly Times Ltd
   - Frank Sinatra
   - Ava Gardner
-  - On the Beach, film
+  - On the Beach
   - Walter Chiari
-  - They're a Weird Mob*, film
+  - Theyre a Weird Mob - film
   - Charlton Heston
-  - Ben Hur, film
+  - Ben Hur - film
   - Graham Walsh
   - Irene Handl
   - Margaret Rutherford
@@ -19,19 +19,19 @@ tags:
   - Danny Kaye
   - Bolshoi Ballet
   - Larissa Trembovelskaya
-  - Sir Dallas Brooks, Governor
+  - Sir Dallas Brooks - Governor
   - Sir Robert Menzies
   - Sophie Tucker
   - Menzies Hotel, Melbourne
-  - Sir Maurice Nathan, Lord Mayor
+  - Sir Maurice Nathan - Lord Mayor
   - Johnnie Ray
   - Radio Station 3UZ
   - The Beatles
   - The Southern Cross Hotel
   - Don Lunn
-  - Sir Leo Curtis, Lord Mayor
+  - Sir Leo Curtis - Lord Mayor
   - Sir Arthur Fadden
-  - W.M. "Billy" Hughes
+  - W.M. (Billy) Hughes
   - Griffith
   - John and Frank Livingstone
   - New York Yacht Club
@@ -43,13 +43,13 @@ tags:
   - Patrick Tennison
   - Dame Joan Sutherland
   - Edna Everage
-  - Roy Rene 'Mo'
+  - Roy (Mo) Rene
   - Tania Verstak
   - Dame Mabel Brookes
   - Sir Norman Brookes
   - Harold Gengoult Smith
   - Harry Emmerton
-  - On the Beach, film
+  - On the Beach - film
   - Napoleon Bonaparte
 ---
 

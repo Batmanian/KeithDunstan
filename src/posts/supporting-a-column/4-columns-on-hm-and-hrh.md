@@ -18,14 +18,14 @@ tags:
   - Ivan Fedorovich Skripov
   - Commander Jock Colville
   - Harold Holt
-  - Rev. Irving Benson
+  - Reverend Irving Benson
   - Victoria Racing Club 
   - Hobart
   - Hobart Regatta
   - HMS Galatea
-  - Henry James O'Farrell
+  - Henry James OFarrell
   - Alice Springs
-  - Katherine, N.T.
+  - Katherine - NT
   - Hamilton Downs Station
   - Kununurra
   - Ord River

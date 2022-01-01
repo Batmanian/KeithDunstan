@@ -9,21 +9,21 @@ tags:
   - Douglas Wilkie
   - Catherine the Great
   - Ben Casey
-  - Elizabeth, the Queen Mother
+  - Elizabeth - the Queen Mother
   - Brisbane
   - Ballarat
   - Princess Alexandra
   - Jack Riley
   - Canberra
-  - Tattersall's
+  - Tattersalls
   - Cloudland
   - Ivan Kurdyukov, Russian Ambassador
-  - Sir William Slim, Governor-General
+  - Sir William Slim - Governor-General
   - Lady (Iona) Carrington
   - Marshal Gyorgy Zhukov
   - King Bhumibol
   - Queen Sirikit
-  - SEATO Southeast Asia Treaty Organization
+  - Southeast Asia Treaty Organization (SEATO)
   - Bing Crosby
   - Squadron Leader Lawrence Henry Hicks
   - The Australian National University

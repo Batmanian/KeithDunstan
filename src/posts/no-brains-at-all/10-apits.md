@@ -13,6 +13,7 @@ tags:
   - Eastern Market
   - Ernie Sigley
   - Frank Daly
+  - Young & Jacksons Hotel
   - J. Stewart Legge
   - Jeff Hook
   - Kooyong
@@ -29,7 +30,7 @@ tags:
   - The Age
   - The Herald
   - Whelan the Wrecker
-  - Young and Jackson's Hotel
+  - 
 ---
 
 

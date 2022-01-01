@@ -14,7 +14,7 @@ tags:
   - Rodeo
   - Myrtletord
   - Rockhampton
-  - The Rough Riders' Association
+  - The Rough Riders Association
   - Ricthie Fraser
   - Bulldogging
   - Walgett

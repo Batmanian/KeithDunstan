@@ -5,14 +5,14 @@ summary: The seventh chapter of Keith's second book, 'Supporting a column'.
 tags:
   - Darwin
   - Douglas Lockwood
-  - Fort Worth, Texas
+  - Fort Worth - Texas
   - Strategic Air Command (USAAF)
   - Canadian Pacific Airlines
   - John Bechervaise
   - 1960 Tokyo Olympics
   - All Nippon Airlines (ANA)
   - Peter Temm
-  - Kure 'Diggers' waifs
+  - Kure (Diggers) waifs
   - Yone Ito
   - Masaaki Usui
   - Percy Cerutty
@@ -34,9 +34,9 @@ tags:
   - Thailand
   - The Philipines
   - Vietnam
-  - Women's Army Corps
+  - Womens Army Corps
   - Louis Beltran
-  - Rajadamnern Stadium, Bangkok
+  - Rajadamnern Stadium - Bangkok
   - Boys Own Paper
 ---
 

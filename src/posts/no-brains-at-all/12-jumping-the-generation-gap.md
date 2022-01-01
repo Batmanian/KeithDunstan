@@ -9,7 +9,7 @@ tags:
   - Dr. Bertram Wainer
   - Dr. Jim Cairns
   - East Malvern
-  - George's
+  - Georges
   - Henry Bolte
   - John Landy
   - Korowa Girls School

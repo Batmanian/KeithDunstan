@@ -5,19 +5,19 @@ summary: First published in Walkabout Magazine, December 1969.
 categories:
 - Walkabout Magazine
 tags:
-  - David Livingstone, explorer
+  - David Livingstone - explorer
   - Surfing
   - Summer holidays
-  - Bernard 'Midget' Farrelly
+  - Bernard (Midget) Farrelly
   - Hawkesbury River
   - Port Phillip Bay
   - Eildon Reservoir
   - Robert "Nat" Young
   - Highway One
   - Rosebud, Victoria
-  - Beau Geste, film
+  - Beau Geste - film
   - Portsea, Victoria
-  - Palm Beach, NSW
+  - Palm Beach - NSW
   - Toorak
   - Surfers Paradise
   - Noosa
@@ -29,7 +29,7 @@ tags:
   - Mackay
   - Merimbukla
   - Bermagui
-  - Bateman's Bay
+  - Batemans Bay
   - Rottnest Island
 ---
 Back in the old days visits to the beach were beautifully uncomplicated. Father used to wear a maroon and blue towelling beach gown. Our total equipment was a white hat with string fly protector plus the regulation bucket and spade. Now on our holiday trips to the beach we really suffer. Livingstone, when he mounted his deepest expeditions into Africa, could not have had more trouble. 

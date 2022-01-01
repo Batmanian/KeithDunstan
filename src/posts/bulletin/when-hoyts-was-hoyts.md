@@ -16,7 +16,7 @@ tags:
   - Ronald Colman
   - Russell Street
   - Savoy Theatre
-  - St George's Hall
+  - St Georges Hall
   - Temperance Hall
   - The Imperial Hotel
   - The Odeon

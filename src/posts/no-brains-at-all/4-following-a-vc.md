@@ -23,7 +23,7 @@ tags:
   - Sir Robert Menzies
   - Social clubs
   - St George Hotel
-  - William Dunstan V.C.
+  - William Dunstan VC
 ---
 
 The Second World War brought with it a sense of obligation and duty that hung heavily, indeed. The Second World War was to us precisely like the First World War, a war between good and evil. Good was Great Britain, King George, the Queen and the unquestioned loyalty of the British Empire. Evil was the Kaiser, the terrible wickedness of Germans and, with the advent of the Second World War, Hitler and the Nazis and their aim to dominate the world. Not even faintly were there any shades of grey. The day the war was declared, 3 September 1939, I was on school holidays and we listened to the Prime Minister, Mr R. G. Menzies, intoning the news:

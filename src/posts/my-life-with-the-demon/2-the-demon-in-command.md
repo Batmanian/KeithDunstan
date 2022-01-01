@@ -14,7 +14,7 @@ tags:
   - Phoenix Hotel
   - Lou Richards
   - John Monks
-  - Marie Rose Dunstan
+  - Marie Dunstan
 ---
 
 Of course, one has to be educated to the Demon, lessons are necessary on how to live with him, how to coddle and be nice to him. Schools regrettably teach nothing about the vital things of life; how to tip a waiter, the mysteries of a quinella and a quadrella, how to make a million on the stockmarket, the right time to plant tomatoes, how to reply to an invitation to a party, how to tie a bow tie, and, most important of all, how to find one's way around a wine list.

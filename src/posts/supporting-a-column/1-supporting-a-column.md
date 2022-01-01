@@ -17,7 +17,7 @@ tags:
   - Ronald Searle
   - Roy Dotrice
   - The Beatles
-  - Walter O'Donoghue
+  - Walter ODonoghue
   - The Heart of Juliet Jones
   - Steamboat  
 ---

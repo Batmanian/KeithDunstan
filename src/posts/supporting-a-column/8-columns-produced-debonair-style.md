@@ -20,10 +20,10 @@ tags:
   - Len Beadell
   - Boolardy
   - Victoria River Downs
-  - six o'clock swill
+  - Six oclock swill
   - (Pastor) Sid Denton
   - Boolardy Station
-  - Robert Francis Bruce 'Bob' Lefroy
+  - Robert Francis Bruce (Bob) Lefroy
   - (Benjamin) Gayelord Hauser
   - Charles Eadon-Clarke
 ---

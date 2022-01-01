@@ -5,13 +5,13 @@ summary: The first chapter of Keith's book on his relationship with wine, beer a
 tags:
   - Wine
   - Geelong Grammar School 
-  - The Dean of Melbourne, Rev. Dr H. B. Macartney
+  - The Dean of Melbourne - Rev. Dr H. B. Macartney
   - E. Tennyson Smith
   - Samuel Mauger
   - William Dunstan VC
   - Cyril H. Denny
-  - Sir Keith and Lady Murdoch
-  - William Dunstan VC
+  - Sir Keith Murdoch
+  - Lady Elisabeth Murdoch
 ---
 
 Oh dear, when was the first occasion I was struck down by the demon drink? It could have been when I was a server, an altar boy at Geelong Grammar School. Actually I loved being an altar boy. There was the business of dress ups, the bright red cassock, the white surplice, and a certain feeling of power standing there with the priest by the altar.

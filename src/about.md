@@ -14,7 +14,7 @@ title: About this site
 </ul>
 
 <h3>Statistics on this site, past 12 months</h3>
-<p><small>This site was launched in September 2021</p> 
+<p><small>This site was launched in September 2021</small></p> 
 <div class="ratio ratio-4x3">
 <iframe width="800" height="670" src="https://datastudio.google.com/embed/reporting/0ff842f5-25e8-4840-93e8-753b6b43051c/page/PWNZC" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
