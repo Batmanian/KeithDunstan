@@ -7,7 +7,7 @@ tags:
   - Wine
   - Viticulture
   - Winemaking
-  - Bonwyn Bishop
+  - Bronwyn Bishop
   - Jeff Kennett
   - Garry Crittenden
   - David Dunstan

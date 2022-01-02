@@ -7,7 +7,7 @@ tags:
   - Rothbury Estate Society
   - Len Evans
   - Brown Brothers of Milawa
-  - Viticultural Society of Victoria.
+  - Viticultural Society of Victoria
   - James Halliday
   - Neville Baker
   - John Beeston

@@ -5,11 +5,11 @@ summary: The first chapter of Keith's book on his relationship with wine, beer a
 tags:
   - Wine
   - Geelong Grammar School 
-  - The Dean of Melbourne - Rev. Dr H. B. Macartney
-  - E. Tennyson Smith
+  - The Dean of Melbourne - Rev Dr H B Macartney
+  - E Tennyson Smith
   - Samuel Mauger
   - William Dunstan VC
-  - Cyril H. Denny
+  - Cyril H Denny
   - Sir Keith Murdoch
   - Lady Elisabeth Murdoch
 ---

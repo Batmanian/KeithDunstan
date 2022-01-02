@@ -1,5 +1,5 @@
 ---
-title: Acheieving the divinity
+title: Achieving the divinity
 date: 1994-11-11
 summary: The eleventh chapter of Keith's book on his relationship with wine, beer and drinking, 'My life with the Demon'.
 tags:

@@ -6,12 +6,12 @@ tags:
   - Wine
   - Six oclock swill
   - King George V
-  - Reverenc E. C. Crotty
+  - Reverend E. C. Crotty
   - Sir Alexander Peacock
   - Henry Bolte
   - Cathedral Hotel
   - Menzies Hotel
-  - Young & Jacksons Hotel
+  - Young and Jacksons Hotel
   - Hotel Australia
   - Chloe
   - Beer

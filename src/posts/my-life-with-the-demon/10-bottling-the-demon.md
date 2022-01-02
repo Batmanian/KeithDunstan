@@ -7,9 +7,9 @@ tags:
   - Winemaking
   - Viticulture
   - Virgil Thomson
-  - Ian Matthews, Portavin
+  - Ian Matthews - Portavin
   - Ken and Wendy Bilham
-  - (Dr) John Wilson
+  - Dr John Wilson
   - Fred Williams
   - James Halliday
   - Douglas Seabrook
@@ -25,8 +25,7 @@ tags:
   - Philip Suter
   - Terry Laidler
   - Ashley Harris
-  - Carlton & United Breweries
-  - 
+  - Carlton and United Breweries
 ---
 
 

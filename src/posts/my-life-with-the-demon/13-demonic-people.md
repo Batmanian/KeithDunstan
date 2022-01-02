@@ -25,7 +25,7 @@ tags:
   - Charles Malpas
   - Jimmy Watson
   - Robin Boyd
-  - Carlton United Breweries
+  - Carlton and United Breweries
   - Eric Purbrick
 ---
 

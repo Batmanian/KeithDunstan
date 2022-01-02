@@ -13,7 +13,7 @@ tags:
   - Eastern Market
   - Ernie Sigley
   - Frank Daly
-  - Young & Jacksons Hotel
+  - Young and Jacksons Hotel
   - J. Stewart Legge
   - Jeff Hook
   - Kooyong
