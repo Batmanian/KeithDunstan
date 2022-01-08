@@ -13,12 +13,12 @@ tags:
 Wowser is a beautiful word. For sheer coarseness and devastating power in attack we have 'bludger, for a neat exercise in deflation os he destruction of pomposity, we have the line, 'don't come the raw prawn"; but surely the richest, most gloriously expressive of all Australian words is 'Wowser'. 
 
 Even to the stranger who has never heard the word before, somehow it tells a story almost depicting-well-a wowser. Australia still has squadrons, battalions and divisions of wowsers, they promenade in our newspapers every day, and we still need the word very much indeed, but it had its heyday during the agonies of puritanism before and during the First World War. The wowser was depicted in hundreds of cartoons, usually as a man with a beard, small fat hat and possibly a gimlet. The gimlet, of course, was for boring holes and spying on the dreadful deeds of others. The Bulletin of 1912 described him thus: <a href="#1"><sup>1</sup></a>
-
-        A long thin beast, in a long, black skin,
-        Armed with a gimlet and wearing a grin;
-        He has a very fat hat and a very fat brolly;
-        Supposed to hate everything pretty or jolly.
-
+<blockquote>
+A long thin beast, in a long, black skin,<br>
+Armed with a gimlet and wearing a grin;<br>
+He has a very fat hat and a very fat brolly;<br>
+Supposed to hate everything pretty or jolly.<br>
+</blockquote>
 Yes, the umbrella was the symbol of the Wowser. This probably derived from Mr James Mirams, the land booming Melbourne politician and one of the leading wowsers of the eighteen-eighties and hineties. He was a very small man and it was his trade mark always to carry an umbrella. The Bulletin said of him: 'Oh heavens, the sight/-the little man's small body clad in a Windsor uniform and his short legs encased in breeches and silk stockings. Mirams is a shining light among total abstainers, He is great at the tea and toast parties, To see him in the chair at the meeting of the Grand United Junction Ebenezer Temperance Association is a treat indeed. Patriarchal he looks as (his small legs hidden beneath the table) his voluminous beard and phrenological brow are seen in all their perfection by disciples of the Pump, then and there assembled."<a href="#2"><sup>2</sup></a> So Mr Mirams became the model for sketches of wowsers for the next thirty years. Like many of the Melbourne wowsers he helped lead the charge in the Land Boom and subsequently went to gaol for his activities.
 
 All right then, what is a Wowser? H. L. Mencken in The American Language went into raptures over the word and said it meant, "A drab souled Philistine haunted by the mockery of others' happiness. Every Puritan is not necessarily a wowser; to be one he must devote himself zealously to reforming the morals of his neighbors, and, in particular, to throwing obstacles in the way of their enjoyment of what they choose to regard as pleasures.'
@@ -43,8 +43,9 @@ To my humble self-_to me, John Norton, alone belongs the sole undivided glory an
 
 But then, does he deserve the sole undivided glory and renown. Mencken suggests the possibility of English origins and they are worth investigating. Take the volume The Dialect of Craven in the West Riding of York by a native Craven, 1828. It has:
 
+<blockquote>
     WOW: To cry as a cat, to howl.
-
+</blockquote>
 Or to take it a little further The English Dialect Dictionary, 1905, edited by Joseph Wright, Ph.D., refers to 'Wow' as a word in use in Yorkshire, Lancashire, Nottingham, Lincoln and Cornwall. It means 'to mew as a cat, to howl or bark as a dog, to wail'. It also means, 'To whine, to grumble, to make complaint . . ."What did you make such a great wow about it for?"
 
 Now most of the leading wowsers during the Gold Rush of the 185os came from these very counties, and Cornwall, in particular.
@@ -58,37 +59,37 @@ So the Bulletin suggested a War Precautions Act which 'should provide that every
 One journal reported that there was an organization called "The Liberty League', and its one purpose was to combat wowserism. The Hawklet in July 1918 reported that it had a membership of 20,000 and this was all to the credit of Captain G. A. Burkett and his group of energetic workers. At a meeting in Fitzroy, Melbourne, the Captain said the league was not just for returned soldiers, but for women as well as men. The Hawklet commented: "There can be no doubt that wowserism with all the gloom that term implies, has taken advantage of war conditions to try to spread itself like a blight over the land. If the wowsers had their way our only recrea- tion would be singing psalms . . . the theatres would be closed, the races would be squelched, the hotels would entirely be closed and food would be cut to one lentil and half a milk biscuit per diem."<a href="#7"><sup>7</sup></a>
 
 Then just at this time there appeared:<a href="#8"><sup>8</sup></a>
-
+<blockquote>
 <h4>The Killjoys prayer</h4>
 
-    'Oh Lord' he cries on bended knees.
-    With a sniffle whine and wheeze;
-    'Ne'er to theatre or musical hall
-    Or social dance or friv'lous ball
-    Have I been (except incog)
-    Nor have I ever tasted grog
-    (Except perchance, upon the sly
-    When away from sinful eye.)
-    To me the racecourse is taboo
-    And boxing pastimes I eschew,
-    While picture shows are things of evil-
-    Yes, lurking places for the very devil;
-    While, verily, a thing of hell
-    Is the convivial hotel
-    Where I do hear the clinking glass
-    'Mid joy and laughter while I pass
-    Upon my sober, prayerful way.
-    Thanking God I'm not as they.
-
-    And so my prayer shall ever be-
-    Until the Great Eternity-
-    "Thank Thee, Lord, that I alone
-    Am worthy of thy Great White Throne!"'
-    But let me, ere I journey hence,
-    Gather in the goodly pence,
-    And so increase my worldly hoard,
-    For thy praise and Glory Lord.'
-
+'Oh Lord' he cries on bended knees.<br>
+With a sniffle whine and wheeze;<br>
+'Ne'er to theatre or musical hall<br>
+Or social dance or friv'lous ball<br>
+Have I been (except incog)<br>
+Nor have I ever tasted grog<br>
+(Except perchance, upon the sly<br>
+When away from sinful eye.)<br>
+To me the racecourse is taboo<br>
+And boxing pastimes I eschew,<br>
+While picture shows are things of evil-<br>
+Yes, lurking places for the very devil;<br>
+While, verily, a thing of hell<br>
+Is the convivial hotel<br>
+Where I do hear the clinking glass<br>
+'Mid joy and laughter while I pass<br>
+Upon my sober, prayerful way.<br>
+Thanking God I'm not as they.<br>
+<br>
+And so my prayer shall ever be-<br>
+Until the Great Eternity-<br>
+"Thank Thee, Lord, that I alone<br>
+Am worthy of thy Great White Throne!"'<br>
+But let me, ere I journey hence,<br>
+Gather in the goodly pence,<br>
+And so increase my worldly hoard,<br>
+For thy praise and Glory Lord.'<br>
+</blockquote>
 
 Over the years the word has lost none of its power or punch. In 1966 when the Right Reverend Ian Shevill, Bishop of North Queensland, published his book, Half Time, he wrote that the Church of England's image in Australia was that of a wowserish, puritanical critic. He found it a handy term just as Cardinal Moran did, 56 years earlier.
 
@@ -298,64 +299,64 @@ South Australia had a curiously mixed progress towards social freedom. In social
 
 The South Australians were ahead of everybody in giving women the vote in 1894, but one wonders what the motives were here. All the Temperance organizations fought for the female vote for they believed this, with certainty, would give them prohibition. Adelaide's Christian Colonist, which campaigned against barmaids, drinking, smoking, dancing, gambling, and even church lotteries, printed this poem in 1884.<a href="#14"><sup>14</sup></a>
 
+<blockquote>
 <h4>A LIQUOR DEALER'S VIEWS</h4>
 
-    Say, Mister Legislature
-    You make an awful fuss
-    An' do a heap of talkin'
-    Test on account of us;
-    We've only jest two things ter do
-    Then rest our happy souls-
-    The first ter keep the women folks
-    From votin' at the polls.
-    We'll let 'em talk jest all they please
-    On ev'ry public walk-
-    In politics the humblest vote
-    Outweighs the biggest talk.
+Say, Mister Legislature<br>
+You make an awful fuss<br>
+An' do a heap of talkin'<br>
+Test on account of us;<br>
+We've only jest two things ter do<br>
+Then rest our happy souls-<br>
+The first ter keep the women folks<br>
+From votin' at the polls.<br>
+We'll let 'em talk jest all they please<br>
+On ev'ry public walk-<br>
+In politics the humblest vote<br>
+Outweighs the biggest talk.<br>
+</blockquote>
 
-'The Colonialist' pointed out other important social reforms would follow, such as the abolition of the drink traffic and other evils under which society groans<a href="#15"><sup>15</sup></a>IS It was the time of campaigns against the use of the female form in advertising, of Sunday Observance Societies, and in 1880 Adelaide even had a Society for Social Purity. In 1887 Sir Richard Baker pointed out South Australia was known throughout the colonies for being under the thumb of the ministers of religion.<a href="#16"><sup>16</sup></a>
+'The Colonialist' pointed out other important social reforms would follow, such as the abolition of the drink traffic and other evils under which society groans.<a href="#15"><sup>15</sup></a>It was the time of campaigns against the use of the female form in advertising, of Sunday Observance Societies, and in 1880 Adelaide even had a Society for Social Purity. In 1887 Sir Richard Baker pointed out South Australia was known throughout the colonies for being under the thumb of the ministers of religion.<a href="#16"><sup>16</sup></a>
 
-If Actually Adelaide lived up to its reputation for being the City of Churches. In 1895 there were 908 churches in Adelaide alone,.'<a href="#17"><sup>17</sup></a> Then in 1891 South Australia had many more churches than hotels. There were in the State 9ry Churches and 273 chapels and other places of worship.<a href="#18"><sup>18</sup></a> On the other hand, according to the South Australian directors there were only 77o hotels. There was a church in Adelaide for every 270 people.
+If actually Adelaide lived up to its reputation for being the City of Churches. In 1895 there were 908 churches in Adelaide alone,.'<a href="#17"><sup>17</sup></a> Then in 1891 South Australia had many more churches than hotels. There were in the State 9ry Churches and 273 chapels and other places of worship.<a href="#18"><sup>18</sup></a> On the other hand, according to the South Australian directors there were only 77o hotels. There was a church in Adelaide for every 270 people.
 
 There was just one lady who revolted in print against the purity of Adelaide. In 1905 there appeared an extraordinary pamphlet which ran to several editions. It was entitled *Arcadian Adelaide', by Thistle Anderson (Mrs Herbert Fisher), and judging by her photograph Thistle was a remarkably good-looking woman.'. The dedication read:
 
-
-"To any kindred spirit whom duty may compel to live in Adelaide and who, living there, suffers as we suffer.
-
-Thistle had a good aggressive style. She wrote:
+<blockquote>
+"To any kindred spirit whom duty may compel to live in Adelaide and who, living there, suffers as we suffer. Thistle had a good aggressive style. She wrote:
 
 Outwardly, Adelaide is intensely respectable-that is to say the inhabitants go to church regularly, and think it extremely wrong to play ards for money. Briefly summing up, the creed of Adelaide so-called Society runs:
 
 'I believe in Lewis Cohen, Mayor of Adelaide, in Sir George Le Hunte, Governor of S.A.., from whom much hospitality may be expected. I believe in the social laws, in much going to Church, in doing
-to others as they would do unto you if they could, in the charity that
-Amen.
+to others as they would do unto you if they could, in the charity that will be beneficial to our social position, and in the Life of Everlasting, Amen
 
-will be beneficial to our social position, and in the Life of Everlasting, Amen
 
-The village is less holy than might be expected, For Melbourne with a population of 494,129 has seven opium dens, while Adelaide with a population of 163261 has eight. Then, ton, it is pretty generally, Famitted that, in proportion to its size, Adelaide has more prostitution. and more young girls on its streets than any other city in Australasia. any woren of the unfortunate class in Adelaide begin their wretched profession at the carly age of thirteen or fourteen. This is nok freatise on morality, it is not Adelaide's lack of morality I am objecting to, but her lack of sincerity, to my mind a far greater evil."
+The village is less holy than might be expected, For Melbourne with a population of 494,129 has seven opium dens, while Adelaide with a population of 163,261 has eight. Then, ton, it is pretty generally, Famitted that, in proportion to its size, Adelaide has more prostitution. and more young girls on its streets than any other city in Australasia. any woren of the unfortunate class in Adelaide begin their wretched profession at the carly age of thirteen or fourteen. This is nok freatise on morality, it is not Adelaide's lack of morality I am objecting to, but her lack of sincerity, to my mind a far greater evil."
+</blockquote>
 
 She called the men dull, the women plain and dowdy, the theatre practically non-existent, the architecture 'a horror and the furniture vulgar; and there were some lines that really drove Adelaide to fury: 
 
+<blockquote>
 "The daily excitements of Adelaide are the coming of letters, and the going of the Melbourne express-the fascination of the latter will be readily understood, when it is remembered that it forms the principal link between Adelaide and civilisation."
 
 And this, which was really unforgivable:
 
 Be a little more humble, ye people of Adelaide, try to remember that your hills are not the greenest, or your morals the cleanest, or your shops the brightest in the whole world-and if you cannot bring your- selves to remember these things, then bear in mind that your wines are the worst ever made, that some of you are passing plain to look upon, and that you have acquired a world-wide fame for your cruclty to animals-especially horses.
-
+</bloackquote>
 As you can imagine the reaction was severe. Thistle had referred to the female cats of Adelaide and very smartly a counter pamphlet was on the market entitled 'A Scratch from an Adelaide Cat' by Mrs F. Ellis,20 It must be recorded that in her photograph, in beauty and hauteur, Mrs Ellis did not match up to Thistle. In the foreword were the words: In sorrow and sadness for your evident lack of the qualities requisite to appreciate that which is good' and the dedication read:
 
 "To my slandered brothers and sisters in dear, old Adelaide.'
 
 Said Mrs Ellis:
-
+<bloackquote>
 Adelaide has been spoken of as a beautiful city by people of note and who have travelled much, and who therefore have authority for what they say, and having eyes ourselves and thus being able to see its vast superiority over most other cities, we can and do pity poor Thistle and deplore her lack of appreciation of a city whose equal does not exist in Australia.
 
 I rather think a question of churches should have no place in writ- ings such as these. I am only going to say that in no part of the Commonwealth do the Churches do more good nor are they better attended.
 
 Thistle points out that the girls start prostitution in Adelaide at the age of thirteen and fourteen. Such may be the case, but does not a similar state of affairs prevail elsewhere. Is Adelaide the only city where such horrible things occur? I am inclined to think not. The only excitement, says Miss Anderson, in Adelaide is the arrival and departure of the Melbourne express . . . Let Thistle stand on the platform of an incoming train and watch the ecstatic look of joy and relief on the faces of those who have been on a visit to Melbourne and she will be satisfied that it was through no fault or desire on their part that the train did not land them once more in Adelaide much sooner than it did. Yes, Thistle you are hugely mistaken when you think by contrasting Melbourne with Adelaide that Adelaide loses thereby. I myself have been to Melbourne, and nearly every part of the world, and I must say, Adelaide is an ideal place and good enough for any- one to live in who does not look beyond the sky and who could be satisfied with earthly things."
-
+</blockquote>
 At last Adelaide could breathe again. Thanks to Mrs Ellis, honour was restored.
-
+<hr>
 <h3>Sources:</h3>
 <ol>
 <li><a id="1">The Bulletin, 12 December, 1912.</a></li>
