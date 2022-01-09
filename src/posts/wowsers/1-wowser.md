@@ -7,10 +7,15 @@ tags:
 - James Mirams
 - Cyril Pearl
 - Geoffrey Serle
+- Sidney J. Baker
 - John Norton
 - William Artnhur Holman
 - Henry Louis Mencken  
-- The Colonialist
+- *The Christian Colonist*
+- Douglas Pike
+- (Dean) Hussey Burgh Macartney
+- (Bishop) Charles Perry
+- Thistle Anderson (Mrs Herbert Fisher)
 ---
 
 Wowser is a beautiful word. For sheer coarseness and devastating power in attack we have 'bludger', for a neat exercise in deflation or the destruction of pomposity, we have the line, 'don't come the raw prawn'; but surely the richest, most gloriously expressive of all Australian words is 'Wowser'. 
@@ -34,7 +39,7 @@ In 1910 after the defeat of the Liberals in the Federal elections, Cardinal Mora
 
 Mr Holman gave the only really intelligent reply. Several said they did not like the term and, frankly, never used it. Indeed they would demean themselves if they ever uttered it.
 
-So the Telegraph concluded: It will be interesting to learn some of the theories as to the derivation of the term. One is that it arose from the Round Heads raising their hands and crying "Woe Sip) when they saw a Loyalist kissing a pretty maid or draining a tankard of ale. Another theory, however, ascribes the origin to a Loyalist crying out "Whoa, Sir!" when he observed a Puritan drinking off a jug of beer which he had placed aside for future use - the "whoa" in this case meaning desist.'
+So the *Telegraph* concluded: It will be interesting to learn some of the theories as to the derivation of the term. One is that it arose from the Round Heads raising their hands and crying "Woe Sip) when they saw a Loyalist kissing a pretty maid or draining a tankard of ale. Another theory, however, ascribes the origin to a Loyalist crying out "Whoa, Sir!" when he observed a Puritan drinking off a jug of beer which he had placed aside for future use - the "whoa" in this case meaning desist.'
 
 There was no mention in the article of John Norton and, naturally, Norton was outraged. Cyril Pearl quoted his reply in *Wild Men of Sydney*. 
 
@@ -296,13 +301,13 @@ This is how the Methodists compared with other states.
 </table>
 </small>
 
-The question of whether all this was relevant could be asked. The Anglicans and the Roman Catholics occasionally raised a word about gambling or the defilement of the Sabbath but not often. The Roman Catholics complained only occasionally about the liquor laws and this often depended on the reigning bishop. On 16 December 1915, Archbishop Mannix in Melbourne put out 'an urgent call' to all Catholic Australians to join the great army of the Total Abstinence Society of the Sacred Heart. Probationary members, those who had gone without drink for two years or less, wore a pin, pen- dant or brooch with a red cross. Those who had passed these tests and had pledged not to drink alcohol for life, wore the Sacred Heart. The Catholics and the Anglicans complained occasionally, also, about dancing and the theatre, but it was sporadic. The Methodists and the Presbyterians invariably came through loud and clear on all these things.
+The question of whether all this was relevant could be asked. The Anglicans and the Roman Catholics occasionally raised a word about gambling or the defilement of the Sabbath but not often. The Roman Catholics complained only occasionally about the liquor laws and this often depended on the reigning bishop. On 16 December 1915, Archbishop Mannix in Melbourne put out 'an urgent call' to all Catholic Australians to join the great army of the Total Abstinence Society of the Sacred Heart. Probationary members, those who had gone without drink for two years or less, wore a pin, pendant or brooch with a red cross. Those who had passed these tests and had pledged not to drink alcohol for life, wore the Sacred Heart. The Catholics and the Anglicans complained occasionally, also, about dancing and the theatre, but it was sporadic. The Methodists and the Presbyterians invariably came through loud and clear on all these things.
 
-The Wesleyans were against almost every form of pleasure, and when President Lincoln of the United States was assassinated, the Wesleyan Chronicle nodded its editorial head and pointed out that, after all, 'the melancholy assassination' took place in a theatre. And look who did it?-a professional actor.<a href="#13"><sup>13</sup></a>
+The Wesleyans were against almost every form of pleasure, and when President Lincoln of the United States was assassinated, the *Wesleyan Chronicle* nodded its editorial head and pointed out that, after all, 'the melancholy assassination' took place in a theatre. And look who did it? - a professional actor.<a href="#13"><sup>13</sup></a>
 
-South Australia had a curiously mixed progress towards social freedom. In social experiment sometimes the people of Adelaide were ahead of the rest of Australia. They tried the racecourse totalizator in 1879 (it came to Victoria in 1930); it legislated for cremation in 189I, ahead of the rest of the country; it was the first State to experiment with off-course betting in 1933; and it had Sun- day drinking until 189I. At the same time, the S.A. legislature showed a terrible fear of bookmakers, barmaids and lotteries.
+South Australia had a curiously mixed progress towards social freedom. In social experiment sometimes the people of Adelaide were ahead of the rest of Australia. They tried the racecourse totalizator in 1879 (it came to Victoria in 1930); it legislated for cremation in 1891, ahead of the rest of the country; it was the first State to experiment with off-course betting in 1933; and it had Sunday drinking until 1891. At the same time, the S.A. legislature showed a terrible fear of bookmakers, barmaids and lotteries.
 
-The South Australians were ahead of everybody in giving women the vote in 1894, but one wonders what the motives were here. All the Temperance organizations fought for the female vote for they believed this, with certainty, would give them prohibition. Adelaide's Christian Colonist, which campaigned against barmaids, drinking, smoking, dancing, gambling, and even church lotteries, printed this poem in 1884.<a href="#14"><sup>14</sup></a>
+The South Australians were ahead of everybody in giving women the vote in 1894, but one wonders what the motives were here. All the Temperance organizations fought for the female vote for they believed this, with certainty, would give them prohibition. Adelaide's *Christian Colonist*, which campaigned against barmaids, drinking, smoking, dancing, gambling, and even church lotteries, printed this poem in 1884.<a href="#14"><sup>14</sup></a>
 
 <blockquote>
 <h4>A LIQUOR DEALER'S VIEWS</h4>
@@ -321,45 +326,50 @@ In politics the humblest vote<br>
 Outweighs the biggest talk.<br>
 </blockquote>
 
-'The Colonialist' pointed out other important social reforms would follow, such as the abolition of the drink traffic and other evils under which society groans.<a href="#15"><sup>15</sup></a>It was the time of campaigns against the use of the female form in advertising, of Sunday Observance Societies, and in 1880 Adelaide even had a Society for Social Purity. In 1887 Sir Richard Baker pointed out South Australia was known throughout the colonies for being under the thumb of the ministers of religion.<a href="#16"><sup>16</sup></a>
+The *Colonist* pointed out other important social reforms would follow, such as the abolition of the drink traffic and other evils under which society groans.<a href="#15"><sup>15</sup></a>It was the time of campaigns against the use of the female form in advertising, of Sunday Observance Societies, and in 1880 Adelaide even had a Society for Social Purity. In 1887 Sir Richard Baker pointed out South Australia was known throughout the colonies for being under the thumb of the ministers of religion.<a href="#16"><sup>16</sup></a>
 
-If actually Adelaide lived up to its reputation for being the City of Churches. In 1895 there were 908 churches in Adelaide alone,.'<a href="#17"><sup>17</sup></a> Then in 1891 South Australia had many more churches than hotels. There were in the State 9ry Churches and 273 chapels and other places of worship.<a href="#18"><sup>18</sup></a> On the other hand, according to the South Australian directors there were only 77o hotels. There was a church in Adelaide for every 270 people.
+If actually Adelaide lived up to its reputation for being the City of Churches. In 1895 there were 908 churches in Adelaide alone,.'<a href="#17"><sup>17</sup></a> Then in 1891 South Australia had many more churches than hotels. There were in the State 917 Churches and 273 chapels and other places of worship.<a href="#18"><sup>18</sup></a> On the other hand, according to the South Australian directors there were only 770 hotels. There was a church in Adelaide for every 270 people.
 
-There was just one lady who revolted in print against the purity of Adelaide. In 1905 there appeared an extraordinary pamphlet which ran to several editions. It was entitled *Arcadian Adelaide', by Thistle Anderson (Mrs Herbert Fisher), and judging by her photograph Thistle was a remarkably good-looking woman.'. The dedication read:
+There was just one lady who revolted in print against the purity of Adelaide. In 1905 there appeared an extraordinary pamphlet which ran to several editions. It was entitled 'Arcadian Adelaide', by Thistle Anderson (Mrs Herbert Fisher), and judging by her photograph Thistle was a remarkably good-looking woman. The dedication read:
 
 <blockquote>
-"To any kindred spirit whom duty may compel to live in Adelaide and who, living there, suffers as we suffer. Thistle had a good aggressive style. She wrote:
+    "To any kindred spirit whom duty may compel to live in Adelaide and who, living there, suffers as we suffer. 
+    
+    Thistle had a good aggressive style. She wrote:
+    
+    Outwardly, Adelaide is intensely respectable - that is to say the inhabitants go to church regularly, and think it extremely wrong to play cards for money.         Briefly summing up, the creed of Adelaide so-called Society runs:
 
-Outwardly, Adelaide is intensely respectable-that is to say the inhabitants go to church regularly, and think it extremely wrong to play ards for money. Briefly summing up, the creed of Adelaide so-called Society runs:
+    'I believe in Lewis Cohen, Mayor of Adelaide, in Sir George Le Hunte, Governor of S.A., from whom much hospitality may be expected. I believe in the social         laws, in much going to Church, in doing to others as they would do unto you if they could, in the charity that will be beneficial to our social position, and       in the Life of Everlasting, Amen
 
-'I believe in Lewis Cohen, Mayor of Adelaide, in Sir George Le Hunte, Governor of S.A.., from whom much hospitality may be expected. I believe in the social laws, in much going to Church, in doing
-to others as they would do unto you if they could, in the charity that will be beneficial to our social position, and in the Life of Everlasting, Amen
-
-
-The village is less holy than might be expected, For Melbourne with a population of 494,129 has seven opium dens, while Adelaide with a population of 163,261 has eight. Then, ton, it is pretty generally, Famitted that, in proportion to its size, Adelaide has more prostitution. and more young girls on its streets than any other city in Australasia. any woren of the unfortunate class in Adelaide begin their wretched profession at the carly age of thirteen or fourteen. This is nok freatise on morality, it is not Adelaide's lack of morality I am objecting to, but her lack of sincerity, to my mind a far greater evil."
+    The village is less holy than might be expected, For Melbourne with a population of 494,129 has seven opium dens, while Adelaide with a population of 163,261       has eight. Then, too, it is pretty generally admitted that, in proportion to its size, Adelaide has more prostitution and more young girls on its streets than     any other city in Australasia. any women of the unfortunate class in Adelaide begin their wretched profession at the carly age of thirteen or fourteen. This       is not a treatise on morality, it is not Adelaide's lack of morality I am objecting to, but her lack of sincerity, to my mind a far greater evil.
 </blockquote>
 
-She called the men dull, the women plain and dowdy, the theatre practically non-existent, the architecture 'a horror and the furniture vulgar; and there were some lines that really drove Adelaide to fury: 
+    She called the men dull, the women plain and dowdy, the theatre practically non-existent, the architecture 'a horror' and the furniture vulgar; and there were  some lines that really drove Adelaide to fury: 
 
 <blockquote>
-"The daily excitements of Adelaide are the coming of letters, and the going of the Melbourne express-the fascination of the latter will be readily understood, when it is remembered that it forms the principal link between Adelaide and civilisation."
+    The daily excitements of Adelaide are the coming of letters, and the going of the Melbourne express - the fascination of the latter will be readily understood,     when it is remembered that it forms the principal link between Adelaide and civilisation."
 
-And this, which was really unforgivable:
+    And this, which was really unforgivable:
 
-Be a little more humble, ye people of Adelaide, try to remember that your hills are not the greenest, or your morals the cleanest, or your shops the brightest in the whole world-and if you cannot bring your- selves to remember these things, then bear in mind that your wines are the worst ever made, that some of you are passing plain to look upon, and that you have acquired a world-wide fame for your cruclty to animals-especially horses.
+    Be a little more humble, ye people of Adelaide, try to remember that your hills are not the greenest, or your morals the cleanest, or your shops the brightest     in the whole world - and if you cannot bring yourselves to remember these things, then bear in mind that your wines are the worst ever made, that some of you       are passing plain to look upon, and that you have acquired a world-wide fame for your cruelty to animals - especially horses.
 </bloackquote>
-As you can imagine the reaction was severe. Thistle had referred to the female cats of Adelaide and very smartly a counter pamphlet was on the market entitled 'A Scratch from an Adelaide Cat' by Mrs F. Ellis,20 It must be recorded that in her photograph, in beauty and hauteur, Mrs Ellis did not match up to Thistle. In the foreword were the words: In sorrow and sadness for your evident lack of the qualities requisite to appreciate that which is good' and the dedication read:
 
-"To my slandered brothers and sisters in dear, old Adelaide.'
+    As you can imagine the reaction was severe. Thistle had referred to the female cats of Adelaide and very smartly a counter pamphlet was on the market entitled 'A Scratch from an Adelaide Cat' by Mrs F. Ellis,20 It must be recorded that in her photograph, in beauty and hauteur, Mrs Ellis did not match up to Thistle. 
+    
+    In the foreword were the words: 'In sorrow and sadness for your evident lack of the qualities requisite to appreciate that which is good' and the dedication read:
+
+    'To my slandered brothers and sisters in dear, old Adelaide.'
 
 Said Mrs Ellis:
+
 <bloackquote>
-Adelaide has been spoken of as a beautiful city by people of note and who have travelled much, and who therefore have authority for what they say, and having eyes ourselves and thus being able to see its vast superiority over most other cities, we can and do pity poor Thistle and deplore her lack of appreciation of a city whose equal does not exist in Australia.
+    Adelaide has been spoken of as a beautiful city by people of note and who have travelled much, and who therefore have authority for what they say, and having       eyes ourselves and thus being able to see its vast superiority over most other cities, we can and do pity poor Thistle and deplore her lack of appreciation of     a city whose equal does not exist in Australia.
 
-I rather think a question of churches should have no place in writ- ings such as these. I am only going to say that in no part of the Commonwealth do the Churches do more good nor are they better attended.
+        I rather think a question of churches should have no place in writings such as these. I am only going to say that in no part of the Commonwealth do the         Churches do more good nor are they better attended.
 
-Thistle points out that the girls start prostitution in Adelaide at the age of thirteen and fourteen. Such may be the case, but does not a similar state of affairs prevail elsewhere. Is Adelaide the only city where such horrible things occur? I am inclined to think not. The only excitement, says Miss Anderson, in Adelaide is the arrival and departure of the Melbourne express . . . Let Thistle stand on the platform of an incoming train and watch the ecstatic look of joy and relief on the faces of those who have been on a visit to Melbourne and she will be satisfied that it was through no fault or desire on their part that the train did not land them once more in Adelaide much sooner than it did. Yes, Thistle you are hugely mistaken when you think by contrasting Melbourne with Adelaide that Adelaide loses thereby. I myself have been to Melbourne, and nearly every part of the world, and I must say, Adelaide is an ideal place and good enough for any- one to live in who does not look beyond the sky and who could be satisfied with earthly things."
+        Thistle points out that the girls start prostitution in Adelaide at the age of thirteen and fourteen. Such may be the case, but does not a similar state of     affairs prevail elsewhere. Is Adelaide the only city where such horrible things occur? I am inclined to think not. The only excitement, says Miss Anderson, in     Adelaide is the arrival and departure of the Melbourne express . . . Let Thistle stand on the platform of an incoming train and watch the ecstatic look of joy     and relief on the faces of those who have been on a visit to Melbourne and she will be satisfied that it was through no fault or desire on their part that the     train did not land them once more in Adelaide much sooner than it did. Yes, Thistle you are hugely mistaken when you think by contrasting Melbourne with           Adelaide that Adelaide loses thereby. I myself have been to Melbourne, and nearly every part of the world, and I must say, Adelaide is an ideal place and good     enough for anyone to live in who does not look beyond the sky and who could be satisfied with earthly things.
 </blockquote>
+
 At last Adelaide could breathe again. Thanks to Mrs Ellis, honour was restored.
 <hr>
 <h3>Sources:</h3>
