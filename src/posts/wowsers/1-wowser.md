@@ -376,25 +376,25 @@ At last Adelaide could breathe again. Thanks to Mrs Ellis, honour was restored.
 <hr>
 <h3>Sources:</h3>
 <ol>
-<li><a id="1">The Bulletin, 12 December, 1912.</a></li>
-<li><a id="2">The Bulletin, 2 February, 1884.</a></li>
-<li><a id="3">The Bulletin, 20 April, IgrI.</a></li>
-<li><a id="4">Truth (Melbourne), 14 May, 1910.</a></li>
-<li><a id="5">Mencken, H. L., The American Language.</a></li>
-<li><a id="6">The Bulletin, 25 May, 19I6.</a></li>
-<li><a id="7">The Hawklet, 18 July, I918.</a></li>
-<li><a id="8"> The Onlooker, I July, 1918.</a></li>
-<li><a id="9"> Folkard, Frederick C., The Remarkable Australians.</a></li>
-<li><a id="10"> Heritage, February 1956.</a></li>
+<li><a id="1">*The Bulletin*, 12 December, 1912.</a></li>
+<li><a id="2">*The Bulletin*, 2 February, 1884.</a></li>
+<li><a id="3">*The Bulletin*, 20 April, IgrI.</a></li>
+<li><a id="4">*Truth* (Melbourne), 14 May, 1910.</a></li>
+<li><a id="5">Mencken, H. L., *The American Language*.</a></li>
+<li><a id="6">*The Bulletin*, 25 May, 19I6.</a></li>
+<li><a id="7">The Hawklet*, 18 July, I918.</a></li>
+<li><a id="8"> *The *Onlooker, I July, 1918.</a></li>
+<li><a id="9"> Folkard, Frederick C., *The Remarkable Australians*.</a></li>
+<li><a id="10"> *Heritage*, February 1956.</a></li>
 <li><a id="11"> Pike, Douglas, Paradise of Dissent.</a></li>
-<li><a id="12"> Oldham, Dr W., M.A., Population' chapter, in Centenary History of South
-Australia,</a></li>
-<li><a id="13">Wesleyan Chronicle, 1865, P. 113.</a></li>
-<li><a id="14">Christian Colonist, 4 April, 1884.</a></li>
-<li><a id="15">Christian Colonist, 31 July, 1885.</a></li>
-<li><a id="16">S.A. Parliamentary Debates, 1887, P. 1456.</a></li>
-<li><a id="17">Chinner, Christine, 'Early 18gos', Honours thesis (Adelaide University).</a></li>
-<li><a id="18"> S.A. Statistical Register.</a></li>
-<li><a id="19">Fisher, Thistle, 'Arcadian Adelaide', 1905 (State Library of Victoria)</a></li>
+<li><a id="12"> Oldham, Dr W., M.A., Population' chapter, in *Centenary History of South
+Australia*,</a></li>
+<li><a id="13">*Wesleyan Chronicle*, 1865, P. 113.</a></li>
+<li><a id="14">*Christian Colonist*, 4 April, 1884.</a></li>
+<li><a id="15">*Christian Colonist*, 31 July, 1885.</a></li>
+<li><a id="16">*S.A. Parliamentary Debates*, 1887, P. 1456.</a></li>
+<li><a id="17">Chinner, Christine, 'Early 1890s', Honours thesis (Adelaide University).</a></li>
+<li><a id="18"> *S.A. Statistical Register*.</a></li>
+<li><a id="19">Fisher, Thistle, *Arcadian Adelaide*, 1905 (State Library of Victoria)</a></li>
 <li><a id="20">Ellis, Mrs F., 'A Scratch from an Adelaide Cat', 1905 (State Library of
 Victoria).</a></li></ol>
