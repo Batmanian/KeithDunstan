@@ -266,6 +266,7 @@ What next? Well, next was commercialized sport on Sundays upon application to th
 </blockquote>
 Actually some profanations had been going on for some time. There was a way around the old Act. Instead of demanding money at the turnstiles, sporting organizations 'accepted donations'. In the 1960s Olympic Park was a regular 'disorderly house' for soccer and there was even a little disorderly housing at such august places as the Kooyong Tennis Club.
 
+
 There was surprisingly little protest against the Sunday Entertainment Bill and with its introduction the perfect tranquillity of the Melbourne Sunday was at end. It is said that the very second when the Governor signed his assent to the bill there was a warm sigh from Chloe in the saloon bar at Young & Jackson's hotel. Perhaps even at this late stage she saw promise of her return to the National Gallery. Yet that might be too much of a risk. It could give play to no end of vicious proclivities.
 <hr>
 <h4>Sources</h4>
