@@ -16,6 +16,8 @@ tags:
 - (Dean) Hussey Burgh Macartney
 - (Bishop) Charles Perry
 - Thistle Anderson (Mrs Herbert Fisher)
+- Cardinal Patrick Francis Moran
+- Reverend Bishop Ian Shevill
 ---
 
 Wowser is a beautiful word. For sheer coarseness and devastating power in attack we have 'bludger', for a neat exercise in deflation or the destruction of pomposity, we have the line, 'don't come the raw prawn'; but surely the richest, most gloriously expressive of all Australian words is 'Wowser'. 
