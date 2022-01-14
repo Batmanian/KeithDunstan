@@ -27,7 +27,7 @@ tags:
 - Louis Abrahams
 - Thomas Humphrey
 - Alexander Colquhoun
-- Rev. F.W Fitchett
+- Rev. F.W. Fitchett
 - William Shiels
 - John Munro Bruce
 - (Sir) Henry Wrixon
