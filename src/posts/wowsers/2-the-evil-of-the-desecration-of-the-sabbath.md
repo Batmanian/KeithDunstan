@@ -10,13 +10,13 @@ tags:
 - Alexander Colquhoun
 ---
 
-The purity of the Sabbath Day was always a fine Anglican custom, it was a fine Scottish custom, but incredibly it also thrived in the socalled lusty, free and casy colonies of Australia and New Zealand. Yet of all colonial cities it thrived best in Melbourne. After all, Melbourne rather felt that it had a superior moral tone to other places, and even as late as 196 the city on Sundays had a certain splendid solemnity about it.
+The purity of the Sabbath Day was always a fine Anglican custom, it was a fine Scottish custom, but incredibly it also thrived in the so-called lusty, free and casy colonies of Australia and New Zealand. Yet of all colonial cities it thrived best in Melbourne. After all, Melbourne rather felt that it had a superior moral tone to other places, and even as late as 1965 the city on Sundays had a certain splendid solemnity about it.
 
-The Melbourne Sunday was world famous, a tourist attraction really, like trams and 6 o'clock closing. Where else on earth, with the possible exception of Adelaide, could one find a city where absolutely nothing happened, where the biggest excitement among the citizens on a Sunday was to go either to the Botanic Gardens or to Essendon Airport; an alternative of gazing in composed decorum at the swans or in composed decorum at the Boeing 7275.
+The Melbourne Sunday was world famous, a tourist attraction really, like trams and 6 o'clock closing. Where else on earth, with the possible exception of Adelaide, could one find a city where absolutely nothing happened, where the biggest excitement among the citizens on a Sunday was to go either to the Botanic Gardens or to Essendon Airport; an alternative of gazing in composed decorum at the swans or in composed decorum at the Boeing 727s.
 
 The late Brian Fitzpatrick once said that the Melbourne Sunday had a tranquillity, a pure beauty, why, it was a work of art like the Winged Victory of Samothrace, the Two Minutes' Silence, or La Giaconda.<a href="#1"><sup>1</sup></a>
 
-The truth is that our Winged Victory was perfect for a very long time. William Kelly, a most entertaining Irishman, in his book Life in Victoria painted his sketch of the Melburnian Sunday of the 1850s, a sketch which could be taken as read for any Sunday for the next 100 years.
+The truth is that our Winged Victory was perfect for a very long time. William Kelly, a most entertaining Irishman, in his book *Life in Victoria* painted his sketch of the Melburnian Sunday of the 1850s, a sketch which could be taken as read for any Sunday for the next 100 years.
 
 <bloackquote>
 For a new, rollicking, harum-scarum, devil-may-care country . I marvelled to witness the air of quiet serenity and decorousness which pervaded the capital on the Sabbath morning . . . I could almost fancy the cho of my footfall was reproving my trespass on the prevailing stillness. Even when I got into Great Collins Street there was not a soul astir.
