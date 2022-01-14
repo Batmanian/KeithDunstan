@@ -50,7 +50,9 @@ The truth is that our Winged Victory was perfect for a very long time. William K
   For a new, rollicking, harum-scarum, devil-may-care country. I marvelled to witness the air of quiet serenity and decorousness which pervaded the capital on the   Sabbath morning. ...I could almost fancy the echo of my footfall was reproving my trespass on the prevailing stillness. Even when I got into Great Collins         Street there was not a soul astir.
 </blockquote>
 
+
 In 1906, with less sympathy, John Norton gave his exasperated howl in *Truth*.
+
 <blockquote>
 It is neither a Scotch Sabbath nor a Jew's Sabbath neither a Christian Sunday nor a white man's holiday; but a mixed up abortion of a thing brought about through the promiscuous intercourse of all sorts of sects and interests ... Morning trains only carry folks to church, trams will not run until afternoon. And there shall be no drinking in any hotel, and no selling of any Sunday newspapers or other publications and no charge for admission to any public entertainment. ...How long, oh Lord, how long? asks the honest reformer, appealing from all the domination of monkeydom, humbug and folly to the God of reason and righteousness.<a href="#2"><sup>2</sup></a>
 </blockquote>
