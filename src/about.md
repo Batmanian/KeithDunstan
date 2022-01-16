@@ -8,9 +8,8 @@ title: About this site
 <p>For copyright requests, suggestions, edits or contributions, <a href="mailto:keith@dunsta.net"> please email us. </a><br>
 <a href="https://twitter.com/keith_dunstan">Follow content updates</a> on this site via twitter.
 <p>Contributors:
-<ul><li>David Dunstan </li>
-<li>Isabel Dunstan</li>
-<li>Jack Dunstan</li>
+<ul><li><a href="https://batmania.net">David Dunstan</a></li>
+<li><a href="https://www.linkedin.com/in/jackdunstan/">Jack Dunstan</a></li>
 </ul>
 
 <h3>Statistics on this site, past 12 months</h3>
