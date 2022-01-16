@@ -3,7 +3,7 @@ title: Wowser
 date: 1968-11-11
 summary: The first chapter of Keith Dunstan's book on social prudery and conservatism in Australia, 'Wowsers'.
 tags:
-- *The Bulletin*
+- The Bulletin
 - James Mirams
 - Cyril Pearl
 - Geoffrey Serle
@@ -11,7 +11,7 @@ tags:
 - John Norton
 - William Artnhur Holman
 - Henry Louis Mencken  
-- *The Christian Colonist*
+- The Christian Colonist
 - Douglas Pike
 - (Dean) Hussey Burgh Macartney
 - (Bishop) Charles Perry

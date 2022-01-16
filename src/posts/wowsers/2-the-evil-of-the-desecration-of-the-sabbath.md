@@ -6,13 +6,13 @@ tags:
 - Brian Fitzpatrick
 - William Kelly
 - John Norton
-- Dr F.B. (Barry) Smith
-- Rev. Dr Adam Cairns
-- Rev. John Sutton
-- Rev. M. Mackay
-- Rev. Bishop Samuel Thornton
+- Dr FB Barry Smith
+- Rev Dr Adam Cairns
+- Rev John Sutton
+- Rev M Mackay
+- Rev Bishop Samuel Thornton
 - Sir George Ferguson Bowen
-- Rev. J.C. Symons
+- Rev JC Symons
 - James Goodall Francis
 - Charles Henry Pearson
 - Frederick Hadkinson Bromley
@@ -27,15 +27,15 @@ tags:
 - Louis Abrahams
 - Thomas Humphrey
 - Alexander Colquhoun
-- Rev. F.W. Fitchett
+- Rev F W Fitchett
 - William Shiels
 - John Munro Bruce
-- (Sir) Henry Wrixon
+- Sir Henry Wrixon
 - Louis Lawrence Smith
 - James Balfour
-- (Sir) Robert Gordon Menzies
-- Rev. (Sir) Irving Benson
-- (Sir) Arthur Gordon Rylah
+- Sir Robert Menzies
+- Rev Sir Irving Benson
+- Sir Arthur Gordon Rylah
 ---
 
 The purity of the Sabbath Day was always a fine Anglican custom, it was a fine Scottish custom, but incredibly it also thrived in the so-called lusty, free and casy colonies of Australia and New Zealand. Yet of all colonial cities it thrived best in Melbourne. After all, Melbourne rather felt that it had a superior moral tone to other places, and even as late as 1965 the city on Sundays had a certain splendid solemnity about it.
