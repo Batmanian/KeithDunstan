@@ -3,40 +3,39 @@ title: Snobbery in business
 date: 1971-11-11
 summary: Keith's chapter in 'The Australian Uppercrust Book', published in 1971, is on snobbery in business.
 tags:
-  - Social clubs
-  - Commander Whitehead RN
+  - Albert Tucker
   - Arthur Boyd
   - Benson & Hedges cigarettes
-  - British Overseas Airways Corporation (BOAC)
-  - W.D & H.0. Wills
-  - Stuart Wagstaff
+  - Billy Mackie Snedden
+  - British Overseas Airways Corporation - BOAC
+  - Charlie Brown comic strip
+  - Chiang Kai-shek
+  - Clement Meadmore
+  - Commander of the British Empire - CBE
+  - Commander Whitehead RN
+  - Eero Saarinen
+  - Elizabeth Riddell
+  - Frank Eidliz
+  - Frank Lloyd Wright
+  - General Agreement on Tariffs and Trade - GATT
   - Ian Fleming
   - James Bond
-  - Elizabeth Riddell
-  - Clement Meadmore
-  - Norma Redpath
-  - Marshall McLuhan
-  - Sir Ian Potter
-  - Billy Mackie Snedden
-  - Charlie Brown comic strip
-  - Frank Lloyd Wright
-  - Chiang Kai-shek
-  - General Agreement on Tariffs and Trade (GATT)
-  - Sidney Nolan
-  - John Perceval
-  - Albert Tucker
   - John Blackman
-  - Frank Eidliz
+  - John Perceval
   - Josef Stanislaw Ostoja-Kotkowski
-  - Eero Saarinen
+  - Marshall McLuhan
+  - Norma Redpath
   - Schulim Krimper
+  - Sidney Nolan
+  - Sir Ian Potter
+  - Social clubs
+  - Stuart Wagstaff
+  - Tobacco
+  - W.D & H.O. Wills
   - Who's Who in Australia
-  - Commander of the British Empire (CBE)
-  - 
-
 ---
 
-My favourite example of snobbery always used to be not Commander Whitehead RN, who was splendidly bearded, who always travelled in a Rolls-Royce, who always had a uniformed chauffeur to carry about his boxes of Schweppes, it was the Man in the Hathaway Shirt.
+My favourite example of snobbery always used to be not Commander Whitehead RN, who was splendidly beared, who always travelled in a Rolls-Royce, who always had a uniformed chauffeur to carry about his boxes of Schweppes, it was the Man in the Hathaway Shirt.
 
 Now the man in the Hathaway Shirt was even better looking than Commander Whitehead, and he had the superb gimmick of a black eye patch. Why the black eye patch gave him a touch of superiority, it is hard to say. Just believe me that it did. The Man in the Hathaway Shirt, apart from appearing in the most beautiful shirts, in all the best magazines, was always photographed doing refined things. One issue he would be busily occupied with his butterfly collection, in another he would be inspecting his Purdey guns, in another he would be preparing for a chukker of polo. We tried to copy him in Australia, but how ineffectual we were. One always felt there was something slightly common about our local black eye patch man.
 
@@ -62,13 +61,13 @@ Your office is impressive, and naturally you go in for the latest office landsca
 
 Actually people do like to charm their secretaries, pick their noses, even do tea-break push-ups, in private. So now the quality of your landscaping is in direct proportion to your prestige. The senior clerk gets a nice, little three foot six inch walnut veneer partition. It takes in four feet all around his desk and makes him feel just that much more important. If you put a little hay in his pen it would look like a nativity scene. His desk is 4ft 6in. by 2ft in., and he has three drawers on the right-hand side.
 
-The departmental superintendent has a slightly higher partition. He still fits in with the office landscaping because he has louvres. His desk is Sft by 2 ft 6in. and he has drawers both left and right. And so we become progressively grander. The area manager has a six foot partition with glass up to the ceiling. There is always the awful feeling that if someone stood a-tip-toe it would be possible to see what the devil he was up to in there, so the State manager gets solid black bean panelling from floor to ceiling.
+The departmental superintendent has a slightly higher partition. He still fits in with the office landscaping because he has louvres. His desk is 5ft by 2 ft 6in. and he has drawers both left and right. And so we become progressively grander. The area manager has a six foot partition with glass up to the ceiling. There is always the awful feeling that if someone stood a-tip-toe it would be possible to see what the devil he was up to in there, so the State manager gets solid black bean panelling from floor to ceiling.
 
 Black bean, incidentally is the IN timber. It is in short supply and you pay much more for substitutes which look like black bean. There is a little tragedy here, although you often have something which is better than black bean your admirers know so little about Australian timbers they cannot instantly recognize how much money you have spent.
 
 Oh yes, we are now up to the State manager in his black bean splendour.
 
-His desk is now Sft 6in. by 3ft with an L piece to take books and office intercom. But there are still subtleties.
+His desk is now 5ft 6in. by 3ft with an L piece to take books and office intercom. But there are still subtleties.
 
 He could be a mere two outside or three outside window manager. Or does he have an indoor plant? In one of our oil companies indoor plants only begin at a fairly illustrious level. I remember an unfortunate sub manager who was a genuine indoor plant lover. So he brought to the office his very own monstera deliciosa, which he watered with all the right hormones.
 
