@@ -6,13 +6,13 @@ tags:
   - Darwin
   - Douglas Lockwood
   - Fort Worth - Texas
-  - Strategic Air Command (USAAF)
+  - Strategic Air Command -USAAF-
   - Canadian Pacific Airlines
   - John Bechervaise
   - 1960 Tokyo Olympics
   - All Nippon Airlines (ANA)
   - Peter Temm
-  - Kure (Diggers) waifs
+  - Kure -Diggers- waifs
   - Yone Ito
   - Masaaki Usui
   - Percy Cerutty

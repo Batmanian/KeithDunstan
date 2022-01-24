@@ -8,11 +8,11 @@ tags:
   - David Livingstone - explorer
   - Surfing
   - Summer holidays
-  - Bernard (Midget) Farrelly
+  - Bernard -Midget- Farrelly
   - Hawkesbury River
   - Port Phillip Bay
   - Eildon Reservoir
-  - Robert "Nat" Young
+  - Robert -Nat- Young
   - Highway One
   - Rosebud, Victoria
   - Beau Geste - film

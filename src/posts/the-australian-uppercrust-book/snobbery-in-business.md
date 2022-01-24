@@ -35,7 +35,7 @@ tags:
   - Who's Who in Australia
 ---
 
-My favourite example of snobbery always used to be not Commander Whitehead RN, who was splendidly beared, who always travelled in a Rolls-Royce, who always had a uniformed chauffeur to carry about his boxes of Schweppes, it was the Man in the Hathaway Shirt.
+My favourite example of snobbery always used to be not Commander Whitehead RN, who was splendidly bearded, who always travelled in a Rolls-Royce, who always had a uniformed chauffeur to carry about his boxes of Schweppes, it was the Man in the Hathaway Shirt.
 
 Now the man in the Hathaway Shirt was even better looking than Commander Whitehead, and he had the superb gimmick of a black eye patch. Why the black eye patch gave him a touch of superiority, it is hard to say. Just believe me that it did. The Man in the Hathaway Shirt, apart from appearing in the most beautiful shirts, in all the best magazines, was always photographed doing refined things. One issue he would be busily occupied with his butterfly collection, in another he would be inspecting his Purdey guns, in another he would be preparing for a chukker of polo. We tried to copy him in Australia, but how ineffectual we were. One always felt there was something slightly common about our local black eye patch man.
 

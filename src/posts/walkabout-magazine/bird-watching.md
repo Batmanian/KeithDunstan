@@ -11,8 +11,8 @@ tags:
   - Len Robinson
   - Eyrean Grasswren
   - Donald Campbell
-  - Avocet  (Red-necked Avocet)
-  - Commonweath Scientific and Industrial Organisation (CSIRO)
+  - Red-necked Avocet
+  - Commonweath Scientific and Industrial Organisation CSIRO
   - Donald Shanks
   -
 ---

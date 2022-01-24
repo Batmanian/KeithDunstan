@@ -14,8 +14,8 @@ tags:
   - Nandi airport
   - Tailor and Cutter magazine
   - Lord Casey, Governor-General 
-  - (Sir) David Checketts
-  - T.R. (Thomas Ronald) Garnett - headmaster
+  - Sir David Checketts
+  - T.R. - Thomas Ronald - Garnett - headmaster
   - The Royal Family - Great Britain
 ---
 

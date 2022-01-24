@@ -9,7 +9,7 @@ tags:
   - Kathleen Quealy
   - Dr Samuel Johnson
   - David Dunstan
-  - Richard Ernest Nowell (R.E.N.) Twopeny
+  - Richard Ernest Nowell -REN- Twopeny
   - Les Francis
   - Ian Mackenzie
   - Christopher Daniel

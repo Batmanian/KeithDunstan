@@ -15,7 +15,7 @@ tags:
   - George Sutherland Smith III
   - P. OSullivan
   - John C Brown
-  - J.C. (Jimmy) Watson
+  - J.C. -Jimmy- Watson
   - Chateau Tahbilk
   - Eric Purbrick
   - Great Western
