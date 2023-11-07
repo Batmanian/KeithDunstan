@@ -1,7 +1,7 @@
 ---
 title: Snobbery in business
 date: 1971-11-11
-summary: Keith's chapter in 'The Australian Uppercrust Book', published in 1971, is on snobbery in business.
+summary: Keith's chapter in 'The Australian Uppercrust Book', published in 1971, is on snobbery in business. 
 tags:
   - Albert Tucker
   - Arthur Boyd
