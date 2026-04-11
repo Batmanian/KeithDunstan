@@ -1,0 +1,16 @@
+# Legacy /posts/ redirects — migrated to /books/ and /articles/ structure
+# All 301 permanent redirects
+
+# Books
+/posts/a-day-in-the-life-of-australia/*   /books/a-day-in-the-life-of-australia/:splat   301
+/posts/my-life-with-the-demon/*            /books/my-life-with-the-demon/:splat            301
+/posts/no-brains-at-all/*                  /books/no-brains-at-all/:splat                  301
+/posts/ratbags/*                           /books/ratbags/:splat                           301
+/posts/supporting-a-column/*               /books/supporting-a-column/:splat               301
+/posts/the-australian-uppercrust-book/*    /books/the-australian-uppercrust-book/:splat    301
+/posts/wowsers/*                           /books/wowsers/:splat                           301
+
+# Articles
+/posts/bulletin/*                          /articles/bulletin/:splat                       301
+/posts/walkabout-magazine/*                /articles/walkabout-magazine/:splat             301
+/posts/the-australian-gourmet/*            /articles/the-australian-gourmet/:splat         301

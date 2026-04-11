@@ -11,8 +11,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setDataDeepMerge(true);
 
   function filterTagList(tags) {
-    return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
-  }
+return (tags || []).filter(tag => ["all", "nav", "post", "posts", "book", "books", "article", "articles"].indexOf(tag) === -1);  }
 
   eleventyConfig.addFilter("filterTagList", filterTagList)
 
@@ -21,7 +20,7 @@ module.exports = function(eleventyConfig) {
     collection.getAll().forEach(item => {
       if (!item.data.tags) return;
       item.data.tags
-        .filter(tag => !['post', 'all'].includes(tag))
+        .filter(tag => !['post', 'all', 'book', 'books', 'article', 'articles'].includes(tag))
         .forEach(tag => {
           if(typeof tagsObject[tag] === 'undefined') {
             tagsObject[tag] = 1
