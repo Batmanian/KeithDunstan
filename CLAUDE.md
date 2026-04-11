@@ -54,7 +54,11 @@ Repository: https://github.com/JackDunstan/KeithDunstan
 /articles/the-australian-gourmet/article-title/
 ```
 
-Legacy `/posts/` URLs are redirected via `_redirects` — do not use `/posts/` paths for any new content.
+### Legacy `/posts/` URLs
+
+An earlier version of this site used `/posts/` as the path prefix for all content. Those URLs are now **dead in local development** — `_redirects` is processed by Netlify only, not by BrowserSync or Eleventy's local dev server.
+
+All source files (`.md` chapters, `.njk` index pages, snippet includes) have been updated to use the correct `/books/` and `/articles/` prefixes. **Do not introduce `/posts/` paths anywhere in `src/`.** The `_redirects` file exists solely to handle external inbound links and should not be expanded.
 
 ---
 
@@ -229,4 +233,5 @@ Pushes to `master` trigger automatic Netlify build and deploy.
 - Do not invent tag values — only tag proper nouns present in the text
 - Do not add new frontmatter fields without discussion
 - Do not write to `/dev` or `/docs` — these are build output folders
-- Do not use `/posts/` paths for any new content — use `/books/` or `/articles/`
+- Do not use `/posts/` paths anywhere in `src/` — all source files use `/books/` or `/articles/`. The `_redirects` file handles legacy inbound links on Netlify only and does not work in local dev
+- Do not add navigation links to articles unless there is a clear logical sequence

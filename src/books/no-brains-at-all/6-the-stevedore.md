@@ -131,4 +131,4 @@ Months went by. There were several thousand tonnes of bombs to be returned to Au
 It was mid-April 1948 before I finally had my release from lovely Labuan Island. Now, whenever I hear Max Bruch, usually on ABC FM, I think of Labuan.
 
 <hr>
-Continue to chapter seven: <a href="{{ '/posts/no-brains-at-all//7_byline_dreamer' | url }}">Byline dreamer</a></li>
+Continue to chapter seven: <a href="{{ '/books/no-brains-at-all//7_byline_dreamer' | url }}">Byline dreamer</a></li>

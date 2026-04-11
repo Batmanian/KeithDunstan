@@ -161,7 +161,7 @@ Marie complains that everything in the kitchen is stolen regularly for the winer
 But eventually the wine settles down and quietly sits there in the barrels for a year. Every week it is important to do the rounds and top them up. The evaporation rate per barrel in summer is at least a bottle a week. We always accuse God of taking the wine. There is no doubt, he is incredibly thirsty.
 
 <hr>
-<p class="lead">Follow onto the next chapter, <a href="{{ '/posts/my-life-with-the-demon/10-bottling-the-demon' | url }}">Bottling the demon</a>
+<p class="lead">Follow onto the next chapter, <a href="{{ '/books/my-life-with-the-demon/10-bottling-the-demon' | url }}">Bottling the demon</a>
 
 
 

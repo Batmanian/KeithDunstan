@@ -130,5 +130,5 @@ Fortunately Marie Rose, a very capable trained nurse, was there. She cleaned up 
 Yet that ride home from the Phoenix was a great way of acquiring wisdom. It was the last time I allowed the Demon to take over.
 
 <hr>
-<p class="lead">Follow onto the next chapter, <a href="{{ '/posts/my-life-with-the-demon/3-the-beer-demon' | url }}">The Beer Demon</a>
+<p class="lead">Follow onto the next chapter, <a href="{{ '/books/my-life-with-the-demon/3-the-beer-demon' | url }}">The Beer Demon</a>
 

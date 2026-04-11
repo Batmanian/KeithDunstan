@@ -257,4 +257,4 @@ In later years 1 realised our marriage had been plotted entirely by my mother an
 It was a marriage similar to those of the Chinese or medieval nobility, arranged entirely by the parents. Our marriage subsequently was such a success, improving year by year, that I have wondered often ever since whether marriage is not a problem too serious to be left to the young.
 
 <hr>
-Continue to chapter eight: <a href="{{ '/posts/no-brains-at-all/8_correspondent' | url }}">Correspondent</a>
+Continue to chapter eight: <a href="{{ '/books/no-brains-at-all/8_correspondent' | url }}">Correspondent</a>

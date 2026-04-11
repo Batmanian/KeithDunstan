@@ -1,46 +1,98 @@
-# 11straps = 11ty + Bootstrap5
+# Keith Dunstan Archive
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/64b42b0c-aeba-4583-b023-202fcdf571bb/deploy-status)](https://app.netlify.com/sites/11straps-demo/deploys)
+A digital archive of **Keith Dunstan** (1925–2013), Australian journalist and author. The site preserves his books and magazine articles for public access. Copyright is held by his literary estate and managed by his family.
 
-**Live Demo**: <a href="https://11straps.com" target="_blank">11straps.com</a>
+**Live site:** https://keithdunstan.org  
+**Repository:** https://github.com/JackDunstan/KeithDunstan
 
-## What is 11straps?
-11straps is a simple boilerplate. It combines the static site generator <a href="https://www.11ty.dev/" target="_blank">11ty</a> with the CSS framework <a href="https://getbootstrap.com/" target="_blank">Bootstrap 5</a> and is stitched together with some npm and Gulp magic dust. It minifies and purges the CSS file (so it removes any unused CSS) and comes with a static server and browser sync support for your local development.
+---
 
-## Requirements
-You need Node (at least v8+) on your computer. To check if you have node and what version run this command in your terminal:
-```
-node --version
+## Tech Stack
+
+Built with [Eleventy (11ty)](https://www.11ty.dev/) using the 11straps boilerplate (Eleventy + Bootstrap 5), compiled with Gulp, deployed via [Netlify](https://www.netlify.com/) from this repository.
+
+---
+
+## Local Development
+
+Requires Node.js (v14+).
+
+```bash
+npm install       # Install dependencies
+npm run watch     # Local dev server with live reload at http://localhost:3000
+npm run build-dev # Build to /dev (unminified)
+npm run build     # Build to /docs (minified, for production)
 ```
 
-## Want to try it out now?
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/holger1411/11straps)
+Pushes to `master` trigger automatic Netlify build and deploy.
 
-## Installation
-Download and extract the [latest release](https://github.com/holger1411/11straps/releases) or checkout the main branch of this repo.
-Fire up your terminal, go to the new folder and run:
-```
-npm install
-```
-Now you are good to go.
+---
 
-## Build it for dev
-To build your static website for local development run:
-```
-npm run build-dev
-```
-This will build the static website into the `/dev` folder without all the minifiying and purging stuff (<- much faster and a more human friendly code output, but a much bigger package)
+## Project Structure
 
-## Run in dev mode
-To run the build-dev task automatically on file changes run:
 ```
-npm run watch
+/
+├── src/
+│   ├── books/                    # All books, one folder per title
+│   │   └── [book-slug]/
+│   │       ├── 0-introduction.md
+│   │       └── 1-chapter-name.md
+│   ├── articles/                 # All magazine/periodical articles
+│   │   ├── bulletin/
+│   │   ├── walkabout-magazine/
+│   │   └── the-australian-gourmet/
+│   ├── _includes/                # Nunjucks layout templates and snippets
+│   └── *.njk                     # Top-level pages (index pages for books/articles)
+├── dev/                          # Dev build output (do not edit)
+├── docs/                         # Production build output (do not edit)
+├── ocr/                          # Working directory for OCR source files
+├── _redirects                    # Netlify redirect rules (legacy URL support only)
+├── .eleventy.js
+├── gulpfile.js
+└── CLAUDE.md                     # Instructions for Claude AI assistance
 ```
-That will run a local server from `/dev` folder and connects browser sync to it. On changes within the `/src` folder it will run the `npm run build-dev` command automatically and will refresh your browser.
 
-## Build it for prod
-If you are done with your dev work and happy with it its time to deploy your static website into the wild wild west (www). To build your static website for a prod deployment run:
+---
+
+## URL Structure
+
 ```
-npm run build
+/books/[book-slug]/[chapter-filename]/
+/articles/[publication-slug]/[article-slug]/
 ```
-That will output the full site, with purged and minified CSS and minified html. The output will be stored in the `/public` folder.
+
+**Note:** Legacy `/posts/` URLs from earlier versions of this site are handled by `_redirects` on Netlify only — they do not resolve in local development. All source files use the correct `/books/` and `/articles/` paths.
+
+---
+
+## Books
+
+| Folder | Title |
+|--------|-------|
+| `a-day-in-the-life-of-australia` | A Day in the Life of Australia |
+| `my-life-with-the-demon` | My Life with the Demon |
+| `no-brains-at-all` | No Brains At All |
+| `ratbags` | Ratbags |
+| `supporting-a-column` | Supporting a Column |
+| `the-australian-uppercrust-book` | The Australian Upper Crust Book |
+| `wowsers` | Wowsers |
+
+## Article Collections
+
+| Folder | Publication |
+|--------|-------------|
+| `bulletin` | The Bulletin |
+| `walkabout-magazine` | Walkabout Magazine |
+| `the-australian-gourmet` | The Australian Gourmet |
+
+---
+
+## Content Workflow
+
+Content is transcribed from physical books and digitised magazine scans (sourced from Trove, State Library Victoria). See `CLAUDE.md` for the full transcription workflow and frontmatter requirements.
+
+---
+
+## AI Assistance
+
+This project uses Claude (via Claude Code) for OCR transcription and content management. See `CLAUDE.md` for detailed instructions covering frontmatter, tagging rules, prose conventions, and transcription prompts.

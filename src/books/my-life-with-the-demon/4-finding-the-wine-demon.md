@@ -185,4 +185,4 @@ For us 1968 was the climactic year. Vignerons all around the country discovered 
 Alas, never again, were things the same for the home bottler.
 
 <hr>
-<p class="lead">Follow onto the next chapter, <a href="{{ '/posts/my-life-with-the-demon/5-the-demon-becomes-a-snob' | url }}">The demon becomes a snob</a>
+<p class="lead">Follow onto the next chapter, <a href="{{ '/books/my-life-with-the-demon/5-the-demon-becomes-a-snob' | url }}">The demon becomes a snob</a>

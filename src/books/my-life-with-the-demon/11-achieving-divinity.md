@@ -170,4 +170,4 @@ The technique is to get a beautiful bottle of champagne, shake it as if it were 
 No please, this sparkling wine, invented by the venerable monk, Dom Perignon, is a gift from God, it deserves always to be nosed first for its bouquet, savoured gently in the mouth then delivered to the stomach, nowhere else.
 
 <hr>
-<p class="lead">Follow onto the next chapter, <a href="{{ '/posts/my-life-with-the-demon/12-the-money-demon' | url }}">The money demon</a></p>
+<p class="lead">Follow onto the next chapter, <a href="{{ '/books/my-life-with-the-demon/12-the-money-demon' | url }}">The money demon</a></p>

@@ -174,4 +174,4 @@ Keith suffered so much of that that he left journalism to run his own public rel
 No, this was the time for me to get far away, also. It was a chance to join Keith in Brisbane. I accepted the Bednall offer.
 
 <hr>
-Continue to chapter nine: <a href="{{ '/posts/no-brains-at-all/9_walking_the_tightrope' | url }}">Walking the tightrope</a></li>
+Continue to chapter nine: <a href="{{ '/books/no-brains-at-all/9_walking_the_tightrope' | url }}">Walking the tightrope</a></li>

@@ -38,4 +38,4 @@ So an autobiographer must watch himself, be a stern examiner and strive for hone
 After the writing there was the hunt to find the right title. 'A Fortunate Life' would have been ideal, but unfortunately it had already been taken. 'Tandem' I liked because for more than forty years my life has been in tandem with my wife, Marie Rose. We love tandem bicycling. The cyclist who rides number two on a tandem is known as the stoker. This life would have gone nowhere without Marie Rose as the stoker. Finally we went back to the words of my old science teacher, Charlie Cameron, who had tried valiantly to teach me the mysteries of chemistry and physics. One day in desperation he had said: 'Dunstan, you are stupid. You have no brains at all. But you do have guts'.
 There is something in that. Even if it does not require superior brain, just possibly it takes guts to write an autobiography.
 <hr>
-Continue to chapter one: <a href="{{ '/posts/no-brains-at-all/1_a_nice_suburb' | url }}">A nice suburb</a>
+Continue to chapter one: <a href="{{ '/books/no-brains-at-all/1_a_nice_suburb' | url }}">A nice suburb</a>

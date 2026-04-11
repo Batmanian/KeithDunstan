@@ -268,4 +268,4 @@ Wilkie, who inspired the Anti Football League, of which more later, was an ideas
 
 Geoffrey Tebbutt was another great figure on the Herald. He retired from journalism in 1972 and died in 1973. My most vivid memory of Tebbutt is of a lean, white-haired figure, with a beak of a nose, rushing to the Herald sub-editors' room before noon with half a dozen proofs flying behind him like streamers. He had discovered at least six errors in the first edition. The subs would dread his daily probe, but they missed him when be left. Indeed, this is my greatest fear with modern journalism. All the old hands, the erudite ones, such as Legge, Hawken and Tebbutt, have gone. I had a superb sub-editor, Kevin Voltz, who kept me out of trouble for more than ten years. But now it is not the same; often we journalists feel rudderless. The terrible errors that we make go straight into the paper. The great computer technology has not saved us.
 
-<hr> Continue to chapter eleven: <a href="{{ '/posts/no-brains-at-all/11_the_antis' | url }}">The Antis</a></li>
+<hr> Continue to chapter eleven: <a href="{{ '/books/no-brains-at-all/11_the_antis' | url }}">The Antis</a></li>

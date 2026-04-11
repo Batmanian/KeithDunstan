@@ -154,4 +154,4 @@ It was agreed that the St Vincent's trophy would be a perpetual challenge cup on
 However it never came to pass. Even now it seems it would be wonderful idea if we could stage annual Wine Test matches between competing wine producing nations. It could certainly be as exciting as some other Test matches one could name. Nor could it ever be interrupted by the weather.
 
 <hr>
-<p class="lead">Follow onto the next chapter, <a href="{{ '/posts/my-life-with-the-demon/6-the-creative-demon' | url }}">The creative demon</a>
+<p class="lead">Follow onto the next chapter, <a href="{{ '/books/my-life-with-the-demon/6-the-creative-demon' | url }}">The creative demon</a>

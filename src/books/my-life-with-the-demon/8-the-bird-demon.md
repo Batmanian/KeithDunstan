@@ -165,4 +165,4 @@ We were in hiding, observing from the bedroom. Not two minutes went by before Lo
 "I do indeed." Actually I should never have doubted. It is well known that poodles, and particularly toy poddles, are psychologically strange and Lotte was no exception.
 
 <hr>
-<p class="lead">Follow onto the next chapter, <a href="{{ '/posts/my-life-with-the-demon/9-it-is-essential-to-have-clean-feet' | url }}">It is essential to have clean feet</a>
+<p class="lead">Follow onto the next chapter, <a href="{{ '/books/my-life-with-the-demon/9-it-is-essential-to-have-clean-feet' | url }}">It is essential to have clean feet</a>

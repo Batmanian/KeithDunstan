@@ -112,4 +112,4 @@ I lined them on the kitchen table, took photographs, and purred, our first vinta
 Quality virgins like this on the Mornington Peninsula are as rare as Tasmanian Tigers.
 
 <hr>
-<p class="lead">Follow onto the next chapter, <a href="{{ '/posts/my-life-with-the-demon/8-the-bird-demon' | url }}">The bird demon</a>
+<p class="lead">Follow onto the next chapter, <a href="{{ '/books/my-life-with-the-demon/8-the-bird-demon' | url }}">The bird demon</a>

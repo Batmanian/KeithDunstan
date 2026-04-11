@@ -250,4 +250,4 @@ Eventually she moved into a maisonette in Irving Road, Toorak. There she still c
 
 Marie and I moved from Brisbane to Melbourne on 20 December 1957. There were a number of reasons: it was important to be near my mother, and John Waters, Editor-in-Chief of the Herald and Weekly Times, said he needed a columnist for the Sun News-Pictorial. Could I start immediately - like on 31 December? Dad was no longer in Flinders Street. I was not the boss's son any more. So I became the daily columnist for the Sun News-Pictorial, a job that kept me busy for twenty-seven years.
 
-<hr> Continue to chapter ten: <a href="{{ '/posts/no-brains-at-all/10_apits' | url }}">APITS</a></li>
+<hr> Continue to chapter ten: <a href="{{ '/books/no-brains-at-all/10_apits' | url }}">APITS</a></li>

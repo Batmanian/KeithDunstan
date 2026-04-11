@@ -228,4 +228,4 @@ The doctors told me it was part of the Hippocratic oath that they heal people. I
 Only one said he would go to see Dalziel, but he would promise absolutely nothing. Dalziel died a few days later, on 13 February 1978. I don't know whether that doctor did anything. I did not ask him and the subject was never discussed.
 Bob's wife, Elizabeth, endured all this. A flinty character, she was as brave as he. Soon after the funeral she said there was a history in her family of cardiac asthma and she would be dead within a year. Her prediction was precisely correct. They left two sons, Andrew and Matthew. The Daiziels I will always remember as my people of the 1970s.
 
-<hr>Continue to chapter thirteen: <a href="{{ '/posts/no-brains-at-all/13_pedalling_passion' | url }}">Pedalling passion</a>
+<hr>Continue to chapter thirteen: <a href="{{ '/books/no-brains-at-all/13_pedalling_passion' | url }}">Pedalling passion</a>

@@ -110,6 +110,6 @@ It was an eerie experience. It was having a drink with Dad, 14 years after his d
 "Thanks dad," we said.
 
 <hr>
-<p class="lead">Follow onto the next chapter, <a href="{{ '/posts/my-life-with-the-demon/2-the-demon-in-command' | url }}">The Demon in Command</a>
+<p class="lead">Follow onto the next chapter, <a href="{{ '/books/my-life-with-the-demon/2-the-demon-in-command' | url }}">The Demon in Command</a>
 
 

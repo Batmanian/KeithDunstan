@@ -212,4 +212,4 @@ That afternoon there was an order for Dunstan and Dalziel to report to the comma
 What had Dad been up to? I found out later. He had gone to his friend Air Commodore F. R. W. Scherger and arranged for Dunstan and Dalziel to go to Number 11 Elementary Flying Training School, Benalla, as - oh heaven! - future pilots.
 
 <hr>
-Continue to chapter five: <a href="{{ '/posts/no-brains-at-all/5_the_sprog' | url }}">The Sprog</a>
+Continue to chapter five: <a href="{{ '/books/no-brains-at-all/5_the_sprog' | url }}">The Sprog</a>

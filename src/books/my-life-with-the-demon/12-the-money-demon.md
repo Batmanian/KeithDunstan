@@ -114,4 +114,4 @@ For three days cars poured through, they cut up the front lawn, they backed in t
 Indeed that is the ultimate pleasure, the satisfaction, which makes all the agony worthwhile. Marie and I love pouring our own wine, which, naturally, we think is delicious. David commented on this only last week. He said: "Dad, you have the most finely honed cellar palate I ever encountered."
 
 <hr>
-<p class="lead">Follow onto the final chapter, <a href="{{ '/posts/my-life-with-the-demon/13-demonic-people' | url }}">Demonic people</a></p>
+<p class="lead">Follow onto the final chapter, <a href="{{ '/books/my-life-with-the-demon/13-demonic-people' | url }}">Demonic people</a></p>
