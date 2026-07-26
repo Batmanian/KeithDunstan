@@ -13,6 +13,15 @@ The site is built with **Eleventy (11ty)** using the 11straps boilerplate (Eleve
 Live site: https://keithdunstan.org  
 Repository: https://github.com/JackDunstan/KeithDunstan
 
+
+---
+
+## Working with Claude Code
+
+- **Model selection**: Use the most efficient Claude model capable of the task — don't reach for a larger/slower model than the work requires.
+- **Plan before each task**: Before starting a non-trivial task, write a plan as a Markdown checkbox list and save it to `plan.md` in the folder most relevant to the task (e.g. `scripts/plan.md` for a pipeline change, `vinyl/plan.md` for vinyl work, or the repo root for cross-cutting changes). As work proceeds, check items off (`- [x]`) in place rather than rewriting the file. Leave completed plans in place — `plan.md` is a persistent, per-folder record of what was attempted and finished, so future sessions in that folder have context on prior work before starting new tasks there.
+
+
 ---
 
 ## Repository Structure
@@ -163,11 +172,13 @@ When transcribing or cleaning OCR text:
 
 ### Books (physical copies)
 
-1. **Scan** using iPhone — Notes app, Files app, or Continuity Camera direct to Mac
-2. **Upload** the scan (PDF or images) to Claude with the prompt template below
-3. **Save output** as a `.md` file in `src/books/[book-slug]/`
-4. **Review** lightly in VS Code — check for OCR errors, `[?]` flags, malformed characters
-5. **Commit and push** — Netlify builds and deploys automatically
+1. **Scan** using iPhone — Notes app, Files app, or Continuity Camera direct to Mac. Save the HEIC photos into `src/books/[book-slug]/Scans/[chapter-name]/` (this folder is gitignored and never committed — it is working input only).
+2. **Convert** the HEIC scans to JPEG with `scripts/ocr-prep.sh "src/books/[book-slug]/Scans/[chapter-name]"`. Claude's Read tool cannot open HEIC files and has a 256KB size limit, so this script resizes and compresses each page into `ocr/[chapter-name]/` (also gitignored) until it fits.
+3. **Transcribe** by having Claude read each converted page image in order and write the chapter text, following the prompt template below.
+4. **Save output** as a `.md` or `.njk` file in `src/books/[book-slug]/`, named `[chapter-number]-[chapter-slug]`. Number chapters according to the book's own printed Contents page — if the Contents lists a Foreword or Introduction ahead of Chapter 1, give those their own numbered slots (e.g. `1-foreword`, `2-introduction`, `3-first-chapter-title`) rather than folding them into chapter 1. Follow whatever numbering scheme existing chapter files in that book already use.
+5. **Review** lightly in VS Code — check for OCR errors, `[?]` flags, malformed characters.
+6. **Clean up** with `scripts/ocr-cleanup.sh "[chapter-name]"` once the transcription has been reviewed and is correct. This deletes the converted JPEGs in `ocr/[chapter-name]/` outright (they're cheaply regenerable from the HEIC originals) and moves the original HEIC scans to the Trash (not a permanent delete, since those can't be regenerated without re-scanning the physical book).
+7. **Commit and push** — Netlify builds and deploys automatically. Do not commit the `Scans/` or `ocr/` working directories.
 
 ### Magazine Articles
 

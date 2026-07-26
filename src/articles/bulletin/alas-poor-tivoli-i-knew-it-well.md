@@ -5,7 +5,7 @@ summary: First published in the Bulletin Magazine, 1967.
 categories:
 - The Bulletin
 tags:
-  - Tivoli theatre
+  - Tivoli Theatre
   - Bourke Street
   - Melbourne
   - His Majestys Theatre

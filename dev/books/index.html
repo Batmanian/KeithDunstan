@@ -402,10 +402,10 @@
             <div class="col-12 col-md-3">
                <img src="/img/ratbags.jpg" class="img-fluid" alt="Cover of the  book">
             </div>
-            <div class="col-12 col-md-9"><p>1980, Published by Golden Press<br><p>From the first edition: "Ratbags is Keith Dunstan's is Keith Dunstan's fourth book which looks at Australians and the offbeat way they behave. The other titles which complete the quartet are Wowsers, Knockers and Sports. </p><p>
+            <div class="col-12 col-md-9"><p>1980, Published by Golden Press<br><p>From the first edition: "Ratbags is Keith Dunstan's fourth book which looks at Australians and the offbeat way they behave. The other titles which complete the quartet are Wowsers, Knockers and Sports. </p><p>
 It has been suggested that Keith Dunstan himself is highly qualified as a ratbag, having spent a long and industrious career practising his eccentricities. He is the founder of The Anti Football League, The Pro Mini Club and The National Distrust. <p></p>
 He has ridden a bicycle across America, has become a member of the anti-automobile lobby and has been a daily columnist for twenty-four years. But perhaps he has best earned the title of Ratbag by surviving as Batman of the Bulletin for 17 years. He is an achiever.  "</p>
-
+<p><a href="/ratbags">Read the Introduction and available chapters here.</a></p>
             </div>
          </div>
       </div>
@@ -623,10 +623,19 @@ He has ridden a bicycle across America, has become a member of the anti-automobi
 <small>Built with <a href="https://www.11ty.dev/">Eleventy</a> by <a href="https://www.linkedin.com/in/jackdunstan//">Jack Dunstan</a></i>
 </a></small>
 <br>
-    <br>&copy; Copyright - The literary estate of Keith Dunstan 1967-2023</p>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan <span id="copyright-year">1967-2023</span></p>
   </div>
 </div>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1967-' + currentYear;
+    }
+  });
+</script>
 <script src="/js/bootstrap.bundle.min.js"></script>
 
     </footer>
