@@ -1,0 +1,16 @@
+---
+title: "THE FEDERAL ELECTION ‘Middle class’ to carry the flag for Victorian ALP"
+date: 1980-09-30
+summary: "First published in The Bulletin, 1980-09-30. [Stub — not yet transcribed]"
+categories:
+- The Bulletin
+tags:
+---
+
+> vanced Education; sitting member Brian Howe ( Batman ), ex-Methodist minister and lecturer; Peter Watson
+
+[Full article text not yet transcribed. Visit the Trove link below to read and transcribe, then move this file to `src/posts/bulletin/`.]
+
+<hr>
+
+*Source: [THE FEDERAL ELECTION ‘Middle class’ to carry the flag for Victorian ALP](https://nla.gov.au/nla.obj-1597726570), The Bulletin, 1980-09-30. Retrieved via the National Library of Australia's Trove database.*

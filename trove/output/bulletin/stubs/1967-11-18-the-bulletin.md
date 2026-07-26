@@ -1,0 +1,16 @@
+---
+title: "The Bulletin"
+date: 1967-11-18
+summary: "First published in The Bulletin, 1967-11-18. [Stub — not yet transcribed]"
+categories:
+- The Bulletin
+tags:
+---
+
+> COLUMNS One More Week 5_ Batman's Melbourne 11_ Out and About by Daphne Guinness 13^ On the Margin by Ross
+
+[Full article text not yet transcribed. Visit the Trove link below to read and transcribe, then move this file to `src/posts/bulletin/`.]
+
+<hr>
+
+*Source: [The Bulletin](https://nla.gov.au/nla.obj-704137159), The Bulletin, 1967-11-18. Retrieved via the National Library of Australia's Trove database.*

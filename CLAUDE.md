@@ -1,248 +1,104 @@
-# Keith Dunstan — Project Instructions for Claude
+## Quick Reference
 
-This file provides context for Claude (via Claude Code or the Claude.ai interface) when working on this repository.
+**Project:** Digital archive of Keith Dunstan (1925–2013), Australian journalist and author.  
+**Site:** https://keithdunstan.org — built with Eleventy (11ty) + Bootstrap 5 (11straps boilerplate), Gulp, deployed via Netlify from GitHub.
 
----
+**Content lives in:**
+- `src/posts/[collection-slug]/` — all readable content (both book chapters and magazine articles)
+- Book intro/index pages sit directly in `src/` (e.g. `src/supporting-a-column.md`, `src/batman-in-the-bulletin.njk`)
 
-## Project Overview
+**Current collections under `src/posts/`:**
+| Slug | Type | Description |
+|------|------|-------------|
+| `no-brains-at-all` | Book | Memoir, 1990 |
+| `supporting-a-column` | Book | Memoir, 1966 |
+| `a-day-in-the-life-of-australia` | Book | Bicentennial history, 1989 |
+| `bulletin` | Articles | Written under pseudonym "John Batman" |
+| `walkabout-magazine` | Articles | Walkabout magazine pieces |
 
-This is the digital archive of **Keith Dunstan** (1925–2013), Australian journalist and author. The site preserves his books and magazine articles for public access. Copyright is held by his literary estate and managed by his family.
+**Default layout and `post` tag** are set globally by `src/posts/posts.json` — don't repeat them in frontmatter.
 
-The site is built with **Eleventy (11ty)** using the 11straps boilerplate (Eleventy + Bootstrap 5), compiled with Gulp, and deployed via **Netlify** from this GitHub repository.
+**Key constraints:**
+- Do not manually edit `dev/`, `public/`, or `docs/` — all are build output
+- Preserve Keith Dunstan's voice exactly; Australian English; single-quote dialogue
+- Tags are granular proper nouns only (people, places, organisations)
+- Article files should have 5–15 tags; book chapter files may have empty tags
+- Every `.md` file requires `title`, `date`, and `summary` frontmatter
+- Article files may also use a `categories` field (e.g. `- The Bulletin`)
 
-Live site: https://keithdunstan.org  
-Repository: https://github.com/JackDunstan/KeithDunstan
-
-
----
-
-## Working with Claude Code
-
-- **Model selection**: Use the most efficient Claude model capable of the task — don't reach for a larger/slower model than the work requires.
-- **Plan before each task**: Before starting a non-trivial task, write a plan as a Markdown checkbox list and save it to `plan.md` in the folder most relevant to the task (e.g. `scripts/plan.md` for a pipeline change, `vinyl/plan.md` for vinyl work, or the repo root for cross-cutting changes). As work proceeds, check items off (`- [x]`) in place rather than rewriting the file. Leave completed plans in place — `plan.md` is a persistent, per-folder record of what was attempted and finished, so future sessions in that folder have context on prior work before starting new tasks there.
-
-
----
-
-## Repository Structure
-
-```
-/
-├── src/
-│   ├── books/                        # All books, one folder per title
-│   │   └── [book-slug]/
-│   │       ├── 0-introduction.md
-│   │       ├── 1-chapter-name.md
-│   │       └── ...
-│   ├── articles/                     # All magazine/periodical articles
-│   │   ├── bulletin/                 # The Bulletin (bulk of articles)
-│   │   ├── walkabout-magazine/
-│   │   ├── the-australian-gourmet/
-│   │   └── [publication-slug]/       # Add new publications as needed
-│   ├── _includes/                    # Nunjucks layout templates
-│   └── ...
-├── dev/                              # Dev build output (do not edit)
-├── docs/                             # Production build output (do not edit)
-├── ocr/                              # Working directory for OCR source files
-├── _redirects                        # Netlify redirect rules (legacy URL support)
-├── .eleventy.js
-├── gulpfile.js
-├── package.json
-└── CLAUDE.md                         # This file
-```
-
----
-
-## URL Structure
-
-```
-/books/wowsers/1-chapter-title/
-/books/no-brains-at-all/0-introduction/
-/articles/bulletin/article-title/
-/articles/walkabout-magazine/article-title/
-/articles/the-australian-gourmet/article-title/
-```
-
-### Legacy `/posts/` URLs
-
-An earlier version of this site used `/posts/` as the path prefix for all content. Those URLs are now **dead in local development** — `_redirects` is processed by Netlify only, not by BrowserSync or Eleventy's local dev server.
-
-All source files (`.md` chapters, `.njk` index pages, snippet includes) have been updated to use the correct `/books/` and `/articles/` prefixes. **Do not introduce `/posts/` paths anywhere in `src/`.** The `_redirects` file exists solely to handle external inbound links and should not be expanded.
-
----
-
-## Current Book Catalogue
-
-| Folder | Title |
-|--------|-------|
-| `a-day-in-the-life-of-australia` | A Day in the Life of Australia |
-| `my-life-with-the-demon` | My Life with the Demon |
-| `no-brains-at-all` | No Brains At All |
-| `ratbags` | Ratbags |
-| `supporting-a-column` | Supporting a Column |
-| `the-australian-uppercrust-book` | The Australian Upper Crust Book |
-| `wowsers` | Wowsers |
-
----
-
-## Current Article Collections
-
-| Folder | Publication |
-|--------|-------------|
-| `bulletin` | The Bulletin |
-| `walkabout-magazine` | Walkabout Magazine |
-| `the-australian-gourmet` | The Australian Gourmet |
-
-When adding a new publication, create a new folder under `src/articles/` using kebab-case of the publication name.
-
----
-
-## Frontmatter Template
-
-Every Markdown file must include this frontmatter block. Do not omit any field.
-
+**Frontmatter example — article:**
 ```yaml
 ---
-title: Chapter or Article Title
-date: YYYY-MM-DD
-summary: One or two sentence description of this chapter or article.
+title: Alas, poor Tivoli, I knew it well.
+date: 1967-04-15
+summary: First published in the Bulletin Magazine, 1967.
+categories:
+- The Bulletin
 tags:
-  - Tag One
-  - Tag Two
+  - Tivoli theatre
+  - Melbourne
 ---
 ```
 
-**date:** Use the book's original publication date for all chapters within a book. For articles, use the original issue date.
-
-**summary:** Concise, factual, third person. Should function as a search result snippet.
-
-**tags:** See tagging rules below.
-
+**Frontmatter example — book chapter:**
+```yaml
 ---
-
-## Tagging Rules
-
-Tags are **granular proper nouns** — specific people, places, and organisations mentioned in the content. Not broad thematic categories.
-
-**Use:**
-- Full personal names: `Sir Keith Murdoch`, `Sid Caesar`, `Colin Bednall`
-- Specific places: `Honolulu`, `New York`, `London`, `Ballarat`
-- Organisations: `Australian Journalists Association`, `Herald and Weekly Times`
-- Broad thematic terms only when strongly central to the entire piece: `Autobiography`, `Cricket`
-
-**Do not use:**
-- Vague descriptors: `History`, `Writing`, `Interesting`
-- Partial names where the full name is known
-- Duplicates differing only in capitalisation
-
-Aim for 5–15 tags per file. Generate by reading the full text and extracting every significant proper noun.
-
----
-
-## Navigation Links
-
-Each chapter ends with an HTML navigation link to the next chapter:
-
-```html
-<hr>
-Continue to [next chapter title]: <a href="{{ '/books/[book-slug]/[next-filename]' | url }}">[Next Chapter Title]</a>
-```
-
-For articles, omit the navigation link unless there is a logical next piece.  
-The final chapter of a book links back to the book index page if one exists.
-
----
-
-## Prose Conventions
-
-When transcribing or cleaning OCR text:
-
-- Preserve Keith Dunstan's voice exactly — do not modernise vocabulary, structure, or punctuation
-- Australian English throughout: `colour`, `realise`, `honour`, `organise`
-- Dialogue uses single quotes: `'like this'`
-- Line breaks within dialogue use `<br>` tags
-- Em dashes rendered as ` — ` (space, em dash, space)
-- Preserve original paragraph breaks
-- Do not add subheadings that do not appear in the original printed text
-- Rejoin end-of-line hyphenation from print layout (e.g. `fas-\ncinating` → `fascinating`)
-
----
-
-## OCR and Transcription Workflow
-
-### Books (physical copies)
-
-1. **Scan** using iPhone — Notes app, Files app, or Continuity Camera direct to Mac. Save the HEIC photos into `src/books/[book-slug]/Scans/[chapter-name]/` (this folder is gitignored and never committed — it is working input only).
-2. **Convert** the HEIC scans to JPEG with `scripts/ocr-prep.sh "src/books/[book-slug]/Scans/[chapter-name]"`. Claude's Read tool cannot open HEIC files and has a 256KB size limit, so this script resizes and compresses each page into `ocr/[chapter-name]/` (also gitignored) until it fits.
-3. **Transcribe** by having Claude read each converted page image in order and write the chapter text, following the prompt template below.
-4. **Save output** as a `.md` or `.njk` file in `src/books/[book-slug]/`, named `[chapter-number]-[chapter-slug]`. Number chapters according to the book's own printed Contents page — if the Contents lists a Foreword or Introduction ahead of Chapter 1, give those their own numbered slots (e.g. `1-foreword`, `2-introduction`, `3-first-chapter-title`) rather than folding them into chapter 1. Follow whatever numbering scheme existing chapter files in that book already use.
-5. **Review** lightly in VS Code — check for OCR errors, `[?]` flags, malformed characters.
-6. **Clean up** with `scripts/ocr-cleanup.sh "[chapter-name]"` once the transcription has been reviewed and is correct. This deletes the converted JPEGs in `ocr/[chapter-name]/` outright (they're cheaply regenerable from the HEIC originals) and moves the original HEIC scans to the Trash (not a permanent delete, since those can't be regenerated without re-scanning the physical book).
-7. **Commit and push** — Netlify builds and deploys automatically. Do not commit the `Scans/` or `ocr/` working directories.
-
-### Magazine Articles
-
-1. **Source** from Trove (NLA), State Library Victoria (ProQuest), or other library databases
-2. **Extract text** directly if already digitised; scan physical copies if not
-3. **Process** with the Claude prompt template below
-4. **File** under `src/articles/[publication-slug]/` with correct publication date
-5. **Commit and push**
-
-### Claude Transcription Prompt
-
-Use this prompt when uploading a scanned chapter or article to Claude:
-
-```
-Transcribe the text from these scanned pages accurately.
-
-Rules:
-- Preserve the author's exact wording, punctuation and paragraph structure
-- Australian English spelling throughout
-- Dialogue uses single quotes
-- Em dashes rendered as ` — ` (space, em dash, space)
-- Rejoin any words hyphenated across line breaks in the original print layout
-- Flag any characters you are uncertain about with [?]
-- Do not add commentary, headings, or formatting not present in the original
-
-Output a complete Markdown file with this frontmatter:
-
----
-title: [Chapter or article title as it appears in the source]
-date: [Original publication date YYYY-MM-DD]
-summary: [One or two sentence factual description, third person]
+title: Introduction
+date: 1990-11-11
+summary: The opening for his first book of memoirs, 'No Brains At All'.
 tags:
-  - [All significant proper nouns from the text]
 ---
-
-[transcribed text]
-
-<hr>
-Continue to [next chapter title]: <a href="{{ '/books/[book-slug]/[NEXT_FILENAME]' | url }}">[Next Chapter Title]</a>
 ```
 
-Replace `[NEXT_FILENAME]` and the link path before committing. For articles, omit the navigation block.
+---
+
+## Trove API Pipeline
+
+Scripts in `trove/` fetch Keith Dunstan's articles from the National Library of Australia's Trove database via API v3. Output: `.md` files for Eleventy.
+
+**Setup:**
+- `cd trove`
+- `python3 -m venv .venv`
+- `source .venv/bin/activate`
+- `pip install -r requirements.txt`
+- Copy `.env.example` to `.env` and add Trove API key
+
+**Scripts:**
+- `diagnose_*.py` — Test API for specific publications (e.g., `diagnose_walkabout.py`)
+- `fetch_*.py` — Fetch article stubs (e.g., `fetch_batman.py` for Bulletin, `fetch_byline.py` for general)
+- `deduplicate.py` — Remove duplicates
+- `triage.py` — Interactive review of stubs (keep/transcribe/reject)
+- `remove_duplicates.py` — Automated duplicate removal
+
+**Workflow:**
+1. Fetch stubs → `trove/output/[publication]/stubs/`
+2. Triage with `python triage.py` → move to `transcribed/` or `rejected/`
+3. Move transcribed to `src/posts/[publication]/`
+4. Commit and push
+
+**Key notes:**
+- Preserve Trove source URLs in output
+- Tags: granular proper nouns only
+- See `trove/README.md` and `todo.md` for details
 
 ---
 
-## Build Commands
+## Outstanding Work
 
+See `todo.md` for full tracking of:
+- Bulletin and Walkabout article triage/transcription
+- Physical transcription for non-Trove publications
+- Book transcription progress
+- Site technical improvements (search, theme migration)
+
+**Build:**
 ```bash
-npm install          # Install dependencies
-npm run watch        # Local development with live reload
-npm run build-dev    # Build to /dev (unminified)
-npm run build        # Build to /docs (minified, production)
+npm run watch    # local dev (output → dev/)
+npm run build    # production build (output → public/, what Netlify deploys)
 ```
 
-Pushes to `master` trigger automatic Netlify build and deploy.
+**Deploy:** `git push` to `master` triggers Netlify build automatically (configured in `netlify.toml`, publishes from `public/`).
 
----
+**OCR tooling:** `ocr/` contains a Node.js OCR pipeline (`ocr/index.js`) using `node-tesseract-ocr` for processing scanned documents into markdown.
 
-## What Claude Should Not Do
-
-- Do not alter Keith Dunstan's prose — transcription is not editing
-- Do not change Australian/British spellings to American English
-- Do not invent tag values — only tag proper nouns present in the text
-- Do not add new frontmatter fields without discussion
-- Do not write to `/dev` or `/docs` — these are build output folders
-- Do not use `/posts/` paths anywhere in `src/` — all source files use `/books/` or `/articles/`. The `_redirects` file handles legacy inbound links on Netlify only and does not work in local dev
-- Do not add navigation links to articles unless there is a clear logical sequence
+**Trove tooling:** `trove/` contains Python scripts for fetching Keith Dunstan's articles from the National Library of Australia's Trove API v3. Pipeline: `setup.py` (once) → `fetch_batman.py` / `fetch_byline.py` → `deduplicate.py` → `remove_duplicates.py` → `triage.py` (interactive review) → move to `src/posts/[publication-slug]/`. See `trove/README.md` for full context.

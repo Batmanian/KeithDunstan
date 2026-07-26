@@ -1,0 +1,16 @@
+---
+title: "Victoria ALP Nemesis"
+date: 1966-11-19
+summary: "First published in The Bulletin, 1966-11-19. [Stub — not yet transcribed]"
+categories:
+- The Bulletin
+tags:
+---
+
+> the seats of Batman and Bendigo, and some hope of winning Yarra (Dr. Cairns), Wills (Mr. Bryant), and Darebin (Mr. Courtnay). The seat of Batman , consisting largely of the northern suburbs Heidelberg and
+
+[Full article text not yet transcribed. Visit the Trove link below to read and transcribe, then move this file to `src/posts/bulletin/`.]
+
+<hr>
+
+*Source: [Victoria ALP Nemesis](https://nla.gov.au/nla.obj-689570293), The Bulletin, 1966-11-19. Retrieved via the National Library of Australia's Trove database.*

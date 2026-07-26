@@ -1,0 +1,16 @@
+---
+title: "LIFESTYLE The Jeanagers"
+date: 1972-02-19
+summary: "First published in The Bulletin, 1972-02-19. [Stub — not yet transcribed]"
+categories:
+- The Bulletin
+tags:
+---
+
+> LIFESTYLE The Jeanagers Batman takes a look at the jean scene Jeans new, jeans old; jeans coming
+
+[Full article text not yet transcribed. Visit the Trove link below to read and transcribe, then move this file to `src/posts/bulletin/`.]
+
+<hr>
+
+*Source: [LIFESTYLE The Jeanagers](https://nla.gov.au/nla.obj-1489324646), The Bulletin, 1972-02-19. Retrieved via the National Library of Australia's Trove database.*

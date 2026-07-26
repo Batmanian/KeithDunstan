@@ -1,0 +1,16 @@
+---
+title: "National Notebook"
+date: 1962-08-18
+summary: "First published in The Bulletin, 1962-08-18. [Stub — not yet transcribed]"
+categories:
+- The Bulletin
+tags:
+---
+
+> impermanent air. Just after the war a visiting dignitary paraphrased John Batman by saying of Darwin: “This is
+
+[Full article text not yet transcribed. Visit the Trove link below to read and transcribe, then move this file to `src/posts/bulletin/`.]
+
+<hr>
+
+*Source: [National Notebook](https://nla.gov.au/nla.obj-696404131), The Bulletin, 1962-08-18. Retrieved via the National Library of Australia's Trove database.*

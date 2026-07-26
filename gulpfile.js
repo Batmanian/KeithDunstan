@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var plumber = require('gulp-plumber');
 var cleanCSS = require('gulp-clean-css');
-var sass = require('gulp-dart-sass');
+var sass = require('gulp-sass')(require('sass'));
 var clean = require('gulp-clean');
 var browserSync = require('browser-sync').create();
 var rename = require('gulp-rename');
@@ -14,7 +14,7 @@ var reload      = browserSync.reload;
 var cfg = require( './gulpconfig.json' );
 var paths = cfg.paths;
 
-sass.compiler = require('node-sass');
+sass.compiler = require('sass');
 
 gulp.task('dist-assets', function (done) {
     gulp.src('./src/js/**.*')
@@ -59,23 +59,9 @@ gulp.task('purgecss', () => {
         .pipe(gulp.dest('public/css'))
 })
 
-gulp.task('clean-public', function() {
-  return gulp.src('public', {
-      read: false,
-      allowEmpty: true
-    })
-    .on('error', function(err) {
-      console.log(err.toString());
-
-      this.emit('end');
-    })
-    .pipe(clean());
-});
-
-gulp.task('clean-dev', function() {
-  return gulp.src('dev', {
-      read: false,
-      allowEmpty: true
+gulp.task('clean-dist', function() {
+  return gulp.src('dist', {
+      read: false
     })
     .on('error', function(err) {
       console.log(err.toString());
