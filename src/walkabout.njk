@@ -1,0 +1,26 @@
+---
+layout: layouts/default.njk
+title: Walkabout Magazine
+summary: Keith Dunstan's Walkabout articles are listed here.
+---
+
+<div class="row">
+  <div class="col-12 col-lg-8 offset-lg-2">
+    <p class="lead">Keith Dunstan wrote for Walkabout Magazine between 1962 and 1973.</p>
+    <p><a href="https://en.wikipedia.org/wiki/Walkabout_(magazine)">Walkabout Magazine</a> shaped how mid-twentieth-century Australians imagined their country, its landscapes and its place in the Pacific. Published by the Australian National Travel Association from 1934 to 1974, it combined travel writing, photography, geography, natural history and cultural commentary to present Australia as a place to be explored, understood and promoted. </p><p> For a current audience, Walkabout was important not only as a record of tourism and popular print culture, but also as evidence of how settler Australians represented Aboriginal, Torres Strait Islander and Pacific peoples. Its articles and images helped many urban readers encounter remote regions and cultures, while also reflecting attitudes that can now be read critically as dated, selective and at times discriminatory. As both a travel magazine and a cultural archive, Walkabout showed how national identity, modernity, tourism and race were being negotiated in twentieth-century Australia.</p>
+
+    <h4>Articles</h4>
+    <ul>
+      {% for article in collections.walkabout %}
+        <li>
+          <a href="{{ article.url | url }}">{{ article.data.title }}</a>
+          {% if article.date %}
+            <span class="text-muted"> — {{ article.date | readableDate }}</span>
+          {% endif %}
+        </li>
+      {% else %}
+        <li>No Walkabout articles found yet.</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

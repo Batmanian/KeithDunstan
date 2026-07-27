@@ -30,7 +30,6 @@ tags:
   - The Age
   - The Herald
   - Whelan the Wrecker
-  - 
 ---
 
 

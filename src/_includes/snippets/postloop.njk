@@ -1,38 +1,28 @@
 <div class="row d-flex justify-content-center">
   <div class="col-12">
     {%- for post in posts %}
-      <div class="py-5 border-bottom">
-        <a href="{{ post.url | url }}" class="text-decoration-none text-dark"><h2 class="display-4">{{ post.data.title}}</h2></a>
-        <p>Published
+      <div class="py-4 border-bottom">
+        <a href="{{ post.url | url }}" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“{{ post.data.title }}”</h3></a>
+        <p class="text-muted small mb-2">Published
           <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
         </p>
- 
+
         <p>{{ post.data.summary }}</p>
 
-      <p>
-        {% for tag in post.data.tags | filterTagList %}
-          {% set tagUrl %}/keyword/{{ tag | slug }}/{% endset %}
-          <a href="{{ tagUrl | url }}" class="btn mb-2 btn-outline-dark btn-sm me-2">{{ tag }}</a>
-        {% endfor %}
-      </p>
         <a href="{{ post.url | url }}" class="link-fancy">Read more...</a>
-        
+
+        {% set postTags = post.data.tags | filterTagList %}
+        {% if postTags.length %}
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+            {%- for tag in postTags %}
+              {% set tagUrl %}/topic/{{ tag | slug }}/{% endset %}
+              <a href="{{ tagUrl | url }}" class="link-secondary">{{ tag }}</a>{% if not loop.last %},{% endif %}
+            {%- endfor %}
+          </p>
+        {% endif %}
       </div>
     {% endfor %}
   </div>
 </div>
-
-<div class="row d-flex justify-content-center">
-  <div class="col-12">
-    <div class="row d-flex justify-content-between">
-      <div class="col">
-        {% if pagination.href.previous %}
-        
-          <a href="{{pagination.href.previous}}" class="btn mt-3 btn-outline-primary">< Previous Page</a> {% endif %} </div> <div class="col text-end"> {% if pagination.href.next %} <a href="{{pagination.href.next}}" class="btn mt-3 btn-outline-primary">Next Page ></a>
-        {% endif %}
-      </div>
-    </div>
-  </div>
-</div>
-
 

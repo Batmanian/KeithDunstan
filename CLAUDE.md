@@ -4,19 +4,25 @@
 **Site:** https://keithdunstan.org — built with Eleventy (11ty) + Bootstrap 5 (11straps boilerplate), Gulp, deployed via Netlify from GitHub.
 
 **Content lives in:**
-- `src/posts/[collection-slug]/` — all readable content (both book chapters and magazine articles)
-- Book intro/index pages sit directly in `src/` (e.g. `src/supporting-a-column.md`, `src/batman-in-the-bulletin.njk`)
+- `src/books/[book-slug]/` — book chapters
+- `src/articles/[publication-slug]/` — magazine/newspaper articles
+- Book intro/index pages sit directly in `src/` (e.g. `src/supporting-a-column.njk`, `src/batman-in-the-bulletin.njk`)
 
-**Current collections under `src/posts/`:**
-| Slug | Type | Description |
-|------|------|-------------|
-| `no-brains-at-all` | Book | Memoir, 1990 |
-| `supporting-a-column` | Book | Memoir, 1966 |
-| `a-day-in-the-life-of-australia` | Book | Bicentennial history, 1989 |
-| `bulletin` | Articles | Written under pseudonym "John Batman" |
-| `walkabout-magazine` | Articles | Walkabout magazine pieces |
+**Current collections:**
+| Slug | Location | Type | Description |
+|------|----------|------|-------------|
+| `no-brains-at-all` | `src/books/` | Book | Memoir, 1990 |
+| `supporting-a-column` | `src/books/` | Book | Memoir, 1966 |
+| `a-day-in-the-life-of-australia` | `src/books/` | Book | Bicentennial history, 1989 |
+| `my-life-with-the-demon` | `src/books/` | Book | Memoir, 1994 |
+| `ratbags` | `src/books/` | Book | Profiles, 1980 |
+| `the-australian-uppercrust-book` | `src/books/` | Book | 1971 (Keith's chapter only) |
+| `wowsers` | `src/books/` | Book | 1968 |
+| `bulletin` | `src/articles/` | Articles | Written under pseudonym "John Batman" |
+| `walkabout-magazine` | `src/articles/` | Articles | Walkabout magazine pieces |
+| `the-australian-gourmet` | `src/articles/` | Articles | Gourmet magazine pieces |
 
-**Default layout and `post` tag** are set globally by `src/posts/posts.json` — don't repeat them in frontmatter.
+**Default layout (`layouts/post.njk`) and collection tag** (`book` or `article`) are set per-collection by `src/books/books.json` and `src/articles/articles.json` — don't repeat them in frontmatter.
 
 **Key constraints:**
 - Do not manually edit `dev/`, `public/`, or `docs/` — all are build output
@@ -73,7 +79,7 @@ Scripts in `trove/` fetch Keith Dunstan's articles from the National Library of 
 **Workflow:**
 1. Fetch stubs → `trove/output/[publication]/stubs/`
 2. Triage with `python triage.py` → move to `transcribed/` or `rejected/`
-3. Move transcribed to `src/posts/[publication]/`
+3. Move transcribed to `src/articles/[publication]/`
 4. Commit and push
 
 **Key notes:**
@@ -101,4 +107,4 @@ npm run build    # production build (output → public/, what Netlify deploys)
 
 **OCR tooling:** `ocr/` contains a Node.js OCR pipeline (`ocr/index.js`) using `node-tesseract-ocr` for processing scanned documents into markdown.
 
-**Trove tooling:** `trove/` contains Python scripts for fetching Keith Dunstan's articles from the National Library of Australia's Trove API v3. Pipeline: `setup.py` (once) → `fetch_batman.py` / `fetch_byline.py` → `deduplicate.py` → `remove_duplicates.py` → `triage.py` (interactive review) → move to `src/posts/[publication-slug]/`. See `trove/README.md` for full context.
+**Trove tooling:** `trove/` contains Python scripts for fetching Keith Dunstan's articles from the National Library of Australia's Trove API v3. Pipeline: `setup.py` (once) → `fetch_batman.py` / `fetch_byline.py` → `deduplicate.py` → `remove_duplicates.py` → `triage.py` (interactive review) → move to `src/articles/[publication-slug]/`. See `trove/README.md` for full context.

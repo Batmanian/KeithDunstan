@@ -1,8 +1,18 @@
-{% for tag in collections.tagList %}
-  {% set tagUrl %}/keyword/{{ tag.tagName | slug }}/{% endset %}
-  <a href="{{ '/keyword/' | url }}{{ tag.tagName | slug }}" class="mb-2 btn btn-outline-dark btn-sm me-2">{{ tag.tagName }}
-    <span class="ms-1 badge bg-dark">
-    {{ tag.tagCount }}
-    </span>
-  </a>
-{% endfor %}
+<p class="text-muted mb-4">{{ collections.tagList.length }} topics, sized by how often they appear.</p>
+<div class="tag-cloud">
+  {%- for tag in collections.tagList %}
+    {%- set tagUrl %}{{ '/topic/' | url }}{{ tag.tagName | slug }}/{% endset -%}
+    {%- if tag.tagCount >= 7 -%}
+      {%- set tagSize = "fs-2 fw-semibold" -%}
+    {%- elif tag.tagCount >= 5 -%}
+      {%- set tagSize = "fs-3 fw-semibold" -%}
+    {%- elif tag.tagCount >= 4 -%}
+      {%- set tagSize = "fs-4" -%}
+    {%- elif tag.tagCount >= 2 -%}
+      {%- set tagSize = "fs-5" -%}
+    {%- else -%}
+      {%- set tagSize = "fs-6 text-muted" -%}
+    {%- endif %}
+    <a href="{{ tagUrl }}" class="link-dark text-decoration-none d-inline-block me-3 mb-2 {{ tagSize }}" title="{{ tag.tagCount }} item{% if tag.tagCount != 1 %}s{% endif %} include{% if tag.tagCount == 1 %}s{% endif %} this topic">{{ tag.tagName }}</a>
+  {%- endfor %}
+</div>

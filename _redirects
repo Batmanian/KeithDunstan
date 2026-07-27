@@ -14,3 +14,6 @@
 /posts/bulletin/*                          /articles/bulletin/:splat                       301
 /posts/walkabout-magazine/*                /articles/walkabout-magazine/:splat             301
 /posts/the-australian-gourmet/*            /articles/the-australian-gourmet/:splat         301
+
+# Keywords renamed to topics
+/keyword/*                                 /topic/:splat                                   301

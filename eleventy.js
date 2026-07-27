@@ -12,9 +12,24 @@ module.exports = function(eleventyConfig) {
     return (tags || []).filter(tag => ["all", "nav", "post", "posts", "book", "books", "article", "articles"].indexOf(tag) === -1);
   }
 
-  eleventyConfig.addFilter("filterTagList", filterTagList)
+  function bulletinCollection(items) {
+    return (items || [])
+      .filter(item => {
+        const inputPath = item.inputPath || '';
+        return inputPath.includes('src/bulletin/') || inputPath.includes('src/articles/bulletin/');
+      })
+      .sort((a, b) => (b.date || 0) - (a.date || 0));
+  }
 
-  // ── Tag list (sorted by frequency, used for /keyword/ pages) ──────────────
+  eleventyConfig.addFilter("filterTagList", filterTagList)
+  eleventyConfig.addFilter("bulletinCollection", bulletinCollection)
+
+  // ── Netlify redirects (e.g. /keyword/* -> /topic/*) ────────────────────────
+  // _redirects lives at the repo root; Netlify only reads it from the publish
+  // directory, so it has to be passed through into the build output.
+  eleventyConfig.addPassthroughCopy("_redirects");
+
+  // ── Tag list (sorted by frequency, used for /topic/ pages) ─────────────────
 
   eleventyConfig.addCollection("tagList", collection => {
     const tagsObject = {}
@@ -62,20 +77,18 @@ module.exports = function(eleventyConfig) {
   // Useful for publication-specific index pages and sidebar snippets
 
   eleventyConfig.addCollection("bulletin", collection => {
-    return collection
-      .getFilteredByGlob("src/articles/bulletin/*.md")
-      .sort((a, b) => b.date - a.date);
+    return bulletinCollection(collection.getAll());
   });
 
   eleventyConfig.addCollection("walkabout", collection => {
     return collection
-      .getFilteredByGlob("src/articles/walkabout-magazine/*.md")
+      .getFilteredByGlob("src/articles/walkabout-magazine/**/*.md")
       .sort((a, b) => b.date - a.date);
   });
 
   eleventyConfig.addCollection("australianGourmet", collection => {
     return collection
-      .getFilteredByGlob("src/articles/the-australian-gourmet/*.md")
+      .getFilteredByGlob("src/articles/the-australian-gourmet/**/*.md")
       .sort((a, b) => b.date - a.date);
   });
 

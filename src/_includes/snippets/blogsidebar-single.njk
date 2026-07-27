@@ -4,15 +4,18 @@
         {{ summary }}
       </p>
 <hr>
-<h4 class="h6">Keywords in this article</h4>
-  {%- for tag in tags | filterTagList -%}
-            {%- set tagUrl %}/keyword/{{ tag | slug }}/{% endset -%}
-            <a href="{{ tagUrl | url }}" class="btn mb-2 btn-outline-dark btn-sm me-2">{{ tag }}</a>
-          {%- endfor %}
+<h4 class="h6">Related topics</h4>
+<p class="small text-muted mb-3">
+  {%- set pageTags = tags | filterTagList %}
+  {%- for tag in pageTags %}
+    {% set tagUrl %}/topic/{{ tag | slug }}/{% endset %}
+    <a href="{{ tagUrl | url }}" class="link-secondary">{{ tag }}</a>{% if not loop.last %},{% endif %}
+  {%- endfor %}
+</p>
 
 <br>
 <hr>
-<small><a href="{{ '/search/' | url }}" >View all keywords</a></small>
+<small><a href="{{ '/search/' | url }}" >View all topics</a></small>
        
 </div>
 

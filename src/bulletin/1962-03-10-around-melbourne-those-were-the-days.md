@@ -1,7 +1,7 @@
 ---
 title: "Around Melbourne THOSE WERE THE DAYS"
 date: 1962-03-10
-summary: "First published in The Bulletin, 1962-03-10. [Stub — not yet transcribed]"
+summary: "First published in The Bulletin, 1962-03-10."
 categories:
 - The Bulletin
 tags:

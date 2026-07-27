@@ -20,7 +20,6 @@ tags:
   - Walgett
   - Marrabel
   - Tommy Cannon
-  -  
 ---
 
 A young rough-rider leaned against the dogging chute at Myrtletord and made a rare admission: 

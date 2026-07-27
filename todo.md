@@ -25,7 +25,7 @@ Last updated: 27 July 2026.
 | My Life with the Demon | 1994 | 13 | 13 | 0 | 0 | Complete |
 | Supporting a Column | 1966 | 9 | 9 | 0 | 0 | Complete |
 | The Australian Upper Crust Book | 1971 | 1 (Keith's chapter only) | 1 | 0 | 0 | Complete as scoped — other authors' chapters out of scope |
-| Ratbags | 1980 | 26 (foreword + intro + 24 profiles) | 13 | 3 🔤 + 10 📂 | 0 | See §2 for chapter detail |
+| Ratbags | 1980 | 26 (foreword + intro + 24 profiles) | 19 | 7 📷 | 0 | See §2 for chapter detail |
 | Wowsers | 1968 | 10 | 2 | 6 📝 (empty stubs) | 2 | See §3 for chapter detail |
 | A Day in the Life of Australia | 1989 | 258 known daily entries | 8 | 11 📝 | 239 | See §4 — scale makes full per-entry tracking impractical |
 | Batman in the Bulletin | 2004 | Themed excerpt collection, not chapters | — | — | — | Sourced from Bulletin articles directly; see §5 |
@@ -61,21 +61,21 @@ Contents list sourced from `src/ratbags.njk`, cross-checked against `src/books/r
 | 11 | William Charles Wentworth IV | ✅ | Scans/OCR files still present — cleanup not yet run |
 | 12 | Prince Leonard of Hutt | ✅ | Scans/OCR files still present — cleanup not yet run |
 | 13 | George Dick Meudell | ✅ | Transcribed most recently — Scans/OCR files still present, cleanup not yet run |
-| 14 | Frank Thring | 🔤 | OCR'd to `ocr/Chapter 12 - Frank Thring/` (11 pages) — ready to transcribe |
-| 15 | Lillian Frank | 🔤 | OCR'd to `ocr/Chapter 13 - Lillian Frank/` (8 pages) — ready to transcribe |
-| 16 | Xavier (Alfred Francis) Herbert | 🔤 | OCR'd to `ocr/Chapter 14 - Xavier Herbert/` (13 pages) — ready to transcribe |
-| 17 | Percy Wills Cerutty | 📂 | Empty scan folder created, awaiting physical scan |
-| 18 | Arthur Stace | 📂 | Empty scan folder created, awaiting physical scan |
-| 19 | Leonard Paul Evans | 📂 | Empty scan folder created, awaiting physical scan |
-| 20 | King O'Malley | 📂 | Empty scan folder created, awaiting physical scan |
-| 21 | Alexander Tolmer | 📂 | Empty scan folder created, awaiting physical scan |
-| 22 | Percy Aldridge Grainger | 📂 | Empty scan folder created, awaiting physical scan |
-| 23 | Germaine Greer | 📂 | Empty scan folder created, awaiting physical scan |
-| 24 | Justus Jorgenson | 📂 | Empty scan folder created, awaiting physical scan |
-| 25 | Clement John De Garis | 📂 | Empty scan folder created, awaiting physical scan |
-| 26 | Kevin Charles — Pro Hart | 📂 | Empty scan folder created, awaiting physical scan |
+| 14 | Frank Thring | ✅ | Scans/OCR files still present — cleanup not yet run |
+| 15 | Lillian Frank | ✅ | Transcribed most recently — Scans/OCR files still present, cleanup not yet run |
+| 16 | Xavier (Alfred Francis) Herbert | ✅ | Scans/OCR files still present — cleanup not yet run |
+| 17 | Percy Wills Cerutty | ✅ | Scans/OCR files still present — cleanup not yet run |
+| 18 | Arthur Stace | ✅ | Scans/OCR files still present — cleanup not yet run |
+| 19 | Leonard Paul Evans | ✅ | Scans/OCR files still present — cleanup not yet run |
+| 20 | King O'Malley | ✅ | Scans/OCR files still present — cleanup not yet run |
+| 21 | Alexander Tolmer | ✅ | Scans/OCR files still present — cleanup not yet run |
+| 22 | Percy Aldridge Grainger | ✅ | Scans/OCR files still present — cleanup not yet run |
+| 23 | Germaine Greer | ✅ | Scans/OCR files still present — cleanup not yet run |
+| 24 | Justus Jorgensen | ✅ | Scans/OCR files still present — cleanup not yet run; corrected spelling from "Jorgenson" to "Jorgensen" to match the book |
+| 25 | Clement John De Garis | 📷 | Scanned (13 photos) — awaiting OCR/transcription |
+| 26 | Kevin Charles — Pro Hart | 📷 | Scanned (12 photos) — awaiting OCR/transcription |
 
-**Immediate next steps:** transcribe the three already-OCR'd chapters (Thring, Frank, Herbert); run `scripts/ocr-cleanup.sh` for chapters 10–13 whose scans are stale; physically scan the remaining 10 chapters.
+**Immediate next steps:** transcribe chapter 16 (Xavier Herbert, already OCR'd); OCR and transcribe chapters 17–26, now all scanned and dropped into `src/books/ratbags/Scans/`; run `scripts/ocr-cleanup.sh` for chapters 10–15 whose scans are stale.
 
 ---
 
@@ -239,6 +239,8 @@ For publications not in Trove, physical copies must be sourced and scanned. Foll
 - [ ] **Annual Trove review** — per data agreement, review published articles against current Trove availability annually (next due: before 31 December 2026)
 - [ ] **Data agreement expiry** — Trove API data agreement expires 31 December 2026; raw API results (JSON/CSV in `trove/output/`) must be deleted by then unless renewed
 - [ ] **Stray files to clean up:** `src/books/my-life-with-the-demon/a-brand-new-commonwealth.ini` (misplaced planning file, see §4); empty `src/books/ratbags/Scans/Chapter 4 - Edward William Cole/` folder (chapter already complete)
+- [ ] **Unexplained Eleventy tag-doubling — worked around, not root-caused.** `src/books/my-life-with-the-demon/13-demonic-people.md` renders its "Related topics" list twice on every `/topic/*` page it appears on. Confirmed via direct `gray-matter` parsing that the file's own frontmatter is clean (24 unique tags, listed once each), but Eleventy's data cascade hands templates `item.data.tags` with 49 entries (`"book"` + the 24 tags, twice) — verified with temporary debug logging in `.eleventy.js`'s `tagList` collection builder and the `filterTagList` filter. Checked and ruled out: no `.11tydata.json`/`.11tydata.js` sidecar file, no duplicate `tags:` key in the frontmatter, no stray YAML anchors, no other directory-data file beyond `src/books/books.json` (`tags: ["book"]`, doesn't explain the doubling of the *other* 24). Tested a structurally similar file (`src/books/ratbags/5-john-barry-humphries.njk`, also inherits `book` via directory data, also multi-tagged) and it behaves correctly — so this is isolated to this one file, not a general `setDataDeepMerge(true)` issue, and the actual mechanism inside Eleventy 3.1.5's TemplateData/computed-data cascade was never found. **Current fix:** both `filterTagList` and the `tagList` collection builder in `.eleventy.js` now dedupe with `[...new Set(tags)]` before filtering/counting, which fully resolves the visible symptom (and is good practice regardless — guards against any future accidental duplicate tag). Worth a proper root-cause dig if this resurfaces on another file or if Eleventy is upgraded.
+- [ ] **Related, already fixed:** three files had a trailing empty `-` bullet at the end of their `tags:` list (YAML parses it as `null`), which was generating a garbage `/topic/null/` page site-wide — `src/articles/walkabout-magazine/bird-watching.md`, `src/articles/walkabout-magazine/rough-riding-for-five-minutes-a-year.md`, `src/books/no-brains-at-all/10-apits.md`. The stray lines have been removed; worth a quick grep (`grep -rn "^\s*-\s*$" src --include="*.md" --include="*.njk"` after a `tags:` block) next time new content is transcribed, since it's an easy copy-paste slip.
 
 ---
 
@@ -257,8 +259,8 @@ For publications not in Trove, physical copies must be sourced and scanned. Foll
 - [x] Trove publication diagnostics run for all major publications
 - [x] Bulletin articles — 7 transcribed and live on site
 - [x] Walkabout articles — 4 transcribed and live on site (Bird Watching, Rough-Riding, Summer Madness, Paddy's Market to Luxury Hotel)
-- [x] Ratbags — chapters 1–13 of 26 live (foreword, introduction, 11 profiles)
-- [x] Ratbags — chapters 12–14 (Frank Thring, Lillian Frank, Xavier Herbert) scanned and OCR'd, awaiting transcription
-- [x] Ratbags — 10 further chapters have empty scan folders created, awaiting physical scanning
+- [x] Ratbags — chapters 1–15 of 26 live (foreword, introduction, 13 profiles)
+- [x] Ratbags — chapter 16 (Xavier Herbert) scanned and OCR'd, awaiting transcription
+- [x] Ratbags — chapters 17–26 physically scanned and dropped into `Scans/`, awaiting OCR/transcription
 - [x] Books fully live on site: No Brains At All, Supporting a Column, My Life with the Demon, The Australian Upper Crust Book (as scoped)
-- [x] Books partially live: A Day in the Life of Australia (8 of 258 known entries + 11 drafted), Wowsers (2 of 10 chapters), Ratbags (13 of 26 chapters)
+- [x] Books partially live: A Day in the Life of Australia (8 of 258 known entries + 11 drafted), Wowsers (2 of 10 chapters), Ratbags (15 of 26 chapters)

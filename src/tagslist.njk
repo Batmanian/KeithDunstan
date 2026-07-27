@@ -1,14 +1,14 @@
 ---
 permalink: /search/
 layout: layouts/default.njk
-title: Search and keywords
+title: Search and topics
+titleClass: h2 mb-2
 ---
-<hr>
-<h3>Search by term</h3>
+<p class="text-muted mb-5">Search by term, or browse by topic below.</p>
 
+<h2 class="h5">Search by term</h2>
 <script async src="https://cse.google.com/cse.js?cx=377210222f0fe08d8"></script>
-<div class="gcse-search"></div>
-<h3>Or keyword<span class="h5"> sorted by popularity</span></h3>
+<div class="gcse-search mb-5"></div>
 
-
-    {% include 'snippets/tagslist.njk' %}
+<h2 class="h5">Or browse by topic</h2>
+{% include 'snippets/tagslist.njk' %}
