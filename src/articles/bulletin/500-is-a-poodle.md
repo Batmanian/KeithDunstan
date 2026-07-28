@@ -1,7 +1,7 @@
 ---
 title: "£500 Is a Poodle"
 date: 1962-08-25
-summary: First published in the Bulletin Magazine, 1962.
+summary: The three-day, city-wide hunt for Heloise, a runaway pedigree poodle worth £500 sent from Adelaide for breeding, complete with a police search, a "poodle posse," and a televised on-air appeal.
 categories:
 - The Bulletin
 tags:

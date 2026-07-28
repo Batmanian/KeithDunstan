@@ -32,13 +32,17 @@
 - Tag spelling must match exactly across every file that uses it — `src/tags.njk` builds one page per tag via `permalink: /topic/{{ tag | slug }}/`, so variants like "Foster's Lager" vs "Fosters Lager", "St Kilda" vs "St. Kilda", or "X & Y" vs "X and Y" slugify to the same URL and crash the Eleventy build with `DuplicatePermalinkOutputError`. Check `src/_data/topics.md` for the canonical spelling before adding a new tag, and reuse it verbatim.
 - Every `.md` file requires `title`, `date`, and `summary` frontmatter
 - Article files may also use a `categories` field (e.g. `- The Bulletin`)
+- **`summary` must describe what the piece is actually about — never "First published in [Publication], [date]."** That fact already lives in the `date` field and is emitted separately as `article:published_time` in the page's Open Graph metadata (see "Open Graph metadata" below), so repeating it in `summary` wastes the one sentence a reader (or a search result, or a link preview) actually sees. Write one factual, specific sentence naming the actual subject — a person, event, place, or argument — in the same voice as the entries in `src/_data/topics.md`: declarative, concrete, no throat-clearing ("This article discusses...", "A piece about..."). Mention Keith Dunstan's own role only where it's genuinely part of the story (he covered it, he wrote it as a column, he interviewed the subject), not as a reflex closer on every sentence.
+  - The voice to match — a genuine entry from `src/_data/topics.md`: `"The six o'clock swill was the mad rush to down as many beers as possible before hotel bars shut at 6pm, a wartime austerity measure that lingered in Victoria until 1966 and which Keith Dunstan remembered as a defining, faintly absurd feature of 1950s Melbourne drinking."` — definitional, specific, a little wry, ties back to Keith only where it's earned.
+  - Applied to an article's `summary` (real example, `src/articles/bulletin/batmans-melbourne-this-is-a-fine-state-to-be-in.md`): `A survey of the deteriorating relations between Victoria and New South Wales, arguing Melbourne's case for its rightful place in the international air network via the new Tullamarine airport.`
+  - Bad: `First published in the Bulletin Magazine, 1962.` — says nothing about the piece; this exact boilerplate is what `trove/fetch_batman.py`, `fetch_byline.py`, and `fetch_walkabout.py` write into every stub's `summary` field as a placeholder (correctly marked `[Stub — not yet transcribed]`) — **replacing it with a real summary is part of finishing the transcription, not an optional polish pass.** Don't move a file out of `stubs/`/`transcribed/` into `src/articles/` with that placeholder still in place.
 
 **Frontmatter example — article:**
 ```yaml
 ---
 title: Alas, poor Tivoli, I knew it well.
 date: 1967-04-15
-summary: First published in the Bulletin Magazine, 1967.
+summary: A eulogy for Melbourne's Tivoli Theatre on its closure, tracing the rise and fall of the city's vaudeville and variety houses from Harry Rickards to Chico Marx.
 categories:
 - The Bulletin
 tags:
@@ -52,10 +56,12 @@ tags:
 ---
 title: Introduction
 date: 1990-11-11
-summary: The opening for his first book of memoirs, 'No Brains At All'.
+summary: Opens 'No Brains At All' by setting up its central joke — that a working-class Melbourne boyhood produced, by his own account, a journalist of no particular intelligence.
 tags:
 ---
 ```
+
+**Open Graph metadata:** `src/_includes/snippets/opengraph.njk` (included from every layout via `head.njk`) generates `og:description`/`twitter:description` directly from each page's `summary` frontmatter (falling back to `description`, then to `src/_data/metadata.json`'s sitewide default only when a page has neither). A generic or missing `summary` shows up immediately as a generic link preview — this is the main reason the convention above matters.
 
 ---
 

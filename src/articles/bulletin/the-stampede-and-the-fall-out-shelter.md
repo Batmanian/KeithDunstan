@@ -1,7 +1,7 @@
 ---
 title: The Stampede and the Fall-Out Shelter
 date: 1962-06-16
-summary: First published in the Bulletin Magazine, 1962.
+summary: Follows the new south-eastern freeway's traffic overflow into once-exclusive Toorak, then tours a fully-furnished nuclear fall-out shelter on display at the Building Industry Fair.
 categories:
 - The Bulletin
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Liquor and the Silk Trade
 date: 1962-10-13
-summary: First published in the Bulletin Magazine, 1962.
+summary: Traces Victoria's absurd six o'clock closing laws back to a wartime "state of emergency" that never officially ended, then joins 1200 delegates from the Associated Country Women of the World at their Melbourne conference.
 categories:
 - The Bulletin
 tags:

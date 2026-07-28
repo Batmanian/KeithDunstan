@@ -1,7 +1,7 @@
 ---
-title: Somewhat stunted columns
+title: Royal columns
 date: 1966-11-11
-summary: The third chapter of Keith's second book, 'Supporting a column'.
+summary: On the strange craft of covering Royal Tours since 1954 — the newsroom bans on "obviously" and "radiant," the Potemkin-village stage-management of crowds, and factories scrubbed spotless for a royal visit.
 tags:
   - Royal Family
   - 1963 Royal Visit to Australia

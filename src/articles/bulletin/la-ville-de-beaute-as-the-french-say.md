@@ -1,7 +1,7 @@
 ---
 title: "\"La Ville de Beauté\" (as the French Say)"
 date: 1962-11-03
-summary: First published in the Bulletin Magazine, 1962.
+summary: Melbourne wins bragging rights as Australia's "Conference City," hosting the World Power Conference's 1000-plus delegates through a whirlwind of interpreters, transistor earphones, and two 1600-guest banquets in the Exhibition Building.
 categories:
 - The Bulletin
 tags:

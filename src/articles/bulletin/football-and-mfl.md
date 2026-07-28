@@ -1,7 +1,7 @@
 ---
 title: Football and M.F.L.
 date: 1962-04-28
-summary: First published in the Bulletin Magazine, 1962.
+summary: Covers the Collingwood Football Club's ceremonial guernsey-presentation dinner for its new season, then the box-office phenomenon of "My Fair Lady"'s second Melbourne season at Her Majesty's Theatre.
 categories:
 - The Bulletin
 tags:
@@ -12,7 +12,7 @@ tags:
   - Frank Galbally
   - My Fair Lady
   - J. C. Williamsons
-  - Her Majesty's Theatre
+  - Her Majestys Theatre
   - Michael Denison
   - John McCallum
   - Christchurch

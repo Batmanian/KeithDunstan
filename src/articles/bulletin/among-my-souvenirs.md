@@ -1,7 +1,7 @@
 ---
 title: Among My Souvenirs
 date: 1962-10-06
-summary: First published in the Bulletin Magazine, 1962.
+summary: A wistful post-Grand-Final survey of Melbourne's VFL football obsession, from poodle-sized club sweaters to fans who queued 58 hours outside the MCG, plus a wary eye on soccer's fast-growing crowds at Olympic Park.
 categories:
 - The Bulletin
 tags:

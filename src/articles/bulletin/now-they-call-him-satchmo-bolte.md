@@ -1,7 +1,7 @@
 ---
 title: 'Now They Call Him "Satchmo" Bolte'
 date: 1962-06-30
-summary: First published in the Bulletin Magazine, 1962.
+summary: Traces the Exhibition Building's rise from would-be demolition target to beloved 1963 Trade Fair venue via its riotous 1880s exhibition history, then catches Henry Bolte earning the nickname "Satchmo" over a misquoted Anthony Trollope line about Victorian boasting.
 categories:
 - The Bulletin
 tags:

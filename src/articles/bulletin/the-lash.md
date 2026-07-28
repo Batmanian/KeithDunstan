@@ -1,7 +1,7 @@
 ---
 title: The Lash
 date: 1962-04-07
-summary: First published in the Bulletin Magazine, 1962.
+summary: A spate of unprovoked gang bashings sparks public calls for the return of the lash, running into Melbourne's ongoing water restrictions and a stake-money spat between the Caulfield and Melbourne Cups.
 categories:
 - The Bulletin
 tags:

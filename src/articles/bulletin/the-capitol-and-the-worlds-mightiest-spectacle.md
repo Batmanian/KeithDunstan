@@ -1,7 +1,7 @@
 ---
 title: The Capitol and ‘The World's Mightiest Spectacle.’ 
 date: 1964-01-25
-summary: First published in the Bulletin Magazine, 1964
+summary: On the closure of Walter Burley Griffin's Capitol Theatre, recalling its 1924 opening with "The Ten Commandments" and its Egyptian-god stage prelude, £15,000 Wurlitzer organ, and famous prismatic ceiling.
 categories:
 - The Bulletin
 tags:

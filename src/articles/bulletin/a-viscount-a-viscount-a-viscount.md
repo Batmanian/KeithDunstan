@@ -1,7 +1,7 @@
 ---
 title: A Viscount, a Viscount, a Viscount . . .
 date: 1962-05-26
-summary: First published in the Bulletin Magazine, 1962.
+summary: Profiles bandleader Tommy Davidson, Melbourne's leading writer of singing television commercials, from his award-winning Viscount cigarette jingle to a £5500 TV shoot with a 46-piece orchestra.
 categories:
 - The Bulletin
 tags:

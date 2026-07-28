@@ -1,7 +1,7 @@
 ---
 title:  A Pirate in Melbourne
 date: 1988-01-29
-summary: From a retrospective series Keith Dunstan wrote for the The Age Newspaper to mark the 1988 Australian bicentenary
+summary: The Confederate raider Shenandoah anchors in Port Phillip mid-Civil War and Melbourne society falls over itself to fete Captain Waddell, dividing The Argus and The Age over whether he's a hero or a pirate.
 tags:
   -  The Argus
   -  The Age

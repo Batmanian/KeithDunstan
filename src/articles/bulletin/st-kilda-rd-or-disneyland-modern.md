@@ -1,7 +1,7 @@
 ---
 title: St Kilda Rd — or Disneyland Modern
 date: 1962-09-08
-summary: First published in the Bulletin Magazine, 1962.
+summary: Laments the once-grand St Kilda Road's decline into brash "Disneyland Modern" office architecture, then reports on the inaugural meeting of Melbourne's new Noise Abatement Society, modelled on "America's quietest city," Memphis.
 categories:
 - The Bulletin
 tags:

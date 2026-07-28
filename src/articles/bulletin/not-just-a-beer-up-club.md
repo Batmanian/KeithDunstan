@@ -1,7 +1,7 @@
 ---
 title: Not Just a Beer-Up Club!
 date: 1962-08-11
-summary: First published in the Bulletin Magazine, 1962.
+summary: Mourns the demolition of the historic Scotts Hotel as Melbourne's city pubs vanish one by one, then visits the newly formed Beer Appreciation Society of Australia conducting solemn blind tastings at the Kilkenny Inn.
 categories:
 - The Bulletin
 tags:

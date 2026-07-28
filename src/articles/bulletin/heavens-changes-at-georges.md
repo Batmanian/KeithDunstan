@@ -1,7 +1,7 @@
 ---
 title: Heavens! Changes at Georges?
 date: 1962-10-20
-summary: First published in the Bulletin Magazine, 1962.
+summary: The staid ladies'-only department store Georges opens a men's-wear department for the first time in 82 years, complete with a private-club atmosphere and £250 vicuna coats.
 categories:
 - The Bulletin
 tags:

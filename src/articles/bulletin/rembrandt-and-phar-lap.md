@@ -1,7 +1,7 @@
 ---
 title: Rembrandt and Phar Lap
 date: 1962-05-05
-summary: First published in the Bulletin Magazine, 1962.
+summary: A reluctant Melburnian tourist takes a sightseeing coach tour of his own city, from Ned Kelly's gaol to the National Gallery, and finds Phar Lap draws more attention than the Rembrandt.
 categories:
 - The Bulletin
 tags:

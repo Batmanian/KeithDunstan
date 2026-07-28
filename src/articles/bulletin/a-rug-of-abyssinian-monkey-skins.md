@@ -1,7 +1,7 @@
 ---
 title: A Rug of Abyssinian Monkey Skins
 date: 1962-12-29
-summary: First published in the Bulletin Magazine, 1962.
+summary: Visits used-car king Emmanuel Margolin, once Australia's self-styled biggest car dealer, as the credit squeeze forces him to auction his Toorak mansion's zebra hides, matador suit, and 500-monkey-pelt rug.
 categories:
 - The Bulletin
 tags:

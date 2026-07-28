@@ -14,7 +14,7 @@ Eleventy, but the output format here is not coupled to it.
 - **Project**: Digital archive of Keith Dunstan (1925–2013), Australian journalist
 - **Live site**: keithdunstan.org
 - **Repo**: github.com/JackDunstan/KeithDunstan
-- **Content target**: `src/posts/[publication-slug]/` (after triage and manual review)
+- **Content target**: `src/articles/[publication-slug]/` (after triage and manual review)
 - **Frontmatter rules**: See `../CLAUDE.md` — tags are granular proper nouns only
 - **Attribution rule**: Every article must link back to its Trove source URL
 - **Keith's pen name in The Bulletin**: 'Batman' — column titled 'Batman's [topic]'
@@ -84,7 +84,7 @@ Then:
 
 1. Open `output/master_results.csv` to review what was found
 2. Complete the frontmatter (`summary`, `tags`) on files in `transcribed/` per `../CLAUDE.md`
-3. Move approved files from `output/<publication>/transcribed/` to `src/posts/<publication-slug>/`
+3. Move approved files from `output/<publication>/transcribed/` to `src/articles/<publication-slug>/`
 4. `git add`, `git commit`, `git push` — Netlify builds automatically
 
 ---
@@ -116,7 +116,7 @@ tags: []
 ---
 ```
 
-Before moving to `src/posts/bulletin/`, you must:
+Before moving to `src/articles/bulletin/`, you must:
 - Write a proper `summary` (one or two sentences, factual, third person)
 - Add `tags` (5–15 granular proper nouns per `../CLAUDE.md`)
 - Review the article text for OCR errors
@@ -199,7 +199,7 @@ For other publications, change `l-title` to the publication name as it appears i
 3. Update the CSV log filename
 4. Add the new slug to the `PUBLICATIONS` list in `setup.py` and re-run it
 5. Run fetch and triage scripts as normal
-6. Move approved files to `src/posts/[publication-slug]/`
+6. Move approved files to `src/articles/[publication-slug]/`
 
 ---
 

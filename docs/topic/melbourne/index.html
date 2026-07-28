@@ -2,12 +2,42 @@
 <html class="h-100" lang="en">
 
   <head>
-      <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="The collected literary works of Keith Dunstan OAM">
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Topic: Melbourne</title>
+<meta name="title" content="Topic: Melbourne">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="The collected literary works of Keith Dunstan OAM">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://keithdunstan.org/topic/melbourne/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Topic: Melbourne">
+<meta property="og:description" content="The collected literary works of Keith Dunstan OAM">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Topic: Melbourne">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/topic/melbourne/">
+<meta name="twitter:title" content="Topic: Melbourne">
+<meta name="twitter:description" content="The collected literary works of Keith Dunstan OAM">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Topic: Melbourne">
+<link rel="canonical" href="https://keithdunstan.org/topic/melbourne/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+
   <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
-  <meta name="author" content="Keith Dunstan">
-  <meta name="generator" content="11straps">
   <meta name="HandheldFriendly" content="true"/>
 
 
@@ -31,7 +61,6 @@
   gtag('config', 'UA-138874430-2');
 </script>
   <!-- Global site tag (gtag.js) - Google Analytics end-->
-  <title>Topic: Melbourne</title>
   <link rel="stylesheet" href="/css/theme.min.css">
 
   </head>
@@ -46,6 +75,24 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
         <li class="nav-item me-1">
           <a class="nav-link" aria-current="page" href="/">Home</a>
         </li>
@@ -70,6 +117,35 @@
   </div>
 </nav>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
 
     <main class="container py-vh-5">
       <div class="row d-flex justify-content-center">
@@ -91,7 +167,7 @@
           <time datetime="1962-02-01">01 Feb 1962</time>
         </p>
 
-        <p>First published in Walkabout Magazine, July 1962.</p>
+        <p>Traces the site of the new £5 million Southern Cross Hotel back through the raucous history of the old Eastern Market — phrenologists, dancing ducks, a fortune-teller called Madame Zinga Lee, and an 1898 murder.</p>
 
         <a href="/articles/walkabout-magazine/paddys-market-to-luxury-hotel/" class="link-fancy">Read more...</a>
 
@@ -119,7 +195,7 @@
           <time datetime="1962-03-03">03 Mar 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>On Melbourne&#39;s sudden reputation for permissiveness, from a swimsuit-censorship row at the Australian Swimming Championships to the Moomba Committee&#39;s controversial beer garden in the Alexandra Gardens.</p>
 
         <a href="/articles/bulletin/the-new-image/" class="link-fancy">Read more...</a>
 
@@ -167,7 +243,7 @@
           <time datetime="1962-03-17">17 Mar 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>Covers Melbourne&#39;s fierce row over the VFL&#39;s ban on televising the last quarter of League football, then Victoria&#39;s new tallest building, the 24-storey Consolidated Zinc, opening almost unnoticed.</p>
 
         <a href="/articles/bulletin/football-and-tv/" class="link-fancy">Read more...</a>
 
@@ -215,7 +291,7 @@
           <time datetime="1962-03-24">24 Mar 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>Mourns the decline of Melbourne&#39;s once-riotous Eight Hour Day march into a corporate-sponsored Moomba procession — its circus camels banned — then reports on Sandown Park&#39;s star-studded car-racing debut.</p>
 
         <a href="/articles/bulletin/no-camels-for-swanston-street/" class="link-fancy">Read more...</a>
 
@@ -257,7 +333,7 @@
           <time datetime="1962-03-31">31 Mar 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>Previews Pan-American&#39;s new Miami-style Southern Cross Hotel rising on the old Eastern Market site, then the Lord Mayor&#39;s £770 replacement robes after the old ones, handed down for decades, finally fell apart.</p>
 
         <a href="/articles/bulletin/the-new-breed/" class="link-fancy">Read more...</a>
 
@@ -297,7 +373,7 @@
           <time datetime="1962-04-07">07 Apr 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>A spate of unprovoked gang bashings sparks public calls for the return of the lash, running into Melbourne&#39;s ongoing water restrictions and a stake-money spat between the Caulfield and Melbourne Cups.</p>
 
         <a href="/articles/bulletin/the-lash/" class="link-fancy">Read more...</a>
 
@@ -339,7 +415,7 @@
           <time datetime="1962-04-14">14 Apr 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>An undercover survey of Melbourne&#39;s new strip-tease clubs, comparing the silent, appraising Melbourne audience to Sydney&#39;s, before turning to the Richmond Brewery&#39;s absorption into Carlton and United on Friday the 13th.</p>
 
         <a href="/articles/bulletin/forbidden-city/" class="link-fancy">Read more...</a>
 
@@ -387,7 +463,7 @@
           <time datetime="1962-04-28">28 Apr 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>Covers the Collingwood Football Club&#39;s ceremonial guernsey-presentation dinner for its new season, then the box-office phenomenon of &quot;My Fair Lady&quot;&#39;s second Melbourne season at Her Majesty&#39;s Theatre.</p>
 
         <a href="/articles/bulletin/football-and-mfl/" class="link-fancy">Read more...</a>
 
@@ -410,7 +486,7 @@
               
               <a href="/topic/j.-c.-williamsons/" class="link-secondary">J. C. Williamsons</a>,
               
-              <a href="/topic/her-majesty&#39;s-theatre/" class="link-secondary">Her Majesty&#39;s Theatre</a>,
+              <a href="/topic/her-majestys-theatre/" class="link-secondary">Her Majestys Theatre</a>,
               
               <a href="/topic/michael-denison/" class="link-secondary">Michael Denison</a>,
               
@@ -431,7 +507,7 @@
           <time datetime="1962-05-05">05 May 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>A reluctant Melburnian tourist takes a sightseeing coach tour of his own city, from Ned Kelly&#39;s gaol to the National Gallery, and finds Phar Lap draws more attention than the Rembrandt.</p>
 
         <a href="/articles/bulletin/rembrandt-and-phar-lap/" class="link-fancy">Read more...</a>
 
@@ -481,7 +557,7 @@
           <time datetime="1962-05-12">12 May 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>On the eve of his release after 12 years, revisits Melbourne&#39;s most sensational murder case — the conviction of the charming, well-connected John Bryan Kerr for the 1949 strangling of Elizabeth Maureen Williams, and the newspaper campaign that fought to reopen it.</p>
 
         <a href="/articles/bulletin/the-release-of-john-bryan-kerr/" class="link-fancy">Read more...</a>
 
@@ -529,7 +605,7 @@
           <time datetime="1962-05-26">26 May 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>Profiles bandleader Tommy Davidson, Melbourne&#39;s leading writer of singing television commercials, from his award-winning Viscount cigarette jingle to a £5500 TV shoot with a 46-piece orchestra.</p>
 
         <a href="/articles/bulletin/a-viscount-a-viscount-a-viscount/" class="link-fancy">Read more...</a>
 
@@ -577,7 +653,7 @@
           <time datetime="1962-06-02">02 Jun 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>A blow-by-blow account of Melbourne&#39;s raging Age letters-page feud between realist and modernist painters, pitting William Dargie against National Gallery director Eric Westbrook.</p>
 
         <a href="/articles/bulletin/not-only-serious-solemn/" class="link-fancy">Read more...</a>
 
@@ -625,7 +701,7 @@
           <time datetime="1962-06-09">09 Jun 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>Investigates Melbourne&#39;s record £40,000 bank robbery and the mystery of the thieves&#39; 21 keys, then the Puffing Billy Preservation Society&#39;s fight to reopen the narrow-gauge line through the Dandenongs.</p>
 
         <a href="/articles/bulletin/the-great-bank-robbery/" class="link-fancy">Read more...</a>
 
@@ -671,7 +747,7 @@
           <time datetime="1962-06-16">16 Jun 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>Follows the new south-eastern freeway&#39;s traffic overflow into once-exclusive Toorak, then tours a fully-furnished nuclear fall-out shelter on display at the Building Industry Fair.</p>
 
         <a href="/articles/bulletin/the-stampede-and-the-fall-out-shelter/" class="link-fancy">Read more...</a>
 
@@ -717,7 +793,7 @@
           <time datetime="1962-06-23">23 Jun 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>A Brotherhood of St Laurence survey of a Melbourne housing estate puts hard numbers on Barry Humphries&#39; Mrs Everage caricature, finding suburban Melburnians were overwhelmingly stay-at-home, TV-watching and incurious.</p>
 
         <a href="/articles/bulletin/wild-life-in-suburbia/" class="link-fancy">Read more...</a>
 
@@ -757,7 +833,7 @@
           <time datetime="1962-06-30">30 Jun 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>Traces the Exhibition Building&#39;s rise from would-be demolition target to beloved 1963 Trade Fair venue via its riotous 1880s exhibition history, then catches Henry Bolte earning the nickname &quot;Satchmo&quot; over a misquoted Anthony Trollope line about Victorian boasting.</p>
 
         <a href="/articles/bulletin/now-they-call-him-satchmo-bolte/" class="link-fancy">Read more...</a>
 
@@ -799,7 +875,7 @@
           <time datetime="1962-07-28">28 Jul 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>A tour of Melbourne&#39;s National Boat Show, where the speedboat has replaced the car as the new status symbol, headlined by Bob Dyer&#39;s near-£4000 shark-fishing cruiser Tennessee IV.</p>
 
         <a href="/articles/bulletin/a-little-red-rented-rowboat/" class="link-fancy">Read more...</a>
 
@@ -841,7 +917,7 @@
           <time datetime="1962-08-04">04 Aug 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>Welcomes Barry Humphries home from London for a nine-night Assembly Hall season, recounting his elaborate public pranks — including the &quot;Ashburton Line&quot; breakfast-in-a-carriage stunt and slices of ham hidden in a David Jones bargain sale.</p>
 
         <a href="/articles/bulletin/return-of-norm-and-edna-everage/" class="link-fancy">Read more...</a>
 
@@ -887,7 +963,7 @@
           <time datetime="1962-08-11">11 Aug 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>Mourns the demolition of the historic Scotts Hotel as Melbourne&#39;s city pubs vanish one by one, then visits the newly formed Beer Appreciation Society of Australia conducting solemn blind tastings at the Kilkenny Inn.</p>
 
         <a href="/articles/bulletin/not-just-a-beer-up-club/" class="link-fancy">Read more...</a>
 
@@ -933,7 +1009,7 @@
           <time datetime="1962-08-18">18 Aug 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>Architect Roy Grounds proposes shipping London&#39;s condemned Victorian Coal Exchange rotunda 12,000 miles to Melbourne&#39;s new Cultural Centre, igniting a row over whether it&#39;s a masterpiece or, as one letter-writer put it, &quot;ostentatious Victorian junk.&quot;</p>
 
         <a href="/articles/bulletin/the-coal-exchange-rotunda/" class="link-fancy">Read more...</a>
 
@@ -981,7 +1057,7 @@
           <time datetime="1962-08-25">25 Aug 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>The three-day, city-wide hunt for Heloise, a runaway pedigree poodle worth £500 sent from Adelaide for breeding, complete with a police search, a &quot;poodle posse,&quot; and a televised on-air appeal.</p>
 
         <a href="/articles/bulletin/500-is-a-poodle/" class="link-fancy">Read more...</a>
 
@@ -1025,7 +1101,7 @@
           <time datetime="1962-09-01">01 Sep 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>A tour through the newly-opened Southern Cross Hotel, Melbourne&#39;s first brand-new hotel in decades, from Australia&#39;s first hotel bidet to its bowling alley built over a bank.</p>
 
         <a href="/articles/bulletin/a-bowling-alley-and-a-bidet/" class="link-fancy">Read more...</a>
 
@@ -1069,7 +1145,7 @@
           <time datetime="1962-09-08">08 Sep 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>Laments the once-grand St Kilda Road&#39;s decline into brash &quot;Disneyland Modern&quot; office architecture, then reports on the inaugural meeting of Melbourne&#39;s new Noise Abatement Society, modelled on &quot;America&#39;s quietest city,&quot; Memphis.</p>
 
         <a href="/articles/bulletin/st-kilda-rd-or-disneyland-modern/" class="link-fancy">Read more...</a>
 
@@ -1123,7 +1199,7 @@
           <time datetime="1962-09-29">29 Sep 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>A dutiful trudge round the ever-identical Royal Show turns up an unexpected revival — a tug-o&#39;-war contest recalling Melbourne&#39;s forgotten 1892 world championship pull and its two legendary twenty-stone anchor men.</p>
 
         <a href="/articles/bulletin/kindly-smile-from-an-aberdeen-angus/" class="link-fancy">Read more...</a>
 
@@ -1163,7 +1239,7 @@
           <time datetime="1962-10-06">06 Oct 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>A wistful post-Grand-Final survey of Melbourne&#39;s VFL football obsession, from poodle-sized club sweaters to fans who queued 58 hours outside the MCG, plus a wary eye on soccer&#39;s fast-growing crowds at Olympic Park.</p>
 
         <a href="/articles/bulletin/among-my-souvenirs/" class="link-fancy">Read more...</a>
 
@@ -1211,7 +1287,7 @@
           <time datetime="1962-10-13">13 Oct 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>Traces Victoria&#39;s absurd six o&#39;clock closing laws back to a wartime &quot;state of emergency&quot; that never officially ended, then joins 1200 delegates from the Associated Country Women of the World at their Melbourne conference.</p>
 
         <a href="/articles/bulletin/liquor-and-the-silk-trade/" class="link-fancy">Read more...</a>
 
@@ -1255,7 +1331,7 @@
           <time datetime="1962-11-03">03 Nov 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>Melbourne wins bragging rights as Australia&#39;s &quot;Conference City,&quot; hosting the World Power Conference&#39;s 1000-plus delegates through a whirlwind of interpreters, transistor earphones, and two 1600-guest banquets in the Exhibition Building.</p>
 
         <a href="/articles/bulletin/la-ville-de-beaute-as-the-french-say/" class="link-fancy">Read more...</a>
 
@@ -1303,7 +1379,7 @@
           <time datetime="1962-11-17">17 Nov 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>Reports back from Melbourne Cup day on the results of the VRC&#39;s inaugural &quot;fashions, flowers and favorites&quot; festival, including the fashion judges&#39; undercover hunt for the best-dressed racegoer under £30 or £50.</p>
 
         <a href="/articles/bulletin/the-cup-some-bowlers-were-low-and-rakish/" class="link-fancy">Read more...</a>
 
@@ -1347,7 +1423,7 @@
           <time datetime="1962-11-24">24 Nov 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>A tongue-in-cheek peace plan for the Sydney-Melbourne rivalry, sparked by Melbourne&#39;s jetport frustrations and a Senate row over an anti-Melbourne pamphlet, complete with a proposed Bolte-Heffron summit in a railway carriage at Albury.</p>
 
         <a href="/articles/bulletin/nsw-vic-is-peaceful-co-existence-possible/" class="link-fancy">Read more...</a>
 
@@ -1399,7 +1475,7 @@
           <time datetime="1962-12-01">01 Dec 1962</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1962.</p>
+        <p>Previews the Queen&#39;s 1963 royal barge voyage up the Yarra to Henley Landing, and the belated riverbank clean-up it has prompted after years of floating trash and half-sunken barges.</p>
 
         <a href="/articles/bulletin/rediscovering-the-yarra/" class="link-fancy">Read more...</a>
 
@@ -1445,7 +1521,7 @@
           <time datetime="1963-07-27">27 Jul 1963</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1963.</p>
+        <p>Marks Hoyts&#39; 50th anniversary, from dentist-turned-showman Arthur Russell&#39;s 1913 start to the neck-and-neck 1929 opening race between the Regent and the State, alongside the wreckers&#39; demolition of the old Savoy (once the temperance-movement Temperance Hall).</p>
 
         <a href="/articles/bulletin/when-hoyts-was-hoyts/" class="link-fancy">Read more...</a>
 
@@ -1495,7 +1571,7 @@
           <time datetime="1964-03-14">14 Mar 1964</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1964</p>
+        <p>On the belated Melbourne opening of &quot;Cleopatra,&quot; at the old Lyceum cinema renamed for the occasion, digging up its history back to 1915 as the Paramount and its era of silent-film sirens like Theda Bara.</p>
 
         <a href="/articles/bulletin/when-flappers-fluttered-through-the-flames/" class="link-fancy">Read more...</a>
 
@@ -1603,7 +1679,7 @@
           <time datetime="1967-04-15">15 Apr 1967</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1967.</p>
+        <p>A eulogy for Melbourne&#39;s fire-gutted Tivoli Theatre, tracing its history back to the 1850s diggers&#39; Varieties Music Hall through Harry Rickard&#39;s opulent 1901 rebuild and its parade of stars from Marie Lloyd to Harry Houdini.</p>
 
         <a href="/articles/bulletin/alas-poor-tivoli-i-knew-it-well/" class="link-fancy">Read more...</a>
 
@@ -1649,7 +1725,7 @@
           <time datetime="1967-12-30">30 Dec 1967</time>
         </p>
 
-        <p>First published in the Bulletin Magazine, 1967.</p>
+        <p>Tells the story of Federici, the Princess Theatre&#39;s baritone ghost who collapsed and died on stage playing Mephistopheles in 1888, and the book launch that tried — and failed — to lure his spirit out with themed cocktails.</p>
 
         <a href="/articles/bulletin/the-ghost-of-the-princess/" class="link-fancy">Read more...</a>
 

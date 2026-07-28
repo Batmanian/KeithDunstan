@@ -1,7 +1,7 @@
 ---
 title: The Creative Demon
 date: 1994-11-11
-summary: The sixth chapter of Keith's book on his relationship with wine, beer and drinking, 'My life with the Demon'.
+summary: Keith and Marie buy Poplar Bend, a small Mornington Peninsula property to grow their own wine, only to find it infested with Baron von Mueller's imported blackberries and a sheep killed by marauding pet dogs.
 tags:
   - Wine
   - Baron Ferdinand von Mueller

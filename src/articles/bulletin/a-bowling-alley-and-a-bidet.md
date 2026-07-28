@@ -1,7 +1,7 @@
 ---
 title: A Bowling Alley and a Bidet
 date: 1962-09-01
-summary: First published in the Bulletin Magazine, 1962.
+summary: A tour through the newly-opened Southern Cross Hotel, Melbourne's first brand-new hotel in decades, from Australia's first hotel bidet to its bowling alley built over a bank.
 categories:
 - The Bulletin
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Wowser
 date: 1968-11-11
-summary: The first chapter of Keith Dunstan's book on social prudery and conservatism in Australia, 'Wowsers'.
+summary: Traces the word "wowser" from John Norton's boastful 1899 claim to have coined it, through Mencken's definition, to the Methodist-driven puritanism that made Victoria and South Australia the nation's primmest states.
 tags:
 - The Bulletin
 - James Mirams

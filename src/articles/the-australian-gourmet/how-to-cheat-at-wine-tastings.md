@@ -1,7 +1,7 @@
 ---
 title: How to cheat at wine tastings
 date: 1968-05-01
-summary: First published in the Australian Gourmet Magazine, April/May edition 1968.
+summary: A tongue-in-cheek guide to bluffing your way through a masked-bottle wine tasting, from reading cork brands and capsule colours to timing your "hint of crushed violets" line for maximum effect.
 tags:
   - Wine
   - Clubs and Societies

@@ -1,7 +1,7 @@
 ---
 title: Demonic people
 date: 1994-11-11
-summary: The thirteenth and final chapter of Keith's book on his relationship with wine, beer and drinking, 'My life with the Demon'.
+summary: Closes the book with portraits of the liquor trade's larger-than-life characters, led by Carlton & United's autocratic boss "Foge" Fogarty, who froze Keith out entirely after one imagined slight.
 tags:
   - Wine
   - Winemaking

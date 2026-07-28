@@ -1,7 +1,7 @@
 ---
 title: The Mighty Wurlitzer Rose in a Pool of Light.  
 date: 1966-04-09
-summary: First published in the Bulletin Magazine, 1966.
+summary: A visit to the Regent Theatre's Mighty Wurlitzer organ, one of only two left working in Australia, and a morning practice session with virtuoso organist Tony Fenelon.
 categories:
 - The Bulletin
 tags:

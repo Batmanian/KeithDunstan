@@ -1,7 +1,7 @@
 ---
 title: A Little Red Rented Rowboat
 date: 1962-07-28
-summary: First published in the Bulletin Magazine, 1962.
+summary: A tour of Melbourne's National Boat Show, where the speedboat has replaced the car as the new status symbol, headlined by Bob Dyer's near-£4000 shark-fishing cruiser Tennessee IV.
 categories:
 - The Bulletin
 tags:

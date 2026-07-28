@@ -1,7 +1,7 @@
 ---
 title: The Coal Exchange Rotunda
 date: 1962-08-18
-summary: First published in the Bulletin Magazine, 1962.
+summary: Architect Roy Grounds proposes shipping London's condemned Victorian Coal Exchange rotunda 12,000 miles to Melbourne's new Cultural Centre, igniting a row over whether it's a masterpiece or, as one letter-writer put it, "ostentatious Victorian junk."
 categories:
 - The Bulletin
 tags:

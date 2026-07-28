@@ -1,17 +1,16 @@
 ---
 title: A Body Blow to Cricket
-date: 1988-14-01
-summary: Of a retrospective series Keith Dunstan wrote for the The Age Newspaper to mark the 1988 Australian bicentenary
+date: 1988-01-14
+summary: Recounts the Bodyline crisis boiling over at the Third Test in Adelaide, where Larwood's leg-theory bowling injured Woodfull and Oldfield and the Australian Board of Control cabled the MCC accusing England of endangering the game.
 tags:
-  -  Cricket
-  -  Bodyline series
-  -  Sir Donald Bradman
-  -  Pelham Warner
-  -  Lionel Palairet
+  - Cricket
+  - Bodyline series
+  - Sir Donald Bradman
+  - Pelham Warner
+  - Lionel Palairet
 ---
 
-
-#### 14 January 1901
+#### 14 January 1933
 
 We are wondering what will happen, whether there is any future for Australian cricket. This whole business of bodyline or leg theory bowling has come to a crisis in Adelaide.
 

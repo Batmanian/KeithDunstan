@@ -1,7 +1,7 @@
 ---
 title:  A Woman Hanged
 date: 1988-01-15
-summary: From a retrospective series Keith Dunstan wrote for the The Age Newspaper to mark the 1988 Australian bicentenary
+summary: A harrowing account of the 1894 hanging of "baby farmer" Frances Knorr at Melbourne Gaol, Victoria's first execution of a woman since 1863, despite petitions denouncing it as an "abominable, fiendish injustice."
 tags:
   -  Frances Knorr
   -  Melbourne Gaol

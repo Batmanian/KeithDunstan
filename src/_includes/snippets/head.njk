@@ -1,9 +1,14 @@
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="{{ metadata.description }}">
+  <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  {% include 'snippets/opengraph.njk' %}
   <link rel="icon" type="image/png" sizes="96x96" href="{{ '/img/favicon.png' | url }}">
-  <meta name="author" content="{{ metadata.author }}">
-  <meta name="generator" content="11straps">
   <meta name="HandheldFriendly" content="true"/>
 
 
@@ -27,7 +32,6 @@
   gtag('config', 'UA-138874430-2');
 </script>
   <!-- Global site tag (gtag.js) - Google Analytics end-->
-  <title>{{ title or metadata.title }}</title>
   <!-- build:css -->
   <link rel="stylesheet" href="{{ '/css/theme.css' | url }}">
    <!-- endbuild -->

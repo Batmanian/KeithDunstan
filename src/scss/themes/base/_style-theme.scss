@@ -87,3 +87,65 @@ body {
   padding-top:14vh;
   padding-bottom:14vh;
 }
+
+// Dark mode support (toggle button + script live in snippets/navbar.njk and
+// snippets/head.njk). Bootstrap's [data-bs-theme=dark] mode re-themes most
+// components automatically via CSS variables, but a handful of fixed-literal
+// utility classes used across this site's templates — .bg-light, .text-dark,
+// .link-dark, .link-secondary, .btn-outline-dark, .badge.bg-dark — are tied
+// to a specific theme color (dark/secondary) rather than an "auto" semantic
+// token, so Bootstrap deliberately doesn't re-theme them. Same for the
+// navbar, whose colors are opted in separately from the page-wide color mode.
+// Each is remapped here to the nearest dark-mode-aware token.
+//
+// NOTE: Bootstrap generates .bg-*/.text-*/.link-* utilities with !important
+// (see $enable-important-utilities) — overrides here need !important too, or
+// they're silently dropped regardless of selector specificity.
+[data-bs-theme="dark"] {
+  .navbar {
+    --bs-navbar-color: #{$navbar-dark-color};
+    --bs-navbar-hover-color: #{$navbar-dark-hover-color};
+    --bs-navbar-active-color: #{$navbar-dark-active-color};
+    --bs-navbar-brand-color: #{$navbar-dark-brand-color};
+    --bs-navbar-brand-hover-color: #{$navbar-dark-brand-hover-color};
+  }
+
+  .bg-light {
+    background-color: var(--bs-tertiary-bg) !important;
+  }
+
+  .text-dark,
+  .link-dark,
+  .link-dark:hover,
+  .link-dark:focus {
+    color: var(--bs-body-color) !important;
+  }
+
+  .link-secondary,
+  .link-secondary:hover,
+  .link-secondary:focus {
+    color: var(--bs-secondary-color) !important;
+  }
+
+  .btn-outline-dark {
+    --bs-btn-color: var(--bs-body-color);
+    --bs-btn-border-color: var(--bs-border-color);
+    --bs-btn-hover-color: var(--bs-body-bg);
+    --bs-btn-hover-bg: var(--bs-body-color);
+    --bs-btn-hover-border-color: var(--bs-body-color);
+    --bs-btn-active-color: var(--bs-body-bg);
+    --bs-btn-active-bg: var(--bs-body-color);
+    --bs-btn-active-border-color: var(--bs-body-color);
+    --bs-btn-disabled-color: var(--bs-body-color);
+    --bs-btn-disabled-border-color: var(--bs-border-color);
+  }
+
+  .badge.bg-dark {
+    background-color: var(--bs-secondary-bg) !important;
+    color: var(--bs-body-color);
+  }
+
+  blockquote {
+    background: var(--bs-tertiary-bg);
+  }
+}

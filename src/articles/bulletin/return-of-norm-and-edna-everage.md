@@ -1,7 +1,7 @@
 ---
 title: Return of Norm and Edna Everage
 date: 1962-08-04
-summary: First published in the Bulletin Magazine, 1962.
+summary: Welcomes Barry Humphries home from London for a nine-night Assembly Hall season, recounting his elaborate public pranks — including the "Ashburton Line" breakfast-in-a-carriage stunt and slices of ham hidden in a David Jones bargain sale.
 categories:
 - The Bulletin
 tags:

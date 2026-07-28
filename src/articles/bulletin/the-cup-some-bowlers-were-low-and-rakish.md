@@ -1,7 +1,7 @@
 ---
 title: The Cup - Some Bowlers Were Low and Rakish
 date: 1962-11-17
-summary: First published in the Bulletin Magazine, 1962.
+summary: Reports back from Melbourne Cup day on the results of the VRC's inaugural "fashions, flowers and favorites" festival, including the fashion judges' undercover hunt for the best-dressed racegoer under £30 or £50.
 categories:
 - The Bulletin
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Rough Riding for Five Minutes a Year
 date: 1962-02-01
-summary: First published in Walkabout Magazine, September 1962.
+summary: Rides the outback rodeo circuit with Australia's professional rough-riders, from the Myrtleford Rodeo's untamed high-plains bulls to a wild-horse race that leaves one rider knocked cold and refusing all help.
 categories:
 - Walkabout Magazine
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Bird Watching
 date: 1962-02-01
-summary: First published in Walkabout Magazine, February 1962.
+summary: Profiles Melbourne's Bird Observers Club, from a postman-secretary who charms Dutch sea captains to the Land Rover expedition that rediscovered the Eyrean Grasswren, unseen since 1874.
 categories:
 - Walkabout Magazine
 tags:

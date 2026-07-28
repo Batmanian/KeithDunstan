@@ -1,7 +1,7 @@
 ---
 title: The New Breed
 date: 1962-03-31
-summary: First published in the Bulletin Magazine, 1962.
+summary: Previews Pan-American's new Miami-style Southern Cross Hotel rising on the old Eastern Market site, then the Lord Mayor's £770 replacement robes after the old ones, handed down for decades, finally fell apart.
 categories:
 - The Bulletin
 tags:

@@ -1,7 +1,7 @@
 ---
 title: It is essential to have clean feet
 date: 1994-11-11
-summary: The ninth chapter of Keith's book on his relationship with wine, beer and drinking, 'My life with the Demon'.
+summary: The agonising, pregnancy-like suspense of waiting for grapes to ripen for vintage, juggling volunteer pickers' cancelled lunch dates against sugar readings that refuse to cooperate with the weather.
 tags:
   - Wine
   - Len Evans

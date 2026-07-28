@@ -1,7 +1,7 @@
 ---
 title: Inside Toorak
 date: 1962-07-14
-summary: First published in the Bulletin Magazine, 1962.
+summary: An affectionate dissection of Toorak's century of unrivalled Melbourne snob value, from its jealously small postcode SE2 to its chauffeur-driven Rolls Royces and Tudor-revival Village shops.
 categories:
 - The Bulletin
 tags:

@@ -1,7 +1,7 @@
 ---
 title: The Demon in Command
 date: 1994-11-11
-summary: The second chapter of Keith's book on his relationship with wine, beer and drinking, 'My life with the Demon'.
+summary: A young RAAF pilot officer's disastrous first proper bender on "Pink Lady" cocktails at Wireless Air Gunnery School, ending with the mess hut wall redecorated and a formal reprimand as "a most unsatisfactory member."
 tags:
   - Wine
   - Cocktails

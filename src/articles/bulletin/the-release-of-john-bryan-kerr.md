@@ -1,7 +1,7 @@
 ---
 title: The Release of John Bryan Kerr
 date: 1962-05-12
-summary: First published in the Bulletin Magazine, 1962.
+summary: On the eve of his release after 12 years, revisits Melbourne's most sensational murder case — the conviction of the charming, well-connected John Bryan Kerr for the 1949 strangling of Elizabeth Maureen Williams, and the newspaper campaign that fought to reopen it.
 categories:
 - The Bulletin
 tags:

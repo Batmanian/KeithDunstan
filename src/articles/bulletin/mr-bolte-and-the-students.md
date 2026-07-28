@@ -1,7 +1,7 @@
 ---
 title: Mr Bolte and the Students
 date: 1962-10-27
-summary: First published in the Bulletin Magazine, 1962.
+summary: Profiles David Hirt, the bearded theological student leading Melbourne University's campaign against the hanging of Robert Tait, and the students' months-long standoff with a dismissive Henry Bolte government.
 categories:
 - The Bulletin
 tags:

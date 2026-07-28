@@ -1,7 +1,7 @@
 ---
 title: The Columns on the Road to Timbertop
 date: 1966-11-11
-summary: The fifth chapter of Keith's second book, 'Supporting a column'.
+summary: On the media circus around Prince Charles's mysterious posting to Geelong Grammar's bush campus Timbertop, and Keith's own scheme to fly to Fiji and board the same flight just to get a story out of him.
 tags:
   - Charles - Prince of Wales
   - Commonwealth of Nations

@@ -1,7 +1,7 @@
 ---
 title: Forbidden City
 date: 1962-04-14
-summary: First published in the Bulletin Magazine, 1962.
+summary: An undercover survey of Melbourne's new strip-tease clubs, comparing the silent, appraising Melbourne audience to Sydney's, before turning to the Richmond Brewery's absorption into Carlton and United on Friday the 13th.
 categories:
 - The Bulletin
 tags:

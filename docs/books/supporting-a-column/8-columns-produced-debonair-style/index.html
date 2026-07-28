@@ -2,12 +2,68 @@
 <html class="h-100" lang="en">
 
   <head>
-      <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="The collected literary works of Keith Dunstan OAM">
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Columns produced debonair style</title>
+<meta name="title" content="Columns produced debonair style">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="A 10,000-mile light-plane joyride around the outback with three friends in a hired Beechcraft Debonair, buzzing roadhouses for a lift and landing at opal-mining Coober Pedy, a town with no police, phone or pub.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/supporting-a-column/8-columns-produced-debonair-style/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Columns produced debonair style">
+<meta property="og:description" content="A 10,000-mile light-plane joyride around the outback with three friends in a hired Beechcraft Debonair, buzzing roadhouses for a lift and landing at opal-mining Coober Pedy, a town with no police, phone or pub.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Columns produced debonair style">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/supporting-a-column/8-columns-produced-debonair-style/">
+<meta name="twitter:title" content="Columns produced debonair style">
+<meta name="twitter:description" content="A 10,000-mile light-plane joyride around the outback with three friends in a hired Beechcraft Debonair, buzzing roadhouses for a lift and landing at opal-mining Coober Pedy, a town with no police, phone or pub.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Columns produced debonair style">
+<link rel="canonical" href="https://keithdunstan.org/books/supporting-a-column/8-columns-produced-debonair-style/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1966-11-11">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="Supporting A Column">
+<meta property="article:tag" content="Frank Reinehr">
+<meta property="article:tag" content="Imants Dizgalvis">
+<meta property="article:tag" content="Alfred Heintz">
+<meta property="article:tag" content="Coober Pedy">
+<meta property="article:tag" content="Ettie Hall">
+<meta property="article:tag" content="Jack Brewster">
+<meta property="article:tag" content="Ayers Rock (Uluru)">
+<meta property="article:tag" content="Walkabout magazine">
+<meta property="article:tag" content="Henley on the Todd Regatta">
+<meta property="article:tag" content="Bob Millar">
+<meta property="article:tag" content="L.J. Hooker Corporation Ltd">
+<meta property="article:tag" content="Wickham River">
+<meta property="article:tag" content="King Brumby">
+<meta property="article:tag" content="Marble Bar">
+<meta property="article:tag" content="Len Beadell">
+<meta property="article:tag" content="Boolardy">
+<meta property="article:tag" content="Victoria River Downs">
+<meta property="article:tag" content="Six oclock swill">
+<meta property="article:tag" content="(Pastor) Sid Denton">
+<meta property="article:tag" content="Boolardy Station">
+<meta property="article:tag" content="Robert Francis Bruce (Bob) Lefroy">
+<meta property="article:tag" content="(Benjamin) Gayelord Hauser">
+<meta property="article:tag" content="Charles Eadon-Clarke">
+
   <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
-  <meta name="author" content="Keith Dunstan">
-  <meta name="generator" content="11straps">
   <meta name="HandheldFriendly" content="true"/>
 
 
@@ -31,7 +87,6 @@
   gtag('config', 'UA-138874430-2');
 </script>
   <!-- Global site tag (gtag.js) - Google Analytics end-->
-  <title>Columns produced debonair style</title>
   <link rel="stylesheet" href="/css/theme.min.css">
 
   </head>
@@ -46,6 +101,24 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
         <li class="nav-item me-1">
           <a class="nav-link" aria-current="page" href="/">Home</a>
         </li>
@@ -69,6 +142,35 @@
     </div>
   </div>
 </nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
 
 
     <main class="container py-vh-5" data-pagefind-body>
@@ -94,7 +196,7 @@
         
       </header>
      <!-- <p class="lead">
-        The eighth chapter of Keith&#39;s second book, &#39;Supporting a column&#39;.
+        A 10,000-mile light-plane joyride around the outback with three friends in a hired Beechcraft Debonair, buzzing roadhouses for a lift and landing at opal-mining Coober Pedy, a town with no police, phone or pub.
       </p>-->
       <p>The best trip I ever made for the column was not overseas, but a tour of the north of Australia. It was the best tour for fun and personal excitement and the best from the newspaper point of view. Some schools followed it as a daily project and one of my happiest possessions is a bundle of letters received from every member of a class at Cheltenham State School.</p>
 <p>It came as a surprise to discover that the cheapest way to see the great north of Australia was by light aircraft. I still had the old fashioned idea that the cheapest way to travel anywhere was in the family car with perhaps a tent on a trailer. I had three friends who were making a holiday tour to the north and they needed a fourth man to make up the party. The three were Frank Reinehr, a lease and finance broker, Imants Dizgalvis, a lawyer, and Alfred Heintz, a public relations consultant.</p>
@@ -213,7 +315,7 @@ are closely interlocked.</p>
           <div class="bg-light p-4 rounded">
   <!--<h3>Sidebar Single</h3>-->
 <p class="lead">
-        The eighth chapter of Keith&#39;s second book, &#39;Supporting a column&#39;.
+        A 10,000-mile light-plane joyride around the outback with three friends in a hired Beechcraft Debonair, buzzing roadhouses for a lift and landing at opal-mining Coober Pedy, a town with no police, phone or pub.
       </p>
 <hr>
 <h4 class="h6">Related topics</h4>

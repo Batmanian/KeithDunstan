@@ -2,12 +2,58 @@
 <html class="h-100" lang="en">
 
   <head>
-      <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="The collected literary works of Keith Dunstan OAM">
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Cup - Some Bowlers Were Low and Rakish</title>
+<meta name="title" content="The Cup - Some Bowlers Were Low and Rakish">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Reports back from Melbourne Cup day on the results of the VRC&#39;s inaugural &quot;fashions, flowers and favorites&quot; festival, including the fashion judges&#39; undercover hunt for the best-dressed racegoer under £30 or £50.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/articles/bulletin/the-cup-some-bowlers-were-low-and-rakish/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="The Cup - Some Bowlers Were Low and Rakish">
+<meta property="og:description" content="Reports back from Melbourne Cup day on the results of the VRC&#39;s inaugural &quot;fashions, flowers and favorites&quot; festival, including the fashion judges&#39; undercover hunt for the best-dressed racegoer under £30 or £50.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="The Cup - Some Bowlers Were Low and Rakish">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/articles/bulletin/the-cup-some-bowlers-were-low-and-rakish/">
+<meta name="twitter:title" content="The Cup - Some Bowlers Were Low and Rakish">
+<meta name="twitter:description" content="Reports back from Melbourne Cup day on the results of the VRC&#39;s inaugural &quot;fashions, flowers and favorites&quot; festival, including the fashion judges&#39; undercover hunt for the best-dressed racegoer under £30 or £50.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="The Cup - Some Bowlers Were Low and Rakish">
+<link rel="canonical" href="https://keithdunstan.org/articles/bulletin/the-cup-some-bowlers-were-low-and-rakish/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1962-11-17">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="The Bulletin">
+<meta property="article:tag" content="Melbourne">
+<meta property="article:tag" content="Flemington">
+<meta property="article:tag" content="Victoria Racing Club">
+<meta property="article:tag" content="Totalisator Agency Board">
+<meta property="article:tag" content="Carlton and United Breweries">
+<meta property="article:tag" content="National Bank of Australasia">
+<meta property="article:tag" content="Hardy Bros">
+<meta property="article:tag" content="Ross Grey-Smith">
+<meta property="article:tag" content="Bill Edwards">
+<meta property="article:tag" content="Douglas Cox">
+<meta property="article:tag" content="Les Coles">
+<meta property="article:tag" content="Even Stevens">
+<meta property="article:tag" content="Chesty Bond">
+
   <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
-  <meta name="author" content="Keith Dunstan">
-  <meta name="generator" content="11straps">
   <meta name="HandheldFriendly" content="true"/>
 
 
@@ -31,7 +77,6 @@
   gtag('config', 'UA-138874430-2');
 </script>
   <!-- Global site tag (gtag.js) - Google Analytics end-->
-  <title>The Cup - Some Bowlers Were Low and Rakish</title>
   <link rel="stylesheet" href="/css/theme.min.css">
 
   </head>
@@ -46,6 +91,24 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
         <li class="nav-item me-1">
           <a class="nav-link" aria-current="page" href="/">Home</a>
         </li>
@@ -69,6 +132,35 @@
     </div>
   </div>
 </nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
 
 
     <main class="container py-vh-5" data-pagefind-body>
@@ -94,7 +186,7 @@
         
       </header>
      <!-- <p class="lead">
-        First published in the Bulletin Magazine, 1962.
+        Reports back from Melbourne Cup day on the results of the VRC&#39;s inaugural &quot;fashions, flowers and favorites&quot; festival, including the fashion judges&#39; undercover hunt for the best-dressed racegoer under £30 or £50.
       </p>-->
       <p>IT is all over but we can take consolation from the fact that the object has been achieved, the VRC, the garment trade, the Totalisator Agency Board and the hotels are all infinitely richer. We have just finished our first festival of fashions, flowers and favorites. Melbourne was to be agog with a spirit of floral gaiety. Actually it wasn't quite that. It's true the Carlton United Brewery filled its windows with hundreds of boxes of pansies, poppies and what not, and this dear brewery which has just declared a profit of more than £2,500,000 looked a very kindly brewery. The Town Hall put out flower boxes for its pigeons and we put flower boxes in Collins Street.</p>
 <p>Incredibly, though, we put them only on the south side and then only between Swanston Street and Elizabeth Street. Somehow they looked incongruous just placed there on the pavement, and even more incongruous when nobody watered them and the flowers wilted and died. There was a competition for the best decorated buildings and you will be pleased to hear that the mighty banking institutions of Collins Street fought it out pelargonium for pelargonium and pansy for pansy. The National Bank of Australasia won hands down. They brought in so many orchids and exotic plants that the banking chamber looked like the main hot house at Kew Gardens. You couldn't write a pay-form without falling over a ranunculi. Then there were all sorts of private battles. Drummonds the jewellers, in traditional style, put the gorgeous three-handled gold Melbourne Cup in the window. (One of the few trophies you'd be seen dead with.)</p>
@@ -120,7 +212,7 @@
           <div class="bg-light p-4 rounded">
   <!--<h3>Sidebar Single</h3>-->
 <p class="lead">
-        First published in the Bulletin Magazine, 1962.
+        Reports back from Melbourne Cup day on the results of the VRC&#39;s inaugural &quot;fashions, flowers and favorites&quot; festival, including the fashion judges&#39; undercover hunt for the best-dressed racegoer under £30 or £50.
       </p>
 <hr>
 <h4 class="h6">Related topics</h4>

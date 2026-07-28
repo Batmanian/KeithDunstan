@@ -1,7 +1,7 @@
 ---
 title: Columns produced debonair style
 date: 1966-11-11
-summary: The eighth chapter of Keith's second book, 'Supporting a column'.
+summary: A 10,000-mile light-plane joyride around the outback with three friends in a hired Beechcraft Debonair, buzzing roadhouses for a lift and landing at opal-mining Coober Pedy, a town with no police, phone or pub.
 tags:
   - Frank Reinehr
   - Imants Dizgalvis

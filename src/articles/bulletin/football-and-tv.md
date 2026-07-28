@@ -1,7 +1,7 @@
 ---
 title: Football and TV
 date: 1962-03-17
-summary: First published in the Bulletin Magazine, 1962.
+summary: Covers Melbourne's fierce row over the VFL's ban on televising the last quarter of League football, then Victoria's new tallest building, the 24-storey Consolidated Zinc, opening almost unnoticed.
 categories:
 - The Bulletin
 tags:

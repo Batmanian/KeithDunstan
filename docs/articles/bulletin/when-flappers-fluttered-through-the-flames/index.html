@@ -2,12 +2,51 @@
 <html class="h-100" lang="en">
 
   <head>
-      <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="The collected literary works of Keith Dunstan OAM">
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>When Flappers Fluttered Through the Flames’</title>
+<meta name="title" content="When Flappers Fluttered Through the Flames’">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="On the belated Melbourne opening of &quot;Cleopatra,&quot; at the old Lyceum cinema renamed for the occasion, digging up its history back to 1915 as the Paramount and its era of silent-film sirens like Theda Bara.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/articles/bulletin/when-flappers-fluttered-through-the-flames/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="When Flappers Fluttered Through the Flames’">
+<meta property="og:description" content="On the belated Melbourne opening of &quot;Cleopatra,&quot; at the old Lyceum cinema renamed for the occasion, digging up its history back to 1915 as the Paramount and its era of silent-film sirens like Theda Bara.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="When Flappers Fluttered Through the Flames’">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/articles/bulletin/when-flappers-fluttered-through-the-flames/">
+<meta name="twitter:title" content="When Flappers Fluttered Through the Flames’">
+<meta name="twitter:description" content="On the belated Melbourne opening of &quot;Cleopatra,&quot; at the old Lyceum cinema renamed for the occasion, digging up its history back to 1915 as the Paramount and its era of silent-film sirens like Theda Bara.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="When Flappers Fluttered Through the Flames’">
+<link rel="canonical" href="https://keithdunstan.org/articles/bulletin/when-flappers-fluttered-through-the-flames/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1964-03-14">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="The Bulletin">
+<meta property="article:tag" content="Elizabeth Taylor">
+<meta property="article:tag" content="Frank Thring Snr">
+<meta property="article:tag" content="Melbourne">
+<meta property="article:tag" content="Sir George Tallis">
+<meta property="article:tag" content="Sir Leo Curtis">
+<meta property="article:tag" content="Sir Rohan Delacombe">
+
   <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
-  <meta name="author" content="Keith Dunstan">
-  <meta name="generator" content="11straps">
   <meta name="HandheldFriendly" content="true"/>
 
 
@@ -31,7 +70,6 @@
   gtag('config', 'UA-138874430-2');
 </script>
   <!-- Global site tag (gtag.js) - Google Analytics end-->
-  <title>When Flappers Fluttered Through the Flames’</title>
   <link rel="stylesheet" href="/css/theme.min.css">
 
   </head>
@@ -46,6 +84,24 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
         <li class="nav-item me-1">
           <a class="nav-link" aria-current="page" href="/">Home</a>
         </li>
@@ -70,6 +126,35 @@
   </div>
 </nav>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
 
     <main class="container py-vh-5" data-pagefind-body>
       <div class="row d-flex justify-content-between">
@@ -81,7 +166,7 @@
           
           
           <aside class="fw-bold">
-            7
+            5
             min read.
           </aside>
           <p>First published
@@ -94,7 +179,7 @@
         
       </header>
      <!-- <p class="lead">
-        First published in the Bulletin Magazine, 1964
+        On the belated Melbourne opening of &quot;Cleopatra,&quot; at the old Lyceum cinema renamed for the occasion, digging up its history back to 1915 as the Paramount and its era of silent-film sirens like Theda Bara.
       </p>-->
       <p>Could one ask for your forbearance?  By now it must be all too obvious that I have an insufferable passion for old movie houses.  The gush you are about to receive was caused by the advent of ‘Cleopatra.’</p>
 <p>You must understand that Melbourne was nearly the last city in the world to get ‘Cleopatra.’  We looked in craven envy when Sydney got ‘Cleopatra’ way back on December 5. Rumours seeped through to us how you had the largest hand-painted ‘Cleopatra’ poster outside Times Square in New York - a magnificent 78 feet by 26 feet.  The publicity people here told us that it was all done in small squares, which raised fearful problems.  When they completed it they found there was a line straight down Miss Taylor's bosom, with the result that they had to do several hundred square feet of bosom again.  Now her bosom has been adjusted and tested to keep out the weather for two years.</p>
@@ -111,55 +196,6 @@
 <p>‘Carmen’ received excellent reviews and ‘Table Talk’ reported: ‘Theda Bara is a superb, sensuous, coquettish woman, who is dangerously alluring and absolutely reckless as to how she works her will.’</p>
 <p>And frankly, after reading this, she made Elizabeth Taylor seem almost pallid.  However, ‘Cleopatra,’ the latest show at the Temple of Motion Picture Art, is destined to run at least two years.  However, one wonders whether they have adopted a new policy here, this idea of naming the theatre after the present show.  After all, it was the Paramount in 1915, the Lyceum in 1933, the New Lyceum in 1937, and now Cleopatra.</p>
 <p>I understand arrangements are being made for a new colossal film to be made on the entire Bible.  Could this be a new name for the Cleopatra in, say, 1967?</p>
-<p>took -out a certificate that they use for certifying dangerous patients.”
-It-laid down fearful methods for control to ensure that the patient
-was'in no circumstances to leave the hospital. This nun managed to
-persuade the Mother Superior to sign it and John Livingston still
-has that certificate at home. Indeed he is so proud of it he has had it
-framed. S o o ‘ _
-The Livingston brothers, of course, are best known as blue water
-yachtsmen. They have been sailing since 1925 and no-one seems to
-remember exactly how many times they have won line honours in</p>
-<p>~ the Sydney-Hobart yacht race. In April 1949 they left Melbourne in</p>
-<ul>
-<li>their fifty-six foot ketch Kurrewa to compete in the Los Angeles-
-Honolulu yacht race. At the time it seemed a strange thing for two</li>
-</ul>
-<p>~ men .to do who could afford to ride in Rolls Royces rather than in
-a somewhat elderly ketch, and many of the newspaper men at the
-wharf wondered whether they would ever return. John Livingston
-handled the departure in somewhat majectic style, he strode up and
-down the deck playing his bagpipes. o |</p>
-<ul>
-<li>
-<p>The trip was to be made in the classic manner of the old sailing
-ships. They had to sail 1,500 miles due east from New Zealand, then.
-head north all the way to the Aleutian Islands and then across to the
-U.S. Coming home, they said, was easy. The had the trade winds
-and it was down hill all the way. They competed in the big U.S.
-yacht race and came sixteenth, which was good going against the
-armada of large and expensive American yachts. S
-. When they returned to Port Phillip on 13 November 1950, 150
-yachts sailed out to meet them and six miles down the Bay they
-~ were greeted by the Lord Mayor, the chairman of the Harbour Trust
-and the Commodore of the Sandringham Yacht Club. )</p>
-</li>
-<li>
-<p>Yet perhaps the most remarkable thing the Livingstons have done
-was to present a twelve metre class yacht, worth at least £60,000 to
-Britain to compete against Sovereign for the right to challenge for’</p>
-</li>
-</ul>
-<p>~ the America’s Cup. At first many people could not understand.</p>
-<p>~ They thought Australia was trying to slip in through the back door</p>
-<ul>
-<li>to steal the right to challenge from Britain. They could not believe
-that anyone would be generous enough to hand over a yacht like
-that, and demand no part whatever in the control or sailing of it.</li>
-</ul>
-<p>To understand this you need to know something of the back-
-ground of the Livingstons. They are members of twenty-one clubs,
-including the Royal Yacht Squadron and the New York Yacht</p>
 
     </article>
 
@@ -169,7 +205,7 @@ including the Royal Yacht Squadron and the New York Yacht</p>
           <div class="bg-light p-4 rounded">
   <!--<h3>Sidebar Single</h3>-->
 <p class="lead">
-        First published in the Bulletin Magazine, 1964
+        On the belated Melbourne opening of &quot;Cleopatra,&quot; at the old Lyceum cinema renamed for the occasion, digging up its history back to 1915 as the Paramount and its era of silent-film sirens like Theda Bara.
       </p>
 <hr>
 <h4 class="h6">Related topics</h4>

@@ -1,7 +1,7 @@
 ---
 title: Columns secured on the grapevine
 date: 1966-11-11
-summary: The ninth and final chapter of Keith's second book, 'Supporting a column'. 
+summary: Confesses a lifelong, failed ambition to become a wine snob, then tours Rutherglen and Great Western's historic vineyards and Melbourne's suburban home-bottling clubs decanting hogsheads by wheelbarrow.
 tags:
   - Wine
   - Florentino Restaurant

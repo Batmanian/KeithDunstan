@@ -43,7 +43,7 @@ Setup complete.
 Workflow:
   Fetch scripts  →  output/<publication>/stubs/
   After review   →  output/<publication>/transcribed/  (or rejected/)
-  Site-ready     →  src/posts/<publication>/
+  Site-ready     →  src/articles/<publication>/
 """)
 
 

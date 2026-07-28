@@ -1,7 +1,7 @@
 ---
 title: When Flappers Fluttered Through the Flames’ 
 date: 1964-03-14
-summary: First published in the Bulletin Magazine, 1964
+summary: On the belated Melbourne opening of "Cleopatra," at the old Lyceum cinema renamed for the occasion, digging up its history back to 1915 as the Paramount and its era of silent-film sirens like Theda Bara.
 categories:
 - The Bulletin
 tags:
@@ -44,51 +44,3 @@ And frankly, after reading this, she made Elizabeth Taylor seem almost pallid.  
 
 I understand arrangements are being made for a new colossal film to be made on the entire Bible.  Could this be a new name for the Cleopatra in, say, 1967?
 
-took -out a certificate that they use for certifying dangerous patients.”
-It-laid down fearful methods for control to ensure that the patient
-was'in no circumstances to leave the hospital. This nun managed to
-persuade the Mother Superior to sign it and John Livingston still
-has that certificate at home. Indeed he is so proud of it he has had it
-framed. S o o ‘ _
-The Livingston brothers, of course, are best known as blue water
-yachtsmen. They have been sailing since 1925 and no-one seems to
-remember exactly how many times they have won line honours in
-
-~ the Sydney-Hobart yacht race. In April 1949 they left Melbourne in
-
-- their fifty-six foot ketch Kurrewa to compete in the Los Angeles-
-Honolulu yacht race. At the time it seemed a strange thing for two
-
-~ men .to do who could afford to ride in Rolls Royces rather than in
-a somewhat elderly ketch, and many of the newspaper men at the
-wharf wondered whether they would ever return. John Livingston
-handled the departure in somewhat majectic style, he strode up and
-down the deck playing his bagpipes. o |
-
-- The trip was to be made in the classic manner of the old sailing
-ships. They had to sail 1,500 miles due east from New Zealand, then.
-head north all the way to the Aleutian Islands and then across to the
-U.S. Coming home, they said, was easy. The had the trade winds
-and it was down hill all the way. They competed in the big U.S.
-yacht race and came sixteenth, which was good going against the
-armada of large and expensive American yachts. S
-. When they returned to Port Phillip on 13 November 1950, 150
-yachts sailed out to meet them and six miles down the Bay they
-~ were greeted by the Lord Mayor, the chairman of the Harbour Trust
-and the Commodore of the Sandringham Yacht Club. )
-
-- Yet perhaps the most remarkable thing the Livingstons have done
-was to present a twelve metre class yacht, worth at least £60,000 to
-Britain to compete against Sovereign for the right to challenge for’
-
-~ the America’s Cup. At first many people could not understand.
-
-~ They thought Australia was trying to slip in through the back door
-
-- to steal the right to challenge from Britain. They could not believe
-that anyone would be generous enough to hand over a yacht like
-that, and demand no part whatever in the control or sailing of it.
-
-To understand this you need to know something of the back-
-ground of the Livingstons. They are members of twenty-one clubs,
-including the Royal Yacht Squadron and the New York Yacht

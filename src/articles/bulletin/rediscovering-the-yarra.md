@@ -1,7 +1,7 @@
 ---
 title: Rediscovering the Yarra
 date: 1962-12-01
-summary: First published in the Bulletin Magazine, 1962.
+summary: Previews the Queen's 1963 royal barge voyage up the Yarra to Henley Landing, and the belated riverbank clean-up it has prompted after years of floating trash and half-sunken barges.
 categories:
 - The Bulletin
 tags:

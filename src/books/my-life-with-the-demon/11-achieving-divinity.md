@@ -1,7 +1,7 @@
 ---
 title: Achieving the divinity
 date: 1994-11-11
-summary: The eleventh chapter of Keith's book on his relationship with wine, beer and drinking, 'My life with the Demon'.
+summary: A love letter to champagne, from gold-rush diggers smashing empty bottles for skittle pins to Len Evans's rule of opening a good bottle for any old friend, whatever the hour.
 tags:
   - Wine
   - Len Evans

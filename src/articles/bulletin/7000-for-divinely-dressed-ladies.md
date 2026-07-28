@@ -1,7 +1,7 @@
 ---
 title: "£7000 for \"Divinely Dressed Ladies\""
 date: 1962-09-22
-summary: First published in the Bulletin Magazine, 1962.
+summary: The Victoria Racing Club, alarmed by falling attendances, unveils a £7000 best-dressed-racegoer competition for that year's Melbourne Cup carnival, turning the horses into something close to an afterthought.
 categories:
 - The Bulletin
 tags:

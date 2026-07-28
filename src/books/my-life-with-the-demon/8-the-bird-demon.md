@@ -1,7 +1,7 @@
 ---
 title: The bird demon
 date: 1994-11-11
-summary: The eighth chapter of Keith's book on his relationship with wine, beer and drinking, 'My life with the Demon'. 
+summary: From doting bird-feeders to declaring war on starlings and blackbirds raiding the vineyard's grapes, trying gas guns, "Frite" shotgun cartridges, fake hawks and mirrored windmills, none of which the birds took seriously for long.
 tags:
   - Wine
   - Winemaking

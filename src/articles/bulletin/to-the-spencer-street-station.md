@@ -1,7 +1,7 @@
 ---
 title: To the Spencer Street Station
 date: 1962-04-21
-summary: First published in the Bulletin Magazine, 1962.
+summary: Compares the muted arrival of the new Southern Aurora express at Spencer Street with the wild 1883 celebrations when Melbourne and Sydney's rail lines first met at Albury, then covers Victoria's new ban on tattooing minors.
 categories:
 - The Bulletin
 tags:

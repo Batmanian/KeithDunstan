@@ -1,7 +1,7 @@
 ---
 title:  Bridge Disaster Divides Hobart
 date: 1988-01-06
-summary: From a retrospective series Keith Dunstan wrote for the The Age Newspaper to mark the 1988 Australian bicentenary
+summary: The bulk carrier Lake Illawarra rams and collapses the Tasman Bridge into the Derwent, killing cars' worth of Sunday-night drivers and cutting Hobart in two.
 tags:
   -  Hobart bridge disaster
 ---

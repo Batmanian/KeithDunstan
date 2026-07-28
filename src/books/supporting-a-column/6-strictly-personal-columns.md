@@ -1,7 +1,7 @@
 ---
 title: Strictly personal columns
 date: 1966-11-11
-summary: The sixth chapter of Keith's second book, 'Supporting a column'.
+summary: On the art of the celebrity interview, from Ava Gardner insisting on her two-tone Bentley for a hundred-yard drive on the set of "On the Beach" to Peter Ustinov failing spectacularly to learn to crack a stockwhip for "The Sundowners."
 tags:
   - Herald and Weekly Times Ltd
   - Frank Sinatra

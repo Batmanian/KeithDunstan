@@ -1,7 +1,7 @@
 ---
 title: "\"A Wonderful Lot of Drinkin' Men\""
 date: 1962-11-10
-summary: First published in the Bulletin Magazine, 1962.
+summary: Marks the centenary of the first All-England cricket tour of 1861-62 by revisiting its Melbourne Cricket Ground opening, balloon ascent, and lopsided country matches against 22-man local sides.
 categories:
 - The Bulletin
 tags:

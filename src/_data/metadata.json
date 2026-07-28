@@ -2,5 +2,10 @@
     "title": "Keith Dunstan",
     "author": "Keith Dunstan",
     "description": "The collected literary works of Keith Dunstan OAM",
-    "language": "en"
+    "language": "en",
+    "url": "https://keithdunstan.org",
+    "image": "/img/keith-square.png",
+    "locale": "en_AU",
+    "geoPlacename": "Melbourne, Australia",
+    "geoRegion": "AU-VIC"
 }

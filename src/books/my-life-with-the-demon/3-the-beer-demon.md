@@ -1,7 +1,7 @@
 ---
 title: The Beer Demon
 date: 1994-11-11
-summary: The third chapter of Keith's book on his relationship with wine, beer and drinking, 'My life with the Demon'.
+summary: Traces the wartime origins of Australia's six o'clock closing laws — sold as a patriotic blow against the Kaiser — and the mad, beer-soaked "six o'clock swill" they produced for the next half-century.
 tags:
   - Wine
   - Six oclock swill

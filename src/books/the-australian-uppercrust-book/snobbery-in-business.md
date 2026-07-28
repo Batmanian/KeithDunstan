@@ -1,7 +1,7 @@
 ---
 title: Snobbery in business
 date: 1971-11-11
-summary: Keith's chapter in 'The Australian Uppercrust Book', published in 1971, is on snobbery in business. 
+summary: A tongue-in-cheek field guide to corporate status symbols — office partition heights, car escalation from Falcon to Mercedes, and the right jargon — for climbing the snobbery ladder of Australian business.
 tags:
   - Albert Tucker
   - Arthur Boyd

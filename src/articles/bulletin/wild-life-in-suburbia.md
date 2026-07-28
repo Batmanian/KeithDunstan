@@ -1,7 +1,7 @@
 ---
 title: Wild Life in Suburbia
 date: 1962-06-23
-summary: First published in the Bulletin Magazine, 1962.
+summary: A Brotherhood of St Laurence survey of a Melbourne housing estate puts hard numbers on Barry Humphries' Mrs Everage caricature, finding suburban Melburnians were overwhelmingly stay-at-home, TV-watching and incurious.
 categories:
 - The Bulletin
 tags:

@@ -1,7 +1,7 @@
 ---
 title: When Hoyts was Hoyts
 date: 1963-07-27
-summary: First published in the Bulletin Magazine, 1963.
+summary: Marks Hoyts' 50th anniversary, from dentist-turned-showman Arthur Russell's 1913 start to the neck-and-neck 1929 opening race between the Regent and the State, alongside the wreckers' demolition of the old Savoy (once the temperance-movement Temperance Hall).
 categories:
 - The Bulletin
 tags:

@@ -2,12 +2,42 @@
 <html class="h-100" lang="en">
 
   <head>
-      <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="The collected literary works of Keith Dunstan OAM">
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Search and topics</title>
+<meta name="title" content="Search and topics">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="The collected literary works of Keith Dunstan OAM">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://keithdunstan.org/search/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Search and topics">
+<meta property="og:description" content="The collected literary works of Keith Dunstan OAM">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Search and topics">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/search/">
+<meta name="twitter:title" content="Search and topics">
+<meta name="twitter:description" content="The collected literary works of Keith Dunstan OAM">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Search and topics">
+<link rel="canonical" href="https://keithdunstan.org/search/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+
   <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
-  <meta name="author" content="Keith Dunstan">
-  <meta name="generator" content="11straps">
   <meta name="HandheldFriendly" content="true"/>
 
 
@@ -31,7 +61,6 @@
   gtag('config', 'UA-138874430-2');
 </script>
   <!-- Global site tag (gtag.js) - Google Analytics end-->
-  <title>Search and topics</title>
   <link rel="stylesheet" href="/css/theme.min.css">
 
   </head>
@@ -46,6 +75,24 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
         <li class="nav-item me-1">
           <a class="nav-link" aria-current="page" href="/">Home</a>
         </li>
@@ -70,6 +117,35 @@
   </div>
 </nav>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
 
     <main class="container py-vh-5">
       <div class="row d-flex justify-content-center">
@@ -84,7 +160,7 @@
 <div class="gcse-search mb-5"></div>
 
 <h2 class="h5">Or browse by topic</h2>
-<p class="text-muted mb-4">1319 topics, sized by how often they appear.</p>
+<p class="text-muted mb-4">1317 topics, sized by how often they appear.</p>
 <div class="tag-cloud">
     <a href="/topic/melbourne/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-2 fw-semibold" title="41 items include this topic">Melbourne</a>
     <a href="/topic/toorak/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-2 fw-semibold" title="15 items include this topic">Toorak</a>
@@ -92,15 +168,15 @@
     <a href="/topic/henry-bolte/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-2 fw-semibold" title="11 items include this topic">Henry Bolte</a>
     <a href="/topic/barry-humphries/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-2 fw-semibold" title="9 items include this topic">Barry Humphries</a>
     <a href="/topic/sydney/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-2 fw-semibold" title="9 items include this topic">Sydney</a>
-    <a href="/topic/carlton-and-united-breweries/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-2 fw-semibold" title="7 items include this topic">Carlton and United Breweries</a>
     <a href="/topic/sir-robert-menzies/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-2 fw-semibold" title="7 items include this topic">Sir Robert Menzies</a>
+    <a href="/topic/carlton-and-united-breweries/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-2 fw-semibold" title="7 items include this topic">Carlton and United Breweries</a>
     <a href="/topic/st-kilda/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-2 fw-semibold" title="7 items include this topic">St Kilda</a>
     <a href="/topic/melbourne-cup/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-3 fw-semibold" title="6 items include this topic">Melbourne Cup</a>
     <a href="/topic/len-evans/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-3 fw-semibold" title="6 items include this topic">Len Evans</a>
     <a href="/topic/collins-street/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-3 fw-semibold" title="6 items include this topic">Collins Street</a>
     <a href="/topic/sir-keith-murdoch/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-3 fw-semibold" title="6 items include this topic">Sir Keith Murdoch</a>
-    <a href="/topic/winemaking/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-3 fw-semibold" title="6 items include this topic">Winemaking</a>
     <a href="/topic/bob-dalziel/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-3 fw-semibold" title="6 items include this topic">Bob Dalziel</a>
+    <a href="/topic/winemaking/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-3 fw-semibold" title="6 items include this topic">Winemaking</a>
     <a href="/topic/southern-cross-hotel/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-3 fw-semibold" title="6 items include this topic">Southern Cross Hotel</a>
     <a href="/topic/robert-menzies/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-3 fw-semibold" title="5 items include this topic">Robert Menzies</a>
     <a href="/topic/robin-boyd/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-3 fw-semibold" title="5 items include this topic">Robin Boyd</a>
@@ -113,12 +189,12 @@
     <a href="/topic/maurice-nathan/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-3 fw-semibold" title="5 items include this topic">Maurice Nathan</a>
     <a href="/topic/melbourne-university/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-4" title="4 items include this topic">Melbourne University</a>
     <a href="/topic/moonee-ponds/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-4" title="4 items include this topic">Moonee Ponds</a>
-    <a href="/topic/viticulture/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-4" title="4 items include this topic">Viticulture</a>
-    <a href="/topic/marie-dunstan/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-4" title="4 items include this topic">Marie Dunstan</a>
+    <a href="/topic/the-age/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-4" title="4 items include this topic">The Age</a>
     <a href="/topic/lou-richards/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-4" title="4 items include this topic">Lou Richards</a>
     <a href="/topic/melbourne-cricket-club/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-4" title="4 items include this topic">Melbourne Cricket Club</a>
-    <a href="/topic/the-age/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-4" title="4 items include this topic">The Age</a>
     <a href="/topic/melbourne-cricket-ground/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-4" title="4 items include this topic">Melbourne Cricket Ground</a>
+    <a href="/topic/viticulture/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-4" title="4 items include this topic">Viticulture</a>
+    <a href="/topic/marie-dunstan/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-4" title="4 items include this topic">Marie Dunstan</a>
     <a href="/topic/moomba/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-4" title="4 items include this topic">Moomba</a>
     <a href="/topic/harold-holt/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-4" title="4 items include this topic">Harold Holt</a>
     <a href="/topic/exhibition-building/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-4" title="4 items include this topic">Exhibition Building</a>
@@ -133,6 +209,13 @@
     <a href="/topic/edna-everage/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">Edna Everage</a>
     <a href="/topic/gough-whitlam/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">Gough Whitlam</a>
     <a href="/topic/brisbane/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">Brisbane</a>
+    <a href="/topic/melbourne-grammar/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">Melbourne Grammar</a>
+    <a href="/topic/douglas-wilkie/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">Douglas Wilkie</a>
+    <a href="/topic/the-herald/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">The Herald</a>
+    <a href="/topic/herald-and-weekly-times/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">Herald and Weekly Times</a>
+    <a href="/topic/colin-bednall/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">Colin Bednall</a>
+    <a href="/topic/geelong-grammar/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">Geelong Grammar</a>
+    <a href="/topic/albert-tucker/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">Albert Tucker</a>
     <a href="/topic/james-halliday/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">James Halliday</a>
     <a href="/topic/david-dunstan/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">David Dunstan</a>
     <a href="/topic/peter-walker/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">Peter Walker</a>
@@ -140,15 +223,8 @@
     <a href="/topic/doug-crittenden/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">Doug Crittenden</a>
     <a href="/topic/eric-purbrick/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">Eric Purbrick</a>
     <a href="/topic/chateau-tahbilk/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">Chateau Tahbilk</a>
-    <a href="/topic/melbourne-grammar/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">Melbourne Grammar</a>
-    <a href="/topic/douglas-wilkie/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">Douglas Wilkie</a>
-    <a href="/topic/the-herald/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">The Herald</a>
-    <a href="/topic/herald-and-weekly-times/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">Herald and Weekly Times</a>
-    <a href="/topic/colin-bednall/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">Colin Bednall</a>
-    <a href="/topic/geelong-grammar/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">Geelong Grammar</a>
     <a href="/topic/queen-elizabeth-ii/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">Queen Elizabeth II</a>
     <a href="/topic/tania-verstak/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">Tania Verstak</a>
-    <a href="/topic/albert-tucker/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">Albert Tucker</a>
     <a href="/topic/albury/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">Albury</a>
     <a href="/topic/new-south-wales/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">New South Wales</a>
     <a href="/topic/sidney-myer-music-bowl/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="3 items include this topic">Sidney Myer Music Bowl</a>
@@ -181,27 +257,6 @@
     <a href="/topic/mildura/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Mildura</a>
     <a href="/topic/boer-war/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Boer War</a>
     <a href="/topic/luna-park/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Luna Park</a>
-    <a href="/topic/geelong-grammar-school/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Geelong Grammar School</a>
-    <a href="/topic/douglas-seabrook/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Douglas Seabrook</a>
-    <a href="/topic/tom-seabrook/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Tom Seabrook</a>
-    <a href="/topic/dr-thomas-fitzgerald/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Dr Thomas Fitzgerald</a>
-    <a href="/topic/kathleen-quealy/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Kathleen Quealy</a>
-    <a href="/topic/dr-max-lake/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Dr Max Lake</a>
-    <a href="/topic/berek-segan/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Berek Segan</a>
-    <a href="/topic/hermann-schneider/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Hermann Schneider</a>
-    <a href="/topic/dan-murphy/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Dan Murphy</a>
-    <a href="/topic/jimmy-watson/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Jimmy Watson</a>
-    <a href="/topic/six-oclock-swill/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Six oclock swill</a>
-    <a href="/topic/menzies-hotel/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Menzies Hotel</a>
-    <a href="/topic/young-and-jacksons-hotel/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Young and Jacksons Hotel</a>
-    <a href="/topic/chloe/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Chloe</a>
-    <a href="/topic/osmar-white/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Osmar White</a>
-    <a href="/topic/fosters-lager/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Fosters Lager</a>
-    <a href="/topic/brown-brothers-of-milawa/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Brown Brothers of Milawa</a>
-    <a href="/topic/adrian-benns/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Adrian Benns</a>
-    <a href="/topic/reg-egan/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Reg Egan</a>
-    <a href="/topic/neill-robb/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Neill Robb</a>
-    <a href="/topic/leon-massoni/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Leon Massoni</a>
     <a href="/topic/cricket/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Cricket</a>
     <a href="/topic/east-malvern/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">East Malvern</a>
     <a href="/topic/gallipoli/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Gallipoli</a>
@@ -209,6 +264,7 @@
     <a href="/topic/anti-football-league/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Anti-Football League</a>
     <a href="/topic/brian-fitzpatrick/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Brian Fitzpatrick</a>
     <a href="/topic/dame-nellie-melba/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Dame Nellie Melba</a>
+    <a href="/topic/young-and-jacksons-hotel/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Young and Jacksons Hotel</a>
     <a href="/topic/jeff-hook/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Jeff Hook</a>
     <a href="/topic/kooyong/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Kooyong</a>
     <a href="/topic/south-yarra/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">South Yarra</a>
@@ -226,19 +282,40 @@
     <a href="/topic/social-clubs/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Social clubs</a>
     <a href="/topic/raaf/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">RAAF</a>
     <a href="/topic/wirraway/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Wirraway</a>
+    <a href="/topic/adrian-benns/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Adrian Benns</a>
     <a href="/topic/sir-donald-bradman/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Sir Donald Bradman</a>
     <a href="/topic/australian-railways-union/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Australian Railways Union</a>
+    <a href="/topic/osmar-white/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Osmar White</a>
     <a href="/topic/royal-melbourne-hospital/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Royal Melbourne Hospital</a>
+    <a href="/topic/arthur-boyd/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Arthur Boyd</a>
+    <a href="/topic/john-perceval/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">John Perceval</a>
+    <a href="/topic/sidney-nolan/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Sidney Nolan</a>
+    <a href="/topic/geelong-grammar-school/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Geelong Grammar School</a>
+    <a href="/topic/douglas-seabrook/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Douglas Seabrook</a>
+    <a href="/topic/tom-seabrook/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Tom Seabrook</a>
+    <a href="/topic/dr-thomas-fitzgerald/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Dr Thomas Fitzgerald</a>
+    <a href="/topic/kathleen-quealy/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Kathleen Quealy</a>
+    <a href="/topic/dr-max-lake/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Dr Max Lake</a>
+    <a href="/topic/berek-segan/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Berek Segan</a>
+    <a href="/topic/hermann-schneider/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Hermann Schneider</a>
+    <a href="/topic/dan-murphy/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Dan Murphy</a>
+    <a href="/topic/jimmy-watson/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Jimmy Watson</a>
+    <a href="/topic/six-oclock-swill/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Six oclock swill</a>
+    <a href="/topic/menzies-hotel/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Menzies Hotel</a>
+    <a href="/topic/chloe/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Chloe</a>
+    <a href="/topic/fosters-lager/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Fosters Lager</a>
+    <a href="/topic/brown-brothers-of-milawa/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Brown Brothers of Milawa</a>
+    <a href="/topic/reg-egan/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Reg Egan</a>
+    <a href="/topic/neill-robb/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Neill Robb</a>
+    <a href="/topic/leon-massoni/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Leon Massoni</a>
+    <a href="/topic/john-norton/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">John Norton</a>
     <a href="/topic/ronald-searle/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Ronald Searle</a>
     <a href="/topic/the-beatles/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">The Beatles</a>
+    <a href="/topic/her-majestys-theatre/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Her Majestys Theatre</a>
     <a href="/topic/royal-family/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Royal Family</a>
     <a href="/topic/prince-philip/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Prince Philip</a>
     <a href="/topic/patrick-tennison/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Patrick Tennison</a>
     <a href="/topic/sir-rohan-delacombe/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Sir Rohan Delacombe</a>
-    <a href="/topic/arthur-boyd/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Arthur Boyd</a>
-    <a href="/topic/john-perceval/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">John Perceval</a>
-    <a href="/topic/sidney-nolan/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Sidney Nolan</a>
-    <a href="/topic/john-norton/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">John Norton</a>
     <a href="/topic/qantas/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Qantas</a>
     <a href="/topic/tullamarine/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Tullamarine</a>
     <a href="/topic/arthur-calwell/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Arthur Calwell</a>
@@ -255,6 +332,7 @@
     <a href="/topic/carlton/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Carlton</a>
     <a href="/topic/fitzroy/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Fitzroy</a>
     <a href="/topic/richmond-brewery/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Richmond Brewery</a>
+    <a href="/topic/australian-hotels-association/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Australian Hotels Association</a>
     <a href="/topic/swanston-street/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Swanston Street</a>
     <a href="/topic/flemington/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Flemington</a>
     <a href="/topic/yarra/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-5" title="2 items include this topic">Yarra</a>
@@ -490,105 +568,6 @@
     <a href="/topic/galway/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Galway</a>
     <a href="/topic/house-of-commons/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">House of Commons</a>
     <a href="/topic/brixton-prison/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Brixton Prison</a>
-    <a href="/topic/the-dean-of-melbourne-rev-dr-h-b-macartney/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">The Dean of Melbourne - Rev Dr H B Macartney</a>
-    <a href="/topic/e-tennyson-smith/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">E Tennyson Smith</a>
-    <a href="/topic/samuel-mauger/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Samuel Mauger</a>
-    <a href="/topic/cyril-h-denny/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Cyril H Denny</a>
-    <a href="/topic/lady-elisabeth-murdoch/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Lady Elisabeth Murdoch</a>
-    <a href="/topic/virgil-thomson/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Virgil Thomson</a>
-    <a href="/topic/ian-matthews-portavin/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Ian Matthews - Portavin</a>
-    <a href="/topic/ken-and-wendy-bilham/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Ken and Wendy Bilham</a>
-    <a href="/topic/dr-john-wilson/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Dr John Wilson</a>
-    <a href="/topic/fred-williams/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Fred Williams</a>
-    <a href="/topic/baillieu-myer/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Baillieu Myer</a>
-    <a href="/topic/nat-and-rosalie-white/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Nat and Rosalie White</a>
-    <a href="/topic/anatole-de-montaiglon/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Anatole de Montaiglon</a>
-    <a href="/topic/henry-figsby-young/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Henry Figsby Young</a>
-    <a href="/topic/peter-cudlipp/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Peter Cudlipp</a>
-    <a href="/topic/peter-mcintosh/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Peter McIntosh</a>
-    <a href="/topic/philip-suter/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Philip Suter</a>
-    <a href="/topic/terry-laidler/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Terry Laidler</a>
-    <a href="/topic/ashley-harris/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Ashley Harris</a>
-    <a href="/topic/greg-gallagher/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Greg Gallagher</a>
-    <a href="/topic/dr-samuel-johnson/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Dr Samuel Johnson</a>
-    <a href="/topic/richard-ernest-nowell-ren-twopeny/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Richard Ernest Nowell -REN- Twopeny</a>
-    <a href="/topic/les-francis/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Les Francis</a>
-    <a href="/topic/ian-mackenzie/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Ian Mackenzie</a>
-    <a href="/topic/christopher-daniel/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Christopher Daniel</a>
-    <a href="/topic/william-painter/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">William Painter</a>
-    <a href="/topic/darren-kelly/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Darren Kelly</a>
-    <a href="/topic/ian-home/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Ian Home</a>
-    <a href="/topic/rocco-tallarida/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Rocco Tallarida</a>
-    <a href="/topic/bronwyn-bishop/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Bronwyn Bishop</a>
-    <a href="/topic/jeff-kennett/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Jeff Kennett</a>
-    <a href="/topic/garry-crittenden/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Garry Crittenden</a>
-    <a href="/topic/henry-lawson/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Henry Lawson</a>
-    <a href="/topic/reg-fogarty/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Reg Fogarty</a>
-    <a href="/topic/pedler-palmer/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Pedler Palmer</a>
-    <a href="/topic/peter-lehmann/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Peter Lehmann</a>
-    <a href="/topic/charles-malpas/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Charles Malpas</a>
-    <a href="/topic/cocktails/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Cocktails</a>
-    <a href="/topic/peter-grant-hay/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Peter Grant Hay</a>
-    <a href="/topic/jack-williams/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Jack Williams</a>
-    <a href="/topic/jack-eddy/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Jack Eddy</a>
-    <a href="/topic/e.w.-bill-tipping/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">E.W. Bill Tipping</a>
-    <a href="/topic/stuart-legge/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Stuart Legge</a>
-    <a href="/topic/phoenix-hotel/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Phoenix Hotel</a>
-    <a href="/topic/john-monks/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">John Monks</a>
-    <a href="/topic/king-george-v/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">King George V</a>
-    <a href="/topic/reverend-e.-c.-crotty/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Reverend E. C. Crotty</a>
-    <a href="/topic/sir-alexander-peacock/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Sir Alexander Peacock</a>
-    <a href="/topic/cathedral-hotel/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Cathedral Hotel</a>
-    <a href="/topic/hotel-australia/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Hotel Australia</a>
-    <a href="/topic/beer/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Beer</a>
-    <a href="/topic/tom-ford/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Tom Ford</a>
-    <a href="/topic/norman-brown/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Norman Brown</a>
-    <a href="/topic/curly-rourke/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Curly Rourke</a>
-    <a href="/topic/breakfast-creek-hotel/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Breakfast Creek Hotel</a>
-    <a href="/topic/dr-carl-resch/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Dr Carl Resch</a>
-    <a href="/topic/coopers-beer/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Coopers Beer</a>
-    <a href="/topic/reschs/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Reschs</a>
-    <a href="/topic/swan-lager/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Swan Lager</a>
-    <a href="/topic/wallhalla/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Wallhalla</a>
-    <a href="/topic/warwick-w-armstrong/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Warwick W Armstrong</a>
-    <a href="/topic/home-brewing/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Home brewing</a>
-    <a href="/topic/peter-janson/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Peter Janson</a>
-    <a href="/topic/jeff-moss/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Jeff Moss</a>
-    <a href="/topic/paul-sheahan/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Paul Sheahan</a>
-    <a href="/topic/ian-johnson/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Ian Johnson</a>
-    <a href="/topic/bundaberg-rum/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Bundaberg Rum</a>
-    <a href="/topic/rhine-castle-wines/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Rhine Castle Wines</a>
-    <a href="/topic/milawa/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Milawa</a>
-    <a href="/topic/stan-keon/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Stan Keon</a>
-    <a href="/topic/ian-sutherland-smith/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Ian Sutherland Smith</a>
-    <a href="/topic/tulloch-wines/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Tulloch Wines</a>
-    <a href="/topic/rothbury-estate-society/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Rothbury Estate Society</a>
-    <a href="/topic/viticultural-society-of-victoria/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Viticultural Society of Victoria</a>
-    <a href="/topic/neville-baker/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Neville Baker</a>
-    <a href="/topic/john-beeston/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">John Beeston</a>
-    <a href="/topic/frank-christie/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Frank Christie</a>
-    <a href="/topic/peter-joyce/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Peter Joyce</a>
-    <a href="/topic/david-thomas/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">David Thomas</a>
-    <a href="/topic/john-cunnington/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">John Cunnington</a>
-    <a href="/topic/joe-sullivan/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Joe Sullivan</a>
-    <a href="/topic/rudi-komon/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Rudi Komon</a>
-    <a href="/topic/baron-ferdinand-von-mueller/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Baron Ferdinand von Mueller</a>
-    <a href="/topic/john-and-patricia-brown/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">John and Patricia Brown</a>
-    <a href="/topic/jean-antoine-chaptal/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Jean-Antoine Chaptal</a>
-    <a href="/topic/andrew-hickinbotham/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Andrew Hickinbotham</a>
-    <a href="/topic/ted-zakorski/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Ted Zakorski</a>
-    <a href="/topic/joseph-swan/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Joseph Swan</a>
-    <a href="/topic/anthony-hanson/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Anthony Hanson</a>
-    <a href="/topic/john-and-marjorie-paterson/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">John and Marjorie Paterson</a>
-    <a href="/topic/peter-mcmahon/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Peter McMahon</a>
-    <a href="/topic/derek-rumbold/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Derek Rumbold</a>
-    <a href="/topic/patricia-rumbold/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Patricia Rumbold</a>
-    <a href="/topic/vivienne-massoni/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Vivienne Massoni</a>
-    <a href="/topic/viticultre/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Viticultre</a>
-    <a href="/topic/lucian-dressell/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Lucian Dressell</a>
-    <a href="/topic/andre-simon/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Andre Simon</a>
-    <a href="/topic/mrs-beeton/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Mrs Beeton</a>
-    <a href="/topic/t.s.-eliot/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">T.S. Eliot</a>
     <a href="/topic/autobiography/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Autobiography</a>
     <a href="/topic/cornwall/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Cornwall</a>
     <a href="/topic/brunswick-germany/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Brunswick - Germany</a>
@@ -731,6 +710,171 @@
     <a href="/topic/food-rationing/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Food rationing</a>
     <a href="/topic/prince-alfred-the-duke-edinburgh/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Prince Alfred the Duke Edinburgh</a>
     <a href="/topic/captain-frederick-standish/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Captain Frederick Standish</a>
+    <a href="/topic/benson-and-hedges-cigarettes/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Benson &amp; Hedges cigarettes</a>
+    <a href="/topic/billy-mackie-snedden/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Billy Mackie Snedden</a>
+    <a href="/topic/british-overseas-airways-corporation-boac/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">British Overseas Airways Corporation - BOAC</a>
+    <a href="/topic/charlie-brown-comic-strip/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Charlie Brown comic strip</a>
+    <a href="/topic/chiang-kai-shek/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Chiang Kai-shek</a>
+    <a href="/topic/clement-meadmore/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Clement Meadmore</a>
+    <a href="/topic/commander-of-the-british-empire-cbe/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Commander of the British Empire - CBE</a>
+    <a href="/topic/commander-whitehead-rn/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Commander Whitehead RN</a>
+    <a href="/topic/eero-saarinen/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Eero Saarinen</a>
+    <a href="/topic/elizabeth-riddell/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Elizabeth Riddell</a>
+    <a href="/topic/frank-eidliz/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Frank Eidliz</a>
+    <a href="/topic/frank-lloyd-wright/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Frank Lloyd Wright</a>
+    <a href="/topic/general-agreement-on-tariffs-and-trade-gatt/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">General Agreement on Tariffs and Trade - GATT</a>
+    <a href="/topic/ian-fleming/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Ian Fleming</a>
+    <a href="/topic/john-blackman/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">John Blackman</a>
+    <a href="/topic/josef-stanislaw-ostoja-kotkowski/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Josef Stanislaw Ostoja-Kotkowski</a>
+    <a href="/topic/marshall-mcluhan/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Marshall McLuhan</a>
+    <a href="/topic/norma-redpath/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Norma Redpath</a>
+    <a href="/topic/schulim-krimper/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Schulim Krimper</a>
+    <a href="/topic/sir-ian-potter/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Sir Ian Potter</a>
+    <a href="/topic/stuart-wagstaff/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Stuart Wagstaff</a>
+    <a href="/topic/tobacco/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Tobacco</a>
+    <a href="/topic/w.d-and-h.o.-wills/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">W.D &amp; H.O. Wills</a>
+    <a href="/topic/who&#39;s-who-in-australia/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Who&#39;s Who in Australia</a>
+    <a href="/topic/the-dean-of-melbourne-rev-dr-h-b-macartney/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">The Dean of Melbourne - Rev Dr H B Macartney</a>
+    <a href="/topic/e-tennyson-smith/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">E Tennyson Smith</a>
+    <a href="/topic/samuel-mauger/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Samuel Mauger</a>
+    <a href="/topic/cyril-h-denny/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Cyril H Denny</a>
+    <a href="/topic/lady-elisabeth-murdoch/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Lady Elisabeth Murdoch</a>
+    <a href="/topic/virgil-thomson/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Virgil Thomson</a>
+    <a href="/topic/ian-matthews-portavin/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Ian Matthews - Portavin</a>
+    <a href="/topic/ken-and-wendy-bilham/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Ken and Wendy Bilham</a>
+    <a href="/topic/dr-john-wilson/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Dr John Wilson</a>
+    <a href="/topic/fred-williams/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Fred Williams</a>
+    <a href="/topic/baillieu-myer/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Baillieu Myer</a>
+    <a href="/topic/nat-and-rosalie-white/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Nat and Rosalie White</a>
+    <a href="/topic/anatole-de-montaiglon/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Anatole de Montaiglon</a>
+    <a href="/topic/henry-figsby-young/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Henry Figsby Young</a>
+    <a href="/topic/peter-cudlipp/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Peter Cudlipp</a>
+    <a href="/topic/peter-mcintosh/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Peter McIntosh</a>
+    <a href="/topic/philip-suter/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Philip Suter</a>
+    <a href="/topic/terry-laidler/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Terry Laidler</a>
+    <a href="/topic/ashley-harris/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Ashley Harris</a>
+    <a href="/topic/greg-gallagher/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Greg Gallagher</a>
+    <a href="/topic/dr-samuel-johnson/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Dr Samuel Johnson</a>
+    <a href="/topic/richard-ernest-nowell-ren-twopeny/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Richard Ernest Nowell -REN- Twopeny</a>
+    <a href="/topic/les-francis/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Les Francis</a>
+    <a href="/topic/ian-mackenzie/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Ian Mackenzie</a>
+    <a href="/topic/christopher-daniel/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Christopher Daniel</a>
+    <a href="/topic/william-painter/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">William Painter</a>
+    <a href="/topic/darren-kelly/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Darren Kelly</a>
+    <a href="/topic/ian-home/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Ian Home</a>
+    <a href="/topic/rocco-tallarida/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Rocco Tallarida</a>
+    <a href="/topic/bronwyn-bishop/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Bronwyn Bishop</a>
+    <a href="/topic/jeff-kennett/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Jeff Kennett</a>
+    <a href="/topic/garry-crittenden/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Garry Crittenden</a>
+    <a href="/topic/henry-lawson/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Henry Lawson</a>
+    <a href="/topic/reg-fogarty/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Reg Fogarty</a>
+    <a href="/topic/pedler-palmer/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Pedler Palmer</a>
+    <a href="/topic/peter-lehmann/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Peter Lehmann</a>
+    <a href="/topic/charles-malpas/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Charles Malpas</a>
+    <a href="/topic/cocktails/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Cocktails</a>
+    <a href="/topic/peter-grant-hay/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Peter Grant Hay</a>
+    <a href="/topic/jack-williams/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Jack Williams</a>
+    <a href="/topic/jack-eddy/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Jack Eddy</a>
+    <a href="/topic/e.w.-bill-tipping/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">E.W. Bill Tipping</a>
+    <a href="/topic/stuart-legge/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Stuart Legge</a>
+    <a href="/topic/phoenix-hotel/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Phoenix Hotel</a>
+    <a href="/topic/john-monks/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">John Monks</a>
+    <a href="/topic/king-george-v/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">King George V</a>
+    <a href="/topic/reverend-e.-c.-crotty/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Reverend E. C. Crotty</a>
+    <a href="/topic/sir-alexander-peacock/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Sir Alexander Peacock</a>
+    <a href="/topic/cathedral-hotel/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Cathedral Hotel</a>
+    <a href="/topic/hotel-australia/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Hotel Australia</a>
+    <a href="/topic/beer/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Beer</a>
+    <a href="/topic/tom-ford/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Tom Ford</a>
+    <a href="/topic/norman-brown/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Norman Brown</a>
+    <a href="/topic/curly-rourke/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Curly Rourke</a>
+    <a href="/topic/breakfast-creek-hotel/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Breakfast Creek Hotel</a>
+    <a href="/topic/dr-carl-resch/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Dr Carl Resch</a>
+    <a href="/topic/coopers-beer/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Coopers Beer</a>
+    <a href="/topic/reschs/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Reschs</a>
+    <a href="/topic/swan-lager/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Swan Lager</a>
+    <a href="/topic/wallhalla/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Wallhalla</a>
+    <a href="/topic/warwick-w-armstrong/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Warwick W Armstrong</a>
+    <a href="/topic/home-brewing/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Home brewing</a>
+    <a href="/topic/peter-janson/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Peter Janson</a>
+    <a href="/topic/jeff-moss/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Jeff Moss</a>
+    <a href="/topic/paul-sheahan/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Paul Sheahan</a>
+    <a href="/topic/ian-johnson/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Ian Johnson</a>
+    <a href="/topic/bundaberg-rum/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Bundaberg Rum</a>
+    <a href="/topic/rhine-castle-wines/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Rhine Castle Wines</a>
+    <a href="/topic/milawa/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Milawa</a>
+    <a href="/topic/stan-keon/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Stan Keon</a>
+    <a href="/topic/ian-sutherland-smith/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Ian Sutherland Smith</a>
+    <a href="/topic/tulloch-wines/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Tulloch Wines</a>
+    <a href="/topic/rothbury-estate-society/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Rothbury Estate Society</a>
+    <a href="/topic/viticultural-society-of-victoria/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Viticultural Society of Victoria</a>
+    <a href="/topic/neville-baker/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Neville Baker</a>
+    <a href="/topic/john-beeston/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">John Beeston</a>
+    <a href="/topic/frank-christie/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Frank Christie</a>
+    <a href="/topic/peter-joyce/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Peter Joyce</a>
+    <a href="/topic/david-thomas/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">David Thomas</a>
+    <a href="/topic/john-cunnington/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">John Cunnington</a>
+    <a href="/topic/joe-sullivan/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Joe Sullivan</a>
+    <a href="/topic/rudi-komon/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Rudi Komon</a>
+    <a href="/topic/baron-ferdinand-von-mueller/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Baron Ferdinand von Mueller</a>
+    <a href="/topic/john-and-patricia-brown/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">John and Patricia Brown</a>
+    <a href="/topic/jean-antoine-chaptal/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Jean-Antoine Chaptal</a>
+    <a href="/topic/andrew-hickinbotham/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Andrew Hickinbotham</a>
+    <a href="/topic/ted-zakorski/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Ted Zakorski</a>
+    <a href="/topic/joseph-swan/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Joseph Swan</a>
+    <a href="/topic/anthony-hanson/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Anthony Hanson</a>
+    <a href="/topic/john-and-marjorie-paterson/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">John and Marjorie Paterson</a>
+    <a href="/topic/peter-mcmahon/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Peter McMahon</a>
+    <a href="/topic/derek-rumbold/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Derek Rumbold</a>
+    <a href="/topic/patricia-rumbold/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Patricia Rumbold</a>
+    <a href="/topic/vivienne-massoni/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Vivienne Massoni</a>
+    <a href="/topic/viticultre/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Viticultre</a>
+    <a href="/topic/lucian-dressell/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Lucian Dressell</a>
+    <a href="/topic/andre-simon/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Andre Simon</a>
+    <a href="/topic/mrs-beeton/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Mrs Beeton</a>
+    <a href="/topic/t.s.-eliot/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">T.S. Eliot</a>
+    <a href="/topic/the-bulletin/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">The Bulletin</a>
+    <a href="/topic/james-mirams/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">James Mirams</a>
+    <a href="/topic/cyril-pearl/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Cyril Pearl</a>
+    <a href="/topic/geoffrey-serle/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Geoffrey Serle</a>
+    <a href="/topic/william-artnhur-holman/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">William Artnhur Holman</a>
+    <a href="/topic/henry-louis-mencken/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Henry Louis Mencken</a>
+    <a href="/topic/the-christian-colonist/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">The Christian Colonist</a>
+    <a href="/topic/douglas-pike/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Douglas Pike</a>
+    <a href="/topic/(dean)-hussey-burgh-macartney/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">(Dean) Hussey Burgh Macartney</a>
+    <a href="/topic/(bishop)-charles-perry/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">(Bishop) Charles Perry</a>
+    <a href="/topic/thistle-anderson-(mrs-herbert-fisher)/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Thistle Anderson (Mrs Herbert Fisher)</a>
+    <a href="/topic/cardinal-patrick-francis-moran/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Cardinal Patrick Francis Moran</a>
+    <a href="/topic/reverend-bishop-ian-shevill/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Reverend Bishop Ian Shevill</a>
+    <a href="/topic/william-kelly/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">William Kelly</a>
+    <a href="/topic/dr-fb-barry-smith/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Dr FB Barry Smith</a>
+    <a href="/topic/rev-dr-adam-cairns/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Rev Dr Adam Cairns</a>
+    <a href="/topic/rev-john-sutton/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Rev John Sutton</a>
+    <a href="/topic/rev-m-mackay/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Rev M Mackay</a>
+    <a href="/topic/rev-bishop-samuel-thornton/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Rev Bishop Samuel Thornton</a>
+    <a href="/topic/sir-george-ferguson-bowen/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Sir George Ferguson Bowen</a>
+    <a href="/topic/rev-jc-symons/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Rev JC Symons</a>
+    <a href="/topic/james-goodall-francis/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">James Goodall Francis</a>
+    <a href="/topic/charles-henry-pearson/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Charles Henry Pearson</a>
+    <a href="/topic/frederick-hadkinson-bromley/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Frederick Hadkinson Bromley</a>
+    <a href="/topic/rev.-charles-strong/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Rev. Charles Strong</a>
+    <a href="/topic/jules-joseph-lefebvre/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Jules Joseph Lefebvre</a>
+    <a href="/topic/george-moore/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">George Moore</a>
+    <a href="/topic/anatole-de-courde-de-montaiglon/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Anatole de Courde de Montaiglon</a>
+    <a href="/topic/john-russell/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">John Russell</a>
+    <a href="/topic/thomas-trood/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Thomas Trood</a>
+    <a href="/topic/frederick-mccubbin/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Frederick McCubbin</a>
+    <a href="/topic/louis-abrahams/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Louis Abrahams</a>
+    <a href="/topic/thomas-humphrey/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Thomas Humphrey</a>
+    <a href="/topic/alexander-colquhoun/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Alexander Colquhoun</a>
+    <a href="/topic/rev-f-w-fitchett/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Rev F W Fitchett</a>
+    <a href="/topic/william-shiels/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">William Shiels</a>
+    <a href="/topic/john-munro-bruce/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">John Munro Bruce</a>
+    <a href="/topic/sir-henry-wrixon/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Sir Henry Wrixon</a>
+    <a href="/topic/louis-lawrence-smith/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Louis Lawrence Smith</a>
+    <a href="/topic/james-balfour/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">James Balfour</a>
+    <a href="/topic/rev-sir-irving-benson/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Rev Sir Irving Benson</a>
+    <a href="/topic/sir-arthur-gordon-rylah/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Sir Arthur Gordon Rylah</a>
     <a href="/topic/a-place-in-the-sun/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">A Place in the Sun</a>
     <a href="/topic/bill-tipping/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Bill Tipping</a>
     <a href="/topic/billy-hughes/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Billy Hughes</a>
@@ -757,7 +901,6 @@
     <a href="/topic/pancho-segura/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Pancho Segura</a>
     <a href="/topic/stefan-haag/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Stefan Haag</a>
     <a href="/topic/elizabethan-theatre-trust/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Elizabethan Theatre Trust</a>
-    <a href="/topic/her-majestys-theatre/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Her Majestys Theatre</a>
     <a href="/topic/victorian-symphony-orchestra/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Victorian Symphony Orchestra</a>
     <a href="/topic/eric-clapham/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Eric Clapham</a>
     <a href="/topic/ronald-dowd/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Ronald Dowd</a>
@@ -925,72 +1068,6 @@
     <a href="/topic/great-western-champagne/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Great Western Champagne</a>
     <a href="/topic/colin-preece/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Colin Preece</a>
     <a href="/topic/hans-irvine/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Hans Irvine</a>
-    <a href="/topic/benson-and-hedges-cigarettes/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Benson &amp; Hedges cigarettes</a>
-    <a href="/topic/billy-mackie-snedden/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Billy Mackie Snedden</a>
-    <a href="/topic/british-overseas-airways-corporation-boac/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">British Overseas Airways Corporation - BOAC</a>
-    <a href="/topic/charlie-brown-comic-strip/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Charlie Brown comic strip</a>
-    <a href="/topic/chiang-kai-shek/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Chiang Kai-shek</a>
-    <a href="/topic/clement-meadmore/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Clement Meadmore</a>
-    <a href="/topic/commander-of-the-british-empire-cbe/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Commander of the British Empire - CBE</a>
-    <a href="/topic/commander-whitehead-rn/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Commander Whitehead RN</a>
-    <a href="/topic/eero-saarinen/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Eero Saarinen</a>
-    <a href="/topic/elizabeth-riddell/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Elizabeth Riddell</a>
-    <a href="/topic/frank-eidliz/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Frank Eidliz</a>
-    <a href="/topic/frank-lloyd-wright/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Frank Lloyd Wright</a>
-    <a href="/topic/general-agreement-on-tariffs-and-trade-gatt/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">General Agreement on Tariffs and Trade - GATT</a>
-    <a href="/topic/ian-fleming/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Ian Fleming</a>
-    <a href="/topic/john-blackman/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">John Blackman</a>
-    <a href="/topic/josef-stanislaw-ostoja-kotkowski/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Josef Stanislaw Ostoja-Kotkowski</a>
-    <a href="/topic/marshall-mcluhan/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Marshall McLuhan</a>
-    <a href="/topic/norma-redpath/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Norma Redpath</a>
-    <a href="/topic/schulim-krimper/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Schulim Krimper</a>
-    <a href="/topic/sir-ian-potter/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Sir Ian Potter</a>
-    <a href="/topic/stuart-wagstaff/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Stuart Wagstaff</a>
-    <a href="/topic/tobacco/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Tobacco</a>
-    <a href="/topic/w.d-and-h.o.-wills/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">W.D &amp; H.O. Wills</a>
-    <a href="/topic/who&#39;s-who-in-australia/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Who&#39;s Who in Australia</a>
-    <a href="/topic/the-bulletin/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">The Bulletin</a>
-    <a href="/topic/james-mirams/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">James Mirams</a>
-    <a href="/topic/cyril-pearl/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Cyril Pearl</a>
-    <a href="/topic/geoffrey-serle/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Geoffrey Serle</a>
-    <a href="/topic/william-artnhur-holman/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">William Artnhur Holman</a>
-    <a href="/topic/henry-louis-mencken/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Henry Louis Mencken</a>
-    <a href="/topic/the-christian-colonist/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">The Christian Colonist</a>
-    <a href="/topic/douglas-pike/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Douglas Pike</a>
-    <a href="/topic/(dean)-hussey-burgh-macartney/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">(Dean) Hussey Burgh Macartney</a>
-    <a href="/topic/(bishop)-charles-perry/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">(Bishop) Charles Perry</a>
-    <a href="/topic/thistle-anderson-(mrs-herbert-fisher)/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Thistle Anderson (Mrs Herbert Fisher)</a>
-    <a href="/topic/cardinal-patrick-francis-moran/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Cardinal Patrick Francis Moran</a>
-    <a href="/topic/reverend-bishop-ian-shevill/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Reverend Bishop Ian Shevill</a>
-    <a href="/topic/william-kelly/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">William Kelly</a>
-    <a href="/topic/dr-fb-barry-smith/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Dr FB Barry Smith</a>
-    <a href="/topic/rev-dr-adam-cairns/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Rev Dr Adam Cairns</a>
-    <a href="/topic/rev-john-sutton/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Rev John Sutton</a>
-    <a href="/topic/rev-m-mackay/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Rev M Mackay</a>
-    <a href="/topic/rev-bishop-samuel-thornton/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Rev Bishop Samuel Thornton</a>
-    <a href="/topic/sir-george-ferguson-bowen/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Sir George Ferguson Bowen</a>
-    <a href="/topic/rev-jc-symons/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Rev JC Symons</a>
-    <a href="/topic/james-goodall-francis/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">James Goodall Francis</a>
-    <a href="/topic/charles-henry-pearson/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Charles Henry Pearson</a>
-    <a href="/topic/frederick-hadkinson-bromley/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Frederick Hadkinson Bromley</a>
-    <a href="/topic/rev.-charles-strong/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Rev. Charles Strong</a>
-    <a href="/topic/jules-joseph-lefebvre/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Jules Joseph Lefebvre</a>
-    <a href="/topic/george-moore/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">George Moore</a>
-    <a href="/topic/anatole-de-courde-de-montaiglon/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Anatole de Courde de Montaiglon</a>
-    <a href="/topic/john-russell/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">John Russell</a>
-    <a href="/topic/thomas-trood/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Thomas Trood</a>
-    <a href="/topic/frederick-mccubbin/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Frederick McCubbin</a>
-    <a href="/topic/louis-abrahams/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Louis Abrahams</a>
-    <a href="/topic/thomas-humphrey/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Thomas Humphrey</a>
-    <a href="/topic/alexander-colquhoun/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Alexander Colquhoun</a>
-    <a href="/topic/rev-f-w-fitchett/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Rev F W Fitchett</a>
-    <a href="/topic/william-shiels/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">William Shiels</a>
-    <a href="/topic/john-munro-bruce/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">John Munro Bruce</a>
-    <a href="/topic/sir-henry-wrixon/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Sir Henry Wrixon</a>
-    <a href="/topic/louis-lawrence-smith/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Louis Lawrence Smith</a>
-    <a href="/topic/james-balfour/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">James Balfour</a>
-    <a href="/topic/rev-sir-irving-benson/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Rev Sir Irving Benson</a>
-    <a href="/topic/sir-arthur-gordon-rylah/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Sir Arthur Gordon Rylah</a>
     <a href="/topic/norm-everage/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Norm Everage</a>
     <a href="/topic/david-jones/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">David Jones</a>
     <a href="/topic/menzies/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Menzies</a>
@@ -1103,7 +1180,6 @@
     <a href="/topic/ray-gabelich/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Ray Gabelich</a>
     <a href="/topic/my-fair-lady/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">My Fair Lady</a>
     <a href="/topic/j.-c.-williamsons/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">J. C. Williamsons</a>
-    <a href="/topic/her-majesty&#39;s-theatre/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Her Majesty&#39;s Theatre</a>
     <a href="/topic/michael-denison/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Michael Denison</a>
     <a href="/topic/john-mccallum/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">John McCallum</a>
     <a href="/topic/christchurch/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Christchurch</a>
@@ -1158,7 +1234,6 @@
     <a href="/topic/alphington/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Alphington</a>
     <a href="/topic/judge-fraser/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Judge Fraser</a>
     <a href="/topic/neale-fraser/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Neale Fraser</a>
-    <a href="/topic/australian-hotels-association/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Australian Hotels Association</a>
     <a href="/topic/arthur-rylah/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Arthur Rylah</a>
     <a href="/topic/chevron/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Chevron</a>
     <a href="/topic/savoy-plaza/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Savoy Plaza</a>
@@ -1354,6 +1429,10 @@
     <a href="/topic/w.-g.-leaman/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">W. G. Leaman</a>
     <a href="/topic/des-gilmore/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Des Gilmore</a>
     <a href="/topic/senior-detective-cook/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Senior Detective Cook</a>
+    <a href="/topic/clubs-and-societies/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Clubs and Societies</a>
+    <a href="/topic/stonyfell/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Stonyfell</a>
+    <a href="/topic/rhine-castle/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Rhine Castle</a>
+    <a href="/topic/mount-pleasant/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Mount Pleasant</a>
     <a href="/topic/spiers-and-pond/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Spiers and Pond</a>
     <a href="/topic/h.-h.-stephenson/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">H. H. Stephenson</a>
     <a href="/topic/charles-dickens/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Charles Dickens</a>
@@ -1368,7 +1447,6 @@
     <a href="/topic/beechworth/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Beechworth</a>
     <a href="/topic/reginald-francis-graham-fogarty/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Reginald Francis Graham Fogarty</a>
     <a href="/topic/ginger-burke/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Ginger Burke</a>
-    <a href="/topic/australian-hotels&#39;-association/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Australian Hotels&#39; Association</a>
     <a href="/topic/kerry-family-hotel/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Kerry Family Hotel</a>
     <a href="/topic/trades-hall/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Trades Hall</a>
     <a href="/topic/charringtons/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Charringtons</a>
@@ -1377,10 +1455,6 @@
     <a href="/topic/marion-mahoney/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Marion Mahoney</a>
     <a href="/topic/walter-burley-griffin/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Walter Burley Griffin</a>
     <a href="/topic/the-capitol-theatre/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">The Capitol Theatre</a>
-    <a href="/topic/clubs-and-societies/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Clubs and Societies</a>
-    <a href="/topic/stonyfell/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Stonyfell</a>
-    <a href="/topic/rhine-castle/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Rhine Castle</a>
-    <a href="/topic/mount-pleasant/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Mount Pleasant</a>
     <a href="/topic/bird-watching/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Bird Watching</a>
     <a href="/topic/heidelberg/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Heidelberg</a>
     <a href="/topic/roy-wheeler/" class="link-dark text-decoration-none d-inline-block me-3 mb-2 fs-6 text-muted" title="1 item includes this topic">Roy Wheeler</a>

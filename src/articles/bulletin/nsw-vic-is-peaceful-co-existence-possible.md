@@ -1,7 +1,7 @@
 ---
 title: "NSW–Vic: Is Peaceful Co-Existence Possible?"
 date: 1962-11-24
-summary: First published in the Bulletin Magazine, 1962.
+summary: A tongue-in-cheek peace plan for the Sydney-Melbourne rivalry, sparked by Melbourne's jetport frustrations and a Senate row over an anti-Melbourne pamphlet, complete with a proposed Bolte-Heffron summit in a railway carriage at Albury.
 categories:
 - The Bulletin
 tags:

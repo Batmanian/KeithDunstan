@@ -1,7 +1,7 @@
 ---
 title: Not Only Serious – Solemn!
 date: 1962-06-02
-summary: First published in the Bulletin Magazine, 1962.
+summary: A blow-by-blow account of Melbourne's raging Age letters-page feud between realist and modernist painters, pitting William Dargie against National Gallery director Eric Westbrook.
 categories:
 - The Bulletin
 tags:

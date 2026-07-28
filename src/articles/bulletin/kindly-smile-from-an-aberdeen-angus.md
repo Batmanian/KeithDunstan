@@ -1,7 +1,7 @@
 ---
 title: Kindly Smile from an Aberdeen Angus
 date: 1962-09-29
-summary: First published in the Bulletin Magazine, 1962.
+summary: A dutiful trudge round the ever-identical Royal Show turns up an unexpected revival — a tug-o'-war contest recalling Melbourne's forgotten 1892 world championship pull and its two legendary twenty-stone anchor men.
 categories:
 - The Bulletin
 tags:

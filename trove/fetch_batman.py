@@ -15,7 +15,7 @@ Dates are extracted from the article title (e.g. "Batman's Melbourne (24 April 1
 since Trove's issued field returns year only for this publication.
 
 Output goes to trove/output/bulletin/stubs/ for review before moving to
-src/posts/bulletin/.
+src/articles/bulletin/.
 
 Usage:
     python fetch_batman.py
@@ -133,7 +133,7 @@ def build_markdown(work):
     # - title, date, summary required
     # - categories for The Bulletin
     # - tags empty until manually reviewed
-    # - NO layout or post tag (handled globally by src/posts/posts.json)
+    # - NO layout or post tag (handled globally by src/articles/articles.json)
     # - NO trove_url/fulltext_url in frontmatter (in citation at bottom instead)
     return f"""---
 title: "{clean_title}"
@@ -146,7 +146,7 @@ tags:
 
 {f'> {snippet_text}' if snippet_text else ''}
 
-[Full article text not yet transcribed. Visit the Trove link below to read and transcribe, then move this file to `src/posts/bulletin/`.]
+[Full article text not yet transcribed. Visit the Trove link below to read and transcribe, then move this file to `src/articles/bulletin/`.]
 
 <hr>
 

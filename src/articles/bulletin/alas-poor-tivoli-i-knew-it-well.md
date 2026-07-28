@@ -1,7 +1,7 @@
 ---
 title: Alas, poor Tivoli, I knew it well.
 date: 1967-04-15
-summary: First published in the Bulletin Magazine, 1967.
+summary: A eulogy for Melbourne's fire-gutted Tivoli Theatre, tracing its history back to the 1850s diggers' Varieties Music Hall through Harry Rickard's opulent 1901 rebuild and its parade of stars from Marie Lloyd to Harry Houdini.
 categories:
 - The Bulletin
 tags:

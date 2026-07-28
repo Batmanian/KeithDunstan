@@ -8,7 +8,7 @@ Catches articles where Keith wrote under his real name rather than the
 checks all bulletin subfolders before writing to avoid duplicates.
 
 Output goes to trove/output/bulletin/stubs/ for review before moving to
-src/posts/bulletin/.
+src/articles/bulletin/.
 
 Usage:
     python fetch_byline.py
@@ -122,7 +122,7 @@ tags:
 
 {f'> {snippet_text}' if snippet_text else ''}
 
-[Full article text not yet transcribed. Visit the Trove link below to read and transcribe, then move this file to `src/posts/bulletin/`.]
+[Full article text not yet transcribed. Visit the Trove link below to read and transcribe, then move this file to `src/articles/bulletin/`.]
 
 <hr>
 

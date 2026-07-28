@@ -11950,6 +11950,47 @@ body {
   padding-bottom: 14vh;
 }
 
+[data-bs-theme=dark] .navbar {
+  --bs-navbar-color: rgba(255, 255, 255, 0.55);
+  --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
+  --bs-navbar-active-color: #fff;
+  --bs-navbar-brand-color: #fff;
+  --bs-navbar-brand-hover-color: #fff;
+}
+[data-bs-theme=dark] .bg-light {
+  background-color: var(--bs-tertiary-bg) !important;
+}
+[data-bs-theme=dark] .text-dark,
+[data-bs-theme=dark] .link-dark,
+[data-bs-theme=dark] .link-dark:hover,
+[data-bs-theme=dark] .link-dark:focus {
+  color: var(--bs-body-color) !important;
+}
+[data-bs-theme=dark] .link-secondary,
+[data-bs-theme=dark] .link-secondary:hover,
+[data-bs-theme=dark] .link-secondary:focus {
+  color: var(--bs-secondary-color) !important;
+}
+[data-bs-theme=dark] .btn-outline-dark {
+  --bs-btn-color: var(--bs-body-color);
+  --bs-btn-border-color: var(--bs-border-color);
+  --bs-btn-hover-color: var(--bs-body-bg);
+  --bs-btn-hover-bg: var(--bs-body-color);
+  --bs-btn-hover-border-color: var(--bs-body-color);
+  --bs-btn-active-color: var(--bs-body-bg);
+  --bs-btn-active-bg: var(--bs-body-color);
+  --bs-btn-active-border-color: var(--bs-body-color);
+  --bs-btn-disabled-color: var(--bs-body-color);
+  --bs-btn-disabled-border-color: var(--bs-border-color);
+}
+[data-bs-theme=dark] .badge.bg-dark {
+  background-color: var(--bs-secondary-bg) !important;
+  color: var(--bs-body-color);
+}
+[data-bs-theme=dark] blockquote {
+  background: var(--bs-tertiary-bg);
+}
+
 /*
 .navbar-brand {
     background: url('/img/keith-square.png');

@@ -1,10 +1,14 @@
 const { DateTime } = require("luxon");
 const navigationPlugin = require('@11ty/eleventy-navigation')
 const rssPlugin = require('@11ty/eleventy-plugin-rss')
+const metagenPlugin = require('eleventy-plugin-metagen')
 const matter = require("gray-matter");
 
 module.exports = function(eleventyConfig) {
 
+  // Powers the {% metagen %} shortcode used in snippets/opengraph.njk to
+  // generate Open Graph / Twitter Card / canonical tags for every page.
+  eleventyConfig.addPlugin(metagenPlugin);
 
   eleventyConfig.setDataDeepMerge(true);
 

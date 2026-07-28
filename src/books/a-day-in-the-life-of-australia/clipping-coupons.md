@@ -1,7 +1,7 @@
 ---
 title:  Clipping Coupons
 date: 1988-01-18
-summary: From a retrospective series Keith Dunstan wrote for the The Age Newspaper to mark the 1988 Australian bicentenary
+summary: Wartime meat rationing arrives on top of petrol, clothes, tea and sugar coupons, prompting a gas-producer car that turns blondes brunette and a butcher's window sign wanting men to build "an Asylum for Mad Butchers."
 tags:
   -  Senator Richard Keane
   -  Food rationing

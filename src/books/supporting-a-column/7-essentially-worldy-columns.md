@@ -1,7 +1,7 @@
 ---
 title: Essentially worldly columns
 date: 1966-11-11
-summary: The seventh chapter of Keith's second book, 'Supporting a column'. 
+summary: On chasing column fodder overseas during the lean weeks, including a heavily armed, machine-gun-escorted tour of a Strategic Air Command nuclear bomber base at Fort Worth, Texas, at the height of the Cold War.
 tags:
   - Darwin
   - Douglas Lockwood

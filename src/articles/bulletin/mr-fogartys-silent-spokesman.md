@@ -1,14 +1,14 @@
 ---
 title: Mr Fogarty's Silent Spokesman
 date: 1962-12-22
-summary: First published in the Bulletin Magazine, 1962.
+summary: A pre-Christmas beer bottle shortage forces Melbourne to drink imported Toohey's and West End, unmasking Carlton and United's Reg Fogarty as the ruthless "beer czar" who controls the price and supply of beer across Victoria.
 categories:
 - The Bulletin
 tags:
   - Reginald Francis Graham Fogarty
   - Carlton and United Breweries
   - Ginger Burke
-  - Australian Hotels' Association
+  - Australian Hotels Association
   - Kerry Family Hotel
   - Trades Hall
   - Richmond Brewery

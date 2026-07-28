@@ -1,7 +1,7 @@
 ---
 title: The demon becomes a snob
 date: 1994-11-11
-summary: The fifth chapter of Keith's book on his relationship with wine, beer and drinking, 'My life with the Demon'.
+summary: On the columnist's endless round of PR-fuelled launches and champagne breakfasts — Stanley Korman's American import — that turned a professional drinker into an accidental wine snob.
 tags:
   - Wine
   - Rothbury Estate Society

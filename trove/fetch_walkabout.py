@@ -141,7 +141,7 @@ tags:
 
 {f'> {snippet_text}' if snippet_text else ''}
 
-[Full article text not yet transcribed. Visit the Trove link below to read and transcribe, then move this file to `src/posts/walkabout-magazine/`.]
+[Full article text not yet transcribed. Visit the Trove link below to read and transcribe, then move this file to `src/articles/walkabout-magazine/`.]
 
 <hr>
 

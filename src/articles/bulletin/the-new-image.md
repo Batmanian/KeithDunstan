@@ -1,7 +1,7 @@
 ---
 title: "The New Image"
 date: 1962-03-03
-summary: "First published in the Bulletin Magazine, 1962."
+summary: "On Melbourne's sudden reputation for permissiveness, from a swimsuit-censorship row at the Australian Swimming Championships to the Moomba Committee's controversial beer garden in the Alexandra Gardens."
 categories:
 - The Bulletin
 tags:

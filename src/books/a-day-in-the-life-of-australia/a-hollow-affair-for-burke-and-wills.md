@@ -1,7 +1,7 @@
 ---
 title:  A Hollow Affair for Burke and Wills
 date: 1988-01-28
-summary: Of a series Keith wrote for the The Age Newspaper to mark the 1988 Australian bicentenary
+summary: Melbourne buries Burke and Wills in a vast, mournful state funeral watched by 40,000 people, while the crowd angrily demands to know why the expedition's forgotten rouseabout, Charley Gray, was left in his grave at Massacre Creek.
 tags:
   -  Robert Ohara Burke
   -  William John Wills

@@ -1,7 +1,7 @@
 ---
 title: "An Albert Tucker for 2s. a Mile"
 date: 1962-12-15
-summary: First published in the Bulletin Magazine, 1962.
+summary: Tours the newly opened John Batman motor inn, Robin Boyd's design showcase hung with original Nolans and Tuckers, from its £500,000 build cost down to its black-carpeted penthouse suite.
 categories:
 - The Bulletin
 tags:

@@ -1,7 +1,7 @@
 ---
 title: The Early Demon
 date: 1994-11-11
-summary: The first chapter of Keith's book on his relationship with wine, beer and drinking, 'My life with the Demon'.
+summary: Opens 'My Life with the Demon' with Keith's first taste of alcohol as a schoolboy altar server at Geelong Grammar, sneaking sips of the sacramental wine and topping the bottle back up with water.
 tags:
   - Wine
   - Geelong Grammar School 

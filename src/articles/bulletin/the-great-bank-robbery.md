@@ -1,7 +1,7 @@
 ---
 title: The Great Bank Robbery
 date: 1962-06-09
-summary: First published in the Bulletin Magazine, 1962.
+summary: Investigates Melbourne's record £40,000 bank robbery and the mystery of the thieves' 21 keys, then the Puffing Billy Preservation Society's fight to reopen the narrow-gauge line through the Dandenongs.
 categories:
 - The Bulletin
 tags:

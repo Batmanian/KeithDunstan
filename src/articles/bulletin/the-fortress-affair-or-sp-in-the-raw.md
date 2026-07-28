@@ -1,7 +1,7 @@
 ---
 title: The Fortress Affair — or SP in the Raw
 date: 1962-09-15
-summary: First published in the Bulletin Magazine, 1962.
+summary: Mines the Post Office Royal Commission's evidence on Victoria's illegal SP bookmakers, from a St Kilda penthouse called "The Fortress" that police had to storm by ledge, to a bookie's electronic betting bunker under a kitchen floor.
 categories:
 - The Bulletin
 tags:
