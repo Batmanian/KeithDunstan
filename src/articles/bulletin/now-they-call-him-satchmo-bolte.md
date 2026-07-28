@@ -10,7 +10,7 @@ tags:
   - Exhibition Building
   - Sydney
   - Carlton Gardens
-  - Foster's Lager
+  - Fosters Lager
   - Chloe
   - Jules Lefebre
   - Louis Armstrong

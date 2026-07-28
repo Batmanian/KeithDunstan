@@ -77,6 +77,9 @@ Contents list sourced from `src/ratbags.njk`, cross-checked against `src/books/r
 
 **Ratbags is now complete: 26 of 26 chapters live.** Remaining housekeeping: run `scripts/ocr-cleanup.sh` for chapters 10–26 whose Scans/OCR working files are all still present (cheap to regenerate, HEIC originals should be trashed once reviewed).
 
+* Fix opening lines in chapters so that they're in sentence case
+* Ensure all pages link to the next chapter except the last.
+
 ---
 
 ## 3. Wowsers (1968) — chapter detail

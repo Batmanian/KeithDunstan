@@ -7,7 +7,7 @@ categories:
 tags:
   - Melbourne
   - Ron Barassi
-  - St. Kilda
+  - St Kilda
   - South Yarra
   - Tania Verstak
   - MCG

@@ -29,6 +29,7 @@
 - Preserve Keith Dunstan's voice exactly; Australian English; single-quote dialogue
 - Tags are granular proper nouns only (people, places, organisations)
 - Article files should have 5–15 tags; book chapter files may have empty tags
+- Tag spelling must match exactly across every file that uses it — `src/tags.njk` builds one page per tag via `permalink: /topic/{{ tag | slug }}/`, so variants like "Foster's Lager" vs "Fosters Lager", "St Kilda" vs "St. Kilda", or "X & Y" vs "X and Y" slugify to the same URL and crash the Eleventy build with `DuplicatePermalinkOutputError`. Check `src/_data/topics.md` for the canonical spelling before adding a new tag, and reuse it verbatim.
 - Every `.md` file requires `title`, `date`, and `summary` frontmatter
 - Article files may also use a `categories` field (e.g. `- The Bulletin`)
 

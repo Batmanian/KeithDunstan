@@ -18,7 +18,7 @@ tags:
   - St Vincent's Hospital
   - Nicholson Street
   - Pagewood Studios
-  - Carlton & United Breweries
+  - Carlton and United Breweries
   - Sydney
 ---
 

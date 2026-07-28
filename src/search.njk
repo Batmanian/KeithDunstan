@@ -7,8 +7,66 @@ permalink: search.html
 <p class="text-muted mb-5">Search by term, or browse by topic below.</p>
 
 <h2 class="h5">Search by term</h2>
-<script async src="https://cse.google.com/cse.js?cx=377210222f0fe08d8"></script>
-<div class="gcse-search mb-5"></div>
+<div class="mb-3">
+  <input type="search" id="search-input" class="form-control" placeholder="Search articles and books&hellip;" autocomplete="off" disabled>
+</div>
+<div id="search-results" class="mb-5"></div>
+
+<script type="module">
+  const input = document.getElementById("search-input");
+  const resultsEl = document.getElementById("search-results");
+
+  function escapeHtml(str) {
+    return (str || "").replace(/[&<>"']/g, (c) => ({
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+    }[c]));
+  }
+
+  function renderResults(items) {
+    if (!items.length) {
+      resultsEl.innerHTML = '<p class="text-muted">No results found.</p>';
+      return;
+    }
+    resultsEl.innerHTML = items.map((item) => {
+      const meta = item.meta || {};
+      const byline = [meta.publication, meta.date].filter(Boolean).join(" &middot; ");
+      return `
+        <div class="py-4 border-bottom">
+          <a href="${item.url}" class="text-decoration-none text-dark"><h3 class="h5 mb-1">${escapeHtml(meta.title)}</h3></a>
+          ${byline ? `<p class="text-muted small mb-2">${byline}</p>` : ""}
+          <p>${item.excerpt}</p>
+          <a href="${item.url}" class="link-fancy">Read more...</a>
+        </div>
+      `;
+    }).join("");
+  }
+
+  let pagefind;
+  let debounceTimer;
+
+  async function doSearch() {
+    const term = input.value.trim();
+    if (!term) {
+      resultsEl.innerHTML = "";
+      return;
+    }
+    const search = await pagefind.search(term);
+    const items = await Promise.all(search.results.slice(0, 20).map((r) => r.data()));
+    renderResults(items);
+  }
+
+  (async () => {
+    pagefind = await import("{{ '/pagefind/pagefind.js' | url }}");
+    await pagefind.init();
+    input.disabled = false;
+    input.placeholder = "Search articles and books…";
+  })();
+
+  input.addEventListener("input", () => {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(doSearch, 200);
+  });
+</script>
 
 <h2 class="h5">Or browse by topic</h2>
 {% include 'snippets/tagslist.njk' %}

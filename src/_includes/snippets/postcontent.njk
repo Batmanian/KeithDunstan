@@ -9,8 +9,10 @@
             min read.
           </aside>
           <p>First published
-            <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+            <time data-pagefind-meta="date" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
           </p>
+          {% set publication = categories[0] if categories and categories.length else (page.url | split('/'))[2] | humanizeSlug %}
+          <meta data-pagefind-meta="publication[content]" content="{{ publication }}">
          <!-- {%- for tag in tags | filterTagList -%}
             {%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
             <a href="{{ tagUrl | url }}" class="btn btn-outline-dark btn-sm me-2">{{ tag }}</a>

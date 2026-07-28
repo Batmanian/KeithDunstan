@@ -9,10 +9,10 @@ tags:
   - Flemington
   - Victoria Racing Club
   - Totalisator Agency Board
-  - Carlton United Brewery
+  - Carlton and United Breweries
   - National Bank of Australasia
   - Hardy Bros
-  - Ross Grey Smith
+  - Ross Grey-Smith
   - Bill Edwards
   - Douglas Cox
   - Les Coles

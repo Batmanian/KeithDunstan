@@ -94,6 +94,21 @@ module.exports = function(eleventyConfig) {
       zone: 'utc'
     }).toFormat('yyyy-LL-dd');
   });
+
+  // Nunjucks has no built-in string split — used to pull the collection
+  // slug out of a page's URL (e.g. "/books/ratbags/..." -> "ratbags").
+  eleventyConfig.addFilter("split", (str, delimiter) => (str || "").split(delimiter));
+
+  // Turns a URL slug into a display label — used to derive a "publication"
+  // name (e.g. book title) for pages that have no explicit `categories`
+  // frontmatter, for the search results metadata.
+  eleventyConfig.addFilter("humanizeSlug", (slug) => {
+    return (slug || "")
+      .split("-")
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ");
+  });
+
   return {
     dir: {
       input: "src",
