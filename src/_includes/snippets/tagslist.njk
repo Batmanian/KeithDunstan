@@ -13,6 +13,6 @@
     {%- else -%}
       {%- set tagSize = "fs-6 text-muted" -%}
     {%- endif %}
-    <a href="{{ tagUrl }}" class="link-dark text-decoration-none d-inline-block me-3 mb-2 {{ tagSize }}" title="{{ tag.tagCount }} item{% if tag.tagCount != 1 %}s{% endif %} include{% if tag.tagCount == 1 %}s{% endif %} this topic">{{ tag.tagName }}</a>
+    <a href="{{ tagUrl | safe }}" class="link-dark text-decoration-none d-inline-block me-3 mb-2 {{ tagSize }}" title="{{ tag.tagCount }} item{% if tag.tagCount != 1 %}s{% endif %} include{% if tag.tagCount == 1 %}s{% endif %} this topic">{{ tag.tagName }}</a>
   {%- endfor %}
 </div>

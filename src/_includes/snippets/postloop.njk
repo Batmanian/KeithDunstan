@@ -17,7 +17,7 @@
             Related topics:
             {%- for tag in postTags %}
               {% set tagUrl %}/topic/{{ tag | slug }}/{% endset %}
-              <a href="{{ tagUrl | url }}" class="link-secondary">{{ tag }}</a>{% if not loop.last %},{% endif %}
+              <a href="{{ tagUrl | url | safe }}" class="link-secondary">{{ tag }}</a>{% if not loop.last %},{% endif %}
             {%- endfor %}
           </p>
         {% endif %}

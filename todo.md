@@ -25,7 +25,7 @@ Last updated: 27 July 2026.
 | My Life with the Demon | 1994 | 13 | 13 | 0 | 0 | Complete |
 | Supporting a Column | 1966 | 9 | 9 | 0 | 0 | Complete |
 | The Australian Upper Crust Book | 1971 | 1 (Keith's chapter only) | 1 | 0 | 0 | Complete as scoped — other authors' chapters out of scope |
-| Ratbags | 1980 | 26 (foreword + intro + 24 profiles) | 19 | 7 📷 | 0 | See §2 for chapter detail |
+| Ratbags | 1980 | 26 (foreword + intro + 24 profiles) | 26 | 0 | 0 | Complete — see §2 for chapter detail |
 | Wowsers | 1968 | 10 | 2 | 6 📝 (empty stubs) | 2 | See §3 for chapter detail |
 | A Day in the Life of Australia | 1989 | 258 known daily entries | 8 | 11 📝 | 239 | See §4 — scale makes full per-entry tracking impractical |
 | Batman in the Bulletin | 2004 | Themed excerpt collection, not chapters | — | — | — | Sourced from Bulletin articles directly; see §5 |
@@ -72,10 +72,10 @@ Contents list sourced from `src/ratbags.njk`, cross-checked against `src/books/r
 | 22 | Percy Aldridge Grainger | ✅ | Scans/OCR files still present — cleanup not yet run |
 | 23 | Germaine Greer | ✅ | Scans/OCR files still present — cleanup not yet run |
 | 24 | Justus Jorgensen | ✅ | Scans/OCR files still present — cleanup not yet run; corrected spelling from "Jorgenson" to "Jorgensen" to match the book |
-| 25 | Clement John De Garis | 📷 | Scanned (13 photos) — awaiting OCR/transcription |
-| 26 | Kevin Charles — Pro Hart | 📷 | Scanned (12 photos) — awaiting OCR/transcription |
+| 25 | Clement John De Garis | ✅ | Scans/OCR files still present — cleanup not yet run |
+| 26 | Kevin Charles — Pro Hart | ✅ | Scans/OCR files still present — cleanup not yet run |
 
-**Immediate next steps:** transcribe chapter 16 (Xavier Herbert, already OCR'd); OCR and transcribe chapters 17–26, now all scanned and dropped into `src/books/ratbags/Scans/`; run `scripts/ocr-cleanup.sh` for chapters 10–15 whose scans are stale.
+**Ratbags is now complete: 26 of 26 chapters live.** Remaining housekeeping: run `scripts/ocr-cleanup.sh` for chapters 10–26 whose Scans/OCR working files are all still present (cheap to regenerate, HEIC originals should be trashed once reviewed).
 
 ---
 
@@ -259,8 +259,6 @@ For publications not in Trove, physical copies must be sourced and scanned. Foll
 - [x] Trove publication diagnostics run for all major publications
 - [x] Bulletin articles — 7 transcribed and live on site
 - [x] Walkabout articles — 4 transcribed and live on site (Bird Watching, Rough-Riding, Summer Madness, Paddy's Market to Luxury Hotel)
-- [x] Ratbags — chapters 1–15 of 26 live (foreword, introduction, 13 profiles)
-- [x] Ratbags — chapter 16 (Xavier Herbert) scanned and OCR'd, awaiting transcription
-- [x] Ratbags — chapters 17–26 physically scanned and dropped into `Scans/`, awaiting OCR/transcription
-- [x] Books fully live on site: No Brains At All, Supporting a Column, My Life with the Demon, The Australian Upper Crust Book (as scoped)
-- [x] Books partially live: A Day in the Life of Australia (8 of 258 known entries + 11 drafted), Wowsers (2 of 10 chapters), Ratbags (15 of 26 chapters)
+- [x] Ratbags — all 26 of 26 chapters live (foreword, introduction, 24 profiles) — book complete
+- [x] Books fully live on site: No Brains At All, Supporting a Column, My Life with the Demon, The Australian Upper Crust Book, Ratbags (as scoped)
+- [x] Books partially live: A Day in the Life of Australia (8 of 258 known entries + 11 drafted), Wowsers (2 of 10 chapters)

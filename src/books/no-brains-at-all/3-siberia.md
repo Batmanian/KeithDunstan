@@ -232,4 +232,4 @@ He would be a very dull person who does not accept the fall of Singapore as invo
 Black-out crepe went on all the school's windows, and Dr Darling had the idea that we should all build air raid shelters. Every afternoon instead of sport we dug trenches 2.5 metres deep outside Francis Brown House, supporting them with timber. Next we put in stairs and covered these graves with earth. Then we had air raid drill. Kittyhawks and Aircobras were being assembled at the International Harvester factory nearby and fighter aircraft flew daily over our heads. The war did not seem far away. In this heady atmosphere it was not easy to concentrate on education. The importance of war and getting to war over-shadowed everything.
 
 <hr>
-Continue to chapter four: <a href="{{ '/books/no-brains-at-all/4_following_a_vc' | url }}">Following a VC</a>
+Continue to chapter four: <a href="{{ '/books/no-brains-at-all/4-following-a-vc/' | url }}">Following a VC</a>

@@ -9,7 +9,7 @@
   {%- set pageTags = tags | filterTagList %}
   {%- for tag in pageTags %}
     {% set tagUrl %}/topic/{{ tag | slug }}/{% endset %}
-    <a href="{{ tagUrl | url }}" class="link-secondary">{{ tag }}</a>{% if not loop.last %},{% endif %}
+    <a href="{{ tagUrl | url | safe }}" class="link-secondary">{{ tag }}</a>{% if not loop.last %},{% endif %}
   {%- endfor %}
 </p>
 

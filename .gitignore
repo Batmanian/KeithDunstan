@@ -1,12 +1,10 @@
-node_modules
-.DS_Store
-dev
-public
+node_modules/
+**/.DS_Store
+dev/
+public/
 
 # Environment variables — never commit
 .env
-
-
 
 # Python
 __pycache__/
@@ -14,5 +12,7 @@ __pycache__/
 *.pyo
 .venv/
 venv/
-**/Scans
-/ocr
+
+# Working scan/OCR files — large, local-only, regenerable from the physical book
+**/Scans/
+/ocr/

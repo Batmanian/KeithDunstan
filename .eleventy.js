@@ -31,6 +31,27 @@ module.exports = function(eleventyConfig) {
     return (topicList || []).find(topic => topic.name === name);
   });
 
+  // Auto-populates as new files are added to src/articles/bulletin/ — no
+  // per-article tag or manual link list to keep in sync.
+  eleventyConfig.addCollection("bulletin", collection => {
+    return collection.getFilteredByGlob("src/articles/bulletin/*.md")
+      .sort((a, b) => a.date - b.date);
+  });
+
+  // Groups a sorted collection of articles into { decade, articles } buckets,
+  // ordered oldest decade first, for rendering as an accordion.
+  eleventyConfig.addFilter("groupByDecade", articles => {
+    const groups = {};
+    (articles || []).forEach(article => {
+      const decade = Math.floor(article.date.getFullYear() / 10) * 10;
+      if (!groups[decade]) groups[decade] = [];
+      groups[decade].push(article);
+    });
+    return Object.keys(groups)
+      .sort((a, b) => a - b)
+      .map(decade => ({ decade: Number(decade), articles: groups[decade] }));
+  });
+
   eleventyConfig.addCollection("tagList", collection => {
     const tagsObject = {}
     collection.getAll().forEach(item => {

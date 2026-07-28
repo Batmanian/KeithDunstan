@@ -21,16 +21,16 @@ layout: layouts/default.njk
 eleventyComputed:
   title: "Topic: {{ tag }}"
   titleClass: h2 mb-2
-permalink: /topic/{{ tag | slug }}/
+permalink: /topic/{{ tag | slug | safe }}/
 ---
 
 {% block content %}
   {% set posts = collections[tag] %}
   {% set topicData = topics.topics | findTopic(tag) %}
   <p class="text-muted mb-1">{{ posts.length }} item{% if posts.length != 1 %}s{% endif %} include{% if posts.length == 1 %}s{% endif %} the topic of {{ tag }}.</p>
-  <p class="fst-italic text-muted mb-5">{% if topicData and topicData.description %}{{ topicData.description }}{% else %}Description coming soon.{% endif %}</p>
+  <p class="fst-italic text-muted mb-5">{% if topicData and topicData.description %}{{ topicData.description }}{% endif %}</p>
   {% include 'snippets/postloop.njk' %}
   <br>
-  <p>See <a href="{{ '/topic/' | url }}">all topics</a>.</p>
+  <p>See <a href="{{ '/search/' | url }}">all topics</a>.</p>
 {% endblock %}
 

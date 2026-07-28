@@ -1,7 +1,7 @@
 ---
-title: "Batman's Melbourne: This is a fine state to be in"
+title: "This is a fine state to be in"
 date: 1967-03-18
-summary: Writing as 'Batman', Keith Dunstan surveys the deteriorating relations between Victoria and New South Wales, arguing Melbourne's case for its rightful place in the international air network via the new Tullamarine airport.
+summary: A survey of the deteriorating relations between Victoria and New South Wales, arguing Melbourne's case for its rightful place in the international air network via the new Tullamarine airport.
 categories:
   - The Bulletin
 tags:

@@ -180,4 +180,4 @@ There were many other organisations championed in APITS. For example, there was 
 Everybody over 30 wanted to join the Society Against Progress, but, alas, it was not within our power to turn back the clock.
 
 
-<hr> Continue to chapter twelve: <a href="{{ '/books/no-brains-at-all/12_jumping_the_generation_gap' | url }}">Jumping the generaton gap</a></li>
+<hr> Continue to chapter twelve: <a href="{{ '/books/no-brains-at-all/12-jumping-the-generation-gap/' | url }}">Jumping the generaton gap</a></li>

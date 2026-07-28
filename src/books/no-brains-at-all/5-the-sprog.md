@@ -167,4 +167,4 @@ Of the 130 pilots tested only ten passed and went on to fly Mustangs with squadr
 The next move was to Number 1 Personnel Depot, at the Melbourne Cricket Ground. The trip back by train to Melbourne was the longest I could remember. It was barely a year since the previous trip on the same train. Then I had been triumphant, with a glorious flying future ahead. Now I was grounded, wings clipped, the prospect of ever flying again remote. Suddenly the entire world seemed to have come to an end and I could visualise no future.
 
 <hr>
-Continue to chapter six: <a href="{{ '/books/no-brains-at-all/6_the_stevedore' | url }}">The stevedore</a>
+Continue to chapter six: <a href="{{ '/books/no-brains-at-all/6-the-stevedore/' | url }}">The stevedore</a>

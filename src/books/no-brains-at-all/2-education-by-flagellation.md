@@ -176,4 +176,4 @@ There were other holidays at Erskine House after 1939, but never again was it th
 For me it was the end of an era, also. Number 20 Wallace Avenue had been like a cosy womb. There I had my own room, my own private territory in the attic. Now that life was over. After the summer of 1939 I had effectively left home.
 
 <hr>
-Continue to chapter three: <a href="{{ '/books/no-brains-at-all/3_siberia' | url }}">Siberia</a>
+Continue to chapter three: <a href="{{ '/books/no-brains-at-all/3-siberia/' | url }}">Siberia</a>
