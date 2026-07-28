@@ -231,7 +231,8 @@ For publications not in Trove, physical copies must be sourced and scanned. Foll
 
 ## 8. Site — Technical
 
-- [ ] **Bulletin collection path conflict** — resolve `src/bulletin/` vs `src/articles/bulletin/` per §5 data issue, before it spreads further
+- [x] **Bulletin collection path conflict** — resolved: both drafts moved into `src/articles/bulletin/`, `src/bulletin/` removed. `/bulletin/` index now auto-populates from an Eleventy `bulletin` collection (globs `src/articles/bulletin/*.md`), grouped into folding accordion-by-decade
+- [ ] **Missing favicon asset — `src/img/safari-pinned-tab.svg`** — referenced by `<link rel="mask-icon">` in `src/_includes/snippets/head.njk` on every page but the file was never committed (404 on all ~1127 pages). Needs the original monochrome mask-icon SVG from whichever favicon-generator bundle produced the rest of `src/img/favicon*` — can't be faithfully recreated without the source logo art. `src/img/site.webmanifest` was similarly missing and has been recreated (references the existing `favicon-32x32.png`/`apple-touch-icon.png`); once the SVG is supplied, drop it in `src/img/` and no template change is needed.
 - [ ] **Search** — replace Google Custom Search Engine with Pagefind (free, static-site-native, no external dependency). Implementation: dedicated search page, navbar trigger, results showing title/excerpt/publication/date; retain existing tag/keyword cloud beneath results
 - [ ] **Theme** — evaluate migration from 11straps/Bootstrap 5 to Eleventy Excellent (fluid typography, modern CSS, Eleventy v3, built-in tag navigation). Decision pending — site is functional as-is; migration is cosmetic/structural
 - [ ] **Epicurean Magazine** — run Trove diagnostic to check if digitised (copy `diagnose_walkabout.py`, update publication name/title variants)
