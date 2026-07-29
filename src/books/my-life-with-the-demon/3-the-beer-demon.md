@@ -1,7 +1,7 @@
 ---
 title: The Beer Demon
 date: 1994-11-11
-summary: Traces the wartime origins of Australia's six o'clock closing laws — sold as a patriotic blow against the Kaiser — and the mad, beer-soaked "six o'clock swill" they produced for the next half-century.
+summary: Traces the wartime origins of Australia's six o'clock closing laws, sold as a patriotic blow against the Kaiser, and the mad, beer-soaked "six o'clock swill" they produced for the next half-century.
 tags:
   - Wine
   - Six oclock swill

@@ -25,8 +25,10 @@ gulp.task('dist-assets', function (done) {
 });
 
 gulp.task('prod-copy', function (done) {
-    gulp.src('./dev/**/**.*')
-    .pipe(gulp.dest('./public/'));
+    // { dot: true } is required so dotfiles/dotdirs (_headers, _redirects,
+    // .well-known/) get copied too — glob ignores them by default.
+    gulp.src('./dev/**/*', { dot: true, nodir: true })
+    .pipe(gulp.dest('./docs/'));
     done();
 });
 
@@ -43,20 +45,20 @@ gulp.task('minify-css', () => {
 
 // minifies HTML
 gulp.task('minify-html', () => {
-  return gulp.src('public/*.html')
+  return gulp.src('docs/*.html')
     .pipe(htmlmin({ collapseWhitespace: true, removeComments: true }))
-    .pipe(gulp.dest('public'));
+    .pipe(gulp.dest('docs'));
 });
 
 
 // Purging unused CSS
 gulp.task('purgecss', () => {
-    return gulp.src('public/css/theme.min.css')
+    return gulp.src('docs/css/theme.min.css')
         .pipe(purgecss({
-            content: ['public/**/*.html'],
+            content: ['docs/**/*.html'],
             safelist: ['collapsed', 'collapse', 'active', 'show', 'collapsing' ]
         }))
-        .pipe(gulp.dest('public/css'))
+        .pipe(gulp.dest('docs/css'))
 })
 
 gulp.task('clean-dist', function() {
@@ -100,11 +102,11 @@ gulp.task('sass', function () {
 });
 
 gulp.task('inject-min-css', function(done) {
-  gulp.src('./public/**/*.html')
+  gulp.src('./docs/**/*.html')
     .pipe(htmlreplace({
         'css': '/css/theme.min.css'
     }))
-    .pipe(gulp.dest('./public'));
+    .pipe(gulp.dest('./docs'));
          done();
 });
 

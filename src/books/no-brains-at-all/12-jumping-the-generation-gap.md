@@ -1,7 +1,7 @@
 ---
 title: Jumping the generation gap
 date: 1990-11-11
-summary: In this twelfth chapter of the first book of memoirs, 'No Brains At All'. This chapter remembers his children David, Jane, Kate and Sarah and the influence of the Vietnam war in the 1970's 
+summary: Raising four children in East Malvern on one journalist's salary, moonlighting under a false name for the Bulletin, a department store and two radio stations, and Marie's endlessly inventive home cooking. 
 tags:
   - Bob Dalziel
   - Caulfield Grammar

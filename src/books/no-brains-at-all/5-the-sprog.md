@@ -1,7 +1,7 @@
 ---
 title: The Sprog
 date: 1990-11-11
-summary: The fifth chapter of his first book of memoirs, 'No Brains At All'.
+summary: RAAF pilot training begins with a propeller-swinging injury and moves on to Tiger Moth aerobatics under the unflappable Flight Sergeant Bill Dale, including a sudden "dead engine" emergency-landing drill over Benalla.
 tags:
   - Air Training Corps
   - Avro Ansons

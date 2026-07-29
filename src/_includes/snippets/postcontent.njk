@@ -9,7 +9,7 @@
             min read.
           </aside>
           <p>First published
-            <time data-pagefind-meta="date" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
+            <time data-pagefind-meta="date" datetime="{{ page.date | htmlDateString }}">{{ page.date | postDate(tags) }}</time>
           </p>
           {% set publication = categories[0] if categories and categories.length else (page.url | split('/'))[2] | humanizeSlug %}
           <meta data-pagefind-meta="publication[content]" content="{{ publication }}">

@@ -1,7 +1,7 @@
 ---
 title: Columns on HM and HRH
 date: 1966-11-11
-summary: Recalls the mass hysteria of the Queen's marathon 1954 tour — 500 collapsing from a day-long wait in Melbourne — and Prince Philip's 1956 tour of Papua and New Guinea, greeted by King Metakaka and his thirteen wives.
+summary: Recalls the mass hysteria of the Queen's marathon 1954 tour, 500 collapsing from a day-long wait in Melbourne, and Prince Philip's 1956 tour of Papua and New Guinea, greeted by King Metakaka and his thirteen wives.
 tags:
   - Royal Family
   - Queen Elizabeth II

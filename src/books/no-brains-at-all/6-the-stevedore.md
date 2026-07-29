@@ -1,7 +1,7 @@
 ---
 title: The Stevedore
 date: 1990-11-11
-summary: In this sixth chapter of his first book of memoirs, 'No Brains At All', Keith remembers the visiting US Military forces in Melbourne, and his service during the second world war while stationed in Labuan, Malaysia.
+summary: Wartime postings through a US-occupied MCG turned barracks, with its own PX shop and Long Room dances, before a posting to Morotai finally gets him out of Australia and prompts a decisive contact with Marie Rose McFadyen.
 tags:
   - Adrian Benns
   - Balikpape

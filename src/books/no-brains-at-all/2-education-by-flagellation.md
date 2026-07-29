@@ -1,7 +1,7 @@
 ---
 title: Education by flagellation
 date: 1990-11-11
-summary: In this second chapter of his first book of memoirs, 'No Brains At All', Keith reflects on growing up in Melbourne in the 1930's, discipline at school and hoidays in Lorne.
+summary: Miserable school days at Melbourne Grammar's Wadhurst prep school, ruled by a form teacher who cracked a ruler across his hand for being left-handed and tried to force him to write right-handed.
 tags:
   - Erskine House
   - Geelong Grammar

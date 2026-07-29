@@ -1,7 +1,7 @@
 ---
 title: Bottling the Demon
 date: 1994-11-11
-summary: Winter in the vineyard means months of hand-pruning — 32,000 snips an acre — done to a Walkman soundtrack, punctuated by secateur injuries and a run-in with a frost-flicked cane across the face.
+summary: Winter in the vineyard means months of hand-pruning, 32,000 snips an acre, done to a Walkman soundtrack and punctuated by secateur injuries and a run-in with a frost-flicked cane across the face.
 tags:
   - Wine
   - Winemaking

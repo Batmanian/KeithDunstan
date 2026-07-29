@@ -1,7 +1,7 @@
 ---
 title: Walking the tightrope
 date: 1990-11-11
-summary: In this ninth chapter of the first book of memoirs, 'No Brains At All', Keith reflects talks of the significance of the death of Sir Keith Murdoch leading and his career as a columnist leading to his own father's death, William Dunstan V.C.
+summary: The death of Sir Keith Murdoch in 1952, and his abandoned plot to buy The Argus and turn it against his own Herald and Weekly Times empire, seen through the eyes of Keith's father, an implacable Murdoch loyalist.
 tags:
   - Adelaide News
   - Anglicanism

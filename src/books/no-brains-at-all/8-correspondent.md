@@ -1,7 +1,7 @@
 ---
 title: Correspondent
 date: 1990-11-11
-summary: The eighth chapter of the first book of memoirs, 'No Brains At All',
+summary: Newlyweds Keith and Marie honeymoon into a posting as US correspondents, settling into a cosmopolitan Forest Hills apartment block above a rattling subway line, the only non-Jewish tenants in the building.
 tags:
   - Australian Journalists Association
   - Colin Bednall

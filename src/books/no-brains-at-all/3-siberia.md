@@ -1,7 +1,7 @@
 ---
 title: Siberia
 date: 1990-11-11
-summary: In this third chapter of his first book of memoirs, 'No Brains At All', Keith reflects on growing up in Melbourne in the 1930's and at school. Being a boarder at school he likens to the the hard, cold winters of Russia's extremities.
+summary: Boarding at Geelong Grammar's Francis Brown house from 1939, ranked serf number sixty-two in a rigid prefect hierarchy, fagging for a reward-less senior and losing the battle with his first stiff Edwardian collar.
 tags:
   - Australian Broadcasting Commission
   - Boarding school

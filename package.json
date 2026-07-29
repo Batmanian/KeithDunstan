@@ -20,7 +20,7 @@
     "serve": "eleventy --serve",
     "watch": "npm run clean && npm run build-dev && run-p sync watch:all",
     "clean": "rm -rf dev/*",
-    "clean-prod": "rm -rf public/*",
+    "clean-prod": "rm -rf docs/*",
     "generate-topics": "node scripts/generate-topics.js"
   },
   "dependencies": {

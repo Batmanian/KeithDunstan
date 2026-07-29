@@ -1,7 +1,7 @@
 ---
 title: APITS
 date: 1990-11-11
-summary: In this tenth chapter of the first book of memoirs, 'No Brains at All', Keith recalls the three decades he wrote a daily column for Melbourne's Sun News Pictorial newspaper. 'A place in the Sun' was the name of that column, or APITS. 
+summary: On taking over "A Place in the Sun," the Sun News-Pictorial's daily column he would write for the next 27 years, transforming APITS from an inherited institution into his own voice. 
 tags:
   - 6 Oclock swill
   - Allan Wilkie

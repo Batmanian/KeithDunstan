@@ -1,7 +1,7 @@
 ---
 title: Royal columns
 date: 1966-11-11
-summary: On the strange craft of covering Royal Tours since 1954 — the newsroom bans on "obviously" and "radiant," the Potemkin-village stage-management of crowds, and factories scrubbed spotless for a royal visit.
+summary: On the strange craft of covering Royal Tours since 1954, the newsroom bans on "obviously" and "radiant," the Potemkin-village stage-management of crowds, and factories scrubbed spotless for a royal visit.
 tags:
   - Royal Family
   - 1963 Royal Visit to Australia

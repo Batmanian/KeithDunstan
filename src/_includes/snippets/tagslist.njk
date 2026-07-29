@@ -1,6 +1,12 @@
-<p class="text-muted mb-4">{{ collections.tagList.length }} topics, sized by how often they appear.</p>
+{%- set shownTags = [] %}
+{%- for tag in collections.tagList %}
+  {%- if tag.tagCount > 3 %}
+    {%- set _ = shownTags.push(tag) %}
+  {%- endif %}
+{%- endfor %}
+<p class="text-muted mb-4">{{ shownTags.length }} topics, sized by how often they appear.</p>
 <div class="tag-cloud">
-  {%- for tag in collections.tagList %}
+  {%- for tag in shownTags %}
     {%- set tagUrl %}{{ '/topic/' | url }}{{ tag.tagName | slug }}/{% endset -%}
     {%- if tag.tagCount >= 7 -%}
       {%- set tagSize = "fs-2 fw-semibold" -%}

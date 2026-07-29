@@ -1,0 +1,51 @@
+# robots.txt — keithdunstan.org
+# Policy: welcome search, retrieval and user-triggered AI crawlers (they cite and
+# link back to the source); withhold consent from model-training crawlers.
+# Content is licensed CC BY-NC 4.0 — see /licence/ and /.well-known/tdmrep.json
+# Last reviewed: 2026-07  (review quarterly — AI bot names change often)
+
+# --- Traditional search: welcome ---
+User-agent: Googlebot
+Allow: /
+User-agent: Bingbot
+Allow: /
+
+# --- AI search / retrieval / live user fetches: welcome (these attribute) ---
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: Claude-User
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+User-agent: DuckAssistBot
+Allow: /
+User-agent: MistralAI-User
+Allow: /
+
+# --- Model-training crawlers: consent withheld ---
+User-agent: GPTBot
+Disallow: /
+User-agent: ClaudeBot
+Disallow: /
+User-agent: anthropic-ai
+Disallow: /
+User-agent: CCBot
+Disallow: /
+User-agent: Meta-ExternalAgent
+Disallow: /
+User-agent: Bytespider
+Disallow: /
+User-agent: Google-Extended
+Disallow: /
+User-agent: Applebot-Extended
+Disallow: /
+
+# --- Everything else: allowed by default ---
+User-agent: *
+Allow: /

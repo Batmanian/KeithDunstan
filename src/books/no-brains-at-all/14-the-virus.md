@@ -1,7 +1,7 @@
 ---
 title: The virus
 date: 1990-11-11
-summary: In this final chapter of the first book of memoirs, 'No Brains At All', Keith writes about writing, it being a virus. The dozens of books written in his career being the result of a pathological affliction.
+summary: From ghost-writing hangings and murders for radio's "D24" crime series to the giddy arrival of his first hardback book, "The Paddock That Grew," in 1962, and a publisher who admitted he'd never read one of his own titles.
 tags:
   - Barry Humphries
   - Brian Breheny

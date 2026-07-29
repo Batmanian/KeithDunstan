@@ -1,7 +1,7 @@
 ---
 title: Pedalling passion
 date: 1990-11-11
-summary: In this first chapter of the first book of memoirs, 'No Brains At All', Keith reflects on growing up in Melbourne in the 1930's and at school.
+summary: Becomes a "born-again cyclist" during a 1984 Melbourne transport strike, riding to work through abuse from motorists for the next 24 years, undeterred even by a champagne-fuelled wipeout outside a Collingwood restaurant.
 tags:
   - Bikecentennial
   - Brian Dixon

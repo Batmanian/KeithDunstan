@@ -1,7 +1,7 @@
 ---
 title: Following a VC
 date: 1990-11-11
-summary: The fourth chapter of his first book of memoirs, 'No Brains At All'. 
+summary: On growing up in the shadow of his father William Dunstan's Victoria Cross, won at Gallipoli's Lone Pine as a shy 20-year-old who fled photographers after his Parliament House investiture, as Australia entered the Second World War.
 tags:
   - 2/4th Field Regiment
   - 7th Battalion

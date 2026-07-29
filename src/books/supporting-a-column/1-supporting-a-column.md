@@ -1,7 +1,7 @@
 ---
 title: Supporting a column
 date: 1966-11-11
-summary: Keith reflects on the strange trade of daily column-writing — chasing tips, debunking apocryphal caravan and comic-strip stories, and once mailing a mistakenly delivered stuffed Corgi to the wrong Mr Robinson.
+summary: Keith reflects on the strange trade of daily column-writing, chasing tips, debunking apocryphal caravan and comic-strip stories, and once mailing a mistakenly delivered stuffed Corgi to the wrong Mr Robinson.
 tags:
   - A Place in the Sun
   - Bill Tipping

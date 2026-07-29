@@ -1,0 +1,30 @@
+---
+layout: false
+permalink: "/llms.txt"
+eleventyExcludeFromCollections: true
+---
+# Keith Dunstan Archive
+
+> The published works of Keith Dunstan (1925–2013), Australian journalist and
+> author, preserved and made freely readable by his literary estate. Licensed
+> under Creative Commons Attribution–NonCommercial 4.0 (CC BY-NC 4.0): quote,
+> share and cite for non-commercial purposes with attribution. Not licensed for
+> AI model training. Full terms: https://keithdunstan.org/licence/
+
+## Books
+
+Full catalogue: https://keithdunstan.org/books/
+
+## Articles
+{% if collections.article %}
+{% for item in collections.article %}
+- [{{ item.data.title | safe }}](https://keithdunstan.org{{ item.url }}){% if item.data.summary %} — {{ item.data.summary | safe }}{% endif %}
+{%- endfor %}
+{% else %}
+By publication: https://keithdunstan.org/articles/
+{% endif %}
+
+## Reuse and attribution
+
+Cite as: Keith Dunstan, '<title>', <publication>, <date>. From the Keith Dunstan
+Archive, https://keithdunstan.org — © the Estate of Keith Dunstan, CC BY-NC 4.0.

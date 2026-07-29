@@ -1,7 +1,7 @@
 ---
 title: The Antis
 date: 1990-11-11
-summary: In this first chapter of his first book of memoirs, 'No Brains At All', Keith reflects on growing up in Melbourne in the 1930's and at school.
+summary: Founds the Anti-Football League in his Sun column in 1967, giving football-weary Melburnians a small red square badge and, at last, permission to admit they didn't care about the game.
 tags:
   - Anti-Football League
   - Australian Rules Football

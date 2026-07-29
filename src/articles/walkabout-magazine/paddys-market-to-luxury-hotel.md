@@ -1,7 +1,7 @@
 ---
 title: Paddy's Market to Luxury Hotel
 date: 1962-02-01
-summary: Traces the site of the new £5 million Southern Cross Hotel back through the raucous history of the old Eastern Market — phrenologists, dancing ducks, a fortune-teller called Madame Zinga Lee, and an 1898 murder.
+summary: Traces the site of the new £5 million Southern Cross Hotel back through the raucous history of the old Eastern Market, phrenologists, dancing ducks, a fortune-teller called Madame Zinga Lee, and an 1898 murder.
 categories:
 - Walkabout Magazine
 tags:

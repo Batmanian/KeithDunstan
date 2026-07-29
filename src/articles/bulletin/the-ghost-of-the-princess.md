@@ -1,7 +1,7 @@
 ---
 title: The Ghost of the Princess 
 date: 1967-12-30
-summary: Tells the story of Federici, the Princess Theatre's baritone ghost who collapsed and died on stage playing Mephistopheles in 1888, and the book launch that tried — and failed — to lure his spirit out with themed cocktails.
+summary: Tells the story of Federici, the Princess Theatre's baritone ghost who collapsed and died on stage playing Mephistopheles in 1888, and the book launch that tried, and failed, to lure his spirit out with themed cocktails.
 categories:
 - The Bulletin
 tags:

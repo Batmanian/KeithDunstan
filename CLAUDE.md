@@ -24,8 +24,10 @@
 
 **Default layout (`layouts/post.njk`) and collection tag** (`book` or `article`) are set per-collection by `src/books/books.json` and `src/articles/articles.json` — don't repeat them in frontmatter.
 
+**Token budget:** For token-heavy tasks (large subagent fan-outs, bulk transcription/triage runs, big searches), don't spend more than ~75% over a typical session's usage unless the user explicitly directs otherwise. If a task looks like it'll blow past that, pause and check in rather than running it to completion.
+
 **Key constraints:**
-- Do not manually edit `dev/`, `public/`, or `docs/` — all are build output
+- Do not manually edit `dev/` or `docs/` — both are build output
 - Preserve Keith Dunstan's voice exactly; Australian English; single-quote dialogue
 - Tags are granular proper nouns only (people, places, organisations)
 - Article files should have 5–15 tags; book chapter files may have empty tags
@@ -36,6 +38,7 @@
   - The voice to match — a genuine entry from `src/_data/topics.md`: `"The six o'clock swill was the mad rush to down as many beers as possible before hotel bars shut at 6pm, a wartime austerity measure that lingered in Victoria until 1966 and which Keith Dunstan remembered as a defining, faintly absurd feature of 1950s Melbourne drinking."` — definitional, specific, a little wry, ties back to Keith only where it's earned.
   - Applied to an article's `summary` (real example, `src/articles/bulletin/batmans-melbourne-this-is-a-fine-state-to-be-in.md`): `A survey of the deteriorating relations between Victoria and New South Wales, arguing Melbourne's case for its rightful place in the international air network via the new Tullamarine airport.`
   - Bad: `First published in the Bulletin Magazine, 1962.` — says nothing about the piece; this exact boilerplate is what `trove/fetch_batman.py`, `fetch_byline.py`, and `fetch_walkabout.py` write into every stub's `summary` field as a placeholder (correctly marked `[Stub — not yet transcribed]`) — **replacing it with a real summary is part of finishing the transcription, not an optional polish pass.** Don't move a file out of `stubs/`/`transcribed/` into `src/articles/` with that placeholder still in place.
+  - avoid Em-dashes, use commas. We need this look to read unlike an AI generated summary.
 
 **Frontmatter example — article:**
 ```yaml
@@ -107,10 +110,10 @@ See `todo.md` for full tracking of:
 **Build:**
 ```bash
 npm run watch    # local dev (output → dev/)
-npm run build    # production build (output → public/, what Netlify deploys)
+npm run build    # production build (output → docs/, what Netlify deploys)
 ```
 
-**Deploy:** `git push` to `master` triggers Netlify build automatically (configured in `netlify.toml`, publishes from `public/`).
+**Deploy:** `git push` to `master` triggers Netlify build automatically (configured in `netlify.toml`, publishes from `docs/`).
 
 **OCR tooling:** `ocr/` contains a Node.js OCR pipeline (`ocr/index.js`) using `node-tesseract-ocr` for processing scanned documents into markdown.
 

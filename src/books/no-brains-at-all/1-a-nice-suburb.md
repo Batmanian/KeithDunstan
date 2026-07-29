@@ -1,7 +1,7 @@
 ---
 title: A nice suburb
 date: 1990-11-11
-summary: In this first chapter of the first book of memoirs, 'No Brains At All' Keith reflects on growing up in Melbourne in the 1930's and at school.
+summary: A privileged 1930s Toorak childhood, born on the kitchen table in East Malvern and raised in a haunted-feeling bluestone house at 20 Wallace Avenue in the tiny, postcode-obsessed world of SE2.
 tags:
   - Ballarat
   - Cricket

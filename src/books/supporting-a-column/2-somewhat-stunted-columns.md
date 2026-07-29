@@ -1,7 +1,7 @@
 ---
 title: Somewhat stunted columns
 date: 1966-11-11
-summary: A tour of Keith's stunt-column years — seconding a wrestler against Primo Carnera, singing silently in the Lohengrin chorus, running a Chinese parade dragon's tail, and breaking his hand skiing on nylon matting in the Domain.
+summary: A tour of Keith's stunt-column years, seconding a wrestler against Primo Carnera, singing silently in the Lohengrin chorus, running a Chinese parade dragon's tail, and breaking his hand skiing on nylon matting in the Domain.
 tags:
   - Primo Carnera
   - Stanley Kowalski

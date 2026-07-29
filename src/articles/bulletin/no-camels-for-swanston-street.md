@@ -1,7 +1,7 @@
 ---
 title: No Camels for Swanston Street
 date: 1962-03-24
-summary: Mourns the decline of Melbourne's once-riotous Eight Hour Day march into a corporate-sponsored Moomba procession — its circus camels banned — then reports on Sandown Park's star-studded car-racing debut.
+summary: Mourns the decline of Melbourne's once-riotous Eight Hour Day march into a corporate-sponsored Moomba procession, its circus camels banned, then reports on Sandown Park's star-studded car-racing debut.
 categories:
 - The Bulletin
 tags:

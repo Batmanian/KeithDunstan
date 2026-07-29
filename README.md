@@ -21,7 +21,7 @@ Requires Node.js (v14+).
 npm install       # Install dependencies
 npm run watch     # Local dev server with live reload at http://localhost:3000
 npm run build-dev # Build to /dev (unminified)
-npm run build     # Build to /public (minified, for production)
+npm run build     # Build to /docs (minified, for production)
 ```
 
 Pushes to `master` trigger automatic Netlify build and deploy.
@@ -44,7 +44,7 @@ Pushes to `master` trigger automatic Netlify build and deploy.
 │   ├── _includes/                # Nunjucks layout templates and snippets
 │   └── *.njk                     # Top-level pages (index pages for books/articles)
 ├── dev/                          # Dev build output (do not edit)
-├── public/                       # Production build output, deployed by Netlify (do not edit)
+├── docs/                         # Production build output, deployed by Netlify (do not edit)
 ├── ocr/                          # Working directory for OCR source files
 ├── _redirects                    # Netlify redirect rules (legacy URL support only)
 ├── .eleventy.js

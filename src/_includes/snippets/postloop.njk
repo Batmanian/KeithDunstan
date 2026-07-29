@@ -4,7 +4,7 @@
       <div class="py-4 border-bottom">
         <a href="{{ post.url | url }}" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“{{ post.data.title }}”</h3></a>
         <p class="text-muted small mb-2">Published
-          <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+          <time datetime="{{ post.date | htmlDateString }}">{{ post.date | postDate(post.data.tags) }}</time>
         </p>
 
         <p>{{ post.data.summary }}</p>

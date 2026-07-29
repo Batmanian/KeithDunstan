@@ -1,7 +1,7 @@
 ---
 title: The Evil Desecration of the Sabbath
 date: 1968-11-11
-summary: Charts the century-long Sabbatarian campaign to keep Melbourne silent on Sundays, from the riotous 1883 row over opening the National Gallery — and its nude scandal painting Chloe — to the 1968 bill that finally ended it.
+summary: Charts the century-long Sabbatarian campaign to keep Melbourne silent on Sundays, from the riotous 1883 row over opening the National Gallery, and its nude scandal painting Chloe, to the 1968 bill that finally ended it.
 tags:
 - Brian Fitzpatrick
 - William Kelly

@@ -1,7 +1,7 @@
 ---
 title: Finding the wine demon
 date: 1994-11-11
-summary: Pinpoints the moment wine took hold — a 1959 drive through North East Victoria's wine country past Brown Brothers at Milawa — after years in Queensland where rum with milk was the accepted breakfast tonic.
+summary: Pinpoints the moment wine took hold, a 1959 drive through North East Victoria's wine country past Brown Brothers at Milawa, after years in Queensland where rum with milk was the accepted breakfast tonic.
 tags:
   - Wine
   - Bundaberg Rum

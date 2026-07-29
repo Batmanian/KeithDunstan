@@ -1,7 +1,7 @@
 ---
 title: Snobbery in business
 date: 1971-11-11
-summary: A tongue-in-cheek field guide to corporate status symbols — office partition heights, car escalation from Falcon to Mercedes, and the right jargon — for climbing the snobbery ladder of Australian business.
+summary: A tongue-in-cheek field guide to corporate status symbols, office partition heights, car escalation from Falcon to Mercedes, and the right jargon, for climbing the snobbery ladder of Australian business.
 tags:
   - Albert Tucker
   - Arthur Boyd

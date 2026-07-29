@@ -1,7 +1,7 @@
 ---
 title: Summer Madness
 date: 1969-12-01
-summary: A wry survey of Australia's overloaded summer beach culture — surfboards, caravans, and competitive Rosebud campsites — from Portsea and Palm Beach's Toorak-set glamour to Surfers Paradise's Miami-style tower blocks.
+summary: A wry survey of Australia's overloaded summer beach culture, surfboards, caravans, and competitive Rosebud campsites, from Portsea and Palm Beach's Toorak-set glamour to Surfers Paradise's Miami-style tower blocks.
 categories:
 - Walkabout Magazine
 tags:

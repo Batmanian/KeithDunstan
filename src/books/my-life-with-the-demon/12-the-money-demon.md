@@ -1,7 +1,7 @@
 ---
 title: The money demon
 date: 1994-11-11
-summary: Tots up the ruinous, itemised cost of running a one-acre boutique vineyard — over $46,000 before the land — and needles Premier Jeff Kennett for selling unlicensed "Cabinet Claret" out of Parliament House.
+summary: Tots up the ruinous, itemised cost of running a one-acre boutique vineyard, over $46,000 before the land, and needles Premier Jeff Kennett for selling unlicensed "Cabinet Claret" out of Parliament House.
 tags:
 
   - Wine

@@ -1,7 +1,7 @@
 ---
 title: The virgin vintage
 date: 1994-11-11
-summary: The relentless, unglamorous labour of running a boutique vineyard — hand-training 24,000 canes, battling 240 weed varieties, and paying $252 for a canister of anti-fungal spray the chemical man calls "liquid gold."
+summary: The relentless, unglamorous labour of running a boutique vineyard, hand-training 24,000 canes, battling 240 weed varieties, and paying $252 for a canister of anti-fungal spray the chemical man calls "liquid gold."
 tags:
   - Wine
   - Winemaking
