@@ -21,6 +21,7 @@ tags:
   - A. G. Grant
   - Adelaide Festival of Arts
   - Moomba
+  - Melbourne Tourism
 ---
 
 AS a staid Melburnian who favors club ties and black shoes, I have never looked upon our beloved city as a tourist attraction. The "Visitor Industry" as they now call it was something more suited to raffish places like Sydney or the Gold Coast.

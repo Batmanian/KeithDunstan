@@ -126,7 +126,7 @@ The book's contents page (`src/a-day-in-the-life-of-australia.njk`) lists **258 
 
 | Publication | ✅ Live | Known outstanding (titled) | Stubs awaiting triage (Trove) | Notes |
 |---|---|---|---|---|
-| The Bulletin | 46 | 2 | 1,594 | 34 "Around Melbourne" columns (Mar–Dec 1962) transcribed from manually-scanned photos on 28–29 Jul 2026; separate from the untouched Trove stub pipeline. See §6 for the Trove pipeline and the 2 known-missing titles below |
+| The Bulletin | 57 | 2 | 1,583 | 34 "Around Melbourne" columns (Mar–Dec 1962) transcribed from manually-scanned photos on 28–29 Jul 2026; 11 more 1963 columns transcribed the same way, in progress, 29 Jul 2026 (34 of 45 uploaded 1963 scans remain). Separate from the untouched Trove stub pipeline. See §6 for the Trove pipeline and the 2 known-missing titles below |
 | Walkabout Magazine | 4 | 15 | 81 | 18 known articles per site total; 15 remain untranscribed even after Trove triage — see list below |
 | The Australian Gourmet | 1 | — | Not in Trove | Extent of Keith's total output for this title is unknown; physical copies needed |
 | The Age (post-1954) | 0 | 1 known ("On the right side of Tuscany", 2 May 1989) | Not in Trove | Not digitised — physical/microfilm sourcing required |
@@ -159,23 +159,30 @@ The book's contents page (`src/a-day-in-the-life-of-australia.njk`) lists **258 
 
 Note: two of the 34 newly-transcribed columns — "Rediscovering the Yarra" (1 Dec 1962) and "An Albert Tucker for 2s. a Mile" (15 Dec 1962) — are signed "—FAWKNER" rather than "—BATMAN" in the original scan. Confirmed this is just a second pen name of Keith's (after Melbourne's other co-founder, John Fawkner) — both pieces are his and belong in the archive as normal.
 
-### Bulletin — 1963 scans QA (29 Jul 2026)
+### Bulletin — 1963 scans QA and transcription (29 Jul 2026, in progress)
 
-User uploaded photographed scans for all 45 known 1963 "Around Melbourne"/Batman columns into `trove/output/bulletin/stubs/Scans/` (matching stub `.md` files already exist for all of them). Full visual QA pass completed before transcription begins:
+User uploaded photographed scans for all 45 known 1963 "Around Melbourne"/Batman columns into `trove/output/bulletin/stubs/Scans/` (matching stub `.md` files already existed for all of them). Full visual QA pass completed, then direct transcription from the scans began (each one read and typed up by hand, not OCR'd) — this is slow, one-article-at-a-time work, so tracking progress here as it happens rather than in one batch.
 
-- **34 of 45** are clean, complete, single-article scans — ready to transcribe as-is.
-- **3 multi-page articles confirmed complete and correctly ordered** (each page-break lands mid-sentence and resumes verbatim on the next page — verified, not just assumed):
-  - "This Australia — Royal Tour: Adelaide was the test. Why not televise the last quarter?" (1963-03-02, 2 pages, `...quarter-1.png` / `...quarter-2.png`)
-  - "A Demand for Breathless Enthusiasm — 2. Corinne Kerby, sole survivor among women comperes" (1963-09-07, 2 pages, base + `-2.jpeg`)
-  - "Around Melbourne: THE CUP 1890 — now that really was a Cup year!" (1963-11-02, 4 pages, base + `-2`/`-3`/`-4.jpeg`)
+**11 of the 45 scans transcribed and live** in `src/articles/bulletin/` so far (stub `.md` and scan image deleted for each once published): Gather Ye Rosebuds While Ye May (1963-01-05, via the misnamed `download.png` — see below), Henry Bolte's Brilliant Duck (01-12), Senator Kennelly and the Monster (01-19), Under the King Street Bridge (01-26), Mayhem, Rapine and Sin (02-09), About Cigarettes and Gondolas (02-23), All the Queen's Men (03-09), In the Depths of SE 2 (03-16), Bunnies in Black Silk Stockings (03-30), Those Lucky OYO Men (04-06), Getting Publicity for Peanuts (04-13).
 
-**8 items need attention before/during transcription:**
+**34 remaining** (45 total minus 11 done, minus 3 confirmed unusable — see below). Continue in date order from 1963-04-20 (Bottom of the Cultural Barrel) onward — see the full remaining list further down this section, or just work through whatever's still left in `trove/output/bulletin/stubs/Scans/`.
 
-- [ ] `download.png` is not clutter — it's the scan for a *different, separate* stub, `1963-01-05-around-melbourne-gather-ye-rosebuds-while-ye-may.md` (confirmed by visible page footer: "THE BULLETIN, January 5, 1963," p.26, byline BATMAN). Rename it to match that stub's slug before triage.
+**3 multi-page groups** — Royal Tour (2 pages) is now confirmed unusable (see below); the other two are untouched and still believed complete/correctly ordered (each page-break lands mid-sentence and resumes verbatim on the next page):
+- [ ] "A Demand for Breathless Enthusiasm — 2. Corinne Kerby, sole survivor among women comperes" (1963-09-07, 2 pages, base + `-2.jpeg`) — has shared column inches on both pages (see below), otherwise ready to transcribe.
+- [ ] "Around Melbourne: THE CUP 1890 — now that really was a Cup year!" (1963-11-02, 4 pages, base + `-2`/`-3`/`-4.jpeg`) — ready to transcribe.
+
+**5 scans confirmed unusable — need a fresh photo, not just re-triage:**
+
 - [ ] `1963-01-05-the-paddock.png` — crop doesn't show the page masthead/byline, so identity can't be visually confirmed against its stub. Needs a re-scan that includes the top of the page.
-- [ ] `1963-04-20-around-melbourne-at-the-bottom-of-the-cultural-barrel.png` — physical page footer reads "April 13, 1963," not April 20 (and the same-day scan `1963-04-13-around-the-wang-getting-publicity-for-peanuts.png` is also footer-dated April 13, p.11, vs. this one's p.9). The stub's Trove-derived date (1963-04-20) disagrees with the scan itself — check against Trove before trusting either date.
+- [ ] `1963-02-16-out-and-about-preserving-the-prom-support-the-birds-and-the-bees-not-the-boys-an.png` — **incomplete**, discovered on direct transcription attempt (missed by the earlier QA pass): cuts off mid-sentence ("...the Promontory should be developed with") with no second page in the folder. Needs an additional scan.
+- [ ] `1963-03-02-this-australia-royal-tour...-1.png` / `-2.png` (Royal Tour, both pages) — **also discovered on direct transcription attempt, missed by the earlier QA pass**: page 1's right-hand column and page 2's left-hand column are both cut off at the photo's edge, truncating words mid-line through a large chunk of the article (the same junction is cut from both sides, so the two pages can't be combined to recover it). Needs a re-scan capturing the full page width on both photos.
+- [ ] `1963-04-20-around-melbourne-at-the-bottom-of-the-cultural-barrel.png` — physical page footer reads "April 13, 1963," not April 20 (and the same-day scan `1963-04-13-around-the-wang-getting-publicity-for-peanuts.png`, now transcribed, is also footer-dated April 13, p.11, vs. this one's p.9). The stub's Trove-derived date (1963-04-20) disagrees with the scan itself — check against Trove before trusting either date. Not yet attempted.
 - [ ] `1963-07-13-out-and-about-melbourne-s-grand-dame-goulds-birds-napoleons-hair-and-georgian-si.jpeg` — **incomplete**, text cuts off mid-word ("...to bring it back in their lug-") with no second page anywhere in the Scans folder. Needs an additional scan before it can be transcribed.
-- [ ] Five scans have **shared column inches** (an ad or unrelated article sharing the physical page with Keith's column) — transcriber needs to isolate just the Batman column and ignore the rest: `1963-01-12-around-melbourne-henry-boltes-brilliant-duck.png` (Coonawarra Estate Claret ad), the royal-tour page 2 (unrelated "Opus Dei Moves Into Sydney" article), `1963-07-13-around-melbourne-carping-critics.jpeg` (tail end of a Divorce Court article on the left third), `1963-09-28-around-melbourne-the-australian-republican-army-the-target-year-is-1974.png` (Asahi Pentax camera ad + a "Writers, Authors" classified box), and both Corinne Kerby pages (tail end of an unrelated interview column on p.1, a CSR Vinylflex tile ad on p.2).
+
+**Note on trusting the earlier QA pass:** two of the five "unusable" scans above (Preserving the Prom, Royal Tour) were marked clean/complete by the original QA subagent pass and only caught on direct read-through during transcription — worth bearing in mind that a QA pass narrating "complete, correct order" doesn't guarantee every line within a page was actually legible/captured; direct transcription is the real verification.
+
+- [ ] `download.png` was renamed away during transcription — it was the scan for `1963-01-05-around-melbourne-gather-ye-rosebuds-while-ye-may.md` (confirmed by visible page footer), now transcribed and live; both the stub and the oddly-named scan file no longer exist. No action needed, just noting why it's no longer in the folder.
+- [ ] Remaining **shared column inches** to handle carefully when their turn comes: `1963-07-13-around-melbourne-carping-critics.jpeg` (tail end of a Divorce Court article on the left third), `1963-09-28-around-melbourne-the-australian-republican-army-the-target-year-is-1974.png` (Asahi Pentax camera ad + a "Writers, Authors" classified box), and both Corinne Kerby pages (tail end of an unrelated interview column on p.1, a CSR Vinylflex tile ad on p.2) — isolate Keith's column, ignore the rest. (Henry Bolte's Brilliant Duck also had a shared ad and has already been handled this way.)
 
 ---
 

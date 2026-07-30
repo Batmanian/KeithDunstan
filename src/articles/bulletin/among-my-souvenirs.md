@@ -19,7 +19,7 @@ tags:
   - Wheeler's Hill
   - Fitzroy
   - Collingwood
-  - Australia Hotel
+  - Hotel Australia
 ---
 
 OH, now that it is all over, how can we face the dreary months ahead? The very thing which makes Melbourne so lovable is finished and the bitter truth is this, we have to wait 28 weeks for the start of another football season. So I sit here sadly, studying my football souvenirs, like Hamlet studying Yorick's skull.

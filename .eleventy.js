@@ -47,6 +47,30 @@ module.exports = function(eleventyConfig) {
       .sort((a, b) => a.date - b.date);
   });
 
+  // Same auto-populating pattern as the bulletin collection above, for
+  // src/articles/walkabout-magazine/.
+  eleventyConfig.addCollection("walkabout", collection => {
+    return collection.getFilteredByGlob("src/articles/walkabout-magazine/*.md")
+      .sort((a, b) => a.date - b.date);
+  });
+
+  // The N most-referenced tags across a set of collection items (e.g.
+  // collections.bulletin), for the "Top topics" line on snippets/bulletin.njk
+  // and snippets/walkabout.njk. Same counting logic as the tagList collection
+  // above, scoped to a subset of items rather than the whole site.
+  eleventyConfig.addFilter("topTopics", (items, limit) => {
+    const counts = {};
+    (items || []).forEach(item => {
+      filterTagList(item.data && item.data.tags).forEach(tag => {
+        counts[tag] = (counts[tag] || 0) + 1;
+      });
+    });
+    return Object.keys(counts)
+      .map(tagName => ({ tagName, tagCount: counts[tagName] }))
+      .sort((a, b) => b.tagCount - a.tagCount || a.tagName.localeCompare(b.tagName))
+      .slice(0, limit || 10);
+  });
+
   // Groups a sorted collection of articles into { decade, articles } buckets,
   // ordered oldest decade first, for rendering as an accordion.
   eleventyConfig.addFilter("groupByDecade", articles => {

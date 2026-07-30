@@ -2,6 +2,24 @@ body {
   letter-spacing:-.02rem;
 }
 
+// Site-wide link and highlight colour — success green rather than
+// Bootstrap's default $primary blue, to match the green already used across
+// the site (navbar brand, timeline dots, blockquote border). Overriding the
+// compiled custom properties here (rather than $link-color in
+// variables-theme.scss, which can't see $success — it's imported before
+// Bootstrap's own variables) keeps both wired to --bs-success-rgb so they
+// stay in sync if the success color ever changes. This block comes after
+// Bootstrap's own :root and [data-bs-theme=dark] rules in the compiled
+// output, so — despite matching specificity — it wins in both colour modes
+// without needing a duplicate dark-mode block.
+:root {
+  --bs-link-color-rgb: var(--bs-success-rgb);
+  --bs-link-hover-color-rgb: var(--bs-success-rgb);
+  // Background behind <mark> text — what Pagefind wraps matched terms in in
+  // search.njk's results excerpts.
+  --bs-highlight-bg: rgba(var(--bs-success-rgb), 0.35);
+}
+
 .link-fancy {
   text-decoration: none;
   display: inline-block;
@@ -17,7 +35,7 @@ body {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-image: linear-gradient(90deg, $primary 0, $primary 25%, transparent 0, transparent 50%, $primary 0, $primary 75%, transparent 0, transparent);
+  background-image: linear-gradient(90deg, $success 0, $success 25%, transparent 0, transparent 50%, $success 0, $success 75%, transparent 0, transparent);
   background-repeat: no-repeat;
   background-position: 0;
   background-size: 400% 1px;

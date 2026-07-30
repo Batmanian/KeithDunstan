@@ -15,10 +15,12 @@ const yaml = require("js-yaml");
 const SRC_DIR = path.join(__dirname, "..", "src");
 const OUTPUT_FILE = path.join(SRC_DIR, "_data", "topics.md");
 
-// Mirrors the "more than 3 entries" threshold used for the topic cloud on
-// /search.html (src/_includes/snippets/tagslist.njk) — no point queuing up
-// a description to write for a topic that isn't even shown to browse.
-const MIN_ENTRIES_FOR_DESCRIPTION = 3;
+// Lower bound on page entries before a topic is worth queuing up a
+// description for. Deliberately looser than the "more than 3 entries"
+// threshold the topic cloud on /search.html uses to decide what to display
+// (src/_includes/snippets/tagslist.njk) — a topic can be worth describing
+// even if it doesn't yet have enough entries to appear in that browse list.
+const MIN_ENTRIES_FOR_DESCRIPTION = 2;
 
 // Mirrors the exclusion list used by the `tagList` collection in .eleventy.js
 const EXCLUDED_TAGS = ["post", "all", "book", "books", "article", "articles"];

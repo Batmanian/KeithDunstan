@@ -1,6 +1,11 @@
- <ul>
-    <li><a href="{{ '/articles/walkabout-magazine/bird-watching/' | url }}">Bird Watching </a>, (1 February 1962)</li>
-    <li><a href="{{ '/articles/walkabout-magazine/rough-riding-for-five-minutes-a-year/' | url }}">Rough-Riding for Five Minutes a Year</a>,  (1 September 1962)  </li>
- <li><a href="{{ '/articles/walkabout-magazine/summer-madness/' | url }}">Summer Madness</a>, (1 December 1969)   </li>
-    
-</ul>
+
+{%- set walkaboutTopics = collections.walkabout | topTopics(15) %}
+{%- if walkaboutTopics.length %}
+<p class="text-muted small">
+  <strong>Top topics:</strong>
+  {%- for topic in walkaboutTopics %}
+    {% set topicUrl %}/topic/{{ topic.tagName | slug }}/{% endset %}
+    <a href="{{ topicUrl | url | safe }}" class="link-secondary">{{ topic.tagName }}</a>{% if not loop.last %},{% endif %}
+  {%- endfor %}
+</p>
+{%- endif %}

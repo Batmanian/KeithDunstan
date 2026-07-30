@@ -1,0 +1,3166 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Timeline</title>
+<meta name="title" content="Timeline">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="The collected literary works of Keith Dunstan OAM">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://keithdunstan.org/timeline/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Timeline">
+<meta property="og:description" content="The collected literary works of Keith Dunstan OAM">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Timeline">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/timeline/">
+<meta name="twitter:title" content="Timeline">
+<meta name="twitter:description" content="The collected literary works of Keith Dunstan OAM">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Timeline">
+<link rel="canonical" href="https://keithdunstan.org/timeline/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+    
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-lg-10 col-xl-8">
+          <header>
+      <h1 class="h2 mb-2">Timeline</h1>
+</header>
+
+<p class="text-muted">Every transcribed article in the archive, in the order it was published &mdash; from Keith Dunstan's earliest Walkabout pieces through to his most recent Bulletin columns. Hover or focus an entry for a summary; select it to read the piece in full.</p>
+
+<div class="timeline my-4">
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/walkabout-magazine/bird-watching/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Profiles Melbourne&#39;s Bird Observers Club, from a postman-secretary who charms Dutch sea captains to the Land Rover expedition that rediscovered the Eyrean Grasswren, unseen since 1874.">
+      <time class="timeline-date" datetime="1962-02-01">01 Feb 1962</time>
+      <span class="timeline-title">Bird Watching</span>
+      <span class="badge text-bg-secondary fw-normal">Walkabout Magazine</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/bird-watching/" class="link-secondary">Bird Watching</a>,
+          
+          <a href="/topic/heidelberg/" class="link-secondary">Heidelberg</a>,
+          
+          <a href="/topic/roy-wheeler/" class="link-secondary">Roy Wheeler</a>,
+          
+          <a href="/topic/len-robinson/" class="link-secondary">Len Robinson</a>,
+          
+          <a href="/topic/eyrean-grasswren/" class="link-secondary">Eyrean Grasswren</a>,
+          
+          <a href="/topic/donald-campbell/" class="link-secondary">Donald Campbell</a>,
+          
+          <a href="/topic/red-necked-avocet/" class="link-secondary">Red-necked Avocet</a>,
+          
+          <a href="/topic/commonweath-scientific-and-industrial-organisation-csiro/" class="link-secondary">Commonweath Scientific and Industrial Organisation CSIRO</a>,
+          
+          <a href="/topic/donald-shanks/" class="link-secondary">Donald Shanks</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/walkabout-magazine/paddys-market-to-luxury-hotel/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Traces the site of the new £5 million Southern Cross Hotel back through the raucous history of the old Eastern Market, phrenologists, dancing ducks, a fortune-teller called Madame Zinga Lee, and an 1898 murder.">
+      <time class="timeline-date" datetime="1962-02-01">01 Feb 1962</time>
+      <span class="timeline-title">Paddy&#39;s Market to Luxury Hotel</span>
+      <span class="badge text-bg-secondary fw-normal">Walkabout Magazine</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/eastern-market/" class="link-secondary">Eastern Market</a>,
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/southern-cross-hotel/" class="link-secondary">Southern Cross Hotel</a>,
+          
+          <a href="/topic/bourke-street/" class="link-secondary">Bourke Street</a>,
+          
+          <a href="/topic/juvenile-industrial-exhibition/" class="link-secondary">Juvenile Industrial Exhibition</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/walkabout-magazine/rough-riding-for-five-minutes-a-year/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Rides the outback rodeo circuit with Australia&#39;s professional rough-riders, from the Myrtleford Rodeo&#39;s untamed high-plains bulls to a wild-horse race that leaves one rider knocked cold and refusing all help.">
+      <time class="timeline-date" datetime="1962-02-01">01 Feb 1962</time>
+      <span class="timeline-title">Rough Riding for Five Minutes a Year</span>
+      <span class="badge text-bg-secondary fw-normal">Walkabout Magazine</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/greg-russell/" class="link-secondary">Greg Russell</a>,
+          
+          <a href="/topic/max-hillier/" class="link-secondary">Max Hillier</a>,
+          
+          <a href="/topic/ken-healy/" class="link-secondary">Ken Healy</a>,
+          
+          <a href="/topic/peter-poole/" class="link-secondary">Peter Poole</a>,
+          
+          <a href="/topic/rocky-round-up/" class="link-secondary">Rocky Round-up</a>,
+          
+          <a href="/topic/the-merry-muster/" class="link-secondary">The Merry Muster</a>,
+          
+          <a href="/topic/rodeo/" class="link-secondary">Rodeo</a>,
+          
+          <a href="/topic/myrtletord/" class="link-secondary">Myrtletord</a>,
+          
+          <a href="/topic/rockhampton/" class="link-secondary">Rockhampton</a>,
+          
+          <a href="/topic/the-rough-riders-association/" class="link-secondary">The Rough Riders Association</a>,
+          
+          <a href="/topic/ricthie-fraser/" class="link-secondary">Ricthie Fraser</a>,
+          
+          <a href="/topic/bulldogging/" class="link-secondary">Bulldogging</a>,
+          
+          <a href="/topic/walgett/" class="link-secondary">Walgett</a>,
+          
+          <a href="/topic/marrabel/" class="link-secondary">Marrabel</a>,
+          
+          <a href="/topic/tommy-cannon/" class="link-secondary">Tommy Cannon</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/the-new-image/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="On Melbourne&#39;s sudden reputation for permissiveness, from a swimsuit-censorship row at the Australian Swimming Championships to the Moomba Committee&#39;s controversial beer garden in the Alexandra Gardens.">
+      <time class="timeline-date" datetime="1962-03-03">03 Mar 1962</time>
+      <span class="timeline-title">The New Image</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>,
+          
+          <a href="/topic/elwood/" class="link-secondary">Elwood</a>,
+          
+          <a href="/topic/new-south-wales/" class="link-secondary">New South Wales</a>,
+          
+          <a href="/topic/olympic-pool/" class="link-secondary">Olympic Pool</a>,
+          
+          <a href="/topic/amateur-swimming-union/" class="link-secondary">Amateur Swimming Union</a>,
+          
+          <a href="/topic/judy-joy-davies/" class="link-secondary">Judy Joy Davies</a>,
+          
+          <a href="/topic/john-rigby/" class="link-secondary">John Rigby</a>,
+          
+          <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+          
+          <a href="/topic/alexandra-gardens/" class="link-secondary">Alexandra Gardens</a>,
+          
+          <a href="/topic/maurice-nathan/" class="link-secondary">Maurice Nathan</a>,
+          
+          <a href="/topic/johnny-o&#39;keefe/" class="link-secondary">Johnny O&#39;Keefe</a>,
+          
+          <a href="/topic/sidney-myer-music-bowl/" class="link-secondary">Sidney Myer Music Bowl</a>,
+          
+          <a href="/topic/june-bronhill/" class="link-secondary">June Bronhill</a>,
+          
+          <a href="/topic/adelaide-festival-of-arts/" class="link-secondary">Adelaide Festival of Arts</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/football-and-tv/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Covers Melbourne&#39;s fierce row over the VFL&#39;s ban on televising the last quarter of League football, then Victoria&#39;s new tallest building, the 24-storey Consolidated Zinc, opening almost unnoticed.">
+      <time class="timeline-date" datetime="1962-03-17">17 Mar 1962</time>
+      <span class="timeline-title">Football and TV</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/frank-galbally/" class="link-secondary">Frank Galbally</a>,
+          
+          <a href="/topic/collingwood/" class="link-secondary">Collingwood</a>,
+          
+          <a href="/topic/victorian-football-league/" class="link-secondary">Victorian Football League</a>,
+          
+          <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+          
+          <a href="/topic/alf-brown/" class="link-secondary">Alf Brown</a>,
+          
+          <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>,
+          
+          <a href="/topic/footscray/" class="link-secondary">Footscray</a>,
+          
+          <a href="/topic/hawthorn/" class="link-secondary">Hawthorn</a>,
+          
+          <a href="/topic/consolidated-zinc-building/" class="link-secondary">Consolidated Zinc Building</a>,
+          
+          <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>,
+          
+          <a href="/topic/amp-building/" class="link-secondary">AMP Building</a>,
+          
+          <a href="/topic/amelio-greco/" class="link-secondary">Amelio Greco</a>,
+          
+          <a href="/topic/melbourne-sun/" class="link-secondary">Melbourne Sun</a>,
+          
+          <a href="/topic/turnbull/" class="link-secondary">Turnbull</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/no-camels-for-swanston-street/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Mourns the decline of Melbourne&#39;s once-riotous Eight Hour Day march into a corporate-sponsored Moomba procession, its circus camels banned, then reports on Sandown Park&#39;s star-studded car-racing debut.">
+      <time class="timeline-date" datetime="1962-03-24">24 Mar 1962</time>
+      <span class="timeline-title">No Camels for Swanston Street</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/eight-hour-day/" class="link-secondary">Eight Hour Day</a>,
+          
+          <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+          
+          <a href="/topic/swanston-street/" class="link-secondary">Swanston Street</a>,
+          
+          <a href="/topic/myer-emporium/" class="link-secondary">Myer Emporium</a>,
+          
+          <a href="/topic/sandown-park/" class="link-secondary">Sandown Park</a>,
+          
+          <a href="/topic/springvale-crematorium/" class="link-secondary">Springvale Crematorium</a>,
+          
+          <a href="/topic/jack-brabham/" class="link-secondary">Jack Brabham</a>,
+          
+          <a href="/topic/stirling-moss/" class="link-secondary">Stirling Moss</a>,
+          
+          <a href="/topic/melbourne-racing-club/" class="link-secondary">Melbourne Racing Club</a>,
+          
+          <a href="/topic/totalisator-agency-board/" class="link-secondary">Totalisator Agency Board</a>,
+          
+          <a href="/topic/flemington/" class="link-secondary">Flemington</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/the-new-breed/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Previews Pan-American&#39;s new Miami-style Southern Cross Hotel rising on the old Eastern Market site, then the Lord Mayor&#39;s £770 replacement robes after the old ones, handed down for decades, finally fell apart.">
+      <time class="timeline-date" datetime="1962-03-31">31 Mar 1962</time>
+      <span class="timeline-title">The New Breed</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/southern-cross-hotel/" class="link-secondary">Southern Cross Hotel</a>,
+          
+          <a href="/topic/exhibition-street/" class="link-secondary">Exhibition Street</a>,
+          
+          <a href="/topic/bourke-street/" class="link-secondary">Bourke Street</a>,
+          
+          <a href="/topic/eastern-market/" class="link-secondary">Eastern Market</a>,
+          
+          <a href="/topic/pete-sutherland/" class="link-secondary">Pete Sutherland</a>,
+          
+          <a href="/topic/maurice-nathan/" class="link-secondary">Maurice Nathan</a>,
+          
+          <a href="/topic/bernard-evans/" class="link-secondary">Bernard Evans</a>,
+          
+          <a href="/topic/albury/" class="link-secondary">Albury</a>,
+          
+          <a href="/topic/carlton/" class="link-secondary">Carlton</a>,
+          
+          <a href="/topic/east-melbourne/" class="link-secondary">East Melbourne</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/the-lash/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="A spate of unprovoked gang bashings sparks public calls for the return of the lash, running into Melbourne&#39;s ongoing water restrictions and a stake-money spat between the Caulfield and Melbourne Cups.">
+      <time class="timeline-date" datetime="1962-04-07">07 Apr 1962</time>
+      <span class="timeline-title">The Lash</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/chester-manifold/" class="link-secondary">Chester Manifold</a>,
+          
+          <a href="/topic/victorian-crimes-act/" class="link-secondary">Victorian Crimes Act</a>,
+          
+          <a href="/topic/ymca/" class="link-secondary">YMCA</a>,
+          
+          <a href="/topic/alex-moodie/" class="link-secondary">Alex Moodie</a>,
+          
+          <a href="/topic/william-john-o&#39;meally/" class="link-secondary">William John O&#39;Meally</a>,
+          
+          <a href="/topic/john-henry-taylor/" class="link-secondary">John Henry Taylor</a>,
+          
+          <a href="/topic/caulfield-cup/" class="link-secondary">Caulfield Cup</a>,
+          
+          <a href="/topic/melbourne-cup/" class="link-secondary">Melbourne Cup</a>,
+          
+          <a href="/topic/victoria-amateur-turf-club/" class="link-secondary">Victoria Amateur Turf Club</a>,
+          
+          <a href="/topic/victoria-racing-club/" class="link-secondary">Victoria Racing Club</a>,
+          
+          <a href="/topic/h.-r.-way/" class="link-secondary">H. R. Way</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/forbidden-city/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="An undercover survey of Melbourne&#39;s new strip-tease clubs, comparing the silent, appraising Melbourne audience to Sydney&#39;s, before turning to the Richmond Brewery&#39;s absorption into Carlton and United on Friday the 13th.">
+      <time class="timeline-date" datetime="1962-04-14">14 Apr 1962</time>
+      <span class="timeline-title">Forbidden City</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>,
+          
+          <a href="/topic/ritz-hotel/" class="link-secondary">Ritz Hotel</a>,
+          
+          <a href="/topic/ray-bolwell/" class="link-secondary">Ray Bolwell</a>,
+          
+          <a href="/topic/john-parkin/" class="link-secondary">John Parkin</a>,
+          
+          <a href="/topic/gaye-abandon/" class="link-secondary">Gaye Abandon</a>,
+          
+          <a href="/topic/britannia-hotel/" class="link-secondary">Britannia Hotel</a>,
+          
+          <a href="/topic/commissioner-porter/" class="link-secondary">Commissioner Porter</a>,
+          
+          <a href="/topic/carlton-and-united-breweries/" class="link-secondary">Carlton and United Breweries</a>,
+          
+          <a href="/topic/john-charrington/" class="link-secondary">John Charrington</a>,
+          
+          <a href="/topic/richmond-brewery/" class="link-secondary">Richmond Brewery</a>,
+          
+          <a href="/topic/duncan-fraser-smith/" class="link-secondary">Duncan Fraser Smith</a>,
+          
+          <a href="/topic/mildura/" class="link-secondary">Mildura</a>,
+          
+          <a href="/topic/john-l.-beech/" class="link-secondary">John L. Beech</a>,
+          
+          <a href="/topic/alphington/" class="link-secondary">Alphington</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/to-the-spencer-street-station/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Compares the muted arrival of the new Southern Aurora express at Spencer Street with the wild 1883 celebrations when Melbourne and Sydney&#39;s rail lines first met at Albury, then covers Victoria&#39;s new ban on tattooing minors.">
+      <time class="timeline-date" datetime="1962-04-21">21 Apr 1962</time>
+      <span class="timeline-title">To the Spencer Street Station</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/spencer-street-station/" class="link-secondary">Spencer Street Station</a>,
+          
+          <a href="/topic/the-southern-aurora/" class="link-secondary">The Southern Aurora</a>,
+          
+          <a href="/topic/albury/" class="link-secondary">Albury</a>,
+          
+          <a href="/topic/viscount-de-l&#39;isle/" class="link-secondary">Viscount de L&#39;Isle</a>,
+          
+          <a href="/topic/robert-menzies/" class="link-secondary">Robert Menzies</a>,
+          
+          <a href="/topic/j.-j.-brown/" class="link-secondary">J. J. Brown</a>,
+          
+          <a href="/topic/australian-railways-union/" class="link-secondary">Australian Railways Union</a>,
+          
+          <a href="/topic/victorian-railways/" class="link-secondary">Victorian Railways</a>,
+          
+          <a href="/topic/australian-railways-historical-society/" class="link-secondary">Australian Railways Historical Society</a>,
+          
+          <a href="/topic/barry-humphries/" class="link-secondary">Barry Humphries</a>,
+          
+          <a href="/topic/basil-atkinson/" class="link-secondary">Basil Atkinson</a>,
+          
+          <a href="/topic/australian-national-travel-association/" class="link-secondary">Australian National Travel Association</a>,
+          
+          <a href="/topic/reg-ansett/" class="link-secondary">Reg Ansett</a>,
+          
+          <a href="/topic/doug-elliot/" class="link-secondary">Doug Elliot</a>,
+          
+          <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/football-and-mfl/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Covers the Collingwood Football Club&#39;s ceremonial guernsey-presentation dinner for its new season, then the box-office phenomenon of &quot;My Fair Lady&quot;&#39;s second Melbourne season at Her Majesty&#39;s Theatre.">
+      <time class="timeline-date" datetime="1962-04-28">28 Apr 1962</time>
+      <span class="timeline-title">Football and M.F.L.</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/collingwood-football-club/" class="link-secondary">Collingwood Football Club</a>,
+          
+          <a href="/topic/murray-weideman/" class="link-secondary">Murray Weideman</a>,
+          
+          <a href="/topic/syd-coventry/" class="link-secondary">Syd Coventry</a>,
+          
+          <a href="/topic/ray-gabelich/" class="link-secondary">Ray Gabelich</a>,
+          
+          <a href="/topic/frank-galbally/" class="link-secondary">Frank Galbally</a>,
+          
+          <a href="/topic/my-fair-lady/" class="link-secondary">My Fair Lady</a>,
+          
+          <a href="/topic/j.-c.-williamsons/" class="link-secondary">J. C. Williamsons</a>,
+          
+          <a href="/topic/her-majestys-theatre/" class="link-secondary">Her Majestys Theatre</a>,
+          
+          <a href="/topic/michael-denison/" class="link-secondary">Michael Denison</a>,
+          
+          <a href="/topic/john-mccallum/" class="link-secondary">John McCallum</a>,
+          
+          <a href="/topic/christchurch/" class="link-secondary">Christchurch</a>,
+          
+          <a href="/topic/perth/" class="link-secondary">Perth</a>,
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/rembrandt-and-phar-lap/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="A reluctant Melburnian tourist takes a sightseeing coach tour of his own city, from Ned Kelly&#39;s gaol to the National Gallery, and finds Phar Lap draws more attention than the Rembrandt.">
+      <time class="timeline-date" datetime="1962-05-05">05 May 1962</time>
+      <span class="timeline-title">Rembrandt and Phar Lap</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/sydney/" class="link-secondary">Sydney</a>,
+          
+          <a href="/topic/flinders-street-railway-station/" class="link-secondary">Flinders Street Railway Station</a>,
+          
+          <a href="/topic/royal-arcade/" class="link-secondary">Royal Arcade</a>,
+          
+          <a href="/topic/ned-kelly/" class="link-secondary">Ned Kelly</a>,
+          
+          <a href="/topic/captain-cook/" class="link-secondary">Captain Cook</a>,
+          
+          <a href="/topic/melbourne-cricket-ground/" class="link-secondary">Melbourne Cricket Ground</a>,
+          
+          <a href="/topic/sidney-myer-music-bowl/" class="link-secondary">Sidney Myer Music Bowl</a>,
+          
+          <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+          
+          <a href="/topic/national-gallery/" class="link-secondary">National Gallery</a>,
+          
+          <a href="/topic/phar-lap/" class="link-secondary">Phar Lap</a>,
+          
+          <a href="/topic/young-and-jacksons/" class="link-secondary">Young and Jacksons</a>,
+          
+          <a href="/topic/doug-ingersole/" class="link-secondary">Doug Ingersole</a>,
+          
+          <a href="/topic/a.-g.-grant/" class="link-secondary">A. G. Grant</a>,
+          
+          <a href="/topic/adelaide-festival-of-arts/" class="link-secondary">Adelaide Festival of Arts</a>,
+          
+          <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+          
+          <a href="/topic/melbourne-tourism/" class="link-secondary">Melbourne Tourism</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/the-release-of-john-bryan-kerr/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="On the eve of his release after 12 years, revisits Melbourne&#39;s most sensational murder case, the conviction of the charming, well-connected John Bryan Kerr for the 1949 strangling of Elizabeth Maureen Williams, and the newspaper campaign that fought to reopen it.">
+      <time class="timeline-date" datetime="1962-05-12">12 May 1962</time>
+      <span class="timeline-title">The Release of John Bryan Kerr</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/john-bryan-kerr/" class="link-secondary">John Bryan Kerr</a>,
+          
+          <a href="/topic/pentridge-gaol/" class="link-secondary">Pentridge Gaol</a>,
+          
+          <a href="/topic/scotch-college/" class="link-secondary">Scotch College</a>,
+          
+          <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+          
+          <a href="/topic/albert-park/" class="link-secondary">Albert Park</a>,
+          
+          <a href="/topic/elizabeth-maureen-williams/" class="link-secondary">Elizabeth Maureen Williams</a>,
+          
+          <a href="/topic/the-argus/" class="link-secondary">The Argus</a>,
+          
+          <a href="/topic/harold-holt/" class="link-secondary">Harold Holt</a>,
+          
+          <a href="/topic/june-clyne/" class="link-secondary">June Clyne</a>,
+          
+          <a href="/topic/noel-coward/" class="link-secondary">Noel Coward</a>,
+          
+          <a href="/topic/privy-council/" class="link-secondary">Privy Council</a>,
+          
+          <a href="/topic/rylah/" class="link-secondary">Rylah</a>,
+          
+          <a href="/topic/h.-a.-winneke/" class="link-secondary">H. A. Winneke</a>,
+          
+          <a href="/topic/queensland/" class="link-secondary">Queensland</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/a-viscount-a-viscount-a-viscount/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Profiles bandleader Tommy Davidson, Melbourne&#39;s leading writer of singing television commercials, from his award-winning Viscount cigarette jingle to a £5500 TV shoot with a 46-piece orchestra.">
+      <time class="timeline-date" datetime="1962-05-26">26 May 1962</time>
+      <span class="timeline-title">A Viscount, a Viscount, a Viscount . . .</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/tommy-davidson/" class="link-secondary">Tommy Davidson</a>,
+          
+          <a href="/topic/viscount/" class="link-secondary">Viscount</a>,
+          
+          <a href="/topic/craven-a/" class="link-secondary">Craven A</a>,
+          
+          <a href="/topic/bob-gibson/" class="link-secondary">Bob Gibson</a>,
+          
+          <a href="/topic/du-maurier/" class="link-secondary">Du Maurier</a>,
+          
+          <a href="/topic/worth&#39;s/" class="link-secondary">Worth&#39;s</a>,
+          
+          <a href="/topic/lorenzo-nolan/" class="link-secondary">Lorenzo Nolan</a>,
+          
+          <a href="/topic/ici/" class="link-secondary">ICI</a>,
+          
+          <a href="/topic/robin-boyd/" class="link-secondary">Robin Boyd</a>,
+          
+          <a href="/topic/st-vincent&#39;s-hospital/" class="link-secondary">St Vincent&#39;s Hospital</a>,
+          
+          <a href="/topic/nicholson-street/" class="link-secondary">Nicholson Street</a>,
+          
+          <a href="/topic/pagewood-studios/" class="link-secondary">Pagewood Studios</a>,
+          
+          <a href="/topic/carlton-and-united-breweries/" class="link-secondary">Carlton and United Breweries</a>,
+          
+          <a href="/topic/sydney/" class="link-secondary">Sydney</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/not-only-serious-solemn/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="A blow-by-blow account of Melbourne&#39;s raging Age letters-page feud between realist and modernist painters, pitting William Dargie against National Gallery director Eric Westbrook.">
+      <time class="timeline-date" datetime="1962-06-02">02 Jun 1962</time>
+      <span class="timeline-title">Not Only Serious – Solemn!</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/the-age/" class="link-secondary">The Age</a>,
+          
+          <a href="/topic/william-dargie/" class="link-secondary">William Dargie</a>,
+          
+          <a href="/topic/eric-westbrook/" class="link-secondary">Eric Westbrook</a>,
+          
+          <a href="/topic/national-gallery/" class="link-secondary">National Gallery</a>,
+          
+          <a href="/topic/tate-gallery/" class="link-secondary">Tate Gallery</a>,
+          
+          <a href="/topic/max-ragless/" class="link-secondary">Max Ragless</a>,
+          
+          <a href="/topic/atheneum-gallery/" class="link-secondary">Atheneum Gallery</a>,
+          
+          <a href="/topic/john-brach/" class="link-secondary">John Brach</a>,
+          
+          <a href="/topic/adrian-rawlins/" class="link-secondary">Adrian Rawlins</a>,
+          
+          <a href="/topic/paul-fitzgerald/" class="link-secondary">Paul Fitzgerald</a>,
+          
+          <a href="/topic/albert-tucker/" class="link-secondary">Albert Tucker</a>,
+          
+          <a href="/topic/contemporary-art-society/" class="link-secondary">Contemporary Art Society</a>,
+          
+          <a href="/topic/san-francisco/" class="link-secondary">San Francisco</a>,
+          
+          <a href="/topic/toorak/" class="link-secondary">Toorak</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/the-great-bank-robbery/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Investigates Melbourne&#39;s record £40,000 bank robbery and the mystery of the thieves&#39; 21 keys, then the Puffing Billy Preservation Society&#39;s fight to reopen the narrow-gauge line through the Dandenongs.">
+      <time class="timeline-date" datetime="1962-06-09">09 Jun 1962</time>
+      <span class="timeline-title">The Great Bank Robbery</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/es-and-a-bank/" class="link-secondary">ES and A Bank</a>,
+          
+          <a href="/topic/russell-street/" class="link-secondary">Russell Street</a>,
+          
+          <a href="/topic/flinders-lane/" class="link-secondary">Flinders Lane</a>,
+          
+          <a href="/topic/mayne-nickless/" class="link-secondary">Mayne Nickless</a>,
+          
+          <a href="/topic/s.-a.-von-bertouch/" class="link-secondary">S. A. von Bertouch</a>,
+          
+          <a href="/topic/australian-railway-historical-society/" class="link-secondary">Australian Railway Historical Society</a>,
+          
+          <a href="/topic/puffing-billy/" class="link-secondary">Puffing Billy</a>,
+          
+          <a href="/topic/puffing-billy-preservation-society/" class="link-secondary">Puffing Billy Preservation Society</a>,
+          
+          <a href="/topic/dandenong-ranges/" class="link-secondary">Dandenong Ranges</a>,
+          
+          <a href="/topic/upper-ferntree-gully/" class="link-secondary">Upper Ferntree Gully</a>,
+          
+          <a href="/topic/belgrave/" class="link-secondary">Belgrave</a>,
+          
+          <a href="/topic/gembrook/" class="link-secondary">Gembrook</a>,
+          
+          <a href="/topic/wonga-park/" class="link-secondary">Wonga Park</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/the-stampede-and-the-fall-out-shelter/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Follows the new south-eastern freeway&#39;s traffic overflow into once-exclusive Toorak, then tours a fully-furnished nuclear fall-out shelter on display at the Building Industry Fair.">
+      <time class="timeline-date" datetime="1962-06-16">16 Jun 1962</time>
+      <span class="timeline-title">The Stampede and the Fall-Out Shelter</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/yarra/" class="link-secondary">Yarra</a>,
+          
+          <a href="/topic/essendon/" class="link-secondary">Essendon</a>,
+          
+          <a href="/topic/sidney-myer-music-bowl/" class="link-secondary">Sidney Myer Music Bowl</a>,
+          
+          <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+          
+          <a href="/topic/st-george&#39;s-road/" class="link-secondary">St George&#39;s Road</a>,
+          
+          <a href="/topic/board-of-works/" class="link-secondary">Board of Works</a>,
+          
+          <a href="/topic/arthur-warner/" class="link-secondary">Arthur Warner</a>,
+          
+          <a href="/topic/roy-t.-knight/" class="link-secondary">Roy T. Knight</a>,
+          
+          <a href="/topic/building-industry-fair/" class="link-secondary">Building Industry Fair</a>,
+          
+          <a href="/topic/nevil-shute/" class="link-secondary">Nevil Shute</a>,
+          
+          <a href="/topic/alec-waugh/" class="link-secondary">Alec Waugh</a>,
+          
+          <a href="/topic/marcia-davenport/" class="link-secondary">Marcia Davenport</a>,
+          
+          <a href="/topic/kew/" class="link-secondary">Kew</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/wild-life-in-suburbia/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="A Brotherhood of St Laurence survey of a Melbourne housing estate puts hard numbers on Barry Humphries&#39; Mrs Everage caricature, finding suburban Melburnians were overwhelmingly stay-at-home, TV-watching and incurious.">
+      <time class="timeline-date" datetime="1962-06-23">23 Jun 1962</time>
+      <span class="timeline-title">Wild Life in Suburbia</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/barry-humphries/" class="link-secondary">Barry Humphries</a>,
+          
+          <a href="/topic/mrs-norm-everage/" class="link-secondary">Mrs Norm Everage</a>,
+          
+          <a href="/topic/moonee-ponds/" class="link-secondary">Moonee Ponds</a>,
+          
+          <a href="/topic/gallipoli-street/" class="link-secondary">Gallipoli Street</a>,
+          
+          <a href="/topic/ivanhoe/" class="link-secondary">Ivanhoe</a>,
+          
+          <a href="/topic/brotherhood-of-st-laurence/" class="link-secondary">Brotherhood of St Laurence</a>,
+          
+          <a href="/topic/myer-foundation/" class="link-secondary">Myer Foundation</a>,
+          
+          <a href="/topic/david-scott/" class="link-secondary">David Scott</a>,
+          
+          <a href="/topic/robert-uren/" class="link-secondary">Robert Uren</a>,
+          
+          <a href="/topic/mr-downer/" class="link-secondary">Mr Downer</a>,
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/now-they-call-him-satchmo-bolte/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Traces the Exhibition Building&#39;s rise from would-be demolition target to beloved 1963 Trade Fair venue via its riotous 1880s exhibition history, then catches Henry Bolte earning the nickname &quot;Satchmo&quot; over a misquoted Anthony Trollope line about Victorian boasting.">
+      <time class="timeline-date" datetime="1962-06-30">30 Jun 1962</time>
+      <span class="timeline-title">Now They Call Him &quot;Satchmo&quot; Bolte</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+          
+          <a href="/topic/exhibition-building/" class="link-secondary">Exhibition Building</a>,
+          
+          <a href="/topic/sydney/" class="link-secondary">Sydney</a>,
+          
+          <a href="/topic/carlton-gardens/" class="link-secondary">Carlton Gardens</a>,
+          
+          <a href="/topic/fosters-lager/" class="link-secondary">Fosters Lager</a>,
+          
+          <a href="/topic/chloe/" class="link-secondary">Chloe</a>,
+          
+          <a href="/topic/jules-lefebre/" class="link-secondary">Jules Lefebre</a>,
+          
+          <a href="/topic/louis-armstrong/" class="link-secondary">Louis Armstrong</a>,
+          
+          <a href="/topic/anthony-trollope/" class="link-secondary">Anthony Trollope</a>,
+          
+          <a href="/topic/robert-heffron/" class="link-secondary">Robert Heffron</a>,
+          
+          <a href="/topic/chamber-of-commerce/" class="link-secondary">Chamber of Commerce</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/inside-toorak/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="An affectionate dissection of Toorak&#39;s century of unrivalled Melbourne snob value, from its jealously small postcode SE2 to its chauffeur-driven Rolls Royces and Tudor-revival Village shops.">
+      <time class="timeline-date" datetime="1962-07-14">14 Jul 1962</time>
+      <span class="timeline-title">Inside Toorak</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+          
+          <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>,
+          
+          <a href="/topic/prahran/" class="link-secondary">Prahran</a>,
+          
+          <a href="/topic/malvern/" class="link-secondary">Malvern</a>,
+          
+          <a href="/topic/armadale/" class="link-secondary">Armadale</a>,
+          
+          <a href="/topic/collingwood/" class="link-secondary">Collingwood</a>,
+          
+          <a href="/topic/fitzroy/" class="link-secondary">Fitzroy</a>,
+          
+          <a href="/topic/richmond/" class="link-secondary">Richmond</a>,
+          
+          <a href="/topic/hamilton-sleigh/" class="link-secondary">Hamilton Sleigh</a>,
+          
+          <a href="/topic/melbourne-university-labor-club/" class="link-secondary">Melbourne University Labor Club</a>,
+          
+          <a href="/topic/toorak-village/" class="link-secondary">Toorak Village</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/a-little-red-rented-rowboat/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="A tour of Melbourne&#39;s National Boat Show, where the speedboat has replaced the car as the new status symbol, headlined by Bob Dyer&#39;s near-£4000 shark-fishing cruiser Tennessee IV.">
+      <time class="timeline-date" datetime="1962-07-28">28 Jul 1962</time>
+      <span class="timeline-title">A Little Red Rented Rowboat</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/national-boat-show/" class="link-secondary">National Boat Show</a>,
+          
+          <a href="/topic/exhibition-building/" class="link-secondary">Exhibition Building</a>,
+          
+          <a href="/topic/portsea/" class="link-secondary">Portsea</a>,
+          
+          <a href="/topic/bob-dyer/" class="link-secondary">Bob Dyer</a>,
+          
+          <a href="/topic/dolly-dyer/" class="link-secondary">Dolly Dyer</a>,
+          
+          <a href="/topic/tennessee-iv/" class="link-secondary">Tennessee IV</a>,
+          
+          <a href="/topic/johnnie-o&#39;keefe/" class="link-secondary">Johnnie O&#39;Keefe</a>,
+          
+          <a href="/topic/southern-cross-hotel/" class="link-secondary">Southern Cross Hotel</a>,
+          
+          <a href="/topic/sydney-heads/" class="link-secondary">Sydney Heads</a>,
+          
+          <a href="/topic/ford-thunderbird/" class="link-secondary">Ford Thunderbird</a>,
+          
+          <a href="/topic/chevrolet/" class="link-secondary">Chevrolet</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/return-of-norm-and-edna-everage/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Welcomes Barry Humphries home from London for a nine-night Assembly Hall season, recounting his elaborate public pranks, including the &quot;Ashburton Line&quot; breakfast-in-a-carriage stunt and slices of ham hidden in a David Jones bargain sale.">
+      <time class="timeline-date" datetime="1962-08-04">04 Aug 1962</time>
+      <span class="timeline-title">Return of Norm and Edna Everage</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/barry-humphries/" class="link-secondary">Barry Humphries</a>,
+          
+          <a href="/topic/edna-everage/" class="link-secondary">Edna Everage</a>,
+          
+          <a href="/topic/norm-everage/" class="link-secondary">Norm Everage</a>,
+          
+          <a href="/topic/moonee-ponds/" class="link-secondary">Moonee Ponds</a>,
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/robin-boyd/" class="link-secondary">Robin Boyd</a>,
+          
+          <a href="/topic/patrick-tennison/" class="link-secondary">Patrick Tennison</a>,
+          
+          <a href="/topic/melbourne-university/" class="link-secondary">Melbourne University</a>,
+          
+          <a href="/topic/david-jones/" class="link-secondary">David Jones</a>,
+          
+          <a href="/topic/king&#39;s-cross/" class="link-secondary">King&#39;s Cross</a>,
+          
+          <a href="/topic/menzies/" class="link-secondary">Menzies</a>,
+          
+          <a href="/topic/gladys-moncrieff/" class="link-secondary">Gladys Moncrieff</a>,
+          
+          <a href="/topic/lou-richards/" class="link-secondary">Lou Richards</a>,
+          
+          <a href="/topic/qantas/" class="link-secondary">Qantas</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/not-just-a-beer-up-club/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Mourns the demolition of the historic Scotts Hotel as Melbourne&#39;s city pubs vanish one by one, then visits the newly formed Beer Appreciation Society of Australia conducting solemn blind tastings at the Kilkenny Inn.">
+      <time class="timeline-date" datetime="1962-08-11">11 Aug 1962</time>
+      <span class="timeline-title">Not Just a Beer-Up Club!</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/scotts-hotel/" class="link-secondary">Scotts Hotel</a>,
+          
+          <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>,
+          
+          <a href="/topic/melbourne-club/" class="link-secondary">Melbourne Club</a>,
+          
+          <a href="/topic/peter-snodgrass/" class="link-secondary">Peter Snodgrass</a>,
+          
+          <a href="/topic/william-ryrie/" class="link-secondary">William Ryrie</a>,
+          
+          <a href="/topic/menzies-hotel/" class="link-secondary">Menzies Hotel</a>,
+          
+          <a href="/topic/ellen-moore/" class="link-secondary">Ellen Moore</a>,
+          
+          <a href="/topic/southern-cross-hotel/" class="link-secondary">Southern Cross Hotel</a>,
+          
+          <a href="/topic/beer-appreciation-society-of-australia/" class="link-secondary">Beer Appreciation Society of Australia</a>,
+          
+          <a href="/topic/kilkenny-inn-hotel/" class="link-secondary">Kilkenny Inn Hotel</a>,
+          
+          <a href="/topic/john-lonergan/" class="link-secondary">John Lonergan</a>,
+          
+          <a href="/topic/australian-broadcasting-commission/" class="link-secondary">Australian Broadcasting Commission</a>,
+          
+          <a href="/topic/hannan&#39;s-kalgoorlie-beer/" class="link-secondary">Hannan&#39;s Kalgoorlie Beer</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/the-coal-exchange-rotunda/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Architect Roy Grounds proposes shipping London&#39;s condemned Victorian Coal Exchange rotunda 12,000 miles to Melbourne&#39;s new Cultural Centre, igniting a row over whether it&#39;s a masterpiece or, as one letter-writer put it, &quot;ostentatious Victorian junk.&quot;">
+      <time class="timeline-date" datetime="1962-08-18">18 Aug 1962</time>
+      <span class="timeline-title">The Coal Exchange Rotunda</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/roy-grounds/" class="link-secondary">Roy Grounds</a>,
+          
+          <a href="/topic/john-betjeman/" class="link-secondary">John Betjeman</a>,
+          
+          <a href="/topic/cultural-centre/" class="link-secondary">Cultural Centre</a>,
+          
+          <a href="/topic/eric-westbrook/" class="link-secondary">Eric Westbrook</a>,
+          
+          <a href="/topic/best-overend/" class="link-secondary">Best Overend</a>,
+          
+          <a href="/topic/institute-of-architects/" class="link-secondary">Institute of Architects</a>,
+          
+          <a href="/topic/leonard-cox/" class="link-secondary">Leonard Cox</a>,
+          
+          <a href="/topic/maurice-nathan/" class="link-secondary">Maurice Nathan</a>,
+          
+          <a href="/topic/peter-martin/" class="link-secondary">Peter Martin</a>,
+          
+          <a href="/topic/chas.-davies/" class="link-secondary">Chas. Davies</a>,
+          
+          <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+          
+          <a href="/topic/sydney-opera-house/" class="link-secondary">Sydney Opera House</a>,
+          
+          <a href="/topic/king-street-bridge/" class="link-secondary">King Street Bridge</a>,
+          
+          <a href="/topic/port-phillip-bay/" class="link-secondary">Port Phillip Bay</a>,
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/500-is-a-poodle/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="The three-day, city-wide hunt for Heloise, a runaway pedigree poodle worth £500 sent from Adelaide for breeding, complete with a police search, a &quot;poodle posse,&quot; and a televised on-air appeal.">
+      <time class="timeline-date" datetime="1962-08-25">25 Aug 1962</time>
+      <span class="timeline-title">£500 Is a Poodle</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/lady-de-crespigny/" class="link-secondary">Lady de Crespigny</a>,
+          
+          <a href="/topic/charlotte-de-crespigny/" class="link-secondary">Charlotte de Crespigny</a>,
+          
+          <a href="/topic/isobel-huntly/" class="link-secondary">Isobel Huntly</a>,
+          
+          <a href="/topic/violet-sharp/" class="link-secondary">Violet Sharp</a>,
+          
+          <a href="/topic/essendon-airport/" class="link-secondary">Essendon Airport</a>,
+          
+          <a href="/topic/doug-mummery/" class="link-secondary">Doug Mummery</a>,
+          
+          <a href="/topic/jack-griffin/" class="link-secondary">Jack Griffin</a>,
+          
+          <a href="/topic/keilor/" class="link-secondary">Keilor</a>,
+          
+          <a href="/topic/e.-w.-tipping/" class="link-secondary">E. W. Tipping</a>,
+          
+          <a href="/topic/melbourne-poodle-club/" class="link-secondary">Melbourne Poodle Club</a>,
+          
+          <a href="/topic/graham-kennedy/" class="link-secondary">Graham Kennedy</a>,
+          
+          <a href="/topic/hsv-7/" class="link-secondary">HSV-7</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/a-bowling-alley-and-a-bidet/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="A tour through the newly-opened Southern Cross Hotel, Melbourne&#39;s first brand-new hotel in decades, from Australia&#39;s first hotel bidet to its bowling alley built over a bank.">
+      <time class="timeline-date" datetime="1962-09-01">01 Sep 1962</time>
+      <span class="timeline-title">A Bowling Alley and a Bidet</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/southern-cross-hotel/" class="link-secondary">Southern Cross Hotel</a>,
+          
+          <a href="/topic/exhibition-street/" class="link-secondary">Exhibition Street</a>,
+          
+          <a href="/topic/eastern-market/" class="link-secondary">Eastern Market</a>,
+          
+          <a href="/topic/graham-kennedy/" class="link-secondary">Graham Kennedy</a>,
+          
+          <a href="/topic/bobby-limb/" class="link-secondary">Bobby Limb</a>,
+          
+          <a href="/topic/dawn-lake/" class="link-secondary">Dawn Lake</a>,
+          
+          <a href="/topic/bert-newton/" class="link-secondary">Bert Newton</a>,
+          
+          <a href="/topic/tommy-hanlon-jnr/" class="link-secondary">Tommy Hanlon Jnr</a>,
+          
+          <a href="/topic/ana-banking-chambers/" class="link-secondary">ANA Banking Chambers</a>,
+          
+          <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+          
+          <a href="/topic/deniliquin/" class="link-secondary">Deniliquin</a>,
+          
+          <a href="/topic/portsea/" class="link-secondary">Portsea</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/st-kilda-rd-or-disneyland-modern/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Laments the once-grand St Kilda Road&#39;s decline into brash &quot;Disneyland Modern&quot; office architecture, then reports on the inaugural meeting of Melbourne&#39;s new Noise Abatement Society, modelled on &quot;America&#39;s quietest city,&quot; Memphis.">
+      <time class="timeline-date" datetime="1962-09-08">08 Sep 1962</time>
+      <span class="timeline-title">St Kilda Rd — or Disneyland Modern</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/st-kilda-road/" class="link-secondary">St Kilda Road</a>,
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>,
+          
+          <a href="/topic/alexandra-avenue/" class="link-secondary">Alexandra Avenue</a>,
+          
+          <a href="/topic/yarra-boulevard/" class="link-secondary">Yarra Boulevard</a>,
+          
+          <a href="/topic/duke-of-gloucester/" class="link-secondary">Duke of Gloucester</a>,
+          
+          <a href="/topic/queen-mother/" class="link-secondary">Queen Mother</a>,
+          
+          <a href="/topic/harold-de-marigny/" class="link-secondary">Harold de Marigny</a>,
+          
+          <a href="/topic/n.-r.-macgregor/" class="link-secondary">N. R. MacGregor</a>,
+          
+          <a href="/topic/noise-abatement-society/" class="link-secondary">Noise Abatement Society</a>,
+          
+          <a href="/topic/harold-luth/" class="link-secondary">Harold Luth</a>,
+          
+          <a href="/topic/robert-menzies/" class="link-secondary">Robert Menzies</a>,
+          
+          <a href="/topic/charles-de-gaulle/" class="link-secondary">Charles de Gaulle</a>,
+          
+          <a href="/topic/r.-h.-donald/" class="link-secondary">R. H. Donald</a>,
+          
+          <a href="/topic/memphis/" class="link-secondary">Memphis</a>,
+          
+          <a href="/topic/rolf-millett/" class="link-secondary">Rolf Millett</a>,
+          
+          <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+          
+          <a href="/topic/healesville/" class="link-secondary">Healesville</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/the-fortress-affair-or-sp-in-the-raw/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Mines the Post Office Royal Commission&#39;s evidence on Victoria&#39;s illegal SP bookmakers, from a St Kilda penthouse called &quot;The Fortress&quot; that police had to storm by ledge, to a bookie&#39;s electronic betting bunker under a kitchen floor.">
+      <time class="timeline-date" datetime="1962-09-15">15 Sep 1962</time>
+      <span class="timeline-title">The Fortress Affair — or SP in the Raw</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/post-office-royal-commission/" class="link-secondary">Post Office Royal Commission</a>,
+          
+          <a href="/topic/victoria/" class="link-secondary">Victoria</a>,
+          
+          <a href="/topic/balaclava/" class="link-secondary">Balaclava</a>,
+          
+          <a href="/topic/justice-taylor/" class="link-secondary">Justice Taylor</a>,
+          
+          <a href="/topic/ballarat/" class="link-secondary">Ballarat</a>,
+          
+          <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>,
+          
+          <a href="/topic/the-fortress/" class="link-secondary">The Fortress</a>,
+          
+          <a href="/topic/w.-g.-leaman/" class="link-secondary">W. G. Leaman</a>,
+          
+          <a href="/topic/des-gilmore/" class="link-secondary">Des Gilmore</a>,
+          
+          <a href="/topic/totalisator-agency-board/" class="link-secondary">Totalisator Agency Board</a>,
+          
+          <a href="/topic/victoria-racing-club/" class="link-secondary">Victoria Racing Club</a>,
+          
+          <a href="/topic/chester-manifold/" class="link-secondary">Chester Manifold</a>,
+          
+          <a href="/topic/senior-detective-cook/" class="link-secondary">Senior Detective Cook</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/7000-for-divinely-dressed-ladies/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="The Victoria Racing Club, alarmed by falling attendances, unveils a £7000 best-dressed-racegoer competition for that year&#39;s Melbourne Cup carnival, turning the horses into something close to an afterthought.">
+      <time class="timeline-date" datetime="1962-09-22">22 Sep 1962</time>
+      <span class="timeline-title">£7000 for &quot;Divinely Dressed Ladies&quot;</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/melbourne-cup/" class="link-secondary">Melbourne Cup</a>,
+          
+          <a href="/topic/victoria-racing-club/" class="link-secondary">Victoria Racing Club</a>,
+          
+          <a href="/topic/tania-verstak/" class="link-secondary">Tania Verstak</a>,
+          
+          <a href="/topic/chester-manifold/" class="link-secondary">Chester Manifold</a>,
+          
+          <a href="/topic/ross-grey-smith/" class="link-secondary">Ross Grey-Smith</a>,
+          
+          <a href="/topic/frank-grey-smith/" class="link-secondary">Frank Grey-Smith</a>,
+          
+          <a href="/topic/melbourne-cricket-club/" class="link-secondary">Melbourne Cricket Club</a>,
+          
+          <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+          
+          <a href="/topic/nan-sanders/" class="link-secondary">Nan Sanders</a>,
+          
+          <a href="/topic/wool-bureau/" class="link-secondary">Wool Bureau</a>,
+          
+          <a href="/topic/peggy-tellick/" class="link-secondary">Peggy Tellick</a>,
+          
+          <a href="/topic/british-nylon-spinners/" class="link-secondary">British Nylon Spinners</a>,
+          
+          <a href="/topic/geoff-lane/" class="link-secondary">Geoff Lane</a>,
+          
+          <a href="/topic/johnny-sellers/" class="link-secondary">Johnny Sellers</a>,
+          
+          <a href="/topic/tourist-development-authority/" class="link-secondary">Tourist Development Authority</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/kindly-smile-from-an-aberdeen-angus/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="A dutiful trudge round the ever-identical Royal Show turns up an unexpected revival, a tug-o&#39;-war contest recalling Melbourne&#39;s forgotten 1892 world championship pull and its two legendary twenty-stone anchor men.">
+      <time class="timeline-date" datetime="1962-09-29">29 Sep 1962</time>
+      <span class="timeline-title">Kindly Smile from an Aberdeen Angus</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/royal-agricultural-society/" class="link-secondary">Royal Agricultural Society</a>,
+          
+          <a href="/topic/royal-show/" class="link-secondary">Royal Show</a>,
+          
+          <a href="/topic/exhibition-building/" class="link-secondary">Exhibition Building</a>,
+          
+          <a href="/topic/john-noonan/" class="link-secondary">John Noonan</a>,
+          
+          <a href="/topic/tom-herlihy/" class="link-secondary">Tom Herlihy</a>,
+          
+          <a href="/topic/carlton-brewery/" class="link-secondary">Carlton Brewery</a>,
+          
+          <a href="/topic/carlton-and-united-breweries/" class="link-secondary">Carlton and United Breweries</a>,
+          
+          <a href="/topic/tommy-burns/" class="link-secondary">Tommy Burns</a>,
+          
+          <a href="/topic/jack-johnson/" class="link-secondary">Jack Johnson</a>,
+          
+          <a href="/topic/melbourne-cricket-ground/" class="link-secondary">Melbourne Cricket Ground</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/among-my-souvenirs/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="A wistful post-Grand-Final survey of Melbourne&#39;s VFL football obsession, from poodle-sized club sweaters to fans who queued 58 hours outside the MCG, plus a wary eye on soccer&#39;s fast-growing crowds at Olympic Park.">
+      <time class="timeline-date" datetime="1962-10-06">06 Oct 1962</time>
+      <span class="timeline-title">Among My Souvenirs</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/ron-barassi/" class="link-secondary">Ron Barassi</a>,
+          
+          <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>,
+          
+          <a href="/topic/south-yarra/" class="link-secondary">South Yarra</a>,
+          
+          <a href="/topic/tania-verstak/" class="link-secondary">Tania Verstak</a>,
+          
+          <a href="/topic/mcg/" class="link-secondary">MCG</a>,
+          
+          <a href="/topic/essendon/" class="link-secondary">Essendon</a>,
+          
+          <a href="/topic/carlton/" class="link-secondary">Carlton</a>,
+          
+          <a href="/topic/geelong/" class="link-secondary">Geelong</a>,
+          
+          <a href="/topic/vfl/" class="link-secondary">VFL</a>,
+          
+          <a href="/topic/olympic-park/" class="link-secondary">Olympic Park</a>,
+          
+          <a href="/topic/wheeler&#39;s-hill/" class="link-secondary">Wheeler&#39;s Hill</a>,
+          
+          <a href="/topic/fitzroy/" class="link-secondary">Fitzroy</a>,
+          
+          <a href="/topic/collingwood/" class="link-secondary">Collingwood</a>,
+          
+          <a href="/topic/hotel-australia/" class="link-secondary">Hotel Australia</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/liquor-and-the-silk-trade/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Traces Victoria&#39;s absurd six o&#39;clock closing laws back to a wartime &quot;state of emergency&quot; that never officially ended, then joins 1200 delegates from the Associated Country Women of the World at their Melbourne conference.">
+      <time class="timeline-date" datetime="1962-10-13">13 Oct 1962</time>
+      <span class="timeline-title">Liquor and the Silk Trade</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/victoria/" class="link-secondary">Victoria</a>,
+          
+          <a href="/topic/gallipoli/" class="link-secondary">Gallipoli</a>,
+          
+          <a href="/topic/judge-fraser/" class="link-secondary">Judge Fraser</a>,
+          
+          <a href="/topic/neale-fraser/" class="link-secondary">Neale Fraser</a>,
+          
+          <a href="/topic/australian-hotels-association/" class="link-secondary">Australian Hotels Association</a>,
+          
+          <a href="/topic/maurice-nathan/" class="link-secondary">Maurice Nathan</a>,
+          
+          <a href="/topic/arthur-rylah/" class="link-secondary">Arthur Rylah</a>,
+          
+          <a href="/topic/southern-cross-hotel/" class="link-secondary">Southern Cross Hotel</a>,
+          
+          <a href="/topic/chevron/" class="link-secondary">Chevron</a>,
+          
+          <a href="/topic/savoy-plaza/" class="link-secondary">Savoy Plaza</a>,
+          
+          <a href="/topic/associated-country-women-of-the-world/" class="link-secondary">Associated Country Women of the World</a>,
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/olympic-games/" class="link-secondary">Olympic Games</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/heavens-changes-at-georges/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="The staid ladies&#39;-only department store Georges opens a men&#39;s-wear department for the first time in 82 years, complete with a private-club atmosphere and £250 vicuna coats.">
+      <time class="timeline-date" datetime="1962-10-20">20 Oct 1962</time>
+      <span class="timeline-title">Heavens! Changes at Georges?</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/georges/" class="link-secondary">Georges</a>,
+          
+          <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>,
+          
+          <a href="/topic/cox-bros./" class="link-secondary">Cox Bros.</a>,
+          
+          <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+          
+          <a href="/topic/melbourne-club/" class="link-secondary">Melbourne Club</a>,
+          
+          <a href="/topic/horrie-taafe/" class="link-secondary">Horrie Taafe</a>,
+          
+          <a href="/topic/melbourne-cup/" class="link-secondary">Melbourne Cup</a>,
+          
+          <a href="/topic/debrett&#39;s-peerage/" class="link-secondary">Debrett&#39;s Peerage</a>,
+          
+          <a href="/topic/burke&#39;s-landed-gentry/" class="link-secondary">Burke&#39;s Landed Gentry</a>,
+          
+          <a href="/topic/bourke-street/" class="link-secondary">Bourke Street</a>,
+          
+          <a href="/topic/ireland/" class="link-secondary">Ireland</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/mr-bolte-and-the-students/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Profiles David Hirt, the bearded theological student leading Melbourne University&#39;s campaign against the hanging of Robert Tait, and the students&#39; months-long standoff with a dismissive Henry Bolte government.">
+      <time class="timeline-date" datetime="1962-10-27">27 Oct 1962</time>
+      <span class="timeline-title">Mr Bolte and the Students</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/david-hirt/" class="link-secondary">David Hirt</a>,
+          
+          <a href="/topic/ormond-college/" class="link-secondary">Ormond College</a>,
+          
+          <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+          
+          <a href="/topic/students&#39;-anti-hanging-committee/" class="link-secondary">Students&#39; Anti-Hanging Committee</a>,
+          
+          <a href="/topic/robert-tait/" class="link-secondary">Robert Tait</a>,
+          
+          <a href="/topic/pentridge/" class="link-secondary">Pentridge</a>,
+          
+          <a href="/topic/alan-pilkington/" class="link-secondary">Alan Pilkington</a>,
+          
+          <a href="/topic/earl-of-harewood/" class="link-secondary">Earl of Harewood</a>,
+          
+          <a href="/topic/harold-macmillan/" class="link-secondary">Harold Macmillan</a>,
+          
+          <a href="/topic/lovegrove/" class="link-secondary">Lovegrove</a>,
+          
+          <a href="/topic/herbert-hyland/" class="link-secondary">Herbert Hyland</a>,
+          
+          <a href="/topic/country-party/" class="link-secondary">Country Party</a>,
+          
+          <a href="/topic/melbourne-university/" class="link-secondary">Melbourne University</a>,
+          
+          <a href="/topic/flinders-street-station/" class="link-secondary">Flinders Street Station</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/la-ville-de-beaute-as-the-french-say/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Melbourne wins bragging rights as Australia&#39;s &quot;Conference City,&quot; hosting the World Power Conference&#39;s 1000-plus delegates through a whirlwind of interpreters, transistor earphones, and two 1600-guest banquets in the Exhibition Building.">
+      <time class="timeline-date" datetime="1962-11-03">03 Nov 1962</time>
+      <span class="timeline-title">&quot;La Ville de Beauté&quot; (as the French Say)</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+          
+          <a href="/topic/dallas-brooks/" class="link-secondary">Dallas Brooks</a>,
+          
+          <a href="/topic/vincent-de-ferranti/" class="link-secondary">Vincent de Ferranti</a>,
+          
+          <a href="/topic/franz-hollinger/" class="link-secondary">Franz Hollinger</a>,
+          
+          <a href="/topic/willis-connolly/" class="link-secondary">Willis Connolly</a>,
+          
+          <a href="/topic/state-electricity-commission/" class="link-secondary">State Electricity Commission</a>,
+          
+          <a href="/topic/world-power-conference/" class="link-secondary">World Power Conference</a>,
+          
+          <a href="/topic/associated-country-women-of-the-world/" class="link-secondary">Associated Country Women of the World</a>,
+          
+          <a href="/topic/colombo-plan/" class="link-secondary">Colombo Plan</a>,
+          
+          <a href="/topic/international-labor-organisation/" class="link-secondary">International Labor Organisation</a>,
+          
+          <a href="/topic/robert-menzies/" class="link-secondary">Robert Menzies</a>,
+          
+          <a href="/topic/wilson-hall/" class="link-secondary">Wilson Hall</a>,
+          
+          <a href="/topic/exhibition-building/" class="link-secondary">Exhibition Building</a>,
+          
+          <a href="/topic/royal-melbourne-hospital/" class="link-secondary">Royal Melbourne Hospital</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/a-wonderful-lot-of-drinkin-men/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Marks the centenary of the first All-England cricket tour of 1861-62 by revisiting its Melbourne Cricket Ground opening, balloon ascent, and lopsided country matches against 22-man local sides.">
+      <time class="timeline-date" datetime="1962-11-10">10 Nov 1962</time>
+      <span class="timeline-title">&quot;A Wonderful Lot of Drinkin&#39; Men&quot;</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/melbourne-cricket-club/" class="link-secondary">Melbourne Cricket Club</a>,
+          
+          <a href="/topic/melbourne-cricket-ground/" class="link-secondary">Melbourne Cricket Ground</a>,
+          
+          <a href="/topic/spiers-and-pond/" class="link-secondary">Spiers and Pond</a>,
+          
+          <a href="/topic/h.-h.-stephenson/" class="link-secondary">H. H. Stephenson</a>,
+          
+          <a href="/topic/charles-dickens/" class="link-secondary">Charles Dickens</a>,
+          
+          <a href="/topic/bill-ponsford/" class="link-secondary">Bill Ponsford</a>,
+          
+          <a href="/topic/percy-page/" class="link-secondary">Percy Page</a>,
+          
+          <a href="/topic/harold-larwood/" class="link-secondary">Harold Larwood</a>,
+          
+          <a href="/topic/castlemaine/" class="link-secondary">Castlemaine</a>,
+          
+          <a href="/topic/george-griffith/" class="link-secondary">George Griffith</a>,
+          
+          <a href="/topic/william-caffyn/" class="link-secondary">William Caffyn</a>,
+          
+          <a href="/topic/roger-iddison/" class="link-secondary">Roger Iddison</a>,
+          
+          <a href="/topic/cobb-and-co/" class="link-secondary">Cobb and Co</a>,
+          
+          <a href="/topic/beechworth/" class="link-secondary">Beechworth</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/the-cup-some-bowlers-were-low-and-rakish/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Reports back from Melbourne Cup day on the results of the VRC&#39;s inaugural &quot;fashions, flowers and favorites&quot; festival, including the fashion judges&#39; undercover hunt for the best-dressed racegoer under £30 or £50.">
+      <time class="timeline-date" datetime="1962-11-17">17 Nov 1962</time>
+      <span class="timeline-title">The Cup - Some Bowlers Were Low and Rakish</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/flemington/" class="link-secondary">Flemington</a>,
+          
+          <a href="/topic/victoria-racing-club/" class="link-secondary">Victoria Racing Club</a>,
+          
+          <a href="/topic/totalisator-agency-board/" class="link-secondary">Totalisator Agency Board</a>,
+          
+          <a href="/topic/carlton-and-united-breweries/" class="link-secondary">Carlton and United Breweries</a>,
+          
+          <a href="/topic/national-bank-of-australasia/" class="link-secondary">National Bank of Australasia</a>,
+          
+          <a href="/topic/hardy-bros/" class="link-secondary">Hardy Bros</a>,
+          
+          <a href="/topic/ross-grey-smith/" class="link-secondary">Ross Grey-Smith</a>,
+          
+          <a href="/topic/bill-edwards/" class="link-secondary">Bill Edwards</a>,
+          
+          <a href="/topic/douglas-cox/" class="link-secondary">Douglas Cox</a>,
+          
+          <a href="/topic/les-coles/" class="link-secondary">Les Coles</a>,
+          
+          <a href="/topic/even-stevens/" class="link-secondary">Even Stevens</a>,
+          
+          <a href="/topic/chesty-bond/" class="link-secondary">Chesty Bond</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/nsw-vic-is-peaceful-co-existence-possible/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="A tongue-in-cheek peace plan for the Sydney-Melbourne rivalry, sparked by Melbourne&#39;s jetport frustrations and a Senate row over an anti-Melbourne pamphlet, complete with a proposed Bolte-Heffron summit in a railway carriage at Albury.">
+      <time class="timeline-date" datetime="1962-11-24">24 Nov 1962</time>
+      <span class="timeline-title">NSW–Vic: Is Peaceful Co-Existence Possible?</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/sydney/" class="link-secondary">Sydney</a>,
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+          
+          <a href="/topic/robert-heffron/" class="link-secondary">Robert Heffron</a>,
+          
+          <a href="/topic/hmvs-cerberus/" class="link-secondary">HMVS Cerberus</a>,
+          
+          <a href="/topic/black-rock/" class="link-secondary">Black Rock</a>,
+          
+          <a href="/topic/fitzgerald/" class="link-secondary">Fitzgerald</a>,
+          
+          <a href="/topic/w.-l.-hume/" class="link-secondary">W. L. Hume</a>,
+          
+          <a href="/topic/spooner/" class="link-secondary">Spooner</a>,
+          
+          <a href="/topic/maurice-nathan/" class="link-secondary">Maurice Nathan</a>,
+          
+          <a href="/topic/tullamarine/" class="link-secondary">Tullamarine</a>,
+          
+          <a href="/topic/gough-whitlam/" class="link-secondary">Gough Whitlam</a>,
+          
+          <a href="/topic/roland-wilson/" class="link-secondary">Roland Wilson</a>,
+          
+          <a href="/topic/qantas/" class="link-secondary">Qantas</a>,
+          
+          <a href="/topic/albury/" class="link-secondary">Albury</a>,
+          
+          <a href="/topic/robert-menzies/" class="link-secondary">Robert Menzies</a>,
+          
+          <a href="/topic/arthur-calwell/" class="link-secondary">Arthur Calwell</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/rediscovering-the-yarra/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Previews the Queen&#39;s 1963 royal barge voyage up the Yarra to Henley Landing, and the belated riverbank clean-up it has prompted after years of floating trash and half-sunken barges.">
+      <time class="timeline-date" datetime="1962-12-01">01 Dec 1962</time>
+      <span class="timeline-title">Rediscovering the Yarra</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/yarra/" class="link-secondary">Yarra</a>,
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/queen-elizabeth-ii/" class="link-secondary">Queen Elizabeth II</a>,
+          
+          <a href="/topic/essendon-airport/" class="link-secondary">Essendon Airport</a>,
+          
+          <a href="/topic/moonee-ponds/" class="link-secondary">Moonee Ponds</a>,
+          
+          <a href="/topic/britannia/" class="link-secondary">Britannia</a>,
+          
+          <a href="/topic/north-wharf/" class="link-secondary">North Wharf</a>,
+          
+          <a href="/topic/john-batman/" class="link-secondary">John Batman</a>,
+          
+          <a href="/topic/henley-landing/" class="link-secondary">Henley Landing</a>,
+          
+          <a href="/topic/spencer-street-bridge/" class="link-secondary">Spencer Street Bridge</a>,
+          
+          <a href="/topic/roy-dowling/" class="link-secondary">Roy Dowling</a>,
+          
+          <a href="/topic/duke-of-edinburgh/" class="link-secondary">Duke of Edinburgh</a>,
+          
+          <a href="/topic/flemington-racecourse/" class="link-secondary">Flemington Racecourse</a>,
+          
+          <a href="/topic/melbourne-harbor-trust/" class="link-secondary">Melbourne Harbor Trust</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/walkabout-magazine/epicurean-melbourne/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="A tour of Melbourne&#39;s booming and increasingly cosmopolitan restaurant scene, from a Scottish Week haggis ceremony at The Capers and shoes-off sukiyaki at Sukiyaki House to Jimmy Watson&#39;s Carlton wine bar and the menu-free nine-course extravagance of the Walnut Tree.">
+      <time class="timeline-date" datetime="1962-12-01">01 Dec 1962</time>
+      <span class="timeline-title">Epicurean Melbourne</span>
+      <span class="badge text-bg-secondary fw-normal">Walkabout Magazine</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>,
+          
+          <a href="/topic/florentino-restaurant/" class="link-secondary">Florentino Restaurant</a>,
+          
+          <a href="/topic/jimmy-watson/" class="link-secondary">Jimmy Watson</a>,
+          
+          <a href="/topic/royal-commonwealth-society/" class="link-secondary">Royal Commonwealth Society</a>,
+          
+          <a href="/topic/royal-caledonian-society/" class="link-secondary">Royal Caledonian Society</a>,
+          
+          <a href="/topic/sukiyaki-house/" class="link-secondary">Sukiyaki House</a>,
+          
+          <a href="/topic/la-popotte/" class="link-secondary">La Popotte</a>,
+          
+          <a href="/topic/the-walnut-tree/" class="link-secondary">The Walnut Tree</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/an-albert-tucker-for-2s-a-mile/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Tours the newly opened John Batman motor inn, Robin Boyd&#39;s design showcase hung with original Nolans and Tuckers, from its £500,000 build cost down to its black-carpeted penthouse suite.">
+      <time class="timeline-date" datetime="1962-12-15">15 Dec 1962</time>
+      <span class="timeline-title">An Albert Tucker for 2s. a Mile</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/john-batman/" class="link-secondary">John Batman</a>,
+          
+          <a href="/topic/queens-road/" class="link-secondary">Queens Road</a>,
+          
+          <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>,
+          
+          <a href="/topic/robin-boyd/" class="link-secondary">Robin Boyd</a>,
+          
+          <a href="/topic/sidney-nolan/" class="link-secondary">Sidney Nolan</a>,
+          
+          <a href="/topic/albert-tucker/" class="link-secondary">Albert Tucker</a>,
+          
+          <a href="/topic/arthur-boyd/" class="link-secondary">Arthur Boyd</a>,
+          
+          <a href="/topic/john-perceval/" class="link-secondary">John Perceval</a>,
+          
+          <a href="/topic/ross-shelmerdine/" class="link-secondary">Ross Shelmerdine</a>,
+          
+          <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+          
+          <a href="/topic/essendon/" class="link-secondary">Essendon</a>,
+          
+          <a href="/topic/m.-g.-sloman/" class="link-secondary">M. G. Sloman</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/mr-fogartys-silent-spokesman/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="A pre-Christmas beer bottle shortage forces Melbourne to drink imported Toohey&#39;s and West End, unmasking Carlton and United&#39;s Reg Fogarty as the ruthless &quot;beer czar&quot; who controls the price and supply of beer across Victoria.">
+      <time class="timeline-date" datetime="1962-12-22">22 Dec 1962</time>
+      <span class="timeline-title">Mr Fogarty&#39;s Silent Spokesman</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/reginald-francis-graham-fogarty/" class="link-secondary">Reginald Francis Graham Fogarty</a>,
+          
+          <a href="/topic/carlton-and-united-breweries/" class="link-secondary">Carlton and United Breweries</a>,
+          
+          <a href="/topic/ginger-burke/" class="link-secondary">Ginger Burke</a>,
+          
+          <a href="/topic/australian-hotels-association/" class="link-secondary">Australian Hotels Association</a>,
+          
+          <a href="/topic/kerry-family-hotel/" class="link-secondary">Kerry Family Hotel</a>,
+          
+          <a href="/topic/trades-hall/" class="link-secondary">Trades Hall</a>,
+          
+          <a href="/topic/richmond-brewery/" class="link-secondary">Richmond Brewery</a>,
+          
+          <a href="/topic/charringtons/" class="link-secondary">Charringtons</a>,
+          
+          <a href="/topic/victoria/" class="link-secondary">Victoria</a>,
+          
+          <a href="/topic/new-south-wales/" class="link-secondary">New South Wales</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/a-rug-of-abyssinian-monkey-skins/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Visits used-car king Emmanuel Margolin, once Australia&#39;s self-styled biggest car dealer, as the credit squeeze forces him to auction his Toorak mansion&#39;s zebra hides, matador suit, and 500-monkey-pelt rug.">
+      <time class="timeline-date" datetime="1962-12-29">29 Dec 1962</time>
+      <span class="timeline-title">A Rug of Abyssinian Monkey Skins</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/emmanuel-margolin/" class="link-secondary">Emmanuel Margolin</a>,
+          
+          <a href="/topic/cecile-margolin/" class="link-secondary">Cecile Margolin</a>,
+          
+          <a href="/topic/stanhill/" class="link-secondary">Stanhill</a>,
+          
+          <a href="/topic/reid-murray/" class="link-secondary">Reid Murray</a>,
+          
+          <a href="/topic/stanley-korman/" class="link-secondary">Stanley Korman</a>,
+          
+          <a href="/topic/hopetoun-road/" class="link-secondary">Hopetoun Road</a>,
+          
+          <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+          
+          <a href="/topic/ford-thunderbird/" class="link-secondary">Ford Thunderbird</a>,
+          
+          <a href="/topic/langley-park/" class="link-secondary">Langley Park</a>,
+          
+          <a href="/topic/gembrook/" class="link-secondary">Gembrook</a>,
+          
+          <a href="/topic/madrid/" class="link-secondary">Madrid</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/walkabout-magazine/freedom-of-beach/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="A survey of Australia&#39;s unusually open beaches, contrasting the free run of the Australian coastline with the private, fenced-off beaches of the Italian Riviera, Hawaii and California, and tracing the colonial land law and the Bondi bikini scandals that shaped the public&#39;s right to walk the sand.">
+      <time class="timeline-date" datetime="1963-01-01">01 Jan 1963</time>
+      <span class="timeline-title">Freedom of Beach</span>
+      <span class="badge text-bg-secondary fw-normal">Walkabout Magazine</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/bondi-beach/" class="link-secondary">Bondi Beach</a>,
+          
+          <a href="/topic/brighton/" class="link-secondary">Brighton</a>,
+          
+          <a href="/topic/malibu-beach/" class="link-secondary">Malibu Beach</a>,
+          
+          <a href="/topic/waikiki/" class="link-secondary">Waikiki</a>,
+          
+          <a href="/topic/sydney/" class="link-secondary">Sydney</a>,
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/new-south-wales/" class="link-secondary">New South Wales</a>,
+          
+          <a href="/topic/henry-dendy/" class="link-secondary">Henry Dendy</a>,
+          
+          <a href="/topic/eric-spooner/" class="link-secondary">Eric Spooner</a>,
+          
+          <a href="/topic/santa-monica-bay/" class="link-secondary">Santa Monica Bay</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/gather-ye-rosebuds-while-ye-may/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="A satirical guide to how Victorians spend their summer by the water, from Portsea&#39;s status-symbol boat sheds and Harold Holt&#39;s earnest spearfishing hobby to Lake Eildon&#39;s flotilla of cabin cruisers and Rosebud&#39;s vast camping ground.">
+      <time class="timeline-date" datetime="1963-01-05">05 Jan 1963</time>
+      <span class="timeline-title">Gather Ye Rosebuds While Ye May</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/portsea/" class="link-secondary">Portsea</a>,
+          
+          <a href="/topic/harold-holt/" class="link-secondary">Harold Holt</a>,
+          
+          <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+          
+          <a href="/topic/lorne/" class="link-secondary">Lorne</a>,
+          
+          <a href="/topic/lake-eildon/" class="link-secondary">Lake Eildon</a>,
+          
+          <a href="/topic/rosebud/" class="link-secondary">Rosebud</a>,
+          
+          <a href="/topic/young-and-jacksons-hotel/" class="link-secondary">Young and Jacksons Hotel</a>,
+          
+          <a href="/topic/savage-club/" class="link-secondary">Savage Club</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/henry-boltes-brilliant-duck/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Premier Henry Bolte stands in as a replacement batsman in a Centenary of International Cricket replay match at the MCG, kitted out in a garish spotted shirt and a learner&#39;s L-plate pinned to his back.">
+      <time class="timeline-date" datetime="1963-01-12">12 Jan 1963</time>
+      <span class="timeline-title">Henry Bolte&#39;s Brilliant Duck</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+          
+          <a href="/topic/melbourne-cricket-ground/" class="link-secondary">Melbourne Cricket Ground</a>,
+          
+          <a href="/topic/melbourne-cricket-club/" class="link-secondary">Melbourne Cricket Club</a>,
+          
+          <a href="/topic/donald-bradman/" class="link-secondary">Donald Bradman</a>,
+          
+          <a href="/topic/harold-larwood/" class="link-secondary">Harold Larwood</a>,
+          
+          <a href="/topic/bill-ponsford/" class="link-secondary">Bill Ponsford</a>,
+          
+          <a href="/topic/frank-tyson/" class="link-secondary">Frank Tyson</a>,
+          
+          <a href="/topic/jack-iverson/" class="link-secondary">Jack Iverson</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/senator-kennelly-and-the-monster/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Albert Park Lake&#39;s decade-long infestation of Canadian waterweed defeats every remedy the Albert Park Trust&#39;s chairman, Senator Pat Kennelly, throws at it, from an imported weed-cutting boat to a fleet of speedboats dumping tons of copper sulphate.">
+      <time class="timeline-date" datetime="1963-01-19">19 Jan 1963</time>
+      <span class="timeline-title">Senator Kennelly and the Monster</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/albert-park/" class="link-secondary">Albert Park</a>,
+          
+          <a href="/topic/pat-kennelly/" class="link-secondary">Pat Kennelly</a>,
+          
+          <a href="/topic/elodea-canadensis/" class="link-secondary">Elodea Canadensis</a>,
+          
+          <a href="/topic/batman-motel/" class="link-secondary">Batman Motel</a>,
+          
+          <a href="/topic/csiro/" class="link-secondary">CSIRO</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/under-the-king-street-bridge/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Profiles Whelan the Wrecker, the Melbourne demolition firm founded in 1891 by a bowler-hatted Irish immigrant, now engaged to dismantle three cracked spans of King&#39;s Bridge and busily expanding into wrecking Sydney as well.">
+      <time class="timeline-date" datetime="1963-01-26">26 Jan 1963</time>
+      <span class="timeline-title">Under the King Street Bridge</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/whelan-the-wrecker/" class="link-secondary">Whelan the Wrecker</a>,
+          
+          <a href="/topic/king&#39;s-bridge/" class="link-secondary">King&#39;s Bridge</a>,
+          
+          <a href="/topic/jim-whelan/" class="link-secondary">Jim Whelan</a>,
+          
+          <a href="/topic/princes-bridge/" class="link-secondary">Princes Bridge</a>,
+          
+          <a href="/topic/myles-whelan/" class="link-secondary">Myles Whelan</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/mayhem-rapine-and-sin/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="A gleeful account of radio station 3UZ&#39;s Sunday-morning &quot;Newsbeat&quot; bulletin, which thrusts a microphone in front of car-crash victims and brawl survivors moments after the police and ambulance arrive, delivering Melbourne its weekly dose of actionable gossip that the once-lurid Truth newspaper no longer supplies.">
+      <time class="timeline-date" datetime="1963-02-09">09 Feb 1963</time>
+      <span class="timeline-title">Mayhem, Rapine and Sin</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/3uz/" class="link-secondary">3UZ</a>,
+          
+          <a href="/topic/newsbeat/" class="link-secondary">Newsbeat</a>,
+          
+          <a href="/topic/truth-newspaper/" class="link-secondary">Truth newspaper</a>,
+          
+          <a href="/topic/john-ford/" class="link-secondary">John Ford</a>,
+          
+          <a href="/topic/fitzroy/" class="link-secondary">Fitzroy</a>,
+          
+          <a href="/topic/carlton/" class="link-secondary">Carlton</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/about-cigarettes-and-gondolas/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Surveys Melbourne&#39;s booming cigarette trade and Nobel laureate Macfarlane Burnet&#39;s lonely campaign against smoking, then reports the mishap befalling Moomba&#39;s imported 16th-century Venetian gondola, which shrank so badly out of water that it now refuses to float.">
+      <time class="timeline-date" datetime="1963-02-23">23 Feb 1963</time>
+      <span class="timeline-title">About Cigarettes and Gondolas</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/albert-monk/" class="link-secondary">Albert Monk</a>,
+          
+          <a href="/topic/macfarlane-burnet/" class="link-secondary">Macfarlane Burnet</a>,
+          
+          <a href="/topic/walter-and-eliza-hall-institute/" class="link-secondary">Walter and Eliza Hall Institute</a>,
+          
+          <a href="/topic/philip-morris/" class="link-secondary">Philip Morris</a>,
+          
+          <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+          
+          <a href="/topic/yarra-river/" class="link-secondary">Yarra River</a>,
+          
+          <a href="/topic/don-ingersole/" class="link-secondary">Don Ingersole</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/all-the-queens-men/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="On the exhausted vocabulary of Royal Tour reporting nine years after &quot;obviously&quot; and &quot;radiant&quot; were banned in 1954, and on Melbourne&#39;s noticeably cooler, less crowd-mobbed reception for the Queen&#39;s 1963 visit compared with her first.">
+      <time class="timeline-date" datetime="1963-03-09">09 Mar 1963</time>
+      <span class="timeline-title">All the Queen&#39;s Men</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/harold-holt/" class="link-secondary">Harold Holt</a>,
+          
+          <a href="/topic/irving-benson/" class="link-secondary">Irving Benson</a>,
+          
+          <a href="/topic/flemington-racecourse/" class="link-secondary">Flemington Racecourse</a>,
+          
+          <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+          
+          <a href="/topic/victoria-racing-club/" class="link-secondary">Victoria Racing Club</a>,
+          
+          <a href="/topic/woomera/" class="link-secondary">Woomera</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/in-the-depths-of-se-2/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Follows up on used-car dealer Emmanuel Margolin&#39;s spectacular financial collapse with a report from the auction of his Toorak household effects, from leopard-skin rugs and a matador suit tailored in Madrid to the Ford Thunderbird he had already bought twice over.">
+      <time class="timeline-date" datetime="1963-03-16">16 Mar 1963</time>
+      <span class="timeline-title">In the Depths of SE 2</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/emmanuel-margolin/" class="link-secondary">Emmanuel Margolin</a>,
+          
+          <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+          
+          <a href="/topic/leonard-joel/" class="link-secondary">Leonard Joel</a>,
+          
+          <a href="/topic/hopetoun-road/" class="link-secondary">Hopetoun Road</a>,
+          
+          <a href="/topic/ford-thunderbird/" class="link-secondary">Ford Thunderbird</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/bunnies-in-black-silk-stockings/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="A dispatch from Melbourne&#39;s new Playboy Restaurant, the local answer to Hugh Hefner&#39;s American bunny clubs, where five waitresses in bunny tails and 18-inch stockings serve drinks only, chosen from a hundred applicants and forbidden from dating the customers.">
+      <time class="timeline-date" datetime="1963-03-30">30 Mar 1963</time>
+      <span class="timeline-title">Bunnies in Black Silk Stockings</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>,
+          
+          <a href="/topic/stanley-korman/" class="link-secondary">Stanley Korman</a>,
+          
+          <a href="/topic/albert-park/" class="link-secondary">Albert Park</a>,
+          
+          <a href="/topic/playboy-restaurant/" class="link-secondary">Playboy Restaurant</a>,
+          
+          <a href="/topic/hugh-hefner/" class="link-secondary">Hugh Hefner</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/those-lucky-oyo-men/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="A tour of Domain Park, Robin Boyd&#39;s new 20-storey &quot;own-your-own-flat&quot; tower opposite the Botanic Gardens, from its Georges furniture and £37,500 penthouses to the view over Government House, the MCG and St Patrick&#39;s from its balcony.">
+      <time class="timeline-date" datetime="1963-04-06">06 Apr 1963</time>
+      <span class="timeline-title">Those Lucky OYO Men</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/robin-boyd/" class="link-secondary">Robin Boyd</a>,
+          
+          <a href="/topic/domain-park/" class="link-secondary">Domain Park</a>,
+          
+          <a href="/topic/lend-lease/" class="link-secondary">Lend Lease</a>,
+          
+          <a href="/topic/government-house/" class="link-secondary">Government House</a>,
+          
+          <a href="/topic/botanic-gardens/" class="link-secondary">Botanic Gardens</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/getting-publicity-for-peanuts/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Wangaratta throws everything at the Australian Wool Bureau&#39;s national publicity contest, from a 500-guest &quot;Wild Colonial&quot; banquet with Sir Robert Menzies as guest speaker to a week-long bullock-wagon re-enactment of Major Mitchell&#39;s 1836 expedition down the Hume Highway.">
+      <time class="timeline-date" datetime="1963-04-13">13 Apr 1963</time>
+      <span class="timeline-title">Getting Publicity for Peanuts</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/wangaratta/" class="link-secondary">Wangaratta</a>,
+          
+          <a href="/topic/sir-robert-menzies/" class="link-secondary">Sir Robert Menzies</a>,
+          
+          <a href="/topic/hume-highway/" class="link-secondary">Hume Highway</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/walkabout-magazine/from-prickly-pear-to-petroleum/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="A visit to the Queensland oil boomtowns of Tara and Moonie, tracing the district&#39;s turn from a prickly-pear-choked backwater once known as &#39;The Lost Province&#39; into the birthplace of Australia&#39;s oil industry, and meeting the selection farmers whose land the oil was found under.">
+      <time class="timeline-date" datetime="1963-07-01">01 Jul 1963</time>
+      <span class="timeline-title">From Prickly Pear to Petroleum</span>
+      <span class="badge text-bg-secondary fw-normal">Walkabout Magazine</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/moonie/" class="link-secondary">Moonie</a>,
+          
+          <a href="/topic/tara/" class="link-secondary">Tara</a>,
+          
+          <a href="/topic/queensland/" class="link-secondary">Queensland</a>,
+          
+          <a href="/topic/boonarga/" class="link-secondary">Boonarga</a>,
+          
+          <a href="/topic/brisbane/" class="link-secondary">Brisbane</a>,
+          
+          <a href="/topic/toowoomba/" class="link-secondary">Toowoomba</a>,
+          
+          <a href="/topic/union-oil-corporation/" class="link-secondary">Union Oil Corporation</a>,
+          
+          <a href="/topic/buenos-aires/" class="link-secondary">Buenos Aires</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/when-hoyts-was-hoyts/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Marks Hoyts&#39; 50th anniversary, from dentist-turned-showman Arthur Russell&#39;s 1913 start to the neck-and-neck 1929 opening race between the Regent and the State, alongside the wreckers&#39; demolition of the old Savoy (once the temperance-movement Temperance Hall).">
+      <time class="timeline-date" datetime="1963-07-27">27 Jul 1963</time>
+      <span class="timeline-title">When Hoyts was Hoyts</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/arthur-russell/" class="link-secondary">Arthur Russell</a>,
+          
+          <a href="/topic/buster-keaton/" class="link-secondary">Buster Keaton</a>,
+          
+          <a href="/topic/clara-bow/" class="link-secondary">Clara Bow</a>,
+          
+          <a href="/topic/hoyts/" class="link-secondary">Hoyts</a>,
+          
+          <a href="/topic/john-mccormack/" class="link-secondary">John McCormack</a>,
+          
+          <a href="/topic/lola-montez/" class="link-secondary">Lola Montez</a>,
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/regent-theatre/" class="link-secondary">Regent Theatre</a>,
+          
+          <a href="/topic/ronald-colman/" class="link-secondary">Ronald Colman</a>,
+          
+          <a href="/topic/russell-street/" class="link-secondary">Russell Street</a>,
+          
+          <a href="/topic/savoy-theatre/" class="link-secondary">Savoy Theatre</a>,
+          
+          <a href="/topic/st-georges-hall/" class="link-secondary">St Georges Hall</a>,
+          
+          <a href="/topic/temperance-hall/" class="link-secondary">Temperance Hall</a>,
+          
+          <a href="/topic/the-imperial-hotel/" class="link-secondary">The Imperial Hotel</a>,
+          
+          <a href="/topic/the-odeon/" class="link-secondary">The Odeon</a>,
+          
+          <a href="/topic/whelan-the-wrecker/" class="link-secondary">Whelan the Wrecker</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/the-capitol-and-the-worlds-mightiest-spectacle/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="On the closure of Walter Burley Griffin&#39;s Capitol Theatre, recalling its 1924 opening with &quot;The Ten Commandments&quot; and its Egyptian-god stage prelude, £15,000 Wurlitzer organ, and famous prismatic ceiling.">
+      <time class="timeline-date" datetime="1964-01-25">25 Jan 1964</time>
+      <span class="timeline-title">The Capitol and ‘The World&#39;s Mightiest Spectacle.’</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/cecil-b.-de-mille/" class="link-secondary">Cecil B. de Mille</a>,
+          
+          <a href="/topic/eric-westbrook/" class="link-secondary">Eric Westbrook</a>,
+          
+          <a href="/topic/jan-rubini/" class="link-secondary">Jan Rubini</a>,
+          
+          <a href="/topic/marion-mahoney/" class="link-secondary">Marion Mahoney</a>,
+          
+          <a href="/topic/melbourne-club/" class="link-secondary">Melbourne Club</a>,
+          
+          <a href="/topic/national-gallery/" class="link-secondary">National Gallery</a>,
+          
+          <a href="/topic/swanston-street/" class="link-secondary">Swanston Street</a>,
+          
+          <a href="/topic/the-herald/" class="link-secondary">The Herald</a>,
+          
+          <a href="/topic/walter-burley-griffin/" class="link-secondary">Walter Burley Griffin</a>,
+          
+          <a href="/topic/the-capitol-theatre/" class="link-secondary">The Capitol Theatre</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/when-flappers-fluttered-through-the-flames/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="On the belated Melbourne opening of &quot;Cleopatra,&quot; at the old Lyceum cinema renamed for the occasion, digging up its history back to 1915 as the Paramount and its era of silent-film sirens like Theda Bara.">
+      <time class="timeline-date" datetime="1964-03-14">14 Mar 1964</time>
+      <span class="timeline-title">When Flappers Fluttered Through the Flames’</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/elizabeth-taylor/" class="link-secondary">Elizabeth Taylor</a>,
+          
+          <a href="/topic/frank-thring-snr/" class="link-secondary">Frank Thring Snr</a>,
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/sir-george-tallis/" class="link-secondary">Sir George Tallis</a>,
+          
+          <a href="/topic/sir-leo-curtis/" class="link-secondary">Sir Leo Curtis</a>,
+          
+          <a href="/topic/sir-rohan-delacombe/" class="link-secondary">Sir Rohan Delacombe</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/the-mighty-wurlitzer-rose-in-a-pool-of-light/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="A visit to the Regent Theatre&#39;s Mighty Wurlitzer organ, one of only two left working in Australia, and a morning practice session with virtuoso organist Tony Fenelon.">
+      <time class="timeline-date" datetime="1966-04-09">09 Apr 1966</time>
+      <span class="timeline-title">The Mighty Wurlitzer Rose in a Pool of Light.</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/bourke-street/" class="link-secondary">Bourke Street</a>,
+          
+          <a href="/topic/regent-theatre/" class="link-secondary">Regent Theatre</a>,
+          
+          <a href="/topic/hoyts/" class="link-secondary">Hoyts</a>,
+          
+          <a href="/topic/theatre-organ-society-of-australia/" class="link-secondary">Theatre Organ Society of Australia</a>,
+          
+          <a href="/topic/capitol-theatre/" class="link-secondary">Capitol Theatre</a>,
+          
+          <a href="/topic/tony-fenelon/" class="link-secondary">Tony Fenelon</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/batmans-melbourne-this-is-a-fine-state-to-be-in/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="A survey of the deteriorating relations between Victoria and New South Wales, arguing Melbourne&#39;s case for its rightful place in the international air network via the new Tullamarine airport.">
+      <time class="timeline-date" datetime="1967-03-18">18 Mar 1967</time>
+      <span class="timeline-title">This is a fine state to be in</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/sydney/" class="link-secondary">Sydney</a>,
+          
+          <a href="/topic/new-south-wales/" class="link-secondary">New South Wales</a>,
+          
+          <a href="/topic/victoria/" class="link-secondary">Victoria</a>,
+          
+          <a href="/topic/tullamarine/" class="link-secondary">Tullamarine</a>,
+          
+          <a href="/topic/kingsford-smith/" class="link-secondary">Kingsford Smith</a>,
+          
+          <a href="/topic/mascot/" class="link-secondary">Mascot</a>,
+          
+          <a href="/topic/essendon/" class="link-secondary">Essendon</a>,
+          
+          <a href="/topic/sir-henry-bolte/" class="link-secondary">Sir Henry Bolte</a>,
+          
+          <a href="/topic/lady-bolte/" class="link-secondary">Lady Bolte</a>,
+          
+          <a href="/topic/harold-holt/" class="link-secondary">Harold Holt</a>,
+          
+          <a href="/topic/arthur-calwell/" class="link-secondary">Arthur Calwell</a>,
+          
+          <a href="/topic/mr.-mcewen/" class="link-secondary">Mr. McEwen</a>,
+          
+          <a href="/topic/senator-henty/" class="link-secondary">Senator Henty</a>,
+          
+          <a href="/topic/david-fairbairn/" class="link-secondary">David Fairbairn</a>,
+          
+          <a href="/topic/dr.-darling/" class="link-secondary">Dr. Darling</a>,
+          
+          <a href="/topic/mr.-mcmahon/" class="link-secondary">Mr. McMahon</a>,
+          
+          <a href="/topic/mr.-swartz/" class="link-secondary">Mr. Swartz</a>,
+          
+          <a href="/topic/mr.-askin/" class="link-secondary">Mr. Askin</a>,
+          
+          <a href="/topic/anthony-trollope/" class="link-secondary">Anthony Trollope</a>,
+          
+          <a href="/topic/u-thant/" class="link-secondary">U Thant</a>,
+          
+          <a href="/topic/geelong-grammar/" class="link-secondary">Geelong Grammar</a>,
+          
+          <a href="/topic/melbourne-club/" class="link-secondary">Melbourne Club</a>,
+          
+          <a href="/topic/victorian-promotion-committee/" class="link-secondary">Victorian Promotion Committee</a>,
+          
+          <a href="/topic/myers/" class="link-secondary">Myers</a>,
+          
+          <a href="/topic/sydney-opera-house/" class="link-secondary">Sydney Opera House</a>,
+          
+          <a href="/topic/albury-wodonga/" class="link-secondary">Albury-Wodonga</a>,
+          
+          <a href="/topic/toowoomba/" class="link-secondary">Toowoomba</a>,
+          
+          <a href="/topic/port-jackson/" class="link-secondary">Port Jackson</a>,
+          
+          <a href="/topic/botany-bay/" class="link-secondary">Botany Bay</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/alas-poor-tivoli-i-knew-it-well/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="A eulogy for Melbourne&#39;s fire-gutted Tivoli Theatre, tracing its history back to the 1850s diggers&#39; Varieties Music Hall through Harry Rickard&#39;s opulent 1901 rebuild and its parade of stars from Marie Lloyd to Harry Houdini.">
+      <time class="timeline-date" datetime="1967-04-15">15 Apr 1967</time>
+      <span class="timeline-title">Alas, poor Tivoli, I knew it well.</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/tivoli-theatre/" class="link-secondary">Tivoli Theatre</a>,
+          
+          <a href="/topic/bourke-street/" class="link-secondary">Bourke Street</a>,
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/his-majestys-theatre/" class="link-secondary">His Majestys Theatre</a>,
+          
+          <a href="/topic/theatre-royal/" class="link-secondary">Theatre Royal</a>,
+          
+          <a href="/topic/the-bijou-theatre/" class="link-secondary">The Bijou Theatre</a>,
+          
+          <a href="/topic/the-kings-theatre/" class="link-secondary">The Kings Theatre</a>,
+          
+          <a href="/topic/the-haymarket-theatre/" class="link-secondary">The Haymarket Theatre</a>,
+          
+          <a href="/topic/varieties-music-hall/" class="link-secondary">Varieties Music Hall</a>,
+          
+          <a href="/topic/harry-rickard/" class="link-secondary">Harry Rickard</a>,
+          
+          <a href="/topic/the-argus/" class="link-secondary">The Argus</a>,
+          
+          <a href="/topic/marie-lloyd/" class="link-secondary">Marie Lloyd</a>,
+          
+          <a href="/topic/harry-houdini/" class="link-secondary">Harry Houdini</a>,
+          
+          <a href="/topic/chico-marx/" class="link-secondary">Chico Marx</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/bulletin/the-ghost-of-the-princess/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="Tells the story of Federici, the Princess Theatre&#39;s baritone ghost who collapsed and died on stage playing Mephistopheles in 1888, and the book launch that tried, and failed, to lure his spirit out with themed cocktails.">
+      <time class="timeline-date" datetime="1967-12-30">30 Dec 1967</time>
+      <span class="timeline-title">The Ghost of the Princess</span>
+      <span class="badge text-bg-secondary fw-normal">The Bulletin</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+          
+          <a href="/topic/princess-theatre/" class="link-secondary">Princess Theatre</a>,
+          
+          <a href="/topic/ronald-searle/" class="link-secondary">Ronald Searle</a>,
+          
+          <a href="/topic/t.-h.-goodwin/" class="link-secondary">T. H. Goodwin</a>,
+          
+          <a href="/topic/the-argus/" class="link-secondary">The Argus</a>,
+          
+          <a href="/topic/william-pitt/" class="link-secondary">William Pitt</a>,
+          
+          <a href="/topic/june-bronhill/" class="link-secondary">June Bronhill</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/the-australian-gourmet/how-to-cheat-at-wine-tastings/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="A tongue-in-cheek guide to bluffing your way through a masked-bottle wine tasting, from reading cork brands and capsule colours to timing your &quot;hint of crushed violets&quot; line for maximum effect.">
+      <time class="timeline-date" datetime="1968-05-01">01 May 1968</time>
+      <span class="timeline-title">How to cheat at wine tastings</span>
+      
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/wine/" class="link-secondary">Wine</a>,
+          
+          <a href="/topic/clubs-and-societies/" class="link-secondary">Clubs and Societies</a>,
+          
+          <a href="/topic/chateau-tahbilk/" class="link-secondary">Chateau Tahbilk</a>,
+          
+          <a href="/topic/stonyfell/" class="link-secondary">Stonyfell</a>,
+          
+          <a href="/topic/rhine-castle/" class="link-secondary">Rhine Castle</a>,
+          
+          <a href="/topic/peter-walker/" class="link-secondary">Peter Walker</a>,
+          
+          <a href="/topic/mount-pleasant/" class="link-secondary">Mount Pleasant</a>
+      </p>
+    
+  </div>
+  
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="/articles/walkabout-magazine/summer-madness/"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="A wry survey of Australia&#39;s overloaded summer beach culture, surfboards, caravans, and competitive Rosebud campsites, from Portsea and Palm Beach&#39;s Toorak-set glamour to Surfers Paradise&#39;s Miami-style tower blocks.">
+      <time class="timeline-date" datetime="1969-12-01">01 Dec 1969</time>
+      <span class="timeline-title">Summer Madness</span>
+      <span class="badge text-bg-secondary fw-normal">Walkabout Magazine</span>
+    </a>
+    
+    
+      <p class="timeline-topics text-muted small mb-0">
+          
+          <a href="/topic/david-livingstone-explorer/" class="link-secondary">David Livingstone - explorer</a>,
+          
+          <a href="/topic/surfing/" class="link-secondary">Surfing</a>,
+          
+          <a href="/topic/summer-holidays/" class="link-secondary">Summer holidays</a>,
+          
+          <a href="/topic/bernard-midget-farrelly/" class="link-secondary">Bernard -Midget- Farrelly</a>,
+          
+          <a href="/topic/hawkesbury-river/" class="link-secondary">Hawkesbury River</a>,
+          
+          <a href="/topic/port-phillip-bay/" class="link-secondary">Port Phillip Bay</a>,
+          
+          <a href="/topic/eildon-reservoir/" class="link-secondary">Eildon Reservoir</a>,
+          
+          <a href="/topic/robert-nat-young/" class="link-secondary">Robert -Nat- Young</a>,
+          
+          <a href="/topic/highway-one/" class="link-secondary">Highway One</a>,
+          
+          <a href="/topic/rosebud-victoria/" class="link-secondary">Rosebud, Victoria</a>,
+          
+          <a href="/topic/beau-geste-film/" class="link-secondary">Beau Geste - film</a>,
+          
+          <a href="/topic/portsea-victoria/" class="link-secondary">Portsea, Victoria</a>,
+          
+          <a href="/topic/palm-beach-nsw/" class="link-secondary">Palm Beach - NSW</a>,
+          
+          <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+          
+          <a href="/topic/surfers-paradise/" class="link-secondary">Surfers Paradise</a>,
+          
+          <a href="/topic/noosa/" class="link-secondary">Noosa</a>,
+          
+          <a href="/topic/caloundra/" class="link-secondary">Caloundra</a>,
+          
+          <a href="/topic/mooloolabar/" class="link-secondary">Mooloolabar</a>,
+          
+          <a href="/topic/gold-coast/" class="link-secondary">Gold Coast</a>,
+          
+          <a href="/topic/victor-harbour/" class="link-secondary">Victor Harbour</a>,
+          
+          <a href="/topic/port-lincoln/" class="link-secondary">Port Lincoln</a>,
+          
+          <a href="/topic/mackay/" class="link-secondary">Mackay</a>,
+          
+          <a href="/topic/merimbukla/" class="link-secondary">Merimbukla</a>,
+          
+          <a href="/topic/bermagui/" class="link-secondary">Bermagui</a>,
+          
+          <a href="/topic/batemans-bay/" class="link-secondary">Batemans Bay</a>,
+          
+          <a href="/topic/rottnest-island/" class="link-secondary">Rottnest Island</a>
+      </p>
+    
+  </div>
+  
+</div>
+
+<style>
+  .timeline {
+    position: relative;
+    padding-left: 2rem;
+    border-left: 2px solid var(--bs-border-color);
+  }
+  .timeline-item {
+    position: relative;
+    padding-bottom: 2rem;
+  }
+  .timeline-item:last-child {
+    padding-bottom: 0;
+  }
+  .timeline-dot {
+    position: absolute;
+    top: 0.3rem;
+    left: -2.4rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background-color: var(--bs-success);
+    border: 3px solid var(--bs-body-bg);
+    box-shadow: 0 0 0 2px var(--bs-border-color);
+  }
+  .timeline-card {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+  }
+  .timeline-card:hover .timeline-title,
+  .timeline-card:focus .timeline-title {
+    color: var(--bs-success);
+    text-decoration: underline;
+  }
+  .timeline-date {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--bs-secondary-color);
+  }
+  .timeline-title {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+  .timeline-topics {
+    margin-top: 0.25rem;
+  }
+  .tooltip.timeline-tooltip .tooltip-inner {
+    text-align: left;
+    max-width: 280px;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(function (el) {
+      new bootstrap.Tooltip(el);
+    });
+  });
+</script>
+
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3"> 
+    <br><small><a href="https://twitter.com/keith_dunstan"><i class="fa fa-twitter" aria-hidden="true"></i>
+ Follow us</a> for content updates on this site</small> 
+<br><small>We're volunteers, <a href="https://ko-fi.com/jackdunstan">support us</a> to research, digitise, edit to bring this content to a new audience - with a <i class="fa fa-coffee" aria-hidden="true"></i>
+</a></small>
+<br>
+<small>Built with <a href="https://www.11ty.dev/">Eleventy</a> by <a href="https://www.linkedin.com/in/jackdunstan//">Jack Dunstan</a></i>
+</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

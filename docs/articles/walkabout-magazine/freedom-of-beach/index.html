@@ -1,0 +1,304 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Freedom of Beach</title>
+<meta name="title" content="Freedom of Beach">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="A survey of Australia&#39;s unusually open beaches, contrasting the free run of the Australian coastline with the private, fenced-off beaches of the Italian Riviera, Hawaii and California, and tracing the colonial land law and the Bondi bikini scandals that shaped the public&#39;s right to walk the sand.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/articles/walkabout-magazine/freedom-of-beach/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Freedom of Beach">
+<meta property="og:description" content="A survey of Australia&#39;s unusually open beaches, contrasting the free run of the Australian coastline with the private, fenced-off beaches of the Italian Riviera, Hawaii and California, and tracing the colonial land law and the Bondi bikini scandals that shaped the public&#39;s right to walk the sand.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Freedom of Beach">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/articles/walkabout-magazine/freedom-of-beach/">
+<meta name="twitter:title" content="Freedom of Beach">
+<meta name="twitter:description" content="A survey of Australia&#39;s unusually open beaches, contrasting the free run of the Australian coastline with the private, fenced-off beaches of the Italian Riviera, Hawaii and California, and tracing the colonial land law and the Bondi bikini scandals that shaped the public&#39;s right to walk the sand.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Freedom of Beach">
+<link rel="canonical" href="https://keithdunstan.org/articles/walkabout-magazine/freedom-of-beach/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1963-01-01">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="Walkabout Magazine">
+<meta property="article:tag" content="Bondi Beach">
+<meta property="article:tag" content="Brighton">
+<meta property="article:tag" content="Malibu Beach">
+<meta property="article:tag" content="Waikiki">
+<meta property="article:tag" content="Sydney">
+<meta property="article:tag" content="Melbourne">
+<meta property="article:tag" content="New South Wales">
+<meta property="article:tag" content="Henry Dendy">
+<meta property="article:tag" content="Eric Spooner">
+<meta property="article:tag" content="Santa Monica Bay">
+
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+    
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <header class="border-bottom pb-4 mb-4">
+        <h1 class="display-3">Freedom of Beach</h1>
+        
+          
+          
+          <aside class="fw-bold">
+            10
+            min read.
+          </aside>
+          <p>First published
+            <time data-pagefind-meta="date" datetime="1963-01-01">01 Jan 1963</time>
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="Walkabout Magazine">
+         <!--<a href="/tags/bondi-beach/" class="btn btn-outline-dark btn-sm me-2">Bondi Beach</a><a href="/tags/brighton/" class="btn btn-outline-dark btn-sm me-2">Brighton</a><a href="/tags/malibu-beach/" class="btn btn-outline-dark btn-sm me-2">Malibu Beach</a><a href="/tags/waikiki/" class="btn btn-outline-dark btn-sm me-2">Waikiki</a><a href="/tags/sydney/" class="btn btn-outline-dark btn-sm me-2">Sydney</a><a href="/tags/melbourne/" class="btn btn-outline-dark btn-sm me-2">Melbourne</a><a href="/tags/new-south-wales/" class="btn btn-outline-dark btn-sm me-2">New South Wales</a><a href="/tags/henry-dendy/" class="btn btn-outline-dark btn-sm me-2">Henry Dendy</a><a href="/tags/eric-spooner/" class="btn btn-outline-dark btn-sm me-2">Eric Spooner</a><a href="/tags/santa-monica-bay/" class="btn btn-outline-dark btn-sm me-2">Santa Monica Bay</a>-->
+
+        
+      </header>
+     <!-- <p class="lead">
+        A survey of Australia&#39;s unusually open beaches, contrasting the free run of the Australian coastline with the private, fenced-off beaches of the Italian Riviera, Hawaii and California, and tracing the colonial land law and the Bondi bikini scandals that shaped the public&#39;s right to walk the sand.
+      </p>-->
+      <p>Years ago, as a typical wide-eyed Australian, I spent a month's holiday driving around France and Italy. One evening with my wife we booked into the cheapest hotel we could find on the Italian Riviera, and the following morning we grabbed our towels and ran down to the beach. It was a beautiful beach, clean and well-ordered. There were chaises longues to stretch out upon, and drinks could be had by calling a waiter.</p>
+<p>Suddenly a large official appeared. He couldn't speak English, we couldn't speak Italian, but eventually the incredible truth began to dawn. 'Blimey, this is a private beach.' By actually walking on the beach we were invading private property. It had never occurred to us that this was possible, but before long we were to see many private beaches. Some belonged to hotels, some belonged to local residents, others belonged to civic authorities, who made a charge to all swimmers.</p>
+<p>At Honolulu we found some areas set aside as public beaches, but other large strips were owned by the big hotels. For example the huge Hawaiian Village Hotel, of 'Hawaiian Eye' fame, had its personal beach. Admittedly, until Henry Kaiser came along, this stretch of Waikiki was not a beach at all. He brought the sand in by truck, thousands of yards of it, and now Conrad Hilton, the new owner, was doing the same thing. It was fascinating, every night, to see the hotel authority going over the beach with a machine like a huge vacuum cleaner to ensure that the sand was snow white and completely devoid of litter for sun-bathers the following morning.</p>
+<p>An admirable practice, yes (remind me to tell one or two of our municipal councils about that machine), and all the tourist organizations of Hawaii had to be grateful to Mr. Kaiser and Mr. Hilton. Yet we still looked in wonder at this idea of a private beach.</p>
+<p>On August 19, 1962, the Los Angeles Herald-Examiner printed a photograph of a sign at Malibu Beach:</p>
+<p><em>PRIVATE BEACH</em>
+<em>For Local Prop Owners Only! $500 Fine or 6 Mos. Jail For Violators.</em></p>
+<p>In the Santa Monica Bay there are 20 miles of private fencing on the beaches, and nigh on a quarter of the beach area is privately owned. Some people permit access through their property but charge a fee. Much has been done by California State and cities to buy up beach frontages near built-up areas and turn them into public beaches, but this requires tremendous sums of money, and eventually the whole issue may be contested in the California Supreme Court.</p>
+<p>After seeing these things, the thought occurred to us that Australia has a superb natural asset which few other countries possess. Not only are our beaches very nearly beyond comparison, but they belong to us. They are free. Rarely do we think about this. We take it for granted that the beaches should be public property, just as people in other countries think it natural that a beach could be somebody else's private backyard.</p>
+<p>Theoretically one could start walking at, say, Bondi Beach, and walk right around the coastline of Australia. Of course, in some areas, physical hazards would make it impossible. There would be wharves, naval stations for our security and, oh, yes, it must be admitted, a few private beaches. We will come to those later.</p>
+<p>It is not easy to put one's finger on any one man who was responsible for preserving the freedom of beaches. We had the advantage of doing it when Australia was young, when the battle for land was for rich pastures, not for holiday life on the beach-front.</p>
+<p>Yet beaches were popular much earlier than most people realize, largely because of railways. At the end of 1861, the railway in Melbourne was extended to Brighton Beach. The Melbourne <em>Argus</em> reported that the weather was pleasant for Christmas Day, 1861, and large numbers, indeed many thousands, took advantage of the railway to hold picnic parties on St. Kilda and Brighton beaches.</p>
+<p>Mr. F. H. Klenner, secretary of the Victorian Lands Department, believes that beaches were preserved for the public entirely through the amazing foresight of unsung, unpraised, colonial surveyors-general. In Victoria, the act which permanently reserved both beaches and river fronts was the Land Act of 1860, consolidated by various acts since. An Order-in-Council, in 1881, defined precisely the depth of frontages. These varied, of course, according to the area and the nature of the water. Along the Murray it was three chains; for smaller streams one chain. For most beaches it was three chains, but it could go as high as eight or 10 chains to the high water mark.</p>
+<p>So all beaches, river fronts and areas around lakes belonged to everybody. There is one restriction that can be imposed by a farmer in an undeveloped area by taking out a special licence, although it may be cancelled at any time. Members of the public may then pass along his river front, but they may not loiter. They may not shoot or fish there without permission from the owner. On the other hand, if they are in a boat in the middle of the stream and they want to fish, well, nobody can stop them.</p>
+<p>Before the Land Act of 1860 the freehold was frequently sold right to the water's edge. Once the Crown sold this land it was gone forever, so there are a few century-old properties where this right applies even to-day. The rights extended to a fixed point on the beach. After more than 100 years, that point could be way high up on the beach or it could be way out in the water. Beaches, as many an owner of a fine seaside house has discovered, rarely stay put.</p>
+<p>In Victoria there are three areas, all of them very early settlements, where the freehold went right down to the water: Brighton, Portsea and Portland. Of these, Brighton, a Melbourne suburb, was particularly interesting. In 1840, Henry Dendy, while still in England, bought 5,000 acres of land there. He came to Melbourne in 1841, went into partnership with Mr. J. B. Weir, and became one of the first smart sub-dividers. But the depression era of the 'hungry forties' came, the first glorious optimism had gone, and the bottom had fallen out of the wheat and wool market. Both Dendy and Weir went bankrupt.</p>
+<p>Under their original subdivision, there were grand plans. Brighton was to be a model seaside township. An area was laid aside for the town, there were 120 acres for a public common or meeting place and a terrace along the waterfront, on a stretch of which properties were sold to the high water mark. What happened to the 120 acres is a mystery: they disappeared.</p>
+<p>Another Brighton gentleman named Mark Hollow put up a bathing box on the beach of one of these properties, which belonged to George Higginbotham, the celebrated chief justice, whose house still exists. Mr. Higginbotham objected, but apparently Mark Hollow had the council (Brighton had then become a municipality) on his side. It advised there was no way around the difficulty. Mr. Higginbotham could do nothing, even if Mr. Hollow shifted his bathing box to 14 feet below the high water mark. Why precisely 14 feet is anybody's guess, but Mr. Hollow ran into trouble again. The Minister for Lands, Mr. Gavan Duffy, thought the whole idea impractical, and ordered the bathing box to be removed.</p>
+<p>There were other Brighton cases, and often the public was furious. Thomas Crisp, a Brighton mayor, ordered a row of bathing boxes to be removed from his beach near Bayst. in 1870. Nicholas Weir, becoming an old man, decided to sell some of his properties. They went down to the water over the so-called public terrace. The titles were not clear; they did not state positively that the terrace was public property, and Mr. Weir caused a sensation when he put the land on the market.</p>
+<p>The Council fought him in court, and there was bitter feeling. Nicholas Weir stood to make a great deal of money, but before it went into the Supreme Court the Council settled outside and paid him £700. A special act by the Colonial Government followed, in 1877, giving Brighton title to much of the foreshore. The present Town Clerk of Brighton, Mr. H. C. Ferguson, believes this situation to have been unique in Australia.</p>
+<p>However, other Brighton beaches remained private and still caused bother. A Mr. Loughnan, who owned a property, actually put up a fence right down to the water, and there were fencing furores about it right into the 1900's. Yet in the long run it was public opinion more than anything that made beaches public in Brighton.</p>
+<p>Portland, in Victoria's Western District, is another case. At Narrawong and Dutton Beach a number of titles go down to the high water. They date from the earliest settlements. The local authority has plans for acquisition of these beach fronts, but like all plans they cost money. Mostly they are normal farm properties, and in one subdivision changed a public inland road for a road that runs along the beach, and the same idea could be repeated. There is no fuss. These private beaches are neither fenced nor treated as private.</p>
+<p>There is three-quarters of a mile of private beach between Sorrento and Point King, on the eastern side of Melbourne's Port Phillip. Some of the houses have private piers, and theoretically the owners could put down fences and stop trespassers; but the local shire clerk has never heard of anyone doing it, perhaps because of the cliff-like nature of the area.</p>
+<p>In New South Wales less than 20 per cent of the beaches are privately owned. They date from the days when N.S.W. was a young colony. You will find them mostly north of Sydney towards Newcastle and along the near south coast from Sydney down to Wollongong. The Under-Secretary of the Lands Department, Mr. W. J. Broadfoot, says that N.S.W. has no statutory act similar to the Victorian Lands Act of 1860, but the principle is the same. It has been the policy of his department for more than 50 years not to alienate any foreshores. Crown beaches are not for sale.</p>
+<p>Yet even if there are private beaches that date from the colonial era Mr. Broadfoot knows of none that are fenced off and never in his memory has anyone been prosecuted for trespassing on a private beach. But for big industrial installations in places like Newcastle and Wollongong, the quarantine station, and the Navy guns, your walk around the N.S.W. coastline will be largely uninterrupted.</p>
+<p>Private beaches in Australia now cause no problems. The real troubles these past 60 years have arisen from what people wear and how they behave on beaches. Swimming in the open sea was not a great popular pastime before 1900. The New South Wales Government's act of 1833, prohibiting daytime bathing in Sydney Cove and Darling Harbour and its defiance by Mr. W. H. Gocher, editor of a Manly newspaper, who got away with it, was the first cause célèbre to hit the headlines, and it helped to popularize bathing, although, mind you, it was the custom for respectable males to bathe at one portion of the beach and respectable females at another.</p>
+<p>On one occasion a Randwick alderman was reported as saying at a public meeting 'that the rapture of the lonely shore, the quiet most essential to residential happiness, is sadly interfered with by these surf bathers. I can no longer take my daughters for a walk by the waves because the recumbent nakedness is too indecent, the return to nature too pronounced'.</p>
+<p>In 1912 the New South Wales Government ordered a Royal Commission into surfbathing. The Commissioners framed laws providing that:</p>
+<p><em>No person shall loiter on a beach in a costume unless also covered by a mackintosh. Only exception shall be a person hurrying to obtain a life-saving appliance to save a life.</em></p>
+<p><em>A portion of the beach shall be roped off for ladies.</em></p>
+<p>None of these suggestions became law. Yet the propriety of the beaches was maintained, and in 1935 when bathing costumes were becoming a little too daring Mr. Eric Spooner, the New South Wales Minister for Local Government, introduced the famous Spooner ordinance.</p>
+<p>Incredibly this ordinance was still in force in October, 1961, when a shapely young brunette was ordered off Bondi Beach by a beach inspector. She was wearing a bikini and she was charged with having behaved offensively. The young lady made the beautiful quotable quote to the newspapers: 'I have nothing to hide.'</p>
+<p>So bikinis became legal in Sydney, as long as they were 'proper and adequate'. Now it can be said that beaches around Australia are free in every sense. It might well be possible for a young lady to walk right around the coastline, yes, even in a bikini.</p>
+<hr>
+<p><em>Source: <a href="https://nla.gov.au/nla.obj-753891969">FREEDOM OF BEACH</a>, Walkabout Magazine, 1963-01-01. Retrieved via the National Library of Australia's Trove database.</em></p>
+
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="bg-light p-4 rounded">
+  <!--<h3>Sidebar Single</h3>-->
+<p class="lead">
+        A survey of Australia&#39;s unusually open beaches, contrasting the free run of the Australian coastline with the private, fenced-off beaches of the Italian Riviera, Hawaii and California, and tracing the colonial land law and the Bondi bikini scandals that shaped the public&#39;s right to walk the sand.
+      </p>
+<hr>
+<h4 class="h6">Related topics</h4>
+<p class="small text-muted mb-3">
+    
+    <a href="/topic/bondi-beach/" class="link-secondary">Bondi Beach</a>,
+    
+    <a href="/topic/brighton/" class="link-secondary">Brighton</a>,
+    
+    <a href="/topic/malibu-beach/" class="link-secondary">Malibu Beach</a>,
+    
+    <a href="/topic/waikiki/" class="link-secondary">Waikiki</a>,
+    
+    <a href="/topic/sydney/" class="link-secondary">Sydney</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/new-south-wales/" class="link-secondary">New South Wales</a>,
+    
+    <a href="/topic/henry-dendy/" class="link-secondary">Henry Dendy</a>,
+    
+    <a href="/topic/eric-spooner/" class="link-secondary">Eric Spooner</a>,
+    
+    <a href="/topic/santa-monica-bay/" class="link-secondary">Santa Monica Bay</a>
+</p>
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+       
+</div>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3"> 
+    <br><small><a href="https://twitter.com/keith_dunstan"><i class="fa fa-twitter" aria-hidden="true"></i>
+ Follow us</a> for content updates on this site</small> 
+<br><small>We're volunteers, <a href="https://ko-fi.com/jackdunstan">support us</a> to research, digitise, edit to bring this content to a new audience - with a <i class="fa fa-coffee" aria-hidden="true"></i>
+</a></small>
+<br>
+<small>Built with <a href="https://www.11ty.dev/">Eleventy</a> by <a href="https://www.linkedin.com/in/jackdunstan//">Jack Dunstan</a></i>
+</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

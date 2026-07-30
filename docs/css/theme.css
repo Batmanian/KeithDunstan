@@ -11864,6 +11864,12 @@ body {
   letter-spacing: -0.02rem;
 }
 
+:root {
+  --bs-link-color-rgb: var(--bs-success-rgb);
+  --bs-link-hover-color-rgb: var(--bs-success-rgb);
+  --bs-highlight-bg: rgba(var(--bs-success-rgb), 0.35);
+}
+
 .link-fancy {
   text-decoration: none;
   display: inline-block;
@@ -11879,7 +11885,7 @@ body {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-image: linear-gradient(90deg, #1717e5 0, #1717e5 25%, transparent 0, transparent 50%, #1717e5 0, #1717e5 75%, transparent 0, transparent);
+  background-image: linear-gradient(90deg, #198754 0, #198754 25%, transparent 0, transparent 50%, #198754 0, #198754 75%, transparent 0, transparent);
   background-repeat: no-repeat;
   background-position: 0;
   background-size: 400% 1px;

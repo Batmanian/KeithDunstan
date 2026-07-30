@@ -1,0 +1,97 @@
+---
+layout: layouts/default.njk
+title: Timeline
+titleClass: h2 mb-2
+---
+
+<p class="text-muted">Every transcribed article in the archive, in the order it was published &mdash; from Keith Dunstan's earliest Walkabout pieces through to his most recent Bulletin columns. Hover or focus an entry for a summary; select it to read the piece in full.</p>
+
+<div class="timeline my-4">
+  {% for item in collections.article %}
+  <div class="timeline-item">
+    <span class="timeline-dot" aria-hidden="true"></span>
+    <a
+      href="{{ item.url | url }}"
+      class="timeline-card"
+      data-bs-toggle="tooltip"
+      data-bs-placement="top"
+      data-bs-trigger="hover focus"
+      data-bs-custom-class="timeline-tooltip"
+      title="{{ item.data.summary }}">
+      <time class="timeline-date" datetime="{{ item.date | htmlDateString }}">{{ item.data.date | readableDate }}</time>
+      <span class="timeline-title">{{ item.data.title }}</span>
+      {% if item.data.categories %}<span class="badge text-bg-secondary fw-normal">{{ item.data.categories[0] }}</span>{% endif %}
+    </a>
+    {% set itemTags = item.data.tags | filterTagList %}
+    {% if itemTags.length %}
+      <p class="timeline-topics text-muted small mb-0">
+        {%- for tag in itemTags %}
+          {% set tagUrl %}/topic/{{ tag | slug }}/{% endset %}
+          <a href="{{ tagUrl | url | safe }}" class="link-secondary">{{ tag }}</a>{% if not loop.last %},{% endif %}
+        {%- endfor %}
+      </p>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+
+<style>
+  .timeline {
+    position: relative;
+    padding-left: 2rem;
+    border-left: 2px solid var(--bs-border-color);
+  }
+  .timeline-item {
+    position: relative;
+    padding-bottom: 2rem;
+  }
+  .timeline-item:last-child {
+    padding-bottom: 0;
+  }
+  .timeline-dot {
+    position: absolute;
+    top: 0.3rem;
+    left: -2.4rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background-color: var(--bs-success);
+    border: 3px solid var(--bs-body-bg);
+    box-shadow: 0 0 0 2px var(--bs-border-color);
+  }
+  .timeline-card {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+  }
+  .timeline-card:hover .timeline-title,
+  .timeline-card:focus .timeline-title {
+    color: var(--bs-success);
+    text-decoration: underline;
+  }
+  .timeline-date {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--bs-secondary-color);
+  }
+  .timeline-title {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+  .timeline-topics {
+    margin-top: 0.25rem;
+  }
+  .tooltip.timeline-tooltip .tooltip-inner {
+    text-align: left;
+    max-width: 280px;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(function (el) {
+      new bootstrap.Tooltip(el);
+    });
+  });
+</script>
