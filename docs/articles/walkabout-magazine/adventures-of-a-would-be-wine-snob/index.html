@@ -1,0 +1,315 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adventures of a Would-be Wine Snob</title>
+<meta name="title" content="Adventures of a Would-be Wine Snob">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="A home bottler&#39;s tour of Victoria&#39;s wine industry in 1964, from siphoning hogsheads into gallon flasks at kitchen tables to a wineabout through Rutherglen&#39;s Morris and All Saints vineyards and Nagambie&#39;s Chateau Tahbilk.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/articles/walkabout-magazine/adventures-of-a-would-be-wine-snob/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Adventures of a Would-be Wine Snob">
+<meta property="og:description" content="A home bottler&#39;s tour of Victoria&#39;s wine industry in 1964, from siphoning hogsheads into gallon flasks at kitchen tables to a wineabout through Rutherglen&#39;s Morris and All Saints vineyards and Nagambie&#39;s Chateau Tahbilk.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Adventures of a Would-be Wine Snob">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/articles/walkabout-magazine/adventures-of-a-would-be-wine-snob/">
+<meta name="twitter:title" content="Adventures of a Would-be Wine Snob">
+<meta name="twitter:description" content="A home bottler&#39;s tour of Victoria&#39;s wine industry in 1964, from siphoning hogsheads into gallon flasks at kitchen tables to a wineabout through Rutherglen&#39;s Morris and All Saints vineyards and Nagambie&#39;s Chateau Tahbilk.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Adventures of a Would-be Wine Snob">
+<link rel="canonical" href="https://keithdunstan.org/articles/walkabout-magazine/adventures-of-a-would-be-wine-snob/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1964-12-01">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="Walkabout Magazine">
+<meta property="article:tag" content="Rutherglen">
+<meta property="article:tag" content="All Saints Winery">
+<meta property="article:tag" content="Chateau Tahbilk">
+<meta property="article:tag" content="Eric Purbrick">
+<meta property="article:tag" content="Wodonga">
+<meta property="article:tag" content="Milawa">
+<meta property="article:tag" content="Glenrowan">
+<meta property="article:tag" content="Wangaratta">
+<meta property="article:tag" content="George Sutherland Smith">
+<meta property="article:tag" content="Morris Wines">
+<meta property="article:tag" content="Home bottling of wine">
+
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+    
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <header class="border-bottom pb-4 mb-4">
+        <h1 class="display-3">Adventures of a Would-be Wine Snob</h1>
+        
+          
+          
+          <aside class="fw-bold">
+            12
+            min read.
+          </aside>
+          <p>First published
+            <time data-pagefind-meta="date" datetime="1964-12-01">01 Dec 1964</time>
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="Walkabout Magazine">
+         <!--<a href="/tags/rutherglen/" class="btn btn-outline-dark btn-sm me-2">Rutherglen</a><a href="/tags/all-saints-winery/" class="btn btn-outline-dark btn-sm me-2">All Saints Winery</a><a href="/tags/chateau-tahbilk/" class="btn btn-outline-dark btn-sm me-2">Chateau Tahbilk</a><a href="/tags/eric-purbrick/" class="btn btn-outline-dark btn-sm me-2">Eric Purbrick</a><a href="/tags/wodonga/" class="btn btn-outline-dark btn-sm me-2">Wodonga</a><a href="/tags/milawa/" class="btn btn-outline-dark btn-sm me-2">Milawa</a><a href="/tags/glenrowan/" class="btn btn-outline-dark btn-sm me-2">Glenrowan</a><a href="/tags/wangaratta/" class="btn btn-outline-dark btn-sm me-2">Wangaratta</a><a href="/tags/george-sutherland-smith/" class="btn btn-outline-dark btn-sm me-2">George Sutherland Smith</a><a href="/tags/morris-wines/" class="btn btn-outline-dark btn-sm me-2">Morris Wines</a><a href="/tags/home-bottling-of-wine/" class="btn btn-outline-dark btn-sm me-2">Home bottling of wine</a>-->
+
+        
+      </header>
+     <!-- <p class="lead">
+        A home bottler&#39;s tour of Victoria&#39;s wine industry in 1964, from siphoning hogsheads into gallon flasks at kitchen tables to a wineabout through Rutherglen&#39;s Morris and All Saints vineyards and Nagambie&#39;s Chateau Tahbilk.
+      </p>-->
+      <p>To be quite honest with you, I have always wanted to be a wine snob. It has been my dream to stand before an eminent wine and food gathering, one of those societies where they mask the bottles, and to pick up a glass, put my nose into it, pause for a moment, then, with unbelievable accuracy, state the vintage year, the grape, the vineyard and practically the paddock where it came from.</p>
+<p>There are clever people who, quite often, can do this, but I am not one of them. The more I drink, the less I seem to know.</p>
+<p>So at wine gatherings it is better to stick to safe remarks. &quot;It's a well-balanced wine.&quot; (It's sure to be balanced somehow or other.) &quot;It leaves a noble aftertaste on the palate.&quot; (Good wine usually does.) &quot;The winemaster is to be congratulated for an excellent choice with this dish.&quot; (The winemaster will love you forever for that.) &quot;I would say this is a South Australian claret.&quot; (Risky, but a good try, because the bulk of our wine is produced in S.A.)</p>
+<p>But, maybe, like me, if you can't be brilliant, you still enjoy your wine. There is, of course, no tax on wine. No doubt beer and whisky drinkers gain satisfaction from the thought that their every mouthful is helping to complete a Snowy River scheme, pay a Cabinet minister or build a road. But we wine drinkers feel we are also supporting perhaps our most worthy primary industry.</p>
+<p>Twenty or 30 years from now, those of us who are still alive will inevitably look back upon the 'sixties as the good old days. Almost certainly, never again will wine be so cheap. The population will grow, more of our wine-makers, perhaps, will switch to the rewards of wool, wheat and beef. And some genius in Canberra will suddenly discover that here is a taxation possibility he had overlooked.</p>
+<p>So, in the meantime I am making the most of it. I am one of the growing band of home bottlers. One of this band buys his wine from the big dealers by the hogshead. Now a hogshead, according to the dictionary, holds 52½ imperial gallons, enough for 315 bottles.</p>
+<p>This gentleman does not consume his 315 bottles on his own. He has a small syndicate among his neighbours in Sydney. They have a bottling party on a Saturday afternoon, with all helping in the washing, the corking and the labelling. Finally, they gently, carefully disperse, their wheelbarrows loaded with bottles.</p>
+<p>But be careful; once a home bottler starts purchasing hogsheads, then he is in the big league. A cask of those dimensions takes a professional's skill in handling, and a highly-skilled wine-bibber's nose in choosing. There's little harm in choosing the wrong wine for two or three bottles, but with a hogshead one's errors can reach calamitous proportions. Think of the embarrassment of 315 bottles that one doesn't want to drink!</p>
+<p>At our house we are modest. We buy from a wine dealer or direct from the vineyard in 10-gallon steel barrels, five-gallon stone jars and even gallon flasks. We go for quality claret that will improve in the bottle.</p>
+<p>Now, if you have read this far, let me give you a sort of Mrs. Beeton's recipe for home bottling.</p>
+<p>First you must have proper wine bottles, designed to take the long cork. These can be bought at any good bottleyard, but most home bottlers develop a passion for building their own collection. They will snatch them off the tables of friends. I must confess that, at many a restaurant, I have bought a bottle of wine (at an outrageous price), and, the meal over, have snatched the empty out of the startled wine waiter's hands, then walked out with it under my arm, trying to look dignified.</p>
+<p>These bottles must be washed thoroughly in very hot water. Wine is tender. It must be treated with love. It will deteriorate on exposure to air just as quickly as milk, and, in non-sterile conditions, is just as easily contaminated.</p>
+<p>Next, you need corks and a corker. Corkers can be superbly elaborate, but there are simple wooden models on the market for 30/-, and they put the cork in most comfortably. Corks you buy by the gross from a cork dealer.</p>
+<p>Before bottling, boil up the corks. They must be both sterile and soft to go into the bottles. Now for the lovely part. Put the 10-gallon drum on the kitchen table, and line up the bottles on the floor. From here on it's easy. We use plastic tubing, and we start the siphon operation in the most direct and satisfying way by sucking the tube until the wine begins to flow. If there are several helpers two or three tubes can be kept going.</p>
+<p>Six bottles go to a gallon, but at the finish, almost invariably, there is some wine left over. Then it is considered an absolutely fair thing to taste the new vintage. It's a lovely way of putting in an afternoon.</p>
+<p>Some regular bottlers put away all their yearly purchases, and never drink a bottle younger than five years. Some like to drink half in one year, and put away half, thereby building up a cellar. Others who haven't the space, or simply can't stand the tantalising thought of bottles sitting unopened in the cupboard, get rid of it all at speed.</p>
+<p>There's no question that, for most of us, storage is the major problem. Yet home bottlers can be ingenious. I have one friend who has loosened all the floor boards of his house. Every time he lifts some boards he puts a box of wine underneath. At the last count he had stored away over 400 bottles for future drinking.</p>
+<p>No doubt, all through this you have been muttering, but how much does it cost? This is the beauty of living in a wine-producing country. Transport costs, for example, are nothing short of amazing. For example, a 10-gallon drum comes 200 miles to the railway siding near our house for 5/6. It goes back empty for 1/6.</p>
+<p>Good long corks cost about 30/- a gross, which means that corking costs 2¼d. a bottle. The wine, of course, varies according to what you buy, but I have bought some beautiful cabernet-shiraz and straight shiraz dry red wine at from 12/- to 15/- a gallon.</p>
+<p>This means it is possible to put a bottle of wine on the table for dinner every night at, say, 2/3 or 2/9 a bottle.</p>
+<p>That's why the good old days are here, in 1964. Wine is vastly cheaper than beer. What's more, one has a quality that would cost 8/- a bottle retail or, upon maturing, 12/- at the very least; or anything up to 30/- in a restaurant.</p>
+<p>Of course, when buying wine, it is interesting to know what is coming forth each year, and the wineabout is perhaps the most intriguing journey that one can undertake in Victoria. Most vineyards sell wine on the premises, and are only too happy to greet those who are seriously interested.</p>
+<p>However, before my first wineabout, one of the old hands took me aside and gave a word of warning. Said he: &quot;The people in the wine industry are the most charming in the world, and what's even more dangerous, they're utterly dedicated. They'll get you down there in the cool, heady atmosphere of their cellars. You'll be surrounded by big oak casks, containing thousands of gallons of wine. The air will be laden with this marvellous bouquet.</p>
+<p>&quot;Gently the vigneron will bring out his tender moselles, his hocks, his clarets, his ports. You'll taste every one, and soon you'll be completely under the spell of the place. Before you know where you are, you'll be ordering gallons and gallons and dozens and dozens. Now take my tip. Buy a few bottles at every place, then wait until you get home. In sober calm you will be surprised how different the wines taste. Take your pick and make your orders then.&quot;</p>
+<p>For a proper wineabout one really needs several weeks, a chauffeur who is a total abstainer and a well-sprung trailer to carry samples. It is tactful to avoid the summer crushing months. Calling on a vigneron during February or March is like dropping in for a yarn with your favourite accountant on June 30. What's more, you should adopt a rule, &quot;never on Sunday&quot;. The vigneron is entitled to his day of rest.</p>
+<p>Victoria's north-east and Rutherglen area, in the lovely days of the eighteen-eighties, had 31,000 acres under vines and it was producing 600,000 gallons of wine a year. It was Australia's top producing area, and there was a beautiful optimism about it all. Then phylloxera struck, the black death of the vine. After 1901, things were never the same again. From 31,000 acres then, now there are more like 1,300.</p>
+<p>There are still 10 wine producers in the district, names like Chambers, Gayfer's, Bullers, Gehrig, C. H. Morris &amp; Sons, Sutherland Smith, Lindemans over the river and, of course, the big Seppelts winery in the heart of Rutherglen.</p>
+<p>It is a district that produces a big, fruity wine, a meal in every glass. It is famous, in particular, for its good ports, splendid Tokays and utterly marvellous muscats. Ask any of the Show judges; Rutherglen district produces the best muscat in the world. C. H. Morris &amp; Son have won handsome prizes at shows for it. George Smith of Sutherland Smiths says this tradition of sweet, heavy wine dates back to the days when men worked hard and long with their hands. They needed the sugar content. But the tendency now is towards a light dry red, and Smiths are doing this with their cabernet-shiraz.</p>
+<p>The area has its fascinating tales. On the way from Wodonga, six miles from Rutherglen, you see two large mansions, of the sort that really belongs in Toorak. One is Fairfield, the original homestead of the Morris family, whose cellars, it is said, could store up to 500,000 gallons. The other is Olive Hills, once the home of Hugh Fraser.</p>
+<p>Now Hugh Fraser and G. F. Fraser were the giants of the district. They were rivals in producing the best wine, rivals in the council, rivals in turning on the best entertainment. In 1898, the Governor and his lady, Lord and Lady Brassey, were to make a tour of the north-east.</p>
+<p>Immediately Hugh Fraser and Morris each put in a claim to be their overnight hosts. Fraser spent great sums in putting in all the right additions. He even added a tower, a dead ring of the tower on Government House in Melbourne. To be among the socially élite, one had to possess a tower in the eighteen-nineties. Morris completely renovated his already handsome two-storey building, and it was Morris who won the battle for the Brasseys, who finally stayed at Fairfield. It was all too much for Hugh Fraser. Very soon afterwards he sold up and left the district. Nor is the Morris family any longer at Fairfield. But the winery and vineyard are still nearby on the road to Wodonga.</p>
+<p>These times, the show place of the district is the All Saints Vineyard at Wahgunyah, on the Murray. First one drives through its large gates and into a glorious avenue of elms. Suddenly, right in front, is an honest-to-goodness castle, turrets, the battlements and all. And that's the winery.</p>
+<p>It all started when George Sutherland Smith came out from Scotland and began operating a riverboat on the Murray in 1860. His family were joiners to the Castle of Mey, in Scotland, now occupied by the Queen Mother.</p>
+<p>George, after doing such things as building the Beechworth gaol and laying railway tracks, settled at Wahgunyah and built his magnificent winery. Just to remind him of home, he built it to the shape of the Castle of Mey. Furthermore, he named it after his old home parish, All Saints, which gives it a nice air of reverence.</p>
+<p>The Smiths have quietly renovated making wine there for generations, and now it is in the hands of George and David Sutherland Smith. A guided tour by George, a charmingly gifted talker, is quite an experience. George took me across to a vantage point. Below was a noble area full of great barrels, many of them holding up to 1,200 gallons. George explained that this was the largest oak storage in the southern hemisphere. Below was nigh on half-a-million gallons of wine, quietly maturing.</p>
+<p>After the grand tour, Mr. Smith brought out some wines for inspection. Just when we felt that, maybe, we had tasted every wine that could conceivably be produced in the north-east, he came out with a very lovely expression. He did not say: &quot;You must have one for the road.&quot; He said: &quot;Just a minute. There's one other you must try to see you safely over the grid.&quot;</p>
+<p>The trail home is equally interesting. One of Australia's most highly skilled wine producers is at Milawa, just 15 miles' run out of Wangaratta. John Brown's family have been living there since 1857. His grandfather originally settled in Canada, and one of the sights of the place, the old barn, now a wine store, is typical of the old Canadian barns. It is built of solid hand-hewn timber, as big and as lofty as a cathedral.</p>
+<p>He has some rieslings, his straight shiraz and beautiful blends of cabernet-shiraz and cabernet-shiraz-mondeuse. The hours slip away very easily.</p>
+<p>If you are strong enough you can carry on. At Bundarra, near Glenrowan, there is Bailey's vineyard. The Baileys produce a mighty claret, a big, big, unforgettable claret, that tastes like liquid steak and eggs.</p>
+<p>Then, near Nagambie, is one of Australia's most famous vineyards, the 104-year-old Chateau Tahbilk. This place is beautiful. There is the mile-long avenue of olives and white mulberries and the rows of superb plane trees. There's the white-washed brick, the old cellar, the chateau tower of the bottle labels, and the whole property is incredibly reminiscent of a French vineyard. It is here that Eric Purbrick produces his quality wines.</p>
+<p>It would be possible to go on and talk of the products of Great Western, of the Mildara winery at Mildura and others, but there's a limit to any man's wineabout. Quite frankly, I think we have seen enough to take us safely over the grid.</p>
+<hr>
+<p><em>Source: <a href="https://nla.gov.au/nla.obj-755916911">ADVENTURES OF A WOULD-BE WINE SNOB</a>, Walkabout Magazine, 1964-12-01. Retrieved via the National Library of Australia's Trove database. Pictures by George D. Carson.</em></p>
+
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="bg-light p-4 rounded">
+  <!--<h3>Sidebar Single</h3>-->
+<p class="lead">
+        A home bottler&#39;s tour of Victoria&#39;s wine industry in 1964, from siphoning hogsheads into gallon flasks at kitchen tables to a wineabout through Rutherglen&#39;s Morris and All Saints vineyards and Nagambie&#39;s Chateau Tahbilk.
+      </p>
+<hr>
+<h4 class="h6">Related topics</h4>
+<p class="small text-muted mb-3">
+    
+    <a href="/topic/rutherglen/" class="link-secondary">Rutherglen</a>,
+    
+    <a href="/topic/all-saints-winery/" class="link-secondary">All Saints Winery</a>,
+    
+    <a href="/topic/chateau-tahbilk/" class="link-secondary">Chateau Tahbilk</a>,
+    
+    <a href="/topic/eric-purbrick/" class="link-secondary">Eric Purbrick</a>,
+    
+    <a href="/topic/wodonga/" class="link-secondary">Wodonga</a>,
+    
+    <a href="/topic/milawa/" class="link-secondary">Milawa</a>,
+    
+    <a href="/topic/glenrowan/" class="link-secondary">Glenrowan</a>,
+    
+    <a href="/topic/wangaratta/" class="link-secondary">Wangaratta</a>,
+    
+    <a href="/topic/george-sutherland-smith/" class="link-secondary">George Sutherland Smith</a>,
+    
+    <a href="/topic/morris-wines/" class="link-secondary">Morris Wines</a>,
+    
+    <a href="/topic/home-bottling-of-wine/" class="link-secondary">Home bottling of wine</a>
+</p>
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+       
+</div>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3"> 
+    <br><small><a href="https://twitter.com/keith_dunstan"><i class="fa fa-twitter" aria-hidden="true"></i>
+ Follow us</a> for content updates on this site</small> 
+<br><small>We're volunteers, <a href="https://ko-fi.com/jackdunstan">support us</a> to research, digitise, edit to bring this content to a new audience - with a <i class="fa fa-coffee" aria-hidden="true"></i>
+</a></small>
+<br>
+<small>Built with <a href="https://www.11ty.dev/">Eleventy</a> by <a href="https://www.linkedin.com/in/jackdunstan//">Jack Dunstan</a></i>
+</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

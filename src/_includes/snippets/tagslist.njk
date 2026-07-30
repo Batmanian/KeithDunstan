@@ -1,6 +1,6 @@
 {%- set shownTags = [] %}
 {%- for tag in collections.tagList %}
-  {%- if tag.tagCount > 3 %}
+  {%- if tag.tagCount > 2 %}
     {%- set _ = shownTags.push(tag) %}
   {%- endif %}
 {%- endfor %}

@@ -127,28 +127,16 @@ The book's contents page (`src/a-day-in-the-life-of-australia.njk`) lists **258 
 | Publication | ✅ Live | Known outstanding (titled) | Stubs awaiting triage (Trove) | Notes |
 |---|---|---|---|---|
 | The Bulletin | 57 | 2 | 1,583 | 34 "Around Melbourne" columns (Mar–Dec 1962) transcribed from manually-scanned photos on 28–29 Jul 2026; 11 more 1963 columns transcribed the same way, in progress, 29 Jul 2026 (34 of 45 uploaded 1963 scans remain). Separate from the untouched Trove stub pipeline. See §6 for the Trove pipeline and the 2 known-missing titles below |
-| Walkabout Magazine | 4 | 15 | 81 | 18 known articles per site total; 15 remain untranscribed even after Trove triage — see list below |
+| Walkabout Magazine | 17 | 1 | 0 | 18 known articles per site total; 17 now transcribed and live (31 Jul 2026 — see Completed section), 1 outstanding awaiting a scan (Collins Street Charm) — see list below |
 | The Australian Gourmet | 1 | — | Not in Trove | Extent of Keith's total output for this title is unknown; physical copies needed |
 | The Age (post-1954) | 0 | 1 known ("On the right side of Tuscany", 2 May 1989) | Not in Trove | Not digitised — physical/microfilm sourcing required |
 | Home Beautiful | 0 | 8 known issues (Dec 1949 – Feb 1951, `src/writing.njk`) | Not in Trove | Not yet sourced |
 
-### Walkabout — 15 outstanding, known titles
+### Walkabout — 1 outstanding, known title
 
-- [ ] Paddy's Market to Luxury Hotel — `1962-07-01` *(check: a file of this exact name already exists at `src/articles/walkabout-magazine/paddys-market-to-luxury-hotel.md` — confirm this isn't already done before re-transcribing)*
-- [ ] Epicurean Melbourne — `1962-12-01`
-- [ ] Freedom of Beach — `1963-01-01`
-- [ ] From Prickly Pear to Petroleum — `1963-07-01`
-- [ ] Christmas Across the Continent — `1963-12-01`
-- [ ] Melbourne's Evergreen Exhibition — `1964-05-01`
-- [ ] Adventures of a Would-be Wine Snob — `1964-12-01`
-- [ ] Battle of the Flowers — `1965-05-01`
-- [ ] Melbourne Cup Winners, Horses or Hats? — `1966-10-01`
-- [ ] 1966 and All That — `1966-12-01`
-- [ ] The Bikini – What's Next? — `1968-01-01`
-- [ ] A Year of Anti-Football Protest — `1968-04-01`
-- [ ] Beef Boom in Tombstone Territory — `1968-10-01`
-- [ ] Collins Street Charm — `1968-12-01`
-- [ ] Walkabout Profile — Dr Jean Battersby — `1969-05-01`
+*(Updated 31 Jul 2026 — the other 14 in this list, plus Paddy's Market to Luxury Hotel, Epicurean Melbourne, Freedom of Beach and From Prickly Pear to Petroleum, which were already live but miscounted in the table above, are all now transcribed. See Completed section for the full current list of 17 live Walkabout articles.)*
+
+- [ ] Collins Street Charm — `1968-12-01` — no scan yet uploaded to `trove/output/walkabout/scans/`; needs a physical scan before it can be transcribed.
 
 ### Bulletin — 2 known-missing titles
 
@@ -216,11 +204,11 @@ Scripts live in `trove/`. Run from within that directory with the `.venv` activa
 
 ### Walkabout stubs — triage and transcription
 
-**81** stubs in `trove/output/walkabout/stubs/`.
+**0** files remain in `trove/output/walkabout/stubs/` as of 31 Jul 2026 (directory itself no longer exists on disk; the 81 original stubs have all either been transcribed to `src/articles/walkabout-magazine/` or were non-article noise removed from disk in earlier, uncommitted work — none of this is committed to git yet, so `git status` still shows them as deletions pending commit).
 
 - [ ] Update `triage.py` to accept a `--publication` argument — it currently only triages `bulletin/`
-- [ ] Cross-reference triaged stubs against the 18 known Walkabout articles (4 live, 15 outstanding — see §5)
-- [ ] Move completed files to `src/articles/walkabout-magazine/` *(not `src/posts/walkabout-magazine/`)*
+- [x] Cross-reference triaged stubs against the 18 known Walkabout articles — 17 live, 1 outstanding (Collins Street Charm, awaiting scan — see §5)
+- [x] Move completed files to `src/articles/walkabout-magazine/` *(not `src/posts/walkabout-magazine/`)*
 
 ### Trove scripts — maintenance
 
@@ -304,7 +292,7 @@ For publications not in Trove, physical copies must be sourced and scanned. Foll
 - [x] Trove API data agreement submitted to NLA
 - [x] Trove publication diagnostics run for all major publications
 - [x] Bulletin articles — 7 transcribed and live on site
-- [x] Walkabout articles — 4 transcribed and live on site (Bird Watching, Rough-Riding, Summer Madness, Paddy's Market to Luxury Hotel)
+- [x] Walkabout articles — 17 of 18 known titles transcribed and live on site: Bird Watching, Rough-Riding for Five Minutes a Year, Summer Madness, Paddy's Market to Luxury Hotel, Epicurean Melbourne, Freedom of Beach, From Prickly Pear to Petroleum (all already live before 31 Jul 2026); Christmas Across a Continent, Melbourne's Evergreen Exhibition, Adventures of a Would-be Wine Snob, Battle of the Flower, Melbourne Cup Winners: Horses or Hats?, 1966 and All That, The Bikini, What Next?, The Year of Anti-Football Protest, Beef Boom in Tombstone Territory and Walkabout Profile (Dr Jean Battersby) transcribed 31 Jul 2026 from user-uploaded scans in `trove/output/walkabout/scans/`. Only Collins Street Charm (1968-12-01) remains, awaiting a scan.
 - [x] Ratbags — all 26 of 26 chapters live (foreword, introduction, 24 profiles) — book complete
 - [x] Books fully live on site: No Brains At All, Supporting a Column, My Life with the Demon, The Australian Upper Crust Book, Ratbags (as scoped)
 - [x] Books partially live: A Day in the Life of Australia (8 of 258 known entries + 11 drafted), Wowsers (2 of 10 chapters)

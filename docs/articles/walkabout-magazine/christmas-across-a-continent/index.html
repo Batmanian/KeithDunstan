@@ -1,0 +1,306 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Christmas across a continent</title>
+<meta name="title" content="Christmas across a continent">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="A survey of how Australians spend Christmas Day across wildly different settings, from turkey conservatives at Rosebud and water-skiing Santas at Surfers Paradise to Warramunga camps, Antarctic research bases, and mail runs to Cocos Island and Tasman Island lighthouse.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/articles/walkabout-magazine/christmas-across-a-continent/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Christmas across a continent">
+<meta property="og:description" content="A survey of how Australians spend Christmas Day across wildly different settings, from turkey conservatives at Rosebud and water-skiing Santas at Surfers Paradise to Warramunga camps, Antarctic research bases, and mail runs to Cocos Island and Tasman Island lighthouse.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Christmas across a continent">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/articles/walkabout-magazine/christmas-across-a-continent/">
+<meta name="twitter:title" content="Christmas across a continent">
+<meta name="twitter:description" content="A survey of how Australians spend Christmas Day across wildly different settings, from turkey conservatives at Rosebud and water-skiing Santas at Surfers Paradise to Warramunga camps, Antarctic research bases, and mail runs to Cocos Island and Tasman Island lighthouse.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Christmas across a continent">
+<link rel="canonical" href="https://keithdunstan.org/articles/walkabout-magazine/christmas-across-a-continent/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1963-12-01">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="Walkabout Magazine">
+<meta property="article:tag" content="Surfers Paradise">
+<meta property="article:tag" content="Alice Springs">
+<meta property="article:tag" content="Aborigines">
+<meta property="article:tag" content="Ayers Rock (Uluru)">
+<meta property="article:tag" content="Bill Harney">
+<meta property="article:tag" content="Antarctica">
+<meta property="article:tag" content="Cape York Peninsula">
+<meta property="article:tag" content="Thursday Island">
+<meta property="article:tag" content="Cocos Islands">
+<meta property="article:tag" content="Tasman Island">
+<meta property="article:tag" content="Coober Pedy">
+<meta property="article:tag" content="Canberra">
+
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+    
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <header class="border-bottom pb-4 mb-4">
+        <h1 class="display-3">Christmas across a continent</h1>
+        
+          
+          
+          <aside class="fw-bold">
+            9
+            min read.
+          </aside>
+          <p>First published
+            <time data-pagefind-meta="date" datetime="1963-12-01">01 Dec 1963</time>
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="Walkabout Magazine">
+         <!--<a href="/tags/surfers-paradise/" class="btn btn-outline-dark btn-sm me-2">Surfers Paradise</a><a href="/tags/alice-springs/" class="btn btn-outline-dark btn-sm me-2">Alice Springs</a><a href="/tags/aborigines/" class="btn btn-outline-dark btn-sm me-2">Aborigines</a><a href="/tags/ayers-rock-(uluru)/" class="btn btn-outline-dark btn-sm me-2">Ayers Rock (Uluru)</a><a href="/tags/bill-harney/" class="btn btn-outline-dark btn-sm me-2">Bill Harney</a><a href="/tags/antarctica/" class="btn btn-outline-dark btn-sm me-2">Antarctica</a><a href="/tags/cape-york-peninsula/" class="btn btn-outline-dark btn-sm me-2">Cape York Peninsula</a><a href="/tags/thursday-island/" class="btn btn-outline-dark btn-sm me-2">Thursday Island</a><a href="/tags/cocos-islands/" class="btn btn-outline-dark btn-sm me-2">Cocos Islands</a><a href="/tags/tasman-island/" class="btn btn-outline-dark btn-sm me-2">Tasman Island</a><a href="/tags/coober-pedy/" class="btn btn-outline-dark btn-sm me-2">Coober Pedy</a><a href="/tags/canberra/" class="btn btn-outline-dark btn-sm me-2">Canberra</a>-->
+
+        
+      </header>
+     <!-- <p class="lead">
+        A survey of how Australians spend Christmas Day across wildly different settings, from turkey conservatives at Rosebud and water-skiing Santas at Surfers Paradise to Warramunga camps, Antarctic research bases, and mail runs to Cocos Island and Tasman Island lighthouse.
+      </p>-->
+      <p>CHRISTMAS at our house is conservative and old-fashioned. Oh, I know, our relatives are pointing it out constantly: the sensible thing in a country where the Christmas Day temperature is likely to be in the nineties is to have a cold meal. They suggest cold chicken, a fresh salad, all washed down by chilled riesling.</p>
+<p>To the devil with cold chicken and chilled riesling! It just so happens that I adore both hot roast turkey and Christmas pudding with brandy sauce. And if you don't eat them on Christmas Day you have precious little chance of getting them at any other time. So I make sure of my turkey. There's just one concession to these modern aberrations. We have our hot Christmas dinner in the evening, about eight o'clock. After that it is so easy to collapse into bed.</p>
+<p>Believe me, there are still plenty of Australian turkey conservatives. Take Rosebud, on Port Phillip Bay, the most concentrated camping area in Australia. There, the campers carry on in the face of March flies, ordinary flies and mosquitoes, yet at least 50 per cent of them turn on a traditional Christmas dinner, right down to the plum pudding. Many a miracle is performed, on December 25, at Rosebud on a little portagas camp oven.</p>
+<p>Yet how do other Australians spend their Christmas? It varies a great deal, but, oddly enough, the spirit varies hardly at all. At Surfers Paradise, for example, they adore to be different. Father Christmas almost inevitably arrives on water skis, scooting along the Nerang River, and he looks a trifle bizarre wearing red bathing trunks, his white whiskers trailing in the wind.</p>
+<p>Christmas also comes to the Warrabri and Wailbri tribes at Warramunga, 250 miles north of Alice Springs. Now what does a white girl dream of at Christmas? Dolls, of course. And so do aboriginal girls. White babies spend their first years in prams and cots, but such things are unknown to aboriginal mothers. They use coolamons, a curved piece of wood about two feet long, in which the baby can sleep and be carried on walkabouts. So the men of the Warrabri tribe make miniature coolamons for black dolls for jet-black, brown-eyed, little girls. Christmas dinner at Warramunga will be roast kangaroo.</p>
+<p>In outback Queensland the stockmen, the ringers, the wandering oil prospectors, the station people will come together. At these times it doesn't take much to get a party going and often it takes days for them to stop.</p>
+<p>For the Flying Doctor at Cloncurry the day starts pretty much like any other day with the radio medical sessions at 8.30 a.m., and he hands out advice to patients on the network anything up to 400 miles away. He listens to their problems and decides whether he must go out to see them. Then there's the 'galah session'. On the network all the station people exchange Christmas greetings, and, you know how it is, there are one or two inquiries to the doctor about the treatment of dietary indiscretions, unusually prevalent at this time of year.</p>
+<p>King's Hall in Canberra is like a tomb; not a politician in town. The famous streets: Collins Street, Macquarie Street, Hay Street are deserted, the lonely parking meters giving the message, EXPIRED. But in the far north there is a feeling of expectancy. It is insufferably hot. Any day now the great wet will start and the whole of the north will be turned into thousands of miles of impassable bog. Christmas in the north means that properties are cut off from road transport for the next four or five months. They have to depend on light aircraft.</p>
+<p>At Victoria River Downs all their heavy goods come by truck in two large orders; one order at the end of the wet and one towards the end of the dry. All the beer for the whites and the lollywater for the natives has been waiting there in the store since last August.</p>
+<p>Christmas at the Downs doesn't begin until late afternoon. After all, it's just as well to wait until the temperature gets a little below the century. The stockmen with their lubras and piccaninnies gather at the store building to receive their gifts, scarves, lollywater, plastic toys and Christmas stockings for the children. Soon, everybody is letting off crackers and blowing whistles. The galahs up in the trees can't stand it. They screech off to quieter places.</p>
+<p>The natives don't wait around too long. Soon, the sound of the didjeridoo comes from the compound, with the menfolk stamping out their exhausting dances.</p>
+<p>And what happens at Ayers Rock? Several years back I asked the late Bill Harney how he put in his Christmas there. Bill was putting up buildings for tourists, and he said that old feller of the Loritja tribe told him: 'That rock can't finish, white-fellow-man all day build house for mob tourist who must race about everywhere and take picture next cold-weather-time. Properly my country must be good one to bring white people from city for just look-look.'</p>
+<p>And, Bill said, his old mate Jack cooked Christmas dinner out of supplies that came by aeroplane from the Alice. They ate it close to the great pebble that had been there before Christmas Days began.</p>
+<p>The only white Christmas takes place at the coolest of Australian outposts, the Wilkes, Davis, Mawson and Macquarie Island bases in the Antarctic. At every base there is a bumper Christmas dinner, a Christmas tree, the singing of carols and opening of presents that were often kept in store, like everything else, these past three or four months.</p>
+<p>However, Christmas Day as a social event tends to be overshadowed by midwinter's day, June 22, the shortest day to us, and no day at all to them. They have a seven-course banquet with printed menus, complete with floor show.</p>
+<p>Last June, at Macquarie, the floor show was turned on by the 'Macquarie Little Theatre' in costumes that were remarkably original. The blizzard that went on unabated through the celebrations was said to be most refreshing for the sore heads next day.</p>
+<p>At Lockhart River Mission right up on Cape York Peninsula, there is a marvellous Christmas. The Anglican priest there is a Torres Strait islander, Father Seriba Sagigi. He's over six feet and he weighs 18 stone. Father Ray Campbell, who until recently was at Lockhart, says that there will be a Nativity Play, with the parts of the Virgin Mary, Babe, angels, shepherds all taken by dark-skinned children. On Christmas Eve all will assemble for carol singing and there will be a pre-midnight procession through the villages. This will end at the tropical church, where midnight Communion will be celebrated.</p>
+<p>There's little time for sleeping. After Matins, a white-haired Santa will distribute the gifts, and then will come the great feast, not turkey and plum pudding. Something better, barbecued bullock, turkey, dugong, wild pig. For most people in the world, 3 p.m. is a pretty good time to lie down for a snooze. Not at Lockhart. The drums are beating. It is all dancing, weaving, stamping, gleaming bodies in their lava-lavas. It lasts all night. On and on, maybe for two or three days. This is a different Christmas, far from the crowded streets and shops. The aborigines are enthusiastic and although the setting is different, somehow Bethlehem doesn't seem far away at Lockhart.</p>
+<p>Then, just across the water at Thursday Island, or Thirsty Island as they call it, the Torres Strait islanders will be cooking their turtles in the traditional style. A hole is dug in the earth and filled with hot stones. The turtle is stuffed with potatoes and native vegetables, then placed in the hole and covered with more hot stones, leaves, and, finally, sand. When the turtle is carved it is nothing for 100 to sit down to Christmas turtle dinner.</p>
+<p>Now let's go way, way out west. At 0045 hours on Christmas Day a Qantas Electra will touch down at West Island in the Cocos Islands, 1,800 miles from Perth. It will be carrying greetings and presents from all over the world, via Johannesburg, for the handful of white people and 450 Malays who live on the islands.</p>
+<p>When the plane arrives there won't be a person asleep. Actually there is never a person asleep when an aircraft arrives at Cocos, but the Christmas kite is something special. Men, women and children will gather at the little post office beneath the coconut palms, and wait until Ronald Mead, the postal clerk from Bassendean, Western Australia, sorts the mail. The folk will take it to their homes, open it, and then continue their party from where they left off before the Qantas interruption.</p>
+<p>But the Christmas mail is a problem all over. A fishing boat takes the mail to Tasman Island Lighthouse, at the extreme south-east tip of Australia. Rock projections and nasty savage currents guard the approaches to the landing stage, which is 70 feet above the sea. As for the actual delivery, it is done from an open boat, it is too dangerous for larger craft, into a flying fox. From the landing stage passengers and mails are transported another 900 feet in an almost vertical ascent.</p>
+<p>Or how about Frank Emery out in the corner, that is the south-west corner of Queensland? On Thursdays and Sundays Frank collects the mail from Cunnamulla, on a round trip of 266 miles, winding up at Thargomindah, 645 miles from Brisbane. Often in Christmas time the big wet turns the country into mud, the streams into vast rivers and lakes, stretching for miles. So Frank carries a boat on the back of his truck and where he can't drive he floats. Then if he can't do either he slogs it on foot through the sticky mud.</p>
+<p>Finally, when he arrives at Thargomindah, Mr. J. T. W. Fitzpatrick, the postmaster takes over. Postmasters, like everybody else, can be very accommodating in the inland. Mr. Fitzpatrick doesn't mind sorting the mail on Christmas Day, and often it's well on towards mid-afternoon before he gets his Christmas dinner.</p>
+<p>What else? At Coober Pedy, the opal field in the South Australian desert, Father Christmas almost certainly will be working in temperatures over 105 degrees. Father Christmases who wear nylon beards in temperatures over 105 deserve real sympathy.</p>
+<p>Then at the Moonie oil fields, in Queensland, the Canadian oil drillers will be celebrating Christmas dinner at Tara, 38 miles from Moonie. It will be a nice change for these people to get away from Christmas trees for a day or two. In the oil business a Christmas tree is the incredible array of pipes and valves that goes on the top of an oil well.</p>
+<p>And, of course, people will be working everywhere, fire-watchers, police, newspaper reporters, postal department technicians 4,000 feet up by the transmitters at Mt. Barrow, near Launceston. Even on Christmas Day, TV, apparently, is a desperate necessity. Technicians, too, have to bring in the Queen's speech. A full staff of girls have to stay on the job at the Overseas Telephone Exchange to handle Christmas greetings from all over the world. Christmas Day is even worse than Mother's Day.</p>
+<p>And what about the bush track? Work still goes on. The artesian bores have to be kept pumping, the drovers in the Centre still have to move their stock. You can be sure that somewhere out on the track, this Christmas night, some drover will be cooking a damper and boiling a billy, under the stars. This will be a scene very little different from another that took place 2,000 years ago, when</p>
+<p>'Shepherds watched their flocks by night.'</p>
+<hr>
+<p><em>Source: <a href="https://nla.gov.au/nla.obj-754299301">Christmas across a continent</a>, Walkabout Magazine, 1963-12-01. Retrieved via the National Library of Australia's Trove database.</em></p>
+
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="bg-light p-4 rounded">
+  <!--<h3>Sidebar Single</h3>-->
+<p class="lead">
+        A survey of how Australians spend Christmas Day across wildly different settings, from turkey conservatives at Rosebud and water-skiing Santas at Surfers Paradise to Warramunga camps, Antarctic research bases, and mail runs to Cocos Island and Tasman Island lighthouse.
+      </p>
+<hr>
+<h4 class="h6">Related topics</h4>
+<p class="small text-muted mb-3">
+    
+    <a href="/topic/surfers-paradise/" class="link-secondary">Surfers Paradise</a>,
+    
+    <a href="/topic/alice-springs/" class="link-secondary">Alice Springs</a>,
+    
+    <a href="/topic/aborigines/" class="link-secondary">Aborigines</a>,
+    
+    <a href="/topic/ayers-rock-(uluru)/" class="link-secondary">Ayers Rock (Uluru)</a>,
+    
+    <a href="/topic/bill-harney/" class="link-secondary">Bill Harney</a>,
+    
+    <a href="/topic/antarctica/" class="link-secondary">Antarctica</a>,
+    
+    <a href="/topic/cape-york-peninsula/" class="link-secondary">Cape York Peninsula</a>,
+    
+    <a href="/topic/thursday-island/" class="link-secondary">Thursday Island</a>,
+    
+    <a href="/topic/cocos-islands/" class="link-secondary">Cocos Islands</a>,
+    
+    <a href="/topic/tasman-island/" class="link-secondary">Tasman Island</a>,
+    
+    <a href="/topic/coober-pedy/" class="link-secondary">Coober Pedy</a>,
+    
+    <a href="/topic/canberra/" class="link-secondary">Canberra</a>
+</p>
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+       
+</div>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3"> 
+    <br><small><a href="https://twitter.com/keith_dunstan"><i class="fa fa-twitter" aria-hidden="true"></i>
+ Follow us</a> for content updates on this site</small> 
+<br><small>We're volunteers, <a href="https://ko-fi.com/jackdunstan">support us</a> to research, digitise, edit to bring this content to a new audience - with a <i class="fa fa-coffee" aria-hidden="true"></i>
+</a></small>
+<br>
+<small>Built with <a href="https://www.11ty.dev/">Eleventy</a> by <a href="https://www.linkedin.com/in/jackdunstan//">Jack Dunstan</a></i>
+</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>
