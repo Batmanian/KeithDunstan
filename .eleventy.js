@@ -1,4 +1,5 @@
 const { DateTime } = require("luxon");
+const { execFileSync } = require("child_process");
 const navigationPlugin = require('@11ty/eleventy-navigation')
 const rssPlugin = require('@11ty/eleventy-plugin-rss')
 const metagenPlugin = require('eleventy-plugin-metagen')
@@ -28,6 +29,13 @@ module.exports = function(eleventyConfig) {
   // build output.
   eleventyConfig.addPassthroughCopy("_redirects");
   eleventyConfig.addPassthroughCopy("_headers");
+
+  // CNAME (repo root) tells GitHub Pages which custom domain to serve.
+  // npm run build's clean-prod step (`rm -rf docs/*`) wipes it on every
+  // build, and nothing used to recreate it — hence the repo's long history
+  // of "Create CNAME" / "Delete CNAME" commits from re-adding it by hand
+  // after the fact. Passing it through here means it's back on every build.
+  eleventyConfig.addPassthroughCopy("CNAME");
 
   // Copy the static robots.txt to the site root
   eleventyConfig.addPassthroughCopy({ "src/robots.txt": "robots.txt" });
@@ -140,6 +148,32 @@ module.exports = function(eleventyConfig) {
     return DateTime.fromJSDate(dateObj, {
       zone: 'utc'
     }).toFormat('yyyy-LL-dd');
+  });
+
+  // Last commit date that touched a given source file, for the "Last
+  // updated" line on articles and book chapters (snippets/postcontent.njk).
+  // Computed straight from git history at build time rather than a
+  // frontmatter field, so it can never go stale or need re-running after an
+  // edit. Files not yet committed (e.g. brand new content) have no git log
+  // yet, so this returns null and the template hides the line until the
+  // next commit.
+  const gitLastUpdatedCache = new Map();
+  eleventyConfig.addFilter("gitLastUpdated", (inputPath) => {
+    if (!inputPath) return null;
+    if (gitLastUpdatedCache.has(inputPath)) return gitLastUpdatedCache.get(inputPath);
+    let result = null;
+    try {
+      const out = execFileSync(
+        "git",
+        ["log", "-1", "--format=%ad", "--date=short", "--", inputPath],
+        { cwd: __dirname, encoding: "utf8", timeout: 3000 }
+      ).trim();
+      if (out) result = new Date(`${out}T00:00:00Z`);
+    } catch (e) {
+      result = null;
+    }
+    gitLastUpdatedCache.set(inputPath, result);
+    return result;
   });
 
   // Nunjucks has no built-in string split — used to pull the collection

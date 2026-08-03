@@ -24,4 +24,10 @@
         {{ summary }}
       </p>-->
       {{ content | safe }}
+      {% set lastUpdated = page.inputPath | gitLastUpdated %}
+      {% if lastUpdated %}
+        <footer class="pt-4 mt-4 border-top text-muted small">
+          Last updated <time datetime="{{ lastUpdated | htmlDateString }}">{{ lastUpdated | readableDate }}</time>
+        </footer>
+      {% endif %}
     </article>
