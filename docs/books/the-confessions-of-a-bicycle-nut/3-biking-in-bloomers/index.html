@@ -1,0 +1,438 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Biking in Bloomers</title>
+<meta name="title" content="Biking in Bloomers">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Recounts how women fought their way onto the 1890s bicycle craze against jeering larrikins, killjoy clergy and cumbersome skirts, from rational dress and Amelia Bloomer to the vice-regal enthusiasm of Lady Brassey and the illuminated cycle quadrilles staged by confectioner Macpherson Robertson.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/the-confessions-of-a-bicycle-nut/3-biking-in-bloomers/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Biking in Bloomers">
+<meta property="og:description" content="Recounts how women fought their way onto the 1890s bicycle craze against jeering larrikins, killjoy clergy and cumbersome skirts, from rational dress and Amelia Bloomer to the vice-regal enthusiasm of Lady Brassey and the illuminated cycle quadrilles staged by confectioner Macpherson Robertson.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Biking in Bloomers">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/the-confessions-of-a-bicycle-nut/3-biking-in-bloomers/">
+<meta name="twitter:title" content="Biking in Bloomers">
+<meta name="twitter:description" content="Recounts how women fought their way onto the 1890s bicycle craze against jeering larrikins, killjoy clergy and cumbersome skirts, from rational dress and Amelia Bloomer to the vice-regal enthusiasm of Lady Brassey and the illuminated cycle quadrilles staged by confectioner Macpherson Robertson.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Biking in Bloomers">
+<link rel="canonical" href="https://keithdunstan.org/books/the-confessions-of-a-bicycle-nut/3-biking-in-bloomers/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1999-11-11">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="The Confessions Of A Bicycle Nut">
+<meta property="article:tag" content="Amelia Bloomer">
+<meta property="article:tag" content="Lady Brassey">
+<meta property="article:tag" content="Lord Lamington">
+<meta property="article:tag" content="Macpherson Robertson">
+<meta property="article:tag" content="Rippon Lea">
+<meta property="article:tag" content="St Kilda">
+<meta property="article:tag" content="Toorak">
+
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+    
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <header class="border-bottom pb-4 mb-4">
+        <h1 class="display-3">Biking in Bloomers</h1>
+        
+          
+          
+          <aside class="fw-bold">
+            26
+            min read.
+          </aside>
+          <p>First published
+            <time data-pagefind-meta="date" datetime="1999-11-11">1999</time>
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="The Confessions Of A Bicycle Nut">
+         <!--<a href="/tags/amelia-bloomer/" class="btn btn-outline-dark btn-sm me-2">Amelia Bloomer</a><a href="/tags/lady-brassey/" class="btn btn-outline-dark btn-sm me-2">Lady Brassey</a><a href="/tags/lord-lamington/" class="btn btn-outline-dark btn-sm me-2">Lord Lamington</a><a href="/tags/macpherson-robertson/" class="btn btn-outline-dark btn-sm me-2">Macpherson Robertson</a><a href="/tags/rippon-lea/" class="btn btn-outline-dark btn-sm me-2">Rippon Lea</a><a href="/tags/st-kilda/" class="btn btn-outline-dark btn-sm me-2">St Kilda</a><a href="/tags/toorak/" class="btn btn-outline-dark btn-sm me-2">Toorak</a>-->
+
+        
+      </header>
+     <!-- <p class="lead">
+        Recounts how women fought their way onto the 1890s bicycle craze against jeering larrikins, killjoy clergy and cumbersome skirts, from rational dress and Amelia Bloomer to the vice-regal enthusiasm of Lady Brassey and the illuminated cycle quadrilles staged by confectioner Macpherson Robertson.
+      </p>-->
+      <p>The decade of the 1890s was the glory time for the bicycle. It took the Safety bike complete with pneumatic tyres to complete the boom. The <em>Australian Cyclist</em> (1) estimated that in 1894 there were 8,000 cyclists in Melbourne alone, while <em>Review of Reviews</em> (2) claimed there were17,000 in the entire colony of New South Wales. Yet the <em>Review of Reviews</em> did concede that Melbourne had the reputation of being the cycling city of the world. &quot;Much as we admire our harbour, it is safe to say that the wheelmen of Sydney would willingly exchange it for those magnificent wide, level streets of the southern capital where it is claimed one can ride for 25 miles without leaving the wooden blocks. Our metropolis has the defects of its virtues. Its hilly nature renders cycling not altogether an unmixed pleasure and the narrow streets...are usually crowded with traffic to such an extent as to sorely try the nerves.&quot;</p>
+<p>One journal even suggested that the traffic would become so thick that eventually the city would have to put special tracks underground to preserve lives. The new bicycles were so fast that cyclists were not only killing themselves, they were killing others, and pneumatic tyres with their noiseless approach made them a bigger menace than ever. <em>Melbourne Punch</em> commented:</p>
+<p>His speed ranges up to a rate of 20 m.p.h. and it need hardly be said after he knocks down some quiet pedestrian he puts forth his best efforts to 'beat the record' in getting out of sight. The modern bicycle is a deadly Car of Juggernaut with this difference - the victims are unwilling</p>
+<!-- Page 34 is missing from the supplied scans; the text below picks up mid-sentence on page 35. -->
+<p>ones and are sent without warning to become the subject of Dr Youl's jokes and inquests.(3)</p>
+<p>Dr Youl was the notorious Melbourne City Coroner, but much the same thing was happening in Sydney. Judge Simpson in the Criminal Court said 'scorchers' were the problem. They drove so recklessly that anyone crossing the streets was in peril. If they caused the death of anyone, he warned, they would be charged with manslaughter or perhaps murder. (4)</p>
+<p>Bike riders were not popular with the authorities. Ordinaries, in particular, terrified the horses. Until the 1880s the roads had belonged to them. Now they saw this peculiar object, long spokes flashing, as lofty as they were, a human perched on top, and often ringing a bell. Bike riders adored their bells and they came in many different varieties. So horses bolted, carriages became difficult to control and the bicycle was the enemy, just another menace being inflicted by the young.</p>
+<p>In 1897 the Melbourne City Council came up with its own list of by-laws to control the 'Scorcher'. Every rider within a reasonable distance before passing had to sound a bell or whistle. If he was passing a horse that appeared to be restive he had to dismount &quot;<em>and continue dismounted as long as necessary</em>&quot;. Every rider of a bicycle, tricycle or velocipede had to carry a tin plate giving the owner's name and address. Certain intersections and corners could only be negotiated on foot. No riding two abreast, footpath riding was banned and lamps had to be carried at night. The <em>Australian Cyclist</em> fumed against what it called old fogeyism and said: &quot;Between the old man and the ass,- the by-law, cyclists are promised a joyous future&quot;. (5)</p>
+<p>The word 'joyous' was loaded with sarcasm. But there was joy. In every journal the correspondents told of the joy and pleasure created by the bicycle. In Melbourne, there were tales of summer moonlight rides down to the Mornington Peninsula. These must have been joyous indeed in days when there was no fear of the motor car. In Tasmania correspondents wrote: &quot;What can be a more lovely ride than that up the valley of the Derwent to New Norfolk&quot;. Then by 1896, according</p>
+<!-- Pages 36–37 are missing from the supplied scans; the chapter resumes below on page 38. -->
+<p>to the best estimate, there were 17,000 bicycles in Sydney and the League of New South Wales Wheelmen had 57 branches. (6)</p>
+<p>In Brisbane, the favorite trips were to Sandgate, Wynnum, Manly and Redbank. They all made fun runs. The Brisbane Safety Club ventured north as far as Gympie and south to the Tweed River. In Adelaide, the most popular ride was through the Mount Lofty Ranges. The first five or six miles were hard work &quot;but once the summit was attained the rider was more than recompensed&quot; for the hard work. (7)</p>
+<p>The amount of bad poetry that appeared in the journals was remarkable. Take this one, written for the Melbourne Bicycle Club Easter Tour of 1885:</p>
+<p>The wheelman's life is free from care</p>
+<p>If roads be smooth and winds are fair;</p>
+<p>Then let us mount the steed so light,</p>
+<p>With flashing nickel glist'ning bright,</p>
+<p>We'll bowl along Victoria's roads today</p>
+<p>With limbs so strong, and hearts so light and gay,</p>
+<p>Then let us have a song, lads as we pedal on so free</p>
+<p>For a jolly band of cycling boys are we.</p>
+<p>But my favorite piece of cycling verse is this:</p>
+<p>Oh sweet are sounds of water, and sweet</p>
+<p>The distant sounds of welcome feet,</p>
+<p>The wild bird's singing, the hum of bees,</p>
+<p>The night wind's rustle in summer trees;</p>
+<p>But none, to my ear, in sweetness excel</p>
+<p>The wee tink-tink of the bicycle bell. (8)</p>
+<p>Every emporium, every corner store, piano dealers, music shops, tailors, hardware businesses, they were all getting into the bicycle act. The range of accessories available was fascinating. There was the Bevin toe clip at 2/6 a pair, the Perfection Trouser Guard at 6d (this was almost like a large paper clip and it folded back the bottoms of the trousers). There were bicycle stands for five shillings, Buffalo Burning Oil for 1/6 a can, or graphite for the chain for 9d a box. One could buy a cyclometer; it would register up to 10,000 miles, &quot;easily read from the saddle&quot;. This, of course, depended on the bicycle. One rider reported on the dreadful danger of trying to read the cyclometer when riding a high bike. He bent down &quot;peering&quot; and had a very nasty fall. (9)</p>
+<p>There were training sweaters in navy and white for 3/6 each, racing knickers, all wool for 3/6 and an inside collar and throat protector, 7/6. The handy foot bicycle pump was 3/6 or 3/9 posted. There was the Ramsey Patent Swinging Pedal, &quot;a secret unearthed from the hidden mysteries of mechanics&quot;, 22/6 a pair. Also available was the Chameleon Cycle Signal which &quot;revolves in the wind being made of transparent coloured material, it throws out a beautiful whirl of colours&quot;, 2/0 each.</p>
+<p>There were drinks, there were foods. There were raisins and peppermints that should be used as chest and lung clearers. There was &quot;Kolacene - Australia's Favorite Drink&quot;, prepared from the Kola nut, &quot;the cycling nut from West Africa. A highly refreshing and palatable drink&quot;, said the advertisement. &quot;Its properties are unequalled for preventing bodily fatigue after a hard ride or severe training. Its use also counteracts the effects of alcohol.&quot; (10)</p>
+<p>What else? Japanese luncheon baskets with brass buckles; luggage carriers &quot;that will carry anything from a paper collar to a Gladstone bag&quot;; &quot;the spot cash vulcaniser, ingenious machine does its work automatically and will repair a ruined tyre in a few minutes&quot;; aluminium chair guards &quot;as elegant as cast iron balconies but weigh only a few ounces&quot;. Lights; a huge range of them like the &quot;Candle Power 20th Century Lamps that will vie with a cable tram for brilliancy&quot;. (11)</p>
+<p>Until the late 1890s cyclists used oil lamps which gave out a dim glow and were of little use in finding a pot hole. But then came the Acetylene Lamp, which was much more effective. There was the X-Ray, the Great Illuminator, 2/11; the Silver King, 13/9; or the Midget, 4/11.</p>
+<p>Water dripped on to carbide, which gave off a gas. The burning of the gas provided a brilliant light. In 1899 the <em>Australian Cyclist</em> road tested one of the latest lamps:</p>
+<p>The lamp is lighter than any we have tried. Fully charged with carbide, and the water tank filled, it weighs a shade under 1lb and burns from four to five hours...The burning of the lamp is very satisfactory, both as regards the intensity of the light and its ability to keep in over a rough road, or against a strong head wind. The proper flow of water, however, requires to be correctly understood, but this once being accomplished...the lamp cannot fail to give the highest satisfaction. Price 15s. (12)</p>
+<p>Acetylene lamps were efficient. Many cyclists were still using them 40 years later, even though the dynamo light was invented before the turn of the century. They were always cheaper to run than battery lamps. However, human beings do not change. From the 1880s on, newspaper editorials were complaining about the irresponsible, outrageous riders who propelled their velocipedes unlit at night.</p>
+<p>The Safety bicycle, complete with pneumatic tyres, made cycling possible for women. Prior to 1890 it was very difficult indeed. They suffered. How could they get into this craze? It really was not proper for a lady to ride astride a bicycle. One writer suggested, in the United States the Bloomers and the Mary Walkers might take to 'velocipedestrination', but European ladies would prefer propriety to sensation. &quot;It would no doubt be mighty pleasant to go out velocipeding with your friends, each mounted on her own bicycle, but custom and nature revolt against it.&quot; (13)</p>
+<p>Originally there were some side-saddle boneshakers, but they were useful only for going downhill. The one possible alternative was the tricycle, and particularly the sociable designed for two. So the journals were full of tales of deserted wives, left at home while their men toured the country on wheels. Cycling poets put the delicate matter into verse:</p>
+<p>Oh! Ladies, dear ladies, be cold as an icicle,</p>
+<p>To each man who you fancy is fond of a tricycle.</p>
+<p>Be deaf to his tender pathetic appeals</p>
+<p>If he cherish a weakness for riding on wheels.</p>
+<p>For oh! If you marry, beware of the day</p>
+<p>When he'll mount on his wheels and be off and away;</p>
+<p>And you'll pine and you'll fret in your bower alone,</p>
+<p>And you'll see him afar like a king on his throne.</p>
+<p>Then take warning by me and be cold as an icicle,</p>
+<p>To a man who is guilty of riding a tricycle,</p>
+<p>Except - and indeed, the exception is notable-</p>
+<p>He will sell his old 'sulky' and purchase a Sociable. (14)</p>
+<p>The venturesome women who did take to the bicycle received a bad time. The street larrikins, and there were plenty of them in the 1880s, jeered and catcalled as they went past. Furthermore, a lady, when she ventured abroad, had to look like a lady. This meant hat, gloves, full length sleeves, skirt to the ankle, plus whalebone corsets or stays to make sure her figure was correct. One can only imagine the difficulty of trying to ride in such gear.</p>
+<p>Women did try to tour in such clothing, riding 50 or 100 miles. In wind such gear was bad enough, but in the rain it was appalling. Heavy skirts hung round the knees and ankles like sopping hessian bags. Here is one example of female fury:</p>
+<p>It (the skirt) is an abomination, cut tight around the hips and expanding from the knees downwards, leaving far too much room for the motion of the knees; tossed hither and thither in wild disorder; scarcely ever fastened down; inviting every zephyr to rush into it and distort it; bulging in this direction, now in that; blown sometimes tight against one leg, and revealing the whole outline on that side as completely as if the wearer were clad in tight trousers, whilst on the other it spreads out like the sail of a yacht; sometimes bulging into a balloon which is monstrous and ridiculous; always an eyesore and a danger, not infrequently indecent. (15)</p>
+<p>They were dangerous indeed. The Editor of <em>Austral Wheel</em> said he was riding with a well known lady. They were just trying to pass between a lorry and an advancing cable tram when his companion's dress caught the pedal, wound up tight and brought her down with a crash within 10 feet of the tram. He hopped off his bike, dragged her aside and the tram missed her by just two feet. The same lady had since switched to rational dress. (16)</p>
+<p>How could they ride in such gear? 'Aeolus' wrote a 'Ladies Column' for the <em>Australian Cyclist</em>. We know only that she was a pioneering feminist and one of the first females who dared to ride a bike in public in Melbourne. Aoelus was the Greek God of the Winds, and interestingly enough, a male. He was the ruler of Aeolia and in Homer's <em>Odyssey</em> he gave Odysseus a bag containing contrary winds. Odysseus' companions untied it and precisely the wind they didn't want blew them back to Aeolia. It seemed a very good name for anyone associated with bicycling.</p>
+<p>Aeolus reported on Melbourne's New Year in January 1896 and she told of one of the worst days for cycling she had experienced, the wind howled from the north, blowing clouds of dust. Here were six ladies on their bikes. Their plan was to ride from St Kilda to Hawthorn via St Kilda Road. They wore shady hats, thick veils and wide skirts. They were 'eminently uncomfortable'. Two rode half a mile along Alma Road and gave up. Two stopped at St Kilda Junction and the remaining two struggled behind a tram as far as Princes Bridge then turned back thoroughly exhausted.</p>
+<p>Aeolus said a society journal was recommending that 'wheelwomen' should always wear shady hats with white chiffon veils. What rubbish, said Aeolus. &quot;Any experienced cycliste in a head wind knows how impossible it is keep on a broad-brimmed hat for the wind has a trick of lifting it up that is unpleasant to the wearers of the false fringes now so popular. A chiffon veil looks pretty in an advertisement but I should be sorry to pay the bill for any cyclists who chooses to wear those flimsy things.&quot; (17)</p>
+<p>The brave, indeed the incredibly brave, wore 'rational dress'. It came in several forms. There were divided skirts, which sometimes were hardly more helpful than the plain full skirt. There were knickerbockers, trousers gathered in below the knee and worn with long socks, then there were bloomers, a matter of great amusement to derisive onlookers. The bloomers were named after Amelia Jinks Bloomer. Mrs Bloomer was a great fighter against sexual discrimination. She ran a journal called <em>Lily</em> in Seneca Falls, New York. In the early 1850s she used to appear at her lectures wearing trousers gathered in at the ankle under a short skirt.</p>
+<p>One journal defined bloomers thus:</p>
+<p>The bloomer dress is a pair of trousers, very baggy at the knees, abnormally full about the pistol pockets and considerably loose where you strike a match. The garment is cut decolette in the south end, and the bottoms are tied up around the ankles or knees to keep the mice out. You can't put it over your head, the way you do with corsets, but you sit on the floor and put it on just as you do your stockings - one foot in each compartment. You can easily tell which is the right side to have in front by the button on the neckband. (18)</p>
+<p>In April 1884 <em>Australian Cycling News</em> reported that some clubs were trying to interest the ladies in riding bicycles. The wheel, it said, could be of much benefit to the ladies &quot;in point of health and vigour&quot;. However, they did not ride bikes because there was no suitable dress. But wait, the Cycling Touring Club in England had now recommended a women's uniform:</p>
+<ol>
+<li>
+<p>A combination, merino or woollen garments, to be worn next to the body.</p>
+</li>
+<li>
+<p>A pair of dark grey woollen or merino stockings.</p>
+</li>
+<li>
+<p>A pair of loose knickerbockers, of the Club cloth, fastened with elastic, or by a cloth strap and buckle, under the knee; to be suspended from the hips or the shoulders at the option of the wearer.</p>
+</li>
+<li>
+<p>A helmet or hat of the Club cloth or of straw, with a special and registered ribbon.</p>
+</li>
+<li>
+<p>A pair of soft 'Tilbury'd' doeskin gloves. (19)</p>
+</li>
+</ol>
+<p>Few women adopted the C.T.C. uniform. A full decade later it was not easy. This was one story:</p>
+<p>SCENE.- A small crowd gathered in front of an outfitter's establishment, where a wax figure was exhibited in lady cycling costume - Rational and up-to-date.</p>
+<p>&quot;Look, ma!&quot; exclaimed a pretty girl, &quot;the wax face is beginning to melt.&quot;</p>
+<p>&quot;It's not to be wondered at,&quot; answered the stern matron, &quot;even a figure is ashamed of that shocking dress. Come along Minnie.&quot; (20)</p>
+<p>It could be a humiliating experience riding 'rational' in the city, so many of the touring ladies drove out of town in their skirts, then as soon as they were safely in the country they changed to bloomers or knickerbockers.</p>
+<p>There was a very apt ditty for the situation:</p>
+<p>Sing a song of bloomers out for a ride,</p>
+<p>With four and twenty bad boys running at her side,</p>
+<p>While the maid was coasting the boys began to sing,</p>
+<p>&quot;Get on to her shape, you know,&quot; and all that sort of thing. (21)</p>
+<p>Bloomers were so outrageous, they were even against the law. Gregory Macalister Mathews became a distinguished ornithologist. In one of his reminiscences he recalled adventures in Charters Towers, Queensland, 1892: &quot;Bloomers came in, but they were at first illegal, as women masquerading in men's attire were considered to be breaking the law. I call to mind the occasion when a hostess organised a bicycle picnic and all rode some miles out of town. The women then removed their skirts and rode in bloomers. Along came a policemen and took names and addresses of all those <em>fast women</em>.&quot; (22)</p>
+<p>Ladies riding bicycles was bad enough, but when they took to racing it was quite horrifying. In 1885 the South Australian Bicycle Club held a championship meeting in Adelaide and this included a ladies' tricycle race. The victor was Miss Wills, who won a trophy valued at four guineas. She covered three miles in nine minutes 43 seconds off a handicap of 395 yards. Even the cycling journals were shocked:</p>
+<p>Where would we ask is a man who would care to see his sister or maybe his mother-in-law, straining her muscular energy tricycle racing before an assemblage of people? What amount of modesty could a lady possess to undertake such performances. And how edifying to the public mind. (23)</p>
+<p>One way to make cycling respectable was to stress continually how the Royal Family, how the Royal Ladies, how the inmates of the stately vice-regal houses all took to wheels. Frequently Viscount Hampden would be seen riding his bicycle in George Street, Sydney, steering his way down past omnibuses, steam trains and through narrow streets. <em>Melbourne Punch</em> thought him a better rider, actually, than Lord Brassey, who had hit a &quot;Chinaman's handcart&quot;. (24)</p>
+<p>In Brisbane, the Governor, Lord Lamington, cycled and so did Lady Lamington. As soon as Lady Lamington took to wheels the ladies of Brisbane swarmed to the various bike outlets to buy their machines. Lord Lamington's bicycle was so splendid half of Brisbane turned out to admire it. (25) Lamington had a plateau and a national park named after him, but his greatest achievement could have been the wonderful cake, the confection of sponge, chocolate and coconut, allegedly created in his honour by a cook at Brisbane's Government House.</p>
+<p>Royal representatives also had their wheels in South Australia. Sir Thomas Fowell Buxton and the vice-regal family made all the difference to bicycling in Adelaide. The Governor's daughters had &quot;learned to ride the wheel in England&quot;. (26)</p>
+<p>But the great enthusiast was Lady Brassey in Melbourne. Lady Brassey was constantly seen on her safety. Indeed the whole vice-regal house would turn out, Lord Richard, Captain Neville, R.N., Mrs Neville, Sir Hartly Williams, Commander Collins, all on their bikes. <em>Austral Wheel</em> reported in January 1896 that Lady Brassey and Mrs Freeman-Thomas were to be seen on their iron steeds at all hours of the day varying from early morning to late in the evening. &quot;Just recently at a fashionable moonlight garden party in Toorak, the Hon. Mrs Cavendish, the Hon. Mrs Carrington, including members of Lord Brassey's staff, arrived on bicycles.&quot;</p>
+<p>Lady Brassey rode a Singer Safety, Model de Luxe, the top of the Singer range. It was coloured a rich chocolate and gold with brown morocco saddle and with bag and dress guard to match. It sported a brake, very light mudguards and &quot;improved celluloid gear case, ivory and cork handles, all-up weight, 32 pounds&quot;. The effect was very pleasing, according to Aeolus. The Empress of Germany had a similar bicycle.</p>
+<p>Lord Brassey was not quite such an enthusiast. He preferred a tricycle and he claimed that his record on a three-wheeler was 23 miles. Also he was not an enthusiast for climbing hills. He was just on 60 when he arrived in Melbourne. Lady Brassey, the former Sybil de Vere Capell, was the youngest daughter of Viscount Malden, and they had married in 1890.</p>
+<p>Lady Brassey made all the difference. Aeolus, who could be very caustic, said Melbourne women one moment were saying that female cyclists were a disgrace to their sex, but as soon as they saw Lady Brassey on her Singer they all wanted a bicycle. One could sit in a fashionable St Kilda Hotel on a fine evening and observe the different sets of society wheelwomen. There was the Toorak set, the St Kilda set, the Elsternwick, and the East St Kilda sets, they were as distinct from each other as ladies in stalls at a fancy fair. Women would not join clubs unless members were in their own set and on visiting terms with each other. (27).</p>
+<p>Aeolus was a great admirer of Lady Brassey, but disappointed because she stuck rigidly to the skirt, no rational dress for her. So the form was virtually dictated; Melbourne women would not switch to rational dress either. There had been few converts, she said. &quot;Whatever is fashionable in Melbourne is worn indiscriminately and if a particular costume for a particular occasion is not fashionable and not approved by leaders of Melbourne society oceans of ink and tons of papers might be wasted by women writers, and men too, and make no impression whatever on the multitude of Melbourne women. (28)</p>
+<p>So she tried to give advice for skirt wearers. If it was not properly made it was certain to ride up in front and catch in the pedals. It should reach down to the instep unless gaiters were worn, when it could be cut above the ankle. However, the shorter the skirt, the harder it was to keep in place. The width around the hem should be two to two yards, never more. With a wider skirt the effect was most ungraceful, as a balloon of material flew out on each side of the wheel. As for corsets, a slight, well set-up figure could get away without them, but a plump or heavy figure really needed some support. (29)</p>
+<p>The years 1895 to 1897 were the peak of the craze. So many people wanted bicycles it was impossible to fill all the orders. There were complaints that women no longer were interested in the piano, all they wanted was their Safeties. There had been complaints that the railways had destroyed the country inn. Before the railway train there was good accommodation every 20 miles or so to cater for the stage coach. This was particularly so in England. Now the inns were making a come back because of the touring cyclist.</p>
+<p>One of the hit songs of 1896 came out of Holland, 'Everyone on your Bike'.</p>
+<p>What gives you courage and muscles of steel?</p>
+<p>The bike! The bike! The bike!</p>
+<p>What gives your hinges that supple feel?</p>
+<p>The bike! The bike! The bike!</p>
+<p>What's the subject of all conversations?</p>
+<p>The bike! The bike! The bike! (31)</p>
+<p>Newspapers were filled with advertisements directed straight at the cycling ladies. &quot;Messrs George &amp; George beg to inform the cycling public that they are prepared to execute bicycle suits and every outfitting and drapery in the latest, most approved style.&quot; Stainer's of Swanston Street, Melbourne, had the Ryde Cycling Skirt, Patent 13043. &quot;This skirt, for either Lady's or Gentleman's Bicycle, is pronounced by leading riders to be the only Costume which complies with all the requirements of the Lady Cyclist.&quot;</p>
+<p>There were dozens of bicycling schools. There was Melbourne Hall at 184 Exhibition Street, near Bourke Street. Cycling Taught Daily, 10 a.m. to 6 p.m. The Lady Teacher was Miss Lucy Beyer, the most famed lady cyclist in Melbourne, and male teachers were Mr C. Wagner and Mr F.P.C. Beyer (by arrangement).</p>
+<p>The word of the moment was 'up-to-date' and a hostess was tremendously up-to-date if she could throw a party featuring bicycles. In October 1895 Sir Frederick and Lady Sargood had a garden fete at their home, Rippon Lea. Sir Frederick was an immensely rich merchant and politician, a millionaire even in the financially strapped '90s depression. His mansion, now owned by the National Trust, had 60 acres of garden. The ballroom seated 300, and was used for glee club meetings and fencing. There was a shooting range, croquet lawn, tennis court, conservatories, winding paths with archways, fern houses, buffalo grass lawns, rose gardens, statues and fountains.</p>
+<p>There were 2000 guests seeing it was in the presence of Lord and Lady Brassey and there was a bicycle quadrille. The man behind the quadrille was the astonishing Macpherson Robertson, who had a confectionery business in Fitzroy titled Macrobertson's Steam Confectionery Works. In 1893 he went off to the United States and returned abrim with ideas from &quot;Colossal Americ&quot;. Two of his American ideas were chewing gum and fairy floss. He soon had all Melbourne chewing Macrobertson's Pepsin Chewing Gum. <em>Table Talk</em> magazine reported that in the gum department of the Fitzroy factory there were 48 girls all in white overalls and white caps &quot;as busy as bees&quot;. (32)</p>
+<p>Macpherson Robertson had his own cycling academy with the illustrious title Mac Robertson's Musical Cycle Hall. It was at 217-230 Argyle Street next to the confectionery works. In 1896 Mac Robertson announced that the new American craze of quadrilles on bicycles had taken over from dancing. He had engaged Professor C.H. Eckenstein as his chief instructor in &quot;the Art of Cycling, in all its branches&quot;. In the 1890s anyone who taught an art, whether it were horse riding or bare knuckle boxing, was a professor. Mac Robertson advertised: &quot;The Professor's reputation as a Classical Cyclist is well known in England, where he had the honour of teaching the Princess of Wales, and other members of the Royal Family. Lord and Lady Brassey and contingent have also been instructed in Melbourne under his guidance...Classes are now forming under Prof. Eckenstein's personal conduction. The Musical Cycle Quadrilles are taught to pupils in a thoroughly systematic, efficient and graceful manner, and under his special tutorship pupils gain a confidence on their wheels known only to experts. The poetry of motion, the gliding, swanlike evolutions of the Cycle Quadrilles are simply charming.' (33)</p>
+<p>The Professor had on his staff four lady and four gentlemen expert quadrille riders. As soon as Mac Robertson heard of the Rippon Lea garden fete, he offered Colonel Sargood the services of the Professor and his quadrille team.</p>
+<p>&quot;Rippon Lea was something to see when the quadrille cyclists, ladies and gentlemen, filed out in couples to the strains of a Hungarian band, swaying, circling, cantering and swinging, the actions in pairs and quartets, most delicately and gracefully accomplished.&quot; Macpherson Robertson always dressed immaculately in white, prided himself on being an athlete. He and Eckenstein had a wrestling match on bicycles &quot;stubbornly fought&quot; and Eckenstein won two falls to one. (34)</p>
+<p>There were many such parties with Robertson and Professor Eckenstein doing their stuff. There was a splendid affair on 29 October, 1896 at Ottawa in Toorak. Ottawa was another vast estate, the home of Mrs Alec Murphy. She had a marquee erected over the tennis court and in another portion of the grounds there were ice cream tents with &quot;icicles galore to the intense delight of the cyclists&quot;. There was an egg and spoon race, a parasol race, tent pegging and a letter writing competition, all on the bicycle. Then Mr Robertson put on display his latest importation, the Companion Bicycle - a bicycle for two - which was tried by all the riders. It was &quot;quite up-to-date&quot; according to <em>Table Talk</em>. (35)</p>
+<p>A week later the Honorable Mrs Rupert Carrington had her show at Alvie in Toorak. It took place at night and the bicycles were electrically lit, which was an astonishing innovation. The lights were so bright they dazzled the riders. The electric headlight worn by Professor Eckenstein was particularly brilliant. Macpherson Robertson brought it out specially from England, the only one in Australia. <em>Table Talk</em> reported: &quot;The illuminated cycle quadrille was a great success. The party arrived at 'Alvie' at 10.30 p.m., with the whole face on each bicycle brilliantly lighted with coloured lights, while suspended on either side of the front wheel were Chinese lanterns. The lights swayed too and fro and hung with every motion of the machine. The riders rode up in pairs and rang their bells all the way up the paths. The effect was very fine. The ladies wore silk blouses and caps, while the gentlemen were clad in white coats and knickers, blue caps and black hose.&quot; (36)</p>
+<p>Then there was the other aspect, bicycling was so good for the health. Yet when it started in the early 1880s there were serious doubts. Bicycling could give you bad posture. All that bending towards the handlebars could damage the spine; saddles could cause fearful irritation; the thirst that arose would be the cause of too much beer drinking, hence kidney stones, and there were even suggestions too much cycling was bad for the nervous system, resulting in insanity. (37)</p>
+<p>But once the craze took hold, the view was very different. Dr Springthorpe, an avid Melbourne cyclist, still thought it inadvisable in the young, because from their immaturity, distortion of spine and disproportionate development of heart and leg were too probable. But for those who had to work indoors it offered advantages that could be found in no other form of exercise. He said: &quot;Mechanics, machinists, workers in shops and factories - to such the cycle opens up new and healthier exercise. It means more room and less overcrowding, more country and less towns, less smoking and less drinking. It alters environment as nothing else has ever attempted.&quot; (38)</p>
+<p>In 1895 a physician pointed out that there was no better exercise for a woman, yet beginners should take care. &quot;No woman, however strong or eager to learn, should take a lesson over half an hour and she should stop frequently in the course of it to rest and draw some long breaths...if the first lesson of half an hour seems to have exhausted her strength, she should cut it in half, taking fifteen minutes twice in one day, and a biscuit and a glass of sherry when the exercise is over.&quot; (39)</p>
+<p>But some were so enthusiastic about cycling one wondered whether doctors were needed at all. Cycling cured everything. Dr W.H. Fenton said cycling could cure 90 per cent of functional ailments begotten of ennui. For women it worked like a charm for gout, rheumatism, indigestion, sleeplessness, so called nerves and all petty miseries, for which the liver was often the scapegoat, disappeared in the most extraordinary way when fresh air was inhaled.</p>
+<p>Dr Phillip Muskett of Sydney recommended cycling for acidity, anaemia, bloodlessness, constipation, headaches, heart affections, hysteria, indigestion, leanness, liver disorders, lung weakness, nervous worry, neuralgia, obesity, palpatations, piles, sleeplessness, 'uric acid' and varicose veins. It was also marvellous how quickly cuts healed, when one was a cyclist. (40)</p>
+<p>But what should one eat? Medicus writing in <em>Bicycling News</em> suggested that if one was training very hard, say, for a six-day event, then one should eat flesh in the form of steak, chops, etc. The quantity taken each day should be gradually increased, and at the same time vegetables and farinaceous food gradually diminished. Liquid should also be taken in very moderate quantities, although it was not necessary to abstain from them altogether.</p>
+<p>He recommended the system used at Oxford University for the boat races. Just substitute cycling for rowing.</p>
+<p>A DAY'S TRAINING</p>
+<p>Rise about 7 a.m.</p>
+<p>Exercise: Short walk or run.</p>
+<p>Breakfast, at 8.30: Meat, beef or mutton; bread or dry toast; tea, as little as possible.</p>
+<p>Exercise (forenoon): None.</p>
+<p>Dinner, at 2p.m. Meat, much the same as breakfast; no vegetables; beer, one pint.</p>
+<p>Exercise: About five o'clock start for the river, and row twice over the course (nearly a mile and one eighth), the speed increasing with the strength of the crew.</p>
+<p>Supper, at 8.30: Meat, cold; bread, perhaps a jelly, or watercress; beer, one pint.</p>
+<p>Bed about 10 o'clock. (41)</p>
+<p>Unquestionably this diet would have been considered most abstemious for 1883.</p>
+<h2>Notes</h2>
+<ol>
+<li>Australian Cyclist, 1 February 1892.</li>
+<li>Review of Reviews, 20 February 1896.</li>
+<li>Melbourne Punch, 1 February 1894.</li>
+<li>Australian Cycling News, 5 October 1899.</li>
+<li>The Australian Cyclist, 29 April 1897.</li>
+<li>Review of Reviews 20 July 1896.</li>
+<li>Ibid, 20 August 20, 1896.</li>
+<li>Bicycling News, 3 August 1882.</li>
+<li>The Australian Cyclist, 12 April 1900.</li>
+<li>Ibid, 27 January 1898.</li>
+<li>Ibid, 13 January 1898.</li>
+<li>Ibid, 10 February 1899.</li>
+<li>The Velcocipede, Its past, Its Present, Its Future, Joseph Bottomley.</li>
+<li>Bicycling News, 4 October 1883.</li>
+<li>The Australian Cyclist, 9 July 1896.</li>
+<li>Australian Cyclist, 16 January 1896.</li>
+<li>Austral Wheel, June 1896.</li>
+<li>Australian Cyclist, 13 June 1895.</li>
+<li>Australian Cycling News, 26 April 1884.</li>
+<li>Australian Cyclist, 17 April 1895.</li>
+<li>A Social History of the Bicycle, Robert A. Smith.</li>
+<li>Birds and Books, Mathews, G.M.</li>
+<li>Australian Cycling News, 24 October 1885.</li>
+<li>Melbourne Punch, 22 October 1896.</li>
+<li>Review of Reviews, 20 August 1896.</li>
+<li>Ibid.</li>
+<li>Australian Cyclist, 24 December 1895.</li>
+<li>Ibid.</li>
+<li>Ibid, 25 June 1896.</li>
+<li>Ibid, 13 June 1895.</li>
+<li>On Your Bicycle, James McGurn.</li>
+<li>Table Talk, 13 November 1896.</li>
+<li>Austral Wheel, November 1896.</li>
+<li>Australian Cyclist, 8 October 1895.</li>
+<li>Table Talk, 13 November 1896.</li>
+<li>Ibid, 20 November 1896.</li>
+<li>A Social History of the Bicycle, Robert A. Smith.</li>
+<li>Review of Reviews, Dr Springthorpe, 20 December 1895.</li>
+<li>Australian Cyclist, 3 October 1895.</li>
+<li>Australian Cycling Annual 1897.</li>
+<li>Bicycling News, January 1883.</li>
+</ol>
+
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          <div class="bg-light p-4 rounded">
+  <!--<h3>Sidebar Single</h3>-->
+<p class="lead">
+        Recounts how women fought their way onto the 1890s bicycle craze against jeering larrikins, killjoy clergy and cumbersome skirts, from rational dress and Amelia Bloomer to the vice-regal enthusiasm of Lady Brassey and the illuminated cycle quadrilles staged by confectioner Macpherson Robertson.
+      </p>
+<hr>
+<h4 class="h6">Related topics</h4>
+<p class="small text-muted mb-3">
+    
+    <a href="/topic/amelia-bloomer/" class="link-secondary">Amelia Bloomer</a>,
+    
+    <a href="/topic/lady-brassey/" class="link-secondary">Lady Brassey</a>,
+    
+    <a href="/topic/lord-lamington/" class="link-secondary">Lord Lamington</a>,
+    
+    <a href="/topic/macpherson-robertson/" class="link-secondary">Macpherson Robertson</a>,
+    
+    <a href="/topic/rippon-lea/" class="link-secondary">Rippon Lea</a>,
+    
+    <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>,
+    
+    <a href="/topic/toorak/" class="link-secondary">Toorak</a>
+</p>
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+       
+</div>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3"> 
+    <br><small><a href="https://twitter.com/keith_dunstan"><i class="fa fa-twitter" aria-hidden="true"></i>
+ Follow us</a> for content updates on this site</small> 
+<br><small>We're volunteers, <a href="https://ko-fi.com/jackdunstan">support us</a> to research, digitise, edit to bring this content to a new audience - with a <i class="fa fa-coffee" aria-hidden="true"></i>
+</a></small>
+<br>
+<small>Built and maintained by <a href="https://www.linkedin.com/in/jackdunstan//">Jack Dunstan</a></i>
+</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

@@ -4,37 +4,33 @@ title: The Age
 summary: Keith Dunstan's articles published in The Age.
 ---
 
-<div class="row">
-  <div class="col-12 col-lg-8 offset-lg-2">
-    <p class="lead">Keith Dunstan wrote for The Age occasionally from 1986 until his death.</p>
-    <p><a href="https://en.wikipedia.org/wiki/The_Age">The Age</a> is a Melbourne broadsheet founded in 1854, long regarded as the city's paper of record and the natural home for Dunstan's later columns after a career built at its rival, the Herald and Weekly Times stable. Collections of his columns for The Age can also be found in his books "No Brains on Tuesday" and "A Day in the Life of Australia".</p>
-    <h4>Articles</h4>
-    {% set decades = collections.theage | groupByDecade %}
-    <div class="accordion pt-3 pb-3" id="theageAccordion">
-      {% for group in decades %}
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="heading{{ group.decade }}">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ group.decade }}" aria-expanded="false" aria-controls="collapse{{ group.decade }}">
-              {{ group.decade }}s
-              <span class="ms-auto me-2 text-muted">{{ group.articles.length }} article{{ "s" if group.articles.length != 1 }}</span>
-            </button>
-          </h2>
-          <div id="collapse{{ group.decade }}" class="accordion-collapse collapse" aria-labelledby="heading{{ group.decade }}" data-bs-parent="#theageAccordion">
-            <div class="accordion-body">
-              <ul class="list-unstyled mb-0">
-                {% for article in group.articles %}
-                  <li class="mb-2">
-                    <a href="{{ article.url | url }}">{{ article.data.title }}</a>
-                    <span class="text-muted"> — {{ article.date | readableDate }}</span>
-                  </li>
-                {% endfor %}
-              </ul>
-            </div>
-          </div>
+<p class="lead">Keith Dunstan wrote for The Age from 1986 until his death in 2018.</p>
+<p><a href="https://en.wikipedia.org/wiki/The_Age">The Age</a> is a Melbourne broadsheet founded in 1854, long regarded as the city's paper of record and the natural home for Dunstan's later columns after a career built at its rival, the Herald and Weekly Times stable. Collections of his columns for The Age can also be found in his books "No Brains on Tuesday", where for a period he wrote a weekly column and "A Day in the Life of Australia" - a series to commemorate Australia's Bicentenary in 1988.</p>
+<h4>Articles</h4>
+{% set decades = collections.theage | groupByDecade %}
+<div class="accordion pt-3 pb-3" id="theageAccordion">
+  {% for group in decades %}
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="heading{{ group.decade }}">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ group.decade }}" aria-expanded="false" aria-controls="collapse{{ group.decade }}">
+          {{ group.decade }}s
+          <span class="ms-auto me-2 text-muted">{{ group.articles.length }} article{{ "s" if group.articles.length != 1 }}</span>
+        </button>
+      </h2>
+      <div id="collapse{{ group.decade }}" class="accordion-collapse collapse" aria-labelledby="heading{{ group.decade }}" data-bs-parent="#theageAccordion">
+        <div class="accordion-body">
+          <ul class="list-unstyled mb-0">
+            {% for article in group.articles %}
+              <li class="mb-2">
+                <a href="{{ article.url | url }}">{{ article.data.title }}</a>
+                <span class="text-muted"> — {{ article.date | readableDate }}</span>
+              </li>
+            {% endfor %}
+          </ul>
         </div>
-      {% else %}
-        <p>No Age articles found yet.</p>
-      {% endfor %}
+      </div>
     </div>
-  </div>
+  {% else %}
+    <p>No Age articles found yet.</p>
+  {% endfor %}
 </div>

@@ -10,14 +10,35 @@ body {
 // Bootstrap's own variables) keeps both wired to --bs-success-rgb so they
 // stay in sync if the success color ever changes. This block comes after
 // Bootstrap's own :root and [data-bs-theme=dark] rules in the compiled
-// output, so — despite matching specificity — it wins in both colour modes
-// without needing a duplicate dark-mode block.
+// output, so — despite matching specificity — it wins over Bootstrap's own
+// rules in both colour modes. Dark mode gets its own brighter tint further
+// down, in the [data-bs-theme=dark] block, since plain $success reads a bit
+// drab against a dark background.
 :root {
   --bs-link-color-rgb: var(--bs-success-rgb);
   --bs-link-hover-color-rgb: var(--bs-success-rgb);
   // Background behind <mark> text — what Pagefind wraps matched terms in in
   // search.njk's results excerpts.
   --bs-highlight-bg: rgba(var(--bs-success-rgb), 0.35);
+}
+
+// Accordion active/expanded state — success green to match the link colour
+// above, instead of Bootstrap's default $primary blue. The active
+// background/text just need re-pointing at the --bs-success-* custom
+// properties Bootstrap already generates (which are dark-mode aware), but
+// the expand/collapse chevron is baked into an SVG data URI at compile
+// time rather than using currentColor, so it has to be regenerated with
+// Bootstrap's own markup, swapping in the success colour. Light and dark
+// mode use different SVG markup for that chevron (Bootstrap swaps the
+// whole icon, not just its colour), so both need a version — see the
+// [data-bs-theme=dark] override further down for the dark one.
+$accordion-btn-active-icon-success: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='#{$success-text-emphasis}' stroke-linecap='round' stroke-linejoin='round'><path d='m2 5 6 6 6-6'/></svg>");
+$accordion-btn-active-icon-success-dark: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$success-text-emphasis-dark}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708'/></svg>");
+
+.accordion {
+  --bs-accordion-active-bg: var(--bs-success-bg-subtle);
+  --bs-accordion-active-color: var(--bs-success-text-emphasis);
+  --bs-accordion-btn-active-icon: #{escape-svg($accordion-btn-active-icon-success)};
 }
 
 .link-fancy {
@@ -120,6 +141,17 @@ body {
 // (see $enable-important-utilities) — overrides here need !important too, or
 // they're silently dropped regardless of selector specificity.
 [data-bs-theme="dark"] {
+  // Brighter than the plain $success used in light mode (see the :root
+  // block above) — same tint Bootstrap already computes for
+  // --bs-success-text-emphasis in dark mode, for contrast against a dark
+  // background.
+  --bs-link-color-rgb: #{to-rgb($success-text-emphasis-dark)};
+  --bs-link-hover-color-rgb: #{to-rgb($success-text-emphasis-dark)};
+
+  .accordion-button::after {
+    --bs-accordion-btn-active-icon: #{escape-svg($accordion-btn-active-icon-success-dark)};
+  }
+
   .navbar {
     --bs-navbar-color: #{$navbar-dark-color};
     --bs-navbar-hover-color: #{$navbar-dark-hover-color};

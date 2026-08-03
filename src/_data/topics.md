@@ -204,6 +204,8 @@ topics:
     description: Brisbane is the Queensland capital where Keith Dunstan spent the mid-1950s as a columnist on the Courier-Mail after editor Colin Bednall recruited him from Melbourne, in what was then a slow-paced, sub-tropical city of half a million with a marked inferiority complex about the southern states.
   - name: Brown Brothers of Milawa
     description: Brown Brothers is the North East Victorian winery at Milawa run by the Brown family since 1889, whose wines, bought straight from proprietor John Brown, first drew Keith Dunstan seriously into wine on a 1959 drive through the district.
+  - name: Burke and Wills
+    description: Robert O'Hara Burke and William John Wills led the ill-fated 1860-61 Victorian Exploring Expedition across the continent from Melbourne to the Gulf of Carpentaria and back, both dying on the return journey, a disaster Keith Dunstan invoked both as the pair's forlorn statue at Collins and Swanston Streets and as a benchmark of endurance for the masochistic long-distance cyclists of his own day.
   - name: Canberra
     description: Canberra is Australia's purpose-built national capital, whose founding King O'Malley championed with fruit-cake oratory and which Keith Dunstan visited on assignment during Royal Tours, complete with buildings painted only on the side the Queen would see.
   - name: Cape York Peninsula
@@ -304,6 +306,8 @@ topics:
     description: Gough Whitlam was the Labor leader and Prime Minister from 1972 to 1975 who, despite having no real interest in the code, became Geelong Football Club's number-one ticket holder purely for the photo opportunity, one of the political vanities Keith Dunstan delighted in puncturing.
   - name: Graham Kennedy
     description: Graham Kennedy was the pioneering Melbourne television host of 'In Melbourne Tonight', whose on-air appeal for a runaway show poodle and starring role in a rival networks' hotel-opening special both made it into Keith Dunstan's Bulletin columns.
+  - name: Great Victorian Bike Ride
+    description: The Great Victorian Bike Ride is Bicycle Victoria's annual mass-participation cycling tour, drawing thousands of riders on a multi-day route across the state each year, an event whose history Keith Dunstan's cycling-club friend Doug Morffew researched and which Dunstan covered as a rider himself for The Age.
   - name: Harold Holt
     description: Harold Holt was the Liberal Prime Minister from 1966 until his presumed drowning off Cheviot Beach, Portsea, in December 1967, just three months after Keith Dunstan's Anti-Football League gave him its inaugural Wilkie Medal for never once being seen at a football match.
   - name: Harold Larwood
@@ -546,6 +550,8 @@ topics:
     description: ''
   - name: Western Australia
     description: ''
+  - name: Weston Bate
+    description: Weston Bate was an Australian historian known for his local and social histories of Victoria, a friend of Keith Dunstan's who supplied research material from his book 'Light Blue Down Under' for The Confessions of a Bicycle Nut.
   - name: Whelan the Wrecker
     description: Whelan the Wrecker was Melbourne's dominant demolition firm, founded in 1891 by the bowler-hatted Irish immigrant Jim Whelan and known for chalking 'WHELAN THE WRECKER WAS HERE' at every job, from ordinary Bulletin-era teardowns like the old Savoy cinema to the more delicate business of dismantling three cracked spans of King's Bridge.
   - name: William Dunstan VC

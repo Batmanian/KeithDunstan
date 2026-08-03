@@ -129,7 +129,7 @@ The book's contents page (`src/a-day-in-the-life-of-australia.njk`) lists **258 
 | The Bulletin | 57 | 2 | 1,583 | 34 "Around Melbourne" columns (Mar–Dec 1962) transcribed from manually-scanned photos on 28–29 Jul 2026; 11 more 1963 columns transcribed the same way, in progress, 29 Jul 2026 (34 of 45 uploaded 1963 scans remain). Separate from the untouched Trove stub pipeline. See §6 for the Trove pipeline and the 2 known-missing titles below |
 | Walkabout Magazine | 17 | 1 | 0 | 18 known articles per site total; 17 now transcribed and live (31 Jul 2026 — see Completed section), 1 outstanding awaiting a scan (Collins Street Charm) — see list below |
 | The Australian Gourmet | 1 | — | Not in Trove | Extent of Keith's total output for this title is unknown; physical copies needed |
-| The Age (post-1954) | 0 | 1 known ("On the right side of Tuscany", 2 May 1989) | Not in Trove | Not digitised — physical/microfilm sourcing required |
+| The Age (post-1954) | 9 | 1 known ("On the right side of Tuscany", 2 May 1989) | Not in Trove | Not digitised in Trove. ProQuest explored 3 Aug 2026 — capped at 8 pullable articles for this title; all 8 transcribed and live, plus 1 more (obituary of Richard Cudlipp) sourced separately. See note below |
 | Home Beautiful | 0 | 8 known issues (Dec 1949 – Feb 1951, `src/writing.njk`) | Not in Trove | Not yet sourced |
 
 ### Walkabout — 1 outstanding, known title
@@ -137,6 +137,10 @@ The book's contents page (`src/a-day-in-the-life-of-australia.njk`) lists **258 
 *(Updated 31 Jul 2026 — the other 14 in this list, plus Paddy's Market to Luxury Hotel, Epicurean Melbourne, Freedom of Beach and From Prickly Pear to Petroleum, which were already live but miscounted in the table above, are all now transcribed. See Completed section for the full current list of 17 live Walkabout articles.)*
 
 - [ ] Collins Street Charm — `1968-12-01` — no scan yet uploaded to `trove/output/walkabout/scans/`; needs a physical scan before it can be transcribed. Not possible at this stage (Updated 29 Jul 2026). Pages missing or not scanned in Trove's colelctionz
+
+### The Age — ProQuest explored, resource exhausted
+
+*(Updated 3 Aug 2026)* ProQuest was checked as a source for Keith's post-1954 Age columns (not in Trove, per the table above) — only 8 articles could be pulled from that database. All 8 have been transcribed and are now live in `src/articles/the-age/`, plus a 9th (obituary of Richard Cudlipp) sourced separately. ProQuest is considered exhausted for this title; "On the right side of Tuscany" (2 May 1989) remains the one known-but-unsourced title, still requiring physical/microfilm sourcing.
 
 ### Bulletin — 2 known-missing titles
 
@@ -222,7 +226,7 @@ Scripts live in `trove/`. Run from within that directory with the `.venv` activa
 | Publication | Status |
 |---|---|
 | The Herald (Melbourne, 1954–1988) | Not digitised in Trove |
-| The Sun News-Pictorial | Not digitised in Trove |
+| The Sun News-Pictorial | Not digitised in Trove past 1956 — see note under §7 |
 | The Courier-Mail | Not digitised in Trove |
 | The Age (post-1954) | Not digitised in Trove |
 | Good Weekend | Not digitised in Trove |
@@ -240,7 +244,7 @@ Scripts live in `trove/`. Run from within that directory with the `.venv` activa
 For publications not in Trove, physical copies must be sourced and scanned. Follow the OCR workflow in `CLAUDE.md` (`scripts/ocr-prep.sh` → transcribe → `scripts/ocr-cleanup.sh`).
 
 **Priority targets:**
-- [ ] The Sun News-Pictorial — `A Place in the Sun` column, 1958–1978 (large body of work; consider sampling key pieces first)
+- [ ] The Sun News-Pictorial — `A Place in the Sun` column, 1958–1978 (large body of work; consider sampling key pieces first). **Confirmed 3 Aug 2026: Trove has no digitised coverage of this title past 1956 at all**, independent of any keyword search — filtering Trove's Newspapers & Gazettes category to Title = "The Sun News-Pictorial (Melbourne, Vic.)" with no search term, the date-range facet only returns 1920–1929, 1930–1939, 1940–1949 and 1950–1959 (plus a one-off 1956 Scout Jamboree supplement); the masthead itself is labelled "1922 – 1954; 1956" in Trove. A "Keith Dunstan" + this title-filter search returns 29 results, all dated 1947–1953. So the entire APITS run (1958–1978) predates nothing Keith wrote — Trove simply never digitised/OCR'd this title that far forward. Physical/microfilm sourcing (State Library Victoria) is the only route for this column; not a Trove triage task.
 - [ ] The Herald — regular contributions post-1978
 - [ ] The Courier-Mail — `Day by Day` column (pre-1958 period)
 - [ ] The Age — regular columnist, post-1982
