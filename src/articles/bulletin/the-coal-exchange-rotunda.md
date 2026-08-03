@@ -5,21 +5,21 @@ summary: Architect Roy Grounds proposes shipping London's condemned Victorian Co
 categories:
 - The Bulletin
 tags:
-  - Roy Grounds
-  - John Betjeman
+  - Best Overend
+  - Chas. Davies
   - Cultural Centre
   - Eric Westbrook
-  - Best Overend
   - Institute of Architects
+  - John Betjeman
+  - King Street Bridge
   - Leonard Cox
   - Maurice Nathan
-  - Peter Martin
-  - Chas. Davies
-  - Toorak
-  - Sydney Opera House
-  - King Street Bridge
-  - Port Phillip Bay
   - Melbourne
+  - Peter Martin
+  - Port Phillip Bay
+  - Roy Grounds
+  - Sydney Opera House
+  - Toorak
 ---
 
 ROY GROUNDS is a marvellous extrovert. He is one of the few characters in this town who make life entertaining and agreeable. We have loved all his controversies. We liked his zig-zag house, his triangle house, his butter-box house, his round house, his plum pudding in Canberra and even his Cultural Centre, but this is a little beauty. Roy Grounds, arch-priest of the uncluttered modern, wants to erect London's prize piece of Victoriana in the grounds of the Cultural Centre. In one magnificent sweep as a Victoriana lover, he has made John Betjeman look like a junior apprentice.

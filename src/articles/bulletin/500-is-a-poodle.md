@@ -5,19 +5,19 @@ summary: The three-day, city-wide hunt for Heloise, a runaway pedigree poodle wo
 categories:
 - The Bulletin
 tags:
-  - Melbourne
-  - Lady de Crespigny
   - Charlotte de Crespigny
-  - Isobel Huntly
-  - Violet Sharp
-  - Essendon Airport
   - Doug Mummery
-  - Jack Griffin
-  - Keilor
   - E. W. Tipping
-  - Melbourne Poodle Club
+  - Essendon Airport
   - Graham Kennedy
   - HSV-7
+  - Isobel Huntly
+  - Jack Griffin
+  - Keilor
+  - Lady de Crespigny
+  - Melbourne
+  - Melbourne Poodle Club
+  - Violet Sharp
 ---
 
 ALL those in the newspaper, radio and television industry suffer from the same agonising problems. They have to cope with the untold thousands who lose track of their pets. For example, it is obvious that on any one day 75 per cent. of the dogs, cats and budgies in Melbourne are hopelessly lost. But never in the annals of lost dogdom have we had a case like this one.

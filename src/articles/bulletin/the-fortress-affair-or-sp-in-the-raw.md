@@ -5,19 +5,19 @@ summary: Mines the Post Office Royal Commission's evidence on Victoria's illegal
 categories:
 - The Bulletin
 tags:
-  - Post Office Royal Commission
-  - Victoria
   - Balaclava
-  - Justice Taylor
   - Ballarat
+  - Chester Manifold
+  - Des Gilmore
+  - Justice Taylor
+  - Post Office Royal Commission
+  - Senior Detective Cook
   - St Kilda
   - The Fortress
-  - W. G. Leaman
-  - Des Gilmore
-  - Totalisator Agency Board
+  - Totalisator Agency Board (TAB)
+  - Victoria
   - Victoria Racing Club
-  - Chester Manifold
-  - Senior Detective Cook
+  - W. G. Leaman
 ---
 
 AUSTRALIA has always had an affection for Royal Commissions, inquiries, and such. One researcher has pointed out that since 1850 we have had 700 Royal Commissions, both State and Federal. Our colleagues and late colleagues have not shown nearly the same interest. Canada has had a mere 200, New Zealand 160 and South Africa 150. But Victoria in recent times has become the real inquiry State. We have had inquiries into fish, into the Victoria Market, into Albert Park, into bank hours and we are looking into the circumstances of a certain bridge accident.

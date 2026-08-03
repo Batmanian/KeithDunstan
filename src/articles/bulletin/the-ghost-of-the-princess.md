@@ -5,14 +5,13 @@ summary: Tells the story of Federici, the Princess Theatre's baritone ghost who 
 categories:
 - The Bulletin
 tags:
+  - June Bronhill
   - Melbourne
-  - Princess Theatre
   - Princess Theatre
   - Ronald Searle
   - T. H. Goodwin
   - The Argus
   - William Pitt
-  - June Bronhill
 ---  
 
 # The ghost-of-honour didn't make the party

@@ -5,18 +5,18 @@ summary: Tours the newly opened John Batman motor inn, Robin Boyd's design showc
 categories:
 - The Bulletin
 tags:
-  - John Batman
-  - Queens Road
-  - St Kilda
-  - Robin Boyd
-  - Sidney Nolan
   - Albert Tucker
   - Arthur Boyd
-  - John Perceval
-  - Ross Shelmerdine
-  - Henry Bolte
   - Essendon
+  - Henry Bolte
+  - John Batman
+  - John Perceval
   - M. G. Sloman
+  - Queens Road
+  - Robin Boyd
+  - Ross Shelmerdine
+  - Sidney Nolan
+  - St Kilda
 ---
 
 THAT fellow Batman may be satisfied now that he has had our nation's first motor inn named for him and opened with an energetic display of contemporary art.

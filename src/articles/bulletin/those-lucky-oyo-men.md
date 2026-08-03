@@ -5,11 +5,11 @@ summary: A tour of Domain Park, Robin Boyd's new 20-storey "own-your-own-flat" t
 categories:
 - The Bulletin
 tags:
-  - Robin Boyd
-  - Domain Park
-  - Lend Lease
-  - Government House
   - Botanic Gardens
+  - Domain Park
+  - Government House
+  - Lend Lease
+  - Robin Boyd
 ---
 
 Whenever I'm green with envy, which is right now, I get to thinking about which is the best flat in Melbourne. The caretaker on top of the Vacuum Oil building has a "bobby dazzler." The views in his flat are so good he can lie in his bath and look straight down St Kilda Road. Or how about the manager of the Consolidated Zinc building? He's even higher than the board of directors, way up about the 26th floor. He has a lovely balcony all around and he has the best location for any flat, bang on Collins Street.

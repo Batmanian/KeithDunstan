@@ -5,17 +5,17 @@ summary: A dutiful trudge round the ever-identical Royal Show turns up an unexpe
 categories:
 - The Bulletin
 tags:
+  - Carlton and United Breweries
+  - Carlton Brewery
+  - Exhibition Building
+  - Jack Johnson
+  - John Noonan
   - Melbourne
+  - Melbourne Cricket Ground
   - Royal Agricultural Society
   - Royal Show
-  - Exhibition Building
-  - John Noonan
   - Tom Herlihy
-  - Carlton Brewery
-  - Carlton and United Breweries
   - Tommy Burns
-  - Jack Johnson
-  - Melbourne Cricket Ground
 ---
 
 VETERAN newspaper reporters in Melbourne have four annual miseries — Moomba, Anzac Day, the Melbourne Cup and the Royal Show. Each in its own way is utterly sacred. They all earn a vast amount of newspaper space and it is rare that anything new ever happens. The most dreaded of all these is the Royal Show. Not only is it the same every year but it is precisely the same as the other Shows in Sydney, Brisbane and Adelaide even down to the same cast. The sameness is there to such a degree that one gets an uncanny feeling that this is just a continuation of the previous show, that no time has elapsed between 1961 and 1962. Last week I received a lovely kind smile from an Aberdeen Angus bull. He just recognised me from last year.

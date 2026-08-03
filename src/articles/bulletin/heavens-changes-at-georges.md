@@ -5,17 +5,17 @@ summary: The staid ladies'-only department store Georges opens a men's-wear depa
 categories:
 - The Bulletin
 tags:
-  - Georges
+  - Bourke Street
+  - Burke's Landed Gentry
   - Collins Street
   - Cox Bros.
-  - Toorak
-  - Melbourne Club
-  - Horrie Taafe
-  - Melbourne Cup
   - Debrett's Peerage
-  - Burke's Landed Gentry
-  - Bourke Street
+  - Georges
+  - Horrie Taafe
   - Ireland
+  - Melbourne Club
+  - Melbourne Cup
+  - Toorak
 ---
 
 ONE of our most beloved Melburnian institutions, Georges is undergoing change. Let us talk about Georges which is the one store in Melbourne that truly could be said to be of world class. You could compare it, perhaps, to Lord & Taylors in New York or Harrods in London. The shop assistants bow stiffly from the waist and have the polish of head waiters. They remember names. Georges never has anything quite so distasteful as a sale and the whole establishment is adored by the matrons of Toorak. Even though it has been taken over by Cox Bros. it retains its same old charm. But something remarkable has happened; at the end of this month Georges is opening a men's-wear department.

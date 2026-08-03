@@ -1,15 +1,15 @@
 ---
 title: Paddy's Market to Luxury Hotel
-date: 1962-02-01
+date: 1962-07-01
 summary: Traces the site of the new £5 million Southern Cross Hotel back through the raucous history of the old Eastern Market, phrenologists, dancing ducks, a fortune-teller called Madame Zinga Lee, and an 1898 murder.
 categories:
 - Walkabout Magazine
 tags:
+  - Bourke Street
   - Eastern Market
+  - Juvenile Industrial Exhibition
   - Melbourne
   - Southern Cross Hotel
-  - Bourke Street
-  - Juvenile Industrial Exhibition
 ---
 
 Frankly, it must be admitted, Melbourne's old Eastern Market was hideous. The dreary Victorian pile spread across several prime acres at the corner of Bourke and Exhibition Streets. It was so hideous that some of us loved it dearly. For one thing it housed a fine, old-fashioned licensed grocer, one of Melbourne's few remaining second-hand book shops and an excellent ironmonger. 

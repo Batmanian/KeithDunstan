@@ -6,10 +6,10 @@ categories:
 - The Bulletin
 tags:
   - Bourke Street
-  - Regent Theatre
-  - Hoyts
-  - Theatre Organ Society of Australia
   - Capitol Theatre
+  - Hoyts
+  - Regent Theatre
+  - Theatre Organ Society of Australia
   - Tony Fenelon
 
 ---

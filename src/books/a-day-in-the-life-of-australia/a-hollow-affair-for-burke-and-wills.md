@@ -6,7 +6,7 @@ tags:
   -  Robert Ohara Burke
   -  William John Wills
   -  Sir Henry Barkly
-  -  Baron Von Mueller
+  -  Baron Ferdinand von Mueller
   -  Charley Gray
   
 ---

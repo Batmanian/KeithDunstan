@@ -6,19 +6,19 @@ categories:
 - The Bulletin
 tags:
   - Barry Humphries
-  - Edna Everage
-  - Norm Everage
-  - Moonee Ponds
-  - Melbourne
-  - Robin Boyd
-  - Patrick Tennison
-  - Melbourne University
   - David Jones
-  - King's Cross
-  - Menzies
+  - Edna Everage
   - Gladys Moncrieff
+  - King's Cross
   - Lou Richards
+  - Melbourne
+  - Melbourne University
+  - Menzies
+  - Moonee Ponds
+  - Norm Everage
+  - Patrick Tennison
   - Qantas
+  - Robin Boyd
 ---
 
 THE most exciting story in Melbourne this week is this — our beloved Barry Humphries has returned. He was wearing a lovely pair of pince-nez "Boston Grabs" glasses, his hair was an attractive shoulder length, and we all noticed he had put on just a little around the middle. He was older too, an almost elderly 28, but as he said to us, "What are wrinkles, but the dried up beds of old smiles?"

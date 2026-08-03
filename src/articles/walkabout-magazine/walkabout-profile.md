@@ -5,10 +5,10 @@ summary: A profile of Dr Jean Battersby, newly appointed Executive Director of t
 categories:
 - Walkabout Magazine
 tags:
-  - Jean Battersby
   - Australian Council for the Arts
-  - Melbourne University
   - Freedom to Read Association
+  - Jean Battersby
+  - Melbourne University
 ---
 
 DR. JEAN BATTERSBY is the recently appointed Executive Director for the Australian Council for the Arts.

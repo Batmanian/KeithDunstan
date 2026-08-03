@@ -6,16 +6,16 @@ categories:
 - The Bulletin
 tags:
   - Barry Humphries
-  - Mrs Norm Everage
-  - Moonee Ponds
+  - Brotherhood of St Laurence
+  - David Scott
   - Gallipoli Street
   - Ivanhoe
-  - Brotherhood of St Laurence
-  - Myer Foundation
-  - David Scott
-  - Robert Uren
-  - Mr Downer
   - Melbourne
+  - Moonee Ponds
+  - Mr Downer
+  - Mrs Norm Everage
+  - Myer Foundation
+  - Robert Uren
 ---
 
 DO you want to know what a Melburnian is really like? Barry Humphries was the first to give us some real insight into this. He created the character Mrs Norm Everage of Gallipoli St, Moonee Ponds, and in the monologue "Wild life in suburbia" we gained a beautiful picture of the Everages.

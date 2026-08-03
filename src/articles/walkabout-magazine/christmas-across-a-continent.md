@@ -5,18 +5,18 @@ summary: A survey of how Australians spend Christmas Day across wildly different
 categories:
 - Walkabout Magazine
 tags:
-  - Surfers Paradise
-  - Alice Springs
   - Aborigines
+  - Alice Springs
+  - Antarctica
   - Ayers Rock (Uluru)
   - Bill Harney
-  - Antarctica
-  - Cape York Peninsula
-  - Thursday Island
-  - Cocos Islands
-  - Tasman Island
-  - Coober Pedy
   - Canberra
+  - Cape York Peninsula
+  - Cocos Islands
+  - Coober Pedy
+  - Surfers Paradise
+  - Tasman Island
+  - Thursday Island
 ---
 
 CHRISTMAS at our house is conservative and old-fashioned. Oh, I know, our relatives are pointing it out constantly: the sensible thing in a country where the Christmas Day temperature is likely to be in the nineties is to have a cold meal. They suggest cold chicken, a fresh salad, all washed down by chilled riesling.

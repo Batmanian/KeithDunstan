@@ -5,21 +5,21 @@ summary: Covers Melbourne's fierce row over the VFL's ban on televising the last
 categories:
 - The Bulletin
 tags:
-  - Melbourne
-  - Frank Galbally
-  - Collingwood
-  - Victorian Football League
-  - Henry Bolte
   - Alf Brown
-  - St Kilda
-  - Footscray
-  - Hawthorn
-  - Consolidated Zinc Building
-  - Collins Street
-  - AMP Building
   - Amelio Greco
+  - AMP Building
+  - Collingwood
+  - Collins Street
+  - Consolidated Zinc Building
+  - Footscray
+  - Frank Galbally
+  - Hawthorn
+  - Henry Bolte
+  - Melbourne
   - Melbourne Sun
+  - St Kilda
   - Turnbull
+  - Victorian Football League
 ---
 
 THERE are many things that move Melburnians deeply — the chopping of trees, closing hours, the perfect decorum of the Melburnian Sunday—but above all we feel deeply about our football. And this is the exciting, romantic part of the year when every team is full of hope. The newspapers are devoting even more space than usual to stories about 7ft tall recruits from the country, who with unbelievable ease can kick sacks of wheat 100 yards with either foot.

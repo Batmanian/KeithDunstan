@@ -5,36 +5,36 @@ summary: A survey of the deteriorating relations between Victoria and New South 
 categories:
   - The Bulletin
 tags:
-  - Melbourne
-  - Sydney
-  - New South Wales
-  - Victoria
-  - Tullamarine
-  - Kingsford Smith
-  - Mascot
-  - Essendon
-  - Sir Henry Bolte
-  - Lady Bolte
-  - Harold Holt
+  - Albury-Wodonga
+  - Anthony Trollope
   - Arthur Calwell
-  - Mr. McEwen
-  - Senator Henty
+  - Botany Bay
   - David Fairbairn
   - Dr. Darling
+  - Essendon
+  - Geelong Grammar
+  - Harold Holt
+  - Kingsford Smith
+  - Lady Bolte
+  - Mascot
+  - Melbourne
+  - Melbourne Club
+  - Mr. Askin
+  - Mr. McEwen
   - Mr. McMahon
   - Mr. Swartz
-  - Mr. Askin
-  - Anthony Trollope
-  - U Thant
-  - Geelong Grammar
-  - Melbourne Club
-  - Victorian Promotion Committee
   - Myers
-  - Sydney Opera House
-  - Albury-Wodonga
-  - Toowoomba
+  - New South Wales
   - Port Jackson
-  - Botany Bay
+  - Senator Henty
+  - Sir Henry Bolte
+  - Sydney
+  - Sydney Opera House
+  - Toowoomba
+  - Tullamarine
+  - U Thant
+  - Victoria
+  - Victorian Promotion Committee
 ---
 
 YOUR CORRESPONDENT is most fearful about the steady deterioration of relations with New South Wales. Perhaps the most dangerous feature is the new Melbourne attitude. Up to the bank crash in 1893, Melburnians never had the slightest doubt that they were the finest gift to mankind and that 'marvellous Melbourne was perfection in itself.' Celebrated writers such as Anthony Trollope wrote of this at length.

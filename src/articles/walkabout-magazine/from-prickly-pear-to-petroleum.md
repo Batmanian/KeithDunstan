@@ -5,14 +5,14 @@ summary: A visit to the Queensland oil boomtowns of Tara and Moonie, tracing the
 categories:
 - Walkabout Magazine
 tags:
-  - Moonie
-  - Tara
-  - Queensland
   - Boonarga
   - Brisbane
+  - Buenos Aires
+  - Moonie
+  - Queensland
+  - Tara
   - Toowoomba
   - Union Oil Corporation
-  - Buenos Aires
 ---
 
 The road from Tara to the Moonie oilfields was deserted. The sky was as black as the bonnet of the car, and already flashes of lightning were darting down to the earth. Wild life everywhere seemed to be on the alert. Two brolga birds moved gracefully between the trees. An emu came scudding along the fence, his tail wobbling from side to side like a T-model Ford flat out at 60.

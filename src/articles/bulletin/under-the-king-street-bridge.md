@@ -5,11 +5,11 @@ summary: Profiles Whelan the Wrecker, the Melbourne demolition firm founded in 1
 categories:
 - The Bulletin
 tags:
-  - Whelan the Wrecker
-  - King's Bridge
   - Jim Whelan
-  - Princes Bridge
+  - King's Bridge
   - Myles Whelan
+  - Princes Bridge
+  - Whelan the Wrecker
 ---
 
 Surely you must be intrigued by the news that Whelan the Wrecker has won the contract to wreck our famous King's Bridge. True, he won't be wrecking the whole bridge, just one 60-ft span and two 20-ft spans under the £2000 contract. Yet it is a most interesting exercise for all Melburnians. Few of us have ever lived long enough to see the one bridge being fully built then later wrecked. Now here is the whole process being carried out most compactly in less than two years. The wrecking started last Monday and the job should last for four weeks. The eventual cost of making the bridge as good as new will be close on £350,000.

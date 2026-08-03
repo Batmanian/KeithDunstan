@@ -5,23 +5,23 @@ summary: A reluctant Melburnian tourist takes a sightseeing coach tour of his ow
 categories:
 - The Bulletin
 tags:
-  - Melbourne
-  - Sydney
-  - Flinders Street Railway Station
-  - Royal Arcade
-  - Ned Kelly
-  - Captain Cook
-  - Melbourne Cricket Ground
-  - Sidney Myer Music Bowl
-  - Toorak
-  - National Gallery
-  - Phar Lap
-  - Young and Jacksons
-  - Doug Ingersole
   - A. G. Grant
   - Adelaide Festival of Arts
-  - Moomba
+  - Captain Cook
+  - Doug Ingersole
+  - Flinders Street Railway Station
+  - Melbourne
+  - Melbourne Cricket Ground
   - Melbourne Tourism
+  - Moomba
+  - National Gallery
+  - Ned Kelly
+  - Phar Lap
+  - Royal Arcade
+  - Sidney Myer Music Bowl
+  - Sydney
+  - Toorak
+  - Young and Jacksons
 ---
 
 AS a staid Melburnian who favors club ties and black shoes, I have never looked upon our beloved city as a tourist attraction. The "Visitor Industry" as they now call it was something more suited to raffish places like Sydney or the Gold Coast.

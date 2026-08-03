@@ -5,21 +5,21 @@ summary: Compares the muted arrival of the new Southern Aurora express at Spence
 categories:
 - The Bulletin
 tags:
-  - Spencer Street Station
-  - The Southern Aurora
   - Albury
-  - Viscount de L'Isle
-  - Robert Menzies
-  - J. J. Brown
-  - Australian Railways Union
-  - Victorian Railways
+  - Australian National Travel Association
   - Australian Railways Historical Society
+  - Australian Railways Union
   - Barry Humphries
   - Basil Atkinson
-  - Australian National Travel Association
-  - Reg Ansett
   - Doug Elliot
   - Henry Bolte
+  - J. J. Brown
+  - Reg Ansett
+  - Sir Robert Menzies
+  - Spencer Street Station
+  - The Southern Aurora
+  - Victorian Railways
+  - Viscount de L'Isle
 ---
 
 IT is difficult to describe to you just how full of pride we are this week, for on the significant date, Friday the 13th of April, a railway train named The Southern Aurora arrived at Spencer Street station. You see, this was the first railway train to travel all the way from the parent colony right through to Port Phillip settlement.

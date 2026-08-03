@@ -5,21 +5,21 @@ summary: Melbourne wins bragging rights as Australia's "Conference City," hostin
 categories:
 - The Bulletin
 tags:
-  - Melbourne
-  - Henry Bolte
-  - Dallas Brooks
-  - Vincent de Ferranti
-  - Franz Hollinger
-  - Willis Connolly
-  - State Electricity Commission
-  - World Power Conference
   - Associated Country Women of the World
   - Colombo Plan
-  - International Labor Organisation
-  - Robert Menzies
-  - Wilson Hall
+  - Dallas Brooks
   - Exhibition Building
+  - Franz Hollinger
+  - Henry Bolte
+  - International Labor Organisation
+  - Melbourne
   - Royal Melbourne Hospital
+  - Sir Robert Menzies
+  - State Electricity Commission
+  - Vincent de Ferranti
+  - Willis Connolly
+  - Wilson Hall
+  - World Power Conference
 ---
 
 WE are very happy with ourselves this week. Melbourne has won the title of the Conference City. Not flibbertey-gibbit stuff, you understand, like Atlantic City with businessmen running off with their secretaries, but really big-time international get-togethers. As gentlemen like Mr Bolte have been quick to point out, Melbourne was the logical choice. It had the climate, it had the hotels and it had the facilities. Actually the weather for visiting delegates has been most interesting. It has been crisp. On October 24 the maximum in Melbourne was 53, in Sydney 74, in Brisbane 87, in Perth 72 and in Adelaide 61. Furthermore it has rained almost continuously, but, don't you see, there was this advantage—delegates had the opportunity of seeing the world's purest water supply in action at first hand, and never could they return home with an impression of the beastly arid nature of Australia.

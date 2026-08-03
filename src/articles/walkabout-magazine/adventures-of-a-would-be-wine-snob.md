@@ -5,17 +5,17 @@ summary: A home bottler's tour of Victoria's wine industry in 1964, from siphoni
 categories:
 - Walkabout Magazine
 tags:
-  - Rutherglen
   - All Saints Winery
   - Chateau Tahbilk
   - Eric Purbrick
-  - Wodonga
-  - Milawa
-  - Glenrowan
-  - Wangaratta
   - George Sutherland Smith
-  - Morris Wines
+  - Glenrowan
   - Home bottling of wine
+  - Milawa
+  - Morris Wines
+  - Rutherglen
+  - Wangaratta
+  - Wodonga
 ---
 
 To be quite honest with you, I have always wanted to be a wine snob. It has been my dream to stand before an eminent wine and food gathering, one of those societies where they mask the bottles, and to pick up a glass, put my nose into it, pause for a moment, then, with unbelievable accuracy, state the vintage year, the grape, the vineyard and practically the paddock where it came from.

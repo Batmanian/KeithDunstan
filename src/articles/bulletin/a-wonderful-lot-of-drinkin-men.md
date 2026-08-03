@@ -5,20 +5,20 @@ summary: Marks the centenary of the first All-England cricket tour of 1861-62 by
 categories:
 - The Bulletin
 tags:
+  - Beechworth
+  - Bill Ponsford
+  - Castlemaine
+  - Charles Dickens
+  - Cobb and Co
+  - George Griffith
+  - H. H. Stephenson
+  - Harold Larwood
   - Melbourne Cricket Club
   - Melbourne Cricket Ground
-  - Spiers and Pond
-  - H. H. Stephenson
-  - Charles Dickens
-  - Bill Ponsford
   - Percy Page
-  - Harold Larwood
-  - Castlemaine
-  - George Griffith
-  - William Caffyn
   - Roger Iddison
-  - Cobb and Co
-  - Beechworth
+  - Spiers and Pond
+  - William Caffyn
 ---
 
 HERE in Victoria we are gathering our Cobb & Co coaches, our broughams, our boxer hats, to celebrate a most significant event — the centenary of the first visit by an All-England XI. It was organised by a firm of caterers, Messrs Spiers & Pond. Their first idea was to get Charles Dickens on a lecture tour. He wouldn't come so what could be better than a cricket team? Mr H. H. Stephenson and his Eleven arrived just before Christmas and at the Melbourne port of Sandridge there was an arch of welcome and 3000 people were waiting to cheer them ashore.

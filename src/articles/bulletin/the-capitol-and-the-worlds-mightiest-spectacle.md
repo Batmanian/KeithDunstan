@@ -12,9 +12,9 @@ tags:
   - Melbourne Club
   - National Gallery
   - Swanston Street
+  - The Capitol Theatre
   - The Herald
   - Walter Burley Griffin
-  - The Capitol Theatre
 ---
 
 # Vale Osiris and the Mighty Wurlitzer

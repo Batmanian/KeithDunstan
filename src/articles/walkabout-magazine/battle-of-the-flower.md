@@ -5,12 +5,12 @@ summary: A tour of Australia's competitive gardening culture and its flower fest
 categories:
 - Walkabout Magazine
 tags:
-  - Toowoomba
+  - Adelaide Festival of Arts
   - Ballarat
   - Grafton
-  - Sydney Morning Herald
   - Ripponlea
-  - Adelaide Festival of Arts
+  - Sydney Morning Herald
+  - Toowoomba
   - Western Australia
 ---
 

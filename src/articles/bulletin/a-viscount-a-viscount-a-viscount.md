@@ -5,21 +5,21 @@ summary: Profiles bandleader Tommy Davidson, Melbourne's leading writer of singi
 categories:
 - The Bulletin
 tags:
-  - Melbourne
-  - Tommy Davidson
-  - Viscount
-  - Craven A
   - Bob Gibson
+  - Carlton and United Breweries
+  - Craven A
   - Du Maurier
-  - Worth's
-  - Lorenzo Nolan
   - ICI
-  - Robin Boyd
-  - St Vincent's Hospital
+  - Lorenzo Nolan
+  - Melbourne
   - Nicholson Street
   - Pagewood Studios
-  - Carlton and United Breweries
+  - Robin Boyd
+  - St Vincent's Hospital
   - Sydney
+  - Tommy Davidson
+  - Viscount
+  - Worth's
 ---
 
 MELBOURNE may not be Australia's most musical city, but rest assured, we are strong on singing commercials. In recent weeks we have seen a truly magnificent climax to the struggle between the cigarette companies, symphony orchestras, military bands, choirs, the lot. No doubt you have witnessed the superb Craven A March with Bob Gibson and his orchestra. And even a variation of it with bagpipers marching through a Scotch mist.

@@ -5,21 +5,21 @@ summary: An undercover survey of Melbourne's new strip-tease clubs, comparing th
 categories:
 - The Bulletin
 tags:
-  - Melbourne
-  - St Kilda
-  - Ritz Hotel
-  - Ray Bolwell
-  - John Parkin
-  - Gaye Abandon
-  - Britannia Hotel
-  - Commissioner Porter
-  - Carlton and United Breweries
-  - John Charrington
-  - Richmond Brewery
-  - Duncan Fraser Smith
-  - Mildura
-  - John L. Beech
   - Alphington
+  - Britannia Hotel
+  - Carlton and United Breweries
+  - Commissioner Porter
+  - Duncan Fraser Smith
+  - Gaye Abandon
+  - John Charrington
+  - John L. Beech
+  - John Parkin
+  - Melbourne
+  - Mildura
+  - Ray Bolwell
+  - Richmond Brewery
+  - Ritz Hotel
+  - St Kilda
 ---
 
 AS if this city were not wicked enough! We suffered the booze in the Gardens at Moomba time, we have seen the off-course tote grow to an immense industry, we even have illicit baking on Saturdays, but now, will you believe it? We have followed the downward path of Sydney and are putting in our evenings gazing at strippers.

@@ -5,20 +5,20 @@ summary: Follows the new south-eastern freeway's traffic overflow into once-excl
 categories:
 - The Bulletin
 tags:
-  - Melbourne
-  - Yarra
-  - Essendon
-  - Sidney Myer Music Bowl
-  - Toorak
-  - St George's Road
-  - Board of Works
-  - Arthur Warner
-  - Roy T. Knight
-  - Building Industry Fair
-  - Nevil Shute
   - Alec Waugh
-  - Marcia Davenport
+  - Arthur Warner
+  - Board of Works
+  - Building Industry Fair
+  - Essendon
   - Kew
+  - Marcia Davenport
+  - Melbourne
+  - Nevil Shute
+  - Roy T. Knight
+  - Sidney Myer Music Bowl
+  - St George's Road
+  - Toorak
+  - Yarra River
 ---
 
 HERE in Melbourne we have a marvellous new toy. As a keep-your-children-quiet-Sunday-afternoon-outing it is easily out-rivalling the aeroplanes at Essendon and the Sidney Myer Music Bowl. It is the new £2 million south-eastern freeway, a splendid band of concrete that runs along the north bank of the Yarra, sometimes out over the river on piles, sometimes way up in the air at roof-top height, as a punt road.

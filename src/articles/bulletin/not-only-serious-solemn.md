@@ -5,21 +5,21 @@ summary: A blow-by-blow account of Melbourne's raging Age letters-page feud betw
 categories:
 - The Bulletin
 tags:
-  - Melbourne
-  - The Age
-  - William Dargie
-  - Eric Westbrook
-  - National Gallery
-  - Tate Gallery
-  - Max Ragless
-  - Atheneum Gallery
-  - John Brach
   - Adrian Rawlins
-  - Paul Fitzgerald
   - Albert Tucker
+  - Atheneum Gallery
   - Contemporary Art Society
+  - Eric Westbrook
+  - John Brach
+  - Max Ragless
+  - Melbourne
+  - National Gallery
+  - Paul Fitzgerald
   - San Francisco
+  - Tate Gallery
+  - The Age
   - Toorak
+  - William Dargie
 ---
 
 HERE in Melbourne we have been enjoying the most protracted, the most satisfying, the most completely enjoyable art controversy of the last 10 years. It has been conducted in the letter columns of "The Age" with all the splendid daily continuity of a comic strip and, with a little luck and prodding, it should go on for some time yet.

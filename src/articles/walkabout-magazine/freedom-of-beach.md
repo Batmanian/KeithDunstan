@@ -7,14 +7,14 @@ categories:
 tags:
   - Bondi Beach
   - Brighton
+  - Eric Spooner
+  - Henry Dendy
   - Malibu Beach
-  - Waikiki
-  - Sydney
   - Melbourne
   - New South Wales
-  - Henry Dendy
-  - Eric Spooner
   - Santa Monica Bay
+  - Sydney
+  - Waikiki
 ---
 
 Years ago, as a typical wide-eyed Australian, I spent a month's holiday driving around France and Italy. One evening with my wife we booked into the cheapest hotel we could find on the Italian Riviera, and the following morning we grabbed our towels and ran down to the beach. It was a beautiful beach, clean and well-ordered. There were chaises longues to stretch out upon, and drinks could be had by calling a waiter.

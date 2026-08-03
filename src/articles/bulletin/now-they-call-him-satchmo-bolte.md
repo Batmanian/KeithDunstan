@@ -5,18 +5,18 @@ summary: Traces the Exhibition Building's rise from would-be demolition target t
 categories:
 - The Bulletin
 tags:
-  - Melbourne
-  - Henry Bolte
-  - Exhibition Building
-  - Sydney
+  - Anthony Trollope
   - Carlton Gardens
-  - Fosters Lager
+  - Chamber of Commerce
   - Chloe
+  - Exhibition Building
+  - Fosters Lager
+  - Henry Bolte
   - Jules Lefebre
   - Louis Armstrong
-  - Anthony Trollope
+  - Melbourne
   - Robert Heffron
-  - Chamber of Commerce
+  - Sydney
 ---
 
 YOUNG reporters who worked the police rounds dog-watch, 7 p.m. to 3 a.m., used to have their dreams. Don't get me wrong; they looked upon their fellow citizens with great kindness, but to ease the awful monotony they hoped for two things:

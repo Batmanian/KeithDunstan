@@ -5,16 +5,16 @@ summary: A pre-Christmas beer bottle shortage forces Melbourne to drink imported
 categories:
 - The Bulletin
 tags:
-  - Reginald Francis Graham Fogarty
-  - Carlton and United Breweries
-  - Ginger Burke
   - Australian Hotels Association
-  - Kerry Family Hotel
-  - Trades Hall
-  - Richmond Brewery
+  - Carlton and United Breweries
   - Charringtons
-  - Victoria
+  - Ginger Burke
+  - Kerry Family Hotel
   - New South Wales
+  - Reginald Francis Graham Fogarty
+  - Richmond Brewery
+  - Trades Hall
+  - Victoria
 ---
 
 TO think that it should ever come to this. Melburnians, who have always held their noses and seven-ounce glasses high, this past week have had to stand in queues thirstily seeking after cans of Toohey's from Sydney, bottles of West End from Adelaide and, heaven help us, bottles from any town on earth that will put water, malt and hops together. Something like 30,000 dozen bottles of foreign brews have come into the old town.

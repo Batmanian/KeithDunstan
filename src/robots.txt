@@ -1,7 +1,7 @@
 # robots.txt — keithdunstan.org
 # Policy: welcome search, retrieval and user-triggered AI crawlers (they cite and
 # link back to the source); withhold consent from model-training crawlers.
-# Content is licensed CC BY-NC 4.0 — see /licence/ and /.well-known/tdmrep.json
+# Content is licensed CC BY-NC-ND 4.0 — see /licence/ and /.well-known/tdmrep.json
 # Last reviewed: 2026-07  (review quarterly — AI bot names change often)
 
 # --- Traditional search: welcome ---

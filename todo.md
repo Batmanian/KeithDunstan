@@ -136,7 +136,7 @@ The book's contents page (`src/a-day-in-the-life-of-australia.njk`) lists **258 
 
 *(Updated 31 Jul 2026 — the other 14 in this list, plus Paddy's Market to Luxury Hotel, Epicurean Melbourne, Freedom of Beach and From Prickly Pear to Petroleum, which were already live but miscounted in the table above, are all now transcribed. See Completed section for the full current list of 17 live Walkabout articles.)*
 
-- [ ] Collins Street Charm — `1968-12-01` — no scan yet uploaded to `trove/output/walkabout/scans/`; needs a physical scan before it can be transcribed.
+- [ ] Collins Street Charm — `1968-12-01` — no scan yet uploaded to `trove/output/walkabout/scans/`; needs a physical scan before it can be transcribed. Not possible at this stage (Updated 29 Jul 2026). Pages missing or not scanned in Trove's colelctionz
 
 ### Bulletin — 2 known-missing titles
 
@@ -179,6 +179,7 @@ User uploaded photographed scans for all 45 known 1963 "Around Melbourne"/Batman
 Scripts live in `trove/`. Run from within that directory with the `.venv` activated. `trove/output/` is **not** gitignored — confirm before committing whether the raw stub corpus (~1,675 files) is meant to be tracked, given the Trove data-agreement expiry note below.
 
 **Summary convention (added 29 Jul 2026 — applies to every stub still in this pipeline):** `summary` frontmatter must describe what the piece is actually about, not `"First published in [Publication], [date]."` — full rationale, good/bad examples, and the exact voice to match are now in `CLAUDE.md`. This was previously the norm for nearly every transcribed Bulletin/Walkabout/Gourmet article (45 of 46 Bulletin files, all 4 Walkabout files, the one Gourmet file) — all retrofitted with real summaries in this pass. The stub generators (`fetch_batman.py`, `fetch_byline.py`, `fetch_walkabout.py`) still correctly write the boilerplate as a placeholder marked `[Stub — not yet transcribed]` — that's fine and doesn't need changing — but replacing it with a real summary is now an explicit, required step of finishing a transcription, not optional polish. Also fixed in this pass: all three fetch scripts, `setup.py`, and `README.md` pointed transcribers at the wrong output directory (`src/posts/[publication]/` — a stale path from before the `src/articles/` rename); corrected to `src/articles/[publication]/` everywhere except the ~1,594 already-generated stub files sitting in `trove/output/*/stubs/`, which still have the old path in their body text and weren't worth a bulk find-replace (CLAUDE.md is the authoritative instruction anyway, per `trove/README.md`'s own workflow step).
+[ ] Update all trove acknowledgements to read like "This article first apeared in XXXXX Magazine, Date. The article with pictures, [(Link)is available online at Trove].
 
 ### Bulletin stubs — triage
 

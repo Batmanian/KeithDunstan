@@ -5,19 +5,19 @@ summary: Investigates Melbourne's record £40,000 bank robbery and the mystery o
 categories:
 - The Bulletin
 tags:
-  - Melbourne
-  - ES and A Bank
-  - Russell Street
-  - Flinders Lane
-  - Mayne Nickless
-  - S. A. von Bertouch
   - Australian Railway Historical Society
+  - Belgrave
+  - Dandenong Ranges
+  - ES and A Bank
+  - Flinders Lane
+  - Gembrook
+  - Mayne Nickless
+  - Melbourne
   - Puffing Billy
   - Puffing Billy Preservation Society
-  - Dandenong Ranges
+  - Russell Street
+  - S. A. von Bertouch
   - Upper Ferntree Gully
-  - Belgrave
-  - Gembrook
   - Wonga Park
 ---
 

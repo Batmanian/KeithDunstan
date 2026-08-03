@@ -5,19 +5,19 @@ summary: Covers the Collingwood Football Club's ceremonial guernsey-presentation
 categories:
 - The Bulletin
 tags:
-  - Collingwood Football Club
-  - Murray Weideman
-  - Syd Coventry
-  - Ray Gabelich
-  - Frank Galbally
-  - My Fair Lady
-  - J. C. Williamsons
-  - Her Majestys Theatre
-  - Michael Denison
-  - John McCallum
   - Christchurch
-  - Perth
+  - Collingwood Football Club
+  - Frank Galbally
+  - Her Majestys Theatre
+  - J. C. Williamsons
+  - John McCallum
   - Melbourne
+  - Michael Denison
+  - Murray Weideman
+  - My Fair Lady
+  - Perth
+  - Ray Gabelich
+  - Syd Coventry
 ---
 
 OUR cup indeed runneth over. Last Saturday, April 21, on the one day, we had the opening of the football season and the opening night of the second season of "My Fair Lady."

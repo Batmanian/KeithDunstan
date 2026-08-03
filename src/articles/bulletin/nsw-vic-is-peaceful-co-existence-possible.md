@@ -5,23 +5,23 @@ summary: A tongue-in-cheek peace plan for the Sydney-Melbourne rivalry, sparked 
 categories:
 - The Bulletin
 tags:
-  - Sydney
-  - Melbourne
-  - Henry Bolte
-  - Robert Heffron
-  - HMVS Cerberus
+  - Albury
+  - Arthur Calwell
   - Black Rock
   - Fitzgerald
-  - W. L. Hume
-  - Spooner
-  - Maurice Nathan
-  - Tullamarine
   - Gough Whitlam
-  - Roland Wilson
+  - Henry Bolte
+  - HMVS Cerberus
+  - Maurice Nathan
+  - Melbourne
   - Qantas
-  - Albury
-  - Robert Menzies
-  - Arthur Calwell
+  - Robert Heffron
+  - Roland Wilson
+  - Sir Robert Menzies
+  - Spooner
+  - Sydney
+  - Tullamarine
+  - W. L. Hume
 ---
 
 HAVE you noticed that the dangerous tension between Sydney and Melbourne has been on the increase almost daily? Indeed sometimes I have wondered where it will all end. Before the situation gets out of hand would it not be wise to suggest that our two great leaders, Mr Bolte and Mr Heffron, be joined by private line to their various White Houses so that they could contact each other direct at any hour on occasions of peril? Mr Heffron should not take it for granted that Victoria is entirely helpless. We still have a unit of the Royal Victorian Navy, the iron-clad HMVS Cerberus, equipped with four 18-ton muzzle-loading guns. Admittedly it has been sunk as a breakwater at Black Rock since 1926 and is in a somewhat rusty condition, but we could restore it.

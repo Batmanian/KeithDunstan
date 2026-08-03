@@ -5,19 +5,19 @@ summary: A tour through the newly-opened Southern Cross Hotel, Melbourne's first
 categories:
 - The Bulletin
 tags:
-  - Melbourne
-  - Southern Cross Hotel
-  - Exhibition Street
-  - Eastern Market
-  - Graham Kennedy
+  - ANA Banking Chambers
+  - Bert Newton
   - Bobby Limb
   - Dawn Lake
-  - Bert Newton
-  - Tommy Hanlon Jnr
-  - ANA Banking Chambers
-  - Toorak
   - Deniliquin
+  - Eastern Market
+  - Exhibition Street
+  - Graham Kennedy
+  - Melbourne
   - Portsea
+  - Southern Cross Hotel
+  - Tommy Hanlon Jnr
+  - Toorak
 ---
 
 AT last it has happened. Admittedly the Menzies moved to its present site in 1867, the Windsor opened in 1883 and the Australia was rebuilt in 1939, but to be honest not many of us could recall another occasion when a brand new hotel actually opened in Melbourne. Well, last Friday The Southern Cross, Australia's biggest hotel, opened on the site of the old Eastern Market in Exhibition Street.

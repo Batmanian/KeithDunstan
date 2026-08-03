@@ -5,11 +5,11 @@ summary: A dispatch from Melbourne's new Playboy Restaurant, the local answer to
 categories:
 - The Bulletin
 tags:
+  - Albert Park
+  - Hugh Hefner
+  - Playboy Restaurant
   - St Kilda
   - Stanley Korman
-  - Albert Park
-  - Playboy Restaurant
-  - Hugh Hefner
 ---
 
 Perhaps you are one of those who think that Melbourne is like Adelaide, all respectability, sweetness and Colonel Light. Oh, how we have fallen. First the strippers moved into the dear old Hotel Ritz in St Kilda and into the Hotel Britannia in Swanston Street.

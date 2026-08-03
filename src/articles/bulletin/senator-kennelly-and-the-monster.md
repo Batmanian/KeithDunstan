@@ -6,10 +6,10 @@ categories:
 - The Bulletin
 tags:
   - Albert Park
-  - Pat Kennelly
-  - Elodea Canadensis
   - Batman Motel
   - CSIRO
+  - Elodea Canadensis
+  - Pat Kennelly
 ---
 
 Science fiction has always been interested in the all-powerful voracious weed that envelops the community: the type that grows and grows, possesses a human mind and does fearful un-Christian things. There was a BBC TV show along these lines, called "The Quatermass Experiment." If I remember correctly a capsule returned from outer space. There was a dying spaceman aboard and he was possessed by a frightful growth. Well, this weed growth thing spread and spread. It consumed whole human beings, all good Londoners, but as it consumed them their minds and personalities kept on living in the growth. They tried everything to get rid of this weed without success. The grand climax came when the authorities made their last bid. They appealed to the sensible human brains living in the growth, asking them to destroy the weed from within.

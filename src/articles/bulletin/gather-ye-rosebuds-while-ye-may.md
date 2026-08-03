@@ -5,14 +5,14 @@ summary: A satirical guide to how Victorians spend their summer by the water, fr
 categories:
 - The Bulletin
 tags:
-  - Portsea
   - Harold Holt
-  - Toorak
-  - Lorne
   - Lake Eildon
+  - Lorne
+  - Portsea
   - Rosebud
-  - Young and Jacksons Hotel
   - Savage Club
+  - Toorak
+  - Young and Jacksons Hotel
 ---
 
 FOR those who like peace this is a beautiful time to be in Melbourne. The city is empty. It is possible to find parking spaces both in Collins Street and at the saloon bar in Young and Jackson's. One could pass away in one's chair at the Savage Club and it would be a week before the body was discovered.

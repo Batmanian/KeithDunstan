@@ -6,12 +6,12 @@ categories:
 - The Bulletin
 tags:
   - Albert Monk
-  - Macfarlane Burnet
-  - Walter and Eliza Hall Institute
-  - Philip Morris
-  - Moomba
-  - Yarra River
   - Don Ingersole
+  - Macfarlane Burnet
+  - Moomba
+  - Philip Morris
+  - Walter and Eliza Hall Institute
+  - Yarra River
 ---
 
 How difficult it is here to find anyone who is frightened of dying of lung cancer. True, Albert Monk gave it away some years ago. He cut down from a magnificent 100 cigarettes a day. He stopped overnight, no weak palliatives like lollies or chewing gum, the iron will of the trade union leader carried him through.

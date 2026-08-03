@@ -5,19 +5,19 @@ summary: Traces Victoria's absurd six o'clock closing laws back to a wartime "st
 categories:
 - The Bulletin
 tags:
-  - Victoria
+  - Arthur Rylah
+  - Associated Country Women of the World
+  - Australian Hotels Association
+  - Chevron
   - Gallipoli
   - Judge Fraser
-  - Neale Fraser
-  - Australian Hotels Association
   - Maurice Nathan
-  - Arthur Rylah
-  - Southern Cross Hotel
-  - Chevron
-  - Savoy Plaza
-  - Associated Country Women of the World
   - Melbourne
+  - Neale Fraser
   - Olympic Games
+  - Savoy Plaza
+  - Southern Cross Hotel
+  - Victoria
 ---
 
 ALL this past week here in Victoria we have been talking excitedly about liquor reform. Nothing too extravagant, you understand, after all the very quaintness of our liquor laws has made Victoria famous all over the world, wherever two or three people gather in one place for a beer or a Cinzano. Just as we are in favor of hanging people, we have a sincere love for six o'clock closing. According to the last Gallup Polls fifty-four per cent. were for hanging, thirty-five against and eleven had no opinion.

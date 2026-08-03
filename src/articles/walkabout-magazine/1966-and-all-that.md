@@ -5,17 +5,17 @@ summary: A tongue-in-cheek review of 1966, the year of decimal currency, Robert 
 categories:
 - Walkabout Magazine
 tags:
-  - Robert Menzies
-  - Harold Holt
-  - Ronald Ryan
-  - Prince Charles
-  - Lyndon B. Johnson
-  - Doug Walters
-  - Arthur Calwell
-  - Thomas Playford
-  - Joern Utzon
-  - Sydney Opera House
   - 6 Oclock swill
+  - Arthur Calwell
+  - Doug Walters
+  - Harold Holt
+  - Joern Utzon
+  - Lyndon B. Johnson
+  - Prince Charles
+  - Ronald Ryan
+  - Sir Robert Menzies
+  - Sydney Opera House
+  - Thomas Playford
 ---
 
 Years are terribly ephemeral. They elapse with such appalling rapidity that it is difficult to remember what happened in any one of them.

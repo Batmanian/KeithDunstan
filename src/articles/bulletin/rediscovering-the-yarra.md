@@ -5,20 +5,20 @@ summary: Previews the Queen's 1963 royal barge voyage up the Yarra to Henley Lan
 categories:
 - The Bulletin
 tags:
-  - Yarra
-  - Melbourne
-  - Queen Elizabeth II
-  - Essendon Airport
-  - Moonee Ponds
   - Britannia
-  - North Wharf
-  - John Batman
-  - Henley Landing
-  - Spencer Street Bridge
-  - Roy Dowling
   - Duke of Edinburgh
+  - Essendon Airport
   - Flemington Racecourse
+  - Henley Landing
+  - John Batman
+  - Melbourne
   - Melbourne Harbor Trust
+  - Moonee Ponds
+  - North Wharf
+  - Queen Elizabeth II
+  - Roy Dowling
+  - Spencer Street Bridge
+  - Yarra River
 ---
 
 NOTHING about the Queen's visit next February looks, at this stage, like being more memorable than the rediscovery of the Yarra—the Yarra-consciousness that the occasion is bringing forth might even be more than temporary.

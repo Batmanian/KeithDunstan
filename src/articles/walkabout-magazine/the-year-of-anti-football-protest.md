@@ -7,12 +7,12 @@ categories:
 tags:
   - Anti-Football League
   - Douglas Wilkie
-  - Melbourne Cricket Ground
-  - Sun News-Pictorial
-  - Victorian Football League
   - Harold Holt
   - Kenneth Luke
+  - Melbourne Cricket Ground
   - Ron Barassi
+  - Sun News-Pictorial
+  - Victorian Football League
 ---
 
 IT WAS THIS TIME LAST YEAR that a strange, almost unbelievable, phenomenon hit Victoria, an Anti-Football League. Now the time has come to issue an annual report.

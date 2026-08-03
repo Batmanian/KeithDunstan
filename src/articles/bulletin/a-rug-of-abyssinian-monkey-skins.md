@@ -5,17 +5,17 @@ summary: Visits used-car king Emmanuel Margolin, once Australia's self-styled bi
 categories:
 - The Bulletin
 tags:
-  - Emmanuel Margolin
   - Cecile Margolin
-  - Stanhill
-  - Reid Murray
-  - Stanley Korman
-  - Hopetoun Road
-  - Toorak
+  - Emmanuel Margolin
   - Ford Thunderbird
-  - Langley Park
   - Gembrook
+  - Hopetoun Road
+  - Langley Park
   - Madrid
+  - Reid Murray
+  - Stanhill
+  - Stanley Korman
+  - Toorak
 ---
 
 FINANCIALLY this past week has been like the last scene in Macbeth. We have had bodies spread all over the stage. A financial loss was barely worth mentioning unless it was up around £4 million or £6 million. We have witnessed the scenes of the receivers marching into Stanhill and Reid Murray and we heard Stanley Korman's passionate appeal to his shareholders. Now in the midst of all this a man came into the news that we had almost forgotten, Emmanuel Margolin. He stared out at us through a photograph in the Sun, in the full dress of a Spanish matador, specially tailored for him in Madrid. As this department has said before, Melbourne is extremely light on interesting characters. But Emmanuel is a character if ever there was one.

@@ -54,6 +54,13 @@ module.exports = function(eleventyConfig) {
       .sort((a, b) => a.date - b.date);
   });
 
+  // Same auto-populating pattern as the bulletin collection above, for
+  // src/articles/the-age/.
+  eleventyConfig.addCollection("theage", collection => {
+    return collection.getFilteredByGlob("src/articles/the-age/*.md")
+      .sort((a, b) => a.date - b.date);
+  });
+
   // The N most-referenced tags across a set of collection items (e.g.
   // collections.bulletin), for the "Top topics" line on snippets/bulletin.njk
   // and snippets/walkabout.njk. Same counting logic as the tagList collection

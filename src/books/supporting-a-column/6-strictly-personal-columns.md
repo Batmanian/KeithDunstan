@@ -10,7 +10,7 @@ tags:
   - Walter Chiari
   - Theyre a Weird Mob - film
   - Charlton Heston
-  - Ben Hur - film
+  - Ben Hur
   - Graham Walsh
   - Irene Handl
   - Margaret Rutherford

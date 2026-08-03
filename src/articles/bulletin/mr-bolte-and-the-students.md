@@ -5,20 +5,20 @@ summary: Profiles David Hirt, the bearded theological student leading Melbourne 
 categories:
 - The Bulletin
 tags:
-  - David Hirt
-  - Ormond College
-  - Henry Bolte
-  - Students' Anti-Hanging Committee
-  - Robert Tait
-  - Pentridge
   - Alan Pilkington
-  - Earl of Harewood
-  - Harold Macmillan
-  - Lovegrove
-  - Herbert Hyland
   - Country Party
-  - Melbourne University
+  - David Hirt
+  - Earl of Harewood
   - Flinders Street Station
+  - Harold Macmillan
+  - Henry Bolte
+  - Herbert Hyland
+  - Lovegrove
+  - Melbourne University
+  - Ormond College
+  - Pentridge
+  - Robert Tait
+  - Students' Anti-Hanging Committee
 ---
 
 DAVID HIRT lives at Picken Court, the very elegant block in Ormond College designed by Grounds, Romberg and Boyd. On the walls of his room are prints by Nolan, Brack, Dadswell, Botticelli and Picasso; a sign "ART IS LOVE OF GOD" and a very small picture of Mr Bolte, presumably by a Sun photographer. David Hirt is 26 and he wears a large black beard. His fellow students call him Castro. He trained as a sheet metal worker at Technical School, worked in factories and in his own words was a drifter until he decided to go into the church. He is now a theological student and he will become a Presbyterian Minister.

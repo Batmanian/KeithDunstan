@@ -5,18 +5,18 @@ summary: Mourns the decline of Melbourne's once-riotous Eight Hour Day march int
 categories:
 - The Bulletin
 tags:
-  - Melbourne
   - Eight Hour Day
+  - Flemington
+  - Jack Brabham
+  - Melbourne
+  - Melbourne Racing Club
   - Moomba
-  - Swanston Street
   - Myer Emporium
   - Sandown Park
   - Springvale Crematorium
-  - Jack Brabham
   - Stirling Moss
-  - Melbourne Racing Club
-  - Totalisator Agency Board
-  - Flemington
+  - Swanston Street
+  - Totalisator Agency Board (TAB)
 ---
 
 BACK in the days of Nod, Melbourne's Eight Hour Day procession was something to see. In 1916, for example, 11,000 trade unionists marched and never were there less than 15 bands. The stockmen used to ride cracking their stockwhips, the tinsmiths rode in suits of armor as knights of the Labor movement, and legend had it that the brewery wagon horses were kept in all their pristine beauty for the big day. They didn't tarnish themselves with work during the rest of the year.

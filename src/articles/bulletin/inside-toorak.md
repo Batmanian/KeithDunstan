@@ -5,16 +5,16 @@ summary: An affectionate dissection of Toorak's century of unrivalled Melbourne 
 categories:
 - The Bulletin
 tags:
-  - Toorak
-  - St Kilda
-  - Prahran
-  - Malvern
   - Armadale
   - Collingwood
   - Fitzroy
-  - Richmond
   - Hamilton Sleigh
+  - Malvern
   - Melbourne University Labor Club
+  - Prahran
+  - Richmond
+  - St Kilda
+  - Toorak
   - Toorak Village
 ---
 

@@ -5,18 +5,18 @@ summary: A spate of unprovoked gang bashings sparks public calls for the return 
 categories:
 - The Bulletin
 tags:
-  - Melbourne
-  - Chester Manifold
-  - Victorian Crimes Act
-  - YMCA
   - Alex Moodie
-  - William John O'Meally
-  - John Henry Taylor
   - Caulfield Cup
+  - Chester Manifold
+  - H. R. Way
+  - John Henry Taylor
+  - Melbourne
   - Melbourne Cup
   - Victoria Amateur Turf Club
   - Victoria Racing Club
-  - H. R. Way
+  - Victorian Crimes Act
+  - William John O'Meally
+  - YMCA
 ---
 
 *O ye! Who teach the ingenuous youth of nations,*  

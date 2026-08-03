@@ -5,14 +5,15 @@ summary: A survey of the Melbourne Cup as spectacle as much as sport, from Jean 
 categories:
 - Walkabout Magazine
 tags:
-  - Melbourne Cup
+  - Archer (racehorse)
+  - Carbine (racehorse)
   - Flemington Racecourse
-  - Victoria Racing Club
-  - Percy Cerutty
   - Jean Shrimpton
   - Light Fingers
-  - Carbine (racehorse)
-  - Archer (racehorse)
+  - Melbourne Cup
+  - Percy Cerutty
+  - Totalisator Agency Board (TAB)
+  - Victoria Racing Club
 ---
 
 I HAVE HEARD IT SAID that nobody can remember the name of the horse that won the 1965 Melbourne Cup. Actually it was a beautiful mare named Light Fingers.

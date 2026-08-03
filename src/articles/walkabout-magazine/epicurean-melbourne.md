@@ -5,14 +5,14 @@ summary: A tour of Melbourne's booming and increasingly cosmopolitan restaurant 
 categories:
 - Walkabout Magazine
 tags:
-  - Melbourne
   - Collins Street
   - Florentino Restaurant
   - Jimmy Watson
-  - Royal Commonwealth Society
-  - Royal Caledonian Society
-  - Sukiyaki House
   - La Popotte
+  - Melbourne
+  - Royal Caledonian Society
+  - Royal Commonwealth Society
+  - Sukiyaki House
   - The Walnut Tree
 ---
 

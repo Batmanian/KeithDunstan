@@ -5,20 +5,20 @@ summary: Mourns the demolition of the historic Scotts Hotel as Melbourne's city 
 categories:
 - The Bulletin
 tags:
-  - Melbourne
-  - Scotts Hotel
-  - Collins Street
-  - Melbourne Club
-  - Peter Snodgrass
-  - William Ryrie
-  - Menzies Hotel
-  - Ellen Moore
-  - Southern Cross Hotel
-  - Beer Appreciation Society of Australia
-  - Kilkenny Inn Hotel
-  - John Lonergan
   - Australian Broadcasting Commission
+  - Beer Appreciation Society of Australia
+  - Collins Street
+  - Ellen Moore
   - Hannan's Kalgoorlie Beer
+  - John Lonergan
+  - Kilkenny Inn Hotel
+  - Melbourne
+  - Melbourne Club
+  - Menzies Hotel
+  - Peter Snodgrass
+  - Scotts Hotel
+  - Southern Cross Hotel
+  - William Ryrie
 ---
 
 DEAR friends, the time has almost arrived to abandon Melbourne to the bankers and parking meters. The other day I stood in front of Scotts Hotel which was one of the few remaining oases at the ulcer end of Collins Street. Mr Whelan the wrecker, who has done so much more than the Temperance Society to get rid of hotels in our town, was in full cry. The Robbie Burns room was gone, the Edinburgh Room was a heap of rubble and, oh fellow drinkers, the iron ball was crashing its way into the public bar.

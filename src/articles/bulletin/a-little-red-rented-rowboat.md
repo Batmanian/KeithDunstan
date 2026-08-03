@@ -5,18 +5,18 @@ summary: A tour of Melbourne's National Boat Show, where the speedboat has repla
 categories:
 - The Bulletin
 tags:
+  - Bob Dyer
+  - Chevrolet
+  - Dolly Dyer
+  - Exhibition Building
+  - Ford Thunderbird
+  - Johnnie O'Keefe
   - Melbourne
   - National Boat Show
-  - Exhibition Building
   - Portsea
-  - Bob Dyer
-  - Dolly Dyer
-  - Tennessee IV
-  - Johnnie O'Keefe
   - Southern Cross Hotel
   - Sydney Heads
-  - Ford Thunderbird
-  - Chevrolet
+  - Tennessee IV
 ---
 
 BACK in the 1880s bicycle shows were all the rage in Melbourne. The popular journals carried advertisements which pointed out that the bicycle was splendid for deportment and it was quite untrue that ladies who took to the health-giving exercise ever developed any masculine tendencies. At the turn of the century the Austral wheel race on the Melbourne Cricket Ground was outrivalling the Melbourne Cup, and, heaven forgive us, there were bookmakers in the MCG reserve, calling the prices.

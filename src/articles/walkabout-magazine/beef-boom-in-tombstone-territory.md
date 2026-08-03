@@ -6,9 +6,9 @@ categories:
 - Walkabout Magazine
 tags:
   - Cape York Peninsula
-  - William Gunn
   - King Ranch
   - Mornington Peninsula
+  - William Gunn
 ---
 
 IT WAS HARD TO GET USED to the casual way they talked about "The Peninsula". I kept thinking about the other peninsula, Victoria's Mornington Peninsula, which is also "The Peninsula". People in Toorak and wool barons of the Western District, after they have made their first half-million, always buy a summer shack at Portsea.

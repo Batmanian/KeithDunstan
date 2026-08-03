@@ -5,21 +5,21 @@ summary: On the eve of his release after 12 years, revisits Melbourne's most sen
 categories:
 - The Bulletin
 tags:
-  - Melbourne
-  - John Bryan Kerr
-  - Pentridge Gaol
-  - Scotch College
-  - Toorak
   - Albert Park
   - Elizabeth Maureen Williams
-  - The Argus
-  - Harold Holt
-  - June Clyne
-  - Noel Coward
-  - Privy Council
-  - Rylah
   - H. A. Winneke
+  - Harold Holt
+  - John Bryan Kerr
+  - June Clyne
+  - Melbourne
+  - Noel Coward
+  - Pentridge Gaol
+  - Privy Council
   - Queensland
+  - Rylah
+  - Scotch College
+  - The Argus
+  - Toorak
 ---
 
 ADELAIDE has had its Stuart case, Tasmania has had its Orr case, but it may surprise you to know that here in Melbourne we too can have our grand passions. Any day now John Bryan Kerr will step out of Pentridge Gaol a free man. Perhaps you have forgotten the name. We haven't forgotten here. Nothing like this case has ever stirred up such a swamp of local emotion.

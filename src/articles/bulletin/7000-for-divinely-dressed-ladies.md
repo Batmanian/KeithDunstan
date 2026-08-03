@@ -5,21 +5,21 @@ summary: The Victoria Racing Club, alarmed by falling attendances, unveils a £7
 categories:
 - The Bulletin
 tags:
-  - Melbourne Cup
-  - Victoria Racing Club
-  - Tania Verstak
-  - Chester Manifold
-  - Ross Grey-Smith
-  - Frank Grey-Smith
-  - Melbourne Cricket Club
-  - Henry Bolte
-  - Nan Sanders
-  - Wool Bureau
-  - Peggy Tellick
   - British Nylon Spinners
+  - Chester Manifold
+  - Frank Grey-Smith
   - Geoff Lane
+  - Henry Bolte
   - Johnny Sellers
+  - Melbourne Cricket Club
+  - Melbourne Cup
+  - Nan Sanders
+  - Peggy Tellick
+  - Ross Grey-Smith
+  - Tania Verstak
   - Tourist Development Authority
+  - Victoria Racing Club
+  - Wool Bureau
 ---
 
 REMARKABLE things are happening this year with the Melbourne Cup and some of us old racing die-hards are worried. The Cup is to be turned into a sort of Moomba, titled the "Carnival of Fashions, Favorites and Flowers." Perhaps another aboriginal name would have helped but it wasn't so easy to find something that would cover—"Let's get together to have fun and dress divinely." The city buildings will be floodlit, there will be lights in the trees of Collins Street, public floral displays, but here's the point — there will be £7000 in prizes for the most divinely dressed ladies. The running of 26 horses might only be incidental.

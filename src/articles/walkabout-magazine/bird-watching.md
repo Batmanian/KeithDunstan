@@ -6,14 +6,14 @@ categories:
 - Walkabout Magazine
 tags:
   - Bird Watching
-  - Heidelberg
-  - Roy Wheeler
-  - Len Robinson
-  - Eyrean Grasswren
-  - Donald Campbell
-  - Red-necked Avocet
   - Commonweath Scientific and Industrial Organisation CSIRO
+  - Donald Campbell
   - Donald Shanks
+  - Eyrean Grasswren
+  - Heidelberg
+  - Len Robinson
+  - Red-necked Avocet
+  - Roy Wheeler
 ---
 
 My interest in bird watching was first whetted by the English cartoonist, Ronald Searle. Maybe you remember his famous sketches of 'A Lesser Titwort Avoiding a Worm' or 'A Mongolian Thick Surprised' and, of course, 'A Blue-Nose Chuck Brooding', Then, one time, I was almost caught by an Air Force organization that called itself Bird Watchers' Anonymous. Regrettably, the Bird Watchers proved to be a society that was more interested in a female species to be found in Collins Street, Martin Place and other good hunting grounds.

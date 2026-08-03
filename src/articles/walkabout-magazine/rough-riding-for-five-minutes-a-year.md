@@ -5,21 +5,21 @@ summary: Rides the outback rodeo circuit with Australia's professional rough-rid
 categories:
 - Walkabout Magazine
 tags:
-  - Greg Russell
-  - Max Hillier
-  - Ken Healy
-  - Peter Poole
-  - Rocky Round-up
-  - The Merry Muster
-  - Rodeo
-  - Myrtletord
-  - Rockhampton
-  - The Rough Riders Association
-  - Ricthie Fraser
   - Bulldogging
-  - Walgett
+  - Greg Russell
+  - Ken Healy
   - Marrabel
+  - Max Hillier
+  - Myrtletord
+  - Peter Poole
+  - Ricthie Fraser
+  - Rockhampton
+  - Rocky Round-up
+  - Rodeo
+  - The Merry Muster
+  - The Rough Riders Association
   - Tommy Cannon
+  - Walgett
 ---
 
 A young rough-rider leaned against the dogging chute at Myrtletord and made a rare admission: 

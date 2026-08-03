@@ -5,19 +5,19 @@ summary: Reports back from Melbourne Cup day on the results of the VRC's inaugur
 categories:
 - The Bulletin
 tags:
-  - Melbourne
-  - Flemington
-  - Victoria Racing Club
-  - Totalisator Agency Board
-  - Carlton and United Breweries
-  - National Bank of Australasia
-  - Hardy Bros
-  - Ross Grey-Smith
   - Bill Edwards
-  - Douglas Cox
-  - Les Coles
-  - Even Stevens
+  - Carlton and United Breweries
   - Chesty Bond
+  - Douglas Cox
+  - Even Stevens
+  - Flemington
+  - Hardy Bros
+  - Les Coles
+  - Melbourne
+  - National Bank of Australasia
+  - Ross Grey-Smith
+  - Totalisator Agency Board (TAB)
+  - Victoria Racing Club
 ---
 
 IT is all over but we can take consolation from the fact that the object has been achieved, the VRC, the garment trade, the Totalisator Agency Board and the hotels are all infinitely richer. We have just finished our first festival of fashions, flowers and favorites. Melbourne was to be agog with a spirit of floral gaiety. Actually it wasn't quite that. It's true the Carlton United Brewery filled its windows with hundreds of boxes of pansies, poppies and what not, and this dear brewery which has just declared a profit of more than £2,500,000 looked a very kindly brewery. The Town Hall put out flower boxes for its pigeons and we put flower boxes in Collins Street.

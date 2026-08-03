@@ -2,9 +2,10 @@
 
 > The published works of Keith Dunstan (1925–2013), Australian journalist and
 > author, preserved and made freely readable by his literary estate. Licensed
-> under Creative Commons Attribution–NonCommercial 4.0 (CC BY-NC 4.0): quote,
-> share and cite for non-commercial purposes with attribution. Not licensed for
-> AI model training. Full terms: https://keithdunstan.org/licence/
+> under Creative Commons Attribution–NonCommercial–NoDerivatives 4.0
+> (CC BY-NC-ND 4.0): quote, share and cite unchanged for non-commercial
+> purposes with attribution. Not licensed for AI model training. Full terms:
+> https://keithdunstan.org/licence/
 
 ## Books
 
@@ -14,7 +15,6 @@ Full catalogue: https://keithdunstan.org/books/
 
 
 - [Bird Watching](https://keithdunstan.org/articles/walkabout-magazine/bird-watching/) — Profiles Melbourne's Bird Observers Club, from a postman-secretary who charms Dutch sea captains to the Land Rover expedition that rediscovered the Eyrean Grasswren, unseen since 1874.
-- [Paddy's Market to Luxury Hotel](https://keithdunstan.org/articles/walkabout-magazine/paddys-market-to-luxury-hotel/) — Traces the site of the new £5 million Southern Cross Hotel back through the raucous history of the old Eastern Market, phrenologists, dancing ducks, a fortune-teller called Madame Zinga Lee, and an 1898 murder.
 - [Rough Riding for Five Minutes a Year](https://keithdunstan.org/articles/walkabout-magazine/rough-riding-for-five-minutes-a-year/) — Rides the outback rodeo circuit with Australia's professional rough-riders, from the Myrtleford Rodeo's untamed high-plains bulls to a wild-horse race that leaves one rider knocked cold and refusing all help.
 - [The New Image](https://keithdunstan.org/articles/bulletin/the-new-image/) — On Melbourne's sudden reputation for permissiveness, from a swimsuit-censorship row at the Australian Swimming Championships to the Moomba Committee's controversial beer garden in the Alexandra Gardens.
 - [Football and TV](https://keithdunstan.org/articles/bulletin/football-and-tv/) — Covers Melbourne's fierce row over the VFL's ban on televising the last quarter of League football, then Victoria's new tallest building, the 24-storey Consolidated Zinc, opening almost unnoticed.
@@ -32,6 +32,7 @@ Full catalogue: https://keithdunstan.org/books/
 - [The Stampede and the Fall-Out Shelter](https://keithdunstan.org/articles/bulletin/the-stampede-and-the-fall-out-shelter/) — Follows the new south-eastern freeway's traffic overflow into once-exclusive Toorak, then tours a fully-furnished nuclear fall-out shelter on display at the Building Industry Fair.
 - [Wild Life in Suburbia](https://keithdunstan.org/articles/bulletin/wild-life-in-suburbia/) — A Brotherhood of St Laurence survey of a Melbourne housing estate puts hard numbers on Barry Humphries' Mrs Everage caricature, finding suburban Melburnians were overwhelmingly stay-at-home, TV-watching and incurious.
 - [Now They Call Him "Satchmo" Bolte](https://keithdunstan.org/articles/bulletin/now-they-call-him-satchmo-bolte/) — Traces the Exhibition Building's rise from would-be demolition target to beloved 1963 Trade Fair venue via its riotous 1880s exhibition history, then catches Henry Bolte earning the nickname "Satchmo" over a misquoted Anthony Trollope line about Victorian boasting.
+- [Paddy's Market to Luxury Hotel](https://keithdunstan.org/articles/walkabout-magazine/paddys-market-to-luxury-hotel/) — Traces the site of the new £5 million Southern Cross Hotel back through the raucous history of the old Eastern Market, phrenologists, dancing ducks, a fortune-teller called Madame Zinga Lee, and an 1898 murder.
 - [Inside Toorak](https://keithdunstan.org/articles/bulletin/inside-toorak/) — An affectionate dissection of Toorak's century of unrivalled Melbourne snob value, from its jealously small postcode SE2 to its chauffeur-driven Rolls Royces and Tudor-revival Village shops.
 - [A Little Red Rented Rowboat](https://keithdunstan.org/articles/bulletin/a-little-red-rented-rowboat/) — A tour of Melbourne's National Boat Show, where the speedboat has replaced the car as the new status symbol, headlined by Bob Dyer's near-£4000 shark-fishing cruiser Tennessee IV.
 - [Return of Norm and Edna Everage](https://keithdunstan.org/articles/bulletin/return-of-norm-and-edna-everage/) — Welcomes Barry Humphries home from London for a nine-night Assembly Hall season, recounting his elaborate public pranks, including the "Ashburton Line" breakfast-in-a-carriage stunt and slices of ham hidden in a David Jones bargain sale.
@@ -88,9 +89,18 @@ Full catalogue: https://keithdunstan.org/books/
 - [Beef Boom in Tombstone Territory](https://keithdunstan.org/articles/walkabout-magazine/beef-boom-in-tombstone-territory/) — A tour of American-financed cattle stations on Cape York Peninsula, where Sir William Gunn's Gunn Rural Management and the King Ranch operation at Tully were fencing scrubmaster herds, breeding Brahmans and Santa Gertrudis, and bulldozing rainforest for legume pasture.
 - [Walkabout Profile: Jean Battersby](https://keithdunstan.org/articles/walkabout-magazine/walkabout-profile/) — A profile of Dr Jean Battersby, newly appointed Executive Director of the Australian Council for the Arts, on subsidising drama, ballet, opera and film, her Sorbonne years on a French government scholarship, and her rejection of the "bricks and concrete" test for judging cultural investment.
 - [Summer Madness](https://keithdunstan.org/articles/walkabout-magazine/summer-madness/) — A wry survey of Australia's overloaded summer beach culture, surfboards, caravans, and competitive Rosebud campsites, from Portsea and Palm Beach's Toorak-set glamour to Surfers Paradise's Miami-style tower blocks.
+- [This street was made for walking](https://keithdunstan.org/articles/the-age/this-street-was-made-for-walking/) — A defence of the pedestrianised Swanston Walk against councillors pushing to reopen it to traffic, citing survey figures showing it as the busiest pedestrian corner in Melbourne and the return of retailers like Levi Strauss and Nike.
+- [The happy thwack of cash on willow](https://keithdunstan.org/articles/the-age/the-happy-thwack-of-cash-on-willow/) — A meditation on cricket's transformation from a game of beautifully organised boredom, best enjoyed dozing at the Melbourne Cricket Ground, into a business fought over by players threatening strike action for a share of ballooning sponsorship money.
+- [Harbor no grudge, it's better here; The bay and me](https://keithdunstan.org/articles/the-age/harbor-no-grudge-its-better-here/) — A Boxing Day case for Port Phillip Bay over its more celebrated rival, touring favourite spots from Sea Winds and Point Nepean to the Sorrento ferry and a flathead-fishing trip with mate Doug Crittenden.
+- [Moombas and shakers](https://keithdunstan.org/articles/the-age/moombas-and-shakers/) — A profile of the Wittingslow family, the fairground dynasty who have run Moomba's rides and sideshows since patriarch Tom Wittingslow started out guessing weights at Penny Land in 1932, and who now stage the festival itself.
+- [A new clutch of ugly ducklings blots the cityscape](https://keithdunstan.org/articles/the-age/a-new-clutch-of-ugly-ducklings-blots-the-cityscape/) — A nomination round for Melbourne's ugliest sights, from the Foxtel and Optus advertising signs looming over the historic Young and Jackson's Hotel to the kitsch interior of the new Imax Theatre and the warring columns of 101 Collins Street.
+- [On the right track at last](https://keithdunstan.org/articles/the-age/on-the-right-track-at-last/) — The Lilydale-Warburton Rail Trail opens along a disused line closed by Henry Bolte in 1964, part of a growing Victorian movement converting old railway corridors into 36 kilometres of bush trail free of motor vehicles.
+- [Once a vision, now a site for sore eyes](https://keithdunstan.org/articles/the-age/once-a-vision-now-a-site-for-sore-eyes/) — The gutted, empty Southern Cross Hotel four years after the Nauru Government's redevelopment plans collapsed, and a look back at the lively Eastern Market it replaced in the 1960s, the market where C.J. Dennis's Sentimental Bloke first met Doreen.
+- [After 500 kilometres, still the kings (and queens) of the road](https://keithdunstan.org/articles/the-age/after-500-kilometres-still-the-kings-and-queens-of-the-road/) — The 15th Great Victorian Bike Ride brings 2100 cyclists 500 kilometres from Wahgunyah to Melbourne, among them 83-year-old veteran Alan "Curly" Hartup and the ride's youngest finisher, nine-year-old Anna Clements.
+- [Obituary: Richard Cudlipp](https://keithdunstan.org/articles/the-age/obituary-richard-cudlipp/) — An obituary for advertising executive Dick Cudlipp, who rose to managing director of George Patterson Bates in 1965, drove Carlton and United Breweries' campaign against the Courage Brewery, and later became a Western District cattle and vineyard grazier.
 
 
 ## Reuse and attribution
 
 Cite as: Keith Dunstan, '<title>', <publication>, <date>. From the Keith Dunstan
-Archive, https://keithdunstan.org — © the Estate of Keith Dunstan, CC BY-NC 4.0.
+Archive, https://keithdunstan.org — © the Estate of Keith Dunstan, CC BY-NC-ND 4.0.

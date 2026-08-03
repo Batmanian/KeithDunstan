@@ -5,21 +5,21 @@ summary: A wistful post-Grand-Final survey of Melbourne's VFL football obsession
 categories:
 - The Bulletin
 tags:
-  - Melbourne
-  - Ron Barassi
-  - St Kilda
-  - South Yarra
-  - Tania Verstak
-  - MCG
-  - Essendon
   - Carlton
-  - Geelong
-  - VFL
-  - Olympic Park
-  - Wheeler's Hill
-  - Fitzroy
   - Collingwood
+  - Essendon
+  - Fitzroy
+  - Geelong
   - Hotel Australia
+  - MCG
+  - Melbourne
+  - Olympic Park
+  - Ron Barassi
+  - South Yarra
+  - St Kilda
+  - Tania Verstak
+  - VFL
+  - Wheeler's Hill
 ---
 
 OH, now that it is all over, how can we face the dreary months ahead? The very thing which makes Melbourne so lovable is finished and the bitter truth is this, we have to wait 28 weeks for the start of another football season. So I sit here sadly, studying my football souvenirs, like Hamlet studying Yorick's skull.

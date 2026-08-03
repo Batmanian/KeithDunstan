@@ -5,16 +5,16 @@ summary: A history of Melbourne's Exhibition Building, from the lavish internati
 categories:
 - Walkabout Magazine
 tags:
-  - Exhibition Building
-  - Melbourne
-  - Chloe
-  - Young and Jacksons Hotel
-  - Sidney Myer
-  - Joseph Reed
-  - Robin Boyd
-  - Eric Westbrook
-  - National Gallery
   - Carlton
+  - Chloe
+  - Eric Westbrook
+  - Exhibition Building
+  - Joseph Reed
+  - Melbourne
+  - National Gallery
+  - Robin Boyd
+  - Sidney Myer
+  - Young and Jacksons Hotel
 ---
 
 YOU can have all your 20-storey filing cabinets and glass-houses. To my mind the best thing that has happened to Melbourne is the rebirth of the dear old Exhibition Building. Now in its 85th year, it is being treated with all the respect due to its size and grandeur. You see, the Exhibition was built at least 80 years ahead of its time, and only now has a city comparable with its own proportions. The Exhibition is booked out every week for more than a year ahead, and it is considered one of the six best halls of the kind in the world.

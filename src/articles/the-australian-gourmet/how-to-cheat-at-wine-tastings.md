@@ -3,13 +3,13 @@ title: How to cheat at wine tastings
 date: 1968-05-01
 summary: A tongue-in-cheek guide to bluffing your way through a masked-bottle wine tasting, from reading cork brands and capsule colours to timing your "hint of crushed violets" line for maximum effect.
 tags:
-  - Wine
-  - Clubs and Societies
   - Chateau Tahbilk
-  - Stonyfell
-  - Rhine Castle
-  - Peter Walker
+  - Clubs and Societies
   - Mount Pleasant
+  - Peter Walker
+  - Rhine Castle
+  - Stonyfell
+  - Wine
 ---
 
 You must have noticed that the nation is in danger of being over-run with grape and tucker clubs. For a start we have all the Wine and Food Societies and Beefsteak and Burgundy Clubs. In numbers they are already threatening to overthrow Apex and the Lions, but on top of this we have all the private, very exclusive little societies that meet at the nicest of clubs and restaurants. Indeed, I know some tellows who belong to so many of these groups they are finding it diflicult to arrange an appointment tor a meal at home.

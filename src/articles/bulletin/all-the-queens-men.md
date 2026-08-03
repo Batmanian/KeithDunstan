@@ -5,9 +5,9 @@ summary: On the exhausted vocabulary of Royal Tour reporting nine years after "o
 categories:
 - The Bulletin
 tags:
+  - Flemington Racecourse
   - Harold Holt
   - Irving Benson
-  - Flemington Racecourse
   - Moomba
   - Victoria Racing Club
   - Woomera

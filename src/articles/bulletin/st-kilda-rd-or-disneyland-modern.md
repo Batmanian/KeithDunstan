@@ -5,24 +5,24 @@ summary: Laments the once-grand St Kilda Road's decline into brash "Disneyland M
 categories:
 - The Bulletin
 tags:
-  - St Kilda Road
-  - Melbourne
-  - Collins Street
   - Alexandra Avenue
-  - Yarra Boulevard
+  - Charles de Gaulle
+  - Collins Street
   - Duke of Gloucester
-  - Queen Mother
   - Harold de Marigny
+  - Harold Luth
+  - Healesville
+  - Henry Bolte
+  - Melbourne
+  - Memphis
   - N. R. MacGregor
   - Noise Abatement Society
-  - Harold Luth
-  - Robert Menzies
-  - Charles de Gaulle
+  - Queen Mother
   - R. H. Donald
-  - Memphis
   - Rolf Millett
-  - Henry Bolte
-  - Healesville
+  - Sir Robert Menzies
+  - St Kilda Road
+  - Yarra Boulevard
 ---
 
 THIS is not easy to report—the blasphemous thought has arisen: "Is St Kilda Road finished?" Don't you see, whatever else might have been lacking in Melbourne we always had the comforting thought that St Kilda Road was the finest thoroughfare in the world. Admittedly there were one or two other thoroughfares in the world to rival it, but they too were in Melbourne—Collins Street and Alexandra Avenue. Over the years there had been endless streams of fine comments from our visitors. Every member of the Royal Family, including the Duke of Gloucester and the Queen Mother, had commented most favorably on our St Kilda Road.

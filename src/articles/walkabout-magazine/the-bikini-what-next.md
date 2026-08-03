@@ -5,12 +5,12 @@ summary: A history of Australia's long, losing battle to regulate what beachgoer
 categories:
 - Walkabout Magazine
 tags:
-  - St Kilda
-  - Manly
-  - The Argus
-  - Sun News-Pictorial
   - Lorne
+  - Manly
+  - St Kilda
+  - Sun News-Pictorial
   - Surfers Paradise
+  - The Argus
   - William Gocher
 ---
 

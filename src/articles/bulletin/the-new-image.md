@@ -5,21 +5,21 @@ summary: "On Melbourne's sudden reputation for permissiveness, from a swimsuit-c
 categories:
 - The Bulletin
 tags:
-  - Melbourne
-  - St Kilda
+  - Adelaide Festival of Arts
+  - Alexandra Gardens
+  - Amateur Swimming Union
   - Elwood
+  - John Rigby
+  - Johnny O'Keefe
+  - Judy Joy Davies
+  - June Bronhill
+  - Maurice Nathan
+  - Melbourne
+  - Moomba
   - New South Wales
   - Olympic Pool
-  - Amateur Swimming Union
-  - Judy Joy Davies
-  - John Rigby
-  - Moomba
-  - Alexandra Gardens
-  - Maurice Nathan
-  - Johnny O'Keefe
   - Sidney Myer Music Bowl
-  - June Bronhill
-  - Adelaide Festival of Arts
+  - St Kilda
 ---
 
 Just lately Melbourne has developed a fascinating new image. The weather has been so sunny and balmy over the past six months that the town now has possibilities as a pleasure resort. One commentator has suggested, even, that the Bayside resorts should follow Surfers' Paradise and develop fine, touristy names. Bikini Paradise could be good for St Kilda, or why not Sunstroke Strip for Elwood?

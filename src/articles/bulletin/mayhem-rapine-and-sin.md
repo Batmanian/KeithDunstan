@@ -6,11 +6,11 @@ categories:
 - The Bulletin
 tags:
   - 3UZ
+  - Carlton
+  - Fitzroy
+  - John Ford
   - Newsbeat
   - Truth newspaper
-  - John Ford
-  - Fitzroy
-  - Carlton
 ---
 
 Since "Truth" newspaper became anaemic and devoted itself to tiresome TV gossip, life has been awfully dull in Melbourne. One of the pleasures of the week-end was to lie in bed, read "Truth" and cluck one's teeth in horror over the week's blood, mayhem, rapine and sin. However, all is not lost. It is still possible to get a nice fill of blood from the radio.

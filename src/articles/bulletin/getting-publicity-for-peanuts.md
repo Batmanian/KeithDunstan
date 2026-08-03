@@ -5,9 +5,9 @@ summary: Wangaratta throws everything at the Australian Wool Bureau's national p
 categories:
 - The Bulletin
 tags:
-  - Wangaratta
-  - Sir Robert Menzies
   - Hume Highway
+  - Sir Robert Menzies
+  - Wangaratta
 ---
 
 You have to hand it to the Australian Wool Bureau — it is smart. Right now it has 31 towns around Australia taking part in a Wool Festival competition. The competition is divided up into population categories A, B, C and D. All it boils down to is this — a massive public relations publicity contest, and the Wool Bureau gets it for peanuts.

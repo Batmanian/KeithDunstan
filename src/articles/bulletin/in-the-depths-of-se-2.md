@@ -6,10 +6,10 @@ categories:
 - The Bulletin
 tags:
   - Emmanuel Margolin
-  - Toorak
-  - Leonard Joel
-  - Hopetoun Road
   - Ford Thunderbird
+  - Hopetoun Road
+  - Leonard Joel
+  - Toorak
 ---
 
 Do you mind if this week we have episode two in the story of Emmanuel Margolin? When we left you at the end of the last episode on December 29, Emmanuel, the car dealer, was in trouble over the credit squeeze. He had lost £150,000 in a year. He had sold his cattle stud for £30,000. His house was going for £34,500 or more. His Ford Thunderbird and five TV sets were on the block. An auction of all his household effects would take place in the New Year. Now read on . . .

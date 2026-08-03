@@ -5,17 +5,17 @@ summary: Previews Pan-American's new Miami-style Southern Cross Hotel rising on 
 categories:
 - The Bulletin
 tags:
-  - Melbourne
-  - Southern Cross Hotel
-  - Exhibition Street
-  - Bourke Street
-  - Eastern Market
-  - Pete Sutherland
-  - Maurice Nathan
-  - Bernard Evans
   - Albury
+  - Bernard Evans
+  - Bourke Street
   - Carlton
   - East Melbourne
+  - Eastern Market
+  - Exhibition Street
+  - Maurice Nathan
+  - Melbourne
+  - Pete Sutherland
+  - Southern Cross Hotel
 ---
 
 HOTEL-WRECKING-VIEWING is a popular pastime in Melbourne. Indeed, many a feature of some of our best wrecked hotels have appeared in famous movies. The bar of the wrecked Occidental Hotel, for example, appeared in "On the Beach," with Ava Gardner. But while Melburnians have seen countless city hotels being handled by Mr Whelan, the wrecker, few of us have ever seen a hotel being built. So you can imagine our excitement now that Pan-American's new Southern Cross Hotel is almost complete. It opens for business on August 24.

@@ -5,32 +5,32 @@ summary: A wry survey of Australia's overloaded summer beach culture, surfboards
 categories:
 - Walkabout Magazine
 tags:
-  - David Livingstone - explorer
-  - Surfing
-  - Summer holidays
-  - Bernard -Midget- Farrelly
-  - Hawkesbury River
-  - Port Phillip Bay
-  - Eildon Reservoir
-  - Robert -Nat- Young
-  - Highway One
-  - Rosebud, Victoria
+  - Batemans Bay
   - Beau Geste - film
-  - Portsea, Victoria
-  - Palm Beach - NSW
-  - Toorak
-  - Surfers Paradise
-  - Noosa
+  - Bermagui
+  - Bernard -Midget- Farrelly
   - Caloundra
-  - Mooloolabar
+  - David Livingstone - explorer
+  - Eildon Reservoir
   - Gold Coast
-  - Victor Harbour
-  - Port Lincoln
+  - Hawkesbury River
+  - Highway One
   - Mackay
   - Merimbukla
-  - Bermagui
-  - Batemans Bay
+  - Mooloolabar
+  - Noosa
+  - Palm Beach - NSW
+  - Port Lincoln
+  - Port Phillip Bay
+  - Portsea, Victoria
+  - Robert -Nat- Young
+  - Rosebud, Victoria
   - Rottnest Island
+  - Summer holidays
+  - Surfers Paradise
+  - Surfing
+  - Toorak
+  - Victor Harbour
 ---
 Back in the old days visits to the beach were beautifully uncomplicated. Father used to wear a maroon and blue towelling beach gown. Our total equipment was a white hat with string fly protector plus the regulation bucket and spade. Now on our holiday trips to the beach we really suffer. Livingstone, when he mounted his deepest expeditions into Africa, could not have had more trouble. 
 
