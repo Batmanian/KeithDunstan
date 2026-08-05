@@ -165,17 +165,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Kindly Smile from an Aberdeen Angus</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             4
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-09-29">29 Sep 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A dutiful trudge round the ever-identical Royal Show turns up an unexpected revival, a tug-o&#39;-war contest recalling Melbourne&#39;s forgotten 1892 world championship pull and its two legendary twenty-stone anchor men.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -183,9 +192,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A dutiful trudge round the ever-identical Royal Show turns up an unexpected revival, a tug-o&#39;-war contest recalling Melbourne&#39;s forgotten 1892 world championship pull and its two legendary twenty-stone anchor men.
-      </p>-->
       <p>VETERAN newspaper reporters in Melbourne have four annual miseries — Moomba, Anzac Day, the Melbourne Cup and the Royal Show. Each in its own way is utterly sacred. They all earn a vast amount of newspaper space and it is rare that anything new ever happens. The most dreaded of all these is the Royal Show. Not only is it the same every year but it is precisely the same as the other Shows in Sydney, Brisbane and Adelaide even down to the same cast. The sameness is there to such a degree that one gets an uncanny feeling that this is just a continuation of the previous show, that no time has elapsed between 1961 and 1962. Last week I received a lovely kind smile from an Aberdeen Angus bull. He just recognised me from last year.</p>
 <p>The Royal Agricultural Society runs the affair with a ruthless efficiency. Nothing is put on that is likely to cause the slightest disturbance, no rodeos that are likely to offend horse lovers, no male goats that are likely to offend sensitive noses and the side shows as vetted with a proper sense for Melburnian propriety. This year there is only one that could bring a faint gleam to a farmer's eye — &quot;Vanessa The Undresser.&quot; Sadly Vanessa undresses hardly at all. Even the large body of police, who like to attend every performance must feel that the public deserves more bare flesh for three shillings.</p>
 <p>But wait, there is a difference this year — 16 teams are competing in a tug-o-war contest, the first appearance in 25 years. You may think this is relatively unimportant, but there was a day when Melbourne was the world headquarters for tug-o'-war. On January 18, 1892, there was the world championship pull at the Exhibition building. There were teams competing from Spain, Germany, Italy, Sweden, Wales, Scotland, Denmark, England, Australia, Norway, France, Ireland and New Zealand. Over 10,000 crammed into the building and those who were left outside tried to bash the doors down. There were some superb moustache-twitching, muscle-tingling pulls that went on for over 45 minutes.</p>
@@ -199,7 +205,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -208,9 +217,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A dutiful trudge round the ever-identical Royal Show turns up an unexpected revival, a tug-o&#39;-war contest recalling Melbourne&#39;s forgotten 1892 world championship pull and its two legendary twenty-stone anchor men.
       </p>
 <hr>
@@ -243,9 +256,46 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/carlton-and-united-breweries/" class="link-secondary">Carlton and United Breweries</a>,
+    
+    <a href="/topic/carlton-brewery/" class="link-secondary">Carlton Brewery</a>,
+    
+    <a href="/topic/exhibition-building/" class="link-secondary">Exhibition Building</a>,
+    
+    <a href="/topic/jack-johnson/" class="link-secondary">Jack Johnson</a>,
+    
+    <a href="/topic/john-noonan/" class="link-secondary">John Noonan</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/melbourne-cricket-ground/" class="link-secondary">Melbourne Cricket Ground</a>,
+    
+    <a href="/topic/royal-agricultural-society/" class="link-secondary">Royal Agricultural Society</a>,
+    
+    <a href="/topic/royal-show/" class="link-secondary">Royal Show</a>,
+    
+    <a href="/topic/tom-herlihy/" class="link-secondary">Tom Herlihy</a>,
+    
+    <a href="/topic/tommy-burns/" class="link-secondary">Tommy Burns</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

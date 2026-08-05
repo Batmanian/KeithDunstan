@@ -164,17 +164,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Germaine Greer</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             22
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1980-11-11">1980</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Profile of Dr Germaine Greer, the Melbourne-born author of The Female Eunuch who became the best known Australian in the world, shocking and dividing her home country with her language, her lifestyle and her refusal to be tamed by it.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Ratbags">
@@ -182,9 +191,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Profile of Dr Germaine Greer, the Melbourne-born author of The Female Eunuch who became the best known Australian in the world, shocking and dividing her home country with her language, her lifestyle and her refusal to be tamed by it.
-      </p>-->
       <strong>I</strong>N 1972 Dr Germaine Greer was the best known Australian in the world. One could go better than that. She was better known than Errol Flynn and only Dame Nellie Melba back in the nineteen twenties could outshine her fame. She had mixed with all the great from Truman Capote to Norman Mailer. She had been interviewed by the BBC, <i>The Times, Life, Time, Newsweek, Washington Post</i> and <i>Playboy</i> went half way round the world to a farm house in Cortona, Italy, just to worship at her feet.<br><br>
 She wrote <i>The Female Eunuch</i>, which was a phenomenal best seller. It made the top best-seller lists in USA and Britain and wherever it appeared copies were unobtainable after the first two weeks. In Australia the paperback edition of 90,000 copies sold in that time and many critics thought it the best book on male-female relationships ever written.<br><br>
 However, 'Germs' as they called her was a little too shocking, a little too overpowering for her own country. Had she done something much easier, like won a gold medal in the Olympic Games, won the Miss Universe competition or raised $300,000 for the Stranded Dogs appeal she would have won an OBE or at the very least an MBE. Not Dr Greer. The best known Australian wasn't even worthy of an entry in <i>Who's Who in Australia</i>.<br><br>
@@ -276,7 +282,10 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-28">28 Jul 2026</time>
         </footer>
       
@@ -285,9 +294,13 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Profile of Dr Germaine Greer, the Melbourne-born author of The Female Eunuch who became the best known Australian in the world, shocking and dividing her home country with her language, her lifestyle and her refusal to be tamed by it.
       </p>
 <hr>
@@ -318,9 +331,44 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/germaine-greer/" class="link-secondary">Germaine Greer</a>,
+    
+    <a href="/topic/the-female-eunuch/" class="link-secondary">The Female Eunuch</a>,
+    
+    <a href="/topic/elwood/" class="link-secondary">Elwood</a>,
+    
+    <a href="/topic/melbourne-university/" class="link-secondary">Melbourne University</a>,
+    
+    <a href="/topic/newnham-college/" class="link-secondary">Newnham College</a>,
+    
+    <a href="/topic/warwick-university/" class="link-secondary">Warwick University</a>,
+    
+    <a href="/topic/paul-du-feu/" class="link-secondary">Paul du Feu</a>,
+    
+    <a href="/topic/playboy/" class="link-secondary">Playboy</a>,
+    
+    <a href="/topic/pol-magazine/" class="link-secondary">Pol magazine</a>,
+    
+    <a href="/topic/claudia-wright/" class="link-secondary">Claudia Wright</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-28">28 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

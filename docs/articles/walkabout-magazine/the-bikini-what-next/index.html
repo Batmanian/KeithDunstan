@@ -161,17 +161,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">The Bikini, What Next?</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             9
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1968-01-01">01 Jan 1968</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A history of Australia&#39;s long, losing battle to regulate what beachgoers wear and when they may swim, from the segregated sea baths and bathing machines of the 1890s and William Gocher&#39;s 1902 defiance of Manly&#39;s bathing laws to the 1968 furore over the bikini.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Walkabout Magazine">
@@ -179,9 +188,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A history of Australia&#39;s long, losing battle to regulate what beachgoers wear and when they may swim, from the segregated sea baths and bathing machines of the 1890s and William Gocher&#39;s 1902 defiance of Manly&#39;s bathing laws to the 1968 furore over the bikini.
-      </p>-->
       <p>Many of my friends have interesting views on modern bathing costumes. For example, there is Alf Bloggenheimer who says: &quot;The whole thing has been proved and finished. Bikinis have become so brief nobody takes any notice any more. And it would be the same if all girls got around starkers, they wouldn't notice them either.&quot;</p>
 <p>No doubt there is something to be said for the if-everybody-did-it-you-wouldn't-notice theory, and I have tried to put it into practice.</p>
 <p>Take the Victorian beach of Lorne. As bikini beaches go this is a beauty. The young things parade past by the hundred, bikinis unbelievably brief, lovely sun-tanned bodies.</p>
@@ -236,7 +242,10 @@ Chorus: She may not join her cobber.</p>
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -245,9 +254,13 @@ Chorus: She may not join her cobber.</p>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A history of Australia&#39;s long, losing battle to regulate what beachgoers wear and when they may swim, from the segregated sea baths and bathing machines of the 1890s and William Gocher&#39;s 1902 defiance of Manly&#39;s bathing laws to the 1968 furore over the bikini.
       </p>
 <hr>
@@ -272,9 +285,38 @@ Chorus: She may not join her cobber.</p>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/lorne/" class="link-secondary">Lorne</a>,
+    
+    <a href="/topic/manly/" class="link-secondary">Manly</a>,
+    
+    <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>,
+    
+    <a href="/topic/sun-news-pictorial/" class="link-secondary">Sun News-Pictorial</a>,
+    
+    <a href="/topic/surfers-paradise/" class="link-secondary">Surfers Paradise</a>,
+    
+    <a href="/topic/the-argus/" class="link-secondary">The Argus</a>,
+    
+    <a href="/topic/william-gocher/" class="link-secondary">William Gocher</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

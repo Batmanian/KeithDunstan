@@ -163,17 +163,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Alexander Tolmer</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             27
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1980-11-11">1980</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Profile of Alexander Tolmer, the fearless and fist-happy South Australian police commissioner who swam the Tagus to outdo Byron, led the gold escorts that saved the colony from bankruptcy, and was twice sacked from the force he built.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Ratbags">
@@ -181,9 +190,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Profile of Alexander Tolmer, the fearless and fist-happy South Australian police commissioner who swam the Tagus to outdo Byron, led the gold escorts that saved the colony from bankruptcy, and was twice sacked from the force he built.
-      </p>-->
       <strong>S</strong>OUTH AUSTRALIA has had some controversial and colorful commissioners of police. Furthermore it has sacked some of them, but of all those sacked gentlemen surely none would be the equal of the redoubtable Alexander Tolmer.<br><br>
 Tolmer had considerable skills. He was bilingual in English and French, fluent in Portugese, sufficiently skilled as a painter to have one of his pictures presented to the Queen, good enough on the violin to perform at an occasional concert, a better swimmer than Byron and absolutely marvellous at getting himself into exciting, dangerous situations. He had the daring do of a comic strip hero and he once claimed that he wasn't like a cat which merely had nine lives. Alexander Tolmer had a hundred of them.<br><br>
 He could write, he was scathingly articulate to his own detriment and for a fellow who was only nine and a half stone and five feet nine inches, barely large enough for a policeman, he was splendid with his fists. Indeed he adored to use his knuckles and he was not above conducting discipline among the troops in the old-fashioned style. He was arrogant, impulsive and a brilliant all-round hero.<br><br>
@@ -310,7 +316,10 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-28">28 Jul 2026</time>
         </footer>
       
@@ -319,9 +328,13 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Profile of Alexander Tolmer, the fearless and fist-happy South Australian police commissioner who swam the Tagus to outdo Byron, led the gold escorts that saved the colony from bankruptcy, and was twice sacked from the force he built.
       </p>
 <hr>
@@ -350,9 +363,42 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/alexander-tolmer/" class="link-secondary">Alexander Tolmer</a>,
+    
+    <a href="/topic/south-australia/" class="link-secondary">South Australia</a>,
+    
+    <a href="/topic/adelaide/" class="link-secondary">Adelaide</a>,
+    
+    <a href="/topic/gold-escort/" class="link-secondary">Gold Escort</a>,
+    
+    <a href="/topic/mounted-police/" class="link-secondary">Mounted Police</a>,
+    
+    <a href="/topic/kangaroo-island/" class="link-secondary">Kangaroo Island</a>,
+    
+    <a href="/topic/governor-gawler/" class="link-secondary">Governor Gawler</a>,
+    
+    <a href="/topic/commissioner-of-police/" class="link-secondary">Commissioner of Police</a>,
+    
+    <a href="/topic/coorong/" class="link-secondary">Coorong</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-28">28 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

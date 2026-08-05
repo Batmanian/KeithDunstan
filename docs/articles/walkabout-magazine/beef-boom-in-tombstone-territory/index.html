@@ -158,17 +158,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Beef Boom in Tombstone Territory</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             11
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1968-10-01">01 Oct 1968</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A tour of American-financed cattle stations on Cape York Peninsula, where Sir William Gunn&#39;s Gunn Rural Management and the King Ranch operation at Tully were fencing scrubmaster herds, breeding Brahmans and Santa Gertrudis, and bulldozing rainforest for legume pasture.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Walkabout Magazine">
@@ -176,9 +185,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A tour of American-financed cattle stations on Cape York Peninsula, where Sir William Gunn&#39;s Gunn Rural Management and the King Ranch operation at Tully were fencing scrubmaster herds, breeding Brahmans and Santa Gertrudis, and bulldozing rainforest for legume pasture.
-      </p>-->
       <p>IT WAS HARD TO GET USED to the casual way they talked about &quot;The Peninsula&quot;. I kept thinking about the other peninsula, Victoria's Mornington Peninsula, which is also &quot;The Peninsula&quot;. People in Toorak and wool barons of the Western District, after they have made their first half-million, always buy a summer shack at Portsea.</p>
 <p>On both peninsulas there is much tea-tree. On Cape York Peninsula there is also much tea-tree, but there the similarity ends. The big peninsula is no place for big shiny cars with nice springing. Bitumen doesn't exist, and the bumps send you sailing up through the roof of the landrover.</p>
 <p>The country is hot, dusty, flat and unbelievably devoid of human beings. Every 50 yards there are strange nine-foot-high ant hills, flat, triangular, with the sharp edges always running magnetically north and south. They look lonely, very eerie, like tombstones of another civilisation. They look even more eerie as the sun starts to sink, and long shadows appear on the red, dry earth, Tombstone Territory.</p>
@@ -219,7 +225,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -228,9 +237,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A tour of American-financed cattle stations on Cape York Peninsula, where Sir William Gunn&#39;s Gunn Rural Management and the King Ranch operation at Tully were fencing scrubmaster herds, breeding Brahmans and Santa Gertrudis, and bulldozing rainforest for legume pasture.
       </p>
 <hr>
@@ -249,9 +262,32 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/cape-york-peninsula/" class="link-secondary">Cape York Peninsula</a>,
+    
+    <a href="/topic/king-ranch/" class="link-secondary">King Ranch</a>,
+    
+    <a href="/topic/mornington-peninsula/" class="link-secondary">Mornington Peninsula</a>,
+    
+    <a href="/topic/william-gunn/" class="link-secondary">William Gunn</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

@@ -164,17 +164,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Melbourne&#39;s Evergreen Exhibition</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             11
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1964-05-01">01 May 1964</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A history of Melbourne&#39;s Exhibition Building, from the lavish international exhibitions of 1880 and 1888 through Sidney Myer&#39;s Depression-era Christmas dinner for 11,000 unemployed people to its 1963 revival as a trade fair venue.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Walkabout Magazine">
@@ -182,9 +191,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A history of Melbourne&#39;s Exhibition Building, from the lavish international exhibitions of 1880 and 1888 through Sidney Myer&#39;s Depression-era Christmas dinner for 11,000 unemployed people to its 1963 revival as a trade fair venue.
-      </p>-->
       <p>YOU can have all your 20-storey filing cabinets and glass-houses. To my mind the best thing that has happened to Melbourne is the rebirth of the dear old Exhibition Building. Now in its 85th year, it is being treated with all the respect due to its size and grandeur. You see, the Exhibition was built at least 80 years ahead of its time, and only now has a city comparable with its own proportions. The Exhibition is booked out every week for more than a year ahead, and it is considered one of the six best halls of the kind in the world.</p>
 <p>Yet, until recently, the Exhibition was the joke of Melbourne. It was called a monstrosity, a white elephant, and there was a very determined effort of the City Council to have it pulled down. On police rounds used to sit up at Russell Street police station and dream through the long night. Their dream was that the mammoth wooden Exhibition would catch alight. In my day this was considered to be the ultimate of stories, and we used to pray that we would be working the night it happened. It never did. There was even a popular notion that the building should come down for the very reason that it was only temporary in the first place. Temporary? For heaven's sake, it was built on solid limestone foundations, as solid as the Sydney Opera House.</p>
 <p>Perhaps the biggest reasons for the resurgence of the Exhibition was the last international trade fair and the spending of half a million pounds on extensions which covered 64,000 square feet. What's more, the original grand main entrance was put back into use, just as it was in the old days. In many ways this trade fair of 1963 was most impressive, but, judging from the records, it didn't touch the great international trade fairs of 1880 and 1888. Just sit deep in your chair for a spell while I tell you all about it.</p>
@@ -217,7 +223,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -226,9 +235,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A history of Melbourne&#39;s Exhibition Building, from the lavish international exhibitions of 1880 and 1888 through Sidney Myer&#39;s Depression-era Christmas dinner for 11,000 unemployed people to its 1963 revival as a trade fair venue.
       </p>
 <hr>
@@ -259,9 +272,44 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/carlton/" class="link-secondary">Carlton</a>,
+    
+    <a href="/topic/chloe/" class="link-secondary">Chloe</a>,
+    
+    <a href="/topic/eric-westbrook/" class="link-secondary">Eric Westbrook</a>,
+    
+    <a href="/topic/exhibition-building/" class="link-secondary">Exhibition Building</a>,
+    
+    <a href="/topic/joseph-reed/" class="link-secondary">Joseph Reed</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/national-gallery/" class="link-secondary">National Gallery</a>,
+    
+    <a href="/topic/robin-boyd/" class="link-secondary">Robin Boyd</a>,
+    
+    <a href="/topic/sidney-myer/" class="link-secondary">Sidney Myer</a>,
+    
+    <a href="/topic/young-and-jacksons-hotel/" class="link-secondary">Young and Jacksons Hotel</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

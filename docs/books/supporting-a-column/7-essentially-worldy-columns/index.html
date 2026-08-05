@@ -187,17 +187,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Essentially worldly columns</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             57
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1966-11-11">1966</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            On chasing column fodder overseas during the lean weeks, including a heavily armed, machine-gun-escorted tour of a Strategic Air Command nuclear bomber base at Fort Worth, Texas, at the height of the Cold War.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Supporting A Column">
@@ -205,9 +214,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        On chasing column fodder overseas during the lean weeks, including a heavily armed, machine-gun-escorted tour of a Strategic Air Command nuclear bomber base at Fort Worth, Texas, at the height of the Cold War.
-      </p>-->
       <p>There come terrible periods in the lives of newspaper columnists when all ideas seem to dry up, and the hideous thought comes that there may never be another idea again. There are awful dead periods that come in cycles. Sometimes it is because of the season. Maybe it is January, the courts are not sitting, Parliament is in recess and everybody is out of own. Or maybe the football season is just over, cricket has yet to get under way and even the sporting editor is looking grey and frightened.</p>
 <p>On the other hand dead periods can come for no reason whatever and last for weeks at a time. When that happens, there is only one choice — get out of town, go anywhere, new scenery and new faces are essential.</p>
 <p>Yet travel brings other problems. The column still has to be produced every day and often there is so little time. I have always followed the same principle — there is some person in the town who knows more about it than anyone else — let him do the talking.</p>
@@ -440,7 +446,10 @@ Miss Arthachinda looked down at him with great affection.
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -449,9 +458,13 @@ Miss Arthachinda looked down at him with great affection.
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         On chasing column fodder overseas during the lean weeks, including a heavily armed, machine-gun-escorted tour of a Strategic Air Command nuclear bomber base at Fort Worth, Texas, at the height of the Cold War.
       </p>
 <hr>
@@ -528,9 +541,90 @@ Miss Arthachinda looked down at him with great affection.
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/darwin/" class="link-secondary">Darwin</a>,
+    
+    <a href="/topic/douglas-lockwood/" class="link-secondary">Douglas Lockwood</a>,
+    
+    <a href="/topic/fort-worth-texas/" class="link-secondary">Fort Worth - Texas</a>,
+    
+    <a href="/topic/strategic-air-command-usaaf/" class="link-secondary">Strategic Air Command -USAAF-</a>,
+    
+    <a href="/topic/canadian-pacific-airlines/" class="link-secondary">Canadian Pacific Airlines</a>,
+    
+    <a href="/topic/john-bechervaise/" class="link-secondary">John Bechervaise</a>,
+    
+    <a href="/topic/1960-tokyo-olympics/" class="link-secondary">1960 Tokyo Olympics</a>,
+    
+    <a href="/topic/all-nippon-airlines-(ana)/" class="link-secondary">All Nippon Airlines (ANA)</a>,
+    
+    <a href="/topic/peter-temm/" class="link-secondary">Peter Temm</a>,
+    
+    <a href="/topic/kure-diggers-waifs/" class="link-secondary">Kure -Diggers- waifs</a>,
+    
+    <a href="/topic/yone-ito/" class="link-secondary">Yone Ito</a>,
+    
+    <a href="/topic/masaaki-usui/" class="link-secondary">Masaaki Usui</a>,
+    
+    <a href="/topic/percy-cerutty/" class="link-secondary">Percy Cerutty</a>,
+    
+    <a href="/topic/alderman-hills/" class="link-secondary">Alderman Hills</a>,
+    
+    <a href="/topic/bangkok/" class="link-secondary">Bangkok</a>,
+    
+    <a href="/topic/brian-hill/" class="link-secondary">Brian Hill</a>,
+    
+    <a href="/topic/china/" class="link-secondary">China</a>,
+    
+    <a href="/topic/cockfighting/" class="link-secondary">Cockfighting</a>,
+    
+    <a href="/topic/henry-cabot-lodge/" class="link-secondary">Henry Cabot Lodge</a>,
+    
+    <a href="/topic/hong-kong/" class="link-secondary">Hong Kong</a>,
+    
+    <a href="/topic/japan/" class="link-secondary">Japan</a>,
+    
+    <a href="/topic/manila/" class="link-secondary">Manila</a>,
+    
+    <a href="/topic/(thich)-quang-do/" class="link-secondary">(Thich) Quang Do</a>,
+    
+    <a href="/topic/sir-robert-menzies/" class="link-secondary">Sir Robert Menzies</a>,
+    
+    <a href="/topic/sondrestrom/" class="link-secondary">Sondrestrom</a>,
+    
+    <a href="/topic/texas/" class="link-secondary">Texas</a>,
+    
+    <a href="/topic/thailand/" class="link-secondary">Thailand</a>,
+    
+    <a href="/topic/the-philipines/" class="link-secondary">The Philipines</a>,
+    
+    <a href="/topic/vietnam/" class="link-secondary">Vietnam</a>,
+    
+    <a href="/topic/womens-army-corps/" class="link-secondary">Womens Army Corps</a>,
+    
+    <a href="/topic/louis-beltran/" class="link-secondary">Louis Beltran</a>,
+    
+    <a href="/topic/rajadamnern-stadium-bangkok/" class="link-secondary">Rajadamnern Stadium - Bangkok</a>,
+    
+    <a href="/topic/boys-own-paper/" class="link-secondary">Boys Own Paper</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

@@ -173,17 +173,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Columns secured on the grapevine</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             16
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1966-11-11">1966</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Confesses a lifelong, failed ambition to become a wine snob, then tours Rutherglen and Great Western&#39;s historic vineyards and Melbourne&#39;s suburban home-bottling clubs decanting hogsheads by wheelbarrow.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Supporting A Column">
@@ -191,9 +200,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Confesses a lifelong, failed ambition to become a wine snob, then tours Rutherglen and Great Western&#39;s historic vineyards and Melbourne&#39;s suburban home-bottling clubs decanting hogsheads by wheelbarrow.
-      </p>-->
       <p>Columnists try to be so clever. Desperately they try to analyse the interests of the public, to write columns which will reach the greatest number of people. Yet it is very hard to stop one's own idiosyncrasies, fads, prejudices, quirks, hates and loves from showing through.</p>
 <p>Looking back over the years I note it is quite remarkable the number of columns there have been on cricket, acroplanes, gardening, girls, and most particularly, wine. There have been columns and columns on wine and, it must be admitted, the Editor has borne it all most manfully.</p>
 <p>The column has not really missed a wine judging or tasting at the Royal Agricultural Show in ten years. I have picked up a few points. Wine does not have a bonzer smell — it has a splendid nose or a fine bouquet. One does not drink or quaff wine, one 'looks' at it. To gain the really exquisite style of the connoisseur one should take the flat base of the stemmed glass between finger and thumb, hold it out at arm's length, raise it to the light and murmur 'Good colour'. Next give the glass a quick twiddle in a clockwise direction and then put your nose right into the glass. Close the eyes, take out your nose and give a sigh. Repeat this process several times; it looks very good indeed. Next take a very small sip, roll it around your mouth and smack your lips a little. Even click your tongue. Repeat this, too, several times, then sit back and look confident. You know all about that damned wine there is to know.</p>
@@ -236,7 +242,10 @@ bottles.</p>
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -245,9 +254,13 @@ bottles.</p>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Confesses a lifelong, failed ambition to become a wine snob, then tours Rutherglen and Great Western&#39;s historic vineyards and Melbourne&#39;s suburban home-bottling clubs decanting hogsheads by wheelbarrow.
       </p>
 <hr>
@@ -296,9 +309,62 @@ bottles.</p>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/wine/" class="link-secondary">Wine</a>,
+    
+    <a href="/topic/florentino-restaurant/" class="link-secondary">Florentino Restaurant</a>,
+    
+    <a href="/topic/home-bottlers/" class="link-secondary">Home Bottlers</a>,
+    
+    <a href="/topic/grape-phylloxera/" class="link-secondary">Grape Phylloxera</a>,
+    
+    <a href="/topic/hugh-fraser/" class="link-secondary">Hugh Fraser</a>,
+    
+    <a href="/topic/george-francis-morris/" class="link-secondary">George Francis Morris</a>,
+    
+    <a href="/topic/rutherglen/" class="link-secondary">Rutherglen</a>,
+    
+    <a href="/topic/sir-rohan-delacombe/" class="link-secondary">Sir Rohan Delacombe</a>,
+    
+    <a href="/topic/all-saints-winery/" class="link-secondary">All Saints Winery</a>,
+    
+    <a href="/topic/george-sutherland-smith-iii/" class="link-secondary">George Sutherland Smith III</a>,
+    
+    <a href="/topic/p.-osullivan/" class="link-secondary">P. OSullivan</a>,
+    
+    <a href="/topic/john-c-brown/" class="link-secondary">John C Brown</a>,
+    
+    <a href="/topic/j.c.-jimmy-watson/" class="link-secondary">J.C. -Jimmy- Watson</a>,
+    
+    <a href="/topic/chateau-tahbilk/" class="link-secondary">Chateau Tahbilk</a>,
+    
+    <a href="/topic/eric-purbrick/" class="link-secondary">Eric Purbrick</a>,
+    
+    <a href="/topic/great-western/" class="link-secondary">Great Western</a>,
+    
+    <a href="/topic/great-western-champagne/" class="link-secondary">Great Western Champagne</a>,
+    
+    <a href="/topic/colin-preece/" class="link-secondary">Colin Preece</a>,
+    
+    <a href="/topic/hans-irvine/" class="link-secondary">Hans Irvine</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

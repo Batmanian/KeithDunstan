@@ -167,17 +167,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">The Cup - Some Bowlers Were Low and Rakish</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-11-17">17 Nov 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Reports back from Melbourne Cup day on the results of the VRC&#39;s inaugural &quot;fashions, flowers and favorites&quot; festival, including the fashion judges&#39; undercover hunt for the best-dressed racegoer under £30 or £50.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -185,9 +194,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Reports back from Melbourne Cup day on the results of the VRC&#39;s inaugural &quot;fashions, flowers and favorites&quot; festival, including the fashion judges&#39; undercover hunt for the best-dressed racegoer under £30 or £50.
-      </p>-->
       <p>IT is all over but we can take consolation from the fact that the object has been achieved, the VRC, the garment trade, the Totalisator Agency Board and the hotels are all infinitely richer. We have just finished our first festival of fashions, flowers and favorites. Melbourne was to be agog with a spirit of floral gaiety. Actually it wasn't quite that. It's true the Carlton United Brewery filled its windows with hundreds of boxes of pansies, poppies and what not, and this dear brewery which has just declared a profit of more than £2,500,000 looked a very kindly brewery. The Town Hall put out flower boxes for its pigeons and we put flower boxes in Collins Street.</p>
 <p>Incredibly, though, we put them only on the south side and then only between Swanston Street and Elizabeth Street. Somehow they looked incongruous just placed there on the pavement, and even more incongruous when nobody watered them and the flowers wilted and died. There was a competition for the best decorated buildings and you will be pleased to hear that the mighty banking institutions of Collins Street fought it out pelargonium for pelargonium and pansy for pansy. The National Bank of Australasia won hands down. They brought in so many orchids and exotic plants that the banking chamber looked like the main hot house at Kew Gardens. You couldn't write a pay-form without falling over a ranunculi. Then there were all sorts of private battles. Drummonds the jewellers, in traditional style, put the gorgeous three-handled gold Melbourne Cup in the window. (One of the few trophies you'd be seen dead with.)</p>
 <p>But Hardy Bros, next door, rather caddishly I thought, fought back by putting Australia's finest diamond in their window. Not quite as large as the Cup, but it was superb and worth £11,750. In the publicity stakes Hardy's won by the length of the straight.</p>
@@ -206,7 +212,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -215,9 +224,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Reports back from Melbourne Cup day on the results of the VRC&#39;s inaugural &quot;fashions, flowers and favorites&quot; festival, including the fashion judges&#39; undercover hunt for the best-dressed racegoer under £30 or £50.
       </p>
 <hr>
@@ -254,9 +267,50 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/bill-edwards/" class="link-secondary">Bill Edwards</a>,
+    
+    <a href="/topic/carlton-and-united-breweries/" class="link-secondary">Carlton and United Breweries</a>,
+    
+    <a href="/topic/chesty-bond/" class="link-secondary">Chesty Bond</a>,
+    
+    <a href="/topic/douglas-cox/" class="link-secondary">Douglas Cox</a>,
+    
+    <a href="/topic/even-stevens/" class="link-secondary">Even Stevens</a>,
+    
+    <a href="/topic/flemington/" class="link-secondary">Flemington</a>,
+    
+    <a href="/topic/hardy-bros/" class="link-secondary">Hardy Bros</a>,
+    
+    <a href="/topic/les-coles/" class="link-secondary">Les Coles</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/national-bank-of-australasia/" class="link-secondary">National Bank of Australasia</a>,
+    
+    <a href="/topic/ross-grey-smith/" class="link-secondary">Ross Grey-Smith</a>,
+    
+    <a href="/topic/totalisator-agency-board-(tab)/" class="link-secondary">Totalisator Agency Board (TAB)</a>,
+    
+    <a href="/topic/victoria-racing-club/" class="link-secondary">Victoria Racing Club</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

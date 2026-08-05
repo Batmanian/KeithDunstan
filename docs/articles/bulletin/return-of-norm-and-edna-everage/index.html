@@ -168,17 +168,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Return of Norm and Edna Everage</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-08-04">04 Aug 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Welcomes Barry Humphries home from London for a nine-night Assembly Hall season, recounting his elaborate public pranks, including the &quot;Ashburton Line&quot; breakfast-in-a-carriage stunt and slices of ham hidden in a David Jones bargain sale.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -186,9 +195,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Welcomes Barry Humphries home from London for a nine-night Assembly Hall season, recounting his elaborate public pranks, including the &quot;Ashburton Line&quot; breakfast-in-a-carriage stunt and slices of ham hidden in a David Jones bargain sale.
-      </p>-->
       <p>THE most exciting story in Melbourne this week is this — our beloved Barry Humphries has returned. He was wearing a lovely pair of pince-nez &quot;Boston Grabs&quot; glasses, his hair was an attractive shoulder length, and we all noticed he had put on just a little around the middle. He was older too, an almost elderly 28, but as he said to us, &quot;What are wrinkles, but the dried up beds of old smiles?&quot;</p>
 <p>&quot;Ah,&quot; he said. &quot;I think our Melbourne is so much bigger, more beautiful than ever. I do adore your TV. I could just sit and look at the commercials all day. Do you still have that lovely one . . . umm . . . what was it? . . . oh yes, 'I wonder where the white went before I cleaned my teeth with excrement'.&quot;</p>
 <p>Please don't think that we were out of touch while he was performing on the London stage. He dropped us a line every so often. There was that time when he formed the &quot;Society for the Preservation of War Savings Street Signs and Fat For Britain Tins&quot;. He wrote to ask whether the streets of Melbourne still had those dear signs &quot;This Is A War Savings Street&quot;.</p>
@@ -214,7 +220,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -223,9 +232,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Welcomes Barry Humphries home from London for a nine-night Assembly Hall season, recounting his elaborate public pranks, including the &quot;Ashburton Line&quot; breakfast-in-a-carriage stunt and slices of ham hidden in a David Jones bargain sale.
       </p>
 <hr>
@@ -264,9 +277,52 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/barry-humphries/" class="link-secondary">Barry Humphries</a>,
+    
+    <a href="/topic/david-jones/" class="link-secondary">David Jones</a>,
+    
+    <a href="/topic/edna-everage/" class="link-secondary">Edna Everage</a>,
+    
+    <a href="/topic/gladys-moncrieff/" class="link-secondary">Gladys Moncrieff</a>,
+    
+    <a href="/topic/king&#39;s-cross/" class="link-secondary">King&#39;s Cross</a>,
+    
+    <a href="/topic/lou-richards/" class="link-secondary">Lou Richards</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/melbourne-university/" class="link-secondary">Melbourne University</a>,
+    
+    <a href="/topic/menzies/" class="link-secondary">Menzies</a>,
+    
+    <a href="/topic/moonee-ponds/" class="link-secondary">Moonee Ponds</a>,
+    
+    <a href="/topic/norm-everage/" class="link-secondary">Norm Everage</a>,
+    
+    <a href="/topic/patrick-tennison/" class="link-secondary">Patrick Tennison</a>,
+    
+    <a href="/topic/qantas/" class="link-secondary">Qantas</a>,
+    
+    <a href="/topic/robin-boyd/" class="link-secondary">Robin Boyd</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

@@ -165,17 +165,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">James George Beaney</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             14
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1980-11-11">1980</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Profile of &#39;Diamond Jim&#39; Beaney, the flamboyant, diamond-bedecked Collins Street surgeon acquitted of murder after the death of barmaid Mary Lewis in 1866.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Ratbags">
@@ -183,9 +192,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Profile of &#39;Diamond Jim&#39; Beaney, the flamboyant, diamond-bedecked Collins Street surgeon acquitted of murder after the death of barmaid Mary Lewis in 1866.
-      </p>-->
       These times when doctors have to be most delicate how they go about getting their names in newspapers or indulging in any form of self advertisement, it is fascinating to contemplate the career of James George Beaney, eminent surgeon and physician of Collins Street.<br><br>
 One of his colleagues described him thus: 'A short podgy man, hair brushed up at each side and parted in the middle as if he were wearing a pair of horns; little pads under the eyes; tuft of hair on the chin; cheeks streaked with small veins; pale blue rather shifty eyes'.<br><br>
 His gift for self advertisement was not so much in taking paid advertisements in newspapers. He was more subtle than that. He made lavish bequests; he fought for every available public position; he made sure a constant stream of brilliant publications appeared under his name and he lived in such style it was obvious he had to be a good doctor. How else could he afford it?<br><br>
@@ -257,7 +263,10 @@ Continue to the next chapter: <a href="/books/ratbags/9-alfred-edward-lynch">Alf
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-28">28 Jul 2026</time>
         </footer>
       
@@ -266,9 +275,13 @@ Continue to the next chapter: <a href="/books/ratbags/9-alfred-edward-lynch">Alf
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Profile of &#39;Diamond Jim&#39; Beaney, the flamboyant, diamond-bedecked Collins Street surgeon acquitted of murder after the death of barmaid Mary Lewis in 1866.
       </p>
 <hr>
@@ -301,9 +314,46 @@ Continue to the next chapter: <a href="/books/ratbags/9-alfred-edward-lynch">Alf
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/james-george-beaney/" class="link-secondary">James George Beaney</a>,
+    
+    <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>,
+    
+    <a href="/topic/melbourne-hospital/" class="link-secondary">Melbourne Hospital</a>,
+    
+    <a href="/topic/mary-lewis/" class="link-secondary">Mary Lewis</a>,
+    
+    <a href="/topic/bryan-o&#39;loghlen-aspinall/" class="link-secondary">Bryan O&#39;Loghlen Aspinall</a>,
+    
+    <a href="/topic/edward-barker/" class="link-secondary">Edward Barker</a>,
+    
+    <a href="/topic/james-rudall/" class="link-secondary">James Rudall</a>,
+    
+    <a href="/topic/canterbury/" class="link-secondary">Canterbury</a>,
+    
+    <a href="/topic/table-talk/" class="link-secondary">Table Talk</a>,
+    
+    <a href="/topic/melbourne-punch/" class="link-secondary">Melbourne Punch</a>,
+    
+    <a href="/topic/bailliere/" class="link-secondary">Bailliere</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-28">28 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

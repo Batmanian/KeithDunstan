@@ -172,17 +172,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Introduction</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             20
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1980-11-11">1980</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Keith Dunstan explores Australian conformity and defines the eccentric &#39;ratbag&#39;, profiling characters such as Alan Russell, Russell Cole, Phillip Adams, Patrick White, Rosaleen Norton and Andrea.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Ratbags">
@@ -190,9 +199,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Keith Dunstan explores Australian conformity and defines the eccentric &#39;ratbag&#39;, profiling characters such as Alan Russell, Russell Cole, Phillip Adams, Patrick White, Rosaleen Norton and Andrea.
-      </p>-->
       The truth is I have always had a soft spot for Ratbags. A ratbag is anyone who dares to be different; a ratbag is the creature who creates a pinnacle, perhaps only tiny above the great drear of conformity. Most of us see a million eyes focussed upon us, waiting for us to make one move out of the norm. So we sit there figuratively sucking our thumbs and conform.<br><br>
 And the whole system has been designed to impress upon us the importance of conformity. There was the school uniform, the mass education system with every child chanting the same mathematics tables, learning about the same English kings and sitting by the thousand in the same public buildings, puzzling over the same matriculation papers, answering the same questions about <i>The Mayor of Casteridge</i> or <i>School for Scandal</i> or Newton's Third Law of Motion.<br><br>
 Conformity in the nineteen twenties was a stiff collar, black boots and blue serge suit, and it is always fascinating to look at old pictures of our big sporting arenas. There you see the utter conformity of the so-called dashing Australian, not a head without a great felt hat, hardly a neck without a tie and, ah yes, all those blue serge suits.<br><br>
@@ -272,7 +278,10 @@ Continue to chapter one: <a href="/books/ratbags/3-beatrice-miles">Beatrice Mile
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-28">28 Jul 2026</time>
         </footer>
       
@@ -281,9 +290,13 @@ Continue to chapter one: <a href="/books/ratbags/3-beatrice-miles">Beatrice Mile
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Keith Dunstan explores Australian conformity and defines the eccentric &#39;ratbag&#39;, profiling characters such as Alan Russell, Russell Cole, Phillip Adams, Patrick White, Rosaleen Norton and Andrea.
       </p>
 <hr>
@@ -330,9 +343,60 @@ Continue to chapter one: <a href="/books/ratbags/3-beatrice-miles">Beatrice Mile
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/barry-humphries/" class="link-secondary">Barry Humphries</a>,
+    
+    <a href="/topic/patrick-white/" class="link-secondary">Patrick White</a>,
+    
+    <a href="/topic/percy-grainger/" class="link-secondary">Percy Grainger</a>,
+    
+    <a href="/topic/alan-russell/" class="link-secondary">Alan Russell</a>,
+    
+    <a href="/topic/russell-cole/" class="link-secondary">Russell Cole</a>,
+    
+    <a href="/topic/phillip-adams/" class="link-secondary">Phillip Adams</a>,
+    
+    <a href="/topic/rosaleen-norton/" class="link-secondary">Rosaleen Norton</a>,
+    
+    <a href="/topic/andrea-(dorothy-hetty-fosberry-gordon)/" class="link-secondary">Andrea (Dorothy Hetty Fosberry Gordon)</a>,
+    
+    <a href="/topic/hans-heysen/" class="link-secondary">Hans Heysen</a>,
+    
+    <a href="/topic/thistle-anderson/" class="link-secondary">Thistle Anderson</a>,
+    
+    <a href="/topic/dulcie-deamer/" class="link-secondary">Dulcie Deamer</a>,
+    
+    <a href="/topic/sir-henry-bolte/" class="link-secondary">Sir Henry Bolte</a>,
+    
+    <a href="/topic/ivan-durrant/" class="link-secondary">Ivan Durrant</a>,
+    
+    <a href="/topic/pro-hart/" class="link-secondary">Pro Hart</a>,
+    
+    <a href="/topic/sidney-j.-baker/" class="link-secondary">Sidney J. Baker</a>,
+    
+    <a href="/topic/king&#39;s-cross/" class="link-secondary">King&#39;s Cross</a>,
+    
+    <a href="/topic/this-day-tonight-(tv-show)/" class="link-secondary">This Day Tonight (TV Show)</a>,
+    
+    <a href="/topic/mavis-bramston/" class="link-secondary">Mavis Bramston</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-28">28 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

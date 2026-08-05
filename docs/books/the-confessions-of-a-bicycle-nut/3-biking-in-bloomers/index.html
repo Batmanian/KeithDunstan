@@ -161,17 +161,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Biking in Bloomers</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             26
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1999-11-11">1999</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Recounts how women fought their way onto the 1890s bicycle craze against jeering larrikins, killjoy clergy and cumbersome skirts, from rational dress and Amelia Bloomer to the vice-regal enthusiasm of Lady Brassey and the illuminated cycle quadrilles staged by confectioner Macpherson Robertson.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Confessions Of A Bicycle Nut">
@@ -179,9 +188,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Recounts how women fought their way onto the 1890s bicycle craze against jeering larrikins, killjoy clergy and cumbersome skirts, from rational dress and Amelia Bloomer to the vice-regal enthusiasm of Lady Brassey and the illuminated cycle quadrilles staged by confectioner Macpherson Robertson.
-      </p>-->
       <p>The decade of the 1890s was the glory time for the bicycle. It took the Safety bike complete with pneumatic tyres to complete the boom. The <em>Australian Cyclist</em> (1) estimated that in 1894 there were 8,000 cyclists in Melbourne alone, while <em>Review of Reviews</em> (2) claimed there were17,000 in the entire colony of New South Wales. Yet the <em>Review of Reviews</em> did concede that Melbourne had the reputation of being the cycling city of the world. &quot;Much as we admire our harbour, it is safe to say that the wheelmen of Sydney would willingly exchange it for those magnificent wide, level streets of the southern capital where it is claimed one can ride for 25 miles without leaving the wooden blocks. Our metropolis has the defects of its virtues. Its hilly nature renders cycling not altogether an unmixed pleasure and the narrow streets...are usually crowded with traffic to such an extent as to sorely try the nerves.&quot;</p>
 <p>One journal even suggested that the traffic would become so thick that eventually the city would have to put special tracks underground to preserve lives. The new bicycles were so fast that cyclists were not only killing themselves, they were killing others, and pneumatic tyres with their noiseless approach made them a bigger menace than ever. <em>Melbourne Punch</em> commented:</p>
 <p>His speed ranges up to a rate of 20 m.p.h. and it need hardly be said after he knocks down some quiet pedestrian he puts forth his best efforts to 'beat the record' in getting out of sight. The modern bicycle is a deadly Car of Juggernaut with this difference - the victims are unwilling</p>
@@ -363,7 +369,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -372,9 +381,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Recounts how women fought their way onto the 1890s bicycle craze against jeering larrikins, killjoy clergy and cumbersome skirts, from rational dress and Amelia Bloomer to the vice-regal enthusiasm of Lady Brassey and the illuminated cycle quadrilles staged by confectioner Macpherson Robertson.
       </p>
 <hr>
@@ -399,9 +412,38 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/amelia-bloomer/" class="link-secondary">Amelia Bloomer</a>,
+    
+    <a href="/topic/lady-brassey/" class="link-secondary">Lady Brassey</a>,
+    
+    <a href="/topic/lord-lamington/" class="link-secondary">Lord Lamington</a>,
+    
+    <a href="/topic/macpherson-robertson/" class="link-secondary">Macpherson Robertson</a>,
+    
+    <a href="/topic/rippon-lea/" class="link-secondary">Rippon Lea</a>,
+    
+    <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>,
+    
+    <a href="/topic/toorak/" class="link-secondary">Toorak</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

@@ -169,17 +169,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">To the Spencer Street Station</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-04-21">21 Apr 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Compares the muted arrival of the new Southern Aurora express at Spencer Street with the wild 1883 celebrations when Melbourne and Sydney&#39;s rail lines first met at Albury, then covers Victoria&#39;s new ban on tattooing minors.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -187,9 +196,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Compares the muted arrival of the new Southern Aurora express at Spencer Street with the wild 1883 celebrations when Melbourne and Sydney&#39;s rail lines first met at Albury, then covers Victoria&#39;s new ban on tattooing minors.
-      </p>-->
       <p>IT is difficult to describe to you just how full of pride we are this week, for on the significant date, Friday the 13th of April, a railway train named The Southern Aurora arrived at Spencer Street station. You see, this was the first railway train to travel all the way from the parent colony right through to Port Phillip settlement.</p>
 <p>Celebrations, of course, were in order but one couldn't help but wonder how the Radio Australia reporters on the train explained to the outside world why we had waited until 1962 to achieve this marvellous technical advance. Actually, we did the celebrations rather better when the two railway lines met at Albury in 1883.</p>
 <p>On June 14, 1883, three special trains travelled up from Melbourne and two from Sydney. All the prominent men in the country were there and it was described as the greatest intercolonial gathering in history. Albury, &quot;very likely the future capital of Australia,&quot; was decorated from end to end with bunting.</p>
@@ -212,7 +218,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -221,9 +230,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Compares the muted arrival of the new Southern Aurora express at Spencer Street with the wild 1883 celebrations when Melbourne and Sydney&#39;s rail lines first met at Albury, then covers Victoria&#39;s new ban on tattooing minors.
       </p>
 <hr>
@@ -264,9 +277,54 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/albury/" class="link-secondary">Albury</a>,
+    
+    <a href="/topic/australian-national-travel-association/" class="link-secondary">Australian National Travel Association</a>,
+    
+    <a href="/topic/australian-railways-historical-society/" class="link-secondary">Australian Railways Historical Society</a>,
+    
+    <a href="/topic/australian-railways-union/" class="link-secondary">Australian Railways Union</a>,
+    
+    <a href="/topic/barry-humphries/" class="link-secondary">Barry Humphries</a>,
+    
+    <a href="/topic/basil-atkinson/" class="link-secondary">Basil Atkinson</a>,
+    
+    <a href="/topic/doug-elliot/" class="link-secondary">Doug Elliot</a>,
+    
+    <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+    
+    <a href="/topic/j.-j.-brown/" class="link-secondary">J. J. Brown</a>,
+    
+    <a href="/topic/reg-ansett/" class="link-secondary">Reg Ansett</a>,
+    
+    <a href="/topic/sir-robert-menzies/" class="link-secondary">Sir Robert Menzies</a>,
+    
+    <a href="/topic/spencer-street-station/" class="link-secondary">Spencer Street Station</a>,
+    
+    <a href="/topic/the-southern-aurora/" class="link-secondary">The Southern Aurora</a>,
+    
+    <a href="/topic/victorian-railways/" class="link-secondary">Victorian Railways</a>,
+    
+    <a href="/topic/viscount-de-l&#39;isle/" class="link-secondary">Viscount de L&#39;Isle</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

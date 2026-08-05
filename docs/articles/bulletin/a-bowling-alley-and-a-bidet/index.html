@@ -167,17 +167,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">A Bowling Alley and a Bidet</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-09-01">01 Sep 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A tour through the newly-opened Southern Cross Hotel, Melbourne&#39;s first brand-new hotel in decades, from Australia&#39;s first hotel bidet to its bowling alley built over a bank.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -185,9 +194,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A tour through the newly-opened Southern Cross Hotel, Melbourne&#39;s first brand-new hotel in decades, from Australia&#39;s first hotel bidet to its bowling alley built over a bank.
-      </p>-->
       <p>AT last it has happened. Admittedly the Menzies moved to its present site in 1867, the Windsor opened in 1883 and the Australia was rebuilt in 1939, but to be honest not many of us could recall another occasion when a brand new hotel actually opened in Melbourne. Well, last Friday The Southern Cross, Australia's biggest hotel, opened on the site of the old Eastern Market in Exhibition Street.</p>
 <p>Some feared that the opening might be a pallid affair, not the equal to the opening of the Market back in 1879 when there was a sit-down sumptuous lunch for 1000 people, a band, a choir and an anthem specially composed for the occasion. The directors of Intercontinental Hotels, you will be pleased to hear, did us proud. Not only were all sorts of hep little anthems composed for the occasion but there was an hour-long TV spectacular. There had been much talk about bringing out everyone from Frank Sinatra to the late Marilyn Monroe, but so far as Melbourne was concerned they went one better.</p>
 <p>They put Bobby Limb and Dawn Lake, Graham Kennedy and Bert Newton, all on the one delicious programme. For years they had provided us with the most dreadful viewing sessions of the week. On Thursday nights Graham Kennedy was on Nine, Bobby Limb was on Seven and unless one had two TV sets it was impossible to view both. Ah, but the Southern Cross last week brought them together, and they even threw in a taped &quot;telephone&quot; call from Elaine McKenna in the USA plus Tommy Hanlon Jnr. Bliss. It was a very smooth show, with perhaps just a little too much noise and singing. The best cracks came from Bobby Limb: &quot;It's very much like the Chevron in Sydney except . . . ah . . . it's finished.&quot; And from Tommy Hanlon Jnr. &quot;I tell you, this hotel's so fancy they've even got a nine-piece orchestra in the men's room.&quot;</p>
@@ -208,7 +214,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -217,9 +226,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A tour through the newly-opened Southern Cross Hotel, Melbourne&#39;s first brand-new hotel in decades, from Australia&#39;s first hotel bidet to its bowling alley built over a bank.
       </p>
 <hr>
@@ -256,9 +269,50 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/ana-banking-chambers/" class="link-secondary">ANA Banking Chambers</a>,
+    
+    <a href="/topic/bert-newton/" class="link-secondary">Bert Newton</a>,
+    
+    <a href="/topic/bobby-limb/" class="link-secondary">Bobby Limb</a>,
+    
+    <a href="/topic/dawn-lake/" class="link-secondary">Dawn Lake</a>,
+    
+    <a href="/topic/deniliquin/" class="link-secondary">Deniliquin</a>,
+    
+    <a href="/topic/eastern-market/" class="link-secondary">Eastern Market</a>,
+    
+    <a href="/topic/exhibition-street/" class="link-secondary">Exhibition Street</a>,
+    
+    <a href="/topic/graham-kennedy/" class="link-secondary">Graham Kennedy</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/portsea/" class="link-secondary">Portsea</a>,
+    
+    <a href="/topic/southern-cross-hotel/" class="link-secondary">Southern Cross Hotel</a>,
+    
+    <a href="/topic/tommy-hanlon-jnr/" class="link-secondary">Tommy Hanlon Jnr</a>,
+    
+    <a href="/topic/toorak/" class="link-secondary">Toorak</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

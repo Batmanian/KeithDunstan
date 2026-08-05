@@ -169,17 +169,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">A Viscount, a Viscount, a Viscount . . .</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             5
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-05-26">26 May 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Profiles bandleader Tommy Davidson, Melbourne&#39;s leading writer of singing television commercials, from his award-winning Viscount cigarette jingle to a £5500 TV shoot with a 46-piece orchestra.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -187,9 +196,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Profiles bandleader Tommy Davidson, Melbourne&#39;s leading writer of singing television commercials, from his award-winning Viscount cigarette jingle to a £5500 TV shoot with a 46-piece orchestra.
-      </p>-->
       <p>MELBOURNE may not be Australia's most musical city, but rest assured, we are strong on singing commercials. In recent weeks we have seen a truly magnificent climax to the struggle between the cigarette companies, symphony orchestras, military bands, choirs, the lot. No doubt you have witnessed the superb Craven A March with Bob Gibson and his orchestra. And even a variation of it with bagpipers marching through a Scotch mist.</p>
 <p>Sydney was responsible for the Craven A March, but it occurred to your pioneer, that there must be somebody in town who was responsible for singing commercials, a man who lay awake nights, fighting for worthy lyrics to rhyme with words like filter and smoke. And indeed there was, the band leader Tommy Davidson, who claims to write and produce as many singing commercials as anyone in the country.</p>
 <p>Tommy said that his finest production was the Viscount song. It won an Australian Federation Broadcasting Stations National Award (Creative Division) for one of the best eight commercials of 1959-60. You have have heard it:</p>
@@ -231,7 +237,10 @@ So wear them me beautiful dear.</p>
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -240,9 +249,13 @@ So wear them me beautiful dear.</p>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Profiles bandleader Tommy Davidson, Melbourne&#39;s leading writer of singing television commercials, from his award-winning Viscount cigarette jingle to a £5500 TV shoot with a 46-piece orchestra.
       </p>
 <hr>
@@ -283,9 +296,54 @@ So wear them me beautiful dear.</p>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/bob-gibson/" class="link-secondary">Bob Gibson</a>,
+    
+    <a href="/topic/carlton-and-united-breweries/" class="link-secondary">Carlton and United Breweries</a>,
+    
+    <a href="/topic/craven-a/" class="link-secondary">Craven A</a>,
+    
+    <a href="/topic/du-maurier/" class="link-secondary">Du Maurier</a>,
+    
+    <a href="/topic/ici/" class="link-secondary">ICI</a>,
+    
+    <a href="/topic/lorenzo-nolan/" class="link-secondary">Lorenzo Nolan</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/nicholson-street/" class="link-secondary">Nicholson Street</a>,
+    
+    <a href="/topic/pagewood-studios/" class="link-secondary">Pagewood Studios</a>,
+    
+    <a href="/topic/robin-boyd/" class="link-secondary">Robin Boyd</a>,
+    
+    <a href="/topic/st-vincent&#39;s-hospital/" class="link-secondary">St Vincent&#39;s Hospital</a>,
+    
+    <a href="/topic/sydney/" class="link-secondary">Sydney</a>,
+    
+    <a href="/topic/tommy-davidson/" class="link-secondary">Tommy Davidson</a>,
+    
+    <a href="/topic/viscount/" class="link-secondary">Viscount</a>,
+    
+    <a href="/topic/worth&#39;s/" class="link-secondary">Worth&#39;s</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

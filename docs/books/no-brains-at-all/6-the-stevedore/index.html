@@ -168,17 +168,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">The Stevedore</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             24
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1990-11-11">1990</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Wartime postings through a US-occupied MCG turned barracks, with its own PX shop and Long Room dances, before a posting to Morotai finally gets him out of Australia and prompts a decisive contact with Marie Rose McFadyen.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="No Brains At All">
@@ -186,9 +195,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Wartime postings through a US-occupied MCG turned barracks, with its own PX shop and Long Room dances, before a posting to Morotai finally gets him out of Australia and prompts a decisive contact with Marie Rose McFadyen.
-      </p>-->
       <p>The Melbourne Cricket Ground was cold and cheerless. I was becoming used to it now. Every posting had meant a few days - and sometimes weeks or months - at the MCG, waiting, waiting for something to happen. The armed forces were always a very good lesson in patience. You learned very early not to question, that you were an object waiting to be moved. The Melbourne Cricket Ground was now a very curious place. The Crown took it over on 7 April 1942. For a short period it was home to the United States Air Force. They called it Camp Murphy. Then the United States Marines moved in. They changed the name to Camp Ransford, in honour of Vernon Ransford, the Melbourne Cricket Club secretary. The officers took over the Members' Long Room and the sergeants were on the floor above. Stands were boarded up to make tiered dormitories and the Americans installed hundreds of tent heaters, little fuel stoves on slabs of concrete. The Melbourne Football Club gymnasium was the medical centre and the number one outer dressing-room was the lock-up. The cricketers' changing-room in the Grey Smith Stand was the armoury and the Grey Smith bar was the PX. In 1942 this was the best shop in Melbourne. An American who could bring a young woman a gift from the PX was really a creature to know. The PX sold beautiful white towels, superior quality cotton shirts and trousers, watches, tinned foods, bowie knives, chocolate, tinned nuts, boots, shoes, raincoats and the very latest thing, which women would die for - well almost - nylon stockings. Lucky Strike, Camel and Chesterfield cigarettes were 5 shillings a carton.</p>
 <p>Taxi drivers went to the MCG in a never-ending rush. It was the latest version of the gold-rush. Women went there, too. They waited all around the ground from early morning until late at night. The Americans hung out of the windows high up in the stands and waved to the women and the women waved back. On one or two occasions women were even smuggled inside and up into the grandstands.
 The officers, on the other hand, held dances every Saturday night in the Long Room.</p>
@@ -261,7 +267,10 @@ I can't understand these Japanese at all. I even like them. They work hard and a
 Continue to chapter seven: <a href="/books/no-brains-at-all/7-byline-dreamer/">Byline dreamer</a></li>
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -270,9 +279,13 @@ Continue to chapter seven: <a href="/books/no-brains-at-all/7-byline-dreamer/">B
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Wartime postings through a US-occupied MCG turned barracks, with its own PX shop and Long Room dances, before a posting to Morotai finally gets him out of Australia and prompts a decisive contact with Marie Rose McFadyen.
       </p>
 <hr>
@@ -311,9 +324,52 @@ Continue to chapter seven: <a href="/books/no-brains-at-all/7-byline-dreamer/">B
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/adrian-benns/" class="link-secondary">Adrian Benns</a>,
+    
+    <a href="/topic/balikpape/" class="link-secondary">Balikpape</a>,
+    
+    <a href="/topic/frederick-scherger/" class="link-secondary">Frederick Scherger</a>,
+    
+    <a href="/topic/george-wootten/" class="link-secondary">George Wootten</a>,
+    
+    <a href="/topic/indonesia/" class="link-secondary">Indonesia</a>,
+    
+    <a href="/topic/labuan-malaysia/" class="link-secondary">Labuan, Malaysia</a>,
+    
+    <a href="/topic/melbourne-cricket-ground/" class="link-secondary">Melbourne Cricket Ground</a>,
+    
+    <a href="/topic/morotai/" class="link-secondary">Morotai</a>,
+    
+    <a href="/topic/new-york-herald-tribune/" class="link-secondary">New York Herald-Tribune</a>,
+    
+    <a href="/topic/sir-donald-bradman/" class="link-secondary">Sir Donald Bradman</a>,
+    
+    <a href="/topic/the-new-york-times/" class="link-secondary">The New York Times</a>,
+    
+    <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+    
+    <a href="/topic/u.s.-armed-forces/" class="link-secondary">U.S. Armed Forces</a>,
+    
+    <a href="/topic/wirraway/" class="link-secondary">Wirraway</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

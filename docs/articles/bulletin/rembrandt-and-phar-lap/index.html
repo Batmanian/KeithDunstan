@@ -171,17 +171,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Rembrandt and Phar Lap</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-05-05">05 May 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A reluctant Melburnian tourist takes a sightseeing coach tour of his own city, from Ned Kelly&#39;s gaol to the National Gallery, and finds Phar Lap draws more attention than the Rembrandt.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -189,9 +198,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A reluctant Melburnian tourist takes a sightseeing coach tour of his own city, from Ned Kelly&#39;s gaol to the National Gallery, and finds Phar Lap draws more attention than the Rembrandt.
-      </p>-->
       <p>AS a staid Melburnian who favors club ties and black shoes, I have never looked upon our beloved city as a tourist attraction. The &quot;Visitor Industry&quot; as they now call it was something more suited to raffish places like Sydney or the Gold Coast.</p>
 <p>But the truth is that poor, unwanted Melbourne always has been desperately keen to be noticed, to be filled with eager tourists. We have had a Tourist Bureau in Sydney since 1935. On the other hand the New South Wales Government, undoubtedly working on the assumption that no Melburnian need ever be encouraged to go to Sydney, waited until last week to open its first Tourist Bureau in Melbourne. It was opened by Mr Heffron himself, no less. You could almost describe this as the first official recognition of Melbourne by Sydney and now, 61 years after Federation, we have exchanged consular representatives.</p>
 <p>We should not under-estimate the situation. Tourists have been pouring into Melbourne as never before. The hotels all scored a record Easter. The town was photographed all over. Why, we had tourists clicking in front of Flinders Street Railway Station. This is a quaint, but perfectly hideous building. Not as quaint or as hideous as the Sydney Town Hall, but its hideous quaint rating is high.</p>
@@ -213,7 +219,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -222,9 +231,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A reluctant Melburnian tourist takes a sightseeing coach tour of his own city, from Ned Kelly&#39;s gaol to the National Gallery, and finds Phar Lap draws more attention than the Rembrandt.
       </p>
 <hr>
@@ -269,9 +282,58 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/a.-g.-grant/" class="link-secondary">A. G. Grant</a>,
+    
+    <a href="/topic/adelaide-festival-of-arts/" class="link-secondary">Adelaide Festival of Arts</a>,
+    
+    <a href="/topic/captain-cook/" class="link-secondary">Captain Cook</a>,
+    
+    <a href="/topic/doug-ingersole/" class="link-secondary">Doug Ingersole</a>,
+    
+    <a href="/topic/flinders-street-railway-station/" class="link-secondary">Flinders Street Railway Station</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/melbourne-cricket-ground/" class="link-secondary">Melbourne Cricket Ground</a>,
+    
+    <a href="/topic/melbourne-tourism/" class="link-secondary">Melbourne Tourism</a>,
+    
+    <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+    
+    <a href="/topic/national-gallery/" class="link-secondary">National Gallery</a>,
+    
+    <a href="/topic/ned-kelly/" class="link-secondary">Ned Kelly</a>,
+    
+    <a href="/topic/phar-lap/" class="link-secondary">Phar Lap</a>,
+    
+    <a href="/topic/royal-arcade/" class="link-secondary">Royal Arcade</a>,
+    
+    <a href="/topic/sidney-myer-music-bowl/" class="link-secondary">Sidney Myer Music Bowl</a>,
+    
+    <a href="/topic/sydney/" class="link-secondary">Sydney</a>,
+    
+    <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+    
+    <a href="/topic/young-and-jacksons/" class="link-secondary">Young and Jacksons</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

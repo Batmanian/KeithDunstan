@@ -164,17 +164,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Harbor no grudge, it&#39;s better here; The bay and me</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             4
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1997-12-29">29 Dec 1997</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A Boxing Day case for Port Phillip Bay over its more celebrated rival, touring favourite spots from Sea Winds and Point Nepean to the Sorrento ferry and a flathead-fishing trip with mate Doug Crittenden.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Age">
@@ -182,9 +191,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A Boxing Day case for Port Phillip Bay over its more celebrated rival, touring favourite spots from Sea Winds and Point Nepean to the Sorrento ferry and a flathead-fishing trip with mate Doug Crittenden.
-      </p>-->
       <p>JEALOUS of Sydney Harbor? Of course I am. On Boxing Day there is a rush of the green-eyed monster. We get these television images of all the Sydney-Hobart yachts scrambling to get through the heads.</p>
 <p>For nigh on 200 years we have had this harbor thing pushed at us, but here in Melbourne we have been blushingly modest, when we should have been strutting and boasting about the wonders of Port Phillip Bay.</p>
 <p>Back in the dreamtime, when we were busy building great dams all over the place, the engineers would boast of their works. They would look for comparisons and they would pick on Sydney Harbor. For example, the Hume Dam might be six times the size of Sydney Harbor, or Eildon four times the size of Sydney Harbor.</p>
@@ -199,7 +205,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -208,9 +217,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A Boxing Day case for Port Phillip Bay over its more celebrated rival, touring favourite spots from Sea Winds and Point Nepean to the Sorrento ferry and a flathead-fishing trip with mate Doug Crittenden.
       </p>
 <hr>
@@ -241,9 +254,44 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/arthurs-seat/" class="link-secondary">Arthurs Seat</a>,
+    
+    <a href="/topic/clarice-beckett/" class="link-secondary">Clarice Beckett</a>,
+    
+    <a href="/topic/doug-crittenden/" class="link-secondary">Doug Crittenden</a>,
+    
+    <a href="/topic/point-nepean/" class="link-secondary">Point Nepean</a>,
+    
+    <a href="/topic/port-phillip-bay/" class="link-secondary">Port Phillip Bay</a>,
+    
+    <a href="/topic/portsea/" class="link-secondary">Portsea</a>,
+    
+    <a href="/topic/queenscliff/" class="link-secondary">Queenscliff</a>,
+    
+    <a href="/topic/sorrento/" class="link-secondary">Sorrento</a>,
+    
+    <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>,
+    
+    <a href="/topic/sydney-harbour/" class="link-secondary">Sydney Harbour</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

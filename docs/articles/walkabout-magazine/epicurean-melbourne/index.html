@@ -163,17 +163,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Epicurean Melbourne</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             13
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-12-01">01 Dec 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A tour of Melbourne&#39;s booming and increasingly cosmopolitan restaurant scene, from a Scottish Week haggis ceremony at The Capers and shoes-off sukiyaki at Sukiyaki House to Jimmy Watson&#39;s Carlton wine bar and the menu-free nine-course extravagance of the Walnut Tree.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Walkabout Magazine">
@@ -181,9 +190,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A tour of Melbourne&#39;s booming and increasingly cosmopolitan restaurant scene, from a Scottish Week haggis ceremony at The Capers and shoes-off sukiyaki at Sukiyaki House to Jimmy Watson&#39;s Carlton wine bar and the menu-free nine-course extravagance of the Walnut Tree.
-      </p>-->
       <p>Just lately the Royal Commonwealth Society in Melbourne has been running a real he-man's lunch . . . naturally for men only. They start with half a pint of beer. Then they have thick pea soup, then steak and kidney pudding, then steamed roly-poly with jam and cream, then blue cheese and biscuits. When I was there the honorary treasurer finished it all with a little ceremony. He took a little box from his pocket, and dropped a pellet of saccharine into his coffee. It was a gesture. After all, a man has to watch his weight.</p>
 <p>These gentlemen of the Royal Commonwealth Society are fighting a fine rearguard action. In Melbourne now there are Polish, French, Greek, Hungarian, Spanish, Russian, Turkish, Jewish, German, Swiss, Japanese, Polynesian, Indian, Italian, Chinese and, it is said, even an Australian restaurant or two. It has become so cosmopolitan that, for the connoisseur, steamed jam roly-poly is hard to come by; and it is certainly easier to come by shish kebab or lasagne verdi than steak and kidney pudding.</p>
 <p>Back in the immediate post-war years, admittedly, there were a few excellent restaurants like the Florentino, Mario's, the Society, the Ritz and Molina's. Elsewhere there was a pattern. One could go into almost any café in town, and order steak and eggs for 2/6; or, if he wanted to be a little devilish, steak for 3/6. This normally consisted of steak and eggs AND onions, plus a slice or two of tomato and a piece of lettuce incredibly cut into streamers. The climax to the meal was white tea or white coffee. These, no doubt for efficiency in handling, were designed so that both tasted exactly the same. As for the interior décor, sometimes there was a picture of Carbine on the wall, but more often a dear old, framed picture of a mid-Victorian maiden in her nightie, sitting on the grass looking soulfully at a waterfall.</p>
@@ -223,7 +229,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -232,9 +241,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A tour of Melbourne&#39;s booming and increasingly cosmopolitan restaurant scene, from a Scottish Week haggis ceremony at The Capers and shoes-off sukiyaki at Sukiyaki House to Jimmy Watson&#39;s Carlton wine bar and the menu-free nine-course extravagance of the Walnut Tree.
       </p>
 <hr>
@@ -263,9 +276,42 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>,
+    
+    <a href="/topic/florentino-restaurant/" class="link-secondary">Florentino Restaurant</a>,
+    
+    <a href="/topic/jimmy-watson/" class="link-secondary">Jimmy Watson</a>,
+    
+    <a href="/topic/la-popotte/" class="link-secondary">La Popotte</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/royal-caledonian-society/" class="link-secondary">Royal Caledonian Society</a>,
+    
+    <a href="/topic/royal-commonwealth-society/" class="link-secondary">Royal Commonwealth Society</a>,
+    
+    <a href="/topic/sukiyaki-house/" class="link-secondary">Sukiyaki House</a>,
+    
+    <a href="/topic/the-walnut-tree/" class="link-secondary">The Walnut Tree</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

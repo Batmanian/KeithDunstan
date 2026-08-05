@@ -168,17 +168,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">John Barry Humphries</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             28
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1980-11-11">1980</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Profile of Barry Humphries, tracing his Melbourne Grammar schooldays, the creation of Edna Everage and Barry McKenzie, and his rise to international stardom as Dame Edna Everage.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Ratbags">
@@ -186,9 +195,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Profile of Barry Humphries, tracing his Melbourne Grammar schooldays, the creation of Edna Everage and Barry McKenzie, and his rise to international stardom as Dame Edna Everage.
-      </p>-->
       Of course, the extraordinary thing is to meet Barry Humphries playing Barry Humphries. He is tall and elegant...oh, so elegant. He is just someone from the Max Beerbohm 'Yellow Book' era, just a little foppish but so beautifully dressed.<br><br>
 For example, in the Australian summer of 1977 he favored a natural color linen suit, a white panama hat, a dark blue striped shirt, a large bow tie and, on his lapel there was a lovely enamelled butterfly. He completed the scene with a monocle which he could handle with a flourish and suggested undoubted nobility. In the winter, instead of that white Panama, he tended to wear a marvellous hat made of a black velour. It had a wide floppy rim.<br><br>
 His hair could only be described as Army sergeant short, an act of rebellion dating from 1970 when even bank clerks tended to wear their locks down to their shoulders. It was a different matter back in 1958 when the 24-year-old Humphries wore his lank dark hair sitting on his collar; an act of extraordinary courage in a country where even a faint deviation from the norm raised cries about one's manhood.<br><br>
@@ -394,7 +400,10 @@ Continue to the next chapter: <a href="/books/ratbags/6-edward-william-cole">Edw
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -403,9 +412,13 @@ Continue to the next chapter: <a href="/books/ratbags/6-edward-william-cole">Edw
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Profile of Barry Humphries, tracing his Melbourne Grammar schooldays, the creation of Edna Everage and Barry McKenzie, and his rise to international stardom as Dame Edna Everage.
       </p>
 <hr>
@@ -444,9 +457,52 @@ Continue to the next chapter: <a href="/books/ratbags/6-edward-william-cole">Edw
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/barry-humphries/" class="link-secondary">Barry Humphries</a>,
+    
+    <a href="/topic/edna-everage/" class="link-secondary">Edna Everage</a>,
+    
+    <a href="/topic/melbourne-grammar/" class="link-secondary">Melbourne Grammar</a>,
+    
+    <a href="/topic/barry-mckenzie/" class="link-secondary">Barry McKenzie</a>,
+    
+    <a href="/topic/moonee-ponds/" class="link-secondary">Moonee Ponds</a>,
+    
+    <a href="/topic/camberwell/" class="link-secondary">Camberwell</a>,
+    
+    <a href="/topic/zoe-caldwell/" class="link-secondary">Zoe Caldwell</a>,
+    
+    <a href="/topic/ray-lawler/" class="link-secondary">Ray Lawler</a>,
+    
+    <a href="/topic/robin-boyd/" class="link-secondary">Robin Boyd</a>,
+    
+    <a href="/topic/harry-m.-miller/" class="link-secondary">Harry M. Miller</a>,
+    
+    <a href="/topic/bruce-beresford/" class="link-secondary">Bruce Beresford</a>,
+    
+    <a href="/topic/barry-crocker/" class="link-secondary">Barry Crocker</a>,
+    
+    <a href="/topic/don-dunstan/" class="link-secondary">Don Dunstan</a>,
+    
+    <a href="/topic/gough-whitlam/" class="link-secondary">Gough Whitlam</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

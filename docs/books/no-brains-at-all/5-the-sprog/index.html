@@ -166,17 +166,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">The Sprog</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             26
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1990-11-11">1990</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            RAAF pilot training begins with a propeller-swinging injury and moves on to Tiger Moth aerobatics under the unflappable Flight Sergeant Bill Dale, including a sudden &quot;dead engine&quot; emergency-landing drill over Benalla.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="No Brains At All">
@@ -184,9 +193,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        RAAF pilot training begins with a propeller-swinging injury and moves on to Tiger Moth aerobatics under the unflappable Flight Sergeant Bill Dale, including a sudden &quot;dead engine&quot; emergency-landing drill over Benalla.
-      </p>-->
       <p>Yes, heaven indeed it was to be close to real aeroplanes at last. In 1938 my father had taken me to Essendon to see the first Douglas DC2, the forerunner of the DC3. It had only one wing and I couldn't believe the enormous size of the thing. In 1942 1 had my first flight in an aeroplane. This was organised for cadets in the Air Training Corps and we flew from a flying-field not far from Geelong Grammar. Now here was the opportunity to look at and feel DH82 Tiger Moths. They fitted the romantic ideal of the planes flown by Richthofen, Johns and all the heroes of the First World War. The DH82s, with canvas, two wings and open cockpits, were little different from the Camels, SE5s and Bristols of 1918.</p>
 <p>The first month was an orientation period, with no actual flying. We were the lowest form of life on the base and known as 'erks'. Other erks on 37 course were Weston Bate, future historian and professor of history at Deakin University, and Bill Borthwick, another famous name. Bill was to become deputy premier of Victoria.</p>
 <p>The erks' task was to assist with the starting of the Tigers. Tiger Moths, like ancient automobiles in the 1920s, had no starter mechanisms and had to be hand cranked. But instead of turning a crank handle the erk had to throw the propeller. The pilot turned on the switches, called 'Contact', then the erk had to throw the propeller. This meant standing in front of the Tiger, grabbing the propeller high, near the tip, and giving a mighty heave downwards. Ker-dunk. The motor would turn over once. Having been warned that the most dangerous place on any aerodrome was within range of a propeller this was an unnerving experience.</p>
@@ -274,7 +280,10 @@ I finished towing drogues from A to B.</p>
 Continue to chapter six: <a href="/books/no-brains-at-all/6-the-stevedore/">The stevedore</a>
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -283,9 +292,13 @@ Continue to chapter six: <a href="/books/no-brains-at-all/6-the-stevedore/">The 
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         RAAF pilot training begins with a propeller-swinging injury and moves on to Tiger Moth aerobatics under the unflappable Flight Sergeant Bill Dale, including a sudden &quot;dead engine&quot; emergency-landing drill over Benalla.
       </p>
 <hr>
@@ -320,9 +333,48 @@ Continue to chapter six: <a href="/books/no-brains-at-all/6-the-stevedore/">The 
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/air-training-corps/" class="link-secondary">Air Training Corps</a>,
+    
+    <a href="/topic/avro-ansons/" class="link-secondary">Avro Ansons</a>,
+    
+    <a href="/topic/bob-dalziel/" class="link-secondary">Bob Dalziel</a>,
+    
+    <a href="/topic/manfred-von-richthofen/" class="link-secondary">Manfred von Richthofen</a>,
+    
+    <a href="/topic/mustang/" class="link-secondary">Mustang</a>,
+    
+    <a href="/topic/raaf/" class="link-secondary">RAAF</a>,
+    
+    <a href="/topic/sopwith-camel/" class="link-secondary">Sopwith Camel</a>,
+    
+    <a href="/topic/spitfire/" class="link-secondary">Spitfire</a>,
+    
+    <a href="/topic/tiger-moth/" class="link-secondary">Tiger Moth</a>,
+    
+    <a href="/topic/waaaf/" class="link-secondary">WAAAF</a>,
+    
+    <a href="/topic/weston-bate/" class="link-secondary">Weston Bate</a>,
+    
+    <a href="/topic/wirraway/" class="link-secondary">Wirraway</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

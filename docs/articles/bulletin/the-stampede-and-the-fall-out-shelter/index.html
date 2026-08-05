@@ -168,17 +168,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">The Stampede and the Fall-Out Shelter</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-06-16">16 Jun 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Follows the new south-eastern freeway&#39;s traffic overflow into once-exclusive Toorak, then tours a fully-furnished nuclear fall-out shelter on display at the Building Industry Fair.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -186,9 +195,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Follows the new south-eastern freeway&#39;s traffic overflow into once-exclusive Toorak, then tours a fully-furnished nuclear fall-out shelter on display at the Building Industry Fair.
-      </p>-->
       <p>HERE in Melbourne we have a marvellous new toy. As a keep-your-children-quiet-Sunday-afternoon-outing it is easily out-rivalling the aeroplanes at Essendon and the Sidney Myer Music Bowl. It is the new £2 million south-eastern freeway, a splendid band of concrete that runs along the north bank of the Yarra, sometimes out over the river on piles, sometimes way up in the air at roof-top height, as a punt road.</p>
 <p>To be perfectly frank it is the only decent thing that has happened to the north Yarra bank since I stepped ashore on May 29, 1835.</p>
 <p>The south bank, with its glorious Alexandra Avenue, Domain, Botanic Gardens and its nice people at S.E.2, has had all the breaks. The north bank has been nothing more than a smell of factories with the only good smell being that of the Richmond brewery and, alas, even that has closed.</p>
@@ -211,7 +217,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -220,9 +229,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Follows the new south-eastern freeway&#39;s traffic overflow into once-exclusive Toorak, then tours a fully-furnished nuclear fall-out shelter on display at the Building Industry Fair.
       </p>
 <hr>
@@ -261,9 +274,52 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/alec-waugh/" class="link-secondary">Alec Waugh</a>,
+    
+    <a href="/topic/arthur-warner/" class="link-secondary">Arthur Warner</a>,
+    
+    <a href="/topic/board-of-works/" class="link-secondary">Board of Works</a>,
+    
+    <a href="/topic/building-industry-fair/" class="link-secondary">Building Industry Fair</a>,
+    
+    <a href="/topic/essendon/" class="link-secondary">Essendon</a>,
+    
+    <a href="/topic/kew/" class="link-secondary">Kew</a>,
+    
+    <a href="/topic/marcia-davenport/" class="link-secondary">Marcia Davenport</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/nevil-shute/" class="link-secondary">Nevil Shute</a>,
+    
+    <a href="/topic/roy-t.-knight/" class="link-secondary">Roy T. Knight</a>,
+    
+    <a href="/topic/sidney-myer-music-bowl/" class="link-secondary">Sidney Myer Music Bowl</a>,
+    
+    <a href="/topic/st-george&#39;s-road/" class="link-secondary">St George&#39;s Road</a>,
+    
+    <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+    
+    <a href="/topic/yarra-river/" class="link-secondary">Yarra River</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

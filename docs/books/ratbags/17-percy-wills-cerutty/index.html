@@ -164,17 +164,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Percy Wills Cerutty</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             22
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1980-11-11">1980</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Profile of athletics coach Percy Cerutty, the Stotan philosopher of Portsea Camp who drove Herb Elliott to Olympic gold on raw oatmeal, sandhill sprints and a diet of pain, publicity and provocation.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Ratbags">
@@ -182,9 +191,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Profile of athletics coach Percy Cerutty, the Stotan philosopher of Portsea Camp who drove Herb Elliott to Olympic gold on raw oatmeal, sandhill sprints and a diet of pain, publicity and provocation.
-      </p>-->
       <strong>H</strong>ERB ELLIOTT'S BOOK <i>The Golden Mile</i> carries this little saga on Percy Cerutty's Portsea Camp. It was written by one of the inmates, Bill Stacey.<br><br>
 <i>A runner stood at the Pearly Gates,<br>
 His face was worn and old,<br>
@@ -317,7 +323,10 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-28">28 Jul 2026</time>
         </footer>
       
@@ -326,9 +335,13 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Profile of athletics coach Percy Cerutty, the Stotan philosopher of Portsea Camp who drove Herb Elliott to Olympic gold on raw oatmeal, sandhill sprints and a diet of pain, publicity and provocation.
       </p>
 <hr>
@@ -359,9 +372,44 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/percy-cerutty/" class="link-secondary">Percy Cerutty</a>,
+    
+    <a href="/topic/portsea/" class="link-secondary">Portsea</a>,
+    
+    <a href="/topic/herb-elliott/" class="link-secondary">Herb Elliott</a>,
+    
+    <a href="/topic/john-landy/" class="link-secondary">John Landy</a>,
+    
+    <a href="/topic/stotan/" class="link-secondary">Stotan</a>,
+    
+    <a href="/topic/rome-olympics/" class="link-secondary">Rome Olympics</a>,
+    
+    <a href="/topic/betty-cuthbert/" class="link-secondary">Betty Cuthbert</a>,
+    
+    <a href="/topic/russell-mockridge/" class="link-secondary">Russell Mockridge</a>,
+    
+    <a href="/topic/prahran/" class="link-secondary">Prahran</a>,
+    
+    <a href="/topic/nancy-cerutty/" class="link-secondary">Nancy Cerutty</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-28">28 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

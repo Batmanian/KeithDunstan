@@ -169,17 +169,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">The New Image</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             4
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-03-03">03 Mar 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            On Melbourne&#39;s sudden reputation for permissiveness, from a swimsuit-censorship row at the Australian Swimming Championships to the Moomba Committee&#39;s controversial beer garden in the Alexandra Gardens.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -187,9 +196,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        On Melbourne&#39;s sudden reputation for permissiveness, from a swimsuit-censorship row at the Australian Swimming Championships to the Moomba Committee&#39;s controversial beer garden in the Alexandra Gardens.
-      </p>-->
       <p>Just lately Melbourne has developed a fascinating new image. The weather has been so sunny and balmy over the past six months that the town now has possibilities as a pleasure resort. One commentator has suggested, even, that the Bayside resorts should follow Surfers' Paradise and develop fine, touristy names. Bikini Paradise could be good for St Kilda, or why not Sunstroke Strip for Elwood?</p>
 <p>But the new racy image for Melbourne has been vastly helped by the NSW elections campaign. The Liberal opposition frequently has cited Melbourne as a progressive city that indulged in such advanced practices as an off-course tote, as a non-bowser city where coin-in-the-slot petrol pumps operated day and night, and a place where women's hairdressing salons were permitted to stay open on Thursday nights. What's more, Melbourne was capital of a State where banks still remained open on Saturday mornings.</p>
 <p>But before anyone gets the idea that Melbourne has become as carefree as Las Vegas, the past week has made it clear that the defenders of our public morals are still a powerful force. The first opportunity came during the Australian Swimming Championships.</p>
@@ -206,7 +212,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -215,9 +224,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         On Melbourne&#39;s sudden reputation for permissiveness, from a swimsuit-censorship row at the Australian Swimming Championships to the Moomba Committee&#39;s controversial beer garden in the Alexandra Gardens.
       </p>
 <hr>
@@ -258,9 +271,54 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/adelaide-festival-of-arts/" class="link-secondary">Adelaide Festival of Arts</a>,
+    
+    <a href="/topic/alexandra-gardens/" class="link-secondary">Alexandra Gardens</a>,
+    
+    <a href="/topic/amateur-swimming-union/" class="link-secondary">Amateur Swimming Union</a>,
+    
+    <a href="/topic/elwood/" class="link-secondary">Elwood</a>,
+    
+    <a href="/topic/john-rigby/" class="link-secondary">John Rigby</a>,
+    
+    <a href="/topic/johnny-o&#39;keefe/" class="link-secondary">Johnny O&#39;Keefe</a>,
+    
+    <a href="/topic/judy-joy-davies/" class="link-secondary">Judy Joy Davies</a>,
+    
+    <a href="/topic/june-bronhill/" class="link-secondary">June Bronhill</a>,
+    
+    <a href="/topic/maurice-nathan/" class="link-secondary">Maurice Nathan</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+    
+    <a href="/topic/new-south-wales/" class="link-secondary">New South Wales</a>,
+    
+    <a href="/topic/olympic-pool/" class="link-secondary">Olympic Pool</a>,
+    
+    <a href="/topic/sidney-myer-music-bowl/" class="link-secondary">Sidney Myer Music Bowl</a>,
+    
+    <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

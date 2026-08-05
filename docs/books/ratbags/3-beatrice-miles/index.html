@@ -169,17 +169,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Beatrice Miles</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             20
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1980-11-11">1980</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Profile of &#39;Bea&#39; Miles, Sydney&#39;s most famous eccentric of the mid-twentieth century, covering her taxi battles, court appearances, Shakespeare recitals and death in 1973.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Ratbags">
@@ -187,9 +196,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Profile of &#39;Bea&#39; Miles, Sydney&#39;s most famous eccentric of the mid-twentieth century, covering her taxi battles, court appearances, Shakespeare recitals and death in 1973.
-      </p>-->
       Bea Miles said it in court, dictated it to reporters, proclaimed it as often as she could: 'I am a true thinker and speaker. I cannot stand or endure the priggery, caddery, snobbery, smuggery, hypocrisy, lies, flattery, compliments, praise, jealousy, envy, pretence, conventional speech and behaviour and affected artificial behaviour upon which society is based.'<br><br>
 She had two reasons why she had to be lonely, five reasons why she believed herself intelligent, six reasons why the police victimised her for 25 years and 13 reasons why she was happy. Let us start with the 13-formula:<br><br>
 1. Avoid covetousness, envy, greed, jealousy, lying, malice, snobbery.<br>
@@ -364,7 +370,10 @@ Continue to the next chapter: <a href="/books/ratbags/4-stephen-harold-gascoigne
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-28">28 Jul 2026</time>
         </footer>
       
@@ -373,9 +382,13 @@ Continue to the next chapter: <a href="/books/ratbags/4-stephen-harold-gascoigne
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Profile of &#39;Bea&#39; Miles, Sydney&#39;s most famous eccentric of the mid-twentieth century, covering her taxi battles, court appearances, Shakespeare recitals and death in 1973.
       </p>
 <hr>
@@ -416,9 +429,54 @@ Continue to the next chapter: <a href="/books/ratbags/4-stephen-harold-gascoigne
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/beatrice-miles/" class="link-secondary">Beatrice Miles</a>,
+    
+    <a href="/topic/sydney/" class="link-secondary">Sydney</a>,
+    
+    <a href="/topic/abbotsleigh/" class="link-secondary">Abbotsleigh</a>,
+    
+    <a href="/topic/ashfield/" class="link-secondary">Ashfield</a>,
+    
+    <a href="/topic/wahroonga/" class="link-secondary">Wahroonga</a>,
+    
+    <a href="/topic/james-ricketson/" class="link-secondary">James Ricketson</a>,
+    
+    <a href="/topic/smith&#39;s-weekly/" class="link-secondary">Smith&#39;s Weekly</a>,
+    
+    <a href="/topic/john-clifford/" class="link-secondary">John Clifford</a>,
+    
+    <a href="/topic/sylvia-markham/" class="link-secondary">Sylvia Markham</a>,
+    
+    <a href="/topic/john-beynon/" class="link-secondary">John Beynon</a>,
+    
+    <a href="/topic/little-sisters-of-the-poor/" class="link-secondary">Little Sisters of the Poor</a>,
+    
+    <a href="/topic/rookwood-cemetery/" class="link-secondary">Rookwood Cemetery</a>,
+    
+    <a href="/topic/william-shakespeare/" class="link-secondary">William Shakespeare</a>,
+    
+    <a href="/topic/rushcutters-bay/" class="link-secondary">Rushcutters Bay</a>,
+    
+    <a href="/topic/st-james-church/" class="link-secondary">St James Church</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-28">28 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

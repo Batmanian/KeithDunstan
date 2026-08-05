@@ -168,17 +168,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">The Columns on the Road to Timbertop</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             17
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1966-11-11">1966</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            On the media circus around Prince Charles&#39;s mysterious posting to Geelong Grammar&#39;s bush campus Timbertop, and Keith&#39;s own scheme to fly to Fiji and board the same flight just to get a story out of him.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Supporting A Column">
@@ -186,9 +195,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        On the media circus around Prince Charles&#39;s mysterious posting to Geelong Grammar&#39;s bush campus Timbertop, and Keith&#39;s own scheme to fly to Fiji and board the same flight just to get a story out of him.
-      </p>-->
       <p>Why did Prince Charles come to Australia? At first sight it seemed a splendid idea. Here was a grand plan for the young prince to get to know the Commonwealth and for the Commonwealth to get to know him. But there were some inexplicable factors. Great lengths were taken not to show him to the general public and he was sent to Timbertop.</p>
 <p>Timbertop is a division of Geelong Grammar School in the Australian Alps, 140 miles from Melbourne. It provides a blending of serious study with the ‘Outward Bound’ style of life — running, skiing, hiking, bush lore. Geelong Grammar boys go there for one year in the sub-intermediate grade. In other words it is for fifteen-year-olds. So why was Prince Charles going there? He was seventeen. Even members of the Geelong Grammar School council were mystified. Geelong Grammar School itself was not exactly in the centre of a city. It was at Corio Bay, where also there was much outdoor activity, including running, sailing and hiking. Why not send him there, where he could mix with seventeen-year-olds who were studying at the same level?</p>
 <p>No, we were told, Prince Charles at Timbertop would have a supervisory status. Whatever his status, an artificial situation had to be created for him. Boys who had already left school came back to Timbertop to be his companions. And although he was to live with the boys he had his special guard and technicians put in a direct link from Timbertop to Canberra.</p>
@@ -247,7 +253,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -256,9 +265,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         On the media circus around Prince Charles&#39;s mysterious posting to Geelong Grammar&#39;s bush campus Timbertop, and Keith&#39;s own scheme to fly to Fiji and board the same flight just to get a story out of him.
       </p>
 <hr>
@@ -297,9 +310,52 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/charles-prince-of-wales/" class="link-secondary">Charles - Prince of Wales</a>,
+    
+    <a href="/topic/commonwealth-of-nations/" class="link-secondary">Commonwealth of Nations</a>,
+    
+    <a href="/topic/timbertop/" class="link-secondary">Timbertop</a>,
+    
+    <a href="/topic/geelong-grammar-school/" class="link-secondary">Geelong Grammar School</a>,
+    
+    <a href="/topic/paris-match-magazine/" class="link-secondary">Paris Match magazine</a>,
+    
+    <a href="/topic/sir-robert-menzies/" class="link-secondary">Sir Robert Menzies</a>,
+    
+    <a href="/topic/harold-holt/" class="link-secondary">Harold Holt</a>,
+    
+    <a href="/topic/fiji/" class="link-secondary">Fiji</a>,
+    
+    <a href="/topic/nandi-airport/" class="link-secondary">Nandi airport</a>,
+    
+    <a href="/topic/tailor-and-cutter-magazine/" class="link-secondary">Tailor and Cutter magazine</a>,
+    
+    <a href="/topic/lord-casey-governor-general/" class="link-secondary">Lord Casey, Governor-General</a>,
+    
+    <a href="/topic/sir-david-checketts/" class="link-secondary">Sir David Checketts</a>,
+    
+    <a href="/topic/t.r.-thomas-ronald-garnett-headmaster/" class="link-secondary">T.R. - Thomas Ronald - Garnett - headmaster</a>,
+    
+    <a href="/topic/the-royal-family-great-britain/" class="link-secondary">The Royal Family - Great Britain</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

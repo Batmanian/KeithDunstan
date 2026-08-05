@@ -165,17 +165,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">William Charles Wentworth IV</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             22
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1980-11-11">1980</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Profile of Billy Wentworth, the maverick Liberal MP and self-declared anti-Communist crusader, descendant of the colonial statesman of the same name, whose eccentric career spanned a mock &#39;Battle of Cronulla&#39; in WWII to a ministry under John Gorton.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Ratbags">
@@ -183,9 +192,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Profile of Billy Wentworth, the maverick Liberal MP and self-declared anti-Communist crusader, descendant of the colonial statesman of the same name, whose eccentric career spanned a mock &#39;Battle of Cronulla&#39; in WWII to a ministry under John Gorton.
-      </p>-->
       <strong>W</strong>ILLIAM CHARLES WENTWORTH IV gets all sorts of titles — 'the maverick intellectual', 'the political gadfly', 'the paranoid Red-baiter', 'the one honest man in Parliament'... he is by no means the least of the Wentworths.<br><br>
 Of course, his great grandfather William Charles Wentworth I was a giant of a man. It was he who gave to the people of New South Wales freedom of the Press, trial by jury, the right to elect their own representatives and what's more, he was the founder of the Australian Constitution.<br><br>
 He had one intriguing idea. In 1853 as chairman of a select committee on a new constitution for New South Wales he recommended that the colony should have its own House of Lords. Mr Wentworth said that these gentlemen because 'of their birth, leisure and superior education' would lay the foundation of an aristocracy and would lay the foundation for an upper house which would be a close imitation of the House of Lords. Furthermore it would serve as 'inducement to respectable families to stay in the colony and for upper classes of the United Kingdom to emigrate.'<br><br>
@@ -305,7 +311,10 @@ Continue to the next chapter: <a href="/books/ratbags/12-prince-leonard-of-hutt"
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -314,9 +323,13 @@ Continue to the next chapter: <a href="/books/ratbags/12-prince-leonard-of-hutt"
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Profile of Billy Wentworth, the maverick Liberal MP and self-declared anti-Communist crusader, descendant of the colonial statesman of the same name, whose eccentric career spanned a mock &#39;Battle of Cronulla&#39; in WWII to a ministry under John Gorton.
       </p>
 <hr>
@@ -349,9 +362,46 @@ Continue to the next chapter: <a href="/books/ratbags/12-prince-leonard-of-hutt"
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/william-charles-wentworth/" class="link-secondary">William Charles Wentworth</a>,
+    
+    <a href="/topic/sydney/" class="link-secondary">Sydney</a>,
+    
+    <a href="/topic/sir-robert-menzies/" class="link-secondary">Sir Robert Menzies</a>,
+    
+    <a href="/topic/john-gorton/" class="link-secondary">John Gorton</a>,
+    
+    <a href="/topic/cronulla/" class="link-secondary">Cronulla</a>,
+    
+    <a href="/topic/mackellar/" class="link-secondary">Mackellar</a>,
+    
+    <a href="/topic/h.v.-evatt/" class="link-secondary">H.V. Evatt</a>,
+    
+    <a href="/topic/kylie-tennant/" class="link-secondary">Kylie Tennant</a>,
+    
+    <a href="/topic/les-haylen/" class="link-secondary">Les Haylen</a>,
+    
+    <a href="/topic/southern-aurora/" class="link-secondary">Southern Aurora</a>,
+    
+    <a href="/topic/oxford-university/" class="link-secondary">Oxford University</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

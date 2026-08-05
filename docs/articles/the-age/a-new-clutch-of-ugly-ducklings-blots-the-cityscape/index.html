@@ -164,17 +164,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">A new clutch of ugly ducklings blots the cityscape</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             4
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1998-08-08">08 Aug 1998</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A nomination round for Melbourne&#39;s ugliest sights, from the Foxtel and Optus advertising signs looming over the historic Young and Jackson&#39;s Hotel to the kitsch interior of the new Imax Theatre and the warring columns of 101 Collins Street.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Age">
@@ -182,9 +191,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A nomination round for Melbourne&#39;s ugliest sights, from the Foxtel and Optus advertising signs looming over the historic Young and Jackson&#39;s Hotel to the kitsch interior of the new Imax Theatre and the warring columns of 101 Collins Street.
-      </p>-->
       <p>Flinders Street looks splendid without the ugly twins, the Gas and Fuel buildings.</p>
 <p>Surely that is just the start. What else could we remove? Melbourne has ugliness all over.</p>
 <p>Back in the 1980s we gave annual awards for the ugliest things in town. We called them UGHs, for Un-Godly Horror.</p>
@@ -205,7 +211,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -214,9 +223,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A nomination round for Melbourne&#39;s ugliest sights, from the Foxtel and Optus advertising signs looming over the historic Young and Jackson&#39;s Hotel to the kitsch interior of the new Imax Theatre and the warring columns of 101 Collins Street.
       </p>
 <hr>
@@ -247,9 +260,44 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/crown-casino/" class="link-secondary">Crown Casino</a>,
+    
+    <a href="/topic/foxtel/" class="link-secondary">Foxtel</a>,
+    
+    <a href="/topic/hopetoun-road/" class="link-secondary">Hopetoun Road</a>,
+    
+    <a href="/topic/imax-theatre/" class="link-secondary">Imax Theatre</a>,
+    
+    <a href="/topic/moorabbin-town-hall/" class="link-secondary">Moorabbin Town Hall</a>,
+    
+    <a href="/topic/optus/" class="link-secondary">Optus</a>,
+    
+    <a href="/topic/public-transport-corporation/" class="link-secondary">Public Transport Corporation</a>,
+    
+    <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+    
+    <a href="/topic/yarra-river/" class="link-secondary">Yarra River</a>,
+    
+    <a href="/topic/young-and-jacksons-hotel/" class="link-secondary">Young and Jacksons Hotel</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

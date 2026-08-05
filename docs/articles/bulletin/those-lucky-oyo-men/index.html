@@ -159,17 +159,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Those Lucky OYO Men</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             4
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1963-04-06">06 Apr 1963</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A tour of Domain Park, Robin Boyd&#39;s new 20-storey &quot;own-your-own-flat&quot; tower opposite the Botanic Gardens, from its Georges furniture and £37,500 penthouses to the view over Government House, the MCG and St Patrick&#39;s from its balcony.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -177,9 +186,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A tour of Domain Park, Robin Boyd&#39;s new 20-storey &quot;own-your-own-flat&quot; tower opposite the Botanic Gardens, from its Georges furniture and £37,500 penthouses to the view over Government House, the MCG and St Patrick&#39;s from its balcony.
-      </p>-->
       <p>Whenever I'm green with envy, which is right now, I get to thinking about which is the best flat in Melbourne. The caretaker on top of the Vacuum Oil building has a &quot;bobby dazzler.&quot; The views in his flat are so good he can lie in his bath and look straight down St Kilda Road. Or how about the manager of the Consolidated Zinc building? He's even higher than the board of directors, way up about the 26th floor. He has a lovely balcony all around and he has the best location for any flat, bang on Collins Street.</p>
 <p>Yet even the Con Zinc man now has a serious rival, the daddy of all the Oyos. I see you are not acquainted with Oyos. An Oyo is an own-your-own-flat and the Oyo in question is &quot;Domain Park,&quot; a 20-storey, £1m. palace built by Lend Lease Development Pty Ltd. According to Lend Lease there is only one bigger in Australia, Blue's Point Tower in Sydney. Ah, but this is the more luxurious.</p>
 <p>Last week the newspaper gentlemen were invited along to see it all and it was worth seeing. Everything was right. The location was right—Botanic Gardens opposite, Sir Harold Gengoult Smith's place next door and Sir Norman and Dame Mabel Brookes' old house on the diagonal corner.</p>
@@ -196,7 +202,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -205,9 +214,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A tour of Domain Park, Robin Boyd&#39;s new 20-storey &quot;own-your-own-flat&quot; tower opposite the Botanic Gardens, from its Georges furniture and £37,500 penthouses to the view over Government House, the MCG and St Patrick&#39;s from its balcony.
       </p>
 <hr>
@@ -228,9 +241,34 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/botanic-gardens/" class="link-secondary">Botanic Gardens</a>,
+    
+    <a href="/topic/domain-park/" class="link-secondary">Domain Park</a>,
+    
+    <a href="/topic/government-house/" class="link-secondary">Government House</a>,
+    
+    <a href="/topic/lend-lease/" class="link-secondary">Lend Lease</a>,
+    
+    <a href="/topic/robin-boyd/" class="link-secondary">Robin Boyd</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

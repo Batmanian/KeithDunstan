@@ -1,0 +1,127 @@
+---
+title: Oh, for a Malvern Star
+date: 1999-11-11
+summary: Recalls the boyhood cult of the Malvern Star bicycle in Depression-era and wartime Melbourne, from Bruce Small's rise as its dealer and promoter of champion Hubert Opperman to Dunstan's own Sturmey Archer gears, speedometer obsession and boarding-house cycling at Geelong Grammar.
+tags:
+  - Bruce Small
+  - Geelong Grammar
+  - Hubert Opperman
+  - Malvern Star
+  - Sturmey Archer
+  - Weston Bate
+---
+
+So when did the bicycling craze return? For the young it never went away. The dream gift for any male under 16, Christmas or birthday, was always a bicycle. In the depression years of the 1930s it was a substantial gift, 10 pounds maybe, more than a week's wages for a working man. Which bike? There was a range on the market, BSA, Rudge-Whitworth, Raleigh, Triumph. Swift, Speedwell and Healing. The Healing was very popular. They had the slogan, *Easy Wheeling with a Healing.* One did not use the term bicycle; it was a bike, but more often it was the machine, the grid or the mangle. I always preferred grid and I was very fond of my grid.
+
+My first real grid was a Malvern Star. It arrived Christmas 1938, re-conditioned and sparkling. Originally it belonged to my brother Bill. He was now 18 and going to work and old enough to get his driver's licence, bicycles were finished for him. The bike was large, it had a back pedal brake, and it was heavy. It weighed nigh on 30 pounds. Ah, but it was a *Malvern Star* and it had bent down handle bars. What more could any young human desire?
+
+The garrulous, marvellously energetic Bruce Small ran Malvern Star. In the 1970s at the age of 80 he was still going. When Mayor of the Gold Coast, he ran for Queensland Parliament with the slogan 'Think Big, Vote Small'. He started out as a travelling salesman and he was so good at it, soon he was making more money than the manager. In 1920 he bought out Tom Finnigan's bike shop at 59 Glenferrie Road, Malvern for 1125 pounds. Finnigan won the Austral Wheel Race in 1898 off 270 yards and did very well in a betting coup. He used the money to start his bike business, which opened in 1899. He manufactured his own bikes and his advertisements read:
+
+The Malvern Star is the Star of the Cycle World
+The recognised Southern Star
+Easiest to Ride
+Easiest to Buy
+Easiest to Pay For.
+
+Bruce Small followed this tradition. He and his brothers, Frank and Ralph, assembled five bicycles a week. In his first year of operation he grossed 6500 pounds. In 1923 he opened at Gardenvale and by 1926 he had a head office at 164 High Street, Prahran, and four branches, including his original shop which was now 185 Glenferrie Road.
+
+In 1922, when he was 17, Hubert Opperman came third in a road race against some of the nation's top stars and to his delight, he won a Malvern Star worth 10 pounds. So Oppy met Bruce Small and they were a combination for the next 20 years. Bruce Small made Oppy the star of Malvern Star.
+
+Opperman in the 1930s was a hero, who could only be compared to Donald Bradman, Walter Lindrum or Roy Cazaly. We thought him unquestionably the greatest bicycle rider of all time. In 1928 the French sporting journal *L'Auto* conducted a poll to discover the most popular sportsman in Europe. More than one and a half million votes were cast and the Hubert Opperman convincingly beat France's own tennis champion, Henri Cochet.
+
+Alf Stumbles, an old Malvern Star colleague, said there was one particular reason why Oppy became so popular with the French: he learned how to urinate while still on his bike. In events like the Paris-Brest-Paris marathon it was vital not to lose a minute. So Oppy didn't - he openly let it go while free-wheeling.
+
+'As far as I know he was the first cyclist to learn to do the trick, and it made front page news. The sophisticated French loved him for it.'
+
+In 1930 Bradman made his 334 runs at Leeds, in 1937 Oppy made his huge bike ride from Fremantle to Sydney. As schoolboys, we were agog over such events. Oppy set out to break Billy Read's 1935 transcontinental record of 2751 miles in 18 days, 18 hours. Oppy rode a Malvern Star, and, of course, Malvern Star sponsored him. They put out a handsome sheet which listed the exact time and hour that Billy Read arrived in every town across the continent.
+
+There was a blank column beside Billy Read's achievements, so that we could put down the very second that Oppy arrived in each town and compare. There was also a map of the route and the instructions from Malvern Star read: "Mark Oppy's progress on this record-breaking ride by filling in between the black lines with a coloured pencil. Hubert Opperman is the greatest and most renowned rider the world has known."
+
+He started by dipping his bike in the waters of the Indian Ocean. This is a trick he learned from Francis Birtles, who did the same thing in the early 1900s. Oppy was in awe of Birtles' feat. He said Birtles rode on his own, carried all his own gear, including a rifle as protection from hostile blacks and on a track that did not have a smear of asphalt, he averaged over 100 miles a day. (1)
+
+So Oppy started in Fremantle and rode 268 miles on the first day. The road through Western Australia was shocking. He was frightened of riding at night for fear of losing the track. One section of 100 miles of the sand surface was so heavy he was able to make only four and three-quarter miles an hour. When he could not plough through the sand, he got off his bicycle and walked. At this stage he averaged only three and half hours of sleep a night. He described himself as being like a fly walking across fly paper. (2)
+
+Unlike Francis Birtles, Oppy had a back-up team - Bruce Small, Alf Stumbles and a caravan. Alf Stumbles said Oppy was determined to ride every inch, so much so that if he finished his ride for the night at the rear of the caravan he would not start the next day from the front. He would insist on going back to the rear.
+
+Bruce Small played some tricks. Alf Stumbles said that on one occasion Oppy had been asleep only 20 minutes when Bruce Small awakened him. Oppy did not know. He thought he had been asleep for eight hours and mechanically off he pedalled once again.
+
+His daily intake of food was amazing. Here was a 24-hour check. A chicken, 15 Granny Smith apples, one quart of apple flounce (grated apples with one pint of milk, and three heaped teaspoonfuls of glucose), several tins of barley sugar, two gallons of water, one quart of orange juice, one gallon of tea, several cups of qwik-brew, wheat biscuits and cream, onions, lettuce, tomatoes, bananas and pints of warm soup. (3)
+
+At Eucla he was riding in temperatures of 110 degrees Fahrenheit. At Port Augusta he looked at himself in a mirror, and almost decided to abandon the ride. "The desert had stripped me of a stone in weight, and never during the French Tours had eyes peered out of such a shrunken face." (4)
+
+The hardest part of the ride was coping with the civic receptions. At Ballarat 2000 people were waiting at the City Hall, plus a civic reception. Crowds were waiting for him all the way to Melbourne. At Flemington they were so thick he had to get off his bike. There were 10,000 waiting for him at the Elizabeth Street Post Office and another 20,000 lined the streets to Parliament House, where the Premier, Mr Dunstan, was waiting to congratulate him. (5)
+
+Early in the ride he adopted a plan of 18 hours riding and six off for sleep and meals but as he approached Sydney there was no time off, he just kept riding. His record was 315 miles in 24 hours. Several times Opperman fell asleep while riding and crashed off his bike. Even the rider of the caravan that was following him fell asleep at the wheel near Goulburn. It ran off the road, down a bank and was saved from turning over only by a fence. (6) He went from Seymour straight through to Marulan, N.S.W., without a break, 29-and-a-half hours continuous riding.
+
+He arrived in Sydney at 10.51 p.m. and over the last 20 miles the traffic came to a dead halt along George Street and up to the G.P.O. Here he received his final civic reception. He had crossed the continent in 13 days, 10 hours and 11 minutes and broken Billy Read's record by 5 days, 8 hours, 21 minutes. A Macquarie Street specialist examined Oppy and found him in perfect physical condition.
+
+After this, how could a boy ride anything else but a Malvern Star? I had noted that Oppy had bent down handlebars. It meant that one had to ride head down, bottom up, and back arched across like a bow. The alternative was straight handle bars, like the spar of a sailing ship, more comfortable and suitable for suburban pedalling in the city. But, look here, I might want to cross the continent in 13 days, 10 hours and 11 minutes like Oppy. It was essential that I have the same handlebars.
+
+The next step was to upgrade my Malvern 'Oppy' Star. I installed a bulb horn on the handle bars which made a marvellous honk sufficient to frighten the horses and scare pedestrians. It even made a faint impression on passing Packards, Buicks and Dodges.
+
+For Christmas 1939 I received Sturmey Archer gears. I always thought they were Sturmley Archer and it wasn't until at least 20 years later that I discovered the name was Sturmey. Henry Sturmey, who made high wheel ordinaries in England back in the 1880s, and James Archer invented the Sturmey Archer three-speed gears back in 1902. They had one big advantage, they were all sealed in the back hub, a hub that you left to its own devices and never opened. Mysterious things went on inside that hub and it was better that one didn't know about it. It was the ultimate test for a young apprentice. He could take Sturmey Archer gears to pieces and put them together again with no bits left over he had arrived as a mechanic.
+
+Inside that chrome plated hub was an epicyclic system of spring-lever clutches and roller bearings which shifted laterally inside by a rod connected to a cable and gear lever. This was the official description. If one went to the Oxford dictionary and looked up 'epicyclic' it gave this explanation: A gear in which one wheel travelled round the outside or the inside of another wheel with which it meshed.
+
+The Sturmey Archers came with a hub brake and they survived even into the advanced years of the derailleur. Later models were more refined, with up to five gears. Some enthusiasts even used them with a front derailleur to get 10 or 15 speeds.
+
+In 1939 I was impressed. Riding around suburban Toorak and South Yarra on Christmas morning, the new gears were marvellous. It was wonderful the ease with which one cruised up the hill in Orrong Road, then changed into top to speed down towards the Yarra and Richmond. I was convinced of their sheer technical triumph.
+
+Nobody in my family knew anything about bicycles and six months passed by before I began to realise that the Sturmey Archer gears were doing nothing. They did not change at all. One can only put it down to the idea that when one is in an Opperman dream it is possible to believe anything. There was no tension between the gear lever and the gears at the rear wheel hub, it was all wrong, and it was impossible for the gears to work. The kindly man in the bicycle shop at Armadale pointed this out.
+
+So finally the gears did work, but never did they flatten out the hill in Orrong Road or turn into bliss that dramatic rise in Anderson Street past the Botanic Gardens. In moments of honest conviction, which were rare, I wondered whether the Sturmey Archer was really worth the increase in weight.
+
+The derailleur chain gear had been around almost as long as the Sturmey Archer but it had yet to be refined into the brilliant instrument it became in the 1970s. Some of the fixed-wheel enthusiasts had a very simple, but effective, two-speed gear. There were two cogs on either side of the rear wheel. So in order to change gears the rider had to take out the rear wheel, turn it round, and put it back again. Not terribly convenient, but if it made life more bearable when riding in mountain country.
+
+The next acquisition was a speedometer. For a year or two I had been the proud owner of a cyclometer, a small device which clicked on the spokes and reported on the number of miles past. Only one who has ridden a bicycle could understand the thrill, the pure excitement of chalking up one's first century then ultimately reaching a 1000. One could see 950 arrive, then 960, and I knew within days I was going to reach that marvellous figure of 1000. On the fatal day I rode into darkest Burnley, Richmond, Collingwood and even furthest Kew to get there. ...995..996...997...998...999...and ah, bliss, a clear row of noughts, a 1000.
+
+Ah yes, the speedometer, I found one second-hand for one pound 19 shillings at the bike shop. It was a big thing, the size you would expect in an automobile like an Austin or an MG. It worked a like rack and pinion steering, except the rack was in a circle, bolted to the spokes. The pinion worked on the rack and it turned a cable which went up the fork to the splendid speedometer on the handlebars beside the bulb honker.
+
+It worked brilliantly, giving not only the speed but the miles covered. It had one disadvantage, which again took a long time to seep into my romantically powered brain, maybe 10 to 20 per cent of the energy that went into pushing the Malvern Star was consumed by that large speedometer.
+
+It was a dangerous gadget. If one wasn't studying it in wonder waiting for 99 to become a 100 or 999 to become 1000, there was the thrill of setting new records. Toorak Road was good coming down from Glenferrie Road, Orrong Road was splendid. There was a very nice short-term precipice in Trawalla Avenue, and of course, there was the marvellous Anderson Street hill. I established my 'world records' for all these hills. Unlike bike computers today, the speedometer did not report back later the maximum speed. So it was exciting to keep an eye on the needle as it mounted higher and higher. There were some very narrow escapes from cars and some alarming entries into Alexandra Boulevard from Anderson Street and across the Morell Bridge.
+
+Speedometers could be totally absorbing. A friend had a splendid bike, brand new, speedo, Sturmey Archer's, the lot. He was trying it out for the first time, head down watching the magic needle rise so beautifully, 10...15...20 mph. He drove straight into the back of a parked car, completely smashed his front wheel, bent the frame and injured his head. It was a wonderful lesson in bike riding and it was six months before he mounted his mangle again.
+
+In preparatory school I was consistent, always in the last half-dozen at the bottom of the class. In 1939 my father decided the only hope for me was to become a boarder at Geelong Grammar, there, isolated in the country, free of distractions, some intellectual activity might result.
+
+Geelong Grammar was a bike-oriented community and its history went back a long way. The school actually formed its first bicycle club in 1881, and, according to the school quarterly, quite an irritant to the establishment at the time. Teachers complained this was a threat to old established sports like football, rowing and cricket. An even more serious objection was that, "boys in bicycles are practically out of control in the school". (7)
+
+In 1939 it was virtually compulsory to own a bicycle. As a boarder my house was Francis Brown. The house contained nigh on 70 boys and at the rear of the building there was a bicycle shed. Each boy had a number and there was a hook in the shed for his bike.
+
+The bike was the means of transport to almost everything, to the Baths at the Lagoon, to the Art School, the cricket ground, or maybe the store near Corio Railway Station for a Violet Crumble. It was also the means of liberation. Life was always too good at home and I did not want to be a boarder. The school seemed like a prison. One went there for the full term of three months and there were no leave passes to Melbourne. But if it was a prison, there was a parole system which, to me, was almost magical. This was the Saturday Party. It all began in the 1870s with a wise headmaster, John Bracebridge Wilson. He believed that if he trusted the boys then that trust would be returned. So began the cult of the Saturday party. He allowed the boarders to go out in small groups and then roam the bush every Saturday from dawn until dark. They did it on foot, by horse and later by bicycle.
+
+Weston Bate in his history of Geelong Grammar quotes happy days from 1886. Saturday Parties were for boarders, not day boys. They had to put their names and destinations in the 'Saturday Book'. On the Friday night, preparations would include pinching butter from the tea table and leaving a food bag with the domestic staff. The staff would then fill them with half a loaf of bread for each boy, tea, sugar, salt, and items like condensed milk, coffee, jam and sardines. They would all arrive back "well after sunset, dirty, tired and immensely hungry, despite their well stuffed bread bags and the pancakes, potatoes, meat, fish, mushrooms and other food they cooked". (8)
+
+The trust obviously worked. Fifty-three years later, the Saturday Parties were in action and thoroughly approved by the current headmaster, Dr James Darling. There had been no serious mishaps in all this, no boys had failed to return. I was impressed by the headmaster's courage then and even more so now. Of course, there were no Sunday Parties. That was God's Day and we went to chapel three times on Sundays.
+
+The system had altered little from 1886. On Friday night we put our names in the Saturday Book, advising where we were going and who would be in the party. There had to be at least three. Oh dear, what would happen if just two boys went off touring together?
+
+Early Saturday morning the kitchen staff would have everything ready, a hessian bag which would contain chops, tea, sugar, bread, jam, cake and apples. We were allowed to pick any country destination within 20 miles, but the city of Geelong was out of bounds. The traffic was too dangerous. Elsewhere the roads were safe, the automobile had yet to become the top menace of society. As we headed out the school gates, there was a sense of adventure, excitement, and above all, a feeling of release from bondage, as if the warders had indeed just unlocked the gates and let us out of jail.
+
+The You Yangs, via Lara, was our favorite destination. The 'Yewies', as we called them, seemed magnificently lonely then, and visited by not many people. Also with their vast boulders they had a mystery about them which would match any Aboriginal burial ground. Fyansford by the Moorabool River was another favourite destination, and often we would head off to Anakie and the Brisbane Ranges.
+
+Of course, the best fun was lighting the fire, cooking the chops and boiling the billy. One can only imagine the skill of 16-year-olds cooking chops. Here was a splendid opportunity to cultivate a taste for near raw meat coated with a heavy layer of black carbon. There are few things learnt at school which are much use in after life, but learning to cook a chop over an open fire was a vital matter. The barbecue in Australia is important, it is a male cult like the initiation ceremony for male Aboriginals upon reaching puberty.
+
+We learned a great deal too about bicycling. It always seemed to me that Corio and that bleak plain between Geelong and Melbourne are a vacuum just waiting to be filled with wind. The area never looked over productive, but if only experts put in place a few strategic windmills they could provide enough cheap electric power to light up all Sydney and Melbourne.
+
+One of our last Saturday Parties was in 1941. We rode to Anakie straight into a north wind. The north wind in Victoria is the equivalent of the Mistral in Southern France. It is the type of wind that sends sane men mad and makes them beat their wives. We found out this day that wind is the worst thing that can happen to a cyclist. Rain, cold, hail, gravel roads, steep hills; it is possible to cope with all these, but a headwind is eternal, a great hand that keeps pushing you back, draining the energy.
+
+It was agony fighting the 20 odd miles to Anakie. I tried everything, checked and re-checked the Sturmey Archer to see if I was really in low gear, and I disconnected the splendid speedometer, even though it was heartbreaking to see the miles going unrecorded. We didn't arrive in Anakie until nearly 3 p.m., very late indeed for our chops.
+
+The return home was a different matter. We flew. Naturally I had to reconnect the speedometer to check our flying speed. We were averaging well over 20 mph. It was after 6 p.m. when we arrived back at Corio, and it was just like 1886, it was "after sunset and were immensely hungry".
+
+Saturday Parties then went into a long decline. Saturday was occupied with sport, everything from sailing, through to horse riding and soccer. Timbertop, the new branch of Geelong Grammar in the mountains, came in 1952. This catered for all those who loved the bush and outdoors. There were weekend camping expeditions for senior boys and there didn't seem a need any more for the old-fashioned Saturday Party. By the 1960s they were virtually finished.
+
+In 1998 I visited Francis Brown House for its 60th anniversary and asked to see the bicycle shed. It had gone, a new wing to the building had taken its place, and not a bicycle was in sight.
+
+## Notes
+
+1. *Pedals, Politics & People*, Hubert Opperman.
+2. *Herald*, 13 November 1937. *Argus*, 19 November 1937.
+3. *Pedals, Politics & People*, Hubert Opperman.
+4. Ibid.
+5. *Sun News Pictorial*, 13 November 1937.
+6. *Herald*, 18 November 1937.
+7. *Geelong Grammar School Quarterly*, July 1881.
+8. *Light Blue Down Under. The History of Geelong Grammar School*, Weston Bate.

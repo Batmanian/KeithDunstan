@@ -169,17 +169,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Football and TV</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             4
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-03-17">17 Mar 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Covers Melbourne&#39;s fierce row over the VFL&#39;s ban on televising the last quarter of League football, then Victoria&#39;s new tallest building, the 24-storey Consolidated Zinc, opening almost unnoticed.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -187,9 +196,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Covers Melbourne&#39;s fierce row over the VFL&#39;s ban on televising the last quarter of League football, then Victoria&#39;s new tallest building, the 24-storey Consolidated Zinc, opening almost unnoticed.
-      </p>-->
       <p>THERE are many things that move Melburnians deeply — the chopping of trees, closing hours, the perfect decorum of the Melburnian Sunday—but above all we feel deeply about our football. And this is the exciting, romantic part of the year when every team is full of hope. The newspapers are devoting even more space than usual to stories about 7ft tall recruits from the country, who with unbelievable ease can kick sacks of wheat 100 yards with either foot.</p>
 <p>We realise, all of us, that after the passing of May these Goliath recruits will never be heard of again, but we can dream. And, of course, now is the time when the shops are stacked with club towels, club hearth rugs, club bath mats, club scarves, club beanies, club socks, club flags for one's car wireless aerial. Even the banks have club money boxes.</p>
 <p>I tell you this just so that you can get some idea of the size of the issue that has been worrying Melbourne during the past week — to televise or not to televise the last quarter of the League football. There have been leading articles and street polls; it has rarely been off the front pages of the newspapers.</p>
@@ -205,7 +211,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -214,9 +223,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Covers Melbourne&#39;s fierce row over the VFL&#39;s ban on televising the last quarter of League football, then Victoria&#39;s new tallest building, the 24-storey Consolidated Zinc, opening almost unnoticed.
       </p>
 <hr>
@@ -257,9 +270,54 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/alf-brown/" class="link-secondary">Alf Brown</a>,
+    
+    <a href="/topic/amelio-greco/" class="link-secondary">Amelio Greco</a>,
+    
+    <a href="/topic/amp-building/" class="link-secondary">AMP Building</a>,
+    
+    <a href="/topic/collingwood/" class="link-secondary">Collingwood</a>,
+    
+    <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>,
+    
+    <a href="/topic/consolidated-zinc-building/" class="link-secondary">Consolidated Zinc Building</a>,
+    
+    <a href="/topic/footscray/" class="link-secondary">Footscray</a>,
+    
+    <a href="/topic/frank-galbally/" class="link-secondary">Frank Galbally</a>,
+    
+    <a href="/topic/hawthorn/" class="link-secondary">Hawthorn</a>,
+    
+    <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/melbourne-sun/" class="link-secondary">Melbourne Sun</a>,
+    
+    <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>,
+    
+    <a href="/topic/turnbull/" class="link-secondary">Turnbull</a>,
+    
+    <a href="/topic/victorian-football-league/" class="link-secondary">Victorian Football League</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

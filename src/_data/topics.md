@@ -196,6 +196,8 @@ topics:
     description: The Boer War of 1899 to 1902 was the conflict in which Arthur Lynch, one of the Bulletin-era eccentrics Keith Dunstan profiled in 'Ratbags', fought for the Boers against the British Empire before his later trial for treason in London.
   - name: Bourke Street
     description: Bourke Street is one of Melbourne's two great city thoroughfares, historically the address of its grand theatres, including the Princess, the Regent and the fire-gutted Tivoli, whose vanished glamour Keith Dunstan mourned more than once in the Bulletin.
+  - name: Brian Dixon
+    description: Brian Dixon was the Victorian Minister for Youth, Recreation and Sport who rode his own bike to work and made Keith Dunstan founding president of the Victorian Bicycle Institute, campaigning through the 1970s for bike paths and against cyclists being banned from the West Gate Bridge.
   - name: Brian Fitzpatrick
     description: Brian Fitzpatrick was the Melbourne historian whose sardonic line about the old Melbourne Sunday having 'a tranquillity, a pure beauty' like the Winged Victory of Samothrace, Keith Dunstan quoted to capture just how silent, church-bound and entertainment-free the city used to be.
   - name: Brian Johnstone
@@ -372,6 +374,8 @@ topics:
     description: Lou Richards was a former Collingwood captain who became one of Melbourne football's best-known media identities and, for a time, licensee of the journalists' favourite Phoenix Hotel, where Keith Dunstan and his Herald colleagues drank between assignments.
   - name: Luna Park
     description: Luna Park is St Kilda's seaside amusement park, opened in 1912, a Melbourne landmark that turns up in Keith Dunstan's writing alongside E.W. Cole's Book Arcade as one of the city's great, slightly disreputable pleasure palaces.
+  - name: Malvern Star
+    description: Malvern Star was the Melbourne bicycle marque built by Bruce Small into a national brand through champion rider Hubert Opperman, and the bike of Keith Dunstan's own 1930s boyhood, his 1970s born-again commute, and his son David's Sovereign Star.
   - name: Marie Dunstan
     description: Marie Dunstan, née McFadyen, was Keith Dunstan's wife of nearly six decades, met just before he shipped out to Morotai in 1945, who helped raise their four children largely on a journalist's salary and became his closest collaborator in the vineyard. Marie died in 2023.
   - name: Maurice Nathan

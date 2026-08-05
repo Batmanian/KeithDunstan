@@ -163,17 +163,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">The virgin vintage</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             14
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1994-11-11">1994</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            The relentless, unglamorous labour of running a boutique vineyard, hand-training 24,000 canes, battling 240 weed varieties, and paying $252 for a canister of anti-fungal spray the chemical man calls &quot;liquid gold.&quot;
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="My Life With The Demon">
@@ -181,9 +190,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        The relentless, unglamorous labour of running a boutique vineyard, hand-training 24,000 canes, battling 240 weed varieties, and paying $252 for a canister of anti-fungal spray the chemical man calls &quot;liquid gold.&quot;
-      </p>-->
       <p>There are various activities which one could describe as labour intensive. Decorating wedding cakes would have to score at 90 per cent. Carving and ageing Chippendale dining room suites or Louis XIV cabinets for the antique market would have to go 92 or 93 per cent. Restoring T-model Fords and dear old Duesenbergs from the scrap heap must go as high as 95 per cent. But if you really want a labour intensive class act, then try running a boutique vineyard. I would suggest the labour intensive rating could go as high as 99 per cent.</p>
 <p>The year is carefully organised so that there is not a moment when something is not happening. Come early September the first event is bud burst. This is utterly charming, it is like the first cuckoo after winter or the first mushroom after autumn. The vines push out their first tufts, the first green leaves. They are pale green, so fresh and lovely. It is the prettiest time in the vineyard, and like football in February it is a time full of optimism. Every coach has acquired a number of recruits who are 200 centimetres tall, they can kick goals with either foot from the centre line, and they can battle brilliantly for three hours at a time without a trace of fatigue. It is a dead cert that you will win the premiership this year. It is the same in the wine business, you see those little shoots pushing out and you sense this is the year you are going to win the Jimmy Watson Award for the best red at the Melbourne Show.</p>
 <p>So the vines push out their little shoots. The trouble is they don't push them out in the right places. Countless shoots pop out all along the main stems of each vine. There is just one way to get rid of them, they have to be rubbed off by hand. As soon as you rub off one lot, another grows, another and another, this can last for months. It is known as 'rubbing off.' Someone might call at the house and ask Marie: &quot;What's Keith doing?&quot; &quot;Oh, he's down in the vineyard rubbing off.&quot; Or it can sound even worse than that. &quot;He's down in the vineyard rubbing off with David.&quot;</p>
@@ -237,7 +243,10 @@ This is the interesting thing about nature, there are diseases available for whe
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -246,9 +255,13 @@ This is the interesting thing about nature, there are diseases available for whe
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         The relentless, unglamorous labour of running a boutique vineyard, hand-training 24,000 canes, battling 240 weed varieties, and paying $252 for a canister of anti-fungal spray the chemical man calls &quot;liquid gold.&quot;
       </p>
 <hr>
@@ -277,9 +290,42 @@ This is the interesting thing about nature, there are diseases available for whe
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/wine/" class="link-secondary">Wine</a>,
+    
+    <a href="/topic/winemaking/" class="link-secondary">Winemaking</a>,
+    
+    <a href="/topic/lillian-frank/" class="link-secondary">Lillian Frank</a>,
+    
+    <a href="/topic/neill-robb/" class="link-secondary">Neill Robb</a>,
+    
+    <a href="/topic/derek-rumbold/" class="link-secondary">Derek Rumbold</a>,
+    
+    <a href="/topic/patricia-rumbold/" class="link-secondary">Patricia Rumbold</a>,
+    
+    <a href="/topic/leon-massoni/" class="link-secondary">Leon Massoni</a>,
+    
+    <a href="/topic/vivienne-massoni/" class="link-secondary">Vivienne Massoni</a>,
+    
+    <a href="/topic/kathleen-quealy/" class="link-secondary">Kathleen Quealy</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

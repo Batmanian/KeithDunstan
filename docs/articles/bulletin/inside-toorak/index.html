@@ -165,17 +165,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Inside Toorak</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             5
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-07-14">14 Jul 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            An affectionate dissection of Toorak&#39;s century of unrivalled Melbourne snob value, from its jealously small postcode SE2 to its chauffeur-driven Rolls Royces and Tudor-revival Village shops.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -183,9 +192,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        An affectionate dissection of Toorak&#39;s century of unrivalled Melbourne snob value, from its jealously small postcode SE2 to its chauffeur-driven Rolls Royces and Tudor-revival Village shops.
-      </p>-->
       <p>SEVERAL months ago a Victorian car was speeding through New South Wales. In court it was alleged the policeman said: &quot;You bloody Victorians! I suppose you drive like this in Toorak too.&quot; The policeman denied he ever said it. The driver denied he was even a Toorak man; he came from St Kilda. Yet the little incident proved this much; Toorak has a notable and most envied reputation.</p>
 <p>If a Victorian drives anything between a Jaguar and a Rolls Royce, if the cut of his waistcoat looks rather good, if he can sign a good cheque, then surely he must come from Toorak. It is one of the few suburbs that always is remembered by its postal district number, SE2, pronounced with a certain nuance — Esse Too. And those of us who cannot make the grade know that SE1 or SE3 are not quite good enough.</p>
 <p>For over a century it has been the best suburb in Melbourne and the best suburb in Australia. Labor politicians, journalists and gossip writers always have loved to make merry of its snob value. Only last Christmas a gossip writer noticed in the early hours two empty champagne bottles on the steps of the Toorak Post Office. Now in Collingwood, Fitzroy or Richmond always it is de rigueur to find empty port or metho bottles on post office steps, but in Toorak it was different, there the plonkies went in for champagne . . . it figgered.</p>
@@ -202,7 +208,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -211,9 +220,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         An affectionate dissection of Toorak&#39;s century of unrivalled Melbourne snob value, from its jealously small postcode SE2 to its chauffeur-driven Rolls Royces and Tudor-revival Village shops.
       </p>
 <hr>
@@ -246,9 +259,46 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/armadale/" class="link-secondary">Armadale</a>,
+    
+    <a href="/topic/collingwood/" class="link-secondary">Collingwood</a>,
+    
+    <a href="/topic/fitzroy/" class="link-secondary">Fitzroy</a>,
+    
+    <a href="/topic/hamilton-sleigh/" class="link-secondary">Hamilton Sleigh</a>,
+    
+    <a href="/topic/malvern/" class="link-secondary">Malvern</a>,
+    
+    <a href="/topic/melbourne-university-labor-club/" class="link-secondary">Melbourne University Labor Club</a>,
+    
+    <a href="/topic/prahran/" class="link-secondary">Prahran</a>,
+    
+    <a href="/topic/richmond/" class="link-secondary">Richmond</a>,
+    
+    <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>,
+    
+    <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+    
+    <a href="/topic/toorak-village/" class="link-secondary">Toorak Village</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

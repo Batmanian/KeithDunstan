@@ -159,17 +159,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">A Hollow Affair for Burke and Wills</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             3
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1988-01-28">1988</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Melbourne buries Burke and Wills in a vast, mournful state funeral watched by 40,000 people, while the crowd angrily demands to know why the expedition&#39;s forgotten rouseabout, Charley Gray, was left in his grave at Massacre Creek.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="A Day In The Life Of Australia">
@@ -177,9 +186,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Melbourne buries Burke and Wills in a vast, mournful state funeral watched by 40,000 people, while the crowd angrily demands to know why the expedition&#39;s forgotten rouseabout, Charley Gray, was left in his grave at Massacre Creek.
-      </p>-->
       <h3>21 January 1863</h3>
 <p>We buried Burke and Wills here in Melbourne today.</p>
 <p>It was a solemn, deeply moving, but in many ways awful occasion. The Argus claims it a a hollow affair; a useless piece of pageantry igned to glorify the Exploration committee rather than the explorers.</p>
@@ -195,7 +201,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -204,9 +213,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Melbourne buries Burke and Wills in a vast, mournful state funeral watched by 40,000 people, while the crowd angrily demands to know why the expedition&#39;s forgotten rouseabout, Charley Gray, was left in his grave at Massacre Creek.
       </p>
 <hr>
@@ -227,9 +240,34 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/robert-ohara-burke/" class="link-secondary">Robert Ohara Burke</a>,
+    
+    <a href="/topic/william-john-wills/" class="link-secondary">William John Wills</a>,
+    
+    <a href="/topic/sir-henry-barkly/" class="link-secondary">Sir Henry Barkly</a>,
+    
+    <a href="/topic/baron-ferdinand-von-mueller/" class="link-secondary">Baron Ferdinand von Mueller</a>,
+    
+    <a href="/topic/charley-gray/" class="link-secondary">Charley Gray</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

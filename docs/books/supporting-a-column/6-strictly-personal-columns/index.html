@@ -202,17 +202,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Strictly personal columns</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             57
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1966-11-11">1966</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            On the art of the celebrity interview, from Ava Gardner insisting on her two-tone Bentley for a hundred-yard drive on the set of &quot;On the Beach&quot; to Peter Ustinov failing spectacularly to learn to crack a stockwhip for &quot;The Sundowners.&quot;
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Supporting A Column">
@@ -220,9 +229,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        On the art of the celebrity interview, from Ava Gardner insisting on her two-tone Bentley for a hundred-yard drive on the set of &quot;On the Beach&quot; to Peter Ustinov failing spectacularly to learn to crack a stockwhip for &quot;The Sundowners.&quot;
-      </p>-->
       <p>There used to be an old Chief of Staff in Melbourne who had a contempt for all stories that were gathered on the telephone. His favourite saying was: ‘I only like reporters that have mud on their boots.” Column writing is no different. It is difficult to write a daily column by warming an office seat. Indeed in the interests of journalism we could even create a ‘Newton’ law of non-motion: 'The greater the seat-warming the greater the brilliance of mind and imagination necessary to maintain a column.’ No doubt the very clever and the very creative can fill a space every day without seeing anyone, but not lesser mortals.</p>
 <p>So the keen columnist should always try to be where things are happening, whether it be a Davis Cup Challenge Round, a flood or a crash on the Stock Exchange. But most important of all, he should see people, lots of them. He should watch names on hotel lists, he should keep in touch with the airlines, the shipping companies, the theatres.</p>
 <p>It is far from easy. Some people adore to be interviewed. Others hate it and have a strange terror of seeing their name in the newspapers. The worst type of all is the grand theatrical, who has been interviewed 20,000 times and has become arrogant with the years. Usually they have been married a little too often, they have too many soft spots, and they have a natural aversion to the whole interview process. I remember interviewing Frank Sinatra back stage at the Paramount Theatre on Broadway, New York. The year was 1951 and Frankie had passed ‘the swoon’ era. No longer did the teenagers pass out in the aisles and Frankie was trying to kick off on a new career. He was patient, charming and even prepared to talk to a reporter who had come from 10,000 miles out of town, if it meant publicity somewhere. Ten years later, at the peak of his success, he was a very different fellow, a man who could be abusive and threatening. There were several newspapermen in Sydney who were lucky to escape his fists.</p>
@@ -426,7 +432,10 @@ ing out, the feeling of relief like a boil being lanced. Then the prejudice woul
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -435,9 +444,13 @@ ing out, the feeling of relief like a boil being lanced. Then the prejudice woul
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         On the art of the celebrity interview, from Ava Gardner insisting on her two-tone Bentley for a hundred-yard drive on the set of &quot;On the Beach&quot; to Peter Ustinov failing spectacularly to learn to crack a stockwhip for &quot;The Sundowners.&quot;
       </p>
 <hr>
@@ -544,9 +557,120 @@ ing out, the feeling of relief like a boil being lanced. Then the prejudice woul
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/herald-and-weekly-times-ltd/" class="link-secondary">Herald and Weekly Times Ltd</a>,
+    
+    <a href="/topic/frank-sinatra/" class="link-secondary">Frank Sinatra</a>,
+    
+    <a href="/topic/ava-gardner/" class="link-secondary">Ava Gardner</a>,
+    
+    <a href="/topic/on-the-beach/" class="link-secondary">On the Beach</a>,
+    
+    <a href="/topic/walter-chiari/" class="link-secondary">Walter Chiari</a>,
+    
+    <a href="/topic/theyre-a-weird-mob-film/" class="link-secondary">Theyre a Weird Mob - film</a>,
+    
+    <a href="/topic/charlton-heston/" class="link-secondary">Charlton Heston</a>,
+    
+    <a href="/topic/ben-hur/" class="link-secondary">Ben Hur</a>,
+    
+    <a href="/topic/graham-walsh/" class="link-secondary">Graham Walsh</a>,
+    
+    <a href="/topic/irene-handl/" class="link-secondary">Irene Handl</a>,
+    
+    <a href="/topic/margaret-rutherford/" class="link-secondary">Margaret Rutherford</a>,
+    
+    <a href="/topic/peter-ustinov/" class="link-secondary">Peter Ustinov</a>,
+    
+    <a href="/topic/marlene-dietrich/" class="link-secondary">Marlene Dietrich</a>,
+    
+    <a href="/topic/danny-kaye/" class="link-secondary">Danny Kaye</a>,
+    
+    <a href="/topic/bolshoi-ballet/" class="link-secondary">Bolshoi Ballet</a>,
+    
+    <a href="/topic/larissa-trembovelskaya/" class="link-secondary">Larissa Trembovelskaya</a>,
+    
+    <a href="/topic/sir-dallas-brooks-governor/" class="link-secondary">Sir Dallas Brooks - Governor</a>,
+    
+    <a href="/topic/sir-robert-menzies/" class="link-secondary">Sir Robert Menzies</a>,
+    
+    <a href="/topic/sophie-tucker/" class="link-secondary">Sophie Tucker</a>,
+    
+    <a href="/topic/menzies-hotel-melbourne/" class="link-secondary">Menzies Hotel, Melbourne</a>,
+    
+    <a href="/topic/sir-maurice-nathan-lord-mayor/" class="link-secondary">Sir Maurice Nathan - Lord Mayor</a>,
+    
+    <a href="/topic/johnnie-ray/" class="link-secondary">Johnnie Ray</a>,
+    
+    <a href="/topic/radio-station-3uz/" class="link-secondary">Radio Station 3UZ</a>,
+    
+    <a href="/topic/the-beatles/" class="link-secondary">The Beatles</a>,
+    
+    <a href="/topic/the-southern-cross-hotel/" class="link-secondary">The Southern Cross Hotel</a>,
+    
+    <a href="/topic/don-lunn/" class="link-secondary">Don Lunn</a>,
+    
+    <a href="/topic/sir-leo-curtis-lord-mayor/" class="link-secondary">Sir Leo Curtis - Lord Mayor</a>,
+    
+    <a href="/topic/sir-arthur-fadden/" class="link-secondary">Sir Arthur Fadden</a>,
+    
+    <a href="/topic/w.m.-(billy)-hughes/" class="link-secondary">W.M. (Billy) Hughes</a>,
+    
+    <a href="/topic/griffith/" class="link-secondary">Griffith</a>,
+    
+    <a href="/topic/john-and-frank-livingstone/" class="link-secondary">John and Frank Livingstone</a>,
+    
+    <a href="/topic/new-york-yacht-club/" class="link-secondary">New York Yacht Club</a>,
+    
+    <a href="/topic/lord-casey/" class="link-secondary">Lord Casey</a>,
+    
+    <a href="/topic/sir-eugene-gorman/" class="link-secondary">Sir Eugene Gorman</a>,
+    
+    <a href="/topic/adam-lindsay-gordon/" class="link-secondary">Adam Lindsay Gordon</a>,
+    
+    <a href="/topic/barry-humphries/" class="link-secondary">Barry Humphries</a>,
+    
+    <a href="/topic/the-establishment-club/" class="link-secondary">The Establishment Club</a>,
+    
+    <a href="/topic/patrick-tennison/" class="link-secondary">Patrick Tennison</a>,
+    
+    <a href="/topic/dame-joan-sutherland/" class="link-secondary">Dame Joan Sutherland</a>,
+    
+    <a href="/topic/edna-everage/" class="link-secondary">Edna Everage</a>,
+    
+    <a href="/topic/roy-(mo)-rene/" class="link-secondary">Roy (Mo) Rene</a>,
+    
+    <a href="/topic/tania-verstak/" class="link-secondary">Tania Verstak</a>,
+    
+    <a href="/topic/dame-mabel-brookes/" class="link-secondary">Dame Mabel Brookes</a>,
+    
+    <a href="/topic/sir-norman-brookes/" class="link-secondary">Sir Norman Brookes</a>,
+    
+    <a href="/topic/harold-gengoult-smith/" class="link-secondary">Harold Gengoult Smith</a>,
+    
+    <a href="/topic/harry-emmerton/" class="link-secondary">Harry Emmerton</a>,
+    
+    <a href="/topic/on-the-beach-film/" class="link-secondary">On the Beach - film</a>,
+    
+    <a href="/topic/napoleon-bonaparte/" class="link-secondary">Napoleon Bonaparte</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

@@ -161,17 +161,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Battle of the Flower</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             10
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1965-05-01">01 May 1965</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A tour of Australia&#39;s competitive gardening culture and its flower festivals, from Toowoomba&#39;s Carnival of Flowers and Ballarat&#39;s begonias to the Sydney Morning Herald&#39;s statewide garden contest and Western Australia&#39;s wildflower season.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Walkabout Magazine">
@@ -179,9 +188,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A tour of Australia&#39;s competitive gardening culture and its flower festivals, from Toowoomba&#39;s Carnival of Flowers and Ballarat&#39;s begonias to the Sydney Morning Herald&#39;s statewide garden contest and Western Australia&#39;s wildflower season.
-      </p>-->
       <p>THERE'S AN INSIDE STORY about Australians that has hardly ever been told. Thousands upon thousands of us are competitive gardeners, and there's nobody quite so devoted as a competitive gardener.</p>
 <p>One sees evidence of this in almost any city suburb. One sees a fictional street; we'll call it Grandview Terrace. In the front garden of 22 Grandview Terrace there's a row of poinsettias (Euphorbia pulcherrima). Look next door in Number 20, and you can bet he is trying to out-pulcher his neighbour with an even better row of poinsettias.</p>
 <p>If Number 12 has Magnolia grandiflora, undoubtedly Number 10 is doing his darndest trying to out-grandiflor him with a bigger and better tree. Smart newspapers and councils were quick to cash in on this, and they organised all kinds of garden competitions and flower festivals. Sometimes they worked on a natural local enthusiasm. At other times, let's be honest, they started the competitions because of a lack of local pride. In some areas you have to hold out big rewards to drag the Australian male back from the beach, the football, the races or the golf course.</p>
@@ -218,7 +224,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -227,9 +236,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A tour of Australia&#39;s competitive gardening culture and its flower festivals, from Toowoomba&#39;s Carnival of Flowers and Ballarat&#39;s begonias to the Sydney Morning Herald&#39;s statewide garden contest and Western Australia&#39;s wildflower season.
       </p>
 <hr>
@@ -254,9 +267,38 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/adelaide-festival-of-arts/" class="link-secondary">Adelaide Festival of Arts</a>,
+    
+    <a href="/topic/ballarat/" class="link-secondary">Ballarat</a>,
+    
+    <a href="/topic/grafton/" class="link-secondary">Grafton</a>,
+    
+    <a href="/topic/ripponlea/" class="link-secondary">Ripponlea</a>,
+    
+    <a href="/topic/sydney-morning-herald/" class="link-secondary">Sydney Morning Herald</a>,
+    
+    <a href="/topic/toowoomba/" class="link-secondary">Toowoomba</a>,
+    
+    <a href="/topic/western-australia/" class="link-secondary">Western Australia</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

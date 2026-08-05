@@ -163,17 +163,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Arthur Stace</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             10
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1980-11-11">1980</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Profile of Arthur Stace, the reformed Sydney alcoholic and petty criminal known as &#39;Mr Eternity&#39;, who for thirty-seven years chalked the single word ETERNITY in copperplate script on the city&#39;s footpaths more than half a million times.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Ratbags">
@@ -181,9 +190,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Profile of Arthur Stace, the reformed Sydney alcoholic and petty criminal known as &#39;Mr Eternity&#39;, who for thirty-seven years chalked the single word ETERNITY in copperplate script on the city&#39;s footpaths more than half a million times.
-      </p>-->
       <strong>H</strong>E STARTED EARLY, usually before dawn, and he wandered through all the streets of Sydney. Every morning he was somewhere else, Wynyard, Glebe, Paddington, Randwick, Central Station. As he said he went where God directed him. Every night the message appeared in his head.<br><br>
 He was a very little man, bent, grey-haired, only five feet three inches tall and just seven stone. He looked frail enough to blow away. Then with the formality of another generation he always wore a grey felt hat, tie and prim double-breasted navy blue suit.<br><br>
 Sometimes in the dawn light he would be seen around Wynyard Station. He would nod to the drunks still left on the pavement and he would look at the debris of the affluent society stretched out on park benches, trying to keep warm under newspapers. If he detected any movement there would be a pat on the head or a warm greeting. He had the air of a man who understood.<br><br>
@@ -245,7 +251,10 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-28">28 Jul 2026</time>
         </footer>
       
@@ -254,9 +263,13 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Profile of Arthur Stace, the reformed Sydney alcoholic and petty criminal known as &#39;Mr Eternity&#39;, who for thirty-seven years chalked the single word ETERNITY in copperplate script on the city&#39;s footpaths more than half a million times.
       </p>
 <hr>
@@ -285,9 +298,42 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/arthur-stace/" class="link-secondary">Arthur Stace</a>,
+    
+    <a href="/topic/mr-eternity/" class="link-secondary">Mr Eternity</a>,
+    
+    <a href="/topic/sydney/" class="link-secondary">Sydney</a>,
+    
+    <a href="/topic/surry-hills/" class="link-secondary">Surry Hills</a>,
+    
+    <a href="/topic/burton-street-baptist-church/" class="link-secondary">Burton Street Baptist Church</a>,
+    
+    <a href="/topic/john-ridley/" class="link-secondary">John Ridley</a>,
+    
+    <a href="/topic/lisle-thompson/" class="link-secondary">Lisle Thompson</a>,
+    
+    <a href="/topic/ridley-smith/" class="link-secondary">Ridley Smith</a>,
+    
+    <a href="/topic/sydney-square/" class="link-secondary">Sydney Square</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-28">28 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

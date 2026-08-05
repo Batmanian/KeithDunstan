@@ -168,17 +168,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Mr Bolte and the Students</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-10-27">27 Oct 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Profiles David Hirt, the bearded theological student leading Melbourne University&#39;s campaign against the hanging of Robert Tait, and the students&#39; months-long standoff with a dismissive Henry Bolte government.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -186,9 +195,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Profiles David Hirt, the bearded theological student leading Melbourne University&#39;s campaign against the hanging of Robert Tait, and the students&#39; months-long standoff with a dismissive Henry Bolte government.
-      </p>-->
       <p>DAVID HIRT lives at Picken Court, the very elegant block in Ormond College designed by Grounds, Romberg and Boyd. On the walls of his room are prints by Nolan, Brack, Dadswell, Botticelli and Picasso; a sign &quot;ART IS LOVE OF GOD&quot; and a very small picture of Mr Bolte, presumably by a Sun photographer. David Hirt is 26 and he wears a large black beard. His fellow students call him Castro. He trained as a sheet metal worker at Technical School, worked in factories and in his own words was a drifter until he decided to go into the church. He is now a theological student and he will become a Presbyterian Minister.</p>
 <p>Hirt is chairman of the Students' Anti-Hanging Committee. He is worth writing about because he is an example of a new type at the University, or at least a type we haven't seen since the 'thirties. Last year the students, well-organised, fought a battle against White Australia through the federal election. Now on a moral issue the Movement is even bigger; it has been more in the public eye and rarely have the students waged a campaign so long, so expensively and so close to the annual examinations. Rarely too have they so irritated the Government.</p>
 <p>Execution time was not far off when I met David Hirt at Picken Court—although execution has since been postponed. I asked him for the story of the Movement. He said: &quot;When the news came through on August 7 that the Government intended to hang Tait I was not happy with this decision as a person. I spoke to several fellow theologues and told them if necessary I would picket Pentridge on my own. I knew the answer I'd get. We started by picketing Flinders Street Station. We were abused and spat at. The general public wants to hang Tait.&quot;</p>
@@ -210,7 +216,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -219,9 +228,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Profiles David Hirt, the bearded theological student leading Melbourne University&#39;s campaign against the hanging of Robert Tait, and the students&#39; months-long standoff with a dismissive Henry Bolte government.
       </p>
 <hr>
@@ -260,9 +273,52 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/alan-pilkington/" class="link-secondary">Alan Pilkington</a>,
+    
+    <a href="/topic/country-party/" class="link-secondary">Country Party</a>,
+    
+    <a href="/topic/david-hirt/" class="link-secondary">David Hirt</a>,
+    
+    <a href="/topic/earl-of-harewood/" class="link-secondary">Earl of Harewood</a>,
+    
+    <a href="/topic/flinders-street-station/" class="link-secondary">Flinders Street Station</a>,
+    
+    <a href="/topic/harold-macmillan/" class="link-secondary">Harold Macmillan</a>,
+    
+    <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+    
+    <a href="/topic/herbert-hyland/" class="link-secondary">Herbert Hyland</a>,
+    
+    <a href="/topic/lovegrove/" class="link-secondary">Lovegrove</a>,
+    
+    <a href="/topic/melbourne-university/" class="link-secondary">Melbourne University</a>,
+    
+    <a href="/topic/ormond-college/" class="link-secondary">Ormond College</a>,
+    
+    <a href="/topic/pentridge/" class="link-secondary">Pentridge</a>,
+    
+    <a href="/topic/robert-tait/" class="link-secondary">Robert Tait</a>,
+    
+    <a href="/topic/students&#39;-anti-hanging-committee/" class="link-secondary">Students&#39; Anti-Hanging Committee</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

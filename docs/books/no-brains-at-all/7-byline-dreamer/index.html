@@ -169,17 +169,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Byline Dreamer</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             34
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1990-11-11">1990</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Defies his father&#39;s warning that journalism leads to a hack&#39;s life, talks his way into a Herald cadetship despite atrocious spelling, and learns the trade cracking the police-radio code on late-night rounds.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="No Brains At All">
@@ -187,9 +196,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Defies his father&#39;s warning that journalism leads to a hack&#39;s life, talks his way into a Herald cadetship despite atrocious spelling, and learns the trade cracking the police-radio code on late-night rounds.
-      </p>-->
       <p>At last it was back to Australia and 1 PD at the Melbourne Cricket Ground. Within days I was discharged. The farewell gesture from the RAAF was an appalling Victory suit, one of those austerity suits invented by Mr Dedman, Minister for Post War Reconstruction. It was cuffless, narrow of lapel and free of lining and had no shape whatever. My father thought differently. He had a cousin, J. Dunstan Lewis, who had a business in the T &amp; G Building, Collins Street. Mr Lewis was a tailor, a kindly gentleman of great patience. A suit was something that had to be constructed with great patience. It took at least a month, in which time there had to be at least three fittings. 'On which side do you dress, Keith?', Mr Lewis asked.</p>
 <p>I had no idea what he was talking about. People never referred to the penis in 1946. He explained further.</p>
 <p>On which side do you place your personal equipment?'
@@ -350,7 +356,10 @@ It was a marriage similar to those of the Chinese or medieval nobility, arranged
 Continue to chapter eight: <a href="/books/no-brains-at-all/8-correspondent/">Correspondent</a>
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -359,9 +368,13 @@ Continue to chapter eight: <a href="/books/no-brains-at-all/8-correspondent/">Co
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Defies his father&#39;s warning that journalism leads to a hack&#39;s life, talks his way into a Herald cadetship despite atrocious spelling, and learns the trade cracking the police-radio code on late-night rounds.
       </p>
 <hr>
@@ -402,9 +415,54 @@ Continue to chapter eight: <a href="/books/no-brains-at-all/8-correspondent/">Co
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/archer-thomas/" class="link-secondary">Archer Thomas</a>,
+    
+    <a href="/topic/australian-railways-union/" class="link-secondary">Australian Railways Union</a>,
+    
+    <a href="/topic/bob-dalziel/" class="link-secondary">Bob Dalziel</a>,
+    
+    <a href="/topic/charles-hector-mcfadyen/" class="link-secondary">Charles Hector McFadyen</a>,
+    
+    <a href="/topic/herald-and-weekly-times/" class="link-secondary">Herald and Weekly Times</a>,
+    
+    <a href="/topic/lyle-cousland/" class="link-secondary">Lyle Cousland</a>,
+    
+    <a href="/topic/melbourne-city-council/" class="link-secondary">Melbourne City Council</a>,
+    
+    <a href="/topic/osmar-white/" class="link-secondary">Osmar White</a>,
+    
+    <a href="/topic/raaf/" class="link-secondary">RAAF</a>,
+    
+    <a href="/topic/royal-melbourne-hospital/" class="link-secondary">Royal Melbourne Hospital</a>,
+    
+    <a href="/topic/rupert-bunny/" class="link-secondary">Rupert Bunny</a>,
+    
+    <a href="/topic/sir-keith-murdoch/" class="link-secondary">Sir Keith Murdoch</a>,
+    
+    <a href="/topic/t-and-g-building/" class="link-secondary">T &amp; G Building</a>,
+    
+    <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+    
+    <a href="/topic/tramways-union/" class="link-secondary">Tramways union</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

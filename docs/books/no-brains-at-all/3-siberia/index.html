@@ -164,17 +164,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Siberia</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             42
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1990-11-11">1990</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Boarding at Geelong Grammar&#39;s Francis Brown house from 1939, ranked serf number sixty-two in a rigid prefect hierarchy, fagging for a reward-less senior and losing the battle with his first stiff Edwardian collar.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="No Brains At All">
@@ -182,9 +191,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Boarding at Geelong Grammar&#39;s Francis Brown house from 1939, ranked serf number sixty-two in a rigid prefect hierarchy, fagging for a reward-less senior and losing the battle with his first stiff Edwardian collar.
-      </p>-->
       <p>The Geelong Road in 1939 was the epitome of dreariness. One proceeded out past Flemington race-track, through Footscray, through industrial Deer Park, then on to a treeless, rocky plain. The plain seemed waterless, burnt, grey. The only feature, over there to the right, was those humps, rather mysterious, all alone - the You Yangs. The road passed through Werribee, a small town, but I always had a feeling of passing through a wasteland. The young prisoner was going off to Siberia.</p>
 <p>There were various ways of getting to and from the school at Corio, on the Melbourne side of Geelong. Students could go by train and get off at Corio station, only a kilometre or two from the school; they could go by car; or, if they were energetic, they could bicycle. The rich whose parents had houses at Frankston, Mt Martha or Sorrento were known to sail across the bay in their personal yachts. Always I went by car or train, and always it seemed like the trip of the doomed to the Russian wastes. The turn-off to Geelong Grammar came up about 12 kilometres before Geelong. From there visitors could see the, oh yes, quite lovely clock tower.</p>
 <p>There were five houses in the senior school: Geelong, Manifold, Perry, Cuthbertson and Francis Brown. Geelong was the house for the day boys, who came in every day from Geelong. The other four were for boarders, and 1 was allotted to Francis Brown, named in honour of the previous headmaster, Dr Francis Brown.</p>
@@ -308,7 +314,10 @@ He would be a very dull person who does not accept the fall of Singapore as invo
 Continue to chapter four: <a href="/books/no-brains-at-all/4-following-a-vc/">Following a VC</a>
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -317,9 +326,13 @@ Continue to chapter four: <a href="/books/no-brains-at-all/4-following-a-vc/">Fo
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Boarding at Geelong Grammar&#39;s Francis Brown house from 1939, ranked serf number sixty-two in a rigid prefect hierarchy, fagging for a reward-less senior and losing the battle with his first stiff Edwardian collar.
       </p>
 <hr>
@@ -350,9 +363,44 @@ Continue to chapter four: <a href="/books/no-brains-at-all/4-following-a-vc/">Fo
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/australian-broadcasting-commission/" class="link-secondary">Australian Broadcasting Commission</a>,
+    
+    <a href="/topic/boarding-school/" class="link-secondary">Boarding school</a>,
+    
+    <a href="/topic/bob-dalziel/" class="link-secondary">Bob Dalziel</a>,
+    
+    <a href="/topic/cecil-roberts/" class="link-secondary">Cecil Roberts</a>,
+    
+    <a href="/topic/dr.-james-darling/" class="link-secondary">Dr. James Darling</a>,
+    
+    <a href="/topic/geelong-grammar/" class="link-secondary">Geelong Grammar</a>,
+    
+    <a href="/topic/henry-varley/" class="link-secondary">Henry Varley</a>,
+    
+    <a href="/topic/manning-clark/" class="link-secondary">Manning Clark</a>,
+    
+    <a href="/topic/marie-stopes/" class="link-secondary">Marie Stopes</a>,
+    
+    <a href="/topic/melbourne-grammar/" class="link-secondary">Melbourne Grammar</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

@@ -165,17 +165,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">1966 and All That</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             11
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1966-12-01">01 Dec 1966</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A tongue-in-cheek review of 1966, the year of decimal currency, Robert Menzies&#39; retirement and Harold Holt&#39;s spear-fishing bikini photographs, the Pentridge escape of Ronald Ryan, conscription protests, the mini-skirt, and Lyndon Johnson&#39;s visit to Australia.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Walkabout Magazine">
@@ -183,9 +192,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A tongue-in-cheek review of 1966, the year of decimal currency, Robert Menzies&#39; retirement and Harold Holt&#39;s spear-fishing bikini photographs, the Pentridge escape of Ronald Ryan, conscription protests, the mini-skirt, and Lyndon Johnson&#39;s visit to Australia.
-      </p>-->
       <p>Years are terribly ephemeral. They elapse with such appalling rapidity that it is difficult to remember what happened in any one of them.</p>
 <p>There are several good ones that do stick in the mind: 1066, 1788, 1812, 1925 (I was born that year) and 1956, the year of the Olympic Games.</p>
 <p>What on earth happened to all the others? They have just disappeared into the wasteland. Yet 1966 is almost worth adding to one's short list. It was unquestionably above average and vintage in many ways. It was decimal year, Menziean retirement year, Holt year, drought year, mini-skirt year, conscription year, Vietnam year, Prince Charles year and the year, glory be (I belong there), that Victoria at last won 10 o'clock closing.</p>
@@ -229,7 +235,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -238,9 +247,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A tongue-in-cheek review of 1966, the year of decimal currency, Robert Menzies&#39; retirement and Harold Holt&#39;s spear-fishing bikini photographs, the Pentridge escape of Ronald Ryan, conscription protests, the mini-skirt, and Lyndon Johnson&#39;s visit to Australia.
       </p>
 <hr>
@@ -273,9 +286,46 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/6-oclock-swill/" class="link-secondary">6 Oclock swill</a>,
+    
+    <a href="/topic/arthur-calwell/" class="link-secondary">Arthur Calwell</a>,
+    
+    <a href="/topic/doug-walters/" class="link-secondary">Doug Walters</a>,
+    
+    <a href="/topic/harold-holt/" class="link-secondary">Harold Holt</a>,
+    
+    <a href="/topic/joern-utzon/" class="link-secondary">Joern Utzon</a>,
+    
+    <a href="/topic/lyndon-b.-johnson/" class="link-secondary">Lyndon B. Johnson</a>,
+    
+    <a href="/topic/prince-charles/" class="link-secondary">Prince Charles</a>,
+    
+    <a href="/topic/ronald-ryan/" class="link-secondary">Ronald Ryan</a>,
+    
+    <a href="/topic/sir-robert-menzies/" class="link-secondary">Sir Robert Menzies</a>,
+    
+    <a href="/topic/sydney-opera-house/" class="link-secondary">Sydney Opera House</a>,
+    
+    <a href="/topic/thomas-playford/" class="link-secondary">Thomas Playford</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

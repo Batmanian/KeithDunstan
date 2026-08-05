@@ -159,17 +159,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Senator Kennelly and the Monster</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1963-01-19">19 Jan 1963</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Albert Park Lake&#39;s decade-long infestation of Canadian waterweed defeats every remedy the Albert Park Trust&#39;s chairman, Senator Pat Kennelly, throws at it, from an imported weed-cutting boat to a fleet of speedboats dumping tons of copper sulphate.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -177,9 +186,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Albert Park Lake&#39;s decade-long infestation of Canadian waterweed defeats every remedy the Albert Park Trust&#39;s chairman, Senator Pat Kennelly, throws at it, from an imported weed-cutting boat to a fleet of speedboats dumping tons of copper sulphate.
-      </p>-->
       <p>Science fiction has always been interested in the all-powerful voracious weed that envelops the community: the type that grows and grows, possesses a human mind and does fearful un-Christian things. There was a BBC TV show along these lines, called &quot;The Quatermass Experiment.&quot; If I remember correctly a capsule returned from outer space. There was a dying spaceman aboard and he was possessed by a frightful growth. Well, this weed growth thing spread and spread. It consumed whole human beings, all good Londoners, but as it consumed them their minds and personalities kept on living in the growth. They tried everything to get rid of this weed without success. The grand climax came when the authorities made their last bid. They appealed to the sensible human brains living in the growth, asking them to destroy the weed from within.</p>
 <p>This they did, an act of self-sacrifice, and the great weed shrivelled and died. I think it was spread over Westminster Abbey at the time.</p>
 <p>Reader, I fear that such a weed has taken over our Albert Park Lake. Foolishly the local people are calling it Canadian Waterweed, or, more expertly, Elodea Canadensis, but already it has spread to such proportions that boating is virtually impossible, and . . . the Albert Park Regatta on Australia Day for the first time since 1911 has been switched to the Yarra. Let me explain. Albert Park, within handy carriage distance of Flinders Street, is one of our glories. It spreads across 563 acres and it has a splendid public golf course. If you can be first in the queue on the tee at 4 a.m., there is a fine day's batting ahead of you.</p>
@@ -199,7 +205,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -208,9 +217,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Albert Park Lake&#39;s decade-long infestation of Canadian waterweed defeats every remedy the Albert Park Trust&#39;s chairman, Senator Pat Kennelly, throws at it, from an imported weed-cutting boat to a fleet of speedboats dumping tons of copper sulphate.
       </p>
 <hr>
@@ -231,9 +244,34 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/albert-park/" class="link-secondary">Albert Park</a>,
+    
+    <a href="/topic/batman-motel/" class="link-secondary">Batman Motel</a>,
+    
+    <a href="/topic/csiro/" class="link-secondary">CSIRO</a>,
+    
+    <a href="/topic/elodea-canadensis/" class="link-secondary">Elodea Canadensis</a>,
+    
+    <a href="/topic/pat-kennelly/" class="link-secondary">Pat Kennelly</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

@@ -154,17 +154,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Introduction</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             7
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1994-11-11">1994</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Opens &#39;My Life with the Demon&#39; with a defence of moderate drinking against a century of wowserism, from six o&#39;clock closing to the .05 breathalyser limit, citing studies on the health benefits of a daily glass of wine.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="My Life With The Demon">
@@ -172,9 +181,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Opens &#39;My Life with the Demon&#39; with a defence of moderate drinking against a century of wowserism, from six o&#39;clock closing to the .05 breathalyser limit, citing studies on the health benefits of a daily glass of wine.
-      </p>-->
       <p>This book is about the Demon Drink. 'Demon'
 'Drink'...nice alliteration, they go together a little too easily don't they? That's because drink, or should we say, booze, has always suffered from terrible public relations. We hear all about the degradation, suffering, the lives it has destroyed. How about the 99.9 per cent of us to whom it has given infinite joy?</p>
 <p>The message that Drinking was a Sin began here back in the 1840s. In my lifetime it began with 6 o'clock closing. The wowsers agreed that Drink, spelled with a capital D, was the cause of all evil. Back in World War 1 the wowsers decided it was the Drink that was ruining our morale. There was only way to defeat the Kaiser, instead of having the hotels open until 11.30 pm, close them at 9.30 pm. The Kaiser remained undefeated, so in October 1916 we introduced six o'clock closing. We defeated the Kaiser but we kept hotels closed for 50 years.</p>
@@ -223,7 +229,10 @@ Continue to chapter one: <a href="/books/my-life-with-the-demon/1-the-early-demo
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -232,9 +241,13 @@ Continue to chapter one: <a href="/books/my-life-with-the-demon/1-the-early-demo
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Opens &#39;My Life with the Demon&#39; with a defence of moderate drinking against a century of wowserism, from six o&#39;clock closing to the .05 breathalyser limit, citing studies on the health benefits of a daily glass of wine.
       </p>
 <hr>
@@ -245,9 +258,24 @@ Continue to chapter one: <a href="/books/my-life-with-the-demon/1-the-early-demo
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

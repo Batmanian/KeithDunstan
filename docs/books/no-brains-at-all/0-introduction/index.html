@@ -157,17 +157,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Introduction</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1990-11-11">1990</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Explains why he finally wrote his autobiography after fifteen years of avoiding it, mourning the lost family histories of unrecorded ancestors and settling on a title from his old science teacher&#39;s verdict: &quot;You have no brains at all. But you do have guts.&quot;
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="No Brains At All">
@@ -175,9 +184,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Explains why he finally wrote his autobiography after fifteen years of avoiding it, mourning the lost family histories of unrecorded ancestors and settling on a title from his old science teacher&#39;s verdict: &quot;You have no brains at all. But you do have guts.&quot;
-      </p>-->
       <p>Doing this is like sitting naked in the bath while a television crew films you for the 'Today' show. A dreadful experience. So why do it? Vanity? It is an act of vanity, yes. But I must put in a plea of guilty with extenuating circumstances.</p>
 <p>Heaven knows how many times I have thought about my great-grandfather John Dunstan, a tin miner who was born in Penryn, Cornwall, in 1833. He arrived in Adelaide with his wife, Nanny Collins, on 20 August 1854 aboard the William Prowse, and from there they proceeded overland to Ballarat. Almost certainly John Dunstan would have been at Eureka, but I know nothing of his life, not a thing about that huge adventure of leaving home for ever, sailing out to the new colonies, establishing a life at the diggings. Was he filled with fury over the injustices he found in the young colony? Did he and young Nanny have their triumphs? Did they turn up any gold? Who knows? There are no diaries, no letters. All gone.</p>
 <p>Or what about another great-grandfather, Henry Mitchell, a miner also? He came from Brunswick, Germany, in 1855. In 1861 he married Harriet Ann Andrews of Portreath, Cornwall, at Brown's Diggings on 3 March. What a fascinating occasion that must have been. But I know practically nothing about them except that Great-grandfather Mitchell died young. Just ten years after his arrival in Australia he was riding from Scarsdale to Smythesdale near Ballarat when a dog frightened his horse. The Ballarat Star of 10 January 1885 described it as a 'yelping cur'. Henry fell, suffered a kick from his horse and died. How did Harriet Ann and their two children survive after that If only Harriet Ann had written something down.</p>
@@ -198,7 +204,10 @@ There is something in that. Even if it does not require superior brain, just pos
 Continue to chapter one: <a href="/books/no-brains-at-all/1-a-nice-suburb/">A nice suburb</a>
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -207,9 +216,13 @@ Continue to chapter one: <a href="/books/no-brains-at-all/1-a-nice-suburb/">A ni
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Explains why he finally wrote his autobiography after fifteen years of avoiding it, mourning the lost family histories of unrecorded ancestors and settling on a title from his old science teacher&#39;s verdict: &quot;You have no brains at all. But you do have guts.&quot;
       </p>
 <hr>
@@ -226,9 +239,30 @@ Continue to chapter one: <a href="/books/no-brains-at-all/1-a-nice-suburb/">A ni
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/autobiography/" class="link-secondary">Autobiography</a>,
+    
+    <a href="/topic/cornwall/" class="link-secondary">Cornwall</a>,
+    
+    <a href="/topic/brunswick-germany/" class="link-secondary">Brunswick - Germany</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

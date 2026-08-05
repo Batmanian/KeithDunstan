@@ -169,17 +169,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Wowser</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             20
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1968-11-11">1968</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Traces the word &quot;wowser&quot; from John Norton&#39;s boastful 1899 claim to have coined it, through Mencken&#39;s definition, to the Methodist-driven puritanism that made Victoria and South Australia the nation&#39;s primmest states.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Wowsers">
@@ -187,9 +196,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Traces the word &quot;wowser&quot; from John Norton&#39;s boastful 1899 claim to have coined it, through Mencken&#39;s definition, to the Methodist-driven puritanism that made Victoria and South Australia the nation&#39;s primmest states.
-      </p>-->
       <p>Wowser is a beautiful word. For sheer coarseness and devastating power in attack we have 'bludger', for a neat exercise in deflation or the destruction of pomposity, we have the line, 'don't come the raw prawn'; but surely the richest, most gloriously expressive of all Australian words is 'Wowser'.</p>
 <p>Even to the stranger who has never heard the word before, somehow it tells a story almost depicting - well - a wowser. Australia still has squadrons, battalions and divisions of wowsers, they promenade in our newspapers every day, and we still need the word very much indeed, but it had its heyday during the agonies of puritanism before and during the First World War. The wowser was depicted in hundreds of cartoons, usually as a man with a beard, small fat hat and possibly a gimlet. The gimlet, of course, was for boring holes and spying on the dreadful deeds of others. The <em>Bulletin</em> of 1912 described him thus: <a href="#1"><sup>1</sup></a></p>
 <blockquote>
@@ -501,7 +507,10 @@ Victoria).</a></li></ol>
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -510,9 +519,13 @@ Victoria).</a></li></ol>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Traces the word &quot;wowser&quot; from John Norton&#39;s boastful 1899 claim to have coined it, through Mencken&#39;s definition, to the Methodist-driven puritanism that made Victoria and South Australia the nation&#39;s primmest states.
       </p>
 <hr>
@@ -553,9 +566,54 @@ Victoria).</a></li></ol>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/the-bulletin/" class="link-secondary">The Bulletin</a>,
+    
+    <a href="/topic/james-mirams/" class="link-secondary">James Mirams</a>,
+    
+    <a href="/topic/cyril-pearl/" class="link-secondary">Cyril Pearl</a>,
+    
+    <a href="/topic/geoffrey-serle/" class="link-secondary">Geoffrey Serle</a>,
+    
+    <a href="/topic/sidney-j.-baker/" class="link-secondary">Sidney J. Baker</a>,
+    
+    <a href="/topic/john-norton/" class="link-secondary">John Norton</a>,
+    
+    <a href="/topic/william-artnhur-holman/" class="link-secondary">William Artnhur Holman</a>,
+    
+    <a href="/topic/henry-louis-mencken/" class="link-secondary">Henry Louis Mencken</a>,
+    
+    <a href="/topic/the-christian-colonist/" class="link-secondary">The Christian Colonist</a>,
+    
+    <a href="/topic/douglas-pike/" class="link-secondary">Douglas Pike</a>,
+    
+    <a href="/topic/(dean)-hussey-burgh-macartney/" class="link-secondary">(Dean) Hussey Burgh Macartney</a>,
+    
+    <a href="/topic/(bishop)-charles-perry/" class="link-secondary">(Bishop) Charles Perry</a>,
+    
+    <a href="/topic/thistle-anderson-(mrs-herbert-fisher)/" class="link-secondary">Thistle Anderson (Mrs Herbert Fisher)</a>,
+    
+    <a href="/topic/cardinal-patrick-francis-moran/" class="link-secondary">Cardinal Patrick Francis Moran</a>,
+    
+    <a href="/topic/reverend-bishop-ian-shevill/" class="link-secondary">Reverend Bishop Ian Shevill</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

@@ -187,17 +187,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">The Evil Desecration of the Sabbath</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             28
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1968-11-11">1968</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Charts the century-long Sabbatarian campaign to keep Melbourne silent on Sundays, from the riotous 1883 row over opening the National Gallery, and its nude scandal painting Chloe, to the 1968 bill that finally ended it.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Wowsers">
@@ -205,9 +214,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Charts the century-long Sabbatarian campaign to keep Melbourne silent on Sundays, from the riotous 1883 row over opening the National Gallery, and its nude scandal painting Chloe, to the 1968 bill that finally ended it.
-      </p>-->
       <p>The purity of the Sabbath Day was always a fine Anglican custom, it was a fine Scottish custom, but incredibly it also thrived in the so-called lusty, free and casy colonies of Australia and New Zealand. Yet of all colonial cities it thrived best in Melbourne. After all, Melbourne rather felt that it had a superior moral tone to other places, and even as late as 1965 the city on Sundays had a certain splendid solemnity about it.</p>
 <p>The Melbourne Sunday was world famous, a tourist attraction really, like trams and 6 o'clock closing. Where else on earth, with the possible exception of Adelaide, could one find a city where absolutely nothing happened, where the biggest excitement among the citizens on a Sunday was to go either to the Botanic Gardens or to Essendon Airport; an alternative of gazing in composed decorum at the swans or in composed decorum at the Boeing 727s.</p>
 <p>The late Brian Fitzpatrick once said that the Melbourne Sunday had a tranquillity, a pure beauty, why, it was a work of art like the Winged Victory of Samothrace, the Two Minutes' Silence, or La Giaconda.<a href="#1"><sup>1</sup></a></p>
@@ -434,7 +440,10 @@ of Melbourne).</li>
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -443,9 +452,13 @@ of Melbourne).</li>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Charts the century-long Sabbatarian campaign to keep Melbourne silent on Sundays, from the riotous 1883 row over opening the National Gallery, and its nude scandal painting Chloe, to the 1968 bill that finally ended it.
       </p>
 <hr>
@@ -522,9 +535,90 @@ of Melbourne).</li>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/brian-fitzpatrick/" class="link-secondary">Brian Fitzpatrick</a>,
+    
+    <a href="/topic/william-kelly/" class="link-secondary">William Kelly</a>,
+    
+    <a href="/topic/john-norton/" class="link-secondary">John Norton</a>,
+    
+    <a href="/topic/dr-fb-barry-smith/" class="link-secondary">Dr FB Barry Smith</a>,
+    
+    <a href="/topic/rev-dr-adam-cairns/" class="link-secondary">Rev Dr Adam Cairns</a>,
+    
+    <a href="/topic/rev-john-sutton/" class="link-secondary">Rev John Sutton</a>,
+    
+    <a href="/topic/rev-m-mackay/" class="link-secondary">Rev M Mackay</a>,
+    
+    <a href="/topic/rev-bishop-samuel-thornton/" class="link-secondary">Rev Bishop Samuel Thornton</a>,
+    
+    <a href="/topic/sir-george-ferguson-bowen/" class="link-secondary">Sir George Ferguson Bowen</a>,
+    
+    <a href="/topic/rev-jc-symons/" class="link-secondary">Rev JC Symons</a>,
+    
+    <a href="/topic/james-goodall-francis/" class="link-secondary">James Goodall Francis</a>,
+    
+    <a href="/topic/charles-henry-pearson/" class="link-secondary">Charles Henry Pearson</a>,
+    
+    <a href="/topic/frederick-hadkinson-bromley/" class="link-secondary">Frederick Hadkinson Bromley</a>,
+    
+    <a href="/topic/rev.-charles-strong/" class="link-secondary">Rev. Charles Strong</a>,
+    
+    <a href="/topic/jules-joseph-lefebvre/" class="link-secondary">Jules Joseph Lefebvre</a>,
+    
+    <a href="/topic/george-moore/" class="link-secondary">George Moore</a>,
+    
+    <a href="/topic/anatole-de-courde-de-montaiglon/" class="link-secondary">Anatole de Courde de Montaiglon</a>,
+    
+    <a href="/topic/dr-thomas-fitzgerald/" class="link-secondary">Dr Thomas Fitzgerald</a>,
+    
+    <a href="/topic/john-russell/" class="link-secondary">John Russell</a>,
+    
+    <a href="/topic/thomas-trood/" class="link-secondary">Thomas Trood</a>,
+    
+    <a href="/topic/frederick-mccubbin/" class="link-secondary">Frederick McCubbin</a>,
+    
+    <a href="/topic/louis-abrahams/" class="link-secondary">Louis Abrahams</a>,
+    
+    <a href="/topic/thomas-humphrey/" class="link-secondary">Thomas Humphrey</a>,
+    
+    <a href="/topic/alexander-colquhoun/" class="link-secondary">Alexander Colquhoun</a>,
+    
+    <a href="/topic/rev-f-w-fitchett/" class="link-secondary">Rev F W Fitchett</a>,
+    
+    <a href="/topic/william-shiels/" class="link-secondary">William Shiels</a>,
+    
+    <a href="/topic/john-munro-bruce/" class="link-secondary">John Munro Bruce</a>,
+    
+    <a href="/topic/sir-henry-wrixon/" class="link-secondary">Sir Henry Wrixon</a>,
+    
+    <a href="/topic/louis-lawrence-smith/" class="link-secondary">Louis Lawrence Smith</a>,
+    
+    <a href="/topic/james-balfour/" class="link-secondary">James Balfour</a>,
+    
+    <a href="/topic/sir-robert-menzies/" class="link-secondary">Sir Robert Menzies</a>,
+    
+    <a href="/topic/rev-sir-irving-benson/" class="link-secondary">Rev Sir Irving Benson</a>,
+    
+    <a href="/topic/sir-arthur-gordon-rylah/" class="link-secondary">Sir Arthur Gordon Rylah</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

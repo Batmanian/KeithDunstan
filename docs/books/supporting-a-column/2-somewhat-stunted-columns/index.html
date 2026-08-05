@@ -181,17 +181,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Somewhat stunted columns</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             41
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1966-11-11">1966</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A tour of Keith&#39;s stunt-column years, seconding a wrestler against Primo Carnera, singing silently in the Lohengrin chorus, running a Chinese parade dragon&#39;s tail, and breaking his hand skiing on nylon matting in the Domain.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Supporting A Column">
@@ -199,9 +208,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A tour of Keith&#39;s stunt-column years, seconding a wrestler against Primo Carnera, singing silently in the Lohengrin chorus, running a Chinese parade dragon&#39;s tail, and breaking his hand skiing on nylon matting in the Domain.
-      </p>-->
       <p>THERE'S nothing very new in writing stunt columns. There's a columnist in Hawaii who specializes in the most daring of adventures. One day he accused the women of Honolulu of being lazy, of having little to do. The response was satisfactorily devastating, and, if I remember correctly, one mother invited him to take over her menage for twenty-four hours, while she moved out to a hotel. She left behind her ten children. This Hawaii columnist found plenty of material for his column that day.</p>
 <p>The stunt column has the beautiful advantage in that one is right inside the story, taking part. There is no second-hand information, it is all first hand, it makes for much more lively copy. So over the years I have performed as a second at the wrestling, as an extra in grand opera, as Father Christmas at a city store, led a recalcitrant Santa Gertrudis bull around the arena at the Show, been blasted off an aircraft carrier by steam catapult, been frightened in racing cars and galloped in the tail of a Chinese dragon.</p>
 <p>The night at the wrestling was most educational. You see, Primo Carnera, 6 ft 6 in., 21 stone, former heavyweight boxing champion of the world, now wrestler, was in town. He turned out to be a gentle character with a nice sense of humour, but as a man to see he was awe-inspiring. His hands were twice the size of a dinner plate and when he spoke his voice sounded as if it came from the bottom of a keg. At his hotel a room clerk looked at him open-mouthed, as if suddenly he had spotted a gorilla.</p>
@@ -355,7 +361,10 @@ Melbourne Domain on a pleasant autumn morning in a temperature of just on ninety
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -364,9 +373,13 @@ Melbourne Domain on a pleasant autumn morning in a temperature of just on ninety
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A tour of Keith&#39;s stunt-column years, seconding a wrestler against Primo Carnera, singing silently in the Lohengrin chorus, running a Chinese parade dragon&#39;s tail, and breaking his hand skiing on nylon matting in the Domain.
       </p>
 <hr>
@@ -431,9 +444,78 @@ Melbourne Domain on a pleasant autumn morning in a temperature of just on ninety
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/primo-carnera/" class="link-secondary">Primo Carnera</a>,
+    
+    <a href="/topic/stanley-kowalski/" class="link-secondary">Stanley Kowalski</a>,
+    
+    <a href="/topic/alan-holmes-bonnie-muir/" class="link-secondary">Alan Holmes Bonnie Muir</a>,
+    
+    <a href="/topic/tennis/" class="link-secondary">Tennis</a>,
+    
+    <a href="/topic/kooyong/" class="link-secondary">Kooyong</a>,
+    
+    <a href="/topic/wrestling/" class="link-secondary">Wrestling</a>,
+    
+    <a href="/topic/frank-doczy/" class="link-secondary">Frank Doczy</a>,
+    
+    <a href="/topic/alex-olmedo/" class="link-secondary">Alex Olmedo</a>,
+    
+    <a href="/topic/frank-sedgman/" class="link-secondary">Frank Sedgman</a>,
+    
+    <a href="/topic/lew-hoad/" class="link-secondary">Lew Hoad</a>,
+    
+    <a href="/topic/pancho-segura/" class="link-secondary">Pancho Segura</a>,
+    
+    <a href="/topic/stefan-haag/" class="link-secondary">Stefan Haag</a>,
+    
+    <a href="/topic/elizabethan-theatre-trust/" class="link-secondary">Elizabethan Theatre Trust</a>,
+    
+    <a href="/topic/her-majestys-theatre/" class="link-secondary">Her Majestys Theatre</a>,
+    
+    <a href="/topic/victorian-symphony-orchestra/" class="link-secondary">Victorian Symphony Orchestra</a>,
+    
+    <a href="/topic/eric-clapham/" class="link-secondary">Eric Clapham</a>,
+    
+    <a href="/topic/ronald-dowd/" class="link-secondary">Ronald Dowd</a>,
+    
+    <a href="/topic/elizabeth-west/" class="link-secondary">Elizabeth West</a>,
+    
+    <a href="/topic/montsalvat/" class="link-secondary">Montsalvat</a>,
+    
+    <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+    
+    <a href="/topic/melbourne-trams/" class="link-secondary">Melbourne Trams</a>,
+    
+    <a href="/topic/frank-chin/" class="link-secondary">Frank Chin</a>,
+    
+    <a href="/topic/christine-borge/" class="link-secondary">Christine Borge</a>,
+    
+    <a href="/topic/jean-shrimpton/" class="link-secondary">Jean Shrimpton</a>,
+    
+    <a href="/topic/hilton-nicholas/" class="link-secondary">Hilton Nicholas</a>,
+    
+    <a href="/topic/paddy-hopkirk/" class="link-secondary">Paddy Hopkirk</a>,
+    
+    <a href="/topic/bruce-bretherton/" class="link-secondary">Bruce Bretherton</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

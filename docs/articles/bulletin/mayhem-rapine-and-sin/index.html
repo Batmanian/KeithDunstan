@@ -160,17 +160,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Mayhem, Rapine and Sin</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             5
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1963-02-09">09 Feb 1963</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A gleeful account of radio station 3UZ&#39;s Sunday-morning &quot;Newsbeat&quot; bulletin, which thrusts a microphone in front of car-crash victims and brawl survivors moments after the police and ambulance arrive, delivering Melbourne its weekly dose of actionable gossip that the once-lurid Truth newspaper no longer supplies.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -178,9 +187,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A gleeful account of radio station 3UZ&#39;s Sunday-morning &quot;Newsbeat&quot; bulletin, which thrusts a microphone in front of car-crash victims and brawl survivors moments after the police and ambulance arrive, delivering Melbourne its weekly dose of actionable gossip that the once-lurid Truth newspaper no longer supplies.
-      </p>-->
       <p>Since &quot;Truth&quot; newspaper became anaemic and devoted itself to tiresome TV gossip, life has been awfully dull in Melbourne. One of the pleasures of the week-end was to lie in bed, read &quot;Truth&quot; and cluck one's teeth in horror over the week's blood, mayhem, rapine and sin. However, all is not lost. It is still possible to get a nice fill of blood from the radio.</p>
 <p>Once upon a time radio was restful on Sunday mornings. You would get hymns, organ music, wholesome church services, and commercial stations would go so far as to play classical music. Now at 9.30 a.m., after a warm-up with the Top 40, 3UZ gives us &quot;Newsbeat&quot; and repeats it again at 12.30. Newsbeat is adored out in the suburbs and there's no doubt it rules the waves on Sunday mornings.</p>
 <p>How does Newsbeat work? Like this. Should you have the misfortune to be in a violent smash the chances are that very quickly you will have the company of the tow-truck gentleman, the police, the ambulance, the Newsbeat microphone and, with a bit of luck, a TV cameraman, not necessarily in that order. It must be admitted that the Newsbeat man is very fast out of the blocks and sometimes he gets there first.</p>
@@ -216,7 +222,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -225,9 +234,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A gleeful account of radio station 3UZ&#39;s Sunday-morning &quot;Newsbeat&quot; bulletin, which thrusts a microphone in front of car-crash victims and brawl survivors moments after the police and ambulance arrive, delivering Melbourne its weekly dose of actionable gossip that the once-lurid Truth newspaper no longer supplies.
       </p>
 <hr>
@@ -250,9 +263,36 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/3uz/" class="link-secondary">3UZ</a>,
+    
+    <a href="/topic/carlton/" class="link-secondary">Carlton</a>,
+    
+    <a href="/topic/fitzroy/" class="link-secondary">Fitzroy</a>,
+    
+    <a href="/topic/john-ford/" class="link-secondary">John Ford</a>,
+    
+    <a href="/topic/newsbeat/" class="link-secondary">Newsbeat</a>,
+    
+    <a href="/topic/truth-newspaper/" class="link-secondary">Truth newspaper</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

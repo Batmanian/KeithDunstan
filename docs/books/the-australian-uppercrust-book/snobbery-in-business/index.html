@@ -184,17 +184,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Snobbery in business</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             19
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1971-11-11">1971</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A tongue-in-cheek field guide to corporate status symbols, office partition heights, car escalation from Falcon to Mercedes, and the right jargon, for climbing the snobbery ladder of Australian business.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Australian Uppercrust Book">
@@ -202,9 +211,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A tongue-in-cheek field guide to corporate status symbols, office partition heights, car escalation from Falcon to Mercedes, and the right jargon, for climbing the snobbery ladder of Australian business.
-      </p>-->
       <p>My favourite example of snobbery always used to be not Commander Whitehead RN, who was splendidly bearded, who always travelled in a Rolls-Royce, who always had a uniformed chauffeur to carry about his boxes of Schweppes, it was the Man in the Hathaway Shirt.</p>
 <p>Now the man in the Hathaway Shirt was even better looking than Commander Whitehead, and he had the superb gimmick of a black eye patch. Why the black eye patch gave him a touch of superiority, it is hard to say. Just believe me that it did. The Man in the Hathaway Shirt, apart from appearing in the most beautiful shirts, in all the best magazines, was always photographed doing refined things. One issue he would be busily occupied with his butterfly collection, in another he would be inspecting his Purdey guns, in another he would be preparing for a chukker of polo. We tried to copy him in Australia, but how ineffectual we were. One always felt there was something slightly common about our local black eye patch man.</p>
 <p>Whitehead and Hathaway were good, but here in Australia eventually we outdid both of them, and this perhaps, is the most charming example of snobbery in business for it made snobs of us all. Back in the old days we used to get our Benson &amp; Hedges, unfiltered, imported from England in red tins. In 1962 they came in a gold pack with the slogan 'The packet's gold, the pleasure is priceless.' The theory was that BOAC provided the Benson &amp; Hedges gold pack cigarettes on their luxury international flights. They were so exclusive people would even fly the Atlantic to get them.</p>
@@ -283,7 +289,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -292,9 +301,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A tongue-in-cheek field guide to corporate status symbols, office partition heights, car escalation from Falcon to Mercedes, and the right jargon, for climbing the snobbery ladder of Australian business.
       </p>
 <hr>
@@ -365,9 +378,84 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/albert-tucker/" class="link-secondary">Albert Tucker</a>,
+    
+    <a href="/topic/arthur-boyd/" class="link-secondary">Arthur Boyd</a>,
+    
+    <a href="/topic/benson-and-hedges-cigarettes/" class="link-secondary">Benson &amp; Hedges cigarettes</a>,
+    
+    <a href="/topic/billy-mackie-snedden/" class="link-secondary">Billy Mackie Snedden</a>,
+    
+    <a href="/topic/british-overseas-airways-corporation-boac/" class="link-secondary">British Overseas Airways Corporation - BOAC</a>,
+    
+    <a href="/topic/charlie-brown-comic-strip/" class="link-secondary">Charlie Brown comic strip</a>,
+    
+    <a href="/topic/chiang-kai-shek/" class="link-secondary">Chiang Kai-shek</a>,
+    
+    <a href="/topic/clement-meadmore/" class="link-secondary">Clement Meadmore</a>,
+    
+    <a href="/topic/commander-of-the-british-empire-cbe/" class="link-secondary">Commander of the British Empire - CBE</a>,
+    
+    <a href="/topic/commander-whitehead-rn/" class="link-secondary">Commander Whitehead RN</a>,
+    
+    <a href="/topic/eero-saarinen/" class="link-secondary">Eero Saarinen</a>,
+    
+    <a href="/topic/elizabeth-riddell/" class="link-secondary">Elizabeth Riddell</a>,
+    
+    <a href="/topic/frank-eidliz/" class="link-secondary">Frank Eidliz</a>,
+    
+    <a href="/topic/frank-lloyd-wright/" class="link-secondary">Frank Lloyd Wright</a>,
+    
+    <a href="/topic/general-agreement-on-tariffs-and-trade-gatt/" class="link-secondary">General Agreement on Tariffs and Trade - GATT</a>,
+    
+    <a href="/topic/ian-fleming/" class="link-secondary">Ian Fleming</a>,
+    
+    <a href="/topic/james-bond/" class="link-secondary">James Bond</a>,
+    
+    <a href="/topic/john-blackman/" class="link-secondary">John Blackman</a>,
+    
+    <a href="/topic/john-perceval/" class="link-secondary">John Perceval</a>,
+    
+    <a href="/topic/josef-stanislaw-ostoja-kotkowski/" class="link-secondary">Josef Stanislaw Ostoja-Kotkowski</a>,
+    
+    <a href="/topic/marshall-mcluhan/" class="link-secondary">Marshall McLuhan</a>,
+    
+    <a href="/topic/norma-redpath/" class="link-secondary">Norma Redpath</a>,
+    
+    <a href="/topic/schulim-krimper/" class="link-secondary">Schulim Krimper</a>,
+    
+    <a href="/topic/sidney-nolan/" class="link-secondary">Sidney Nolan</a>,
+    
+    <a href="/topic/sir-ian-potter/" class="link-secondary">Sir Ian Potter</a>,
+    
+    <a href="/topic/social-clubs/" class="link-secondary">Social clubs</a>,
+    
+    <a href="/topic/stuart-wagstaff/" class="link-secondary">Stuart Wagstaff</a>,
+    
+    <a href="/topic/tobacco/" class="link-secondary">Tobacco</a>,
+    
+    <a href="/topic/w.d-and-h.o.-wills/" class="link-secondary">W.D &amp; H.O. Wills</a>,
+    
+    <a href="/topic/who&#39;s-who-in-australia/" class="link-secondary">Who&#39;s Who in Australia</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

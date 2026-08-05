@@ -160,17 +160,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">When Flappers Fluttered Through the Flames’</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             5
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1964-03-14">14 Mar 1964</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            On the belated Melbourne opening of &quot;Cleopatra,&quot; at the old Lyceum cinema renamed for the occasion, digging up its history back to 1915 as the Paramount and its era of silent-film sirens like Theda Bara.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -178,9 +187,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        On the belated Melbourne opening of &quot;Cleopatra,&quot; at the old Lyceum cinema renamed for the occasion, digging up its history back to 1915 as the Paramount and its era of silent-film sirens like Theda Bara.
-      </p>-->
       <p>Could one ask for your forbearance?  By now it must be all too obvious that I have an insufferable passion for old movie houses.  The gush you are about to receive was caused by the advent of ‘Cleopatra.’</p>
 <p>You must understand that Melbourne was nearly the last city in the world to get ‘Cleopatra.’  We looked in craven envy when Sydney got ‘Cleopatra’ way back on December 5. Rumours seeped through to us how you had the largest hand-painted ‘Cleopatra’ poster outside Times Square in New York - a magnificent 78 feet by 26 feet.  The publicity people here told us that it was all done in small squares, which raised fearful problems.  When they completed it they found there was a line straight down Miss Taylor's bosom, with the result that they had to do several hundred square feet of bosom again.  Now her bosom has been adjusted and tested to keep out the weather for two years.</p>
 <p>Unfortunately, we did not get a poster of similar generous proportions, but we had an opening of the world's first Cleopatra Theatre.  This opening was attended by the Governor, Sir Rohan Delacombe, and Lady Delacombe, the Lord Mayor and Lady Mayoress, Cr and Mrs Curtis.  Many of us had hoped, seeing that this was the world's last grand opening, we might have had the presence of Mr Richard Burton and Miss Taylor, but we were consoled by the fact that they refused also to attend the world's first grand opening.</p>
@@ -199,7 +205,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -208,9 +217,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         On the belated Melbourne opening of &quot;Cleopatra,&quot; at the old Lyceum cinema renamed for the occasion, digging up its history back to 1915 as the Paramount and its era of silent-film sirens like Theda Bara.
       </p>
 <hr>
@@ -233,9 +246,36 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/elizabeth-taylor/" class="link-secondary">Elizabeth Taylor</a>,
+    
+    <a href="/topic/frank-thring-snr/" class="link-secondary">Frank Thring Snr</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/sir-george-tallis/" class="link-secondary">Sir George Tallis</a>,
+    
+    <a href="/topic/sir-leo-curtis/" class="link-secondary">Sir Leo Curtis</a>,
+    
+    <a href="/topic/sir-rohan-delacombe/" class="link-secondary">Sir Rohan Delacombe</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

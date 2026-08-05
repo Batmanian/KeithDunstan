@@ -168,17 +168,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Not Just a Beer-Up Club!</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-08-11">11 Aug 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Mourns the demolition of the historic Scotts Hotel as Melbourne&#39;s city pubs vanish one by one, then visits the newly formed Beer Appreciation Society of Australia conducting solemn blind tastings at the Kilkenny Inn.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -186,9 +195,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Mourns the demolition of the historic Scotts Hotel as Melbourne&#39;s city pubs vanish one by one, then visits the newly formed Beer Appreciation Society of Australia conducting solemn blind tastings at the Kilkenny Inn.
-      </p>-->
       <p>DEAR friends, the time has almost arrived to abandon Melbourne to the bankers and parking meters. The other day I stood in front of Scotts Hotel which was one of the few remaining oases at the ulcer end of Collins Street. Mr Whelan the wrecker, who has done so much more than the Temperance Society to get rid of hotels in our town, was in full cry. The Robbie Burns room was gone, the Edinburgh Room was a heap of rubble and, oh fellow drinkers, the iron ball was crashing its way into the public bar.</p>
 <p>Scotts was the oldest hotel in Melbourne. Back in 1837, when Melbourne was only two years old, it was called the Lamb Inn. The Melbourne Club, which came into being a few years later was just over the road. It had a reputation for outrageous skylarking behavior and The Lamb Inn was a favorite spot for club members. The Old Lamb was the headquarters for the famous duel between two club members, Mr Peter Snodgrass and Mr William Ryrie on January 1, 1840. After the duel was over everybody came back to the Lamb Inn and got plastered.</p>
 <p>Scotts over the years became an establishment of refinement and the nice people from the Western District invariably stayed there. When the licence ran out at the end of last year there was some sadness. Naturally people wanted to have something to remember the place by.</p>
@@ -219,7 +225,10 @@ Ellen and The School.</p>
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -228,9 +237,13 @@ Ellen and The School.</p>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Mourns the demolition of the historic Scotts Hotel as Melbourne&#39;s city pubs vanish one by one, then visits the newly formed Beer Appreciation Society of Australia conducting solemn blind tastings at the Kilkenny Inn.
       </p>
 <hr>
@@ -269,9 +282,52 @@ Ellen and The School.</p>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/australian-broadcasting-commission/" class="link-secondary">Australian Broadcasting Commission</a>,
+    
+    <a href="/topic/beer-appreciation-society-of-australia/" class="link-secondary">Beer Appreciation Society of Australia</a>,
+    
+    <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>,
+    
+    <a href="/topic/ellen-moore/" class="link-secondary">Ellen Moore</a>,
+    
+    <a href="/topic/hannan&#39;s-kalgoorlie-beer/" class="link-secondary">Hannan&#39;s Kalgoorlie Beer</a>,
+    
+    <a href="/topic/john-lonergan/" class="link-secondary">John Lonergan</a>,
+    
+    <a href="/topic/kilkenny-inn-hotel/" class="link-secondary">Kilkenny Inn Hotel</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/melbourne-club/" class="link-secondary">Melbourne Club</a>,
+    
+    <a href="/topic/menzies-hotel/" class="link-secondary">Menzies Hotel</a>,
+    
+    <a href="/topic/peter-snodgrass/" class="link-secondary">Peter Snodgrass</a>,
+    
+    <a href="/topic/scotts-hotel/" class="link-secondary">Scotts Hotel</a>,
+    
+    <a href="/topic/southern-cross-hotel/" class="link-secondary">Southern Cross Hotel</a>,
+    
+    <a href="/topic/william-ryrie/" class="link-secondary">William Ryrie</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

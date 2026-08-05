@@ -163,17 +163,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">King O&#39;Malley</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             26
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1980-11-11">1980</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Profile of King O&#39;Malley, the flamboyant American-born Federal MP whose fruit-cake oratory drove the founding of Canberra and the Commonwealth Bank, and who lived to 99 still defending his claim as the bank&#39;s true founder.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Ratbags">
@@ -181,9 +190,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Profile of King O&#39;Malley, the flamboyant American-born Federal MP whose fruit-cake oratory drove the founding of Canberra and the Commonwealth Bank, and who lived to 99 still defending his claim as the bank&#39;s true founder.
-      </p>-->
       <strong>T</strong>HE MOST MARVELLOUS thing about King O'Malley was his language. It was like old-fashioned Christmas cake, so loaded with rich ingredients there was no room left for flour. He would open a political meeting like this:<br><br>
 'Brothers, sisters, fellow Christians. I don't see any profiteers, racketeers, boodleiers, or gilt-spurred Brahma-pootra roosters in this meeting'.<br><br>
 In the O'Malley Christmas cake language good people were Brothers or Fellow Christians and the villains were roosters, pronounced with a sonorous rolling of the Rs- R-r-roosterrrrs.<br><br>
@@ -312,7 +318,10 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-28">28 Jul 2026</time>
         </footer>
       
@@ -321,9 +330,13 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Profile of King O&#39;Malley, the flamboyant American-born Federal MP whose fruit-cake oratory drove the founding of Canberra and the Commonwealth Bank, and who lived to 99 still defending his claim as the bank&#39;s true founder.
       </p>
 <hr>
@@ -352,9 +365,42 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/king-o&#39;malley/" class="link-secondary">King O&#39;Malley</a>,
+    
+    <a href="/topic/canberra/" class="link-secondary">Canberra</a>,
+    
+    <a href="/topic/commonwealth-bank/" class="link-secondary">Commonwealth Bank</a>,
+    
+    <a href="/topic/andrew-fisher/" class="link-secondary">Andrew Fisher</a>,
+    
+    <a href="/topic/william-morris-hughes/" class="link-secondary">William Morris Hughes</a>,
+    
+    <a href="/topic/tasmania/" class="link-secondary">Tasmania</a>,
+    
+    <a href="/topic/federal-parliament/" class="link-secondary">Federal Parliament</a>,
+    
+    <a href="/topic/torpedo-brigade/" class="link-secondary">Torpedo Brigade</a>,
+    
+    <a href="/topic/waterlily-rockbound-church/" class="link-secondary">Waterlily Rockbound Church</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-28">28 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

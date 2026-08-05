@@ -181,17 +181,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">APITS</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             42
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1990-11-11">1990</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            On taking over &quot;A Place in the Sun,&quot; the Sun News-Pictorial&#39;s daily column he would write for the next 27 years, transforming APITS from an inherited institution into his own voice.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="No Brains At All">
@@ -199,9 +208,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        On taking over &quot;A Place in the Sun,&quot; the Sun News-Pictorial&#39;s daily column he would write for the next 27 years, transforming APITS from an inherited institution into his own voice.
-      </p>-->
       <p>We returned to Melbourne with mixed feelings, although by now we were used to being uprooted and moved. It is the same whenever you leave any city, any house where you have been happy. In every move you die just a little. Melbourne in the 1950s and 1980s was a curious, inhibited city, suffering from an inferiority complex. It had never quite overcome the shock, the trauma of those terrible days in 1893 when the banks closed their doors and so-called Marvellous Melbourne went into depression. In the first half of the twentieth century its suburbs had sprawled outwards but, apart from the Manchester Unity building, the Hotel Australia and the illustrious picture palaces, there had been few new public buildings in the city itself. Furthermore, its politicians and its moral attitudes were still utterly Victorian.</p>
 <p>The Melbourne Sunday was world famous. Where else on earth, with the possible exception of Adelaide, could one find a city in which absolutely nothing happened on a Sunday, in which the biggest excitement was to go either to the Botanic Gardens or to Essendon Airport - an alternative of gazing in composed decorum at the swans or at the aeroplanes. Brian Fitzpatrick, the historian, wrote sardonically that the Melbourne Sunday had a tranquillity, a pure beauty. Why, it was a work of art, like the Winged Victory of Samothrace, the Two Minutes' Silence or La Gioconda! Our Winged Victory meant no sport, no movies, no theatre, no hotels, no human activity that would interfere with church going.</p>
 <p>It was a shock also to return to the agony of 6 o'clock closing. In Queensland the hotels closed at 10 p.m. and we couldn't help but notice the contrast. Melbourne was a city of drunks. Any night at 6.15 p.m. the scene was the same: ejected drunks vomiting in the gutter outside Young and Jackson's Hotel, opposite St Paul's Cathedral.</p>
@@ -339,7 +345,10 @@ its higher standard of living)</p>
 <hr> Continue to chapter eleven: <a href="/books/no-brains-at-all/11-the-antis/">The Antis</a></li>
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -348,9 +357,13 @@ its higher standard of living)</p>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         On taking over &quot;A Place in the Sun,&quot; the Sun News-Pictorial&#39;s daily column he would write for the next 27 years, transforming APITS from an inherited institution into his own voice.
       </p>
 <hr>
@@ -415,9 +428,78 @@ its higher standard of living)</p>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/6-oclock-swill/" class="link-secondary">6 Oclock swill</a>,
+    
+    <a href="/topic/allan-wilkie/" class="link-secondary">Allan Wilkie</a>,
+    
+    <a href="/topic/anti-football-league/" class="link-secondary">Anti-Football League</a>,
+    
+    <a href="/topic/brian-fitzpatrick/" class="link-secondary">Brian Fitzpatrick</a>,
+    
+    <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>,
+    
+    <a href="/topic/dame-nellie-melba/" class="link-secondary">Dame Nellie Melba</a>,
+    
+    <a href="/topic/douglas-wilkie/" class="link-secondary">Douglas Wilkie</a>,
+    
+    <a href="/topic/eastern-market/" class="link-secondary">Eastern Market</a>,
+    
+    <a href="/topic/ernie-sigley/" class="link-secondary">Ernie Sigley</a>,
+    
+    <a href="/topic/frank-daly/" class="link-secondary">Frank Daly</a>,
+    
+    <a href="/topic/young-and-jacksons-hotel/" class="link-secondary">Young and Jacksons Hotel</a>,
+    
+    <a href="/topic/j.-stewart-legge/" class="link-secondary">J. Stewart Legge</a>,
+    
+    <a href="/topic/jeff-hook/" class="link-secondary">Jeff Hook</a>,
+    
+    <a href="/topic/kooyong/" class="link-secondary">Kooyong</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/melbourne-architecture/" class="link-secondary">Melbourne Architecture</a>,
+    
+    <a href="/topic/melbourne-cup/" class="link-secondary">Melbourne Cup</a>,
+    
+    <a href="/topic/melbourne-heritage/" class="link-secondary">Melbourne Heritage</a>,
+    
+    <a href="/topic/melbourne-hotels/" class="link-secondary">Melbourne Hotels</a>,
+    
+    <a href="/topic/michael-davie/" class="link-secondary">Michael Davie</a>,
+    
+    <a href="/topic/noel-hawken/" class="link-secondary">Noel Hawken</a>,
+    
+    <a href="/topic/sir-keith-murdoch/" class="link-secondary">Sir Keith Murdoch</a>,
+    
+    <a href="/topic/south-yarra/" class="link-secondary">South Yarra</a>,
+    
+    <a href="/topic/sun-news-pictorial/" class="link-secondary">Sun News-Pictorial</a>,
+    
+    <a href="/topic/the-age/" class="link-secondary">The Age</a>,
+    
+    <a href="/topic/the-herald/" class="link-secondary">The Herald</a>,
+    
+    <a href="/topic/whelan-the-wrecker/" class="link-secondary">Whelan the Wrecker</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

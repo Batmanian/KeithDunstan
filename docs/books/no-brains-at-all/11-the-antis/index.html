@@ -168,17 +168,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">The Antis</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             27
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1990-11-11">1990</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Founds the Anti-Football League in his Sun column in 1967, giving football-weary Melburnians a small red square badge and, at last, permission to admit they didn&#39;t care about the game.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="No Brains At All">
@@ -186,9 +195,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Founds the Anti-Football League in his Sun column in 1967, giving football-weary Melburnians a small red square badge and, at last, permission to admit they didn&#39;t care about the game.
-      </p>-->
       <p>The great difficulty with the Anti Football League was getting people to believe that we were serious. The wife of a United States ambassador, Mrs Ed Clark, had the best line about Australia. She had the feeling she was living in a gymnasium, she said. Australians rarely seem to be beyond the sound of a bouncing ball. Almost since the first white settlement we have been obsessed with sport. As the nineteenth-century immigrants moved inland the first items they built in any town were the pub, the racetrack, the school and the church, often in that order.</p>
 <p>In the 1880s, 1870s and 1880s when our scullers, boxers and cricketers began to win international fame, these were the people we adored. Sporting heroes were our national gods, infinitely preferable to nation-builders, pioneers, inventors, politicians and scientists. Thinkers, writers and poets rated not at all.
 Henry Lawson in 'A Son of Southern Writers' wrote:
@@ -310,7 +316,10 @@ That meant I had to spend half the weekend making the darned thing. When finishe
 <hr> Continue to chapter twelve: <a href="/books/no-brains-at-all/12-jumping-the-generation-gap/">Jumping the generaton gap</a></li>
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -319,9 +328,13 @@ That meant I had to spend half the weekend making the darned thing. When finishe
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Founds the Anti-Football League in his Sun column in 1967, giving football-weary Melburnians a small red square badge and, at last, permission to admit they didn&#39;t care about the game.
       </p>
 <hr>
@@ -360,9 +373,52 @@ That meant I had to spend half the weekend making the darned thing. When finishe
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/anti-football-league/" class="link-secondary">Anti-Football League</a>,
+    
+    <a href="/topic/australian-rules-football/" class="link-secondary">Australian Rules Football</a>,
+    
+    <a href="/topic/barry-humphries/" class="link-secondary">Barry Humphries</a>,
+    
+    <a href="/topic/brownlow-medal/" class="link-secondary">Brownlow Medal</a>,
+    
+    <a href="/topic/bruce-matear/" class="link-secondary">Bruce Matear</a>,
+    
+    <a href="/topic/fred-goding/" class="link-secondary">Fred Goding</a>,
+    
+    <a href="/topic/jack-dyer/" class="link-secondary">Jack Dyer</a>,
+    
+    <a href="/topic/kate-bailleu/" class="link-secondary">Kate Bailleu</a>,
+    
+    <a href="/topic/lou-richards/" class="link-secondary">Lou Richards</a>,
+    
+    <a href="/topic/sir-kenneth-luke/" class="link-secondary">Sir Kenneth Luke</a>,
+    
+    <a href="/topic/sport/" class="link-secondary">Sport</a>,
+    
+    <a href="/topic/douglas-wilkie/" class="link-secondary">Douglas Wilkie</a>,
+    
+    <a href="/topic/sun-news-pictorial/" class="link-secondary">Sun News-Pictorial</a>,
+    
+    <a href="/topic/walter-odonoghue/" class="link-secondary">Walter ODonoghue</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

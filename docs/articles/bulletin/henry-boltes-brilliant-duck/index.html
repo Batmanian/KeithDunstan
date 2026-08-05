@@ -162,17 +162,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Henry Bolte&#39;s Brilliant Duck</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             4
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1963-01-12">12 Jan 1963</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Premier Henry Bolte stands in as a replacement batsman in a Centenary of International Cricket replay match at the MCG, kitted out in a garish spotted shirt and a learner&#39;s L-plate pinned to his back.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -180,9 +189,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Premier Henry Bolte stands in as a replacement batsman in a Centenary of International Cricket replay match at the MCG, kitted out in a garish spotted shirt and a learner&#39;s L-plate pinned to his back.
-      </p>-->
       <p>We are immensely proud of our Mr Henry Bolte. Our neighboring colonies of New South Wales and South Australia have never given him the sympathy that was his due, but after his performance at the Melbourne Cricket Ground I am sure they will see him in a different light.</p>
 <p>Originally the celebration of the Centenary of International Cricket was to be a vast affair. There was to have been a great parade through the streets of period vehicles with the teams arriving at the ground in Cobb and Co. coaches. There was even talk of a balloon ascent as in 1862.</p>
 <p>All this did not win great enthusiasm from the Board of Control. Sir Donald did not want anything to detract from the solemn progress of a Test. However there was the replay of the original match. Early the Melbourne Cricket Club announced that Harold Larwood would lead the All England Eleven and Bill Ponsford would lead the Melbourne and Districts Eighteen. The prospect of Larwood bowling under-arm was something for all to look forward to. However, Larwood turned down the invitation. He could not get away from his metal business shop in Sydney, and Frank Tyson took his place. Then at the last moment Bill Ponsford pulled out also.</p>
@@ -200,7 +206,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -209,9 +218,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Premier Henry Bolte stands in as a replacement batsman in a Centenary of International Cricket replay match at the MCG, kitted out in a garish spotted shirt and a learner&#39;s L-plate pinned to his back.
       </p>
 <hr>
@@ -238,9 +251,40 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/bill-ponsford/" class="link-secondary">Bill Ponsford</a>,
+    
+    <a href="/topic/donald-bradman/" class="link-secondary">Donald Bradman</a>,
+    
+    <a href="/topic/frank-tyson/" class="link-secondary">Frank Tyson</a>,
+    
+    <a href="/topic/harold-larwood/" class="link-secondary">Harold Larwood</a>,
+    
+    <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+    
+    <a href="/topic/jack-iverson/" class="link-secondary">Jack Iverson</a>,
+    
+    <a href="/topic/melbourne-cricket-club/" class="link-secondary">Melbourne Cricket Club</a>,
+    
+    <a href="/topic/melbourne-cricket-ground/" class="link-secondary">Melbourne Cricket Ground</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

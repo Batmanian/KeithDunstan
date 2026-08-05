@@ -175,17 +175,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Following a VC</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             34
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1990-11-11">1990</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            On growing up in the shadow of his father William Dunstan&#39;s Victoria Cross, won at Gallipoli&#39;s Lone Pine as a shy 20-year-old who fled photographers after his Parliament House investiture, as Australia entered the Second World War.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="No Brains At All">
@@ -193,9 +202,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        On growing up in the shadow of his father William Dunstan&#39;s Victoria Cross, won at Gallipoli&#39;s Lone Pine as a shy 20-year-old who fled photographers after his Parliament House investiture, as Australia entered the Second World War.
-      </p>-->
       <p>The Second World War brought with it a sense of obligation and duty that hung heavily, indeed. The Second World War was to us precisely like the First World War, a war between good and evil. Good was Great Britain, King George, the Queen and the unquestioned loyalty of the British Empire. Evil was the Kaiser, the terrible wickedness of Germans and, with the advent of the Second World War, Hitler and the Nazis and their aim to dominate the world. Not even faintly were there any shades of grey. The day the war was declared, 3 September 1939, I was on school holidays and we listened to the Prime Minister, Mr R. G. Menzies, intoning the news:</p>
 <p>&quot;It is my melancholy duty to inform you officially that, in consequence of the persistence by Germany in her invasion of Poland, Great Britain has declared war upon her, and that, as a result, Australia is also at war. No harder task can fall to the lot of a democratic leader than to make such an announcement ...&quot;</p>
 <p>There was no delay, no waiting period, we were not even consulted. R. G. Menzies, it seemed, wanted to be the very first to show the loyalty of the Empire. For Australia in another hemisphere, far from Europe's problems, it was purely black and white. We had to be there. I was fascinated. Almost from that moment I started a scrap book. I bought big Norman Brothers diaries from the stationer, and every day I cut out the war news from the Herald, the Sun, the Age and the Argus. On days when the news was insufficiently spectacular, I cut out diagrams and sketches showing intimate details of Royal Air Force aeroplanes, such as the Gloster Gladiator, the Fairey Battle and the new Hawker Hurricane. These scrap books I continued for nearly three years until I joined the Royal Australian Air Force.</p>
@@ -319,7 +325,10 @@ What had Dad been up to? I found out later. He had gone to his friend Air Commod
 Continue to chapter five: <a href="/books/no-brains-at-all/5-the-sprog/">The Sprog</a>
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -328,9 +337,13 @@ Continue to chapter five: <a href="/books/no-brains-at-all/5-the-sprog/">The Spr
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         On growing up in the shadow of his father William Dunstan&#39;s Victoria Cross, won at Gallipoli&#39;s Lone Pine as a shy 20-year-old who fled photographers after his Parliament House investiture, as Australia entered the Second World War.
       </p>
 <hr>
@@ -383,9 +396,66 @@ Continue to chapter five: <a href="/books/no-brains-at-all/5-the-sprog/">The Spr
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/24th-field-regiment/" class="link-secondary">2/4th Field Regiment</a>,
+    
+    <a href="/topic/7th-battalion/" class="link-secondary">7th Battalion</a>,
+    
+    <a href="/topic/anthony-eden/" class="link-secondary">Anthony Eden</a>,
+    
+    <a href="/topic/anzac-day/" class="link-secondary">Anzac Day</a>,
+    
+    <a href="/topic/ballarat/" class="link-secondary">Ballarat</a>,
+    
+    <a href="/topic/ben-chifley/" class="link-secondary">Ben Chifley</a>,
+    
+    <a href="/topic/bob-dalziel/" class="link-secondary">Bob Dalziel</a>,
+    
+    <a href="/topic/brian-johnstone/" class="link-secondary">Brian Johnstone</a>,
+    
+    <a href="/topic/dame-nellie-melba/" class="link-secondary">Dame Nellie Melba</a>,
+    
+    <a href="/topic/frank-beaurepaire/" class="link-secondary">Frank Beaurepaire</a>,
+    
+    <a href="/topic/frederick-scherger/" class="link-secondary">Frederick Scherger</a>,
+    
+    <a href="/topic/gos-lane/" class="link-secondary">Gos Lane</a>,
+    
+    <a href="/topic/norman-strang/" class="link-secondary">Norman Strang</a>,
+    
+    <a href="/topic/norman-mckinnell/" class="link-secondary">Norman McKinnell</a>,
+    
+    <a href="/topic/royal-australian-air-force/" class="link-secondary">Royal Australian Air Force</a>,
+    
+    <a href="/topic/second-world-war/" class="link-secondary">Second World War</a>,
+    
+    <a href="/topic/sir-george-foster-pearce/" class="link-secondary">Sir George Foster Pearce</a>,
+    
+    <a href="/topic/sir-robert-menzies/" class="link-secondary">Sir Robert Menzies</a>,
+    
+    <a href="/topic/social-clubs/" class="link-secondary">Social clubs</a>,
+    
+    <a href="/topic/st-george-hotel/" class="link-secondary">St George Hotel</a>,
+    
+    <a href="/topic/william-dunstan-vc/" class="link-secondary">William Dunstan VC</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

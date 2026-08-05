@@ -162,17 +162,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">From Prickly Pear to Petroleum</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             12
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1963-07-01">01 Jul 1963</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A visit to the Queensland oil boomtowns of Tara and Moonie, tracing the district&#39;s turn from a prickly-pear-choked backwater once known as &#39;The Lost Province&#39; into the birthplace of Australia&#39;s oil industry, and meeting the selection farmers whose land the oil was found under.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Walkabout Magazine">
@@ -180,9 +189,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A visit to the Queensland oil boomtowns of Tara and Moonie, tracing the district&#39;s turn from a prickly-pear-choked backwater once known as &#39;The Lost Province&#39; into the birthplace of Australia&#39;s oil industry, and meeting the selection farmers whose land the oil was found under.
-      </p>-->
       <p>The road from Tara to the Moonie oilfields was deserted. The sky was as black as the bonnet of the car, and already flashes of lightning were darting down to the earth. Wild life everywhere seemed to be on the alert. Two brolga birds moved gracefully between the trees. An emu came scudding along the fence, his tail wobbling from side to side like a T-model Ford flat out at 60.</p>
 <p>Then, lo! a large turtle appeared in the middle of the gravel. It was like steam giving way before sail. One had to pull up and wait for his majesty to waddle slowly across the road. Farther on there was a kangaroo beside the road. The storm would never worry him: he had been hit by a car, and he was dead.</p>
 <p>It was more than 50 miles from Tara to Moonie, and there was plenty of time to think of the strange change in fortunes that had come to the district. Tara is 200 miles west of Brisbane. By Queensland standards that is not very far west. In Quilpie or Thargomindah they would talk of it as up on the coast. Yet in the nineteen-twenties it was known as 'The Lost Province.'</p>
@@ -228,7 +234,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -237,9 +246,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A visit to the Queensland oil boomtowns of Tara and Moonie, tracing the district&#39;s turn from a prickly-pear-choked backwater once known as &#39;The Lost Province&#39; into the birthplace of Australia&#39;s oil industry, and meeting the selection farmers whose land the oil was found under.
       </p>
 <hr>
@@ -266,9 +279,40 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/boonarga/" class="link-secondary">Boonarga</a>,
+    
+    <a href="/topic/brisbane/" class="link-secondary">Brisbane</a>,
+    
+    <a href="/topic/buenos-aires/" class="link-secondary">Buenos Aires</a>,
+    
+    <a href="/topic/moonie/" class="link-secondary">Moonie</a>,
+    
+    <a href="/topic/queensland/" class="link-secondary">Queensland</a>,
+    
+    <a href="/topic/tara/" class="link-secondary">Tara</a>,
+    
+    <a href="/topic/toowoomba/" class="link-secondary">Toowoomba</a>,
+    
+    <a href="/topic/union-oil-corporation/" class="link-secondary">Union Oil Corporation</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

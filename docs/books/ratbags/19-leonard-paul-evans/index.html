@@ -164,17 +164,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Leonard Paul Evans</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             23
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1980-11-11">1980</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Profile of Len Evans, the ebullient Welsh-born wine judge, restaurateur and promoter who built the Australian Wine Bureau, the Rothbury Estate and a string of eccentric wine societies while transforming the nation&#39;s drinking habits.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Ratbags">
@@ -182,9 +191,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Profile of Len Evans, the ebullient Welsh-born wine judge, restaurateur and promoter who built the Australian Wine Bureau, the Rothbury Estate and a string of eccentric wine societies while transforming the nation&#39;s drinking habits.
-      </p>-->
       <strong>I</strong>N 1976 Len Evans listed his private dreams in <i>Cleo</i> Magazine. He made it clear that he would like to 'be a lot taller, a lot lighter, trim, taut and terrifically terpsichorean. I'd like to have an I.Q. of 200, be an authority on the sex habits of the Bolivian ant and an expert player of the 10-string guitar. I would like to be the head of the Welsh Society of Free Thinkers, a very small group indeed. My life would be a combination of the English country squire's week-end, the Algonquin Round Table luncheons and Slocum's first solo voyage. I'd love to open Parliament for Australia and close the Mouse Trap and I would give anything to be physically, mentally spiritually and emotionally equipped to star in Number 96. But then, if I did change myself in all these ways I am terrible afraid that I would lose my wonderful humility'.<br><br>
 Apart from these humble ambitions he is chief wine judge at the Sydney Show. His wine palate would have to rank among the first six in the country and he would certainly query the other five. He is a wine writer, a restaurateur, the chairman of one of Australia's biggest vineyards, a TV entertainer, a born talker and story teller. If you can raise $1000 for charity then he will talk to your club. He does forty such talks a year.<br><br>
 He is a collector of 18th and 17th century oak, he is a reasonable authority on old pewter and silver and he keeps draught horses. He has an ambition to run a draught horse stud. He is terribly impressed with draught horses. He is small, chunky, curly-haired and his weight flows between fifteen stone and twelve according to the ferocity of the threats of his doctors. He is likely to burst into song on festive occasions and there is much about him both visually and through downright ebullience that reminds one of Dylan Thomas. He has had his critics and opponents, but there is a formidable band who believe that he more than anyone else has changed the drinking habits of a nation. Back around 1966 on a trip home to Sydney he announced that he would make a million in ten years. Journalist Denis O'Brien queried him about this extraordinarily ambitious remark.<br><br>
@@ -316,7 +322,10 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-28">28 Jul 2026</time>
         </footer>
       
@@ -325,9 +334,13 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Profile of Len Evans, the ebullient Welsh-born wine judge, restaurateur and promoter who built the Australian Wine Bureau, the Rothbury Estate and a string of eccentric wine societies while transforming the nation&#39;s drinking habits.
       </p>
 <hr>
@@ -358,9 +371,44 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/len-evans/" class="link-secondary">Len Evans</a>,
+    
+    <a href="/topic/rothbury-estate/" class="link-secondary">Rothbury Estate</a>,
+    
+    <a href="/topic/hunter-valley/" class="link-secondary">Hunter Valley</a>,
+    
+    <a href="/topic/australian-wine-bureau/" class="link-secondary">Australian Wine Bureau</a>,
+    
+    <a href="/topic/max-lake/" class="link-secondary">Max Lake</a>,
+    
+    <a href="/topic/chevron-hilton-hotel/" class="link-secondary">Chevron Hilton Hotel</a>,
+    
+    <a href="/topic/bulletin-place/" class="link-secondary">Bulletin Place</a>,
+    
+    <a href="/topic/sydney/" class="link-secondary">Sydney</a>,
+    
+    <a href="/topic/options-club/" class="link-secondary">Options Club</a>,
+    
+    <a href="/topic/coonawarra/" class="link-secondary">Coonawarra</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-28">28 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

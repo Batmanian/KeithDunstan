@@ -162,17 +162,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Moombas and shakers</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             5
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1998-03-05">05 Mar 1998</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A profile of the Wittingslow family, the fairground dynasty who have run Moomba&#39;s rides and sideshows since patriarch Tom Wittingslow started out guessing weights at Penny Land in 1932, and who now stage the festival itself.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Age">
@@ -180,9 +189,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A profile of the Wittingslow family, the fairground dynasty who have run Moomba&#39;s rides and sideshows since patriarch Tom Wittingslow started out guessing weights at Penny Land in 1932, and who now stage the festival itself.
-      </p>-->
       <p>IS THERE a fair in the country not being run by the extraordinary Wittingslows?</p>
 <p>Not many. They go right round the nation; Moomba, Sydney Show, Brisbane Show, right up the coast to Cairns, back for the Melbourne Show. There was a time when they took a nice three-month holiday after the Sydney Show. Not any more. They are too busy with regional shows, festivals and entertainment in shopping centres.</p>
 <p>Now, the Wittingslows. There's Tom, the founder. Gregarious, charming, a wonderful storyteller. He's 84 and living on the Gold Coast. But don't for a moment think he's not here. He's on the blower all the time.</p>
@@ -207,7 +213,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -216,9 +225,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A profile of the Wittingslow family, the fairground dynasty who have run Moomba&#39;s rides and sideshows since patriarch Tom Wittingslow started out guessing weights at Penny Land in 1932, and who now stage the festival itself.
       </p>
 <hr>
@@ -245,9 +258,40 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/alexandra-gardens/" class="link-secondary">Alexandra Gardens</a>,
+    
+    <a href="/topic/australian-ballet/" class="link-secondary">Australian Ballet</a>,
+    
+    <a href="/topic/batman-avenue/" class="link-secondary">Batman Avenue</a>,
+    
+    <a href="/topic/federation-square/" class="link-secondary">Federation Square</a>,
+    
+    <a href="/topic/luna-park/" class="link-secondary">Luna Park</a>,
+    
+    <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+    
+    <a href="/topic/sidney-myer-music-bowl/" class="link-secondary">Sidney Myer Music Bowl</a>,
+    
+    <a href="/topic/wittingslow-family/" class="link-secondary">Wittingslow family</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

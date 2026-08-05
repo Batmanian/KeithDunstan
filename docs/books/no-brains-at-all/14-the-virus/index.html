@@ -171,17 +171,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">The virus</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             35
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1990-11-11">1990</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            From ghost-writing hangings and murders for radio&#39;s &quot;D24&quot; crime series to the giddy arrival of his first hardback book, &quot;The Paddock That Grew,&quot; in 1962, and a publisher who admitted he&#39;d never read one of his own titles.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="No Brains At All">
@@ -189,9 +198,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        From ghost-writing hangings and murders for radio&#39;s &quot;D24&quot; crime series to the giddy arrival of his first hardback book, &quot;The Paddock That Grew,&quot; in 1962, and a publisher who admitted he&#39;d never read one of his own titles.
-      </p>-->
       <p>Most journalists have a dream of writing something else, a film script, a play, a book, an item beyond daily news. Everything they write is ephemeral: news today, gone the next. So often as a columnist I received the message, 'Yes, I read your column, usually in the smallest room in the house'. The symbolism of that message did not go unnoticed.</p>
 <p>Then there was the other message, the dire warning made by Dad, 'There is no money in journalism'. My father's words about journalists being miserably underpaid were all too true. So in 1959 I started writing radio scripts for Crawford Productions.
 I began with worthy sagas about Australian achievement, then for nigh on five years I wrote scripts for the police series 'D24', which could almost be called the forerunner of television's 'Homicide'. Every week Dorothy Crawford sent me a synopsis of some murder or vile crime, taken from the police files. Crawfords believed it was important to improve the public image of the police, so the message of 'D24' was always that the police were decent, honest and ultimately triumphant. I turned each synopsis into a half-hour radio play, for which I received what even then did not seem a princely sum, 10 pounds a script.</p>
@@ -314,7 +320,10 @@ Kate replied, 'Come and see'.</p>
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -323,9 +332,13 @@ Kate replied, 'Come and see'.</p>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         From ghost-writing hangings and murders for radio&#39;s &quot;D24&quot; crime series to the giddy arrival of his first hardback book, &quot;The Paddock That Grew,&quot; in 1962, and a publisher who admitted he&#39;d never read one of his own titles.
       </p>
 <hr>
@@ -370,9 +383,58 @@ Kate replied, 'Come and see'.</p>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/barry-humphries/" class="link-secondary">Barry Humphries</a>,
+    
+    <a href="/topic/brian-breheny/" class="link-secondary">Brian Breheny</a>,
+    
+    <a href="/topic/crawford-productions/" class="link-secondary">Crawford Productions</a>,
+    
+    <a href="/topic/colin-bednall/" class="link-secondary">Colin Bednall</a>,
+    
+    <a href="/topic/d24/" class="link-secondary">D24</a>,
+    
+    <a href="/topic/hg-wells/" class="link-secondary">HG Wells</a>,
+    
+    <a href="/topic/gtv9/" class="link-secondary">GTV9</a>,
+    
+    <a href="/topic/los-angeles/" class="link-secondary">Los Angeles</a>,
+    
+    <a href="/topic/max-suich/" class="link-secondary">Max Suich</a>,
+    
+    <a href="/topic/melbourne-cricket-club/" class="link-secondary">Melbourne Cricket Club</a>,
+    
+    <a href="/topic/phillip-garrett/" class="link-secondary">Phillip Garrett</a>,
+    
+    <a href="/topic/squizzy-taylor/" class="link-secondary">Squizzy Taylor</a>,
+    
+    <a href="/topic/the-age/" class="link-secondary">The Age</a>,
+    
+    <a href="/topic/the-herald/" class="link-secondary">The Herald</a>,
+    
+    <a href="/topic/william-dunstan-vc/" class="link-secondary">William Dunstan VC</a>,
+    
+    <a href="/topic/wowsers/" class="link-secondary">Wowsers</a>,
+    
+    <a href="/topic/writing-for-television/" class="link-secondary">Writing for Television</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

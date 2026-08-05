@@ -162,17 +162,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Kevin Charles - Pro Hart</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             23
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1980-11-11">1980</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Profile of Pro Hart, the former Broken Hill miner turned Australia&#39;s top-selling naive painter, whose galvanised-iron gallery of bull ants, Picassos and junk-metal sculpture reflects a restless enthusiast for motorcycles, weightlifting, religion and giant ice sculptures alike.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Ratbags">
@@ -180,9 +189,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Profile of Pro Hart, the former Broken Hill miner turned Australia&#39;s top-selling naive painter, whose galvanised-iron gallery of bull ants, Picassos and junk-metal sculpture reflects a restless enthusiast for motorcycles, weightlifting, religion and giant ice sculptures alike.
-      </p>-->
       <strong>B</strong>ROKEN HILL is a mining city in the arid far west of New South Wales, 1125 kilometres from Sydney, 515 kilometres from Adelaide and just over 900 from Melbourne. It is an island, a civic island in the desert as isolated as a desert atoll. The umbilical cords to civilisation are long unbending strips of bitumen across a landscape that consists of red ochre sand, salt bush and stunted Mallee.<br><br>
 The Mallee grows in weird twisting shapes, always struggling for survival and its wispy leaves give no shade from the blinding sun. The population of Broken Hill is 30,000 but the sense of isolation and clanishness is intense. It is hardly the place one would expect to find Australia's top-selling artist.<br><br>
 Top-selling? Well, his sister Margaret says so. Pictures by Pro Hart rarely, if ever, go unsold. In 1978, all at the one time, he had exhibitions in Hong Kong, Grand Rapids Michigan and Sydney. He is a favorite with Prince Charles, Prince Philip bought three of his paintings at an exhibition in 1973 and Australia's union chief, Bob Hawke, is a fan. He bought a painting for $1100. Pro Hart is represented in most Australian galleries and he has had shows in New York, Los Angeles, London, Singapore and Tokyo.<br><br>
@@ -284,7 +290,10 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-28">28 Jul 2026</time>
         </footer>
       
@@ -293,9 +302,13 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Profile of Pro Hart, the former Broken Hill miner turned Australia&#39;s top-selling naive painter, whose galvanised-iron gallery of bull ants, Picassos and junk-metal sculpture reflects a restless enthusiast for motorcycles, weightlifting, religion and giant ice sculptures alike.
       </p>
 <hr>
@@ -322,9 +335,40 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/pro-hart/" class="link-secondary">Pro Hart</a>,
+    
+    <a href="/topic/broken-hill/" class="link-secondary">Broken Hill</a>,
+    
+    <a href="/topic/kym-bonython/" class="link-secondary">Kym Bonython</a>,
+    
+    <a href="/topic/larloona/" class="link-secondary">Larloona</a>,
+    
+    <a href="/topic/menindee/" class="link-secondary">Menindee</a>,
+    
+    <a href="/topic/christian-revival-crusade/" class="link-secondary">Christian Revival Crusade</a>,
+    
+    <a href="/topic/marist-brothers-college/" class="link-secondary">Marist Brothers College</a>,
+    
+    <a href="/topic/eugene-lumbers/" class="link-secondary">Eugene Lumbers</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-28">28 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

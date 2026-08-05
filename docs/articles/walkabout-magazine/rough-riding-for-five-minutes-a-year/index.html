@@ -169,17 +169,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Rough Riding for Five Minutes a Year</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             10
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-02-01">01 Feb 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Rides the outback rodeo circuit with Australia&#39;s professional rough-riders, from the Myrtleford Rodeo&#39;s untamed high-plains bulls to a wild-horse race that leaves one rider knocked cold and refusing all help.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Walkabout Magazine">
@@ -187,9 +196,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Rides the outback rodeo circuit with Australia&#39;s professional rough-riders, from the Myrtleford Rodeo&#39;s untamed high-plains bulls to a wild-horse race that leaves one rider knocked cold and refusing all help.
-      </p>-->
       <p>A young rough-rider leaned against the dogging chute at Myrtletord and made a rare admission:</p>
 <p><em>Never a week goes by when some part of me isn't sore.</em></p>
 <p><em>Then why do you do it?</em></p>
@@ -215,7 +221,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -224,9 +233,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Rides the outback rodeo circuit with Australia&#39;s professional rough-riders, from the Myrtleford Rodeo&#39;s untamed high-plains bulls to a wild-horse race that leaves one rider knocked cold and refusing all help.
       </p>
 <hr>
@@ -267,9 +280,54 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/bulldogging/" class="link-secondary">Bulldogging</a>,
+    
+    <a href="/topic/greg-russell/" class="link-secondary">Greg Russell</a>,
+    
+    <a href="/topic/ken-healy/" class="link-secondary">Ken Healy</a>,
+    
+    <a href="/topic/marrabel/" class="link-secondary">Marrabel</a>,
+    
+    <a href="/topic/max-hillier/" class="link-secondary">Max Hillier</a>,
+    
+    <a href="/topic/myrtletord/" class="link-secondary">Myrtletord</a>,
+    
+    <a href="/topic/peter-poole/" class="link-secondary">Peter Poole</a>,
+    
+    <a href="/topic/ricthie-fraser/" class="link-secondary">Ricthie Fraser</a>,
+    
+    <a href="/topic/rockhampton/" class="link-secondary">Rockhampton</a>,
+    
+    <a href="/topic/rocky-round-up/" class="link-secondary">Rocky Round-up</a>,
+    
+    <a href="/topic/rodeo/" class="link-secondary">Rodeo</a>,
+    
+    <a href="/topic/the-merry-muster/" class="link-secondary">The Merry Muster</a>,
+    
+    <a href="/topic/the-rough-riders-association/" class="link-secondary">The Rough Riders Association</a>,
+    
+    <a href="/topic/tommy-cannon/" class="link-secondary">Tommy Cannon</a>,
+    
+    <a href="/topic/walgett/" class="link-secondary">Walgett</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

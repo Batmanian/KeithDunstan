@@ -167,17 +167,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">£500 Is a Poodle</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-08-25">25 Aug 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            The three-day, city-wide hunt for Heloise, a runaway pedigree poodle worth £500 sent from Adelaide for breeding, complete with a police search, a &quot;poodle posse,&quot; and a televised on-air appeal.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -185,9 +194,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        The three-day, city-wide hunt for Heloise, a runaway pedigree poodle worth £500 sent from Adelaide for breeding, complete with a police search, a &quot;poodle posse,&quot; and a televised on-air appeal.
-      </p>-->
       <p>ALL those in the newspaper, radio and television industry suffer from the same agonising problems. They have to cope with the untold thousands who lose track of their pets. For example, it is obvious that on any one day 75 per cent. of the dogs, cats and budgies in Melbourne are hopelessly lost. But never in the annals of lost dogdom have we had a case like this one.</p>
 <p>Last week, Lady de Crespigny of Adelaide, wife of the late Sir Trent de Crespigny, sent a poodle by air to Mrs Isobel Huntly's poodle resort at Essendon for breeding. Mrs Huntly and Mrs Violet Sharp were waiting at Essendon Airport to receive her. As you must understand, lady poodles can be a little indelicate on such occasions. Heloise, for that was her name, bit her flight attendant, bit the two women, outdodged the airport officials and fled into the great beyond at Essendon.</p>
 <p>Normally this would have gone unnoticed for newspapers cannot stand lost dog stories. But there was a difference. The difference was that Heloise was worth £500 and she had a superb pedigree.</p>
@@ -210,7 +216,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -219,9 +228,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         The three-day, city-wide hunt for Heloise, a runaway pedigree poodle worth £500 sent from Adelaide for breeding, complete with a police search, a &quot;poodle posse,&quot; and a televised on-air appeal.
       </p>
 <hr>
@@ -258,9 +271,50 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/charlotte-de-crespigny/" class="link-secondary">Charlotte de Crespigny</a>,
+    
+    <a href="/topic/doug-mummery/" class="link-secondary">Doug Mummery</a>,
+    
+    <a href="/topic/e.-w.-tipping/" class="link-secondary">E. W. Tipping</a>,
+    
+    <a href="/topic/essendon-airport/" class="link-secondary">Essendon Airport</a>,
+    
+    <a href="/topic/graham-kennedy/" class="link-secondary">Graham Kennedy</a>,
+    
+    <a href="/topic/hsv-7/" class="link-secondary">HSV-7</a>,
+    
+    <a href="/topic/isobel-huntly/" class="link-secondary">Isobel Huntly</a>,
+    
+    <a href="/topic/jack-griffin/" class="link-secondary">Jack Griffin</a>,
+    
+    <a href="/topic/keilor/" class="link-secondary">Keilor</a>,
+    
+    <a href="/topic/lady-de-crespigny/" class="link-secondary">Lady de Crespigny</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/melbourne-poodle-club/" class="link-secondary">Melbourne Poodle Club</a>,
+    
+    <a href="/topic/violet-sharp/" class="link-secondary">Violet Sharp</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

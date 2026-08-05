@@ -159,17 +159,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">It is essential to have clean feet</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             23
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1994-11-11">1994</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            The agonising, pregnancy-like suspense of waiting for grapes to ripen for vintage, juggling volunteer pickers&#39; cancelled lunch dates against sugar readings that refuse to cooperate with the weather.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="My Life With The Demon">
@@ -177,9 +186,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        The agonising, pregnancy-like suspense of waiting for grapes to ripen for vintage, juggling volunteer pickers&#39; cancelled lunch dates against sugar readings that refuse to cooperate with the weather.
-      </p>-->
       <p>T S. ELIOT used to say April is the cruellest month. It is a time of nervous tension and almost constant prayer. The wise man never believes anything until the grapes are bubbling in the fermenter. One year Len Evans was particularly happy with his vintage. He reported in Saturday's <em>Australian</em> newspaper that the grapes were perfect. This could be the greatest year in the Hunter Valley. They were picking on Monday.</p>
 <p>Come the Sunday, with exquisite timing, there was the cyclone that produced twelve inches of rain in 24 hours. Rarely had they seen such a tremendous downpour. All Len could do was sit on his verandah and weep as he watched $100,000 being washed away.</p>
 <p>The time is unnerving, but then it is beautiful. How exciting it is to watch nature in action. Come late February We have veraison. Veraison has a noble mellifluous sound. The French say it with a lovely growl that comes from the back of the throat.</p>
@@ -262,7 +268,10 @@ is so close to the French that he actually works two vintages</p>
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -271,9 +280,13 @@ is so close to the French that he actually works two vintages</p>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         The agonising, pregnancy-like suspense of waiting for grapes to ripen for vintage, juggling volunteer pickers&#39; cancelled lunch dates against sugar readings that refuse to cooperate with the weather.
       </p>
 <hr>
@@ -294,9 +307,34 @@ is so close to the French that he actually works two vintages</p>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/wine/" class="link-secondary">Wine</a>,
+    
+    <a href="/topic/len-evans/" class="link-secondary">Len Evans</a>,
+    
+    <a href="/topic/winemaking/" class="link-secondary">Winemaking</a>,
+    
+    <a href="/topic/viticulture/" class="link-secondary">Viticulture</a>,
+    
+    <a href="/topic/t.s.-eliot/" class="link-secondary">T.S. Eliot</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

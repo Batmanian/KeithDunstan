@@ -169,17 +169,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">The Release of John Bryan Kerr</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-05-12">12 May 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            On the eve of his release after 12 years, revisits Melbourne&#39;s most sensational murder case, the conviction of the charming, well-connected John Bryan Kerr for the 1949 strangling of Elizabeth Maureen Williams, and the newspaper campaign that fought to reopen it.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -187,9 +196,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        On the eve of his release after 12 years, revisits Melbourne&#39;s most sensational murder case, the conviction of the charming, well-connected John Bryan Kerr for the 1949 strangling of Elizabeth Maureen Williams, and the newspaper campaign that fought to reopen it.
-      </p>-->
       <p>ADELAIDE has had its Stuart case, Tasmania has had its Orr case, but it may surprise you to know that here in Melbourne we too can have our grand passions. Any day now John Bryan Kerr will step out of Pentridge Gaol a free man. Perhaps you have forgotten the name. We haven't forgotten here. Nothing like this case has ever stirred up such a swamp of local emotion.</p>
 <p>This was partly due to the fact that at 24 Kerr was a very engaging young man, remarkably different from the type that is usually mixed up in murder trials. His address was right. He came from Washington Street, Toorak. His school was right. He went to Scotch College. He was a radio announcer and he had the good looks of the playboy-actor.</p>
 <p>But there was more to it than that. Kerr had an overpowering, volatile personality. He was thoughtful and articulate. For example, when his last appeal failed before the Privy Council he said: &quot;Whatever happens now, the fact is that I did not kill the girl. If I stay here for the rest of my life I will say that, because it is the truth and cannot be altered.&quot;</p>
@@ -211,7 +217,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -220,9 +229,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         On the eve of his release after 12 years, revisits Melbourne&#39;s most sensational murder case, the conviction of the charming, well-connected John Bryan Kerr for the 1949 strangling of Elizabeth Maureen Williams, and the newspaper campaign that fought to reopen it.
       </p>
 <hr>
@@ -263,9 +276,54 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/albert-park/" class="link-secondary">Albert Park</a>,
+    
+    <a href="/topic/elizabeth-maureen-williams/" class="link-secondary">Elizabeth Maureen Williams</a>,
+    
+    <a href="/topic/h.-a.-winneke/" class="link-secondary">H. A. Winneke</a>,
+    
+    <a href="/topic/harold-holt/" class="link-secondary">Harold Holt</a>,
+    
+    <a href="/topic/john-bryan-kerr/" class="link-secondary">John Bryan Kerr</a>,
+    
+    <a href="/topic/june-clyne/" class="link-secondary">June Clyne</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/noel-coward/" class="link-secondary">Noel Coward</a>,
+    
+    <a href="/topic/pentridge-gaol/" class="link-secondary">Pentridge Gaol</a>,
+    
+    <a href="/topic/privy-council/" class="link-secondary">Privy Council</a>,
+    
+    <a href="/topic/queensland/" class="link-secondary">Queensland</a>,
+    
+    <a href="/topic/rylah/" class="link-secondary">Rylah</a>,
+    
+    <a href="/topic/scotch-college/" class="link-secondary">Scotch College</a>,
+    
+    <a href="/topic/the-argus/" class="link-secondary">The Argus</a>,
+    
+    <a href="/topic/toorak/" class="link-secondary">Toorak</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

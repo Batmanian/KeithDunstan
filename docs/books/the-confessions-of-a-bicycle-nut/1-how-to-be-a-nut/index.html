@@ -165,17 +165,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">How to be a Nut</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             15
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1999-11-11">1999</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Opens &#39;The Confessions of a Bicycle Nut&#39; by diagnosing &quot;bike-itis&quot; as a terminal, incurable virus, tracing Dunstan&#39;s own conversion from Bonnie Muir&#39;s fitness centre and 5BX exercises to jogging around East Malvern and finally to a lifetime on two wheels with his family.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Confessions Of A Bicycle Nut">
@@ -183,9 +192,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Opens &#39;The Confessions of a Bicycle Nut&#39; by diagnosing &quot;bike-itis&quot; as a terminal, incurable virus, tracing Dunstan&#39;s own conversion from Bonnie Muir&#39;s fitness centre and 5BX exercises to jogging around East Malvern and finally to a lifetime on two wheels with his family.
-      </p>-->
       <p>There are all kinds of nuts. There are the nuts who collect snuff boxes, nuts who adore snakes, and nuts who like to make houses out of bottles. There are fly fishing nuts. Their minds constantly wander to some mountain stream and you can see them at home or in the office making strange movements with the wrist, involuntarily casting for a brown. Skiing nuts are the same, they tend to lock their knees and make swift movements in the living room.</p>
 <p>There are football nuts who ask to have their ashes sprinkled between the goal posts at the Melbourne Cricket Ground and there are racing nuts who can remember the name of every Melbourne Cup winner. If you ask the date they were married you might get the reply: &quot;Ah yes, it was in Gala Supreme's year, 1973.&quot;</p>
 <p>There are nuts who believe that the automobile never progressed once they were mass produced post-1930; there are nuts who are reduced to tears by the sight of a Purdy gun; then there are the steam nuts and the tram nuts. These I call terminal nuts. There is no known cure. I have known tram nuts who have gone into raptures over the terrible screech as a W class swings round a corner on its almost square wheels. They are deeply moved too by the strange asthmatic noises made by ancient Ws as they build up compression or seem to gather energy for the next foray. Tram nuts love tram noises so much they keep recordings so that they can play back for special pleasure their screeches, howls and tramic gasps.</p>
@@ -220,7 +226,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -229,9 +238,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Opens &#39;The Confessions of a Bicycle Nut&#39; by diagnosing &quot;bike-itis&quot; as a terminal, incurable virus, tracing Dunstan&#39;s own conversion from Bonnie Muir&#39;s fitness centre and 5BX exercises to jogging around East Malvern and finally to a lifetime on two wheels with his family.
       </p>
 <hr>
@@ -264,9 +277,46 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/alan-holmes-bonnie-muir/" class="link-secondary">Alan Holmes Bonnie Muir</a>,
+    
+    <a href="/topic/burke-and-wills/" class="link-secondary">Burke and Wills</a>,
+    
+    <a href="/topic/david-dunstan/" class="link-secondary">David Dunstan</a>,
+    
+    <a href="/topic/east-malvern/" class="link-secondary">East Malvern</a>,
+    
+    <a href="/topic/great-victorian-bike-ride/" class="link-secondary">Great Victorian Bike Ride</a>,
+    
+    <a href="/topic/john-landy/" class="link-secondary">John Landy</a>,
+    
+    <a href="/topic/malvern-star/" class="link-secondary">Malvern Star</a>,
+    
+    <a href="/topic/marie-dunstan/" class="link-secondary">Marie Dunstan</a>,
+    
+    <a href="/topic/melbourne-grammar/" class="link-secondary">Melbourne Grammar</a>,
+    
+    <a href="/topic/state-library-of-victoria/" class="link-secondary">State Library of Victoria</a>,
+    
+    <a href="/topic/weston-bate/" class="link-secondary">Weston Bate</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

@@ -177,17 +177,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Columns produced debonair style</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             36
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1966-11-11">1966</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A 10,000-mile light-plane joyride around the outback with three friends in a hired Beechcraft Debonair, buzzing roadhouses for a lift and landing at opal-mining Coober Pedy, a town with no police, phone or pub.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Supporting A Column">
@@ -195,9 +204,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A 10,000-mile light-plane joyride around the outback with three friends in a hired Beechcraft Debonair, buzzing roadhouses for a lift and landing at opal-mining Coober Pedy, a town with no police, phone or pub.
-      </p>-->
       <p>The best trip I ever made for the column was not overseas, but a tour of the north of Australia. It was the best tour for fun and personal excitement and the best from the newspaper point of view. Some schools followed it as a daily project and one of my happiest possessions is a bundle of letters received from every member of a class at Cheltenham State School.</p>
 <p>It came as a surprise to discover that the cheapest way to see the great north of Australia was by light aircraft. I still had the old fashioned idea that the cheapest way to travel anywhere was in the family car with perhaps a tent on a trailer. I had three friends who were making a holiday tour to the north and they needed a fourth man to make up the party. The three were Frank Reinehr, a lease and finance broker, Imants Dizgalvis, a lawyer, and Alfred Heintz, a public relations consultant.</p>
 <p>Frank Reinehr, an amateur pilot, hired a light plane from the Royal Victorian Aero Club, and he worked out that a 10,000 mile flight around Australia could not cost us more than £150 or $300 each. This was cheaper than we could do it by car, because for the trip we proposed, by journey's end there would be no car left at all.</p>
@@ -309,7 +315,10 @@ are closely interlocked.</p>
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-30">30 Jul 2026</time>
         </footer>
       
@@ -318,9 +327,13 @@ are closely interlocked.</p>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A 10,000-mile light-plane joyride around the outback with three friends in a hired Beechcraft Debonair, buzzing roadhouses for a lift and landing at opal-mining Coober Pedy, a town with no police, phone or pub.
       </p>
 <hr>
@@ -377,9 +390,70 @@ are closely interlocked.</p>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/frank-reinehr/" class="link-secondary">Frank Reinehr</a>,
+    
+    <a href="/topic/imants-dizgalvis/" class="link-secondary">Imants Dizgalvis</a>,
+    
+    <a href="/topic/alfred-heintz/" class="link-secondary">Alfred Heintz</a>,
+    
+    <a href="/topic/coober-pedy/" class="link-secondary">Coober Pedy</a>,
+    
+    <a href="/topic/ettie-hall/" class="link-secondary">Ettie Hall</a>,
+    
+    <a href="/topic/jack-brewster/" class="link-secondary">Jack Brewster</a>,
+    
+    <a href="/topic/ayers-rock-(uluru)/" class="link-secondary">Ayers Rock (Uluru)</a>,
+    
+    <a href="/topic/walkabout-magazine/" class="link-secondary">Walkabout magazine</a>,
+    
+    <a href="/topic/henley-on-the-todd-regatta/" class="link-secondary">Henley on the Todd Regatta</a>,
+    
+    <a href="/topic/bob-millar/" class="link-secondary">Bob Millar</a>,
+    
+    <a href="/topic/l.j.-hooker-corporation-ltd/" class="link-secondary">L.J. Hooker Corporation Ltd</a>,
+    
+    <a href="/topic/wickham-river/" class="link-secondary">Wickham River</a>,
+    
+    <a href="/topic/king-brumby/" class="link-secondary">King Brumby</a>,
+    
+    <a href="/topic/marble-bar/" class="link-secondary">Marble Bar</a>,
+    
+    <a href="/topic/len-beadell/" class="link-secondary">Len Beadell</a>,
+    
+    <a href="/topic/boolardy/" class="link-secondary">Boolardy</a>,
+    
+    <a href="/topic/victoria-river-downs/" class="link-secondary">Victoria River Downs</a>,
+    
+    <a href="/topic/6-oclock-swill/" class="link-secondary">6 Oclock swill</a>,
+    
+    <a href="/topic/(pastor)-sid-denton/" class="link-secondary">(Pastor) Sid Denton</a>,
+    
+    <a href="/topic/boolardy-station/" class="link-secondary">Boolardy Station</a>,
+    
+    <a href="/topic/robert-francis-bruce-(bob)-lefroy/" class="link-secondary">Robert Francis Bruce (Bob) Lefroy</a>,
+    
+    <a href="/topic/(benjamin)-gayelord-hauser/" class="link-secondary">(Benjamin) Gayelord Hauser</a>,
+    
+    <a href="/topic/charles-eadon-clarke/" class="link-secondary">Charles Eadon-Clarke</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-30">30 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

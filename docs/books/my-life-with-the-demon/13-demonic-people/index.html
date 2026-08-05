@@ -178,17 +178,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Demonic people</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             42
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1994-11-11">1994</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Closes the book with portraits of the liquor trade&#39;s larger-than-life characters, led by Carlton &amp; United&#39;s autocratic boss &quot;Foge&quot; Fogarty, who froze Keith out entirely after one imagined slight.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="My Life With The Demon">
@@ -196,9 +205,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Closes the book with portraits of the liquor trade&#39;s larger-than-life characters, led by Carlton &amp; United&#39;s autocratic boss &quot;Foge&quot; Fogarty, who froze Keith out entirely after one imagined slight.
-      </p>-->
       <p>Henry Lawson was a little too fond of the Demon and there are some marvellous Lawson quotes, but my favourite is this. He said the greatest pleasure he ever knew was when his eyes met the eyes of a mate over the top of foaming glass of beer. The demon is a wonderful catalyst, a magic ingredient for mateship and some of the most generous, remarkable people I have met have been in the liquor industry.</p>
 <p>Oh, there have been exceptions. There was R.F.G. Fogarty, managing director of Carlton &amp; United Breweries. Fogarty was the last of the beer barons, as near as you could be to a dictator in Melbourne. Victorians liked Melbourne beer and he knew it. He would not tolerate anything else. Behind his back he was &quot;Old Foge&quot; but nobody dared call him Foge to his face. He was MISTER Fogarty or &quot;Sir&quot;.</p>
 <p>He was a very tough operator. Trading terms with Carlton &amp; United was seven days. If a hotel did not pay within that time no more beer would be delivered and in Victoria that meant ruin. If there was a beer strike and a licensed grocer or suburban hotel attempted to bring in, say, some Emu, West End or Tooheys from interstate, that would be death. Foge would put out the warning if a hotel or a licensed grocer brought in one foreign bottle or can, the sweet relationship With CUB was finished. No more Carlton beer would be delivered, ever. Nobody was brave enough to defy that edict. How could a liquor dealer survive in chauvinistic Victoria if he did not sell his Foster's or his Victoria Bitter? I made the mistake of thinking Foge was my friend. He would call me at the <em>Sun News-Pictorial</em> when CUB was putting a new product on the market. It was in 1964 or 1965 that the Brewery introduced a new 750 ml can of Foster's Lager and Fogarty telephoned: &quot;Would you like an exclusive story?&quot; Would I, indeed.</p>
@@ -350,7 +356,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -359,9 +368,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Closes the book with portraits of the liquor trade&#39;s larger-than-life characters, led by Carlton &amp; United&#39;s autocratic boss &quot;Foge&quot; Fogarty, who froze Keith out entirely after one imagined slight.
       </p>
 <hr>
@@ -420,9 +433,72 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/wine/" class="link-secondary">Wine</a>,
+    
+    <a href="/topic/winemaking/" class="link-secondary">Winemaking</a>,
+    
+    <a href="/topic/viticulture/" class="link-secondary">Viticulture</a>,
+    
+    <a href="/topic/henry-lawson/" class="link-secondary">Henry Lawson</a>,
+    
+    <a href="/topic/reg-fogarty/" class="link-secondary">Reg Fogarty</a>,
+    
+    <a href="/topic/pedler-palmer/" class="link-secondary">Pedler Palmer</a>,
+    
+    <a href="/topic/lou-richards/" class="link-secondary">Lou Richards</a>,
+    
+    <a href="/topic/len-evans/" class="link-secondary">Len Evans</a>,
+    
+    <a href="/topic/marie-dunstan/" class="link-secondary">Marie Dunstan</a>,
+    
+    <a href="/topic/peter-lehmann/" class="link-secondary">Peter Lehmann</a>,
+    
+    <a href="/topic/dr-max-lake/" class="link-secondary">Dr Max Lake</a>,
+    
+    <a href="/topic/berek-segan/" class="link-secondary">Berek Segan</a>,
+    
+    <a href="/topic/james-halliday/" class="link-secondary">James Halliday</a>,
+    
+    <a href="/topic/peter-walker/" class="link-secondary">Peter Walker</a>,
+    
+    <a href="/topic/hermann-schneider/" class="link-secondary">Hermann Schneider</a>,
+    
+    <a href="/topic/john-c-brown/" class="link-secondary">John C Brown</a>,
+    
+    <a href="/topic/sir-robert-menzies/" class="link-secondary">Sir Robert Menzies</a>,
+    
+    <a href="/topic/dan-murphy/" class="link-secondary">Dan Murphy</a>,
+    
+    <a href="/topic/doug-crittenden/" class="link-secondary">Doug Crittenden</a>,
+    
+    <a href="/topic/charles-malpas/" class="link-secondary">Charles Malpas</a>,
+    
+    <a href="/topic/jimmy-watson/" class="link-secondary">Jimmy Watson</a>,
+    
+    <a href="/topic/robin-boyd/" class="link-secondary">Robin Boyd</a>,
+    
+    <a href="/topic/carlton-and-united-breweries/" class="link-secondary">Carlton and United Breweries</a>,
+    
+    <a href="/topic/eric-purbrick/" class="link-secondary">Eric Purbrick</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

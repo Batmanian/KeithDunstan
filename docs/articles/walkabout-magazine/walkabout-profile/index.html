@@ -158,17 +158,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Walkabout Profile: Jean Battersby</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             5
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1969-05-01">01 May 1969</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A profile of Dr Jean Battersby, newly appointed Executive Director of the Australian Council for the Arts, on subsidising drama, ballet, opera and film, her Sorbonne years on a French government scholarship, and her rejection of the &quot;bricks and concrete&quot; test for judging cultural investment.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Walkabout Magazine">
@@ -176,9 +185,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A profile of Dr Jean Battersby, newly appointed Executive Director of the Australian Council for the Arts, on subsidising drama, ballet, opera and film, her Sorbonne years on a French government scholarship, and her rejection of the &quot;bricks and concrete&quot; test for judging cultural investment.
-      </p>-->
       <p>DR. JEAN BATTERSBY is the recently appointed Executive Director for the Australian Council for the Arts.</p>
 <p>It is a formidable title which makes her virtually the supreme cultural egghead, the Australian Andre Malraux. The Council has an initial budget of $1½ million and its main job is to subsidise the performing arts, drama, ballet, opera, film production and orchestras.</p>
 <p>It needs to build standards of professional competence, twist money out of willing sponsors, promote cultural exchanges with other countries and as for Jean herself, she needs to know all the important people in the performing arts on a continent of three million square miles.</p>
@@ -198,7 +204,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -207,9 +216,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A profile of Dr Jean Battersby, newly appointed Executive Director of the Australian Council for the Arts, on subsidising drama, ballet, opera and film, her Sorbonne years on a French government scholarship, and her rejection of the &quot;bricks and concrete&quot; test for judging cultural investment.
       </p>
 <hr>
@@ -228,9 +241,32 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/australian-council-for-the-arts/" class="link-secondary">Australian Council for the Arts</a>,
+    
+    <a href="/topic/freedom-to-read-association/" class="link-secondary">Freedom to Read Association</a>,
+    
+    <a href="/topic/jean-battersby/" class="link-secondary">Jean Battersby</a>,
+    
+    <a href="/topic/melbourne-university/" class="link-secondary">Melbourne University</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

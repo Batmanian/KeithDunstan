@@ -168,17 +168,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Rediscovering the Yarra</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             4
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-12-01">01 Dec 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Previews the Queen&#39;s 1963 royal barge voyage up the Yarra to Henley Landing, and the belated riverbank clean-up it has prompted after years of floating trash and half-sunken barges.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -186,9 +195,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Previews the Queen&#39;s 1963 royal barge voyage up the Yarra to Henley Landing, and the belated riverbank clean-up it has prompted after years of floating trash and half-sunken barges.
-      </p>-->
       <p>NOTHING about the Queen's visit next February looks, at this stage, like being more memorable than the rediscovery of the Yarra—the Yarra-consciousness that the occasion is bringing forth might even be more than temporary.</p>
 <p>This would be a good thing in itself. Also, it would show that good things which somehow don't get done just for the natives can get done in a large way when the natives need to put on a show for royalty.</p>
 <p>Last time the Queen came here, in 1954, she made her processional entry from Essendon Airport. This northern approach, leading through the Barry Humphries country in Moonee Ponds, is nearly as dreary as the course from Mascot Airport to Sydney, and is also a good deal longer.</p>
@@ -209,7 +215,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -218,9 +227,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Previews the Queen&#39;s 1963 royal barge voyage up the Yarra to Henley Landing, and the belated riverbank clean-up it has prompted after years of floating trash and half-sunken barges.
       </p>
 <hr>
@@ -259,9 +272,52 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/britannia/" class="link-secondary">Britannia</a>,
+    
+    <a href="/topic/duke-of-edinburgh/" class="link-secondary">Duke of Edinburgh</a>,
+    
+    <a href="/topic/essendon-airport/" class="link-secondary">Essendon Airport</a>,
+    
+    <a href="/topic/flemington-racecourse/" class="link-secondary">Flemington Racecourse</a>,
+    
+    <a href="/topic/henley-landing/" class="link-secondary">Henley Landing</a>,
+    
+    <a href="/topic/john-batman/" class="link-secondary">John Batman</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/melbourne-harbor-trust/" class="link-secondary">Melbourne Harbor Trust</a>,
+    
+    <a href="/topic/moonee-ponds/" class="link-secondary">Moonee Ponds</a>,
+    
+    <a href="/topic/north-wharf/" class="link-secondary">North Wharf</a>,
+    
+    <a href="/topic/queen-elizabeth-ii/" class="link-secondary">Queen Elizabeth II</a>,
+    
+    <a href="/topic/roy-dowling/" class="link-secondary">Roy Dowling</a>,
+    
+    <a href="/topic/spencer-street-bridge/" class="link-secondary">Spencer Street Bridge</a>,
+    
+    <a href="/topic/yarra-river/" class="link-secondary">Yarra River</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

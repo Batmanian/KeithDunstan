@@ -170,17 +170,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">A nice suburb</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             31
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1990-11-11">1990</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A privileged 1930s Toorak childhood, born on the kitchen table in East Malvern and raised in a haunted-feeling bluestone house at 20 Wallace Avenue in the tiny, postcode-obsessed world of SE2.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="No Brains At All">
@@ -188,9 +197,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A privileged 1930s Toorak childhood, born on the kitchen table in East Malvern and raised in a haunted-feeling bluestone house at 20 Wallace Avenue in the tiny, postcode-obsessed world of SE2.
-      </p>-->
       <p>It is much easier to write a novel or an autobiography if you have been miserable as a child, persecuted, tortured or banished. That is why the Russians Dostoevsky, Tolstoy, Turgenev and Gogol remain the greatest writers. Not only were they able to draw on their own emotional, anguished lives; they were also able to call upon the sufferings of their country: upon the poverty, the class conflicts, the frigid winters, the wars and the subjugation of the Russian people. Some writers who have found their lives not sufficiently awful have even gone out of their way to make them so. Philip Roth the United States novelist has admitted to doing this. What a handicap it is to have been happy. My parents were loving and generous. The climate in Melbourne was only frigid superficially - perhaps briefly in July or August. The political suffering under the benign dictatorships of Messrs Bruce, Lyons, Menzies, Curtin and Chifley hardly compared with that under the tsars.</p>
 <p>What's more I grew up in an utterly affluent suburb.</p>
 <p>I was born on the kitchen table on 3 February 1925 at 13 Coppin Street, East Malvern, a very suburban Melburnian street named in honour of George Coppin, flamboyant showman, actor, entrepreneur and politician. East Malvern was considered a very solid suburb in its own way, but when I was 4 we moved to Toorak, which was a positive pocket of indulgence and unquestionably Melbourne's most exclusive suburb. Toorak was really tiny: it only extended from Williams Road to Glenferrie Road and from Malvern Road to the Yarra. If you lived in Melbourne and you wanted to be socially top drawer, it was vital to live in Toorak. Oh, Camberwell was good, Hawthorn was fine and parts of Brighton were excellent, but if you wanted true prestige and the envy of your fellows you went to Toorak. Its smallness was a great help: it made it harder to get in and it helped push up real estate prices.</p>
@@ -294,7 +300,10 @@ Continue to chapter two: <a href="/books/no-brains-at-all/2-education-by-flagell
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -303,9 +312,13 @@ Continue to chapter two: <a href="/books/no-brains-at-all/2-education-by-flagell
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A privileged 1930s Toorak childhood, born on the kitchen table in East Malvern and raised in a haunted-feeling bluestone house at 20 Wallace Avenue in the tiny, postcode-obsessed world of SE2.
       </p>
 <hr>
@@ -348,9 +361,56 @@ Continue to chapter two: <a href="/books/no-brains-at-all/2-education-by-flagell
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/ballarat/" class="link-secondary">Ballarat</a>,
+    
+    <a href="/topic/cricket/" class="link-secondary">Cricket</a>,
+    
+    <a href="/topic/east-malvern/" class="link-secondary">East Malvern</a>,
+    
+    <a href="/topic/gallipoli/" class="link-secondary">Gallipoli</a>,
+    
+    <a href="/topic/george-coppin/" class="link-secondary">George Coppin</a>,
+    
+    <a href="/topic/glamorgan/" class="link-secondary">Glamorgan</a>,
+    
+    <a href="/topic/gold-rush/" class="link-secondary">Gold Rush</a>,
+    
+    <a href="/topic/great-depression/" class="link-secondary">Great Depression</a>,
+    
+    <a href="/topic/melbourne-grammar/" class="link-secondary">Melbourne Grammar</a>,
+    
+    <a href="/topic/methodism/" class="link-secondary">Methodism</a>,
+    
+    <a href="/topic/philip-roth/" class="link-secondary">Philip Roth</a>,
+    
+    <a href="/topic/religion/" class="link-secondary">Religion</a>,
+    
+    <a href="/topic/sir-don-bradman/" class="link-secondary">Sir Don Bradman</a>,
+    
+    <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+    
+    <a href="/topic/wadhurst/" class="link-secondary">Wadhurst</a>,
+    
+    <a href="/topic/william-dunstan-vc/" class="link-secondary">William Dunstan VC</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

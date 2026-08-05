@@ -166,17 +166,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Frank Thring</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             20
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1980-11-11">1980</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Profile of actor Frank Thring, son of Hoyts cinema magnate F.W. Thring, tracing his path from EFFTEE radio studios and his own Arrow Theatre to Stratford with the Oliviers, Hollywood toga epics, and a scandalous career as Melbourne&#39;s harshest drama critic.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Ratbags">
@@ -184,9 +193,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Profile of actor Frank Thring, son of Hoyts cinema magnate F.W. Thring, tracing his path from EFFTEE radio studios and his own Arrow Theatre to Stratford with the Oliviers, Hollywood toga epics, and a scandalous career as Melbourne&#39;s harshest drama critic.
-      </p>-->
       <strong>F</strong>RANK THRING at an opening night has a presence, an imposing majesty. He stands six feet two inches, sixteen or seventeen stone and always he is in black, black open-necked shirt, black trousers, black shoes and even dark glasses. His head is bald, the remaining circlet of hair is almost shaved and he surveys the scene with the superiority of a vintage monarch, perhaps wondering which heads should be lopped. You could see him on a horse in armour, terrifying as Genghis Khan, although oddly enough he hasn't been Genghis Khan.<br><br>
 There have been lots of others. He has been Pontius Pilate, Herod, Dracula, the Moorish tyrant Al Kadir in <i>El Cid</i>, the Devil, Nero, a chief in the Gestapo, the strange Captain Ahab in <i>Moby Dick</i> and <i>Othello</i> so often he practically is the Moorish king.<br><br>
 Of course, in the eyes of Melbourne suburbia Frank Thring was born not far from royalty. His father was Francis William Thring, managing director of the Hoyts cinema group at a time when the flickering image of Ronald Colman, Charlie Chaplin at the local picture house was the most breathtakingly important event of the week.<br><br>
@@ -300,7 +306,10 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -309,9 +318,13 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Profile of actor Frank Thring, son of Hoyts cinema magnate F.W. Thring, tracing his path from EFFTEE radio studios and his own Arrow Theatre to Stratford with the Oliviers, Hollywood toga epics, and a scandalous career as Melbourne&#39;s harshest drama critic.
       </p>
 <hr>
@@ -346,9 +359,48 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/frank-thring/" class="link-secondary">Frank Thring</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+    
+    <a href="/topic/regent-theatre/" class="link-secondary">Regent Theatre</a>,
+    
+    <a href="/topic/francis-william-thring/" class="link-secondary">Francis William Thring</a>,
+    
+    <a href="/topic/laurence-olivier/" class="link-secondary">Laurence Olivier</a>,
+    
+    <a href="/topic/vivien-leigh/" class="link-secondary">Vivien Leigh</a>,
+    
+    <a href="/topic/joan-cunliffe/" class="link-secondary">Joan Cunliffe</a>,
+    
+    <a href="/topic/ben-hur/" class="link-secondary">Ben Hur</a>,
+    
+    <a href="/topic/titus-andronicus/" class="link-secondary">Titus Andronicus</a>,
+    
+    <a href="/topic/melbourne-grammar/" class="link-secondary">Melbourne Grammar</a>,
+    
+    <a href="/topic/q-theatre/" class="link-secondary">Q Theatre</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

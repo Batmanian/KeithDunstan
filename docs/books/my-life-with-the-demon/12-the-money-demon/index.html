@@ -161,17 +161,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">The money demon</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             15
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1994-11-11">1994</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Tots up the ruinous, itemised cost of running a one-acre boutique vineyard, over $46,000 before the land, and needles Premier Jeff Kennett for selling unlicensed &quot;Cabinet Claret&quot; out of Parliament House.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="My Life With The Demon">
@@ -179,9 +188,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Tots up the ruinous, itemised cost of running a one-acre boutique vineyard, over $46,000 before the land, and needles Premier Jeff Kennett for selling unlicensed &quot;Cabinet Claret&quot; out of Parliament House.
-      </p>-->
       <p>An old editor once gave me some advice. Never resign from a job in a fit of rage. Always wait a week until you have calmed down. Before becoming a vigneron it might be a good idea to wait a month or even a year. Think how many hours it will take out of your week then multiply by ten.</p>
 <p>Being a vigneron is a splendid method for consuming time. We knew wine people who used to play golf, wine people who had yachts, belonged to fancy yacht clubs and sailed on the Bay. Not any more. There are wine people who thought about writing the great Australian novel, wine people who liked to indulge in carpentry, turn out fancy dining room tables, that sort of thing. Not any more.</p>
 <p>We know wine people who used to like spending the winter skiing at Buller, Hotham, Perisher and Thredbo. No hope of that now. There is only one time you can take holidays and that is maybe two or three weeks in August. That is the sweet fleeting moment when the wine person has finished pruning and nothing is happening, but look here, it is essential to be back by bud burst at the beginning of September.</p>
@@ -236,7 +242,10 @@
 <p class="lead">Follow onto the final chapter, <a href="/books/my-life-with-the-demon/13-demonic-people">Demonic people</a></p>
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -245,9 +254,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Tots up the ruinous, itemised cost of running a one-acre boutique vineyard, over $46,000 before the land, and needles Premier Jeff Kennett for selling unlicensed &quot;Cabinet Claret&quot; out of Parliament House.
       </p>
 <hr>
@@ -272,9 +285,38 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/wine/" class="link-secondary">Wine</a>,
+    
+    <a href="/topic/viticulture/" class="link-secondary">Viticulture</a>,
+    
+    <a href="/topic/winemaking/" class="link-secondary">Winemaking</a>,
+    
+    <a href="/topic/bronwyn-bishop/" class="link-secondary">Bronwyn Bishop</a>,
+    
+    <a href="/topic/jeff-kennett/" class="link-secondary">Jeff Kennett</a>,
+    
+    <a href="/topic/garry-crittenden/" class="link-secondary">Garry Crittenden</a>,
+    
+    <a href="/topic/david-dunstan/" class="link-secondary">David Dunstan</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

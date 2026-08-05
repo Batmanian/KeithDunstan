@@ -159,17 +159,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Bunnies in Black Silk Stockings</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             5
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1963-03-30">30 Mar 1963</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A dispatch from Melbourne&#39;s new Playboy Restaurant, the local answer to Hugh Hefner&#39;s American bunny clubs, where five waitresses in bunny tails and 18-inch stockings serve drinks only, chosen from a hundred applicants and forbidden from dating the customers.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -177,9 +186,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A dispatch from Melbourne&#39;s new Playboy Restaurant, the local answer to Hugh Hefner&#39;s American bunny clubs, where five waitresses in bunny tails and 18-inch stockings serve drinks only, chosen from a hundred applicants and forbidden from dating the customers.
-      </p>-->
       <p>Perhaps you are one of those who think that Melbourne is like Adelaide, all respectability, sweetness and Colonel Light. Oh, how we have fallen. First the strippers moved into the dear old Hotel Ritz in St Kilda and into the Hotel Britannia in Swanston Street.</p>
 <p>Such young ladies as Miss Gaye Abandon peeled off their G-strings, although, in all fairness, they modestly did wear milk bottle tops in certain strategic positions. Why, the Hotel Britannia even has a cigarette girl in the public bar. She wears only what cigarette girls usually wear.</p>
 <p>We have gone a step further. To keep up with the rich stream of American culture we now have a Playboy Restaurant.</p>
@@ -203,7 +209,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -212,9 +221,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A dispatch from Melbourne&#39;s new Playboy Restaurant, the local answer to Hugh Hefner&#39;s American bunny clubs, where five waitresses in bunny tails and 18-inch stockings serve drinks only, chosen from a hundred applicants and forbidden from dating the customers.
       </p>
 <hr>
@@ -235,9 +248,34 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/albert-park/" class="link-secondary">Albert Park</a>,
+    
+    <a href="/topic/hugh-hefner/" class="link-secondary">Hugh Hefner</a>,
+    
+    <a href="/topic/playboy-restaurant/" class="link-secondary">Playboy Restaurant</a>,
+    
+    <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>,
+    
+    <a href="/topic/stanley-korman/" class="link-secondary">Stanley Korman</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

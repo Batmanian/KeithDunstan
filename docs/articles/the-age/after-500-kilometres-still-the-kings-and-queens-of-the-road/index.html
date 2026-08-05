@@ -164,17 +164,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">After 500 kilometres, still the kings (and queens) of the road</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             4
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1998-12-05">05 Dec 1998</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            The 15th Great Victorian Bike Ride brings 2100 cyclists 500 kilometres from Wahgunyah to Melbourne, among them 83-year-old veteran Alan &quot;Curly&quot; Hartup and the ride&#39;s youngest finisher, nine-year-old Anna Clements.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Age">
@@ -182,9 +191,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        The 15th Great Victorian Bike Ride brings 2100 cyclists 500 kilometres from Wahgunyah to Melbourne, among them 83-year-old veteran Alan &quot;Curly&quot; Hartup and the ride&#39;s youngest finisher, nine-year-old Anna Clements.
-      </p>-->
       <p>They will trail into town tomorrow via Heidelberg, 2100 cyclists who will have pushed their muscle motors all the way, 500 kilometres from Wahgunyah on the NSW border.</p>
 <p>Even on the longest day, 100 kilometres from Myrtleford to Benalla, only 28 failed to make it and had to be picked up by the &quot;sag wagon&quot;.</p>
 <p>This is the Vic Roads' 15th Great Victorian Bike Ride. Noel Reid, the ride director, claims it is the biggest mass migration of cyclists in the world. He is responsible for making about 70,000 meals for the riders and transporting 70,000 kilos of luggage.</p>
@@ -209,7 +215,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -218,9 +227,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         The 15th Great Victorian Bike Ride brings 2100 cyclists 500 kilometres from Wahgunyah to Melbourne, among them 83-year-old veteran Alan &quot;Curly&quot; Hartup and the ride&#39;s youngest finisher, nine-year-old Anna Clements.
       </p>
 <hr>
@@ -251,9 +264,44 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/alan-hartup/" class="link-secondary">Alan Hartup</a>,
+    
+    <a href="/topic/alexandra/" class="link-secondary">Alexandra</a>,
+    
+    <a href="/topic/benalla/" class="link-secondary">Benalla</a>,
+    
+    <a href="/topic/elsternwick/" class="link-secondary">Elsternwick</a>,
+    
+    <a href="/topic/geelong-grammar-school/" class="link-secondary">Geelong Grammar School</a>,
+    
+    <a href="/topic/great-victorian-bike-ride/" class="link-secondary">Great Victorian Bike Ride</a>,
+    
+    <a href="/topic/myrtleford/" class="link-secondary">Myrtleford</a>,
+    
+    <a href="/topic/newstead/" class="link-secondary">Newstead</a>,
+    
+    <a href="/topic/vicroads/" class="link-secondary">VicRoads</a>,
+    
+    <a href="/topic/wahgunyah/" class="link-secondary">Wahgunyah</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

@@ -169,17 +169,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Pedalling passion</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             37
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1990-11-11">1990</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Becomes a &quot;born-again cyclist&quot; during a 1984 Melbourne transport strike, riding to work through abuse from motorists for the next 24 years, undeterred even by a champagne-fuelled wipeout outside a Collingwood restaurant.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="No Brains At All">
@@ -187,9 +196,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Becomes a &quot;born-again cyclist&quot; during a 1984 Melbourne transport strike, riding to work through abuse from motorists for the next 24 years, undeterred even by a champagne-fuelled wipeout outside a Collingwood restaurant.
-      </p>-->
       <p>You have heard of born-again Christians. Born-again cyclists are similar. My conversion came on an autumn afternoon in 1984. Melbourne had a massive transport strike: no trains, no trams, no buses. Our house at Central Park Road, East Malvern, was 12 kilometres from Flinders Street. Just to write a funny newspaper column about alternative forms of transport I borrowed a bicycle from Malvern Star and rode to town.</p>
 <p>It was not funny at all. I never got over it. Getting to town, battling with traffic or public transport had always been the most depressing part of the day. But this was enchanting, every day pedalling through parks, riding alongside the Yana, dodging in and out of all the back streets of Prahran. Every day a different route. I spotted all sorts of fascinating buildings, interesting facades, wonderful chimneys and urns atop nineteenth-century parapets. I had never noticed them when in a car. What's more, there were the smells every night. I could enjoy the wonderful dishes the Greeks, the Lebanese and the Italians were having for dinner. Then it was quick. I discovered to my amazement that the bicycle, door to door, was faster than car, tram or train by a good ten minutes.</p>
 <p>My bicycle in the office garage was the only one there, a lonely thing. In 1964 such behaviour was rare, indeed. This man, if not a ratbag, was in eccentric, a nut - a bicycle nut. There were even kindly queries and suggestions from good friends. Were my finances going badly? Could they lend me a little money to tide me over? Yet like any member of a minority I did not think I was a nut. It was the rest of the world that was strange. If the rest of the world was logical and sensible it would give up the pollution-breathing, human-killing internal combustion engine and ride the bicycle.</p>
@@ -333,7 +339,10 @@ There were many other rides. Marie and I went on the annual Great Victorian Bike
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -342,9 +351,13 @@ There were many other rides. Marie and I went on the annual Great Victorian Bike
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Becomes a &quot;born-again cyclist&quot; during a 1984 Melbourne transport strike, riding to work through abuse from motorists for the next 24 years, undeterred even by a champagne-fuelled wipeout outside a Collingwood restaurant.
       </p>
 <hr>
@@ -385,9 +398,54 @@ There were many other rides. Marie and I went on the annual Great Victorian Bike
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/bikecentennial/" class="link-secondary">Bikecentennial</a>,
+    
+    <a href="/topic/brian-dixon/" class="link-secondary">Brian Dixon</a>,
+    
+    <a href="/topic/china/" class="link-secondary">China</a>,
+    
+    <a href="/topic/cycling/" class="link-secondary">Cycling</a>,
+    
+    <a href="/topic/greg-siple/" class="link-secondary">Greg Siple</a>,
+    
+    <a href="/topic/herald-and-weekly-times/" class="link-secondary">Herald and Weekly Times</a>,
+    
+    <a href="/topic/honolulu/" class="link-secondary">Honolulu</a>,
+    
+    <a href="/topic/jeff-hook/" class="link-secondary">Jeff Hook</a>,
+    
+    <a href="/topic/john-morgan/" class="link-secondary">John Morgan</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/road-traffic-authority/" class="link-secondary">Road Traffic Authority</a>,
+    
+    <a href="/topic/sigmund-jorgensen/" class="link-secondary">Sigmund Jorgensen</a>,
+    
+    <a href="/topic/united-states/" class="link-secondary">United States</a>,
+    
+    <a href="/topic/victorian-bicycle-institute/" class="link-secondary">Victorian Bicycle Institute</a>,
+    
+    <a href="/topic/walhalla/" class="link-secondary">Walhalla</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

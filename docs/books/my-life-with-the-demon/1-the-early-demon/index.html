@@ -163,17 +163,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">The Early Demon</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             12
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1994-11-11">1994</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Opens &#39;My Life with the Demon&#39; with Keith&#39;s first taste of alcohol as a schoolboy altar server at Geelong Grammar, sneaking sips of the sacramental wine and topping the bottle back up with water.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="My Life With The Demon">
@@ -181,9 +190,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Opens &#39;My Life with the Demon&#39; with Keith&#39;s first taste of alcohol as a schoolboy altar server at Geelong Grammar, sneaking sips of the sacramental wine and topping the bottle back up with water.
-      </p>-->
       <p>Oh dear, when was the first occasion I was struck down by the demon drink? It could have been when I was a server, an altar boy at Geelong Grammar School. Actually I loved being an altar boy. There was the business of dress ups, the bright red cassock, the white surplice, and a certain feeling of power standing there with the priest by the altar.</p>
 <p>The whole ritual of Holy Communion seemed quite wonderful and still does. My concentration level was never high. During the sermon the mind would wander; the approaching end of term, the possibility of cooking and acquiring crumpets, the building of a model aeroplane, ice skating at the Glaciarium, sex. Would the wrath of God come down heavily on the child who dared to think of sex when he was barely three paces from the altar and the holy cross of Christ?</p>
 <p>The servers were allowed the key to the Vestry. It was their job to make sure the flasks were filled with wine and water, the crucifer supplied with wafers and all the linen in order. My fellow server was a young man named Alan Atwill. Cold wintry Saturday afternoons could be awful at Geelong Grammar. The sou-westerlies which blew across Corio Bay seemed to come direct from Mawson Island and football had few attractions unless one was destined for the school firsts.</p>
@@ -238,7 +244,10 @@ drink it, in remembrance of Me.&quot;</p>
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -247,9 +256,13 @@ drink it, in remembrance of Me.&quot;</p>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Opens &#39;My Life with the Demon&#39; with Keith&#39;s first taste of alcohol as a schoolboy altar server at Geelong Grammar, sneaking sips of the sacramental wine and topping the bottle back up with water.
       </p>
 <hr>
@@ -278,9 +291,42 @@ drink it, in remembrance of Me.&quot;</p>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/wine/" class="link-secondary">Wine</a>,
+    
+    <a href="/topic/geelong-grammar-school/" class="link-secondary">Geelong Grammar School</a>,
+    
+    <a href="/topic/the-dean-of-melbourne-rev-dr-h-b-macartney/" class="link-secondary">The Dean of Melbourne - Rev Dr H B Macartney</a>,
+    
+    <a href="/topic/e-tennyson-smith/" class="link-secondary">E Tennyson Smith</a>,
+    
+    <a href="/topic/samuel-mauger/" class="link-secondary">Samuel Mauger</a>,
+    
+    <a href="/topic/william-dunstan-vc/" class="link-secondary">William Dunstan VC</a>,
+    
+    <a href="/topic/cyril-h-denny/" class="link-secondary">Cyril H Denny</a>,
+    
+    <a href="/topic/sir-keith-murdoch/" class="link-secondary">Sir Keith Murdoch</a>,
+    
+    <a href="/topic/lady-elisabeth-murdoch/" class="link-secondary">Lady Elisabeth Murdoch</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

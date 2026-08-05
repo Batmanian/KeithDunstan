@@ -180,17 +180,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Royal columns</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             27
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1966-11-11">1966</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            On the strange craft of covering Royal Tours since 1954, the newsroom bans on &quot;obviously&quot; and &quot;radiant,&quot; the Potemkin-village stage-management of crowds, and factories scrubbed spotless for a royal visit.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Supporting A Column">
@@ -198,9 +207,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        On the strange craft of covering Royal Tours since 1954, the newsroom bans on &quot;obviously&quot; and &quot;radiant,&quot; the Potemkin-village stage-management of crowds, and factories scrubbed spotless for a royal visit.
-      </p>-->
       <p>The penalty for writing a column is that one gets to cover Royal Tours. And if one becomes a veteran columnist one becomes something of a tour expert. Since 1954 there have been six major Royal Tours.</p>
 <p>Writing about Royal Tours can be frustrating and worrying, because the Royal Person can never be quoted direct. He or she, except for one or two rare occasions during the Tour, is never available to be talked to, to reveal his or her personal feelings about what is happening. Furthermore these Royal people are always surrounded by a tight-lipped and often not very lovable entourage.</p>
 <p>So the Royal Tour reporter tags along. Magically he is always there on the wharf or at the airport when the Royal Person arrives, always there when he or she departs. I grow accustomed to your face — but here’s the rub. Events on a Royal Tour vary little; similar mayors, similar loyal addresses, similar royal balls. How is it possible to keep up the brilliance of the prose?</p>
@@ -277,7 +283,10 @@ the Royal Salute, suddenly the sergeant took the hat and in one magnificent move
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -286,9 +295,13 @@ the Royal Salute, suddenly the sergeant took the hat and in one magnificent move
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         On the strange craft of covering Royal Tours since 1954, the newsroom bans on &quot;obviously&quot; and &quot;radiant,&quot; the Potemkin-village stage-management of crowds, and factories scrubbed spotless for a royal visit.
       </p>
 <hr>
@@ -351,9 +364,76 @@ the Royal Salute, suddenly the sergeant took the hat and in one magnificent move
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/royal-family/" class="link-secondary">Royal Family</a>,
+    
+    <a href="/topic/1963-royal-visit-to-australia/" class="link-secondary">1963 Royal Visit to Australia</a>,
+    
+    <a href="/topic/queen-elizabeth-ii/" class="link-secondary">Queen Elizabeth II</a>,
+    
+    <a href="/topic/douglas-wilkie/" class="link-secondary">Douglas Wilkie</a>,
+    
+    <a href="/topic/catherine-the-great/" class="link-secondary">Catherine the Great</a>,
+    
+    <a href="/topic/ben-casey/" class="link-secondary">Ben Casey</a>,
+    
+    <a href="/topic/elizabeth-the-queen-mother/" class="link-secondary">Elizabeth - the Queen Mother</a>,
+    
+    <a href="/topic/brisbane/" class="link-secondary">Brisbane</a>,
+    
+    <a href="/topic/ballarat/" class="link-secondary">Ballarat</a>,
+    
+    <a href="/topic/princess-alexandra/" class="link-secondary">Princess Alexandra</a>,
+    
+    <a href="/topic/jack-riley/" class="link-secondary">Jack Riley</a>,
+    
+    <a href="/topic/canberra/" class="link-secondary">Canberra</a>,
+    
+    <a href="/topic/tattersalls/" class="link-secondary">Tattersalls</a>,
+    
+    <a href="/topic/cloudland/" class="link-secondary">Cloudland</a>,
+    
+    <a href="/topic/ivan-kurdyukov-russian-ambassador/" class="link-secondary">Ivan Kurdyukov, Russian Ambassador</a>,
+    
+    <a href="/topic/sir-william-slim-governor-general/" class="link-secondary">Sir William Slim - Governor-General</a>,
+    
+    <a href="/topic/lady-(iona)-carrington/" class="link-secondary">Lady (Iona) Carrington</a>,
+    
+    <a href="/topic/marshal-gyorgy-zhukov/" class="link-secondary">Marshal Gyorgy Zhukov</a>,
+    
+    <a href="/topic/king-bhumibol/" class="link-secondary">King Bhumibol</a>,
+    
+    <a href="/topic/queen-sirikit/" class="link-secondary">Queen Sirikit</a>,
+    
+    <a href="/topic/southeast-asia-treaty-organization-(seato)/" class="link-secondary">Southeast Asia Treaty Organization (SEATO)</a>,
+    
+    <a href="/topic/bing-crosby/" class="link-secondary">Bing Crosby</a>,
+    
+    <a href="/topic/squadron-leader-lawrence-henry-hicks/" class="link-secondary">Squadron Leader Lawrence Henry Hicks</a>,
+    
+    <a href="/topic/the-australian-national-university/" class="link-secondary">The Australian National University</a>,
+    
+    <a href="/topic/farrago/" class="link-secondary">Farrago</a>,
+    
+    <a href="/topic/prince-philip/" class="link-secondary">Prince Philip</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

@@ -169,17 +169,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Among My Souvenirs</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-10-06">06 Oct 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A wistful post-Grand-Final survey of Melbourne&#39;s VFL football obsession, from poodle-sized club sweaters to fans who queued 58 hours outside the MCG, plus a wary eye on soccer&#39;s fast-growing crowds at Olympic Park.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -187,9 +196,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A wistful post-Grand-Final survey of Melbourne&#39;s VFL football obsession, from poodle-sized club sweaters to fans who queued 58 hours outside the MCG, plus a wary eye on soccer&#39;s fast-growing crowds at Olympic Park.
-      </p>-->
       <p>OH, now that it is all over, how can we face the dreary months ahead? The very thing which makes Melbourne so lovable is finished and the bitter truth is this, we have to wait 28 weeks for the start of another football season. So I sit here sadly, studying my football souvenirs, like Hamlet studying Yorick's skull.</p>
 <p>It was a notable season for souvenirs.</p>
 <p>For example, you could get St. Kilda ties, towels, beanies, money boxes, hearth rugs, bottle openers, cushions, drinking mugs, lamps, coffee tables with the badge inset, umbrellas, ear rings, baskets, even gentlemen's hose with the badge tastefully embroidered. Why, you could buy a club football sweater for your poodle.</p>
@@ -217,7 +223,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -226,9 +235,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A wistful post-Grand-Final survey of Melbourne&#39;s VFL football obsession, from poodle-sized club sweaters to fans who queued 58 hours outside the MCG, plus a wary eye on soccer&#39;s fast-growing crowds at Olympic Park.
       </p>
 <hr>
@@ -269,9 +282,54 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/carlton/" class="link-secondary">Carlton</a>,
+    
+    <a href="/topic/collingwood/" class="link-secondary">Collingwood</a>,
+    
+    <a href="/topic/essendon/" class="link-secondary">Essendon</a>,
+    
+    <a href="/topic/fitzroy/" class="link-secondary">Fitzroy</a>,
+    
+    <a href="/topic/geelong/" class="link-secondary">Geelong</a>,
+    
+    <a href="/topic/hotel-australia/" class="link-secondary">Hotel Australia</a>,
+    
+    <a href="/topic/mcg/" class="link-secondary">MCG</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/olympic-park/" class="link-secondary">Olympic Park</a>,
+    
+    <a href="/topic/ron-barassi/" class="link-secondary">Ron Barassi</a>,
+    
+    <a href="/topic/south-yarra/" class="link-secondary">South Yarra</a>,
+    
+    <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>,
+    
+    <a href="/topic/tania-verstak/" class="link-secondary">Tania Verstak</a>,
+    
+    <a href="/topic/vfl/" class="link-secondary">VFL</a>,
+    
+    <a href="/topic/wheeler&#39;s-hill/" class="link-secondary">Wheeler&#39;s Hill</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

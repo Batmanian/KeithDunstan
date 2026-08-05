@@ -161,17 +161,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Education by flagellation</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             31
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1990-11-11">1990</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Miserable school days at Melbourne Grammar&#39;s Wadhurst prep school, ruled by a form teacher who cracked a ruler across his hand for being left-handed and tried to force him to write right-handed.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="No Brains At All">
@@ -179,9 +188,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Miserable school days at Melbourne Grammar&#39;s Wadhurst prep school, ruled by a form teacher who cracked a ruler across his hand for being left-handed and tried to force him to write right-handed.
-      </p>-->
       <p>So many people look upon school-days as the happiest time of their life. For me school was little pleasure. I suspect my misery was self-inflicted. Home was such a warm, pleasurable place; school such a hideous, disciplined contrast.</p>
 <p>At the age of 7 I was dispatched to Wadhurst, the preparatory school for Melbourne Grammar, which was in the grounds of the senior school. Melbourne Grammar, Anglican, bluestone, was created by Bishop Perry in 1849 and was one of the great public schools. The former Prime Minister Stanley, Lord Bruce, was a famous old boy, and the school much later could boast another prime minister, Malcolm Fraser.</p>
 <p>Melbourne Grammar had a noble record not only on the Yarra with its crew, but also on the football field. Its history was impeccable. Indeed, in 1858 Melbourne Grammar and Scotch College played, very nearly, the first reported match of Australian Rules football. There were forty a side, including six or seven teachers. It took place over a vast area in the Richmond Paddock - so vast neither side could score the necessary number of goals to win, even though the game went for three hours until all were exhausted. They played on 7 August, tried again on 21 August and yet again on 4 September. Even then nobody had scored so they abandoned the game as a draw.</p>
@@ -282,7 +288,10 @@ Dad was in the city, but he was determined to get back to his family. He was a m
 Continue to chapter three: <a href="/books/no-brains-at-all/3-siberia/">Siberia</a>
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -291,9 +300,13 @@ Continue to chapter three: <a href="/books/no-brains-at-all/3-siberia/">Siberia<
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Miserable school days at Melbourne Grammar&#39;s Wadhurst prep school, ruled by a form teacher who cracked a ruler across his hand for being left-handed and tried to force him to write right-handed.
       </p>
 <hr>
@@ -318,9 +331,38 @@ Continue to chapter three: <a href="/books/no-brains-at-all/3-siberia/">Siberia<
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/erskine-house/" class="link-secondary">Erskine House</a>,
+    
+    <a href="/topic/geelong-grammar/" class="link-secondary">Geelong Grammar</a>,
+    
+    <a href="/topic/luna-park/" class="link-secondary">Luna Park</a>,
+    
+    <a href="/topic/melbourne-grammar/" class="link-secondary">Melbourne Grammar</a>,
+    
+    <a href="/topic/milton-johnson/" class="link-secondary">Milton Johnson</a>,
+    
+    <a href="/topic/stanley-bruce/" class="link-secondary">Stanley Bruce</a>,
+    
+    <a href="/topic/wadhurst/" class="link-secondary">Wadhurst</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

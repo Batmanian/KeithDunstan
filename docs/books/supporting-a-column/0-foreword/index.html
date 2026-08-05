@@ -155,17 +155,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Foreword</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             4
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1966-11-11">1966</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            E.W. Tipping&#39;s foreword to &#39;Supporting a Column&#39;, a fellow Melbourne columnist&#39;s tribute to a friendly rival&#39;s daily grind and his knack for making readers laugh out loud in bed each morning.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Supporting A Column">
@@ -173,9 +182,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        E.W. Tipping&#39;s foreword to &#39;Supporting a Column&#39;, a fellow Melbourne columnist&#39;s tribute to a friendly rival&#39;s daily grind and his knack for making readers laugh out loud in bed each morning.
-      </p>-->
       <p>There are two questions a newspaper columnist is called on to answer on an average of about 365 times a year: How do you manage to gather the information for all those items you write about in your column? And: Is that all you do each day-just write those little bits and pieces? What else do you do on the paper?</p>
 <p>I never know how to answer. I always remember asking Red Smith, famous sports columnist of the New York Herald Tribune, how he dealt with questions of this sort, when he was in Mel­ bourne for the 1956 Olympic Games. Red said he had a stock answer: &quot;I always say that writing a daily column is the simplest thing in the world. All you have to do is saddle up at your type­ writer every day, no matter where you are, or where you've been the night before, and start tap, tap, tapping away-every word a drop of blood. And when you've filled the space, waiting there to be filled every day, as inevitable as death, you say to yourself, 'There goes another chip off your brain, Smith, but you've gotta eat!'&quot;</p>
 <p>Then there are those who say to you: &quot;But what a wonderful life you columnists lead, the way you get around, meeting and mixing with 'interesting people' all the time.&quot; My reply to them is usually: &quot;Yes, I suppose in some ways a columnist leads an enviable existence-if only you didn't have to lead it every day, day in day out, week in week out, year in year out ...&quot; How a columnist manages to endure it all is the theme of this book by Keith Dunstan.</p>
@@ -190,7 +196,10 @@ Continue to chapter one: <a href="/books/supporting-a-column/1-supporting-a-colu
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -199,9 +208,13 @@ Continue to chapter one: <a href="/books/supporting-a-column/1-supporting-a-colu
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         E.W. Tipping&#39;s foreword to &#39;Supporting a Column&#39;, a fellow Melbourne columnist&#39;s tribute to a friendly rival&#39;s daily grind and his knack for making readers laugh out loud in bed each morning.
       </p>
 <hr>
@@ -214,9 +227,26 @@ Continue to chapter one: <a href="/books/supporting-a-column/1-supporting-a-colu
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/e.w.-tipping/" class="link-secondary">E.W. Tipping</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

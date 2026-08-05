@@ -184,17 +184,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">This is a fine state to be in</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1967-03-18">18 Mar 1967</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A survey of the deteriorating relations between Victoria and New South Wales, arguing Melbourne&#39;s case for its rightful place in the international air network via the new Tullamarine airport.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -202,9 +211,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A survey of the deteriorating relations between Victoria and New South Wales, arguing Melbourne&#39;s case for its rightful place in the international air network via the new Tullamarine airport.
-      </p>-->
       <p>YOUR CORRESPONDENT is most fearful about the steady deterioration of relations with New South Wales. Perhaps the most dangerous feature is the new Melbourne attitude. Up to the bank crash in 1893, Melburnians never had the slightest doubt that they were the finest gift to mankind and that 'marvellous Melbourne was perfection in itself.' Celebrated writers such as Anthony Trollope wrote of this at length.</p>
 <p>However, the disastrous loss of money in the 'nineties gave us an inferiority complex about New South Welshmen. They never suffered quite the way we did, and only in the past five years have we got over it.</p>
 <p>Symptomatic of our new breed is the letter that appeared in our 'Herald' the other night. It is worthy of a decent quote: 'How sorry I am for those pampered pets of Port Jackson. Sorry not for the position they are in fear of losing, but for the petulant attitude they are adopting now that Melbourne is taking its rightful place in the international air network. For years now they have had first call on millions of air travellers of all types who have passed through Mascot in their droves every day.</p>
@@ -225,7 +231,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -234,9 +243,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A survey of the deteriorating relations between Victoria and New South Wales, arguing Melbourne&#39;s case for its rightful place in the international air network via the new Tullamarine airport.
       </p>
 <hr>
@@ -307,9 +320,84 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/albury-wodonga/" class="link-secondary">Albury-Wodonga</a>,
+    
+    <a href="/topic/anthony-trollope/" class="link-secondary">Anthony Trollope</a>,
+    
+    <a href="/topic/arthur-calwell/" class="link-secondary">Arthur Calwell</a>,
+    
+    <a href="/topic/botany-bay/" class="link-secondary">Botany Bay</a>,
+    
+    <a href="/topic/david-fairbairn/" class="link-secondary">David Fairbairn</a>,
+    
+    <a href="/topic/dr.-darling/" class="link-secondary">Dr. Darling</a>,
+    
+    <a href="/topic/essendon/" class="link-secondary">Essendon</a>,
+    
+    <a href="/topic/geelong-grammar/" class="link-secondary">Geelong Grammar</a>,
+    
+    <a href="/topic/harold-holt/" class="link-secondary">Harold Holt</a>,
+    
+    <a href="/topic/kingsford-smith/" class="link-secondary">Kingsford Smith</a>,
+    
+    <a href="/topic/lady-bolte/" class="link-secondary">Lady Bolte</a>,
+    
+    <a href="/topic/mascot/" class="link-secondary">Mascot</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/melbourne-club/" class="link-secondary">Melbourne Club</a>,
+    
+    <a href="/topic/mr.-askin/" class="link-secondary">Mr. Askin</a>,
+    
+    <a href="/topic/mr.-mcewen/" class="link-secondary">Mr. McEwen</a>,
+    
+    <a href="/topic/mr.-mcmahon/" class="link-secondary">Mr. McMahon</a>,
+    
+    <a href="/topic/mr.-swartz/" class="link-secondary">Mr. Swartz</a>,
+    
+    <a href="/topic/myers/" class="link-secondary">Myers</a>,
+    
+    <a href="/topic/new-south-wales/" class="link-secondary">New South Wales</a>,
+    
+    <a href="/topic/port-jackson/" class="link-secondary">Port Jackson</a>,
+    
+    <a href="/topic/senator-henty/" class="link-secondary">Senator Henty</a>,
+    
+    <a href="/topic/sir-henry-bolte/" class="link-secondary">Sir Henry Bolte</a>,
+    
+    <a href="/topic/sydney/" class="link-secondary">Sydney</a>,
+    
+    <a href="/topic/sydney-opera-house/" class="link-secondary">Sydney Opera House</a>,
+    
+    <a href="/topic/toowoomba/" class="link-secondary">Toowoomba</a>,
+    
+    <a href="/topic/tullamarine/" class="link-secondary">Tullamarine</a>,
+    
+    <a href="/topic/u-thant/" class="link-secondary">U Thant</a>,
+    
+    <a href="/topic/victoria/" class="link-secondary">Victoria</a>,
+    
+    <a href="/topic/victorian-promotion-committee/" class="link-secondary">Victorian Promotion Committee</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

@@ -165,17 +165,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Wild Life in Suburbia</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-06-23">23 Jun 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A Brotherhood of St Laurence survey of a Melbourne housing estate puts hard numbers on Barry Humphries&#39; Mrs Everage caricature, finding suburban Melburnians were overwhelmingly stay-at-home, TV-watching and incurious.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -183,9 +192,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A Brotherhood of St Laurence survey of a Melbourne housing estate puts hard numbers on Barry Humphries&#39; Mrs Everage caricature, finding suburban Melburnians were overwhelmingly stay-at-home, TV-watching and incurious.
-      </p>-->
       <p>DO you want to know what a Melburnian is really like? Barry Humphries was the first to give us some real insight into this. He created the character Mrs Norm Everage of Gallipoli St, Moonee Ponds, and in the monologue &quot;Wild life in suburbia&quot; we gained a beautiful picture of the Everages.</p>
 <p>They lived in a triple-fronted brick house, they had sand-blasted windows, China ducks on the walls, Genoa velvet furniture and as for the carpet, oh, it was a gorgeous burgundy wall-to-wall. They liked the local RSL, they took the vehicle to the footy of a Satterdy arvo and they loved to go to Beryl's for cards. A real treat for tea was sponge fingers. Their son married a lovely Ivanhoe lass and they lived in an L-shaped home.</p>
 <p>What Barry Humphries was trying to say has now been put down in scientific form by the Brotherhood of St Laurence. The Brotherhood always has been interested in social questions and it is probably the most enterprising and thoroughly worthwhile of all Victorian Anglican organisations. The Brotherhood, four years ago, with the help of the Myer Foundation, decided to dissect a typical Melbourne housing estate.</p>
@@ -205,7 +211,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -214,9 +223,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A Brotherhood of St Laurence survey of a Melbourne housing estate puts hard numbers on Barry Humphries&#39; Mrs Everage caricature, finding suburban Melburnians were overwhelmingly stay-at-home, TV-watching and incurious.
       </p>
 <hr>
@@ -249,9 +262,46 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/barry-humphries/" class="link-secondary">Barry Humphries</a>,
+    
+    <a href="/topic/brotherhood-of-st-laurence/" class="link-secondary">Brotherhood of St Laurence</a>,
+    
+    <a href="/topic/david-scott/" class="link-secondary">David Scott</a>,
+    
+    <a href="/topic/gallipoli-street/" class="link-secondary">Gallipoli Street</a>,
+    
+    <a href="/topic/ivanhoe/" class="link-secondary">Ivanhoe</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/moonee-ponds/" class="link-secondary">Moonee Ponds</a>,
+    
+    <a href="/topic/mr-downer/" class="link-secondary">Mr Downer</a>,
+    
+    <a href="/topic/mrs-norm-everage/" class="link-secondary">Mrs Norm Everage</a>,
+    
+    <a href="/topic/myer-foundation/" class="link-secondary">Myer Foundation</a>,
+    
+    <a href="/topic/robert-uren/" class="link-secondary">Robert Uren</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

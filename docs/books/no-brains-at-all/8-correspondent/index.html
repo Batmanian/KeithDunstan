@@ -166,17 +166,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Correspondent</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             27
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1990-11-11">1990</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Newlyweds Keith and Marie honeymoon into a posting as US correspondents, settling into a cosmopolitan Forest Hills apartment block above a rattling subway line, the only non-Jewish tenants in the building.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="No Brains At All">
@@ -184,9 +193,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Newlyweds Keith and Marie honeymoon into a posting as US correspondents, settling into a cosmopolitan Forest Hills apartment block above a rattling subway line, the only non-Jewish tenants in the building.
-      </p>-->
       <p>Of course, as a honeymoon, it was beyond most people's dreams: a flight across the Pacific in a Boeing Stratocruiser. This was a large, four-engine, propeller-driven aircraft. Journalists by order of the Australian Journalists' Association had to travel first class. The Stratocruisers actually had beds - very narrow ones, but beds nevertheless, with curtains like railway Pullmans. So we slept together at an altitude of 4500 to 6000 metres, across the Pacific.</p>
 <p>There were several days at the Royal Hawaiian in Honolulu, days in San Francisco, days in Los Angeles, where we met cowboy star Roy Rogers, then further days crossing the United States via the Santa Fe Railroad. Manhattan was far too expensive for anyone on an Australian salary so our first home was a single-bedroom apartment in Forest Hills, Long Island, not far from the famous tennis club. It was a six-storey apartment building on busy Queens Boulevard, and the Seventh Avenue subway ran right under our kitchen. Every time a train went by it rattled the kitchen cups. The subway was safe, regular, clean, efficient and the best way to come home, particularly late at night. Thirty years later people would not dare step foot in it at any time, day or night.</p>
 <p>The colours of our apartment were bizarre hectic blues and pinks so we immediately set about painting it from end to end. Our neighbours, too, were different; we noticed that everyone in the building except us was Jewish. The owner of the building was also a Jew, Theodore R. Racoosin. He was a rich financier. He had a passion for opera and Persian rugs. His apartment off Fifth Avenue looked like a Persian market. It was not enough just to have them on the floor, Ted Racoosin also covered the walls with rare and beautiful rugs. We did not realise their value, we just thought it a very strange hobby. Ted was a wise and kindly man. Marie and I pointed out to him that we were the only non-Jewish people in the apartment block. We asked him what the others were like.</p>
@@ -288,7 +294,10 @@ No, this was the time for me to get far away, also. It was a chance to join Keit
 Continue to chapter nine: <a href="/books/no-brains-at-all/9-walking-the-tightrope/">Walking the tightrope</a></li>
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -297,9 +306,13 @@ Continue to chapter nine: <a href="/books/no-brains-at-all/9-walking-the-tightro
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Newlyweds Keith and Marie honeymoon into a posting as US correspondents, settling into a cosmopolitan Forest Hills apartment block above a rattling subway line, the only non-Jewish tenants in the building.
       </p>
 <hr>
@@ -334,9 +347,48 @@ Continue to chapter nine: <a href="/books/no-brains-at-all/9-walking-the-tightro
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/australian-journalists-association/" class="link-secondary">Australian Journalists Association</a>,
+    
+    <a href="/topic/colin-bednall/" class="link-secondary">Colin Bednall</a>,
+    
+    <a href="/topic/honolulu/" class="link-secondary">Honolulu</a>,
+    
+    <a href="/topic/imogene-coca/" class="link-secondary">Imogene Coca</a>,
+    
+    <a href="/topic/london/" class="link-secondary">London</a>,
+    
+    <a href="/topic/los-angeles/" class="link-secondary">Los Angeles</a>,
+    
+    <a href="/topic/new-york/" class="link-secondary">New York</a>,
+    
+    <a href="/topic/randal-heymanson/" class="link-secondary">Randal Heymanson</a>,
+    
+    <a href="/topic/sid-caesar/" class="link-secondary">Sid Caesar</a>,
+    
+    <a href="/topic/sir-keith-murdoch/" class="link-secondary">Sir Keith Murdoch</a>,
+    
+    <a href="/topic/theodore-f.-racoosin/" class="link-secondary">Theodore F. Racoosin</a>,
+    
+    <a href="/topic/united-states/" class="link-secondary">United States</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

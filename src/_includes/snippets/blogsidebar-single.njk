@@ -1,22 +1,40 @@
-<div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
-        {{ summary }}
-      </p>
-<hr>
-<h4 class="h6">Related topics</h4>
-<p class="small text-muted mb-3">
+{% macro relatedTopicsList() %}
   {%- set pageTags = tags | filterTagList %}
   {%- for tag in pageTags %}
     {% set tagUrl %}/topic/{{ tag | slug }}/{% endset %}
     <a href="{{ tagUrl | url | safe }}" class="link-secondary">{{ tag }}</a>{% if not loop.last %},{% endif %}
   {%- endfor %}
-</p>
+{% endmacro %}
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        {{ summary }}
+      </p>
+<hr>
+<h4 class="h6">Related topics</h4>
+<p class="small text-muted mb-3">{{ relatedTopicsList() }}</p>
 
 <br>
 <hr>
 <small><a href="{{ '/search/' | url }}" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">{{ relatedTopicsList() }}</p>
+  <small><a href="{{ '/search/' | url }}">View all topics</a></small>
+
+  {% set lastUpdated = page.inputPath | gitLastUpdated %}
+  {% if lastUpdated %}
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="{{ lastUpdated | htmlDateString }}">{{ lastUpdated | readableDate }}</time>
+    </p>
+  {% endif %}
+</div>
 

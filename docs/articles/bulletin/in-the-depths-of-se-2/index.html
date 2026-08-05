@@ -159,17 +159,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">In the Depths of SE 2</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1963-03-16">16 Mar 1963</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Follows up on used-car dealer Emmanuel Margolin&#39;s spectacular financial collapse with a report from the auction of his Toorak household effects, from leopard-skin rugs and a matador suit tailored in Madrid to the Ford Thunderbird he had already bought twice over.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -177,9 +186,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Follows up on used-car dealer Emmanuel Margolin&#39;s spectacular financial collapse with a report from the auction of his Toorak household effects, from leopard-skin rugs and a matador suit tailored in Madrid to the Ford Thunderbird he had already bought twice over.
-      </p>-->
       <p>Do you mind if this week we have episode two in the story of Emmanuel Margolin? When we left you at the end of the last episode on December 29, Emmanuel, the car dealer, was in trouble over the credit squeeze. He had lost £150,000 in a year. He had sold his cattle stud for £30,000. His house was going for £34,500 or more. His Ford Thunderbird and five TV sets were on the block. An auction of all his household effects would take place in the New Year. Now read on . . .</p>
 <p>Well, the auction has taken place and for my money it was easily the best ever seen in this town. Oh, I know what you're going to say. How about the auction of the G. R. Nicholas collection in Lansell Road, Toorak, in August, 1961?</p>
 <p>You're right, that was a beauty. Never will I forget the sterling silver dinner service of 100-odd pieces and the woman who said: &quot;Wouldn't have minded buying that, but what's the use? They've got the damned letter 'N' on every piece.&quot; That auction realised £24,000, but don't you see, there were 1400 pieces in the Nicholas sale. Margolin's stuff was a simple one-day auction, there were only 500 pieces and it all fetched nigh on £20,000.</p>
@@ -205,7 +211,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -214,9 +223,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Follows up on used-car dealer Emmanuel Margolin&#39;s spectacular financial collapse with a report from the auction of his Toorak household effects, from leopard-skin rugs and a matador suit tailored in Madrid to the Ford Thunderbird he had already bought twice over.
       </p>
 <hr>
@@ -237,9 +250,34 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/emmanuel-margolin/" class="link-secondary">Emmanuel Margolin</a>,
+    
+    <a href="/topic/ford-thunderbird/" class="link-secondary">Ford Thunderbird</a>,
+    
+    <a href="/topic/hopetoun-road/" class="link-secondary">Hopetoun Road</a>,
+    
+    <a href="/topic/leonard-joel/" class="link-secondary">Leonard Joel</a>,
+    
+    <a href="/topic/toorak/" class="link-secondary">Toorak</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

@@ -168,17 +168,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">The Great Bank Robbery</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-06-09">09 Jun 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Investigates Melbourne&#39;s record £40,000 bank robbery and the mystery of the thieves&#39; 21 keys, then the Puffing Billy Preservation Society&#39;s fight to reopen the narrow-gauge line through the Dandenongs.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -186,9 +195,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Investigates Melbourne&#39;s record £40,000 bank robbery and the mystery of the thieves&#39; 21 keys, then the Puffing Billy Preservation Society&#39;s fight to reopen the narrow-gauge line through the Dandenongs.
-      </p>-->
       <p>WE Melburnians almost take a pride in our bank robberies. We do them rather better than anybody else. We have just had the biggest bank robbery in the history of the country, more than £40,000 stolen from an ES and A bank in the city.</p>
 <p>Then on August 7, 1952, there was the £33,593 robbery still unsolved, from a Mayne Nickless armored car in the city. On March 29 last year £31,000 was stolen from a Mayne Nickless truck that was delivering a payroll to the State offices.</p>
 <p>These were Australian records, admittedly not in world class. After all, in the famed Boston Brinks robbery of 1950 the robbers got away with $2,775,395.12 cents. Our Melburnian robbers showed no unnecessary greed. There is no record of their having stolen any pennies or halfpennies.</p>
@@ -216,7 +222,10 @@ Never had 21 before.&quot;</em></p>
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -225,9 +234,13 @@ Never had 21 before.&quot;</em></p>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Investigates Melbourne&#39;s record £40,000 bank robbery and the mystery of the thieves&#39; 21 keys, then the Puffing Billy Preservation Society&#39;s fight to reopen the narrow-gauge line through the Dandenongs.
       </p>
 <hr>
@@ -266,9 +279,52 @@ Never had 21 before.&quot;</em></p>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/australian-railway-historical-society/" class="link-secondary">Australian Railway Historical Society</a>,
+    
+    <a href="/topic/belgrave/" class="link-secondary">Belgrave</a>,
+    
+    <a href="/topic/dandenong-ranges/" class="link-secondary">Dandenong Ranges</a>,
+    
+    <a href="/topic/es-and-a-bank/" class="link-secondary">ES and A Bank</a>,
+    
+    <a href="/topic/flinders-lane/" class="link-secondary">Flinders Lane</a>,
+    
+    <a href="/topic/gembrook/" class="link-secondary">Gembrook</a>,
+    
+    <a href="/topic/mayne-nickless/" class="link-secondary">Mayne Nickless</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/puffing-billy/" class="link-secondary">Puffing Billy</a>,
+    
+    <a href="/topic/puffing-billy-preservation-society/" class="link-secondary">Puffing Billy Preservation Society</a>,
+    
+    <a href="/topic/russell-street/" class="link-secondary">Russell Street</a>,
+    
+    <a href="/topic/s.-a.-von-bertouch/" class="link-secondary">S. A. von Bertouch</a>,
+    
+    <a href="/topic/upper-ferntree-gully/" class="link-secondary">Upper Ferntree Gully</a>,
+    
+    <a href="/topic/wonga-park/" class="link-secondary">Wonga Park</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

@@ -166,17 +166,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">The Creative Demon</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             21
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1994-11-11">1994</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Keith and Marie buy Poplar Bend, a small Mornington Peninsula property to grow their own wine, only to find it infested with Baron von Mueller&#39;s imported blackberries and a sheep killed by marauding pet dogs.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="My Life With The Demon">
@@ -184,9 +193,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Keith and Marie buy Poplar Bend, a small Mornington Peninsula property to grow their own wine, only to find it infested with Baron von Mueller&#39;s imported blackberries and a sheep killed by marauding pet dogs.
-      </p>-->
       <p>Human beings are beset by strange urges, nearly all of them financially disastrous. Some want to own a race horse, some in their dreams of glory see themselves in command of a 20 metre yacht, great pregnant spinnaker billowing out front, competing in the Sydney Hobart yacht race. Some spend a life time trying to write the great Australian novel. Others, Walter Mitty style, have the urge to produce their very own chardonnay, pinot or illustrious cabernet. They see themselves being the perfect host, producing the wine of the evening. Giving a modest Ray Milland smile they say: &quot;Actually, this is one of ours.&quot; Oh, there are many of these. Just take Victoria's Morninton Peninsula. At the last count there were over 90 vineyards. It began with Nat and Rosalie White's Main Ridge Estate in 1976. Baillieu Myer followed soon after with his Elgee Park, but in the 1980s the vineyards seemed to breed, lawyers, doctors, school teachers, engineers. They were spawning like Mercedes-Benzes in Heyington Place, Toorak. Who didn't actually own a vineyard?</p>
 <p>In 1985 we bought a small property, Poplar Bend, at Main Ridge. Few people could ever find Main Ridge. It had no downtown, no shopping centre, no post office, but the Ridge was a gorgeous spine adjacent to Red Hill, which ran down from Arthur's Seat, overlooking Port Phillip Bay. We loved Poplar Bend from the moment the real estate man started to purr: &quot;I would buy this immediately if I were you. This is a life time opportunity. Only rarely do properties under five acres come to hand on the Peninsula.&quot; A look of immense sadness came over his face as he leant against his Mercedes: &quot;Ohhh, I only wish we could find more of them. What an opportunity this is!&quot; There was not a second to be lost. He had at least two other buyers who were looking at the same property. Unless we made our move quickly, oh dear, and he wiped his brow, this priceless jewel would be lost. We were innocents. Always he told his clients that there was another buyer just waiting to grab the priceless jewel. But we were hooked.</p>
 <p>Ah but it did seem a priceless jewel. The owners had set the scene beautifully. There were sheep grazing, ducks were running here and there. We never heard of the ducks again. Did they call up Rent-a-Duck just for the occasion? Then one of the bedrooms was set up like a music studio with sheet music and a clarinet resting on a stand. Ah, but it was lovely. To the West there was an open Paddock, the Eastern half was covered with lofty stringybarks and I loved them. Later we discovered the stringybarks dropped branches, bark and assorted paraphenalia whenever the wind rose above 15 knots and they were positioned perfectly for depositing leaves in the gutters. It is well known that the gumleaf is designed like an aerofoil and has the travelling skills of a first class glider. The leaves would travel anything up to 400 metres if there was the opportunity of settling in a Dunstan gutter. Indeed when the stringybarks were performing at their brilliant best the gutters had to be cleared every two weeks. We did actually notice that a third of the land was covered with blackberries, but these would give us a summer feast. Marie could make the most superb blackberry pie.</p>
@@ -249,7 +255,10 @@ The unfortunate creature who had committed a crime was taken out, told to get do
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -258,9 +267,13 @@ The unfortunate creature who had committed a crime was taken out, told to get do
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Keith and Marie buy Poplar Bend, a small Mornington Peninsula property to grow their own wine, only to find it infested with Baron von Mueller&#39;s imported blackberries and a sheep killed by marauding pet dogs.
       </p>
 <hr>
@@ -295,9 +308,48 @@ The unfortunate creature who had committed a crime was taken out, told to get do
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/wine/" class="link-secondary">Wine</a>,
+    
+    <a href="/topic/baron-ferdinand-von-mueller/" class="link-secondary">Baron Ferdinand von Mueller</a>,
+    
+    <a href="/topic/john-and-patricia-brown/" class="link-secondary">John and Patricia Brown</a>,
+    
+    <a href="/topic/jean-antoine-chaptal/" class="link-secondary">Jean-Antoine Chaptal</a>,
+    
+    <a href="/topic/david-dunstan/" class="link-secondary">David Dunstan</a>,
+    
+    <a href="/topic/andrew-hickinbotham/" class="link-secondary">Andrew Hickinbotham</a>,
+    
+    <a href="/topic/neill-robb/" class="link-secondary">Neill Robb</a>,
+    
+    <a href="/topic/ted-zakorski/" class="link-secondary">Ted Zakorski</a>,
+    
+    <a href="/topic/joseph-swan/" class="link-secondary">Joseph Swan</a>,
+    
+    <a href="/topic/anthony-hanson/" class="link-secondary">Anthony Hanson</a>,
+    
+    <a href="/topic/john-and-marjorie-paterson/" class="link-secondary">John and Marjorie Paterson</a>,
+    
+    <a href="/topic/peter-mcmahon/" class="link-secondary">Peter McMahon</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

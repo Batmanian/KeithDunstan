@@ -165,17 +165,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Justus Jorgensen</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             20
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1980-11-11">1980</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Profile of Justus Jorgensen, the megalomaniac painter-priest who built the artists&#39; colony of Montsalvat at Eltham out of demolished Melbourne buildings and disciples who gave him their money, their labour and their lives.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Ratbags">
@@ -183,9 +192,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Profile of Justus Jorgensen, the megalomaniac painter-priest who built the artists&#39; colony of Montsalvat at Eltham out of demolished Melbourne buildings and disciples who gave him their money, their labour and their lives.
-      </p>-->
       <strong>I</strong>T IS NOT MANY YEARS since Justus Jorgensen died, but nothing much has changed at Montsalvat. His vast overpowering personality still seems to seep out of every mud brick and to lurk behind every bluestone block. Four thousand of his paintings are still there and at every turn one seems to be confronted by yet another self portrait. There he is with his white Van Dyck beard, no smiles, no gentleness, but the paintings always seem to catch the look of the visionary, the mystic.<br><br>
 Jorgensen, aged 82, died on the 15th May 1975 and there was even art involved in that too. While he was still at the funeral parlor art students made death masks of his face and hands. Jorgy's original dream was to be buried in his own chapel, but there was a fuss about that. You cannot inter your remains where you like in this world. However there is a cemetery next door and by special arrangement he managed to get a burial plot right at the back of the chapel.<br><br>
 So in this Eltham cemetery there are six mounds, nothing else, not even a marker to advise who is underneath. The six are Jorgensen, his wife Lily, Arthur Munday, lawyer; Eric Pedersen, carpenter; Mervyn Skipper, journalist and his wife Lena. Jorgensen's son Sebastian can tell you which grave is which, but few others can.<br><br>
@@ -280,7 +286,10 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-28">28 Jul 2026</time>
         </footer>
       
@@ -289,9 +298,13 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Profile of Justus Jorgensen, the megalomaniac painter-priest who built the artists&#39; colony of Montsalvat at Eltham out of demolished Melbourne buildings and disciples who gave him their money, their labour and their lives.
       </p>
 <hr>
@@ -324,9 +337,46 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/justus-jorgensen/" class="link-secondary">Justus Jorgensen</a>,
+    
+    <a href="/topic/montsalvat/" class="link-secondary">Montsalvat</a>,
+    
+    <a href="/topic/eltham/" class="link-secondary">Eltham</a>,
+    
+    <a href="/topic/max-meldrum/" class="link-secondary">Max Meldrum</a>,
+    
+    <a href="/topic/lily-jorgensen/" class="link-secondary">Lily Jorgensen</a>,
+    
+    <a href="/topic/helen-skipper/" class="link-secondary">Helen Skipper</a>,
+    
+    <a href="/topic/mervyn-skipper/" class="link-secondary">Mervyn Skipper</a>,
+    
+    <a href="/topic/betty-roland/" class="link-secondary">Betty Roland</a>,
+    
+    <a href="/topic/sebastian-jorgensen/" class="link-secondary">Sebastian Jorgensen</a>,
+    
+    <a href="/topic/sigmund-jorgensen/" class="link-secondary">Sigmund Jorgensen</a>,
+    
+    <a href="/topic/phillip-adams/" class="link-secondary">Phillip Adams</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-28">28 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

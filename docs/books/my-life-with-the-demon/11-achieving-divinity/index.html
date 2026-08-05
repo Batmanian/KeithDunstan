@@ -168,17 +168,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Achieving the divinity</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             23
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1994-11-11">1994</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A love letter to champagne, from gold-rush diggers smashing empty bottles for skittle pins to Len Evans&#39;s rule of opening a good bottle for any old friend, whatever the hour.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="My Life With The Demon">
@@ -186,9 +195,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A love letter to champagne, from gold-rush diggers smashing empty bottles for skittle pins to Len Evans&#39;s rule of opening a good bottle for any old friend, whatever the hour.
-      </p>-->
       <p>In April 1779 Dr Johnson said: &quot;Claret is the liquor for boys; port for men; but he who aspires to be a hero drinks brandy.&quot; Sadly I will never make a hero. Heroics with brandy do terrible things to the brain and spirit, and I found out early, life is easier if one avoids any wine that is fortified. It is a pity that the most beautiful drinks have to contain alcohol, for it is the taste that is important, not what it does to the brain. Dr Johnson on that same day in 1779 said: &quot;A man who exposes himself when intoxicated has not the art of getting drunk.&quot;</p>
 <p>So it is easier to be artful if the percentage of alcohol is not high. Your gentle chardonnay or riesling may contain 11 to 12 per cent, your sherry 17 per cent, your port 18 to 20 and your whisky or brandy 40 per cent.</p>
 <p>The 11th commandment should be - keep away from all spirits. The most beautiful, the most exquisitely versatile drink is champagne. It is the one drink that can be enjoyed for morning tea, for afternoon tea, for a celebration at midnight. It goes beautifully with chicken sandwiches, it is wonderful with strawberries, superb with caviar or even bread and butter and Vegemite. It is the perfect aperitif before dinner and I once attended a dinner in France where champagne was served with every course, different champagnes admittedly, but champagne for all that.</p>
@@ -267,7 +273,10 @@
 <p class="lead">Follow onto the next chapter, <a href="/books/my-life-with-the-demon/12-the-money-demon">The money demon</a></p>
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -276,9 +285,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A love letter to champagne, from gold-rush diggers smashing empty bottles for skittle pins to Len Evans&#39;s rule of opening a good bottle for any old friend, whatever the hour.
       </p>
 <hr>
@@ -317,9 +330,52 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/wine/" class="link-secondary">Wine</a>,
+    
+    <a href="/topic/len-evans/" class="link-secondary">Len Evans</a>,
+    
+    <a href="/topic/greg-gallagher/" class="link-secondary">Greg Gallagher</a>,
+    
+    <a href="/topic/kathleen-quealy/" class="link-secondary">Kathleen Quealy</a>,
+    
+    <a href="/topic/dr-samuel-johnson/" class="link-secondary">Dr Samuel Johnson</a>,
+    
+    <a href="/topic/david-dunstan/" class="link-secondary">David Dunstan</a>,
+    
+    <a href="/topic/richard-ernest-nowell-ren-twopeny/" class="link-secondary">Richard Ernest Nowell -REN- Twopeny</a>,
+    
+    <a href="/topic/les-francis/" class="link-secondary">Les Francis</a>,
+    
+    <a href="/topic/ian-mackenzie/" class="link-secondary">Ian Mackenzie</a>,
+    
+    <a href="/topic/christopher-daniel/" class="link-secondary">Christopher Daniel</a>,
+    
+    <a href="/topic/william-painter/" class="link-secondary">William Painter</a>,
+    
+    <a href="/topic/darren-kelly/" class="link-secondary">Darren Kelly</a>,
+    
+    <a href="/topic/ian-home/" class="link-secondary">Ian Home</a>,
+    
+    <a href="/topic/rocco-tallarida/" class="link-secondary">Rocco Tallarida</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

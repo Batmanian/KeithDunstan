@@ -164,17 +164,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">The Capitol and ‘The World&#39;s Mightiest Spectacle.’</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             5
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1964-01-25">25 Jan 1964</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            On the closure of Walter Burley Griffin&#39;s Capitol Theatre, recalling its 1924 opening with &quot;The Ten Commandments&quot; and its Egyptian-god stage prelude, £15,000 Wurlitzer organ, and famous prismatic ceiling.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -182,9 +191,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        On the closure of Walter Burley Griffin&#39;s Capitol Theatre, recalling its 1924 opening with &quot;The Ten Commandments&quot; and its Egyptian-god stage prelude, £15,000 Wurlitzer organ, and famous prismatic ceiling.
-      </p>-->
       <h1>Vale Osiris and the Mighty Wurlitzer</h1>
 <p>For seven years now we have watched our movie houses being turned into offices, storage sheds, bowling alleys, even into artificial ski runs and, frankly, nobody has cared very much.  But now we have bitter news.  On February 5 the Capitol in Swanston Street, right opposite the Town Hall, will be shooting its last reel.</p>
 <p>To be honest, I hadn't thought much about the Capitol for years.  All I remembered was that it had marvellous, deep, leather chairs in the lounge, better than the chairs in the Melbourne Club, and it had this superb ceiling, which delicately and beautifully kept changing color.  The ceiling was always better than the movie.</p>
@@ -207,7 +213,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -216,9 +225,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         On the closure of Walter Burley Griffin&#39;s Capitol Theatre, recalling its 1924 opening with &quot;The Ten Commandments&quot; and its Egyptian-god stage prelude, £15,000 Wurlitzer organ, and famous prismatic ceiling.
       </p>
 <hr>
@@ -249,9 +262,44 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/cecil-b.-de-mille/" class="link-secondary">Cecil B. de Mille</a>,
+    
+    <a href="/topic/eric-westbrook/" class="link-secondary">Eric Westbrook</a>,
+    
+    <a href="/topic/jan-rubini/" class="link-secondary">Jan Rubini</a>,
+    
+    <a href="/topic/marion-mahoney/" class="link-secondary">Marion Mahoney</a>,
+    
+    <a href="/topic/melbourne-club/" class="link-secondary">Melbourne Club</a>,
+    
+    <a href="/topic/national-gallery/" class="link-secondary">National Gallery</a>,
+    
+    <a href="/topic/swanston-street/" class="link-secondary">Swanston Street</a>,
+    
+    <a href="/topic/the-capitol-theatre/" class="link-secondary">The Capitol Theatre</a>,
+    
+    <a href="/topic/the-herald/" class="link-secondary">The Herald</a>,
+    
+    <a href="/topic/walter-burley-griffin/" class="link-secondary">Walter Burley Griffin</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

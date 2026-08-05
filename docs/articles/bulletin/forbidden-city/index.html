@@ -169,17 +169,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Forbidden City</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-04-14">14 Apr 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            An undercover survey of Melbourne&#39;s new strip-tease clubs, comparing the silent, appraising Melbourne audience to Sydney&#39;s, before turning to the Richmond Brewery&#39;s absorption into Carlton and United on Friday the 13th.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -187,9 +196,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        An undercover survey of Melbourne&#39;s new strip-tease clubs, comparing the silent, appraising Melbourne audience to Sydney&#39;s, before turning to the Richmond Brewery&#39;s absorption into Carlton and United on Friday the 13th.
-      </p>-->
       <p>AS if this city were not wicked enough! We suffered the booze in the Gardens at Moomba time, we have seen the off-course tote grow to an immense industry, we even have illicit baking on Saturdays, but now, will you believe it? We have followed the downward path of Sydney and are putting in our evenings gazing at strippers.</p>
 <p>Your elderly pioneer—purely as a social study—has had a peep at these strip-tease shows. One is at the Ritz Hotel in Fitzroy Street, St Kilda, where the show rejoices under the title &quot;Forbidden City.&quot; Six strippers are peeling there for the dinner-dance twice nightly, seven days a week including Sunday. (Although you won't be able to see them on Good Friday.) The girls, it has to be admitted, were quite shapely. They peeled down to a G-string, plus two gold milk bottle tops.</p>
 <p>The show is put on for the Ritz by two young entrepreneurs, Ray Bolwell and John Parkin. Ray Bolwell says the police don't object as long as they use a good type of girl and they don't make it objectionable. He says that these times the flat rate for strip-tease artists is £50 a week. For a top-liner you pay £100 a week. But it all seems to be quite popular. In 10 weeks the show has been seen by 10,000 Melburnians.</p>
@@ -209,7 +215,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -218,9 +227,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         An undercover survey of Melbourne&#39;s new strip-tease clubs, comparing the silent, appraising Melbourne audience to Sydney&#39;s, before turning to the Richmond Brewery&#39;s absorption into Carlton and United on Friday the 13th.
       </p>
 <hr>
@@ -261,9 +274,54 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/alphington/" class="link-secondary">Alphington</a>,
+    
+    <a href="/topic/britannia-hotel/" class="link-secondary">Britannia Hotel</a>,
+    
+    <a href="/topic/carlton-and-united-breweries/" class="link-secondary">Carlton and United Breweries</a>,
+    
+    <a href="/topic/commissioner-porter/" class="link-secondary">Commissioner Porter</a>,
+    
+    <a href="/topic/duncan-fraser-smith/" class="link-secondary">Duncan Fraser Smith</a>,
+    
+    <a href="/topic/gaye-abandon/" class="link-secondary">Gaye Abandon</a>,
+    
+    <a href="/topic/john-charrington/" class="link-secondary">John Charrington</a>,
+    
+    <a href="/topic/john-l.-beech/" class="link-secondary">John L. Beech</a>,
+    
+    <a href="/topic/john-parkin/" class="link-secondary">John Parkin</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/mildura/" class="link-secondary">Mildura</a>,
+    
+    <a href="/topic/ray-bolwell/" class="link-secondary">Ray Bolwell</a>,
+    
+    <a href="/topic/richmond-brewery/" class="link-secondary">Richmond Brewery</a>,
+    
+    <a href="/topic/ritz-hotel/" class="link-secondary">Ritz Hotel</a>,
+    
+    <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

@@ -166,17 +166,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">A Little Red Rented Rowboat</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-07-28">28 Jul 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A tour of Melbourne&#39;s National Boat Show, where the speedboat has replaced the car as the new status symbol, headlined by Bob Dyer&#39;s near-£4000 shark-fishing cruiser Tennessee IV.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -184,9 +193,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A tour of Melbourne&#39;s National Boat Show, where the speedboat has replaced the car as the new status symbol, headlined by Bob Dyer&#39;s near-£4000 shark-fishing cruiser Tennessee IV.
-      </p>-->
       <p>BACK in the 1880s bicycle shows were all the rage in Melbourne. The popular journals carried advertisements which pointed out that the bicycle was splendid for deportment and it was quite untrue that ladies who took to the health-giving exercise ever developed any masculine tendencies. At the turn of the century the Austral wheel race on the Melbourne Cricket Ground was outrivalling the Melbourne Cup, and, heaven forgive us, there were bookmakers in the MCG reserve, calling the prices.</p>
 <p>The bicycle went out of vogue and motor shows became the thing. As the Essex, Buick and Packard became progressively more bulbous and beautiful, the Motor Show became Melbourne's most important exhibition. That was then. Now we have the National Boat Show. There are 330 boats on display compared with 200 cars and trucks at the last Motor Show and the boat people are claiming victory.</p>
 <p>Aquatically-minded people of Sydney, Brisbane, Perth and Surfers' Paradise might think we are behind in this matter, but this is not true. We pioneered the high bicycle and we can also pioneer the twin-Mercury, 40 knot, trailer-born cruiser. The boat is the new status symbol and we realise it is not so much what you drive but what you tow behind. At Portsea you can even get away with a 1956 Chev. provided that you have a 1962 runabout on the trailer.</p>
@@ -208,7 +214,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -217,9 +226,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A tour of Melbourne&#39;s National Boat Show, where the speedboat has replaced the car as the new status symbol, headlined by Bob Dyer&#39;s near-£4000 shark-fishing cruiser Tennessee IV.
       </p>
 <hr>
@@ -254,9 +267,48 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/bob-dyer/" class="link-secondary">Bob Dyer</a>,
+    
+    <a href="/topic/chevrolet/" class="link-secondary">Chevrolet</a>,
+    
+    <a href="/topic/dolly-dyer/" class="link-secondary">Dolly Dyer</a>,
+    
+    <a href="/topic/exhibition-building/" class="link-secondary">Exhibition Building</a>,
+    
+    <a href="/topic/ford-thunderbird/" class="link-secondary">Ford Thunderbird</a>,
+    
+    <a href="/topic/johnnie-o&#39;keefe/" class="link-secondary">Johnnie O&#39;Keefe</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/national-boat-show/" class="link-secondary">National Boat Show</a>,
+    
+    <a href="/topic/portsea/" class="link-secondary">Portsea</a>,
+    
+    <a href="/topic/southern-cross-hotel/" class="link-secondary">Southern Cross Hotel</a>,
+    
+    <a href="/topic/sydney-heads/" class="link-secondary">Sydney Heads</a>,
+    
+    <a href="/topic/tennessee-iv/" class="link-secondary">Tennessee IV</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

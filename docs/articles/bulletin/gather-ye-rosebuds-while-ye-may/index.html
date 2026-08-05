@@ -162,17 +162,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Gather Ye Rosebuds While Ye May</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1963-01-05">05 Jan 1963</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A satirical guide to how Victorians spend their summer by the water, from Portsea&#39;s status-symbol boat sheds and Harold Holt&#39;s earnest spearfishing hobby to Lake Eildon&#39;s flotilla of cabin cruisers and Rosebud&#39;s vast camping ground.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -180,9 +189,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A satirical guide to how Victorians spend their summer by the water, from Portsea&#39;s status-symbol boat sheds and Harold Holt&#39;s earnest spearfishing hobby to Lake Eildon&#39;s flotilla of cabin cruisers and Rosebud&#39;s vast camping ground.
-      </p>-->
       <p>FOR those who like peace this is a beautiful time to be in Melbourne. The city is empty. It is possible to find parking spaces both in Collins Street and at the saloon bar in Young and Jackson's. One could pass away in one's chair at the Savage Club and it would be a week before the body was discovered.</p>
 <p>Where have they gone? Mostly to the seaside, but just in case you have that curious intercolonial idea that there is no such thing as a beautiful seaside here, this week we give you an everyman's guide to on the beach in Victoria.</p>
 <p>If you want tone and prestige, Mt Eliza and Mt Martha are good, then there is nothing to equal Portsea. You see, Portsea is the Toorak of the Peninsula, a very good term because, actually, all Toorak IS at Portsea in January. For example, the Harold Holts are there. Mr Holt sets off spear fishing every day. This hobby of his is not a myth put out by the Publicity Department of the Liberal Party. Harold Holt is as earnest about this as a 16-year-old. He spends so long ploughing along with his snorkel at the rock pools, some of the solid Portsonians, who have suffered from his policies these past 24 months, hopefully wonder whether he has perished out there.</p>
@@ -203,7 +209,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -212,9 +221,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A satirical guide to how Victorians spend their summer by the water, from Portsea&#39;s status-symbol boat sheds and Harold Holt&#39;s earnest spearfishing hobby to Lake Eildon&#39;s flotilla of cabin cruisers and Rosebud&#39;s vast camping ground.
       </p>
 <hr>
@@ -241,9 +254,40 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/harold-holt/" class="link-secondary">Harold Holt</a>,
+    
+    <a href="/topic/lake-eildon/" class="link-secondary">Lake Eildon</a>,
+    
+    <a href="/topic/lorne/" class="link-secondary">Lorne</a>,
+    
+    <a href="/topic/portsea/" class="link-secondary">Portsea</a>,
+    
+    <a href="/topic/rosebud/" class="link-secondary">Rosebud</a>,
+    
+    <a href="/topic/savage-club/" class="link-secondary">Savage Club</a>,
+    
+    <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+    
+    <a href="/topic/young-and-jacksons-hotel/" class="link-secondary">Young and Jacksons Hotel</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

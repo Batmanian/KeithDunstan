@@ -163,17 +163,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Obituary: Richard Cudlipp</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             4
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1999-05-12">12 May 1999</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            An obituary for advertising executive Dick Cudlipp, who rose to managing director of George Patterson Bates in 1965, drove Carlton and United Breweries&#39; campaign against the Courage Brewery, and later became a Western District cattle and vineyard grazier.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Age">
@@ -181,9 +190,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        An obituary for advertising executive Dick Cudlipp, who rose to managing director of George Patterson Bates in 1965, drove Carlton and United Breweries&#39; campaign against the Courage Brewery, and later became a Western District cattle and vineyard grazier.
-      </p>-->
       <p>One expects a top man in advertising to have charm and style. Dick Cudlipp, who has died from cancer after a short illness at the age of 78, had these qualities in abundance. He rose swiftly to become, in 1965, the managing director of George Patterson Bates in Victoria.</p>
 <p>Bates had just become part-owner and everything had gone a little flat. A number of bright new agencies were claiming they had all the flair, all the originality. But it was Cudlipp who had the flair and secured the big accounts. One was Carlton and United Breweries, which incredibly Patterson's still has, 32 years later.</p>
 <p>The first big battle was against the Courage Brewery. A market survey recommended that the way to fight Courage was to establish one big brand and meet the opposition head-on.</p>
@@ -206,7 +212,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -215,9 +224,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         An obituary for advertising executive Dick Cudlipp, who rose to managing director of George Patterson Bates in 1965, drove Carlton and United Breweries&#39; campaign against the Courage Brewery, and later became a Western District cattle and vineyard grazier.
       </p>
 <hr>
@@ -246,9 +259,42 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/bendigo/" class="link-secondary">Bendigo</a>,
+    
+    <a href="/topic/carlton-and-united-breweries/" class="link-secondary">Carlton and United Breweries</a>,
+    
+    <a href="/topic/courage-brewery/" class="link-secondary">Courage Brewery</a>,
+    
+    <a href="/topic/george-patterson-bates/" class="link-secondary">George Patterson Bates</a>,
+    
+    <a href="/topic/kingston-heath/" class="link-secondary">Kingston Heath</a>,
+    
+    <a href="/topic/kyneton/" class="link-secondary">Kyneton</a>,
+    
+    <a href="/topic/richard-cudlipp/" class="link-secondary">Richard Cudlipp</a>,
+    
+    <a href="/topic/sydney-grammar/" class="link-secondary">Sydney Grammar</a>,
+    
+    <a href="/topic/victoria-bitter/" class="link-secondary">Victoria Bitter</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

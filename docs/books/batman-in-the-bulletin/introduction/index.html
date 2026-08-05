@@ -164,17 +164,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Introduction</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             19
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="2004-11-11">2004</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Keith Dunstan explains how Bulletin editor Peter Hastings recruited him to write a Melbourne column under the pseudonym &#39;Batman&#39; in 1962, to get around his Herald and Weekly Times contract, and looks back on the wowserish, soon-to-vanish Melbourne of the 1960s that the column chronicled.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Batman In The Bulletin">
@@ -182,9 +191,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Keith Dunstan explains how Bulletin editor Peter Hastings recruited him to write a Melbourne column under the pseudonym &#39;Batman&#39; in 1962, to get around his Herald and Weekly Times contract, and looks back on the wowserish, soon-to-vanish Melbourne of the 1960s that the column chronicled.
-      </p>-->
       <p>In 1961 Donald Horne was editing a lively fortnightly The Observer, which he started in 1958. On October 19, famed Sydney newspaper tyro, Sir Frank Packer bought the Bulletin on behalf of Australian Consolidated Press. He called Horne and said, 'I've bought The Bulletin. Which will we kill off, it or The Observer.' This was a tough choice for Donald. Did he kill off his baby or did he kill off the oldest journal in the country. He chose to be editor of The Bulletin.</p>
 <p>The Bulletin, of course, is Australia's most celebrated and important magazine. It began on 31 January 1880 and depended heavily on lively, pithy contributions from its readers. In its early days it was 'the journalistic javelin', a vehicle for all manner of radical and nationalistic views. Under its founding editor, J.F. Archibald, it published such great names as the artists, Norman and Lionel Lindsay, Will Dyson, David Low, and writers, Henry Lawson, A.B. Paterson, A.G. Stephens and Joseph Furphy. By 1961 it was like an ageing relative, operating on a walking frame. It had been on the market for some time. It was losing money and its circulation had dropped below 30,000. Its masthead still carried the amazing message: 'Australia for the White Man.' It had the same pink cover just as it had back in the 19th century and the quality of its newsprint had never improved. The politics were archaic and Donald Horne wondered if any of the staff had been outside their front door in 40 years.</p>
 <p>Horne had two stints as editor. The first was for a year, then he went off to be a creative director for Jackson Wain Advertising, but his ambitions extended beyond producing advertising copy for big clients. It was during this time that he wrote his famous work The Lucky Country. He returned as managing editor in 1967 and remained until 1972. The new 'Bully' was almost unrecognizable from the old, and the cry of pain from loyal readers was huge. Eventually this subsided and Horne gathered a remarkable range of writers such as Max Harris, Geoffrey Dutton, Desmond O'Grady, Patricia Rolfe, Peter Hastings, a marvellous cartoonist in Les Tanner and the smartest Canberra correspondent, Alan Reid.</p>
@@ -230,7 +236,10 @@ Continue to: <a href="/articles/bulletin/when-hoyts-was-hoyts">Bring back the pa
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -239,9 +248,13 @@ Continue to: <a href="/articles/bulletin/when-hoyts-was-hoyts">Bring back the pa
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Keith Dunstan explains how Bulletin editor Peter Hastings recruited him to write a Melbourne column under the pseudonym &#39;Batman&#39; in 1962, to get around his Herald and Weekly Times contract, and looks back on the wowserish, soon-to-vanish Melbourne of the 1960s that the column chronicled.
       </p>
 <hr>
@@ -272,9 +285,44 @@ Continue to: <a href="/articles/bulletin/when-hoyts-was-hoyts">Bring back the pa
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/peter-hastings/" class="link-secondary">Peter Hastings</a>,
+    
+    <a href="/topic/donald-horne/" class="link-secondary">Donald Horne</a>,
+    
+    <a href="/topic/sir-frank-packer/" class="link-secondary">Sir Frank Packer</a>,
+    
+    <a href="/topic/sir-john-williams/" class="link-secondary">Sir John Williams</a>,
+    
+    <a href="/topic/douglas-wilkie/" class="link-secondary">Douglas Wilkie</a>,
+    
+    <a href="/topic/anti-football-league/" class="link-secondary">Anti-Football League</a>,
+    
+    <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+    
+    <a href="/topic/eastern-market/" class="link-secondary">Eastern Market</a>,
+    
+    <a href="/topic/whelan-the-wrecker/" class="link-secondary">Whelan the Wrecker</a>,
+    
+    <a href="/topic/occidental-hotel/" class="link-secondary">Occidental Hotel</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

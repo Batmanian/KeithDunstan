@@ -155,17 +155,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Bridge Disaster Divides Hobart</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             3
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1988-01-06">1988</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            The bulk carrier Lake Illawarra rams and collapses the Tasman Bridge into the Derwent, killing cars&#39; worth of Sunday-night drivers and cutting Hobart in two.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="A Day In The Life Of Australia">
@@ -173,9 +182,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        The bulk carrier Lake Illawarra rams and collapses the Tasman Bridge into the Derwent, killing cars&#39; worth of Sunday-night drivers and cutting Hobart in two.
-      </p>-->
       <h4>6 January 1975</h4>
 <p>Hobart is a divided city today. The Lake Illawara, a 10000 tonne bulk carrier rammed the Tasman Bridge over the Derwent River. The ship sank and 70 metres of the bridge crashed into the river.</p>
 <p>Five people, including four seamen, are reported dead, and 15 missing.Inspector A.D. Parker, officer-in-charge of the Bellerive Police Station, said at least three cars plunged into the river when a whole span collapsed. 'God only knows how many people were in those cars' he said. 'They could have been filled with women and children. We do not know how many people we have rescued. The area around the bridge and the sunken ship is filled with light craft, a lot of private boat owners rushed to the scene to help. It is pitch black out there and we are trying to get some lights but the visibility is terribly bad.'</p>
@@ -187,7 +193,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -196,9 +205,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         The bulk carrier Lake Illawarra rams and collapses the Tasman Bridge into the Derwent, killing cars&#39; worth of Sunday-night drivers and cutting Hobart in two.
       </p>
 <hr>
@@ -211,9 +224,26 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/hobart-bridge-disaster/" class="link-secondary">Hobart bridge disaster</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

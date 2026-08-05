@@ -160,17 +160,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">All the Queen&#39;s Men</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             5
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1963-03-09">09 Mar 1963</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            On the exhausted vocabulary of Royal Tour reporting nine years after &quot;obviously&quot; and &quot;radiant&quot; were banned in 1954, and on Melbourne&#39;s noticeably cooler, less crowd-mobbed reception for the Queen&#39;s 1963 visit compared with her first.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -178,9 +187,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        On the exhausted vocabulary of Royal Tour reporting nine years after &quot;obviously&quot; and &quot;radiant&quot; were banned in 1954, and on Melbourne&#39;s noticeably cooler, less crowd-mobbed reception for the Queen&#39;s 1963 visit compared with her first.
-      </p>-->
       <p>Ah, at last I have caught you away from your TV set, ready at last to read a printed word about the Royal Tour. Do have a little sympathy. Imagine the problems of covering such an assignment—magically always there on the wharf waving when the Queen arrives, always there when she departs. I grow accustomed to your face.</p>
 <p>But here's the rub. How do you keep up the brilliance of your prose? How can you bring forth lovely phrases about the Queen to equal the beauty of those that you used the day before. It's hell.</p>
 <p>Back in 1954 two words &quot;obviously&quot; and &quot;radiant&quot; took an awful mauling. Almost by unanimous journalists' agreement we decided never to use them again. Actually, obviously was jolly handy. Seeing that Her Majesty was never right at your elbow to give personal quotes on this, that, and the other thing, you could slip in a smart &quot;obviously.&quot; For example, &quot;Her Majesty accepted the bouquet from 4-year-old Barbara Binks and was obviously pleased.&quot; Or &quot;The Queen looked at the breath-taking beauty of Sydney Harbor and obviously came to the conclusion that this was the highlight of her tour.&quot; (A very good &quot;obviously&quot; for any Sydney publication.)</p>
@@ -199,7 +205,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -208,9 +217,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         On the exhausted vocabulary of Royal Tour reporting nine years after &quot;obviously&quot; and &quot;radiant&quot; were banned in 1954, and on Melbourne&#39;s noticeably cooler, less crowd-mobbed reception for the Queen&#39;s 1963 visit compared with her first.
       </p>
 <hr>
@@ -233,9 +246,36 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/flemington-racecourse/" class="link-secondary">Flemington Racecourse</a>,
+    
+    <a href="/topic/harold-holt/" class="link-secondary">Harold Holt</a>,
+    
+    <a href="/topic/irving-benson/" class="link-secondary">Irving Benson</a>,
+    
+    <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+    
+    <a href="/topic/victoria-racing-club/" class="link-secondary">Victoria Racing Club</a>,
+    
+    <a href="/topic/woomera/" class="link-secondary">Woomera</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

@@ -164,17 +164,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">The bird demon</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             22
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1994-11-11">1994</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            From doting bird-feeders to declaring war on starlings and blackbirds raiding the vineyard&#39;s grapes, trying gas guns, &quot;Frite&quot; shotgun cartridges, fake hawks and mirrored windmills, none of which the birds took seriously for long.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="My Life With The Demon">
@@ -182,9 +191,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        From doting bird-feeders to declaring war on starlings and blackbirds raiding the vineyard&#39;s grapes, trying gas guns, &quot;Frite&quot; shotgun cartridges, fake hawks and mirrored windmills, none of which the birds took seriously for long.
-      </p>-->
       <p>Human beings are frail creatures, One can have the most beautiful, highly refined motives, but as soon as one's bank balance is threatened, all is lost. Back in the 1960s there was a lovely writing assignment to Bundaberg in Queensland. Apart from touring the distillery which makes the famous rum, it was important to tour the sugar cane plantations. Of course, there was an invitation to tea. The owner and his wife were there, the best china was brought out.</p>
 <p>&quot;Do you take milk?&quot;</p>
 <p>&quot;No thank-you.&quot;</p>
@@ -263,7 +269,10 @@
 <p class="lead">Follow onto the next chapter, <a href="/books/my-life-with-the-demon/9-it-is-essential-to-have-clean-feet">It is essential to have clean feet</a>
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -272,9 +281,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         From doting bird-feeders to declaring war on starlings and blackbirds raiding the vineyard&#39;s grapes, trying gas guns, &quot;Frite&quot; shotgun cartridges, fake hawks and mirrored windmills, none of which the birds took seriously for long.
       </p>
 <hr>
@@ -305,9 +318,44 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/wine/" class="link-secondary">Wine</a>,
+    
+    <a href="/topic/winemaking/" class="link-secondary">Winemaking</a>,
+    
+    <a href="/topic/viticultre/" class="link-secondary">Viticultre</a>,
+    
+    <a href="/topic/john-c-brown/" class="link-secondary">John C Brown</a>,
+    
+    <a href="/topic/reg-egan/" class="link-secondary">Reg Egan</a>,
+    
+    <a href="/topic/leon-massoni/" class="link-secondary">Leon Massoni</a>,
+    
+    <a href="/topic/lucian-dressell/" class="link-secondary">Lucian Dressell</a>,
+    
+    <a href="/topic/andre-simon/" class="link-secondary">Andre Simon</a>,
+    
+    <a href="/topic/mrs-beeton/" class="link-secondary">Mrs Beeton</a>,
+    
+    <a href="/topic/marie-dunstan/" class="link-secondary">Marie Dunstan</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

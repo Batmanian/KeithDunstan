@@ -164,17 +164,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Freedom of Beach</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             10
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1963-01-01">01 Jan 1963</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A survey of Australia&#39;s unusually open beaches, contrasting the free run of the Australian coastline with the private, fenced-off beaches of the Italian Riviera, Hawaii and California, and tracing the colonial land law and the Bondi bikini scandals that shaped the public&#39;s right to walk the sand.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Walkabout Magazine">
@@ -182,9 +191,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A survey of Australia&#39;s unusually open beaches, contrasting the free run of the Australian coastline with the private, fenced-off beaches of the Italian Riviera, Hawaii and California, and tracing the colonial land law and the Bondi bikini scandals that shaped the public&#39;s right to walk the sand.
-      </p>-->
       <p>Years ago, as a typical wide-eyed Australian, I spent a month's holiday driving around France and Italy. One evening with my wife we booked into the cheapest hotel we could find on the Italian Riviera, and the following morning we grabbed our towels and ran down to the beach. It was a beautiful beach, clean and well-ordered. There were chaises longues to stretch out upon, and drinks could be had by calling a waiter.</p>
 <p>Suddenly a large official appeared. He couldn't speak English, we couldn't speak Italian, but eventually the incredible truth began to dawn. 'Blimey, this is a private beach.' By actually walking on the beach we were invading private property. It had never occurred to us that this was possible, but before long we were to see many private beaches. Some belonged to hotels, some belonged to local residents, others belonged to civic authorities, who made a charge to all swimmers.</p>
 <p>At Honolulu we found some areas set aside as public beaches, but other large strips were owned by the big hotels. For example the huge Hawaiian Village Hotel, of 'Hawaiian Eye' fame, had its personal beach. Admittedly, until Henry Kaiser came along, this stretch of Waikiki was not a beach at all. He brought the sand in by truck, thousands of yards of it, and now Conrad Hilton, the new owner, was doing the same thing. It was fascinating, every night, to see the hotel authority going over the beach with a machine like a huge vacuum cleaner to ensure that the sand was snow white and completely devoid of litter for sun-bathers the following morning.</p>
@@ -223,7 +229,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -232,9 +241,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A survey of Australia&#39;s unusually open beaches, contrasting the free run of the Australian coastline with the private, fenced-off beaches of the Italian Riviera, Hawaii and California, and tracing the colonial land law and the Bondi bikini scandals that shaped the public&#39;s right to walk the sand.
       </p>
 <hr>
@@ -265,9 +278,44 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/bondi-beach/" class="link-secondary">Bondi Beach</a>,
+    
+    <a href="/topic/brighton/" class="link-secondary">Brighton</a>,
+    
+    <a href="/topic/eric-spooner/" class="link-secondary">Eric Spooner</a>,
+    
+    <a href="/topic/henry-dendy/" class="link-secondary">Henry Dendy</a>,
+    
+    <a href="/topic/malibu-beach/" class="link-secondary">Malibu Beach</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/new-south-wales/" class="link-secondary">New South Wales</a>,
+    
+    <a href="/topic/santa-monica-bay/" class="link-secondary">Santa Monica Bay</a>,
+    
+    <a href="/topic/sydney/" class="link-secondary">Sydney</a>,
+    
+    <a href="/topic/waikiki/" class="link-secondary">Waikiki</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

@@ -172,17 +172,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">St Kilda Rd — or Disneyland Modern</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-09-08">08 Sep 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Laments the once-grand St Kilda Road&#39;s decline into brash &quot;Disneyland Modern&quot; office architecture, then reports on the inaugural meeting of Melbourne&#39;s new Noise Abatement Society, modelled on &quot;America&#39;s quietest city,&quot; Memphis.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -190,9 +199,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Laments the once-grand St Kilda Road&#39;s decline into brash &quot;Disneyland Modern&quot; office architecture, then reports on the inaugural meeting of Melbourne&#39;s new Noise Abatement Society, modelled on &quot;America&#39;s quietest city,&quot; Memphis.
-      </p>-->
       <p>THIS is not easy to report—the blasphemous thought has arisen: &quot;Is St Kilda Road finished?&quot; Don't you see, whatever else might have been lacking in Melbourne we always had the comforting thought that St Kilda Road was the finest thoroughfare in the world. Admittedly there were one or two other thoroughfares in the world to rival it, but they too were in Melbourne—Collins Street and Alexandra Avenue. Over the years there had been endless streams of fine comments from our visitors. Every member of the Royal Family, including the Duke of Gloucester and the Queen Mother, had commented most favorably on our St Kilda Road.</p>
 <p>In Melbourne we always do our finest things in credit squeezes. As you know we had singular credit squeezes in 1930 and 1893. In 1930 we built the Yarra Boulevard, perhaps the fourth finest thoroughfare in the world. In the 'nineties the suburban councils provided relief work and many of the three-chain arterial roads were converted into boulevards with three roadways and St Kilda Road got the full treatment. It became the home for the rich and the two-brougham families, but even in 1900 there were some hideous sub-standard buildings and the south bank of the Yarra was a repository for deadbeats and larrikins. Yet, as so often happens, the untidyness was cleared away for a Royal Tour. The visit of the Duke and Duchess of York in 1901 completed St Kilda Road and all was perfect for the new capital of the Commonwealth of Australia.</p>
 <p>The perfection lasted until after the Second World War and then the great change began. The ornate late Victorian manors came down and up went the flats. Soon even the flats became too costly. The advertising agencies, public relations firms and architects moved in. The councils had to restrain the business houses from putting out billboards and advertising signs. Chevron had a sign out on the nature strip: DRIVE IN BOTTLE DEPARTMENT — COLD BEER.</p>
@@ -212,7 +218,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -221,9 +230,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Laments the once-grand St Kilda Road&#39;s decline into brash &quot;Disneyland Modern&quot; office architecture, then reports on the inaugural meeting of Melbourne&#39;s new Noise Abatement Society, modelled on &quot;America&#39;s quietest city,&quot; Memphis.
       </p>
 <hr>
@@ -270,9 +283,60 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/alexandra-avenue/" class="link-secondary">Alexandra Avenue</a>,
+    
+    <a href="/topic/charles-de-gaulle/" class="link-secondary">Charles de Gaulle</a>,
+    
+    <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>,
+    
+    <a href="/topic/duke-of-gloucester/" class="link-secondary">Duke of Gloucester</a>,
+    
+    <a href="/topic/harold-de-marigny/" class="link-secondary">Harold de Marigny</a>,
+    
+    <a href="/topic/harold-luth/" class="link-secondary">Harold Luth</a>,
+    
+    <a href="/topic/healesville/" class="link-secondary">Healesville</a>,
+    
+    <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/memphis/" class="link-secondary">Memphis</a>,
+    
+    <a href="/topic/n.-r.-macgregor/" class="link-secondary">N. R. MacGregor</a>,
+    
+    <a href="/topic/noise-abatement-society/" class="link-secondary">Noise Abatement Society</a>,
+    
+    <a href="/topic/queen-mother/" class="link-secondary">Queen Mother</a>,
+    
+    <a href="/topic/r.-h.-donald/" class="link-secondary">R. H. Donald</a>,
+    
+    <a href="/topic/rolf-millett/" class="link-secondary">Rolf Millett</a>,
+    
+    <a href="/topic/sir-robert-menzies/" class="link-secondary">Sir Robert Menzies</a>,
+    
+    <a href="/topic/st-kilda-road/" class="link-secondary">St Kilda Road</a>,
+    
+    <a href="/topic/yarra-boulevard/" class="link-secondary">Yarra Boulevard</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

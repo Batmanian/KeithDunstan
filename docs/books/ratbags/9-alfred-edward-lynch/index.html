@@ -166,17 +166,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Alfred Edward Lynch</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             13
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1980-11-11">1980</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Profile of Arthur Lynch, the Australian-born adventurer, journalist and self-styled Colonel who fought for the Boers, was convicted of treason at the Old Bailey, and later sat in the British House of Commons.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Ratbags">
@@ -184,9 +193,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Profile of Arthur Lynch, the Australian-born adventurer, journalist and self-styled Colonel who fought for the Boers, was convicted of treason at the Old Bailey, and later sat in the British House of Commons.
-      </p>-->
       Alfred Edward Lynch was not lacking even slightly in self confidence. He thought himself supreme both as a thinker and a being totally in command of his own physical resources. His literary output was prodigious ranging from poetry to mathematics to philosophy, but he considered that his finest work was <i>Psychology and Ethics</i>.<br><br>
 His publisher asked him the delicate question, how did he expect it to pay. Lynch replied that never once did he consider the book in such simple terms. The writing of it gave him a peculiar pleasure because it was necessary to the world. Indeed he announced that <i>Psychology and Ethics</i> was 'destined to be a lamp to the feet of the world when the British Empire itself is forgotten'.<br><br>
 He was born in 1861 at Smythesdale just out of Ballarat and his early references for rebellion were excellent. He was the fourth son of John Lynch, a civil engineer and mining surveyor, a native of Tiermaclane, County Clare, Ireland. He had fought at the Eureka Stockade on the side of the rebels. His mother was Isabella McGregor and she came from Perth, Scotland.<br><br>
@@ -264,7 +270,10 @@ Continue to the next chapter: <a href="/books/ratbags/10-hugh-donald-mcintosh">H
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-28">28 Jul 2026</time>
         </footer>
       
@@ -273,9 +282,13 @@ Continue to the next chapter: <a href="/books/ratbags/10-hugh-donald-mcintosh">H
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Profile of Arthur Lynch, the Australian-born adventurer, journalist and self-styled Colonel who fought for the Boers, was convicted of treason at the Old Bailey, and later sat in the British House of Commons.
       </p>
 <hr>
@@ -310,9 +323,48 @@ Continue to the next chapter: <a href="/books/ratbags/10-hugh-donald-mcintosh">H
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/arthur-lynch/" class="link-secondary">Arthur Lynch</a>,
+    
+    <a href="/topic/smythesdale/" class="link-secondary">Smythesdale</a>,
+    
+    <a href="/topic/ballarat/" class="link-secondary">Ballarat</a>,
+    
+    <a href="/topic/eureka-stockade/" class="link-secondary">Eureka Stockade</a>,
+    
+    <a href="/topic/boer-war/" class="link-secondary">Boer War</a>,
+    
+    <a href="/topic/second-irish-brigade/" class="link-secondary">Second Irish Brigade</a>,
+    
+    <a href="/topic/paul-kruger/" class="link-secondary">Paul Kruger</a>,
+    
+    <a href="/topic/louis-botha/" class="link-secondary">Louis Botha</a>,
+    
+    <a href="/topic/old-bailey/" class="link-secondary">Old Bailey</a>,
+    
+    <a href="/topic/galway/" class="link-secondary">Galway</a>,
+    
+    <a href="/topic/house-of-commons/" class="link-secondary">House of Commons</a>,
+    
+    <a href="/topic/brixton-prison/" class="link-secondary">Brixton Prison</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-28">28 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

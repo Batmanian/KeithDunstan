@@ -169,17 +169,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">&quot;La Ville de Beauté&quot; (as the French Say)</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             5
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-11-03">03 Nov 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Melbourne wins bragging rights as Australia&#39;s &quot;Conference City,&quot; hosting the World Power Conference&#39;s 1000-plus delegates through a whirlwind of interpreters, transistor earphones, and two 1600-guest banquets in the Exhibition Building.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -187,9 +196,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Melbourne wins bragging rights as Australia&#39;s &quot;Conference City,&quot; hosting the World Power Conference&#39;s 1000-plus delegates through a whirlwind of interpreters, transistor earphones, and two 1600-guest banquets in the Exhibition Building.
-      </p>-->
       <p>WE are very happy with ourselves this week. Melbourne has won the title of the Conference City. Not flibbertey-gibbit stuff, you understand, like Atlantic City with businessmen running off with their secretaries, but really big-time international get-togethers. As gentlemen like Mr Bolte have been quick to point out, Melbourne was the logical choice. It had the climate, it had the hotels and it had the facilities. Actually the weather for visiting delegates has been most interesting. It has been crisp. On October 24 the maximum in Melbourne was 53, in Sydney 74, in Brisbane 87, in Perth 72 and in Adelaide 61. Furthermore it has rained almost continuously, but, don't you see, there was this advantage—delegates had the opportunity of seeing the world's purest water supply in action at first hand, and never could they return home with an impression of the beastly arid nature of Australia.</p>
 <p>But let's talk about these conferences. The first was the triennial World Conference of the Associated Country Women of the World with 1200 women delegates from 25 countries. Then came the sixth plenary meeting of the World Power Conference with over 1000 delegates from 45 countries. From October 30 to November 17 we will have the Colombo Plan Conference with 175 delegates from all 21 Colombo Plan countries; then from November 26 to December 8 we will have the Asian Regional Conference of the International Labor Organisation, 300 delegates from 25 countries.</p>
 <p>Of all these the most splendid is the World Power Conference, the greatest international conference this country has seen, with delegates from Iceland, Israel, Brazil, Costa Rica, Ghana, USA and the USSR. No, of course, it hasn't anything to do with the Cuba crisis, this is a meeting of engineers and the theme of the conference is the &quot;Changing Pattern of Power.&quot;</p>
@@ -211,7 +217,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -220,9 +229,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Melbourne wins bragging rights as Australia&#39;s &quot;Conference City,&quot; hosting the World Power Conference&#39;s 1000-plus delegates through a whirlwind of interpreters, transistor earphones, and two 1600-guest banquets in the Exhibition Building.
       </p>
 <hr>
@@ -263,9 +276,54 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/associated-country-women-of-the-world/" class="link-secondary">Associated Country Women of the World</a>,
+    
+    <a href="/topic/colombo-plan/" class="link-secondary">Colombo Plan</a>,
+    
+    <a href="/topic/dallas-brooks/" class="link-secondary">Dallas Brooks</a>,
+    
+    <a href="/topic/exhibition-building/" class="link-secondary">Exhibition Building</a>,
+    
+    <a href="/topic/franz-hollinger/" class="link-secondary">Franz Hollinger</a>,
+    
+    <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+    
+    <a href="/topic/international-labor-organisation/" class="link-secondary">International Labor Organisation</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/royal-melbourne-hospital/" class="link-secondary">Royal Melbourne Hospital</a>,
+    
+    <a href="/topic/sir-robert-menzies/" class="link-secondary">Sir Robert Menzies</a>,
+    
+    <a href="/topic/state-electricity-commission/" class="link-secondary">State Electricity Commission</a>,
+    
+    <a href="/topic/vincent-de-ferranti/" class="link-secondary">Vincent de Ferranti</a>,
+    
+    <a href="/topic/willis-connolly/" class="link-secondary">Willis Connolly</a>,
+    
+    <a href="/topic/wilson-hall/" class="link-secondary">Wilson Hall</a>,
+    
+    <a href="/topic/world-power-conference/" class="link-secondary">World Power Conference</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

@@ -167,17 +167,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Football and M.F.L.</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-04-28">28 Apr 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Covers the Collingwood Football Club&#39;s ceremonial guernsey-presentation dinner for its new season, then the box-office phenomenon of &quot;My Fair Lady&quot;&#39;s second Melbourne season at Her Majesty&#39;s Theatre.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -185,9 +194,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Covers the Collingwood Football Club&#39;s ceremonial guernsey-presentation dinner for its new season, then the box-office phenomenon of &quot;My Fair Lady&quot;&#39;s second Melbourne season at Her Majesty&#39;s Theatre.
-      </p>-->
       <p>OUR cup indeed runneth over. Last Saturday, April 21, on the one day, we had the opening of the football season and the opening night of the second season of &quot;My Fair Lady.&quot;</p>
 <p>But let us first talk about football. Footballers, after all, are eminent people in Melbourne. They are highly sought after as licensees for hotels, as TV commentators, and this season they have taken to modelling overcoats, shirts and cardigans in the best fashion spots.</p>
 <p>But to give you some idea how Melburnians feel about football I would like to direct your attention to the black and white dinner that took place for 200 magpies at the Collingwood Football Club on Tuesday, April 17. Now there is a special mystique, a special dedication about Collingwood Football Club members and it is the object of all red-blooded Melburnian boys to play for the club team.</p>
@@ -209,7 +215,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -218,9 +227,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Covers the Collingwood Football Club&#39;s ceremonial guernsey-presentation dinner for its new season, then the box-office phenomenon of &quot;My Fair Lady&quot;&#39;s second Melbourne season at Her Majesty&#39;s Theatre.
       </p>
 <hr>
@@ -257,9 +270,50 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/christchurch/" class="link-secondary">Christchurch</a>,
+    
+    <a href="/topic/collingwood-football-club/" class="link-secondary">Collingwood Football Club</a>,
+    
+    <a href="/topic/frank-galbally/" class="link-secondary">Frank Galbally</a>,
+    
+    <a href="/topic/her-majestys-theatre/" class="link-secondary">Her Majestys Theatre</a>,
+    
+    <a href="/topic/j.-c.-williamsons/" class="link-secondary">J. C. Williamsons</a>,
+    
+    <a href="/topic/john-mccallum/" class="link-secondary">John McCallum</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/michael-denison/" class="link-secondary">Michael Denison</a>,
+    
+    <a href="/topic/murray-weideman/" class="link-secondary">Murray Weideman</a>,
+    
+    <a href="/topic/my-fair-lady/" class="link-secondary">My Fair Lady</a>,
+    
+    <a href="/topic/perth/" class="link-secondary">Perth</a>,
+    
+    <a href="/topic/ray-gabelich/" class="link-secondary">Ray Gabelich</a>,
+    
+    <a href="/topic/syd-coventry/" class="link-secondary">Syd Coventry</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

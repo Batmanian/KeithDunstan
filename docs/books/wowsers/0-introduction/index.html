@@ -154,17 +154,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Introduction</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             3
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1968-11-11">1968</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Opens &#39;Wowsers&#39; recalling the prudery of 1940s Melbourne, from 6pm hotel closing to wine bans in restaurants, and traces it to Keith Dunstan&#39;s own Non-Conformist upbringing.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Wowsers">
@@ -172,9 +181,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Opens &#39;Wowsers&#39; recalling the prudery of 1940s Melbourne, from 6pm hotel closing to wine bans in restaurants, and traces it to Keith Dunstan&#39;s own Non-Conformist upbringing.
-      </p>-->
       <p>Melbourne in the nineteen-forties was a curious, inhibited city. For a land that loved freedom, so much was done to interfere with personal freedom. I could not understand why hotels were closed at 6 o'clock at the very moment when men had time to enjoy them; why bottles should be snatched off dining room tables half way through dinner; why one should have to go to a dinner dance with the bottle hidden under one's overcoat; or why, in a wine producing country, gg out of 100 restaurants and cafés should be forbidden to sell wine. And in this open-hearted country, why was it that Collins Street on a Sunday was bereft of things and people, deserted like an after hours film set?</p>
 <p>Obviously there was a streak of prudery in the makeup of the Australian, particularly the Australians of the South. The more I investigated, the more I read, the more I came to the idea that the old-style wowser with his eternal campaigning had given our cities their special character and atmosphere, an atmosphere that still lingers. Melbourne loves to think Collins Street is Parisian with its footpath cafés, but those cafés do not sell anything stronger than milk.</p>
 <p>Our family back through the seventies, eighties and nineties, was Non-Conformist and all members good wowsers. There is a story that has been handed down.</p>
@@ -189,7 +195,10 @@ Continue to chapter one: <a href="/books/wowsers/1-wowser/">Wowser</a>
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -198,9 +207,13 @@ Continue to chapter one: <a href="/books/wowsers/1-wowser/">Wowser</a>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Opens &#39;Wowsers&#39; recalling the prudery of 1940s Melbourne, from 6pm hotel closing to wine bans in restaurants, and traces it to Keith Dunstan&#39;s own Non-Conformist upbringing.
       </p>
 <hr>
@@ -211,9 +224,24 @@ Continue to chapter one: <a href="/books/wowsers/1-wowser/">Wowser</a>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

@@ -171,17 +171,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Supporting a column</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             26
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1966-11-11">1966</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Keith reflects on the strange trade of daily column-writing, chasing tips, debunking apocryphal caravan and comic-strip stories, and once mailing a mistakenly delivered stuffed Corgi to the wrong Mr Robinson.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Supporting A Column">
@@ -189,9 +198,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Keith reflects on the strange trade of daily column-writing, chasing tips, debunking apocryphal caravan and comic-strip stories, and once mailing a mistakenly delivered stuffed Corgi to the wrong Mr Robinson.
-      </p>-->
       <p>Kirwan Ward of Perth's Daily News once said that writing a daily column was like walking a tightrope across Niagara Falls, a little scary until you got used to it.</p>
 <p>Actually I have always found it a little scary and the tightrope somewhat slippery. The most hideous sight to anyone who uses words for a living is the cold, virginal sheet of copy paper in a type­ writer-and that comes up every afternoon. Columns, of course, vary. Perhaps the best column of them all is written by Herb Caen for the San Francisco Chronicle. He conducts a permanent love affair with his city and manages to convince the San Franciscans that they live in the finest place on earth, a place quite considerably better than Los Angeles. Cassandra of the Daily Mirror in London, comments, rages, thunders and irritates his readers to such an extent that they cannot wait to be irritated again the next day.</p>
 <p>Others, indeed most of us, try to find a blend of the two, some good stories, some comment, with maybe a name dropped here and there. The knack of balancing on that tightrope is to have plenty of friends, an army of people who want to tell you what is going on, every day of the year.</p>
@@ -310,7 +316,10 @@ And I've got rid of you.</p>
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -319,9 +328,13 @@ And I've got rid of you.</p>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Keith reflects on the strange trade of daily column-writing, chasing tips, debunking apocryphal caravan and comic-strip stories, and once mailing a mistakenly delivered stuffed Corgi to the wrong Mr Robinson.
       </p>
 <hr>
@@ -366,9 +379,58 @@ And I've got rid of you.</p>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/a-place-in-the-sun/" class="link-secondary">A Place in the Sun</a>,
+    
+    <a href="/topic/bill-tipping/" class="link-secondary">Bill Tipping</a>,
+    
+    <a href="/topic/billy-hughes/" class="link-secondary">Billy Hughes</a>,
+    
+    <a href="/topic/the-courier-mail/" class="link-secondary">The Courier-Mail</a>,
+    
+    <a href="/topic/arthur-richards/" class="link-secondary">Arthur Richards</a>,
+    
+    <a href="/topic/the-daily-telegraph/" class="link-secondary">The Daily Telegraph</a>,
+    
+    <a href="/topic/herb-caen/" class="link-secondary">Herb Caen</a>,
+    
+    <a href="/topic/kirwan-ward/" class="link-secondary">Kirwan Ward</a>,
+    
+    <a href="/topic/cassandra-(william-connor)/" class="link-secondary">Cassandra (William Connor)</a>,
+    
+    <a href="/topic/lindsay-hassett/" class="link-secondary">Lindsay Hassett</a>,
+    
+    <a href="/topic/malcolm-muggeridge/" class="link-secondary">Malcolm Muggeridge</a>,
+    
+    <a href="/topic/ronald-searle/" class="link-secondary">Ronald Searle</a>,
+    
+    <a href="/topic/roy-dotrice/" class="link-secondary">Roy Dotrice</a>,
+    
+    <a href="/topic/the-beatles/" class="link-secondary">The Beatles</a>,
+    
+    <a href="/topic/walter-odonoghue/" class="link-secondary">Walter ODonoghue</a>,
+    
+    <a href="/topic/the-heart-of-juliet-jones/" class="link-secondary">The Heart of Juliet Jones</a>,
+    
+    <a href="/topic/steamboat/" class="link-secondary">Steamboat</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

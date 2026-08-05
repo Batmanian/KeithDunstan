@@ -169,17 +169,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Finding the wine demon</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             22
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1994-11-11">1994</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Pinpoints the moment wine took hold, a 1959 drive through North East Victoria&#39;s wine country past Brown Brothers at Milawa, after years in Queensland where rum with milk was the accepted breakfast tonic.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="My Life With The Demon">
@@ -187,9 +196,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Pinpoints the moment wine took hold, a 1959 drive through North East Victoria&#39;s wine country past Brown Brothers at Milawa, after years in Queensland where rum with milk was the accepted breakfast tonic.
-      </p>-->
       <p>When did my serious trouble with Bacchus actually begin? I reckon it was a lovely day in December 1959. I was driving with my friend Adrian Benns through North East Victoria. There are few areas more lovely. All along the little creeks that run into the Ovens and King Rivers are these River Red Gums. They look well fed and comfortable. The bark is a dazzling white and the trunks are as fat as 1000 gallon drums.</p>
 <p>It is not dull country without seasons. In the summer it is the colour of pale biscuit; in winter often it floods and it can be as green as old Ireland. There are the marvellous ibis, the crested pigeons with the funny tufts on their heads, the flame robins and, of course, squadrons, even armadas, of pink galahs. Around the flat plain there is a perfect picture frame of mountains.</p>
 <p>We were motoring across this plain when we saw a sign &quot;Brown Bros, Milawa.&quot; I had returned recently from Queensland after being a columnist on Brisbane's <em>Courier Mail</em>. Wine was almost unknown in the North. One drank Bundaberg Rum. Indeed I had always been fascinated by the indigenous habits of Queenslanders. Rum was accepted as the socially correct alcohol to have before or during breakfast. It was like having Corn Flakes, one took one's rum with a dash of milk.</p>
@@ -285,7 +291,10 @@ Our bodies are pickled and never decay.&quot;</p>
 <p class="lead">Follow onto the next chapter, <a href="/books/my-life-with-the-demon/5-the-demon-becomes-a-snob">The demon becomes a snob</a>
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -294,9 +303,13 @@ Our bodies are pickled and never decay.&quot;</p>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Pinpoints the moment wine took hold, a 1959 drive through North East Victoria&#39;s wine country past Brown Brothers at Milawa, after years in Queensland where rum with milk was the accepted breakfast tonic.
       </p>
 <hr>
@@ -337,9 +350,54 @@ Our bodies are pickled and never decay.&quot;</p>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/wine/" class="link-secondary">Wine</a>,
+    
+    <a href="/topic/bundaberg-rum/" class="link-secondary">Bundaberg Rum</a>,
+    
+    <a href="/topic/brown-brothers-of-milawa/" class="link-secondary">Brown Brothers of Milawa</a>,
+    
+    <a href="/topic/rhine-castle-wines/" class="link-secondary">Rhine Castle Wines</a>,
+    
+    <a href="/topic/milawa/" class="link-secondary">Milawa</a>,
+    
+    <a href="/topic/dan-murphy/" class="link-secondary">Dan Murphy</a>,
+    
+    <a href="/topic/stan-keon/" class="link-secondary">Stan Keon</a>,
+    
+    <a href="/topic/ian-sutherland-smith/" class="link-secondary">Ian Sutherland Smith</a>,
+    
+    <a href="/topic/jimmy-watson/" class="link-secondary">Jimmy Watson</a>,
+    
+    <a href="/topic/chateau-tahbilk/" class="link-secondary">Chateau Tahbilk</a>,
+    
+    <a href="/topic/eric-purbrick/" class="link-secondary">Eric Purbrick</a>,
+    
+    <a href="/topic/len-evans/" class="link-secondary">Len Evans</a>,
+    
+    <a href="/topic/doug-crittenden/" class="link-secondary">Doug Crittenden</a>,
+    
+    <a href="/topic/tulloch-wines/" class="link-secondary">Tulloch Wines</a>,
+    
+    <a href="/topic/adrian-benns/" class="link-secondary">Adrian Benns</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

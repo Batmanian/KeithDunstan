@@ -168,17 +168,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">&quot;A Wonderful Lot of Drinkin&#39; Men&quot;</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-11-10">10 Nov 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Marks the centenary of the first All-England cricket tour of 1861-62 by revisiting its Melbourne Cricket Ground opening, balloon ascent, and lopsided country matches against 22-man local sides.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -186,9 +195,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Marks the centenary of the first All-England cricket tour of 1861-62 by revisiting its Melbourne Cricket Ground opening, balloon ascent, and lopsided country matches against 22-man local sides.
-      </p>-->
       <p>HERE in Victoria we are gathering our Cobb &amp; Co coaches, our broughams, our boxer hats, to celebrate a most significant event — the centenary of the first visit by an All-England XI. It was organised by a firm of caterers, Messrs Spiers &amp; Pond. Their first idea was to get Charles Dickens on a lecture tour. He wouldn't come so what could be better than a cricket team? Mr H. H. Stephenson and his Eleven arrived just before Christmas and at the Melbourne port of Sandridge there was an arch of welcome and 3000 people were waiting to cheer them ashore.</p>
 <p>For the match the Melbourne Cricket Club built a stand 700 feet long, said to be the finest in the world, and the amount of liquor stocked in the bars below was also said to be a record. Champagne was 4s a bottle and scotch 3s. a bottle. The original plan was for Mr Stephenson's Eleven to play a Melbourne and Districts' team of 22. Mr Stephenson was livid, this was unfair. The Melbourne &quot;Herald&quot; counter-attacked. He had played teams of 22 in America. Was he frightened? Indeed one gentleman even sent Mr Stephenson a white feather.</p>
 <p>Eventually there was a compromise and on New Year's Day, 1862, the match got under way, the All-England XI against the Melbourne and Districts XXIII.</p>
@@ -209,7 +215,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -218,9 +227,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Marks the centenary of the first All-England cricket tour of 1861-62 by revisiting its Melbourne Cricket Ground opening, balloon ascent, and lopsided country matches against 22-man local sides.
       </p>
 <hr>
@@ -259,9 +272,52 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/beechworth/" class="link-secondary">Beechworth</a>,
+    
+    <a href="/topic/bill-ponsford/" class="link-secondary">Bill Ponsford</a>,
+    
+    <a href="/topic/castlemaine/" class="link-secondary">Castlemaine</a>,
+    
+    <a href="/topic/charles-dickens/" class="link-secondary">Charles Dickens</a>,
+    
+    <a href="/topic/cobb-and-co/" class="link-secondary">Cobb and Co</a>,
+    
+    <a href="/topic/george-griffith/" class="link-secondary">George Griffith</a>,
+    
+    <a href="/topic/h.-h.-stephenson/" class="link-secondary">H. H. Stephenson</a>,
+    
+    <a href="/topic/harold-larwood/" class="link-secondary">Harold Larwood</a>,
+    
+    <a href="/topic/melbourne-cricket-club/" class="link-secondary">Melbourne Cricket Club</a>,
+    
+    <a href="/topic/melbourne-cricket-ground/" class="link-secondary">Melbourne Cricket Ground</a>,
+    
+    <a href="/topic/percy-page/" class="link-secondary">Percy Page</a>,
+    
+    <a href="/topic/roger-iddison/" class="link-secondary">Roger Iddison</a>,
+    
+    <a href="/topic/spiers-and-pond/" class="link-secondary">Spiers and Pond</a>,
+    
+    <a href="/topic/william-caffyn/" class="link-secondary">William Caffyn</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

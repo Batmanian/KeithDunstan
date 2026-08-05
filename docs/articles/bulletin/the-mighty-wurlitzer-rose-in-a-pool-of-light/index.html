@@ -160,17 +160,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">The Mighty Wurlitzer Rose in a Pool of Light.</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             5
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1966-04-09">09 Apr 1966</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A visit to the Regent Theatre&#39;s Mighty Wurlitzer organ, one of only two left working in Australia, and a morning practice session with virtuoso organist Tony Fenelon.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -178,9 +187,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A visit to the Regent Theatre&#39;s Mighty Wurlitzer organ, one of only two left working in Australia, and a morning practice session with virtuoso organist Tony Fenelon.
-      </p>-->
       <h1>The last of the great palaces</h1>
 <p>For some years now this page has been insufferable about old movie theatres.  It is about to be insufferable again.  As was my wont, I spent early Tuesday morning wandering around the Regent Theatre in Bourke Street.</p>
 <p>This is the largest movie theatre in Australia, one of the last of the great palaces.  It seats 3253 people and if you added the Plaza immediately below, why, Hoyts could seat Mr Holt's entire contingent to Vietnam.  And it's beautiful.  All around the balcony in pressed metal there are nice young maidens stripped to the waist.  Up under the dome there are Etruscan friezes and the Elgin marbles at the very least.  There are whopping great chandeliers, there are marvellous lighting effects that constantly change colour, Corinthian columns, Doric columns and literally acres of scalloped Burgundy colored curtains.</p>
@@ -199,7 +205,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -208,9 +217,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A visit to the Regent Theatre&#39;s Mighty Wurlitzer organ, one of only two left working in Australia, and a morning practice session with virtuoso organist Tony Fenelon.
       </p>
 <hr>
@@ -233,9 +246,36 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/bourke-street/" class="link-secondary">Bourke Street</a>,
+    
+    <a href="/topic/capitol-theatre/" class="link-secondary">Capitol Theatre</a>,
+    
+    <a href="/topic/hoyts/" class="link-secondary">Hoyts</a>,
+    
+    <a href="/topic/regent-theatre/" class="link-secondary">Regent Theatre</a>,
+    
+    <a href="/topic/theatre-organ-society-of-australia/" class="link-secondary">Theatre Organ Society of Australia</a>,
+    
+    <a href="/topic/tony-fenelon/" class="link-secondary">Tony Fenelon</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

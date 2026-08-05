@@ -161,17 +161,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">The Ghost of the Princess</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1967-12-30">30 Dec 1967</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Tells the story of Federici, the Princess Theatre&#39;s baritone ghost who collapsed and died on stage playing Mephistopheles in 1888, and the book launch that tried, and failed, to lure his spirit out with themed cocktails.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -179,9 +188,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Tells the story of Federici, the Princess Theatre&#39;s baritone ghost who collapsed and died on stage playing Mephistopheles in 1888, and the book launch that tried, and failed, to lure his spirit out with themed cocktails.
-      </p>-->
       <h1>The ghost-of-honour didn't make the party</h1>
 <p>FRANKLY, it is surprising there are not a great many ghosts in Melbourne.  After all, this is a city in which a vast number of bodies are buried, and one can only presume that there must be many very restless spirits abroad.</p>
 <p>Our only regular ghost lives in the Princess Theatre.  This is an utterly marvellous building.  It could have been designed by a consortium of artists, which might have included Cruikshank, Tenniel, Ronald Searle, and Charles Addams.  It is in the very best Victoriana-Berserk style.  It has the lot, urns, stained glass windows, balconies, balustrades, little cast-iron cupolas, muses all over the place, and an utterly magnificent golden angel with trumpet.</p>
@@ -203,7 +209,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -212,9 +221,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Tells the story of Federici, the Princess Theatre&#39;s baritone ghost who collapsed and died on stage playing Mephistopheles in 1888, and the book launch that tried, and failed, to lure his spirit out with themed cocktails.
       </p>
 <hr>
@@ -239,9 +252,38 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/june-bronhill/" class="link-secondary">June Bronhill</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/princess-theatre/" class="link-secondary">Princess Theatre</a>,
+    
+    <a href="/topic/ronald-searle/" class="link-secondary">Ronald Searle</a>,
+    
+    <a href="/topic/t.-h.-goodwin/" class="link-secondary">T. H. Goodwin</a>,
+    
+    <a href="/topic/the-argus/" class="link-secondary">The Argus</a>,
+    
+    <a href="/topic/william-pitt/" class="link-secondary">William Pitt</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

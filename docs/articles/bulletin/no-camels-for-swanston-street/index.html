@@ -166,17 +166,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">No Camels for Swanston Street</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             4
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-03-24">24 Mar 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Mourns the decline of Melbourne&#39;s once-riotous Eight Hour Day march into a corporate-sponsored Moomba procession, its circus camels banned, then reports on Sandown Park&#39;s star-studded car-racing debut.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -184,9 +193,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Mourns the decline of Melbourne&#39;s once-riotous Eight Hour Day march into a corporate-sponsored Moomba procession, its circus camels banned, then reports on Sandown Park&#39;s star-studded car-racing debut.
-      </p>-->
       <p>BACK in the days of Nod, Melbourne's Eight Hour Day procession was something to see. In 1916, for example, 11,000 trade unionists marched and never were there less than 15 bands. The stockmen used to ride cracking their stockwhips, the tinsmiths rode in suits of armor as knights of the Labor movement, and legend had it that the brewery wagon horses were kept in all their pristine beauty for the big day. They didn't tarnish themselves with work during the rest of the year.</p>
 <p>It was fun, there was so much for free. The biscuit makers threw out free biscuits, the pastrycooks free cakes, the bakers free rolls and the soapmakers, bless 'em, gave us free soap. Then there were the superb trade union banners, hand-painted on silk by some of the leading artists of the day. Many of them were worth £150 or more when £150 was 150 pounds. And the workers always carried the first banner that was used in the original parade of 1856.</p>
 <p>After the Second World War, Eight Hour Day became more simply Labor Day. It dwindled and died. The historic banners mostly were left to rot. This year on Labor Day in the grand Moomba procession there was one float entered by the Labor Party Women's Central Organising Committee. It was a floral clock depicting the Eight Hours' Movement and there were pretty girls, suitably attired, to demonstrate eight hours' work, eight hours' rest and eight hours' recreation.</p>
@@ -201,7 +207,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -210,9 +219,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Mourns the decline of Melbourne&#39;s once-riotous Eight Hour Day march into a corporate-sponsored Moomba procession, its circus camels banned, then reports on Sandown Park&#39;s star-studded car-racing debut.
       </p>
 <hr>
@@ -247,9 +260,48 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/eight-hour-day/" class="link-secondary">Eight Hour Day</a>,
+    
+    <a href="/topic/flemington/" class="link-secondary">Flemington</a>,
+    
+    <a href="/topic/jack-brabham/" class="link-secondary">Jack Brabham</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/melbourne-racing-club/" class="link-secondary">Melbourne Racing Club</a>,
+    
+    <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+    
+    <a href="/topic/myer-emporium/" class="link-secondary">Myer Emporium</a>,
+    
+    <a href="/topic/sandown-park/" class="link-secondary">Sandown Park</a>,
+    
+    <a href="/topic/springvale-crematorium/" class="link-secondary">Springvale Crematorium</a>,
+    
+    <a href="/topic/stirling-moss/" class="link-secondary">Stirling Moss</a>,
+    
+    <a href="/topic/swanston-street/" class="link-secondary">Swanston Street</a>,
+    
+    <a href="/topic/totalisator-agency-board-(tab)/" class="link-secondary">Totalisator Agency Board (TAB)</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

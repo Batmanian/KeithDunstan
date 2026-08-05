@@ -161,17 +161,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">The Love of the Wheel</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             23
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1999-11-11">1999</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Traces the bicycle&#39;s first golden age in Melbourne from the 1868 arrival of the velocipede through the reign of the high-wheeled &#39;ordinary&#39; to the safety bicycle and pneumatic tyre, including the sad case of Bendigo rider W.J. Crowle, killed testing his &#39;Invincible&#39; ordinary in 1884.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Confessions Of A Bicycle Nut">
@@ -179,9 +188,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Traces the bicycle&#39;s first golden age in Melbourne from the 1868 arrival of the velocipede through the reign of the high-wheeled &#39;ordinary&#39; to the safety bicycle and pneumatic tyre, including the sad case of Bendigo rider W.J. Crowle, killed testing his &#39;Invincible&#39; ordinary in 1884.
-      </p>-->
       <p>It is fascinating that there have been two great periods in the social use of the bicycle, almost 100 years apart. The first lasted two decades from 1880 to 1900. The second was like a re-birth of belief in Jesus and began circa 1970, when it was right and marvellous to ride the bike again. The born-again bicycle continued to blossom right through into the millennium.</p>
 <p>It is nigh impossible to underestimate the joy, the passion aroused by the advent of the bicycle. It was the new type of transport, a liberating force. D.J. Quinn in the journal, <em>Review of Reviews</em>, was typical in his eloquence. &quot;The bike is an addition to human methods of locomotion as definite and as epoch-making as the steamship and the railway...Mounted on the flying wheel a youth seems to have become suddenly independent of feet, and if he has not acquired wings he has got something very nearly approaching them. Our wide open space and level roads are exactly fitted to the realm of the bike. No long winter, with roads snow-covered, or slippery with a mail of ice, makes the roads dangerous for months. Australian blood, too, is thirsty for swift motion, and the joy of flying, self-impelled, through leagues of blowing air.&quot; (1)</p>
 <p>Mr Quinn in his joy could see no fault with the bicycle: &quot;It over-runs frontiers, it obliterates race antipathies, includes a sense of cameraderie amongst foreigners, breaks down social barriers and brings 'the nicest people' into line with the common mass....Of exercise it is the very champagne, it takes us out of ourselves, out of the fever and stress, the smoke and dirt, the noise and contamination of city life into the pure atmosphere and open face of heaven.&quot;</p>
@@ -314,7 +320,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -323,9 +332,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Traces the bicycle&#39;s first golden age in Melbourne from the 1868 arrival of the velocipede through the reign of the high-wheeled &#39;ordinary&#39; to the safety bicycle and pneumatic tyre, including the sad case of Bendigo rider W.J. Crowle, killed testing his &#39;Invincible&#39; ordinary in 1884.
       </p>
 <hr>
@@ -350,9 +363,38 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/john-boyd-dunlop/" class="link-secondary">John Boyd Dunlop</a>,
+    
+    <a href="/topic/john-pascoe-fawkner/" class="link-secondary">John Pascoe Fawkner</a>,
+    
+    <a href="/topic/justice-williams/" class="link-secondary">Justice Williams</a>,
+    
+    <a href="/topic/melbourne-bicycle-club/" class="link-secondary">Melbourne Bicycle Club</a>,
+    
+    <a href="/topic/melbourne-cricket-ground/" class="link-secondary">Melbourne Cricket Ground</a>,
+    
+    <a href="/topic/w.r.-george/" class="link-secondary">W.R. George</a>,
+    
+    <a href="/topic/william-charles-kernot/" class="link-secondary">William Charles Kernot</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

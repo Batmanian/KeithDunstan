@@ -166,17 +166,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">An Albert Tucker for 2s. a Mile</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             4
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-12-15">15 Dec 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Tours the newly opened John Batman motor inn, Robin Boyd&#39;s design showcase hung with original Nolans and Tuckers, from its £500,000 build cost down to its black-carpeted penthouse suite.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -184,9 +193,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Tours the newly opened John Batman motor inn, Robin Boyd&#39;s design showcase hung with original Nolans and Tuckers, from its £500,000 build cost down to its black-carpeted penthouse suite.
-      </p>-->
       <p>THAT fellow Batman may be satisfied now that he has had our nation's first motor inn named for him and opened with an energetic display of contemporary art.</p>
 <p>Naturally the Americans had to set the pattern for us to follow with our usual diligence. And, to quote Mr M. G. Sloman, the Chairman of Capital Motor Inn Pty Ltd, a motor inn &quot;is neither a hotel in the accepted sense of the word nor is it a motel, but it does incorporate the best features of both . . . the services and sophistication of a modern hotel with the informality and convenience of a motel.&quot;</p>
 <p>The John Batman is in Queens Road, St Kilda, a quarter of Melbourne rapidly changing from its old mansion character to flats and office blocks and, now, to inner-suburban hotel-motel sites. It is another mark of the approaching trend towards a total ban on parking in the choked city proper.</p>
@@ -205,7 +211,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -214,9 +223,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Tours the newly opened John Batman motor inn, Robin Boyd&#39;s design showcase hung with original Nolans and Tuckers, from its £500,000 build cost down to its black-carpeted penthouse suite.
       </p>
 <hr>
@@ -251,9 +264,48 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/albert-tucker/" class="link-secondary">Albert Tucker</a>,
+    
+    <a href="/topic/arthur-boyd/" class="link-secondary">Arthur Boyd</a>,
+    
+    <a href="/topic/essendon/" class="link-secondary">Essendon</a>,
+    
+    <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+    
+    <a href="/topic/john-batman/" class="link-secondary">John Batman</a>,
+    
+    <a href="/topic/john-perceval/" class="link-secondary">John Perceval</a>,
+    
+    <a href="/topic/m.-g.-sloman/" class="link-secondary">M. G. Sloman</a>,
+    
+    <a href="/topic/queens-road/" class="link-secondary">Queens Road</a>,
+    
+    <a href="/topic/robin-boyd/" class="link-secondary">Robin Boyd</a>,
+    
+    <a href="/topic/ross-shelmerdine/" class="link-secondary">Ross Shelmerdine</a>,
+    
+    <a href="/topic/sidney-nolan/" class="link-secondary">Sidney Nolan</a>,
+    
+    <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

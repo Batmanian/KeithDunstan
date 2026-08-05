@@ -159,17 +159,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">A Body Blow to Cricket</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             3
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1988-01-14">1988</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Recounts the Bodyline crisis boiling over at the Third Test in Adelaide, where Larwood&#39;s leg-theory bowling injured Woodfull and Oldfield and the Australian Board of Control cabled the MCC accusing England of endangering the game.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="A Day In The Life Of Australia">
@@ -177,9 +186,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Recounts the Bodyline crisis boiling over at the Third Test in Adelaide, where Larwood&#39;s leg-theory bowling injured Woodfull and Oldfield and the Australian Board of Control cabled the MCC accusing England of endangering the game.
-      </p>-->
       <h4>14 January 1933</h4>
 <p>We are wondering what will happen, whether there is any future for Australian cricket. This whole business of bodyline or leg theory bowling has come to a crisis in Adelaide.</p>
 <p>It is all because of Bradman. The English­ men want to win at any costs. In the Third Test at Adelaide, the Englishmen made 341 runs. On Saturday Fingleton was out to Allen for only one run. Then on came Larwood. He hit Woodfull a tremendous blow. The ball was just over the heart and it if it had been any closer it might have killed him.</p>
@@ -194,7 +200,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -203,9 +212,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Recounts the Bodyline crisis boiling over at the Third Test in Adelaide, where Larwood&#39;s leg-theory bowling injured Woodfull and Oldfield and the Australian Board of Control cabled the MCC accusing England of endangering the game.
       </p>
 <hr>
@@ -226,9 +239,34 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/cricket/" class="link-secondary">Cricket</a>,
+    
+    <a href="/topic/bodyline-series/" class="link-secondary">Bodyline series</a>,
+    
+    <a href="/topic/sir-donald-bradman/" class="link-secondary">Sir Donald Bradman</a>,
+    
+    <a href="/topic/pelham-warner/" class="link-secondary">Pelham Warner</a>,
+    
+    <a href="/topic/lionel-palairet/" class="link-secondary">Lionel Palairet</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

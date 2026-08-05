@@ -166,17 +166,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Xavier (Alfred Francis) Herbert</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             22
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1980-11-11">1980</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Profile of novelist Xavier Herbert, from his ratbag youth and the bankrupted first typesetting of Capricornia to nine years writing the 850,000-word epic Poor Fellow My Country in a fireproofed gas stove at Redlynch.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Ratbags">
@@ -184,9 +193,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Profile of novelist Xavier Herbert, from his ratbag youth and the bankrupted first typesetting of Capricornia to nine years writing the 850,000-word epic Poor Fellow My Country in a fireproofed gas stove at Redlynch.
-      </p>-->
       <strong>X</strong>AVIER HERBERT says that from his earliest days he has heard the cry of 'Ratbag'. When he was thirteen he developed a passion for chemistry. Rather than dash round with his mates during the school recess he did chores for the science teacher... RATBAG.<br><br>
 In 1925, now a qualified chemist, he was studying in Melbourne to become a doctor. He dropped that and announced: 'I'd rather earn one pound a week as a writer than ten pounds doing anything else.'<br><br>
 'You're a ratbag boy,' said his father.<br><br>
@@ -296,7 +302,10 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-28">28 Jul 2026</time>
         </footer>
       
@@ -305,9 +314,13 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Profile of novelist Xavier Herbert, from his ratbag youth and the bankrupted first typesetting of Capricornia to nine years writing the 850,000-word epic Poor Fellow My Country in a fireproofed gas stove at Redlynch.
       </p>
 <hr>
@@ -342,9 +355,48 @@ Continue to the book index: <a href="/ratbags">Ratbags</a>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/xavier-herbert/" class="link-secondary">Xavier Herbert</a>,
+    
+    <a href="/topic/capricornia/" class="link-secondary">Capricornia</a>,
+    
+    <a href="/topic/poor-fellow-my-country/" class="link-secondary">Poor Fellow My Country</a>,
+    
+    <a href="/topic/sadie-norden/" class="link-secondary">Sadie Norden</a>,
+    
+    <a href="/topic/darwin/" class="link-secondary">Darwin</a>,
+    
+    <a href="/topic/redlynch/" class="link-secondary">Redlynch</a>,
+    
+    <a href="/topic/cairns/" class="link-secondary">Cairns</a>,
+    
+    <a href="/topic/aborigines/" class="link-secondary">Aborigines</a>,
+    
+    <a href="/topic/miles-franklin-award/" class="link-secondary">Miles Franklin Award</a>,
+    
+    <a href="/topic/p.r.-stephensen/" class="link-secondary">P.R. Stephensen</a>,
+    
+    <a href="/topic/black-velvet/" class="link-secondary">Black Velvet</a>,
+    
+    <a href="/topic/disturbing-element/" class="link-secondary">Disturbing Element</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-28">28 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

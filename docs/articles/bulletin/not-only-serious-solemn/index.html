@@ -169,17 +169,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Not Only Serious – Solemn!</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-06-02">02 Jun 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A blow-by-blow account of Melbourne&#39;s raging Age letters-page feud between realist and modernist painters, pitting William Dargie against National Gallery director Eric Westbrook.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -187,9 +196,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A blow-by-blow account of Melbourne&#39;s raging Age letters-page feud between realist and modernist painters, pitting William Dargie against National Gallery director Eric Westbrook.
-      </p>-->
       <p>HERE in Melbourne we have been enjoying the most protracted, the most satisfying, the most completely enjoyable art controversy of the last 10 years. It has been conducted in the letter columns of &quot;The Age&quot; with all the splendid daily continuity of a comic strip and, with a little luck and prodding, it should go on for some time yet.</p>
 <p>&quot;The Age&quot; has even graced us with a wordy leader on the subject: &quot;No form of civil war can hope to equal the efficient ferocity of a disagreement among artists over art . . . the thunder and rumble of internecine strife echoing in the letters to the editor columns have been more clangorous than any since Tweedledum and Tweedledee had at each other or the lion chased the unicorn all around the town . . . it is all very well to talk of the art of war, but that is pale stuff in comparision with the war of art&quot;.</p>
 <p>Tweedledum has been represented by the &quot;realists&quot;, team captain William Dargie. Tweedledee has been represented by the moderns, team captain, Eric Westbrook, director of our National Gallery. In this context it is not easy to define either camp, but judging from the correspondence a realist is a man of the old school, one who can paint a darned good gum tree, a perfect likeness in a portrait, and approved the choice of paintings for the Tate Exhibition. A modern is a man who can turn in a good abstract, likes his Nolans, Boyds, Tuckers, and is livid over the choice for the Tate Exhibition.</p>
@@ -214,7 +220,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -223,9 +232,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A blow-by-blow account of Melbourne&#39;s raging Age letters-page feud between realist and modernist painters, pitting William Dargie against National Gallery director Eric Westbrook.
       </p>
 <hr>
@@ -266,9 +279,54 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/adrian-rawlins/" class="link-secondary">Adrian Rawlins</a>,
+    
+    <a href="/topic/albert-tucker/" class="link-secondary">Albert Tucker</a>,
+    
+    <a href="/topic/atheneum-gallery/" class="link-secondary">Atheneum Gallery</a>,
+    
+    <a href="/topic/contemporary-art-society/" class="link-secondary">Contemporary Art Society</a>,
+    
+    <a href="/topic/eric-westbrook/" class="link-secondary">Eric Westbrook</a>,
+    
+    <a href="/topic/john-brach/" class="link-secondary">John Brach</a>,
+    
+    <a href="/topic/max-ragless/" class="link-secondary">Max Ragless</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/national-gallery/" class="link-secondary">National Gallery</a>,
+    
+    <a href="/topic/paul-fitzgerald/" class="link-secondary">Paul Fitzgerald</a>,
+    
+    <a href="/topic/san-francisco/" class="link-secondary">San Francisco</a>,
+    
+    <a href="/topic/tate-gallery/" class="link-secondary">Tate Gallery</a>,
+    
+    <a href="/topic/the-age/" class="link-secondary">The Age</a>,
+    
+    <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+    
+    <a href="/topic/william-dargie/" class="link-secondary">William Dargie</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

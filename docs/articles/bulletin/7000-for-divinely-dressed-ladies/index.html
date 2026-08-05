@@ -169,17 +169,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">£7000 for &quot;Divinely Dressed Ladies&quot;</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-09-22">22 Sep 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            The Victoria Racing Club, alarmed by falling attendances, unveils a £7000 best-dressed-racegoer competition for that year&#39;s Melbourne Cup carnival, turning the horses into something close to an afterthought.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -187,9 +196,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        The Victoria Racing Club, alarmed by falling attendances, unveils a £7000 best-dressed-racegoer competition for that year&#39;s Melbourne Cup carnival, turning the horses into something close to an afterthought.
-      </p>-->
       <p>REMARKABLE things are happening this year with the Melbourne Cup and some of us old racing die-hards are worried. The Cup is to be turned into a sort of Moomba, titled the &quot;Carnival of Fashions, Favorites and Flowers.&quot; Perhaps another aboriginal name would have helped but it wasn't so easy to find something that would cover—&quot;Let's get together to have fun and dress divinely.&quot; The city buildings will be floodlit, there will be lights in the trees of Collins Street, public floral displays, but here's the point — there will be £7000 in prizes for the most divinely dressed ladies. The running of 26 horses might only be incidental.</p>
 <p>The ladies will be judged in three sections. Section A for the lady whose ensemble—hat, bag, shoes, gloves, frock or suit, cost no more than £30. Section B for the lady whose ensemble costs no more than £50 and C for the lady with the most elegant hat. The judges will be members of the clothing industry, Miss Tania Verstak and the brand new Miss Australia.</p>
 <p>Putting it a little crudely the VRC for the past 100 years has known damned well that more money is made out of what goes on the backs of ladies than on the backs of horses, so at last they have decided to do something about it. So the VRC this time has pulled in the fashion industry to give things a kick along.</p>
@@ -208,7 +214,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -217,9 +226,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         The Victoria Racing Club, alarmed by falling attendances, unveils a £7000 best-dressed-racegoer competition for that year&#39;s Melbourne Cup carnival, turning the horses into something close to an afterthought.
       </p>
 <hr>
@@ -260,9 +273,54 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/british-nylon-spinners/" class="link-secondary">British Nylon Spinners</a>,
+    
+    <a href="/topic/chester-manifold/" class="link-secondary">Chester Manifold</a>,
+    
+    <a href="/topic/frank-grey-smith/" class="link-secondary">Frank Grey-Smith</a>,
+    
+    <a href="/topic/geoff-lane/" class="link-secondary">Geoff Lane</a>,
+    
+    <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+    
+    <a href="/topic/johnny-sellers/" class="link-secondary">Johnny Sellers</a>,
+    
+    <a href="/topic/melbourne-cricket-club/" class="link-secondary">Melbourne Cricket Club</a>,
+    
+    <a href="/topic/melbourne-cup/" class="link-secondary">Melbourne Cup</a>,
+    
+    <a href="/topic/nan-sanders/" class="link-secondary">Nan Sanders</a>,
+    
+    <a href="/topic/peggy-tellick/" class="link-secondary">Peggy Tellick</a>,
+    
+    <a href="/topic/ross-grey-smith/" class="link-secondary">Ross Grey-Smith</a>,
+    
+    <a href="/topic/tania-verstak/" class="link-secondary">Tania Verstak</a>,
+    
+    <a href="/topic/tourist-development-authority/" class="link-secondary">Tourist Development Authority</a>,
+    
+    <a href="/topic/victoria-racing-club/" class="link-secondary">Victoria Racing Club</a>,
+    
+    <a href="/topic/wool-bureau/" class="link-secondary">Wool Bureau</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

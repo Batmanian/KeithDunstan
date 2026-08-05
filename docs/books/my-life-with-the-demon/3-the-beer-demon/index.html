@@ -185,17 +185,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">The Beer Demon</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             30
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1994-11-11">1994</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Traces the wartime origins of Australia&#39;s six o&#39;clock closing laws, sold as a patriotic blow against the Kaiser, and the mad, beer-soaked &quot;six o&#39;clock swill&quot; they produced for the next half-century.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="My Life With The Demon">
@@ -203,9 +212,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Traces the wartime origins of Australia&#39;s six o&#39;clock closing laws, sold as a patriotic blow against the Kaiser, and the mad, beer-soaked &quot;six o&#39;clock swill&quot; they produced for the next half-century.
-      </p>-->
       <p>Living in New York was extremely uncomplicated. The Demon drink was half the Australian price. Whisky, Bourbon, Scotch and Rye could even be bought in gallon bottles. Liquor stores were open night and day. They never seemed to close. Why did one not find drunks on the streets as we did in Melbourne? There was no problem about restaurants, even tiny cafes served drinks with meals. How easy it was to slip into this style of life. Our local grocer was an Italian, named Bruno. One Sunday morning I went round to Bruno to buy a dozen bottles of beer.</p>
 <p>&quot;Sorry,&quot; said Bruno. &quot;We can't sell liquor until noon on Sundays. That's the law in New York.&quot;</p>
 <p>I fumed. &quot;What sort of a country is this. You can't buy liquor on Sunday mornings.&quot; Suddenly I came to my senses and remembered the unique and wondrous liquor laws back home. We returned to those in 1952.</p>
@@ -317,7 +323,10 @@ FOR THE REST OF YOUR LIFE.</p>
 <p class="lead">Follow onto the next chapter, <a href="/books/my-life-with-the-demon/4-finding-the-wine-demon">Finding the wine demon</a>
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-30">30 Jul 2026</time>
         </footer>
       
@@ -326,9 +335,13 @@ FOR THE REST OF YOUR LIFE.</p>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Traces the wartime origins of Australia&#39;s six o&#39;clock closing laws, sold as a patriotic blow against the Kaiser, and the mad, beer-soaked &quot;six o&#39;clock swill&quot; they produced for the next half-century.
       </p>
 <hr>
@@ -401,9 +414,86 @@ FOR THE REST OF YOUR LIFE.</p>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/wine/" class="link-secondary">Wine</a>,
+    
+    <a href="/topic/6-oclock-swill/" class="link-secondary">6 Oclock swill</a>,
+    
+    <a href="/topic/king-george-v/" class="link-secondary">King George V</a>,
+    
+    <a href="/topic/reverend-e.-c.-crotty/" class="link-secondary">Reverend E. C. Crotty</a>,
+    
+    <a href="/topic/sir-alexander-peacock/" class="link-secondary">Sir Alexander Peacock</a>,
+    
+    <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+    
+    <a href="/topic/cathedral-hotel/" class="link-secondary">Cathedral Hotel</a>,
+    
+    <a href="/topic/menzies-hotel/" class="link-secondary">Menzies Hotel</a>,
+    
+    <a href="/topic/young-and-jacksons-hotel/" class="link-secondary">Young and Jacksons Hotel</a>,
+    
+    <a href="/topic/hotel-australia/" class="link-secondary">Hotel Australia</a>,
+    
+    <a href="/topic/chloe/" class="link-secondary">Chloe</a>,
+    
+    <a href="/topic/beer/" class="link-secondary">Beer</a>,
+    
+    <a href="/topic/tom-ford/" class="link-secondary">Tom Ford</a>,
+    
+    <a href="/topic/osmar-white/" class="link-secondary">Osmar White</a>,
+    
+    <a href="/topic/norman-brown/" class="link-secondary">Norman Brown</a>,
+    
+    <a href="/topic/curly-rourke/" class="link-secondary">Curly Rourke</a>,
+    
+    <a href="/topic/breakfast-creek-hotel/" class="link-secondary">Breakfast Creek Hotel</a>,
+    
+    <a href="/topic/dr-carl-resch/" class="link-secondary">Dr Carl Resch</a>,
+    
+    <a href="/topic/coopers-beer/" class="link-secondary">Coopers Beer</a>,
+    
+    <a href="/topic/fosters-lager/" class="link-secondary">Fosters Lager</a>,
+    
+    <a href="/topic/reschs/" class="link-secondary">Reschs</a>,
+    
+    <a href="/topic/swan-lager/" class="link-secondary">Swan Lager</a>,
+    
+    <a href="/topic/gough-whitlam/" class="link-secondary">Gough Whitlam</a>,
+    
+    <a href="/topic/wallhalla/" class="link-secondary">Wallhalla</a>,
+    
+    <a href="/topic/warwick-w-armstrong/" class="link-secondary">Warwick W Armstrong</a>,
+    
+    <a href="/topic/home-brewing/" class="link-secondary">Home brewing</a>,
+    
+    <a href="/topic/peter-janson/" class="link-secondary">Peter Janson</a>,
+    
+    <a href="/topic/melbourne-cricket-club/" class="link-secondary">Melbourne Cricket Club</a>,
+    
+    <a href="/topic/jeff-moss/" class="link-secondary">Jeff Moss</a>,
+    
+    <a href="/topic/paul-sheahan/" class="link-secondary">Paul Sheahan</a>,
+    
+    <a href="/topic/ian-johnson/" class="link-secondary">Ian Johnson</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-30">30 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

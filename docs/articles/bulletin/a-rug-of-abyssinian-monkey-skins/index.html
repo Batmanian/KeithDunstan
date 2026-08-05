@@ -165,17 +165,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">A Rug of Abyssinian Monkey Skins</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             5
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-12-29">29 Dec 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Visits used-car king Emmanuel Margolin, once Australia&#39;s self-styled biggest car dealer, as the credit squeeze forces him to auction his Toorak mansion&#39;s zebra hides, matador suit, and 500-monkey-pelt rug.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -183,9 +192,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Visits used-car king Emmanuel Margolin, once Australia&#39;s self-styled biggest car dealer, as the credit squeeze forces him to auction his Toorak mansion&#39;s zebra hides, matador suit, and 500-monkey-pelt rug.
-      </p>-->
       <p>FINANCIALLY this past week has been like the last scene in Macbeth. We have had bodies spread all over the stage. A financial loss was barely worth mentioning unless it was up around £4 million or £6 million. We have witnessed the scenes of the receivers marching into Stanhill and Reid Murray and we heard Stanley Korman's passionate appeal to his shareholders. Now in the midst of all this a man came into the news that we had almost forgotten, Emmanuel Margolin. He stared out at us through a photograph in the Sun, in the full dress of a Spanish matador, specially tailored for him in Madrid. As this department has said before, Melbourne is extremely light on interesting characters. But Emmanuel is a character if ever there was one.</p>
 <p>Back in 1959 Emmanuel was on his way to becoming a millionaire. After arriving from France in the Stratheden in 1952 with only £7, things had gone beautifully. He had eight used car yards, his annual turnover was nigh on £4 million and he was selling 250 cars a week. He claimed he was the world's biggest. Number two was a car dealer in Chicago. He started this incredible gimmick of selling a car with his own face. His ads were peppered with pictures of Emmanuel. The peak came one day in 1960. He had 360 pictures of himself on one full page ad. in the Age. It seemed to sell cars. He was often in the news. Early in 1959 he bought a Ford Thunderbird from another used car dealer for £3000. No sooner had he taken delivery than it was seized by the Customs.</p>
 <p>He was determined to have that car. He waited for the auction and he bought it for £2600. Maybe he is the only man who has ever paid a total of £5600 for a Ford Thunderbird.</p>
@@ -203,7 +209,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -212,9 +221,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Visits used-car king Emmanuel Margolin, once Australia&#39;s self-styled biggest car dealer, as the credit squeeze forces him to auction his Toorak mansion&#39;s zebra hides, matador suit, and 500-monkey-pelt rug.
       </p>
 <hr>
@@ -247,9 +260,46 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/cecile-margolin/" class="link-secondary">Cecile Margolin</a>,
+    
+    <a href="/topic/emmanuel-margolin/" class="link-secondary">Emmanuel Margolin</a>,
+    
+    <a href="/topic/ford-thunderbird/" class="link-secondary">Ford Thunderbird</a>,
+    
+    <a href="/topic/gembrook/" class="link-secondary">Gembrook</a>,
+    
+    <a href="/topic/hopetoun-road/" class="link-secondary">Hopetoun Road</a>,
+    
+    <a href="/topic/langley-park/" class="link-secondary">Langley Park</a>,
+    
+    <a href="/topic/madrid/" class="link-secondary">Madrid</a>,
+    
+    <a href="/topic/reid-murray/" class="link-secondary">Reid Murray</a>,
+    
+    <a href="/topic/stanhill/" class="link-secondary">Stanhill</a>,
+    
+    <a href="/topic/stanley-korman/" class="link-secondary">Stanley Korman</a>,
+    
+    <a href="/topic/toorak/" class="link-secondary">Toorak</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

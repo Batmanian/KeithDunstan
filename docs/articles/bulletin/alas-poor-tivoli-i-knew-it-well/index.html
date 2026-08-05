@@ -168,17 +168,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Alas, poor Tivoli, I knew it well.</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1967-04-15">15 Apr 1967</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A eulogy for Melbourne&#39;s fire-gutted Tivoli Theatre, tracing its history back to the 1850s diggers&#39; Varieties Music Hall through Harry Rickard&#39;s opulent 1901 rebuild and its parade of stars from Marie Lloyd to Harry Houdini.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -186,9 +195,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A eulogy for Melbourne&#39;s fire-gutted Tivoli Theatre, tracing its history back to the 1850s diggers&#39; Varieties Music Hall through Harry Rickard&#39;s opulent 1901 rebuild and its parade of stars from Marie Lloyd to Harry Houdini.
-      </p>-->
       <h1>The night the old Tiv burnt down</h1>
 <p>I would like to have a good cry over the old Tivoli, but it is not easy. The old dear hasn't been well for long time.  The City Council nearly bought the whole block of Tivoli buildings for $2 million back in 1963 and last year the theatre closed as a variety theatre and reopened as a cinema.</p>
 <p>Last week in the middle of the night came the fire.  Your correspondent hurried along next morning to look at the cadaver.  The mess was frightful.  The roof and the projection-room had crashed into the dress circle.</p>
@@ -217,7 +223,10 @@ In the beautiful summer weather. . .</p>
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -226,9 +235,13 @@ In the beautiful summer weather. . .</p>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A eulogy for Melbourne&#39;s fire-gutted Tivoli Theatre, tracing its history back to the 1850s diggers&#39; Varieties Music Hall through Harry Rickard&#39;s opulent 1901 rebuild and its parade of stars from Marie Lloyd to Harry Houdini.
       </p>
 <hr>
@@ -267,9 +280,52 @@ In the beautiful summer weather. . .</p>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/bourke-street/" class="link-secondary">Bourke Street</a>,
+    
+    <a href="/topic/chico-marx/" class="link-secondary">Chico Marx</a>,
+    
+    <a href="/topic/harry-houdini/" class="link-secondary">Harry Houdini</a>,
+    
+    <a href="/topic/harry-rickard/" class="link-secondary">Harry Rickard</a>,
+    
+    <a href="/topic/his-majestys-theatre/" class="link-secondary">His Majestys Theatre</a>,
+    
+    <a href="/topic/marie-lloyd/" class="link-secondary">Marie Lloyd</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/the-argus/" class="link-secondary">The Argus</a>,
+    
+    <a href="/topic/the-bijou-theatre/" class="link-secondary">The Bijou Theatre</a>,
+    
+    <a href="/topic/the-haymarket-theatre/" class="link-secondary">The Haymarket Theatre</a>,
+    
+    <a href="/topic/the-kings-theatre/" class="link-secondary">The Kings Theatre</a>,
+    
+    <a href="/topic/theatre-royal/" class="link-secondary">Theatre Royal</a>,
+    
+    <a href="/topic/tivoli-theatre/" class="link-secondary">Tivoli Theatre</a>,
+    
+    <a href="/topic/varieties-music-hall/" class="link-secondary">Varieties Music Hall</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

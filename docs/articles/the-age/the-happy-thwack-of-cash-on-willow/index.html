@@ -161,17 +161,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">The happy thwack of cash on willow</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             4
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1997-10-27">27 Oct 1997</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A meditation on cricket&#39;s transformation from a game of beautifully organised boredom, best enjoyed dozing at the Melbourne Cricket Ground, into a business fought over by players threatening strike action for a share of ballooning sponsorship money.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Age">
@@ -179,9 +188,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A meditation on cricket&#39;s transformation from a game of beautifully organised boredom, best enjoyed dozing at the Melbourne Cricket Ground, into a business fought over by players threatening strike action for a share of ballooning sponsorship money.
-      </p>-->
       <p>CRICKETERS threatening strike! Would someone pass the smelling salts? Could anything be more shocking? Let everyone else go on strike - footballers, jockeys, baseball players (they did that for a whole year in the United States). But cricketers? Oh dear, no.</p>
 <p>Cricket is not really a sport; it is a drama, a rite, or a dance. A Test match is akin to a symphony by Beethoven or Brahms. It has its movements. The first movement tends to be allegro, sheer power as the fast bowlers pound down the wicket. Then we have, the slow movement, the batsmen are settling in; andante, largo, lentamente, even gravemente. The third movement, the slow bowlers are being hit around, it could be allegro non troppo.</p>
 <p>For the final movement, there is a rhythm, the mood intensifies and, if the play is good, it works relentlessly towards a climax. Yes, on the fifth day the mood should be vivace presto.</p>
@@ -196,7 +202,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -205,9 +214,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A meditation on cricket&#39;s transformation from a game of beautifully organised boredom, best enjoyed dozing at the Melbourne Cricket Ground, into a business fought over by players threatening strike action for a share of ballooning sponsorship money.
       </p>
 <hr>
@@ -232,9 +245,38 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/3lo/" class="link-secondary">3LO</a>,
+    
+    <a href="/topic/bay-13/" class="link-secondary">Bay 13</a>,
+    
+    <a href="/topic/dennis-lillee/" class="link-secondary">Dennis Lillee</a>,
+    
+    <a href="/topic/donald-cordner/" class="link-secondary">Donald Cordner</a>,
+    
+    <a href="/topic/john-arlott/" class="link-secondary">John Arlott</a>,
+    
+    <a href="/topic/melbourne-cricket-ground/" class="link-secondary">Melbourne Cricket Ground</a>,
+    
+    <a href="/topic/shane-warne/" class="link-secondary">Shane Warne</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

@@ -1,15 +1,24 @@
 <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">{{ title }}</h1>
         {% block extraArticleHeader %}
           {% set wc = content | striptags | wordcount %}
           {% set wPerMinute = (wc / 240) + 1 %}
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             {{ wPerMinute | round }}
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="{{ page.date | htmlDateString }}">{{ page.date | postDate(tags) }}</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            {{ summary }}
           </p>
           {% set publication = categories[0] if categories and categories.length else (page.url | split('/'))[2] | humanizeSlug %}
           <meta data-pagefind-meta="publication[content]" content="{{ publication }}">
@@ -20,13 +29,13 @@
 
         {% endblock %}
       </header>
-     <!-- <p class="lead">
-        {{ summary }}
-      </p>-->
       {{ content | safe }}
       {% set lastUpdated = page.inputPath | gitLastUpdated %}
       {% if lastUpdated %}
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="{{ lastUpdated | htmlDateString }}">{{ lastUpdated | readableDate }}</time>
         </footer>
       {% endif %}

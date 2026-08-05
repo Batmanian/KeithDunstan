@@ -166,17 +166,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Now They Call Him &quot;Satchmo&quot; Bolte</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-06-30">30 Jun 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Traces the Exhibition Building&#39;s rise from would-be demolition target to beloved 1963 Trade Fair venue via its riotous 1880s exhibition history, then catches Henry Bolte earning the nickname &quot;Satchmo&quot; over a misquoted Anthony Trollope line about Victorian boasting.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -184,9 +193,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Traces the Exhibition Building&#39;s rise from would-be demolition target to beloved 1963 Trade Fair venue via its riotous 1880s exhibition history, then catches Henry Bolte earning the nickname &quot;Satchmo&quot; over a misquoted Anthony Trollope line about Victorian boasting.
-      </p>-->
       <p>YOUNG reporters who worked the police rounds dog-watch, 7 p.m. to 3 a.m., used to have their dreams. Don't get me wrong; they looked upon their fellow citizens with great kindness, but to ease the awful monotony they hoped for two things:</p>
 <ul>
 <li>That there would be a frightful bloody murder that would go unsolved for a week.</li>
@@ -214,7 +220,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -223,9 +232,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Traces the Exhibition Building&#39;s rise from would-be demolition target to beloved 1963 Trade Fair venue via its riotous 1880s exhibition history, then catches Henry Bolte earning the nickname &quot;Satchmo&quot; over a misquoted Anthony Trollope line about Victorian boasting.
       </p>
 <hr>
@@ -260,9 +273,48 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/anthony-trollope/" class="link-secondary">Anthony Trollope</a>,
+    
+    <a href="/topic/carlton-gardens/" class="link-secondary">Carlton Gardens</a>,
+    
+    <a href="/topic/chamber-of-commerce/" class="link-secondary">Chamber of Commerce</a>,
+    
+    <a href="/topic/chloe/" class="link-secondary">Chloe</a>,
+    
+    <a href="/topic/exhibition-building/" class="link-secondary">Exhibition Building</a>,
+    
+    <a href="/topic/fosters-lager/" class="link-secondary">Fosters Lager</a>,
+    
+    <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+    
+    <a href="/topic/jules-lefebre/" class="link-secondary">Jules Lefebre</a>,
+    
+    <a href="/topic/louis-armstrong/" class="link-secondary">Louis Armstrong</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/robert-heffron/" class="link-secondary">Robert Heffron</a>,
+    
+    <a href="/topic/sydney/" class="link-secondary">Sydney</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

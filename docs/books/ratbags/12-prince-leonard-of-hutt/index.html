@@ -165,17 +165,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Prince Leonard of Hutt</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             16
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1980-11-11">1980</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Profile of Len Casley, the West Australian wheat farmer who seceded from Australia over a wheat quota dispute in 1970 to found the Hutt River Principality, styling himself Prince Leonard and later declaring a brief &#39;war&#39; on the Commonwealth.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Ratbags">
@@ -183,9 +192,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Profile of Len Casley, the West Australian wheat farmer who seceded from Australia over a wheat quota dispute in 1970 to found the Hutt River Principality, styling himself Prince Leonard and later declaring a brief &#39;war&#39; on the Commonwealth.
-      </p>-->
       <strong>I</strong> FIRST MET His Royal Highness Prince Leonard of Hutt just before Christmas 1974. There were tourist buses which went all the way to the Royal Province, but there was just a bare 24 hours to make the excursion. This was a rest day when the immortals Dennis Lillee and Jeff Thomson were bowling against the Englishmen in the Second Test, an occasion not to be missed. Hutt River Province was 574 kilometres north of Perth, so clearly the best way to get there was to fly by commercial aircraft to Geraldton, then get a taxi over the final 100.<br><br>
 The taxi was not necessary — bless him — the Prince was there to pick me up at the airport. He was a small, dark-haired man in horn-rimmed glasses. He was wearing a short-sleeved shirt, brown trousers, sandals and — begging his pardon — he had an accent that could have come from across the border of Hutt River Province — like Australia. His face was showing the tan and the wear that a face gets on the oldest, driest continent on earth and one could see that the royal hands had been used to hard work.<br><br>
 The car was not chauffeur driven, it was covered in dust and its humble make was far from new. We drove out on a red dirt road, leaving a billowing red cloud behind the rear wheels. The temperature was just on 40 degrees Celsius and the sun burned out of a perfect stainless blue sky. Prince Leonard agreed that it could be hot in these parts. It was frequently around 40 in December, it was 40 or over all January and it was 40 for most of February.<br><br>
@@ -284,7 +290,10 @@ Continue to the next chapter: <a href="/books/ratbags/13-george-dick-meudell">Ge
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-27">27 Jul 2026</time>
         </footer>
       
@@ -293,9 +302,13 @@ Continue to the next chapter: <a href="/books/ratbags/13-george-dick-meudell">Ge
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Profile of Len Casley, the West Australian wheat farmer who seceded from Australia over a wheat quota dispute in 1970 to found the Hutt River Principality, styling himself Prince Leonard and later declaring a brief &#39;war&#39; on the Commonwealth.
       </p>
 <hr>
@@ -328,9 +341,46 @@ Continue to the next chapter: <a href="/books/ratbags/13-george-dick-meudell">Ge
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/prince-leonard-of-hutt/" class="link-secondary">Prince Leonard of Hutt</a>,
+    
+    <a href="/topic/hutt-river-province/" class="link-secondary">Hutt River Province</a>,
+    
+    <a href="/topic/len-casley/" class="link-secondary">Len Casley</a>,
+    
+    <a href="/topic/geraldton/" class="link-secondary">Geraldton</a>,
+    
+    <a href="/topic/western-australia/" class="link-secondary">Western Australia</a>,
+    
+    <a href="/topic/wheat-quota-board/" class="link-secondary">Wheat Quota Board</a>,
+    
+    <a href="/topic/douglas-kendrew/" class="link-secondary">Douglas Kendrew</a>,
+    
+    <a href="/topic/malcolm-fraser/" class="link-secondary">Malcolm Fraser</a>,
+    
+    <a href="/topic/john-kerr/" class="link-secondary">John Kerr</a>,
+    
+    <a href="/topic/billy-mcmahon/" class="link-secondary">Billy McMahon</a>,
+    
+    <a href="/topic/perth/" class="link-secondary">Perth</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-27">27 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

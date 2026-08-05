@@ -176,17 +176,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">The demon becomes a snob</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             24
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1994-11-11">1994</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            On the columnist&#39;s endless round of PR-fuelled launches and champagne breakfasts, Stanley Korman&#39;s American import, that turned a professional drinker into an accidental wine snob.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="My Life With The Demon">
@@ -194,9 +203,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        On the columnist&#39;s endless round of PR-fuelled launches and champagne breakfasts, Stanley Korman&#39;s American import, that turned a professional drinker into an accidental wine snob.
-      </p>-->
       <p>Of course, few people realise just how much daily columnists suffer. I was a daily columnist for more than 30 years. If any new product came on the market; a new book, a new beer, if a new show was coming to town, if a new building was being opened, a new company created, it was essential to invite the columnists. Every public relations person knew they were desperate for material so always columnists were at the top of the invitation list.</p>
 <p>There was a rule as rock solid as Mr Newton's Laws of Motion. Indeed there could be a Fourth Law of Motion which would read &quot;Nothing can be launched without adequate food and drink.&quot; This still applies and my advice to anyone out of work and in need of sustenance would be to keep an eye on the reception rooms of the city's top hotels. Always there is a board by the registration desk which lists the functions for the day. Usually there are four or five. For example &quot;Ansett Holiday Tour 4 pm.&quot; It is important to have a clean shirt, a tie, then announce yourself maybe as Alf Bloggenheimer, columnist for the City News. You will be fed, wined, and given a public relations kit.</p>
 <p>The truth is that most hotels, most reception rooms, most restaurants, are supported by hard-working, self sacrificing business people, who are eating and drinking on behalf of business and country. As a columnist I found that I had invitations for lunch, dinner, and evening drinks almost every day. One could cope with this but then the situation became worse.</p>
@@ -264,7 +270,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -273,9 +282,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         On the columnist&#39;s endless round of PR-fuelled launches and champagne breakfasts, Stanley Korman&#39;s American import, that turned a professional drinker into an accidental wine snob.
       </p>
 <hr>
@@ -330,9 +343,68 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/wine/" class="link-secondary">Wine</a>,
+    
+    <a href="/topic/rothbury-estate-society/" class="link-secondary">Rothbury Estate Society</a>,
+    
+    <a href="/topic/len-evans/" class="link-secondary">Len Evans</a>,
+    
+    <a href="/topic/brown-brothers-of-milawa/" class="link-secondary">Brown Brothers of Milawa</a>,
+    
+    <a href="/topic/viticultural-society-of-victoria/" class="link-secondary">Viticultural Society of Victoria</a>,
+    
+    <a href="/topic/james-halliday/" class="link-secondary">James Halliday</a>,
+    
+    <a href="/topic/neville-baker/" class="link-secondary">Neville Baker</a>,
+    
+    <a href="/topic/john-beeston/" class="link-secondary">John Beeston</a>,
+    
+    <a href="/topic/frank-christie/" class="link-secondary">Frank Christie</a>,
+    
+    <a href="/topic/peter-joyce/" class="link-secondary">Peter Joyce</a>,
+    
+    <a href="/topic/peter-walker/" class="link-secondary">Peter Walker</a>,
+    
+    <a href="/topic/david-thomas/" class="link-secondary">David Thomas</a>,
+    
+    <a href="/topic/john-cunnington/" class="link-secondary">John Cunnington</a>,
+    
+    <a href="/topic/reg-egan/" class="link-secondary">Reg Egan</a>,
+    
+    <a href="/topic/joe-sullivan/" class="link-secondary">Joe Sullivan</a>,
+    
+    <a href="/topic/dr-max-lake/" class="link-secondary">Dr Max Lake</a>,
+    
+    <a href="/topic/hermann-schneider/" class="link-secondary">Hermann Schneider</a>,
+    
+    <a href="/topic/doug-crittenden/" class="link-secondary">Doug Crittenden</a>,
+    
+    <a href="/topic/tom-seabrook/" class="link-secondary">Tom Seabrook</a>,
+    
+    <a href="/topic/douglas-seabrook/" class="link-secondary">Douglas Seabrook</a>,
+    
+    <a href="/topic/rudi-komon/" class="link-secondary">Rudi Komon</a>,
+    
+    <a href="/topic/berek-segan/" class="link-secondary">Berek Segan</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

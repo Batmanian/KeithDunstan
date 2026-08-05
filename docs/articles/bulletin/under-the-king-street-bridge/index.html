@@ -159,17 +159,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Under the King Street Bridge</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             6
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1963-01-26">26 Jan 1963</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Profiles Whelan the Wrecker, the Melbourne demolition firm founded in 1891 by a bowler-hatted Irish immigrant, now engaged to dismantle three cracked spans of King&#39;s Bridge and busily expanding into wrecking Sydney as well.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -177,9 +186,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Profiles Whelan the Wrecker, the Melbourne demolition firm founded in 1891 by a bowler-hatted Irish immigrant, now engaged to dismantle three cracked spans of King&#39;s Bridge and busily expanding into wrecking Sydney as well.
-      </p>-->
       <p>Surely you must be intrigued by the news that Whelan the Wrecker has won the contract to wreck our famous King's Bridge. True, he won't be wrecking the whole bridge, just one 60-ft span and two 20-ft spans under the £2000 contract. Yet it is a most interesting exercise for all Melburnians. Few of us have ever lived long enough to see the one bridge being fully built then later wrecked. Now here is the whole process being carried out most compactly in less than two years. The wrecking started last Monday and the job should last for four weeks. The eventual cost of making the bridge as good as new will be close on £350,000.</p>
 <p>The Whelans already have announced that before they depart they will erect on the bridge their famous sign: &quot;WHELAN THE WRECKER WAS HERE.&quot; It is not one of their biggest jobs, but undoubtedly it is one of their most satisfying. Rarely does a wrecker get a fine, new, £4,100,000 bridge to work upon. The Whelan firm is as well known around here as . . . er . . . Princes Bridge. For the past 60 years it has done 95 per cent of our wrecking. Indeed, just lately the Whelans have been doing so well they have opened a branch in Sydney.</p>
 <p>What's more we take a communal joy in this. There is real pleasure to be had in the thought that a Melbourne firm now has the job of wrecking Sydney. The Sydney member of the family is young Mr Myles Whelan. Maybe you saw his Christmas card. It depicted the Sydney Harbor Bridge, all freshly wrecked. The pylons were left standing, nothing else, and the Whelan sign was out. The caption read: &quot;OUR AMBITION.&quot; So, seeing that they are already busy on King's Bridge in Melbourne, you Sydney gentlemen would be well advised to observe Myles Whelan's activities.</p>
@@ -199,7 +205,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -208,9 +217,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Profiles Whelan the Wrecker, the Melbourne demolition firm founded in 1891 by a bowler-hatted Irish immigrant, now engaged to dismantle three cracked spans of King&#39;s Bridge and busily expanding into wrecking Sydney as well.
       </p>
 <hr>
@@ -231,9 +244,34 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/jim-whelan/" class="link-secondary">Jim Whelan</a>,
+    
+    <a href="/topic/king&#39;s-bridge/" class="link-secondary">King&#39;s Bridge</a>,
+    
+    <a href="/topic/myles-whelan/" class="link-secondary">Myles Whelan</a>,
+    
+    <a href="/topic/princes-bridge/" class="link-secondary">Princes Bridge</a>,
+    
+    <a href="/topic/whelan-the-wrecker/" class="link-secondary">Whelan the Wrecker</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

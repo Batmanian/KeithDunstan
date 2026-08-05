@@ -161,17 +161,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">How to cheat at wine tastings</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             7
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1968-05-01">01 May 1968</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A tongue-in-cheek guide to bluffing your way through a masked-bottle wine tasting, from reading cork brands and capsule colours to timing your &quot;hint of crushed violets&quot; line for maximum effect.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Australian Gourmet">
@@ -179,9 +188,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A tongue-in-cheek guide to bluffing your way through a masked-bottle wine tasting, from reading cork brands and capsule colours to timing your &quot;hint of crushed violets&quot; line for maximum effect.
-      </p>-->
       <p>You must have noticed that the nation is in danger of being over-run with grape and tucker clubs. For a start we have all the Wine and Food Societies and Beefsteak and Burgundy Clubs. In numbers they are already threatening to overthrow Apex and the Lions, but on top of this we have all the private, very exclusive little societies that meet at the nicest of clubs and restaurants. Indeed, I know some tellows who belong to so many of these groups they are finding it diflicult to arrange an appointment tor a meal at home.</p>
 <p>Yet in every club they go through the same awful ritual. All the bottles from the sherry through to the heavy artillery at the finish are wrapped in brown paper. In polite language they are masked.</p>
 <p>So the happy enjoyment of your fillet mignon is destroyed by a speech making 90 minute marathon on a Guess-The-Wine Competition. The theory is that you stand up, describe the nose, the taste, precisely identify the age, the grape or blend grapes and then you infilliantly identify the area, the vineyard and perhaps even you superbly name the paddock in which the grapes were picked There are only about 20 people in the country who are any good at this. Oh, come now let's be generous 30 anyway. Yet Alf Bloggenheimer who works in an insurance office and gets to see a decent red once in a month is expected to compete, ovi hell° Finalauneuf du Pape described as a Dalwood Hermitage.</p>
@@ -202,7 +208,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -211,9 +220,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A tongue-in-cheek guide to bluffing your way through a masked-bottle wine tasting, from reading cork brands and capsule colours to timing your &quot;hint of crushed violets&quot; line for maximum effect.
       </p>
 <hr>
@@ -238,9 +251,38 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/chateau-tahbilk/" class="link-secondary">Chateau Tahbilk</a>,
+    
+    <a href="/topic/clubs-and-societies/" class="link-secondary">Clubs and Societies</a>,
+    
+    <a href="/topic/mount-pleasant/" class="link-secondary">Mount Pleasant</a>,
+    
+    <a href="/topic/peter-walker/" class="link-secondary">Peter Walker</a>,
+    
+    <a href="/topic/rhine-castle/" class="link-secondary">Rhine Castle</a>,
+    
+    <a href="/topic/stonyfell/" class="link-secondary">Stonyfell</a>,
+    
+    <a href="/topic/wine/" class="link-secondary">Wine</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

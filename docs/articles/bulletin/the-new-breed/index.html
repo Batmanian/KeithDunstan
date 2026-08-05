@@ -165,17 +165,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">The New Breed</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             5
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1962-03-31">31 Mar 1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Previews Pan-American&#39;s new Miami-style Southern Cross Hotel rising on the old Eastern Market site, then the Lord Mayor&#39;s £770 replacement robes after the old ones, handed down for decades, finally fell apart.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Bulletin">
@@ -183,9 +192,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Previews Pan-American&#39;s new Miami-style Southern Cross Hotel rising on the old Eastern Market site, then the Lord Mayor&#39;s £770 replacement robes after the old ones, handed down for decades, finally fell apart.
-      </p>-->
       <p>HOTEL-WRECKING-VIEWING is a popular pastime in Melbourne. Indeed, many a feature of some of our best wrecked hotels have appeared in famous movies. The bar of the wrecked Occidental Hotel, for example, appeared in &quot;On the Beach,&quot; with Ava Gardner. But while Melburnians have seen countless city hotels being handled by Mr Whelan, the wrecker, few of us have ever seen a hotel being built. So you can imagine our excitement now that Pan-American's new Southern Cross Hotel is almost complete. It opens for business on August 24.</p>
 <p>Even the directors are excited, because last week they chose to hold their board meeting on the 14th floor. Many of us were pleased at this new tough breed of directors who were prepared to walk up 14 flights of stairs. However, a service lift was in action specially for the day. The electric button was not in action, but directors like Mr H. Williamson, Sir Arthur Smithers, Mr Ballieu Myer et alia were able to bang on the lift door and the lift man came down from aloft to collect them.</p>
 <p>But the appearance of the hotel, that's the thing. Exhibition Street is a very dear, staid old street. Yet this hotel on the Eastern Market site at the corner of Bourke Street looks as if it has come straight from Miami. The main wing is covered on two sides with ceramic tile which is slightly bluer than a blue bag. Then at top and bottom there is a curious zigzag trim, so at the moment we are toying with two names. We'll either call it The Concertina or The Blue Duck.</p>
@@ -199,7 +205,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -208,9 +217,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Previews Pan-American&#39;s new Miami-style Southern Cross Hotel rising on the old Eastern Market site, then the Lord Mayor&#39;s £770 replacement robes after the old ones, handed down for decades, finally fell apart.
       </p>
 <hr>
@@ -243,9 +256,46 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/albury/" class="link-secondary">Albury</a>,
+    
+    <a href="/topic/bernard-evans/" class="link-secondary">Bernard Evans</a>,
+    
+    <a href="/topic/bourke-street/" class="link-secondary">Bourke Street</a>,
+    
+    <a href="/topic/carlton/" class="link-secondary">Carlton</a>,
+    
+    <a href="/topic/east-melbourne/" class="link-secondary">East Melbourne</a>,
+    
+    <a href="/topic/eastern-market/" class="link-secondary">Eastern Market</a>,
+    
+    <a href="/topic/exhibition-street/" class="link-secondary">Exhibition Street</a>,
+    
+    <a href="/topic/maurice-nathan/" class="link-secondary">Maurice Nathan</a>,
+    
+    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    
+    <a href="/topic/pete-sutherland/" class="link-secondary">Pete Sutherland</a>,
+    
+    <a href="/topic/southern-cross-hotel/" class="link-secondary">Southern Cross Hotel</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

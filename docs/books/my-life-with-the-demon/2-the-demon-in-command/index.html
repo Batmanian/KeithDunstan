@@ -166,17 +166,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">The Demon in Command</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             15
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1994-11-11">1994</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A young RAAF pilot officer&#39;s disastrous first proper bender on &quot;Pink Lady&quot; cocktails at Wireless Air Gunnery School, ending with the mess hut wall redecorated and a formal reprimand as &quot;a most unsatisfactory member.&quot;
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="My Life With The Demon">
@@ -184,9 +193,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A young RAAF pilot officer&#39;s disastrous first proper bender on &quot;Pink Lady&quot; cocktails at Wireless Air Gunnery School, ending with the mess hut wall redecorated and a formal reprimand as &quot;a most unsatisfactory member.&quot;
-      </p>-->
       <p>Of course, one has to be educated to the Demon, lessons are necessary on how to live with him, how to coddle and be nice to him. Schools regrettably teach nothing about the vital things of life; how to tip a waiter, the mysteries of a quinella and a quadrella, how to make a million on the stockmarket, the right time to plant tomatoes, how to reply to an invitation to a party, how to tie a bow tie, and, most important of all, how to find one's way around a wine list.</p>
 <p>The various schools I went to taught nothing about the Demon. On the last day, just before setting out into the dangerous world, our distinguished headmaster gave this warning: &quot;There are three great dangers in life, wine, women and motor cars. Any one of these is fraught with peril, and any two combined are disastrous.&quot;</p>
 <p>My father believed that young people should be eased towards liquor gently. He had the theory that if they were familiar with beer and wine as teenagers, then they would not make appalling mistakes later on. Nothing is more calamitous, he believed, than an 18-year-old having his first drink at a party.</p>
@@ -256,7 +262,10 @@ But lost our mate in P.G Hay.</p>
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -265,9 +274,13 @@ But lost our mate in P.G Hay.</p>
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A young RAAF pilot officer&#39;s disastrous first proper bender on &quot;Pink Lady&quot; cocktails at Wireless Air Gunnery School, ending with the mess hut wall redecorated and a formal reprimand as &quot;a most unsatisfactory member.&quot;
       </p>
 <hr>
@@ -302,9 +315,48 @@ But lost our mate in P.G Hay.</p>
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/wine/" class="link-secondary">Wine</a>,
+    
+    <a href="/topic/cocktails/" class="link-secondary">Cocktails</a>,
+    
+    <a href="/topic/sir-keith-murdoch/" class="link-secondary">Sir Keith Murdoch</a>,
+    
+    <a href="/topic/peter-grant-hay/" class="link-secondary">Peter Grant Hay</a>,
+    
+    <a href="/topic/jack-williams/" class="link-secondary">Jack Williams</a>,
+    
+    <a href="/topic/jack-eddy/" class="link-secondary">Jack Eddy</a>,
+    
+    <a href="/topic/e.w.-bill-tipping/" class="link-secondary">E.W. Bill Tipping</a>,
+    
+    <a href="/topic/stuart-legge/" class="link-secondary">Stuart Legge</a>,
+    
+    <a href="/topic/phoenix-hotel/" class="link-secondary">Phoenix Hotel</a>,
+    
+    <a href="/topic/lou-richards/" class="link-secondary">Lou Richards</a>,
+    
+    <a href="/topic/john-monks/" class="link-secondary">John Monks</a>,
+    
+    <a href="/topic/marie-dunstan/" class="link-secondary">Marie Dunstan</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

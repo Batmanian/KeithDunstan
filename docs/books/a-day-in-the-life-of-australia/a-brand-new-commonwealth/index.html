@@ -158,17 +158,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">A Brand New Commonwealth</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             3
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1988-01-01">1988</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Sydney celebrates the birth of the Commonwealth of Australia on 1 January 1901, with a grand procession, Lord Hopetoun sworn in as Governor-General, and Queen Victoria&#39;s proclamation uniting six jealous colonies into one federation.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="A Day In The Life Of Australia">
@@ -176,9 +185,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        Sydney celebrates the birth of the Commonwealth of Australia on 1 January 1901, with a grand procession, Lord Hopetoun sworn in as Governor-General, and Queen Victoria&#39;s proclamation uniting six jealous colonies into one federation.
-      </p>-->
       <h4>1 January 1901</h4>
 <p>What an extraordinary day it has been, a new century, a new unity, a brand new Common­wealth. There were hymns in the churches, patriotic songs in the theatres, singing in the clubs.</p>
 <p>One could hardly move in Sydney, every available tram, every harbour ferry, every horse­ drawn bus carried all loyal citizens into the city for the launching of the Commonwealth of Australia. They had only been trying to do it for the past SO years. The six colonies were so jealous of each other I thought they would never get there.</p>
@@ -191,7 +197,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-07-29">29 Jul 2026</time>
         </footer>
       
@@ -200,9 +209,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         Sydney celebrates the birth of the Commonwealth of Australia on 1 January 1901, with a grand procession, Lord Hopetoun sworn in as Governor-General, and Queen Victoria&#39;s proclamation uniting six jealous colonies into one federation.
       </p>
 <hr>
@@ -221,9 +234,32 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/john-hope-7th-earl-of-hopetoun/" class="link-secondary">John Hope, 7th Earl of Hopetoun</a>,
+    
+    <a href="/topic/edmund-barton/" class="link-secondary">Edmund Barton</a>,
+    
+    <a href="/topic/william-simaurez-smith/" class="link-secondary">William Simaurez Smith</a>,
+    
+    <a href="/topic/sir-henry-parkes/" class="link-secondary">Sir Henry Parkes</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-07-29">29 Jul 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

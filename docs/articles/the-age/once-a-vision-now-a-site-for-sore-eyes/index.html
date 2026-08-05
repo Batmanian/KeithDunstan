@@ -164,17 +164,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Once a vision, now a site for sore eyes</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             5
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1998-11-14">14 Nov 1998</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            The gutted, empty Southern Cross Hotel four years after the Nauru Government&#39;s redevelopment plans collapsed, and a look back at the lively Eastern Market it replaced in the 1960s, the market where C.J. Dennis&#39;s Sentimental Bloke first met Doreen.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="The Age">
@@ -182,9 +191,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        The gutted, empty Southern Cross Hotel four years after the Nauru Government&#39;s redevelopment plans collapsed, and a look back at the lively Eastern Market it replaced in the 1960s, the market where C.J. Dennis&#39;s Sentimental Bloke first met Doreen.
-      </p>-->
       <p>The Southern Cross Hotel at the corner of Exhibition and Bourke Streets is gutted and forlorn. There is a sign inviting you into the foyer to look at a &quot;demonstration suite&quot;. But you can't get in. Everything is locked.</p>
 <p>The hotel has been closed since 1 April 1995 and for four years it has been &quot;that bomb site&quot; at the corner of Exhibition and Bourke Streets.</p>
 <p>The Nauru Government bought the site in 1994 for $42 million. There were splendid plans for a 85-metre tower, 220 apartments, a 3000-guest ballroom and the nation's largest hotel lobby. It was to be reopened as the Grand Southern Cross. But it was not to be; the Nauru Government ran out of money.</p>
@@ -208,7 +214,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -217,9 +226,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         The gutted, empty Southern Cross Hotel four years after the Nauru Government&#39;s redevelopment plans collapsed, and a look back at the lively Eastern Market it replaced in the 1960s, the market where C.J. Dennis&#39;s Sentimental Bloke first met Doreen.
       </p>
 <hr>
@@ -250,9 +263,44 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/bourke-street/" class="link-secondary">Bourke Street</a>,
+    
+    <a href="/topic/c.j.-dennis/" class="link-secondary">C.J. Dennis</a>,
+    
+    <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>,
+    
+    <a href="/topic/e.w.-cole/" class="link-secondary">E.W. Cole</a>,
+    
+    <a href="/topic/eastern-market/" class="link-secondary">Eastern Market</a>,
+    
+    <a href="/topic/nauru/" class="link-secondary">Nauru</a>,
+    
+    <a href="/topic/national-mutual-centre/" class="link-secondary">National Mutual Centre</a>,
+    
+    <a href="/topic/southern-cross-hotel/" class="link-secondary">Southern Cross Hotel</a>,
+    
+    <a href="/topic/the-beatles/" class="link-secondary">The Beatles</a>,
+    
+    <a href="/topic/western-market/" class="link-secondary">Western Market</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>

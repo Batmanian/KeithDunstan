@@ -166,17 +166,26 @@
       <div class="row d-flex justify-content-between">
         <div class="col-12 col-md-7">
           <article>
-      <header class="border-bottom pb-4 mb-4">
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
         <h1 class="display-3">Christmas across a continent</h1>
         
           
           
-          <aside class="fw-bold">
+          <aside class="fw-bold order-3 order-md-1">
             9
             min read.
           </aside>
-          <p>First published
+          <p class="order-1 order-md-2">First published
             <time data-pagefind-meta="date" datetime="1963-12-01">01 Dec 1963</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A survey of how Australians spend Christmas Day across wildly different settings, from turkey conservatives at Rosebud and water-skiing Santas at Surfers Paradise to Warramunga camps, Antarctic research bases, and mail runs to Cocos Island and Tasman Island lighthouse.
           </p>
           
           <meta data-pagefind-meta="publication[content]" content="Walkabout Magazine">
@@ -184,9 +193,6 @@
 
         
       </header>
-     <!-- <p class="lead">
-        A survey of how Australians spend Christmas Day across wildly different settings, from turkey conservatives at Rosebud and water-skiing Santas at Surfers Paradise to Warramunga camps, Antarctic research bases, and mail runs to Cocos Island and Tasman Island lighthouse.
-      </p>-->
       <p>CHRISTMAS at our house is conservative and old-fashioned. Oh, I know, our relatives are pointing it out constantly: the sensible thing in a country where the Christmas Day temperature is likely to be in the nineties is to have a cold meal. They suggest cold chicken, a fresh salad, all washed down by chilled riesling.</p>
 <p>To the devil with cold chicken and chilled riesling! It just so happens that I adore both hot roast turkey and Christmas pudding with brandy sauce. And if you don't eat them on Christmas Day you have precious little chance of getting them at any other time. So I make sure of my turkey. There's just one concession to these modern aberrations. We have our hot Christmas dinner in the evening, about eight o'clock. After that it is so easy to collapse into bed.</p>
 <p>Believe me, there are still plenty of Australian turkey conservatives. Take Rosebud, on Port Phillip Bay, the most concentrated camping area in Australia. There, the campers carry on in the face of March flies, ordinary flies and mosquitoes, yet at least 50 per cent of them turn on a traditional Christmas dinner, right down to the plum pudding. Many a miracle is performed, on December 25, at Rosebud on a little portagas camp oven.</p>
@@ -221,7 +227,10 @@
 
       
       
-        <footer class="pt-4 mt-4 border-top text-muted small">
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
           Last updated <time datetime="2026-08-03">03 Aug 2026</time>
         </footer>
       
@@ -230,9 +239,13 @@
         </div>
 
         <div class="col-12 col-md-4">
-          <div class="bg-light p-4 rounded">
-  <!--<h3>Sidebar Single</h3>-->
-<p class="lead">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
         A survey of how Australians spend Christmas Day across wildly different settings, from turkey conservatives at Rosebud and water-skiing Santas at Surfers Paradise to Warramunga camps, Antarctic research bases, and mail runs to Cocos Island and Tasman Island lighthouse.
       </p>
 <hr>
@@ -267,9 +280,48 @@
 <br>
 <hr>
 <small><a href="/search/" >View all topics</a></small>
-       
+
 </div>
 
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/aborigines/" class="link-secondary">Aborigines</a>,
+    
+    <a href="/topic/alice-springs/" class="link-secondary">Alice Springs</a>,
+    
+    <a href="/topic/antarctica/" class="link-secondary">Antarctica</a>,
+    
+    <a href="/topic/ayers-rock-(uluru)/" class="link-secondary">Ayers Rock (Uluru)</a>,
+    
+    <a href="/topic/bill-harney/" class="link-secondary">Bill Harney</a>,
+    
+    <a href="/topic/canberra/" class="link-secondary">Canberra</a>,
+    
+    <a href="/topic/cape-york-peninsula/" class="link-secondary">Cape York Peninsula</a>,
+    
+    <a href="/topic/cocos-islands/" class="link-secondary">Cocos Islands</a>,
+    
+    <a href="/topic/coober-pedy/" class="link-secondary">Coober Pedy</a>,
+    
+    <a href="/topic/surfers-paradise/" class="link-secondary">Surfers Paradise</a>,
+    
+    <a href="/topic/tasman-island/" class="link-secondary">Tasman Island</a>,
+    
+    <a href="/topic/thursday-island/" class="link-secondary">Thursday Island</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-08-03">03 Aug 2026</time>
+    </p>
+  
+</div>
 
 
         </div>
