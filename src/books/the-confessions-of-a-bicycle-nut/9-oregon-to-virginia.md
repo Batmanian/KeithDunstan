@@ -1,0 +1,260 @@
+---
+title: Oregon to Virginia
+date: 1999-11-11
+summary: The Bikecentennial ride itself, 6750 kilometres from Reedsport to Yorktown through snowbound Rocky Mountain passes, tipi camps on Nez Perce country, dog attacks through the Ozarks, and a cyclone that finally stopped the Dunstans dunking their wheels in the Atlantic.
+tags:
+  - Chief Joseph
+  - Dan Burden
+  - Jeff Hook
+  - Marie Dunstan
+  - Nez Perce
+  - Russell Mockridge
+---
+
+In 1976 the hijacking of aircraft was the latest idea for terrorists and the airlines were nervous. Cyclists tend to look strange at any time and our party of 26 in full gear must have looked dangerous indeed. We were checked all over for dangerous metals. I was carrying a large spanner for removing pedals. The security men at the gate removed this at once. It looked a certain weapon for clubbing air crew over the head. I never saw it again.
+
+They also took my Swiss Army knife. It was the latest model, the Swiss Army ultimate. It had 22 instruments, including magnifying glass, eyebrow tweezers, file, scissors, mini chisel, pipe scourer, wood saw, and tooth pick. This was an A1 tragedy. Fortunately, just before we landed in San Francisco, the Qantas hostess handed it back. "We showed it to the Captain," she said, "He loved it. He's been playing with it all across the water."
+
+We started in Reedsport, a little fishing village in Oregon. There were 10,000 on the ride, but only 1200 were actually pedalling across the continent. Some were going East-West, others were travelling West-East. They came from all over. The folk with the biggest loads were the Japanese. Their bicycles had every conceivable gadget - speedos, mileage gauges, barometers, thermometers, turning lights...Then they had their cameras and their lenses, plus their short-wave transistor radios.
+
+The biggest contingent was from Holland, 160, and very vain about their cycling skills. There was one group called the Flying Dutchmen. They would do their stint of 160 km or so, arrive at their destination, take all the gear off their bikes, then go for a sprint just to get into shape. But I remember one Hollander with much affection, Annie Dadema. She was a little old lady with grey hair pulled back into a bun. To be precise, she was 67, but she looked like everybody's grandmother. You could imagine her pedalling, stately-like, around the streets of Amsterdam, but the great slopes of the Colorado mountains didn't seem to cause her the slightest inconvenience.
+
+There were teenagers and there were riders over 70. There was even one old fellow, Clarence Pickard, 86, who turned up in a silver pith helmet and neck to knee underwear. Clarence lasted for 1600 km before he went down with bronchitis.
+
+We were divided into groups of 12 and 13, with leaders and deputy leaders who had been trained beforehand. Each group left at one day intervals and there was no turning back or delays, you had to stick to your schedule right across America, because groups were all booked into bike inns. Cyril Henry, an astonishing Irishman, was an interesting example of this sticking to schedule.
+
+The Americans, of course, called him 'Sighril'. Sighril was 67 years old. He had a red face and a shock of white hair that stood up like Insulwool. He flew across from Dublin and he made the mistake that the ride was actually starting from Portland. He landed at the airport where he received the news that his group was leaving the following morning from Reedsport, 250 km to the south.
+
+Instead of taking a bus he hopped on his bike, gear and all, and rode the 250 km in 10 hours. He said later: "It's a wee bit tiring when you're not sure of the way."
+
+Almost as tough as Cyril was Joe Martin. Joe, in his late 50s, was an air traffic controller from Melbourne. He decided we were too slow and he would take the fast trip across, 160 to 220 km a day. He decided also that he would have no unnecessary weight, no sleeping bag, no mattress. He rode on singles, the skinny sew-up, stick-on, racing tyres. When he went to bed at night he pumped up two or three of these and slept on them. An iron man was Joe.
+
+There were five women and eight men in our group. The leader was Joe Canha, a student in marine biology at St Jose University, California. We also had a 19-year-old English student, and two Australians. Jeff Hook, the cartoonist, was one. Cycling was almost a new experience for Jeff. He didn't even know how to fix a puncture. There was Fred Smith from Alexandra in Victoria. Fred was 51, a plasterer and an old professional cyclist. He spent his time fixing bikes for the girls and even pushing them up hills.
+
+Perhaps the most colorful characters in the group were Don Hartley and his wife Norma. Don was 67, a retired employee of the Santa Fe Railroad. Born in Tennessee, he had an accent to go with it. Don loved McDonald's restaurants, he loved ice cream and above all, he loved American pie, which he pronounced 'pah'. He liked strawberry pah, apricot pah, blueberry pah and peach pah. Whenever we asked him his favorite pie, he would say: "Ah lahk hoolaberry pah. That's the best doggarn pah of all'. We looked and looked for this hoolaberry pie but never found it. Then we realised hoolaberry pie didn't exist; it was the unattainable pie of his dreams.
+
+Yes, Don was a dreamer. He took his riding slowly. He was the tortoise who always got there faster than the young, except he took no notice of directions and often went the wrong way. Norma had a whistle, so whenever Don was out of sight, she gave a whistle blast. We thought it was like the mating call between two birds.
+
+There were things we discovered quickly about Oregon and the United States. Oregon was a State concerned about its environment, it was pristine and clean, not a beer can, not a dropped stubbie, no empty cigarette packs. Along the highways there were signs '500 yards to nearest trash can' and 'Keep Oregon beautiful'. We were used to the Yarra and the Goulburn, streams of huge amiability, waters which dozed in the sun. Here the rivers gushed with a sense of urgency to get to the sea. The trees were huge, 50 metres high, blocking out the sun. Trees back home seemed matches by comparison.
+
+The timber trucks were as majestic as the trees themselves. We wore large orange triangles on our backs, supplied by Bikecentennial, and the wearing of these was compulsory, but often we wondered whether they were enough. There would be an organ-like 'PARP! PARP! PARP!' from behind and the very ground seemed to be trembling.
+
+Suddenly this monster was right beside, like a cliff suddenly planted at the edge of the handlebars. There was an upblast of air almost sufficient to blow the bike off the road, and if it had been raining, a drench of water to go with it. The bike was already loaded to an excess of nigh on 30 kilos, so there was a struggle to maintain control. But then there was another PARP! PARP! and the driver was giving a friendly way out the window. They were like that in Oregon.
+
+We started on May 18 and we were under several illusions. 1. That we would be surrounded by squadrons of cyclists. 2. There would be shops all along the way. 3. We would be in the American summer. We were in our little group on our own and we rarely saw other cyclists. For 1000 kilometres we were cycling through wilderness areas and national parks. Dave Canha gave us a pep talk when we set out. Often we would be 500 kilometres from the nearest bike shop, we couldn't depend on outside help for repairs and we would need a minimum of two water bottles. As for summer, it was cold.
+
+The mountains came too quickly and we understood at once our training had been all too meagre. Shit Hill had been just that, a hill, a rise that never took longer than an hour. On the skyline was Mt Jefferson, which looked like Fujiyama and it was snow covered. Further over was another mountain Three Finger Jack. Oh yes, very easy to lose fingers in this wood cutting country.
+
+The climb on that third day was 5000 feet to the McKenzie Pass. We couldn't get through the pass because it was under seven metres of snow. We had to make a detour of 32 kilometres and go through the Santiam Pass, which was slightly lower. This was very nearly the worst day. Every muscle was shrieking, and as for the saddle, the thing to do was to rise, stand on the pedals for a few minutes. It was like a child who had just been caned. Standing was kinder to the behind. Amongst the Australians, all this was no worry to Fred the plasterer. We had what was known later as 'Granny Gears', he had only little racing gears. But he scooted up the hill, always offering encouragement. And to some of the girls, including Marie, he rode alongside, put on a hand on their saddle, and gave them a push.
+
+Jeff Hook was grumbling: "At least this saves you visiting a heart specialist. If you can get to the top without a heart attack you know its in good shape."
+
+The two big dangers, according to Dave Canha, were to allow oneself to become dehydrated and to become hungry. Drink and take small nibbles all the time. So we were told to carry bananas, plus a marvellous concoction, which the Americans called 'gorp'. A classic bag of gorp was a mixture of nuts (not salty) raisins, dried apricots, muesli, sunflower seeds, and M & Ms.
+
+The grand idea of billeting never worked out. It called for too much organisation. Then potential billeters were nervous, folk in little towns heard that a 1000 bikers were coming through. Bikers? Motor bikers, they thought. They imagined us with beards, leather jackets and bottles of whisky on the hip.
+
+So we stayed in Bike Inns, which were incredibly varied. The first nights we were in tents, the second night on the floor of a basket ball stadium, the third it was a Benedictine Monastery. The monks were not there, they were in retreat or on vacation. Monks obviously did very nicely in the U.S. There was an outdoor patio which cantilevered over the McKenzie, a wonderful stretch of water that was moving like Niagara Falls. There was a billiard table, a table tennis table, and individual bedrooms, so close to the water one could almost fish while lazing in bed.
+
+We stayed in schools and slept on class room floors, we slept in shire halls, in churches. In one Episcopal church Marie and I slept behind the altar. It have us a curious ecclesiastical feeling. Then in Montana, in a town called New Meadows, we slept in a Methodist Church Hall. The Bike Inn-keeper was the Reverend Woodrow 'Bud' Harris. Reverend Bud wore a 10-gallon hat, high-heeled boots and a cowboy belt. "You keep the place tidy," he said, "or I'll come arter yer with mah forty-five six guns." We kept his hall tidy.
+
+Our 20th night was in Wisdom, Montana, named after the supposed qualities of President Jefferson. The population was 150 and it was straight out of *Midnight Cowboy*. We had dinner at the local café and at the next table there were three cowboys, all equipped with six-guns on the hip. The saloon over the road had the ceiling decorated with six-guns, animal heads and bear traps. It would have been easy to imagine a High Noon shoot-out in the main street. Ah, but the Bike Inn, that was the thing. It was at the Show Grounds. Our quarters were cattle pens and our washing department was a cattle trough with a pump overhead, producing water only slightly above freezing. Jeff Hook always provided most of our entertainment both during the good times and the bad times. At Wisdom his rage would have done justice to Paul Keating at Question Time.
+
+"Here we are, in a town that honours a President of the United States, and how do they treat international visitors? Like animals. Yes, animals. They have put us in cattle pens. The current President will hear of this. I'll write to Richard Nixon, that's what I'll do."
+
+Regrettably President Nixon didn't answer our pleas. But there were other interesting Bike Inns. In Idaho we rode through an Indian reservation and slept in tipis. Tipis, now that was new stuff for us, back home we had always called them wigwams.
+
+This was serious Indian country. It was the scene for one of the most tragic tales in American history. Between 1855 and 1863 the Nez Perce tribe, through a series of treaties, saw their tribal lands in the Wallowa Valley reduced from 27,000 square miles to 875,000 acres. The hereditary leader was a grand, wise and articulate Indian, Chief Joseph. In May 1877, against their will, Joseph and his tribesmen, were being hounded towards a reservation.
+
+Joseph was a peace-loving man but during the trek two young braves, as an act of revenge, killed three white men. After that it was war. The local people called on the Army for help and Captain Perry, with two companies of the first cavalry, went into attack. The Indians sent a peace party, under a white flag, but it was fired upon by a civilian.
+
+Then the shooting started and it was a decisive win for the Nez Perce. Perry lost 35 men plus many rifles and much ammunition. The Indians lost none. But from then on they were hounded by an Army of 600. They followed a mountainous, difficult trail which was way up into Montana. Repeatedly they outwitted and outfought the Army until finally they were slaughtered at the Battle of the Bear's Paw at Snake Creek, Montana.
+
+We were told all these things, so it was with a feeling of great respect that we slept in the tipis. They were almost classic, much larger than we expected. Each one had 15 slender poles 20 feet high. These were not covered with bison or elk hide, but rather Army surplus canvas. Yet they looked absolutely the authentic thing, towering white, with a dense dark forest, full of elk, in the background, snow-capped peaks over yonder and the rapids of the Clearwater River below.
+
+We put squaws in one tipi, braves in another and married couples in the third. I awakened at 11 p.m. with zero temperature raindrops falling on my head. This is a clever feature of tipis. The Indians always left an open space at the top. Not only did this provide sensible ventilation, but it allowed smoke to escape when they had fires in the winter. Next morning we rode on and passed through a little place called Squaw Creek. There was a caravan park motel with tipis. The sign read 'TEEPEES WITH WATER BEDS.' There was a small extra charge if you wanted an electrically heated water bed.
+
+The route was not straight across the United States, ingeniously it took us through national parks, a country of wilderness, wild rivers, mountain plains with crazy wooden fences designed as continuous tripods to cope with the snow drifts. We had an amazing number of punctures. We learned never to take bicycles over grass. There were little spiky thorns which the locals called 'Texas tacks'. One night very weary, we decided not to sleep in a Bike Inn, not to sleep on a hard floor, but to give ourselves a night of comfort in a motel with a good, hot shower. It had been a hard day with four punctures between us. I parked my bike beside the bed. You have to be smart, you don't let your bike out of your sight.
+
+Next morning, I woke up, the rear wheel had a flat tyre. Yes, that tyre managed to find a Texas Tack embedded in the carpet.
+
+Spokes were the other worry. We were carrying heavy loads and there was the old problem of metal fatigue. One would be pedalling along, admiring very nearly the most beautiful scenery we had ever seen, and there would be the dreaded 'ping'. A spoke had gone. If it was in the front wheel, changing a spoke was easy. But in the back it was another matter, not only did the tyre and tube have to come off, but the gear cluster as well. In a workshop with a vice at hand, removing a gear cluster is not difficult, but on the open road it is a real problem. You need a very large spanner and strength. Only two were strong enough to do it, Fred Smith and Dave Canha. Fred actually lost the most spokes. One day he was pinging like the Melbourne Symphony Orchestra and his bike slowly sank to the ground as the rear wheel disintegrated. We were up in the north end of Montana, not far from the Canadian border. Fortunately he was able to get a lift into Missoula, where there was an excellent bike shop. We all had our wheels completely re-spoked with better gauge spokes to confront the rigors ahead. Even so, there were many more 'pings' before the tour was over.
+
+There was no choice for Fred, he had to accept a lift. But the rule was 'no automobiles'. It was a point of honour; one had to cross America by muscle power alone. There was a story that came from a group just ahead of us. There was the full-on husband, who muscled on way out in front, leaving his wife alone, miles behind. She became so fed up with this, she accepted a lift in a truck. The truck had a tray on the back. She lay down, with bike, out of sight. So when the truck passed the husband, he didn't see her. She never told what had happened, but he was startled, when late in the day he saw her, pedalling happily, half a mile ahead.
+
+One of the magical spots was Yellowstone Park. As we rode up to the gate there was a sign:
+
+BEWARE OF THE GRIZZLY BEARS
+THEY ARE DANGEROUS
+KEEP YOUR WINDOWS CLOSED AT ALL TIMES
+
+This was disconcerting news for one on a bicycle. It brought to mind the old Lion Park joke: 'Englishmen on bicycles admitted free'. "Maybe it isn't a joke," said Jeff Hook. "Those not in cars get in for only 50 cents. That's how they keep the bears fit and healthy."
+
+We pedalled for 20 miles and spotted bison, elk and antelope, but mercifully not a bear. We spoke to ranger Sam Holbrook, who said: "I haven't seen a bear for two seasons. We have a new policy. We used to have four garbage dumps in the park. This used to bring the bears right in. People fed them cookies, candy and stuff and they'd get injured all the time."
+
+We did not find out until later, but the Bikecentennial people reported a very curious story. There was a group that went through two days after us. One of the riders lost his bicycle and he thought it had been stolen. He reported the theft to the police. They found it in the bush the next day. It was covered with scratch marks. A bear, looking for food in his pannier bags, had carried it there. We thought it the strangest story since the days of Davy Crockett, who allegedly killed his first bear when he was three years old.
+
+We were riding in Yellowstone Park for 36 kilometres. Of course, the star attraction was Old Faithful, the hissing, gurgling, tumbling, geyser, height 7366 feet above sea level, and what a beautiful money spinner. We were told that it erupted 23 times out of every 24 hours and in the previous 100 years it had gone off 840,000 times. That is why they called it Old Faithful. There was one just one problem. It was a trifle quixotic. There was a grandstand which held 5000 people and it was impossible for them to set their watches. Sometimes Old Faithful went off after 33 minutes, but then it could be as long as 148. This was unfortunate for business. People tended to waste good hamburger-eating, bourbon-drinking, souvenir-buying time.
+
+Another big attraction in the park was the Old Faithful Inn, which we thought very nearly the most fascinating building we had seen. It was described as one of the largest log buildings in the world. It seemed a rare American understatement. Built in 1904, surely it had no equal. It looked as if it had been designed by the Brothers Grimm, then blown up on a huge cinema screen. It was all logs inside and out. The hotel lobby went up four storeys, uninterrupted to the roof. All around this cathedral-like space were the galleries of the upper floors. All the railings, all the buttresses and supports were made of crazy shapes of logs, gathered out of the forest.
+
+In the centre of all this was the biggest stone chimney we ever saw, 500 tonnes of stone. It had fire places on four sides, big enough to roast four elephants. Downright necessary for temperatures that get down to freezing, even in summer time.
+
+We left Yellowstone and moved to the glorious Grand Teton National Park. Beside us as we rode was a line of snow-capped peaks that seemed to go on for ever. The temperatures were close to freezing and we put on every stitch of clothing we had. I went into a drugstore and bought pantie hose to put under my track suit. "Outsize Large Women's" said the label.
+
+Where did one put them on? Shamefaced, I went to the Men's rest room round the back. Would you believe that upon putting my leg in the first sleeve they laddered all down the side. It made one realise how women have suffered all these years.
+
+We set out along Highway 287 and found it hard to believe when snow began to fall. As we climbed towards Togawotee Pass, elevation 9658 feet, the snow became thicker and we became colder and colder. It was quiet up there. The noise of the birds was shriller and sharper. It was possible to hear the creaking of the pine trees. Here and there blue wildflowers, whose right to live had been usurped by this out of season snowfall, tried valiantly to bloom. Occasionally a vast American car passed.
+
+Oh, they were kind. The occupants sitting in their shirt sleeves, all waved to us. We had a mental picture of them, fiddling with the air conditioning adjustment, making sure that the warm air was circulating in the right manner and demisting the windscreen. At the top of the pass some children had built a snowman and put a beer bottle on the top of his head. We had a downhill run of 40 kilometres into Dubois, Wyoming. It was silent but for the swishing of the wheels and there was all the exhilaration of skiing.
+
+Snow, hail, rain, were not really a problem. The greatest enemy was wind. In Wyoming the wind came up daily at 10 a.m., precisely, almost as if God had suddenly thrown a switch. We rose before dawn in an attempt to defeat it, but as soon as that wind came up, cycling dropped to little over walking pace. Fred Smith taught us the old pro-cyclists' trick of draughting. "You have to form a chain," he said, "one behind the other. And you musn't be frightened, and you must keep up. It only works if your wheel is three inches behind the feller in front." So we did that, taking it in turns to be the leader, copping the full force. It was nice riding behind Jeff, because he was tall. When we turned cross wind it was astonishing, he leaned like a yacht, riding at almost 45 degrees. Never were there more exhausting rides. Don Hartley, who was 67, arrived at the Bikes Inns so exhausted he went straight to bed.
+
+It was very curious - way out on the lonely plains of Wyoming we found an empty Foster's Lager beer can. Carlton & United had just started exporting beer to the United States and they were doing it in a full-size, 750 ml can. But how Australian, how typical to discard it by the side of the road. But to see a dear, old Foster's, so far from home, it filled me with nostalgia and I nearly cried.
+
+We crossed the great divide of the Rocky Mountains four times. The longest day was when we tackled the Hoosier Pass. We started at 7.30 a.m., rode 80 kilometres before we tackled the pass and then climbed 1300 metres. All day we pushed, on our little chainwheels, legs going round like mix masters. It was nearly 6 p.m. by the time we reached the top. Many times on the way up tempers had become strained. At the top Marie put her bike down and started kicking it.
+
+"What are you doing that for?"
+
+"I hate the bloody thing," she said.
+
+There was a large sign which said:
+
+U.S FOREST SERVICE
+HOOSIER PASS
+ELEVATION 11,542 FEET
+
+It announced that to the left was the Atlantic Ocean watershed and the South Plate River. To the right was the Pacific Ocean watershed and the Blue River.
+
+A feeling of achievement and exhilaration took over. Dave Canha had carried 200 crackers in his panniers all the way from Reedsport. He lit them and their noise reverberated loudly as we all cheered. You would have thought we had climbed Mt Everest. We looked down at the most majestic of sights, snow-capped peaks, one after the other.
+
+From then on it was downhill, the longest down of our lives, 45 kilometres of it, pedals still, wind in our faces. We had to keep pumping the brakes and occasionally stopped for fear of overheating or the brake shoes giving out. And so we cruised into Pueblo, Colorado. Here Jeff left us, returned to Australia and arrived home in time for the birth of Sarah. Yes, Pauline and Jeff's prayers were answered, the baby was a girl.
+
+Jeff missed some of the easiest riding. Now the weather was hot, we posted our heavy clothes home. And the country was flat, flat all the way to the Mississippi. There was corn and wheat, would we ever see again so much wheat! Not just paddocks of it, but vast oceans. Mirages on the roads and wheat silos way off in the distance, lonely white towers. It was easy now to ride 50 miles, 80 kilometres before lunch, do another 30 or 40 kilometres after lunch and arrive early at our destination in time to go off to a swimming pool.
+
+There was so much riding, we were always hungry. We never stopped eating. One hand was for working the gears and managing the handlebars, the other was for reaching into the front pannier for the gorp. We now had the appetites of teenagers coupled with teenagers' tastes for food. The lunches were the best, partly because they were a break from the grind, but there was an opportunity to talk. The Bikecentennial book advised us to eat peanut butter as a good, easily digestible source of energy. The instruction was hardly necessary. The members of our group had an insatiable PB appetite. It was possible to buy it in half gallon jars. The thing to do was to take two slabs of wholemeal bread, then apply half an inch of peanut butter, some sliced banana, some honey, plus some raisins and put it all together. Peanut butter could also be eaten with salami, with apple, with jam, almost anything. Some liked it on their porridge. Indeed, there was only one drawback. It didn't go well in beer. We weren't even faintly surprised when Jimmy Carter became President of the United States. After all, he had been a peanut farmer. Anyone could become President on a peanut butter ticket.
+
+The theory was, just keep riding 100 kilometres a day and you can eat as much as you like. So we would have hot cakes with maple syrup for breakfast. Stop at 11 a.m. for morning tea and maybe have cherry pie, then the PB routine for lunch. As temperatures rose above 40 degrees Celsius, thoughts turned more to ice cream. Instead of mirages in front of our eyes, there were visions of soft ice cream, Dairy Queens in particular. It was possible to buy gigantic DQs for 25 or 50 cents. There was a slogan on posters everywhere: *'Have you been DQ'd today!'*
+
+For dinner, there was a cooking duty roster. Fred Smith carried the saucepan, and Dave Canha carried the little stove with gas cylinder. Marie cooked such delights as bacon and egg spaghetti one night, Beef Stroganov and rice the next.
+
+We were told that Kansas would remain hot, like an oven, ready to bake scones. Indeed we were starting to look like baked scones, or at the very least we had a tan like those Nez Perce Indians. Marie had trouble with split lips. Zinc cream wouldn't stop the menace of the winds. The only solution was to keep her mouth covered and wear a surgical mask. After more than a month on the road, at last we were becoming extremely fit. Marie was transformed. Early in the road, like Prince Phillip, I kept a respectful two paces behind. This was no longer possible. It became difficult to keep up with her. What's more, she developed unusual skills on gravel roads. Most of us treated gravel with an over anxious caution Marie Rose sailed ahead, way out in front. The rest of the group called her the Gravel Queen.
+
+But we did have a break from the heat. There was 11 inches of rain, some of the heaviest falls the area had known. A dam burst at a town called El Dorado, which we always thought was another name for Heaven. We passed within a few miles of Eldorado. All the roads and the countryside were knee deep in water. So we walked, pushing our bikes. Fred Smith didn't like the idea of gears and bottom bracket being under water, so he carried his bike and all his bags on his back.
+
+I have one vivid memory of a large billboard in the middle of the flood. It had been erected by the Mennonite Church and it read:
+
+BE THANKFUL TO GOD
+
+As the water squelched in our shoes, we thought this a marvellous sign to erect at the edge of Heaven. All this was in the midst of the wheat harvest. Before the farmers were screaming because they had too little rain. Now they were screaming because it was too much.
+
+We did get a break occasionally. Every 10th day was a rest day. This gave us a chance to meet riders from other groups. For example, we met Albert Schultze, who was a welder from Alice Springs. Albert was a marvellous character and of great fascination to the Americans. He had a great beard, reminiscent of Ned Kelly. He wore a blue beret and a faded pair of button-up overalls. He smoked an old pipe, which, incredibly, he managed to smoke even when he was riding. He carried his water in a milk bottle, and attached to his bike was a fair dinkum, blackened bushy's billy. He was not concerned with keeping up with other riders. Every so often he would stop, boil up his billy and make himself a cup of tea.
+
+Now Albert had a sister, Wilma. Wilma had a road house in Buchan, Victoria, and they hadn't seen each other for 24 years. Wilma talked Albert into going on this trip. Albert thought they were going across the United States by motor bike and he was startled when he discovered it was push bikes.
+
+Wilma was a character in herself, always the perfect lady. Her fame spread down the track long before she reached Kansas. The tour director, Dan Burden, said: "There's a lady, honest, who is riding the trail on a lady's bicycle in skirt, nylon stockings and high heel shoes."
+
+This was true. Wilma was an indomitable rider. Actually, in the hot weather she did get rid of those nylon stockings, but she kept that skirt and never stooped to a track suit. Her bike was indeed a 'a lady's bike', a machine with a dropped bar, the sort you might give a 14-year-old daughter for Christmas. Was it all a success? I asked Albert if he was having a good time. He sucked on his pipe and replied: "I think so. But I keep telling myself I'm out of my mind."
+
+Chip Haines was another unusual character. Chip was a newspaper artist from Florida. He had a very expensive bike made in England, worth $850. Chip loved statistics and every day he kept a record of the mileage he had done, the barometric pressure, the temperature and wind strengths. He was keen on Zen Buddhism. Every afternoon, no matter where we were, in a basketball stadium or a church hall, he would take up a position cross-legged on the floor and do his transcendental meditation. No matter how much noise we made, he was unmoved.
+
+However, he was moved by the fact I was reading *Zen and the Art of Motor Cycle Maintenance*. One of the themes of this book was mountain climbing. Too many of us, it said, have one aim in mind, only to get to the top. We don't take time to look at what is all around us on the way up. It was good lesson for when we were coping with the Hoosier Pass.
+
+Half-way across America he decided he could stand his saddle no longer. It was killing him. He had an expensive item called a 'Cool Seat'. It had resilient pads made of a special material, allegedly used by the astronauts when they went to the moon. Moon, or no moon, the Cool Seat wasn't cool for Chip. I had a pure leather Brooks saddle. Brooks had been making saddles since the 1880s and unquestionably they were the best bicycle saddle to come out of Britain. But it was killing me. First it gave me blisters then pains which seem to go right into the bone.
+
+Chip saw I was unhappy. He suggested we swap saddles. The result was splendid. The Cool Seat was bliss on my behind. Brooks was heaven to Chip, which all went to prove the human behind is a strange thing, and no two are the same.
+
+Just after I returned to Australia the Cool Seat began to fall apart. I wrote to the Cool Seat company in California, told them of this, and said I couldn't live unless I could purchase another and have it sent to Australia. The Cool Seat people wrote back rather Coolly and said their seats never came apart. They sent out another, free of charge.
+
+In our slow progression across the country we discovered there was no such place as United States. Every State was different, every State had its own people and personality. We cycled into the Ozarks, an area which covered 55,000 square miles of Southern Missouri, North Arkansas and East Oklahoma. We saw some Mennonites, the religious group which still refuses to accept the 20th century. Father, mother and children were in a horse-drawn buggy. Father had a beard, big hat and rough trousers supported by braces. Mother looked like an 18th century Quaker, long dress with sleeves down to the wrists and close-fitting bonnet.
+
+This was the land of Al Capp's comic strip, L'il Abner, Daisy Mae and Momma Yokum. We were in a little town near Marshfield, Missouri, when we stopped for ice cream. An elderly gent sat in an armchair on the porch of the general store:
+
+"Whar yur frum?" he asked.
+
+"Melbourne, Australia."
+
+"Orrrrstrahlia, huh! That's a fur peace."
+
+"I beg your pardon."
+
+"Uh-huh. Thar sure is a fur peace."
+
+It wasn't until nearly an hour later that we were able to interpret. He meant that Australia was a far off place.
+
+We could see that the locals were sensitive about any suggestion that they could be hillbillies. The classic answer was: "We ain't got no accent. It's them furriners that's got the accent."
+
+The accent was not exactly Southern. They used different phrases and they liked to linger on their vowels as if they were sorry to let them go. Very likely they were speaking a form of 17th century English.
+
+We discovered a bar was not something you drink at; you killed yourself a bar in the woods. Nor were there stars in the heavens; you walk up stars. And if you were plumb sure about something, then you were sartin.
+
+We found a small glossary of Ozark terms put out by Dale Freeman, an editor from Springfield, Missouri.
+
+*Tar*: Your motor car runs on tars.
+
+*Crame*: Everybody likes ice crame.
+
+*Are*: He shot an are into the air, it fell to earth he knowed not whir.
+
+*Dork*: It's real dork when the sun goes dahn.
+
+*Grub*: He grub her from behind.
+
+*Flare*: A rose is the purtiest flare there is.
+
+*Walled*: That girl of hern was too walled for mah boy.
+
+*Yurp*: A continent overseas.
+
+Then for one of the more interesting phrases we heard: *He look like he'd been chawin' terbac an' spittin' agin' the wind.*
+
+On the other hand, it did not pay to get too up-market. We met a character in a bar in Pittsburg, Missouri. He said: "Say someth'n. Keep on talkin' thar. Ah lake to har yuh, 'cos you talk so funny."
+
+The Ozarks were very interesting. You could never describe them as mountains, but the hills were so steep, you had to be careful not to fall off them. They were like a huge edition of the Big Dipper at Luna Park. They were gloriously covered in oak, maple, hickory, pine and myriads of wildflowers. Thousands of turtles constantly waddled across the road and inevitably going to their eternal rest under the wheels of semi trailers.
+
+There were at least four yapping dogs to every human. The worst areas were Missouri and Kentucky. We found that roughly 85 per cent of dogs detested cyclists, 10 per cent loved them and five per cent didn't bother to wake up. Now touring cyclists are the most innocent of people. Most of them do not smoke or drink and a remarkable percentage are vegetarians. I have consulted many authorities on why barkers don't like bikers. (Both words are pronounced the same way in Kentucky and Missouri.) The most popular theory is this: dogs are fascinated by the movement, the sparkle of light on the spokes.
+
+Rubbish! They jump to the attack before they even see the light of the spokes. A more plausible theory is that they are irritated by the supersonic sounds given off by the bicycles or the clicking of the free wheel. Maybe. I reckon the dog reasons like this: A person who rides a bicycle must be some kind of a nut because there are so many more comfortable forms of transport, so he is fair game. On his unstable two wheel he is almost helpless and it is beaut fun to watch his terror.
+
+Our group was under constant attack. One of our colleagues was savaged by two dogs, went off the road, crashed on his back and was out of action for two days. The biggest menace was the German Shepherd; Beagles were shocking, Dobermans were terrifying, and almost all terriers were anti-bicycle. The jumbo-size dogs, curiously, were very nice. Great Danes and St. Bernards seemed to love us.
+
+As for protection measures, some riders used bicycle pumps and tried to beat off the dogs like cavalrymen in a charge at Balaclava. One Australian carried a mallet and biffed them on the head. The popular weapon was a pressure can of anti-dog spray. It was called HALT, sold for $2.50 a can and was standard issue to U.S. postmen. It contained capsicum, similar to the stuff now used by Australian policemen against humans. There was one strapping female group leader who carried her can of HALT on her belt like Jesse James and his six-gun. She could draw in a 56th of a second, and knock over a German Shepherd at 10 paces.
+
+Well, Marie wouldn't have a bar of this. She said it was cruel to dogs. I believe she had the answer. Every time a dog rushed to the attack, she got off her bike and talked to them in a Southern accent. It worked every time and soon tails were wagging. The only trouble was the dogs fell in love with her and followed her for up to 40 kilometres.
+
+Kentucky was not what we expected. It looked run down. We came across ramshackle farm houses, so poor they had only dirt floors. Nor was it pristine clean like Oregon, rubbish was dumped by the side of the road. Later I suggested to Dan Burden, maybe he could have given us a better route through Kentucky. He replied: "This was quite deliberate. We took you through the most beautiful parts of America. We also wanted you to see the other side, an America that was finding it tough, an America that wasn't rich."
+
+There was another surprise. Kentucky was famous for fine whisky, fast horses and beautiful women. Some of us had noticed, with some concern, that for nigh on a 1000 kilometres we had not seen a pub or a saloon. We had been riding through the Bible belt of America. We expected some relief upon reaching Kentucky. We discovered that there were 120 counties in Kentucky and of these 92 were dry as a result of local option. In town after town we saw the Pentecostal Church, the Church of Prophecy, the Methodists and, above all, the Baptists. A cycling journalist, Dick Dougherty, reported that Kentucky was the home of three sizes of Baptists,: half pint (symbolic sprinkling), 10 gallon (thoroughly wetted) and 40 gallon (totally immersed). Whatever their rating, they were dead against alcohol.
+
+I thought there had to be a story in this. Who would tell it to me? Ah, yes, go to see the local newspaper editor, he's sure to be a drunk. So in Hodgenville I called at the local paper and asked to see the editor, giving the message that I was an Australian journalist.
+
+After a long wait, a young lady came out and said: "Miss Phillips will see your now."
+
+Miss Phillips was tall and grey haired. As I asked questions about the licensing laws of Kentucky she began to look more and more severe until she said: "Before we proceed with this interview, Mr Dunstan, there is something I should make perfectly clear. I have been a total abstainer for the past 30 years."
+
+She stood up and revealed that she had one leg in a brace.
+
+"I was knocked down by a drunken driver when I was 21 years old."
+
+We rode through West Virginia and Virginia, over the Allegheny Mountains. The countryside was a lush green, elms and beeches throwing leafy shade right across the road. It all looked historic, expensive and luxurious. The farm houses tended to be white-columned, four-storied *Gone with the Wind* mansions, with stables twice the size of mere houses back in Missouri. Sometimes the riding was even harder than it had been in the Rockies. The hills were not high but the grades were incredible. Time and again we reached for the little chainwheel too late, and off came the chain to get mixed with the spokes.
+
+We finished at a place called Camp Chickahominy on a lake surrounded by a million mosquitoes. It was named after a long-forgotten tribe of Indians. There was a feeling of sadness when it was all over. It had been a time of freedom, a time away from every care and worry. I could have gone on riding, up the coast to Canada.
+
+As we rode in, Dan Burden, the astonishing man who dreamed up the idea of the Bikecentennial, came running down the track, his hand outstretched. He had prepared a beautiful victory cake in the shape of the United States. It depicted the Bikecentennial route and gave the total distance, 4246.8 miles (6831.9 kilometres). This he served with ice cream and punch. (1)
+
+Just like Jerome Murif, when he cycled from Adelaide to Darwin in 1897, we felt a loving respect for our Sovereign Stars. They had carried us all that way, over the Rocky Mountains, across the great plains of America, through hail, snow, flood and 40-degree temperatures. I worked out our times and average speeds and estimated that our suffering pedals had turned over 1,488,000 times.
+
+Jerome Murif put the wheels of his bike into the sea at Glenelg, then again at Port Darwin. We certainly dunked our wheels in the Pacific, so on the following day we rode to Newport News with the aim of dipping wheels in the Atlantic. Just as we got there we hit a cyclone that was roaring down the coast towards Miami. There was horizontal rain, and wind worse than we had known.
+
+There was no wheel dunking, the sea was in a rage. I said to Marie: "Let's get out of here." Somehow we managed to get to the airport at Newport News. We stood at the flight desk in a great puddle of water. We managed to get cartons from the luggage department. I bought 20 copies of the *New York Times*, which was the biggest paper I could find, and stuffed them around the bikes in the carton. Five hours later we were in Los Angeles and ready to catch the Qantas flight home.
+
+On the way back home there was time to think about the experience. We had lived and worked in New York for three years, but we had seen a very different diverse America. We had been told the ride would be dangerous, that we would be mugged, that our bicycles would be stolen. That never happened. We became so trusting we left them unlocked outside cafés and stores.
+
+I think I was startled most by the simplicity, even the naiveté of people in rural America. They were intensely insular. In little towns often it was hard to buy newspapers, and almost impossible to get magazines like *Time* and *Newsweek*. People from these towns sent off their sons to France in World War 2, to Korea and Vietnam. They could not have had the faintest idea what it was all about when their sons came home in a coffin.
+
+We were overwhelmed also by the beauty of rural America. For the first 2400km we rode through national parks, state forests and wilderness areas. Americans are very concerned about these things. We thought it the most continuing beautiful country we had seen and on a bicycle it was possible to smell it, feel it and be amongst it. Memories still come back of the eternal quiet of those Rockies, the smell of Ponderosa pines, the urgent rushing rivers of Oregon and, oh yes, those Saharas of wheat and corn in Kansas.
+
+The Bikecentennial organisation did not go away. There is still a Bikecentennial route across the U.S.A. Bikecentennial, however, has a different name. It is now *Adventure Cycling*. The address is PO Box 8308, Missoula, Montana, 59807.
+
+## Notes
+
+1. *It's All Uphill*, Keith Dunstan, Pegasus Books.

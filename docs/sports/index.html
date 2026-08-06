@@ -1,0 +1,235 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sports</title>
+<meta name="title" content="Sports">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Keith&#39;s 1973 study of the Australian sporting obsession, tracing the nation&#39;s mania for cricket, football, racing, swimming, rowing, boxing, cycling, athletics, billiards and blood sports from the 1870s to the 1970s.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://keithdunstan.org/sports/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Sports">
+<meta property="og:description" content="Keith&#39;s 1973 study of the Australian sporting obsession, tracing the nation&#39;s mania for cricket, football, racing, swimming, rowing, boxing, cycling, athletics, billiards and blood sports from the 1870s to the 1970s.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Sports">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/sports/">
+<meta name="twitter:title" content="Sports">
+<meta name="twitter:description" content="Keith&#39;s 1973 study of the Australian sporting obsession, tracing the nation&#39;s mania for cricket, football, racing, swimming, rowing, boxing, cycling, athletics, billiards and blood sports from the 1870s to the 1970s.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Sports">
+<link rel="canonical" href="https://keithdunstan.org/sports/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+    
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-lg-10 col-xl-8">
+          <header>
+      <h1 class="display-4">Sports</h1>
+</header>
+<p class="lead">Published in 1973, 'Sports' is part of Dunstan's quartet of books examining Australian character, alongside <em>Wowsers</em>, <em>Knockers</em> and <em>Ratbags</em>.</p>
+<hr>
+<div class="row">
+  <div class="col-12 col-md-3">
+    <img src="/img/sports.jpg" class="img-fluid" alt="Cover of the book">
+  </div>
+  <div class="col-12 col-md-9">
+    <h2 class="h4">About the book</h2>
+    <p>Sports looks at the Australian obsession with sport and sporting heroes, from suburban football fields to the country's biggest sporting institutions. It grew out of a 1969 La Trobe Library exhibition on Victoria's sporting past, and argues that sport, more than politics or war, is the real key to the Australian character.</p>
+  </div>
+</div>
+<hr>
+<h2>Contents</h2>
+<ul class="lead">
+<li><a href="/books/sports/0-introduction/">Introduction</a></li>
+<li><a href="/books/sports/1-our-sporting-obsession/">Our Sporting Obsession</a></li>
+<li>The Passion at School</li>
+<li>The Racing Passion</li>
+<li>The Cricket Passion</li>
+<li>The Swimming Passion</li>
+<li>The Tennis Passion</li>
+<li>The Rowing Passion</li>
+<li>The Boxing Passion</li>
+<li>The Football Passion</li>
+<li>The Pedalling Passion</li>
+<li>The Athletic Passion</li>
+<li>The Billiards Passion</li>
+<li>The Killing Passion</li>
+</ul>
+<hr>
+<div class="col-12 col-lg-10 offset-lg-1">
+    <h2>Acknowledgements</h2>
+    <p>In sport-adoring Australia it is a fine compliment to call someone 'a sport' and the ultimate compliment is to call him 'a good sport'. There are many good sports I have to thank. First there is Peter Howson, former Minister for the Arts, who sent the telegram giving the good news of a Special Projects Grant from the Commonwealth Literary Fund. This money gave time, a precious three months, which enabled me to finish this book.</p>
+    <p>Other sports? My old friend Phillip Garrett, the master researcher, was in the background, advising me where to dig. Mrs John Jonas provided me with hard-to-find information about her grandfather, billiards king, Thomas Upton Alcock. Forbes Carlile one sunny morning in Sydney, patiently took me around his swimming pools. Dr A. W. Willee at Melbourne University, equally patiently, revealed all his researches into the physical fitness of Australians. George Blaikie, the expert on 'Our Strange Past', and Roy Morgan willingly opened up the entire files of the Gallup Poll.</p>
+    <p>Libraries? We fossickers cannot exist without them and the librarians never receive the proper credit for their work and knowledge. Particularly I would like to thank Miss Patricia Reynolds and the staff of the La Trobe Library. They provided many of the old prints in this book and the Library Council gave permission for the publication of two Troedel &amp; Co. posters, plus a kangaroo hunting scene by S. T. Gill. The Mitchell Library gave permission for the use of the incredible old 'In Memoriam' notice to Harry Searle, the great photograph of Trickett's triumph, the silk picture of the Burns-Johnson battle and a strange old sketch of an emu hunt.</p>
+    <p>Roy Terry, Herald and Weekly Times Ltd librarian, made available his huge resources of news clippings and I am indebted to Alf Guest of the <em>Herald</em> and <em>Sun</em> picture library for most of the photographs in this book. The others, particularly the astonishing picture of Norm Proven caked in mud, are by courtesy of the <em>Sydney Morning Herald</em>. Ern McQuillan took the photograph of Forbes Carlile and his swimming pupils.</p>
+    <p>Thank-you to Jack O'Hagan and Allans Music Australia for permission to reproduce his famous song 'Our Don Bradman' and to Nicholson's Pty Ltd for permission to print Jack's song 'Our Marjorie'.</p>
+    <p>Then there were the publishers who let me rob their books: John Farquharson Ltd, who let me quote from Betty Cuthbert's <em>Golden Girl</em>, Cheshire Publishing Pty Ltd for the lines from John McLaren's fine book <em>Our Troubled Schools</em>, Angus &amp; Robertson (Publishers) Pty Ltd for the extracts from <em>The First 100 Years</em> by Geoffrey Blainey, James Morrissey and S. E. K. Hulme, plus the story of Bluey Truscott's wartime return to football from <em>Bluey Truscott</em> by Ivan Southall. Then I must thank the Hutchinson Group Pty Ltd for the use of a trio of good sporting books, <em>The Dawn of Swimming</em> by Ken Cox, <em>Captain Blood</em> by Jack Dyer and <em>Boots and All</em> by my old friend Lou Richards. Cassell and Co. Ltd gave permission for the extracts from Herb Elliott's <em>The Golden Mile</em>.</p>
+    <p>And for the most frightful job in book publishing thank-you to Mrs Elspeth Jolley for the typing and the index.</p>
+</div>
+
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3"> 
+    <br><small><a href="/feed.xml"><i class="fa fa-rss" aria-hidden="true"></i>
+ Subscribe via RSS</a> for content updates on this site</small>
+<br><small>We're volunteers, <a href="https://ko-fi.com/jackdunstan">support us</a> to research, digitise, edit to bring this content to a new audience - with a <i class="fa fa-coffee" aria-hidden="true"></i>
+</a></small>
+<br>
+<small>Built and maintained by <a href="https://www.linkedin.com/in/jackdunstan//">Jack Dunstan</a></i>
+</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

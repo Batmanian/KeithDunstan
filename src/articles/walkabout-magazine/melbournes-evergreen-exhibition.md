@@ -11,7 +11,7 @@ tags:
   - Exhibition Building
   - Joseph Reed
   - Melbourne
-  - National Gallery
+  - National Gallery of Victoria
   - Robin Boyd
   - Sidney Myer
   - Young and Jacksons Hotel

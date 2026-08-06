@@ -10,7 +10,7 @@ tags:
   - Jan Rubini 
   - Marion Mahoney
   - Melbourne Club
-  - National Gallery
+  - National Gallery of Victoria
   - Swanston Street
   - The Capitol Theatre
   - The Herald

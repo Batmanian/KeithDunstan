@@ -262,6 +262,8 @@ topics:
     description: The Eastern Market was Melbourne's raucous nineteenth-century produce and bric-a-brac bazaar, home over the decades to phrenologists, dancing ducks and a fortune-teller called Madame Zinga Lee, before its site was cleared to build the Southern Cross Hotel that Keith Dunstan toured on its 1962 opening.
   - name: Edna Everage
     description: Mrs Edna Everage was Barry Humphries's suburban Moonee Ponds housewife character, created in the 1950s and still a minor stage turn when Keith Dunstan welcomed Humphries home from London in 1962, decades before she became the international star Dame Edna.
+  - name: Edward Trickett
+    description: Edward Trickett was a Sydney sculler who in 1876 became Australia's first world sporting champion, beating England's Joseph Sadler on the Thames, a victory Keith Dunstan cited as the moment Australians first believed their isolation and climate could produce men equal to the mother country.
   - name: Elwood
     description: Elwood is the bayside Melbourne suburb beside St Kilda where Germaine Greer was born in 1939, and which Keith Dunstan once jokingly suggested rebranding 'Sunstroke Strip' to match Melbourne's brief flirtation with a beach-resort image.
   - name: Emmanuel Margolin
@@ -316,6 +318,8 @@ topics:
     description: Harold Larwood was the English fast bowler whose 'Bodyline' leg-theory tactics caused a diplomatic crisis in the 1932-33 Ashes series, and who three decades later declined an invitation to lead a Centenary of International Cricket replay at the MCG, opening the door for Frank Tyson and, ultimately, Premier Henry Bolte.
   - name: Henry Bolte
     description: Sir Henry Bolte was Victoria's blunt, long-serving Liberal Premier from 1955 to 1972, a plain-spoken figure Keith Dunstan needled throughout the Bulletin years, from his government's standoff with students over the hanging of Robert Tait to the misquoted line that earned him the nickname 'Satchmo'.
+  - name: Henry Lawson
+    description: Henry Lawson was Australia's foremost bush balladist and short story writer, whose 1892 verse mocking the nation's readiness to 'make a hero of a clod' for sport Keith Dunstan quoted to show the sporting super-religion was already entrenched a century before he wrote about it.
   - name: Her Majestys Theatre
     description: Her Majesty's Theatre is one of Melbourne's grand old playhouses, home to 'My Fair Lady''s long-running, near-3-million-ticket Australian season that Keith Dunstan covered as a genuine box-office phenomenon.
   - name: Herald and Weekly Times
@@ -330,6 +334,8 @@ topics:
     description: The Hotel Australia on Collins Street was one of Melbourne's grand old hotels, host to a football-themed Grand Final night in its Gold Room and, decades later, to Keith Dunstan's own wedding-night stay on the way home from his honeymoon.
   - name: Hoyts
     description: Hoyts is one of Australia's oldest cinema chains, founded in 1913 by a dentist-turned-showman, whose 50th anniversary and the Regent Theatre's still-working Mighty Wurlitzer organ Keith Dunstan covered in successive Bulletin pieces on Melbourne's vanishing picture palaces.
+  - name: Hubert Opperman
+    description: Hubert Opperman was a champion endurance cyclist who rode for the Malvern Star marque before turning politician, winning the seat of Corio in 1949 and later serving as a Minister for Shipping and Transport and for Immigration, an early example of Keith Dunstan's argument that sporting fame was a ready path into Australian public life.
   - name: Jack Johnson
     description: Jack Johnson was the first black world heavyweight boxing champion, who took the title from Tommy Burns in a 1908 Sydney bout promoted by 'Huge Deal' McIntosh, a fight Keith Dunstan recalled both in a profile of McIntosh and in a column on a forgotten Melbourne tug-o'-war craze.
   - name: James Bond
@@ -352,6 +358,10 @@ topics:
     description: John Norton was the founder of the scandal-sheet newspaper Truth, who boasted of coining the word 'wowser' in 1899, a claim Keith Dunstan traced and complicated with the help of philologist Sidney J. Baker in his book 'Wowsers'.
   - name: John Perceval
     description: John Perceval was one of the Antipodean group of Australian painters whose original works Keith Dunstan admired hanging in the Robin Boyd-designed John Batman motor inn, a name he cited again in his tongue-in-cheek survey of corporate art-as-status-symbol.
+  - name: John Snow
+    description: John Snow was the English fast bowler whose complaints about hostile, piranha-like Australian crowds during the 1970-71 Ashes tour Keith Dunstan quoted at length to open 'Sports', including Snow's own account of trading words with a jeering ten-year-old at the MCG.
+  - name: John Wren
+    description: John Wren was a Melbourne businessman who built his fortune on the illegal Collingwood Tote and rose from underworld figure to widely admired public benefactor largely through his generosity to the Collingwood Football Club, a case study Keith Dunstan used to show that sporting patronage could launder almost any reputation.
   - name: June Bronhill
     description: June Bronhill was an acclaimed Australian operatic soprano of the 1950s and 60s, whose star power Keith Dunstan invoked in pieces on both Melbourne's fleeting cultural pretensions and its taste for genuine theatrical ghost stories.
   - name: Kathleen Quealy
@@ -392,6 +402,8 @@ topics:
     description: The Melbourne Cup is Australia's premier horse race, run at Flemington each November since 1861, whose surrounding carnival of fashion parades and society spectacle increasingly eclipsed the racing itself in Keith Dunstan's sceptical Bulletin coverage of the early 1960s.
   - name: Melbourne Grammar
     description: Melbourne Grammar is one of the city's oldest and most prestigious private schools, whose Wadhurst preparatory campus gave the young Keith Dunstan his first miserable taste of formal education before he was sent on to board at Geelong Grammar, and which later produced Barry Humphries and the actor Frank Thring.
+  - name: Melbourne Punch
+    description: Melbourne Punch was a nineteenth-century satirical weekly whose jab at a citizenry too absorbed in sport to care about Federation ('He can only watch one game at a time') Keith Dunstan quoted as proof the national sporting obsession pre-dated the twentieth century.
   - name: Melbourne University
     description: The University of Melbourne is Victoria's oldest university, whose students led a determined, months-long 1962 campaign against the Bolte government over the hanging of Robert Tait that Keith Dunstan covered for the Bulletin.
   - name: Menzies Hotel
@@ -406,8 +418,6 @@ topics:
     description: Moomba is Melbourne's annual autumn civic festival, launched in 1955 to replace the old union-run Eight Hour Day march, whose descent from a riotous street procession into a corporate-sponsored, camel-banned parade Keith Dunstan mourned in the Bulletin.
   - name: Moonee Ponds
     description: Moonee Ponds is the unglamorous northern Melbourne suburb Barry Humphries chose as the fictional home of his housewife creation Edna Everage, a joke Keith Dunstan noted had already been given hard statistical backing by a contemporary survey of stay-at-home, television-watching suburban Melburnians.
-  - name: National Gallery
-    description: ''
   - name: National Gallery of Victoria
     description: The National Gallery of Victoria is the state's principal art museum, whose 1960s directorship under Eric Westbrook and rancorous public feuds over modern art Keith Dunstan covered as regularly as he covered the gallery's more popular drawcards, like its beloved painting of the racehorse Phar Lap.
   - name: Neill Robb
@@ -457,7 +467,7 @@ topics:
   - name: Robin Boyd
     description: Robin Boyd was an Australian architect, writer and critic known for championing modernist architecture and shaping public debate about Australian design. He was also a prominent commentator on suburban taste and national identity, most famously through his book The Australian Ugliness.
   - name: Ron Barassi
-    description: ''
+    description: Ron Barassi was the star rover and captain of the Melbourne Football Club through its 1950s and 60s premiership years, who went on to coach Carlton and North Melbourne to flags of their own, achieving a fame in Keith Dunstan's Melbourne that stretched to poodle jumpers sold in South Yarra bearing his number.
   - name: Ronald Searle
     description: Ronald Searle was the celebrated English cartoonist and illustrator, praised in a letter to Keith Dunstan's column as 'the only worthwhile living English artist' and invoked again as an obvious spiritual ancestor of the ornate, gothic Princess Theatre.
   - name: Ross Grey-Smith
@@ -468,6 +478,8 @@ topics:
     description: The Royal Melbourne Hospital is one of the city's oldest teaching hospitals, a Sunday-quiet destination Keith Dunstan noted alongside the Botanic Gardens and Essendon Airport as one of the few places open to a bored Melburnian, and later a workplace touchstone in his own cadet journalism years.
   - name: Rushcutters Bay
     description: Rushcutters Bay is the Sydney harbourside suburb where fight promoter Hugh 'Huge Deal' McIntosh built Sydney Stadium for his 1908 Burns-Johnson world title fight, a venue that also hosted the Sydney eccentric Bea Miles in her long, colourful career.
+  - name: Russell Mockridge
+    description: Russell Mockridge was a brilliant, badly short-sighted Australian cyclist who won two Empire Games gold medals in 1952 and both the Amateur and Open Grand Prix in Paris, before being killed in a collision with a bus in Clayton Road, Melbourne, in 1958 while training for the Tour de France; a bike shop manager gave Keith Dunstan Mockridge's own oil can to carry across America on the Bikecentennial ride.
   - name: Russell Street
     description: Russell Street is the Melbourne CBD street long associated with police headquarters, a backdrop to both Keith Dunstan's coverage of the city's record bank robbery and his profile of Hoyts' cinema history.
   - name: Rutherglen
@@ -503,7 +515,7 @@ topics:
   - name: Sun News-Pictorial
     description: The Sun News-Pictorial was Melbourne's morning tabloid and, for 27 years, the paper that ran Keith Dunstan's daily column 'A Place in the Sun', the platform from which he also launched the Anti-Football League in 1967.
   - name: Surfers Paradise
-    description: ''
+    description: Surfers Paradise is the Gold Coast resort strip that boomed through the 1950s and 60s on Miami-style tower blocks and invented traditions like a water-skiing Father Christmas, and whose local council was first to approve the bikini for its beaches in 1955, all of which Keith Dunstan surveyed with amused disdain in his Walkabout travel writing.
   - name: Swanston Street
     description: Swanston Street is one of Melbourne's principal north-south thoroughfares, home over the decades to the Eight Hour Day march turned Moomba procession and to the grand, later-demolished Capitol Theatre that Keith Dunstan eulogised on its 1964 closure.
   - name: Sydney
@@ -531,7 +543,7 @@ topics:
   - name: Toorak
     description: Toorak is Melbourne's most exclusive residential suburb, a byword for old money and social status whose century of unrivalled snob value, jealously guarded postcode included, Keith Dunstan dissected affectionately in the Bulletin, and where he himself grew up in a haunted-feeling bluestone house on Wallace Avenue.
   - name: Toowoomba
-    description: ''
+    description: Toowoomba is the Darling Downs city famed for its Carnival of Flowers and its cool, 2,000-foot altitude, which Keith Dunstan rated Australia's finest gardening town and mined for a satirical link between Toowoomba, the Melbourne Club and a federal minister in one of his Batman columns.
   - name: Totalisator Agency Board (TAB)
     description: The Totalisator Agency Board, or TAB, was Victoria's off-course betting monopoly established in 1961 to compete with illegal starting-price bookmakers, whose first-year profits Keith Dunstan reported alongside the police raids still being mounted on SP betting dens at the same time.
   - name: Tullamarine

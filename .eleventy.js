@@ -1,7 +1,7 @@
 const { DateTime } = require("luxon");
 const { execFileSync } = require("child_process");
 const navigationPlugin = require('@11ty/eleventy-navigation')
-const rssPlugin = require('@11ty/eleventy-plugin-rss')
+const { rssPlugin } = require('@11ty/eleventy-plugin-rss')
 const metagenPlugin = require('eleventy-plugin-metagen')
 const matter = require("gray-matter");
 
@@ -10,6 +10,9 @@ module.exports = function(eleventyConfig) {
   // Powers the {% metagen %} shortcode used in snippets/opengraph.njk to
   // generate Open Graph / Twitter Card / canonical tags for every page.
   eleventyConfig.addPlugin(metagenPlugin);
+
+  // Provides the dateToRfc822 filter used by src/feed.njk (/feed.xml).
+  eleventyConfig.addPlugin(rssPlugin);
 
   eleventyConfig.setDataDeepMerge(true);
 
@@ -174,6 +177,43 @@ module.exports = function(eleventyConfig) {
     }
     gitLastUpdatedCache.set(inputPath, result);
     return result;
+  });
+
+  // Date a source file first appeared in git — used to order the RSS feed
+  // (src/feed.njk) by when a page actually went up on the site, since the
+  // `date` frontmatter is usually the item's decades-old historical
+  // publication date and isn't useful for "what's new" ordering.
+  const gitDateAddedCache = new Map();
+  function getGitDateAdded(inputPath) {
+    if (gitDateAddedCache.has(inputPath)) return gitDateAddedCache.get(inputPath);
+    let result = null;
+    try {
+      const out = execFileSync(
+        "git",
+        ["log", "--diff-filter=A", "--format=%ad", "--date=short", "--follow", "--", inputPath],
+        { cwd: __dirname, encoding: "utf8", timeout: 3000 }
+      ).trim().split("\n").filter(Boolean);
+      const firstAdd = out[out.length - 1];
+      if (firstAdd) result = new Date(`${firstAdd}T00:00:00Z`);
+    } catch (e) {
+      result = null;
+    }
+    gitDateAddedCache.set(inputPath, result);
+    return result;
+  }
+
+  // Newest-added-first feed of book chapters + articles, for /feed.xml.
+  eleventyConfig.addCollection("recentContent", collection => {
+    return collection.getAll()
+      .filter(item => (item.data.tags || []).includes("book") || (item.data.tags || []).includes("article"))
+      .map(item => ({
+        title: item.data.title,
+        summary: item.data.summary,
+        url: item.url,
+        dateAdded: getGitDateAdded(item.inputPath) || item.date
+      }))
+      .sort((a, b) => b.dateAdded - a.dateAdded)
+      .slice(0, 30);
   });
 
   // Nunjucks has no built-in string split — used to pull the collection

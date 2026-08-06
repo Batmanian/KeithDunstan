@@ -14,7 +14,7 @@ tags:
   - Melbourne Cricket Ground
   - Melbourne Tourism
   - Moomba
-  - National Gallery
+  - National Gallery of Victoria
   - Ned Kelly
   - Phar Lap
   - Royal Arcade

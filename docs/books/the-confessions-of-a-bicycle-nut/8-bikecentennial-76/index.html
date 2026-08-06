@@ -1,0 +1,354 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bikecentennial &#39;76</title>
+<meta name="title" content="Bikecentennial &#39;76">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Dunstan, Marie and cartoonist Jeff Hook join 1200 riders pedalling the length of the United States for America&#39;s bicentenary, kitting out custom Sovereign Star bicycles with triple chainwheels under the guidance of gearing pioneer Ron Shepherd.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/the-confessions-of-a-bicycle-nut/8-bikecentennial-76/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Bikecentennial &#39;76">
+<meta property="og:description" content="Dunstan, Marie and cartoonist Jeff Hook join 1200 riders pedalling the length of the United States for America&#39;s bicentenary, kitting out custom Sovereign Star bicycles with triple chainwheels under the guidance of gearing pioneer Ron Shepherd.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Bikecentennial &#39;76">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/the-confessions-of-a-bicycle-nut/8-bikecentennial-76/">
+<meta name="twitter:title" content="Bikecentennial &#39;76">
+<meta name="twitter:description" content="Dunstan, Marie and cartoonist Jeff Hook join 1200 riders pedalling the length of the United States for America&#39;s bicentenary, kitting out custom Sovereign Star bicycles with triple chainwheels under the guidance of gearing pioneer Ron Shepherd.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Bikecentennial &#39;76">
+<link rel="canonical" href="https://keithdunstan.org/books/the-confessions-of-a-bicycle-nut/8-bikecentennial-76/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1999-11-11">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="The Confessions Of A Bicycle Nut">
+<meta property="article:tag" content="Adrian Benns">
+<meta property="article:tag" content="Jeff Hook">
+<meta property="article:tag" content="Malvern Star">
+<meta property="article:tag" content="Marie Dunstan">
+<meta property="article:tag" content="Ron Shepherd">
+<meta property="article:tag" content="Russell Mockridge">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+    
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">Bikecentennial &#39;76</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            17
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1999-11-11">1999</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Dunstan, Marie and cartoonist Jeff Hook join 1200 riders pedalling the length of the United States for America&#39;s bicentenary, kitting out custom Sovereign Star bicycles with triple chainwheels under the guidance of gearing pioneer Ron Shepherd.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="The Confessions Of A Bicycle Nut">
+         <!--<a href="/tags/adrian-benns/" class="btn btn-outline-dark btn-sm me-2">Adrian Benns</a><a href="/tags/jeff-hook/" class="btn btn-outline-dark btn-sm me-2">Jeff Hook</a><a href="/tags/malvern-star/" class="btn btn-outline-dark btn-sm me-2">Malvern Star</a><a href="/tags/marie-dunstan/" class="btn btn-outline-dark btn-sm me-2">Marie Dunstan</a><a href="/tags/ron-shepherd/" class="btn btn-outline-dark btn-sm me-2">Ron Shepherd</a><a href="/tags/russell-mockridge/" class="btn btn-outline-dark btn-sm me-2">Russell Mockridge</a>-->
+
+        
+      </header>
+      <p>The best advice came from Sir Hubert Opperman. Just before we set out for America he sent us a telegram: &quot;Look out for maniacs going down hills, eat little and often, and keep your chamois well greased.&quot;</p>
+<p>This was pithy stuff, almost all you needed to know. Maniacs? In the 1890s they called them 'Scorchers'. A scorcher hurtling past just as you are about to take a bend with a car coming the other way is enough to put you in the hands of the Almighty. Eat little and often. That's something you have to learn, the old machine is suffering enough as it is. It has to be kept in balance. Your chamois well-greased? Good bicycling shorts have a square of chamois in the crotch, a vital item to protect that most tender section of the anatomy. One does not wear underpants with bicycle shorts and for that chamois to do its job, it is necessary to keep it greased with Vaseline. It is one of those little matters where comfort takes precedence over hygiene.</p>
+<p>In 1975 bicycle shorts were made of wool and anything but a fashion item. Marie and a number of other ladies on the Bikecentennial said: &quot;Nobody will ever get me into a pair of those. No way.&quot; What with this and that, it didn't take long. We all wore them and in many difficult moments we offered our thanks to Oppy.</p>
+<p>The plot for the Bikecentennial '76 really began in 1972. Two young American couples, Dan and Lys Burden, Greg and June Siple, set out on an astonishing bicycle ride, from the top of Alaska down to the bottom of Argentina. The Siples made it all the way and the trip took them three years. The Burdens covered 9500 miles before Dan succumbed to hepatitis in Guatamala.</p>
+<p>Meanwhile, Dan became fascinated with the bicycle as a superb means of transport. Here was a cheap method for leisurely travel, not for rushing through a country in an air-conditioned box with a tinted windscreen, but for getting out there, listening to the birds, seeing the wildlife, the trees, the wild-flowers, and best of all, having time to get off those two wheels and talk to the people.</p>
+<p>Immediately he began to plan the route across America and he believed the Bicentennial Year, when the United States was celebrating its 200th birthday, was the ideal time. He thought maybe 100 people would be interested in pedalling across America. He was wrong. Soon he had thousands writing to his headquarters in Missoula, Montana, asking to go. Then they had the idea of promoting a series of bikeways across the U.S. and so the idea expanded. It picked up subsidies, public enthusiasm, and soon they had 130 planning the whole thing.</p>
+<p>Yet there was more to it than just pedalling. There was the energy crisis, the need to save a nation from pollution and the feeling that maybe a project like this had much to teach the greatest consumer nation on earth.</p>
+<p>It was in October 1975 that we first saw the brochure. Freda Morgan found it. Freda was married to John Morgan, Editor-in-Chief of the Herald and Weekly Times Ltd. She thought the project sounded incredibly exciting. They couldn't go, but maybe somebody else could and it would make a fascinating story for the <em>Sun News Pictorial</em>. Fortunately there was only one bike nut on the staff - Dunstan.</p>
+<p>The brochure said: &quot;The biggest cycling event in history will take place in USA from May to September 1976 when an estimated 10,000 cyclists from all countries in the world will take part in Bikecentennial '76.&quot;</p>
+<p>It went on to say that to help Americans celebrate their independence, cyclists would ride on a special trail 6750 kilometres from Reedsport in Oregon to Yorktown, Maryland on the East coast. Riders would average 80 kilometres a day and towns would turn on special fairs and festivals to coincide with the ride.</p>
+<p>The first delicate problem was to explain to Marie Rose what was happening. We had been married 27 years and I was in my 51st year. Was this strange behaviour for a middle-aged couple? Marie said she was not interested in bicycles; there were better forms of transport. But she added: &quot;You needn't think you're going on your own. I'm coming too.&quot;</p>
+<p>John Morgan said the story would require illustrations. Why not Jeff Hook? We had always done everything together. Jeff said yes, but his wife Pauline was pregnant with their fifth child. They had four boys and always there was the hope this time they would have a girl. So here was the plan: Jeff would ride, but he would fly home at the half-way mark, from Denver in Colorado, in time for the baby's birth.</p>
+<p>We filled out the forms and sent in the acceptance money. Back came medical certificates which had to be signed by a doctor. The form contained some disturbing lines: &quot;Are you sufficiently fit to ride up to 120 kilometres in a day, withstand headwinds, freezing conditions and temperatures up to 44 degrees Celsius?&quot;. &quot;No,&quot; was our immediate reaction, but we had already paid the money.</p>
+<p>Next came a pamphlet pointing out that cycling over flat country was dull, hills were much more enjoyable. &quot;We make no apology,&quot; the pamphlet said, &quot;the trail goes through the most rugged country in America. We have sought out every mountain pass in Oregon.&quot;</p>
+<p>We had pictured ourselves cycling through buttercups and enjoying the American sunshine. They sent us a photograph depicting a cyclist pushing through a tunnel of ice. &quot;McKenzie Pass in July&quot; was the caption. We were due to go through the pass before the end of May!</p>
+<p>McKenzie Pass was only 5000 feet. There were others in Colorado over 11,000.</p>
+<p>However, there were compensations. The trail was ingenious. It avoided all cities over 5000 people. It started in Oregon, moved in to Idaho, up through Montana almost to Canada, down into Wyoming to Colorado, then straight across through Kansas, Missouri, Illinois, Virginia and Maryland.</p>
+<p>The Bikecentennial people kept on giving us bad news. Originally we were told there would be a nice truck to carry our luggage. This was known as the 'Sag Wagon'. This proved to be far too expensive. Everything we needed for three months on the trail we would have to carry on our bikes.</p>
+<p>We tried to get our weight down to 35 pounds (15.87kg). This meant track suit, bicycling shorts, a couple of T-shirts, sweater, two pairs of socks, under clothing, and one respectable pair of no-iron dark blue trousers, and a dark blue zip up jacket for formal occasions. There was the hopeful theory that dark blue wouldn't show the dirt. Instead of towels, we took pieces of white muslin which folded to nothing. These, we were told, were ideal. They would dry immediately. Then there were sleeping bags and tiny blow-up mattresses which just stretched from the shoulders to the behind.</p>
+<p>Shoes, now they were a heavy item. I said to Marie, &quot;Ask me how many pairs of shoes you can take on this trip.&quot;</p>
+<p>&quot;All right, I'll be silly. How many?&quot;</p>
+<p>The reply was: &quot;One.&quot;</p>
+<p>Actually she did slip in an extra pair. It seemed a good idea not to take cycling shoes, because they would become wet so often. I settled for a classic pair of R.M. Williams elastic-sided boots and I never regretted it, particularly those days when we were riding in snow.</p>
+<p>There were other sundry items like wet weather gear, camera, a good set of tools and first aid kit. We accepted the advice that everything had to be sealed in bags, including the sleeping bag. Oh yes, that's something you learn about bicycles, they don't come with a windscreen or a nice roof to keep out the rain.</p>
+<p>But what sort of bicycle? Obviously it had to be a very good one. Bicycle shops in the 1970s were run almost entirely by ex-professional cyclists, characters who triumphed in the Sun Tour, Olympic or Commonwealth Games. They knew nothing about touring. They recommended a bicycle that was good for the Tour de France, but not a comfortable machine that was going to carry middle-aged characters and all their luggage across the United States. Their idea of gears was a little cluster that would fit inside your wrist watch. Their idea of tyres was something as thick as your thumb and as thin as nylon stockings.</p>
+<p>We went to our friends at Malvern Star. Something interesting was happening in bicycles. The bike people were learning from the car manufacturers. In 1975 Rolls-Royce suffered an embarrassment. There was a Mercedes Benz on the market that cost more than the Rolls. Thereupon Rolls-Royce produced the Corniche which put matters beyond argument. The Corniche cost much more than the Benz. Prestige was restored and Rolls-Royce sales improved immediately.</p>
+<p>So bicycles followed the same idea. In 1975 Peugeot moved on the Australian scene with a complete range of bikes. Their top-of-the-line was the grand prix racer, only 20 pounds in weight with the frame made of Reynolds tubing. Only one colour was available, racing white, price $430.</p>
+<p>The English firm Raleigh fought back with a similar light-weight 10-speed racer. It too came in one classic colour, black, naturally. $376. We waited patiently to see what Malvern Star would do. They produced their Sovereign Star, price $560, an enormous figure for 1975. The advertising blurb read: &quot;Malvern Star introduces a limited edition of the ultimate person cycle. The luxury bicycle. Luxury in looks and handling capabilities. Luxury in the way it makes you feel. Here is a touring thoroughbred. Incorporating skills that are rarely seen.&quot;</p>
+<p>The blurb did not reveal the real news. Malvern Star no longer was a child of Malvern. This bicycle with Malvern Star still proudly printed on the frame was made entirely in Japan. Oh yes, it had the Reynolds tubing, it had Shimano gears and beautiful chain wheels all anodised in black.</p>
+<p>Malvern Star gave us a good deal, wholesale prices and we all had our Sovereign Stars. Only 500 were made and, like wines from a rare vintage, each was individually numbered. Mine was number 11. There was no such thing as a ladies' Sovereign Star. I pointed out that bicycles with a dropped bar were no use for an exercise like this. &quot;Not strong enough for the job.&quot; Marie Rose nodded her head: &quot;Typical chauvinist situation,&quot; she said. &quot;The best bikes are always made for the males.&quot; So she had to learn to throw her leg over a high bar, and her bicycle was almost identical to Jeff's and mine.</p>
+<p>The Sovereign Star was silent, light, an exquisite piece of machinery. An old mate, Adrian Benns, looked at it in wonder and said: &quot;It reminds me of a perfect fly fishing rod. Lovely.&quot; Lovely it was, but not the right bicycle for riding across a continent. It was a bicycle designed for racing, not for a long, slow, luggage-carrying haul over mountains and rough roads. It was too short in the wheel base, and the wheels were too light. Not only were the spokes too thin in gauge but the wheels needed double the number that were provided. We were too green to know these things.</p>
+<p>Ron Shepherd very quickly pointed out the problem with our gears. Ron was an information officer with the Education Department, quiet, thoughtful, scholarly, and a serious terminal case as far as bicycles are concerned, the sort of man who would not worry about taking his bike across the Nullarbor. He pointed out we would get nowhere with the gears we had on our Sovereign Stars. Maybe they would get us up the Anderson Street hill, but the Anderson Street hill was not the McKenzie Pass.</p>
+<p>Ron was mildly amused by the expensive Sovereign Star. It was now the fashion for cyclists to pay huge sums for bicycles made of expensive metals. What if you paid $500 or even $1000 for a bicycle that weighed less than 20 pounds? If you went on a diet, reduced your weight by five pounds you would get the same effect and save a &quot;helluva lot of money&quot;.</p>
+<p>Ron produced a little journal called the <em>Low Gear Bulletin</em>. He pointed out that the heavier bike might be slower uphill, but it was faster downhill and on a long day's ride, the difference might not be more than a mile. Then if you are loading up with panniers, tools, bidons, camera etc, who cares if there is a kilogram or two extra on the frame?</p>
+<p>For a start Ron, pointed out that our rear sprocket was absurd. We needed a range of 14 to 48 teeth. What's more, we needed three chainwheels on the front. THREE! In October 1975 few people had heard of triple chainwheels and 15-speed gears. We did not realise it then, but Ron was one of the first and a world expert. His <em>Low Gear Bulletin</em> gave advice on how to make and fit your own little chain wheel. He recommended a 48-tooth large chainwheel and 14 teeth on the little chainwheel.</p>
+<p>The front derailleur had to make a much bigger shift to move the chain across the three chain wheels and the rear derailleur needed a long arm on the jockey wheels to take up the extra chain. It was very new stuff. The mechanics at Malvern Star were shocked when we told them we were applying not only different chain rings but a third. Sacrilege, they thought, and unnecessary. They hadn't heard of a third chain ring. Indeed, we went right across the United States and found only one bike shop that knew anything about triple chain ring gears. That was a bike shop in Missoula and they had read Ron Shepherd's <em>Low Gear Bulletin</em>.</p>
+<p>We went into training. Our first expedition was to Apollo Bay. It was one of those days when there was a howling sou-westerly with regular bursts of horizontal rain. Mid-afternoon we sat under a bridge, wet and shivering. The thought occurred: &quot;Why are we doing this? We must be out of our minds.&quot;</p>
+<p>Our best training run was to Walhalla, a little mining town in Gippsland where we owned a tiny cottage. The adventure was to bicycle to Spencer Street Station. It was always smart thinking to seek out rides close to railway stations because a benign Government carried bikes free. We took the early train to Moe, then rode the 40-odd kilometres to Walhalla. It was uphill a good part of the way with a particularly rough climb to Mt Erica. The road became progressively steeper, turning this way and that. Just when we thought we had completed our climb, we turned another bend, and there was another monstrous climb ahead going on for ever. We dubbed this 'Shit Hill'. We called it that because every bicyclist we knew, upon rounding that bend, gasped &quot;Oh Shit!&quot;</p>
+<p>We would arrive at the Erica pub with thirsts akin to those of Robert O'Hara Burke and William John Wills. The cool draught beer was not as depicted in the Foster's advertisements, it was better. Odysseus saved himself from the deadly lure of the singing of the Sirens by tying himself to the mast of his ship and filling his ears with wax. The lure of the cold beer in the Erica pub would have overcome even that. It was so good. But we found beer was not the answer. There was still 12 or 15 kilometres to ride to Walhalla with more hills and a winding rough, dirt track. We discovered then that you don't drink when you are riding a bicycle. Alcohol is dehydrating and leaves you with legs of lead.</p>
+<p>We learned other things, too, in our training. When you start out in the morning and the target is 100 or 120 kilometres, the problem seems impossible. You have to push yourself, by your own muscles, as far as Lorne or Ballarat. It is all in the mind. If you take it quietly, it is extraordinary how the kilometres unfold. The mistake is to keep looking at the cyclometer.</p>
+<p>We trained with full loads and it was then we learned about our 15-speed gears and the quixotic nature of that little chainwheel. The shifting arrangements were not as refined as they are now. Upon seeing a steep grade ahead, one had to make up one's mind very early and shift to that little chainwheel. If there was a second's delay no amount of shifting made any difference, there was too much tension on the chain and it refused to move. It was like losing your glasses or your car keys; it is a lesson you never learn. On many a trip, then and later we had to stop, get off the bike and shift the chain with those blackened cyclists' fingers.</p>
+<p>There were a number of options available on the Bikecentennial. You could take the first trip, cross the United States in 50 days at the rate of 130 to 200 km a day. Or you could take it more easily, 65 km to 130 km a day and cross in 82 days. You could take short nominated trips which lasted a week. You could take the camping tour, carrying your own tent as well as everything else. Or there was the Bike Inn Tour. Local communities would provide the accommodation, always there would be a roof over your head. Many American families would want to billet the passing bikers. Indeed an organisation was being formed to cover it.</p>
+<p>The Bike Inn Tour was for us. It sounded incredibly romantic, like the old Inns of England. We paid for all meals before we started, $5 U.S. a day. In theory it was $1.50 for breakfast, $1 for lunch and $2.50 for dinner. It sounds a miserable figure, but it worked, and often there was enough money to eat in cafés and restaurants. We found rural restaurants in the U.S. amazingly cheap. Apart from Oppy's telegram there was one touching incident. The manager of a bike shop in Elizabeth pressed an exquisite little oil can into my hand. &quot;I want you to use this on your trip,&quot; he said. &quot;It belonged to Russell Mockridge.&quot;</p>
+<p>Russell Mockridge was a name to hold in awe, a bicyclist almost as great as Oppy himself. He was born in 1928 and went to school at Geelong College. His athletic schools were extraordinary but his eyesight was so bad he could hardly see across the road. Cycling was one of the few way in which he could compete. He won two gold medals at the Empire Games in 1952, then he won the Paris Amateur Grand Prix, then the Open Grand Prix. No amateur had ever done this before. On 12 December 1958, he left on the 140-mile Tour of Gippsland Race. He was soon to leave for Paris for the Tour de France.</p>
+<p>At 10 a.m. a bus turned out of Clayton Road, across Dandenong Road, Melbourne. Mockridge hit the bus at high speed, slid underneath and was killed. More than 10,000 people came out for his funeral. Police estimated that 3000 crowded outside the funeral parlor in St Kilda Road. Thousands more lined the side of the road. A group of 500 waited at the Clayton Road crossing Dandenong Road where the accident had taken place and 600 more attended the service at the Crematorium. The cortege was two miles long. (1) <em>The Sun News Pictorial</em> described him as the best racing cyclist a top cycling country has ever produced. (2)</p>
+<p>So I took Russell Mockridge's little oil can and it was with us across America, but I was so terrified of losing it only on one occasion did I ever take it out of my pannier bags.</p>
+<p>There was an Australian contingent of 26 bikers, male and female, led by the resourceful Ron Shepherd. We all took our own bicycles. This was essential. Getting to know your bike is like getting to know a wife or a husband. You need time to work out each other eccentricities. It would be a miserable experience starting out cold to cover 6000 kilometres with a bicycle you had known for one day. An old friend in the U.S. remarked: &quot;Ridin' somebody else's bike is like using somebody else's teeth.&quot; If you went away without your own bike you certainly would never, never, never go away without your own saddle. You might sell a bike, but the true biker never sells his saddle. It takes a long time for a saddle to become correctly acquainted with your behind.</p>
+<p>The advice was, go to a bike shop and ask for an empty bike carton. They always had plenty. Remove the wheels, take off the pedals, take out the saddle and seat stem, take off the handle bars. Put padding around the gears and delicate parts. We were travelling by Qantas and there was no excess baggage to pay on the bike. We had so little clothing and gear we couldn't compete in the excess baggage stakes.</p>
+<p>We had a stopover at Honolulu and the full team took time off to sit on the beach at Waikiki. It was then that Marie gained a faint idea of what makes up a true cyclist. The scene out front was one of the most beautiful on earth. Over yonder was Diamond Head, the sun shining out of a stainless sky. The sun was even bluer than Elizabeth Taylor's eyes and young women of every shade and hue were stretched out on the sand, wearing very little. The conversation went like this:</p>
+<p>&quot;I don't reckon there's anything better than a Campagnolo derailleur.&quot;</p>
+<p>&quot;What do you use with it?&quot;</p>
+<p>&quot;Awm a 14-32 sprocket, works pretty well.&quot;</p>
+<p>&quot;I got a Shimano myself - 14-34.&quot;</p>
+<p>&quot;A 10-speed?&quot;</p>
+<p>&quot;No, a 15-speed. I put on a little 28 chainwheel. We'll need 'em.&quot;</p>
+<p>Nothing really diverts a true bicycle nut. They didn't even notice Waikiki.</p>
+<h2>Notes</h2>
+<ol>
+<li><em>Age</em>, 16 September 1958.</li>
+<li><em>Sun News Pictorial</em>, 15 September 1958.</li>
+</ol>
+
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        Dunstan, Marie and cartoonist Jeff Hook join 1200 riders pedalling the length of the United States for America&#39;s bicentenary, kitting out custom Sovereign Star bicycles with triple chainwheels under the guidance of gearing pioneer Ron Shepherd.
+      </p>
+<hr>
+<h4 class="h6">Related topics</h4>
+<p class="small text-muted mb-3">
+    
+    <a href="/topic/adrian-benns/" class="link-secondary">Adrian Benns</a>,
+    
+    <a href="/topic/jeff-hook/" class="link-secondary">Jeff Hook</a>,
+    
+    <a href="/topic/malvern-star/" class="link-secondary">Malvern Star</a>,
+    
+    <a href="/topic/marie-dunstan/" class="link-secondary">Marie Dunstan</a>,
+    
+    <a href="/topic/ron-shepherd/" class="link-secondary">Ron Shepherd</a>,
+    
+    <a href="/topic/russell-mockridge/" class="link-secondary">Russell Mockridge</a>
+</p>
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/adrian-benns/" class="link-secondary">Adrian Benns</a>,
+    
+    <a href="/topic/jeff-hook/" class="link-secondary">Jeff Hook</a>,
+    
+    <a href="/topic/malvern-star/" class="link-secondary">Malvern Star</a>,
+    
+    <a href="/topic/marie-dunstan/" class="link-secondary">Marie Dunstan</a>,
+    
+    <a href="/topic/ron-shepherd/" class="link-secondary">Ron Shepherd</a>,
+    
+    <a href="/topic/russell-mockridge/" class="link-secondary">Russell Mockridge</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3"> 
+    <br><small><a href="/feed.xml"><i class="fa fa-rss" aria-hidden="true"></i>
+ Subscribe via RSS</a> for content updates on this site</small>
+<br><small>We're volunteers, <a href="https://ko-fi.com/jackdunstan">support us</a> to research, digitise, edit to bring this content to a new audience - with a <i class="fa fa-coffee" aria-hidden="true"></i>
+</a></small>
+<br>
+<small>Built and maintained by <a href="https://www.linkedin.com/in/jackdunstan//">Jack Dunstan</a></i>
+</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

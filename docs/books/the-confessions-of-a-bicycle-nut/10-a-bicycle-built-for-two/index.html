@@ -1,0 +1,343 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A Bicycle Built for Two</title>
+<meta name="title" content="A Bicycle Built for Two">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="The saga of acquiring, and riding, a proper touring tandem, from a doomed Malvern Star &#39;Cycle Master&#39; that battered a Melbourne Cup wet-weather crossing to a hand-built Taylor Brothers tandem imported from a California bike shop after a customs battle lasting more than a year.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/the-confessions-of-a-bicycle-nut/10-a-bicycle-built-for-two/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="A Bicycle Built for Two">
+<meta property="og:description" content="The saga of acquiring, and riding, a proper touring tandem, from a doomed Malvern Star &#39;Cycle Master&#39; that battered a Melbourne Cup wet-weather crossing to a hand-built Taylor Brothers tandem imported from a California bike shop after a customs battle lasting more than a year.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="A Bicycle Built for Two">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/the-confessions-of-a-bicycle-nut/10-a-bicycle-built-for-two/">
+<meta name="twitter:title" content="A Bicycle Built for Two">
+<meta name="twitter:description" content="The saga of acquiring, and riding, a proper touring tandem, from a doomed Malvern Star &#39;Cycle Master&#39; that battered a Melbourne Cup wet-weather crossing to a hand-built Taylor Brothers tandem imported from a California bike shop after a customs battle lasting more than a year.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="A Bicycle Built for Two">
+<link rel="canonical" href="https://keithdunstan.org/books/the-confessions-of-a-bicycle-nut/10-a-bicycle-built-for-two/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1999-11-11">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="The Confessions Of A Bicycle Nut">
+<meta property="article:tag" content="Brian Dixon">
+<meta property="article:tag" content="Jeff Hook">
+<meta property="article:tag" content="Malvern Star">
+<meta property="article:tag" content="Marie Dunstan">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+    
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">A Bicycle Built for Two</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            15
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1999-11-11">1999</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            The saga of acquiring, and riding, a proper touring tandem, from a doomed Malvern Star &#39;Cycle Master&#39; that battered a Melbourne Cup wet-weather crossing to a hand-built Taylor Brothers tandem imported from a California bike shop after a customs battle lasting more than a year.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="The Confessions Of A Bicycle Nut">
+         <!--<a href="/tags/brian-dixon/" class="btn btn-outline-dark btn-sm me-2">Brian Dixon</a><a href="/tags/jeff-hook/" class="btn btn-outline-dark btn-sm me-2">Jeff Hook</a><a href="/tags/malvern-star/" class="btn btn-outline-dark btn-sm me-2">Malvern Star</a><a href="/tags/marie-dunstan/" class="btn btn-outline-dark btn-sm me-2">Marie Dunstan</a>-->
+
+        
+      </header>
+      <p>There was always a desire to own a tandem. They just looked right. They were symbolic of marital bliss. After all, there was the song about Daisy, one of the most famous ever written. This lovesick character, back in the 1890s, didn't want single bikes. When he was proposing '<em>Daisy, Daisy, give me an answer do</em>', he thought the lady would look sweet on a bicycle built for two.</p>
+<p>In the 1880s there was an extraordinary machine called a Sociable, where the blissful couple could ride side by side. Wouldn't it have been great to own one? In the 1890s it was de rigueur to be photographed on your bike and particularly on your tandem. For example, there is a famous shot of the Honorable Rupert and Mrs Carrington on their tandem at Government House, Melbourne. They look beautiful together. Mrs Carrington is wearing a perky straw hat with a feather and a long white gown, which reaches to her ankles. The Honorable Rupert is in a straw boater, a heavy suit and no bicycle clips. Ah, but here's an interesting point, Mrs Carrington is in command, controlling the handlebars. Rupert the Honorable is on the rear seat.</p>
+<p>It happens in all the vintage pictures, female up front, gentleman behind. Two reasons. It was not proper for the female to be so close to the male posterior and long skirts had a better chance of being caught in the chain at the rear. No matter how they sat, a tandem always looked more majestic, more powerful, than a single bike.</p>
+<p>In 1975, tandems were scarce indeed. Some enthusiasts had built their own by welding the frames of two single bikes. Experts like Ron Shepherd warned against them. They would flex like a coat hanger and cause eternal misery. Bill Gilbert, manager of General Accessories, said there was a tandem in their store at Malvern Star. It had been there for years. I could have it for $500.</p>
+<p>It had come out from England as a sample, and Malvern Star had never proceeded further. Who would want to buy a tandem, they thought. The Honorable Rupert was no longer available to set the tone. The Malvern Star tandem was a 10-speed, bright red, and called 'The Cycle Master'. Immediately I fell in love with it. The love was not to last, but it taught me a great deal about tandems.</p>
+<p>The first lesson was this. Double force and double weight means double strain. The Cycle Master had precisely the same wheels as a normal bike. Constantly it was popping spokes. One warm day, I was sitting in the living room and I heard a distinct 'ping'. &quot;It's you, you bastard. You're popping spokes and we're not even riding on you.&quot;</p>
+<p>But then we discovered a trick. Put the pedals out of phase. A tandem expert explained: &quot;You know how Caesar told his troops to break step when crossing a bridge? Reduce the pounding? O.K. It's the same with a tandem. Set the rear pedals 90 degrees out of phase with those in front. The whack as you both come down at the same time will cease and you will get a smoother flow of power.&quot;</p>
+<p>It did not look as pretty. No longer were knees going up and down in beautiful unison. It looked all quirky. Furthermore it was harder to start. Not only harder to start, but it caused lots of argument. You always get starting arguments with tandems and some delicate points have to be decided, particularly with wives. Some people like to start with their left foot on the ground, and find it almost impossible to do otherwise. Some like to start with right foot on the ground, left pushing, and find it impossible to do otherwise. Imagine the conflict when you are a perfect right foot push starter and your wife is the opposite. Terry Lane, a famous interviewer on ABC radio, was a tandem owner. He came into conflict with his wife Valda over this. Terry was a right foot on the ground tandemist. Valda was a left. So how could they get started? Then there was another point, a question of discipline. The captain unquestionably has to mount first. The stoker, the person in the rear position, gets on second. If you do it the other way round, the captain is likely to kick his or her stoker in the face as he or she throws a leg over the bar. Terry Lane wondered how long Daisy's marriage actually lasted. Who was the captain and who was the stoker? Did Daisy have her left leg on the ground or the right? (1)</p>
+<p>We didn't quite have that problem, but the pedals out of phase was a serious matter. I wanted a lovely push at the start with my pedal at 90 degrees. Marie at the rear was left with the pedal at 180 degrees, a position where she could apply no power at all. A tandem at take off is an unstable creature, like an over-loaded Cessna, clawing into the air. It needs all the shove it can get. Eventually we compromised. I started with my pedal not quite at the bottom of the thrust. This gave Marie extra shove on her pedal, and we were away. But there was no question, out of phase was the answer. Julius Caesar was absolutely right. From then on we broke few spokes and not so many cotter pins.</p>
+<p>Unlike more modern bikes, it had cotter pins to secure the cranks for the pedals. The force of two people on the pedals was so great on a long journey the pins could wear and snap. So when we went on a ride, like a trip to Walhalla, I carried a pocket full of cotter pins and a mallet to knock them into place.</p>
+<p>Terry Lane was absolutely right. The hierarchy of the tandem was a problem of supreme delicacy. As opposed to the 1890s, the captain of most modern tandems is a male. The male reasoning is this. A tandem is heavier, both steering and brakes require more strength. So the captain is in a position of total power. He has control of steering, gears and brakes. She just has to sit behind in a secondary situation. Some, sensitive captains put a brake on the rear handlebars, which gives the stoker at least some control.</p>
+<p>On the other hand, stokers have full time to enjoy the view, look around, and I have known some to indulge in knitting. However, it would be a mistake to suggest stokers have no control at all. A tandem operates on perfect balance. A stoker by throwing weight to the wrong side, or even waving to a friend on a street corner, can make the bike turn quite savagely. My Marie has proved on a number of occasions that she is perfectly capable of steering the tandem from behind. Then some of us, at the wheel of a motor car, have met back-seat drivers. On tandems, back-seat drivers are even more eloquent.</p>
+<p>Now <em>stoker</em> is an interesting term. Origin unknown, but it does imply that the person on the back seat does all work. It is a position that deserves much better public relations. Every time we went out on our tandem, at the rate of three to four times an hour, some smart Alec on the footpath would call out:</p>
+<p>&quot;Hey mate, your partner on the back is doin' nuthin'.&quot; Or..</p>
+<p>&quot;Ha! Ha! Ha! She's not pedalling. Did you know that?&quot;</p>
+<p>&quot;Thanks for telling me. I'll give her a hiding when I get home.&quot;</p>
+<p>After the 432nd time, the joke became a little tired. Actually, the chain wheels are chained together. The stoker has no choice but to pedal as hard as the captain. If one is not putting in as much effort as the other, the result is obvious, instantly. Sensible captains never criticise because good stokers and good Daisies are the rarest of flowers.</p>
+<p>It was obvious that The Cycle Master had to go and this became extremely obvious on the second Tuesday of November 1976. For 15 years Jeff Hook and I had been looking for an ideal method for travelling to the Melbourne Cup. We had been by brewery wagon, by boat, by Rolls-Royce, by a railway ganger's push-me, pull-you hand trolley, by sedan chair and even rickshaw. In 1976 we decided to go on The Cycle Master and for speed it beat all the others. We were at the racetrack in 20 minutes and the parking was superbly convenient. We just tied up by the Governor-General's Rolls.</p>
+<p>It was important to wear formal gear, so we hired top hats, tails, and striped trousers. It was very interesting. Top hats proved to be aerodynamically sound and caused no trouble. They jam on to your head very well, like a tin on a square post. Surprisingly too, our tails did not get caught in the chains, they flapped quite charmingly on either side of the bike.</p>
+<p>It was something else that caused the trouble. This was the year Van Der Hum won the Cup, and it was the wettest Cup Day in history. The betting ring in the Members' Stand looked like Albert Park Lake with the bookies all standing on boxes like ladies who had been frightened by mice. Of course, this didn't stop anyone from placing their bets. Some just waded into the swamp, shoes and all, others carefully took off their shoes and shocks, carefully placed them on the dry beach by the members' bar, then went in for a paddle.</p>
+<p>In the car park, where the parties take place, there were marvellous examples of heroism. Ladies and gentlemen, in all their finery, stood up to their waists in water, and just quietly went on drinking champagne and eating their chicken sandwiches. Jeff and I looked as if we had actually had a swim down the Yarra to the Cup. But the nice thing about striped trousers is that you don't notice that the crease has disappeared. They look just as interesting cylindrical.</p>
+<p>The trouble with the tandem was that it was always under-braked, but as a result of all the rain, the brake pads turned to nothing. We had no braking power at all. On the flat, everything was fine, but coming down the steep hill in Epsom Road the tandem gathered speed to almost 60 kilometres an hour. We zig-zagged between cars and taxis. Suddenly there was a 60-passenger bus in front of us. It seemed inevitable there would be a collision. I swung the handlebars, jumped the gutter, hit the footpath, scattering pedestrians, missed a lamp-post by two millimetres and came to a dead stop against a brick wall. Jeff Hook deserved the highest award for bravery, just for staying aboard.</p>
+<p>Then to cause further agony, we lost our money. As a columnist, I had a tradition for never picking a winner. It was a service to the public really. They knew once Dunstan had given a tip that was a horse they could eliminate from the running. So I adopted a new tack, pick the horse that would run last. In 1976 my choice was beaten out of last place by a tail. And the name of that horse? - Clear Day. (2)</p>
+<p>Maybe it was possible to put better cranks, better wheels, better brakes on the old Tandem, but I wanted something for touring, a real machine that one could use on holidays, for trips, say, to Sydney or even further. There was a tandem shop in London. A letter went off to them. No answer. The English can be like that. We had a subscription to a fancy American magazine, <em>Bicycling</em>. A regular advertisement began to appear.</p>
+<p>WANT A TANDEM?
+Just telephone
+We will send your tandem to the jetport
+nearest to you, wherever you are.
+All you have to do is install the
+pedals, adjust the seat
+and ride it home.</p>
+<p>It was signed Bud's Bike Shop, Claremont, California. Oh dear, could you imagine Bud. He sounded like a tobacco-chewing cowboy. Yes, maybe it was a worth a telephone call. Claremont, I noted, was really suburban Los Angeles. I set my alarm, got out of bed at 4 a.m. and telephoned Bud. He was convincing. &quot;We don't just produce any tandems,&quot; he said. &quot;We make the best tandems in the world. The frames are made by tandem specialists, the Taylor brothers, of Stockton-on-Tees, in Cleveland County England. They are tandem specialists, been in it for ever.&quot;</p>
+<p>Bud was a good salesman. &quot;Now I want to know the size of frame you want. Tandems have to be made to measure like a good suit. I want the size of bike you normally ride, and the size for your lady. I want to know every single component you want on this bike. You call me back with the details, same time tomorrow.&quot;</p>
+<p>So I called him back. The frame had to be 23 inch at the front, 21 inch for the back. We wanted Campagnolo gears from Italy, massive cantilever brakes from France, front and rear. Ah, but there would be a third brake on the hub. Tandems need at least three times the braking power of a single bike. Bud said there was a bike genius in San Francisco called Phil Wood. Phil had invented a light but brilliant disc brake for bikes. I should get one of those. We went through everything, the chain rings, the seat posts, the saddles. A Cool Seat on the front please. Marie preferred a Brooks for the back. The wheels, should be impermeable. Bud suggested they should have 40 spokes each. The price? He could not quote it exactly, but the average price was $1200 U.S. Could he please have $500 deposit to seal the deal?</p>
+<p>This was madness. Not only did $1200 seem a fortune to me, but here I was trusting Bud. I didn't even know his second name, had never met him, and he was 5000 kilometres away. When you want something very badly you do very strange things. The bank cheque for $500 went off the next morning.</p>
+<p>I rather expected to see the tandem, if not the following morning, at least a week later. After all, Bud did say he would jet it to the nearest airport. Six months went by and clearly this was ruin, the sucker was getting what he deserved. I set the alarm for 4 a.m. and called again.</p>
+<p>I had learned a bit more about him in the meantime. He was not Bud. His real name was Bill McCready. &quot;Mr McCready, what has happened to my bike?&quot;</p>
+<p>&quot;We still haven't received the frame from the Taylor Brothers in England.&quot;</p>
+<p>&quot;Good heavens, why? Surely after this time...?&quot;</p>
+<p>He explained that the Taylor brothers were old gentlemen. There was no-one-to succeed them. They made these frames from the best Reynolds tubing with loving care by hand. They did the most beautiful paint work, coat over coat. &quot;You know, the way they do Rolls-Royces?&quot;</p>
+<p>&quot;But, golly,&quot; I said, &quot;if they take so long, haven't you thought of getting your frames somewhere else?&quot;</p>
+<p>Mr McCready was skilled at conveying his shock over the telephone. &quot;SOMEBODY ELSE? When you are dealing with the best in the world there isn't anybody else.&quot;</p>
+<p>Another six months went by and the phone rang at 3.15 a.m. Had somebody been murdered? It was Bill, alias, Bud. &quot;Your bike is all ready to go. I'm sorry, but...ah...with the passage of time the price has gone up from $1200 to $1600.&quot; What could a man do? &quot;O.K. O.K. I'll pay.&quot;</p>
+<p>Three days later there was a call from a customs agent. He pointed out there were a few problems. 1. There was a freight bill of $225 from Qantas. 2. There was a customs bill to pay of $1063.</p>
+<p>&quot;You're crazy,&quot; I said. &quot;There's been a mistake.&quot;</p>
+<p>&quot;No mistake. The actual bill is $1063 and 13 cents.&quot;</p>
+<p>&quot;Nobody in history,&quot; I said, &quot;has ever paid duty like that on a bicycle. Do they think I have imported a Cadillac or something?&quot;</p>
+<p>The customs agent was very apologetic. &quot;Look, if you don't pay this money right away, you won't get your bike. It is as simple as that. You can appeal. You can write to all the bike manufacturers and get letters from them, explaining that this sort of bike is out of their field and they don't propose to make anything like it in Australia.&quot;</p>
+<p>I appealed to the Federal Treasurer, the Hon. Philip Lynch. I appealed to the Federal Minister for Business and Consumer Affairs, the Hon. Wal Fife. I appealed to the Hon. Brian Dixon, Victorian Minister for Youth Recreation and Sport. I went on chat programs, 3LO and 3AW. I went on the television program <em>This Day Tonight</em>, and took Peter Couchman for a ride on the tandem through Fawkner Park.</p>
+<p>I wrote to all the top bicycle manufacturers, Malvern Star, Peugeot, Raleigh and many others. They all replied with the same words, the type of tandem I had imported was quite out of their range. I thought I was clear, but a letter came from the Bureau of Customs, signed by a by-law officer. He said I could have purchased a tandem from Elliott Bros in South Australia. I telephoned Mr Elliott. Yes, he did make tandems, but certainly not touring tandems like mine. He was helpful and he even phoned the Customs Department for me.</p>
+<p>It was all to no avail. A month later there was a formal answer from Mr Fife himself. He refused the application. Marie did some arithmetic. She was very understanding and never complained. She just said: &quot;Do you know what your bicycle has cost you? Just over $3000.&quot;</p>
+<p>However, there are grand moments in your life, moments you remember 20 years later with exquisite warmth. Bill McCready made his phone call and I actually had the large carton at home in Fawkner Street, South Yarra, just over 30 hours later. I purred as I pulled it out of the carton, purred as I put on the saddles, purred again as I adjusted the head sets, and screwed in the pedals. It was beautiful, all black, and a work of art with the fine gold detail and the delicate lettering done by the Taylor Brothers.</p>
+<p>It lived up to all its expectations. It had a stability about it, a certainty that it belonged to the road, such as you would expect in a great car like a Mercedes or a Daimler. Like all tandems, it was slow on a steep hill, but on the flat, and particularly on continuing hill and dale, it could build a splendid, unstoppable momentum. Downhill it was exhilarating capable of building astonishing speeds. Marie was always the braver, she would urge us on. As we went down she would cry: &quot;Don't you dare put your hands on those brakes.&quot; Then in a headwind it was splendid. Two bikers one behind the other will do better than separate bodies battling the air.</p>
+<p>But the greatest thing about the tandem was this. In the 1880s they had the Sociable and our tandem was the perfect sociable. Talk was easy and no longer was there the old problem of two people wanting to pedal at different speeds. Our power was harnessed and we went together as one.</p>
+<p>There were no regrets about that $3000. It was the best money I ever spent. We must have pedalled at least 50,000 kilometres on Bud's wonderful two-in-one.</p>
+<h2>Notes</h2>
+<ol>
+<li><em>The Age</em>, 6 October 1978.</li>
+<li><em>Sun News Pictorial</em>, 3 November 1976.</li>
+</ol>
+
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        The saga of acquiring, and riding, a proper touring tandem, from a doomed Malvern Star &#39;Cycle Master&#39; that battered a Melbourne Cup wet-weather crossing to a hand-built Taylor Brothers tandem imported from a California bike shop after a customs battle lasting more than a year.
+      </p>
+<hr>
+<h4 class="h6">Related topics</h4>
+<p class="small text-muted mb-3">
+    
+    <a href="/topic/brian-dixon/" class="link-secondary">Brian Dixon</a>,
+    
+    <a href="/topic/jeff-hook/" class="link-secondary">Jeff Hook</a>,
+    
+    <a href="/topic/malvern-star/" class="link-secondary">Malvern Star</a>,
+    
+    <a href="/topic/marie-dunstan/" class="link-secondary">Marie Dunstan</a>
+</p>
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/brian-dixon/" class="link-secondary">Brian Dixon</a>,
+    
+    <a href="/topic/jeff-hook/" class="link-secondary">Jeff Hook</a>,
+    
+    <a href="/topic/malvern-star/" class="link-secondary">Malvern Star</a>,
+    
+    <a href="/topic/marie-dunstan/" class="link-secondary">Marie Dunstan</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3"> 
+    <br><small><a href="/feed.xml"><i class="fa fa-rss" aria-hidden="true"></i>
+ Subscribe via RSS</a> for content updates on this site</small>
+<br><small>We're volunteers, <a href="https://ko-fi.com/jackdunstan">support us</a> to research, digitise, edit to bring this content to a new audience - with a <i class="fa fa-coffee" aria-hidden="true"></i>
+</a></small>
+<br>
+<small>Built and maintained by <a href="https://www.linkedin.com/in/jackdunstan//">Jack Dunstan</a></i>
+</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

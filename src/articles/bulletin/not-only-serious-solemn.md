@@ -13,7 +13,7 @@ tags:
   - John Brach
   - Max Ragless
   - Melbourne
-  - National Gallery
+  - National Gallery of Victoria
   - Paul Fitzgerald
   - San Francisco
   - Tate Gallery

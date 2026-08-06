@@ -1,7 +1,7 @@
 # Todo — Keith Dunstan Archive
 
 Tracking outstanding work across all active workstreams.
-Last updated: 27 July 2026.
+Last updated: 6 August 2026.
 
 **Status legend used throughout this file:**
 
@@ -37,7 +37,7 @@ Last updated: 27 July 2026.
 | Saint Ned | 1980 | ? | 0 | 0 | ❓ | Not started |
 | The Store on the Hill | 1979 | ? | 0 | 0 | ❓ | Not started |
 | Knockers | 1972 | ? | 0 | 0 | ❓ | Not started — no scans |
-| Sports | 1970 | ? | 0 | 0 | ❓ | Not started — no scans |
+| Sports | 1973 | 14 (intro + 13 'passion' chapters) | 2 | 0 | 12 | Year corrected from 1970 (Cassell Australia, 1973, per publisher records — the text itself references 1972 events throughout). Introduction and Chapter 1 ('Our Sporting Obsession') transcribed from manually-scanned photos 6 Aug 2026; see §9 for chapter detail |
 | The Paddock That Grew | 1962 | ? | 0 | 0 | ❓ | Not started — MCG history |
 
 ---
@@ -280,6 +280,29 @@ For publications not in Trove, physical copies must be sourced and scanned. Foll
 - [x] **Found and fixed in the same pass: `src/books/a-day-in-the-life-of-australia/a-body-blow-to-cricket.md` had an invalid frontmatter date (`1988-14-01`, month 14) and its body dated the 1932-33 Bodyline Test crisis to "1901"** (the year of Federation, reused by mistake from an adjacent entry). Date field corrected to `1988-01-14`; the body's "14 January 1901" heading has since been corrected to 1933 by the user directly. Still outstanding: `a-pirate-in-melbourne.md`'s body dates the Shenandoah's Melbourne visit (a Confederate raider, mid-US-Civil-War) to "29 January 1893" — should almost certainly be 1865, not yet corrected. `a-hollow-affair-for-burke-and-wills.md` also has visible OCR corruption (dropped leading letters throughout, e.g. "igned" for "designed") not yet cleaned up.
 - [x] **Found and fixed while doing the above: `og:title`/`og:description`/`twitter:*`/`article:tag` etc. broke silently on any page whose title or summary contained a literal `"`** (e.g. `£7000 for "Divinely Dressed Ladies"`, or a summary quoting "beer czar") — 16 files were affected. Root cause: the `{% metagen %}` shortcode (`eleventy-plugin-metagen`) returns raw HTML rather than going through Nunjucks' normal auto-escaping `{{ }}` output, so quote/ampersand characters passed straight through unescaped and truncated the HTML attribute, corrupting everything downstream in `<head>`. Fixed by piping `title`/`summary`/`imageAlt` through Nunjucks' `escape` filter before they reach the shortcode call, in `src/_includes/snippets/opengraph.njk`. Verified with a full rebuild — zero broken meta tags across all 1462 output pages. Worth remembering for any *future* field added to that shortcode call: it needs the same `| escape` treatment, since the shortcode itself won't do it.
 - [x] **Found and fixed in the same file: `when-flappers-fluttered-through-the-flames.md` had ~45 lines of unrelated, badly-OCR'd text (about the "Livingston brothers" yacht racing) glued onto the end of the actual article body**, past its real ending ("Could this be a new name for the Cleopatra in, say, 1967?"). Stray content from some earlier copy/paste, unrelated to the Bulletin piece it was appended to. Removed — worth a spot-check of other older, pre-this-session Bulletin files for the same kind of tail contamination, since it clearly wasn't caught before.
+
+## 9. Sports (1973) — chapter detail
+
+Contents list sourced from the book's own Contents page (photographed 6 Aug 2026, `src/books/sports/scans/`). The book has two front-matter items (roman numerals) then thirteen numbered "Passion" chapters.
+
+| Chapter | Status | Notes |
+|---|---|---|
+| Introduction (p. xiii) | ✅ | `src/books/sports/0-introduction.md` — explains the book grew out of a 1969 La Trobe Library exhibition, 'Sporting Life in Victoria' |
+| 1. Our Sporting Obsession (p. 1) | ✅ | `src/books/sports/1-our-sporting-obsession.md` — transcribed from 28 manually-scanned photos (`IMG_8650`–`IMG_8677`); pages 6, 10 and 22 in the original are photo-plate pages with little running prose |
+| 2. The Passion at School (p. 31) | ⬜ | No scan yet |
+| 3. The Racing Passion (p. 47) | ⬜ | No scan yet |
+| 4. The Cricket Passion (p. 80) | ⬜ | No scan yet |
+| 5. The Swimming Passion (p. 123) | ⬜ | No scan yet |
+| 6. The Tennis Passion (p. 144) | ⬜ | No scan yet |
+| 7. The Rowing Passion (p. 161) | ⬜ | No scan yet |
+| 8. The Boxing Passion (p. 180) | ⬜ | No scan yet |
+| 9. The Football Passion (p. 213) | ⬜ | No scan yet |
+| 10. The Pedalling Passion (p. 247) | ⬜ | No scan yet |
+| 11. The Athletic Passion (p. 276) | ⬜ | No scan yet |
+| 12. The Billiards Passion (p. 306) | ⬜ | No scan yet |
+| 13. The Killing Passion (p. 318) | ⬜ | No scan yet |
+
+**Data note:** Chapter 1 was transcribed by reading each photographed page directly (no OCR tool available — `ocr/` is currently empty aside from a stray `.DS_Store`, despite being referenced in `CLAUDE.md`). A handful of sentences that straddle two photographed pages, or where a page was photographed at an angle, were reconstructed for readability rather than pulled verbatim character-by-character — worth a proofread against the physical book if perfect fidelity matters. `src/sports.njk` (book index page) and `src/books.njk`'s Sports accordion entry both now link through to the transcribed chapters. Six new `src/_data/topics.md` entries added for this chapter: Edward Trickett, Henry Lawson, Hubert Opperman, John Snow, John Wren, Melbourne Punch (Gough Whitlam, Sir Robert Menzies, Ron Barassi, Flemington Racecourse and Collingwood already existed and were reused verbatim).
 
 ---
 
