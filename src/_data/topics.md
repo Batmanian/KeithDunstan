@@ -14,6 +14,8 @@ topics:
     description: The 1956 Melbourne Olympics were the first Games held in the Southern Hemisphere, nicknamed the 'Friendly Games', and opened by Prince Philip after a tour of Papua and New Guinea that Keith Dunstan covered as a young reporter.
   - name: 1960 Tokyo Olympics
     description: Tokyo was preparing to host the Olympic Games (held in 1964) when Keith Dunstan visited Japan at Christmas 1963 and was shown around the half-built Games venues by an over-enthusiastic public relations official.
+  - name: 1962 Commonwealth Games
+    description: The 1962 British Empire and Commonwealth Games were held in Perth, where photographers still smarting from a Chelsea Flower Show soaking planted a sprinkler in Prince Philip's path and got the retaliatory royal outburst that finally gave Keith Dunstan's royal tour reporting a decent story.
   - name: 1963 Royal Visit to Australia
     description: Queen Elizabeth II and Prince Philip toured Australia from February to March 1963, taking in every state and the outback for the first time, a trip Keith Dunstan covered as a Royal Tour reporter.
   - name: 2/4th Field Regiment
@@ -106,6 +108,8 @@ topics:
     description: Arthur Richards was Keith Dunstan's predecessor as front-page columnist on the Brisbane Courier-Mail in the early 1950s; Dunstan described him as 'a far better columnist than I could ever be, and adored by all Queensland.'
   - name: Arthur Russell
     description: Arthur Russell was a Melbourne dentist and amateur illusionist who bought into a small touring circus called Hoyts, then in 1913 hired a Bourke Street hall to found what grew into Hoyts, one of Australia's largest cinema chains.
+  - name: Ashes
+    description: The Ashes is the biennial Test cricket series between Australia and England, contested since 1882; Keith Dunstan used Australia's tense 2010-11 series loss, and the wounded national mood around captain Ricky Ponting, to needle Australians for taking sport far too seriously.
   - name: Ashfield
     description: Ashfield is an inner-western Sydney suburb settled in the early nineteenth century and linked to the city by rail from 1855, later becoming a fashionable then increasingly multicultural residential district; it was the birthplace of Sydney eccentric Bea Miles.
   - name: Ashley Harris
@@ -118,6 +122,8 @@ topics:
     description: Auckland is New Zealand's largest city; the eccentric meteorologist Clement Wragge settled at Birkenhead, Auckland, in 1910 after leaving Australia, building a tropical garden there that drew visitors from across New Zealand until his death in 1922.
   - name: Australian Broadcasting Commission
     description: The Australian Broadcasting Commission (now Corporation) is Australia's government-funded national broadcaster, established in 1932 on the model of Britain's BBC; Keith Dunstan recalled how, in the culturally cringing Australia of his youth, its announcers were expected to speak with English accents.
+  - name: Australian Football League
+    description: The Australian Football League, renamed in 1990 from the Victorian Football League it grew out of, is Australian Rules football's national governing body and premier competition, whose relentless year-round coverage and coaching sackings Keith Dunstan mined as fresh grievances for his old Anti-Football League.
   - name: Australian Hotels Association
     description: The Australian Hotels Association is the licensed trade's industry lobby, which spent the early 1960s pushing Victoria's Chief Secretary for later bar hours and separate cocktail lounges, incremental wins Keith Dunstan chronicled as the slow unwinding of the six o'clock swill.
   - name: Australian Journalists Association
@@ -126,6 +132,8 @@ topics:
     description: The Australian Railways Union, formed in 1920 from a merger of state-based railway unions, represented rail workers for much of the twentieth century; Keith Dunstan recalled its Victorian secretary as courteous in person, despite being denounced by newspaper editors and politicians as a dangerous radical.
   - name: Australian Rules Football
     description: Australian Rules Football is a distinctive football code that emerged in Melbourne in the 1850s, formalised as the Victorian Football League in 1897 and renamed the Australian Football League in 1990; it has long been Victoria's dominant winter sport and a central part of the state's identity.
+  - name: Austrian Club
+    description: The Austrian Club of Melbourne is the social and cultural hub for the city's Austrian community, which Walter Hauser, one of the Vienna Mozart Boys' Choir singers stranded in Melbourne by the outbreak of war in 1939, served as secretary for ten years and president for two.
   - name: Autobiography
     description: Autobiography is the literary genre of first-person life writing; the tag marks the introduction to Keith Dunstan's own memoir, No Brains at All.
   - name: Ava Gardner
@@ -186,6 +194,8 @@ topics:
     description: Bernard 'Midget' Farrelly (1944-2016) was a pioneering Australian surfer who won the inaugural official World Surfing Championship at Manly in 1964, becoming one of Australian surfing's first national idols.
   - name: Betty Cuthbert
     description: Betty Cuthbert (1938-2017) was an Australian sprinter dubbed the 'Golden Girl' who won three gold medals at the 1956 Melbourne Olympics and a fourth in the 400 metres at Tokyo in 1964, making her the only sprinter, male or female, to win Olympic gold at 100, 200 and 400 metres.
+  - name: Bicycle Victoria
+    description: Bicycle Victoria is the state's peak cycling advocacy body, whose figures on the rising share of commuter cyclists heading into Melbourne at peak hour Keith Dunstan cited in his case for a London-style congestion tax.
   - name: Bikecentennial
     description: Bikecentennial 78 was a mass cycling event created by two young American couples to mark the U.S. bicentennial, mapping a 6800-kilometre trans-America route that Keith and Marie Dunstan rode in 1978, an experience that turned him into a lifelong cycling advocate.
   - name: Bill Ponsford
@@ -194,6 +204,10 @@ topics:
     description: Robert Paton Dalziel was Keith Dunstan's closest friend from Geelong Grammar and wartime RAAF training, an unpredictable, publicity-shy Melbourne stockbroker who made his fortune, retired at forty, then ran the R. E. Ross Foundation and Hillview Quarries until cancer killed him in 1978.
   - name: Boer War
     description: The Boer War of 1899 to 1902 was the conflict in which Arthur Lynch, one of the Bulletin-era eccentrics Keith Dunstan profiled in 'Ratbags', fought for the Boers against the British Empire before his later trial for treason in London.
+  - name: Bogle-Chandler case
+    description: The Bogle-Chandler case was the notorious unsolved double murder of scientist Gilbert Bogle and Margaret Chandler, found dead on the banks of Sydney's Lane Cove River on New Year's Day 1963, a mystery Keith Dunstan reached for as his benchmark for genuine national calamity.
+  - name: Book of Exodus
+    description: The Book of Exodus recounts the ten plagues visited on Egypt to force the Pharaoh's hand, a framework Keith Dunstan borrowed wholesale, and none too reverently, to catalogue Melbourne's own afflictions of possums, cars, mobile phones and football.
   - name: Bourke Street
     description: Bourke Street is one of Melbourne's two great city thoroughfares, historically the address of its grand theatres, including the Princess, the Regent and the fire-gutted Tivoli, whose vanished glamour Keith Dunstan mourned more than once in the Bulletin.
   - name: Brian Dixon
@@ -208,6 +222,8 @@ topics:
     description: Brown Brothers is the North East Victorian winery at Milawa run by the Brown family since 1889, whose wines, bought straight from proprietor John Brown, first drew Keith Dunstan seriously into wine on a 1959 drive through the district.
   - name: Burke and Wills
     description: Robert O'Hara Burke and William John Wills led the ill-fated 1860-61 Victorian Exploring Expedition across the continent from Melbourne to the Gulf of Carpentaria and back, both dying on the return journey, a disaster Keith Dunstan invoked both as the pair's forlorn statue at Collins and Swanston Streets and as a benchmark of endurance for the masochistic long-distance cyclists of his own day.
+  - name: Cabrini Hospital
+    description: Cabrini Hospital is a Catholic private hospital in Malvern, where Walter Hauser, one of the Vienna Mozart Boys' Choir singers stranded in Melbourne by the outbreak of war in 1939, died after a long illness in 2012.
   - name: Canberra
     description: Canberra is Australia's purpose-built national capital, whose founding King O'Malley championed with fruit-cake oratory and which Keith Dunstan visited on assignment during Royal Tours, complete with buildings painted only on the side the Queen would see.
   - name: Cape York Peninsula
@@ -218,6 +234,8 @@ topics:
     description: Carlton and United Breweries was Victoria's dominant brewing company, formed by an early-twentieth-century merger and long the state's de facto beer monopoly under its autocratic managing director Reg 'Foge' Fogarty, whose grip on price and supply Keith Dunstan chronicled in both the Bulletin and 'My Life with the Demon'.
   - name: Chateau Tahbilk
     description: Chateau Tahbilk is one of Australia's oldest wineries, founded in 1860 on the Goulburn River near Nagambie and run for six decades by the elegant, Rolls-Royce-driving Eric Purbrick, whose gift of a spare brewery barrel first let Keith Dunstan buy and lay down wine in bulk.
+  - name: Chelsea Flower Show
+    description: The Chelsea Flower Show is the Royal Horticultural Society's flagship London event, where in 1959 a testy Prince Philip denied switching on sprinklers to drench pursuing photographers, a grudge the press finally settled three years later at the Commonwealth Games in Perth, as Keith Dunstan recalled.
   - name: Chester Manifold
     description: Sir Chester Manifold was the aristocratic Western District grazier who chaired the Victoria Racing Club and later the Totalisator Agency Board, presiding over Flemington's racing establishment from his 35-room bluestone mansion at Talindert, near Camperdown.
   - name: China
@@ -236,14 +254,28 @@ topics:
     description: ''
   - name: Cricket
     description: Cricket runs through Keith Dunstan's writing from the 1930s Bodyline crisis he remembered from a Toorak childhood to the Centenary Test replay at the MCG where Premier Henry Bolte took guard in a spotted shirt with an L-plate pinned to his back.
+  - name: Cyclone Tracy
+    description: Cyclone Tracy was the Category 4 storm that devastated Darwin on Christmas Day 1974, killing 71 people and destroying most of the city, a real catastrophe Keith Dunstan invoked, pointedly, to puncture the hysteria around Australia's 2010 Ashes cricket loss.
+  - name: D. H. Lawrence
+    description: D. H. Lawrence was the English novelist whose observation that Australians played sport as if their lives depended on it Keith Dunstan quoted alongside Henry Lawson's, to needle a nation he thought had forgotten sport was meant to be fun.
   - name: Dame Nellie Melba
     description: Dame Nellie Melba was the Australian operatic soprano whose international fame in the early twentieth century made her, in Keith Dunstan's estimation, one of the few Australians ever more famous at home and abroad than the subjects of his own later profiles.
+  - name: Dan Kelly
+    description: Dan Kelly was Ned Kelly's younger brother, whose arrest on a horse-stealing charge in April 1878 triggered the Fitzpatrick incident that jailed their mother and drove the family into outlawry, and who died at Glenrowan in 1880 alongside Steve Hart.
   - name: Dan Murphy
     description: Dan Murphy was the introspective Chapel Street, Prahran, liquor retailer who began bottling wine by hand at Allgood's Store aged ten and built one of Melbourne's best-known bottle shops, a quieter rival to Doug Crittenden's in Keith Dunstan's account of the city's liquor trade.
+  - name: Daniel Mannix
+    description: Daniel Mannix was the formidable Catholic Archbishop of Melbourne from 1917 to 1963, who in 1939 offered to take in the stranded boys of the touring Vienna Mozart Boys' Choir, among them Walter Hauser, and billeted them with families around St Patrick's Cathedral.
   - name: Darwin
     description: Darwin is the Northern Territory's tropical frontier capital, a town of barely a thousand people when novelist Xavier Herbert worked there as a young pharmacist and later Superintendent of Aborigines, and later a stop on Prince Philip's 1956 royal tour, remembered for its notorious late-night crocodile hunt.
   - name: David Dunstan
     description: David Dunstan is Keith Dunstan's son, a Melbourne University-trained historian whose book 'Better Than Pommard' traces the history of Australian wine and champagne culture, and whose own discerning cellar palate his father repeatedly praised in 'My Life with the Demon'.
+  - name: Davis Cup
+    description: The Davis Cup is international men's tennis's premier team competition, whose declining Australian fortunes Keith Dunstan used to illustrate a theory that Australians lose interest in a sport entirely the moment the national team stops winning it.
+  - name: Dean Bailey
+    description: Dean Bailey was the Melbourne Football Club coach sacked in August 2011 after two and a half seasons, one of a rash of mid-season coaching casualties that year Keith Dunstan reached for as fresh evidence for his old Anti-Football League cause.
+  - name: Donald Horne
+    description: Donald Horne was the author and social critic best known for 'The Lucky Country', whose writing on Australians' ingrained distrust of authority and the police Keith Dunstan cited to explain the enduring appeal of Ned Kelly.
   - name: Doug Crittenden
     description: Doug Crittenden was the gregarious grocer-turned-wine-retailer who ran the family firm O.R. Crittenden & Co. in Toorak's Malvern Road from the 1940s, discovering Great Western's unwanted white wine and reselling it as the bestselling 'Seven Oaks Riesling', and whose palate Keith Dunstan ranked among the finest in the country.
   - name: Douglas Seabrook
@@ -262,8 +294,12 @@ topics:
     description: The Eastern Market was Melbourne's raucous nineteenth-century produce and bric-a-brac bazaar, home over the decades to phrenologists, dancing ducks and a fortune-teller called Madame Zinga Lee, before its site was cleared to build the Southern Cross Hotel that Keith Dunstan toured on its 1962 opening.
   - name: Edna Everage
     description: Mrs Edna Everage was Barry Humphries's suburban Moonee Ponds housewife character, created in the 1950s and still a minor stage turn when Keith Dunstan welcomed Humphries home from London in 1962, decades before she became the international star Dame Edna.
+  - name: Edouard Borovansky
+    description: Edouard Borovansky was the Czech-born dancer and founder of the Borovansky Ballet, Australia's first professional ballet company, whom Keith Dunstan remembered scoffing that Australian swearing was pitiful next to the 120 'magnificent' Czech swear words at his disposal.
   - name: Edward Trickett
     description: Edward Trickett was a Sydney sculler who in 1876 became Australia's first world sporting champion, beating England's Joseph Sadler on the Thames, a victory Keith Dunstan cited as the moment Australians first believed their isolation and climate could produce men equal to the mother country.
+  - name: Ellen Kelly
+    description: Ellen Kelly was Ned Kelly's mother, a Beveridge-born daughter of Irish famine immigrants whose 1878 jailing for supposedly aiding and abetting the attempted murder of Constable Fitzpatrick was, in Keith Dunstan's account, the real spark that turned her son from horse thief into outlaw.
   - name: Elwood
     description: Elwood is the bayside Melbourne suburb beside St Kilda where Germaine Greer was born in 1939, and which Keith Dunstan once jokingly suggested rebranding 'Sunstroke Strip' to match Melbourne's brief flirtation with a beach-resort image.
   - name: Emmanuel Margolin
@@ -304,8 +340,12 @@ topics:
     description: Geelong Grammar School is the elite Anglican boarding school on Victoria's Bellarine Peninsula where Keith Dunstan boarded from 1939 through a rigid prefect hierarchy, and which decades later became briefly famous as the school Prince Charles attended at its bush campus, Timbertop.
   - name: Gembrook
     description: Gembrook is the town at the end of the narrow-gauge Puffing Billy line through the Dandenong Ranges, and the district where used-car dealer Emmanuel Margolin's cattle stud, Langley Park, was sold off for a fraction of its value during his credit-squeeze collapse.
+  - name: Georg Gruber
+    description: Georg Gruber conducted the Vienna Boys Choir from 1933 to 1937 before founding his own touring ensemble, the Vienna Mozart Boys' Choir, in 1938, recruiting talents like Walter Hauser for a nine-month world tour that stranded the boys in Australia when war broke out.
   - name: Georges
     description: Georges was Melbourne's staid, ladies'-only department store on Collins Street, which broke eighty-two years of tradition to open a menswear department in 1962, and whose furniture and moonlighting shop-floor jobs both turn up in Keith Dunstan's writing.
+  - name: Glenrowan
+    description: Glenrowan is the small north-eastern Victorian town where the Kelly gang's siege and Ned Kelly's capture in his home-made steel armour brought the outlaw's two-year run to its end in June 1880, the climactic setting Keith Dunstan built 'Saint Ned' towards.
   - name: Gough Whitlam
     description: Gough Whitlam was the Labor leader and Prime Minister from 1972 to 1975 who, despite having no real interest in the code, became Geelong Football Club's number-one ticket holder purely for the photo opportunity, one of the political vanities Keith Dunstan delighted in puncturing.
   - name: Graham Kennedy
@@ -316,6 +356,8 @@ topics:
     description: Harold Holt was the Liberal Prime Minister from 1966 until his presumed drowning off Cheviot Beach, Portsea, in December 1967, just three months after Keith Dunstan's Anti-Football League gave him its inaugural Wilkie Medal for never once being seen at a football match.
   - name: Harold Larwood
     description: Harold Larwood was the English fast bowler whose 'Bodyline' leg-theory tactics caused a diplomatic crisis in the 1932-33 Ashes series, and who three decades later declined an invitation to lead a Centenary of International Cricket replay at the MCG, opening the door for Frank Tyson and, ultimately, Premier Henry Bolte.
+  - name: Harry Power
+    description: Harry Power was a veteran Victorian bushranger who took the teenage Ned Kelly under his wing around 1869, teaching him bush skills and horse-holding on stick-ups, a mentorship Keith Dunstan traced as the young Kelly's first real education in outlawry.
   - name: Henry Bolte
     description: Sir Henry Bolte was Victoria's blunt, long-serving Liberal Premier from 1955 to 1972, a plain-spoken figure Keith Dunstan needled throughout the Bulletin years, from his government's standoff with students over the hanging of Robert Tait to the misquoted line that earned him the nickname 'Satchmo'.
   - name: Henry Lawson
@@ -348,10 +390,14 @@ topics:
     description: Jeff Hook was the Sun News-Pictorial's cartoonist and a long-time colleague of Keith Dunstan's, a Tasmanian who signed his sketches 'Jeff' with a tiny hidden hook and once out-sketched a Boeing factory tour guide with a single ten-minute drawing.
   - name: Jimmy Watson
     description: Jimmy Watson ran Melbourne's best-loved wine bar on Lygon Street from 1935, a former picture-show pianist who dressed like a brewery drayman, refused to sell wine by the flagon, and taught a generation of University of Melbourne students and academics to drink properly.
+  - name: Joe Byrne
+    description: Joe Byrne was Ned Kelly's closest confidant in the gang, a good-looking, penniless bush poet Keith Dunstan credited with likely drafting Kelly's rambling defensive letters, who shot the police informer Aaron Sherritt days before dying himself at Glenrowan.
   - name: John Batman
     description: John Batman was one of the two men credited with founding Melbourne in 1835, and the namesake both of the pseudonym Keith Dunstan wrote his Bulletin column under and of the Robin Boyd-designed John Batman motor inn he once toured.
   - name: John C Brown
     description: John Brown was the genial, unflappable proprietor of Brown Brothers winery at Milawa in Victoria's North East, a vigneron whose wines first drew Keith Dunstan seriously into wine on a 1959 drive through the district.
+  - name: John Curtin Hotel
+    description: The John Curtin Hotel is a Carlton pub where Keith Dunstan kept a mate in the police Wireless Patrol topped up with beer, in exchange for the ever-changing numerical code broadcast over the D24 police radio band.
   - name: John Landy
     description: John Landy was the Australian middle-distance runner who became the second man ever to run a mile in under four minutes, in 1954, and whose name Keith Dunstan invoked among the era's sporting heroes his own restless, football-averse children had little time for.
   - name: John Norton
@@ -362,10 +408,14 @@ topics:
     description: John Snow was the English fast bowler whose complaints about hostile, piranha-like Australian crowds during the 1970-71 Ashes tour Keith Dunstan quoted at length to open 'Sports', including Snow's own account of trading words with a jeering ten-year-old at the MCG.
   - name: John Wren
     description: John Wren was a Melbourne businessman who built his fortune on the illegal Collingwood Tote and rose from underworld figure to widely admired public benefactor largely through his generosity to the Collingwood Football Club, a case study Keith Dunstan used to show that sporting patronage could launder almost any reputation.
+  - name: Julia Gillard
+    description: Julia Gillard was the Australian Prime Minister from 2010 to 2013, whom Keith Dunstan mock-solemnly proposed enlisting, alongside Kevin Rudd, in a diplomatic charm offensive of touring, ostentatiously gracious Australian sporting teams.
   - name: June Bronhill
     description: June Bronhill was an acclaimed Australian operatic soprano of the 1950s and 60s, whose star power Keith Dunstan invoked in pieces on both Melbourne's fleeting cultural pretensions and its taste for genuine theatrical ghost stories.
   - name: Kathleen Quealy
     description: Kathleen Quealy was the winemaking consultant who talked Keith Dunstan through his first amateur vintage by post, sending the right chemicals in medicine bottles and precise dosing instructions for a novice vigneron working out of his own laundry.
+  - name: Kevin Rudd
+    description: Kevin Rudd was the former Prime Minister serving as Julia Gillard's Foreign Minister from 2010, the other half of the 'Julia and Kevin' double act Keith Dunstan proposed briefing on his plan to charm hostile sporting nations with unfailingly well-mannered Australian touring sides.
   - name: King's Cross
     description: King's Cross is Sydney's bohemian, red-light entertainment district, the natural backdrop for the eccentrics — from a homecoming Barry Humphries to the 'ratbags' of Keith Dunstan's book of that name — who didn't fit Australia's more conformist suburbs.
   - name: Kooyong
@@ -384,8 +434,12 @@ topics:
     description: Lou Richards was a former Collingwood captain who became one of Melbourne football's best-known media identities and, for a time, licensee of the journalists' favourite Phoenix Hotel, where Keith Dunstan and his Herald colleagues drank between assignments.
   - name: Luna Park
     description: Luna Park is St Kilda's seaside amusement park, opened in 1912, a Melbourne landmark that turns up in Keith Dunstan's writing alongside E.W. Cole's Book Arcade as one of the city's great, slightly disreputable pleasure palaces.
+  - name: Malcolm H Ellis
+    description: Malcolm H. Ellis was an Australian historian and biographer whose harsh verdict on Ned Kelly, as one of the most cold-blooded and egotistical criminals ever hanged in the country, Keith Dunstan set against the romantic readings of Manning Clark and Dame Mabel Brookes.
   - name: Malvern Star
     description: Malvern Star was the Melbourne bicycle marque built by Bruce Small into a national brand through champion rider Hubert Opperman, and the bike of Keith Dunstan's own 1930s boyhood, his 1970s born-again commute, and his son David's Sovereign Star.
+  - name: Manning Clark
+    description: Manning Clark was the eminent historian whose sympathetic reading of Ned Kelly, as embodying a nostalgia for 'the life of the free, the fearless and the bold', Keith Dunstan cited as the romantic counterweight to harsher historians like Malcolm H. Ellis.
   - name: Marie Dunstan
     description: Marie Dunstan, née McFadyen, was Keith Dunstan's wife of nearly six decades, met just before he shipped out to Morotai in 1945, who helped raise their four children largely on a journalist's salary and became his closest collaborator in the vineyard. Marie died in 2023.
   - name: Maurice Nathan
@@ -400,6 +454,8 @@ topics:
     description: The Melbourne Cricket Ground, or MCG, is Australia's largest sporting stadium and the shared home of cricket and Australian Rules football, a ground Keith Dunstan wrote the official history of and also remembered, less reverently, as the US-occupied wartime barracks where he was posted during the war.
   - name: Melbourne Cup
     description: The Melbourne Cup is Australia's premier horse race, run at Flemington each November since 1861, whose surrounding carnival of fashion parades and society spectacle increasingly eclipsed the racing itself in Keith Dunstan's sceptical Bulletin coverage of the early 1960s.
+  - name: Melbourne Football Club
+    description: The Melbourne Football Club, nicknamed the Demons, is the oldest football club in the world, founded in 1858; Keith Dunstan noted Walter Hauser played in its reserves ruck before a knee injury ended his prospects, and later cited the club's sacking of coach Dean Bailey as fresh ammunition for his Anti-Football League.
   - name: Melbourne Grammar
     description: Melbourne Grammar is one of the city's oldest and most prestigious private schools, whose Wadhurst preparatory campus gave the young Keith Dunstan his first miserable taste of formal education before he was sent on to board at Geelong Grammar, and which later produced Barry Humphries and the actor Frank Thring.
   - name: Melbourne Punch
@@ -408,6 +464,12 @@ topics:
     description: The University of Melbourne is Victoria's oldest university, whose students led a determined, months-long 1962 campaign against the Bolte government over the hanging of Robert Tait that Keith Dunstan covered for the Bulletin.
   - name: Menzies Hotel
     description: Menzies Hotel, at the corner of Bourke and William Streets, was one of Melbourne's most illustrious hotels, remembered by Keith Dunstan for its separate 'Governor's entrance' so that vice-regal visitors need never be seen walking through the front door of a licensed premises.
+  - name: Metro Trains
+    description: Metro Trains has operated Melbourne's suburban rail network under franchise since 2009; Keith Dunstan pressed the operator to clear rear carriages for bicycles, calling the lack of peak-hour bike access on trains the single biggest obstacle to commuter cycling.
+  - name: Michael Davie
+    description: Michael Davie was the editor of The Age who made Australian newspaper history on 8 June 1979 by printing the word 'fuck' in a news story, a decision Keith Dunstan admired as an act of real editorial courage after his own decades of enforced Sun News-Pictorial delicacy.
+  - name: Midsomer Murders
+    description: Midsomer Murders is the long-running British television crime drama whose gentle Home Counties setting belies its extraordinarily high body count, one of a parade of British murder-mystery imports Keith Dunstan counted among Melbourne's self-inflicted plagues.
   - name: Milawa
     description: ''
   - name: Mildura
@@ -418,32 +480,50 @@ topics:
     description: Moomba is Melbourne's annual autumn civic festival, launched in 1955 to replace the old union-run Eight Hour Day march, whose descent from a riotous street procession into a corporate-sponsored, camel-banned parade Keith Dunstan mourned in the Bulletin.
   - name: Moonee Ponds
     description: Moonee Ponds is the unglamorous northern Melbourne suburb Barry Humphries chose as the fictional home of his housewife creation Edna Everage, a joke Keith Dunstan noted had already been given hard statistical backing by a contemporary survey of stay-at-home, television-watching suburban Melburnians.
+  - name: Myer
+    description: Myer is the Melbourne-founded department store chain whose Bourke Street window display of unclad mannequins gave Keith Dunstan one of his most successful manufactured controversies, a flood of outraged and approving letters written to his own Sun News-Pictorial column under the pseudonym Shocked, East Malvern.
   - name: National Gallery of Victoria
     description: The National Gallery of Victoria is the state's principal art museum, whose 1960s directorship under Eric Westbrook and rancorous public feuds over modern art Keith Dunstan covered as regularly as he covered the gallery's more popular drawcards, like its beloved painting of the racehorse Phar Lap.
+  - name: Ned Kelly
+    description: Ned Kelly was the Victorian bushranger hanged in 1880 for the murder of three policemen at Stringybark Creek, whose two-year run of bank robberies and final armoured stand at Glenrowan made him, in Keith Dunstan's telling, the closest thing Australia has to a secular saint.
   - name: Neill Robb
     description: Neill Robb is the respected vigneron of Redbank in the Victorian Pyrenees whose advice steered Keith and his son David toward planting pinot noir, on the strength of the district's cool climate resembling Burgundy's.
   - name: New South Wales
     description: New South Wales is Australia's oldest and most populous state, whose old rivalry with Victoria over everything from air routes to beer supply Keith Dunstan mined for comedy throughout his Bulletin column, most explicitly in his tongue-in-cheek 1962 peace plan for 'NSW-Vic co-existence'.
+  - name: News of the World
+    description: News of the World was Britain's best-selling tabloid Sunday newspaper until it closed abruptly in July 2011 amid the phone-hacking scandal that engulfed its owner, News International, prompting Keith Dunstan to weigh its sins against his own decades of Fleet Street-style tabloid tricks at the Sun News-Pictorial.
+  - name: Norman Lindsay
+    description: Norman Lindsay was the prolific Australian artist and writer whose last defence of Ned Kelly, written aged eighty-eight, argued the Kelly boys' era had shaped his own generation's boyhood games and that claims of Kelly's homosexuality were absurd, given the plain shortage of women in the bush.
   - name: Osmar White
     description: Osmar White was a celebrated Australian war correspondent and author who trained Herald cadets including the young Keith Dunstan with blunt, bludgeoning encouragement, and who later turned up as an opinionated judge in one of Keith's amateur beer-tasting panels.
+  - name: Pat Rafter
+    description: Pat Rafter was the Australian tennis champion and two-time US Open winner whose habit of applauding a good shot from an opponent Keith Dunstan held up as an example of sportsmanship increasingly rare in Australian sport.
   - name: Patrick Tennison
     description: Patrick Tennison was a Sun journalist who secretly recorded a radio interview with Barry Humphries by hiding the microphone, drawing out the full story of Humphries' elaborate 'Ashburton Line' breakfast-train prank in an interview Keith Dunstan wrote up twice, years apart.
+  - name: Paul Keating
+    description: Paul Keating was the former Labor Prime Minister renowned for his gift for vivid, cutting insults, whom Keith Dunstan nominated, tongue firmly in cheek, to chair an inquiry into supplying Australians with fresh new swear words to replace their worn-out old ones.
   - name: Percy Cerutty
     description: Percy Cerutty was the eccentric, philosophy-quoting athletics coach whose punishing Stotan training regime at his Portsea camp, built on raw oatmeal and sandhill sprints, drove Herb Elliott to Olympic gold and made Cerutty one of the great 'ratbags' of Keith Dunstan's profile collection.
   - name: Percy Grainger
     description: Percy Grainger was the flame-haired, hatless composer and pianist behind 'Country Gardens', an eccentric of international standing whose devotion to his mother and obsessive habits Keith Dunstan held up as the benchmark against which all lesser Australian eccentrics were measured.
   - name: Perth
     description: Perth is the Western Australian capital that hosted the 1962 Commonwealth Games and, further afield, the seceding wheat farmer Len Casley's self-declared Hutt River Principality, two very different subjects of Keith Dunstan's reporting.
+  - name: Peter Ryan
+    description: Peter Ryan was the Victorian Nationals leader and Deputy Premier under Ted Baillieu from 2010, whose argument that public transport couldn't cope with a congestion tax's flow-on effects Keith Dunstan dismissed as an excuse for leaving Melbourne's 'Great God Car' unchecked.
   - name: Peter Walker
     description: Peter Walker was a Sydney wine merchant with Rhine Castle Wines whose palate Keith Dunstan called 'unerring' in 'My Life with the Demon', and who supplied some of the tasting-table anecdotes behind Keith's tongue-in-cheek guide 'How to Cheat at Wine Tastings'.
   - name: Phillip Adams
     description: Phillip Adams is the advertising executive turned broadcaster, columnist and film producer whom Keith Dunstan profiled as one of the era's great 'ratbags' in his book of that name, and who also turns up gently ribbing Keith over his own children's upbringing in 'No Brains at All'.
+  - name: Poirot
+    description: Poirot, ITV's long-running adaptation of Agatha Christie's fastidious Belgian detective, was one of the parade of British murder-mystery imports Keith Dunstan counted, tongue in cheek, among Melbourne's self-inflicted television plagues.
   - name: Port Phillip Bay
     description: Port Phillip Bay is Melbourne's great natural harbour, the setting for both an architect's grandiose proposal to ship a condemned London rotunda across it and the frantic, competitive beach culture Keith Dunstan surveyed each summer at Portsea and the Mornington Peninsula.
   - name: Portsea
     description: Portsea is the exclusive holiday township at the tip of the Mornington Peninsula, long a magnet for Melbourne's wealthy summer set, and home to the Portsea Camp where athletics coach Percy Cerutty put Herb Elliott through his punishing training regime.
   - name: Prahran
     description: Prahran is the inner Melbourne suburb south of the Yarra that Keith Dunstan used as Toorak's less exalted neighbour, and later the home turf of liquor retailer Dan Murphy's bottle shop on Chapel Street.
+  - name: Prince Charles
+    description: Prince Charles is the eldest son of Queen Elizabeth II, who spent two terms in 1966 at Geelong Grammar's remote Timbertop campus during a heavily managed Australian sojourn Keith Dunstan covered, once buying a first-class Qantas seat directly behind the Prince simply to report on his in-flight meals.
   - name: Prince Philip
     description: Prince Philip, the Duke of Edinburgh, accompanied Queen Elizabeth II on her Australian tours from 1954 onward, memorably going crocodile-hunting by spotlight in Darwin Harbour during the 1956 visit, tours Keith Dunstan covered as a young reporter and later wrote about at length in 'Supporting a Column'.
   - name: Pro Hart
@@ -462,6 +542,8 @@ topics:
     description: The Regent Theatre is one of Melbourne's grand 1920s picture palaces, which opened in 1929 in a well-publicised race with its rival the State, and home to the Mighty Wurlitzer organ Keith Dunstan watched virtuoso Tony Fenelon put through its paces in 1966.
   - name: Richmond Brewery
     description: Richmond Brewery was a Melbourne beer maker absorbed into Carlton and United Breweries on Friday the 13th, 1962, one of the consolidations behind CUB's growing grip on Victoria's beer supply that Keith Dunstan tracked in the Bulletin.
+  - name: Ricky Ponting
+    description: Ricky Ponting was the Australian Test cricket captain during the tense, ultimately lost 2010-11 Ashes series, whose visible misery under pressure Keith Dunstan cited as proof of a nation that had forgotten sport was meant to be enjoyed, win or lose.
   - name: Robert Heffron
     description: Robert Heffron was the Labor Premier of New South Wales through the early 1960s, whose sparring with Victoria's Henry Bolte over jetports, industry and interstate boasting Keith Dunstan turned into a running gag, once proposing the two premiers settle their rivalry in a railway carriage at Albury.
   - name: Robin Boyd
@@ -476,6 +558,8 @@ topics:
     description: The Royal Family's Australian tours, from the marathon 1954 visit onward, gave Keith Dunstan some of his strangest professional material, from banned adjectives like 'obviously' and 'radiant' to the elaborately stage-managed crowds a young reporter learned to see through.
   - name: Royal Melbourne Hospital
     description: The Royal Melbourne Hospital is one of the city's oldest teaching hospitals, a Sunday-quiet destination Keith Dunstan noted alongside the Botanic Gardens and Essendon Airport as one of the few places open to a bored Melburnian, and later a workplace touchstone in his own cadet journalism years.
+  - name: Rupert Murdoch
+    description: Rupert Murdoch built the global News Corporation empire from a single inherited Adelaide newspaper, and by the early 2010s was predicting the death of print newspapers by 2020, a forecast Keith Dunstan, writing amid the wreckage of the News of the World scandal, refused to believe.
   - name: Rushcutters Bay
     description: Rushcutters Bay is the Sydney harbourside suburb where fight promoter Hugh 'Huge Deal' McIntosh built Sydney Stadium for his 1908 Burns-Johnson world title fight, a venue that also hosted the Sydney eccentric Bea Miles in her long, colourful career.
   - name: Russell Mockridge
@@ -484,6 +568,8 @@ topics:
     description: Russell Street is the Melbourne CBD street long associated with police headquarters, a backdrop to both Keith Dunstan's coverage of the city's record bank robbery and his profile of Hoyts' cinema history.
   - name: Rutherglen
     description: ''
+  - name: Shane Warne
+    description: Shane Warne was the champion Australian leg-spinner famed both for his bowling and his sun-averse complexion, whose habit of dousing himself in zinc cream Keith Dunstan invoked to mock the sight of footballers now playing pre-season matches in January heat.
   - name: Sidney J. Baker
     description: Sidney J. Baker was the philologist and author of 'The Australian Language', the standard reference Keith Dunstan drew on to trace the murky origins of distinctly Australian terms like 'wowser' and 'ratbag'.
   - name: Sidney Myer Music Bowl
@@ -496,12 +582,16 @@ topics:
     description: Sir Donald Bradman, Australia's greatest batsman, chaired the Australian Cricket Board of Control in the early 1960s, appearing in Keith Dunstan's writing both as the guardian of Test cricket's dignity against Henry Bolte's comic replay-match antics and in a recollection of the 1930s Bodyline crisis.
   - name: Sir Henry Bolte
     description: Sir Henry Bolte was Victoria's blunt, long-serving Liberal Premier from 1955 to 1972, whose plain-spoken threats against striking workers and prickly rivalry with New South Wales made him one of Keith Dunstan's most reliable sources of comic material.
+  - name: Sir John Williams
+    description: Sir John Williams was the editor-in-chief who ran Keith Dunstan's Sun News-Pictorial with a strict hand, enforcing an editorial primness, no 'bloody', no plain language for prostitution or brothels, that Keith Dunstan contrasted with The Age's later willingness to print an obscenity.
   - name: Sir Keith Murdoch
     description: Sir Keith Murdoch was the dominant figure in twentieth-century Australian newspapers, building the Herald and Weekly Times empire that employed three generations of the Dunstan family, and whose sudden death in 1952, mid-plot to buy a rival paper, Keith Dunstan recounted through his own Murdoch-loyalist father's eyes in 'No Brains at All'.
   - name: Sir Robert Menzies
     description: Sir Robert Menzies was Australia's longest-serving Prime Minister, leading the country continuously from 1949 to 1966 and appearing throughout Keith Dunstan's writing both as a recurring figure in his Bulletin columns on Melbourne's civic self-regard and, in his more ceremonial guise once knighted, bricking a bottle of Chateau Tahbilk red into a cellar wall not to be opened until 2060 and entertaining royalty on their tours of Australia.
   - name: Sir Rohan Delacombe
     description: Sir Rohan Delacombe was Governor of Victoria through the 1960s, a vice-regal fixture at events from a Wangaratta wool festival's 'Wild Colonial' banquet to a cinema's world-first screening of 'Cleopatra', appearing in Keith Dunstan's writing purely in his ceremonial capacity.
+  - name: Skyhooks
+    description: Skyhooks were the glam-rock Melbourne band whose provocative lyrics were outrageous enough in the mid-1970s that a magistrate's 1979 ruling on one of their songs, quoted directly by The Age under editor Michael Davie, became a landmark in Australian newspapers' use of obscenity.
   - name: Social clubs
     description: Social clubs, from the Melbourne Club's pastoral establishment to corporate Australia's status-conscious equivalents, were an institution Keith Dunstan wrote about both from the outside, as satire, and from the inside, recalling his own father's old-boy networks.
   - name: South Yarra
@@ -510,8 +600,12 @@ topics:
     description: The Southern Cross Hotel was Melbourne's first newly built hotel in decades when it opened in 1962 on the old Eastern Market site, a Miami-style Pan-American venture Keith Dunstan toured for its novelties, Australia's first hotel bidet among them, right down to a bowling alley built over a bank vault.
   - name: St Kilda
     description: St Kilda is the beachside inner-Melbourne suburb whose once-grand boulevard, St Kilda Road, Keith Dunstan watched give way to brash 1960s office architecture he dubbed 'Disneyland Modern', even as the suburb's seedier corners supplied him with stories of illegal SP bookmaking penthouses.
+  - name: St Patrick's Cathedral
+    description: St Patrick's Cathedral is Melbourne's Catholic cathedral on Eastern Hill, where Archbishop Daniel Mannix billeted the touring boys of the Vienna Mozart Boys' Choir, among them Walter Hauser, with local families when the outbreak of war stranded them in Australia in 1939.
   - name: Stanley Korman
     description: Stanley Korman was the flamboyant businessman behind the collapsed Reid Murray and Stanhill empires, whose grandiose unrealised schemes — an Eiffel Tower replica by Albert Park Lake among them — Keith Dunstan cited as evidence of Melbourne's appetite for big, doomed ideas.
+  - name: Steve Hart
+    description: Steve Hart was the youngest and snappiest-dressed member of the Kelly gang, a brilliant horseman utterly loyal to Ned Kelly, who died alongside Dan Kelly in the burning Glenrowan inn in 1880.
   - name: Sun News-Pictorial
     description: The Sun News-Pictorial was Melbourne's morning tabloid and, for 27 years, the paper that ran Keith Dunstan's daily column 'A Place in the Sun', the platform from which he also launched the Anti-Football League in 1967.
   - name: Surfers Paradise
@@ -524,14 +618,24 @@ topics:
     description: The Sydney Cricket Ground is Sydney's historic sporting arena, home turf of the legendary barracker Stephen 'Yabba' Gascoigne and a venue promoter Hugh McIntosh also used to stage prizefights, both profiled among Keith Dunstan's 'Ratbags'.
   - name: Sydney Opera House
     description: The Sydney Opera House was still under construction through the years Keith Dunstan wrote his Bulletin column, providing a ready punchline whenever Melbourne's own civic ambitions, like the proposed Coal Exchange rotunda, needed deflating by comparison.
+  - name: Tandberg
+    description: Tandberg is the pen name of Ron Tandberg, The Age's long-serving editorial cartoonist, whose minimalist front-page sketches Keith Dunstan made a point of hunting for in his careful morning ritual with the newspaper.
   - name: Tania Verstak
     description: Tania Verstak was the Russian-born, Sydney-raised beauty queen crowned Miss Australia in 1961 and Miss International in 1962, a celebrity fixture of the fashion-parade carnival atmosphere Keith Dunstan wrote about at the Melbourne Cup and in his profiles of visiting stars.
+  - name: Tatura
+    description: Tatura is the Victorian country town whose wartime internment camp held enemy aliens including Georg Gruber and Otto Sternberg, the conductor and teacher of the touring Vienna Mozart Boys' Choir, for the duration of the war.
+  - name: Ted Baillieu
+    description: Ted Baillieu was the Liberal Premier of Victoria from 2010 to 2013, whom Keith Dunstan urged to introduce a London-style congestion tax and, separately, mocked over his government's plan to fine Victorians on the spot for swearing.
+  - name: Telstra
+    description: Telstra is Australia's largest telecommunications company, whose sponsorship of Australian Football League mobile coverage Keith Dunstan blamed for letting fans watch football on their phones in class, at work and even during church sermons.
   - name: The Age
     description: The Age is Melbourne's broadsheet newspaper, founded in 1854 and long the rival of Keith Dunstan's own Herald and Sun, whose letters pages hosted the public feud between traditionalist and modernist painters that he covered for the Bulletin in 1962.
   - name: The Argus
     description: The Argus was one of Melbourne's oldest newspapers until its 1957 closure, a masthead Sir Keith Murdoch was secretly plotting to buy and turn against his own Herald and Weekly Times empire when he died in 1952, a near-miss Keith Dunstan recounted through his Murdoch-loyalist father's eyes.
   - name: The Beatles
     description: The Beatles were at the height of Beatlemania through the mid-1960s, a cultural phenomenon Keith Dunstan brushed up against in the celebrity-interview circuit chronicled in 'Supporting a Column', where the era's biggest stars were fair game for a columnist's daily deadline.
+  - name: The Bulletin
+    description: The Bulletin was the century-old national weekly Keith Dunstan wrote for under the pseudonym John Batman for many years, one of the mastheads he mourned in a long list of newspapers that had died by the time he wrote about his enduring love of the printed page.
   - name: The Herald
     description: The Herald was Melbourne's evening broadsheet and flagship of the Herald and Weekly Times group, the paper Keith Dunstan joined as a cadet reporter in the late 1940s despite his own father's warning that journalism led to a hack's life.
   - name: Tivoli Theatre
@@ -556,10 +660,14 @@ topics:
     description: The Victoria Racing Club runs Flemington Racecourse and the Melbourne Cup carnival, and in 1962, worried by falling attendances, launched the £7000 best-dressed-racegoer competition that Keith Dunstan covered as turning the horses into something close to an afterthought.
   - name: Victorian Football League
     description: ''
+  - name: Vienna Mozart Boys' Choir
+    description: The Vienna Mozart Boys' Choir was a touring ensemble of Austrian choristers founded by conductor Georg Gruber in 1938 as a commercial rival to the Vienna Boys Choir; stranded in Australia when the Second World War broke out during their tour, several of 'the boys', among them Walter Hauser, made their lives in Melbourne.
   - name: Viticulture
     description: Viticulture, the growing of wine grapes, became Keith Dunstan's own hands-on obsession in the 1980s and 90s when he and Marie planted a small vineyard at Poplar Bend, an unglamorous slog of pruning, netting and pest control chronicled in 'My Life with the Demon'.
   - name: Wadhurst
     description: Wadhurst is Melbourne Grammar's preparatory school campus, where the young, left-handed Keith Dunstan endured a form teacher who tried to force him to write right-handed, a miserable start to his education he recounted in 'No Brains at All'.
+  - name: Walter Hauser
+    description: Walter Hauser was a chorister with the Vienna Mozart Boys' Choir stranded in Melbourne by the outbreak of war in 1939, who went on to a career as an industrial chemist and, as Keith Dunstan's regular bridge partner of fourteen years, into one of the columnist's own obituaries.
   - name: Walter ODonoghue
     description: Walter O'Donoghue was the red-haired, big-hearted advertising manager of the Myer Emporium who agreed to bankroll Keith Dunstan's fledgling Anti-Football League with badges and sponsorship, on the condition it be run for charity to give it a veneer of respectability.
   - name: Wangaratta
@@ -570,6 +678,8 @@ topics:
     description: Weston Bate was an Australian historian known for his local and social histories of Victoria, a friend of Keith Dunstan's who supplied research material from his book 'Light Blue Down Under' for The Confessions of a Bicycle Nut.
   - name: Whelan the Wrecker
     description: Whelan the Wrecker was Melbourne's dominant demolition firm, founded in 1891 by the bowler-hatted Irish immigrant Jim Whelan and known for chalking 'WHELAN THE WRECKER WAS HERE' at every job, from ordinary Bulletin-era teardowns like the old Savoy cinema to the more delicate business of dismantling three cracked spans of King's Bridge.
+  - name: Wildlife Act 1975
+    description: The Wildlife Act 1975 is the Victorian law protecting native fauna, including the common brushtail possum, whose legally sanctioned population explosion in a wet 2010 gave Keith Dunstan the biblical conceit for a column on Melbourne's assorted modern-day plagues.
   - name: William Dunstan VC
     description: William Dunstan was Keith Dunstan's father, who won the Victoria Cross at Gallipoli's Lone Pine in 1915 as a shy twenty-year-old and went on to a career in Melbourne newspaper management, casting a long shadow that Keith wrote about growing up under in 'No Brains at All'.
   - name: Wine

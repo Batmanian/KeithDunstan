@@ -1,7 +1,7 @@
 # Todo — Keith Dunstan Archive
 
 Tracking outstanding work across all active workstreams.
-Last updated: 6 August 2026.
+Last updated: 7 August 2026.
 
 **Status legend used throughout this file:**
 
@@ -34,7 +34,7 @@ Last updated: 6 August 2026.
 | Collins: the story of Australia's premier street | 2005 | ? | 0 | 0 | ❓ | Contributor credit only — scope unclear |
 | The Confessions of a Bicycle Nut | 1999 | ? | 0 | 0 | ❓ | Not started |
 | No Brains on Tuesday | 1991 | ? | 0 | 0 | ❓ | Not started |
-| Saint Ned | 1980 | ? | 0 | 0 | ❓ | Not started |
+| Saint Ned | 1980 | 11 chapters | 4 | 0 | 7 | Chapters 1–4 transcribed from manually-scanned photos 7 Aug 2026; see §10 for chapter detail |
 | The Store on the Hill | 1979 | ? | 0 | 0 | ❓ | Not started |
 | Knockers | 1972 | ? | 0 | 0 | ❓ | Not started — no scans |
 | Sports | 1973 | 14 (intro + 13 'passion' chapters) | 2 | 0 | 12 | Year corrected from 1970 (Cassell Australia, 1973, per publisher records — the text itself references 1972 events throughout). Introduction and Chapter 1 ('Our Sporting Obsession') transcribed from manually-scanned photos 6 Aug 2026; see §9 for chapter detail |
@@ -185,6 +185,7 @@ Scripts live in `trove/`. Run from within that directory with the `.venv` activa
 **Summary convention (added 29 Jul 2026 — applies to every stub still in this pipeline):** `summary` frontmatter must describe what the piece is actually about, not `"First published in [Publication], [date]."` — full rationale, good/bad examples, and the exact voice to match are now in `CLAUDE.md`. This was previously the norm for nearly every transcribed Bulletin/Walkabout/Gourmet article (45 of 46 Bulletin files, all 4 Walkabout files, the one Gourmet file) — all retrofitted with real summaries in this pass. The stub generators (`fetch_batman.py`, `fetch_byline.py`, `fetch_walkabout.py`) still correctly write the boilerplate as a placeholder marked `[Stub — not yet transcribed]` — that's fine and doesn't need changing — but replacing it with a real summary is now an explicit, required step of finishing a transcription, not optional polish. Also fixed in this pass: all three fetch scripts, `setup.py`, and `README.md` pointed transcribers at the wrong output directory (`src/posts/[publication]/` — a stale path from before the `src/articles/` rename); corrected to `src/articles/[publication]/` everywhere except the ~1,594 already-generated stub files sitting in `trove/output/*/stubs/`, which still have the old path in their body text and weren't worth a bulk find-replace (CLAUDE.md is the authoritative instruction anyway, per `trove/README.md`'s own workflow step).
 [ ] Update all trove acknowledgements to read like "This article first apeared in XXXXX Magazine, Date. The article with pictures, [(Link)is available online at Trove].
 
+
 ### Bulletin stubs — triage
 
 **1,594** stub `.md` files are in `trove/output/bulletin/stubs/` awaiting review. No files have moved to `transcribed/` or `rejected/` yet — those subfolders don't exist until `triage.py` creates them.
@@ -276,6 +277,7 @@ For publications not in Trove, physical copies must be sourced and scanned. Foll
 - [ ] **Review how book introductions are handled relative to their contents pages — inconsistent across books.** Each book's index page (`src/[book-slug].njk`) lists a contents/chapter list, and separately each book has some form of introduction/foreword content (e.g. Ratbags has a distinct "Introduction" chapter *and* a Barry Humphries foreword — both listed as chapters in `src/ratbags.njk`; other books may fold intro text into the index page itself, or omit it, or handle it differently again). No single convention currently governs whether an introduction is: its own chapter file linked from the contents list, inline prose on the book's index page, or something else. Needs a survey of all book index pages (`src/*.njk` for each book slug) plus their `src/books/[book-slug]/` folders to catalogue the current pattern per book, then a decision on a consistent approach going forward.
 - [ ] **Explore generating books as ePub / PDF downloads** — for the books that are complete or near-complete on-site (Ratbags, No Brains At All, My Life with the Demon, Supporting a Column), investigate assembling a downloadable ePub and/or PDF per book so readers aren't limited to the chapter-by-chapter web view. Needs: (1) a way to resolve chapter order per book — currently only implicit in each book's numeric filename prefix (`0-introduction`, `1-a-nice-suburb`, ...) and in the hand-written contents list on each book's index page (e.g. `src/ratbags.njk`); no single machine-readable ordering exists yet. (2) a build tool — options worth comparing: Pandoc (markdown/HTML → ePub/PDF, mature, scriptable, not Eleventy-specific), `@11ty/eleventy-plugin-...`-style ePub generators (check npm for current maintained options — none confirmed yet), or a Puppeteer/`eleventy-plugin-pdf`-driven print-CSS-to-PDF approach reusing the existing `layouts/post.njk` styling. (3) where output files live/are linked from (per-book download link on `src/[book-slug].njk`, output into `public/downloads/` or similar, excluded from the `dev/`/Pagefind build). Cover images already exist per book (`src/img/[book-slug].jpg`) and could double as the ePub/PDF cover. No implementation started — this is exploration/spike only.
 - [x] **`summary` frontmatter rewritten to feed `og:description` properly (29 Jul 2026), articles and book chapters both.** Previously nearly every Bulletin/Walkabout/Gourmet article's `summary` was just `"First published in [Publication], [date]."`, and most book chapters outside Ratbags (which was already excellent) were the equally meaningless `"The Nth chapter of Keith's book, [Title]."` — boilerplate that was also the literal text search engines and link previews (Slack, X, iMessage, etc.) showed for every single page, since `opengraph.njk` (see below) pulls `og:description`/`twitter:description` straight from `summary`. Rewrote all 46 Bulletin, all 4 Walkabout, and the 1 Gourmet article summaries, plus every chapter across A Day in the Life of Australia (8), Wowsers (2), The Australian Uppercrust Book (1), Supporting a Column (9), My Life with the Demon (13), and No Brains At All (15) — 48 book-chapter files in total — to actually describe what each piece is about, in the same voice as `src/_data/topics.md`'s entries. Ratbags (26 chapters) needed no changes. Convention (with good/bad examples, and a no-em-dashes/use-commas style note added mid-pass) is now documented in `CLAUDE.md` so it's self-sustaining for the huge remaining Trove-triage backlog — see the note under §6 above.
+- [ ] For articles less than 200 words, generate a summary of one sentence. 
 - [x] **Found and fixed while rewriting book-chapter summaries: two more copy-paste title bugs**, same pattern as the summary boilerplate — `src/books/supporting-a-column/3-royal-columns.md` had `title: Somewhat stunted columns` (duplicated from chapter 2) and `src/books/my-life-with-the-demon/10-bottling-the-demon.md` had `title: The Early Demon` (duplicated from chapter 1). Both corrected to match their actual filename/content. Worth a grep for other duplicate `title:` values across a book's chapters if this resurfaces.
 - [x] **Found and fixed in the same pass: `src/books/a-day-in-the-life-of-australia/a-body-blow-to-cricket.md` had an invalid frontmatter date (`1988-14-01`, month 14) and its body dated the 1932-33 Bodyline Test crisis to "1901"** (the year of Federation, reused by mistake from an adjacent entry). Date field corrected to `1988-01-14`; the body's "14 January 1901" heading has since been corrected to 1933 by the user directly. Still outstanding: `a-pirate-in-melbourne.md`'s body dates the Shenandoah's Melbourne visit (a Confederate raider, mid-US-Civil-War) to "29 January 1893" — should almost certainly be 1865, not yet corrected. `a-hollow-affair-for-burke-and-wills.md` also has visible OCR corruption (dropped leading letters throughout, e.g. "igned" for "designed") not yet cleaned up.
 - [x] **Found and fixed while doing the above: `og:title`/`og:description`/`twitter:*`/`article:tag` etc. broke silently on any page whose title or summary contained a literal `"`** (e.g. `£7000 for "Divinely Dressed Ladies"`, or a summary quoting "beer czar") — 16 files were affected. Root cause: the `{% metagen %}` shortcode (`eleventy-plugin-metagen`) returns raw HTML rather than going through Nunjucks' normal auto-escaping `{{ }}` output, so quote/ampersand characters passed straight through unescaped and truncated the HTML attribute, corrupting everything downstream in `<head>`. Fixed by piping `title`/`summary`/`imageAlt` through Nunjucks' `escape` filter before they reach the shortcode call, in `src/_includes/snippets/opengraph.njk`. Verified with a full rebuild — zero broken meta tags across all 1462 output pages. Worth remembering for any *future* field added to that shortcode call: it needs the same `| escape` treatment, since the shortcode itself won't do it.
@@ -303,6 +305,28 @@ Contents list sourced from the book's own Contents page (photographed 6 Aug 2026
 | 13. The Killing Passion (p. 318) | ⬜ | No scan yet |
 
 **Data note:** Chapter 1 was transcribed by reading each photographed page directly (no OCR tool available — `ocr/` is currently empty aside from a stray `.DS_Store`, despite being referenced in `CLAUDE.md`). A handful of sentences that straddle two photographed pages, or where a page was photographed at an angle, were reconstructed for readability rather than pulled verbatim character-by-character — worth a proofread against the physical book if perfect fidelity matters. `src/sports.njk` (book index page) and `src/books.njk`'s Sports accordion entry both now link through to the transcribed chapters. Six new `src/_data/topics.md` entries added for this chapter: Edward Trickett, Henry Lawson, Hubert Opperman, John Snow, John Wren, Melbourne Punch (Gough Whitlam, Sir Robert Menzies, Ron Barassi, Flemington Racecourse and Collingwood already existed and were reused verbatim).
+
+---
+
+## 10. Saint Ned (1980) — chapter detail
+
+Contents list sourced from the book's own Contents page (photographed 7 Aug 2026, `src/books/saint-ned/scans/`). Unlike Sports, this book has no separate front-matter Introduction chapter — chapters are numbered straight through from "The Legend".
+
+| # | Chapter | Status | Notes |
+|---|---|---|---|
+| 1 | The Legend (p. 7) | ✅ | `src/books/saint-ned/1-the-legend.md` |
+| 2 | The Making of a Paranoid (p. 12) | ✅ | `src/books/saint-ned/2-the-making-of-a-paranoid.md` |
+| 3 | Massacre at Stringybark (p. 21) | ✅ | `src/books/saint-ned/3-massacre-at-stringybark.md` |
+| 4 | Mr Kelly at Euroa (p. 31) | ✅ | `src/books/saint-ned/4-mr-kelly-at-euroa.md` — page 33 of the original is a photo plate with no running prose, confirmed by the text flowing continuously from page 32 to page 34 |
+| 5 | Mr Kelly at Jerilderie (p. 36) | ⬜ | No scan yet |
+| 6 | The End of Aaron (p. 42) | ⬜ | No scan yet |
+| 7 | The End at Glenrowan (p. 51) | ⬜ | No scan yet |
+| 8 | No Mercy in Melbourne (p. 69) | ⬜ | No scan yet |
+| 9 | Mr Kelly Purified (p. 80) | ⬜ | No scan yet |
+| 10 | Mr Kelly's Relics (p. 88) | ⬜ | No scan yet |
+| 11 | Mr Kelly and the Cash Register (p. 96) | ⬜ | No scan yet |
+
+**Data note:** Transcribed from 32 manually-scanned photos (`IMG_8679`–`IMG_8710`), covering the title/copyright page, Contents, Acknowledgements and Chapters 1–4 in full. Publisher/year (Methuen of Australia, 1980) confirmed directly from the book's own copyright page — no external lookup needed this time, unlike Sports. Same caveat as Sports applies: transcribed by reading photographed pages directly, no OCR tool available; worth a proofread against the physical book if perfect fidelity matters. `src/saint-ned.njk` (book index page) and `src/books.njk`'s Saint Ned accordion entry both now link through to the transcribed chapters. Eleven new `src/_data/topics.md` entries added: Dan Kelly, Donald Horne, Ellen Kelly, Glenrowan, Harry Power, Joe Byrne, Malcolm H Ellis, Manning Clark, Ned Kelly, Norman Lindsay, Steve Hart (Sidney Nolan and Sidney J. Baker already existed and were reused verbatim).
 
 ---
 

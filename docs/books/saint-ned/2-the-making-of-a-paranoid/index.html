@@ -1,0 +1,322 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Making of a Paranoid</title>
+<meta name="title" content="The Making of a Paranoid">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Traces Ned Kelly&#39;s Irish convict lineage through his father Red Kelly&#39;s transportation for pig stealing, his mother Ellen Quinn&#39;s family of horse thieves around Greta, and his own apprenticeship to the bushranger Harry Power, arguing his hatred of police was inherited before it was earned.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/saint-ned/2-the-making-of-a-paranoid/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="The Making of a Paranoid">
+<meta property="og:description" content="Traces Ned Kelly&#39;s Irish convict lineage through his father Red Kelly&#39;s transportation for pig stealing, his mother Ellen Quinn&#39;s family of horse thieves around Greta, and his own apprenticeship to the bushranger Harry Power, arguing his hatred of police was inherited before it was earned.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="The Making of a Paranoid">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/saint-ned/2-the-making-of-a-paranoid/">
+<meta name="twitter:title" content="The Making of a Paranoid">
+<meta name="twitter:description" content="Traces Ned Kelly&#39;s Irish convict lineage through his father Red Kelly&#39;s transportation for pig stealing, his mother Ellen Quinn&#39;s family of horse thieves around Greta, and his own apprenticeship to the bushranger Harry Power, arguing his hatred of police was inherited before it was earned.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="The Making of a Paranoid">
+<link rel="canonical" href="https://keithdunstan.org/books/saint-ned/2-the-making-of-a-paranoid/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1980-11-11">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="Saint Ned">
+<meta property="article:tag" content="Ned Kelly">
+<meta property="article:tag" content="Ellen Kelly">
+<meta property="article:tag" content="Harry Power">
+<meta property="article:tag" content="Glenrowan">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+    
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">The Making of a Paranoid</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            11
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1980-11-11">1980</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Traces Ned Kelly&#39;s Irish convict lineage through his father Red Kelly&#39;s transportation for pig stealing, his mother Ellen Quinn&#39;s family of horse thieves around Greta, and his own apprenticeship to the bushranger Harry Power, arguing his hatred of police was inherited before it was earned.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="Saint Ned">
+         <!--<a href="/tags/ned-kelly/" class="btn btn-outline-dark btn-sm me-2">Ned Kelly</a><a href="/tags/ellen-kelly/" class="btn btn-outline-dark btn-sm me-2">Ellen Kelly</a><a href="/tags/harry-power/" class="btn btn-outline-dark btn-sm me-2">Harry Power</a><a href="/tags/glenrowan/" class="btn btn-outline-dark btn-sm me-2">Glenrowan</a>-->
+
+        
+      </header>
+      <p>Ned Kelly was not just a normal, fair average quality, bushranging desperado. He had almost Walter Mitty-like dreams. He saw himself as a Robin Hood leading poor, suffering rural workers against a corrupt vicious ruling class. The representatives of that class were the police. This, perhaps, is the key to Ned Kelly. He was a paranoid in his loathing of men in the policeman's uniform. The names of every man who wore a Victorian police force read like an Irish electoral roll. The majority of them were Irishmen.</p>
+<p>So in Kelly's eyes they were traitors, a disgrace to the shamrock. How could any decent man take up such a &quot;lazy loafing cowardly billet&quot; . . . and serve under a flag and nation that had massacred and murdered their forefathers.¹</p>
+<p>His lineage was supremely Irish. His father John Kelly, better known as &quot;Red&quot;, came from County Tipperary and at the age of twenty-one was convicted for stealing two pigs and in 1841 transported to Van Diemen's Land. His mother was Ellen Quinn, the eldest of ten children. It was the law that shifted John Kelly, it was hard times and the potato famine that moved the Quinns. They too came out in 1841 and Ellen Quinn was nine years old.</p>
+<p>Red Kelly used up most of his sentence working as a farmhand for free settlers. He had a homesick love for potatoes and one time he stole some from a farmer's potato patch. This cost him two months in chains, but in 1848 finally he was free and crossed to Victoria. He made a living as a bush carpenter and it was at Beveridge, fifty kilometres north of Melbourne on the road to Sydney that he met Ellen Quinn. She was eighteen, vivacious and pretty. He fell for her immediately.</p>
+<p>Old Jim Quinn would have none of it. He would allow no daughter of his to marry a convict, so the pair eloped on horseback and on November 18, 1850 Father Gerald Ward married the couple at Saint Francis's Church in Lonsdale Street, Melbourne.²</p>
+<p>Quinn when confronted with the inescapable fact of a good Catholic wedding, forgave his daughter and the John Kellys settled on a small farm at Beveridge. They had eight children, the first died at birth and their eldest son Edward, the future outlaw, was born in 1855.</p>
+<p>Kelly's reputation as a convict was not forgotten. Frequently his house was searched by the police, so in 1860 in an attempt to start again he moved seventy kilometres north to Avenel and rented a forty acre lot.</p>
+<p>But Red didn't go far enough, the police were still watching, waiting. The battler kept alive by stealing horses and cattle, it was as fashionable and as popular as car and motor bike stealing in the twentieth century.</p>
+<p>The laws became tougher. If a farmer proposed to kill a beast he had to notify the police and keep the hide to prove his innocence. In 1865 one of Red's neighbours gave the police the tip-off and around they came on a raiding party.</p>
+<p>They found a fresh hide with a brand neatly cut out. Red's story was not good enough and he went to prison for six months. The story goes that he was a fine fit bushman when he went in but the treatment in the Kilmore jail destroyed him, and he died soon after his release.³</p>
+<p>That was young Ned's first score to make him remember the police. Ellen Kelly now had seven children to support, the eldest adult male was Edward, aged eleven. She had four acres at Eleven Mile Creek and lived in squalor. Superintendent Nicolson, who later led the hunt for Kelly, visited Mrs Kelly and wrote that she lived in an old wooden hut with a large bark roof. It was divided into five apartments by partitions of blanketing and rags. They all lived in poverty and squalor.⁴</p>
+<p>Even before he was a teenager Ned had a position of authority. He was the senior Kelly protector. His country was the north-east of Victoria, officially described in the Royal Commission of 1881 as the Kelly country.</p>
+<p>Kelly had a deep feeling for this area and resented it being carved up by the railways. And it was beautiful. It varied from broad plains cut by rivers through to spectacular mountain ranges.</p>
+<p>It was country that called for specialised skills on horseback, a man could get lost very quickly in impenetrable scrub, heavy timber, huge boulders and deep ravines. Out on the plains there were lovely river gums, red gums, ghost gums, filled with cockatoos and squawking galahs. The Commission defined it as &quot;the triangular tract lying between the points formed by the townships of Mansfield, Benalla and Beechworth together with the country west of the railway line to Lake Rowan, the Warby Ranges and Woolshed, . . . about 1600 square miles&quot;.⁵ They called it the Kelly country then and they still do now.</p>
+<p>This was the frontier country, the equivalent of America's Wild West, and Greta was a notorious centre for crime. Mrs Kelly's little shack was a sort of halfway house. She took in boarders, itinerant travellers and there was much good Irish talk about the villainy of class injustice.</p>
+<p>Young Ned had some splendid instructors and one of them was Harry Power, the bushranger. Ned began his training with Power at the age of fifteen. He was never present when Power did any of his stick-ups. His duties were as the apprentice, the batman.</p>
+<p>Superintendent Francis Augustus Hare, the immensely vain police commander who claimed the scalps of both Power and Kelly, said that at this time Ned Kelly was a &quot;flash, ill-looking young blackguard&quot; and as for his brother Dan, he was a &quot;cunning, low little sneak&quot;.</p>
+<p>Ned, he said, used to ride with Power, hold his horses for him, but the old bushranger had no respect for the boy's courage. Hare claims that upon his arrest Power told him that twice Ned wanted to give up and surrender to the police. There was the time at Mt Battery station near Mansfield. They were trying to steal some of Dr Rowe's horses and fired at them with a long distance rifle. Power said young Kelly wanted to surrender then. He went &quot;deadly white&quot; and he was so terrified Power couldn't get him up off the ground.⁶</p>
+<p>One finds it hard to reconcile this story with Kelly's later career. Those in love with the romantic history of the gang talk of the persecution, the poverty, so hard settlers had to steal to survive, but the crime record around Greta and the King Valley was spectacular. There were three families, all intermarried, the Kellys, the Quinns and the Lloyds. In the seventies and eighties thirteen representatives of these families managed to score fifty-seven arrests and thirty-three convictions.⁷ Always they had someone in jail. The champion was Ned Kelly's uncle James Quinn jnr. who managed nine years in jail with sixteen arrests and ten convictions.⁸</p>
+<p>Ned's first real test with the law came when he was fourteen. He was charged with the assault and robbery of a Chinese merchant named Ah Fook. He escaped conviction. Then at fifteen he was arrested on two charges of highway robbery as an accomplice of Harry Power, the bushranger. Power admitted nothing in court about his young helper, so Ned through lack of evidence went free once more.</p>
+<p>Next came a series of cases which might lead one to suggest that he was hardly a gentle character. Although Kelly constantly pleaded his innocence. &quot;If you knew how I had been wronged and persecuted you would say I cannot be blamed,&quot; said he.⁹</p>
+<p>Another four months went by and he was up on charges of assault and obscenity against a hawker named Jeremiah McCormack. As for the assault he claimed rather charmingly that it entirely through accident his &quot;fist came into contact with Mr McCormack's nose&quot;.¹⁰ The obscene act which so impressed the court was less charming. The McCormacks had no children and that day Kelly and his uncle, Jack Lloyd, were cutting and branding calves. Another hawker, Ben Gould, had the idea of taking a pair of testicles and sending them via Kelly to Mrs McCormack with the suggestion that they might be of some use to her. Gould admitted it was he who wrote the note, but it was Kelly who went to jail for three months.</p>
+<p>He had been out only three weeks and he was riding a horse into Greta. The horse belonged to his friend Isaiah &quot;Wild&quot; Wright, but he had neglected to give Ned one vital piece of information, it was stolen.</p>
+<p>He was spotted by Constable Hall who asked him to get off the horse to sign some papers. As Kelly was climbing down Hall grabbed hold of him. In Kelly's words &quot;I found him as helpless as a big goanna . . . I straddled him and rooted both spurs into his thighs.&quot;¹¹</p>
+<p>Ned, aged sixteen, was sentenced to three years jail. He claimed he was innocent, and that the horse had been actually stolen while he was in the lockup at Beechworth. The police won a conviction only because they bribed their only witness, James Murdock. &quot;It is a credit to a Policeman to convict an innocent man, but any mutt can spot a guilty one.&quot;¹²</p>
+<p>That was his sour comment on the affair. He worked in chain gangs, he made roads, and he had the awesome experience of living on the prison hulks <em>Sacramento</em> and <em>Battery</em>. When he was released he said &quot;I'd rather face the gallows than go to jail again.&quot;¹³</p>
+<p>Ned Kelly was now a handsome young man. Admittedly he had a broken nose, scars on his hands, but he was just under six feet tall, and of striking appearance. He had black upturned eyebrows, which almost met in the middle; according to some, a sign of a bad temper. He had broad cheekbones and a straight mouth with thin lips. I once described this as a cruel mouth which brought an avalanche of angry letters from still existing admirers of the Kelly gang. How dare I suggest that he was cruel!</p>
+<p>He was not only a good horseman but a phenomenally good horseman and he had considerable skills as a fighter. In his twentieth year he was the unofficial heavyweight champion of the North-East and he defeated Wild Wright in a twenty round bare knuckle contest.</p>
+<p>In dress he liked to give the appearance of a wealthy young squatter. This is one of the great misconceptions about Kelly, Joe Byrne and their colleagues. They did not want to look like penniless outlaws. There is one famous sketch of Ned Kelly which appeared in the <em>Australasian Sketcher</em> in 1880.¹⁴ Anything less like a desperado, cut-throat killer it is hard to imagine. He is wearing a handsome heavy tweed jacket, check riding trousers with fashionable kid inserts, high-heeled riding boots with spurs, a shirt with large polka dots, cravat and incredibly, sticking there as if by magic at the tips of his fingers, is a straw boater. He is out in the bush, infinitely casual, leaning against the stump of a tree.</p>
+<p>Kelly came out of jail with six months remission for good conduct and he did manage to keep out of the hands of the law for six years. For a time he even did honest work at a sawmill and prospecting for gold on the King River. However at the age of twenty-two he moved into the organised theft of cattle and horses.</p>
+<p>Angus McIntyre of La Trobe University, who has been making a psychological study of Kelly, says that Ned liked to think of himself as an essentially decent person and it was remarkable the ease with which he would justify his more outrageous acts. Kelly admitted that after being unjustly blamed for cattle stealing by two owners, Whitty and Farrell, &quot;I began to think they wanted me to give them something to talk about, therefore I started wholesale and retail horse and cattle stealing.&quot;¹⁵</p>
+<p>Morality here was on a fine edge, according to Kelly. The squatters with enormous greed had taken all the best land, therefore the less fortunate and hungry should be allowed to help themselves to their stock. Kelly and his mates had it down to a fine art. Sometimes they would steal a horse, wait until a reward was offered and with superb innocence come in to claim the money as if they had found the animal walking along the side of the road.</p>
+<p>One foolproof system was to drive cattle across the border into New South Wales, note that they had been impounded by the police, buy them back cheaply, then return to Victoria with a respectable bill of sale.</p>
+<p>Then they had an even craftier idea. Dressed as they were like flash young gentlemen they would call at station properties. They would do this in pairs. Ned would call at a property and ask the owner if he could accommodate a couple of his horses for the night. Along would come Joe Byrne and then there would be this innocent act again. They would carry on as if they didn't know each other. Joe would admire Ned's horses and ask if they were for sale. And so the sale would go through and the receipt would be officially stamped on the station property notepaper, immediately giving the stolen horses respectability. Now they could be sold legally anywhere. Kelly boasted that in his time he stole over 200 horses.¹⁶</p>
+<p>Not until September 1877 was there further trouble with the police and this was an absurd affair. Ned was back home seeing his mother and while there he had a drunken spree in Benalla. He was up on two charges, one for being drunk and another for riding a horse across the footpath, so he spent the night in the cells.</p>
+<p>Next morning he was on his way to the courthouse, when he broke away from his escort and dashed into the shop of a bootmaker. Four policemen including Constables Fitzpatrick and Lonigan went after him and in the violent struggle he had his trousers torn from his body. According to Kelly, Constable Lonigan dragged him across the road by the private parts and very nearly killed him. In court Kelly was fined £3 1s plus costs, but the injury went deeper than that. In the midst of his pain he cried: &quot;If ever I shoot a man Lonigan, you will be the first&quot;.¹⁷</p>
+<p>It was a prophecy that was to have terror in it, akin to the witches of Macbeth.</p>
+<hr>
+Continue to chapter three: <a href="/books/saint-ned/3-massacre-at-stringybark/">Massacre at Stringybark</a>
+
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        Traces Ned Kelly&#39;s Irish convict lineage through his father Red Kelly&#39;s transportation for pig stealing, his mother Ellen Quinn&#39;s family of horse thieves around Greta, and his own apprenticeship to the bushranger Harry Power, arguing his hatred of police was inherited before it was earned.
+      </p>
+<hr>
+<h4 class="h6">Related topics</h4>
+<p class="small text-muted mb-3">
+    
+    <a href="/topic/ned-kelly/" class="link-secondary">Ned Kelly</a>,
+    
+    <a href="/topic/ellen-kelly/" class="link-secondary">Ellen Kelly</a>,
+    
+    <a href="/topic/harry-power/" class="link-secondary">Harry Power</a>,
+    
+    <a href="/topic/glenrowan/" class="link-secondary">Glenrowan</a>
+</p>
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/ned-kelly/" class="link-secondary">Ned Kelly</a>,
+    
+    <a href="/topic/ellen-kelly/" class="link-secondary">Ellen Kelly</a>,
+    
+    <a href="/topic/harry-power/" class="link-secondary">Harry Power</a>,
+    
+    <a href="/topic/glenrowan/" class="link-secondary">Glenrowan</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3"> 
+    <br><small><a href="/feed.xml"><i class="fa fa-rss" aria-hidden="true"></i>
+ Subscribe via RSS</a> for content updates on this site</small>
+<br><small>We're volunteers, <a href="https://ko-fi.com/jackdunstan">support us</a> to research, digitise, edit to bring this content to a new audience - with a <i class="fa fa-coffee" aria-hidden="true"></i>
+</a></small>
+<br>
+<small>Built and maintained by <a href="https://www.linkedin.com/in/jackdunstan//">Jack Dunstan</a></i>
+</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

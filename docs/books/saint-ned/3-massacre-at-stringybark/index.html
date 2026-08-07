@@ -1,0 +1,337 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Massacre at Stringybark</title>
+<meta name="title" content="Massacre at Stringybark">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Covers the Fitzpatrick incident that jailed Ned Kelly&#39;s mother and drove him into the bush, then the Stringybark Creek ambush in which Kelly and his gang shot dead Constables Lonigan and Scanlon and Sergeant Kennedy, turning him from horse thief into the most wanted outlaw in the colony.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/saint-ned/3-massacre-at-stringybark/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Massacre at Stringybark">
+<meta property="og:description" content="Covers the Fitzpatrick incident that jailed Ned Kelly&#39;s mother and drove him into the bush, then the Stringybark Creek ambush in which Kelly and his gang shot dead Constables Lonigan and Scanlon and Sergeant Kennedy, turning him from horse thief into the most wanted outlaw in the colony.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Massacre at Stringybark">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/saint-ned/3-massacre-at-stringybark/">
+<meta name="twitter:title" content="Massacre at Stringybark">
+<meta name="twitter:description" content="Covers the Fitzpatrick incident that jailed Ned Kelly&#39;s mother and drove him into the bush, then the Stringybark Creek ambush in which Kelly and his gang shot dead Constables Lonigan and Scanlon and Sergeant Kennedy, turning him from horse thief into the most wanted outlaw in the colony.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Massacre at Stringybark">
+<link rel="canonical" href="https://keithdunstan.org/books/saint-ned/3-massacre-at-stringybark/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1980-11-11">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="Saint Ned">
+<meta property="article:tag" content="Ned Kelly">
+<meta property="article:tag" content="Ellen Kelly">
+<meta property="article:tag" content="Joe Byrne">
+<meta property="article:tag" content="Steve Hart">
+<meta property="article:tag" content="Dan Kelly">
+<meta property="article:tag" content="Glenrowan">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+    
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">Massacre at Stringybark</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            12
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1980-11-11">1980</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Covers the Fitzpatrick incident that jailed Ned Kelly&#39;s mother and drove him into the bush, then the Stringybark Creek ambush in which Kelly and his gang shot dead Constables Lonigan and Scanlon and Sergeant Kennedy, turning him from horse thief into the most wanted outlaw in the colony.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="Saint Ned">
+         <!--<a href="/tags/ned-kelly/" class="btn btn-outline-dark btn-sm me-2">Ned Kelly</a><a href="/tags/ellen-kelly/" class="btn btn-outline-dark btn-sm me-2">Ellen Kelly</a><a href="/tags/joe-byrne/" class="btn btn-outline-dark btn-sm me-2">Joe Byrne</a><a href="/tags/steve-hart/" class="btn btn-outline-dark btn-sm me-2">Steve Hart</a><a href="/tags/dan-kelly/" class="btn btn-outline-dark btn-sm me-2">Dan Kelly</a><a href="/tags/glenrowan/" class="btn btn-outline-dark btn-sm me-2">Glenrowan</a>-->
+
+        
+      </header>
+      <p>The event which really started the Kelly gang's rampage, the fuse which activated the Ned Kelly paranoid hatred of the police was the jailing of his mother for three years. It all began on 15 April, 1878.</p>
+<p>Constable Fitzpatrick, aged twenty-one, set out for the Kelly house to arrest seventeen-year-old Dan Kelly on a charge of horse stealing. Whether this was always in his mind no one knows. He went there of his own volition. He had no warrant and he admitted to having a few drinks at Winton on the way.</p>
+<p>After that it is a case of which version does one believe, that of Constable Fitzpatrick who later proved to be a liar and totally unreliable for even before the Royal Commission of 1881 he had been dismissed from the force. Or does one believe Ned Kelly, the convicted criminal.</p>
+<p>Fitzpatrick's story was this. He called at the Kellys, he made a prisoner of Dan, who asked if they could have something to eat before they left for Benalla. As they went inside they received a cool reception from Mrs Kelly. She called Fitzpatrick &quot;a deceitful little bugger&quot; and said: &quot;You will not take him out of this house tonight.&quot;</p>
+<p>He was at the house no longer than three minutes before Ned Kelly rushed in and fired a shot at him from a yard and a half. It missed. Meanwhile Mrs Kelly grabbed a shovel from beside the fireplace and smashed it over his head, crushing his helmet down over his eyes. He put up his hand to prevent another blow from Mrs Kelly and Ned shot him in the wrist.</p>
+<p>He went to draw his revolver but Dan snatched it first. He looked round and there were Skillion and Williamson with revolvers in their hands. He fell to the floor unconscious.</p>
+<p>When he recovered Ned Kelly examined the wound, Kelly held his hand while Fitzpatrick cut out the bullet with his penknife. The Kellys then wouldn't let him out of the house until eleven o'clock.¹</p>
+<p>Dr John Nicholson of Benalla examined Fitzpatrick, reported that he had a slight wound on his wrist which could have been caused by a bullet and his breath had the smell of brandy.</p>
+<p>Kelly's rage over this was huge. He swore he was 400 miles away at the time. The true story was that Fitzpatrick, &quot;the meanest man that ever shone on&quot;, called at the house to arrest his brother Dan. His mother who was nursing an infant child demanded to see his warrant. Fitzpatrick pulled out his revolver and said he would blow her brains out if she resisted arrest. She replied if only Ned were here he would ram his revolver down his throat. Then Dan pulled a trick. He shouted &quot;Here comes Ned now&quot; and as Fitzpatrick spun around he grabbed him in a bear hug, took his revolver and threw him out. The whole business about being shot in the wrist was an invention to cover his embarrassment and failure.²</p>
+<p>There were other versions. Some said Fitzpatrick had a passion for Kate Kelly and as she walked past him he put his arm around her waist and swept her on to his knee. So Dan took to Fitzpatrick in his sister's defence.³</p>
+<p>Whatever you think of Constable Fitzpatrick it was a terrible insult to the famous outlaw that he couldn't kill a man from a range of a yard and a half, and the shot that did hit him, incredibly, made only a slight puncture on the wrist.</p>
+<p>So Dan took to the hills and the police returned to arrest Mrs Ellen Kelly, Maggie Kelly's husband Bill Skillion and Williamson. They were in jail for six months before they even got to trial at Beechworth in October 1878 and then the retribution was particularly savage. The charge was aiding and abetting in the attempted murder of Constable Fitzpatrick. Mrs Kelly was sentenced to jail for three years, Skillion and Williamson for six years each. Judge Barry, who was to have later dealings with Edward Kelly, announced when passing sentence on his mother: &quot;If your son Ned was here I would make an example of him. I would give him a sentence of fifteen years.&quot;⁴</p>
+<p>Kelly when aroused could be very eloquent indeed. Continually he raged over the injustice to his mother. &quot;I was not there,&quot; he cried, &quot;or I would have scattered blood and brains like rain. I would manure the Eleven Mile with their bloated carcasses and yet,&quot; he added curiously, &quot;remember there is not one drop of murderous blood in my veins.&quot;</p>
+<p>The very name Fitzpatrick became a battle cry and he warned: &quot;Fitzpatrick will be the cause of greater slaughter to the Union Jack than St. Patrick was to the snakes and toads in Ireland.&quot;⁵</p>
+<p>Ned Kelly and Dan Kelly were now hunted men, outlaws. They could be shot at with impunity and the price on their heads was £100 each. They took off for the Wombat Ranges, wild country out of Mansfield, where finding them was as easy as if they had chosen the jungles of New Guinea.</p>
+<p>The police thought there were only two of them, but they were joined by their friends Joe Byrne and Steve Hart, all very young.</p>
+<p>Ned was twenty-three, but he looked more. He had grown a splendid bushy beard. Dan, seventeen, was clean-shaven, he had long lank hair, he was sallow of complexion and he looked like an unhappy youth who had been on an unfortunate diet at boarding school.</p>
+<p>Steve Hart, born in Beechworth, was eighteen. He was a snappy dresser, a brilliant horseman, something of a bully but utterly dominated by Kelly. Joe Byrne was more interesting. He was twenty-one, good looking with light wavy hair. He and Ned were very close friends. He had this in common with Ned, he came from a large penniless family and his father died when he was very young. Joe was something of a bush poet, and the most thoughtful member of the gang. Very likely he penned the huge garrulous letters that Ned sent out to defend his position.</p>
+<p>At first the police did nothing. They waited until the worst of the winter was over then the local police chief, Superintendent Sadleir, sent out two parties, one under Senior Constable Shoebridge from Greta, and the other under Sergeant Kennedy from Mansfield. The four members of the Mansfield party were disguised innocently as prospectors and they were all Irishmen. They were Sergeant Kennedy, thirty-six, father of five, from Westmeath; Constable McIntyre, thirty-two, from Belfast; Constable Lonigan, thirty-four, from Sligo and Constable Scanlon, thirty-five, from Killarney.</p>
+<p>Sergeant Michael Kennedy had a reputation as a first class police officer of high intelligence and he chose his three deputies for their skills as bushmen. Constable Lonigan after the personal threat from Kelly clearly had an uneasy departure. When he left Violet Town for Mansfield he returned twice to say goodbye to his wife and to a wardsman at the Mooroopna Hospital he called out: &quot;If I don't come back you can take my dog.&quot;⁶</p>
+<p>They left Mansfield on Friday morning, 25 October, 1878. Superintendent Hare said the police received a tip-off from an agent, who gave the exact position of the Kelly gang. He was a &quot;well-educated fellow with some responsible positions in the district&quot;, according to Hare, but as soon as he had passed on the information, he rode straight off to the Kellys and told them where the police proposed to camp.⁷</p>
+<p>That camp was a small clearing used by prospectors in the thick bush by Mount Wombat on the banks of Stringybark Creek. On Saturday morning Kennedy and Scanlon were out on the hunt for the outlaws while Lonigan and McIntyre remained behind. If they were really silently tracking their prey then they were brilliantly naive. McIntyre used his shotgun to shoot parrots with, the noise reverberating around the mountains and together they lit a big fire to guide Kennedy home again.</p>
+<p>Meanwhile the Kelly gang was less than a mile away. They were hopelessly outgunned by the police and Hart and Byrne had no guns at all. Kelly claimed that unless he attacked first &quot;our doom was sealed . . . they would shoot us down like dogs.&quot;⁸</p>
+<p>Ned Kelly and Dan sneaked up on the camp. McIntyre was unarmed cooking the evening meal while Lonigan wearing his revolver was dozing against a log. Kelly stepped into the clearing and gave the traditional bushranger's cry &quot;Bail up!&quot;</p>
+<p>McIntyre put up his hands, but Lonigan ran for a tree and drew his revolver. Kelly fired his shotgun and hit him in the forehead. He screamed: &quot;Oh Christ, I am shot.&quot; He died almost immediately. Kelly made a remark that went down in history that &quot;It was him or me. What a pity the bastard had to run.&quot;⁹</p>
+<p>Kelly was now the supreme master of the camp. He was pleased that the man he had shot was Lonigan. &quot;He put a dirty grip on me once in Benalla.&quot; And he warned McIntyre that it would be most unwise to run off. &quot;You had better not, mate, because if you do you will soon find your match for you know there are not three men in the police force a match for me.&quot;¹⁰</p>
+<p>It was nigh on six o'clock when Kennedy and Scanlon returned. Kelly told McIntyre to persuade them to surrender, so the frightened trooper went forward and shouted: &quot;Sergeant, you had better dismount and surrender for you are surrounded.&quot; There was an appalling moment of hesitation. The sergeant put his hand on his holster and smiled, obviously he thought McIntyre was joking. Kelly cried &quot;Bail up&quot; once more and the battle was on. Scanlon tried to fire a quick shot, but Kelly shot him through the chest under the arm and he dropped from his horse dead.</p>
+<p>According to Kelly, Kennedy took cover by dropping off his horse on the off side, then there was a running battle from tree to tree, each exchanging shots. &quot;I shot him in the armpit and he dropped his revolver and ran. I fired again with the gun as he slewed around to surrender. I did not know he had dropped his revolver, the bullet passed through the right side of his chest and he could not live . . .&quot;¹¹</p>
+<p>Kennedy lay on the ground bleeding and pleading for his life. Kelly believed he could do nothing for him and put another bullet into him to end his life.</p>
+<p>The Royal Commission which was bitter enough about the incompetence of the police in this affair also made savage judgement on Kelly: &quot;The cold-blooded despatch of the brave but ill-fated Kennedy when, wounded and hopeless of surviving he pleaded to be allowed to live to bid farewell to his wife and children, is one of the darkest stains upon the career of the outlaws. It was cruel, wanton and inhuman, and should of itself, apart from other crimes, brand the name of his murderer, the leader of the gang, with infamy.&quot;¹²</p>
+<p>While Kelly was coping with Kennedy, McIntyre saw his chance, jumped on Kennedy's horse and escaped. He had a desperate crazy ride through the bush in which he saw a Kelly behind every tree. One time he collapsed in a wombat hole and wrote in his diary: &quot;Ned Kelly, Dan and two others stuck up today when we were disarmed. Lonigan and Scanlon are shot. The Lord have mercy on me.&quot; Scanlon tried to get his gun out.</p>
+<p>McIntyre did not get to Mansfield until late on the Sunday and his terrible news put the whole town in a state of terror. It had no arms and no equipment to cope with such an emergency. Superintendent Sadleir told the Royal Commission that people were so terrified they had great difficulty in raising a party to bring back the bodies of the dead policemen.¹³</p>
+<p>Superintendent Hare said they found the body of Kennedy fearfully mutilated. There were three bullets through his head and several through his body. The suggestion was that Kelly made all his mates fire bullets into the body to spread the blame. But there is a much greater charge of brutality. The autopsy revealed that the ears had been cut from Kennedy's head.</p>
+<p>Ned repeatedly and vehemently denied the firing of shots into a dead body and if ears had been severed he knew nothing about it. &quot;I left him as honourable as I could as if we were my own brothers.&quot;¹⁴</p>
+<p>But the police did not believe him then nor now. Sergeant Keith Holden in a search of the police archives found this item in the Mansfield occurrence books.</p>
+<p>November 9th, Saturday at 4 pm Mrs Monks reported receiving a threatening letter of which the following is a copy:</p>
+<p>To E. Monks,
+You think you have done a great thing by searching for the traps but you have made a great mistake, for your friend Kennedy is gone although we made him confess in confidence and we heard you say you could trust us and our horns, but we will trust you to hell but what we will have you. We come and give you some bodies to pack. What a fine thing it is to cut their ears off, but we will poke your eyes out. Yours until we meet.
+Edward and Daniel Kelly.¹⁵</p>
+<p>There were those who said that the sergeant's ear or ears were actually chewed off in the night by a wombat. Max Brown¹⁶ says the letter was just a fake. How easy it was to use the name of Kelly to beat one's enemies! A man named Walter Lynch was arrested, held for four months without trial and then sentenced to two years hard labour for writing a threatening letter. The only evidence was a certain similarity in handwriting.</p>
+<p>The <em>Argus</em>, the <em>Age</em>, the <em>Herald</em> all gave outraged comment, but one of the most eloquent pieces appeared in the <em>Jamieson Chronicle</em> on 2 November 1878:</p>
+<p>The three victims had given them no provocation for depriving them of their lives. The constables were carrying out the commands of their superior officers which it was imperative for them to fulfil, and for this, the four unhung scoundrels despicably crouched on the ground like the panther, when about to seize its prey and when the opportunity afforded sprang up, with the words (used by honourable men compared to these) &quot;Bail up&quot; at the same time spill the blood of men, in which there was more honour in one drop, than there was in their assassins' whole carcass. There is not one particle of manliness in their composition, for if confronted in an equal contest we have not a shadow of doubt but what these curs would slink away from the encounter like scared adders.</p>
+<hr>
+Continue to chapter four: <a href="/books/saint-ned/4-mr-kelly-at-euroa/">Mr Kelly at Euroa</a>
+
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        Covers the Fitzpatrick incident that jailed Ned Kelly&#39;s mother and drove him into the bush, then the Stringybark Creek ambush in which Kelly and his gang shot dead Constables Lonigan and Scanlon and Sergeant Kennedy, turning him from horse thief into the most wanted outlaw in the colony.
+      </p>
+<hr>
+<h4 class="h6">Related topics</h4>
+<p class="small text-muted mb-3">
+    
+    <a href="/topic/ned-kelly/" class="link-secondary">Ned Kelly</a>,
+    
+    <a href="/topic/ellen-kelly/" class="link-secondary">Ellen Kelly</a>,
+    
+    <a href="/topic/joe-byrne/" class="link-secondary">Joe Byrne</a>,
+    
+    <a href="/topic/steve-hart/" class="link-secondary">Steve Hart</a>,
+    
+    <a href="/topic/dan-kelly/" class="link-secondary">Dan Kelly</a>,
+    
+    <a href="/topic/glenrowan/" class="link-secondary">Glenrowan</a>
+</p>
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/ned-kelly/" class="link-secondary">Ned Kelly</a>,
+    
+    <a href="/topic/ellen-kelly/" class="link-secondary">Ellen Kelly</a>,
+    
+    <a href="/topic/joe-byrne/" class="link-secondary">Joe Byrne</a>,
+    
+    <a href="/topic/steve-hart/" class="link-secondary">Steve Hart</a>,
+    
+    <a href="/topic/dan-kelly/" class="link-secondary">Dan Kelly</a>,
+    
+    <a href="/topic/glenrowan/" class="link-secondary">Glenrowan</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3"> 
+    <br><small><a href="/feed.xml"><i class="fa fa-rss" aria-hidden="true"></i>
+ Subscribe via RSS</a> for content updates on this site</small>
+<br><small>We're volunteers, <a href="https://ko-fi.com/jackdunstan">support us</a> to research, digitise, edit to bring this content to a new audience - with a <i class="fa fa-coffee" aria-hidden="true"></i>
+</a></small>
+<br>
+<small>Built and maintained by <a href="https://www.linkedin.com/in/jackdunstan//">Jack Dunstan</a></i>
+</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>
