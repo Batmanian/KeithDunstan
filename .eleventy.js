@@ -4,6 +4,7 @@ const navigationPlugin = require('@11ty/eleventy-navigation')
 const { rssPlugin } = require('@11ty/eleventy-plugin-rss')
 const metagenPlugin = require('eleventy-plugin-metagen')
 const matter = require("gray-matter");
+const books = require("./src/_data/books.json");
 
 module.exports = function(eleventyConfig) {
 
@@ -70,6 +71,43 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("theage", collection => {
     return collection.getFilteredByGlob("src/articles/the-age/*.md")
       .sort((a, b) => a.date - b.date);
+  });
+
+  // Merges every transcribed article with the full book bibliography
+  // (src/_data/books.json) into one date-sorted list for src/timeline.njk.
+  // Books only carry a publication year, so they're pinned to 1 January of
+  // that year for sorting; the template shows year-only precision for them.
+  // Every item also gets a `publication` label — an article's own
+  // `categories[0]` when set, otherwise its folder name humanized (covers
+  // src/articles/the-australian-gourmet/, which carries no categories
+  // frontmatter) — used to colour-code and sort the timeline by masthead.
+  eleventyConfig.addCollection("timeline", collection => {
+    const articleItems = collection.getFilteredByTag("article").map(item => {
+      const folderSlug = item.url.split("/")[2];
+      const publication = (item.data.categories && item.data.categories.length)
+        ? item.data.categories[0]
+        : humanizeSlug(folderSlug);
+      return {
+        date: item.date,
+        title: item.data.title,
+        url: item.url,
+        summary: item.data.summary,
+        publication,
+        tags: item.data.tags,
+        isBook: false
+      };
+    });
+    const bookItems = books.map(book => ({
+      date: new Date(Date.UTC(book.year, 0, 1)),
+      title: book.title,
+      url: book.url,
+      summary: book.summary,
+      publication: "Book",
+      tags: null,
+      isBook: true,
+      external: !!book.external
+    }));
+    return [...articleItems, ...bookItems].sort((a, b) => a.date - b.date);
   });
 
   // The N most-referenced tags across a set of collection items (e.g.
@@ -222,13 +260,15 @@ module.exports = function(eleventyConfig) {
 
   // Turns a URL slug into a display label — used to derive a "publication"
   // name (e.g. book title) for pages that have no explicit `categories`
-  // frontmatter, for the search results metadata.
-  eleventyConfig.addFilter("humanizeSlug", (slug) => {
+  // frontmatter, for the search results metadata, and for the timeline
+  // collection below.
+  function humanizeSlug(slug) {
     return (slug || "")
       .split("-")
       .map(word => word.charAt(0).toUpperCase() + word.slice(1))
       .join(" ");
-  });
+  }
+  eleventyConfig.addFilter("humanizeSlug", humanizeSlug);
 
   return {
     dir: {

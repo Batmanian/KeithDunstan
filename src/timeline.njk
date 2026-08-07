@@ -4,38 +4,77 @@ title: Timeline
 titleClass: h2 mb-2
 ---
 
-<p class="text-muted">Every transcribed article in the archive, in the order it was published &mdash; from Keith Dunstan's earliest Walkabout pieces through to his most recent Bulletin columns. Hover or focus an entry for a summary; select it to read the piece in full.</p>
+<p class="text-muted">Every transcribed article in the archive, alongside Keith Dunstan's published books, in the order they appeared &mdash; from his earliest Walkabout pieces through to his latest columns in The Age. Entries are coloured by publication and books are marked as notable works and shown larger; where the full text isn't on this site, the entry isn't a link. Select a linked entry to read it in full.</p>
 
-<div class="timeline my-4">
-  {% for item in collections.article %}
-  <div class="timeline-item">
+<div class="d-flex flex-wrap justify-content-between align-items-start gap-3 mb-3">
+  <div class="timeline-legend d-flex flex-wrap gap-3 small text-muted" aria-hidden="true">
+    <span class="timeline-legend-item"><span class="timeline-legend-dot timeline-pub-the-age"></span>The Age</span>
+    <span class="timeline-legend-item"><span class="timeline-legend-dot timeline-pub-the-bulletin"></span>The Bulletin</span>
+    <span class="timeline-legend-item"><span class="timeline-legend-dot timeline-pub-walkabout-magazine"></span>Walkabout Magazine</span>
+    <span class="timeline-legend-item"><span class="timeline-legend-dot timeline-pub-other"></span>The Australian Gourmet</span>
+    <span class="timeline-legend-item"><span class="timeline-legend-dot timeline-legend-dot--book"></span>Book</span>
+  </div>
+  <div class="d-flex align-items-center gap-2">
+    <label for="timeline-sort" class="form-label small text-muted mb-0">Sort by</label>
+    <select id="timeline-sort" class="form-select form-select-sm" style="max-width: 12rem;">
+      <option value="date-asc" selected>Date, oldest first</option>
+      <option value="date-desc">Date, newest first</option>
+      <option value="publication">Publication</option>
+      <option value="title">Title, A&ndash;Z</option>
+    </select>
+  </div>
+</div>
+
+<div class="timeline my-4" id="timeline-list">
+  {% for item in collections.timeline %}
+  {% set pubSlug = item.publication | slug %}
+  {% set knownPub = pubSlug in ['the-age', 'the-bulletin', 'walkabout-magazine'] %}
+  <div
+    class="timeline-item timeline-pub-{{ 'book' if item.isBook else (pubSlug if knownPub else 'other') }}{% if item.isBook %} timeline-item--book{% endif %}"
+    data-date="{{ item.date | htmlDateString }}"
+    data-publication="{{ item.publication }}"
+    data-title="{{ item.title }}">
     <span class="timeline-dot" aria-hidden="true"></span>
+    {% if item.url %}
     <a
-      href="{{ item.url | url }}"
-      class="timeline-card"
-      data-bs-toggle="tooltip"
-      data-bs-placement="top"
-      data-bs-trigger="hover focus"
-      data-bs-custom-class="timeline-tooltip"
-      title="{{ item.data.summary }}">
-      <time class="timeline-date" datetime="{{ item.date | htmlDateString }}">{{ item.data.date | readableDate }}</time>
-      <span class="timeline-title">{{ item.data.title }}</span>
-      {% if item.data.categories %}<span class="badge text-bg-secondary fw-normal">{{ item.data.categories[0] }}</span>{% endif %}
-    </a>
-    {% set itemTags = item.data.tags | filterTagList %}
-    {% if itemTags.length %}
-      <p class="timeline-topics text-muted small mb-0">
-        {%- for tag in itemTags %}
-          {% set tagUrl %}/topic/{{ tag | slug }}/{% endset %}
-          <a href="{{ tagUrl | url | safe }}" class="link-secondary">{{ tag }}</a>{% if not loop.last %},{% endif %}
-        {%- endfor %}
-      </p>
+      href="{{ item.url if item.external else (item.url | url) }}"
+      {% if item.external %}target="_blank" rel="noopener"{% endif %}
+      class="timeline-card">
+    {% else %}
+    <span class="timeline-card">
+    {% endif %}
+      <time class="timeline-date" datetime="{{ item.date | htmlDateString }}">{% if item.isBook %}{{ item.date | postDate(['book']) }}{% else %}{{ item.date | readableDate }}{% endif %}</time>
+      <span class="timeline-title">{{ item.title }}</span>
+      <span class="badge timeline-badge rounded-pill fw-normal">{{ item.publication }}</span>
+    {% if item.url %}</a>{% else %}</span>{% endif %}
+    {% if item.summary %}
+      <p class="timeline-summary text-muted small mb-0">{{ item.summary }}</p>
     {% endif %}
   </div>
   {% endfor %}
 </div>
 
 <style>
+  /* Categorical palette, validated with the data-viz skill's validator
+     (scripts/validate_palette.js) for CVD-safety and surface contrast in
+     both colour modes — blue/orange/green pass every check at any two
+     colours adjacent (the realistic case here, since entries are date-sorted
+     rather than grouped); pink is reserved for books, kept visually distinct
+     from the three masthead colours. Orange and pink get darker steps under
+     dark mode to stay inside the lightness band for a dark surface; blue and
+     green already clear both bands unchanged. Every colour is a secondary
+     cue only — the publication name is always shown as text alongside it. */
+  :root {
+    --tl-the-age: #0072b2;
+    --tl-the-bulletin: #e69f00;
+    --tl-walkabout-magazine: #009e73;
+    --tl-book: #cc79a7;
+    --tl-other: var(--bs-secondary-color);
+  }
+  [data-bs-theme="dark"] {
+    --tl-the-bulletin: #bf7d12;
+    --tl-book: #a85589;
+  }
   .timeline {
     position: relative;
     padding-left: 2rem;
@@ -55,10 +94,14 @@ titleClass: h2 mb-2
     width: 0.8rem;
     height: 0.8rem;
     border-radius: 50%;
-    background-color: var(--bs-success);
+    background-color: var(--tl-other);
     border: 3px solid var(--bs-body-bg);
     box-shadow: 0 0 0 2px var(--bs-border-color);
   }
+  .timeline-pub-the-age .timeline-dot { background-color: var(--tl-the-age); }
+  .timeline-pub-the-bulletin .timeline-dot { background-color: var(--tl-the-bulletin); }
+  .timeline-pub-walkabout-magazine .timeline-dot { background-color: var(--tl-walkabout-magazine); }
+  .timeline-pub-book .timeline-dot { background-color: var(--tl-book); }
   .timeline-card {
     display: inline-block;
     text-decoration: none;
@@ -66,9 +109,18 @@ titleClass: h2 mb-2
   }
   .timeline-card:hover .timeline-title,
   .timeline-card:focus .timeline-title {
-    color: var(--bs-success);
     text-decoration: underline;
   }
+  .timeline-pub-the-age .timeline-card:hover .timeline-title,
+  .timeline-pub-the-age .timeline-card:focus .timeline-title { color: var(--tl-the-age); }
+  .timeline-pub-the-bulletin .timeline-card:hover .timeline-title,
+  .timeline-pub-the-bulletin .timeline-card:focus .timeline-title { color: var(--tl-the-bulletin); }
+  .timeline-pub-walkabout-magazine .timeline-card:hover .timeline-title,
+  .timeline-pub-walkabout-magazine .timeline-card:focus .timeline-title { color: var(--tl-walkabout-magazine); }
+  .timeline-pub-book .timeline-card:hover .timeline-title,
+  .timeline-pub-book .timeline-card:focus .timeline-title { color: var(--tl-book); }
+  .timeline-pub-other .timeline-card:hover .timeline-title,
+  .timeline-pub-other .timeline-card:focus .timeline-title { color: var(--tl-other); }
   .timeline-date {
     display: block;
     font-size: 0.85rem;
@@ -79,19 +131,76 @@ titleClass: h2 mb-2
     font-weight: 600;
     margin-bottom: 0.25rem;
   }
-  .timeline-topics {
-    margin-top: 0.25rem;
+  .timeline-badge {
+    background: transparent;
+    border: 1px solid currentColor;
+    color: var(--tl-other);
   }
-  .tooltip.timeline-tooltip .tooltip-inner {
-    text-align: left;
-    max-width: 280px;
+  .timeline-pub-the-age .timeline-badge { color: var(--tl-the-age); }
+  .timeline-pub-the-bulletin .timeline-badge { color: var(--tl-the-bulletin); }
+  .timeline-pub-walkabout-magazine .timeline-badge { color: var(--tl-walkabout-magazine); }
+  .timeline-pub-book .timeline-badge { color: var(--tl-book); }
+  .timeline-summary {
+    margin-top: 0.25rem;
+    max-width: 40rem;
+  }
+  .timeline-item--book .timeline-dot {
+    width: 1.1rem;
+    height: 1.1rem;
+    left: -2.55rem;
+  }
+  .timeline-item--book .timeline-date {
+    font-weight: 600;
+  }
+  .timeline-item--book .timeline-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+  }
+  .timeline-legend-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .timeline-legend-dot {
+    display: inline-block;
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+  }
+  .timeline-legend-dot.timeline-pub-the-age { background-color: var(--tl-the-age); }
+  .timeline-legend-dot.timeline-pub-the-bulletin { background-color: var(--tl-the-bulletin); }
+  .timeline-legend-dot.timeline-pub-walkabout-magazine { background-color: var(--tl-walkabout-magazine); }
+  .timeline-legend-dot.timeline-pub-other { background-color: var(--tl-other); }
+  .timeline-legend-dot--book {
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: var(--tl-book);
   }
 </style>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(function (el) {
-      new bootstrap.Tooltip(el);
+  (function () {
+    var select = document.getElementById('timeline-sort');
+    var list = document.getElementById('timeline-list');
+    if (!select || !list) return;
+
+    var sorters = {
+      'date-asc': function (a, b) { return a.dataset.date.localeCompare(b.dataset.date); },
+      'date-desc': function (a, b) { return b.dataset.date.localeCompare(a.dataset.date); },
+      'publication': function (a, b) {
+        return a.dataset.publication.localeCompare(b.dataset.publication) ||
+          a.dataset.date.localeCompare(b.dataset.date);
+      },
+      'title': function (a, b) {
+        return a.dataset.title.localeCompare(b.dataset.title, undefined, { sensitivity: 'base' });
+      }
+    };
+
+    select.addEventListener('change', function () {
+      var sorter = sorters[select.value];
+      if (!sorter) return;
+      var items = Array.prototype.slice.call(list.querySelectorAll('.timeline-item'));
+      items.sort(sorter).forEach(function (item) { list.appendChild(item); });
     });
-  });
+  })();
 </script>
