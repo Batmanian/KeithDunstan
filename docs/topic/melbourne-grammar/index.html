@@ -103,7 +103,9 @@
         <li class="nav-item me-1">
           <a class="nav-link" href="/books">Books</a>
         </li>
-    
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
         <li class="nav-item me-1">
           <a class="nav-link" href="/search.html">Search</a>
         </li>
@@ -427,14 +429,8 @@
     <footer class="container">
       <div class="row border-top py-5">
   <div class="col-12">
-    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3"> 
-    <br><small><a href="/feed.xml"><i class="fa fa-rss" aria-hidden="true"></i>
- Subscribe via RSS</a> for content updates on this site</small>
-<br><small>We're volunteers, <a href="https://ko-fi.com/jackdunstan">support us</a> to research, digitise, edit to bring this content to a new audience - with a <i class="fa fa-coffee" aria-hidden="true"></i>
-</a></small>
-<br>
-<small>Built and maintained by <a href="https://www.linkedin.com/in/jackdunstan//">Jack Dunstan</a></i>
-</a></small>
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site</a></small>
 <br>
     <br>&copy; Copyright - The literary estate of Keith Dunstan.
 <br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
@@ -448,6 +444,36 @@
       const currentYear = new Date().getFullYear();
       yearElement.textContent = '1962-' + currentYear;
     }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
   });
 </script>
 <script src="/js/bootstrap.bundle.min.js"></script>

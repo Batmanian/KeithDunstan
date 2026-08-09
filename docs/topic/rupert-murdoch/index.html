@@ -103,7 +103,9 @@
         <li class="nav-item me-1">
           <a class="nav-link" href="/books">Books</a>
         </li>
-    
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
         <li class="nav-item me-1">
           <a class="nav-link" href="/search.html">Search</a>
         </li>
@@ -158,10 +160,48 @@
 
   
   
-  <p class="text-muted mb-1">2 items include the topic of Rupert Murdoch.</p>
+  <p class="text-muted mb-1">3 items include the topic of Rupert Murdoch.</p>
   <p class="fst-italic text-muted mb-5">Rupert Murdoch built the global News Corporation empire from a single inherited Adelaide newspaper, and by the early 2010s was predicting the death of print newspapers by 2020, a forecast Keith Dunstan, writing amid the wreckage of the News of the World scandal, refused to believe.</p>
   <div class="row d-flex justify-content-center">
   <div class="col-12">
+      <div class="py-4 border-bottom">
+        <a href="/books/knockers/1-knockers/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Knockers”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1972-01-01">1972</time>
+        </p>
+
+        <p>Opens &#39;Knockers&#39; by tracing the Australian compulsion to cut down its own achievers, from a Melbourne newspaper importing a London editor to soothe its colonial cringe, through visiting critics from James Cameron to Clement Freud, to the vicious reception of the Sydney Opera House and Australian writers at home.</p>
+
+        <a href="/books/knockers/1-knockers/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/sidney-j.-baker/" class="link-secondary">Sidney J. Baker</a>,
+              
+              <a href="/topic/rupert-murdoch/" class="link-secondary">Rupert Murdoch</a>,
+              
+              <a href="/topic/james-cameron/" class="link-secondary">James Cameron</a>,
+              
+              <a href="/topic/clement-freud/" class="link-secondary">Clement Freud</a>,
+              
+              <a href="/topic/donald-horne/" class="link-secondary">Donald Horne</a>,
+              
+              <a href="/topic/graham-kennedy/" class="link-secondary">Graham Kennedy</a>,
+              
+              <a href="/topic/dame-nellie-melba/" class="link-secondary">Dame Nellie Melba</a>,
+              
+              <a href="/topic/patrick-white/" class="link-secondary">Patrick White</a>,
+              
+              <a href="/topic/alwyn-kurts/" class="link-secondary">Alwyn Kurts</a>,
+              
+              <a href="/topic/the-seekers/" class="link-secondary">The Seekers</a>
+          </p>
+        
+      </div>
+    
       <div class="py-4 border-bottom">
         <a href="/articles/the-age/once-footy-dominated-our-lives-now-things-are-much-worse/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Once, footy dominated our lives. Now, things are much worse”</h3></a>
         <p class="text-muted small mb-2">Published
@@ -247,14 +287,8 @@
     <footer class="container">
       <div class="row border-top py-5">
   <div class="col-12">
-    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3"> 
-    <br><small><a href="/feed.xml"><i class="fa fa-rss" aria-hidden="true"></i>
- Subscribe via RSS</a> for content updates on this site</small>
-<br><small>We're volunteers, <a href="https://ko-fi.com/jackdunstan">support us</a> to research, digitise, edit to bring this content to a new audience - with a <i class="fa fa-coffee" aria-hidden="true"></i>
-</a></small>
-<br>
-<small>Built and maintained by <a href="https://www.linkedin.com/in/jackdunstan//">Jack Dunstan</a></i>
-</a></small>
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site</a></small>
 <br>
     <br>&copy; Copyright - The literary estate of Keith Dunstan.
 <br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
@@ -268,6 +302,36 @@
       const currentYear = new Date().getFullYear();
       yearElement.textContent = '1962-' + currentYear;
     }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
   });
 </script>
 <script src="/js/bootstrap.bundle.min.js"></script>

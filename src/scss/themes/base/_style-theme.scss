@@ -22,22 +22,27 @@ body {
   --bs-highlight-bg: rgba(var(--bs-success-rgb), 0.35);
 }
 
-// Accordion active/expanded state — success green to match the link colour
-// above, instead of Bootstrap's default $primary blue. The active
-// background/text just need re-pointing at the --bs-success-* custom
-// properties Bootstrap already generates (which are dark-mode aware), but
-// the expand/collapse chevron is baked into an SVG data URI at compile
+// Accordion chevron and expanded state — success green to match the link
+// colour above, instead of Bootstrap's default $primary blue/$body-color.
+// The active background/text just need re-pointing at the --bs-success-*
+// custom properties Bootstrap already generates (which are dark-mode
+// aware), but the chevron itself is baked into an SVG data URI at compile
 // time rather than using currentColor, so it has to be regenerated with
-// Bootstrap's own markup, swapping in the success colour. Light and dark
-// mode use different SVG markup for that chevron (Bootstrap swaps the
-// whole icon, not just its colour), so both need a version — see the
+// Bootstrap's own markup, swapping in the success colour — for both the
+// collapsed (closed) icon and the expanded (active) one, so the chevron
+// reads green before opening too, not just after. Light and dark mode use
+// different SVG markup for that chevron (Bootstrap swaps the whole icon,
+// not just its colour), so both need a version — see the
 // [data-bs-theme=dark] override further down for the dark one.
-$accordion-btn-active-icon-success: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='#{$success-text-emphasis}' stroke-linecap='round' stroke-linejoin='round'><path d='m2 5 6 6 6-6'/></svg>");
-$accordion-btn-active-icon-success-dark: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$success-text-emphasis-dark}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708'/></svg>");
+$accordion-btn-icon-success: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='#{$success-text-emphasis}' stroke-linecap='round' stroke-linejoin='round'><path d='m2 5 6 6 6-6'/></svg>");
+$accordion-btn-icon-success-dark: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$success-text-emphasis-dark}'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708'/></svg>");
+$accordion-btn-active-icon-success: $accordion-btn-icon-success;
+$accordion-btn-active-icon-success-dark: $accordion-btn-icon-success-dark;
 
 .accordion {
   --bs-accordion-active-bg: var(--bs-success-bg-subtle);
   --bs-accordion-active-color: var(--bs-success-text-emphasis);
+  --bs-accordion-btn-icon: #{escape-svg($accordion-btn-icon-success)};
   --bs-accordion-btn-active-icon: #{escape-svg($accordion-btn-active-icon-success)};
 }
 
@@ -149,6 +154,7 @@ $accordion-btn-active-icon-success-dark: url("data:image/svg+xml,<svg xmlns='htt
   --bs-link-hover-color-rgb: #{to-rgb($success-text-emphasis-dark)};
 
   .accordion-button::after {
+    --bs-accordion-btn-icon: #{escape-svg($accordion-btn-icon-success-dark)};
     --bs-accordion-btn-active-icon: #{escape-svg($accordion-btn-active-icon-success-dark)};
   }
 

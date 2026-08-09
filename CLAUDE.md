@@ -28,6 +28,7 @@
 
 **Key constraints:**
 - Do not manually edit `dev/` or `docs/` — both are build output
+- Link targets are enforced globally, not per-link: `src/_includes/snippets/footer.njk` runs a script on every page that opens any link to a different hostname in a new tab (`target="_blank" rel="noopener"`) and forces same-hostname links to stay in the current tab. Don't hand-add `target="_blank"` to individual `<a>` tags in templates or content — it's redundant and can drift from the rule. This covers hand-written links in `.njk` templates and markdown-rendered links in content files alike (including the Trove source link appended to every transcribed article), so newly added content gets correct behaviour automatically.
 - Preserve Keith Dunstan's voice exactly; Australian English; single-quote dialogue
 - Tags are granular proper nouns only (people, places, organisations)
 - Article files should have 5–15 tags; book chapter files may have empty tags

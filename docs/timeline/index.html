@@ -103,7 +103,9 @@
         <li class="nav-item me-1">
           <a class="nav-link" href="/books">Books</a>
         </li>
-    
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
         <li class="nav-item me-1">
           <a class="nav-link" href="/search.html">Search</a>
         </li>
@@ -155,18 +157,19 @@
       <h1 class="h2 mb-2">Timeline</h1>
 </header>
 
-<p class="text-muted">Every transcribed article in the archive, alongside Keith Dunstan's published books, in the order they appeared &mdash; from his earliest Walkabout pieces through to his latest columns in The Age. Entries are coloured by publication and books are marked as notable works and shown larger; where the full text isn't on this site, the entry isn't a link. Select a linked entry to read it in full.</p>
+<p class="text-muted">Every transcribed article in the archive, alongside Keith Dunstan's published books, in the order they appeared &mdash; from his earliest Walkabout pieces through to his latest columns in The Age.<br> Select a linked entry to read it in full.</p>
 
-<div class="d-flex flex-wrap justify-content-between align-items-start gap-3 mb-3">
-  <div class="timeline-legend d-flex flex-wrap gap-3 small text-muted" aria-hidden="true">
-    <span class="timeline-legend-item"><span class="timeline-legend-dot timeline-pub-the-age"></span>The Age</span>
-    <span class="timeline-legend-item"><span class="timeline-legend-dot timeline-pub-the-bulletin"></span>The Bulletin</span>
-    <span class="timeline-legend-item"><span class="timeline-legend-dot timeline-pub-walkabout-magazine"></span>Walkabout Magazine</span>
-    <span class="timeline-legend-item"><span class="timeline-legend-dot timeline-pub-other"></span>The Australian Gourmet</span>
-    <span class="timeline-legend-item"><span class="timeline-legend-dot timeline-legend-dot--book"></span>Book</span>
+<div class="mb-3">
+  <div class="timeline-legend d-flex flex-wrap gap-3 small text-muted mb-2" role="group" aria-label="Filter by publication">
+    <button type="button" class="timeline-legend-item" data-filter="the-age" aria-pressed="true"><span class="timeline-legend-dot timeline-pub-the-age"></span>The Age</button>
+    <button type="button" class="timeline-legend-item" data-filter="the-bulletin" aria-pressed="true"><span class="timeline-legend-dot timeline-pub-the-bulletin"></span>The Bulletin</button>
+    <button type="button" class="timeline-legend-item" data-filter="walkabout-magazine" aria-pressed="true"><span class="timeline-legend-dot timeline-pub-walkabout-magazine"></span>Walkabout Magazine</button>
+    <button type="button" class="timeline-legend-item" data-filter="other" aria-pressed="true"><span class="timeline-legend-dot timeline-pub-other"></span>The Australian Gourmet</button>
+    <button type="button" class="timeline-legend-item" data-filter="book" aria-pressed="true"><span class="timeline-legend-dot timeline-legend-dot--book"></span>Book</button>
+    <button type="button" class="timeline-legend-reset small text-muted">Reset</button>
   </div>
   <div class="d-flex align-items-center gap-2">
-    <label for="timeline-sort" class="form-label small text-muted mb-0">Sort by</label>
+    <label for="timeline-sort" class="form-label small text-muted mb-0 text-nowrap">Sort by</label>
     <select id="timeline-sort" class="form-select form-select-sm" style="max-width: 12rem;">
       <option value="date-asc" selected>Date, oldest first</option>
       <option value="date-desc">Date, newest first</option>
@@ -180,19 +183,23 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-book timeline-item--book"
     data-date="1962-01-01"
     data-publication="Book"
+    data-pub-slug="book"
     data-title="The paddock that grew">
     <span class="timeline-dot" aria-hidden="true"></span>
     
-    <span class="timeline-card">
+    <a
+      href="/the-paddock-that-grew"
+      class="timeline-card">
     
       <time class="timeline-date" datetime="1962-01-01">1962</time>
       <span class="timeline-title">The paddock that grew</span>
       <span class="badge timeline-badge rounded-pill fw-normal">Book</span>
-    </span>
+    </a>
     
       <p class="timeline-summary text-muted small mb-0">Keith&#39;s first book, about the origins and history of the Melbourne Cricket Ground, tracing its transformation from a swampy paddock beside the Yarra into Australia&#39;s premier sporting arena.</p>
     
@@ -200,16 +207,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-walkabout-magazine"
     data-date="1962-02-01"
     data-publication="Walkabout Magazine"
+    data-pub-slug="walkabout-magazine"
     data-title="Bird Watching">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/walkabout-magazine/bird-watching/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-02-01">01 Feb 1962</time>
@@ -223,16 +231,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-walkabout-magazine"
     data-date="1962-02-01"
     data-publication="Walkabout Magazine"
+    data-pub-slug="walkabout-magazine"
     data-title="Rough Riding for Five Minutes a Year">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/walkabout-magazine/rough-riding-for-five-minutes-a-year/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-02-01">01 Feb 1962</time>
@@ -246,16 +255,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-03-03"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="The New Image">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/the-new-image/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-03-03">03 Mar 1962</time>
@@ -269,16 +279,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-03-17"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="Football and TV">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/football-and-tv/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-03-17">17 Mar 1962</time>
@@ -292,16 +303,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-03-24"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="No Camels for Swanston Street">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/no-camels-for-swanston-street/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-03-24">24 Mar 1962</time>
@@ -315,16 +327,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-03-31"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="The New Breed">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/the-new-breed/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-03-31">31 Mar 1962</time>
@@ -338,16 +351,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-04-07"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="The Lash">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/the-lash/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-04-07">07 Apr 1962</time>
@@ -361,16 +375,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-04-14"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="Forbidden City">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/forbidden-city/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-04-14">14 Apr 1962</time>
@@ -384,16 +399,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-04-21"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="To the Spencer Street Station">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/to-the-spencer-street-station/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-04-21">21 Apr 1962</time>
@@ -407,16 +423,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-04-28"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="Football and M.F.L.">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/football-and-mfl/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-04-28">28 Apr 1962</time>
@@ -430,16 +447,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-05-05"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="Rembrandt and Phar Lap">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/rembrandt-and-phar-lap/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-05-05">05 May 1962</time>
@@ -453,16 +471,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-05-12"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="The Release of John Bryan Kerr">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/the-release-of-john-bryan-kerr/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-05-12">12 May 1962</time>
@@ -476,16 +495,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-05-26"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="A Viscount, a Viscount, a Viscount . . .">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/a-viscount-a-viscount-a-viscount/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-05-26">26 May 1962</time>
@@ -499,16 +519,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-06-02"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="Not Only Serious – Solemn!">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/not-only-serious-solemn/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-06-02">02 Jun 1962</time>
@@ -522,16 +543,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-06-09"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="The Great Bank Robbery">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/the-great-bank-robbery/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-06-09">09 Jun 1962</time>
@@ -545,16 +567,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-06-16"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="The Stampede and the Fall-Out Shelter">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/the-stampede-and-the-fall-out-shelter/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-06-16">16 Jun 1962</time>
@@ -568,16 +591,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-06-23"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="Wild Life in Suburbia">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/wild-life-in-suburbia/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-06-23">23 Jun 1962</time>
@@ -591,16 +615,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-06-30"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="Now They Call Him &quot;Satchmo&quot; Bolte">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/now-they-call-him-satchmo-bolte/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-06-30">30 Jun 1962</time>
@@ -614,16 +639,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-walkabout-magazine"
     data-date="1962-07-01"
     data-publication="Walkabout Magazine"
+    data-pub-slug="walkabout-magazine"
     data-title="Paddy&#39;s Market to Luxury Hotel">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/walkabout-magazine/paddys-market-to-luxury-hotel/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-07-01">01 Jul 1962</time>
@@ -637,16 +663,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-07-14"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="Inside Toorak">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/inside-toorak/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-07-14">14 Jul 1962</time>
@@ -660,16 +687,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-07-28"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="A Little Red Rented Rowboat">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/a-little-red-rented-rowboat/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-07-28">28 Jul 1962</time>
@@ -683,16 +711,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-08-04"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="Return of Norm and Edna Everage">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/return-of-norm-and-edna-everage/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-08-04">04 Aug 1962</time>
@@ -706,16 +735,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-08-11"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="Not Just a Beer-Up Club!">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/not-just-a-beer-up-club/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-08-11">11 Aug 1962</time>
@@ -729,16 +759,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-08-18"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="The Coal Exchange Rotunda">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/the-coal-exchange-rotunda/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-08-18">18 Aug 1962</time>
@@ -752,16 +783,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-08-25"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="£500 Is a Poodle">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/500-is-a-poodle/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-08-25">25 Aug 1962</time>
@@ -775,16 +807,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-09-01"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="A Bowling Alley and a Bidet">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/a-bowling-alley-and-a-bidet/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-09-01">01 Sep 1962</time>
@@ -798,16 +831,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-09-08"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="St Kilda Rd — or Disneyland Modern">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/st-kilda-rd-or-disneyland-modern/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-09-08">08 Sep 1962</time>
@@ -821,16 +855,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-09-15"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="The Fortress Affair — or SP in the Raw">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/the-fortress-affair-or-sp-in-the-raw/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-09-15">15 Sep 1962</time>
@@ -844,16 +879,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-09-22"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="£7000 for &quot;Divinely Dressed Ladies&quot;">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/7000-for-divinely-dressed-ladies/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-09-22">22 Sep 1962</time>
@@ -867,16 +903,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-09-29"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="Kindly Smile from an Aberdeen Angus">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/kindly-smile-from-an-aberdeen-angus/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-09-29">29 Sep 1962</time>
@@ -890,16 +927,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-10-06"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="Among My Souvenirs">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/among-my-souvenirs/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-10-06">06 Oct 1962</time>
@@ -913,16 +951,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-10-13"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="Liquor and the Silk Trade">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/liquor-and-the-silk-trade/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-10-13">13 Oct 1962</time>
@@ -936,16 +975,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-10-20"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="Heavens! Changes at Georges?">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/heavens-changes-at-georges/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-10-20">20 Oct 1962</time>
@@ -959,16 +999,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-10-27"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="Mr Bolte and the Students">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/mr-bolte-and-the-students/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-10-27">27 Oct 1962</time>
@@ -982,16 +1023,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-11-03"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="&quot;La Ville de Beauté&quot; (as the French Say)">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/la-ville-de-beaute-as-the-french-say/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-11-03">03 Nov 1962</time>
@@ -1005,16 +1047,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-11-10"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="&quot;A Wonderful Lot of Drinkin&#39; Men&quot;">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/a-wonderful-lot-of-drinkin-men/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-11-10">10 Nov 1962</time>
@@ -1028,16 +1071,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-11-17"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="The Cup - Some Bowlers Were Low and Rakish">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/the-cup-some-bowlers-were-low-and-rakish/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-11-17">17 Nov 1962</time>
@@ -1051,16 +1095,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-11-24"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="NSW–Vic: Is Peaceful Co-Existence Possible?">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/nsw-vic-is-peaceful-co-existence-possible/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-11-24">24 Nov 1962</time>
@@ -1074,16 +1119,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-12-01"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="Rediscovering the Yarra">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/rediscovering-the-yarra/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-12-01">01 Dec 1962</time>
@@ -1097,16 +1143,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-walkabout-magazine"
     data-date="1962-12-01"
     data-publication="Walkabout Magazine"
+    data-pub-slug="walkabout-magazine"
     data-title="Epicurean Melbourne">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/walkabout-magazine/epicurean-melbourne/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-12-01">01 Dec 1962</time>
@@ -1120,16 +1167,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-12-15"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="An Albert Tucker for 2s. a Mile">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/an-albert-tucker-for-2s-a-mile/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-12-15">15 Dec 1962</time>
@@ -1143,16 +1191,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-12-22"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="Mr Fogarty&#39;s Silent Spokesman">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/mr-fogartys-silent-spokesman/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-12-22">22 Dec 1962</time>
@@ -1166,16 +1215,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1962-12-29"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="A Rug of Abyssinian Monkey Skins">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/a-rug-of-abyssinian-monkey-skins/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1962-12-29">29 Dec 1962</time>
@@ -1189,16 +1239,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-walkabout-magazine"
     data-date="1963-01-01"
     data-publication="Walkabout Magazine"
+    data-pub-slug="walkabout-magazine"
     data-title="Freedom of Beach">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/walkabout-magazine/freedom-of-beach/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1963-01-01">01 Jan 1963</time>
@@ -1212,16 +1263,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1963-01-05"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="Gather Ye Rosebuds While Ye May">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/gather-ye-rosebuds-while-ye-may/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1963-01-05">05 Jan 1963</time>
@@ -1235,16 +1287,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1963-01-12"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="Henry Bolte&#39;s Brilliant Duck">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/henry-boltes-brilliant-duck/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1963-01-12">12 Jan 1963</time>
@@ -1258,16 +1311,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1963-01-19"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="Senator Kennelly and the Monster">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/senator-kennelly-and-the-monster/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1963-01-19">19 Jan 1963</time>
@@ -1281,16 +1335,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1963-01-26"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="Under the King Street Bridge">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/under-the-king-street-bridge/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1963-01-26">26 Jan 1963</time>
@@ -1304,16 +1359,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1963-02-09"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="Mayhem, Rapine and Sin">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/mayhem-rapine-and-sin/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1963-02-09">09 Feb 1963</time>
@@ -1327,16 +1383,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1963-02-23"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="About Cigarettes and Gondolas">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/about-cigarettes-and-gondolas/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1963-02-23">23 Feb 1963</time>
@@ -1350,16 +1407,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1963-03-09"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="All the Queen&#39;s Men">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/all-the-queens-men/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1963-03-09">09 Mar 1963</time>
@@ -1373,16 +1431,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1963-03-16"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="In the Depths of SE 2">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/in-the-depths-of-se-2/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1963-03-16">16 Mar 1963</time>
@@ -1396,16 +1455,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1963-03-30"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="Bunnies in Black Silk Stockings">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/bunnies-in-black-silk-stockings/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1963-03-30">30 Mar 1963</time>
@@ -1419,16 +1479,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1963-04-06"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="Those Lucky OYO Men">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/those-lucky-oyo-men/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1963-04-06">06 Apr 1963</time>
@@ -1442,16 +1503,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1963-04-13"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="Getting Publicity for Peanuts">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/getting-publicity-for-peanuts/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1963-04-13">13 Apr 1963</time>
@@ -1465,16 +1527,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-walkabout-magazine"
     data-date="1963-07-01"
     data-publication="Walkabout Magazine"
+    data-pub-slug="walkabout-magazine"
     data-title="From Prickly Pear to Petroleum">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/walkabout-magazine/from-prickly-pear-to-petroleum/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1963-07-01">01 Jul 1963</time>
@@ -1488,16 +1551,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1963-07-27"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="When Hoyts was Hoyts">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/when-hoyts-was-hoyts/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1963-07-27">27 Jul 1963</time>
@@ -1511,16 +1575,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-walkabout-magazine"
     data-date="1963-12-01"
     data-publication="Walkabout Magazine"
+    data-pub-slug="walkabout-magazine"
     data-title="Christmas across a continent">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/walkabout-magazine/christmas-across-a-continent/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1963-12-01">01 Dec 1963</time>
@@ -1534,16 +1599,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1964-01-25"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="The Capitol and ‘The World&#39;s Mightiest Spectacle.’">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/the-capitol-and-the-worlds-mightiest-spectacle/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1964-01-25">25 Jan 1964</time>
@@ -1557,16 +1623,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1964-03-14"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="When Flappers Fluttered Through the Flames’">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/when-flappers-fluttered-through-the-flames/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1964-03-14">14 Mar 1964</time>
@@ -1580,16 +1647,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-walkabout-magazine"
     data-date="1964-05-01"
     data-publication="Walkabout Magazine"
+    data-pub-slug="walkabout-magazine"
     data-title="Melbourne&#39;s Evergreen Exhibition">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/walkabout-magazine/melbournes-evergreen-exhibition/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1964-05-01">01 May 1964</time>
@@ -1603,16 +1671,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-walkabout-magazine"
     data-date="1964-12-01"
     data-publication="Walkabout Magazine"
+    data-pub-slug="walkabout-magazine"
     data-title="Adventures of a Would-be Wine Snob">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/walkabout-magazine/adventures-of-a-would-be-wine-snob/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1964-12-01">01 Dec 1964</time>
@@ -1626,16 +1695,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-walkabout-magazine"
     data-date="1965-05-01"
     data-publication="Walkabout Magazine"
+    data-pub-slug="walkabout-magazine"
     data-title="Battle of the Flower">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/walkabout-magazine/battle-of-the-flower/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1965-05-01">01 May 1965</time>
@@ -1649,16 +1719,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-book timeline-item--book"
     data-date="1966-01-01"
     data-publication="Book"
+    data-pub-slug="book"
     data-title="Supporting a column">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/supporting-a-column"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1966-01-01">1966</time>
@@ -1672,16 +1743,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1966-04-09"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="The Mighty Wurlitzer Rose in a Pool of Light.">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/the-mighty-wurlitzer-rose-in-a-pool-of-light/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1966-04-09">09 Apr 1966</time>
@@ -1695,16 +1767,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-walkabout-magazine"
     data-date="1966-10-01"
     data-publication="Walkabout Magazine"
+    data-pub-slug="walkabout-magazine"
     data-title="Melbourne Cup Winners: Horses or Hats?">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/walkabout-magazine/melbourne-cup-winners-horses-or-hats/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1966-10-01">01 Oct 1966</time>
@@ -1718,16 +1791,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-walkabout-magazine"
     data-date="1966-12-01"
     data-publication="Walkabout Magazine"
+    data-pub-slug="walkabout-magazine"
     data-title="1966 and All That">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/walkabout-magazine/1966-and-all-that/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1966-12-01">01 Dec 1966</time>
@@ -1741,16 +1815,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1967-03-18"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="This is a fine state to be in">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/batmans-melbourne-this-is-a-fine-state-to-be-in/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1967-03-18">18 Mar 1967</time>
@@ -1764,16 +1839,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1967-04-15"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="Alas, poor Tivoli, I knew it well.">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/alas-poor-tivoli-i-knew-it-well/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1967-04-15">15 Apr 1967</time>
@@ -1787,16 +1863,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-bulletin"
     data-date="1967-12-30"
     data-publication="The Bulletin"
+    data-pub-slug="the-bulletin"
     data-title="The Ghost of the Princess">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/bulletin/the-ghost-of-the-princess/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1967-12-30">30 Dec 1967</time>
@@ -1810,16 +1887,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-walkabout-magazine"
     data-date="1968-01-01"
     data-publication="Walkabout Magazine"
+    data-pub-slug="walkabout-magazine"
     data-title="The Bikini, What Next?">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/walkabout-magazine/the-bikini-what-next/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1968-01-01">01 Jan 1968</time>
@@ -1833,16 +1911,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-book timeline-item--book"
     data-date="1968-01-01"
     data-publication="Book"
+    data-pub-slug="book"
     data-title="Wowsers">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/wowsers"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1968-01-01">1968</time>
@@ -1856,16 +1935,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-walkabout-magazine"
     data-date="1968-04-01"
     data-publication="Walkabout Magazine"
+    data-pub-slug="walkabout-magazine"
     data-title="The Year of Anti-Football Protest">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/walkabout-magazine/the-year-of-anti-football-protest/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1968-04-01">01 Apr 1968</time>
@@ -1879,16 +1959,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-other"
     data-date="1968-05-01"
     data-publication="The Australian Gourmet"
+    data-pub-slug="other"
     data-title="How to cheat at wine tastings">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/the-australian-gourmet/how-to-cheat-at-wine-tastings/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1968-05-01">01 May 1968</time>
@@ -1902,16 +1983,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-walkabout-magazine"
     data-date="1968-10-01"
     data-publication="Walkabout Magazine"
+    data-pub-slug="walkabout-magazine"
     data-title="Beef Boom in Tombstone Territory">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/walkabout-magazine/beef-boom-in-tombstone-territory/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1968-10-01">01 Oct 1968</time>
@@ -1925,16 +2007,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-walkabout-magazine"
     data-date="1969-05-01"
     data-publication="Walkabout Magazine"
+    data-pub-slug="walkabout-magazine"
     data-title="Walkabout Profile: Jean Battersby">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/walkabout-magazine/walkabout-profile/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1969-05-01">01 May 1969</time>
@@ -1948,16 +2031,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-walkabout-magazine"
     data-date="1969-12-01"
     data-publication="Walkabout Magazine"
+    data-pub-slug="walkabout-magazine"
     data-title="Summer Madness">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/walkabout-magazine/summer-madness/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1969-12-01">01 Dec 1969</time>
@@ -1971,16 +2055,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-book timeline-item--book"
     data-date="1971-01-01"
     data-publication="Book"
+    data-pub-slug="book"
     data-title="The Australian Uppercrust Book">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/books/the-australian-uppercrust-book/snobbery-in-business/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1971-01-01">1971</time>
@@ -1994,16 +2079,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-book timeline-item--book"
     data-date="1972-01-01"
     data-publication="Book"
+    data-pub-slug="book"
     data-title="Knockers">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/knockers"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1972-01-01">1972</time>
@@ -2017,16 +2103,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-book timeline-item--book"
     data-date="1973-01-01"
     data-publication="Book"
+    data-pub-slug="book"
     data-title="Sports">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/sports"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1973-01-01">1973</time>
@@ -2040,10 +2127,12 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-book timeline-item--book"
     data-date="1979-01-01"
     data-publication="Book"
+    data-pub-slug="book"
     data-title="The store on the hill">
     <span class="timeline-dot" aria-hidden="true"></span>
     
@@ -2060,16 +2149,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-book timeline-item--book"
     data-date="1980-01-01"
     data-publication="Book"
+    data-pub-slug="book"
     data-title="Ratbags">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/ratbags"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1980-01-01">1980</time>
@@ -2083,16 +2173,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-book timeline-item--book"
     data-date="1980-01-01"
     data-publication="Book"
+    data-pub-slug="book"
     data-title="Saint Ned">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/saint-ned"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1980-01-01">1980</time>
@@ -2106,16 +2197,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-book timeline-item--book"
     data-date="1989-01-01"
     data-publication="Book"
+    data-pub-slug="book"
     data-title="A Day in the Life of Australia">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/a-day-in-the-life-of-australia"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1989-01-01">1989</time>
@@ -2129,16 +2221,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-book timeline-item--book"
     data-date="1990-01-01"
     data-publication="Book"
+    data-pub-slug="book"
     data-title="No brains at all">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/no-brains-at-all"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1990-01-01">1990</time>
@@ -2152,10 +2245,12 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-book timeline-item--book"
     data-date="1991-01-01"
     data-publication="Book"
+    data-pub-slug="book"
     data-title="No brains on Tuesday">
     <span class="timeline-dot" aria-hidden="true"></span>
     
@@ -2172,16 +2267,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-book timeline-item--book"
     data-date="1994-01-01"
     data-publication="Book"
+    data-pub-slug="book"
     data-title="My life with the demon">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/my-life-with-the-demon"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1994-01-01">1994</time>
@@ -2195,16 +2291,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-age"
     data-date="1997-10-13"
     data-publication="The Age"
+    data-pub-slug="the-age"
     data-title="This street was made for walking">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/the-age/this-street-was-made-for-walking/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1997-10-13">13 Oct 1997</time>
@@ -2218,16 +2315,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-age"
     data-date="1997-10-27"
     data-publication="The Age"
+    data-pub-slug="the-age"
     data-title="The happy thwack of cash on willow">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/the-age/the-happy-thwack-of-cash-on-willow/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1997-10-27">27 Oct 1997</time>
@@ -2241,16 +2339,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-age"
     data-date="1997-12-29"
     data-publication="The Age"
+    data-pub-slug="the-age"
     data-title="Harbor no grudge, it&#39;s better here; The bay and me">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/the-age/harbor-no-grudge-its-better-here/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1997-12-29">29 Dec 1997</time>
@@ -2264,16 +2363,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-age"
     data-date="1998-03-05"
     data-publication="The Age"
+    data-pub-slug="the-age"
     data-title="Moombas and shakers">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/the-age/moombas-and-shakers/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1998-03-05">05 Mar 1998</time>
@@ -2287,16 +2387,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-age"
     data-date="1998-08-08"
     data-publication="The Age"
+    data-pub-slug="the-age"
     data-title="A new clutch of ugly ducklings blots the cityscape">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/the-age/a-new-clutch-of-ugly-ducklings-blots-the-cityscape/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1998-08-08">08 Aug 1998</time>
@@ -2310,16 +2411,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-age"
     data-date="1998-10-31"
     data-publication="The Age"
+    data-pub-slug="the-age"
     data-title="On the right track at last">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/the-age/on-the-right-track-at-last/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1998-10-31">31 Oct 1998</time>
@@ -2333,16 +2435,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-age"
     data-date="1998-11-14"
     data-publication="The Age"
+    data-pub-slug="the-age"
     data-title="Once a vision, now a site for sore eyes">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/the-age/once-a-vision-now-a-site-for-sore-eyes/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1998-11-14">14 Nov 1998</time>
@@ -2356,16 +2459,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-age"
     data-date="1998-12-05"
     data-publication="The Age"
+    data-pub-slug="the-age"
     data-title="After 500 kilometres, still the kings (and queens) of the road">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/the-age/after-500-kilometres-still-the-kings-and-queens-of-the-road/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1998-12-05">05 Dec 1998</time>
@@ -2379,16 +2483,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-book timeline-item--book"
     data-date="1999-01-01"
     data-publication="Book"
+    data-pub-slug="book"
     data-title="The confessions of a bicycle nut">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/the-confessions-of-a-bicycle-nut"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1999-01-01">1999</time>
@@ -2402,16 +2507,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-age"
     data-date="1999-05-12"
     data-publication="The Age"
+    data-pub-slug="the-age"
     data-title="Obituary: Richard Cudlipp">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/the-age/obituary-richard-cudlipp/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="1999-05-12">12 May 1999</time>
@@ -2425,16 +2531,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-book timeline-item--book"
     data-date="2004-01-01"
     data-publication="Book"
+    data-pub-slug="book"
     data-title="Batman in the Bulletin: The Melbourne I Remember">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/batman-in-the-bulletin"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="2004-01-01">2004</time>
@@ -2448,10 +2555,12 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-book timeline-item--book"
     data-date="2005-01-01"
     data-publication="Book"
+    data-pub-slug="book"
     data-title="Collins: the story of Australia&#39;s premier street">
     <span class="timeline-dot" aria-hidden="true"></span>
     
@@ -2468,10 +2577,12 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-book timeline-item--book"
     data-date="2005-01-01"
     data-publication="Book"
+    data-pub-slug="book"
     data-title="Moonee Ponds to Broadway">
     <span class="timeline-dot" aria-hidden="true"></span>
     
@@ -2488,16 +2599,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-age"
     data-date="2010-12-29"
     data-publication="The Age"
+    data-pub-slug="the-age"
     data-title="Joy of sport lost in a country that takes it far too seriously">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/the-age/joy-of-sport-lost-in-a-country-that-takes-it-far-too-seriously/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="2010-12-29">29 Dec 2010</time>
@@ -2511,16 +2623,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-age"
     data-date="2011-01-04"
     data-publication="The Age"
+    data-pub-slug="the-age"
     data-title="Plagues be upon us, let&#39;s hope for no divine retribution">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/the-age/plagues-be-upon-us-lets-hope-for-no-divine-retribution/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="2011-01-04">04 Jan 2011</time>
@@ -2534,16 +2647,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-age"
     data-date="2011-01-27"
     data-publication="The Age"
+    data-pub-slug="the-age"
     data-title="It&#39;s crunch time for Melbourne: we need a congestion tax">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/the-age/its-crunch-time-for-melbourne-we-need-a-congestion-tax/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="2011-01-27">27 Jan 2011</time>
@@ -2557,16 +2671,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-age"
     data-date="2011-06-06"
     data-publication="The Age"
+    data-pub-slug="the-age"
     data-title="Swear fines a nonsense when invective is so ineffective">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/the-age/swear-fines-a-nonsense-when-invective-is-so-ineffective/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="2011-06-06">06 Jun 2011</time>
@@ -2580,16 +2695,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-age"
     data-date="2011-07-17"
     data-publication="The Age"
+    data-pub-slug="the-age"
     data-title="All I know about ethics, I learned at sword-point">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/the-age/all-i-know-about-ethics-i-learned-at-sword-point/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="2011-07-17">17 Jul 2011</time>
@@ -2603,16 +2719,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-age"
     data-date="2011-08-22"
     data-publication="The Age"
+    data-pub-slug="the-age"
     data-title="Once, footy dominated our lives. Now, things are much worse">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/the-age/once-footy-dominated-our-lives-now-things-are-much-worse/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="2011-08-22">22 Aug 2011</time>
@@ -2626,16 +2743,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-age"
     data-date="2012-02-11"
     data-publication="The Age"
+    data-pub-slug="the-age"
     data-title="Obituary: Walter Joseph Hauser">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/the-age/obituary-walter-joseph-hauser/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="2012-02-11">11 Feb 2012</time>
@@ -2649,16 +2767,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-the-age"
     data-date="2012-06-21"
     data-publication="The Age"
+    data-pub-slug="the-age"
     data-title="Oh, for the daily thud on my lawn">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="/articles/the-age/oh-for-the-daily-thud-on-my-lawn/"
-      
       class="timeline-card">
     
       <time class="timeline-date" datetime="2012-06-21">21 Jun 2012</time>
@@ -2672,16 +2791,17 @@
   
   
   
+  
   <div
     class="timeline-item timeline-pub-book timeline-item--book"
     data-date="2017-01-01"
     data-publication="Book"
+    data-pub-slug="book"
     data-title="Kiwi: The Australian brand that brought a shine to the world">
     <span class="timeline-dot" aria-hidden="true"></span>
     
     <a
       href="https://www.allenandunwin.com/browse/books/general-books/history/Kiwi-Keith-Dunstan-9781760297282"
-      target="_blank" rel="noopener"
       class="timeline-card">
     
       <time class="timeline-date" datetime="2017-01-01">2017</time>
@@ -2727,6 +2847,9 @@
   }
   .timeline-item:last-child {
     padding-bottom: 0;
+  }
+  .timeline-item--hidden {
+    display: none;
   }
   .timeline-dot {
     position: absolute;
@@ -2801,6 +2924,33 @@
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
+    border: 0;
+    background: none;
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+    font-family: inherit;
+    color: var(--bs-secondary-color);
+    cursor: pointer;
+    opacity: 1;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    transition: opacity 0.15s ease;
+  }
+  .timeline-legend-item[aria-pressed="false"] {
+    opacity: 0.4;
+  }
+  .timeline-legend-item:hover,
+  .timeline-legend-item:focus-visible {
+    color: var(--bs-body-color);
+  }
+  .timeline-legend-reset {
+    border: 0;
+    background: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: underline;
+    cursor: pointer;
   }
   .timeline-legend-dot {
     display: inline-block;
@@ -2823,7 +2973,9 @@
   (function () {
     var select = document.getElementById('timeline-sort');
     var list = document.getElementById('timeline-list');
-    if (!select || !list) return;
+    var legend = document.querySelector('.timeline-legend');
+    var resetButton = legend ? legend.querySelector('.timeline-legend-reset') : null;
+    if (!list) return;
 
     var sorters = {
       'date-asc': function (a, b) { return a.dataset.date.localeCompare(b.dataset.date); },
@@ -2837,12 +2989,47 @@
       }
     };
 
-    select.addEventListener('change', function () {
-      var sorter = sorters[select.value];
-      if (!sorter) return;
-      var items = Array.prototype.slice.call(list.querySelectorAll('.timeline-item'));
-      items.sort(sorter).forEach(function (item) { list.appendChild(item); });
-    });
+    if (select) {
+      select.addEventListener('change', function () {
+        var sorter = sorters[select.value];
+        if (!sorter) return;
+        var items = Array.prototype.slice.call(list.querySelectorAll('.timeline-item'));
+        items.sort(sorter).forEach(function (item) { list.appendChild(item); });
+      });
+    }
+
+    if (legend) {
+      var filterButtons = Array.prototype.slice.call(legend.querySelectorAll('[data-filter]'));
+      var activeFilters = filterButtons.map(function (button) { return button.dataset.filter; });
+
+      function applyFilters() {
+        list.querySelectorAll('.timeline-item').forEach(function (item) {
+          item.classList.toggle('timeline-item--hidden', activeFilters.indexOf(item.dataset.pubSlug) === -1);
+        });
+      }
+
+      filterButtons.forEach(function (button) {
+        button.addEventListener('click', function () {
+          var filter = button.dataset.filter;
+          var index = activeFilters.indexOf(filter);
+          if (index === -1) {
+            activeFilters.push(filter);
+          } else {
+            activeFilters.splice(index, 1);
+          }
+          button.setAttribute('aria-pressed', index === -1 ? 'true' : 'false');
+          applyFilters();
+        });
+      });
+
+      if (resetButton) {
+        resetButton.addEventListener('click', function () {
+          activeFilters = filterButtons.map(function (button) { return button.dataset.filter; });
+          filterButtons.forEach(function (button) { button.setAttribute('aria-pressed', 'true'); });
+          applyFilters();
+        });
+      }
+    }
   })();
 </script>
 
@@ -2854,14 +3041,8 @@
     <footer class="container">
       <div class="row border-top py-5">
   <div class="col-12">
-    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3"> 
-    <br><small><a href="/feed.xml"><i class="fa fa-rss" aria-hidden="true"></i>
- Subscribe via RSS</a> for content updates on this site</small>
-<br><small>We're volunteers, <a href="https://ko-fi.com/jackdunstan">support us</a> to research, digitise, edit to bring this content to a new audience - with a <i class="fa fa-coffee" aria-hidden="true"></i>
-</a></small>
-<br>
-<small>Built and maintained by <a href="https://www.linkedin.com/in/jackdunstan//">Jack Dunstan</a></i>
-</a></small>
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site</a></small>
 <br>
     <br>&copy; Copyright - The literary estate of Keith Dunstan.
 <br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
@@ -2875,6 +3056,36 @@
       const currentYear = new Date().getFullYear();
       yearElement.textContent = '1962-' + currentYear;
     }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
   });
 </script>
 <script src="/js/bootstrap.bundle.min.js"></script>

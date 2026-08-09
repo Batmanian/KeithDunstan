@@ -40,6 +40,8 @@ topics:
     description: Adrian Benns was a wartime friend of Keith Dunstan's who turned up unannounced on the island of Labuan during his RAAF service in 1945, and who years later joined him on the North Victorian wine trip that first drew Dunstan into wine.
   - name: Air Training Corps
     description: The Air Training Corps was a wartime youth organisation set up in 1941 to prepare teenage boys for RAAF service, giving cadets like Keith Dunstan priority in the call-up when they turned eighteen.
+  - name: Al Capp
+    description: Al Capp was the American cartoonist behind the comic strip 'Li'l Abner', whose invented creature the kygmy, an animal that is only happy when it is being kicked, Keith Dunstan borrowed in 'Knockers' as the perfect image of the Australian appetite for self-criticism.
   - name: Alan Holmes Bonnie Muir
     description: Bonnie Muir was the referee at a 1960s Melbourne wrestling bout Keith Dunstan seconded for his column, between the heavyweight Primo Carnera and the showman Stanley 'Murder Inc.' Kowalski.
   - name: Alan Russell
@@ -72,6 +74,8 @@ topics:
     description: All Saints is a historic winery at Wahgunyah in Victoria's Rutherglen region, founded in 1864 by Scottish immigrants George Sutherland Smith and John Banks, whose castellated cellar building is now run by successive generations of the Sutherland Smith family.
   - name: Allan Wilkie
     description: Allan Wilkie was a Scottish-born actor whose touring Shakespearean company, launched in Melbourne in 1920, gave some 14,000 performances of 27 of Shakespeare's plays across Australia through the 1920s, including many to country schoolchildren.
+  - name: Alwyn Kurts
+    description: Alwyn Kurts was an Australian actor who, at a 1970 Melbourne protest meeting of television performers, told Keith Dunstan how the pop group the Seekers had been turned down for a spot on local television shortly before they sailed for Britain and sudden stardom.
   - name: Anatole de Courde de Montaiglon
     description: Anatole de Courde de Montaiglon was a nineteenth-century French librarian, art historian and specialist in medieval literature, whose admiring critique of the nude painting Chloe was quoted during Melbourne's furious 1880s debate over its display.
   - name: Anatole de Montaiglon
@@ -202,6 +206,8 @@ topics:
     description: Bill Ponsford was a champion Australian Test batsman of the 1920s and 30s whose planned captaincy of a Centenary of International Cricket replay match at the MCG fell through at the last moment, clearing the way for Premier Henry Bolte's comic stand-in innings.
   - name: Bob Dalziel
     description: Robert Paton Dalziel was Keith Dunstan's closest friend from Geelong Grammar and wartime RAAF training, an unpredictable, publicity-shy Melbourne stockbroker who made his fortune, retired at forty, then ran the R. E. Ross Foundation and Hillview Quarries until cancer killed him in 1978.
+  - name: Bob Hawke
+    description: Bob Hawke was the Labor Prime Minister through the 1980s whom Keith Dunstan invoked, tongue in cheek, as the kind of figure who should step in and declare grass tennis courts a protected heritage surface before synthetic Plexipave wiped them out for good.
   - name: Boer War
     description: The Boer War of 1899 to 1902 was the conflict in which Arthur Lynch, one of the Bulletin-era eccentrics Keith Dunstan profiled in 'Ratbags', fought for the Boers against the British Empire before his later trial for treason in London.
   - name: Bogle-Chandler case
@@ -244,14 +250,20 @@ topics:
     description: Chloe is the nude oil painting that caused a decorum scandal when first shown at Melbourne's National Gallery in 1883, was withdrawn within a month, and has hung ever since in the public bar of Young and Jackson's Hotel, becoming, as Keith Dunstan noted, one of the city's biggest tourist draws.
   - name: Claudia Wright
     description: Claudia Wright was a Melbourne broadcaster and journalist known for her 3AW talkback show and incisive profile writing, who interviewed both Germaine Greer and Lillian Frank for pieces Keith Dunstan drew on in 'Ratbags'.
+  - name: Clement Freud
+    description: Clement Freud was a London restaurateur and broadcaster who judged an Australian bake-off in 1970, then returned to the BBC to call the country 'second-rate' and its people 'mediocre', a putdown Keith Dunstan cited in 'Knockers' as proof Australians will report any opinion of themselves, good or bad, verbatim and instantly.
   - name: Colin Bednall
     description: Colin Bednall was the brilliant, restless protégé of Sir Keith Murdoch who became editor-in-chief of Brisbane's Courier-Mail at 33 and recruited Keith Dunstan there as a columnist in 1954, only to resign abruptly himself when Murdoch's sudden death cost him the succession he had been promised.
   - name: Collingwood
     description: Collingwood is the working-class inner-Melbourne suburb and one of the VFL's oldest, most fiercely supported football clubs, part of the all-consuming football culture Keith Dunstan surveyed with equal parts affection and exasperation before eventually founding the Anti-Football League.
   - name: Collins Street
     description: Collins Street is Melbourne's grand financial and retail boulevard, home to its banks, the Melbourne Club and flagship department stores, and the address Keith Dunstan returned to again and again as the stage for the city's money, status and civic ceremony.
+  - name: Colonel Sanders
+    description: Colonel Sanders was the goateed mascot of Kentucky Fried Chicken, whose nightly advertising Keith Dunstan cited alongside McDonalds and Pizza Hut as the American fast-food invasion crowding out unpromoted local staples like fish and chips.
   - name: Coober Pedy
     description: ''
+  - name: Creighton Burns
+    description: Creighton Burns was the editor of the Age who, with Fairfax executive Max Suich, lured Keith Dunstan away from the Sun News-Pictorial in 1985 to write for the Age and Sydney Morning Herald, an act of perfidy Keith compared to Ron Barassi's defection to Carlton.
   - name: Cricket
     description: Cricket runs through Keith Dunstan's writing from the 1930s Bodyline crisis he remembered from a Toorak childhood to the Centenary Test replay at the MCG where Premier Henry Bolte took guard in a spotted shirt with an L-plate pinned to his back.
   - name: Cyclone Tracy
@@ -274,6 +286,8 @@ topics:
     description: The Davis Cup is international men's tennis's premier team competition, whose declining Australian fortunes Keith Dunstan used to illustrate a theory that Australians lose interest in a sport entirely the moment the national team stops winning it.
   - name: Dean Bailey
     description: Dean Bailey was the Melbourne Football Club coach sacked in August 2011 after two and a half seasons, one of a rash of mid-season coaching casualties that year Keith Dunstan reached for as fresh evidence for his old Anti-Football League cause.
+  - name: Dick Bentley
+    description: Dick Bentley was the Australian-born actor and comedian whose slang-heavy turn on a 1956 BBC Australia Day broadcast drew a front-page 'Aussie Slang Shocks Britain' headline back home, a drubbing Barry Humphries recounted in his foreword to Keith Dunstan's 'Knockers'.
   - name: Donald Horne
     description: Donald Horne was the author and social critic best known for 'The Lucky Country', whose writing on Australians' ingrained distrust of authority and the police Keith Dunstan cited to explain the enduring appeal of Ned Kelly.
   - name: Doug Crittenden
@@ -332,6 +346,8 @@ topics:
     description: Frank Galbally was a former Collingwood footballer turned prominent Melbourne criminal lawyer and Collingwood committeeman, whose fiery speeches against the VFL's TV blackout and toasts to the club's honour Keith Dunstan reported on in successive Bulletin columns.
   - name: Frederick Scherger
     description: Frederick Scherger was the RAAF Air Commodore, later Air Chief Marshal, whose string-pulling twice altered the course of the young Keith Dunstan's wartime career, first securing him pilot training over his father's objections and later commanding him, memorably, in the Pacific.
+  - name: Fritz Kreisler
+    description: Fritz Kreisler was the Austrian-born violinist whose recordings Keith Dunstan recalled winding carefully through on a childhood HMV portable gramophone, wary of jarring the needle mid-piece on a 12-inch classical disc.
   - name: Gallipoli
     description: Gallipoli was the 1915 First World War campaign where Keith Dunstan's father, William Dunstan, won the Victoria Cross defending the captured trenches at Lone Pine, a feat of his father's youth that Keith wrote of growing up in the shadow of.
   - name: Geelong Grammar
@@ -366,6 +382,8 @@ topics:
     description: Her Majesty's Theatre is one of Melbourne's grand old playhouses, home to 'My Fair Lady''s long-running, near-3-million-ticket Australian season that Keith Dunstan covered as a genuine box-office phenomenon.
   - name: Herald and Weekly Times
     description: The Herald and Weekly Times was the Melbourne newspaper group publishing the Herald and the Sun News-Pictorial, built by Sir Keith Murdoch into Australia's dominant press empire, and the company Keith Dunstan joined as a cadet reporter and returned to for most of his career.
+  - name: Herald Sun
+    description: The Herald Sun was the tabloid formed by the 1990 merger of Melbourne's morning Sun News-Pictorial and evening Herald, a consolidation Keith Dunstan mourned in 'No Brains on Tuesday' as the death of the scrappy, pictures-first Sun he had grown up inside.
   - name: Hermann Schneider
     description: Hermann Schneider was a Melbourne wine identity and umpire of the city's mock interstate wine-tasting contests against Sydney, whose showmanship and impartial questioning Keith Dunstan credited with keeping the whole boozy ritual honest in 'My Life with the Demon'.
   - name: Honolulu
@@ -382,6 +400,8 @@ topics:
     description: Jack Johnson was the first black world heavyweight boxing champion, who took the title from Tommy Burns in a 1908 Sydney bout promoted by 'Huge Deal' McIntosh, a fight Keith Dunstan recalled both in a profile of McIntosh and in a column on a forgotten Melbourne tug-o'-war craze.
   - name: James Bond
     description: James Bond, Ian Fleming's fictional spy, turns up in Keith Dunstan's writing as shorthand for a certain kind of aspirational status symbol, invoked half-mockingly in his tongue-in-cheek field guide to Australian corporate snobbery.
+  - name: James Cameron
+    description: James Cameron was the British journalist Rupert Murdoch's Sunday Australian imported from London for its 1971 launch, whose opening dispatch on the paper's own colonial cringe Keith Dunstan used to open 'Knockers'.
   - name: James Halliday
     description: James Halliday is Australia's foremost wine writer and judge, a Sydney wine-society regular of the 1960s and 70s who went on to found and run several pioneering Australian vineyards, and whom Keith Dunstan called on every vintage to assess his own small crop of grapes.
   - name: Jean Shrimpton
@@ -424,6 +444,8 @@ topics:
     description: Len Evans was the ebullient Welsh-born wine judge, restaurateur and promoter who built the Australian Wine Bureau and the Rothbury Estate, invented the punishing 'Options Game' blind-tasting contest, and lived by his own rule of opening a good bottle of champagne for any old friend, whatever the hour.
   - name: Leon Massoni
     description: Leon Massoni was a Mornington Peninsula vigneron and self-described bird-war veteran who imported an electric-shock anti-bird perch system from Missouri for his vineyard, one of the more inventive skirmishes Keith Dunstan recorded in 'My Life with the Demon'.
+  - name: Les Carlyon
+    description: Les Carlyon was editor-in-chief of the Herald & Weekly Times who telephoned Keith Dunstan to offer gracious congratulations after his 1985 defection to the Age and Sydney Morning Herald, one of the few former colleagues who didn't take the move as a betrayal.
   - name: Lillian Frank
     description: Lillian Frank was the Melbourne hairdresser and social identity who fled wartime Burma as a Jewish refugee before reigning for decades as the reigning queen of Melbourne Cup fashion and an OBE-honoured charity fundraiser, a friend whose salon gossip Keith Dunstan enjoyed passing on.
   - name: Lorne
@@ -444,6 +466,12 @@ topics:
     description: Marie Dunstan, née McFadyen, was Keith Dunstan's wife of nearly six decades, met just before he shipped out to Morotai in 1945, who helped raise their four children largely on a journalist's salary and became his closest collaborator in the vineyard. Marie died in 2023.
   - name: Maurice Nathan
     description: Maurice Nathan was Lord Mayor of Melbourne through the early 1960s, a vocal booster for the city's stalled jetport at Tullamarine whom Keith Dunstan covered ordering a new set of £770 mayoral robes after the old, decades-handed-down set finally fell apart.
+  - name: Max Harris
+    description: Max Harris was the Adelaide poet, critic and Nation magazine reviewer whose lukewarm 1960 verdict on a young Barry Humphries' early gramophone records prompted the mock-defensive foreword Humphries later wrote for Keith Dunstan's 'Knockers'.
+  - name: Max Suich
+    description: Max Suich was the Fairfax chief executive who, with Age editor Creighton Burns, telephoned Keith Dunstan in late 1985 to offer him a column in the Sydney Morning Herald and the Age, prompting his defection from the rival Sun News-Pictorial.
+  - name: McDonalds
+    description: McDonalds was the American burger chain whose nightly advertising and 'fishburger' Keith Dunstan held up as the bland, anonymous rival to genuine fish and chips wrapped in newspaper, in his defence of Melbourne's under-rated shark meat, flake.
   - name: Melbourne
     description: Melbourne is the Victorian capital and the city Keith Dunstan spent his career chronicling, from its football-mad suburbs and blue-blooded Toorak drawing rooms to its vanishing pubs and theatres, in a body of Bulletin, Sun and Herald writing that amounts to an intimate social history of the city across six decades.
   - name: Melbourne Club
@@ -514,6 +542,8 @@ topics:
     description: Peter Walker was a Sydney wine merchant with Rhine Castle Wines whose palate Keith Dunstan called 'unerring' in 'My Life with the Demon', and who supplied some of the tasting-table anecdotes behind Keith's tongue-in-cheek guide 'How to Cheat at Wine Tastings'.
   - name: Phillip Adams
     description: Phillip Adams is the advertising executive turned broadcaster, columnist and film producer whom Keith Dunstan profiled as one of the era's great 'ratbags' in his book of that name, and who also turns up gently ribbing Keith over his own children's upbringing in 'No Brains at All'.
+  - name: Pizza Hut
+    description: Pizza Hut was one of the American fast-food chains Keith Dunstan cited, alongside McDonalds and Colonel Sanders, as swamping unadvertised Australian staples like fish and chips, meat pies and dim sims.
   - name: Poirot
     description: Poirot, ITV's long-running adaptation of Agatha Christie's fastidious Belgian detective, was one of the parade of British murder-mystery imports Keith Dunstan counted, tongue in cheek, among Melbourne's self-inflicted television plagues.
   - name: Port Phillip Bay
@@ -590,6 +620,8 @@ topics:
     description: Sir Robert Menzies was Australia's longest-serving Prime Minister, leading the country continuously from 1949 to 1966 and appearing throughout Keith Dunstan's writing both as a recurring figure in his Bulletin columns on Melbourne's civic self-regard and, in his more ceremonial guise once knighted, bricking a bottle of Chateau Tahbilk red into a cellar wall not to be opened until 2060 and entertaining royalty on their tours of Australia.
   - name: Sir Rohan Delacombe
     description: Sir Rohan Delacombe was Governor of Victoria through the 1960s, a vice-regal fixture at events from a Wangaratta wool festival's 'Wild Colonial' banquet to a cinema's world-first screening of 'Cleopatra', appearing in Keith Dunstan's writing purely in his ceremonial capacity.
+  - name: Sir Thomas White
+    description: Sir Thomas White was Australia's High Commissioner in London, who complained that the BBC never consulted his office before a slang-packed 1956 Australia Day broadcast fronted by Dick Bentley, part of the storm Barry Humphries recounted in his foreword to 'Knockers'.
   - name: Skyhooks
     description: Skyhooks were the glam-rock Melbourne band whose provocative lyrics were outrageous enough in the mid-1970s that a magistrate's 1979 ruling on one of their songs, quoted directly by The Age under editor Michael Davie, became a landmark in Australian newspapers' use of obscenity.
   - name: Social clubs
@@ -616,6 +648,8 @@ topics:
     description: Sydney is Australia's oldest and largest city, whose long-running rivalry with Melbourne, over air routes, cricket and civic pride, Keith Dunstan mined for comedy throughout his Bulletin column, most explicitly in his tongue-in-cheek 1962 peace plan for 'NSW-Vic co-existence'.
   - name: Sydney Cricket Ground
     description: The Sydney Cricket Ground is Sydney's historic sporting arena, home turf of the legendary barracker Stephen 'Yabba' Gascoigne and a venue promoter Hugh McIntosh also used to stage prizefights, both profiled among Keith Dunstan's 'Ratbags'.
+  - name: Sydney Morning Herald
+    description: The Sydney Morning Herald was the Fairfax broadsheet that, with the Age, lured Keith Dunstan away from Melbourne's Sun News-Pictorial in 1985, an offer of double the money he accepted with the guilty sense of having done a Ron Barassi on his own alma mater.
   - name: Sydney Opera House
     description: The Sydney Opera House was still under construction through the years Keith Dunstan wrote his Bulletin column, providing a ready punchline whenever Melbourne's own civic ambitions, like the proposed Coal Exchange rotunda, needed deflating by comparison.
   - name: Tandberg
@@ -638,6 +672,8 @@ topics:
     description: The Bulletin was the century-old national weekly Keith Dunstan wrote for under the pseudonym John Batman for many years, one of the mastheads he mourned in a long list of newspapers that had died by the time he wrote about his enduring love of the printed page.
   - name: The Herald
     description: The Herald was Melbourne's evening broadsheet and flagship of the Herald and Weekly Times group, the paper Keith Dunstan joined as a cadet reporter in the late 1940s despite his own father's warning that journalism led to a hack's life.
+  - name: The Seekers
+    description: The Seekers were the Melbourne folk-pop group who, unable to find television work at home, sailed for Britain in the early 1960s to sudden stardom, an exit Alwyn Kurts cited to Keith Dunstan as proof Australian television only trusts talent that has already succeeded overseas.
   - name: Tivoli Theatre
     description: The Tivoli Theatre was Melbourne's grand old vaudeville and variety house, tracing its lineage back to the 1850s diggers' Varieties Music Hall and hosting stars from Marie Lloyd to Harry Houdini before a fire gutted it, a loss Keith Dunstan mourned in the Bulletin.
   - name: Tom Seabrook

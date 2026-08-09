@@ -33,12 +33,12 @@ Last updated: 7 August 2026.
 | Moonee Ponds to Broadway | 2005 | ? | 0 | 0 | ❓ | Not started |
 | Collins: the story of Australia's premier street | 2005 | ? | 0 | 0 | ❓ | Contributor credit only — scope unclear |
 | The Confessions of a Bicycle Nut | 1999 | ? | 0 | 0 | ❓ | Not started |
-| No Brains on Tuesday | 1991 | ? | 0 | 0 | ❓ | Not started |
+| No Brains on Tuesday | 1991 | 14 chapters (thematic column collections) | 5 (Introduction + Chapter 1's 4 columns) | 0 | rest of Chapter 1 onward | Introduction and Chapter 1 ('Columns Which Drip With Nostalgia') transcribed from manually-scanned photos 9 Aug 2026; see §11 for detail |
 | Saint Ned | 1980 | 11 chapters | 4 | 0 | 7 | Chapters 1–4 transcribed from manually-scanned photos 7 Aug 2026; see §10 for chapter detail |
 | The Store on the Hill | 1979 | ? | 0 | 0 | ❓ | Not started |
-| Knockers | 1972 | ? | 0 | 0 | ❓ | Not started — no scans |
+| Knockers | 1972 | 15 chapters | 2 (Foreword + Chapter 1) | 0 | 13 | Foreword (Barry Humphries) and Chapter 1 ('Knockers') transcribed from manually-scanned photos 9 Aug 2026; see §12 for detail |
 | Sports | 1973 | 14 (intro + 13 'passion' chapters) | 2 | 0 | 12 | Year corrected from 1970 (Cassell Australia, 1973, per publisher records — the text itself references 1972 events throughout). Introduction and Chapter 1 ('Our Sporting Obsession') transcribed from manually-scanned photos 6 Aug 2026; see §9 for chapter detail |
-| The Paddock That Grew | 1962 | ? | 0 | 0 | ❓ | Not started — MCG history |
+| The Paddock That Grew | 1962 | ? | 0 | 0 | 📷 | MCG history — 18 scans added to `src/books/the-paddock-that-grew/scans/` 9 Aug 2026, not yet transcribed |
 
 ---
 
@@ -327,6 +327,59 @@ Contents list sourced from the book's own Contents page (photographed 7 Aug 2026
 | 11 | Mr Kelly and the Cash Register (p. 96) | ⬜ | No scan yet |
 
 **Data note:** Transcribed from 32 manually-scanned photos (`IMG_8679`–`IMG_8710`), covering the title/copyright page, Contents, Acknowledgements and Chapters 1–4 in full. Publisher/year (Methuen of Australia, 1980) confirmed directly from the book's own copyright page — no external lookup needed this time, unlike Sports. Same caveat as Sports applies: transcribed by reading photographed pages directly, no OCR tool available; worth a proofread against the physical book if perfect fidelity matters. `src/saint-ned.njk` (book index page) and `src/books.njk`'s Saint Ned accordion entry both now link through to the transcribed chapters. Eleven new `src/_data/topics.md` entries added: Dan Kelly, Donald Horne, Ellen Kelly, Glenrowan, Harry Power, Joe Byrne, Malcolm H Ellis, Manning Clark, Ned Kelly, Norman Lindsay, Steve Hart (Sidney Nolan and Sidney J. Baker already existed and were reused verbatim).
+
+---
+
+## 11. No Brains on Tuesday (1991) — chapter detail
+
+Contents list sourced from the book's own Contents pages (photographed 9 Aug 2026, `src/books/no-brains-on-tuesday/scans/`). Unlike the narrative books, this is a collection of short newspaper columns grouped into 14 themed chapters — each chapter groups 3–10 individually titled columns rather than being a single continuous piece.
+
+| Chapter | Title | Status | Notes |
+|---|---|---|---|
+| — | Introduction | ✅ | `src/books/no-brains-on-tuesday/0-introduction.md` |
+| 1 | Columns Which Drip With Nostalgia | ✅ | 4 columns, all transcribed: `1-who-smashes-the-beethoven-bach-and-brahms-lps.md`, `2-god-save-fish-n-chips.md`, `3-goodbye-to-the-daily-at-dawn.md`, `4-the-glory-of-grass.md` |
+| 2 | Columns Allied to the Grape and Associated Beverages | ⬜ | No scan yet (7 columns) |
+| 3 | Columns Which Refer to Filthy Lucre | ⬜ | No scan yet (6 columns) |
+| 4 | Columns on Domestic Horticulture | ⬜ | No scan yet (3 columns) |
+| 5 | Columns on the Greatest Sport - Cricket | ⬜ | No scan yet (8 columns) |
+| 6 | Columns on Lesser Muscular Activities | ⬜ | No scan yet (5 columns) |
+| 7 | Sexy and Vulgar Columns | ⬜ | No scan yet (5 columns) |
+| 8 | Columns Which Deal with Domestic Bliss | ⬜ | No scan yet (4 columns) |
+| 9 | Columns of Canine and Farmland Wonder | ⬜ | No scan yet (4 columns) |
+| 10 | Columns Which Confront Technical Marvels | ⬜ | No scan yet (5 columns) |
+| 11 | Columns on the Problems of Survival | ⬜ | No scan yet (3 columns) |
+| 12 | Columns of Immense Social Importance | ⬜ | No scan yet (10 columns) |
+| 13 | Columns on the Mysteries of Diet | ⬜ | No scan yet (6 columns) |
+| 14 | Yuletide Columns | ⬜ | No scan yet (3 columns) |
+
+**Data note:** Transcribed from 24 manually-scanned photos (`IMG_8719`–`IMG_8742`), covering the Foreword (by Michael Smith, editor of the Age), Contents, Introduction and Chapter 1 in full. No copyright page was scanned; publication year (1991) inferred from internal evidence — the Introduction references the November 1990 publication of 'No Brains At All' as already past, and the Foreword's mention of Opposition Leader John Hewson dates it to 1990–94. Several page numbers in the scan sequence were spot illustrations (no prose) rather than missing photos, confirmed by continuous sentence flow across the gaps (e.g. page 9 to page 11). A few short passages were awkward to read from the angled photos and required cropping and re-examining at higher zoom to resolve exactly; worth a proofread against the physical book if perfect fidelity matters. `src/no-brains-on-tuesday.njk` created as the book's index page with the full 14-chapter contents list (columns beyond Chapter 1 listed by title only, not yet linked). Ten new `src/_data/topics.md` entries added: Bob Hawke, Colonel Sanders, Creighton Burns, Fritz Kreisler, Herald Sun, Les Carlyon, Max Suich, McDonalds, Pizza Hut, Sydney Morning Herald (Sun News-Pictorial, The Age, The Herald, Herald and Weekly Times, Sir Keith Murdoch, Ron Barassi, Barry Humphries and William Dunstan VC already existed and were reused verbatim).
+
+---
+
+## 12. Knockers (1972) — chapter detail
+
+Contents list sourced from the book's own Contents page (photographed 9 Aug 2026, `src/books/knockers/scans/`). The book has a Foreword by Barry Humphries ahead of Chapter 1, which is itself titled 'Knockers' after the book.
+
+| # | Chapter | Status | Notes |
+|---|---|---|---|
+| — | Foreword (Barry Humphries), 'Detrimental Blokes' (p. xi) | ✅ | `src/books/knockers/0-foreword.md` |
+| 1 | Knockers (p. 1) | ✅ | `src/books/knockers/1-knockers.md` |
+| 2 | The Australian Landscape (p. 11) | ⬜ | No scan yet |
+| 3 | The Australian Character | ⬜ | No scan yet |
+| 4 | The Australian Female | ⬜ | No scan yet |
+| 5 | Melbourne | ⬜ | No scan yet |
+| 6 | Sydney | ⬜ | No scan yet |
+| 7 | Each Other | ⬜ | No scan yet |
+| 8 | Canberra | ⬜ | No scan yet |
+| 9 | The Sydney Opera House | ⬜ | No scan yet |
+| 10 | Australian Politicians | ⬜ | No scan yet |
+| 11 | Royalty | ⬜ | No scan yet |
+| 12 | Australian Myths | ⬜ | No scan yet |
+| 13 | Australian Writers | ⬜ | No scan yet |
+| 14 | Australian Artists | ⬜ | No scan yet |
+| 15 | The Australian Stage | ⬜ | No scan yet |
+
+**Data note:** Transcribed from 19 manually-scanned photos (`IMG_8743`–`IMG_8761`), covering Contents, Acknowledgements, the full Foreword (pages xi–xvi) and Chapter 1 in full (pages 1–10). Several passages, especially in the Foreword, were photographed at an angle that made a few sentences ambiguous on first read; these were resolved by cropping and re-examining the affected regions at higher zoom rather than guessed at — worth a proofread against the physical book if perfect fidelity matters. `src/knockers.njk` updated with the full 15-chapter contents list (Chapters 2–15 listed by title only, not yet linked). Ten new `src/_data/topics.md` entries added: Al Capp, Alwyn Kurts, Clement Freud, Dick Bentley, James Cameron, Max Harris, Sir Thomas White, The Seekers (Rupert Murdoch, Barry Humphries, Sidney J. Baker, Donald Horne, Graham Kennedy, Dame Nellie Melba and Patrick White already existed and were reused verbatim).
 
 ---
 

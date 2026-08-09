@@ -103,7 +103,9 @@
         <li class="nav-item me-1">
           <a class="nav-link" href="/books">Books</a>
         </li>
-    
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
         <li class="nav-item me-1">
           <a class="nav-link" href="/search.html">Search</a>
         </li>
@@ -160,6 +162,15 @@
    35 books.</p>
    <p>Some of these texts are available for reading here, select the title to view more information.
 </p>
+<style>
+/* Bootstrap's own accordion chevron (::after) carries margin-left: auto,
+   which competes with the date span's ms-auto and splits the leftover
+   flex space between them instead of pushing the date flush against the
+   chevron. Pinning the chevron's margin fixes that. */
+#accordionExample .accordion-button::after {
+  margin-left: 0.75rem;
+}
+</style>
 <div class="accordion" id="accordionExample">
    <div class="accordion-item">
       <h2 class="accordion-header" id="headingOne">
@@ -170,8 +181,8 @@
             data-bs-target="#collapseOne"
             aria-expanded="false"
             aria-controls="collapseOne">
-         Kiwi : The Australian brand that brought a shine to the world
-         <span class="ms-auto me-5 text-muted">2017</span>
+         Kiwi
+         <span class="ms-auto text-muted">2017</span>
          </button>
       </h2>
       <div
@@ -203,7 +214,7 @@
             aria-expanded="false"
             aria-controls="collapseTwo">
          Moonee Ponds to Broadway
-         <span class="ms-auto me-2 text-muted">2005</span>
+         <span class="ms-auto text-muted">2005</span>
          </button>
       </h2>
       <div
@@ -234,7 +245,7 @@
             aria-expanded="false"
             aria-controls="collapseThree">
          Collins : the story of Australia's premier street
-         <span class="ms-auto me-2 text-muted">2005</span>
+         <span class="ms-auto text-muted">2005</span>
          </button>
       </h2>
       <div
@@ -265,7 +276,7 @@
             aria-expanded="false"
             aria-controls="collapseFour">
          Batman in the Bulletin: The Melbourne I Remember
-         <span class="ms-auto me-2 text-muted">2004</span>
+         <span class="ms-auto text-muted">2004</span>
          </button>
       </h2>
       <div
@@ -298,7 +309,7 @@
          aria-expanded="false"
          aria-controls="collapseFive">
       A Day in the Life of Australia
-      <span class="ms-auto me-2 text-muted">1989</span>
+      <span class="ms-auto text-muted">1989</span>
       </button>
    </h2>
    <div
@@ -327,7 +338,7 @@
          aria-expanded="false"
          aria-controls="collapseSix">
       The confessions of a bicycle nut
-      <span class="ms-auto me-2 text-muted">1999</span>
+      <span class="ms-auto text-muted">1999</span>
       </button>
    </h2>
    <div
@@ -358,7 +369,7 @@
          aria-expanded="false"
          aria-controls="collapseSeven">
       My life with the demon
-      <span class="ms-auto me-2 text-muted">1994</span>
+      <span class="ms-auto text-muted">1994</span>
       </button>
    </h2>
    <div
@@ -387,8 +398,8 @@
          data-bs-target="#collapseEight"
          aria-expanded="false"
          aria-controls="collapseEight">
-      No brains on Tuesday : the collected wit & wisdom of Keith Dunstan
-      <span class="ms-auto me-2 text-muted">1991</span>
+      No brains on Tuesday
+      <span class="ms-auto text-muted">1991</span>
       </button>
    </h2>
    <div
@@ -403,6 +414,7 @@
             </div>
             <div class="col-12 col-md-9">
                <p>A compilation of the best of Keith Dunstan's newspaper columns, gathering decades of his wit and observations on Australian life. It was published by Schwartz &amp; Wilkinson as a companion to his memoirs.</p>
+               <p><a href="/no-brains-on-tuesday">Read available chapters here.</a></p>
             </div>
          </div>
       </div>
@@ -418,7 +430,7 @@
          aria-expanded="false"
          aria-controls="collapseNine">
       No brains at all
-      <span class="ms-auto me-2 text-muted">1990</span>
+      <span class="ms-auto text-muted">1990</span>
       </button>
    </h2>
    <div
@@ -451,8 +463,8 @@
          data-bs-target="#collapseTen"
          aria-expanded="false"
          aria-controls="collapseTen">
-      Saint Ned : the story of the near sanctification of an Australian outlaw
-      <span class="ms-auto me-2 text-muted">1980</span>
+      Saint Ned
+      <span class="ms-auto text-muted">1980</span>
       </button>
    </h2>
    <div
@@ -484,7 +496,7 @@
          aria-expanded="false"
          aria-controls="collapseSeventeen">
       Ratbags
-      <span class="ms-auto me-2 text-muted">1980</span>
+      <span class="ms-auto text-muted">1980</span>
       </button>
    </h2>
    <div
@@ -516,7 +528,7 @@ He has ridden a bicycle across America, has become a member of the anti-automobi
          aria-expanded="false"
          aria-controls="collapseEleven">
       The store on the hill
-      <span class="ms-auto me-2 text-muted">1979</span>
+      <span class="ms-auto text-muted">1979</span>
       </button>
    </h2>
    <div
@@ -546,7 +558,7 @@ He has ridden a bicycle across America, has become a member of the anti-automobi
          aria-expanded="false"
          aria-controls="collapseTwelve">
       Knockers
-      <span class="ms-auto me-2 text-muted">1972</span>
+      <span class="ms-auto text-muted">1972</span>
       </button>
    </h2>
    <div
@@ -577,7 +589,7 @@ He has ridden a bicycle across America, has become a member of the anti-automobi
          aria-expanded="false"
          aria-controls="collapse22">
       The Australian Uppercrust Book
-      <span class="ms-auto me-2 text-muted">1971</span>
+      <span class="ms-auto text-muted">1971</span>
       </button>
    </h2>
    <div
@@ -606,7 +618,7 @@ He has ridden a bicycle across America, has become a member of the anti-automobi
          aria-expanded="false"
          aria-controls="collapseThirteen">
       Sports
-      <span class="ms-auto me-2 text-muted">1973</span>
+      <span class="ms-auto text-muted">1973</span>
       </button>
    </h2>
    <div
@@ -637,7 +649,7 @@ He has ridden a bicycle across America, has become a member of the anti-automobi
          aria-expanded="false"
          aria-controls="collapseFourteen">
       Wowsers
-      <span class="ms-auto me-2 text-muted">1968</span>
+      <span class="ms-auto text-muted">1968</span>
       </button>
    </h2>
    <div id="collapseFourteen" class="accordion-collapse collapse"       aria-labelledby="headingFourteen"
@@ -667,7 +679,7 @@ He has ridden a bicycle across America, has become a member of the anti-automobi
          aria-expanded="false"
          aria-controls="collapseFifteen">
       Supporting a column
-      <span class="ms-auto me-2 text-muted">1966</span>
+      <span class="ms-auto text-muted">1966</span>
       </button>
    </h2>
    <div
@@ -695,7 +707,7 @@ He has ridden a bicycle across America, has become a member of the anti-automobi
          aria-expanded="false"
          aria-controls="collapseSixteen">
       The paddock that grew
-      <span class="ms-auto me-2 text-muted">1962</span>
+      <span class="ms-auto text-muted">1962</span>
       </button>
    </h2>
    <div
@@ -711,6 +723,7 @@ He has ridden a bicycle across America, has become a member of the anti-automobi
             <div class="col-12 col-md-9">
                <p>Keith's first book, about the origins and history of the Melbourne Cricket Ground. It follows the ground's transformation from a patch of swampy paddock beside the Yarra into Australia's premier sporting arena.</p>
             <p> Revised and republished by MCG trustees as 'The People's Ground'</p>
+            <p><a href="/the-paddock-that-grew">Read the Foreword and Introduction here.</a></p>
             </div>
          </div>
       </div>
@@ -725,14 +738,8 @@ He has ridden a bicycle across America, has become a member of the anti-automobi
     <footer class="container">
       <div class="row border-top py-5">
   <div class="col-12">
-    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3"> 
-    <br><small><a href="/feed.xml"><i class="fa fa-rss" aria-hidden="true"></i>
- Subscribe via RSS</a> for content updates on this site</small>
-<br><small>We're volunteers, <a href="https://ko-fi.com/jackdunstan">support us</a> to research, digitise, edit to bring this content to a new audience - with a <i class="fa fa-coffee" aria-hidden="true"></i>
-</a></small>
-<br>
-<small>Built and maintained by <a href="https://www.linkedin.com/in/jackdunstan//">Jack Dunstan</a></i>
-</a></small>
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site</a></small>
 <br>
     <br>&copy; Copyright - The literary estate of Keith Dunstan.
 <br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
@@ -746,6 +753,36 @@ He has ridden a bicycle across America, has become a member of the anti-automobi
       const currentYear = new Date().getFullYear();
       yearElement.textContent = '1962-' + currentYear;
     }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
   });
 </script>
 <script src="/js/bootstrap.bundle.min.js"></script>

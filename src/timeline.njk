@@ -4,18 +4,19 @@ title: Timeline
 titleClass: h2 mb-2
 ---
 
-<p class="text-muted">Every transcribed article in the archive, alongside Keith Dunstan's published books, in the order they appeared &mdash; from his earliest Walkabout pieces through to his latest columns in The Age. Entries are coloured by publication and books are marked as notable works and shown larger; where the full text isn't on this site, the entry isn't a link. Select a linked entry to read it in full.</p>
+<p class="text-muted">Every transcribed article in the archive, alongside Keith Dunstan's published books, in the order they appeared &mdash; from his earliest Walkabout pieces through to his latest columns in The Age.<br> Select a linked entry to read it in full.</p>
 
-<div class="d-flex flex-wrap justify-content-between align-items-start gap-3 mb-3">
-  <div class="timeline-legend d-flex flex-wrap gap-3 small text-muted" aria-hidden="true">
-    <span class="timeline-legend-item"><span class="timeline-legend-dot timeline-pub-the-age"></span>The Age</span>
-    <span class="timeline-legend-item"><span class="timeline-legend-dot timeline-pub-the-bulletin"></span>The Bulletin</span>
-    <span class="timeline-legend-item"><span class="timeline-legend-dot timeline-pub-walkabout-magazine"></span>Walkabout Magazine</span>
-    <span class="timeline-legend-item"><span class="timeline-legend-dot timeline-pub-other"></span>The Australian Gourmet</span>
-    <span class="timeline-legend-item"><span class="timeline-legend-dot timeline-legend-dot--book"></span>Book</span>
+<div class="mb-3">
+  <div class="timeline-legend d-flex flex-wrap gap-3 small text-muted mb-2" role="group" aria-label="Filter by publication">
+    <button type="button" class="timeline-legend-item" data-filter="the-age" aria-pressed="true"><span class="timeline-legend-dot timeline-pub-the-age"></span>The Age</button>
+    <button type="button" class="timeline-legend-item" data-filter="the-bulletin" aria-pressed="true"><span class="timeline-legend-dot timeline-pub-the-bulletin"></span>The Bulletin</button>
+    <button type="button" class="timeline-legend-item" data-filter="walkabout-magazine" aria-pressed="true"><span class="timeline-legend-dot timeline-pub-walkabout-magazine"></span>Walkabout Magazine</button>
+    <button type="button" class="timeline-legend-item" data-filter="other" aria-pressed="true"><span class="timeline-legend-dot timeline-pub-other"></span>The Australian Gourmet</button>
+    <button type="button" class="timeline-legend-item" data-filter="book" aria-pressed="true"><span class="timeline-legend-dot timeline-legend-dot--book"></span>Book</button>
+    <button type="button" class="timeline-legend-reset small text-muted">Reset</button>
   </div>
   <div class="d-flex align-items-center gap-2">
-    <label for="timeline-sort" class="form-label small text-muted mb-0">Sort by</label>
+    <label for="timeline-sort" class="form-label small text-muted mb-0 text-nowrap">Sort by</label>
     <select id="timeline-sort" class="form-select form-select-sm" style="max-width: 12rem;">
       <option value="date-asc" selected>Date, oldest first</option>
       <option value="date-desc">Date, newest first</option>
@@ -29,16 +30,17 @@ titleClass: h2 mb-2
   {% for item in collections.timeline %}
   {% set pubSlug = item.publication | slug %}
   {% set knownPub = pubSlug in ['the-age', 'the-bulletin', 'walkabout-magazine'] %}
+  {% set filterSlug = 'book' if item.isBook else (pubSlug if knownPub else 'other') %}
   <div
-    class="timeline-item timeline-pub-{{ 'book' if item.isBook else (pubSlug if knownPub else 'other') }}{% if item.isBook %} timeline-item--book{% endif %}"
+    class="timeline-item timeline-pub-{{ filterSlug }}{% if item.isBook %} timeline-item--book{% endif %}"
     data-date="{{ item.date | htmlDateString }}"
     data-publication="{{ item.publication }}"
+    data-pub-slug="{{ filterSlug }}"
     data-title="{{ item.title }}">
     <span class="timeline-dot" aria-hidden="true"></span>
     {% if item.url %}
     <a
       href="{{ item.url if item.external else (item.url | url) }}"
-      {% if item.external %}target="_blank" rel="noopener"{% endif %}
       class="timeline-card">
     {% else %}
     <span class="timeline-card">
@@ -86,6 +88,9 @@ titleClass: h2 mb-2
   }
   .timeline-item:last-child {
     padding-bottom: 0;
+  }
+  .timeline-item--hidden {
+    display: none;
   }
   .timeline-dot {
     position: absolute;
@@ -160,6 +165,33 @@ titleClass: h2 mb-2
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
+    border: 0;
+    background: none;
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+    font-family: inherit;
+    color: var(--bs-secondary-color);
+    cursor: pointer;
+    opacity: 1;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    transition: opacity 0.15s ease;
+  }
+  .timeline-legend-item[aria-pressed="false"] {
+    opacity: 0.4;
+  }
+  .timeline-legend-item:hover,
+  .timeline-legend-item:focus-visible {
+    color: var(--bs-body-color);
+  }
+  .timeline-legend-reset {
+    border: 0;
+    background: none;
+    padding: 0;
+    margin: 0;
+    text-decoration: underline;
+    cursor: pointer;
   }
   .timeline-legend-dot {
     display: inline-block;
@@ -182,7 +214,9 @@ titleClass: h2 mb-2
   (function () {
     var select = document.getElementById('timeline-sort');
     var list = document.getElementById('timeline-list');
-    if (!select || !list) return;
+    var legend = document.querySelector('.timeline-legend');
+    var resetButton = legend ? legend.querySelector('.timeline-legend-reset') : null;
+    if (!list) return;
 
     var sorters = {
       'date-asc': function (a, b) { return a.dataset.date.localeCompare(b.dataset.date); },
@@ -196,11 +230,46 @@ titleClass: h2 mb-2
       }
     };
 
-    select.addEventListener('change', function () {
-      var sorter = sorters[select.value];
-      if (!sorter) return;
-      var items = Array.prototype.slice.call(list.querySelectorAll('.timeline-item'));
-      items.sort(sorter).forEach(function (item) { list.appendChild(item); });
-    });
+    if (select) {
+      select.addEventListener('change', function () {
+        var sorter = sorters[select.value];
+        if (!sorter) return;
+        var items = Array.prototype.slice.call(list.querySelectorAll('.timeline-item'));
+        items.sort(sorter).forEach(function (item) { list.appendChild(item); });
+      });
+    }
+
+    if (legend) {
+      var filterButtons = Array.prototype.slice.call(legend.querySelectorAll('[data-filter]'));
+      var activeFilters = filterButtons.map(function (button) { return button.dataset.filter; });
+
+      function applyFilters() {
+        list.querySelectorAll('.timeline-item').forEach(function (item) {
+          item.classList.toggle('timeline-item--hidden', activeFilters.indexOf(item.dataset.pubSlug) === -1);
+        });
+      }
+
+      filterButtons.forEach(function (button) {
+        button.addEventListener('click', function () {
+          var filter = button.dataset.filter;
+          var index = activeFilters.indexOf(filter);
+          if (index === -1) {
+            activeFilters.push(filter);
+          } else {
+            activeFilters.splice(index, 1);
+          }
+          button.setAttribute('aria-pressed', index === -1 ? 'true' : 'false');
+          applyFilters();
+        });
+      });
+
+      if (resetButton) {
+        resetButton.addEventListener('click', function () {
+          activeFilters = filterButtons.map(function (button) { return button.dataset.filter; });
+          filterButtons.forEach(function (button) { button.setAttribute('aria-pressed', 'true'); });
+          applyFilters();
+        });
+      }
+    }
   })();
 </script>
