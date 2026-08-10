@@ -38,3 +38,5 @@ Could we perhaps delete 'thrash', 'pulverise', 'murder', 'slaughter', 'decimate'
 Yes, I for one feel very guilty over the unsporting way in which we have treated Mr Gooch and his men. Our euphoria had the air of the cannibal just after he had roasted and pickled the visiting missionary.
 
 This doesn't mean to say I would have let Mr Gooch win any of his matches. Certainly not. Perhaps after yet another 100 years.
+<hr>
+Continue to the next column: <a href="{{ '/books/no-brains-on-tuesday/30-the-theft-of-an-old-mate/' | url }}">The Theft of an Old Mate</a>
