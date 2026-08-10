@@ -46,4 +46,4 @@ I think the National Trust, the Historic Buildings Council, the Ministry for the
 
 We do have one or two small pockets where grass tennis is still played. Kooyong, nigh forgotten, battles on bravely with grass. Meantime, unless the LTAA is prepared to act sensibly with an eye to the future of Oz tennis, it should change its name to the Plexi Tennis Association of Australia. Or even the Perplexed.
 <hr>
-Continue to chapter two: Columns Allied to the Grape and Associated Beverages
+Continue to the next column: <a href="{{ '/books/no-brains-on-tuesday/5-let-us-spray/' | url }}">Let Us Spray</a>

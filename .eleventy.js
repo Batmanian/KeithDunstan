@@ -1,7 +1,7 @@
 const { DateTime } = require("luxon");
 const { execFileSync } = require("child_process");
 const navigationPlugin = require('@11ty/eleventy-navigation')
-const { rssPlugin } = require('@11ty/eleventy-plugin-rss')
+const { dateToRfc822 } = require('@11ty/eleventy-plugin-rss')
 const metagenPlugin = require('eleventy-plugin-metagen')
 const matter = require("gray-matter");
 const books = require("./src/_data/books.json");
@@ -13,7 +13,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(metagenPlugin);
 
   // Provides the dateToRfc822 filter used by src/feed.njk (/feed.xml).
-  eleventyConfig.addPlugin(rssPlugin);
+  eleventyConfig.addFilter("dateToRfc822", dateToRfc822);
 
   eleventyConfig.setDataDeepMerge(true);
 

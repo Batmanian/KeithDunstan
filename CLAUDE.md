@@ -116,6 +116,26 @@ npm run build    # production build (output → docs/, what Netlify deploys)
 
 **Deploy:** `git push` to `master` triggers Netlify build automatically (configured in `netlify.toml`, publishes from `docs/`).
 
-**OCR tooling:** `ocr/` contains a Node.js OCR pipeline (`ocr/index.js`) using `node-tesseract-ocr` for processing scanned documents into markdown.
+**OCR tooling:** `ocr/transcribe.js` transcribes scanned book pages via the Claude API (`claude-opus-4-7`). Images are pre-processed before sending to avoid API 400 errors.
+
+**iPhone Live Photo JPEG problem:** Photos taken on an iPhone are HEIF-embedded JPEGs. Both `sharp` and the Claude API reject them with a security-limit or "Could not process image" error. **Use macOS `sips` to convert them first** — it strips the HEIF container natively:
+
+```bash
+# Convert one file
+sips -s format png input.jpeg --out output.png -Z 1800
+
+# Batch-convert a whole scans directory
+for f in scans/*.jpeg; do
+  sips -s format png "$f" --out /tmp/converted/"${f%.jpeg}.png" -Z 1800
+done
+```
+
+After converting to PNG, send via the Anthropic SDK as `image/png` base64. See `ocr/transcribe.js` for the full pipeline (requires `ANTHROPIC_API_KEY` in env and `npm install sharp @anthropic-ai/sdk`).
+
+**Book scan workflow:**
+1. `sips` batch-convert `scans/*.jpeg` → `/tmp/converted/*.png`
+2. Run `node ocr/transcribe.js /tmp/converted/*.png` to print transcriptions to stdout
+3. Review output, split at chapter headings, and write `.md` files following the frontmatter conventions above
+4. Add tags, summaries, and inter-chapter navigation links by hand
 
 **Trove tooling:** `trove/` contains Python scripts for fetching Keith Dunstan's articles from the National Library of Australia's Trove API v3. Pipeline: `setup.py` (once) → `fetch_batman.py` / `fetch_byline.py` → `deduplicate.py` → `remove_duplicates.py` → `triage.py` (interactive review) → move to `src/articles/[publication-slug]/`. See `trove/README.md` for full context.

@@ -40,8 +40,7 @@ module.exports = () => {
 
   const WORDS_PER_MINUTE = 200;
   const totalReadMinutes = Math.round(totalWords / WORDS_PER_MINUTE);
-  const readHours = Math.floor(totalReadMinutes / 60);
-  const readMinutes = totalReadMinutes % 60;
+  const readHours = Math.round(totalReadMinutes / 60);
 
   const topicsData = matter(
     fs.readFileSync(path.join(root, "_data", "topics.md"), "utf8")
@@ -52,8 +51,8 @@ module.exports = () => {
     totalWords,
     totalWordsFormatted: totalWords.toLocaleString("en-AU"),
     totalReadTime: readHours > 0
-      ? `${readHours} hour${readHours === 1 ? "" : "s"}${readMinutes ? ` ${readMinutes} min` : ""}`
-      : `${readMinutes} min`,
+      ? `${readHours} hour${readHours === 1 ? "" : "s"}`
+      : `${totalReadMinutes} min`,
     totalTopics
   };
 };

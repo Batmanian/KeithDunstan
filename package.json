@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^3.1.5",
+    "@anthropic-ai/sdk": "^0.116.0",
     "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1",
     "clean-css": "^5.1.5",
@@ -40,12 +41,13 @@
     "node-tesseract-ocr": "^2.2.1",
     "npm-watch": "^0.11.0",
     "sass": "^1.41.0",
+    "sharp": "^0.35.3",
     "watch": "^1.0.2"
   },
   "author": "Holger Koenemann",
   "devDependencies": {
     "@11ty/eleventy-navigation": "^1.0.5",
-    "@11ty/eleventy-plugin-rss": "^3.0.0",
+    "@11ty/eleventy-plugin-rss": "^2.0.4",
     "browser-sync": "^3.0.2",
     "eleventy-plugin-metagen": "^1.8.4",
     "gulp-html-replace": "^1.6.2",
