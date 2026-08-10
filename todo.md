@@ -32,7 +32,7 @@ Last updated: 7 August 2026.
 | Kiwi | 2017 | ? | 0 | 0 | ❓ | Not started — no scans, no source material logged |
 | Moonee Ponds to Broadway | 2005 | ? | 0 | 0 | ❓ | Not started |
 | Collins: the story of Australia's premier street | 2005 | ? | 0 | 0 | ❓ | Contributor credit only — scope unclear |
-| The Confessions of a Bicycle Nut | 1999 | ? | 0 | 0 | ❓ | Not started |
+| The Confessions of a Bicycle Nut | 1999 | 14 (4 golden-era + 10 modern-era; book actually has one more chapter than `src/the-confessions-of-a-bicycle-nut.njk`'s old "nine chapters" blurb said — corrected 10 Aug 2026) | 14 | 0 | 0 | Complete. Chapters 1–14 transcribed; Ch.11–14 done from manually-scanned photos 10 Aug 2026: Ch.11 'Old Man River' (IMG_8782–8794, p.187–201), Ch.12 'On the Silk Road' (IMG_8795–8809, p.203–217), Ch.13 'The GVBR' (IMG_8810–8825, p.219–235), Ch.14 'The Auto Fiend' (IMG_8826–8836, p.237–246, book's last chapter). Two small scan gaps, neither breaking a sentence: p.190–191 (Ch.11, likely a photo plate) and p.230 (Ch.13, a full-page photo). |
 | No Brains on Tuesday | 1991 | 14 chapters (thematic column collections) | 5 (Introduction + Chapter 1's 4 columns) | 0 | rest of Chapter 1 onward | Introduction and Chapter 1 ('Columns Which Drip With Nostalgia') transcribed from manually-scanned photos 9 Aug 2026; see §11 for detail |
 | Saint Ned | 1980 | 11 chapters | 4 | 0 | 7 | Chapters 1–4 transcribed from manually-scanned photos 7 Aug 2026; see §10 for chapter detail |
 | The Store on the Hill | 1979 | ? | 0 | 0 | ❓ | Not started |

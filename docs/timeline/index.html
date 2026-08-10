@@ -3011,13 +3011,10 @@
       filterButtons.forEach(function (button) {
         button.addEventListener('click', function () {
           var filter = button.dataset.filter;
-          var index = activeFilters.indexOf(filter);
-          if (index === -1) {
-            activeFilters.push(filter);
-          } else {
-            activeFilters.splice(index, 1);
-          }
-          button.setAttribute('aria-pressed', index === -1 ? 'true' : 'false');
+          activeFilters = [filter];
+          filterButtons.forEach(function (other) {
+            other.setAttribute('aria-pressed', other.dataset.filter === filter ? 'true' : 'false');
+          });
           applyFilters();
         });
       });
