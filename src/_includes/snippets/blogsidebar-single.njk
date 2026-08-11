@@ -1,5 +1,6 @@
+{% set pageTags = tags | filterTagList %}
+
 {% macro relatedTopicsList() %}
-  {%- set pageTags = tags | filterTagList %}
   {%- for tag in pageTags %}
     {% set tagUrl %}/topic/{{ tag | slug }}/{% endset %}
     <a href="{{ tagUrl | url | safe }}" class="link-secondary">{{ tag }}</a>{% if not loop.last %},{% endif %}
@@ -13,9 +14,11 @@ moves up into the article header there instead of appearing here). -->
   <p class="lead">
         {{ summary }}
       </p>
+{% if pageTags.length %}
 <hr>
 <h4 class="h6">Related topics</h4>
 <p class="small text-muted mb-3">{{ relatedTopicsList() }}</p>
+{% endif %}
 
 <br>
 <hr>
@@ -26,8 +29,10 @@ moves up into the article header there instead of appearing here). -->
 <!-- Mobile only — related topics + view all topics, positioned after the
 article content; last updated trails at the very end. -->
 <div class="d-md-none">
+  {% if pageTags.length %}
   <h4 class="h6">Related topics</h4>
   <p class="small text-muted mb-3">{{ relatedTopicsList() }}</p>
+  {% endif %}
   <small><a href="{{ '/search/' | url }}">View all topics</a></small>
 
   {% set lastUpdated = page.inputPath | gitLastUpdated %}

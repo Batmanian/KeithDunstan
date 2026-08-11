@@ -4,6 +4,9 @@ date: 1991-01-01
 summary: The VFL's decision to hand out retroactive Brownlow Medals to players who tied in the past prompts a suggestion that the same principle be applied to all Australian life, with a full list of those who should receive belated honours, concluding with shifting Bob Hawke to the House of Lords.
 tags:
   - Paul Keating
+  - Bob Hawke
+  - Andrew Peacock
+  - Telecom
 ---
 
 The Victorian Football League has had a lovely time this past week handing out Brownlow Medals.

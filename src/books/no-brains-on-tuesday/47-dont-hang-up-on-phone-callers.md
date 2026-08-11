@@ -3,6 +3,7 @@ title: Don't Hang Up on Phone Callers
 date: 1991-01-01
 summary: Telephone addiction is ranked among the most serious drugs, ahead of alcohol and tobacco, with evidence including a mother whose bill from Minnesota reached $400, the futility of 'Maximum three minutes' notices above the telephone, the exotic new handsets Telecom produces as inviting as lollipops, and a suggestion that whoever makes local calls free will be Prime Minister for a generation.
 tags:
+  - Telecom
 ---
 
 There are two kinds of telephone callers. There is no sex difference. Either hair of another human is the trigger. Grandpa tells you the hair is quite sufficient — signals the hair — and the Richter scale goes up to three or four.
