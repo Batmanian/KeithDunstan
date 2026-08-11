@@ -1,0 +1,324 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Comforts of Being Locked Up</title>
+<meta name="title" content="The Comforts of Being Locked Up">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="A survey of Melbourne&#39;s escalating home and car security, from being locked out on the footpath in dirty jeans looking like a suspected housebreaker, to a son-in-law trapped outside in his dressing gown, to a brand new car&#39;s anti-theft locks defeating the RACV and requiring a $70 locksmith&#39;s call-out at the beach.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/no-brains-on-tuesday/60-the-comforts-of-being-locked-up/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="The Comforts of Being Locked Up">
+<meta property="og:description" content="A survey of Melbourne&#39;s escalating home and car security, from being locked out on the footpath in dirty jeans looking like a suspected housebreaker, to a son-in-law trapped outside in his dressing gown, to a brand new car&#39;s anti-theft locks defeating the RACV and requiring a $70 locksmith&#39;s call-out at the beach.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="The Comforts of Being Locked Up">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/no-brains-on-tuesday/60-the-comforts-of-being-locked-up/">
+<meta name="twitter:title" content="The Comforts of Being Locked Up">
+<meta name="twitter:description" content="A survey of Melbourne&#39;s escalating home and car security, from being locked out on the footpath in dirty jeans looking like a suspected housebreaker, to a son-in-law trapped outside in his dressing gown, to a brand new car&#39;s anti-theft locks defeating the RACV and requiring a $70 locksmith&#39;s call-out at the beach.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="The Comforts of Being Locked Up">
+<link rel="canonical" href="https://keithdunstan.org/books/no-brains-on-tuesday/60-the-comforts-of-being-locked-up/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1991-01-01">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="No Brains On Tuesday">
+<meta property="article:tag" content="RACV">
+<meta property="article:tag" content="Toorak">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">The Comforts of Being Locked Up</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            6
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1991-01-01">1991</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A survey of Melbourne&#39;s escalating home and car security, from being locked out on the footpath in dirty jeans looking like a suspected housebreaker, to a son-in-law trapped outside in his dressing gown, to a brand new car&#39;s anti-theft locks defeating the RACV and requiring a $70 locksmith&#39;s call-out at the beach.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="No Brains On Tuesday">
+         <!--<a href="/tags/racv/" class="btn btn-outline-dark btn-sm me-2">RACV</a><a href="/tags/toorak/" class="btn btn-outline-dark btn-sm me-2">Toorak</a>-->
+
+        
+      </header>
+      <p>It is almost time to join some good religious order and give all one's property to the poor. I don't think I can stand it much longer.</p>
+<p>Last week-end I went out to put something in the rubbish tin. I heard the gentle click of the front gate behind me and I knew I was locked out, me outside, keys inside, nobody at home. Almost everybody has been robbed in our street. The folk next door have a fence three metres high, which is permanently locked. You can only communicate with those inside, via one of those security phones. You press the button and eventually a disembowelled voice comes from inside, from afar off, as if you were trying to communicate with the Reserve Bank at 3 a.m.</p>
+<p>The security at our place is also magnificent. We have bars on the windows. The side fence goes to three metres with nasty wire on top. The doors and gates are all deadlocked.</p>
+<p>So there I was outside and I knew there wasn't a chance of getting back in. It was two hours before my wife came home. So what could a man do? Nothing. No money in pockets to go down to the pub for a drink. All I could do was sit on the footpath by the fence and meditate.</p>
+<p>I was in my dirty jeans, joggers, and favourite old polo neck sweater. As people walked past they looked at me strangely, you could see what they were thinking. 'What's he doing there? Horrid! Typical suspicious looking housebreaker. I wonder if I should call the police?'</p>
+<p>Exactly the same thing happened several weeks ago to a son-in-law. He went out to the rubbish bin and the wind blew the front door shut. Trapped outside by the latest in magnificent double deadlocks, worth around $70 a time. He was in his dressing gown, bare feet, nothing on underneath. His wife had already left for the office. It was one of these double working households.</p>
+<p>He had to walk a kilometre to our place seeking help, thinking all the time he would be picked up for being the local mystery rapist.</p>
+<p>Two weeks ago I went to north-eastern Victoria and stayed with some friends. They kept their house as open as a tree. When they went out they didn't lock anything. 'Why bother, everyone's honest around here,' they said.</p>
+<p>Not in Melbourne. We have put fancy deadlocks on everything that opens and finally it is starting to get to me. The theory is that you must have deadlocks because the thieves come round with furniture vans and take not only your video, but the lot.</p>
+<p>So you've got to have a key to get in and you've got to have a key to get out. 'Some thief could break the glass, put his hand round, undo the lock and mug us all,' I say to my wife. 'You don't have it deadlocked all the time?' 'Yes you do,' she says. 'Not when we're inside.'</p>
+<p>So every time we go out we have to find the keys. Or the postman's ringing on the front door with a registered parcel. We're not very well organised at our place. 'HAS ANYONE SEEN THE DAMN KEYS?'</p>
+<p>But first you have to find your glasses before you can find the damn keys. By the time you have sorted all this out the postman has gone and you have to go to the post office to get the parcel.</p>
+<p>We haven't bought a burglar alarm yet, but that is the next stage of lunacy. Everyone over there in Toorak has one. You have to remember to turn the things on and off. Very sophisticated they are. There are the types that just work when someone forces a window, but there are the fancy ones that work by sonar, or by breaking a beam of light, or if they are ultra fancy they pick up a rise in temperature caused by a human body.</p>
+<p>In some streets you get a better sonic display than Big Ben, with alarms going off all day and night. Meanwhile ours has a sign in his front window: 'We have a burglar alarm, but don't worry. There's nothing left. This house has been robbed three times already.'</p>
+<p>Cars, now that's another thing. We have had cars stolen twice before. We bought a new one last year. We didn't think too much about dream upholstery, digital dash, fuel injection or any of that nonsense. Good locking we were after. So we bought a car with superb electronic thief-proof locks, one turn, kerlunk, all locked.</p>
+<p>Well, we were down at the seaside, parked in the tea tree. Time 3 pm. I was putting things away after the picnic, keys on the carpet of the lovely hatchback. As soon as I closed the boot I knew what I had done. 'Where are your keys?' I said to my wife. 'They're in my handbag...uh...in the car.'</p>
+<p>We called the RACV. 'No trouble,' they said. 'We do this all the time. Average time for getting into a car; 30 seconds.'</p>
+<p>Not with our car. After 45 minutes he said it was hopeless. 'The security was magnificent. Your only hope is to get a locksmith.'</p>
+<p>It was 7 p.m. and after dark by the time the mobile locksmith arrived. He looked at our car under the tea tree, and leered: 'What have you two been doing? Necking?'</p>
+<p>He could just see my bunch of keys on the floor of the boot by shining his torch through the hatchback. He worked out the design, went back to his mobile workshop, scratched and filed for over an hour. He came back again and again to the lock, and just when we thought he was going to give up:</p>
+<p>'Click,' all the locks went free in a beautiful synchronised electronic motion.</p>
+<p>'That will be $70 thank-you,' said he.</p>
+<p>And he told us what a marvellous business he had. It always started at around 8 a.m., he got locked out of their offices. About 11 a.m. he got the domestic trade, housewives locked out of their houses, lost the keys at the super market, then the folk coming home in the evening. And it was getting better all the time.</p>
+<hr>
+Continue to the next column: <a href="/books/no-brains-on-tuesday/61-hail-to-the-umbrageous-coast/">Hail to the Umbrageous Coast</a>
+
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        A survey of Melbourne&#39;s escalating home and car security, from being locked out on the footpath in dirty jeans looking like a suspected housebreaker, to a son-in-law trapped outside in his dressing gown, to a brand new car&#39;s anti-theft locks defeating the RACV and requiring a $70 locksmith&#39;s call-out at the beach.
+      </p>
+<hr>
+<h4 class="h6">Related topics</h4>
+<p class="small text-muted mb-3">
+    
+    <a href="/topic/racv/" class="link-secondary">RACV</a>,
+    
+    <a href="/topic/toorak/" class="link-secondary">Toorak</a>
+</p>
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/racv/" class="link-secondary">RACV</a>,
+    
+    <a href="/topic/toorak/" class="link-secondary">Toorak</a>
+</p>
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>
