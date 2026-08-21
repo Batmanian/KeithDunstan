@@ -53,4 +53,4 @@ The Englishmen, generally, thought the standard of cricket in Australia was low,
 
 <hr>
 
-*Source: [Around Melbourne "A WONDERFUL LOT OF DRINKIN' MEN"](https://nla.gov.au/nla.obj-689072507), The Bulletin, 1962-11-10. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne "A WONDERFUL LOT OF DRINKIN' MEN", The Bulletin, 1962-11-10. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-689072507).*

@@ -1,0 +1,328 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Manic Cholesterol</title>
+<meta name="title" content="Manic Cholesterol">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Time magazine&#39;s cover story on cholesterol is filed as the latest in a decades-long tradition of manufactured food panics, from a childhood sugar scare that banished Mars Bars for nine months to Reader&#39;s Digest&#39;s mid-century disease-of-the-week formula, ending in a plea for a single year&#39;s amnesty from health scares to enjoy cheese, ham fat and salt in peace.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/no-brains-on-tuesday/72-manic-cholesterol/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Manic Cholesterol">
+<meta property="og:description" content="Time magazine&#39;s cover story on cholesterol is filed as the latest in a decades-long tradition of manufactured food panics, from a childhood sugar scare that banished Mars Bars for nine months to Reader&#39;s Digest&#39;s mid-century disease-of-the-week formula, ending in a plea for a single year&#39;s amnesty from health scares to enjoy cheese, ham fat and salt in peace.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Manic Cholesterol">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/no-brains-on-tuesday/72-manic-cholesterol/">
+<meta name="twitter:title" content="Manic Cholesterol">
+<meta name="twitter:description" content="Time magazine&#39;s cover story on cholesterol is filed as the latest in a decades-long tradition of manufactured food panics, from a childhood sugar scare that banished Mars Bars for nine months to Reader&#39;s Digest&#39;s mid-century disease-of-the-week formula, ending in a plea for a single year&#39;s amnesty from health scares to enjoy cheese, ham fat and salt in peace.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Manic Cholesterol">
+<link rel="canonical" href="https://keithdunstan.org/books/no-brains-on-tuesday/72-manic-cholesterol/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1991-01-01">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="No Brains On Tuesday">
+<meta property="article:tag" content="Princess Diana">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">Manic Cholesterol</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            6
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1991-01-01">1991</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Time magazine&#39;s cover story on cholesterol is filed as the latest in a decades-long tradition of manufactured food panics, from a childhood sugar scare that banished Mars Bars for nine months to Reader&#39;s Digest&#39;s mid-century disease-of-the-week formula, ending in a plea for a single year&#39;s amnesty from health scares to enjoy cheese, ham fat and salt in peace.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="No Brains On Tuesday">
+         <!--<a href="/tags/princess-diana/" class="btn btn-outline-dark btn-sm me-2">Princess Diana</a>-->
+
+        
+      </header>
+      <p>Time Magazine, you may have noticed, last week had a cover story, titled 'Cholesterol Mania'.</p>
+<p>MAY have noticed! Ye Gods, they took full page advertisements all over the place, depicting a poor male in a state of abject terror, trying to keep alive feeding his stomach with fat free cabbage, pumpkin, apple, carrot and turnip.</p>
+<p>It is not the first time they have done this. About five years ago they had a cover story on sugar. It was so scary about sugar it took our family nearly nine months to get over it. For weeks we went without Mars Bars, Kit Kats and for a frightful year we even had porridge without sugar.</p>
+<p>Time, of course, is following a great tradition. It was Reader's Digest back in the fifties and sixties that built its enormous circulation through disease.</p>
+<p>I can remember so well that marvellous fruitful period. It could come up with a new disease almost every issue.</p>
+<p>I can remember pre-1950 we used to get just ordinary stuff like the common cold and influenza. But Reader's Digest discovered a whole range of interesting Viruses, Virus A, B, C, D and Virus X. There was URTI, Upper Respiratory Tract Infection, to say nothing of the Asian Flu, the Hong Kong Flu, and the Spanish flu.</p>
+<p>There was much prestige to be had in getting a new disease announced on the latest issue of the Digest. What's more, it had much more effect if you could tell the boss at the office you were the first to get the disease, clearly explained on page 48 of this week's mag.</p>
+<p>Soon all the other journals cottoned on to the idea. The Women's Weekly was always a very strong disease, diet, illness paper. Woman's Day liked them too. Disease sometimes was a circulation builder that could rival Princess Diana, Fergie and all the various creatures in Monaco.</p>
+<p>The Bulletin recently had a run down on all the trendy diseases, and coronary bypass was absolutely the go. However, to be up with the best, it should be at least a triple or a quadruple.</p>
+<p>The trouble at our place is we are so susceptible, I believe everything they tell me, so that I am in a perpetual state of fear. We have been through it all in our dreadful attempts to keep alive.</p>
+<p>One of the first was the horrid Canadian 5BX. Do you remember, they gave you five minutes to go through an agonising series of exercises? Day by day they would get progressively harder until your five minutes was so frenzied you couldn't face going to the office.</p>
+<p>We went through all the craze as ordered by the various journals. We grew our own bean shoots because we were told they would give eternal life. You know, have little trays of tiny beans, put them in trays of water, catch the sun through the kitchen window, have them sprout and you eat the resulting grass in your sandwiches.</p>
+<p>Yoghurt, said one of the weeklies, was essential for the interaction of digestive juices, the only thing for true survival. So as instructed we went through the business of cooking up gallons of milk and making our own. We used to have the car parked in the back yard, because that was the perfect warm place, the yoghurt jellied itself there on the dash board.</p>
+<p>I have forgotten which magazine it was that announced that salt was certain death. For six months we went through this ghastly period where we were buying only salt free butter, no salt in cakes or cooking. Our super healthy salt free, yoghurt-charged, mung bean inspired, friends, told us: 'Look very soon you won't even notice it. You will never think salt again.'</p>
+<p>I remembered that when I gave up smoking it took only 15 years to get over that. It was the same with salt. Not a thing had that longing for tobacco. We went through this ghastly period with salt.</p>
+<p>What irritates me about the new cholesterol mania is that we have been through all this at least seven years ago, when the American magazines, Mr Pritikin and others, first invented cholesterol. It was so hard to spell.</p>
+<p>I had the idea that surely it had something to do with chlorine. It was vile enough for that. So one tended to spell it cholesterol.</p>
+<p>We went through the whole anti-cholesterol bit. Never will we forget those awkward guilt-ridden moments in restaurants, when they serve the delicious hot rolls, or when the garlic bread comes in. 'You are not going to put butter on it, ARE YOU?'</p>
+<p>Or when the marvellous baked potato, arrived sitting there by the steak. 'Oh, you can substitute yoghurt for butter.'</p>
+<p>It was a family tradition that as you walked by, pull out the carving knife and nick off a slice. The ham had to be generous with a gorgeous border of fat an inch and a half thick. My father said, very correctly, the fat was absolutely the best part.</p>
+<p>Cholesterol Mania No 1 killed all that. We had Christmases with every millimetre of ham fat ruthlessly peeled off. Anorexic steaks we had, as lean as tram tickets, and cheese, of course, was not even to be mentioned.</p>
+<p>Well, we had just managed to get over this. This year we have been having eggs again for breakfast with even slices of old fashioned ham with a happy border of white fat and God bless the cheese maker, we have been enjoying Australian cheeses that beat anything else on earth.</p>
+<p>Now Time does this to us. Admittedly they give the case for and against, saying that the cholesterol thing is unproven and they did find a specialist who likes meats, eggs, butter, cheese and proposes to keep on eating them regardless.</p>
+<p>But it has got me terrified again. I pulled back yesterday when I was just about to have a second helping of delicious King Island brie.</p>
+<p>Could one make a plea? Let's have an amnesty. Could we, say, have a year without any magazine bringing on a new disease, or a new health scare? I don't mind if the Women's Weekly sticks to the shortcomings and marriages of the Royal Family. The Bulletin can persecute us further with its public opinion polls and Time can return to the terrors of the Middle East.</p>
+<p>But would they kindly leave my heart alone? It is in enough trouble already.</p>
+<hr>
+Continue to the next column: <a href="/books/no-brains-on-tuesday/73-caulie-the-perfect-flower/">Caulie - The Perfect Flower</a>
+
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        Time magazine&#39;s cover story on cholesterol is filed as the latest in a decades-long tradition of manufactured food panics, from a childhood sugar scare that banished Mars Bars for nine months to Reader&#39;s Digest&#39;s mid-century disease-of-the-week formula, ending in a plea for a single year&#39;s amnesty from health scares to enjoy cheese, ham fat and salt in peace.
+      </p>
+
+<hr>
+<h4 class="h6">Related topics</h4>
+<p class="small text-muted mb-3">
+    
+    <a href="/topic/princess-diana/" class="link-secondary">Princess Diana</a>
+</p>
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/princess-diana/" class="link-secondary">Princess Diana</a>
+</p>
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

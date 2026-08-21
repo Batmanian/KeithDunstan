@@ -56,4 +56,4 @@ According to columnist E. W. Tipping a new word has come in to the language in M
 
 <hr>
 
-*Source: [Around Melbourne £500 IS A POODLE](https://nla.gov.au/nla.obj-696387883), The Bulletin, 1962-08-25. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne £500 IS A POODLE, The Bulletin, 1962-08-25. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-696387883).*

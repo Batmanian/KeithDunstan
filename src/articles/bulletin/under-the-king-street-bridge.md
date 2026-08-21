@@ -42,4 +42,4 @@ Furthermore, let us not forget Hawthorn City Council. The Commissioners have bee
 
 <hr>
 
-*Source: [Around Melbourne UNDER THE KING STREET BRIDGE](https://nla.gov.au/nla.obj-701156777), The Bulletin, 1963-01-26. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne UNDER THE KING STREET BRIDGE, The Bulletin, 1963-01-26. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-701156777).*

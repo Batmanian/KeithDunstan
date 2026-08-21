@@ -48,4 +48,4 @@ Would Mr Downer have to tell them that these Australians in this housing estate 
 
 <hr>
 
-*Source: [Around Melbourne WILD LIFE IN SUBURBIA](https://nla.gov.au/nla.obj-688773058), The Bulletin, 1962-06-23. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne WILD LIFE IN SUBURBIA, The Bulletin, 1962-06-23. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-688773058).*

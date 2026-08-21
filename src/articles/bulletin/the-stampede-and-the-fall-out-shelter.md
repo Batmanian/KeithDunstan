@@ -57,4 +57,4 @@ According to the instructions there was room for a family of four, but they woul
 
 <hr>
 
-*Source: [Around Melbourne THE STAMPEDE AND THE FALL-OUT SHELTER](https://nla.gov.au/nla.obj-688875596), The Bulletin, 1962-06-16. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne THE STAMPEDE AND THE FALL-OUT SHELTER, The Bulletin, 1962-06-16. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-688875596).*

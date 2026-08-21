@@ -55,4 +55,4 @@ The Society's problems in Melbourne are huge, from the screeching cicadas which 
 
 <hr>
 
-*Source: [Around Melbourne ST KILDA RD-OR DISNEYLAND MODERN](https://nla.gov.au/nla.obj-704229820), The Bulletin, 1962-09-08. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne ST KILDA RD-OR DISNEYLAND MODERN, The Bulletin, 1962-09-08. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-704229820).*

@@ -72,4 +72,4 @@ Three other members said they like it. But I think BASA shows great promise and 
 
 <hr>
 
-*Source: [Around Melbourne NOT JUST A BEER-UP CLUB!](https://nla.gov.au/nla.obj-696453682), The Bulletin, 1962-08-11. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne NOT JUST A BEER-UP CLUB!, The Bulletin, 1962-08-11. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-696453682).*

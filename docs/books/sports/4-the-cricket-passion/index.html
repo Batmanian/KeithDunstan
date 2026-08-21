@@ -1,0 +1,636 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Cricket Passion</title>
+<meta name="title" content="The Cricket Passion">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Traces cricket&#39;s role in binding the Australian colonies into a nation, and the fierce, sometimes poisonous rivalry with England that ran from the first touring elevens through the Sydney riot of 1879, Bradman and Bodyline, to the cancelled 1971-72 South African tour.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/sports/4-the-cricket-passion/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="The Cricket Passion">
+<meta property="og:description" content="Traces cricket&#39;s role in binding the Australian colonies into a nation, and the fierce, sometimes poisonous rivalry with England that ran from the first touring elevens through the Sydney riot of 1879, Bradman and Bodyline, to the cancelled 1971-72 South African tour.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="The Cricket Passion">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/sports/4-the-cricket-passion/">
+<meta name="twitter:title" content="The Cricket Passion">
+<meta name="twitter:description" content="Traces cricket&#39;s role in binding the Australian colonies into a nation, and the fierce, sometimes poisonous rivalry with England that ran from the first touring elevens through the Sydney riot of 1879, Bradman and Bodyline, to the cancelled 1971-72 South African tour.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="The Cricket Passion">
+<link rel="canonical" href="https://keithdunstan.org/books/sports/4-the-cricket-passion/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1973-11-11">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="Sports">
+<meta property="article:tag" content="Rowland Bowen">
+<meta property="article:tag" content="Ted Dexter">
+<meta property="article:tag" content="Charles Dickens">
+<meta property="article:tag" content="H. H. Stephenson">
+<meta property="article:tag" content="Melbourne Cricket Ground">
+<meta property="article:tag" content="W. G. Grace">
+<meta property="article:tag" content="Marylebone Cricket Club">
+<meta property="article:tag" content="Charles Bannerman">
+<meta property="article:tag" content="Fred Spofforth">
+<meta property="article:tag" content="Billy Murdoch">
+<meta property="article:tag" content="Lord Harris">
+<meta property="article:tag" content="Victor Trumper">
+<meta property="article:tag" content="Clem Hill">
+<meta property="article:tag" content="Warwick Armstrong">
+<meta property="article:tag" content="Don Bradman">
+<meta property="article:tag" content="Douglas Jardine">
+<meta property="article:tag" content="Harold Larwood">
+<meta property="article:tag" content="Bill Woodfull">
+<meta property="article:tag" content="Ian Meckiff">
+<meta property="article:tag" content="Norman O&#39;Neill">
+<meta property="article:tag" content="John Snow">
+<meta property="article:tag" content="Ray Illingworth">
+<meta property="article:tag" content="Ian Chappell">
+<meta property="article:tag" content="Ali Bacher">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">The Cricket Passion</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            61
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1973-11-11">1973</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Traces cricket&#39;s role in binding the Australian colonies into a nation, and the fierce, sometimes poisonous rivalry with England that ran from the first touring elevens through the Sydney riot of 1879, Bradman and Bodyline, to the cancelled 1971-72 South African tour.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="Sports">
+         <!--<a href="/tags/rowland-bowen/" class="btn btn-outline-dark btn-sm me-2">Rowland Bowen</a><a href="/tags/ted-dexter/" class="btn btn-outline-dark btn-sm me-2">Ted Dexter</a><a href="/tags/charles-dickens/" class="btn btn-outline-dark btn-sm me-2">Charles Dickens</a><a href="/tags/h.-h.-stephenson/" class="btn btn-outline-dark btn-sm me-2">H. H. Stephenson</a><a href="/tags/melbourne-cricket-ground/" class="btn btn-outline-dark btn-sm me-2">Melbourne Cricket Ground</a><a href="/tags/w.-g.-grace/" class="btn btn-outline-dark btn-sm me-2">W. G. Grace</a><a href="/tags/marylebone-cricket-club/" class="btn btn-outline-dark btn-sm me-2">Marylebone Cricket Club</a><a href="/tags/charles-bannerman/" class="btn btn-outline-dark btn-sm me-2">Charles Bannerman</a><a href="/tags/fred-spofforth/" class="btn btn-outline-dark btn-sm me-2">Fred Spofforth</a><a href="/tags/billy-murdoch/" class="btn btn-outline-dark btn-sm me-2">Billy Murdoch</a><a href="/tags/lord-harris/" class="btn btn-outline-dark btn-sm me-2">Lord Harris</a><a href="/tags/victor-trumper/" class="btn btn-outline-dark btn-sm me-2">Victor Trumper</a><a href="/tags/clem-hill/" class="btn btn-outline-dark btn-sm me-2">Clem Hill</a><a href="/tags/warwick-armstrong/" class="btn btn-outline-dark btn-sm me-2">Warwick Armstrong</a><a href="/tags/don-bradman/" class="btn btn-outline-dark btn-sm me-2">Don Bradman</a><a href="/tags/douglas-jardine/" class="btn btn-outline-dark btn-sm me-2">Douglas Jardine</a><a href="/tags/harold-larwood/" class="btn btn-outline-dark btn-sm me-2">Harold Larwood</a><a href="/tags/bill-woodfull/" class="btn btn-outline-dark btn-sm me-2">Bill Woodfull</a><a href="/tags/ian-meckiff/" class="btn btn-outline-dark btn-sm me-2">Ian Meckiff</a><a href="/tags/norman-o&amp;#39;neill/" class="btn btn-outline-dark btn-sm me-2">Norman O&#39;Neill</a><a href="/tags/john-snow/" class="btn btn-outline-dark btn-sm me-2">John Snow</a><a href="/tags/ray-illingworth/" class="btn btn-outline-dark btn-sm me-2">Ray Illingworth</a><a href="/tags/ian-chappell/" class="btn btn-outline-dark btn-sm me-2">Ian Chappell</a><a href="/tags/ali-bacher/" class="btn btn-outline-dark btn-sm me-2">Ali Bacher</a>-->
+
+        
+      </header>
+      <p>Which was the most important in binding Australia into one nation? Was it cricket, was it Federation, or was it some great national disaster like Gallipoli? Rowland Bowen, the cricket historian, gives at least some of the credit to cricket. Australians came together on the sporting field, long before they joined in matters of defence or Parliament. In 1877, twenty-four years before Federation, the divided, intensely jealous Australian colonies combined to play the first Test Match against England. The colonies called this the 'Australian' team, and the satisfaction to be had in beating the mother country could hardly be under-estimated. The win did huge things for the national ego. Triumphs in sculling came at the same time, and there was even a belief that this young country might be a place for breeding a race of supermen. The victory helped overcome feelings of inadequacy, of lack of sophistication, of second-ratedness. These feelings have never really departed.</p>
+<p>While cricket is supposed to be the fair play game, the historic game from the village green, character building, decent, the sunlit happiest of games, the history of play against England is charged with struggle, often played out in an atmosphere of strange animosity. Australia's desire to win has been enormous, beyond the reality of the situation. And England hasn't always taken kindly to being thrashed by an upstart of a colony. Until the 1880s Britain always assumed it was unconquerable in sport. So the rivalry has had a brittle edge; fun, say, for 80 per cent of the time, but the sweet chocolate has had a hard centre. Ted Dexter, captain of the England XI in 1962, 1963 and 1964, was even prepared to admit this in <em>Wisden</em>, the Bible of the sport. In 1972 he wrote:</p>
+<p>I have on occasions taken a quite unreasonable dislike to Australians. Sorry, but it is the truth. And if I blush at the thought, let alone the telling of it publicly, I derive a certain amount of comfort from the knowledge that I am not alone amongst England's cricketers, highly reprehensible though they of course are. Given suitable circumstances—and there can be few so absolutely right for a spot of disliking than a Test Match between us and the Australians. Under provocation . . . Australians can, and do, quite readily and often in my experience, throw off all their 180 years of civilized nationhood; they gaily revive every prejudice they ever knew, whether to do with accent, class consciousness or even the original convict complex, and sally forth into battle with a dedication which would not disgrace the most committed of the world's political agitators.</p>
+<p>In the early days the rivalry was intense but the skill was not great. Although there was a cricket club in Sydney in 1826 and in the other States from the 1830s, the standard generally was low. Dexter went further, he described cricket as doing something remarkable to the usually affable Australians—both players and spectators turned into creatures as dreadful as the multi-headed Hydra.</p>
+<p>The first All-England XI did not arrive until Christmas 1861. An enterprising firm of Melbourne caterers, Messrs Spiers &amp; Pond, planned to bring out Charles Dickens on a lecture tour, but they could not arrange suitable terms with the famous gentleman, so they tried the next best thing—a cricket team. Mr H. H. Stephenson's XI arrived off Cape Otway aboard the steamer <em>Great Britain</em> on the night of 21 December, and berthed early on Christmas Eve. At Sandridge (Port Melbourne) there was a great arch of welcome over the road and three thousand people were on the wharf. The team went to town in a coach drawn by eight greys, and all the way it was surrounded, hemmed in, like a whale surrounded by lesser fish. <em>The Argus</em> was startled: 'The game of cricket has no heartier admirers than ourselves, but we might imagine from the super-abundant effusion which the approaching contest has excited that some tremendous crisis is at hand, or that some trial which is to make us or mar us for ever is approaching.'</p>
+<p>For this match the Melbourne Cricket Club built a stand seven hundred feet long—said to be the finest in the world—and the amount of liquor stocked in the bars below was also said to be a record. Champagne was four shillings a bottle, and Scotch three shillings. The original plan was for Mr Stephenson's team to play against a twenty-two-man Melbourne side. He objected. His team had been at sea for sixty days. How could they be fit for such an encounter? <em>The Herald</em> attacked at once. Mr Stephenson had played against twenty-two in New York and in Canada. 'Are the cricketers of Victoria so much superior that the Eleven of England cannot play twenty-two of them?' There was much heated debate. Mr Stephenson received a white feather through the mail, and the matter was not resolved until the very eve of the match, when the English captain reluctantly agreed to play a team of eighteen. Mr Stephenson was astonished when he saw the Melbourne ground, and certainly England has nothing to compare with Melbourne's new grandstand. Estimates of the crowd on the first day varied from twenty-five to forty thousand and all agreed it was the biggest cricket crowd ever in the colony. A painter even had a ladder for hire. For a shilling one could use this to climb up into the trees.</p>
+<p>The Englishmen were incomparably superior. Against the deadly, very swift, round-arm bowling of George 'The Lion-Hitter' Griffith and the insidious round-arm spinners of G. Bennett, Melbourne's men collapsed for 118 in the first innings and 92 in the second. On the other hand Mr Stephenson's men scored 305 with W. Caffyn ('Terrible Billy') making top score of 79. So the match did not go the full three days as advertised, but Messrs Spiers &amp; Pond were equal to the occasion. They staged a balloon ascent from the centre of the M.C.G. A very handsome balloon it was too. On the outside were pictures of the All-England XI plus that of Queen Victoria. It rose to seven thousand feet and eventually came down in Albert Street, East Melbourne.</p>
+<p>Cobb and Co. provided a magnificent leviathan coach for the entire All-England tour and there were matches at Geelong, Ballarat, Castlemaine and Beechworth. All these were against twenty-two-man sides. The placing of a twenty-two-man side in the field could be a most satisfying business for a captain. A bowler frequently would have six slips, four long stops and the rest would be in serried ranks on the leg and off sides. Particular comment was made about the match in Ballarat. The trouble came when the batsmen skied balls. Six or more players would converge at once, all with faces up-turned. Some of the collisions were appalling.</p>
+<p>The Beechworth XXII was beaten unmercifully. Mr Stephenson's men made 264 then bundled out Beechworth for 20 and 56. Something had to be done to fill in time so George Griffith, the mighty all-rounder, was picked to play a Beechworth XI on his own, at single-wicket cricket. He bowled out the Beechworth side for one run, which was a bye. Then in he came very nonchalantly—rarely had a cricketer ever been so triumphant. He hit two runs and it was all over.</p>
+<p>But Castlemaine was a different story. Indeed Castlemaine even has a plaque recalling the vast historic importance of the occasion, for the Castlemaine XXII was the first team ever to beat England on Victorian soil. The Englishmen in this match never looked strong against the Castlemaine bowlers, and steadily their play seemed to deteriorate. In the second innings they collapsed, incredibly, for 68 runs. In Castlemaine the excitement was almost too much to bear, over five thousand bearded miners cheered their men to victory and at 18 wickets down for 93 runs a gentleman named Dolphin hit the winning three. Mr Stephenson suggested that the poor play could be attributed entirely to the shocking state of the Castlemaine ground. The Melbourne press made a different suggestion. They said the All-England XI had consumed so much lobster and champagne it was a wonder they made any runs at all.</p>
+<p>In Sydney Mr Stephenson's XI took on the combined twenty-two of New South Wales and Victoria. <em>Bell's Life</em> remarked that the crowd was 'the largest concourse of spectators assembled for a match in the southern hemisphere, if not the world'. Presumably the 'forty thousand' which had gathered at the Melbourne Cricket Ground was not worthy of consideration. Again Mr Stephenson was thoroughly beaten. His team made 60 and 75. The XXII scored 101 and 35 with 12 wickets to spare. Yet he lost only two matches on the whole tour, but it did not pay to be beaten. There was much talk about the drinking habits of the team. <em>Bell's Life</em> received this letter:</p>
+<p>Dear Bell, When the England XI arrived in prime condition as far as the aggregate weight was concerned, it was argued by those who are learned in the general subject of obesity that as soon as they got a trifle thinner they would certainly play better, and take a prolonged lease of the wickets to the utter confusion of our local and thirsty cricketers. I saw no prospect of this at the time. Results have verified this. The invincible XI have been much beaten; and their defeat is attributed to all causes but the right one. I maintain that it is simply due to high living. We have heard much of their doings in the field, and more of their performances at the festive board. An observant Press has informed us how they breakfasted, where they lunched, what they subsequently had for dinner, and in what privileged company they supped. We have had one long clatter of knives and forks followed by the usual popping of corks. No human digestion, unaccustomed to public eating and drinking, could stand this.</p>
+<p>Each member of the England team received £150 plus expenses for the tour and odd bonuses collected here and there. Messrs Spiers &amp; Pond covered all the costs and made a clear profit of £11,000. They did so well it was the last time that the two M.C.C.s ever allowed a firm of caterers to take over the control of cricket.</p>
+<p>The Englishmen generally thought the standard of cricket in Australia was low, but at least Roger Iddison, the Yorkshire all-rounder, had one kind comment: 'Well, oi doan't think much o' their play, but they're a wonderful lot of drinkin' men.' It was of great interest to the Marylebone Cricket Club that Stephenson's XI had not been eaten by the Antipodean natives, that it had not been drowned at sea, and much more interesting that it had come back with money. So in 1863 Australia had a visit from Mr George Parr's XI and triumphantly they never lost a match. But the interesting tour was that of Dr W. G. Grace of 1873-4, a tour that was never happy, not even from the time of embarkation, and always it suffered from a nagging, critical press.</p>
+<p>For a start Dr Grace demanded £1,500, plus all expenses before he would consent to tour Australia. The <em>Australasian</em> was stunned. Local cricket officials thought perhaps he might ask for £500, but £1,500! and he an amateur! 'This has created much astonishment, and we may add disgust, among cricketers,' said the <em>Australasian</em>. But the money was paid. Another source of unhappiness was the terrible friction between the amateurs and the professionals. The amateurs came out and returned first class. The professionals went second class and suffered dreadful accommodation. Then, when on tour, the amateurs went to one hotel and the professionals to another, usually the one on the lower social scale. James Lillywhite, the leading professional, complained that in one place they were let out like a horse and trap at 7/6 a day.</p>
+<p>The newspapers accused Grace of being 'a bumptious and overbearing captain' bringing out a side far inferior to those of Stephenson and Parr. But the unfortunate Doctor had much to contend with. After the polite cricket of village green England the rugged country tour must have been an unnerving experience. In every place they played twenty-two-man sides, but the same faces of campaign-hardened Victorians kept cropping up in every side. At Ballarat, England made 470—W. G. Grace 126, and the Doctor's young brother, G. F. Grace, 112. The heat was terrible and with twenty-two men fielding on a very small ground, sometimes the grabbing of the ball was like a football scrum.</p>
+<p>From Ballarat to Stawell they had a harrowing twelve-hour journey across a 72-mile bush track in a ricketty Cobb &amp; Co. coach. No doubt the team felt a little better when two welcoming bands met them four miles out, but Dr Grace was fearful when he inspected the ground. He asked where the wicket was and he received the remarkable reply, 'You're standing on it.' The <em>Daily Telegraph</em> said the wicket was 'as rough as a ploughed field and as hard as iron'. And one reporter sent back home the message: 'I shall probably have to telegraph you the number killed not the number of runs.' Stawell won the match by one run. Dr Grace's XI, 43 and 91, the Stawell XXII, 71 and 64. The <em>Australasian</em> blamed the loss on the drink, 'the bibulous quantities of the professionals'. The pros were taking their drink even while the play was on and the Doctor had to speak 'very strongly' to them.</p>
+<p>Undoubtedly the most extraordinary match came at the end of the tour. Back in Melbourne the South Australian Cricket Association had been negotiating with Dr Grace for a visit to Adelaide. Grace's terms were £800. This stunned the S.A.C.A. into a stupor, but worse was to come. There was only time for one match in South Australia and while the association was fiddling, Kadina, a rough mining town on Yorke Peninsula, accepted Grace's terms and hopped in first. Adelaide was furious.</p>
+<p>Grace's team sailed to Adelaide, then went the hundred miles to Kadina in a coach driven by John Hill, father of Clem Hill. The miners didn't have a cricket ground, but they made one. They didn't have any grandstands, but they put up two, and at vast expense they built a seven-foot fence all around the ground. The <em>Australasian</em> reporter said: 'The ground was beyond the efforts of men or money. The surface was covered entirely with small gravel and providence certainly never intended cricket to be played there.' W. G. Grace looked round for a wicket, couldn't find one and eventually decided that one place was as bad as another. The ground was so hard they couldn't get the stumps into it and they had to call for water.</p>
+<p>There was only one real cricketer with the Yorke XXII, T. W. Wills from Melbourne, and he didn't shine. The Yorke men batted first and the <em>Australasian</em> man commented: 'It was impossible to describe the play for the simple reason there was no play to describe. Many victims wouldn't believe they were out and it afforded considerable merriment to the cognoscenti to hear men appealing when clean bowled.' The crudeness of their ideas about cricket was wonderful to behold. One man knocked his stumps, very nearly spoiling Bush's (the wicket keeper) beauty for ever, and then wanted to know if he was out. 'Slightly,' said Bush, but the umpire thought not. They knew so little about cricket, yet never was a team so beautifully turned out. They all wore brand new, pristine white flannels.</p>
+<p>The XXII scored 42 and the top scorer was sundries with eight. Grace's men made 64. In the second innings the Yorke XXII played an innings which the <em>Australasian</em> said should be put down for ever in the record books, for it was so remarkable. The entire twenty-two actually made only eight runs between them and there were fifteen ducks. The umpire contributed to the interest of the game. There were supposed to be four balls to an over, but sometimes he gave three, sometimes five, six and seven. On one occasion when Dr Grace was bowling, he gave seven. Dr Grace gruffly refused to proceed—seven balls in a four-ball over was quite sufficient. It was then that the umpire awakened, and with great dignity, he called 'over'.</p>
+<p>Meanwhile telegrams were flying back and forth from Adelaide. Somehow the S.A.C.A. had to save face. Grace finally agreed to play a three-day match in Adelaide for the bargain price of £110 plus half the gate. The miners were angry at their loss of exclusiveness and even threatened to take legal action. There was a dinner on the last night of play in Kadina. Because of the Adelaide engagement Grace and his men had to leave at 9 p.m. and as a result the dinner came to an abrupt end. They drove all night, reached Adelaide at 2 p.m., and at 3 p.m. the XI was on the oval ready to start. England made 108 and 73, the Adelaide XXII, 64 and 82. Dr Grace agreed to play out his second innings, but his men did not try over hard and the Adelaide spectators didn't get much for their money. The <em>Australasian</em> said: 'Grace and his men departed with more disgrace than grace.'</p>
+<p>But there was one spectacular event. Jack Pollard recalls it in his book <em>Bumpers, Boseys and Brickbats</em>. Alexander Crooks, a bank clerk, took a catch to dismiss Grace which the locals talked about for several generations. Grace made a mighty hit which was sailing right over the boundary, Crooks leaned back over the chains and caught it with one hand. Crooks, who had until then been an obscure clerk, received rapid promotion in the bank, and he went right through to become general manager of the Commercial Bank of South Australia. Regrettably he lost his job later on, because under his control the bank lost £1,162,679.</p>
+<p>The final figures for the tour were interesting. W. G. Grace topped the batting average with 35.11 and a top score of 126. G. F. Grace was second with 33.4 and a top score of 154. Lillywhite, the rebellious professional, led the bowling averages with 172 wickets at 5.35 runs each and, what with all those twenty-two-man sides, he created a nigh unbeatable average of 6.22 wickets an innings.</p>
+<p>Australian cricket grew and improved very rapidly. In 1876 James Lillywhite brought an all-professional team to Australia and there were no ugly class distinctions or worries over hotels this time. Lillywhite did not fare too well early on. A Victorian XV beat his team, and New South Wales beat him twice, so well that some newspapers suggested an All-Australian XI might play an England XV. But then the Englishmen began to find form, they thrashed New South Wales and would have gone on to win by an innings, but for lack of time.</p>
+<p>Then came the cricket Gallipoli, the welding of the Australian nation. It was agreed to use a combined inter-colonial team and play England on even terms. Don't think it was done easily—there had to be much careful compromise, with the type of give and take that made possible the creation of Canberra half way between Melbourne and Sydney. The First Test, however, would take place on the Melbourne Cricket Ground, therefore as compensation for Sydney's loss, six would come from New South Wales and five from Victoria. The Sydney six were Bannerman, Spofforth, Garrett, Nat Thompson and Dave and Edward Gregory.</p>
+<p>Then came trouble. Spofforth said that Murdoch was his wicket-keeper and without him he would not play. But the Victorians believed they had the finest wicket-keeper in the world, John Blackham, the first man to stand up to the wicket to fast bowling. The <em>Australasian</em> said: 'Spofforth, apparently considering his success was due to his wicket-keeper and not his own merit, and fearing he would be shorn of his lustre if another who &quot;knew not Joseph&quot; were behind his sticks, declined to play unless his own special wicket-keeper man had to remain behind.' As this could not be arranged, this modest gentleman had to remain behind. And so he did.</p>
+<p>But there was still Frank Allan, 'the bowler of the century'. He worked for the Lands Department in Warrnambool, but he sent a telegram to say he was not available. The Warrnambool Fair was on and he did not wish to miss it. The fury that came from the press over this was something to behold. <em>The Argus</em> said: 'It may interest Mr Allan to know that his withdrawal has been attributed to fear.' One paper turned the affair into a saga:</p>
+<p>When bowling cracks of little mind
+Prove beggars upon horses,
+Australia is compelled to find
+Fresh strength and new resources.
+For Allan, Evans, Spofforth,
+She does not care a snuff,
+Since Kendall, Midwinter, and Hodges prove
+Themselves quite good enough.</p>
+<p>The Australian heroes were Bannerman and Midwinter. Bannerman made 165 not out, an extraordinary innings for that time. He looked certain to make a double century but a rising ball from Ulyett hit him on the hand, split a finger and he was unable to go on. No other Australian made more than twenty in either innings. <em>The Argus</em> was thrilled, it asked for a Bannerman subscription even before the match was over. 'We should not begrudge him a jot of the honours even if he did come from Sydney!' So they raised £165, a pound for every run he made. Australia made 245 and England replied with 196. Billy Midwinter, the all-rounder, took 5 wickets for 78. He made a name for himself as the only man ever to play Test cricket both for England and Australia. He went to England with the 1878 team and he returned to Australia in 1881 as a member of the visiting English side, a name to be remembered ever since for cricket quiz programmes.</p>
+<p>Australia's second innings was a disaster. Bannerman, his hand heavily bandaged, was of no use. Ulyett got him this time for four runs, and the side was all out for 104. However England could manage only 108 and Tom Kendall, a left-hander, bowled as he never had before and never did again—he took 7 wickets for 55. The joy throughout the colonies was overwhelming. A Sydney journal reported: 'Up to this year England had at least led the world in cricket. An American or Australian twenty-two might play an English Eleven with a fair chance of not being defeated, but to be defeated in a cricket contest man to man by the natives of an island comparatively lately discovered is too much. The sceptre has passed away so to speak, the flag is struck. It may console them to note that the English race is not degenerating and that in the distant land and on turf where lately the blackfellow hurled his boomerang, a generation has arisen which can play the best bowlers of the time.'</p>
+<p><em>Melbourne Punch</em> was exultant:</p>
+<p>There came a tale to England,
+'Twas of a contest done:
+Australian youths in cricket fields
+Had met the cracks and won;
+They fell like sheaves in autumn,
+Despite the old-world dodges.
+Their efforts vain the runs to gain
+Off Kendall or off Hodges;
+Then rose a chant Australia
+That echoed to the main,
+'Twas confident, not 'blowing',
+'Again we'll do the same.'</p>
+<p>Two weeks later there was a return match on the Melbourne Cricket Ground. This time England won by four wickets. The colonial press graciously offered its congratulations but the comments were much more restrained and <em>Melbourne Punch</em> did not break into verse.</p>
+<p>There was much coming and going of English and Australian teams at this time and in 1878-9 Lord Harris brought his team to Australia, an occasion which caused a deep chilling of relations between the two countries. The rough Australian crowd was suspicious of British nobility and Lord Harris was not over-popular. He had in his team a gentleman amateur, A. N. Hornby. At the Melbourne Cricket Ground Hornby bowled twelve maidens in succession. He was famous for one ball, 'the Sydney Grubber'. It was a high-speed under-arm delivery which Hornby bowled straight along the ground, with remarkable accuracy, straight at the middle stump. It infuriated the mob under the trees at the M.C.G. and they used to shout, 'Why don't you have a go?' or when scoring was impossible even to the not over-wise outer crowd they would switch to 'Take him off.' But the 'Have a go' was interesting, and this is believed to be the origin of the great Australian folk cry 'Ave a go' which has been repeated at least fifty-eight million times since.</p>
+<p>It was the custom at this time for English teams to travel with their own umpire, England would have an umpire, Australia would have an umpire. Lord Harris, however, did not have his own man, but before coming to Sydney he engaged George Coulthard of Melbourne, who was a professional with the Melbourne Cricket Club. This was the worst thing he could have done, because the Melbourne Cricket Club virtually controlled all cricket in Australia. The jealousy and loathing from Sydney was intense and a Melbourne Cricket Club umpire was considered even more suspicious than a mere Englishman.</p>
+<p>The famous match began on the Sydney Cricket Ground on 7 February 1879. England began splendidly with a first innings score of 267. All the time the barracking was particularly bad from a betting group of bookmakers in the grandstand. Worst of all George Coulthard gave a bad decision in favour of Lord Harris. The snick from His Lordship's bat could be heard all over the ground.</p>
+<p>Saturday was the big day. The distinguished party from Government House was there, including the Governor, Sir Hercules Robinson and his lady. At 3.30 p.m. New South Wales was all out for 177—half of those runs having come from the bat of Murdoch—and they now had to follow on. Murdoch, the hero of the hour, opened with Alec Bannerman, very cautiously indeed. When they were 18, Murdoch went for a fast single. As he was scrambling home the wicket was thrown down, and, oh horror, George Coulthard raised his hand, the Sydney hero was out. Murdoch left the wicket, obviously very unhappy at the decision. First there was jeering and hooting from the betting crowd in the pavilion, then from all around the crowd of ten thousand came howls of: 'Not out' . . . 'Go back'.</p>
+<p>Then came an incident about which there was much argument later. According to the <em>Sydney Morning Herald</em> one of the professionals shouted at the crowd, 'You're nothing but the sons of convicts.' Both professionals in the team denied they ever said it, but reputable citizens did write to the <em>Herald</em> and insist that they had heard it. Whatever happened, suddenly the mob took off, rushed the wicket and took possession of the centre of the ground. The English team was in the centre of a gesticulating, shouting mob. One larrikin cracked Lord Harris with a stick, and Hornby, the grubber king, rushed to his captain's defence. Hornby grabbed the larrikin bodily and attempted to drag him to the pavilion. Now there was total uproar with two thousand people on the ground, and punches were being exchanged. According to some journals Lord Harris himself was quite handy with his fists.</p>
+<p>One section of the mob fought to get Lord Harris' attacker away from A. N. Hornby, who received the worst mauling of the Englishmen. He had his shirt almost ripped from his back. But he did get his man to the pavilion and had him locked up in the committee room. Meanwhile, Lord Harris, dignified, outraged, remained on the ground. He believed, according to the age-old rules of cricket, that if he left the ground then the other side could claim the match. So there he stood, surrounded by a mob of two thousand, an extraordinary figure. He said there were no more attempts to strike him. They slyly kicked him once or twice but they were reasonably good natured, even curious.</p>
+<p>Officials and others pleaded with him to come to the pavilion but he refused. Gregory, the New South Wales captain, asked that Coulthard be replaced by another umpire. Lord Harris put this to his players and by popular vote they refused. They insisted that Coulthard had done nothing wrong, so why should he be replaced. The police, who had not been over-impressive, eventually cleared the playing area. Lord Harris spoke to the other umpire, a young lawyer, Edmund Barton, who was to become the first Prime Minister of Australia. He asked Barton if under the laws of cricket he could claim the game. Barton said: 'I'll give it to you in two minutes if the New South Wales batsmen don't return.'</p>
+<p>The batsmen did return, but as soon as the mob saw that Coulthard was still there as umpire they invaded the wicket once more. Again the police cleared the ground, again Coulthard came out and yet again the mob invaded the wicket. Altogether Lord Harris endured one and a half hours of standing in the middle of the ground with no play. At 6 p.m. they abandoned play for the day. The mob threatened that if Coulthard remained as umpire they would be back there on Monday morning. However on the Monday there were only fifteen hundred spectators and England quickly dismissed New South Wales for 49 runs.</p>
+<p>The grief over all this was terrible. The <em>Sydney Morning Herald</em> said anyone with a spirit of national pride now must have a sense of national humiliation. Worst of all, it had happened in front of the Queen's representative. 'Disgraceful,' said the <em>Illustrated Sydney News</em>. 'Disgraceful,' said the <em>Australasian</em>, and being a Melbourne journal it added, that after all, Sydney was becoming notorious for this sort of rowdyism and Melbourne players in inter-colonial matches frequently had gone there in fear of their lives.</p>
+<p>Representatives of the New South Wales Cricket Association called on Lord Harris and expressed their profound regret for the outrage. Harris replied that it was not the fault of the association, but it was hardly an event that could be easily forgotten. Nor did he forget it easily. He wrote a long letter home, giving his version of the whole story, which English newspapers printed faithfully, and shocked Australian newspapers re-printed equally faithfully. His toughest lines were:</p>
+<p>They are capital winners out here; but I am afraid I cannot apply the same adjective to them as losers. I cannot describe to you the horror we feel that such an insult should have been passed on us, and that the game we love so well and wish to see honoured, supported and played in an honest and manly way everywhere, should have received such desecration. We never expect to see such a scene of disorder again. We can never forget this one.</p>
+<p>The comment in the London press was frightening. <em>Figaro</em> mentioned the warm welcome that Gregory's XI had received in England and said: 'The fact is we were too civil and hospitable by half to the greedy, gate-money hunting crew of Australian cricketers . . . Mercenary cads, low contemptible specimens of humanity.' The <em>Daily Telegraph</em> printed a letter which said: 'Everyone must feel the warmest sympathy for Lord Harris and his XI in the outrageous insult offered to them, and it is sincerely to be hoped that we have now seen the last of Australian cricket and cricketers.'</p>
+<p>The <em>Sydney Morning Herald</em> was terribly pained and hurt by all this. After all, Australia had apologized, but other newspapers were not so polite. They accused Lord Harris of behaving like a spoiled little boy crying to his Mamma, and the <em>Illustrated Sydney News</em>, normally a very sober journal, went into satirical verse:</p>
+<p>Sing we of Lordy Harris
+Scion of a noble race,
+Sick of London, Brighton, Paris,
+And of every other place.
+Swore he by the crest deep craven
+On the family silver spoons
+That he'd ne'er be washed or shaven
+Till he'd thrashed the parlous loons.
+Came the morning of the struggle
+Thrown aside were vest and coat,
+And the fizz went guggle, guggle
+Down his Lordship's lordly throat.</p>
+<p>All this had grave ramifications, both on the sport and feeling of goodwill between the two countries. W. L. Murdoch took a team to England the following year and the chill was awful. The county sides handed out the snubs, they were very sorry their fixture lists were full this year. The Marylebone Cricket Club regretted that it could not find a date. Murdoch had to advertise for matches, in time playing matches against scratch eighteen and twenty-two man sides.</p>
+<p>W. G. Grace was the first to come to the rescue. He invited Murdoch to play against his county, Gloucestershire, and after that the other counties came in. Fortunately, too, Murdoch was a diplomat, and a different man from Gregory. So at the very end of the tour, in September, Lord Harris relented and agreed to resume friendly relations, so at last a Test Match did take place. Rowland Bowen, in his history of cricket, records that that Test Match might quite easily never have been played, with the result that the tour would have been a financial disaster. Australia then would have been disinclined to send a team to England for many years, and just possibly Test cricket would have developed along quite different lines—if at all.</p>
+<p>Cricket was of such importance that touring XIs returned home to triumphs, to be greeted by the entire populace. When Dave Gregory's XI came home in November 1878, all Sydney was decorated. There were signs WELCOME HOME on the buildings, the banks and hotels flew flags, displayed cricket bats and pictures. The crowds waited at Circular Quay for hours before the boat actually arrived, and then there was a procession through cheering crowds all the way to the Town Hall for the official reception.</p>
+<p>Perhaps the greatest homecoming was in December 1882, after the famous 'Ashes' Test Match when Spofforth took 14 wickets for 90 runs. The homecoming was the occasion for one of the most spectacular processions Melbourne has ever seen. The first part of the programme was a torchlight procession composed of seven hundred firemen from Melbourne's fire brigades. They assembled at the Burke and Wills monument, then in Collins Street, at 7.30 p.m. At 8 o'clock they lit their flambeaux and the march started. The Australian XI occupied two drags in the middle. There were crowds all along the footpaths, the upstairs of the houses were filled and there were people on the roofs. There were bands—the band from H.M.V.S. <em>Cerberus</em>, the strength of the Victorian Navy; bands of the Emerald Hill, Sandridge, and West Melbourne brigades, and the band of the Fitzroy Lifeboat Crew. The procession moved down Collins Street to Elizabeth Street, up to Bourke Street, then back to Spring Street, and so it proceeded to the Melbourne Cricket Ground. 'Peace hath her victories no less than war,' said the <em>Australasian</em>, 'and the view from Jolimont, the procession with glittering points of light, as it wound its way from Spring Street down the steep descent was especially imposing.'</p>
+<p>At the Melbourne Cricket Ground all was ready. The Electric Light Company kindly gave a special display of electric light, provided by an eight horsepower steam engine. Mr Tillett, the fireworks expert, was there with some marvellous equipment. The time was 9 p.m., the date 7 December 1882, when Murdoch's men drove into the M.C.G. The volunteer bands struck up 'See the Conquering Hero Comes' and Mr Tillett lit a device which crackled out WELCOME HOME in luminous letters.</p>
+<p>The players made their grand tour of the M.C.G., then they stopped in front of the main grandstand. Here Mr E. S. Watson of the Cricketers' Association presented each man with a gold medal. This medal was the size of a five shilling piece. It had the words 'Victorian Cricketers' Association' and the Victorian coat of arms on one side, and on the other a formal inscription. Spofforth's medal had these words: 'Presented to Mr F. R. Spofforth In commemoration of the brilliant performances of the Australian team in England, 1882.' The crowd cheered after each presentation, then came the fireworks display. There were rockets, catherine wheels, stars, and the heavens were laced with streams of gauzy fire. There was one device that displayed SUCCESS TO CRICKET and another which wound up the show, GOOD NIGHT. The entertainment finished just after 10 p.m.</p>
+<p>At this time the cricketer was the ultimate in colonial popularity. He was the greatest of all heroes, not even footballers could compete for their reign was yet to come. <em>Melbourne Punch</em> was moved to print some bitter lines:</p>
+<p>What a grand thing it must be to be a popular cricketer! Your performances are on every lip, your virtues are extolled, and your name is almost a standing advertisement in the newspapers. Indeed, a stranger glancing over the columns of the daily press detailing the week's matches would think that cricket was not only the national pastime, but that the game over-topped the vital interests of politics in the reach for popular favour. And so it does for that matter. But then you must sometimes think the cricket fever is overdone, especially when the reporters tell us in tedious minuteness how this ball was snicked and how that cricketer held his bat. Perhaps we shall be informed some fine day, what tweed your trousers are made of (imported naturally), how you wear your hat, sideways or at the back of the head, where you purchase your shirts, and whose hotel you drink in. Were you Premier of the colony you could not be better known. Everybody courts your acquaintance, and to not know you, not to have 'shouted' for you, or even not to have known anyone who has known you or seen you, are very heinous offences in the eyes of the young Australian born.</p>
+<p>Dr W. G. Grace returned in 1891-2, this time with the illustrious Lord Sheffield, donor of the Sheffield Shield. Grace's terms for a return visit were £3,000 plus expenses for himself and his wife. It is fascinating to speculate what this would be worth in modern terms—$30,000? Even a six-foot-three-inch Melbourne ruckman would not earn that in a single season.</p>
+<p>The newspapers never let up on him. About his earlier tour <em>Melbourne Punch</em> had written: 'At every place they visited, 'tis hard explaining now, But W. G. ungraciously raked up a jolly row, His manner was ridiculous, and not at all sublime, Now what would you expect from a twelve-hundred pound a-time cricket contractor, who professes to be a type of the fine young English cricketer, one of the modern time.'</p>
+<p>In Australia the newspapers called him 'The Great I Am', 'The Great Cash Amateur', but he remained a hero at Lord's. Now they called him 'The Grand Old Buffer', 'Ursa Major—The Great Bear', and 'The Great Cash Amateur'. The <em>Australasian</em> started by saying he wasn't as bad as he was painted, but then patience waned and the cricket writer said: 'As captain W. G. Grace was not popular with his team, especially since the Second Test match. Grace is admittedly a bad loser, and when he lost two of the Test matches in succession he lost his temper too, and kept on losing it right to the finish. Since that match Grace seems to have developed a condition of capriciousness, fussiness and nastiness strongly to be deprecated.' There were many angry articles on both sides of the world. <em>Blackwood's Magazine</em> said we hadn't changed from the days of Botany Bay and Norfolk Island; we were still the lineal descendants of convicts who bowled his man.</p>
+<p>Yet no one could complain about Grace's cricket. He made a score of 159 not out against Victoria that was a masterpiece of timing and expert placing, and although forty-three years old he still topped the batting averages for the tour with 41.8. Indeed the sour publicity was a great help, the public adored an ogre, and it was comforting to be able to pay to see an Englishman they could despise.</p>
+<p>The passion for cricket grew and grew, with great names like Trumble, Syd Gregory, Joe Darling, Monty Noble, Ranjitsinhji and, of course, Victor Trumper. Only Don Bradman was a greater hero than Victor Trumper, and yet, perhaps Trumper was the greater in a truly popular sense. Fellow cricketers found Trumper a completely lovable character whereas they had reservations about Bradman. When at the top of his fame an English journal reported that Mrs C. B. Fry was so impressed with Trumper, she believed his portrait should be done by a great artist and hung in the National Gallery. The Australian poet Victor Daley then penned these lines:</p>
+<p>Ho Statesmen, Patriots, Bards, make way!
+Your fame has sunk to zero:
+For Victor Trumper is today
+Our one Australian Hero.
+Evoe, Trumper! As for me,
+It all ends with the moral
+That fame grows on the Willow Tree
+And no more on the laurel.</p>
+<p>His best season was the 1902 tour of England. He scored 2,570 runs, including eleven centuries at an average of 48.49. Sydney adored him. When he returned he was made a life member of the Sydney Cricket Ground and they presented him with a testimonial. But the most remarkable tribute was a special appreciation night to Victor Trumper by the old boys of Crown Street State School, Trumper's old school. It took place in the Sydney Town Hall on 12 December 1902 and the old building was packed to the doors. The Mitchell Library has a copy of the splendid souvenir programme. On the cover one noted that the occasion was under the patronage of the Governor, Sir H. H. Rawson, the Attorney-General, the Rt Hon. Arthur Deakin, Sir William J. Lyne, the Minister for Home Affairs, plus the State Premier, and the Acting Chief Justice, the Rt Hon. G. H. Reid.</p>
+<p>The programme contained complete statistics of all Trumper's mighty achievements, photographs of him in action, and naturally the story of his life. When Trumper came on the stage the old boys cheered him, cheered him and cheered him. The Lord Mayor of Sydney presented him with a collection of silver plate. Trumper was overcome. He did say something, but the <em>Sydney Morning Herald</em> reported that his voice was barely audible beyond the first few rows.</p>
+<p>That summer he played an extraordinary innings in a club match for Paddington at Redfern Oval. He hit 22 fives and 39 fours, out of a score of 335 compiled in 165 minutes. A big hit over the boundary was worth only five in 1903. R. S. Whitington records that while Trumper was batting, bowlers on nearby rinks abandoned their play for fear of being maimed, and the Chinese proprietors of coster carts sought refuge in safer suburbs. One of Trumper's drives broke a window on the second floor of a shoe factory a hundred and fifty yards from the batting crease. The owners of the factory kept the window in its broken state for sixty years as a memorial to the mighty stroke.</p>
+<p>In February 1913 there was a Trumper testimonial match—New South Wales versus the Rest of Australia, which raised £3,000. On 28 June 1915 he died of Bright's disease. Twenty thousand people lined the streets of Sydney along the way to Waverley Cemetery, and even though the newspapers were filled with long casualty lists of those who died at Gallipoli, many of them still had space for a leading article on Victor Trumper.</p>
+<p>The traumatic year, of course, was 1912. The interesting point about this era was the degree of emotion, the low boiling point of the cricketing public. Australians are notoriously apathetic about politics, but from 1912 and even through the 1930s they would become so stirred by cricketing injustices that they were prepared to turn out for 'public indignation' meetings; they were even prepared to march.</p>
+<p>The 1912 affair was really the struggle for control of Australian cricket. Until this time the Melbourne Cricket Club was the equivalent of the Marylebone Cricket Club in England. It was the real controlling body; it backed tours, it had the money. There was no equivalent in New South Wales, except the Australian Board of Control which came into being in 1905. The Victorian Cricket Association had existed since 1889, but only as a weak, powerless body.</p>
+<p>In 1905 and 1909, Frank Laver, an old M.C.C. man, went to England as the Australian player-manager. He was a good all-rounder, but he failed to present proper books and there were some unkind suggestions about how much money he made out of the tour. So for the 1912 tour the Board of Control decided to appoint its own manager. But Laver was very popular, and the players felt they were entitled to appoint their own man. So on 25 January six players, the cream of Australian cricket, sent a telegram to the Board of Control, saying that if they couldn't appoint their own manager they would not be available for England. The players were Clem Hill, W. W. Armstrong, Victor Trumper, Vernon Ransford, A. Cotter and H. Carter.</p>
+<p>The country was split between New South Wales and the associations of Victoria, Queensland, Tasmania on one side, with South Australia, the Melbourne Cricket Club and most of the players on the other. South Australia was particularly vehement. Clem Hill, the Australian captain, was their man, and any attack on him was akin to an attack on the Royal Family, Lord Kitchener, Nellie Melba and Colonel Light all of a piece.</p>
+<p>There was real trouble coming. The time came to select a team for the Fourth Test against England in Melbourne, plus the team for the tour to England that March. Clem Hill was a selector, so too was Peter McAlister, who toured, not very successfully, in 1909 and was a devoted friend of the Board. Before the meeting Hill sent this telegram to McAlister: 'Macartney all right. Think must have left-arm bowler. Suggest Macartney and Matthews in place of Whitty and Minnett. Minnett twelfth.' McAlister replied: 'My team as forwarded yesterday. Still opposed Macartney's inclusion. If Iredale agrees with you, favour YOURSELF standing down and not Minnett.' Himself indeed, the mighty Clement Hill, the effrontery was almost too much.</p>
+<p>On 3 February, the selectors all got together in Sydney, F. A. Iredale, the former Test bat, McAlister, Hill, and the secretary of the Board of Control, Sydney Smith. Right from the start it was a highly tense meeting. Not only was there anger over the Frank Laver affair, but Hill was furious with McAlister for his telegram. The <em>Sydney Morning Herald</em> was guarded in its report next morning, but made it clear the selectors had been in a fist fight. It all came out the next day when the selectors, Clem Hill and Peter McAlister, arrived by train in Melbourne. The newspapermen used an old technique which bowled both batsmen first ball. At first both refused to talk, but they suggested to Hill that McAlister had already stated that the attack was cowardly and that Hill had punched him while his arms were folded. To McAlister they said that Hill had already stated that the punch was thrown only after long provocation and repeated warnings. Such suggestions were too much and they both talked.</p>
+<p>Actually McAlister had great difficulty in hiding anything. His nose was cut, there was a great black bruise under his left eye and there were numerous scratches on his face. McAlister said Hill gave him no warning of the attack, just punched him heavily on the face before he had time to put up his hands. 'I wouldn't have minded so much if he had invited me to step outside, then I would have known what to expect.'</p>
+<p>On the other hand Clem Hill said:</p>
+<p>As I entered the room he started insulting me. I told him if he didn't stop it I would pull his nose. But then he told me I was the worst Australian captain he had ever seen, and as he had aggravated me beyond endurance I gave him a gentle slap on the face. He rushed at me like a bull and then, I admit, I fought him. Iredale and Smith held him, and I, as I went out, he shouted that I was a coward.</p>
+<p>Frank Iredale gave his version: 'Very few blows were struck. It was more like a wrestling match. Mr Smith and I did our best to part them, but they were all over the place, and when the big table was upset I was pinned in the corner. I strained my side and still feel the effects . . . How long did it last? . . . Well, about twenty minutes, I should think. Hill was using his weight. He bore in on McAlister who was bleeding profusely. It commenced as quick as lightning, they were both game and determined.'</p>
+<p>Several newspapers printed photographs showing the size of the adversaries. The Melbourne <em>Age</em> reported that Hill was not as tall as McAlister but then he was heavier and more powerful. Said the <em>Age</em>: 'Hill had the better of the fisticuffs. If the engagement had been fought at the Stadium he would have secured a verdict.'</p>
+<p>The worst happened. The famous six refused to go to England without Laver and a feeling of terrible gloom descended across the nation. One man sent a cheque for £100 to <em>The Argus</em>. He said this would start a fund to send an independent team to England, which would be chosen by Hill, Trumper and Armstrong. The money poured in and within three days there was just on £1,000 in hand. There were public meetings across the nation. In Sydney there was a public meeting in the Sydney Town Hall. At first they planned to have it just in the vestibule, but this proved impossible. There was a big enough audience to fill the main hall. Mr James Ashton, M.L.C., presided, and on the platform with him was the Attorney-General, W. A. Holman, and the Leader of the Opposition, Mr Wade.</p>
+<p>In Adelaide there was another huge meeting which overflowed the Adelaide Town Hall. There the Mayor of Adelaide, Mr Bonython, was in the chair. In Melbourne the meeting was at the Athenaeum Hall. The doors were advertised to open at 7 p.m., but at 6.45 the crowd poured in, sprinting for the front seats. Both the upper and lower Athenaeum Halls filled to capacity, so the conveners then had to organize a third protest meeting in the Baptist Hall nearby. Even then thousands of people were turned away. An orchestra was there, and they played a parody on a popular tune: 'What's the matter with Laver?—he's all right.' Mr W. L. Baillieu, M.L.C., Australia's top financier, was in the chair, and with him was Mr W. J. Carre-Riddell, chairman of the Board of Works. The committee names made up an all-star cast, even including Norman Brookes, the Wimbledon champion.</p>
+<p>At the meeting it was said that £10,000 could be had, within twenty-four hours if necessary, to send away an independent team, but this was an unreal thought. An independent team would have no hope of getting matches. All came to nought. There was a farewell dinner to the team at Melbourne's Vienna Café on 19 March, which was attended by the Prime Minister, Mr Fisher. The next day the team sailed from Port Melbourne Railway Pier on the R.M.S. <em>Otway</em>. There were two thousand people to cheer them off, and as the ship sailed away someone called 'Three cheers for Clem Hill'. The response was tremendous, but there was a touch of pathos about it.</p>
+<p>It was a triangular series against England and South Africa, and it wasn't a good tour. The Australians won nine games and lost eight, with many others drawn.</p>
+<p>There have been other fine indignation meetings. For example, there was the most fervid one in Melbourne when Warwick Armstrong was dropped from the N.S.W.-Victorian side in February 1921. This was a disciplinary move, because Armstrong did not turn up for practice with the Victorian Eleven, nor did he inform the selectors he was unfit until the match was about to start. Among the selectors was his old friend Peter McAlister. <em>The Herald</em> ran the story all over page one. And it was a grave matter. This immense twenty-stoner was the Napoleon of cricket, and had the world been choosing a team to play against Mars or Venus he would have been captain of the interplanetary XI. A devoted Armstrong admirer, Mr H. D. Westley, immediately organized an indignation meeting at Melbourne's Collins Street headquarters, the Athenaeum. He did not get the idea until 5 p.m., and there was no radio to spread the news, no television, no telecasts to warn cricket lovers, yet the hall was full. He told the meeting that it expressed its condemnation of the treatment handed out to Australia's greatest cricketer, Mr W. Armstrong, who has been omitted from the Victorian Eleven without an opportunity to make an explanation. And that wasn't all, they decided to hold a 'monster meeting' outside the Melbourne Cricket Ground on Saturday at 3 p.m. while the big Victoria-England match was taking place.</p>
+<p>On the Saturday the V.C.A. was clever. The Indignation Meeting was at 3 p.m., but there would be no pass-out checks, which meant that all those who left to show their indignation would have to pay to come in again. <em>The Herald</em> said: 'The shadow of Warwick Armstrong seemed to have fallen across the ground.' Attendance was well below what it might have been, seeing that there was no racing, no big counter-attraction. It was an unorganized boycott. Even so, there was a crowd of seventeen thousand while Patsy Hendren of England was playing like a man inspired. He scored 262—his first fifty in thirty-eight minutes. So there was this fearful choice—Patsy Hendren inside, Armstrong murdered the bowling, outside, and, of course, the members eight thousand paying loyal to the meeting, and with a good share of the others chant went on all day: 'Put Armstrong on'.</p>
+<p>The members who could go back inside without paying were in excellent form. Mr Westley was in excellent form:</p>
+<p>I desire to apologize to the English cricketers for the indignity placed on them by the holding of an indignation meeting outside the ground on which they are playing. But the Englishmen are true sports and I am sure they are in entire sympathy with the objects of the meeting. Dirty washing is being washed in the presence of the visitors, but Armstrong is being crucified without trial, and such a thing is opposed to the ethics of British justice.</p>
+<p>But Mr Westley did not stop there. He called a third protest meeting, this time for 16 February in the Melbourne Town Hall. He had a projector and he showed slides of the recent indignation meeting outside the M.C.G. There were slides too of the Australian cricketers and when Armstrong's picture was flashed on the screen there were cheers and everybody began to sing, 'He's a Jolly Good Fellow'. Mr Westley called for the sacking of all the cricket selectors, and he told the meeting that if it acted now it could give new life to Australian cricket.</p>
+<p>Whether Mr Westley had an effect is a matter for debate, but perhaps he did, for Armstrong was chosen once more to captain Australia and he went off to England to be utterly triumphant. His team won three Tests, two were drawn and he topped the bowling averages with 106 wickets at 14.66, good work for an overweight hero of forty-two. But he was a tough operator and at times he was superior and blasé about it all. When the final Test drew to a close, Armstrong became so bored that, as the English press noted, he borrowed a newspaper from a spectator and read it while he was fielding. When asked about his interesting behaviour, he said: 'I just wanted to make sure who we were playing, which press was no help at all.'</p>
+<p>There was another historic indignation meeting in 1930, when the famous Jack Ryder failed to win selection for England. He was topping Victoria's batting averages for the season. The greatest fury came from Collingwood where a protest meeting was held in the Collingwood Town Hall, packed with eight hundred people, presided over by Cr W. F. Angus. There were apologies from the Prime Minister, and from Mr John Wren, who sent his £50 towards a get-Ryder-to-England fund. The protests went on for weeks, but the finest piece of unsolicited indignation came from the prisoners of B Division at Pentridge Jail:</p>
+<p>Sir—Cannot some action be taken to prevent the selected team of cricketers for England being finalised. We, the members of B Division, feel that the treatment of cricketers has been jealously and unfairly selected, and is likely to cause a break, if nothing is done to rectify the wrong done to Australia and its only Ryder. Because our support comes from inside the penitentiary, it should not be put out of court. Outside our particular faults we possess as much common sense as, and evidently more than, most people and Australia's team selectors.</p>
+<p>A reply was sent: 'Your favour will oblige B Division.' This letter went to Tom Tunnecliffe, the Chief Secretary, and he told letters from prisoners for publication in the press, Mr Tunnecliffe must have been particularly pro-Ryder. But, of course, Ryder did not go. W. M. Woodfull was the new Australian captain. This was the year of the extraordinary triumph of Don Bradman.</p>
+<p>Everything Bradman did was reported, everywhere he went there were crowds. <em>Bradman</em> wrote Anthony Davis in his book <em>Sir Donald</em>, and it was true that in the space of three months all these news items appeared about Bradman:</p>
+<p>Don was going to Oxford University.
+Don was going to settle in England.
+Don was going to marry an English girl.
+Don was going on the stage.
+He was going to star in a Hollywood film.
+Anaemia was ending his career.
+He was to play for an English county.</p>
+<p>None of the stories was correct.</p>
+<p>The young Bradman in 1930 did for radio what the Olympic Games did for television in 1956. That Australian winter the shops sold millions of pounds worth of radios. In the early days of television people used to sit outside the shops at night, watching the show from the street, and it was the same with radio during the Test cricket. This was Depression time and not everyone could afford a wireless; the enthusiasts would bring along kerosine tins full of hot coals to keep themselves warm. Out in Collingwood and Fitzroy they would cook chops and have beer parties on the footpath.</p>
+<p>Test broadcasting began with two commercial stations, David Worrall of 3DB Melbourne, and Oswald Anderson, manager of 2UW Sydney, had the idea it would be wonderful if somehow, some way, they could do a broadcast. They looked into it, and found that urgent cables from the ground were six shillings a word, which was frightening and the sponsors fled in terror. Yet they decided on the first day of the First Test at Nottingham to try it out. It all seemed a cold, lonely affair—was there anybody listening? Was it going on? Worrall took the microphone and said: 'Is anyone listening out there? Shall we close down now or go on until stumps?' The result was unbelievable. Every telephone was ringing at once. One caller said: 'There are thirty of us here, the beer's run out, but we're still with you.' The next day there were several thousand telegrams, five hundred cases of whisky, wine, and there were presents sent in—cases of oranges, cases of beer.</p>
+<p>Then 3DB, along with the cabled reports, turned on a variety show, and there were appropriate songs for the gravity of the occasion. For example, when Sutcliffe was caught by Hornibrook in the Second Test, they played <em>Thanks Be to God</em>, and for an Australian fall of a wicket they played <em>Rickety Kate</em>, and every fall of a wicket the words showed a pathetic display of defiance.</p>
+<p>All the radio talk was about young Bradman. Jack O'Hagan was the great song writer of the day. He had written the song <em>Along the Road to Gundagai</em> and he wrote another song about Charles Kingsford Smith—<em>Aussie's Proud of You</em>. It was natural that he should write one about Bradman and he did during the Test match at Leeds, while Bradman was compiling 334 runs.</p>
+<p>Bradman was still batting when he sang it over the air on 3DB and it was an instant hit. Radio listeners could not get their song quickly enough and within a few days Allans in Melbourne sold forty thousand copies of the sheet music at two shillings a time. This was the song:</p>
+<p>Who is it that all Australia raves about?
+Who has won our very highest praise?
+Now is it Amy Johnson or little Mickey Mouse?
+No it is just a country lad who is bringing down the house,
+And he is our Don Bradman—</p>
+<p>Now I ask you is he any good?
+Our Don Bradman
+As a batsman he can sure lay on the wood
+For when he goes in to bat
+He knocks every record flat
+For there isn't anything he can not do,
+Our Don Bradman every Aussie dips his lid to you!
+Our Don Bradman now I ask you is he any good?
+Our Don Bradman as a batsman he is certainly plum pud!
+Tate and Larwood would meet their fate
+For it is always shut the gate!
+When the boy from Bowral hits four after four.
+Our Don Bradman, what a welcome waits for you back home.</p>
+<p>While Bradman was doing his triumphant work, an Australian businessman, who had made a fortune out of a special soap process, sent a telegram to the ground:</p>
+<p>KINDLY CONVEY MY CONGRATULATIONS TO BRADMAN. TELL HIM I WISH HIM TO ACCEPT £1,000 AS A TOKEN OF MY APPRECIATION OF HIS PERFORMANCE.
+Arthur Whitelaw
+Australia House.</p>
+<p>The manager of the Australian team sent back a reply: BRADMAN ON FIELD. KINDLY ACCEPT DEEPEST GRATITUDE ON HIS BEHALF. WONDERFUL GENEROSITY.</p>
+<p>The <em>Sydney Morning Herald</em> reported everything that happened to Bradman. The comments of London's <em>Daily Telegraph</em>: 'We ask ourselves again what are the influences which go towards the breeding of such fine cricketers in Australia. From not another part of the Empire have such cricketers sprung to dazzle us with their mastery. Bradman dominated play as no-one ever dominated Test cricket before.'</p>
+<p>It reported that he went to Columbia studios in London and made a pianoforte dance record. He walked into the studio, sat down at a piano and very successfully played the popular dance tunes <em>An Old Fashioned Locket</em> and <em>Our Bungalow of Dreams</em>. It was hoped he would give a talk on cricket. He also made a film, revealing the style of his play, complete with commentary. The <em>Sydney Morning Herald</em> reported that filmgoers would note that this was a self-assured Don, a more sophisticated Don, than the one who left Sydney last March.</p>
+<p>Adelaide was the main port of call when the touring side arrived back home, but the rest of Australia could not wait to see Bradman. General Motors arranged for the pilot Travis Shortridge to fly him on ahead and would reach Essendon airport at 3.30 p.m., when there would be a big reception. The name of Bradman was enough to draw the crowds even when he was away from a cricket ground. At 3.30 there were ten thousand people at the airport, but the <em>Southern Cloud</em> was pushing into a head wind and it did not arrive for another two hours. Yet this was a cricket crowd, a type of creature blessed with great patience and all ten thousand waited.</p>
+<p>At 5.30 p.m., as the aeroplane taxied up the tarmac, the crowd massed all around. When Bradman appeared at the door everyone cheered and there were shouts of: 'Good on you Don'. He was unable to move, and mounted police had to come to his rescue so that he could make his way to a lorry. The tray of the lorry was the grandstand and it was draped with an Australian flag. Here Warwick Armstrong, captain of the 1921 Eleven, gave a speech of welcome. Armstrong was the only official present. Not one official was there to meet Bradman.</p>
+<p>Next morning at eight o'clock the touring side arrived at Port Melbourne aboard the <em>Oronsay</em>, and a crowd of two thousand was waiting to welcome them. There were some sour comments about Bradman; they felt he had deliberately stolen their thunder. But Bradman had not finished yet. There was another reception in Sydney, this time at the Sydney Town Hall. The Chief Secretary of New South Wales, Mr M. Gosling, on behalf of General Motors Australia, presented Bradman with the latest model two-seater Chevrolet motor car. Undoubtedly General Motors presumed that once Don Bradman drove a Chevrolet, everyone would drive a Chevrolet. As he made the presentation Mr Gosling said Bradman is the Phar Lap of cricket.</p>
+<p>The worship of Bradman never really changed. He had only to be playing in any match to have an extraordinary effect on the gate. For example, there was the Test Match against England on the Melbourne Cricket Ground on 30 December 1932. The crowd that day was 63,993. At 3 a.m. on the Monday a watchman came across two intruders. He demanded to know what they were doing there. 'We came in because we wanted a seat,' they said. They had food and lunch with them, they were well armed with food. They were frightened that if they did not get in early they would never get a seat.</p>
+<p>In 1949 Bradman became the first cricket knight, and as Melbourne journalist Geoffrey Wright put it, this man was everything.</p>
+<p>That magical name, Bradman, the name of the wizard, who could position a ball as accurately on a cricket field as Lindrum could on a billiards table. You'd be playing cricket on some hard red patch in the Mallee scrub and you'd say to the other kids: 'I'll be Bradman, I bags to be Bradman'. Or, you'd fluke a good score when your father was watching the match and you'd hear someone say to him: 'Hullo, we've got another Bradman'.</p>
+<p>The 'another Bradman' tag has been the ruin of many a good cricketer. Ever since Bradman retired Sydney has been looking for a Second Coming, as if a new Bradman were walking across the water. Ian Craig had it, tagged early as 'another Bradman' when he made 91 on his first-class debut against New South Wales at the age of sixteen. Norman O'Neill, the hard-hitting New South Wales batsman, also was tagged early as a 'Bradman', and he had an agonizing career trying to live up to the name before he went out to bat.</p>
+<p>Then there was Bradman's son John, who in 1972 changed his name by deed poll to John Russell Bradsen. He couldn't stand constantly being stared at, always being introduced as Bradman's son, even being asked for autographs. He said it was a drip, not a social souvenir. He wanted to be himself, an individual.</p>
+<p>What else is there to say about the strength of Australia's passion over cricket; all that is really left is the tale of the 1932-3 Body-line tour of England. Tension rose so high, it was almost as if a state of war existed between Australia and England. The so-called body-line bowling was directed at the leg-side: six men clustered there, short and close, leaving the batsman no option except to make a shot to protect his body, or to back away from the wicket. The real crisis came during the Third Test at Adelaide, when a ball from Larwood hit Woodfull over the heart. Oldfield was hit on the head.</p>
+<p>Later, when the manager of the English team, Mr Pelham Warner, came to offer his sympathies, Bill Woodfull gave his famous snub: 'I don't want to see you Mr Warner. There are two teams out there and only one of them is playing cricket.'</p>
+<p>The <em>Sydney Morning Herald</em> commented: 'No contest in the long series has ever aroused such bitterness of feeling not only in the crowd but even between rival players and managers. Some germ of hysteria from outside the arena seems to have affected players themselves.'</p>
+<p>The Australian Board of Control cabled the Marylebone Cricket Club on 18 January 1933:</p>
+<p>Body-line bowling has assumed such proportions as to menace the best interests of the game, making protection of the body by the batsmen the main consideration. This is causing intensely bitter feeling between the players, as well as injury. In our opinion it is likely to upset the friendly relations existing between Australia and England.</p>
+<p>The M.C.C. replied on 23 January:</p>
+<p>We, the Marylebone Cricket Club, deplore your cable. We deprecate your opinion that there has been unsportsmanlike play, and are convinced that our team would do nothing to infringe the laws of cricket, or the spirit of the game. We have no evidence that our confidence has been misplaced, and we regret that in neither case was the bowler to blame. If the Australian Board of Control wish to propose a new law or rule it shall receive our fullest careful consideration in due course. We hope the situation is not as serious as your cable would seem to indicate, but if it is such as to jeopardize the good relations between English and Australian cricketers, and you consider it desirable to cancel remainder of programme, we would consent but with great reluctance.</p>
+<p>There was much comment in London. Said the <em>Evening News</em>: 'It is a drastic thing publicly to accuse one's opponents of unsportsmanlike conduct.' Lord Tennyson, in the <em>Evening News</em>, said: 'Play the game, Australia.' Fred Root, originator of the leg theory, said that if cricket is impossible without such squabbles and screaming, we should be content with our domesticity and the village green, and play cricket with tennis balls—so wrote the editor of the <em>London Mercury</em>.</p>
+<p>The full bitterness of that time is best shown by the article written by Harold Larwood when he returned to England:</p>
+<p>Where is that tough Australian grin?
+When comrades did you learn to faint?
+Can you not take without complaint
+A dose of your own medicine.
+Finish the futile brawl today
+We don't believe the paradox
+A whining Digger funking knocks
+Come on, one up and two to play.</p>
+<p>I was playing for my side which was supposed to menace the crowds of barrackers who knew nothing about the finer points of cricket. Leg theory bowling requires more accuracy than any other form. We were able to exploit it with complete success. The barrackers on the famous Hill at Sydney and in the cheaper parts of most other grounds, particularly at Adelaide, were not there to see the cricket. They were there to see Australia win. That is what they wanted. Above all they were there to see Bradman score runs. He was expected to stay at the wicket all day . . . and he was a failure too. You ask why Woodfull and Bradman couldn't stand up to my fast leg theory bowling. These are the true reasons. Woodfull was too slow and Bradman was too frightened. Yes, frightened is the word. I knew it, and he would not have it. He was scared of my bowling as everybody did. Time after time he drew away from the ball. Can you imagine my feelings when 50,000 people boo-ed my every step as I ran to the wicket. Do you know what a bowler thinks about when he realises he is not only playing the batsman but the crowd as well? They wanted to see me fail. They tried to upset me on my first tour and I was upset. This time I was inspired. The next time I shall probably enjoy it.</p>
+<p>Mr E. A. Dwyer, the Australian selector, said: 'A preposterous outburst. It is utter nonsense to accuse our players of being cowards. Bradman topped the average for the whole Test series. Larwood's outburst can only widen the breach.' Dr C. E. Dolling, the Test selector, said: 'It is a great pity to see such a magnificent bowler sink to such depths.'</p>
+<p>Later Larwood settled happily in Australia and was almost accepted as a folk-hero. But the bitterness of the Body-line tour left a long hard scar. Bradman certainly never forgot this was the ruthless manner in which he conducted the 1948 tour. He played the game as if he were exterminating guerillas on the Palestine border. One day he crushed Essex by making 721 runs in a day—no matches were to be lost on that tour, no matter how minor.</p>
+<p>There have been other moments of passion. In 1958 in the Second Test against England, Ian Meckiff shocked the Englishmen by taking 6 wickets for 38 off 15.2 overs. Meckiff shared the front page of the Melbourne <em>Herald</em> with a Soviet attempt to fire a rocket at the moon. The English cricket writers were almost unanimously accused Meckiff of 'throwing'. At least two of his wickets were obtained by deliveries which looked to be thrown, said L. N. Bailey of the <em>Star</em>. Another cricket commentator wrote: 'Meckiff's throwing was devastating.' It is ridiculous that a player of his action should be the agent of England's destruction.</p>
+<p>The press was split, Englishmen on one side, Australians on the other. The most devastating counter-attack came from Jim Mathers of Sydney's <em>Daily Mirror</em>, who wrote:</p>
+<p>You say Meckiff cheats . . . the umpire cheats. But that's merely cheating your English citizens back home. You should all be no-balled for squealing your pip-squeak jeremiads to your mis-informed readers, whose squealing palates you no doubt tickle with your blubbering moan about your poor impoverished team of impoverished batsmanship being 'thrown out', 'chucked out', and 'cheated'. Why don't you be fair dinkum, as we say in Australia, and tell your English citizens your English team—a good bunch of blokes—just can't play cricket. Your hysterical and vile attack on Australian sportsmanship after your team was thrashed in the second Test match probably arises from your peculiar but highly seasoned salmagundi of excuses presented so pretentiously as a reason for England's failure in the first and second Test matches.</p>
+<p>Ian Meckiff has told how bad the strain became, so bad he had to seek medical advice. He avoided looking at the newspapers, for this was no help, someone was sure to tell him the rich tidings of every new article. He wrote:</p>
+<p>The frustrating part of it was that I had no way of fighting back. All I could do when I was asked if I did throw was shake my head and say 'no'. I'd need an adding machine to work out how many times people asked me this question; people I didn't even know and often who didn't even follow cricket. They'd recognize me from photographs and ask me for the fun of it . . . when I walked into a club or an hotel, or even just walking down the street. At the height of the controversy it became so bad I often shunned public places.</p>
+<p>Trevor Bailey, the English all-rounder, made a special film of Meckiff's bowling action, which he showed in London. Denis Compton reportedly commented: 'Who's he play for?—the Boston Red Sox.'</p>
+<p>It all became so vital that Sir Donald Bradman and Mr Bill Dowling of the Board of Control flew to London for an Imperial Cricket Conference to define new rules on throwing, which put the responsibility of checking the problem completely on the umpires. Meckiff's Test career came to a tragic end on the first day of the First Test against South Africa in Brisbane in 1963. Umpire Col Egar no-balled him four times in his first over and his career was over. Yet the sympathy of the crowd was all with Meckiff—they chaired him off the ground that day. As for Egar, there were threats to his life, and for the Melbourne Test the umpires had to receive a police bodyguard.</p>
+<p>Fast bowlers tend to arouse strong emotions. Another was an articulate, poetry writing gentleman, named John Snow, who had remarkable success in Australia during the tour of 1970-71. He was a little sensitive about criticism from the crowd; he became a popular villain similar to Larwood. He described them as being like piranha fish—they would devour anything that would satisfy their appetite for competition. He found it tiresome constantly being called 'a Pommy bastard'.</p>
+<p>The Seventh Test Match at the Sydney Cricket Ground in February 1971 had all the overtones of the Lord Harris match at Sydney in February 1879. Snow bowled a bouncer to Terry Jenner, the Australian spin bowler. The ball hit him on the head. The bowler had to be carried off. Umpire Lou Rowan then cautioned Snow for intimidatory bowling. Snow was angry. He shouted at Rowan that it was the batsman's fault, not his; that Jenner had only bowled and it wasn't his fault that Jenner had been hit. Illingworth came over; he and Rowan had an angry exchange in the middle of the pitch.</p>
+<p>It was a hot, Sydney summer afternoon, at that time of day when considerable gallonage has been consumed by spectators and all sorts of delusions about their marvellous eloquence gain full flight. They could see something odd happening out in the middle. So the crowd on the Hill saw that the 'villains' were talking back to the umpire, and started hooting, jeering, heaving bottles and cans over the fence in the traditional Australian counter-protest. Illingworth and his men staged an equally traditional counter-protest, they stopped work, and sat down on the grass until the noise subsided.</p>
+<p>At the end of the over Snow went off to his position on the fine leg boundary, placed adjacent to the most vociferous barrackers. Why send him there? Illingworth said later: 'Fine leg is Snow's position and I don't intend to set my field to satisfy the crowd.'</p>
+<p>Cricket writer Barry Bretland commented: 'It was the reply of a forthright man who is not short of courage, but is far from long on tact.'</p>
+<p>At first things seemed to be all right. Snow shook hands with several spectators on the boundary fence, but then a middle-aged man grabbed him by the shirt. 'What the . . . hell do you think you're doing?' said Snow. Other English players ran towards him and as they did this there was another shower of cans and bottles.</p>
+<p>Illingworth went further than Lord Harris, he called to his men and walked off the field. Umpire Rowan then told Illingworth that he could forfeit the Test by walking off. Did he intend to return? Illingworth replied that he would return if the field were cleaned off again, but if any more cans were thrown he would walk off again.</p>
+<p>Mr Alan Barnes of the Australian Board of Control would like to make a public announcement made to that effect. He told the crowd that play would resume when the ground was cleaned, but he didn't tell them the second part, that Illingworth would walk off again if there were more can-throwing.</p>
+<p>So they returned to play cricket and there was no more trouble, but there was much comment after play. This was a selection: Ray Illingworth: 'I've seen people hit by flying bottles and it makes a bloody mess of them. One of my players could have been badly hurt.' Percy Beames of the Melbourne <em>Age</em> commented: 'I could not condemn Illingworth's action, but I would have been bitterly disappointed to have seen an Australian captain do the same thing.' Denis Compton: 'Illingworth's action was hasty and quite unnecessary apart from being tactically unwise.' E. M. Wellings, in the <em>Evening News</em>: 'Australian crowd behaviour on the popular side both here and in Melbourne has been shameful.'</p>
+<p>Umpire Lou Rowan wrote later that Illingworth's decision to lead his team off the field was 'scandalous conduct', and for a few moments the whole future of English cricket was in jeopardy. As for Illingworth, a reporter asked him whether crowds had changed since his last visit. He said: 'Yes, they wait longer to get their hair cut and they get drunker.'</p>
+<p>From here on cricket made front page news, sometimes daily, from April through to September, the summer of the Test series of 1971-2. Nearly every politician who could twist a political advantage out of this issue did so, and nearly every cleric devoted to making moral judgements, judged. The States were divided on the question: Mr Tonkin of Western Australia and Mr Dunstan of South Australia were indignant, and the South Africans would receive nothing official from them, no receptions, no hospitality. Sir Henry Bolte of Victoria and Mr Bjelke-Petersen of Queensland said they would be delighted to see this all-white South African team.</p>
+<p>The Australian Labor Party and the Australian Council of Trade Unions were firmly in opposition. There the South African team would be a total boycott, and to make it a sick ironic joke, they would be declared black—they would have to make their own beds, do their own laundry, carry their own bags at airports. Scoreboard operators would not work, bus drivers would not drive and meals in hotel dining rooms would neither be delivered to cricket grounds, nor served, a threat which must have put a terrible fear in the hearts of cricket spectators.</p>
+<p>Norman O'Neill, a former Test cricketer, organized a counter-movement to cope with the threats of the trade unions:</p>
+<p>We are prepared to do anything to ensure that the tour will go on. We will meet the South Africans on arrival, arrange transport, billet them if necessary, look after their laundry and help them in every way possible. We will do everything the unions won't do.</p>
+<p>Newspapers in Sydney and Melbourne took public opinion polls on whether or not the all-white South Africans should come. The <em>Sun News-Pictorial</em> in Melbourne ran a full-page story on why we should welcome the South Africans. On the other side the Leader of the Opposition, Mr Whitlam, gave his views on why we should not. Then there was a coupon at the bottom of the page for readers to fill out. 'Should the South African cricket tour of Australia be cancelled? YES . . . NO . . .' There were 9,524 replies. Of these 6,652 said the South Africans should come.</p>
+<p>Yet as most newspapers pointed out, the tour was doomed. It is possible to raise a large force of policemen to ensure that a football match will take place, but how do you look after a five-day Test Match? Is it possible to stop spectators from flashing mirrors in the eyes of batsmen, to stop them letting off smoke bombs, blowing whistles, exploding crackers? How do you protect the wicket? It would take five hundred to police a match.</p>
+<p>On 8 September Sir Donald Bradman announced 'with great regret' that the Board of Control had cancelled the tour. The bitterest comment came from Ali Bacher, the South African cricket captain. In Johannesburg he said: 'The final nail has been knocked into South Africa's cricket coffin. We are now totally isolated, possessing the best side in the world.'</p>
+<p>So invitations went out to cricketers in England, India, Pakistan, the West Indies and South Africa for a 'Rest of the World' tour. Yet one thing was clear. At times the controversy thrashed so loudly it even threatened the Government, so it was a nice answer to all those who believed cricket was a dying sport.</p>
+<p>Then regardless of the riotous Seventh Test at Sydney, the 1972 touring side under Ian Chappell went off to England. It was received amiably by Ray Illingworth who had organized no snubs of the Lord Harris variety.</p>
+<hr>
+<p class="lead">Previous: <a href="/books/sports/3-the-racing-passion/">The Racing Passion</a> · Next: <a href="/books/sports/5-the-swimming-passion/">The Swimming Passion</a></p>
+
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        Traces cricket&#39;s role in binding the Australian colonies into a nation, and the fierce, sometimes poisonous rivalry with England that ran from the first touring elevens through the Sydney riot of 1879, Bradman and Bodyline, to the cancelled 1971-72 South African tour.
+      </p>
+
+<hr>
+<h4 class="h6">Related topics</h4>
+<p class="small text-muted mb-3">
+    
+    <a href="/topic/rowland-bowen/" class="link-secondary">Rowland Bowen</a>,
+    
+    <a href="/topic/ted-dexter/" class="link-secondary">Ted Dexter</a>,
+    
+    <a href="/topic/charles-dickens/" class="link-secondary">Charles Dickens</a>,
+    
+    <a href="/topic/h.-h.-stephenson/" class="link-secondary">H. H. Stephenson</a>,
+    
+    <a href="/topic/melbourne-cricket-ground/" class="link-secondary">Melbourne Cricket Ground</a>,
+    
+    <a href="/topic/w.-g.-grace/" class="link-secondary">W. G. Grace</a>,
+    
+    <a href="/topic/marylebone-cricket-club/" class="link-secondary">Marylebone Cricket Club</a>,
+    
+    <a href="/topic/charles-bannerman/" class="link-secondary">Charles Bannerman</a>,
+    
+    <a href="/topic/fred-spofforth/" class="link-secondary">Fred Spofforth</a>,
+    
+    <a href="/topic/billy-murdoch/" class="link-secondary">Billy Murdoch</a>,
+    
+    <a href="/topic/lord-harris/" class="link-secondary">Lord Harris</a>,
+    
+    <a href="/topic/victor-trumper/" class="link-secondary">Victor Trumper</a>,
+    
+    <a href="/topic/clem-hill/" class="link-secondary">Clem Hill</a>,
+    
+    <a href="/topic/warwick-armstrong/" class="link-secondary">Warwick Armstrong</a>,
+    
+    <a href="/topic/don-bradman/" class="link-secondary">Don Bradman</a>,
+    
+    <a href="/topic/douglas-jardine/" class="link-secondary">Douglas Jardine</a>,
+    
+    <a href="/topic/harold-larwood/" class="link-secondary">Harold Larwood</a>,
+    
+    <a href="/topic/bill-woodfull/" class="link-secondary">Bill Woodfull</a>,
+    
+    <a href="/topic/ian-meckiff/" class="link-secondary">Ian Meckiff</a>,
+    
+    <a href="/topic/norman-o&#39;neill/" class="link-secondary">Norman O&#39;Neill</a>,
+    
+    <a href="/topic/john-snow/" class="link-secondary">John Snow</a>,
+    
+    <a href="/topic/ray-illingworth/" class="link-secondary">Ray Illingworth</a>,
+    
+    <a href="/topic/ian-chappell/" class="link-secondary">Ian Chappell</a>,
+    
+    <a href="/topic/ali-bacher/" class="link-secondary">Ali Bacher</a>
+</p>
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/rowland-bowen/" class="link-secondary">Rowland Bowen</a>,
+    
+    <a href="/topic/ted-dexter/" class="link-secondary">Ted Dexter</a>,
+    
+    <a href="/topic/charles-dickens/" class="link-secondary">Charles Dickens</a>,
+    
+    <a href="/topic/h.-h.-stephenson/" class="link-secondary">H. H. Stephenson</a>,
+    
+    <a href="/topic/melbourne-cricket-ground/" class="link-secondary">Melbourne Cricket Ground</a>,
+    
+    <a href="/topic/w.-g.-grace/" class="link-secondary">W. G. Grace</a>,
+    
+    <a href="/topic/marylebone-cricket-club/" class="link-secondary">Marylebone Cricket Club</a>,
+    
+    <a href="/topic/charles-bannerman/" class="link-secondary">Charles Bannerman</a>,
+    
+    <a href="/topic/fred-spofforth/" class="link-secondary">Fred Spofforth</a>,
+    
+    <a href="/topic/billy-murdoch/" class="link-secondary">Billy Murdoch</a>,
+    
+    <a href="/topic/lord-harris/" class="link-secondary">Lord Harris</a>,
+    
+    <a href="/topic/victor-trumper/" class="link-secondary">Victor Trumper</a>,
+    
+    <a href="/topic/clem-hill/" class="link-secondary">Clem Hill</a>,
+    
+    <a href="/topic/warwick-armstrong/" class="link-secondary">Warwick Armstrong</a>,
+    
+    <a href="/topic/don-bradman/" class="link-secondary">Don Bradman</a>,
+    
+    <a href="/topic/douglas-jardine/" class="link-secondary">Douglas Jardine</a>,
+    
+    <a href="/topic/harold-larwood/" class="link-secondary">Harold Larwood</a>,
+    
+    <a href="/topic/bill-woodfull/" class="link-secondary">Bill Woodfull</a>,
+    
+    <a href="/topic/ian-meckiff/" class="link-secondary">Ian Meckiff</a>,
+    
+    <a href="/topic/norman-o&#39;neill/" class="link-secondary">Norman O&#39;Neill</a>,
+    
+    <a href="/topic/john-snow/" class="link-secondary">John Snow</a>,
+    
+    <a href="/topic/ray-illingworth/" class="link-secondary">Ray Illingworth</a>,
+    
+    <a href="/topic/ian-chappell/" class="link-secondary">Ian Chappell</a>,
+    
+    <a href="/topic/ali-bacher/" class="link-secondary">Ali Bacher</a>
+</p>
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

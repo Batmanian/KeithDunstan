@@ -47,4 +47,4 @@ You are still unimpressed with the way Victorians spend their holidays. Then can
 
 <hr>
 
-*Source: [Around Melbourne GATHER YE ROSEBUDS WHILE YE MAY](https://nla.gov.au/nla.obj-701144190), The Bulletin, 1963-01-05. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne GATHER YE ROSEBUDS WHILE YE MAY, The Bulletin, 1963-01-05. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-701144190).*

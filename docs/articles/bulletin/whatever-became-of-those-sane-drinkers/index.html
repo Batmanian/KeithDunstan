@@ -1,0 +1,334 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Whatever Became of Those Sane Drinkers?</title>
+<meta name="title" content="Whatever Became of Those Sane Drinkers?">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Surveys Victoria&#39;s long, thwarted history of liquor licensing reform, from wartime six o&#39;clock closing through failed Bolte government bills and a Judge Fraser world pub-crawl commissioned to study the question, to the new Royal Commission under P. D. Phillips, QC, and its startling revelation of an eight-year-old girl introduced to wine by her own father.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/articles/bulletin/whatever-became-of-those-sane-drinkers/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Whatever Became of Those Sane Drinkers?">
+<meta property="og:description" content="Surveys Victoria&#39;s long, thwarted history of liquor licensing reform, from wartime six o&#39;clock closing through failed Bolte government bills and a Judge Fraser world pub-crawl commissioned to study the question, to the new Royal Commission under P. D. Phillips, QC, and its startling revelation of an eight-year-old girl introduced to wine by her own father.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Whatever Became of Those Sane Drinkers?">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/articles/bulletin/whatever-became-of-those-sane-drinkers/">
+<meta name="twitter:title" content="Whatever Became of Those Sane Drinkers?">
+<meta name="twitter:description" content="Surveys Victoria&#39;s long, thwarted history of liquor licensing reform, from wartime six o&#39;clock closing through failed Bolte government bills and a Judge Fraser world pub-crawl commissioned to study the question, to the new Royal Commission under P. D. Phillips, QC, and its startling revelation of an eight-year-old girl introduced to wine by her own father.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Whatever Became of Those Sane Drinkers?">
+<link rel="canonical" href="https://keithdunstan.org/articles/bulletin/whatever-became-of-those-sane-drinkers/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1964-02-15">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="The Bulletin">
+<meta property="article:tag" content="Henry Bolte">
+<meta property="article:tag" content="Victorian Legislative Council">
+<meta property="article:tag" content="Stanley Korman">
+<meta property="article:tag" content="The Age">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">Whatever Became of Those Sane Drinkers?</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            5
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1964-02-15">15 Feb 1964</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Surveys Victoria&#39;s long, thwarted history of liquor licensing reform, from wartime six o&#39;clock closing through failed Bolte government bills and a Judge Fraser world pub-crawl commissioned to study the question, to the new Royal Commission under P. D. Phillips, QC, and its startling revelation of an eight-year-old girl introduced to wine by her own father.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="The Bulletin">
+         <!--<a href="/tags/henry-bolte/" class="btn btn-outline-dark btn-sm me-2">Henry Bolte</a><a href="/tags/victorian-legislative-council/" class="btn btn-outline-dark btn-sm me-2">Victorian Legislative Council</a><a href="/tags/stanley-korman/" class="btn btn-outline-dark btn-sm me-2">Stanley Korman</a><a href="/tags/the-age/" class="btn btn-outline-dark btn-sm me-2">The Age</a>-->
+
+        
+      </header>
+      <p>Actually, liquor in Victoria is like the weather — everyone talks about it, but no one does anything about it. And, frankly, we enjoy talking about liquor more than anything. We didn't really get our famous 6 o'clock closing until 1917. At the time things were desperately serious as the Somme, and someone had the brilliant idea that if only the bars were closed at 6 p.m. this would win the war for us. As you may remember, we did win that war, so naturally we have stuck firmly to 6 o'clock closing ever since.</p>
+<p>Yet we <em>have</em> tried to alter matters. There was the Royal Commission of 1944. In 1956 we had a referendum on closing hours: 10 p.m. closing, yes or no. On that occasion the Victorian Temperance Alliance, carrying the total abstinence flag, had a resounding victory — 60.7 per cent of the votes to 39.3 per cent for the would-be drinkers.</p>
+<p>Towards the end of 1959 we sent Judge Fraser on what many considered a dream assignment. This was to spend four months browsing round the pubs of the world inspecting how others imbibed alcohol. Well, the Judge returned, made an excellent report, but we accepted very few of his recommendations.</p>
+<p>During 1962 and 1963 the Bolte Government tried repeatedly to introduce a very kindly, innocuous liquor reform bill, which didn't even mention 10 p.m. closing; but on each occasion it was rejected by the combined forces of the Labor and Country Parties in the Legislative Council.</p>
+<p>So now we are having yet another Royal Commission. Royal Commissions always were the perfect answer to all social ills.</p>
+<p>The Commission had its first sitting on November 13, then it re-opened for business on February 3. Some have said, extravagantly, that it could last for years.</p>
+<p>If the Royal Commission looked like being unbearably tedious it was saved by the appointment of Mr P. D. Phillips, QC, as Royal Commissioner. Now, P. D. Phillips was always one of the most brilliant and the most lively wigs at the Victorian Bar. In 1958 he surprised us all by retiring from the Bar and accepting a lectureship in law at Melbourne University. This was made possible by a donation of £8000 from Mr Stanley Korman. Somehow, 1958 seems a long way away.</p>
+<p>So the liquor Royal Commission is a real P.D. comeback, and the newspapers are very satisfied with him as a regular source of good copy. On the first day he went to work he announced that there would be private consultations with all the various bodies involved, and he added wryly that these would be held over cups of tea or glasses of wine, as circumstances permitted.</p>
+<p>Then he was rather good last week, when he had a small difference with the Rev. John Westerman. Mr Westerman represents the Church of England, the Presbyterians, the Methodists, the Churches of Christ, the Congregational Church and the Salvation Army. He is not in favor of an extension of liquor hours and he pointed out that the churches were concerned about the extent to which young people, who would not otherwise do so, began drinking as a result of social pressures. Whereupon Mr Phillips shocked Mr Westerman by saying that he had introduced his two daughters to wine-drinking at a very early age. Indeed, he had the feeling that this was guaranteeing their safety as much as anything else.</p>
+<p>Then again, last week he said he was puzzled by the term &quot;six o'clock swill.&quot; He actually made a tour of hotel bars and he was surprised by the number of places in which the phenomenon did not occur. After visiting a number of hotels he went to a small hotel in South Melbourne at 5.55 p.m., and he said: &quot;I was still in a state of sobriety which enabled me to take stock of the situation, and I found there were only about 20 people in the bar. Knowing that no drinks would be served after ten past six, a lot of people bought double rounds at eight minutes past&quot;.</p>
+<p>This proved all too clearly that Mr Phillips was not a regular swiller for, according to the law, no drinks must be served after 6 p.m. Upon reading this, many of us felt that he had not been to the choicest bars. We could even have taken him to the bar about which an American magazine recently wrote: &quot;At 6 p.m. it had all the atmosphere of Dante's Inferno&quot;.</p>
+<p>Of course, vast cohorts of people have lined up to give evidence — brewers, vignerons, distillers, hotel-keepers and licensed grocers, police, theatre owners, tourist organisations, to say nothing of the Protestant Churches, the Victorian Temperance Alliance, the Women's Christian Temperance Union and the Victorian Chapter of the Independent Order of Rechabites.</p>
+<p>But Mr Phillips put his finger on another notable point. He said that of all the people who had lined up to give evidence there was an &quot;important absentee&quot; — the ordinary citizen. If there was any organisation that could claim to speak for the ordinary citizen, here was its chance.</p>
+<p>So far it has been frightfully difficult to find an ordinary citizen. Some years back there was a group of drinking citizens which had an organisation called the League of Sane Drinkers. Membership was 2s. a head, and their object was to fight those people who supported &quot;insane drinking conditions.&quot; But no one knows what happened to the league. Drinkers don't organise as well as non-drinkers.</p>
+<p>Mr Phillips' appeal was so eloquent it even caused the &quot;Age&quot; to start quoting G. K. Chesterton with the lines:</p>
+<p><em>&quot;Smile at us, pay us, pass us, but do not quite forget
+That we are the people of England, and we have not spoken yet&quot;.</em></p>
+<hr>
+<p><em>Source: Around Melbourne WHATEVER BECAME OF THOSE SANE DRINKERS?, The Bulletin, 1964-02-15. Accessible via the <a href="https://nla.gov.au/nla.obj-689189633">National Library of Australia's Trove database</a>.</em></p>
+
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        Surveys Victoria&#39;s long, thwarted history of liquor licensing reform, from wartime six o&#39;clock closing through failed Bolte government bills and a Judge Fraser world pub-crawl commissioned to study the question, to the new Royal Commission under P. D. Phillips, QC, and its startling revelation of an eight-year-old girl introduced to wine by her own father.
+      </p>
+
+<hr>
+<h4 class="h6">Related topics</h4>
+<p class="small text-muted mb-3">
+    
+    <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+    
+    <a href="/topic/victorian-legislative-council/" class="link-secondary">Victorian Legislative Council</a>,
+    
+    <a href="/topic/stanley-korman/" class="link-secondary">Stanley Korman</a>,
+    
+    <a href="/topic/the-age/" class="link-secondary">The Age</a>
+</p>
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+    
+    <a href="/topic/victorian-legislative-council/" class="link-secondary">Victorian Legislative Council</a>,
+    
+    <a href="/topic/stanley-korman/" class="link-secondary">Stanley Korman</a>,
+    
+    <a href="/topic/the-age/" class="link-secondary">The Age</a>
+</p>
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

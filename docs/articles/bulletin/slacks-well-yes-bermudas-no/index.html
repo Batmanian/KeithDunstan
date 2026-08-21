@@ -1,0 +1,336 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slacks . . . Well, Yes; Bermudas — No!</title>
+<meta name="title" content="Slacks . . . Well, Yes; Bermudas — No!">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Covers the culture clash when the women&#39;s Commonwealth golf tournament brought slacks-wearing Canadian and English players to the strictly skirts-only Royal Melbourne Golf Club, and profiles the vast all-female volunteer army, from starters to personal caddies, that ran the tournament.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/articles/bulletin/slacks-well-yes-bermudas-no/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Slacks . . . Well, Yes; Bermudas — No!">
+<meta property="og:description" content="Covers the culture clash when the women&#39;s Commonwealth golf tournament brought slacks-wearing Canadian and English players to the strictly skirts-only Royal Melbourne Golf Club, and profiles the vast all-female volunteer army, from starters to personal caddies, that ran the tournament.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Slacks . . . Well, Yes; Bermudas — No!">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/articles/bulletin/slacks-well-yes-bermudas-no/">
+<meta name="twitter:title" content="Slacks . . . Well, Yes; Bermudas — No!">
+<meta name="twitter:description" content="Covers the culture clash when the women&#39;s Commonwealth golf tournament brought slacks-wearing Canadian and English players to the strictly skirts-only Royal Melbourne Golf Club, and profiles the vast all-female volunteer army, from starters to personal caddies, that ran the tournament.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Slacks . . . Well, Yes; Bermudas — No!">
+<link rel="canonical" href="https://keithdunstan.org/articles/bulletin/slacks-well-yes-bermudas-no/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1963-08-17">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="The Bulletin">
+<meta property="article:tag" content="Royal Melbourne Golf Club">
+<meta property="article:tag" content="Peter Thomson">
+<meta property="article:tag" content="Fletcher Jones">
+<meta property="article:tag" content="Nancy Astor">
+<meta property="article:tag" content="The Age">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">Slacks . . . Well, Yes; Bermudas — No!</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            5
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1963-08-17">17 Aug 1963</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Covers the culture clash when the women&#39;s Commonwealth golf tournament brought slacks-wearing Canadian and English players to the strictly skirts-only Royal Melbourne Golf Club, and profiles the vast all-female volunteer army, from starters to personal caddies, that ran the tournament.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="The Bulletin">
+         <!--<a href="/tags/royal-melbourne-golf-club/" class="btn btn-outline-dark btn-sm me-2">Royal Melbourne Golf Club</a><a href="/tags/peter-thomson/" class="btn btn-outline-dark btn-sm me-2">Peter Thomson</a><a href="/tags/fletcher-jones/" class="btn btn-outline-dark btn-sm me-2">Fletcher Jones</a><a href="/tags/nancy-astor/" class="btn btn-outline-dark btn-sm me-2">Nancy Astor</a><a href="/tags/the-age/" class="btn btn-outline-dark btn-sm me-2">The Age</a>-->
+
+        
+      </header>
+      <p>Some facts should be revealed to sensitive readers rather gently, but I'm afraid I have to tell you this one straight out — women have been wearing slacks at Royal Melbourne Golf Club. You must understand that the Royal Melbourne is the Melbourne Club of golf. Its record is august and impeccable. No woman has ever been allowed to wear slacks there.</p>
+<p>True, Mrs S. T. Strahan, wife of a Melbourne doctor, tried to do something about it back in 1925. The doctor said he was sick of seeing women's skirts blowing in the breeze. So Mrs Strahan had her slacks specially tailored for golf. They were designed almost exactly like jodhpurs. She wore a long jacket which came, most respectably, almost to her knees and she wore suede boots.</p>
+<p>And so she went out to Royal Melbourne. She played her golf, but when she returned to the club-house there was a furore. She was told that if she ever wore them again she would not be permitted to play in any more pennant matches. She says that the older people thought they were disgusting, the young women giggled and the men said nothing. &quot;So I just had to take them away,&quot; she said. &quot;The slacks were marvellous for fishing.&quot;</p>
+<p>This past week, Mrs Strahan, now the official starter for the women's Commonwealth Tournament, has been able to look on with some amusement. All over the world women have worn slacks on golf courses for years. In the US they even go for bermudas. In the first Commonwealth Tournament at St Andrews in 1959 the Australians and New Zealanders were the only girls to play in skirts.</p>
+<p>So when the Canadian and English girls arrived in Melbourne last week, complete with slacks, very obviously trouble was ahead. What was to be done? After an agonising re-appraisal Royal Melbourne permitted the girls to wear this new-fangled garment, but no bermudas. The Canadian girls turned out in beautifully tailored green slacks. The English girls wore slacks that were rather tighter, and they brought very severe looks from some of the elder associates. The tightest of them all were worn by Mrs Spearman, the Middlesex champion. Indeed, after looking at her you got the idea that &quot;slacks&quot; was rather a curious name for this form of garb.</p>
+<p>The Australian girls were thrilled and immediately turned out for practice in slacks created by Mr Fletcher Jones. Yet even now we are unsure as to whether there has been a major break-through. The dress for women at Melbourne's golf clubs is dictated by rules laid down by men's committees. A ring round of the clubs has shown that at this stage they have no intention of changing their rules. However, the &quot;Age&quot; golf writer did print this quite alarming paragraph: &quot;At Barwon Heads associate members are permitted to wear slacks with the proviso 'that they are removed before entering the club-house'.&quot;</p>
+<p>Last week your correspondent went out to Royal Melbourne to make an on-the-spot inspection of the big tournament. It was like being thrown into a vast feminist uprising. At this stage there were more than 4000 women on the course and only a handful of men. Everything was being organised by the women. The officials were all women, including the referees, the starters, the banner bearers, the scorers, the parking attendants, the ticket collectors; why, even the contestants had their own personal female caddies.</p>
+<p>The organisation was modelled on the lines of the Canada Cup. There was the large scoreboard outside the club-house and the scores were coming back to the second by walkie-talkie. All the officials had received rehearsals during the week. The efficiency of women in action was downright breathtaking. The only breakdown was with the toilets. The ladies had not forecast the imbalance between male and female spectators. It's not good to see a 50-yard queue of ladies standing outside a small toilet at the Royal Melbourne.</p>
+<p>But all the facts and figures were provided weeks beforehand. We knew, for example, that most of the Canadian girls were college graduates — one had a Bachelor of Science degree, no less. We knew, too, that three of the girls were daughters of professionals.</p>
+<p>Then the trophy, a globe mounted on a stand, was there for all to see. This was a gift from Nancy Viscountess Astor, mother of the present Lord Astor. Even this seemed to be in the news.</p>
+<p>The outright favorites for the trophy were the English golfers, winners of the first series. Then came the Canadians, chiefly because of the power of their hitting and their enterprise. But it was the English girls who had the experience, particularly Mrs R. Smith, five times British champion, and just possibly the most experienced amateur woman golfer in the world.</p>
+<p>I followed the first bout — England versus Canada. This was even a more grave occasion than the Canada Cup. The large female gallery was as respectful as a cathedral congregation.</p>
+<p>The players were grim-faced, and exchanged no pleasantries. They took an unconscionable time over their putts. At the 6th Mrs Smith was playing out of a bunker. A movie camera began to whirr. Mrs Smith stopped at once, jumped out of the bunker and waited for the whirring to cease. Whereupon a thousand hostile female eyes turned on the offensive cameraman. I felt terribly sorry for the poor fellow. At an all-male affair he could have brazened it out. Here he just shrivelled up.</p>
+<p>Mrs Marlene Streit, six times Canadian open champion, was the deadly earnest one. She had a golf bag that would have been the envy of Peter Thomson. It was huge. The woods were prettily covered with socks in the shape of dolls' faces. But the thing to see was the golf ball warmer. It was battery-operated, held two golf balls, and it brought them to just the right temperature for big hitting. It could be said with justification that Mrs Streit had the warmest drive on the course.</p>
+<hr>
+<p><em>Source: Around Melbourne SLACKS...WELL, YES; BERMUDAS-NO!, The Bulletin, 1963-08-17. Accessible via the <a href="https://nla.gov.au/nla.obj-702042557">National Library of Australia's Trove database</a>.</em></p>
+
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        Covers the culture clash when the women&#39;s Commonwealth golf tournament brought slacks-wearing Canadian and English players to the strictly skirts-only Royal Melbourne Golf Club, and profiles the vast all-female volunteer army, from starters to personal caddies, that ran the tournament.
+      </p>
+
+<hr>
+<h4 class="h6">Related topics</h4>
+<p class="small text-muted mb-3">
+    
+    <a href="/topic/royal-melbourne-golf-club/" class="link-secondary">Royal Melbourne Golf Club</a>,
+    
+    <a href="/topic/peter-thomson/" class="link-secondary">Peter Thomson</a>,
+    
+    <a href="/topic/fletcher-jones/" class="link-secondary">Fletcher Jones</a>,
+    
+    <a href="/topic/nancy-astor/" class="link-secondary">Nancy Astor</a>,
+    
+    <a href="/topic/the-age/" class="link-secondary">The Age</a>
+</p>
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/royal-melbourne-golf-club/" class="link-secondary">Royal Melbourne Golf Club</a>,
+    
+    <a href="/topic/peter-thomson/" class="link-secondary">Peter Thomson</a>,
+    
+    <a href="/topic/fletcher-jones/" class="link-secondary">Fletcher Jones</a>,
+    
+    <a href="/topic/nancy-astor/" class="link-secondary">Nancy Astor</a>,
+    
+    <a href="/topic/the-age/" class="link-secondary">The Age</a>
+</p>
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

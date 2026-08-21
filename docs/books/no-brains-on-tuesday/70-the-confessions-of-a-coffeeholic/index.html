@@ -1,0 +1,330 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Confessions of a Coffeeholic</title>
+<meta name="title" content="The Confessions of a Coffeeholic">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="A defence of coffee addiction runs through a Harvard study that found no link between coffee and heart disease, a history of the drink being banned as satanic or driving men impotent, and famous devotees from Voltaire&#39;s 50 cups a day to Fontanelle, who blamed his own 100-year lifespan on the stuff.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/no-brains-on-tuesday/70-the-confessions-of-a-coffeeholic/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="The Confessions of a Coffeeholic">
+<meta property="og:description" content="A defence of coffee addiction runs through a Harvard study that found no link between coffee and heart disease, a history of the drink being banned as satanic or driving men impotent, and famous devotees from Voltaire&#39;s 50 cups a day to Fontanelle, who blamed his own 100-year lifespan on the stuff.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="The Confessions of a Coffeeholic">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/no-brains-on-tuesday/70-the-confessions-of-a-coffeeholic/">
+<meta name="twitter:title" content="The Confessions of a Coffeeholic">
+<meta name="twitter:description" content="A defence of coffee addiction runs through a Harvard study that found no link between coffee and heart disease, a history of the drink being banned as satanic or driving men impotent, and famous devotees from Voltaire&#39;s 50 cups a day to Fontanelle, who blamed his own 100-year lifespan on the stuff.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="The Confessions of a Coffeeholic">
+<link rel="canonical" href="https://keithdunstan.org/books/no-brains-on-tuesday/70-the-confessions-of-a-coffeeholic/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1991-01-01">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="No Brains On Tuesday">
+<meta property="article:tag" content="Voltaire">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">The Confessions of a Coffeeholic</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            5
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1991-01-01">1991</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A defence of coffee addiction runs through a Harvard study that found no link between coffee and heart disease, a history of the drink being banned as satanic or driving men impotent, and famous devotees from Voltaire&#39;s 50 cups a day to Fontanelle, who blamed his own 100-year lifespan on the stuff.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="No Brains On Tuesday">
+         <!--<a href="/tags/voltaire/" class="btn btn-outline-dark btn-sm me-2">Voltaire</a>-->
+
+        
+      </header>
+      <p>Isn't it time some of us thought of taking legal action against the medical profession?</p>
+<p>I mean look at these experts; for countless decades they have been describing coffee as a poison, a lethal brew that will cause heart attacks and strokes.</p>
+<p>Now the Harvard School of Public Health has put 45,589 men through long extensive tests and found not the slightest link between coffee and heart disease.</p>
+<p>Oh wait a minute, there was just one problem. They found a slightly higher incidence of heart attacks and strokes among people who drank four or more cups of decaffeinated coffee a day.</p>
+<p>I am, let's face it, a coffeeholic. The coffee bean is very nearly the most beautiful thing God created. It is the divine elixir that lubricates the tongue, inspires the mind, sends the olfactory senses into a state of bliss and gives the excuse to dally and commune with friends.</p>
+<p>The smell of good coffee, just ground, is the perfect aroma, the aphrodisiac which can draw you in from the street. I have often wondered why women use those absurd and expensive scents like Chanel which they buy from France. It would be far more enticing if they placed just a pinch of fresh coffee behind the ear.</p>
+<p>These remarks do not apply to instant coffee and regrettably 80 per cent of all the coffee consumed in Australia is instant. It has no aroma at all and tastes like it.</p>
+<p>But let's get back to the real subject; constantly the doctors have warned against coffee. Sanctimoniously, health shops have refused to sell it. Instead they have sold those vile, probably extremely damaging, herbal teas.</p>
+<p>As I have gone through life drinking my fourth, fifth, sixth cup of black coffee for the day, receiving warnings from loved ones, there has been constant stress. In restaurants there has been the lovely idea, the bottomless cup. Many a lovely waitress has returned again and again: 'Can I fill your cup Sir?' Thank-you very much. But there has been this worry, this constant fear of impending death.</p>
+<p>Surely that is worth damages before any wise, respectable court.</p>
+<p>For more than five centuries coffee has suffered from bad P.R. In 1511 Kair Bey, the Governor of Mecca, banned all coffee drinking. One night when he was in the mosque for evening prayer, he spotted a group preparing for an all-night devotion. It was too much for the Governor. They were drinking coffee, this sort of thing might lead men and women to all sorts of dangerous behaviour.</p>
+<p>There were constant attempts throughout Egypt, Turkey, Yemen and Arabian cities to ban this black liquor which gave such happiness. In 1656 the Ottoman Grand Vizir Koprili prohibited coffee because it caused the citizens to meet too much and talk too much. For a first offence a coffee drinker received a terrible beating. If he or she persisted in drinking coffee they were sewn into a leather bag and thrown into the Bosphorus.</p>
+<p>There was a similar problem in England when coffee came under attack from the Puritans. Coffee houses were patronised only by men. In 1674 the women of London took up a petition against coffee.</p>
+<p>It said, not only did coffee render men impotent it caused them 'to trifle away their time, scald their chops, and spend money all for a little base, black, thick, nasty, bitter, stinking, nauseous puddle water.'</p>
+<p>The women could have been right. I have always had a suspicion about English coffee. At the end of the 16th century coffee was banned in Rome. The priests would not touch it. They thought this black drink an invention of the devil. The Muslims forbad the use of wine (sanctified by Christ) and imbibed this insidious coffee as a substitute.</p>
+<p>A cup of coffee was presented to Pope Clement VIII, who thought it necessary to taste this villainy so that he could make a papal decree. But upon tasting it, he was stunned. He said: 'This is delicious. Why should we leave this drink to Satan? Christian power is greater than that of the devil. We will take it for our own.' Coffee has been drunk in Italy with remarkable enthusiasm ever since. But the idea of it being a poison has always persisted.</p>
+<p>Sir James Mackintosh, a Scottish philosopher, asserted in 1800 that the powers of a man's mind were generally proportional to the amount of coffee he drank. Voltaire drank 50 cups a day, and Balzac could hardly write a line without his coffee. He used to go to bed at 6 pm, sleep until midnight, then write non-stop for 12 hours drinking coffee all the time. The ultimate remark about the dangers of coffee is attributed both to Voltaire and another philosopher, Fontanelle. When asked whether coffee was a poison Voltaire/Fontanelle said: 'I think it must be. I am 85 years old and not dead yet.' Perhaps coffee wasn't very good for Voltaire, he passed on at 84. Fontanelle lived on to be a 100.</p>
+<p>But really, you should know about some of the experiments on coffee. In 1981 there was the remarkable case of Dr Thomas F.X. Collins, a Government scientist in the U.S. He started feeding caffeine to 300 pregnant rats. He gave his rats the equivalent of 12 to 24 strong cups of coffee a day. The result: a high proportion of his mother rats gave birth to baby rats with deformed toes and 'some delay in skeletal development.'</p>
+<p>But were rats ever meant to drink coffee? Give them concentrated carrot juice, yoghurt and muesli the result could have been just the same.</p>
+<p>However, now that we have received such wonderful news from the blessed scientists at Harvard, I think we should celebrate with Alexander Pope's ode to coffee:</p>
+<p><em>As long as Mocha's happy tree shall grow,</em>
+<em>While berries crackle or while mills shall go,</em>
+<em>While smoking streams from silver spouts shall glide,</em>
+<em>Or China's earth receive the sable tide,</em>
+<em>While coffee shall to British nymphs be dear,</em>
+<em>While fragant streams the bended head shall cheer,</em>
+<em>Or grateful bitters shall delight the taste,</em>
+<em>So long her honors, name and praise shall last.</em></p>
+<hr>
+Continue to the next column: <a href="/books/no-brains-on-tuesday/71-where-can-we-go-for-happy-bowel/">Where Can We Go for Happy Bowel?</a>
+
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        A defence of coffee addiction runs through a Harvard study that found no link between coffee and heart disease, a history of the drink being banned as satanic or driving men impotent, and famous devotees from Voltaire&#39;s 50 cups a day to Fontanelle, who blamed his own 100-year lifespan on the stuff.
+      </p>
+
+<hr>
+<h4 class="h6">Related topics</h4>
+<p class="small text-muted mb-3">
+    
+    <a href="/topic/voltaire/" class="link-secondary">Voltaire</a>
+</p>
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/voltaire/" class="link-secondary">Voltaire</a>
+</p>
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

@@ -1,0 +1,183 @@
+---
+title: "The Cup — 1890, Now That Really Was a Cup Year!"
+date: 1963-11-02
+summary: A Melbourne Cup Day feature tracing the race from R. C. Bagot's founding of the VRC and Carbine's legendary 1890 win through to the modern Spring Carnival, covering declining Flemington attendances, TAB turnover, the Sandown Park merger fight, and the 1861 saga of the first Cup winner, Archer, walked over 550 miles from Nowra to Melbourne.
+categories:
+- The Bulletin
+tags:
+  - Flemington Racecourse
+  - Melbourne Cricket Ground
+  - Maurice Cavanough
+  - Carbine
+  - Donald Wallace
+  - Melbourne Punch
+  - Chester Manifold
+  - Archer
+  - Sandown Park
+---
+
+There are one of two things in Melbourne which are utterly sacred, one of them is the Melbourne Cup. Apart from anything else it provides us with a public holiday which puts it very high on the sacred list.
+
+Several years ago a Sydney newspaper, quite innocently, suggested that it would be a good idea, just occasionally, to run the Cup in Sydney. This would give many people, who had never had the opportunity of going to Melbourne, of seeing the great race.
+
+We were outraged. One reply read like this: "Now in Sydney they're trying to pinch our Melbourne Cup, just because they know it's the best race in Australia. Why don't they leave us alone? We've never tried to pinch their Harbor Bridge!"
+
+It was a point well taken, although there have been times when we felt we could use the Harbor Bridge. But why did the Melbourne Cup become Australia's best race? It was hugely important almost from the beginning. In Queen Victoria's day Melbourne was the biggest and richest city, but there were other reasons. Partly it was a simple fact of geography. Melbourne was in the middle. Most horses came by ship and it was much more difficult for Adelaide and Hobart owners to ship their horses all the way to Sydney.
+
+And for the prime reason there was the inspired Mr R. C. Bagot. He had a hand in our two most deeply revered institutions, Flemington racetrack and the Melbourne Cricket Ground.
+
+He was the first secretary of the Victoria Racing Club, which began in 1864. He was an Irishman, and he had the unique idea, for 1864, that racing was for the working man. He built a bluestone stand for the cash customers that was — for heaven's sake — better than the timber affair which had been provided for the members.
+
+Furthermore he drained the marsh in the centre of the course and threw open the Flat for free. All Melbourne could come there for a picnic, a picnic that was a real carnival. All Melbourne? That's barely an exaggeration; there was never an entertainment for the masses like this. Maurice Cavanough, the VRC historian, has recorded that 100,000 were at Flemington for the Melbourne Cup in 1880. The entire population was only 282,000. So you see, better than one in every three people were at the races on that day. Over 80 years later we have to struggle to make that figure now. The population is over two million but the crowd for 1962 was 91,239.
+
+Flemington was, and still is, a superb racetrack. Then best of all it is handy to the city. In the old days you could go by train, tram, public wagonette, private wagonette, drag, carriage, hansom, dogcart, lorry, van, covered trap, omnibus, or, as one writer put it, the mugs could go by foot.
+
+The dust along the road was frightful, so it was quite the thing to go by paddle steamer, down the river. The *Maitland*, for example, used to sport a nigger minstrel band. This year you won't have much chance of going there by boat. You'll just have to put up with the helicopter.
+
+Maurice Cavanough has yet another reason for this adoration of the Melbourne Cup, and racing in general. The classic races in England have been weight-for-age affairs; for three-year-olds which all carry the same weight. The colt, therefore, which wins the Derby or the filly that takes the Oaks, clearly are the finest in the field.
+
+So after these races they are retired to preserve the line, to propagate further champions. This was no good at all to the working man. In the 1860s Melbourne was full of the Irish and the Cornstalks, bred out of the goldrush. They knew what poverty was like and there was the hunger everywhere to get rich quick. What odds could you get out of a weight-for-age race? You had to look for the best horse and the bookmakers knew this better than anybody.
+
+Ah, but the Melbourne Cup, spread over an agonising two miles, was a completely unpredictable race. It still is an unpredictable race. We can quote you colts and fillies, three year olds, four year olds, seven year olds no end, who have won the classic. The favorite has come home less than once in four and the odds are splendid.
+
+So Australians, who are known to have a humble interest in gambling, adore it. We are the only people above all others who put a handicap race on a pedestal, and, if you must have a greatest, we rate the Melbourne Cup as the greatest handicap horse race in the world.
+
+**"Not a Blessed One of Them!"**
+
+It costs an owner at least £500 by the time he has brought his horse to the starting barrier, what with feeding, training and entry fees. It begins back in the beautifully optimistic days of early June, the time of the first acceptances. Then it costs only £5 to nominate. This year we had 417 entries with odd names, some of which we may not see like Allez Oop, Mr Iceman, Kum Lucky and Cul de Sac. The owners got the prestige of having a horse entered for the Melbourne Cup.
+
+The VRC got the £2085 in cash. For those who were still in it on September 24 there was the first acceptance of £20, then for the last handful there was the final acceptance on October 31 of £120; a total of £145.
+
+The prizemoney is £25,000 plus the gold, three-handled loving cup worth £750. It is not a big sum by world standards and you couldn't compare it with the grand old days of the Melbourne Cup. Take Carbine's year, 1890, when Melbourne was lousy with money. The VRC put up the prizemoney to £10,000 and racing men in other parts of the world could scarcely believe it. You work it out. The working man earned about £2 a week. To equal Carbine's year the VRC would have to put up £100,000.
+
+Now that really was a Cup year. As Carbine returned the owner, Donald Wallace, threw his arms around Carbine's neck and hugged him. It was a most suitable emotion because not only had Carbine provided the 10,000 sovereigns first prize, but Mr Wallace had won another 30,000 in wagers. The trainer, Walter Hickenbotham, was so excited that he plucked hairs from Carbine's tail and presented them to the ladies.
+
+Perhaps, dear reader, you still possess one of these valuable trophies, suitably mounted in a silver frame.
+
+Jockey Ramage told reporters: "I wasn't afraid of them, either before the race nor while it was on, not a blessed one of them."
+
+"Neddies," said he of the other horses with contempt.
+
+The "Age" for November 5, 1890, reports: "Long before the No. 1 was hoisted by the judge, in fact before the champion had reached the winning post, the spectators burst into wild expressions of delight and admiration, as it could be seen some distance from the post that Carbine would have to fall down to lose. As the clerk of the course escorted him back to the weighing yard, winner of the most valuable handicap race ever run in the world (10,000 sovs), the scene was one to be remembered. Inside the enclosure the popular owner was receiving the hearty congratulations of his friends, and acknowledging the cheers of the assembled thousands.
+
+"By his great triumph in the Melbourne Cup, Carbine has broken more than one record in connection with the famous event. He carried 10st. 5lbs, a weight never previously borne to victory in a Melbourne Cup, and beat the best time previously recorded for that race (3 min. 28¼ secs) by a quarter of a second, whilst it is also worthy of remark that the number of starters for the Cup (39) had never been equalled in any previous year. Indeed the more this last great run of Carbine's is considered in detail, the more phenomenal does it appear."
+
+The social writer of Melbourne "Punch" reported that many "lovely toilettes were worn by people of all social status including barmaids and bookmakers' ladies." Indeed, one barmaid won £25,000 in a lottery. Some said she looked even happier than Mr Donald Wallace, and certainly more so than Carbine. Although there are chroniclers who point out that Carbine was something of a ham. He always refused to leave the mounting yard until the last clap of applause.
+
+That was Carbine's year, but what about this year? Even if you can't stand horses it's a lovely way to spend the day. No other sporting event is conducted in such beautiful surroundings. There are acres upon acres of flowers, four rows of them over half a mile long, all growing as exactly as they are told by the VRC — roses, poppies, pansies, ranunculi, cinerarias . . .
+
+From the grandstand the view goes out for miles across to the skyscrapers of Melbourne, to the dockland, across the great green acreage of the course and down to the Maribyrnong. Then there are the flags, the green umbrellas of the betting ring, the swirling color of the crowd.
+
+It all gets under way as the Governor drives down the straight followed by the massed Highland bands, more than 100 pipers, a tremendous sight.
+
+In the members' car park there are more Rolls Royces than you could shake a Mini Minor at. It is always *de rigueur* in the car park to serve a chicken and champagne lunch. A charming sight, of which one never tires, is to see a uniformed chauffeur, salad of ribbons on his chest, quaffing champagne.
+
+Then in the members' stand there is the Champagne Bar. Here they sell champers for 5s. a glass and chicken sandwiches for 10s. a tray.
+
+As for the ladies one can always get away with rather more on Cup Day. Hats are not expected to be believable. One looks for the absurdities built upon the head like threatening cumulo nimbus or amazing wagon wheels with feathers for spokes.
+
+Every lady knows that newspaper early edition time between 11 a.m. and noon is the deadly serious time. You either make it or you don't make it. So they parade back and forth, strike poses on the steps. The tension gets tighter and tighter. The photographers each with a social writer at his elbow approach across the lawn.
+
+Oh, surely, surely, this time it's going to be me?
+
+**That Unnerving Grey Topper**
+
+For the men the Spring Carnival is the last stronghold of tradition. At Eagle Farm or Randwick men would blush to their ears to do what they do at Flemington. It takes a little practice and a certain amount of nerve. Just once I hired my morning suit and was delighted to find two shillings left in the pocket by the previous wearer. But I was a little unnerved by the grey topper and kept holding it in my hand.
+
+It takes breeding and style to carry off a topper with the right flourish. There's still a damned good supply of them at Flemington, although last year there was a tendency to go for the black bowler and just here and there a few magnificent brown bowlers. Actually, a bowler is all right for the Cup, but please, a grey topper is a MUST for the Derby.
+
+So you parade, across the lawn, to the betting ring, and to the best place of all, the bird cage. It is there that one discovers afresh that there is nothing in the world quite so beautiful as a thoroughbred horse.
+
+There is one major difference. This year there is no Flat. It closed for the last time on March 16, and now it is a car park, a convenience for the modern, mechanised racegoer, just yards from the track. Until 1910 the Flat was free and even this year it costs only 2s.
+
+In the old days the Flat was a carnival that went from 8 a.m. to 8 p.m. There were steam-driven merry-go-rounds, Aunt Sally stalls, thimble-and-pea men, three-card-monte and the Barrel Pole.
+
+Yes, the Barrel Pole was popular. The operator had a small colored pole he threw on a table. You bet on which color came face up.
+
+The crowds came by furniture van and dray. The horses wore headgear bedecked with flowers. The crowds sat on sacks and sang to the accompaniment of piano accordions. The Flat was the cheerful place, the real family outing.
+
+Yet the betting was real and earnest. Bookies could welsh at their peril. At the Grand National meeting in 1906 a bookie couldn't pay out winning bets on Decoration. He had to run for it. The mob chased him for 300 yards and threw him in the river. He received such a kicking and mauling that he died.
+
+Two men were arrested, but after evidence at the inquest, Coroner R. H. Cole freed them and no one was convicted.
+
+On the Flat you would get the young lairs with the long, greasy hair and red cardigans, mothers with babies in prams, and the old dears from Fitzroy, the ones who really adore the races. Their knowledge of form would surprise you and the Flat bookies used to accept their shilling bets.
+
+**When the Flat Had 30,000**
+
+The record Flat crowd was 30,000 in 1926 when Spearfelt won the Melbourne Cup in front of 118,877 people. However, at the finish the crowds on the Flat were down to less than 2000.
+
+Flatgoers are expected to use the Hill where the VRC has cut prices from 6s. 6d. to 5s. Some of those old dears, mentioned earlier, swore it was all over for them, no Flat no racing. However, the VRC has big plans for improving the Hill which already is a pretty good spot with stand, betting ring, bar and seats among the trees.
+
+There is one major problem which is worrying the racing administrators. It is the same problem that worries the churches? Where has everybody gone? In the Victorian and Edwardian era racing was unchallenged as the recreation of the masses. The whole country was racing mad. The average racing crowd at Flemington now is below 25,000. Indeed you are doing well to get 20,000. Look at that compared with Australian Rules football. Any Saturday you like to name they get a total of 150,000.
+
+In the summer it is water skiing, surfing, taking the MG up to the hills.
+
+In 1961 Victorian racing attendances dropped by 12½ per cent. Last year the attendance drop for all clubs was 7.6 per cent. Although the VRC claimed that the attendance drop at Flemington was .91 per cent.
+
+Visit any racetrack and it is obvious what has happened — there's hardly a young face anywhere. The dividing line comes at about 40, when no longer are you chasing the fillies on the beach, when your legs no longer speed you around the tennis court and the distance between holes at Yarra Bend and Albert Park is becoming longer and longer. It is then that you enjoy the social life at the races.
+
+To get back to our expert, Maurice Cavanough. Last April he wrote in "Australian Letters" that high on 50 per cent of racegoers today are Catholics. This is because the Catholic Church doesn't condemn gambling and, apart from that, there is the age-old Irish urge to gamble. As one of the poorest of Western nations, they looked to gambling as an escape from poverty and the idea is well ingrained in their descendants. The very rich, particularly the rich gentlemen from the country, still like the races. So do professional people like doctors and lawyers. Politicians are regulars, partly because they do not have to pay, partly because it is a fine place to meet people. Although, Mr Cavenough says, you rarely meet a scientist or an engineer at Flemington. However, the bulk of the racegoers are the semi-skilled workers and laborers. "You see them in great numbers on the special race trains, deeply engrossed in their form guides, the only literature they take seriously. Most of them travel alone, believing a companion interferes with the vital business of selecting the right horses to back. They dress very casually, often in short sleeves and slacks, but even with sports clothes they always wear a hat."
+
+**Stopping The Rot**
+
+There are several plans for stopping the rot in attendances. For the second time the VRC is running its Cup Week Festival of Fashions, Flowers and Favorites. It bumped up attendances last year. There are boxes of flowers all the way from Elizabeth to Spring Streets. The business houses are taking part in a competition for the most gorgeous floral decorations, outside and inside. The winners get a sash and a miniature gold Melbourne Cup.
+
+The commercial banks are the keenest competitors and in Collins Street they fight out the prestige battle pelargonium for pelnargonium and pansy for pansy. The VRC knows damned well that more money is made out of what goes on the backs of women than on the backs of horses, so the fashion industry is involved in this in a big way. So now we are in the midst of our Fashions in the Field contest and the prizes include three Ford cars and Qantas holidays in New York and New Zealand. There are five sections for the contest. Section 1 and Section 2, for example, are for ensembles that cost no more than £40 and under, and £80 and under.
+
+The ladies have only to parade out at Flemington — mercifully not in the Members' Reserve, thank you — and the judges pick them out. Then the ladies sign an affidavit, giving the total cost of their ensembles. You may think that the VRC is being utterly fearless in labelling ladies in £40, £80 and open categories, but our Flinders Lane experts are mighty expert. They can pick the price of any women's ensemble to the nearest penny.
+
+All this is very useful but the great chestnut hope is the Totalisator Agency Board, the off-course Tote. There are now 95 TAB agencies in the metropolitan area and 53 in the country. As one Sydney journalist put it: "They are as familiar in Melbourne as the footy and as respectable as Rippon Lea." They're everywhere, as handy as the local branch of your bank.
+
+Racing administrators claim that TAB is not draining the grandstands. There are cunning safeguards on credit to the telephone bettor and neat devices like this. Bets must be placed with the TAB at least 40 minutes before the start of each race. Do you get the point? This period is delicately calculated to ensure that the bettor does not learn the result of one race, and so the standing of his exchequer before he considers his betting on the next.
+
+For the real enthusiast it is still a good idea to go to the course.
+
+If, indeed, TAB has had anything to do with the drop in attendances, the clubs can only drool at the prospect of the riches in store. The first year the turnover was £11½ million, the next year £26½ million, next season it could be £40 million and by 1967 it is expected to reach a maximum of £70 million.
+
+This time the share to the Victorian clubs was £846,109 and the VRC's cut was £143,298. You can see what they are trying to do. With the extra cash from TAB they can bump up the stakes and attract better horses, and there's no question it is the big name horses that attract the crowds.
+
+The VRC makes no secret of the fact that it is out to secure Victoria's position for ever as top racing State. It is the VRC centenary next March and it has boosted the stakes for the autumn carnival to £84,750, a whopping increase of £21,200, all due to the TAB.
+
+The AJC, you will note, retaliated by raising its autumn 1964 prize money by £27,000 to £100,000. The VRC's Sir Chester Manifold snorted: "They are living on promised hopes."
+
+Do you get the picture? While NSW sits on its hands over off-course betting Victoria establishes a clear lead. Just the other day the VRC released a figure on this. It calculated all the country and metropolitan races and worked out that the average prize money per race was £324/10. In NSW it was only £172.
+
+The VRC is an ambitious club. It is also a complete autocracy. It runs racing in Victoria and runs it damned well. There are some things we do not handle efficiently in Australia, but we are second to nobody in our skill at handling a race meeting. One reason that has been put forward for the honesty and efficiency of our racing is that it is handled by rich men, very rich men.
+
+**Sandown Park — a Nasty Threat**
+
+The past chairman of the VRC and chairman of the TAB is Sir Chester Manifold. The Manifolds are blue chip Victorian aristocracy. They have been here since 1836. The present chairman is Ross Grey Smith. He is a solicitor and the Grey Smiths are fine in their own right. His grandfather, Frank Grey Smith, was one of the most famous of the Melbourne Cricket Club presidents, when the MCC ran all cricket in Australia, and no nonsense.
+
+Then there are other committeemen like Fred Gilder, who has huge property interests both in the city and the country, Rupert Steele, who has big retail furniture interests and Eugene Gorman, maybe Australia's leading jurist.
+
+But wait, there's a nasty looking cloud overhead . . . Sandown Park. Once upon a time there were eight racecourses in Melbourne — Flemington, Caulfield, Moonee Valley, Williamstown, Sandown Park and pony courses at Fitzroy and Richmond. The last four closed down in 1931.
+
+Williamstown closed down after the grandstand was destroyed by fire. In 1948 the Williamstown Racing Club and the Victorian Trotting and Racing Association combined to form the Melbourne Racing Club. The MRC had plenty of members but no track of its own. Its meetings were spread around the other tracks.
+
+Everybody hereabouts knows what happened. The Melbourne Racing Club started to pour money into the old Sandown Park course, conveniently, for punters, opposite the Springvale Crematorium. These past 18 months it has been open for car racing, but the big opening for the horses will be August next year after an expenditure of nigh on £2,500,000.
+
+It will be a beauty with such comforts for the drinkers as closed circuit TV so that they won't have to walk outside to look at the horses.
+
+However, the bombshell arrived last March — the merger between the Melbourne Racing Club and the Victoria Amateur Turf Club, which controls the Caulfield track. The VATC voted 807 for 721 against, a majority of 86 votes for the merger. The new club has the old title VATC.
+
+The VRC didn't like the merger and it has always been against the re-building of Sandown Park. It claimed that Flemington, Caulfield and Moonee Valley tracks were sufficient to handle the Melbourne racing. All this was money going down the drain that racing could ill-afford.
+
+Look what happens now. The combined VATC gets 29 race days, Flemington gets 17 and Moonee Valley 14. The TAB situation is even more interesting. In the latest carve up the VATC gets £218,007 and the VRC gets £143,298.
+
+How this will affect the VRC in the future could be downright interesting. The stakes for the Caulfield Cup are now £20,000 compared with £25,000 for the Melbourne Cup. Already the VATC, on one occasion, has threatened to put Caulfield Cup stakes above those of the Melbourne Cup. To us old race-goers, the very thought of the Caulfield Cup carrying the big-money is all too horrible; as bad as playing the soccer final on the MCG.
+
+**"With Every Quid We've Got"**
+
+Yet the Melbourne Cup will always have the edge in tradition. The first Caulfield Cup was in 1879. In those days the VATC was fair dinkum amateur and the Cup was for gentlemen riders who rode upright in the raddle.
+
+The first Melbourne Cup, of course, was in 1861, watched by 1500 people. Archer, the Sydney horse, won the race most comfortably. But early in the piece the local pressmen were far from impressed with him. Centaur wrote: "It is truly a work of labor and trepidation to attempt the naming of the most likely animal to show in front in this event" and he went on to pick Mormon, Dispatch and Tory Boy. Archer wasn't in it.
+
+Archer won again in 1862 carrying the mighty weight of 10.2. So he became one of only two horses to win two Cups (Peter Pan was the other); and one of only three to win a Cup with 10.0 or better. Etienne De Mestre trained him secretly in what was known as St Kilda Park opposite the Botanical Hotel in Domain Road. The Botanical is still there — vastly improved since 1861 — and Archer's stable also is still there, out the back. We hope it will be preserved for ever as a shrine.
+
+In those days horses inevitably came by boat, but Archer was different. With his strapper, Dave Power, he set out from Nowra on the NSW south coast and WALKED more than 550 miles of winding bullock track to Melbourne. He averaged about 26 miles a day through the bush, starting out from a small, prosperous sheep station called Braidwood. The story goes that both Power and Archer looked rather scraggy when they arrived in town, that October of 1861.
+
+An unusual preparation, but one we feel that Percy Cerutty would approve of highly. So if we can discover that any Sydney horse this year has walked the entire distance along the Hume Highway, we'll back him with every quid we can muster.
+
+<hr>
+
+*Source: Around Melbourne THE CUP 1890-now that really was a Cup year!, The Bulletin, 1963-11-02. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-697840666).*

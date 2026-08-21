@@ -27,8 +27,15 @@
 **Token budget:** For token-heavy tasks (large subagent fan-outs, bulk transcription/triage runs, big searches), don't spend more than ~75% over a typical session's usage unless the user explicitly directs otherwise. If a task looks like it'll blow past that, pause and check in rather than running it to completion.
 
 **Key constraints:**
+- **Check `MISTAKES.md` before starting work in an area** — it's a running log of past failures, their root causes, and the rule that stops each one recurring. If an entry covers the approach being considered, follow its Rule instead of re-deriving it. Log a new entry there (per its own format) whenever something breaks, the user corrects an approach, or a fix takes more than one attempt — entries that recur 4+ times graduate into a rule here in `CLAUDE.md`, per that file's own promotion process.
+- Adding, sourcing or crediting any image: see `src/assets/images/CLAUDE.md` first — it governs rights clearance, sidecar records and credit formatting, and this file's rules do not override it. It's a nested `CLAUDE.md`, so it also loads automatically whenever work touches that directory.
 - Do not manually edit `dev/` or `docs/` — both are build output
 - Link targets are enforced globally, not per-link: `src/_includes/snippets/footer.njk` runs a script on every page that opens any link to a different hostname in a new tab (`target="_blank" rel="noopener"`) and forces same-hostname links to stay in the current tab. Don't hand-add `target="_blank"` to individual `<a>` tags in templates or content — it's redundant and can drift from the rule. This covers hand-written links in `.njk` templates and markdown-rendered links in content files alike (including the Trove source link appended to every transcribed article), so newly added content gets correct behaviour automatically.
+- **Trove source citation format** (every transcribed Bulletin/Walkabout/Gourmet article ends with one, after a `<hr>`): the article title is plain text, not a link — the hyperlink wraps "National Library of Australia's Trove database" instead. Exact template:
+  ```
+  *Source: {Title as originally published}, {Publication}, {date}. Accessible via the [National Library of Australia's Trove database]({Trove nla.gov.au URL}).*
+  ```
+  Real example: `*Source: Around Melbourne: Goodbye to the Glaci, The Bulletin, 27 April 1963. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-701264126).*` Use the `nla.obj-` fulltext URL (from the stub's own Source line, or looked up via the Trove v3 API if no stub exists — see `trove/fetch_batman.py`) — never guess or fabricate a Trove URL.
 - Preserve Keith Dunstan's voice exactly; Australian English; single-quote dialogue
 - Tags are granular proper nouns only (people, places, organisations)
 - Article files should have 5–15 tags; book chapter files may have empty tags
@@ -140,3 +147,9 @@ After converting to PNG, send via the Anthropic SDK as `image/png` base64. See `
 4. Add tags, summaries, and inter-chapter navigation links by hand
 
 **Trove tooling:** `trove/` contains Python scripts for fetching Keith Dunstan's articles from the National Library of Australia's Trove API v3. Pipeline: `setup.py` (once) → `fetch_batman.py` / `fetch_byline.py` → `deduplicate.py` → `remove_duplicates.py` → `triage.py` (interactive review) → move to `src/articles/[publication-slug]/`. See `trove/README.md` for full context.
+
+**Adding a new book (checklist):** whether it's a fresh title or one being added ahead of scans arriving, every book needs all four of these or the site's three "list every book" surfaces (Books page, timeline, bibliography data) drift out of sync:
+1. **Index page** — `src/[book-slug].njk`, following the pattern of existing minimal book pages (e.g. `src/the-perfect-cup.njk`): title/summary frontmatter, a lead paragraph, publisher/ISBN if known, and a placeholder note if chapters haven't been transcribed yet.
+2. **`src/books.njk` accordion entry** — linking to the index page. **Keep the whole accordion sorted chronologically (oldest first)** — insert the new entry in its correct year position rather than appending to the end.
+3. **`src/_data/books.json` entry** — `{ title, year, url, summary }` — this is what powers `/timeline/` (via the `timeline` collection in `.eleventy.js`), so a book only shows up there once it's added here. Order within the file doesn't matter (the collection sorts by date), but keeping it roughly chronological makes the file easier to scan.
+4. **Cover image** — if a real cover exists, save it to `src/img/` and reference it directly. If not yet available, point the `<img>` in both the index page and the `books.njk` accordion entry at `src/img/no-cover.svg` (`alt="Cover not yet available"`) as a fallback rather than referencing a jpg that doesn't exist yet — swap it for the real cover once scanned.

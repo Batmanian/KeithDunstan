@@ -56,4 +56,4 @@ All this was impressive, but most impressive of all was the way they brought the
 
 <hr>
 
-*Source: [Around Melbourne "LA VILLE DE BEAUTE" (AS THE FRENCH SAY)](https://nla.gov.au/nla.obj-689064087), The Bulletin, 1962-11-03. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne "LA VILLE DE BEAUTE" (AS THE FRENCH SAY), The Bulletin, 1962-11-03. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-689064087).*

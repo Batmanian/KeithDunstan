@@ -54,4 +54,4 @@ But there has been a tragic sequel to all this. A small difficulty. The gondola 
 
 <hr>
 
-*Source: [Around Melbourne ABOUT CIGARETTES AND GONDOLAS](https://nla.gov.au/nla.obj-701187408), The Bulletin, 1963-02-23. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne ABOUT CIGARETTES AND GONDOLAS, The Bulletin, 1963-02-23. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-701187408).*

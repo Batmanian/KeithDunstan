@@ -52,4 +52,4 @@ The prices could be described as par for the course. For a single room £4 to £
 
 <hr>
 
-*Source: [Around Melbourne A BOWLING ALLEY AND A BIDET](https://nla.gov.au/nla.obj-696421326), The Bulletin, 1962-09-01. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne A BOWLING ALLEY AND A BIDET, The Bulletin, 1962-09-01. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-696421326).*

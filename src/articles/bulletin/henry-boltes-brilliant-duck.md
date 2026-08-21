@@ -41,4 +41,4 @@ Financially the Test match gave immense satisfaction with a record take at the g
 
 <hr>
 
-*Source: [Around Melbourne HENRY BOLTE'S BRILLIANT DUCK](https://nla.gov.au/nla.obj-701150128), The Bulletin, 1963-01-12. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne HENRY BOLTE'S BRILLIANT DUCK, The Bulletin, 1963-01-12. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-701150128).*

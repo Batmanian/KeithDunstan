@@ -48,4 +48,4 @@ The theme of the conference was the country woman's part in a changing world wit
 
 <hr>
 
-*Source: [Around Melbourne LIQUOR AND THE SILK TRADE](https://nla.gov.au/nla.obj-689041947), The Bulletin, 1962-10-13. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne LIQUOR AND THE SILK TRADE, The Bulletin, 1962-10-13. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-689041947).*

@@ -1,17 +1,19 @@
 ---
-title: When Flappers Fluttered Through the Flames’ 
+title: "When Flappers Fluttered Through the Flames"
 date: 1964-03-14
-summary: On the belated Melbourne opening of "Cleopatra," at the old Lyceum cinema renamed for the occasion, digging up its history back to 1915 as the Paramount and its era of silent-film sirens like Theda Bara.
+summary: Marks Melbourne's belated 1964 premiere of 'Cleopatra' at the renamed Cleopatra Theatre, then traces the cinema's own history back through the Lyceum and Paramount names to its 1915 opening with Mary Pickford in 'Rags', and the sensational 1916 season of Theda Bara in 'Carmen'.
 categories:
 - The Bulletin
 tags:
+  - Cleopatra Theatre
   - Elizabeth Taylor
+  - Richard Burton
+  - Theda Bara
   - Frank Thring Snr
-  - Melbourne
   - Sir George Tallis
-  - Sir Leo Curtis
   - Sir Rohan Delacombe
-
+  - Hoyts
+  - Bourke Street
 ---
 
 Could one ask for your forbearance?  By now it must be all too obvious that I have an insufferable passion for old movie houses.  The gush you are about to receive was caused by the advent of ‘Cleopatra.’
@@ -44,3 +46,6 @@ And frankly, after reading this, she made Elizabeth Taylor seem almost pallid.  
 
 I understand arrangements are being made for a new colossal film to be made on the entire Bible.  Could this be a new name for the Cleopatra in, say, 1967?
 
+<hr>
+
+*Source: Around Melbourne WHEN FLAPPERS FLUTTERED THROUGH FLAMES, The Bulletin, 1964-03-14. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-689206662).*

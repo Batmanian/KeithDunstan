@@ -42,4 +42,4 @@ However I hope that all citizens are aware that the Elodea Canadensis may be, in
 
 <hr>
 
-*Source: [Around Melbourne SENATOR KENNELLY AND THE MONSTER](https://nla.gov.au/nla.obj-701210719), The Bulletin, 1963-01-19. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne SENATOR KENNELLY AND THE MONSTER, The Bulletin, 1963-01-19. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-701210719).*

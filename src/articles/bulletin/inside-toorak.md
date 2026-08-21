@@ -42,4 +42,4 @@ The heart of Toorak, of course, is Toorak Village. In the nineteen-twenties it r
 
 <hr>
 
-*Source: [Out and About Inside Toorak — Where a two-car family is a two-Rolls Royce family](https://nla.gov.au/nla.obj-706054971), The Bulletin, 1962-07-14. Retrieved via the National Library of Australia's Trove database.*
+*Source: Out and About Inside Toorak — Where a two-car family is a two-Rolls Royce family, The Bulletin, 1962-07-14. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-706054971).*

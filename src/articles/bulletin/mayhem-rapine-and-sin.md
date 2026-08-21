@@ -75,4 +75,4 @@ And so "that was the night and the early morning in our city" on 3UZ, the statio
 
 <hr>
 
-*Source: [Around Melbourne MAYHEM, RAPINE AND SIN](https://nla.gov.au/nla.obj-701171524), The Bulletin, 1963-02-09. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne MAYHEM, RAPINE AND SIN, The Bulletin, 1963-02-09. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-701171524).*

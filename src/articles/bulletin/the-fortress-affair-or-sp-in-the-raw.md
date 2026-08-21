@@ -52,4 +52,4 @@ Sir Chester Manifold, late Chairman of the VRC and present TAB chairman is beami
 
 <hr>
 
-*Source: [Around Melbourne THE FORTRESS AFFAIR-OR SP IN THE RAW](https://nla.gov.au/nla.obj-696412671), The Bulletin, 1962-09-15. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne THE FORTRESS AFFAIR-OR SP IN THE RAW, The Bulletin, 1962-09-15. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-696412671).*

@@ -62,4 +62,4 @@ Another fruitful argument for would-be realists and moderns is Melbourne's tramw
 
 <hr>
 
-*Source: [Around Melbourne NOT ONLY SERIOUS – SOLEMN!](https://nla.gov.au/nla.obj-688742607), The Bulletin, 1962-06-02. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne NOT ONLY SERIOUS – SOLEMN!, The Bulletin, 1962-06-02. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-688742607).*

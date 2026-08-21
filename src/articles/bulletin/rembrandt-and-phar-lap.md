@@ -58,4 +58,4 @@ That means everybody has quarrelled and separated.
 
 <hr>
 
-*Source: [Around Melbourne REMBRANDT AND PHAR LAP](https://nla.gov.au/nla.obj-688599775), The Bulletin, 1962-05-05. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne REMBRANDT AND PHAR LAP, The Bulletin, 1962-05-05. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-688599775).*

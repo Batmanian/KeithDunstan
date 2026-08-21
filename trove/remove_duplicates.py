@@ -2,7 +2,7 @@
 remove_duplicates.py
 --------------------
 Reads master_results.csv and deletes any .md files flagged as duplicates
-from output/bulletin/stubs/.
+from year folders in output/bulletin/stubs/.
 
 Only deletes files that:
   - Are flagged in the duplicate_of column (i.e. caught by a second pass)
@@ -41,15 +41,27 @@ def main():
 
     deleted = 0
     missing = 0
+    stub_files = {}
+    for root, dirs, filenames in os.walk(STUBS_DIR):
+        dirs[:] = [directory for directory in dirs if directory != "Scans"]
+        for filename in filenames:
+            if filename.endswith(".md"):
+                stub_files.setdefault(filename, []).append(os.path.join(root, filename))
+
     for filename in duplicates:
-        filepath = os.path.join(STUBS_DIR, filename)
-        if os.path.exists(filepath):
+        matches = stub_files.get(filename, [])
+        if len(matches) == 1:
+            filepath = matches[0]
+            relative_path = os.path.relpath(filepath, STUBS_DIR)
             if DRY_RUN:
-                print(f"  WOULD DELETE: {filename}")
+                print(f"  WOULD DELETE: {relative_path}")
             else:
                 os.remove(filepath)
-                print(f"  DELETED: {filename}")
+                print(f"  DELETED: {relative_path}")
             deleted += 1
+        elif len(matches) > 1:
+            print(f"  AMBIGUOUS (not deleted): {filename} ({len(matches)} matches)")
+            missing += 1
         else:
             print(f"  NOT IN STUBS (already moved or deleted): {filename}")
             missing += 1

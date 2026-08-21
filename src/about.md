@@ -9,7 +9,7 @@ summary: How this archive works, how to follow updates via RSS, how to reach Kei
 <hr>
 
 <h2>A note on historical language</h2>
-<p>This archive spans journalism and books written from the 1950s to the 1990s. Some of it reflects the attitudes, assumptions and language of the era in which it was written, including references to race, gender, sexuality, disability and other cultural groups that would not be considered acceptable in an inclusive society today.</p>
+<p>This archive spans journalism and books written from the 1960s to 2017. Some of it reflects the attitudes, assumptions and language of the era in which it was written, including references to race, gender, sexuality, disability and other cultural groups that would not be considered acceptable in an inclusive society today.</p>
 <p>Material is presented here unedited and in its original form, as a historical record of Keith Dunstan's work and of Australian society and journalism at the time. Its inclusion is not an endorsement of the views or language it contains.</p>
 
 <hr>

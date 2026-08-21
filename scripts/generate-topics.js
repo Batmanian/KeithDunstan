@@ -20,7 +20,7 @@ const OUTPUT_FILE = path.join(SRC_DIR, "_data", "topics.md");
 // threshold the topic cloud on /search.html uses to decide what to display
 // (src/_includes/snippets/tagslist.njk) — a topic can be worth describing
 // even if it doesn't yet have enough entries to appear in that browse list.
-const MIN_ENTRIES_FOR_DESCRIPTION = 2;
+const MIN_ENTRIES_FOR_DESCRIPTION = 3;
 
 // Mirrors the exclusion list used by the `tagList` collection in .eleventy.js
 const EXCLUDED_TAGS = ["post", "all", "book", "books", "article", "articles"];

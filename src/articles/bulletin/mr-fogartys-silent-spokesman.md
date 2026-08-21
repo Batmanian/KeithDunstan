@@ -49,4 +49,4 @@ Panic or no panic it's mighty hard to get a bottle. The mystery of the missing b
 
 <hr>
 
-*Source: [Around Melbourne MR FOGARTY'S SILENT SPOKESMAN](https://nla.gov.au/nla.obj-689136229), The Bulletin, 1962-12-22. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne MR FOGARTY'S SILENT SPOKESMAN, The Bulletin, 1962-12-22. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-689136229).*

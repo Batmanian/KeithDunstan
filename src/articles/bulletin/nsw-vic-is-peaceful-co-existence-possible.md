@@ -52,4 +52,4 @@ There could be a disarmament program on the lofty building race. Each city could
 
 <hr>
 
-*Source: [Around Melbourne NSW-VIC: IS PEACEFUL CO-EXISTENCE POSSIBLE?](https://nla.gov.au/nla.obj-689081295), The Bulletin, 1962-11-24. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne NSW-VIC: IS PEACEFUL CO-EXISTENCE POSSIBLE?, The Bulletin, 1962-11-24. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-689081295).*

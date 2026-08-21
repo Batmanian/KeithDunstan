@@ -50,4 +50,4 @@ So you see it is all under way. The Tourist Development Authority is sending out
 
 <hr>
 
-*Source: [Around Melbourne £7000 FOR "DIVINELY DRESSED LADIES"](https://nla.gov.au/nla.obj-696437396), The Bulletin, 1962-09-22. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne £7000 FOR "DIVINELY DRESSED LADIES", The Bulletin, 1962-09-22. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-696437396).*

@@ -62,4 +62,4 @@ He is now working on a series of songs which he claims will cause a resurgence o
 
 <hr>
 
-*Source: [Around Melbourne RETURN OF NORM AND EDNA EVERAGE](https://nla.gov.au/nla.obj-696396523), The Bulletin, 1962-08-04. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne RETURN OF NORM AND EDNA EVERAGE, The Bulletin, 1962-08-04. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-696396523).*

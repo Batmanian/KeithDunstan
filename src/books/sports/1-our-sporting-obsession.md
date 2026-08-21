@@ -281,3 +281,6 @@ The nation will discover equally rewarding—touring orchestras, writers and poe
 It is doubtful whether the gambling passion will ever decline. It is important to keep a number of sports, like horse-racing, dog-racing, football and even professional foot-running, healthy, in order to give gambling respectability. We are said to be the world's champion gamblers, $160 a head a year, compared with $90 for the Americans, $50 for New Zealanders and $30 for the British.
 
 As an illustration of the passion this surely was the most revealing story of the day. Igloo, the racehorse of the day, was in Perth for the Cup carnival of 1972; this almost priceless creature had an injured leg and was in danger of being destroyed. A Perth nun sent holy water from the Shrine at Lourdes to rub on that injured leg.
+
+<hr>
+<p class="lead">Previous: <a href="{{ '/books/sports/0-introduction/' | url }}">Introduction</a> · Next: <a href="{{ '/books/sports/2-the-passion-at-school/' | url }}">The Passion at School</a></p>

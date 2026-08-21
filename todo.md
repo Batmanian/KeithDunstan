@@ -1,7 +1,7 @@
 # Todo — Keith Dunstan Archive
 
 Tracking outstanding work across all active workstreams.
-Last updated: 11 August 2026.
+Last updated: 15 August 2026.
 
 **Status legend used throughout this file:**
 
@@ -26,19 +26,20 @@ Last updated: 11 August 2026.
 | Supporting a Column | 1966 | 9 | 9 | 0 | 0 | Complete |
 | The Australian Upper Crust Book | 1971 | 1 (Keith's chapter only) | 1 | 0 | 0 | Complete as scoped — other authors' chapters out of scope |
 | Ratbags | 1980 | 26 (foreword + intro + 24 profiles) | 26 | 0 | 0 | Complete — see §2 for chapter detail |
-| Wowsers | 1968 | 10 | 2 | 6 📝 (empty stubs) | 2 | See §3 for chapter detail |
+| Wowsers | 1968 | 10 | 2 | 0 | 8 | The 6 empty `.mx` placeholder stubs previously tracked here (chapters 3–8) no longer exist on disk — see §3 for detail |
 | A Day in the Life of Australia | 1989 | 258 known daily entries | 8 | 11 📝 | 239 | See §4 — scale makes full per-entry tracking impractical |
 | Batman in the Bulletin | 2004 | Themed excerpt collection, not chapters | — | — | — | Sourced from Bulletin articles directly; see §5 |
 | Kiwi | 2017 | ? | 0 | 0 | ❓ | Not started — no scans, no source material logged |
 | Moonee Ponds to Broadway | 2005 | ? | 0 | 0 | ❓ | Not started |
 | Collins: the story of Australia's premier street | 2005 | ? | 0 | 0 | ❓ | Contributor credit only — scope unclear |
 | The Confessions of a Bicycle Nut | 1999 | 14 (4 golden-era + 10 modern-era; book actually has one more chapter than `src/the-confessions-of-a-bicycle-nut.njk`'s old "nine chapters" blurb said — corrected 10 Aug 2026) | 14 | 0 | 0 | Complete. Chapters 1–14 transcribed; Ch.11–14 done from manually-scanned photos 10 Aug 2026: Ch.11 'Old Man River' (IMG_8782–8794, p.187–201), Ch.12 'On the Silk Road' (IMG_8795–8809, p.203–217), Ch.13 'The GVBR' (IMG_8810–8825, p.219–235), Ch.14 'The Auto Fiend' (IMG_8826–8836, p.237–246, book's last chapter). Two small scan gaps, neither breaking a sentence: p.190–191 (Ch.11, likely a photo plate) and p.230 (Ch.13, a full-page photo). |
-| No Brains on Tuesday | 1991 | 14 chapters (thematic column collections) | Introduction + 52 columns (Ch.1–9 confirmed, Ch.8/9 boundary uncertain — see §11) | 0 | rest of book | ⚠️ Chapter-heading/column mapping for chapters 8–14 needs a re-audit; see §11 for detail |
+| No Brains on Tuesday | 1991 | 14 chapters (thematic column collections) | Introduction + 76 columns — **book complete**, ends p.281 'Have a Happy time.' | 0 | 0 | ⚠️ Chapters 44–47's chapter placement is still unconfirmed/unverified (mislabeled by an earlier session, original scans gone — see §11). Two small page gaps neither breaking a sentence structurally but likely dropping some dialogue: p.269–270 (Ch.14, 'Yuletide All Over') and p.275 (Ch.14, 'Defy the Turkey Plot') — worth a rescan if perfect fidelity matters. |
 | Saint Ned | 1980 | 11 chapters | 4 | 0 | 7 | Chapters 1–4 transcribed from manually-scanned photos 7 Aug 2026; see §10 for chapter detail |
 | The Store on the Hill | 1979 | ? | 0 | 0 | ❓ | Not started |
 | Knockers | 1972 | 15 chapters | 2 (Foreword + Chapter 1) | 0 | 13 | Foreword (Barry Humphries) and Chapter 1 ('Knockers') transcribed from manually-scanned photos 9 Aug 2026; see §12 for detail |
-| Sports | 1973 | 14 (intro + 13 'passion' chapters) | 2 | 0 | 12 | Year corrected from 1970 (Cassell Australia, 1973, per publisher records — the text itself references 1972 events throughout). Introduction and Chapter 1 ('Our Sporting Obsession') transcribed from manually-scanned photos 6 Aug 2026; see §9 for chapter detail |
+| Sports | 1973 | 14 (intro + 13 'passion' chapters) | 8 | 0 | 6 | Year corrected from 1970 (Cassell Australia, 1973, per publisher records — the text itself references 1972 events throughout). Introduction and Chapters 1–7 ('Our Sporting Obsession' through 'The Rowing Passion') transcribed; see §9 for chapter detail. Chapters 6–7 transcribed from 36 new scans (`IMG_9278`–`IMG_9313`) dropped 20 Aug 2026 — no further Sports scans outstanding |
 | The Paddock That Grew | 1962 | ? | 0 | 0 | 📷 | MCG history — 18 scans added to `src/books/the-paddock-that-grew/scans/` 9 Aug 2026, not yet transcribed |
+| Just Jeans: The Story | 1995 | 12 Parts (the book's own front-matter "Introduction" is a foreword by founder Craig Kimberley, not Keith, and is deliberately excluded from the site) | 1 | 0 | 11 | New book, added 14 Aug 2026. Corporate history of the Just Jeans denim chain, commissioned for its 25th anniversary. Part One ('The Humble Uniform') transcribed from manually-scanned photos of the cover and front matter; two small scan gaps (the chapter's opening page, and one page mid-chapter) noted inline with HTML comments rather than guessed at. Cover image, book index page (`src/just-jeans-the-story.njk`) and a `books.njk` accordion entry all added. 28 new `src/_data/topics.md` entries added for people, films and organisations named in Part One (Levi Strauss, Jacob Davis, James Dean, Marlon Brando, Marilyn Monroe, JFK/RFK/MLK, etc.). Parts Two–Twelve await further scans from Jack. |
 
 ---
 
@@ -90,16 +91,18 @@ Contents list sourced from `src/wowsers.njk`.
 |---|---|---|---|
 | 1 | Wowser | ✅ | |
 | 2 | The Evil of the Desecration of the Sabbath | ✅ | |
-| 3 | The Evil of the Demon Drink | 📝 | `3-the-evil-of-the-demon-drink.mx` — frontmatter only (`title: XX`, `tags: XXX`), no body text. Has 6 sub-sections in the original contents (The Sots, The Glorious Days of Abstinence, The Seductive Lures, Prohibition, Sober by Law, Six O'Clock Closing) not yet reflected in any file |
-| 4 | The Evil of Smoking | 📝 | Same empty-stub pattern |
-| 5 | The Theatre Evil and the Evil of Dancing | 📝 | Same empty-stub pattern |
-| 6 | The Evil of Bathing | 📝 | Same empty-stub pattern |
-| 7 | The Evil of Cremation | 📝 | Same empty-stub pattern |
-| 8 | The Evil of the Social Evil | 📝 | Same empty-stub pattern |
+| 3 | The Evil of the Demon Drink | ⬜ | No file exists. Has 6 sub-sections in the original contents (The Sots, The Glorious Days of Abstinence, The Seductive Lures, Prohibition, Sober by Law, Six O'Clock Closing) not yet reflected in any file |
+| 4 | The Evil of Smoking | ⬜ | No file exists |
+| 5 | The Theatre Evil and the Evil of Dancing | ⬜ | No file exists |
+| 6 | The Evil of Bathing | ⬜ | No file exists |
+| 7 | The Evil of Cremation | ⬜ | No file exists |
+| 8 | The Evil of the Social Evil | ⬜ | No file exists |
 | 9 | The Evil of the Printed Word | ⬜ | No file exists at all |
 | 10 | The Gambling Evil | ⬜ | No file exists; original has 5 sub-sections (The Collingwood Tote, The Worrall Affair, The Triumph of William Henry Judkins, Totes Bookies and S.P. Men, The 'Evil' of Tattersall's) |
 
-**Data issue found:** the Contents list in `src/wowsers.njk` (lines 48–76) has chapters 3–10 all pointing their `href` at `/books/my-life-with-the-demon/1-the-early-demon` — either a copy-paste artefact or a broken placeholder. The attribute is also misspelled `hrex` instead of `href` on every one of these links, so they don't render as links at all currently. Needs fixing once chapters 3–10 are transcribed and can point to their own pages.
+**Change found 15 Aug 2026:** chapters 3–8 were previously tracked here as empty `.mx` placeholder stubs (`title: XX`, `tags: XXX`, no body text). Those six files no longer exist in the working tree — `git status` shows them as uncommitted deletions, so they're still recoverable from git history (`git show HEAD:src/books/wowsers/3-the-evil-of-the-demon-drink.mx`, etc.) if that turns out to be unintentional. Not caused by this session; cause and intent unconfirmed — worth checking with Jack before assuming they should stay deleted.
+
+**Also fixed since last update:** the previously-reported `hrex`-typo/wrong-book-link bug in `src/wowsers.njk`'s Contents list is gone — chapters 3–10 now render as plain, unlinked text (`<li>Chapter N: Title</li>`), not broken links into `my-life-with-the-demon`. Correct as a placeholder until each chapter has its own file to link to.
 
 ---
 
@@ -126,7 +129,7 @@ The book's contents page (`src/a-day-in-the-life-of-australia.njk`) lists **258 
 
 | Publication | ✅ Live | Known outstanding (titled) | Stubs awaiting triage (Trove) | Notes |
 |---|---|---|---|---|
-| The Bulletin | 57 | 2 | 1,583 | 34 "Around Melbourne" columns (Mar–Dec 1962) transcribed from manually-scanned photos on 28–29 Jul 2026; 11 more 1963 columns transcribed the same way, in progress, 29 Jul 2026 (34 of 45 uploaded 1963 scans remain). Separate from the untouched Trove stub pipeline. See §6 for the Trove pipeline and the 2 known-missing titles below |
+| The Bulletin | 95 | 4 | ~1,545 | 34 "Around Melbourne" columns (Mar–Dec 1962) transcribed from manually-scanned photos 28–29 Jul 2026; 11 more 1963 columns transcribed the same way 29 Jul–18 Aug 2026; 38 more (33 1963–64 + 5 dropped in mid-session, all JPEG scans) transcribed 19 Aug 2026 — see the dedicated JPEG-scan batch note above. Separate from the untouched Trove stub pipeline. See §6 for the Trove pipeline; known-missing/incomplete titles listed above (2 pre-existing PNG cases + 2 newly-found incomplete "Out and About" JPEG scans) |
 | Walkabout Magazine | 17 | 1 | 0 | 18 known articles per site total; 17 now transcribed and live (31 Jul 2026 — see Completed section), 1 outstanding awaiting a scan (Collins Street Charm) — see list below |
 | The Australian Gourmet | 1 | — | Not in Trove | Extent of Keith's total output for this title is unknown; physical copies needed |
 | The Age (post-1954) | 9 | 1 known ("On the right side of Tuscany", 2 May 1989) | Not in Trove | Not digitised in Trove. ProQuest explored 3 Aug 2026 — capped at 8 pullable articles for this title; all 8 transcribed and live, plus 1 more (obituary of Richard Cudlipp) sourced separately. See note below |
@@ -151,7 +154,71 @@ The book's contents page (`src/a-day-in-the-life-of-australia.njk`) lists **258 
 
 Note: two of the 34 newly-transcribed columns — "Rediscovering the Yarra" (1 Dec 1962) and "An Albert Tucker for 2s. a Mile" (15 Dec 1962) — are signed "—FAWKNER" rather than "—BATMAN" in the original scan. Confirmed this is just a second pen name of Keith's (after Melbourne's other co-founder, John Fawkner) — both pieces are his and belong in the archive as normal.
 
-### Bulletin — 1963 scans QA and transcription (29 Jul 2026, in progress)
+### Bulletin — 1963 scans QA and transcription (updated 18 Aug 2026, in progress)
+
+**Working-file retention rule:** keep every source stub when its article is not
+being transcribed, including incomplete scans, doubtful attribution, duplicate
+material and articles deliberately deferred for later. A stub may be removed
+only after its transcription is complete, verified and live in
+`src/articles/bulletin/`. Delete a scan image only after that same verification;
+never treat OCR output alone as completion.
+
+The 1963 working material now lives in
+`trove/output/bulletin/stubs/Scans/1963/`. On 18 Aug 2026, local Tesseract OCR
+was installed and used for a non-destructive first pass over all 31 images
+(about 37,000 extracted words). The temporary OCR output is not authoritative:
+page assembly, printed dates, article boundaries and OCR corrections still
+require visual review against the scans.
+
+**Current scan-backed queue (32 article records from 37 image files):**
+
+- [ ] 1963-01-05 — The Paddock — incomplete crop; retain stub and scan, re-scan required
+- [ ] 1963-02-16 — Preserving the Prom — incomplete ending; retain stub and scan, additional page required
+- [ ] 1963-03-02 — Adelaide Was the Test — two damaged/cropped pages; retain stub and scans, re-scan required
+- [ ] 1963-04-20 stub — At the Bottom of the (Cultural) Barrel — scan footer says 13 Apr; verify date before transcription
+- [x] 1963-04-27 — Goodbye to the Glaci — transcribed, linked and build-verified 18 Aug 2026; source stub and scan removed
+- [ ] 1963-05-04 — The Battle of Rippon Lea
+- [ ] 1963-05-11 — The Lushest Motor Show of All
+- [ ] 1963-05-18 — The Head Poisoner Quits the Army
+- [x] 1963-05-25 — Where They Scrambled for Ned Kelly's Bones — transcribed 19 Aug 2026, see JPEG batch note below
+- [x] 1963-06-01 — Rosettes in Cream and Gold — transcribed 19 Aug 2026
+- [x] 1963-06-08 — Chloe in the Cultural Centre — transcribed 19 Aug 2026
+- [x] 1963-07-06 — Beastliness Dyed in the Wool — transcribed 19 Aug 2026
+- [x] 1963-07-13 — Carping Critics — transcribed 19 Aug 2026, shared-page Divorce Court column correctly ignored
+- [ ] 1963-07-13 — Melbourne's Grand Dame — confirmed incomplete on this pass too (cuts off mid-word "...in their lug-"); retain stub and scan, additional page still required
+- [x] 1963-07-20 — Vengeance on a Black Mud Altar — transcribed 19 Aug 2026
+- [x] 1963-07-27 — Clara Bow, Ronald Colman and All That — transcribed 19 Aug 2026
+- [x] 1963-08-03 — Two Million Babies — transcribed 19 Aug 2026
+- [x] 1963-08-17 — Slacks, Well Yes; Bermudas, No — transcribed 19 Aug 2026
+- [x] 1963-08-24 — A Minor Battle in the Snow — transcribed 19 Aug 2026
+- [x] 1963-08-31 — Salvation in the Sheep Pavilion — transcribed 19 Aug 2026
+- [x] 1963-09-07 — Corinne Kerby — transcribed 19 Aug 2026, shared-page interview column correctly ignored
+- [x] 1963-09-07 — Evolution of a Civic Egg — transcribed 19 Aug 2026
+- [x] 1963-09-14 — A Ruined Week, No Paranoia — transcribed 19 Aug 2026
+- [ ] 1963-09-28 — The Australian Republican Army — isolate advertisements (out of scope this pass — `.png`, not `.jpeg`)
+- [x] 1963-10-05 through 1963-10-26 — four single-scan Around Melbourne columns — all transcribed 19 Aug 2026 (Ships That Knock the Rock, Eaters and Revolving Drinkers, Aussie Rules In and Out of Season, Red Robes and Hot Whiskers)
+- [x] 1963-11-02 — The Cup, 1890 — four-page article, transcribed 19 Aug 2026
+- [x] 1963-11-09 through 1963-11-23 — three single-scan Around Melbourne columns — all transcribed 19 Aug 2026 (What About the Arts and the Kittens, The Girls in the Golden Frames, The Electronic Sir Robert)
+
+The 11 remaining `.md` records without filename-matched images are retained as
+sourcing stubs. They are not transcription candidates until their scans are
+supplied or an existing differently named image is positively matched to them.
+
+### Bulletin — JPEG-scan batch, 1963–1964 (completed 19 Aug 2026)
+
+User asked for every Bulletin article scanned as a JPEG (as opposed to the `.png` screenshots covered separately above) to be transcribed, linked and marked done. Covered all of `trove/output/bulletin/stubs/Scans/1963/*.jpeg` and `1964/*.jpeg`, plus 5 more `.jpeg` files dropped into `1964/` mid-session (18 Aug, no paired stub `.md`) covering May–June 1964 — their Trove `nla.obj-` URLs were looked up directly via the Trove v3 API (`trove/.venv`, existing `TROVE_API_KEY`) rather than guessed, since no stub existed to source them from.
+
+**33 + 5 = 38 articles transcribed and published** to `src/articles/bulletin/`, each with a full `summary`, granular tags, and a `<hr>` + Trove-source citation footer. 16 new `src/_data/topics.md` entries added across the batch for genuinely notable proper nouns (Phar Lap-adjacent racing figures were already covered by the Sports book pass — see §9; this batch's additions include Everton FC, Il Globo, Domenico Italiano, the National Mutual Centre, the Capitol Theatre and Walter/Marion Burley Griffin, P. D. Phillips, Les McClure/Four'n Twenty, among others).
+
+**2 skipped — incomplete scans, page 2 missing, same class of issue as "Melbourne's Grand Dame" above:**
+- [ ] 1963-07-13 — "Out and About: Melbourne's Grand Dame" (Dame Mabel Brookes) — cuts off mid-sentence ("...in their lug-[gage]")
+- [ ] 1964-03-07 — "Out and About: Recognisably One of the Great Streets" (Collins Street) — cuts off mid-sentence ("...made level in a sort of a way, a dust")
+
+Both stubs and scans retained per the working-file retention rule above, pending a second page scan.
+
+**Duplicate caught and fixed:** "When Flappers Fluttered Through Flames" (1964-03-14) turned out to already exist under a slightly different slug, `when-flappers-fluttered-through-the-flames.md` (pre-existing, rougher transcription with no Trove source link and a malformed title). Exact-slug duplicate checking at the start of this batch missed it because the filenames differ by one word ("the"). Resolved by deleting the newly-written duplicate and instead fixing the pre-existing file in place (title, summary, added tags for Cleopatra Theatre/Richard Burton/Theda Bara/Hoyts/Bourke Street, added the missing source citation) — worth remembering that slug-based duplicate detection needs a fuzzy pass, not just exact matches, when picking up scattered Bulletin work like this.
+
+`Bulletin-cover.jpeg` (no paired stub, not an article) was left untouched, as instructed by scope.
 
 User uploaded photographed scans for all 45 known 1963 "Around Melbourne"/Batman columns into `trove/output/bulletin/stubs/Scans/` (matching stub `.md` files already existed for all of them). Full visual QA pass completed, then direct transcription from the scans began (each one read and typed up by hand, not OCR'd) — this is slow, one-article-at-a-time work, so tracking progress here as it happens rather than in one batch.
 
@@ -159,9 +226,9 @@ User uploaded photographed scans for all 45 known 1963 "Around Melbourne"/Batman
 
 **34 remaining** (45 total minus 11 done, minus 3 confirmed unusable — see below). Continue in date order from 1963-04-20 (Bottom of the Cultural Barrel) onward — see the full remaining list further down this section, or just work through whatever's still left in `trove/output/bulletin/stubs/Scans/`.
 
-**3 multi-page groups** — Royal Tour (2 pages) is now confirmed unusable (see below); the other two are untouched and still believed complete/correctly ordered (each page-break lands mid-sentence and resumes verbatim on the next page):
-- [ ] "A Demand for Breathless Enthusiasm — 2. Corinne Kerby, sole survivor among women comperes" (1963-09-07, 2 pages, base + `-2.jpeg`) — has shared column inches on both pages (see below), otherwise ready to transcribe.
-- [ ] "Around Melbourne: THE CUP 1890 — now that really was a Cup year!" (1963-11-02, 4 pages, base + `-2`/`-3`/`-4.jpeg`) — ready to transcribe.
+**3 multi-page groups** — Royal Tour (2 pages) is now confirmed unusable (see below); the other two are transcribed (19 Aug 2026):
+- [x] "A Demand for Breathless Enthusiasm — 2. Corinne Kerby, sole survivor among women comperes" (1963-09-07, 2 pages, base + `-2.jpeg`) — shared column inches on both pages correctly isolated and ignored.
+- [x] "Around Melbourne: THE CUP 1890 — now that really was a Cup year!" (1963-11-02, 4 pages, base + `-2`/`-3`/`-4.jpeg`) — transcribed.
 
 **5 scans confirmed unusable — need a fresh photo, not just re-triage:**
 
@@ -169,7 +236,7 @@ User uploaded photographed scans for all 45 known 1963 "Around Melbourne"/Batman
 - [ ] `1963-02-16-out-and-about-preserving-the-prom-support-the-birds-and-the-bees-not-the-boys-an.png` — **incomplete**, discovered on direct transcription attempt (missed by the earlier QA pass): cuts off mid-sentence ("...the Promontory should be developed with") with no second page in the folder. Needs an additional scan.
 - [ ] `1963-03-02-this-australia-royal-tour...-1.png` / `-2.png` (Royal Tour, both pages) — **also discovered on direct transcription attempt, missed by the earlier QA pass**: page 1's right-hand column and page 2's left-hand column are both cut off at the photo's edge, truncating words mid-line through a large chunk of the article (the same junction is cut from both sides, so the two pages can't be combined to recover it). Needs a re-scan capturing the full page width on both photos.
 - [ ] `1963-04-20-around-melbourne-at-the-bottom-of-the-cultural-barrel.png` — physical page footer reads "April 13, 1963," not April 20 (and the same-day scan `1963-04-13-around-the-wang-getting-publicity-for-peanuts.png`, now transcribed, is also footer-dated April 13, p.11, vs. this one's p.9). The stub's Trove-derived date (1963-04-20) disagrees with the scan itself — check against Trove before trusting either date. Not yet attempted.
-- [ ] `1963-07-13-out-and-about-melbourne-s-grand-dame-goulds-birds-napoleons-hair-and-georgian-si.jpeg` — **incomplete**, text cuts off mid-word ("...to bring it back in their lug-") with no second page anywhere in the Scans folder. Needs an additional scan before it can be transcribed.
+- [ ] `1963-07-13-out-and-about-melbourne-s-grand-dame-goulds-birds-napoleons-hair-and-georgian-si.jpeg` — **incomplete**, text cuts off mid-word ("...to bring it back in their lug-") with no second page anywhere in the Scans folder. Needs an additional scan before it can be transcribed. Re-confirmed 19 Aug 2026; a second 1964 "Out and About" piece (Collins Street, 1964-03-07) has the identical problem — see JPEG batch note above.
 
 **Note on trusting the earlier QA pass:** two of the five "unusable" scans above (Preserving the Prom, Royal Tour) were marked clean/complete by the original QA subagent pass and only caught on direct read-through during transcription — worth bearing in mind that a QA pass narrating "complete, correct order" doesn't guarantee every line within a page was actually legible/captured; direct transcription is the real verification.
 
@@ -291,12 +358,12 @@ Contents list sourced from the book's own Contents page (photographed 6 Aug 2026
 |---|---|---|
 | Introduction (p. xiii) | ✅ | `src/books/sports/0-introduction.md` — explains the book grew out of a 1969 La Trobe Library exhibition, 'Sporting Life in Victoria' |
 | 1. Our Sporting Obsession (p. 1) | ✅ | `src/books/sports/1-our-sporting-obsession.md` — transcribed from 28 manually-scanned photos (`IMG_8650`–`IMG_8677`); pages 6, 10 and 22 in the original are photo-plate pages with little running prose |
-| 2. The Passion at School (p. 31) | ⬜ | No scan yet |
-| 3. The Racing Passion (p. 47) | ⬜ | No scan yet |
-| 4. The Cricket Passion (p. 80) | ⬜ | No scan yet |
-| 5. The Swimming Passion (p. 123) | ⬜ | No scan yet |
-| 6. The Tennis Passion (p. 144) | ⬜ | No scan yet |
-| 7. The Rowing Passion (p. 161) | ⬜ | No scan yet |
+| 2. The Passion at School (p. 31) | ✅ | `src/books/sports/2-the-passion-at-school.md` — transcribed from scans `IMG_9131`–`IMG_9145`; p. 44 is a photo-plate page with no running prose |
+| 3. The Racing Passion (p. 47) | ✅ | `src/books/sports/3-the-racing-passion.md` — transcribed from scans `IMG_9146`–`IMG_9177` |
+| 4. The Cricket Passion (p. 80) | ✅ | `src/books/sports/4-the-cricket-passion.md` — transcribed from scans `IMG_9178`–`IMG_9220`; several plate pages (95, 98, 100, 107, 111, 118, 120) with photo captions only, little running prose |
+| 5. The Swimming Passion (p. 123) | ✅ | `src/books/sports/5-the-swimming-passion.md` — transcribed from scans `IMG_9243`–`IMG_9263` (dropped 19 Aug 2026), pages 123–143, complete chapter, no plate-only gaps |
+| 6. The Tennis Passion (p. 144) | ✅ | `src/books/sports/6-the-tennis-passion.md` — transcribed from scans `IMG_9278`–`IMG_9302`/9303 (dropped 20 Aug 2026), pages 144–160; one small scan gap at p.153 |
+| 7. The Rowing Passion (p. 161) | ✅ | `src/books/sports/7-the-rowing-passion.md` — transcribed from scans `IMG_9303`–`IMG_9313` (dropped 20 Aug 2026), pages 161–179, complete chapter; three small scan gaps at p.164, 172, 178 |
 | 8. The Boxing Passion (p. 180) | ⬜ | No scan yet |
 | 9. The Football Passion (p. 213) | ⬜ | No scan yet |
 | 10. The Pedalling Passion (p. 247) | ⬜ | No scan yet |
@@ -305,6 +372,14 @@ Contents list sourced from the book's own Contents page (photographed 6 Aug 2026
 | 13. The Killing Passion (p. 318) | ⬜ | No scan yet |
 
 **Data note:** Chapter 1 was transcribed by reading each photographed page directly (no OCR tool available — `ocr/` is currently empty aside from a stray `.DS_Store`, despite being referenced in `CLAUDE.md`). A handful of sentences that straddle two photographed pages, or where a page was photographed at an angle, were reconstructed for readability rather than pulled verbatim character-by-character — worth a proofread against the physical book if perfect fidelity matters. `src/sports.njk` (book index page) and `src/books.njk`'s Sports accordion entry both now link through to the transcribed chapters. Six new `src/_data/topics.md` entries added for this chapter: Edward Trickett, Henry Lawson, Hubert Opperman, John Snow, John Wren, Melbourne Punch (Gough Whitlam, Sir Robert Menzies, Ron Barassi, Flemington Racecourse and Collingwood already existed and were reused verbatim).
+
+**Chapter 2 data note (16 Aug 2026):** 90 new scans (`IMG_9131`–`IMG_9220`, HEIC format) were dropped into `src/books/sports/scans/` covering the rest of the book; `sips` was used to convert each to PNG before reading (no `ocr/transcribe.js` — same gap as above). Chapter 2 runs pages 31–46 across `IMG_9131`–`IMG_9145`; page 44 is a photo-plate page (Little Athletics action shots) with no running prose and wasn't transcribed, matching the plate-page precedent from Chapter 1. Chapter 3 ('The Racing Passion') starts at `IMG_9146` (p. 47). Same fidelity caveat as Chapter 1: transcribed by reading photographed pages directly, worth a proofread against the physical book. Twelve new `src/_data/topics.md` entries added: Dr A. W. Willee, Harry Prout, Henry Varley, John McLaren, L. A. Adamson, Neville Cardus, Ron Clarke, Scotch College, Stanley Bruce, Sydney Grammar, Wesley College, Xavier College (Melbourne Grammar, Geelong Grammar, St Kilda, The Argus, Melbourne Cricket Ground, Melbourne University and Her Majestys Theatre already existed and were reused verbatim). A handful of once-off minor names in the chapter's closing news-clipping anecdotes (Sister Mary Julian, the Bankstown court case names, Martin and Frances Fletcher, Wesley captain 'Boynton', headmasters G. E. Blanch and L. C. Robson, academics Corrie Gardner/I. V. Hansen/D. J. Drinkwater/Dr Henry Pang) were deliberately left untagged as too minor/one-off for a standalone topic page.
+
+**Chapters 3–4 data note (16–18 Aug 2026):** Transcribed from `IMG_9146`–`IMG_9220`, the remainder of the 90-scan batch, same `sips`-to-PNG method. **Quality note for future sessions:** the first transcription pass on both chapters, done from a single read of each scan, came out with visibly garbled/duplicated text in places (paragraphs repeated with drifting wording, sentence fragments merged across pages) — this was caught before publishing, and both chapters were redone by re-reading every source page a second time and rewriting the chapter from those verified reads. Take a single-pass transcription of a 30+ page chapter as provisional until spot-checked against the scans; don't assume it's clean just because it reads fluently. Even after the fix, a few short passages (the Bodyline-era M.C.C./Fred Root quotes on p.115–116, the South African tour section on p.121) remained hard to parse cleanly from the photographed page and were lightly smoothed — worth a proofread against the physical book if perfect fidelity matters, more so than for earlier chapters. Plate pages with photo captions only, no running prose: 95, 98, 100, 107, 111, 118, 120. Sixteen new `src/_data/topics.md` entries added across the two chapters: Rowland Bowen, Ted Dexter, Charles Dickens, H. H. Stephenson, W. G. Grace, Marylebone Cricket Club, Charles Bannerman, Fred Spofforth, Billy Murdoch, Douglas Jardine, Bill Woodfull, Ian Meckiff, Norman O'Neill, Ian Chappell, Ali Bacher (these ten were already present in `topics.md` from an earlier, unpublished draft pass) plus four genuinely new ones added this pass: Clem Hill, Lord Harris, Victor Trumper, Warwick Armstrong (Don Bradman, Harold Larwood, John Snow, Gough Whitlam, Melbourne Cricket Ground, The Argus and Sir Henry Bolte already existed and were reused verbatim).
+
+**Chapters 6–7 data note (20 Aug 2026):** 36 new scans (`IMG_9278`–`IMG_9313`, HEIC format) were dropped into `src/books/sports/scans/` covering the whole of Chapter 6 ('The Tennis Passion', p.144–160) and Chapter 7 ('The Rowing Passion', p.161–179) — the two chapters together exactly fill the batch, with Chapter 8 ('The Boxing Passion') not yet scanned. Same `sips`-to-PNG method; every page read at least once and the denser/more error-prone ones re-read a second time, per the Chapters 3–4 lesson. **Four single-page scan gaps found and left as gaps rather than reconstructed:** p.153 (Tennis, mid-way through the Sedgman-turns-professional public reaction), p.164 (Rowing, mid-way through the first Trickett-Hanlan race), p.172 (Rowing, mid-way through the Sydney Morning Herald's tribute quote after Harry Searle's death) and p.178 (Rowing, mid-way through the Mackenzie-Kubiak Diamond Sculls semi-final). In each case only a blurred, edge-cropped one- or two-page-ahead bleed-through was visible at the top of an adjacent photo — legible enough to identify roughly what the page covered, but not to transcribe verbatim without guessing at words cut off by the frame edge, so each was left as an HTML-comment gap (`<!-- Page N of the original book is missing... -->`) rather than reconstructed, consistent with the gap-handling precedent set in 'Just Jeans: The Story'. Two other passages *were* lightly smoothed rather than left as gaps, because the surviving text was complete but visibly out of line-order from a difficult rotated-column read: the Kramer/Sedgman "ageing and a little thin" paragraph and the "mystery meetings/mystery pictures" sentence, both on p.157. Worth a proofread against the physical book if perfect fidelity matters, more so than earlier chapters given the gap count. Twenty-five new `src/_data/topics.md` entries added: Norman Brookes, Anthony Wilding, Dame Mabel Brookes, H. L. Doherty, Frank Sedgman, Ken McGregor, Jack Kramer, Harry Hopman, Lew Hoad, Ken Rosewall, Rod Laver, Roy Emerson, John Newcombe, Margaret Court, Evonne Goolagong, Jaroslav Drobny, Bill Tilden, Edward Hanlan, William Beach, John B. Kelly Sr, John B. Kelly Jr, Bobby Pearce, Mervyn Wood, Stuart Mackenzie, Vyacheslav Ivanov (Davis Cup, Edward Trickett, Kooyong and Harry Searle already existed and were reused verbatim). Minor one-off names deliberately left untagged as too minor for a standalone topic page: Fred B. Alexander, Beals Wright, Sir Thomas Bent, Jean Sedgman, Ted Schroeder, Mervyn Rose, Vic Seixas, Tony Trabert, Rex Hartwig, Ashley Cooper, Neale Fraser, James Punch, Joseph Sadler, Michael Rush, Elias Laycock, Peter Kemp, Eugeniusz Kubiak. `src/sports.njk` and Chapter 5 both updated with links through to Chapters 6 and 7. Sports is now fully transcribed through Chapter 7; Chapters 8–13 ('The Boxing Passion' onward) have no scans yet.
+
+**Chapter 5 data note (19 Aug 2026):** 21 new scans (`IMG_9243`–`IMG_9263`, HEIC format) were dropped into `src/books/sports/scans/` covering the whole of Chapter 5, pages 123–143 — a clean one-to-one page-to-scan match with no plate-only gaps. Same `sips`-to-PNG method, no `ocr/transcribe.js` (still empty aside from a stray `.DS_Store`). **Given the Chapters 3–4 garbling incident above, every page in this chapter was read twice** — an initial full pass, then a second, deliberate re-read of each image before the file was written — rather than transcribing once and trusting it. This caught (and fixed) two scrambled passages where the first read had produced nonsensical, seemingly duplicated sentences from a rotated, narrow-column photo: the Murray Rose diet paragraph (p.135, "Rose, tall, blond...") and the Stanford/Yale kelp-rivalry paragraph (p.137). Both were reconstructed into sense from the surviving fragments rather than left garbled — worth a proofread against the physical book if perfect fidelity matters. A subtler error also caught only on the second full read-through: the chapter's closing pages (141–143, covering Forbes Carlile's baby-swimming classes and Shane Gould's 1972 Australian of the Year honour) were initially skipped over entirely in a rushed first assembly, jumping straight from page 140 to the final paragraph on page 143 — restored by re-reading `IMG_9261`–`IMG_9263` directly against the draft before publishing. Twenty-two new `src/_data/topics.md` entries added: Alick Wickham, Andrew 'Boy' Charlton, Arne Borg, Billy Hughes, Dawn Fraser, Dick Cavill, Don Talbot, Fanny Durack, Forbes Carlile, Frank Beaurepaire, Frank Cotton, Harry Gallagher, Hugh D. McIntosh, Ilsa Konrads, Jon Henricks, Jon Konrads, Keith Miller, Mina Wylie, Rose Scott, Shane Gould, Ted Lane, John Marshall, Michael Wenden, Karen Moras (Murray Rose, Wesley College, Sir Robert Menzies, Dame Nellie Melba, Alfred Deakin, Carbine, Victor Trumper, Prince Philip and Melbourne Cricket Ground already existed and were reused verbatim). Minor one-off names deliberately left untagged as too minor for a standalone topic page: George Farmer, Fred Cavill, Arthur 'Tums' Cavill, J. M. Rowan, Otto Schiff, Henry Taylor, Sol Green, Tom Sealey, Sir John Madden, Ada Crossley, Norman Ross, Ken Knox, Gary Winram, Justice Herron, Ian Rose. `src/sports.njk` and Chapter 4 both updated with links to Chapter 5. Sports is now fully transcribed through Chapter 5; Chapters 6–13 ('The Tennis Passion' onward) have no scans yet.
 
 ---
 
@@ -350,9 +425,9 @@ Contents list originally sourced from the book's own Contents pages (photographe
 | 9 | Columns of Canine and Farmland Wonder | ✅ confirmed 11 Aug 2026 | 5 columns, all transcribed and correctly linked: `48-bessie-we-thought-was-super-human.md`, `49-poodles-are-irrational.md`, `50-dog-dialogue.md`, `51-the-morality-of-chookery.md`, `52-the-murder-of-the-three-graces.md` |
 | 10 | Columns Which Confront Technical Marvels | ✅ confirmed 11 Aug 2026 | 3 columns, all transcribed: `53-the-problems-of-being-faxed.md`, `54-making-your-life-remote.md`, `55-how-to-murder-your-computer.md` (confirmed by scan to be Chapter 10's full set, not Chapter 11 as previously guessed) |
 | 11 | Columns on the Mysteries of Survival | ✅ complete, confirmed 11 Aug 2026 | Real heading confirmed by scan (not 'Problems of Survival' as guessed). All 8 columns transcribed: `56`–`63` (When I'm Sixty-Four through Never Trust a Banker With a Christian Name, pages 178–230). The old guessed titles 'Can We Have a Dinkum Aussie Theme Park' and 'Printophobia' do NOT belong to this chapter — chapter 11 ends at p.230, confirmed by Chapter 12's heading starting fresh on p.231 |
-| 12 | Columns of Immense Social Importance | 📝 in progress, confirmed 11 Aug 2026 | Real heading confirmed by scan — coincidentally the same heading text that was wrongly guessed for chapter 11 earlier, but with entirely different, now-confirmed columns. 3 columns transcribed: `64-our-dream-time-bill-of-rights.md`, `65-how-to-educate-a-human.md`, `66-we-can-have-a-dinkum-aussie-theme-park.md` (pages 231–242; pages 232 and 238 have no text, likely spot illustrations). Both remaining old-guessed titles for this stretch turned out to be correct after all, just misfiled under the wrong chapter — 'We Can Have a Dinkum Aussie Theme Park' and 'Printophobia - There's No Known Cure' are confirmed real Chapter 12 columns. Next up: 'Printophobia - There's No Known Cure', opening visible on p.242, not yet transcribed |
-| 13 | Unknown, possibly 'Columns on the Mysteries of Diet' | ⬜ | No scan yet; title unconfirmed — given Chapter 11 is also a 'Mysteries of...' heading, treat this guess with suspicion too |
-| 14 | Unknown, possibly 'Yuletide Columns' | ⬜ | No scan yet; title unconfirmed |
+| 12 | Columns of Immense Social Importance | ✅ complete, confirmed 11 Aug 2026 | Real heading confirmed by scan — coincidentally the same heading text that was wrongly guessed for chapter 11 earlier, but with entirely different, now-confirmed columns. All 4 columns transcribed: `64-our-dream-time-bill-of-rights.md`, `65-how-to-educate-a-human.md`, `66-we-can-have-a-dinkum-aussie-theme-park.md`, `67-printophobia-theres-no-known-cure.md` (pages 231–245; pages 232 and 238 have no text, likely spot illustrations) |
+| 13 | Columns Which Deal With the Mysteries of Diet | ✅ complete, confirmed 15 Aug 2026 | Real heading confirmed by scan — matches the old guess almost exactly ('Columns on the Mysteries of Diet'). All 6 columns transcribed: `68-the-deadly-sugar-addiction.md`, `69-no-shame-for-carnivores.md`, `70-the-confessions-of-a-coffeeholic.md`, `71-where-can-we-go-for-happy-bowel.md`, `72-manic-cholesterol.md`, `73-caulie-the-perfect-flower.md` (pages 248–267). Page 258 has no text photographed (likely a spot illustration); pages 269–270 (between Ch.13 and Ch.14) are also missing — see Ch.14 note |
+| 14 | Yuletide Columns | ✅ complete, confirmed 15 Aug 2026 | Real heading confirmed by scan — matches the old guess exactly. All 3 columns transcribed: `74-yuletide-all-over.md`, `75-defy-the-turkey-plot.md`, `76-why-did-christ-do-everything-in-one-year.md` (pages 268–281). **This is the end of the book** — p.281 ends 'Have a Happy time.' with no further content. Two small gaps in this chapter, neither breaking a sentence but likely dropping a small amount of dialogue: p.269–270 (mid 'Yuletide All Over', between Julius Sumner Miller's and Sir Arvi Parbo's Christmas-memory quotes) and p.275 (mid 'Defy the Turkey Plot') were not among the photographed pages |
 
 **Data note (9 Aug 2026):** Transcribed from 24 manually-scanned photos (`IMG_8719`–`IMG_8742`), covering the Foreword (by Michael Smith, editor of the Age), Contents, Introduction and Chapter 1 in full. No copyright page was scanned; publication year (1991) inferred from internal evidence — the Introduction references the November 1990 publication of 'No Brains At All' as already past, and the Foreword's mention of Opposition Leader John Hewson dates it to 1990–94. Several page numbers in the scan sequence were spot illustrations (no prose) rather than missing photos, confirmed by continuous sentence flow across the gaps (e.g. page 9 to page 11). `src/no-brains-on-tuesday.njk` created as the book's index page with the full 14-chapter contents list. Ten new `src/_data/topics.md` entries added: Bob Hawke, Colonel Sanders, Creighton Burns, Fritz Kreisler, Herald Sun, Les Carlyon, Max Suich, McDonalds, Pizza Hut, Sydney Morning Herald.
 
@@ -371,6 +446,12 @@ Chapter 11 (When I'm Sixty-Four; When I'm Sixty-Five so far) started the same se
 'Never Trust a Banker With a Christian Name' turned out to run one page longer than first captured (p.230) — caught only because the next page's heading ('12 — Columns of Immense Social Importance') didn't match what came before, confirming Chapter 11 had actually ended. This is the same 'a natural-sounding paragraph ending isn't proof the column ended' trap as the Umbrageous Coast case a few columns earlier; the fix each time was checking the following page's heading before closing a file, not trusting how the prose reads. Chapter 12 opened with 'Our Dream Time Bill of Rights' (`64-our-dream-time-bill-of-rights.md`, `IMG_9035`–`IMG_9038`, pages 230–234), whose own real heading matches what had incorrectly been guessed for Chapter 11 — a reminder that a guessed heading being *literally correct text* doesn't mean it was attached to the right chapter number. Seven new `src/_data/topics.md` entries added: Bankcard, Board of Works, Telecom (Sir Robert Menzies, Canberra, Myer already existed and were reused verbatim). Retro-tagged two earlier files that mentioned Telecom/Bob Hawke/Andrew Peacock without the tags: `34-why-not-retrospective-wilkies.md`, `47-dont-hang-up-on-phone-callers.md`.
 
 'How to Educate a Human' and 'We Can Have a Dinkum Aussie Theme Park' transcribed from `IMG_9039`–`IMG_9044`, pages 234–242 (also fixed `src/_includes/snippets/blogsidebar-single.njk` this session to hide the 'Related topics' heading entirely on pages with no tags, rather than showing an empty list). Six new `src/_data/topics.md` entries added: Christopher Skase, John Elliott, Dennis Lillee, Multi Function Polis (Bob Hawke, RACV, Hotel Australia, Southern Cross Hotel, Alan Bond, Fosters Lager, Melbourne Cricket Ground, Collingwood, Qantas, Toorak already existed and were reused verbatim — note the CLAUDE.md-flagged 'Fosters Lager' vs 'Foster's Lager' spelling trap was hit and avoided here by checking topics.md first). Not yet added as topics despite being named: Herscu, Estate Mortgage Trust, Norm Gallagher, Flo Bjelke-Petersen, Wilson Tuckey, Donald Friend, Aristotle Onassis — left for a future pass if this book keeps returning to them.
+
+**Book completed 15 Aug 2026.** 'Printophobia - There's No Known Cure' (finishing Chapter 12) transcribed from the last 3 scans of the original batch (`IMG_9046`–`IMG_9048`, pages 242–245); those 3 images plus the 59 already-used ones were then deleted from `scans/` at the user's request (confirmed via AskUserQuestion to keep only the unused ones — moot now since all are used). The user then added a fresh batch of 31 scans (`IMG_9059`–`IMG_9089`) covering the entire rest of the book, Chapters 13 and 14, transcribed the same session. This confirmed both of the two titles left over from the original Chapter-11-era guess list — 'We Can Have a Dinkum Aussie Theme Park' and 'Printophobia' (Ch.12), plus the full Ch.13 guess list (Sugar Addiction/Carnivores/Coffeeholic/Happy Bowel/Cholesterol/Caulie) and Ch.14 guess list (Yuletide All Over/Turkey Plot/Why Did Christ...) — were all correct in title, just originally misfiled under the wrong chapter numbers by the very first (pre-rescan) session. Net effect: essentially nothing from the original guessed column-title list was fabricated; it was consistently off by chapter placement rather than content, except for files `44`–`47` which remain a confirmed misplacement with no way to re-verify (see warning above).
+
+19 more `src/_data/topics.md` entries added across the Ch.13–14 home stretch: Dick Smith, Princess Diana, Ronald Reagan, Phar Lap, Vivien Leigh, Sammy Davis Jr, Arvi Parbo, Julius Sumner Miller, Wolf Blass, Franco Cozzo, Leo Schofield, David Livingstone (Voltaire, Percy Cerutty already existed and were reused verbatim). Two small page gaps (p.269–270 and p.275) were noted transparently rather than bridged with invented dialogue — flagged above and worth a rescan if perfect fidelity matters.
+
+**Next for this book:** nothing outstanding except the long-flagged files `44`–`47` chapter-placement question, which would need new scans of the physical Chapter 8/9 boundary to resolve.
 
 ---
 

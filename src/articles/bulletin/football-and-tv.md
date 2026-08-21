@@ -44,4 +44,4 @@ No doubt the Consolidated Zinc Company is showing a dignified respect for the ti
 
 <hr>
 
-*Source: [Around Melbourne FOOTBALL AND TV](https://nla.gov.au/nla.obj-701132288), The Bulletin, 1962-03-17. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne FOOTBALL AND TV, The Bulletin, 1962-03-17. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-701132288).*

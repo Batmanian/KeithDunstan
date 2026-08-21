@@ -36,4 +36,4 @@ For a retired stockbroker he was at least 20 floors on the way to heaven.
 
 <hr>
 
-*Source: [Around Melbourne THOSE LUCKY OYO MEN](https://nla.gov.au/nla.obj-701239865), The Bulletin, 1963-04-06. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne THOSE LUCKY OYO MEN, The Bulletin, 1963-04-06. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-701239865).*

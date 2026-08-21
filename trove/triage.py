@@ -90,16 +90,25 @@ def get_files():
         source = REJECTED_DIR
     else:
         source = STUBS_DIR
-    files = sorted(f for f in os.listdir(source) if f.endswith(".md"))
+    files = []
+    for root, dirs, filenames in os.walk(source):
+        if source == STUBS_DIR:
+            dirs[:] = [directory for directory in dirs if directory != "Scans"]
+        files.extend(
+            os.path.relpath(os.path.join(root, filename), source)
+            for filename in filenames
+            if filename.endswith(".md")
+        )
+    files.sort()
     return files, source
 
 
 def move_file(filename, source_dir, dest_dir):
     src  = os.path.join(source_dir, filename)
-    dest = os.path.join(dest_dir, filename)
+    dest = os.path.join(dest_dir, os.path.basename(filename))
     if os.path.exists(dest):
         # Avoid overwriting — append _dup suffix
-        base, ext = os.path.splitext(filename)
+        base, ext = os.path.splitext(os.path.basename(filename))
         dest = os.path.join(dest_dir, f"{base}_dup{ext}")
     shutil.move(src, dest)
 

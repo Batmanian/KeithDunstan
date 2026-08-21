@@ -41,4 +41,4 @@ A great deal has been written and much soul-searching is taking place over this.
 
 <hr>
 
-*Source: [Around The Tour ALL THE QUEEN'S MEN](https://nla.gov.au/nla.obj-701202505), The Bulletin, 1963-03-09. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around The Tour ALL THE QUEEN'S MEN, The Bulletin, 1963-03-09. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-701202505).*

@@ -54,4 +54,4 @@ And as I walked away down Toorak Road I heard someone say: "Now at last I have r
 
 <hr>
 
-*Source: [Around Melbourne IN THE DEPTHS OF SE 2](https://nla.gov.au/nla.obj-701217213), The Bulletin, 1963-03-16. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne IN THE DEPTHS OF SE 2, The Bulletin, 1963-03-16. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-701217213).*

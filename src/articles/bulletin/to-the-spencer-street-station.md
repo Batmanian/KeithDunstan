@@ -58,4 +58,4 @@ No doubt thousands of 18-year-olds now will be thanking the Government.
 
 <hr>
 
-*Source: [Around Melbourne TO THE SPENCER STREET STATION](https://nla.gov.au/nla.obj-688554898), The Bulletin, 1962-04-21. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne TO THE SPENCER STREET STATION, The Bulletin, 1962-04-21. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-688554898).*

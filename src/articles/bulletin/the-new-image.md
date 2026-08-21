@@ -46,4 +46,4 @@ Of course there will be boating on the Yarra, the big street procession with a p
 
 <hr>
 
-*Source: [Melbourne Letter THE NEW IMAGE](https://nla.gov.au/nla.obj-701120871), The Bulletin, 1962-03-03. Retrieved via the National Library of Australia's Trove database.*
+*Source: Melbourne Letter THE NEW IMAGE, The Bulletin, 1962-03-03. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-701120871).*

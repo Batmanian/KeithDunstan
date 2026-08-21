@@ -68,4 +68,4 @@ It will be tragic missing out on that sort of thing right up to next April.
 
 <hr>
 
-*Source: [Around Melbourne AMONG MY SOUVENIRS](https://nla.gov.au/nla.obj-689019119), The Bulletin, 1962-10-06. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne AMONG MY SOUVENIRS, The Bulletin, 1962-10-06. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-689019119).*

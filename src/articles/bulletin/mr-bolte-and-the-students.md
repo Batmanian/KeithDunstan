@@ -55,4 +55,4 @@ It was nearly 10 a.m., lectures were starting, so I said, "Good-bye." As I depar
 
 <hr>
 
-*Source: [Around Melbourne MR BOLTE AND THE STUDENTS](https://nla.gov.au/nla.obj-689050849), The Bulletin, 1962-10-27. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne MR BOLTE AND THE STUDENTS, The Bulletin, 1962-10-27. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-689050849).*

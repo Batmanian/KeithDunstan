@@ -1,0 +1,121 @@
+---
+title: The Humble Uniform
+date: 1995-01-01
+summary: Traces blue denim from Levi Strauss's 1873 rivet patent with tailor Jacob Davis through Hollywood's James Dean, Marlon Brando and Elvis Presley to the protest fashion of the Vietnam-era counterculture, opening Keith Dunstan's history of Just Jeans with the story of jeans before the company itself existed.
+tags:
+  - John Bratby
+  - Calvin Klein
+  - Levi Strauss
+  - Jacob Davis
+  - Walter Haas Snr
+  - Whitcomb Judson
+  - Gideon Sundback
+  - Adolf von Baeyer
+  - Annie Oakley
+  - Yves Saint Laurent
+  - James Dean
+  - The Wild One
+  - Rebel Without a Cause
+  - Marilyn Monroe
+  - Clash by Night
+  - Elvis Presley
+  - Love Me Tender
+  - Clark Gable
+  - The Misfits
+  - Leslie Halliwell
+  - Marshall McLuhan
+  - John F. Kennedy
+  - Robert F. Kennedy
+  - Martin Luther King Jr.
+  - Bill Boyd
+  - Hopalong Cassidy
+  - New York Times
+  - Albert Sefrankel
+---
+
+<!-- Page 1, the opening of this chapter, is missing from the supplied scans. The text below picks up mid-chapter on page 2. -->
+
+The United States of America and almost the entire Western world did the same thing, except there were no decrees, no thundering commands from dictators, and the fabric was different, infinitely more versatile. The denim boom arrived in the 1960s, just when the young were developing new ideas, breaking free from the shackles of the war generations, from those who had taken them into the battles of the Second World War, Korea and Vietnam.
+
+They were the generations that had laid down laws on religion, laws on marriage, laws on gambling, laws on abortion, laws on homosexuality. They were the generations that believed a gentleman always wore a three-piece suit, a collar, a tie and a hat. As for a lady, she would never leave the house without hat and gloves. Furthermore, no respectable hotel, club, or office would receive a female dressed in trousers.
+
+At first denim was the garb for the flower people of San Francisco, the young and the defiant, but then it swept the United States and swept the world. Denim was the most versatile fabric ever devised. It was tough, it was cheap, and in the form of Levi jeans just wonderful to wear. It was good for males, good for females, and when stretched tight across a young behind, just lovely to behold.
+
+At first it was a symbol of protest — 'I am young. I am out of a job. I am squatting in a house on 86th Street and blue denim is all I can afford.' — but late in the sixties fashion decreed that there should be a 'poverty' look. It wasn't done to flaunt your wealth. What's more, the wealthy were developing new fears about being mugged and robbed.
+
+> A real art student wears coloured socks, has a fringe and a beard, wears dirty jeans and an equally dirty seaman's pullover, carries a sketch-book, is despised by the rest of society and lives in a coffee bar.
+>
+> — John Bratby
+
+> Jeans are SEX.
+>
+> — Calvin Klein
+
+<!-- The opening of this sentence is cut off in the supplied scan. -->
+...to break tradition, even in denim. Not until 1960 did Levi Strauss & Co officially drop the term 'overalls' and use the word 'jeans'.
+
+> Blue jeans are like fingerprints, every pair is unique.
+>
+> — Anon.
+
+In the early days the trousers had no yoke and just one back pocket, but in 1872 Levi Strauss received a letter from Jacob Davis. He was a tailor and leather worker in Carson City, Nevada, and he had invented a process for using metal rivets to reinforce overalls at the stress points. So Levi Strauss went into collaboration with Jacob Davis, and they patented the rivet process in 1873. All this was the origin of the Levi Strauss 501, the most famous brand of jeans.
+
+The rivets became standard. There is a famous story to explain the disappearance of the crotch rivet, which was located at the base of the button fly. Levi Strauss & Co received a number of complaints from men who had stood too close to camp ovens and fires. But it wasn't until 1941 that anyone took the complaints seriously. Walter Haas Snr, a descendant of Levi Strauss, and company chairman, was wearing his jeans on a camping trip. He crouched too close to a camp fire and a burning hot crotch rivet sent him an extremely intimate message. So 1941 was the last year a crotch rivet ever appeared on a pair of Levis.
+
+From 1874 the splendid Levi evolved: it became a tradition, like the Colt .45 or the nine-gallon hat. It had the five pockets, the six rivets, the contrast stitching, the standard belt loops — and, of course, the denim shrank. One always had to think seriously about what size to buy, as those jeans would shrink on to one's manly form.
+
+Colour? Old Levi used indigo dye, the most famous of all dyes, from the leaves of the indigo plant, *Indigofera tinctoria*, grown in India and China. Its use dates back more than 4000 years. At times it was associated with witchcraft, which might explain the mysterious spell that jeans cast over the world. But the beauty of indigo was that it was a living dye, it faded naturally with wear, its colour paled with the sun and the beat of a good rub in the wash. So denim picked up a certain dignity with age and helped match the personality of the wearer. In 1878 a German chemist, Adolf von Baeyer, invented a synthetic indigo, so ingenious it had all the characteristics of the natural dye. This ruined a very good domestic trade in China and India, but it guaranteed a supply for the denim makers.
+
+The next step was to add the leather patch on the back, just at the top of the behind — the result of a famous publicity stunt: two horses harnessed to opposite legs of a pair of Levis, heaving in opposite directions, unable to tear them apart. From 1886 the leather patch became a tradition copied by all makers of jeans. You couldn't buy a pair of jeans unless it had a distinctive patch on the behind. Perhaps you could put down 1878 as the year when discretion first disappeared. Until then manufacturers always hid their trademark inside the garment. The cunning Levi demonstrated how he could make his wearer an advertising tool, a personal billboard.
+
+Who bought the denim pantaloons or waist-high overalls? It was always the miners or people who had to work hard. From the beginning they were popular with men who rode on horseback. Cowboys in the West liked them particularly. So if you see an old film with John Wayne, clad in his blue jeans, shooting it out in the main street, riding down some unfortunate Indians, be patient. The wardrobe department is absolutely correct. Jeans were available right back to the 1860s.
+
+Originally the button-up fly was the thing. Indeed there are still purists, deep believers in tradition and reliability, who will not wear anything else. The zip fastener, a hook and eye system, was invented by an American, Whitcomb Judson, in 1893, but then it was not a good enough idea to sweep the world. It was a Swede, Gideon Sundback, who refined and perfected the zip. In 1913 he designed a system of tiny metallic teeth which could mesh together through a movable clasp. The zip fastener first appeared on jeans in 1927. It did not catch on with unalloyed enthusiasm. Not at first. There was a certain feeling of terror as to what could happen to an important piece of one's anatomy.
+
+> Old jeans don't die, they just fade away.
+>
+> — Anon.
+
+But the idea spread. By 1929 zips were being used in jackets. In 1949 there were 'Lady Wranglers'. They had a zip straight down the front. They didn't sell. This was just a little too bold for polite young ladies, so the zip was shifted to the side. Ladies with zips down the front did not learn how to be bold until the 1960s.
+
+<!-- Page 6 is missing from the supplied scans. The text below picks up on page 7. -->
+
+The process that turned jeans into a fashion item was long and slow. They were popular in the 1930s because they were cheap. This was the time of the great depression, when denim was the garment for the working man and the poor. Perhaps the first breakthrough came late in that decade. There was a new rage for dude ranches, in the Western States, Nevada in particular. Reno in Nevada was the home of the 'quickie' divorce. If one established two months' residence there it was possible to shed a husband and find another. So while passing the time there was the dude ranch. A would-be divorcee could learn how to ride a horse and be an Annie Oakley. It was the new 'escape' for the rich female New Yorker, and in 1938 Levi Strauss & Co introduced Lady Levis, beautifully made out of lightweight denim.
+
+But the real boost came with the Second World War. A denim shortage came with the war; it had to be rationed. Denim was one essential item and denim overalls had to go to those who were doing war work, men and women in factories. Denim became a symbol for a worker, a person who was doing something important in the war effort. One didn't have to dress up any more, denim was the garment for a toiler who was doing something real. The idea spread to colleges and universities. Denim was OK. Come 1942, there were American troops in Britain, and after the Normandy invasion their domain was all Europe. The GIs had denim fatigues, so the great denim virus started to work its way everywhere.
+
+Then there were the American troops who stayed on in Europe after the war. They wore jeans. Legend has it Albert Sefrankel in Frankfurt did a trade with an American GI. He swapped six bottles of spirits for six pairs of jeans of various sizes. In 1949 he went into jeans manufacture and started a huge business.
+
+By 1945 denim and jeans were synonymous with labour, hard work, gear perfectly correct for those who had to sweat for a living. For true glory denim needed something more. Fortunately there was Hollywood. Bill Boyd in 1950 was Hopalong Cassidy. Hopalong Cassidy dated back to the 1930s. He was an immaculate champion of good over evil. He wore black boots with white trim at the top, a lovely black belt with silver buckles from which Colt .45s hung on either hip. He contrasted all this with black denim jeans and black shirt. Indeed Hoppy and Western bravery became a challenge to indigo, because he spread the popularity of black and there were even jeans available called 'Hoppys'.
+
+> Jeans are expressive and discreet; they have sex appeal and simplicity — everything I could want for the clothes I design.
+>
+> — Yves Saint Laurent
+
+But in 1952 we had Marilyn Monroe in *Clash by Night*, a tale of jealousy in a northern fishing village, with Paul Douglas, Robert Ryan and Keith Andes. Marilyn's smouldering jealousy came to a head at the beach where she wore her jeans without a belt, and most obviously her zip was straight down her...ah...front. There was a sensational scene on the beach with Keith Andes when she unzipped her top to reveal her two-piece bathing togs.
+
+Even better, in 1954 there was *The Wild One*. Marlon Brando was slim, young, superbly brooding and monosyllabic. *The Wild One* was the story of hoodlum motorcyclists who took over a small town. Mr Brando wore a peaked cap, leather jacket, elegantly fading jeans and boots with the tops turned down. Of course, he rode a motor bike. The *New York Times* didn't think much of the plot, because good did not triumph over evil, but the jeans were a great success.
+
+James Dean was almost always in jeans. In 1955 he was in *Rebel Without a Cause*, the story of a good-looking son from a nice family who gets into trouble with other kids and the police. The message was that juvenile delinquents aren't necessarily born in the slums. James looked wonderful in jeans, and you can take it for granted he was wearing jeans when he killed himself driving a Porsche just out of Los Angeles at the age of 24. Dean wore a white T-shirt, which made a manly contrast to the jeans below. If it was cool he would add a denim or leather jacket. As a martyr he was a symbol of what was to become the bejeaned rebel generation.
+
+Elvis Presley discovered jeans in 1956. They had an advantage in that there were no bulky pockets on the side, just perfect for snaky wiggling hips. His debut was in a strange vintage Western called *Love Me Tender*. He appeared with Debra Paget. He sang four songs before he was shot dead: regrettable at the time, but fortunately he emerged as a sort of a ghost before the final reel. It is difficult to remember whether the ghost was wearing jeans.
+
+In 1961 we had Clark Gable and Marilyn Monroe in *The Misfits*. Halliwell's, the film Bible, describes it as 'an unattractive, pretentious film which seldom stops wallowing in self pity'. However Mr Halliwell completely overlooks the essential point. She wore jeans like nobody had ever worn them before. In this film the denim was taut right across her lovely sit-upon and, despite the poor critiques, it was a success with every young male and even a high percentage of females.
+
+> Jeans represent a rip-off and a rage against the establishment.
+>
+> — Marshall McLuhan
+
+Was there a human with blood in their veins who would not want to wear jeans after this?
+
+The sixties was the decade of political turmoil, when the United States reluctantly came of age on the international scene. John F. Kennedy was assassinated in 1963. There was the killing of his brother Robert and of Martin Luther King in 1968. There was the Vietnam war, there was the new era of the flower people in San Francisco.
+
+There were festivals at Woodstock and Monterey and it has been estimated that 90 percent of all young people who attended these so-called 'outrageous' occasions wore blue denim. As rock music pounded the ear drums the sickly smell of marijuana inevitably pervaded the air. Denim was part of the rebellion against the materialism and the work ethic of their parents. This was a protest against fashion, a protest against the shirt and tie, against creased trousers, against lace-up shoes. Sales of suits were never the same again. It was in the 1960s that the great decline began.
+
+In the 1970s there was a further change. If one worked in a trendy area, say, in advertising, in architecture, in a fashion house, it was OK to forget the suit and wear jeans. Denim was shifting from the working classes and from those involved merely in protest and rebellion.
+
+Jeans became standard dress in California. Indeed there was a saying: for evening wear, if one wanted to go formal, one wore socks. But for the trendies the old-time classic Levi 501 was not quite enough. There had to be new shapes, flares, bell bottoms, exotic panels, fancy stitching and, shock, horror, colours that were not indigo blue.
+
+The first jeans shops, shops that dealt exclusively in jeans, came to the West Coast. The revolution was now finally complete.
+<hr>
+Continue to Part Two: <a href="{{ '/books/just-jeans-the-story/2-the-beginning-of-a-fad/' | url }}">The Beginning of a Fad</a>

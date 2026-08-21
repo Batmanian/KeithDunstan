@@ -1,0 +1,349 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yuletide All Over</title>
+<meta name="title" content="Yuletide All Over">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Melburnians not born in Australia are asked to remember Christmas back home, gathering Julius Sumner Miller on a hand-to-mouth farm shared by Lithuanian and Latvian parents, Sir Arvi Parbo on a minus-30-degree Estonian Christmas Eve, Wolf Blass on Stadtlum in East Germany, and Franco Cozzo on a Sicilian family Christmas of pasta, lasagne and church.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/no-brains-on-tuesday/74-yuletide-all-over/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Yuletide All Over">
+<meta property="og:description" content="Melburnians not born in Australia are asked to remember Christmas back home, gathering Julius Sumner Miller on a hand-to-mouth farm shared by Lithuanian and Latvian parents, Sir Arvi Parbo on a minus-30-degree Estonian Christmas Eve, Wolf Blass on Stadtlum in East Germany, and Franco Cozzo on a Sicilian family Christmas of pasta, lasagne and church.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Yuletide All Over">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/no-brains-on-tuesday/74-yuletide-all-over/">
+<meta name="twitter:title" content="Yuletide All Over">
+<meta name="twitter:description" content="Melburnians not born in Australia are asked to remember Christmas back home, gathering Julius Sumner Miller on a hand-to-mouth farm shared by Lithuanian and Latvian parents, Sir Arvi Parbo on a minus-30-degree Estonian Christmas Eve, Wolf Blass on Stadtlum in East Germany, and Franco Cozzo on a Sicilian family Christmas of pasta, lasagne and church.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Yuletide All Over">
+<link rel="canonical" href="https://keithdunstan.org/books/no-brains-on-tuesday/74-yuletide-all-over/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1991-01-01">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="No Brains On Tuesday">
+<meta property="article:tag" content="Julius Sumner Miller">
+<meta property="article:tag" content="Arvi Parbo">
+<meta property="article:tag" content="Wolf Blass">
+<meta property="article:tag" content="Franco Cozzo">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">Yuletide All Over</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            6
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1991-01-01">1991</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Melburnians not born in Australia are asked to remember Christmas back home, gathering Julius Sumner Miller on a hand-to-mouth farm shared by Lithuanian and Latvian parents, Sir Arvi Parbo on a minus-30-degree Estonian Christmas Eve, Wolf Blass on Stadtlum in East Germany, and Franco Cozzo on a Sicilian family Christmas of pasta, lasagne and church.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="No Brains On Tuesday">
+         <!--<a href="/tags/julius-sumner-miller/" class="btn btn-outline-dark btn-sm me-2">Julius Sumner Miller</a><a href="/tags/arvi-parbo/" class="btn btn-outline-dark btn-sm me-2">Arvi Parbo</a><a href="/tags/wolf-blass/" class="btn btn-outline-dark btn-sm me-2">Wolf Blass</a><a href="/tags/franco-cozzo/" class="btn btn-outline-dark btn-sm me-2">Franco Cozzo</a>-->
+
+        
+      </header>
+      <p>Our first contact was Professor Julius Sumner Miller, you know the wonderful scientist who does the Cadbury ads on television? He wasn't easy to find. We called him in California.</p>
+<p>'Christmas for us,' he said, 'was very simple. My mother came from Lithuania and my father from Latvia. We lived on a small farm and made a hand to mouth living.</p>
+<p>'At Christmas we would cut a tree in the wood and decorate it with rings of paper, stuck together with flour and water paste. And we made stars out of coloured paper to put on the top.</p>
+<p>'My best present? One year my father made me a sled, the blacksmith made the rails. Before that we used to sled down the snow on our bellies using a barrel stave. If you were a bit broad in the behind you had to use two staves.'</p>
+<p>The Professor wasn't too pleased with the modern Christmas. 'Pitiful! Shameful!' he said. 'There's a helluva lot of lack of spirit in it.'</p>
+<p>Sir Arvi Parbo, chairman and managing director of Western Mining, chairman of Alcoa, thought back to Christmas in Estonia: 'It was always very cold sometimes even minus 30 centigrade. It was dark until 10.30 a.m. then dark by three in the afternoon.</p>
+<p>'We always had a Christmas tree, a real one cut a few days before. We would have straw on the wooden floor where we would sit and the big ceremony would start about 6 p.m.</p>
+<p>'We would sing Christmas songs and we had a Father Christmas. Father would be the best candidate for that job, but when we were seven or more and a bit cynical, sometimes a neighbour would take it on to trick us.</p>
+<p>'Each child would be called forward one by one. And this was quite a business, it took hours. You always had to recite something for Father Christmas, a few verses. And he would talk, ask you whether you had been a good boy.</p>
+<p>'Christmas was all for the children. Late in the evening the adults would sit down to dinner. The children would be too excited. Dinner would be pork, lots of pork, heavy fatty food in that cold climate, lots of potatoes and sauerkraut, Christmas cake. We drank lemonade the adults, vodka, brandy and ale, nearly always brewed at home.</p>
+<p>'A lovely time. You know, you make me feel very nostalgic.'</p>
+<p>Joe Galani, the Saba furniture man went back over 24 years to Lebanon: 'Our Christmas had more atmosphere. We were in Beirut, there was snow; pine trees and reindeer were real to us.</p>
+<p>'Christmas was family, very big family thing. We didn't receive toys, we received money. And clothes. On Christmas morn we got our new clothes, new shoes, new socks, new shorts, shirt, the whole outfit. Then it was the tradition to go round and call on all members of our family, uncle, aunty, knock, knock.</p>
+<p>'They would give us a couple of dollar. But Christmas wasn't just on the 25th. It go for four days to a week, 24 hours a day. You call, and always dinner would be on, celebration. Food? Lamb. Lamb, we are very big on lamb. Traditional Lebanese food, lots of nibble this and that, arak, whisky, lot of family.'</p>
+<p>Wolf Blass, the famous Barossa wine maker, went back to the town of Stadtlim in East Germany: 'The biggest shock I ever had was when I first went to England in 1957. Christmas was just one helluva party. In Germany it was a serious family affair.</p>
+<p>'We started looking forward to Christmas on St Nicholas Day, around November 7. Then you were warned - if you were a good boy he'd bring you some goodies, if you were bad you'd get a smack on the bottom.</p>
+<p>'On Christmas Day we had to get out of the house while preparations were being made. They put real candles on the Christmas tree. Dangerous business. Always there had to be a bucket of water handy in case the place got alight. Every family got together. I mean the whole town was dead quiet, absolutely dead after seven, no taxi, no transport, nobody walking around.</p>
+<p>'We would put on very best clothes and before we got our presents we had to sing. Christmas songs. Christmas dinner would be pork, lots of potatoes, red cabbage. In Germany at Christmas it is always a goose.</p>
+<p>'Presents. Girls, lots of dollies, cubby houses. Every German boy, always an electric train and he doesn't get a chance to play with it because Dad always does.'</p>
+<p>And Wolf thought back. He never really got a good go at that electric train.</p>
+<p>Eric Jensen, Danish consul in Melbourne: 'In Denmark it is not just celebrated on the one day. There is the tradition for the children leading up to Christmas. There is a window for each day, so you open up a new little picture every morning until Christmas. The excitement builds.</p>
+<p>'And in the European style everything happens on Christmas Eve. As you know the Danes are pretty good at eating. Very big dinner. First there is a rice dish with an almond in it. The person who gets the almond gets a special prize.</p>
+<p>'The main dish is goose or duck and after the eating is all over it is time to go to the tree. Of course, the children almost die with frustration wanting to get the dinner over. They have to walk round the tree, sing songs and so the presents are opened.</p>
+<p>'Next morning you go to church and it is a very quiet day.'</p>
+<p>Franco Cozzo, the Footscray furniture importer, thought back to Christmas in Sicily: 'Very, very special family time, when all the family get together.</p>
+<p>'My mother have a special pasta, special lasagne, special dry ham, smoked, bravo. Church in the morning. Twelve to one we open the presents Christmas tree with big illumination.</p>
+<p>'Everybody talk to each other, everybody kiss each other. You upset with somebody, you enemy with somebody, this is the time to be friendly again.</p>
+<p>'Presents? Sometimes I get little cars, things like that. But usually clothes, new shoes. Girls get new dresses.'</p>
+<p>Then we spoke to Gupta Surinder, tourist promotion manager in the India Tourist Office. He told us he was a Hindu and his family didn't celebrate Christmas, but you wouldn't believe how many did. Eight to 10 per cent of the population were Christian and after all, St Thomas, the apostle, died on the coast of Goa.</p>
+<p>In Delhi they conducted Christmas in the traditional British style with turkey, bread sauce, potatoes, followed by plum pudding.</p>
+<p>'Dinner all the family get together, parents, grandparents, sister, mother, father. It a great day.'</p>
+<p>And that's what we will be doing. And I don't care if the temperature hits 50 degrees celsius.</p>
+<hr>
+Continue to the next column: <a href="/books/no-brains-on-tuesday/75-defy-the-turkey-plot/">Defy the Turkey Plot</a>
+
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        Melburnians not born in Australia are asked to remember Christmas back home, gathering Julius Sumner Miller on a hand-to-mouth farm shared by Lithuanian and Latvian parents, Sir Arvi Parbo on a minus-30-degree Estonian Christmas Eve, Wolf Blass on Stadtlum in East Germany, and Franco Cozzo on a Sicilian family Christmas of pasta, lasagne and church.
+      </p>
+
+<hr>
+<h4 class="h6">Related topics</h4>
+<p class="small text-muted mb-3">
+    
+    <a href="/topic/julius-sumner-miller/" class="link-secondary">Julius Sumner Miller</a>,
+    
+    <a href="/topic/arvi-parbo/" class="link-secondary">Arvi Parbo</a>,
+    
+    <a href="/topic/wolf-blass/" class="link-secondary">Wolf Blass</a>,
+    
+    <a href="/topic/franco-cozzo/" class="link-secondary">Franco Cozzo</a>
+</p>
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/julius-sumner-miller/" class="link-secondary">Julius Sumner Miller</a>,
+    
+    <a href="/topic/arvi-parbo/" class="link-secondary">Arvi Parbo</a>,
+    
+    <a href="/topic/wolf-blass/" class="link-secondary">Wolf Blass</a>,
+    
+    <a href="/topic/franco-cozzo/" class="link-secondary">Franco Cozzo</a>
+</p>
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

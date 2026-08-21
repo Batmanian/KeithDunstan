@@ -36,4 +36,4 @@ And finally there were fair dinkum, bog oak shillelaghs all imported from Irelan
 
 <hr>
 
-*Source: [Around Melbourne HEAVENS! CHANGES AT GEORGES?](https://nla.gov.au/nla.obj-689487557), The Bulletin, 1962-10-20. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne HEAVENS! CHANGES AT GEORGES?, The Bulletin, 1962-10-20. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-689487557).*

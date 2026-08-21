@@ -82,4 +82,4 @@ YOU will be sorry to hear that the good name of Victorian League football is bei
 
 <hr>
 
-*Source: [Around Melbourne A VISCOUNT, A VISCOUNT, A VISCOUNT . . .](https://nla.gov.au/nla.obj-688649251), The Bulletin, 1962-05-26. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne A VISCOUNT, A VISCOUNT, A VISCOUNT . . ., The Bulletin, 1962-05-26. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-688649251).*

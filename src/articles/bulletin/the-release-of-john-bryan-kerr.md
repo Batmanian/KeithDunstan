@@ -56,4 +56,4 @@ The arguments still continue as to whether he is innocent or guilty and there ar
 
 <hr>
 
-*Source: [Around Melbourne THE RELEASE OF JOHN BRYAN KERR](https://nla.gov.au/nla.obj-688616854), The Bulletin, 1962-05-12. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne THE RELEASE OF JOHN BRYAN KERR, The Bulletin, 1962-05-12. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-688616854).*

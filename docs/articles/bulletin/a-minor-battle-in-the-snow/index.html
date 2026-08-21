@@ -1,0 +1,335 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A Minor Battle in the Snow</title>
+<meta name="title" content="A Minor Battle in the Snow">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Traces the escalating advertising war between Volkswagen and BMC over whose small car could rightfully claim to have conquered the Antarctic, a dispute complicated by a Melbourne Herald Book Club biography of Sir Hubert Wilkins and the discovery that Shackleton had beaten them both to it in 1906, before closing on a lavish Hickok cuff-link launch that inexplicably got no press coverage at all.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/articles/bulletin/a-minor-battle-in-the-snow/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="A Minor Battle in the Snow">
+<meta property="og:description" content="Traces the escalating advertising war between Volkswagen and BMC over whose small car could rightfully claim to have conquered the Antarctic, a dispute complicated by a Melbourne Herald Book Club biography of Sir Hubert Wilkins and the discovery that Shackleton had beaten them both to it in 1906, before closing on a lavish Hickok cuff-link launch that inexplicably got no press coverage at all.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="A Minor Battle in the Snow">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/articles/bulletin/a-minor-battle-in-the-snow/">
+<meta name="twitter:title" content="A Minor Battle in the Snow">
+<meta name="twitter:description" content="Traces the escalating advertising war between Volkswagen and BMC over whose small car could rightfully claim to have conquered the Antarctic, a dispute complicated by a Melbourne Herald Book Club biography of Sir Hubert Wilkins and the discovery that Shackleton had beaten them both to it in 1906, before closing on a lavish Hickok cuff-link launch that inexplicably got no press coverage at all.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="A Minor Battle in the Snow">
+<link rel="canonical" href="https://keithdunstan.org/articles/bulletin/a-minor-battle-in-the-snow/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1963-08-24">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="The Bulletin">
+<meta property="article:tag" content="Volkswagen">
+<meta property="article:tag" content="Sir Hubert Wilkins">
+<meta property="article:tag" content="Ernest Shackleton">
+<meta property="article:tag" content="Southern Cross Hotel">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">A Minor Battle in the Snow</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            6
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1963-08-24">24 Aug 1963</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Traces the escalating advertising war between Volkswagen and BMC over whose small car could rightfully claim to have conquered the Antarctic, a dispute complicated by a Melbourne Herald Book Club biography of Sir Hubert Wilkins and the discovery that Shackleton had beaten them both to it in 1906, before closing on a lavish Hickok cuff-link launch that inexplicably got no press coverage at all.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="The Bulletin">
+         <!--<a href="/tags/volkswagen/" class="btn btn-outline-dark btn-sm me-2">Volkswagen</a><a href="/tags/sir-hubert-wilkins/" class="btn btn-outline-dark btn-sm me-2">Sir Hubert Wilkins</a><a href="/tags/ernest-shackleton/" class="btn btn-outline-dark btn-sm me-2">Ernest Shackleton</a><a href="/tags/southern-cross-hotel/" class="btn btn-outline-dark btn-sm me-2">Southern Cross Hotel</a>-->
+
+        
+      </header>
+      <p>The drivers of Mini Minors have a deep fraternity. A minimaniac, aged fiftyish, tells me that on a recent trip to Sydney he exchanged toots with every other minimaniac along the entire route. Indeed, he even exchanged toots with an elderly female minimaniac who must have been 80 if she was a minute. However, on meeting Volkswagens the thing to do was to glare and maintain a hostile silence.</p>
+<p>The Volkswagen factory is on the Princes Highway at Clayton. Employees who own Volkswagens are instructed to park their cars hard against the fence where the public can see them. Those who do not own VW have to park them well to the rear, out of the public gaze. As for Mini Minors, no VW employee has been game to buy one. Sins like that are worthy of a public hanging.</p>
+<p>Right now the Volkswagen-Mini Minor war is as deadly serious as Australian Rules. You must understand that a Melburnian can make no more solemn statement than that.</p>
+<p>This year Volkswagen launched the greatest coup in advertising since Laurie Whitehead won the Redex. Ray McMahon, now the officer in charge at Mawson, had the idea that a car of the VW type would be useful on the hard, frozen snow down there. So the idea was put to Dr P. G. Law of the Antarctic Division, then to VW. Of course the advertisers, PR division and everybody were cockahoop about it. And so the red VW, &quot;picked at random from the stock at Clayton,&quot; arrived at Mawson on February 2.</p>
+<p>The big advertising campaign, with a spread in &quot;Women's Weekly,&quot; &quot;Time,&quot; and all the dailies got under way in June. There was the red bug photographed on the great ice plateau. &quot;The first sedan car in Antarctica . . . could any other car handle the slush, icy winds, Antarctic ice?&quot; &quot;I am more than pleased with its performance&quot;, cabled Ray McMahon.</p>
+<p>According to the VW people there was a fantastic reaction. There were 80 written requests for more information. Schools wanted material for projects. There were letters from overseas, and the strange people who collect car numberplates wrote for copies of the much-photographed ANTARCTICA 1 numberplate.</p>
+<p>Of course, in the BMC department this was damned hard to take. There was a rumor that BMC was asking the New Zealanders to take a Mini Minor South to counteract it all. But would people ask for an Antarctica 2 number-plate?</p>
+<p>But that wasn't all. Three weeks ago the Melbourne &quot;Herald&quot; Book Club produced a biography on Sir Hubert Wilkins. This revealed that Sir Hubert took a Baby Austin sedan to the Antarctic in 1927, so the VW wasn't the first after all.</p>
+<p>There was a minor commotion in the BMC camp. They tried desperately to get a good picture of that Baby Austin without success. The Baby Austin was no kin to Morris in 1927, but they overcame these problems brilliantly. On August 14 the BMC ad appeared in the &quot;Sun News-Pictorial.&quot; Remember the VW ad which showed the red VW disappearing into the distance leaving two tracks across the frozen snow? Well, BMC produced almost exactly the same picture, two tracks across the snow, but no car. The caption read: &quot;We've been and gone 34 years!&quot;</p>
+<p>Then there was an extract from a Wilkins wireless message dated 27/11/1929. &quot;. . . and driving to work each morning in our little Austin automobile — wondering all the time how the polar explorers of an earlier day spent the long months sledging their way from point to point on meagre rations.&quot; From here the copy moved smoothly on to the fact that Mini Minors were being used by the Snowy Mountains Authority to cut Perisher and Crackenback down to size; and before you knew where you were you almost had the idea that there were Mini Minors down in the Antarctic.</p>
+<p>Then finally, to make things devilish awkward for everybody, the news came out that Shackleton took a motor car to the Antarctic in 1906. A very fine car it was, too; a 12-15 horsepower Arrol-Johnston, fitted with a specially designed, air-cooled four-cylinder engine. It was an open air two-seater tourer, and was used as a regular workhorse for transportation and towing sledges, and came home on the ship when the expedition returned.</p>
+<p>Now we don't know which particular company lays kin to Arrol-Johnston, and we would hesitate now to say whether it was the first car to go to the Antarctic; but can we look forward to some more advertisements?</p>
+<p>In public relations, too, the week has had its moments. Myers introduced us to the Japanese silk delegation, which included Miss Japan. She looked like all the Yum Yums you had ever dreamed about. Along with the invitation came a fair dinkum cocoon. The suggestion was: &quot;Whip yourself up a pair of instant silk pyjamas.&quot;</p>
+<p>Ah, but the real turn came from Hickok, and connoisseurs in the game reported that this was the best PR do in five years. Hickok, as you know, make most of the cuff-links in this country, and the invitation arrived sporting a huge chrome cuff-link. Only one, you see; the invitation made it clear that you had to turn up at the party to get the other.</p>
+<p>The big do turned on for the Press, shirt and retail trade was in the main ball room at the Southern Cross. Cost, according to one PR man, £3 a head. As we went up the stairs clutching our single cuff-link we noticed in a show case that the same cuff-links were going for 85/- a pair, plus matching tie clip.</p>
+<p>Sure enough, as we went in we received our name tag plus our second cuff-link. And what a do! It was a sit-down dinner with beef stroganof, fillet steak, turkey, ham, pork, cray-fish, hot punch, the right wines, everything.</p>
+<p>At the right moment the curtains were thrown back and lo, revealed to us were 500 pairs of cuff-links worth £7000, the Heritage collection rushed to us from the US by air.</p>
+<p>As for the news story, I didn't see a line in any of the newspapers. And that was another little tragedy. You see, they held it on Budget Night.</p>
+<hr>
+<p><em>Source: Around Melbourne A MINOR BATTLE IN THE SNOW, The Bulletin, 1963-08-24. Accessible via the <a href="https://nla.gov.au/nla.obj-702049923">National Library of Australia's Trove database</a>.</em></p>
+
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        Traces the escalating advertising war between Volkswagen and BMC over whose small car could rightfully claim to have conquered the Antarctic, a dispute complicated by a Melbourne Herald Book Club biography of Sir Hubert Wilkins and the discovery that Shackleton had beaten them both to it in 1906, before closing on a lavish Hickok cuff-link launch that inexplicably got no press coverage at all.
+      </p>
+
+<hr>
+<h4 class="h6">Related topics</h4>
+<p class="small text-muted mb-3">
+    
+    <a href="/topic/volkswagen/" class="link-secondary">Volkswagen</a>,
+    
+    <a href="/topic/sir-hubert-wilkins/" class="link-secondary">Sir Hubert Wilkins</a>,
+    
+    <a href="/topic/ernest-shackleton/" class="link-secondary">Ernest Shackleton</a>,
+    
+    <a href="/topic/southern-cross-hotel/" class="link-secondary">Southern Cross Hotel</a>
+</p>
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/volkswagen/" class="link-secondary">Volkswagen</a>,
+    
+    <a href="/topic/sir-hubert-wilkins/" class="link-secondary">Sir Hubert Wilkins</a>,
+    
+    <a href="/topic/ernest-shackleton/" class="link-secondary">Ernest Shackleton</a>,
+    
+    <a href="/topic/southern-cross-hotel/" class="link-secondary">Southern Cross Hotel</a>
+</p>
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

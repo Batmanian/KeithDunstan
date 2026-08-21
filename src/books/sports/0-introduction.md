@@ -3,6 +3,11 @@ title: Introduction
 date: 1973-11-11
 summary: Explains that 'Sports' grew out of a 1969 La Trobe Library exhibition on Victoria's sporting past, and sets out Dunstan's aim to show that sport, not war or politics, is the true key to understanding the Australian character.
 tags:
+  - La Trobe Library
+  - Melbourne
+  - Prince Philip
+  - Harry Searle
+  - Carbine
 ---
 
 Australia is not the only country that is sport crazy. The Canadians have their passion for ice hockey, the Japanese and the Americans adore baseball, the South Americans are frenzied over soccer and the passion in England for the horse runs deep, but few countries have such a complete all-round sport mania as Australia.
@@ -17,4 +22,4 @@ I decided to follow the thoughts of the exhibition a little further. So that the
 
 Sport as an activity has been incredibly under-rated by our historians and in most important works it is barely mentioned. Perhaps I have hardly bruised the surface in this book, but if one wants to understand Australians, I believe it is important to study their age-old mania for games. This mania does not necessarily mean playing them—absurdly most Australians over the age of thirty prefer to stand by and look on.
 <hr>
-Continue to chapter one: <a href="{{ '/books/sports/1-our-sporting-obsession/' | url }}">Our Sporting Obsession</a>
+<p class="lead"><a href="{{ '/sports/' | url }}">Sports contents</a> · Next chapter: <a href="{{ '/books/sports/1-our-sporting-obsession/' | url }}">Our Sporting Obsession</a></p>

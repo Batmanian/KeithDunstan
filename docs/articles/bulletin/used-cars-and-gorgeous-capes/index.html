@@ -1,0 +1,328 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Used Cars and Gorgeous Capes</title>
+<meta name="title" content="Used Cars and Gorgeous Capes">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Surveys Melbourne&#39;s colourful used-car dealer scene, from Kevin Dennis&#39;s face-everywhere self-promotion to the theatrical bidding wars at the north-end car auctions, before tracking the spectacular comeback of Emmanuel Margolin, ruined by the credit squeeze and a Ford Australia falling-out, now rebuilding from Moonee Ponds with a Marie Antoinette gilt suite and a Madrid matador&#39;s cape collection to his name.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/articles/bulletin/used-cars-and-gorgeous-capes/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Used Cars and Gorgeous Capes">
+<meta property="og:description" content="Surveys Melbourne&#39;s colourful used-car dealer scene, from Kevin Dennis&#39;s face-everywhere self-promotion to the theatrical bidding wars at the north-end car auctions, before tracking the spectacular comeback of Emmanuel Margolin, ruined by the credit squeeze and a Ford Australia falling-out, now rebuilding from Moonee Ponds with a Marie Antoinette gilt suite and a Madrid matador&#39;s cape collection to his name.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Used Cars and Gorgeous Capes">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/articles/bulletin/used-cars-and-gorgeous-capes/">
+<meta name="twitter:title" content="Used Cars and Gorgeous Capes">
+<meta name="twitter:description" content="Surveys Melbourne&#39;s colourful used-car dealer scene, from Kevin Dennis&#39;s face-everywhere self-promotion to the theatrical bidding wars at the north-end car auctions, before tracking the spectacular comeback of Emmanuel Margolin, ruined by the credit squeeze and a Ford Australia falling-out, now rebuilding from Moonee Ponds with a Marie Antoinette gilt suite and a Madrid matador&#39;s cape collection to his name.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Used Cars and Gorgeous Capes">
+<link rel="canonical" href="https://keithdunstan.org/articles/bulletin/used-cars-and-gorgeous-capes/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1964-01-18">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="The Bulletin">
+<meta property="article:tag" content="Kevin Dennis">
+<meta property="article:tag" content="Emmanuel Margolin">
+<meta property="article:tag" content="Harold Holt">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">Used Cars and Gorgeous Capes</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            5
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1964-01-18">18 Jan 1964</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Surveys Melbourne&#39;s colourful used-car dealer scene, from Kevin Dennis&#39;s face-everywhere self-promotion to the theatrical bidding wars at the north-end car auctions, before tracking the spectacular comeback of Emmanuel Margolin, ruined by the credit squeeze and a Ford Australia falling-out, now rebuilding from Moonee Ponds with a Marie Antoinette gilt suite and a Madrid matador&#39;s cape collection to his name.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="The Bulletin">
+         <!--<a href="/tags/kevin-dennis/" class="btn btn-outline-dark btn-sm me-2">Kevin Dennis</a><a href="/tags/emmanuel-margolin/" class="btn btn-outline-dark btn-sm me-2">Emmanuel Margolin</a><a href="/tags/harold-holt/" class="btn btn-outline-dark btn-sm me-2">Harold Holt</a>-->
+
+        
+      </header>
+      <p>Melbourne always has been a good used car town. Many of our most fascinating characters are used car men. At the moment our biggest individual dealer is Mr Kevin Dennis. He works on the old &quot;face&quot; principle. That is, the more often your face appears in public then the more the public is likely to love and trust you.</p>
+<p>So there are countless pictures of the round-faced bespectacled Mr Dennis in all the newspapers, singing commercials about his munificence are chanted over the radio, and he personally sells his motor cars on TV.</p>
+<p>Then, of course, there's the Reno-Las Vegas-Astor used car group, which is very big. Frankly, I always like the crisp Reno slogan — divorce your car at Reno.</p>
+<p>Then there's Chadstone Charlie. He's quite a character. He specialises in £50 bombs and legend has it that he divides used car buyers into two categories. The first group comes into the yard and says &quot;Quack.&quot; The second comes in and says: &quot;Quack-Quack.&quot;</p>
+<p>However, if you want to see car dealers <em>en masse</em> then the best thing to do is to visit the motor car auctions up at the north end of the city. Many of the dealers get 50 per cent or more of their stock from the auction. Some days when they are bored they have a little game. They bet on what the next car will fetch. They put down their quids or tenners depending on the pressure of the credit squeeze. One says: &quot;Not bad. I reckon it'll get £550.&quot; &quot;Nah, it's a bomb — £400,&quot; says another, and so it goes.</p>
+<p>Actually all this waffling is just to take you gently by the hand to the news that Emmanuel is back. Emmanuel Margolin was the star of these auctions. He used to wear a hat sporting an ostrich feather and, superbly tailored with the right cuff links, he would parade up and down bidding like crazy. Back in his heyday he had eight used car lots, an annual turnover of nigh on £4 million with a sale of 250 cars a week. Up at the motor registration branch there was a team which did nothing else but handle the registrations of Emmanuel cars. It was he who launched the personality cult and we can remember one day in 1960 when he had 360 pictures of himself on one full page ad. in &quot;The Age.&quot;</p>
+<p>In 1961 he had an urge to get away from this cachet of the used car dealer. So he bought control of Apex Motors, the oldest Ford dealers in Melbourne. This happened at the worst possible time. He got caught up by the credit squeeze, he had 300 used cars on his hands and he had real trouble.</p>
+<p>He had to sell all his property to pay his debts. For example there was the £20,000 auction of his personal effects at 60 Hopetoun Road, Toorak.</p>
+<p>As everything went out the door Emmanuel was as Gallic and as charming as ever. He said beaming happily: &quot;I will return to France and I will have it all back in five years.&quot;</p>
+<p>Well, bless my soul, less than 12 months have passed and Emmanuel is making considerable progress already. He has opened two used car lots — one at Moonee Ponds and has bought Mainon's yard at Whitehorse Road, Balwyn. Here he has gone straight into enemy territory. He is just across the road, virtually bumper to bumper, from Kevin Dennis.</p>
+<p>The lovely house in Hopetoun Road was sold, but now he is renting a splendid place, almost as fine, at 63 St George's Road, virtually within borrowing distance of the Harold Holts. There's a gently ironic twist to this. When Emmanuel moved in to Apex Motors relations were rather awkward with the Ford Company. At a final shareholders' meeting Emmanuel said the whole trouble was that he had tried to turn respectable. This was a big mistake.</p>
+<p>You could make more money by selling one used car than you could by selling four new Fords. Guess who was the previous occupant of 63 St George's Road? — Mr John McIntyre, the former Managing Director of Ford Australia, who has since returned to Canada. But one is told that 63 is now furnished differently. Indeed the furniture is rather better than that at Hopetoun Road. Emmanuel has brought back a load of antiques from Paris; the <em>pièce de résistance</em> is a Louis XIV gilt suite which was once owned by Marie Antoinette.</p>
+<p>Emmanuel's great passion is for bull-fighting. At the Hopetoun Road auction he put on sale his matador gear which cost him £1000. Well, he has a complete new set of banderillas, killing swords, ceremonial capes, fighting capes, killing capes, and you should see the ceremonial cape. This is an exquisite thing.</p>
+<p>It is white satin and gold and it once belonged to a famous Madrid matador. On the back is embroidered a gorgeous weeping madonna and Emmanuel says it took three women six months to do this alone. Then he has a matador's suit, made-to-measure, also in white satin and gold.</p>
+<p>Why has he come back? He says that Australia is the easiest place in the world to make money. In Europe you haven't a chance unless you have at least £300,000 to kick off. So now he has come back to Melbourne with the financial backing of friends in Paris. His dream is to open a great do-it-yourself car lot of, say, four acres. He has seen this done in Paris and in Auckland. For £2 10s., the cost of the advertising, the owners would bring their cars to the lot and actually sell the cars themselves to prospective buyers. Hire Purchase firms would be there to handle the finance, automobile club representatives would be available to check the cars and the dealer would do nothing but accept a commission from each sale.</p>
+<p>As Emmanuel says, the beauty of this is that you could do it on Sundays. &quot;Surely there's no law against a man selling his own car on a Sunday.&quot;</p>
+<hr>
+<p><em>Source: Around Melbourne USED CARS AND GORGEOUS CAPES, The Bulletin, 1964-01-18. Accessible via the <a href="https://nla.gov.au/nla.obj-689143089">National Library of Australia's Trove database</a>.</em></p>
+
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        Surveys Melbourne&#39;s colourful used-car dealer scene, from Kevin Dennis&#39;s face-everywhere self-promotion to the theatrical bidding wars at the north-end car auctions, before tracking the spectacular comeback of Emmanuel Margolin, ruined by the credit squeeze and a Ford Australia falling-out, now rebuilding from Moonee Ponds with a Marie Antoinette gilt suite and a Madrid matador&#39;s cape collection to his name.
+      </p>
+
+<hr>
+<h4 class="h6">Related topics</h4>
+<p class="small text-muted mb-3">
+    
+    <a href="/topic/kevin-dennis/" class="link-secondary">Kevin Dennis</a>,
+    
+    <a href="/topic/emmanuel-margolin/" class="link-secondary">Emmanuel Margolin</a>,
+    
+    <a href="/topic/harold-holt/" class="link-secondary">Harold Holt</a>
+</p>
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/kevin-dennis/" class="link-secondary">Kevin Dennis</a>,
+    
+    <a href="/topic/emmanuel-margolin/" class="link-secondary">Emmanuel Margolin</a>,
+    
+    <a href="/topic/harold-holt/" class="link-secondary">Harold Holt</a>
+</p>
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

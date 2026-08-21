@@ -8,6 +8,10 @@ const books = require("./src/_data/books.json");
 
 module.exports = function(eleventyConfig) {
 
+  // Repository guidance files can live beside image assets, but they are not
+  // site content and may contain Liquid examples that Eleventy cannot render.
+  eleventyConfig.ignores.add("src/assets/images/*.md");
+
   // Powers the {% metagen %} shortcode used in snippets/opengraph.njk to
   // generate Open Graph / Twitter Card / canonical tags for every page.
   eleventyConfig.addPlugin(metagenPlugin);
@@ -139,6 +143,19 @@ module.exports = function(eleventyConfig) {
     return Object.keys(groups)
       .sort((a, b) => a - b)
       .map(decade => ({ decade: Number(decade), articles: groups[decade] }));
+  });
+
+  // Groups a sorted collection into individual years, oldest first.
+  eleventyConfig.addFilter("groupByYear", articles => {
+    const groups = {};
+    (articles || []).forEach(article => {
+      const year = article.date.getFullYear();
+      if (!groups[year]) groups[year] = [];
+      groups[year].push(article);
+    });
+    return Object.keys(groups)
+      .sort((a, b) => a - b)
+      .map(year => ({ year: Number(year), articles: groups[year] }));
   });
 
   eleventyConfig.addCollection("tagList", collection => {

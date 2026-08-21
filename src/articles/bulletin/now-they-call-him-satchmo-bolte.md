@@ -60,4 +60,4 @@ We thought that "Satchmo" Bolte was blowing particularly well.
 
 <hr>
 
-*Source: [Around Melbourne NOW THEY CALL HIM "SATCHMO" BOLTE](https://nla.gov.au/nla.obj-688836913), The Bulletin, 1962-06-30. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne NOW THEY CALL HIM "SATCHMO" BOLTE, The Bulletin, 1962-06-30. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-688836913).*

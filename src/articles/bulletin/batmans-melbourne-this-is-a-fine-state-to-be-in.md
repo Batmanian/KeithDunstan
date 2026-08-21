@@ -69,4 +69,4 @@ BATMAN
 
 <hr>
 
-*Source: [BATMAN'S MELBOURNE: This is a fine state to be in](http://nla.gov.au/nla.obj-699528290), The Bulletin, 18 March 1967. Retrieved via the National Library of Australia's Trove database.*
+*Source: BATMAN'S MELBOURNE: This is a fine state to be in, The Bulletin, 18 March 1967. Accessible via the [National Library of Australia's Trove database](http://nla.gov.au/nla.obj-699528290).*

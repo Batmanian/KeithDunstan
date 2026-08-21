@@ -1,0 +1,342 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Two Million Babies</title>
+<meta name="title" content="Two Million Babies">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Follows the Melbourne City Council&#39;s ballot to crown the city&#39;s two-millionth citizen, Sir Rohan Delacombe drawing baby Loretta Johnston&#39;s name from a barrel of 1300 contenders, alongside Lord Mayor Maurice Nathan&#39;s ceremonial axe-swing on St Kilda Road&#39;s aging silver poplars and a survey of migrants arriving on both sides of Britain&#39;s colour line.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/articles/bulletin/two-million-babies/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Two Million Babies">
+<meta property="og:description" content="Follows the Melbourne City Council&#39;s ballot to crown the city&#39;s two-millionth citizen, Sir Rohan Delacombe drawing baby Loretta Johnston&#39;s name from a barrel of 1300 contenders, alongside Lord Mayor Maurice Nathan&#39;s ceremonial axe-swing on St Kilda Road&#39;s aging silver poplars and a survey of migrants arriving on both sides of Britain&#39;s colour line.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Two Million Babies">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/articles/bulletin/two-million-babies/">
+<meta name="twitter:title" content="Two Million Babies">
+<meta name="twitter:description" content="Follows the Melbourne City Council&#39;s ballot to crown the city&#39;s two-millionth citizen, Sir Rohan Delacombe drawing baby Loretta Johnston&#39;s name from a barrel of 1300 contenders, alongside Lord Mayor Maurice Nathan&#39;s ceremonial axe-swing on St Kilda Road&#39;s aging silver poplars and a survey of migrants arriving on both sides of Britain&#39;s colour line.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Two Million Babies">
+<link rel="canonical" href="https://keithdunstan.org/articles/bulletin/two-million-babies/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1963-08-03">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="The Bulletin">
+<meta property="article:tag" content="Maurice Nathan">
+<meta property="article:tag" content="Sir Rohan Delacombe">
+<meta property="article:tag" content="Henry Bolte">
+<meta property="article:tag" content="Harold Holt">
+<meta property="article:tag" content="Bill Onus">
+<meta property="article:tag" content="St Kilda">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">Two Million Babies</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            5
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1963-08-03">03 Aug 1963</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Follows the Melbourne City Council&#39;s ballot to crown the city&#39;s two-millionth citizen, Sir Rohan Delacombe drawing baby Loretta Johnston&#39;s name from a barrel of 1300 contenders, alongside Lord Mayor Maurice Nathan&#39;s ceremonial axe-swing on St Kilda Road&#39;s aging silver poplars and a survey of migrants arriving on both sides of Britain&#39;s colour line.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="The Bulletin">
+         <!--<a href="/tags/maurice-nathan/" class="btn btn-outline-dark btn-sm me-2">Maurice Nathan</a><a href="/tags/sir-rohan-delacombe/" class="btn btn-outline-dark btn-sm me-2">Sir Rohan Delacombe</a><a href="/tags/henry-bolte/" class="btn btn-outline-dark btn-sm me-2">Henry Bolte</a><a href="/tags/harold-holt/" class="btn btn-outline-dark btn-sm me-2">Harold Holt</a><a href="/tags/bill-onus/" class="btn btn-outline-dark btn-sm me-2">Bill Onus</a><a href="/tags/st-kilda/" class="btn btn-outline-dark btn-sm me-2">St Kilda</a>-->
+
+        
+      </header>
+      <p>These times if you cannot win fame by writing a book, climbing Everest or by appearing in Mandy's memoirs, you can always be the millionth something or other. It is a game not without skill. It takes careful timing, and a good knowledge of statistics, and there are awards available practically all the time. The airways regularly give away prizes to the one millionth, two millionth, ten millionth passenger and so on. A local store recently gave away a marvellous prize to the millionth customer to pass through its turnstiles.</p>
+<p>Then do you remember the day when Mr Harold Holt personally received our millionth migrant? It just so happened that our millionth migrant was young, blonde, pretty, a lady who looked jolly good in the publicity photographs. And that's the thing about being millionth something or other, it helps tremendously if you are young and pretty.</p>
+<p>Last week we had the most astonishing millionth award of all. The Melbourne City Council decided to celebrate the arrival of Melbourne's two-million citizen with an award of £1,000. This was to be done in a most delicate fashion. According to the statistician, the two-millionth baby would arrive some time between June 24 and July 8. So the name of 1300 babies would go into a barrel and he or she would be chosen by the Governor, Sir Rohan Delacombe. Some of the 1,999,999 of us who had arrived earlier thought this a most curious idea.</p>
+<p>After all, Melbourne is already twice the size it ought to be. According to the last census it is still growing at the expense of the country and two out of three actually live in the big smoke. Mr &quot;Farmer&quot; Bolte himself has pleaded most movingly on behalf of decentralisation. Some suggested that the £1,000 should be given to the Children's Hospital, others put forward the awful suggestion: &quot;What would happen if the £1000 went to a millionaire's baby?&quot;</p>
+<p>However our Lord Mayor was unworried. Sir Maurice Nathan said: &quot;In a world which thinks only in terms of millions, whether they be pounds or people, it will add immeasurably to Melbourne's status to have 2,000,000.&quot; And he had himself photographed holding two babies at the Queen Victoria Hospital. He was dressed in mask, cap and gown and easily he could have been mistaken for Ben Casey.</p>
+<p>Well, Sir Rohan picked the marble out of the barrel on July 22. She was Loretta Margaret Johnston, 19 days, 7lb. 3oz., of Fifth St, Parkdale. As it turned out, her father, Mr Tom Johnston, was not a millionaire. He had two small men's wear stores in Chelsea and Hampton, a Holden in his drive and half a dozen bottles of beer for the reporters when they arrived.</p>
+<p>So that's another millionth award gone by. If you want to keep pace with this sort of thing there will be the three-millionth-baby award by 1980, and the five-millionth by 1990. By that time our Loretta, a rather sweet little brunette, will be 27 and if she has nothing else to put against her entry in Who's Who, heaven's above she'll be able to say she was Melbourne's two-millionth baby!</p>
+<p>As reported earlier, the tired 458 silver poplars in St Kilda Road, the trees that were supposed to make it the grandest thoroughfare in the world, have to come down. Over the next 12 months we will replace them with plane trees.</p>
+<p>Even when we chop the trees down we do it in style. Our Lord Mayor, Sir Maurice Nathan, turned up to make the first chop. He took off his jacket, unbuttoned his waistcoat, hopped into a hole that had been dug around the tree, and for several chops swung his axe most convincingly for the photographers.</p>
+<p>But here's the interesting point. Bill Onus, the aboriginal craftsman, has received permission to make use of the timber from these poplars. He expects to get 50,000 boomerangs out of them.</p>
+<p>Maybe silver poplar isn't wattle or blackwood, but this idea should bring great joy to all tourists who visit Melbourne. Not only will the 50,000 boomerangs symbolically invite them to return here, but there'll be the thrill of knowing that they were hacked out of the world's grandest thoroughfare.</p>
+<p>Actually it has been a most difficult week for sorting out one's values. Once upon a time the old country lorded it over all the black people and there was no trouble. Now they are chasing each other in a tight circle. Last week some white people arrived in Melbourne to get away from the coloreds and some colored arrived to get away from the whites.</p>
+<p>The whites: Mr Clarence Ashley, 38, a clerk from Bradford, arrived with his wife and sons aboard the <em>Strathmore</em>. He said that the color problem was forcing many British families to migrate. He was quoted as saying: &quot;Many sections of Bradford have been taken over almost completely by colored people from Pakistan and the West Indies. When I left there were 6000 of them and many people felt their town was being taken over. I had trouble selling my house because it was in an area which was completely inhabited by white people.&quot;</p>
+<p>Then we had the visit of the Ghana boxers, Kimpo Amarfio and Peter Cobblah. They said they couldn't get fights in England because promoters and managers had set up a color line. Any colored boxer who looked like becoming a threat to a professional fight title was faced with a &quot;No Work&quot; sign. The Melbourne &quot;Herald&quot; comments: &quot;The big increase in colored residents in England and a fear of further racial troubles could be reasons for the stand against colored boxers there.&quot;</p>
+<p>Much more of this sort of thing and Melbourne should have no trouble in reaching its third million.</p>
+<hr>
+<p><em>Source: Around Melbourne TWO MILLION BABIES, The Bulletin, 1963-08-03. Accessible via the <a href="https://nla.gov.au/nla.obj-702025670">National Library of Australia's Trove database</a>.</em></p>
+
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        Follows the Melbourne City Council&#39;s ballot to crown the city&#39;s two-millionth citizen, Sir Rohan Delacombe drawing baby Loretta Johnston&#39;s name from a barrel of 1300 contenders, alongside Lord Mayor Maurice Nathan&#39;s ceremonial axe-swing on St Kilda Road&#39;s aging silver poplars and a survey of migrants arriving on both sides of Britain&#39;s colour line.
+      </p>
+
+<hr>
+<h4 class="h6">Related topics</h4>
+<p class="small text-muted mb-3">
+    
+    <a href="/topic/maurice-nathan/" class="link-secondary">Maurice Nathan</a>,
+    
+    <a href="/topic/sir-rohan-delacombe/" class="link-secondary">Sir Rohan Delacombe</a>,
+    
+    <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+    
+    <a href="/topic/harold-holt/" class="link-secondary">Harold Holt</a>,
+    
+    <a href="/topic/bill-onus/" class="link-secondary">Bill Onus</a>,
+    
+    <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>
+</p>
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/maurice-nathan/" class="link-secondary">Maurice Nathan</a>,
+    
+    <a href="/topic/sir-rohan-delacombe/" class="link-secondary">Sir Rohan Delacombe</a>,
+    
+    <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+    
+    <a href="/topic/harold-holt/" class="link-secondary">Harold Holt</a>,
+    
+    <a href="/topic/bill-onus/" class="link-secondary">Bill Onus</a>,
+    
+    <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>
+</p>
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

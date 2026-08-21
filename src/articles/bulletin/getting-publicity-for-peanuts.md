@@ -44,4 +44,4 @@ The expedition lurched rather unevenly along the Hume Highway. We were told that
 
 <hr>
 
-*Source: [Around The Wang GETTING PUBLICITY FOR PEANUTS](https://nla.gov.au/nla.obj-701248137), The Bulletin, 1963-04-13. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around The Wang GETTING PUBLICITY FOR PEANUTS, The Bulletin, 1963-04-13. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-701248137).*

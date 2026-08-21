@@ -1,0 +1,328 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Evolution of a Civic Egg</title>
+<meta name="title" content="Evolution of a Civic Egg">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Explains how Melbourne&#39;s Lord Mayoralty is quietly decided each year by the Civic Group&#39;s backroom seniority system rather than any real election, tracing Leo Curtis&#39;s uncontested rise to the chain of office, before turning to Fitzroy&#39;s new Lady Mayor and the narrow defeat of junkyard millionairess &#39;Ma&#39; Dalley in Kew.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/articles/bulletin/evolution-of-a-civic-egg/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Evolution of a Civic Egg">
+<meta property="og:description" content="Explains how Melbourne&#39;s Lord Mayoralty is quietly decided each year by the Civic Group&#39;s backroom seniority system rather than any real election, tracing Leo Curtis&#39;s uncontested rise to the chain of office, before turning to Fitzroy&#39;s new Lady Mayor and the narrow defeat of junkyard millionairess &#39;Ma&#39; Dalley in Kew.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Evolution of a Civic Egg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/articles/bulletin/evolution-of-a-civic-egg/">
+<meta name="twitter:title" content="Evolution of a Civic Egg">
+<meta name="twitter:description" content="Explains how Melbourne&#39;s Lord Mayoralty is quietly decided each year by the Civic Group&#39;s backroom seniority system rather than any real election, tracing Leo Curtis&#39;s uncontested rise to the chain of office, before turning to Fitzroy&#39;s new Lady Mayor and the narrow defeat of junkyard millionairess &#39;Ma&#39; Dalley in Kew.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Evolution of a Civic Egg">
+<link rel="canonical" href="https://keithdunstan.org/articles/bulletin/evolution-of-a-civic-egg/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1963-09-07">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="The Bulletin">
+<meta property="article:tag" content="Maurice Nathan">
+<meta property="article:tag" content="Fitzroy">
+<meta property="article:tag" content="Marie Dalley">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">Evolution of a Civic Egg</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            5
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1963-09-07">07 Sep 1963</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Explains how Melbourne&#39;s Lord Mayoralty is quietly decided each year by the Civic Group&#39;s backroom seniority system rather than any real election, tracing Leo Curtis&#39;s uncontested rise to the chain of office, before turning to Fitzroy&#39;s new Lady Mayor and the narrow defeat of junkyard millionairess &#39;Ma&#39; Dalley in Kew.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="The Bulletin">
+         <!--<a href="/tags/maurice-nathan/" class="btn btn-outline-dark btn-sm me-2">Maurice Nathan</a><a href="/tags/fitzroy/" class="btn btn-outline-dark btn-sm me-2">Fitzroy</a><a href="/tags/marie-dalley/" class="btn btn-outline-dark btn-sm me-2">Marie Dalley</a>-->
+
+        
+      </header>
+      <p>We have just been through the throes of municipal elections. There are new faces everywhere, new bits of chain dangling, new pieces of ermine. Of course, the most important election was that of our Lord Mayor. Now, we elect our Lord Mayors in a most curious way. Actually, <em>elect</em> is far too strong a word. You could almost say that it is a process of evolution, like the production of an egg. The citizens of Melbourne do not get a say, the ratepayers do not get a say.</p>
+<p>The chief argument in favor of the system — Melbourne has done things this way ever since it was incorporated as a town.</p>
+<p>Let me explain what happens. The Melbourne City Council is an extremely fine club, the best. The Civic Group — plenty of solid merchandise backing in Collins and Bourke Streets — has all the power. It meets on the Sunday night after the council elections. Normally it is a most gentlemanly arrangement. The mayoral job comes up almost by turn. There's seniority, there's the understanding as to who has the support, who has the money, that sort of thing. There's no need for the untidiness of an election. The Civic Group candidate is thus nominated, and he becomes the Lord Mayor.</p>
+<p>Hey — wait a minute, you're saying. There must be more to it than that. There should be, but out of the 33 councillors the Civic Group has 22. So after the Civic Group nominates, nobody else bothers. They haven't the votes in the chamber. So, on the Monday morning, the Civic gentleman is formally announced as the new Lord Mayor. The egg is evolved, fast as you bat your eyelid.</p>
+<p>The job carries with it a £12,000-a-year entertainment allowance, a limousine and another intangible thing — stick with it for two terms and you are sure to get a knighthood. Yet, unlike other mayors, the Lord Mayor of Melbourne has no special powers. He is merely the titular head of the City Council, and he has no authority beyond the duties involved in the chairmanship of the Council.</p>
+<p>Two years ago Cr Maurice Nathan, now Sir Maurice, went through the evolution process, and this time the untidy thing happened. He was the senior Civic man available, but he was opposed in the Civic Room by Cr Leo Curtis.</p>
+<p>In one corner was Maurice Nathan, of St George's Road, SE2, who made his fortune through Paterson's Stores. In the other corner was Leo Curtis, of Heyington Place, SE2, who made his fortune through Bradman's Stores. The old hands thought this was something that never should have happened. It was Nathan's turn, so to speak. Curtis lost his support at the last moment and Nathan won the Civic nomination.</p>
+<p>Sir Maurice made a damned good Lord Mayor, lively, aggressive, a capacity for getting things done; and he gave a bit of personality to the job. He was a generous spender.</p>
+<p>So far as giving the job a bit of style, two things happened during his reign. The Council bought for its mayor a superb, huge, two-ton black Daimler, worth £6000 — separate heating front and back, glass partition (button-operated), air-conditioning, 110 mph, two real cigar lighters in the back seat — the lot.</p>
+<p>Before this the mayoral robes were frightfully tatty, and many a suburban mayor was outshining the Lord Mayor. So the Council ordered a new set from Ede Ravenscroft Ltd, tailors and robemakers, of Chancery Lane, London. They have been holding Royal warrants these past 273 years, and when Melbourne newspapermen called on them for a story the answer was: &quot;We are very conservative people and we really want no publicity at all.&quot; Anyway, Ede Ravenscroft Ltd produced some gorgeous robes that were the spitting image of the robes worn by the Lord Mayor of London and the Speaker of the House of Commons. They were made of black silk satin with hand-made gold ornaments. The price: £770.</p>
+<p>As I said, Sir Maurice did a good job, and I am sure he would have liked to continue for another term, but the process of evolution is inevitable. He knew he wouldn't get the support on that fatal Sunday night. It was Leo Curtis's turn.</p>
+<p>Weeks beforehand the newspapers announced, as a matter of fact, that Cr Curtis would be the next Lord Mayor. And he was. In the correct style, he was unopposed in the Civic Room, and he was unopposed in the Council. The egg was evolved. Dressed in those £770 black and gold robes, he became the new Lord Mayor.</p>
+<p>What else happened? Famous Fitzroy, Australia's most populous suburb, gained a Lady Mayor, for Heaven's sake, for the first time. She is Cr Florence Peel, and it is darned awkward because her husband, Les Peel, is also a Councillor and an ex-Mayor of Fitzroy. Take formal occasions. How does one address him? Fitzroy is an intensely masculine suburb. You can't call him the Mayoress.</p>
+<p>The tragedy of the elections was the defeat of Cr &quot;Ma&quot; Dalley, a former Mayor of Kew. Mrs Marie Dalley (75, we make it by shrewd calculation) is one of Melbourne's genuine characters. She is the owner of M. Dalley and Co. Pty Ltd, a three-acre lot in North Melbourne, and a magnificent junkyard. Ma Dalley starts work there at eight o'clock every morning, and you will always find her among an amazing collection of old metal — sewing machines, coppers, bath screens, coils of wire, telephones, stoves, wheels, boxes.</p>
+<p>Mr Dalley was a job carpenter. He died of pneumonia before the First World War, so she had to set to with only £13 to her name. She was shrewd. She noticed that tools and bits of ironware always sold more quickly at auction sales than furniture, so Marie Dalley eventually worked her way into the junkyard business. Now she must be, very nearly, a millionairess.</p>
+<p>At the Kew elections she was defeated by just a handful of votes. At the declaration of the polls they gave her three cheers and sang &quot;For She's a Jolly Good Fellow.&quot;</p>
+<hr>
+<p><em>Source: Around Melbourne EVOLUTION OF A CIVIC EGG, The Bulletin, 1963-09-07. Accessible via the <a href="https://nla.gov.au/nla.obj-702074564">National Library of Australia's Trove database</a>.</em></p>
+
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        Explains how Melbourne&#39;s Lord Mayoralty is quietly decided each year by the Civic Group&#39;s backroom seniority system rather than any real election, tracing Leo Curtis&#39;s uncontested rise to the chain of office, before turning to Fitzroy&#39;s new Lady Mayor and the narrow defeat of junkyard millionairess &#39;Ma&#39; Dalley in Kew.
+      </p>
+
+<hr>
+<h4 class="h6">Related topics</h4>
+<p class="small text-muted mb-3">
+    
+    <a href="/topic/maurice-nathan/" class="link-secondary">Maurice Nathan</a>,
+    
+    <a href="/topic/fitzroy/" class="link-secondary">Fitzroy</a>,
+    
+    <a href="/topic/marie-dalley/" class="link-secondary">Marie Dalley</a>
+</p>
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/maurice-nathan/" class="link-secondary">Maurice Nathan</a>,
+    
+    <a href="/topic/fitzroy/" class="link-secondary">Fitzroy</a>,
+    
+    <a href="/topic/marie-dalley/" class="link-secondary">Marie Dalley</a>
+</p>
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

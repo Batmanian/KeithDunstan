@@ -1,0 +1,350 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vengeance on a Black Mud Altar</title>
+<meta name="title" content="Vengeance on a Black Mud Altar">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Recounts the fevered build-up and mud-soaked revenge match after South Australia handed Victoria its first Melbourne Cricket Ground interstate football loss in 37 years, centred on John Peck&#39;s on-field haymaker at Adelaide Oval and the lenient VFL tribunal verdict that followed.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/articles/bulletin/vengeance-on-a-black-mud-altar/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Vengeance on a Black Mud Altar">
+<meta property="og:description" content="Recounts the fevered build-up and mud-soaked revenge match after South Australia handed Victoria its first Melbourne Cricket Ground interstate football loss in 37 years, centred on John Peck&#39;s on-field haymaker at Adelaide Oval and the lenient VFL tribunal verdict that followed.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Vengeance on a Black Mud Altar">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/articles/bulletin/vengeance-on-a-black-mud-altar/">
+<meta name="twitter:title" content="Vengeance on a Black Mud Altar">
+<meta name="twitter:description" content="Recounts the fevered build-up and mud-soaked revenge match after South Australia handed Victoria its first Melbourne Cricket Ground interstate football loss in 37 years, centred on John Peck&#39;s on-field haymaker at Adelaide Oval and the lenient VFL tribunal verdict that followed.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Vengeance on a Black Mud Altar">
+<link rel="canonical" href="https://keithdunstan.org/articles/bulletin/vengeance-on-a-black-mud-altar/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1963-07-20">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="The Bulletin">
+<meta property="article:tag" content="South Australia">
+<meta property="article:tag" content="Adelaide Oval">
+<meta property="article:tag" content="John Peck">
+<meta property="article:tag" content="Polly Farmer">
+<meta property="article:tag" content="Ron Barassi">
+<meta property="article:tag" content="Melbourne Cricket Ground">
+<meta property="article:tag" content="Victorian Football League">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">Vengeance on a Black Mud Altar</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            6
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1963-07-20">20 Jul 1963</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Recounts the fevered build-up and mud-soaked revenge match after South Australia handed Victoria its first Melbourne Cricket Ground interstate football loss in 37 years, centred on John Peck&#39;s on-field haymaker at Adelaide Oval and the lenient VFL tribunal verdict that followed.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="The Bulletin">
+         <!--<a href="/tags/south-australia/" class="btn btn-outline-dark btn-sm me-2">South Australia</a><a href="/tags/adelaide-oval/" class="btn btn-outline-dark btn-sm me-2">Adelaide Oval</a><a href="/tags/john-peck/" class="btn btn-outline-dark btn-sm me-2">John Peck</a><a href="/tags/polly-farmer/" class="btn btn-outline-dark btn-sm me-2">Polly Farmer</a><a href="/tags/ron-barassi/" class="btn btn-outline-dark btn-sm me-2">Ron Barassi</a><a href="/tags/melbourne-cricket-ground/" class="btn btn-outline-dark btn-sm me-2">Melbourne Cricket Ground</a><a href="/tags/victorian-football-league/" class="btn btn-outline-dark btn-sm me-2">Victorian Football League</a>-->
+
+        
+      </header>
+      <p>It would be a crude exaggeration to say that Victoria is about to go to war with South Australia. Let it be put this way. At the mention of the word Adelaide or &quot;crow eaters&quot; a chill goes through the room, and one is inclined to stiffen in one's chair.</p>
+<p>It all came to a head with the dreadful John &quot;Gregory&quot; Peck incident, something that is still so fresh in all our minds that it is not easy to write about it dispassionately. But first let us go into a little history.</p>
+<p>Always we have felt that the magnificence of Victorian football is such that there is little point in playing the other States. Interstate matches are a nuisance. They serve only to interrupt the pure glory and excitement of the weekly round of club competitions.</p>
+<p>Take the year 1954. An Adelaide friend of ours was desperately keen to put a bet on the interstate match. He was timid, and out of a grand gesture of pity we gave him 20 goals in on a quid bet. This, he felt, he had to win. Ah, friends, do you know what happened? He lost that quid. Victoria won 26-16 to 6-9.</p>
+<p>The beautiful reign ended on June 15: the South Australians came over here and before a crowd of nigh on 60,000 beat Victoria 12-8 to 10-13. It was South Australia's first win over Victoria on the MCG for 37 years. I tell you, we were at a loss for words. For South Australia there were scenes reminiscent of VE Day. The team made sure that their precious souvenir guernseys would not be stolen. They were put in the care of the St Kilda police. The football used in the game went home to Adelaide to be preserved forever in a glass case.</p>
+<p>The film of the game was sped to Adelaide that afternoon to be played over and over again on TV. According to one reporter the last quarter was shown so often after the late news it was virtually replacing &quot;God Save the Queen.&quot; As for the team, it returned home to receive a &quot;triumph&quot; worthy of the return of Caesar's legions. There were 8000 people waiting at Adelaide airport. Even Frankie Sinatra and Billie Graham did not get welcomes like that.</p>
+<p>By the end of the month the Victorian team had to go on tour. This time it was serious. All-time greats such as &quot;Polly&quot; Farmer of Geelong and Ron Barassi of Melbourne were actually dropped from the side. We played Western Australia twice, winning narrowly the first match by only one point.</p>
+<p>All this was just a tune-up for the great revenge match the following Saturday at the Adelaide Oval. The Victorian coach, Bob Davis, said what was in all our hearts: &quot;Victorian football prestige is at stake. We have got to beat South Australia.&quot;</p>
+<p>Unprecedented things happened. We sent SEVEN football writers and TV men to Adelaide. Until now it had never occurred to us to cover interstate matches. TAA provided two special aircraft, Ansett-ANA one, and there were tourist buses. What's more, we sent over a 40-strong cheer squad.</p>
+<p>Meanwhile news began to seep through to us of vast preparations in Adelaide. One newspaper billed it as &quot;the match of the century.&quot; The Adelaide &quot;News&quot; ran a competition with a £50 prize for the most fetching war-cry. Typical entries were: &quot;Wangadinganoo, wangadingaboo, South Australia, yahohoooooo&quot;; &quot;Ruck, leap, mark, tear Vics apart.&quot; The winning entry, curiously enough, did not carry the scent of blood one might expect: &quot;Go, Reds, GO, GO, GO.&quot;</p>
+<p>On the Saturday the &quot;Melbourne Herald&quot; reported: &quot;Last night in Adelaide was like the calm before the storm. People went early to bed to be fit for today. The tenseness of a Melbourne grand final fell over Adelaide as the crowd gathered as a congregation around the sacred altar of black mud.&quot;</p>
+<p>To put it briefly, in dreadful mud, in unending rain, the honor of Victoria was restored. We won by 12 points. That appalling aforesaid incident took place in the third quarter. Our &quot;Gregory&quot; Peck chose a perfect situation, on the wing and right in front of the grandstand. When the ball wasn't even near, he swung a superb haymaker, connected with the jaw of Sawley of South Australia, and laid him out cold on the ground.</p>
+<p>Sawley took several minutes to recover, and when he did he had to be helped from the ground. I think it was a city alderman who made the obvious remark: &quot;He was sawley pecked.&quot; The hooting from the crowd went on and on. It was from that moment that intercolonial relations seemed to deteriorate. Peck had to leave the ground very quickly after the final siren or he would have been lynched.</p>
+<p>As for our cheer leader squad, it was in trouble. Their 35ft &quot;Come on the Vics&quot; sign was ripped off the fence and they fought a tug-o'-war in the middle of the ground. Only with the greatest valor were the regimental colors retained.</p>
+<p>As for John Peck, he took some strong treatment from the Adelaide newspapers. &quot;A discredit to Australian Rules football . . . he deserves to be out for the rest of the season.&quot; Peck pleaded guilty, but under extreme provocation. He said Sawley had kicked him while he was on the ground. This was something that had to be proved.</p>
+<p>Our newspapers devoted space to stills from a film which did indeed make it appear that Sawley had kicked Peck. It was a cause célèbre. What did Adelaide have to say now? Peck had to appear before the South Australian League Commission, then the evidence was put to the VFL tribunal.</p>
+<p>For four days we waited tensely for the VFL hearing. Would the tribunal realise the great service Peck had done for interstate relations by assuring vast crowds for all future matches; or would it, ungratefully, rub him out for all time? The tribunal was merciful. After an hour's hearing it gave its verdict: suspension for two matches.</p>
+<p>Immediately I shouted: &quot;Wanga dinganoo, wangadingaboo, South Australia, yahohoooooo.&quot;</p>
+<hr>
+<p><em>Source: Around Melbourne VENGEANCE ON A BLACK MUD ALTAR, The Bulletin, 1963-07-20. Accessible via the <a href="https://nla.gov.au/nla.obj-702017073">National Library of Australia's Trove database</a>.</em></p>
+
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        Recounts the fevered build-up and mud-soaked revenge match after South Australia handed Victoria its first Melbourne Cricket Ground interstate football loss in 37 years, centred on John Peck&#39;s on-field haymaker at Adelaide Oval and the lenient VFL tribunal verdict that followed.
+      </p>
+
+<hr>
+<h4 class="h6">Related topics</h4>
+<p class="small text-muted mb-3">
+    
+    <a href="/topic/south-australia/" class="link-secondary">South Australia</a>,
+    
+    <a href="/topic/adelaide-oval/" class="link-secondary">Adelaide Oval</a>,
+    
+    <a href="/topic/john-peck/" class="link-secondary">John Peck</a>,
+    
+    <a href="/topic/polly-farmer/" class="link-secondary">Polly Farmer</a>,
+    
+    <a href="/topic/ron-barassi/" class="link-secondary">Ron Barassi</a>,
+    
+    <a href="/topic/melbourne-cricket-ground/" class="link-secondary">Melbourne Cricket Ground</a>,
+    
+    <a href="/topic/victorian-football-league/" class="link-secondary">Victorian Football League</a>
+</p>
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/south-australia/" class="link-secondary">South Australia</a>,
+    
+    <a href="/topic/adelaide-oval/" class="link-secondary">Adelaide Oval</a>,
+    
+    <a href="/topic/john-peck/" class="link-secondary">John Peck</a>,
+    
+    <a href="/topic/polly-farmer/" class="link-secondary">Polly Farmer</a>,
+    
+    <a href="/topic/ron-barassi/" class="link-secondary">Ron Barassi</a>,
+    
+    <a href="/topic/melbourne-cricket-ground/" class="link-secondary">Melbourne Cricket Ground</a>,
+    
+    <a href="/topic/victorian-football-league/" class="link-secondary">Victorian Football League</a>
+</p>
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

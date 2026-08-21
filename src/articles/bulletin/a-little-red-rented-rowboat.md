@@ -53,4 +53,4 @@ Your pioneer smiled at the pretty programme girls who were dressed up in white s
 
 <hr>
 
-*Source: [Around Melbourne A LITTLE RED RENTED ROWBOAT](https://nla.gov.au/nla.obj-696371511), The Bulletin, 1962-07-28. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne A LITTLE RED RENTED ROWBOAT, The Bulletin, 1962-07-28. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-696371511).*

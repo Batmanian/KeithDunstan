@@ -52,4 +52,4 @@ THOSE who admire the stern, unyielding qualities of the Port Phillipians should 
 
 <hr>
 
-*Source: [Around Melbourne FORBIDDEN CITY](https://nla.gov.au/nla.obj-688535282), The Bulletin, 1962-04-14. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne FORBIDDEN CITY, The Bulletin, 1962-04-14. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-688535282).*

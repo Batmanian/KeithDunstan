@@ -36,4 +36,4 @@ So it is pleasing to report that in the past few years there has been a boom all
 
 <hr>
 
-*Source: [Around Melbourne KINDLY SMILE FROM AN ABERDEEN ANGUS](https://nla.gov.au/nla.obj-696429188), The Bulletin, 1962-09-29. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne KINDLY SMILE FROM AN ABERDEEN ANGUS, The Bulletin, 1962-09-29. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-696429188).*

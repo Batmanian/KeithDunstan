@@ -42,6 +42,18 @@
     "summary": "The story of Georges, the luxury Collins Street department store famed for its hushed, exclusive service."
   },
   {
+    "title": "Moomba, the first 25 years",
+    "year": 1979,
+    "url": "/moomba-the-first-25-years",
+    "summary": "A silver-jubilee history of Melbourne's Moomba festival, published to mark 25 years of the city's biggest annual community celebration."
+  },
+  {
+    "title": "It's all up hill",
+    "year": 1979,
+    "url": "/its-all-up-hill",
+    "summary": "An illustrated account of travels and cycling around the United States, written with cartoonist Jeff Hook during Dunstan's posting as the Herald's US correspondent."
+  },
+  {
     "title": "Ratbags",
     "year": 1980,
     "url": "/ratbags",
@@ -54,10 +66,94 @@
     "summary": "A light-hearted look at the life of bushranger Ned Kelly and the growth of the Kelly legend into an industry of its own."
   },
   {
+    "title": "A cricket dictionary",
+    "year": 1983,
+    "url": "/a-cricket-dictionary",
+    "summary": "A comic glossary of cricket terms and jargon, illustrated by cartoonist Jeff Hook."
+  },
+  {
+    "title": "Footy, an Aussie rules dictionary",
+    "year": 1983,
+    "url": "/footy-an-aussie-rules-dictionary",
+    "summary": "A comic glossary of Australian Rules football terms and jargon, illustrated by Jeff Hook."
+  },
+  {
+    "title": "Tennis: a tennis dictionary",
+    "year": 1984,
+    "url": "/tennis-a-tennis-dictionary",
+    "summary": "A comic glossary of tennis terms and jargon, illustrated by Jeff Hook."
+  },
+  {
+    "title": "Above Australia: a salute to our cities",
+    "year": 1985,
+    "url": "/above-australia",
+    "summary": "A large-format collection of aerial photography of Australia's capital cities, with text contributions from Dunstan and fellow journalists."
+  },
+  {
+    "title": "Health and fitness: the dictionary",
+    "year": 1985,
+    "url": "/health-and-fitness-the-dictionary",
+    "summary": "A comic glossary of health, fitness and exercise jargon, illustrated by Jeff Hook."
+  },
+  {
+    "title": "Racing: the horse-racing dictionary",
+    "year": 1985,
+    "url": "/racing-the-horse-racing-dictionary",
+    "summary": "A comic glossary of horse-racing terms and jargon, illustrated by Jeff Hook."
+  },
+  {
+    "title": "Wine, the wine dictionary",
+    "year": 1985,
+    "url": "/wine-the-wine-dictionary",
+    "summary": "A comic glossary of wine and wine-tasting jargon, illustrated by Jeff Hook."
+  },
+  {
+    "title": "Bowls, the lawn bowls dictionary",
+    "year": 1986,
+    "url": "/bowls-the-lawn-bowls-dictionary",
+    "summary": "A comic glossary of lawn bowls terms and jargon, illustrated by Jeff Hook."
+  },
+  {
+    "title": "Gurney & Bluey & Curley",
+    "year": 1986,
+    "url": "/gurney-and-bluey-and-curley",
+    "summary": "A retrospective of cartoonist Alex Gurney's work, especially his comic strip Bluey and Curley, compiled by Gurney's son John Gurney with Dunstan."
+  },
+  {
+    "title": "Hook, line and sinker: the dictionary",
+    "year": 1986,
+    "url": "/hook-line-and-sinker",
+    "summary": "A comic glossary of fishing terms and jargon, illustrated by Jeff Hook, whose surname supplied the pun in the title."
+  },
+  {
+    "title": "Skiing, the skiing dictionary",
+    "year": 1987,
+    "url": "/skiing-the-skiing-dictionary",
+    "summary": "A comic glossary of skiing terms and jargon, illustrated by Jeff Hook."
+  },
+  {
+    "title": "The amber nectar",
+    "year": 1987,
+    "url": "/the-amber-nectar",
+    "summary": "A history of beer and brewing in Australia, and the drink's central place in Australian social life."
+  },
+  {
+    "title": "Bundy: a centenary history",
+    "year": 1988,
+    "url": "/bundy-a-centenary-history",
+    "summary": "A company history of Bundaberg Rum, commissioned to mark the distillery's 1988 centenary."
+  },
+  {
     "title": "A Day in the Life of Australia",
     "year": 1989,
     "url": "/a-day-in-the-life-of-australia",
     "summary": "An historical account of Australia for each day of the year, commissioned by The Age for the 1988 bicentennial."
+  },
+  {
+    "title": "The perfect cup: the story of coffee",
+    "year": 1989,
+    "url": "/the-perfect-cup",
+    "summary": "A history of coffee, its cultivation and trade, and its rise in Australian café culture."
   },
   {
     "title": "No brains at all",
@@ -72,16 +168,52 @@
     "summary": "A compilation of the best of Keith Dunstan's newspaper columns, gathering decades of his wit and observations on Australian life."
   },
   {
+    "title": "Flag, the first 30 years",
+    "year": 1991,
+    "url": "/flag-the-first-30-years",
+    "summary": "Commissioned by the Flag International hotel and motel group to mark its 30th anniversary, tracing the growth of the Australasian hospitality industry."
+  },
+  {
     "title": "My life with the demon",
     "year": 1994,
     "url": "/my-life-with-the-demon",
     "summary": "Recounts Keith's experiences with, around and under the influence of the Demon Drink, from boozy newsroom culture to Melbourne's six o'clock swill."
   },
   {
+    "title": "Just Jeans: The Story",
+    "year": 1995,
+    "url": "/just-jeans-the-story",
+    "summary": "A corporate history of Just Jeans, commissioned to mark the Melbourne denim retailer's twenty-fifth anniversary."
+  },
+  {
     "title": "The confessions of a bicycle nut",
     "year": 1999,
     "url": "/the-confessions-of-a-bicycle-nut",
     "summary": "Recounts a lifelong passion for cycling, from founding the Bicycle Institute of Victoria to touring by bicycle across the United States and through China."
+  },
+  {
+    "title": "Not a bad drop: Brown Brothers",
+    "year": 1999,
+    "url": "/not-a-bad-drop",
+    "summary": "A history of Brown Brothers, the Milawa winemaking family, tracing four generations of the business."
+  },
+  {
+    "title": "The people's ground: the MCG",
+    "year": 2000,
+    "url": "/the-peoples-ground",
+    "summary": "A revised and updated edition of Dunstan's first book, retracing the Melbourne Cricket Ground's history for a new generation."
+  },
+  {
+    "title": "Informed sources: a history of the Melbourne Press Club 1971-2001",
+    "year": 2001,
+    "url": "/informed-sources",
+    "summary": "A history of the Melbourne Press Club, of which Dunstan was president, tracing the club from its 1971 founding through its first thirty years."
+  },
+  {
+    "title": "1853-2003, Victoria Police Australia",
+    "year": 2003,
+    "url": "/victoria-police-150-years",
+    "summary": "A pictorial history marking 150 years of Victoria Police, with an introduction by Dunstan."
   },
   {
     "title": "Batman in the Bulletin: The Melbourne I Remember",
@@ -100,6 +232,12 @@
     "year": 2005,
     "url": null,
     "summary": "A study of Keith's friend and fellow Melburnian Barry Humphries, tracing his journey from suburban Melbourne to international stardom as Dame Edna Everage."
+  },
+  {
+    "title": "Two old geezers tell you about bridge, the A-Z",
+    "year": 2011,
+    "url": "/two-old-geezers-tell-you-about-bridge",
+    "summary": "A conversational, plain-English guide to the card game bridge, co-written with cartoonist Jeff Hook."
   },
   {
     "title": "Kiwi: The Australian brand that brought a shine to the world",

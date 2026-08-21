@@ -54,4 +54,4 @@ But if we are to have MFL, and who knows even MOM again, what chance is there fo
 
 <hr>
 
-*Source: [Around Melbourne FOOTBALL AND M.F.L.](https://nla.gov.au/nla.obj-686531054), The Bulletin, 1962-04-28. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne FOOTBALL AND M.F.L., The Bulletin, 1962-04-28. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-686531054).*

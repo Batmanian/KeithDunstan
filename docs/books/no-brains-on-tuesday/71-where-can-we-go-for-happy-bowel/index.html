@@ -1,0 +1,323 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Where Can We Go for Happy Bowel?</title>
+<meta name="title" content="Where Can We Go for Happy Bowel?">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="A litany of conflicting food-safety scares, from unprocessed bran turning up laced with pesticide residue and pate riddled with staphylococcus to a Californian friend who travels everywhere with his own BYO bag of bran, ending in despair at whether anything is left safe to eat once mercury in fish and lead in tea are added to the list.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/no-brains-on-tuesday/71-where-can-we-go-for-happy-bowel/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Where Can We Go for Happy Bowel?">
+<meta property="og:description" content="A litany of conflicting food-safety scares, from unprocessed bran turning up laced with pesticide residue and pate riddled with staphylococcus to a Californian friend who travels everywhere with his own BYO bag of bran, ending in despair at whether anything is left safe to eat once mercury in fish and lead in tea are added to the list.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Where Can We Go for Happy Bowel?">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/no-brains-on-tuesday/71-where-can-we-go-for-happy-bowel/">
+<meta name="twitter:title" content="Where Can We Go for Happy Bowel?">
+<meta name="twitter:description" content="A litany of conflicting food-safety scares, from unprocessed bran turning up laced with pesticide residue and pate riddled with staphylococcus to a Californian friend who travels everywhere with his own BYO bag of bran, ending in despair at whether anything is left safe to eat once mercury in fish and lead in tea are added to the list.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Where Can We Go for Happy Bowel?">
+<link rel="canonical" href="https://keithdunstan.org/books/no-brains-on-tuesday/71-where-can-we-go-for-happy-bowel/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1991-01-01">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="No Brains On Tuesday">
+<meta property="article:tag" content="Ronald Reagan">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">Where Can We Go for Happy Bowel?</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            5
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1991-01-01">1991</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A litany of conflicting food-safety scares, from unprocessed bran turning up laced with pesticide residue and pate riddled with staphylococcus to a Californian friend who travels everywhere with his own BYO bag of bran, ending in despair at whether anything is left safe to eat once mercury in fish and lead in tea are added to the list.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="No Brains On Tuesday">
+         <!--<a href="/tags/ronald-reagan/" class="btn btn-outline-dark btn-sm me-2">Ronald Reagan</a>-->
+
+        
+      </header>
+      <p>Frankly I don't think I can take any more. I am almost ready to slip back to potato chips.</p>
+<p>You will have noticed last week's hideous news. The latest survey of our national diet found that unprocessed bran was a toxic threat. It contained higher than acceptable amounts of chemical residues.</p>
+<p>Oh yes, the scientists found that unprocessed bran contained seven milligrams of organophosphorus pesticide fenithrothion per kilo. That was far higher than any other food analysed.</p>
+<p>I have never personally before met OPF, but I am shocked beyond measure. Bran to serious health food nuts, and I am one, is holy. It is way up there in the sanctified range beyond yoghurt, prunes, rose hips, and even lecithin.</p>
+<p>Begging your pardon at breakfast, but two years ago I had to make visits to a specialist regarding a bowel complaint. When one started in journalism it was not permitted to mention such matters as Farmer Giles, but now we are in the world of realism and four out of five humans clearly have met Farmer Giles.</p>
+<p>Well, this specialist who had wisely chosen a fruitful profession, gave his prescription. 'Fibre is the answer,' said he, 'and the best of all fibre is raw bran. Drink at least six glasses of water a day and put bran on your fruit at breakfast. Have your daily dose of bran and never will you return to me again.'</p>
+<p>Oh yes, it worked. Gone for ever were such breakfast delights as sausages, bacon and eggs, toast with lashings of marmalade. The way to glory was bran.</p>
+<p>Unprocessed bran, of course, is pretty ghastly, but you have a feeling of nobility and heroic pride, as you sprinkle it across your sliced bananas and apple. It is doing great things down there.</p>
+<p>I have a very good friend from California called Marvin. Now Marvin, who has also met the Farmer, wherever he goes on earth, takes a plastic bag full of unprocessed bran. He just eats it out of the bag with a spoon. Even in very smart hotels he will bring out his B.Y.O. bag of bran and pour it into a bowl.</p>
+<p>Thereupon (shudder) he eats it even without milk. How can I break this awful news that it contains organophosphorus, whatever it is, will be like speaking against mother and apple pie, worse even than any suggestion that President Reagan might not have been telling the whole truth about supplying arms to the Iranians.</p>
+<p>To be fair to bran, I did tune in to a dietician on the ABC, who said, sure, bran contained pesticide residues like everything else, but it was O.K. as long as you had only a few spoonfuls a day. Don't eat it by the cup load.</p>
+<p>But as far as I'm concerned I'm wondering whether we should cut back on the research grants. When are they going to stop. Two weeks ago Choice magazine found unacceptably high levels of bacteria in 11 out of 14 samples of pate purchased from supermarkets. In two of them they found samples of staphylococcus aureus, which sounds even worse than the aforementioned organophosphorus.</p>
+<p>In the column writing business one attends an appalling round of press conferences, book launchings, show biz arrivals and at 99 out of 100 they serve little biscuits smothered in pate no doubt laden with staphylococcus aureus. My insides must be appalling.</p>
+<p>But where are you to turn? The Japanese and the Americans have been sending back our beef because of pesticide residues. We have been warned about sugar and salt. We have been told to lay off dairy foods because of cholesterol.</p>
+<p>We can't eat fats. So we switch to polyunsaturated fats, but there is a new theory every day. There was a story from Dr Kent Erikson, assistant professor of human anatomy at Davis in California who claimed that while fats did not directly cause cancer, high polyunsaturated fat like safflower oil, coconut oil and such, could increase the risk of skin, colon and breast cancer for people with family history of the diseases.</p>
+<p>He had been feeding polyunsaturated fat to mice. Mice have much to put up with from humans. However, these theories appear to change almost weekly.</p>
+<p>Where are you to go? You have to be wary of some fish because of mercury. You can get cadmium and nitrate in potatoes, cauliflower and tomatoes. And what about coffee? Coffee, the most delectable drug created for mankind, is under constant attack for caffeine. So too is tea. Good grief, there was even a suggestion that tea had close to the maximum permitted concentration of lead and there was a presence of aflatoxin in peanuts and peanut butter.</p>
+<p>Now the National Health and Medical Research Council has approved the idea of adding a dose of thiamine to beer and cask wine on the theory that this will check Wernicke Korsakoff Syndrome, a debilitating short term memory loss.</p>
+<p>But do they really want this to happen? Think of the excuse: 'It's all right, dear, for me to have another glass. I am just curing my Wernicke Korsakoff Syndrome.'</p>
+<p>The truth is there is little left that you can eat or drink, but it is the bran that is worrying the hell out of me. Will I have to fall back on prunes?</p>
+<p>That's a fate worse than death.</p>
+<hr>
+Continue to the next column: <a href="/books/no-brains-on-tuesday/72-manic-cholesterol/">Manic Cholesterol</a>
+
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        A litany of conflicting food-safety scares, from unprocessed bran turning up laced with pesticide residue and pate riddled with staphylococcus to a Californian friend who travels everywhere with his own BYO bag of bran, ending in despair at whether anything is left safe to eat once mercury in fish and lead in tea are added to the list.
+      </p>
+
+<hr>
+<h4 class="h6">Related topics</h4>
+<p class="small text-muted mb-3">
+    
+    <a href="/topic/ronald-reagan/" class="link-secondary">Ronald Reagan</a>
+</p>
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/ronald-reagan/" class="link-secondary">Ronald Reagan</a>
+</p>
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

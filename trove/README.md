@@ -76,6 +76,10 @@ python deduplicate.py
 # Delete flagged duplicates from stubs/
 python remove_duplicates.py
 
+# Sort any legacy loose stubs into publication/year folders for scan sourcing.
+# New fetches are written into these year folders automatically.
+python sort_stubs_by_year.py bulletin
+
 # Interactive triage — opens each article in browser, move to transcribed/ or rejected/
 python triage.py
 ```
@@ -86,6 +90,13 @@ Then:
 2. Complete the frontmatter (`summary`, `tags`) on files in `transcribed/` per `../CLAUDE.md`
 3. Move approved files from `output/<publication>/transcribed/` to `src/articles/<publication-slug>/`
 4. `git add`, `git commit`, `git push` — Netlify builds automatically
+
+For manually sourced scans, retain the corresponding stub whenever the article
+is deferred, incomplete, rejected from the current transcription batch or still
+needs attribution/date checking. Remove a stub and its source scan only after a
+complete transcription has been visually verified and published in
+`src/articles/<publication-slug>/`. Track deferred and incomplete scans in
+`../todo.md` so they remain visible sourcing tasks.
 
 ---
 

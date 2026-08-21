@@ -53,4 +53,4 @@ Two years ago, construction of the pontoon landing for the helicopter service to
 
 <hr>
 
-*Source: [Around Melbourne REDISCOVERING THE YARRA](https://nla.gov.au/nla.obj-689097221), The Bulletin, 1962-12-01. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne REDISCOVERING THE YARRA, The Bulletin, 1962-12-01. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-689097221).*

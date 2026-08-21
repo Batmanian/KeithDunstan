@@ -50,4 +50,4 @@ As if we didn't have enough charms already, there have been some desperate ideas
 
 <hr>
 
-*Source: [Around Melbourne BUNNIES IN BLACK SILK STOCKINGS](https://nla.gov.au/nla.obj-701232395), The Bulletin, 1963-03-30. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne BUNNIES IN BLACK SILK STOCKINGS, The Bulletin, 1963-03-30. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-701232395).*

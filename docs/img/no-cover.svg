@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 450" role="img" aria-label="Cover not yet available">
+  <rect width="300" height="450" fill="#eef0f2"/>
+  <rect x="6" y="6" width="288" height="438" fill="none" stroke="#c7ccd1" stroke-width="2" stroke-dasharray="6 6"/>
+  <g transform="translate(150,190)" stroke="#9aa1a8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M0,-8 L0,42"/>
+    <path d="M0,-8 C-16,-22 -46,-22 -60,-12 L-60,38 C-46,28 -16,28 0,42"/>
+    <path d="M0,-8 C16,-22 46,-22 60,-12 L60,38 C46,28 16,28 0,42"/>
+  </g>
+  <text x="150" y="270" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#6c757d">Cover coming soon</text>
+</svg>

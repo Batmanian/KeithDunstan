@@ -56,4 +56,4 @@ Imagine all that on the Yarra!
 
 <hr>
 
-*Source: [Around Melbourne THE COAL EXCHANGE ROTUNDA](https://nla.gov.au/nla.obj-696404474), The Bulletin, 1962-08-18. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne THE COAL EXCHANGE ROTUNDA, The Bulletin, 1962-08-18. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-696404474).*

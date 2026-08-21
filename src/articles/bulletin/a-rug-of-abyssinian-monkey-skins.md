@@ -44,4 +44,4 @@ He has no intention of leaving Australia. Maybe it's pride, he says, but he want
 
 <hr>
 
-*Source: [Around Melbourne A RUG OF ABYSSINIAN MONKEY SKINS](https://nla.gov.au/nla.obj-689121227), The Bulletin, 1962-12-29. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne A RUG OF ABYSSINIAN MONKEY SKINS, The Bulletin, 1962-12-29. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-689121227).*

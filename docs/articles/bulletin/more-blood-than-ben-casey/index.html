@@ -1,0 +1,324 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>More Blood Than Ben Casey</title>
+<meta name="title" content="More Blood Than Ben Casey">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Skewers the Mornington Shire Council&#39;s banning of Enid Blyton&#39;s Noddy from the Peninsula Regional Library Service as hasty and sloppy, then hunts down an unabridged Brothers Grimm collection to show just how much decapitation, cannibalism and gore actually passes for classic children&#39;s literature next to Blyton&#39;s mild offences.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/articles/bulletin/more-blood-than-ben-casey/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="More Blood Than Ben Casey">
+<meta property="og:description" content="Skewers the Mornington Shire Council&#39;s banning of Enid Blyton&#39;s Noddy from the Peninsula Regional Library Service as hasty and sloppy, then hunts down an unabridged Brothers Grimm collection to show just how much decapitation, cannibalism and gore actually passes for classic children&#39;s literature next to Blyton&#39;s mild offences.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="More Blood Than Ben Casey">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/articles/bulletin/more-blood-than-ben-casey/">
+<meta name="twitter:title" content="More Blood Than Ben Casey">
+<meta name="twitter:description" content="Skewers the Mornington Shire Council&#39;s banning of Enid Blyton&#39;s Noddy from the Peninsula Regional Library Service as hasty and sloppy, then hunts down an unabridged Brothers Grimm collection to show just how much decapitation, cannibalism and gore actually passes for classic children&#39;s literature next to Blyton&#39;s mild offences.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="More Blood Than Ben Casey">
+<link rel="canonical" href="https://keithdunstan.org/articles/bulletin/more-blood-than-ben-casey/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1964-01-11">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="The Bulletin">
+<meta property="article:tag" content="Enid Blyton">
+<meta property="article:tag" content="Brothers Grimm">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">More Blood Than Ben Casey</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            5
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1964-01-11">11 Jan 1964</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Skewers the Mornington Shire Council&#39;s banning of Enid Blyton&#39;s Noddy from the Peninsula Regional Library Service as hasty and sloppy, then hunts down an unabridged Brothers Grimm collection to show just how much decapitation, cannibalism and gore actually passes for classic children&#39;s literature next to Blyton&#39;s mild offences.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="The Bulletin">
+         <!--<a href="/tags/enid-blyton/" class="btn btn-outline-dark btn-sm me-2">Enid Blyton</a><a href="/tags/brothers-grimm/" class="btn btn-outline-dark btn-sm me-2">Brothers Grimm</a>-->
+
+        
+      </header>
+      <p>Melbourne has gone blissfully undisturbed by any matters of social consequence this Yuletide, except for one thing which has roused us to anger. And this is the banning of Noddy.</p>
+<p>Now, please don't feign ignorance. Noddy, Big Ears and Mr Plod are the creations of Miss Enid Blyton. You can buy Noddy dolls, Noddy caps, Noddy games and countless Noddy books in all the shops. Miss Enid Blyton must be very close to being a millionairess. Miss Blyton, Georges Simenon and Morris West are the most successful authors of our time.</p>
+<p>The matter came right out into the open just before Christmas, when the Mornington Shire Council agreed to a motion which protested against the banning of Noddy from the libraries run by the Peninsula Regional Library Service.</p>
+<p>The librarian of this service, Mr Ray Williams, was blunt. He said the Noddy books were full of hasty and sloppy writing, simply not well enough written for the spending of public money.</p>
+<p>Soon it was obvious that Noddy was barely tolerated in any library. He was described as &quot;anti-social&quot;, &quot;debasing&quot;; he was even called a &quot;dill&quot;. One correspondent wrote contemptuously that Noddy was loved by children for the very reason all his desires were satisfied. He cried until he got what he wanted, he hated people who were nasty to him, and always they were punished.</p>
+<p>The fact that one can't read Noddy at our public municipal libraries is bad enough, but it does not end there. After a long search I have discovered that it is impossible to borrow copies of the complete and unabridged works of the Brothers Grimm. The genuine Grimm editions are rejected as completely as the Blyton. However, Noddy-lovers, don't despair. I didn't give up. In the midst of a dusty pile in a second-hand book shop in the city there was a magnificent copy. It was the literary find of the year.</p>
+<p>It was with a real sense of excitement that I sat down at 11.30 that night and began to read. On the fly leaf was the message, &quot;To Marie and Sandy from Aunt Ethel and Uncle Claude, Christmas, 1909.&quot; It was easy to picture dear little Marie and Sandy thumbing through the book on Christmas morning, looking at the lovely color illustrations of decapitated heads, bats, owls, hideous under-nourished winged dragons, hags with bulbous noses . . .</p>
+<p>The stories were recognisable, but the names were different. Cinderella was called Ashenputtel, because she always looked so filthy. Then you may remember that in the Disneyland version there was a pumpkin coach and the magic words &quot;Salago doola, menchika boola, bibbidy, bobbedy boo&quot; were used when any transforming needed to be done. Well, there was no fancy pumpkin coach in Ashenputtel and certainly no bobbedy boo nonsense.</p>
+<p>And when the ugly sisters tried on the glass slipper there was a most un-Disneyland version. To make the slipper fit the stepmother cut the toes off the first daughter with a carving knife. Then she cut the heel off the other daughter. The handsome prince discovered he had been tricked when he saw blood pouring on to the snow. As for the ending, it was lovely for Ashenputtel but appalling for the stepsisters. The doves flew down and pecked out their eyes.</p>
+<p>Indeed, always ingenious and superbly sadistic ends were devised for the Grimm villains. In one the villain was rolled down the street in a barrel pierced with nails. Or take Snowdrop. Mr Disney called it &quot;Snow White and the Seven Dwarfs&quot;. In our story the beautiful Wicked Queen told her huntsman to go out and get Snowdrop and bring back her lungs and liver as tokens. Actually, the huntsman brought back the lungs and liver of a fawn and told the Queen they belonged to Snowdrop. These the dear Queen had served up in pickle, and she ate them for dinner.</p>
+<p>In the finish, of course, Snowdrop won, and our lovely heroine had her revenge. She made the Queen put on a pair of iron slippers that had been warmed to red heat in the fire. Screaming, the Queen danced in these until she fell dead.</p>
+<p>Some of the stories are pure Tom Lehrer. &quot;The Robber Bridegroom&quot; was a tale about a robber band that made a habit of eating the flesh of young maidens. One maiden, though, managed to give them the slip. She hid behind a barrel and there she found one of the maidens' fingers with a ring still on it. The maiden was missing from the other end of the finger. To cut a long story short, she took this finger home and presented it to the local constabulary.</p>
+<p>Obviously, the fairy tales were excellently devised for making little Marie and Sandy very good children indeed. However, if all the others failed, then there was the story at the back of the book titled &quot;The Youth Who Could Not Shudder&quot;.</p>
+<p>The story is about this youth who, for some remarkable reason, was very upset because he couldn't shudder like the other kids. He was introduced to every conceivable kind of bat, raven and ghoul. He was put in a graveyard for a night. Still no shuddering. The boy went into a haunted castle, where he heard fiendish howls and shrieks, saw tumbling human skulls and shin bones, and still he couldn't shudder.</p>
+<p>Next, he was escorted to the gallows, where the bodies of seven men were swinging backwards and forwards in the moaning wind. He stayed there all night, even taking down all the corpses and stacking them in a circle to keep himself warm.</p>
+<p>The story carried on strongly to the verge of necrophilia. He wound up a King, whereupon his beautiful young wife poured a bucket of cold water over him. And at last he shuddered.</p>
+<p>It was getting late. I slapped shut the volume of Grimm's Fairy Tales and turned on the television. It was high time that I looked at something warm and wholesome, like Ben Casey.</p>
+<hr>
+<p><em>Source: Around Melbourne MORE BLOOD THAN BEN CASEY, The Bulletin, 1964-01-11. Accessible via the <a href="https://nla.gov.au/nla.obj-689127613">National Library of Australia's Trove database</a>.</em></p>
+
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        Skewers the Mornington Shire Council&#39;s banning of Enid Blyton&#39;s Noddy from the Peninsula Regional Library Service as hasty and sloppy, then hunts down an unabridged Brothers Grimm collection to show just how much decapitation, cannibalism and gore actually passes for classic children&#39;s literature next to Blyton&#39;s mild offences.
+      </p>
+
+<hr>
+<h4 class="h6">Related topics</h4>
+<p class="small text-muted mb-3">
+    
+    <a href="/topic/enid-blyton/" class="link-secondary">Enid Blyton</a>,
+    
+    <a href="/topic/brothers-grimm/" class="link-secondary">Brothers Grimm</a>
+</p>
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/enid-blyton/" class="link-secondary">Enid Blyton</a>,
+    
+    <a href="/topic/brothers-grimm/" class="link-secondary">Brothers Grimm</a>
+</p>
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

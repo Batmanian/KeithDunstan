@@ -48,4 +48,4 @@ But do you know what fascinated me more than anything else?—the full page news
 
 <hr>
 
-*Source: [Around Melbourne THE CUP – SOME BOWLERS WERE LOW AND RAKISH](https://nla.gov.au/nla.obj-689089080), The Bulletin, 1962-11-17. Retrieved via the National Library of Australia's Trove database.*
+*Source: Around Melbourne THE CUP – SOME BOWLERS WERE LOW AND RAKISH, The Bulletin, 1962-11-17. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-689089080).*

@@ -14,14 +14,14 @@ The Bulletin is indexed in Trove under:
 Dates are extracted from the article title (e.g. "Batman's Melbourne (24 April 1965)")
 since Trove's issued field returns year only for this publication.
 
-Output goes to trove/output/bulletin/stubs/ for review before moving to
+Output goes to trove/output/bulletin/stubs/<year>/ for review before moving to
 src/articles/bulletin/.
 
 Usage:
     python fetch_batman.py
 
 Output:
-    trove/output/bulletin/stubs/<date>-<slug>.md
+    trove/output/bulletin/stubs/<year>/<date>-<slug>.md
     trove/output/fetch_batman_results.csv
 """
 
@@ -101,7 +101,11 @@ def is_bulletin(work):
 
 def file_exists_anywhere(filename):
     """Check all bulletin subfolders — prevents duplicates on re-run."""
-    return any(os.path.exists(os.path.join(d, filename)) for d in BULLETIN_DIRS)
+    return any(
+        filename in files
+        for directory in BULLETIN_DIRS
+        for _root, _dirs, files in os.walk(directory)
+    )
 
 
 def slugify(text):
@@ -210,10 +214,12 @@ def main():
             log_rows.append([wid, clean_title, date, trove_url, full_url, filename, "skipped"])
             continue
 
-        with open(os.path.join(STUBS_DIR, filename), "w", encoding="utf-8") as f:
+        year_dir = os.path.join(STUBS_DIR, date[:4])
+        os.makedirs(year_dir, exist_ok=True)
+        with open(os.path.join(year_dir, filename), "w", encoding="utf-8") as f:
             f.write(build_markdown(work))
 
-        print(f"  WRITTEN: bulletin/stubs/{filename}")
+        print(f"  WRITTEN: bulletin/stubs/{date[:4]}/{filename}")
         log_rows.append([wid, clean_title, date, trove_url, full_url, filename, "written"])
 
     csv_path = os.path.join(OUTPUT_DIR, "fetch_batman_results.csv")
