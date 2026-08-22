@@ -451,6 +451,11 @@ Chapter 11 (When I'm Sixty-Four; When I'm Sixty-Five so far) started the same se
 
 19 more `src/_data/topics.md` entries added across the Ch.13–14 home stretch: Dick Smith, Princess Diana, Ronald Reagan, Phar Lap, Vivien Leigh, Sammy Davis Jr, Arvi Parbo, Julius Sumner Miller, Wolf Blass, Franco Cozzo, Leo Schofield, David Livingstone (Voltaire, Percy Cerutty already existed and were reused verbatim). Two small page gaps (p.269–270 and p.275) were noted transparently rather than bridged with invented dialogue — flagged above and worth a rescan if perfect fidelity matters.
 
+**Known text integrity issues requiring physical-book proofread (files `32`–`47`, original scans gone):**
+- `35-spare-us-the-arsehole.md` — final paragraph is garbled OCR: `'There's no one quite as famous as...' — arsehole. As famous as Blankers.` The original ending (likely a punchline referencing "Blankers" — possibly Fanny Blankers-Koen or the Hogan/Crocodile Dundee "outrageous" quote train) is not recoverable without the physical page.
+- `38-how-to-love-female-muscle.md` — ends with the placeholder line `But the times they are a-changing.` The column almost certainly continues past the Botticelli paragraph; the original conclusion is unknown.
+- `47-dont-hang-up-on-phone-callers.md` — opening paragraph is a garbled OCR merge: `There are two kinds of telephone callers. There is no sex difference. Either hair of another human is the trigger. Grandpa tells you the hair is quite sufficient — signals the hair — and the Richter scale goes up to three or four.` The "hair/Richter scale" sentences are nonsense and belong to a different passage, likely from a facing page; the real opening of this column is unknown.
+
 **Next for this book:** nothing outstanding except the long-flagged files `44`–`47` chapter-placement question, which would need new scans of the physical Chapter 8/9 boundary to resolve.
 
 ---
