@@ -12,7 +12,7 @@ tags:
   - Exhibition Building
   - Fosters Lager
   - Henry Bolte
-  - Jules Lefebre
+  - Jules Lefebvre
   - Louis Armstrong
   - Melbourne
   - Robert Heffron
@@ -36,7 +36,7 @@ However, the Melbourne "Herald" was able to point out on our opening day, Octobe
 
 Soon after the Sydney Exhibition Building was burnt down. Their police roundsmen must have been more enterprising than ours.
 
-For the Melbourne Chamber of Commerce here are a few tips what they might do. For opening day, 1880, there were the ships of five navies in the bay. There was a vast procession through the city, there were fireworks, there was an almost interminable cantata which was composed for the occasion, sung by a choir of 900 and played by an orchestra of 90. At the splendid art display the gold medal of honor was awarded to Chloe, the gorgeous nude by Chevalier Jules Lefebre. Chloe has lent distinction to one of our top beer drinking pubs ever since, and we expect the 1963 exhibition to unearth a lady of equal (unclad) calibre.
+For the Melbourne Chamber of Commerce here are a few tips what they might do. For opening day, 1880, there were the ships of five navies in the bay. There was a vast procession through the city, there were fireworks, there was an almost interminable cantata which was composed for the occasion, sung by a choir of 900 and played by an orchestra of 90. At the splendid art display the gold medal of honor was awarded to Chloe, the gorgeous nude by Chevalier Jules Lefebvre. Chloe has lent distinction to one of our top beer drinking pubs ever since, and we expect the 1963 exhibition to unearth a lady of equal (unclad) calibre.
 
 The present extensions will spread the size of the exhibition to 11 acres. In 1888 the organisers went beserk. They put up a building that covered 35½ acres of the Carlton Gardens and they spent £60,000 on electric light, the largest single installation of arc lighting that had been attempted anywhere in the world. What did they have on display? What didn't they have! Turkish baths, blunderbusses, pianos, locomotives, reapers, hand-powered washing machines, typewriters, real American chewing gum, and, most exciting of all, Mr Edison's phonograph.
 

@@ -17,7 +17,7 @@ tags:
 - Charles Henry Pearson
 - Frederick Hadkinson Bromley
 - Rev. Charles Strong
-- Jules Joseph Lefebvre
+- Jules Lefebvre
 - George Moore
 - Anatole de Courde de Montaiglon
 - Dr Thomas Fitzgerald

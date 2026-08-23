@@ -77,6 +77,13 @@ module.exports = function(eleventyConfig) {
       .sort((a, b) => a.date - b.date);
   });
 
+  // Same auto-populating pattern as the bulletin collection above, for
+  // src/articles/readers-digest/.
+  eleventyConfig.addCollection("readersdigest", collection => {
+    return collection.getFilteredByGlob("src/articles/readers-digest/*.md")
+      .sort((a, b) => a.date - b.date);
+  });
+
   // Merges every transcribed article with the full book bibliography
   // (src/_data/books.json) into one date-sorted list for src/timeline.njk.
   // Books only carry a publication year, so they're pinned to 1 January of

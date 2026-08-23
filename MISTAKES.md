@@ -95,6 +95,24 @@ Severity can accelerate this. Anything that touched production data, lost work, 
 
 <!-- Newest first. Append new entries directly below this line. -->
 
+### 2026-08-24 — Uncertain text strings not recorded at transcription time
+
+- **Area:** `transcription / todo tracking`
+- **Severity:** low
+- **Count:** 1
+
+**What happened**
+After transcribing `src/books/seven-cities-of-australia/melbourne.md` from OCR-garbled scans, uncertain strings (unresolved person names, a missing scan, a smoothed-over passage) were noted in the assistant response to the user but not written to `todo.md` until the user explicitly asked for it.
+
+**Root cause**
+No established step in the transcription workflow requires logging uncertain strings to `todo.md` before marking a chapter done.
+
+**Consequence**
+Uncertain strings that need physical-book verification would have been lost between sessions with no retrieval path.
+
+**Rule**
+Before closing any transcribed chapter file, log every unresolved proper name, uncertain figure, missing scan, and substantially reconstructed passage to `todo.md` under that book's section — do not rely on mentioning them in chat output.
+
 ### 2026-08-17 — Dereference AppleScript list items before POSIX coercion
 
 - **Area:** `scan cleanup`

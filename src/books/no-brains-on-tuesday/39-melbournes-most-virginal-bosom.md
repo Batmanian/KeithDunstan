@@ -4,6 +4,7 @@ date: 1991-01-01
 summary: An exclusive interview with Chloe at Young & Jackson's Hotel on the proposed illuminated sign of her outline, her 1883 arrival from Paris, the chorus of protests at the National Gallery's International Exhibition, the American serviceman who threw a glass of beer at her in 1943, and her frank preference for the men's bar over avocado salads.
 tags:
   - Chloe
+  - Jules Lefebvre
   - Young and Jacksons Hotel
   - Melbourne
 ---

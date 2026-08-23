@@ -1,0 +1,28 @@
+---
+layout: layouts/default.njk
+title: Reader's Digest
+summary: Keith Dunstan contributed articles to the Australian edition of Reader's Digest during the 1970s, on subjects ranging from the Christmas traditions of a hot-climate country to the long-running civic rivalry between Melbourne and Sydney.
+---
+<div class="row">
+    <div class="col-12 col-md-3">
+        <img src="{{ '/img/readers-digest.jpg' | url }}" class="img-fluid" alt="Cover not yet available" onerror="this.src='{{ '/img/no-cover.svg' | url }}'">
+    </div>
+    <div class="col-12 col-md-9">
+        <p class="lead">Keith Dunstan contributed articles to the Australian edition of <em>Reader's Digest</em> during the 1970s.</p>
+        <p>The two articles held in this collection come from the October 1973 and December 1974 editions. Both are transcribed from physical copies of the magazine.</p>
+    </div>
+</div>
+<div class="row mt-3">
+<div class="col-12 col-lg-8 offset-lg-2">
+<h4>Articles</h4>
+
+    {% include 'snippets/readersdigest.njk' %}
+
+    <ul>
+    {%- for article in collections.readersdigest %}
+      <li><a href="{{ article.url | url }}">{{ article.data.title }}</a> <span class="text-muted small">({{ article.data.edition }})</span></li>
+    {%- endfor %}
+    </ul>
+
+</div>
+</div>

@@ -1,0 +1,10 @@
+{%- set rdTopics = collections.readersdigest | topTopics(15) %}
+{%- if rdTopics.length %}
+<p class="text-muted small">
+  <strong>Top topics:</strong>
+  {%- for topic in rdTopics %}
+    {% set topicUrl %}/topic/{{ topic.tagName | slug }}/{% endset %}
+    <a href="{{ topicUrl | url | safe }}" class="link-secondary">{{ topic.tagName }}</a>{% if not loop.last %},{% endif %}
+  {%- endfor %}
+</p>
+{%- endif %}

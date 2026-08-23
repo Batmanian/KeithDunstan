@@ -502,6 +502,8 @@ topics:
     description: Harry Prout was the Wesley College footballer who dominated public schools football from 1903 to 1907, celebrated in a headmaster-composed drinking song, 'Harry Rover', that Keith Dunstan quoted in full as proof of just how deified a schoolboy sporting champion could become.
   - name: Harry Telford
     description: Harry Telford trained Phar Lap through his Australian career, and stayed behind heartbroken in Melbourne when the champion travelled to the United States in 1932, where he died suddenly, a grief Keith Dunstan quoted at length from contemporary press reports.
+  - name: Hayman Island
+    description: Hayman Island is a resort island on the Great Barrier Reef off the Queensland coast, whose sheltered waters and surrounding uninhabited islands Keith Dunstan held up as the setting for the ideal Australian Christmas, spent on a two-masted yacht, diving for oysters and barbecuing coral trout on a driftwood fire.
   - name: Henry Bolte
     description: Sir Henry Bolte was Victoria's blunt, long-serving Liberal Premier from 1955 to 1972, a plain-spoken figure Keith Dunstan needled throughout the Bulletin years, from his government's standoff with students over the hanging of Robert Tait to the misquoted line that earned him the nickname 'Satchmo'.
   - name: Henry Lawson
@@ -588,6 +590,8 @@ topics:
     description: John Snow was the English fast bowler whose complaints about hostile, piranha-like Australian crowds during the 1970-71 Ashes tour Keith Dunstan quoted at length to open 'Sports', including Snow's own account of trading words with a jeering ten-year-old at the MCG.
   - name: John Wren
     description: John Wren was a Melbourne businessman who built his fortune on the illegal Collingwood Tote and rose from underworld figure to widely admired public benefactor largely through his generosity to the Collingwood Football Club, a case study Keith Dunstan used to show that sporting patronage could launder almost any reputation.
+  - name: Jules Lefebvre
+    description: Jules Lefebvre (1836–1911) was a French academic painter and Chevalier of the Légion d'honneur who painted Chloe in Paris in 1875; the work won the gold medal of honour at the Paris Salon of 1876 and became Melbourne's most famous painting after it was shipped to the 1880 International Exhibition and eventually hung in the saloon bar of Young and Jackson's Hotel.
   - name: Julius Sumner Miller
     description: Julius Sumner Miller was the American physicist turned Australian television personality famous for the 1960s and 70s Cadbury commercials and his catchphrase 'Why is it so?', whose Lithuanian mother and Latvian father Keith Dunstan asked about for a column on migrants' Christmas memories.
   - name: Julia Gillard
@@ -670,6 +674,8 @@ topics:
     description: Max Schubert was the winemaker who created Penfolds Grange, Australia's most celebrated red, a name Keith Dunstan raised with some astonishment on learning the man had also served as a well-travelled wine advisor to a state bank's board.
   - name: Max Suich
     description: Max Suich was the Fairfax chief executive who, with Age editor Creighton Burns, telephoned Keith Dunstan in late 1985 to offer him a column in the Sydney Morning Herald and the Age, prompting his defection from the rival Sun News-Pictorial.
+  - name: Mawson Station
+    description: Mawson Station is Australia's oldest Antarctic research base, established in 1954 on the Mac. Robertson Land coast, whose isolated garrison Keith Dunstan contacted one Christmas to find the officer-in-charge playing golf on an all-ice course, drinking six bottles of champagne between twenty-five men, and reporting the sun had not set since November.
   - name: McDonalds
     description: McDonalds was the American burger chain whose nightly advertising and 'fishburger' Keith Dunstan held up as the bland, anonymous rival to genuine fish and chips wrapped in newspaper, in his defence of Melbourne's under-rated shark meat, flake.
   - name: Melbourne
@@ -716,6 +722,8 @@ topics:
     description: Moorabbin was the booming, sandy bayside suburb, its aboriginal name meaning 'mother's milk', that St Kilda Football Club proposed moving to in 1965, a shift that threatened to strip the century-old St Kilda name from league football and provoked a VFA power struggle over the vacated ground.
   - name: Moonee Ponds
     description: Moonee Ponds is the unglamorous northern Melbourne suburb Barry Humphries chose as the fictional home of his housewife creation Edna Everage, a joke Keith Dunstan noted had already been given hard statistical backing by a contemporary survey of stay-at-home, television-watching suburban Melburnians.
+  - name: Mt Isa
+    description: Mt Isa is the remote copper and silver mining city in far north-west Queensland, whose flying doctor service Keith Dunstan telephoned one Christmas to find the area's sole medical practitioner covering an England-sized territory by radio, then spending Christmas dinner at the local pub over hot turkey and plum pudding in 40-degree heat.
   - name: Multi Function Polis
     description: The Multi Function Polis was a proposed high-tech planned city, a joint Japanese-Australian venture floated in the late 1980s and never built, whose jargon-heavy name Keith Dunstan cited as exactly the kind of extraordinary official phrase a course in semantics ought to help decode.
   - name: Murray Rose
@@ -1190,6 +1198,20 @@ topics:
     description: Stuart Mackenzie was an Australian sculler and self-described 'chicken-sexer' who dominated the Diamond Sculls at Henley through the late 1950s and early 1960s, as celebrated for his showmanship and gamesmanship as for his six titles.
   - name: Vyacheslav Ivanov
     description: Vyacheslav Ivanov was a Soviet Olympic sculling champion and Stuart Mackenzie's great rival, twice beaten by Mackenzie at Henley after a famous pre-race chess match Mackenzie claimed had already won him the psychological edge.
+  - name: Bruce Beresford
+    description: Bruce Beresford is the Australian film director best known for Breaker Morant (1980) and Driving Miss Daisy (1989), who made a documentary in Melbourne on the life of Henry Handel Richardson and told Keith Dunstan it was the most knockabout, wonderfully nineteenth-century city in the world.
+  - name: Henry Handel Richardson
+    description: Henry Handel Richardson was the pen name of Ethel Florence Lindesay Richardson (1870-1946), one of Australia's most celebrated novelists, best known for The Fortunes of Richard Mahony trilogy, and the subject of a documentary by Bruce Beresford that Keith Dunstan cited as evidence of Melbourne's enduring nineteenth-century character.
+  - name: Windsor Hotel
+    description: The Windsor Hotel is Melbourne's grandest surviving nineteenth-century hotel, on Spring Street opposite Parliament House, whose Cricketers Bar, open fireplaces and high ceilings Keith Dunstan declared compulsory for any visitor to the city.
+  - name: Sarah Bernhardt
+    description: Sarah Bernhardt was the celebrated French actress, one of the most famous performers of the nineteenth century, who visited Melbourne in the 1890s and stayed at the Menzies Hotel during a tour Keith Dunstan cited as evidence of the city's wealth and international standing.
+  - name: William Butterfield
+    description: William Butterfield was the prominent English Gothic Revival architect who designed St Patrick's Cathedral in Melbourne without ever visiting Australia, producing a bluestone spire of 105 metres that Keith Dunstan said was just capable of looking down on its surroundings.
+  - name: Smacka Fitzgibbon
+    description: Smacka Fitzgibbon was a Melbourne jazz singer who ran Smacka's Place in North Melbourne, whom Keith Dunstan described as 'just possibly the best jazz singer of his generation' and recommended as the first port of call for anyone seeking good fun in the city.
+  - name: Princess Theatre
+    description: The Princess Theatre is Melbourne's ornate nineteenth-century performance venue on Spring Street, a glorious piece of Victorian architecture whose elaborate facade Keith Dunstan noted alongside the old shop fronts of the same Spring Street block.
 ---
 
 Generated by `npm run generate-topics` from every `tags:` entry across the site's content files that has at least 3 page entries (topics below that only appear here if they already have a hand-written description). Re-running the script preserves existing `description` values and only appends topics it hasn't seen before — it never removes or overwrites one. Fill in `description` for each entry as time allows.

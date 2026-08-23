@@ -14,6 +14,7 @@ tags:
   - National Gallery of Victoria
   - Robin Boyd
   - Sidney Myer
+  - Jules Lefebvre
   - Young and Jacksons Hotel
 ---
 
@@ -29,7 +30,7 @@ In those days exhibitions were all the rage. Victoria was terribly inspired by t
 
 The Herald wasn't far out. Before the big opening procession, crowds spent all night on the Treasury steps. Window seats along Spring Street cost a guinea. The procession was led by the Governors of all the colonies in their carriages, followed by the Victorian Chief Secretary, Mr. Berry, in a carriage pulled by two white horses, 3,500 trade unionists, nine bands, 12 fire brigades, 2,159 troopers in their red jackets and 3,000 sailors from the British, French, Italian, German and Victorian navies. His Excellency the Marquis of Normanby opened the Exhibition. The choir sang its cantata. The sopranos wore blue sashes over white dresses and the contraltos red sashes. The Herald said: "The muslin caps of the ladies in contrast with the pale blue sashes, had the soft, delicate appearance of freshly-fallen snow."
 
-And what of the exhibition? The main hall was the Avenue of Nations, Great Britain, Germany, Italy, Japan, France, U.S.A., Russia, Spain and the rest. Judging from the photographs you never saw such a collection of stuff, bird cages, Turkish baths, railway locomotives, railway carriages, biscuits, top hats, hand-powered washing machines, lawn mowers, pianos, billiard tables, reapers and binders, blunderbusses. But in the French exhibit there was something special, a painting by the celebrated Chevalier Jules Lefèbre, brought out just for the occasion, Chloe, the nude painting which stayed to become the beloved of Melbourne and eventually to occupy the place of honour in the saloon bar at Young and Jackson's hotel in Swanston Street.
+And what of the exhibition? The main hall was the Avenue of Nations, Great Britain, Germany, Italy, Japan, France, U.S.A., Russia, Spain and the rest. Judging from the photographs you never saw such a collection of stuff, bird cages, Turkish baths, railway locomotives, railway carriages, biscuits, top hats, hand-powered washing machines, lawn mowers, pianos, billiard tables, reapers and binders, blunderbusses. But in the French exhibit there was something special, a painting by the celebrated Chevalier Jules Lefebvre, brought out just for the occasion, Chloe, the nude painting which stayed to become the beloved of Melbourne and eventually to occupy the place of honour in the saloon bar at Young and Jackson's hotel in Swanston Street.
 
 The judges (male) seemed to treat her very kindly and awarded her a Gold Medal, their highest honour. Controversy about the frightful effect this picture of a naked woman could have on young minds did not start until Chloe went into the Museum in 1883 and the Sabbatarians started their complaints. Sadly, the exhibition of 1963 did not have an exhibit to equal the Chloe of 1880.
 

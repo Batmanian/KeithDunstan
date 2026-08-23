@@ -13,6 +13,7 @@ tags:
   - Menzies Hotel
   - Young and Jacksons Hotel
   - Hotel Australia
+  - Jules Lefebvre
   - Chloe
   - Beer
   - Tom Ford
@@ -102,7 +103,7 @@ We even frowned on barmaids in our hotels. Victoria did not go as far as the Sou
 
 Most of the hotels had no female lavatories and it was social ruin for a lady even to be seen entering a hotel. Slowly this stain disappeared and we acquired the "Ladies Lounge". Here a woman, properly escorted, could be taken for a drink, which would be paid for at a higher price than in the public bar. Even as late as 1969 the unescorted lady was something to be feared. When granting a licence for a new St Kilda cabaret, Judge O'Driscoll warned the nominee: "The commission will not tolerate women attending without an escort."
 
-In 1970 the Licensing Commission granted a number of tavern licences. The Hotel Australia in Melbourne had one, a new tavern called Matilda's was another. Glory be, they had carpet on the floor, pictures on the wall, leather and wood panelling and another, called the Eureka Stockade, had gorgeous male-female lavatories. The doors were labelled "Gentlemen" and "Gentlewomen" Young & Jackson's which sported Melbourne's number one icon, the nude painting of Chloe also applied for a tavern licence. This was an event so extraordinary I thought it important to interview Chloe herself on the subject. Chloe you must understand was a lovely French girl, painted by the celebrated artist Jules LeFebvre in 1875. The painting came to Australia for the great International Exhibition of 1880-81. I had heard that she was not a bit pleased about the proposed tavern licence.
+In 1970 the Licensing Commission granted a number of tavern licences. The Hotel Australia in Melbourne had one, a new tavern called Matilda's was another. Glory be, they had carpet on the floor, pictures on the wall, leather and wood panelling and another, called the Eureka Stockade, had gorgeous male-female lavatories. The doors were labelled "Gentlemen" and "Gentlewomen" Young & Jackson's which sported Melbourne's number one icon, the nude painting of Chloe also applied for a tavern licence. This was an event so extraordinary I thought it important to interview Chloe herself on the subject. Chloe you must understand was a lovely French girl, painted by the celebrated artist Jules Lefebvre in 1875. The painting came to Australia for the great International Exhibition of 1880-81. I had heard that she was not a bit pleased about the proposed tavern licence.
 
    D: I've always liked you, but tell me, why do you object to this tavern licence?
 

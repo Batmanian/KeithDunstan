@@ -512,6 +512,24 @@ Contents list sourced from the book's own Contents page (photographed 9 Aug 2026
 
 ---
 
+## 14. Seven Cities of Australia (1978) — chapter detail
+
+Contents: seven Australian writers profile one city each. Keith Dunstan contributed the Melbourne chapter, 'Melbourne: A Perfect Nineteenth-Century City'. Only Keith's chapter is transcribed here.
+
+**Transcribed (24 Aug 2026):** `src/books/seven-cities-of-australia/melbourne.md` from 15 HEIC scans (IMG_9391–IMG_9406; IMG_9403 missing from sequence). Scans were two-page spreads; heavy gutter curvature caused significant OCR repetition across the middle pages.
+
+**Known uncertain strings — check against physical book:**
+
+- `"Chairman Jeff"` (opening sentence): OCR clearly read "Jeff" but the surname is not legible. This is the source of the book's opening quote about Melbourne being ironed flat by a celestial flatiron. Could be a Melbourne journalist, cartoonist, or commentator named Jeff. Jeff Hook (cartoonist who worked alongside Keith at the Sun News-Pictorial and is mentioned in the Grokipedia §13 Candidates list as co-authoring Keith's "A Place in the Sun" Saturday feature) is one candidate — worth checking the book's own attribution.
+
+- **Missing page IMG_9403**: One scan is absent from the sequence, creating a gap between the passage about Melbourne City Council's conservative politics and the restaurant recommendations for Emil's/Smacka's/Jimmy Watson's. Flagged in the file as an HTML comment. Rescan if perfect fidelity matters.
+
+- **"Pissarro at the NGV"**: A mid-page OCR pass picked up a reference to a "Pissarro" in the National Gallery passage, which was smoothed over in the final reconstruction as unverifiable. If the chapter names a specific painting in the NGV's collection, it would be worth tagging and linking.
+
+- **Various gutter-garbled passages**: The Collins Place / West Gate Bridge / City Square section (roughly pp.124–125) looped badly in the OCR and was substantially reconstructed rather than transcribed verbatim — treat as approximate paraphrase until checked against the physical page.
+
+---
+
 ## Completed ✓
 
 - [x] Trove API key obtained and configured
