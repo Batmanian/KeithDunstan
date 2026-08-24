@@ -276,6 +276,8 @@ topics:
     description: Cabrini Hospital is a Catholic private hospital in Malvern, where Walter Hauser, one of the Vienna Mozart Boys' Choir singers stranded in Melbourne by the outbreak of war in 1939, died after a long illness in 2012.
   - name: Calvin Klein
     description: Calvin Klein is the American fashion designer whose provocative 1980s jeans advertising made 'Calvins' shorthand for designer denim, and whose blunt verdict that 'jeans are sex' Keith Dunstan used as a chapter epigraph in his history of Just Jeans.
+  - name: Camberwell
+    description: Camberwell is the Melbourne middle-class suburb whose temperance character, shaped by the Coffee Palace promoter James Munro and his circle, was strong enough to deliver two of only three Victorian Local Option districts that voted for total prohibition in 1920 and stayed dry until after the Second World War.
   - name: Canberra
     description: Canberra is Australia's purpose-built national capital, whose founding King O'Malley championed with fruit-cake oratory and which Keith Dunstan visited on assignment during Royal Tours, complete with buildings painted only on the side the Queen would see.
   - name: Cape York Peninsula
@@ -380,6 +382,8 @@ topics:
     description: Domenico Italiano, known as 'Il Papa', was the reputed boss of Melbourne's Italian criminal fraternity whose peaceful 1962 death at 65 triggered a violent 'war of succession' among market fruit merchants that Keith Dunstan covered through its lavish Chicago-style funerals.
   - name: Don Bradman
     description: Don Bradman was the Australian cricketer whose Test batting average of 99.94 remains the sport's defining statistic, a name Keith Dunstan reached for whenever he wanted a shorthand for sporting greatness, from remote-control fantasies of rewatching old Ashes footage to comparisons with Australia's later champions.
+  - name: Donald Dunstan
+    description: Donald Dunstan was the reforming Labor Premier of South Australia who served two terms from 1967 to 1979, and whose new licensing legislation extending hotel trading hours to 10 p.m. ended the state's era of six o'clock closing, the event with which Keith Dunstan closed 'Wowsers'.
   - name: Donald Horne
     description: Donald Horne was the author and social critic best known for 'The Lucky Country', whose writing on Australians' ingrained distrust of authority and the police Keith Dunstan cited to explain the enduring appeal of Ned Kelly.
   - name: Doug Crittenden
@@ -438,6 +442,8 @@ topics:
     description: The Royal Exhibition Building is Melbourne's grand 1880s Carlton Gardens hall, built for the International Exhibitions of the Victorian boom years and revived a century later as the venue for 1963's World Power Conference and Trade Fair, a comeback Keith Dunstan traced from would-be demolition target to civic pride.
   - name: Exhibition Street
     description: Exhibition Street is one of the Melbourne CBD's main thoroughfares, home in the early 1960s to the newly built Southern Cross Hotel that Keith Dunstan toured for its novelties on opening.
+  - name: Federal Coffee Palace
+    description: The Federal Coffee Palace was James Munro's grandest temperance venture, a vast Melbourne hotel without a licence that opened in 1888 at the height of the Coffee Palace boom, was eventually quietly serving wine within a decade, and collapsed with the 1890s depression, taking Munro's fortune with it.
   - name: Fitzroy
     description: Fitzroy is the inner Melbourne suburb immediately north-east of the city, historically working-class and a byword for the opposite of Toorak's polish, which Keith Dunstan used as the backdrop for a joyriding car crash and brawl reported live on radio station 3UZ's Sunday-morning 'Newsbeat'.
   - name: Flemington
@@ -472,6 +478,8 @@ topics:
     description: Geelong Grammar School is the elite Anglican boarding school on Victoria's Bellarine Peninsula where Keith Dunstan boarded from 1939 through a rigid prefect hierarchy, and which decades later became briefly famous as the school Prince Charles attended at its bush campus, Timbertop.
   - name: Gembrook
     description: Gembrook is the town at the end of the narrow-gauge Puffing Billy line through the Dandenong Ranges, and the district where used-car dealer Emmanuel Margolin's cattle stud, Langley Park, was sold off for a fraction of its value during his credit-squeeze collapse.
+  - name: Geoffrey Blainey
+    description: Geoffrey Blainey is one of Australia's most prolific and readable historians, whose 'A History of Camberwell' Keith Dunstan drew on in 'Wowsers' to explain why the Melbourne suburb voted itself dry in 1920 and stayed that way for a generation.
   - name: Georg Gruber
     description: Georg Gruber conducted the Vienna Boys Choir from 1933 to 1937 before founding his own touring ensemble, the Vienna Mozart Boys' Choir, in 1938, recruiting talents like Walter Hauser for a nine-month world tour that stranded the boys in Australia when war broke out.
   - name: Georges
@@ -548,6 +556,8 @@ topics:
     description: James Dean was the young American actor whose denim-clad, doomed rebel in 'Rebel Without a Cause' Keith Dunstan credited with sealing jeans as the uniform of 1950s teenage defiance.
   - name: James Halliday
     description: James Halliday is Australia's foremost wine writer and judge, a Sydney wine-society regular of the 1960s and 70s who went on to found and run several pioneering Australian vineyards, and whom Keith Dunstan called on every vintage to assess his own small crop of grapes.
+  - name: James Munro
+    description: James Munro was Premier of Victoria from 1890 to 1892 and the leading champion of the Coffee Palace movement, convinced that a grand hotel without a bar could replace the public house as the centre of colonial social life, a dream that ended in financial ruin during the 1890s depression.
   - name: Jean Shrimpton
     description: ''
   - name: Jeff Hook
@@ -598,6 +608,8 @@ topics:
     description: Julia Gillard was the Australian Prime Minister from 2010 to 2013, whom Keith Dunstan mock-solemnly proposed enlisting, alongside Kevin Rudd, in a diplomatic charm offensive of touring, ostentatiously gracious Australian sporting teams.
   - name: June Bronhill
     description: June Bronhill was an acclaimed Australian operatic soprano of the 1950s and 60s, whose star power Keith Dunstan invoked in pieces on both Melbourne's fleeting cultural pretensions and its taste for genuine theatrical ghost stories.
+  - name: Kalgoorlie
+    description: Kalgoorlie is the Western Australian goldfields city that boomed after the 1893 gold rush, whose barmaids inspired a verse that circulated through the goldfields and was reproduced in Keith Dunstan's 'Wowsers' as evidence of the temperance movement's running battle with the culture of the mining camp pub.
   - name: Kardinia Park
     description: Kardinia Park is Geelong Football Club's home ground, where a thousand-odd fans gathered the day after the 1963 Grand Final to watch a mock funeral for a shot sparrowhawk, standing in for vanquished rival Hawthorn, complete with prayer book and hymn.
   - name: Kathleen Quealy
@@ -606,6 +618,8 @@ topics:
     description: Kevin Dennis was Melbourne's biggest individual used-car dealer in the early 1960s, built on the 'face' principle of blanketing newspapers and TV with his own round, bespectacled features until his showroom found itself in direct competition with a returned, re-financed Emmanuel Margolin.
   - name: Kevin Rudd
     description: Kevin Rudd was the former Prime Minister serving as Julia Gillard's Foreign Minister from 2010, the other half of the 'Julia and Kevin' double act Keith Dunstan proposed briefing on his plan to charm hostile sporting nations with unfailingly well-mannered Australian touring sides.
+  - name: King O'Malley
+    description: King O'Malley was a flamboyant American-born politician who represented South Australia and later the ACT in Federal Parliament, best known for his fiery oratory against barmaids, whose 1896 speech in the South Australian Parliament arguing for their removal became one of the set pieces of the temperance debate.
   - name: King's Cross
     description: King's Cross is Sydney's bohemian, red-light entertainment district, the natural backdrop for the eccentrics — from a homecoming Barry Humphries to the 'ratbags' of Keith Dunstan's book of that name — who didn't fit Australia's more conformist suburbs.
   - name: Kooyong
@@ -820,6 +834,8 @@ topics:
     description: Reg Ansett founded Ansett Airlines and was among the assembled aviation pioneers at the 1964 Avalon handover of Australia's first locally built Mirage III jet fighter.
   - name: Regent Theatre
     description: The Regent Theatre is one of Melbourne's grand 1920s picture palaces, which opened in 1929 in a well-publicised race with its rival the State, and home to the Mighty Wurlitzer organ Keith Dunstan watched virtuoso Tony Fenelon put through its paces in 1966.
+  - name: Renmark
+    description: Renmark is a South Australian irrigation town on the Murray River founded by the Chaffey brothers in the 1880s under an agreement forbidding any liquor licence, making it one of the few settlements in Australian history to begin life as a legally enforced dry colony.
   - name: Richard Burton
     description: Richard Burton was the Welsh actor whose co-star and off-screen romance with Elizabeth Taylor in 'Cleopatra' made the couple's absence keenly felt when Melbourne finally staged its own belated, gold-draped premiere of the film in March 1964.
   - name: Richmond Brewery
@@ -860,6 +876,8 @@ topics:
     description: ''
   - name: Sammy Davis Jr
     description: Sammy Davis Jr was the American singer, dancer and Rat Pack entertainer, a name flashy enough that Keith Dunstan gave it to one of the giant show dahlias he grew for the sheer vulgar pleasure of being noticed.
+  - name: Samuel Mauger
+    description: Samuel Mauger was a Melbourne City Councillor and the most prominent temperance campaigner in colonial Victoria, a man who could find depravity anywhere and who pursued the liquor trade, barmaids, and Sunday trading with equal enthusiasm across several decades of public life.
   - name: Sandown Park
     description: Sandown Park was a rebuilt Melbourne racecourse opposite the Springvale Crematorium whose 1963 merger of the Melbourne Racing Club into the Victoria Amateur Turf Club, against VRC objections, redrew the balance of power and TAB revenue across Victoria's racing clubs.
   - name: Savoy Theatre
@@ -1044,6 +1062,10 @@ topics:
     description: Wine runs through Keith Dunstan's writing as both subject and personal obsession, from a schoolboy's furtive sips of sacramental wine at Geelong Grammar to decades as a professional taster and, eventually, an amateur vigneron, all recounted at length in 'My Life with the Demon'.
   - name: Winemaking
     description: Winemaking became Keith Dunstan's own late-life trade when he and Marie planted a small vineyard on the Mornington Peninsula, an unglamorous slog of pruning, netting, spraying and waiting he chronicled, warts and all, in 'My Life with the Demon'.
+  - name: Williamstown
+    description: Williamstown is Melbourne's historic port suburb on the western shore of Port Phillip Bay, a stronghold of temperance sentiment in the 1880s whose Local Option poll Keith Dunstan cited in 'Wowsers' as one of the first tests of the Berry Bill.
+  - name: Women's Christian Temperance Union
+    description: The Women's Christian Temperance Union was the most powerful temperance organisation in colonial Australia, whose members wore the blue ribbon as a pledge of abstinence, organised petitions hundreds of metres long, and campaigned decades for the six o'clock closing that finally came to Victoria in 1916.
   - name: Wirraway
     description: The Wirraway was the single-engined training aircraft the young Keith Dunstan flew during his RAAF training in 1943, chosen over the twin-engined Avro Anson in the hope of one day flying fighters.
   - name: Wolf Blass
@@ -1212,6 +1234,10 @@ topics:
     description: Smacka Fitzgibbon was a Melbourne jazz singer who ran Smacka's Place in North Melbourne, whom Keith Dunstan described as 'just possibly the best jazz singer of his generation' and recommended as the first port of call for anyone seeking good fun in the city.
   - name: Princess Theatre
     description: The Princess Theatre is Melbourne's ornate nineteenth-century performance venue on Spring Street, a glorious piece of Victorian architecture whose elaborate facade Keith Dunstan noted alongside the old shop fronts of the same Spring Street block.
+  - name: Dick Hamer
+    description: Dick Hamer (Rupert James Hamer, 1916-2004) was Premier of Victoria from 1972 to 1981, a liberal-minded Liberal leader who introduced the 'Garden State' branding that Keith Dunstan recorded as the civic ambition of the Hamer era.
+  - name: Ian Turner
+    description: Ian Turner (1922-1978) was an Australian historian and academic at Monash University, who Keith Dunstan quoted observing that Melbourne was the only city in the world where you could go into any local pub and hear the same conversation — meaning football.
 ---
 
 Generated by `npm run generate-topics` from every `tags:` entry across the site's content files that has at least 3 page entries (topics below that only appear here if they already have a hand-written description). Re-running the script preserves existing `description` values and only appends topics it hasn't seen before — it never removes or overwrites one. Fill in `description` for each entry as time allows.

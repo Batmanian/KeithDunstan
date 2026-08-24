@@ -324,6 +324,7 @@ For publications not in Trove, physical copies must be sourced and scanned. Foll
 ---
 
 ## 8. Site — Technical
+- [ ] **Sort tags alphabetically across all existing files** — new rule added to `CLAUDE.md` (Aug 2026): `tags:` blocks must be sorted case-insensitively. All existing `src/articles/` and `src/books/` `.md` files pre-date this rule and need a retrospective pass. A `grep`/script approach is practical: for each file, extract the `tags:` YAML block, sort it, write it back. Worth batching rather than fixing one file at a time.
 - [ ] **Review `src/robots.txt` AI-crawler list quarterly** — user-agent names for AI search/retrieval vs. model-training crawlers churn more than anything else on the site; next review due Oct 2026. See also `/licence/`, `/llms.txt` and `/.well-known/tdmrep.json` (added 29 Jul 2026) — the reuse/licensing signals all reference each other and should be reviewed together.
 - [ ] **OG descrptions — add summaries from 'Topic' pages to OG descriptions
 - [x] **Hide low ranked topics** — the topic cloud on `/search.html` (`src/_includes/snippets/tagslist.njk`) now only shows topics with more than 3 page entries; the "N topics" count reflects what's shown. All topics keep their own `/topic/{slug}/` page and data (nothing deleted) — only the browse list is filtered.
@@ -522,7 +523,7 @@ Contents: seven Australian writers profile one city each. Keith Dunstan contribu
 
 - `"Chairman Jeff"` (opening sentence): OCR clearly read "Jeff" but the surname is not legible. This is the source of the book's opening quote about Melbourne being ironed flat by a celestial flatiron. Could be a Melbourne journalist, cartoonist, or commentator named Jeff. Jeff Hook (cartoonist who worked alongside Keith at the Sun News-Pictorial and is mentioned in the Grokipedia §13 Candidates list as co-authoring Keith's "A Place in the Sun" Saturday feature) is one candidate — worth checking the book's own attribution.
 
-- **Missing page IMG_9403**: One scan is absent from the sequence, creating a gap between the passage about Melbourne City Council's conservative politics and the restaurant recommendations for Emil's/Smacka's/Jimmy Watson's. Flagged in the file as an HTML comment. Rescan if perfect fidelity matters.
+- ~~**Missing page IMG_9403**~~: Scan supplied 24 Aug 2026 and transcribed. Left-hand page recovered (MCG atmosphere, Australian Rules obsession, Ian Turner/Monash quote, Gough Whitlam as Collingwood supporter, 1866 suburban rivalries, Trollope 1873, Premier Hamer's Garden State). Right-hand page (the transition to restaurant recommendations) is too gutter-shadowed to read; an HTML comment marks the gap in the file.
 
 - **"Pissarro at the NGV"**: A mid-page OCR pass picked up a reference to a "Pissarro" in the National Gallery passage, which was smoothed over in the final reconstruction as unverifiable. If the chapter names a specific painting in the NGV's collection, it would be worth tagging and linking.
 

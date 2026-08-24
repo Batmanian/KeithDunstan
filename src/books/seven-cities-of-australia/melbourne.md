@@ -4,6 +4,7 @@ date: 1978-01-01
 summary: A portrait of Melbourne in the 1978 anthology, tracing its gold rush bravado, the 1892 bank crash and lasting inferiority complex, Toorak snobbery and the finest buildings, before closing with restaurant recommendations ranging from Emil's in Lonsdale Street to Smacka Fitzgibbon's jazz bar in North Melbourne.
 tags:
   - Melbourne
+  - Mietta O'Donnell
   - Toorak
   - Collins Street
   - St Kilda
@@ -29,6 +30,14 @@ tags:
   - William Butterfield
   - Bruce Beresford
   - Henry Handel Richardson
+  - Gough Whitlam
+  - Anthony Trollope
+  - Collingwood
+  - Fitzroy
+  - Essendon
+  - Carlton
+  - Dick Hamer
+  - Ian Turner
 ---
 
 **Chairman Jeff** once wrote: 'Melbourne seems to have been ironed out by a celestial flatiron determined to smooth out every crease and wrinkle for the sake of making tram tracks.' It is flat — ideal for trams, bicycles, roller skates or for bowling a hoop.
@@ -75,7 +84,17 @@ My tourist and I would pause for a beer in the Cricketers Bar at the Windsor; I 
 
 Melbourne City Council is so arranged that never since Melbourne became a city has it had a Lord Mayor who is working class. This has made me just a little proud. We might be the massage parlour gambling capital of the world, but we do work at it.
 
-<!-- Page IMG_9403 of the original source is missing from the scan sequence — some content here is not captured. -->
+Even when no match is taking place it is a strange experience to walk to the centre of the MCG and feel faintly overwhelmed. Yet it is fascinating and quite extraordinary to be there with a capacity crowd of 100,000 people. The noise is overwhelming — like a soup-powered Wagnerian organ drowning everything, a frightening and inspiring thing.
+
+You hear it at a Test match, late in the afternoon when the day is going well. And then they start to roll their empty cans down the precipitous colosseum steps and the sound is unlike anything else. It is a Melburnian sound, as Melburnian as meat pies and tomato sauce.
+
+Professor Ian Turner of Monash University used to say that Melbourne was the only city in the world where you could go into any local pub and hear the same conversation. Even Gough Whitlam, who is not a Victorian at all, became a passionate Collingwood supporter.
+
+But I think there are three reasons for the Victorian obsession with Australian Rules football. It is genuinely a most spectacular game, beautiful to watch. The second reason is the passion you might give to the arrival of the Pope, and the third reason is historical. Back in 1866 there were no tennis matches, no cricket, no golf, no polo, no race meetings, and the rivalry between the suburbs was intense. The people of Collingwood stared at the citizens of Fitzroy. The residents of Richmond were cocky and overbearing. The suburbs of Carlton and South Melbourne eyed the citizens of Essendon. There were even cases of female spectators indulging in battles with each other.
+
+The great English novelist Anthony Trollope found it very rugged and always worth watching in 1873. Premier Hamer wants us to be known as the Garden State.
+
+<!-- The right-hand page of this spread (IMG_9403) is too heavily gutter-shadowed to recover — the transition paragraph between this section and the restaurant recommendations is lost. -->
 
 You should go to Emil's restaurant in Lonsdale Street — very elegant, and Swiss. And if you are looking for good fun, go to North Melbourne to Smacka's Place. Smacka Fitzgibbon owns it and he's just possibly the best jazz singer of his generation. Then there's Jimmy Watson's in Lygon Street — he has a wine bar you can eat in. There's Mietta's in Collins Street. You know the old Young and Jacksons Hotel facing Melbourne's Flinders Street Station — the painting of Chloe is still there. You can eat there too.
 
