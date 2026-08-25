@@ -26,7 +26,7 @@ Last updated: 15 August 2026.
 | Supporting a Column | 1966 | 9 | 9 | 0 | 0 | Complete |
 | The Australian Upper Crust Book | 1971 | 1 (Keith's chapter only) | 1 | 0 | 0 | Complete as scoped — other authors' chapters out of scope |
 | Ratbags | 1980 | 26 (foreword + intro + 24 profiles) | 26 | 0 | 0 | Complete — see §2 for chapter detail |
-| Wowsers | 1968 | 10 | 2 | 0 | 8 | The 6 empty `.mx` placeholder stubs previously tracked here (chapters 3–8) no longer exist on disk — see §3 for detail |
+| Wowsers | 1968 | 10 | 6 | 0 | 4 | Chapters 4–6 transcribed 25 Aug 2026 from new scans; chapter 3 was already live and this row was stale — see §3 for detail |
 | A Day in the Life of Australia | 1989 | 258 known daily entries | 8 | 11 📝 | 239 | See §4 — scale makes full per-entry tracking impractical |
 | Batman in the Bulletin | 2004 | Themed excerpt collection, not chapters | — | — | — | Sourced from Bulletin articles directly; see §5 |
 | Kiwi | 2017 | ? | 0 | 0 | ❓ | Not started — no scans, no source material logged |
@@ -91,10 +91,10 @@ Contents list sourced from `src/wowsers.njk`.
 |---|---|---|---|
 | 1 | Wowser | ✅ | |
 | 2 | The Evil of the Desecration of the Sabbath | ✅ | |
-| 3 | The Evil of the Demon Drink | ⬜ | No file exists. Has 6 sub-sections in the original contents (The Sots, The Glorious Days of Abstinence, The Seductive Lures, Prohibition, Sober by Law, Six O'Clock Closing) not yet reflected in any file |
-| 4 | The Evil of Smoking | ⬜ | No file exists |
-| 5 | The Theatre Evil and the Evil of Dancing | ⬜ | No file exists |
-| 6 | The Evil of Bathing | ⬜ | No file exists |
+| 3 | The Evil of the Demon Drink | ✅ | Table was stale — file already existed with all 6 sub-sections |
+| 4 | The Evil of Smoking | ✅ | |
+| 5 | The Theatre Evil and the Evil of Dancing | ✅ | Page 141 is a full-page Bulletin illustration; its short caption (referencing Bishop Perry) is largely obscured in the scan and was not transcribed — noted inline in the file with an HTML comment |
+| 6 | The Evil of Bathing | ✅ | Page 151 is a full-page Bulletin illustration (bather/non-bather dialogue joke); the caption text is largely obscured in the scan and was not transcribed — noted inline in the file with an HTML comment |
 | 7 | The Evil of Cremation | ⬜ | No file exists |
 | 8 | The Evil of the Social Evil | ⬜ | No file exists |
 | 9 | The Evil of the Printed Word | ⬜ | No file exists at all |

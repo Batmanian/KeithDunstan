@@ -184,7 +184,7 @@ module.exports = function(eleventyConfig) {
     Object.keys(tagsObject).forEach(tag => {
       tagList.push({ tagName: tag, tagCount: tagsObject[tag] })
     })
-    return tagList.sort((a, b) => b.tagCount - a.tagCount)
+    return tagList.sort((a, b) => a.tagName.localeCompare(b.tagName))
 
   });
 

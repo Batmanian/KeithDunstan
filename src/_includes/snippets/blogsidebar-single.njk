@@ -1,4 +1,4 @@
-{% set pageTags = tags | filterTagList %}
+{% set pageTags = tags | filterTagList | sort %}
 
 {% macro relatedTopicsList() %}
   {%- for tag in pageTags %}

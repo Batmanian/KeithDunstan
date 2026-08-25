@@ -1,0 +1,433 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Theatre Evil and the Evil of Dancing</title>
+<meta name="title" content="The Theatre Evil and the Evil of Dancing">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Traces the long campaign against theatre-going and dancing as gateways to vice, from Dr Adam Cairns&#39;s hellfire 1856 lecture and Bishop Moorhouse&#39;s scandalous 1877 invitation of the actor William Creswick to Bishopcourt, through John Alexander Dowie&#39;s crusade against &#39;the terrible trinity of Venus, Bacchus, and the Drama&#39;, to the Methodist church&#39;s long, losing rearguard action against the dance hall.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/wowsers/5-the-theatre-evil-and-the-evil-of-dancing/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="The Theatre Evil and the Evil of Dancing">
+<meta property="og:description" content="Traces the long campaign against theatre-going and dancing as gateways to vice, from Dr Adam Cairns&#39;s hellfire 1856 lecture and Bishop Moorhouse&#39;s scandalous 1877 invitation of the actor William Creswick to Bishopcourt, through John Alexander Dowie&#39;s crusade against &#39;the terrible trinity of Venus, Bacchus, and the Drama&#39;, to the Methodist church&#39;s long, losing rearguard action against the dance hall.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="The Theatre Evil and the Evil of Dancing">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/wowsers/5-the-theatre-evil-and-the-evil-of-dancing/">
+<meta name="twitter:title" content="The Theatre Evil and the Evil of Dancing">
+<meta name="twitter:description" content="Traces the long campaign against theatre-going and dancing as gateways to vice, from Dr Adam Cairns&#39;s hellfire 1856 lecture and Bishop Moorhouse&#39;s scandalous 1877 invitation of the actor William Creswick to Bishopcourt, through John Alexander Dowie&#39;s crusade against &#39;the terrible trinity of Venus, Bacchus, and the Drama&#39;, to the Methodist church&#39;s long, losing rearguard action against the dance hall.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="The Theatre Evil and the Evil of Dancing">
+<link rel="canonical" href="https://keithdunstan.org/books/wowsers/5-the-theatre-evil-and-the-evil-of-dancing/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1968-11-11">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="Wowsers">
+<meta property="article:tag" content="(Bishop) Charles Perry">
+<meta property="article:tag" content="(Bishop) James Moorhouse">
+<meta property="article:tag" content="John Alexander Dowie">
+<meta property="article:tag" content="Rev Dr Adam Cairns">
+<meta property="article:tag" content="Rev W.F. Betts">
+<meta property="article:tag" content="William Creswick">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">The Theatre Evil and the Evil of Dancing</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            14
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1968-11-11">1968</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Traces the long campaign against theatre-going and dancing as gateways to vice, from Dr Adam Cairns&#39;s hellfire 1856 lecture and Bishop Moorhouse&#39;s scandalous 1877 invitation of the actor William Creswick to Bishopcourt, through John Alexander Dowie&#39;s crusade against &#39;the terrible trinity of Venus, Bacchus, and the Drama&#39;, to the Methodist church&#39;s long, losing rearguard action against the dance hall.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="Wowsers">
+         <!--<a href="/tags/(bishop)-charles-perry/" class="btn btn-outline-dark btn-sm me-2">(Bishop) Charles Perry</a><a href="/tags/(bishop)-james-moorhouse/" class="btn btn-outline-dark btn-sm me-2">(Bishop) James Moorhouse</a><a href="/tags/john-alexander-dowie/" class="btn btn-outline-dark btn-sm me-2">John Alexander Dowie</a><a href="/tags/rev-dr-adam-cairns/" class="btn btn-outline-dark btn-sm me-2">Rev Dr Adam Cairns</a><a href="/tags/rev-w.f.-betts/" class="btn btn-outline-dark btn-sm me-2">Rev W.F. Betts</a><a href="/tags/william-creswick/" class="btn btn-outline-dark btn-sm me-2">William Creswick</a>-->
+
+        
+      </header>
+      <p>In the colonial days there was the feeling amongst sober, proper people that all pleasure-seeking was evil, the playing of card games, the reading of fiction, wasteful idling; but if one had to point to shameful evils, then very high on the list were the evils of dancing and theatre-going.</p>
+<p>One of the great men in the church in young Victoria was the Reverend Dr Adam Cairns, a bearded white-haired patriarchal gentleman, who looked like one of the great prophets. He was born in Lonfargan, Perthshire in 1802 and he came to Melbourne in September 1853 at the height of the Gold Rush. He founded Chalmers Street Presbyterian Church, East Melbourne and he was one of the chief founders of Scotch College, Melbourne. There was little pulpit talent in Melbourne and in the hellfire school Adam Cairns was supreme. Nobody else in town could match him and, hence, his congregations were large.</p>
+<p>On 29 May 1856 he gave a lecture to the Early Closing Association. This lecture was considered so splendid, so full of good advice to young men, that it was printed in pamphlet form and distributed by the thousand as a reliable text on the subject. Here is an extract:</p>
+<p>'We know of no instance of good effected by stage playing, either to young or old; but we do know of many an example of moral wreck and degradation, the bitter fruit of indulgence in this enticing pleasure. A youth is tempted to frequent this place of diversion. He ceases from prayer; he absents himself from the sanctuary; imagination is excited; conscience slumbers; and the risk is imminent that he become the slave of some lust, or perhaps the perpetrator of some crime. The public acting of men and women; the vivid portraying of the warmest and wildest passions; the progress and development of amorous intrigue; the impassioned look; the wanton gesture; the allusion and equivoque; the sly hint and the significant innuendo; the witchery of female loveliness in distress or in repose; are all fitted, and are all powerful to stimulate the sensual affections, and to intoxicate the gazer as with a cup of sorcery. And well do the veterans in vice know the potency of this bewildering spell. Hither is the thoughtless maiden enticed, that her modesty may lose its shrinking sensitiveness, and the zone of her virtue be loosened, if not untied. It is proof enough of the inherent malignity of the system, that the brothel flourishes wheresoever a theatre is established. The one seems to grow best under the shadow of the other; and prostitution, though not expressly taught by the language of the exhibitions of the stage, has ever been fostered by the influence of its artificial displays.'<a href="#1"><sup>1</sup></a></p>
+<p>Dr Cairns had a good argument when he mentioned the brothels, because many theatres of the day were favourite pick-up areas for prostitutes. The vestibule at the Theatre Royal in Bourke Street, Melbourne, was the favourite hunting ground. It was known everywhere under the enchanting name of 'The Saddling Paddock' and legend has it that it was here that the young Duke of Edinburgh, Queen Victoria's second son, found his filly for the night. But whether the girls in the vestibule implied that the girls on the stage had to be immoral is another matter . . .</p>
+<p>However, the Reverend Hugh Johnson, M.A., B.D., thought so. Writing in <em>The Spectator,</em> he said:</p>
+<p>It is wrong to cross the threshold of an institution three-quarters of whose influence is pernicious and poisonous. It's very advertisements are an appeal to lust. What is the idea of exhibiting young women, not only improperly but indecently clothed—so clad to the eye of the audience they seem, and are meant to seem, almost naked? Does anyone need to be told why? Simply to breed lust and furnish candidates for the brothel. I would like to ask some of you admirers of scantily dressed fairies in pink tights, how would you like that form to be your daughter, your sister, your wife? Yet she is somebody's child, somebody's sister.<a href="#2"><sup>2</sup></a></p>
+<p>For the Anglican church, the great breakthrough came in 1877. The noted Shakespearean actor, William Creswick, was in Melbourne. The advertisements in the newspapers said:</p>
+<p style="text-align:center">BIJOU THEATRE</p>
+<p style="text-align:center">William Creswick Appearing 56th Night.</p>
+<p style="text-align:center">WILLIAM TELL</p>
+<p style="text-align:center">Dress Circle 3s. Stalls 2s.<br>
+Family Circle 1s. Upper Circle 6d.</p>
+<p style="text-align:center">Hundreds turned away. Another Triumph.</p>
+<p style="text-align:center">EVERYONE DELIGHTED!</p>
+<p>On 26 October, the Bishop of Melbourne asked William Creswick to Bishopcourt. Even more astonishingly, he asked all Melbourne's leading clergy with the object of hearing dramatic readings from Mr Creswick. According to the Melbourne <em>Daily Telegraph</em><a href="#3"><sup>3</sup></a> only one clergyman refused the invitation to meet the actor, and incredibly, among the accepters was Dr Adam Cairns, now seventy-five and retired.</p>
+<p>The <em>Telegraph</em> said that the eminent and scholarly tragedian held his 'sedate hearers spellbound, except when their hardly suppressed enthusiasm burst forth'. He read from 'As You Like It', the arbor scene in 'Much Ado About Nothing', the trial scene from 'The Merchant of Venice', the graveyard scene from 'Hamlet' and Wolsey's dying words in 'Henry VIII'.</p>
+<p>According to the <em>Telegraph</em> it was a charming function but it prompted some furious letters. One said: 'The thing is simply monstrous. Has the theatre ceased to be less obnoxious than it was formerly? I think not . . . Depend upon it, Sir, if the Church of Christ is to grapple with the great spiritual needs of the colony it will not be done by the instrumentality of theatre-going, pleasure-seeking clergymen.'</p>
+<p>The Reverend John Watsford, a Methodist clergyman of Emerald Hill, said that Melbourne would be greatly grieved and added: 'If the Reverend gentlemen who were at the reading would go with their wives and daughters into Bourke Street any evening just before the theatres close, they could not remain for five minutes for there are sights there to be seen that are a disgrace to our city.'<a href="#4"><sup>4</sup></a></p>
+<p>Yet the Bishop had one very strong defender, under the name 'Synesius'. He pointed out that Bishop Moorhouse was one of the new 'broad' clergy, and not a 'low' evangelical like his predecessor, Bishop Perry. He was prepared to do what he felt was right, regardless of the Mrs Grundys. He said: 'This is, I believe, the first systematic effort ever made in this colony to break down the middle wall of partition between the Church and the World, so that the bigoted prejudice which exists in the minds of so many Christians against the theatre, as if it were one great feeder of immorality, may be removed'.<a href="#5"><sup>5</sup></a></p>
+<p>The opposition to the Theatre was never quite as strong again, but nevertheless there were some splendid barrages. A good sniper was the Reverend John Alexander Dowie, the founder of the Christian Catholic Church of Zion. He was born in Edinburgh and raised in Adelaide, and became so brilliant as a faith healer that he started a chain of churches across the U.S.A. Apart from not being able to partake of liquor and tobacco, his members were also forbidden to eat swine's flesh and oysters, and seeing that he had a large number of devotees in Sydney the oyster clause must have been particularly onerous.</p>
+<p>At a meeting in the Victoria Theatre, Sydney, he said that the terrible trinity of Venus, Bacchus, and the Drama were destroying the city. Within a pistol shot of the Theatre Royal corner of Castlereagh and King Streets he counted twenty-five public houses, many of which were houses of shame.</p>
+<p>For a man who condemned drama he had a marvellous gift for it himself. Here was a famous piece of Dowie:</p>
+<p>Look I have a glass of water here and I will drink it on faith. But somebody comes up here now and says, 'Wait a minute, Mr Dowie, before you drink this I have something I would like to put in it, about a quarter of a teaspoon of arsenic' . . . He does put it in. 'Drink this now, Sir.'</p>
+<p>'No, indeed,' I reply.</p>
+<p>'But why? You can't even see it.'</p>
+<p>'No matter,' I answer, 'although I cannot detect the arsenic in the water I know it is there. If I drink, I die.'</p>
+<p>That glass of poisoned water represents the Drama.<a href="#6"><sup>6</sup></a></p>
+<p>Dowie was against all theatre from the ancient Greek drama to the present. He was against <em>Uncle Tom's Cabin,</em> he was against Carlyle, against Boucicault and even Shakespeare 'didn't write one play that was historically correct'.</p>
+<p>In the classic tradition of pulpit oratory he was one of the greatest: 'In God's name, I say to the Drama—Thou whited sepulchre, come down! Thou hast a countenance outwardly beautiful, as that of the fairest woman; but thou hast also, like the destroying Sphinx, in Grecian fable, the claws of a vulture, the soul of a liar, and the bosom of a seducer. Would God the earth were quickly and forever rid of thee.'</p>
+<p>Even in 1909 <em>The Spectator</em> was wondering if it were possible for actors or actresses to be Christians, and the feeling seemed to be rather in the negative.<a href="#7"><sup>7</sup></a> Even now the feeling against the theatre has not entirely died. Gaylea Byrne, star of the musical comedy 'Mame' in Australia was quoted as saying in March 1968: 'The trouble with American men is that they think, because a women is an actress, she's immoral.'<a href="#8"><sup>8</sup></a></p>
+<p>The general feeing against dancing lasted longer than the horror of the theatre. After all, with dancing there was always the thought that male and female actually came into physical contact.</p>
+<p>Dancing was always looked upon as one of the awful temptations that led young people to ruin. On the occasion of the visit of the young Duke of Edinburgh in 1867 the Governor gave a splendid ball in his honour at the Exhibition building. According to the <em>Argus</em><a href="#9"><sup>9</sup></a> the general effect was as 'magnificent as an Eastern tale of diamonds, houris and gardens', but amongst good people there was shock because two clergy attended, the Archdeacon of Castlemaine and the incumbent of St Peter's, the Reverend H. P. Handfield.</p>
+<p>Bishop Perry immediately pointed out that love of balls was indicative of a poor condition of Christian health. The theatre, balls and racing were on the same level as drunkenness, fornication and gambling. It had been argued that the clergy should visit the races, balls and such so that they should see life. This was not so: it would merely lower the standard of spirituality among the clergy, not raise the morality among the laity.<a href="#10"><sup>10</sup></a></p>
+<p>The Anglicans were not generally behind their Bishop in this. The real opponents of dancing were the Methodists and for more than fifty years it was condemned, if not weekly, almost monthly in Church journals.</p>
+<p>In 1886 <em>The Spectator</em> put the arguments most succinctly in a manifesto. It said: 'There are few things that give the country pastor more trouble than the modern dance. While it is condemned by all denominations—except perhaps one or two—there is sometimes found a kind of slack, twisted member in all of them who will contend there is no harm in dancing. Manifesto points were:</p>
+<ol>
+<li>
+<p>Of all I ever saw calling themselves Christians and yet indulging in this diversion, I have yet to find the first who is any wise eminent for piety.</p>
+</li>
+<li>
+<p>The dance is purely of a worldly nature, having nothing in it that is any way adapted to the promotion of Christian virtues.</p>
+</li>
+<li>
+<p>Usually takes place between the suns, and often till day, it unfits its devotees for the proper discharge of duty the next day.</p>
+</li>
+<li>
+<p>It brings about an improper commingling of the sexes. In the ballroom ladies suffer themselves to be handled in a manner that would be considered discreditable should it take place in the home.</p>
+</li>
+</ol>
+<!-- Page 141 is a full-page Bulletin illustration (a clergyman with a drink at a banqueting-room entrance, captioned something like 'An Ecclesiastical...') with a brief caption referencing Bishop Perry and his clerical flock; the caption text is largely obscured in the scan and not reproduced here. -->
+<ol start="5">
+<li>
+<p>The music to which they keep time is mostly, if not wholly, of a vulgar nature. If the fair ones who are so fond of the dance were to hear the music to which they listen while tripping 'the light fantastic toe', put into words, it would be no credit to them if they failed to blush.</p>
+</li>
+<li>
+<p>It creates a temptation to indulge in intoxicants thus the road to utter degradation and shame may be opened.</p>
+</li>
+</ol>
+<p>The ballroom is no place for Christians.</p>
+<p>One of the best debates on dancing took place in <em>The Spectator</em> during 1907. One reader suggested that there were plenty of references to dancing in the Bible, but this was well countered:</p>
+<ol>
+<li>
+<p>'It was performed by maidens only.'</p>
+</li>
+<li>
+<p>'It was performed usually in the daytime in the open air.'</p>
+</li>
+<li>
+<p>'No instances of dancing are found upon record in the Bible in which the two sexes united in the exercise, either as an act of worship or amusement.'</p>
+</li>
+<li>
+<p>'There is no instance upon record of social dancing for amusement, except that of the vain fellows, devoid of all shame, of the irreligious females described by Job, which produced impiety and ended in destruction, and of the daughter of Herodias, which terminated in the rash vow of Herod, and the murder of John the Baptist.'<a href="#11"><sup>11</sup></a></p>
+</li>
+</ol>
+<p>The Malvern church called for the restitution of rule 17 of the 1895 edition of the Methodist Book of Laws: 'The members of our church are not permitted to attend balls or theatrical entertainments, but are to discourage them for their own sakes, and the sake of their families. They are not to send their children to a dancing school.'<a href="#12"><sup>12</sup></a></p>
+<p>Actually there had been a suggestion during the Conference that dancing was being taught at the Methodist Ladies' College. This brought a strong reply:</p>
+<p>Let me say that at the Methodist Ladies' College we do not teach dancing. A boarder, whose parents wish her to take this subject, is sent outside to learn it. We have no entertainments capable of being described as theatrical at the College. Once or twice a year, at social evenings, we have such innocent charades as girls may fitly play, and they are played only to an audience of other girls.</p>
+<p style="text-align:right">Yours truly, W. H. Fitchett.<a href="#13"><sup>13</sup></a></p>
+<p>Dancing was generally unloved at Church functions. The Presbyterian Assembly in Perth in 1926 banned it by twenty-five votes to seven. The Rev. Hugh Morris moving the resolution said: 'The first steps of a life of shame can be traced to the dance hall.' For a moment there was some alarm that this might mean the end of Scottish dancing.</p>
+<p><em>Rev. Thorn</em>—'Will this motion stop the Highland Fling being danced in the Church Hall?'</p>
+<p><em>The Moderator</em>—'Oh no; the Highland Fling is a pastime.'<a href="#14"><sup>14</sup></a></p>
+<p>In 1932 the Presbyterian Assembly of Victoria banned dancing on Church property, but the move was far from popular, and later a protest was officially tabled by thirty members of the Assembly. But if the Presbyterians were wavering, the Methodists were still strong. On 11 April 1935, the Reverend H. E. Wallis, M.A. (Cambridge) was visiting the Methodist Mission at Fitzroy. The Mission was called the 'Soul Saving, Sanctifying and Radiating Centre', and the title of his talk was, 'The Deadly Dance—A Draught of Poisoned Wine'.</p>
+<p>It was an 'All Night Witness' attended by over 600 people. It began at 7.30 p.m. and went right through until 6 a.m. the next day, with members of the congregation standing to give their own experience of dancing.</p>
+<p>The Superintendent of the Mission, the Reverend F. W. Betts, opened the meeting: 'You may say that David danced before the Lord, but he did not have a woman in his arms, or that Miriam danced, but she did not have a male partner. Advertise tomorrow that you are holding a dance for men only and see how you get on. See whether they will stay until 4 a.m. for the pleasure of dancing with each other? My advice is to shut up these devil traps.' Mr Betts then said that Mr Wallis would turn the searchlight on those things which clogged the chariot wheels of Jesus Christ.</p>
+<p>Mr Wallis said dancing had always been successful in fanning latent emotions into white-hot activity. The <em>Encyclopaedia Britannica</em> said it was sexually stimulating; its rapture became capture; it always resulted in auto-intoxication. Marriages born in a ballroom were doomed to failure because the judgment of the parties had been warped through excessive emotion.</p>
+<p>'No opinions of dancing as it was 50 years ago,' he said, 'should influence our judgment of dancing as it is today when women, three-quarters naked, have their bodies intertwined with those of men in the sensuous surroundings of a ballroom. I agree with a doctor who once said &quot;The dance hall is the nursery of the Divorce Court, the training ship of prostitution and a modern ulcer that is threatening morality&quot;.'</p>
+<p>In response to a request by Mr Betts, about 100 people stood up. They admitted that once they had been dancing fiends, but now they saw the error of their ways. One man said he learned to dance in 1886 when he was twenty years old, but now he had given it up. Others too, told how they had dispensed with 'the deadly draught of poisoned wine'. The <em>Argus</em> reported that many left after supper at 10 p.m., but more than 300 remained until a very late hour.<a href="#15"><sup>15</sup></a></p>
+<p>The Methodist Conference in Melbourne in 1948 still voted against dancing, but the voting was so close, and the discussion so embarrassing to all concerned, that it was closed to the Press. However the issue was almost done, and most denominations can now dance without a sense of sin.</p>
+<p>But then, of course, the style of dancing is different, male and female are not intertwined, mostly they shake well apart. One could almost say there is no 'commingling of the sexes'.</p>
+<hr>
+<small>
+<a name="1">1.</a> Reverend Dr Adam Cairns, lecture to the Early Closing Association, 29 May 1856.<br>
+<a name="2">2.</a> Reverend Hugh Johnson, M.A., B.D., writing in *The Spectator*.<br>
+<a name="3">3.</a> Melbourne *Daily Telegraph*, 1877.<br>
+<a name="4">4.</a> Reverend John Watsford, quoted c. 1877.<br>
+<a name="5">5.</a> 'Synesius', letter in defence of Bishop Moorhouse, 1877.<br>
+<a name="6">6.</a> Reverend John Alexander Dowie, quoted from an address in Sydney.<br>
+<a name="7">7.</a> *The Spectator*, 1909.<br>
+<a name="8">8.</a> Gaylea Byrne, quoted March 1968.<br>
+<a name="9">9.</a> *The Argus*, 1867.<br>
+<a name="10">10.</a> Bishop Perry, quoted c. 1867.<br>
+<a name="11">11.</a> *The Spectator*, dancing debate, 1907.<br>
+<a name="12">12.</a> Methodist Book of Laws, 1895 edition, rule 17.<br>
+<a name="13">13.</a> W. H. Fitchett, letter to the Methodist Conference.<br>
+<a name="14">14.</a> Presbyterian Assembly of Western Australia, Perth, 1926.<br>
+<a name="15">15.</a> *The Argus*, report on the Fitzroy Methodist Mission 'All Night Witness', April 1935.<br>
+</small>
+
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        Traces the long campaign against theatre-going and dancing as gateways to vice, from Dr Adam Cairns&#39;s hellfire 1856 lecture and Bishop Moorhouse&#39;s scandalous 1877 invitation of the actor William Creswick to Bishopcourt, through John Alexander Dowie&#39;s crusade against &#39;the terrible trinity of Venus, Bacchus, and the Drama&#39;, to the Methodist church&#39;s long, losing rearguard action against the dance hall.
+      </p>
+
+<hr>
+<h4 class="h6">Related topics</h4>
+<p class="small text-muted mb-3">
+    
+    <a href="/topic/(bishop)-charles-perry/" class="link-secondary">(Bishop) Charles Perry</a>,
+    
+    <a href="/topic/(bishop)-james-moorhouse/" class="link-secondary">(Bishop) James Moorhouse</a>,
+    
+    <a href="/topic/john-alexander-dowie/" class="link-secondary">John Alexander Dowie</a>,
+    
+    <a href="/topic/rev-dr-adam-cairns/" class="link-secondary">Rev Dr Adam Cairns</a>,
+    
+    <a href="/topic/rev-w.f.-betts/" class="link-secondary">Rev W.F. Betts</a>,
+    
+    <a href="/topic/william-creswick/" class="link-secondary">William Creswick</a>
+</p>
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  <h4 class="h6">Related topics</h4>
+  <p class="small text-muted mb-3">
+    
+    <a href="/topic/(bishop)-charles-perry/" class="link-secondary">(Bishop) Charles Perry</a>,
+    
+    <a href="/topic/(bishop)-james-moorhouse/" class="link-secondary">(Bishop) James Moorhouse</a>,
+    
+    <a href="/topic/john-alexander-dowie/" class="link-secondary">John Alexander Dowie</a>,
+    
+    <a href="/topic/rev-dr-adam-cairns/" class="link-secondary">Rev Dr Adam Cairns</a>,
+    
+    <a href="/topic/rev-w.f.-betts/" class="link-secondary">Rev W.F. Betts</a>,
+    
+    <a href="/topic/william-creswick/" class="link-secondary">William Creswick</a>
+</p>
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

@@ -6,6 +6,8 @@ topics:
     description: Gayelord Hauser was an American nutritionist and self-help author who became one of the twentieth century's first celebrity diet gurus, urging followers to eat natural, unprocessed foods and counting Greta Garbo among his Hollywood clients.
   - name: (Bishop) Charles Perry
     description: Charles Perry was the first Anglican Bishop of Melbourne, arriving from England in 1848 to lead a diocese with barely a handful of clergy, and going on to help found Melbourne Grammar and Geelong Grammar schools.
+  - name: (Bishop) James Moorhouse
+    description: James Moorhouse was the second Anglican Bishop of Melbourne, a member of the church's liberal 'broad' wing whose 1877 invitation to the visiting Shakespearean actor William Creswick to give dramatic readings at Bishopcourt scandalised more conservative clergy, as Keith Dunstan recounted in 'Wowsers'.
   - name: (Dean) Hussey Burgh Macartney
     description: Hussey Burgh Macartney was Dean of Melbourne from 1852 until his death in 1894, having sailed out from Ireland with Bishop Charles Perry in 1847 to help establish the fledgling Anglican Church in the colony.
   - name: (Pastor) Sid Denton
@@ -144,6 +146,8 @@ topics:
     description: The Associated Country Women of the World is an international federation of rural women's organisations whose Tenth Triennial Conference brought 1200 delegates from twenty countries to Melbourne in 1962, an assignment Keith Dunstan found professionally disorienting as one of the few men in the room.
   - name: Athenaeum Club
     description: The Athenaeum Club is a private Melbourne gentlemen's club founded in the nineteenth century as a meeting place for the city's professional and business elite, whose members included stockbroker and Land Boom chronicler George Meudell.
+  - name: Aubrey Laidlaw
+    description: Aubrey Laidlaw was the Bondi beach inspector who ordered a young woman off the sand in 1961 for wearing an offending bikini, then admitted in court that his own uniform breached the same dress regulations, an irony Keith Dunstan relished in 'Wowsers'.
   - name: Auckland
     description: Auckland is New Zealand's largest city; the eccentric meteorologist Clement Wragge settled at Birkenhead, Auckland, in 1910 after leaving Australia, building a tropical garden there that drew visitors from across New Zealand until his death in 1922.
   - name: Australian Broadcasting Commission
@@ -302,6 +306,8 @@ topics:
     description: Chloe is the nude oil painting that caused a decorum scandal when first shown at Melbourne's National Gallery in 1883, was withdrawn within a month, and has hung ever since in the public bar of Young and Jackson's Hotel, becoming, as Keith Dunstan noted, one of the city's biggest tourist draws.
   - name: Chris Wallace-Crabbe
     description: Chris Wallace-Crabbe was a Melbourne-born poet, critic and Melbourne University literature fellow whose contribution to a 1963 magazine survey branding Melbourne drab and mediocre made him, briefly, the city's most reviled native son.
+  - name: Christian Anti-Smoking League
+    description: The Christian Anti-Smoking League was a church-affiliated temperance body whose bid for formal recognition within the Methodist church was narrowly defeated at the 1939 Sydney Conference, a defeat Keith Dunstan cited in 'Wowsers' as the moment the anti-smoking crusade lost its momentum within Australian churches.
   - name: Christopher Skase
     description: Christopher Skase was the media and resort tycoon whose Qintex empire collapsed in 1989 owing hundreds of millions of dollars, one of the flamboyant late-1980s entrepreneurs Keith Dunstan imagined donating their repossessed jets and yachts to a theme park exhibit on the Australian character.
   - name: Clark Gable
@@ -568,8 +574,12 @@ topics:
     description: Jimmy Watson ran Melbourne's best-loved wine bar on Lygon Street from 1935, a former picture-show pianist who dressed like a brewery drayman, refused to sell wine by the flagon, and taught a generation of University of Melbourne students and academics to drink properly.
   - name: Joan Sutherland
     description: Joan Sutherland was the Australian soprano nicknamed 'La Stupenda', world famous for her bel canto roles including the Mad Scene from 'Lucia di Lammermoor', a showstopper Keith Dunstan invoked as the gold standard of operatic sound he'd love a universal remote to summon on command.
+  - name: Joan Barry
+    description: Joan Barry was a Bondi beachgoer fined three pounds in 1961 after a beach inspector ordered her off the sand for wearing a bikini, a prosecution Keith Dunstan recounted in 'Wowsers' as evidence of how slowly Australian attitudes to swimwear actually shifted.
   - name: Joe Byrne
     description: Joe Byrne was Ned Kelly's closest confidant in the gang, a good-looking, penniless bush poet Keith Dunstan credited with likely drafting Kelly's rambling defensive letters, who shot the police informer Aaron Sherritt days before dying himself at Glenrowan.
+  - name: John Alexander Dowie
+    description: John Alexander Dowie was an Edinburgh-born, Adelaide-raised faith healer who founded the Christian Catholic Church of Zion and built a following across the United States, preaching against theatre, drink and tobacco alike with a pulpit oratory Keith Dunstan singled out in 'Wowsers' as unmatched even by the causes he condemned.
   - name: John Batman
     description: John Batman was one of the two men credited with founding Melbourne in 1835, and the namesake both of the pseudonym Keith Dunstan wrote his Bulletin column under and of the Robin Boyd-designed John Batman motor inn he once toured.
   - name: John Bratby
@@ -664,6 +674,8 @@ topics:
     description: Malcolm H. Ellis was an Australian historian and biographer whose harsh verdict on Ned Kelly, as one of the most cold-blooded and egotistical criminals ever hanged in the country, Keith Dunstan set against the romantic readings of Manning Clark and Dame Mabel Brookes.
   - name: Malvern Star
     description: Malvern Star was the Melbourne bicycle marque built by Bruce Small into a national brand through champion rider Hubert Opperman, and the bike of Keith Dunstan's own 1930s boyhood, his 1970s born-again commute, and his son David's Sovereign Star.
+  - name: Manly
+    description: Manly is the Sydney beach suburb where newspaper editor W. H. Gocher staged his defiant daylight swims in 1902 to overturn the local bathing ban, a stunt Keith Dunstan singled out in 'Wowsers' as the opening shot in the long fight for Australia's beach culture.
   - name: Manning Clark
     description: Manning Clark was the eminent historian whose sympathetic reading of Ned Kelly, as embodying a nostalgia for 'the life of the free, the fearless and the bold', Keith Dunstan cited as the romantic counterweight to harsher historians like Malcolm H. Ellis.
   - name: Marie Dalley
@@ -802,6 +814,8 @@ topics:
     description: Point Cook is the Victorian air base where Sir Richard Williams took out Australia's first military pilot's licence in 1914, and where the temperamental, upside-down-engined Deperdussin he first flew remains preserved.
   - name: Poirot
     description: Poirot, ITV's long-running adaptation of Agatha Christie's fastidious Belgian detective, was one of the parade of British murder-mystery imports Keith Dunstan counted, tongue in cheek, among Melbourne's self-inflicted television plagues.
+  - name: Port Campbell
+    description: Port Campbell is the small Victorian coastal town whose early twentieth-century beach was split into a ladies-and-children section and a mixed-bathing section, a compromise Keith Dunstan noted in 'Wowsers' as typical of the era's segregated bathing rules.
   - name: Port Phillip Bay
     description: Port Phillip Bay is Melbourne's great natural harbour, the setting for both an architect's grandiose proposal to ship a condemned London rotunda across it and the frantic, competitive beach culture Keith Dunstan surveyed each summer at Portsea and the Mornington Peninsula.
   - name: Portsea
@@ -896,6 +910,8 @@ topics:
     description: Sigmund Jorgensen ran the Clichy restaurant in Collingwood and was the son of Montsalvat founder Justus Jorgensen, a genial host whose free-flowing champagne once left Keith Dunstan unable to stay upright on his bicycle home.
   - name: Sir Donald Bradman
     description: Sir Donald Bradman, Australia's greatest batsman, chaired the Australian Cricket Board of Control in the early 1960s, appearing in Keith Dunstan's writing both as the guardian of Test cricket's dignity against Henry Bolte's comic replay-match antics and in a recollection of the 1930s Bodyline crisis.
+  - name: Sir H. D. Littlejohn
+    description: Henry Duncan Littlejohn was a Scottish forensic scientist and Edinburgh's long-serving Medical Officer of Health, whose medical warnings against tobacco a Victorian MP quoted in 1905 while introducing a bill against juvenile smoking, as Keith Dunstan recorded in 'Wowsers'.
   - name: Sir Henry Bolte
     description: Sir Henry Bolte was Victoria's blunt, long-serving Liberal Premier from 1955 to 1972, whose plain-spoken threats against striking workers and prickly rivalry with New South Wales made him one of Keith Dunstan's most reliable sources of comic material.
   - name: Sir Hubert Wilkins
@@ -1040,6 +1056,8 @@ topics:
     description: Walter O'Donoghue was the red-haired, big-hearted advertising manager of the Myer Emporium who agreed to bankroll Keith Dunstan's fledgling Anti-Football League with badges and sponsorship, on the condition it be run for charity to give it a veneer of respectability.
   - name: Wangaratta
     description: ''
+  - name: Warrnambool
+    description: Warrnambool is the Victorian coastal city whose divided, men-on-one-side beach Keith Dunstan cited in 'Wowsers' as typical of the strict sex-segregated bathing rules enforced along the Victorian coast in the early twentieth century.
   - name: Warwick Armstrong
     description: Warwick Armstrong was a dominant Australian all-rounder and later Test captain whose 1912 withdrawal, alongside five other leading players, in a dispute over team management triggered public indignation meetings across the country.
   - name: Warwick Capper
@@ -1056,6 +1074,10 @@ topics:
     description: Whitcomb Judson was the American inventor who patented an early hook-and-eye clasp fastener in 1893, the clumsy ancestor of the zip that Keith Dunstan credited in his history of denim.
   - name: Wildlife Act 1975
     description: The Wildlife Act 1975 is the Victorian law protecting native fauna, including the common brushtail possum, whose legally sanctioned population explosion in a wet 2010 gave Keith Dunstan the biblical conceit for a column on Melbourne's assorted modern-day plagues.
+  - name: William Creswick
+    description: William Creswick was an English Shakespearean actor whose triumphant Melbourne season in 1877 prompted the Bishop of Melbourne to invite him to give dramatic readings to the city's clergy, a breakthrough moment for the theatre's respectability that Keith Dunstan recorded in 'Wowsers'.
+  - name: W. H. Gocher
+    description: W. H. Gocher was the editor of the Manly and North Sydney News who deliberately flouted the daylight bathing ban at Manly Beach in 1902 to force his own arrest, a stunt that took years and repeated attempts to succeed but which Keith Dunstan credited in 'Wowsers' with breaking open Australia's daylight surf bathing.
   - name: William Dunstan VC
     description: William Dunstan was Keith Dunstan's father, who won the Victoria Cross at Gallipoli's Lone Pine in 1915 as a shy twenty-year-old and went on to a career in Melbourne newspaper management, casting a long shadow that Keith wrote about growing up under in 'No Brains at All'.
   - name: Wine
