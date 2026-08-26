@@ -5,12 +5,12 @@ summary: Profiles Les McClure, the self-described 'little b----r from the countr
 categories:
 - The Bulletin
 tags:
+  - Flemington Racecourse
+  - Four'n Twenty
+  - Les McClure
+  - Reg Ansett
   - St Kilda
   - Whelan the Wrecker
-  - Les McClure
-  - Four'n Twenty
-  - Reg Ansett
-  - Flemington Racecourse
 ---
 
 Some strange things have been happening in St Kilda Road. Mr Whelan the Wrecker has been pulling down a two-storey block of offices worth at least £70,000, just to make parking space for McClure's restaurant. We have got to the stage in St Kilda Road where cars are more important than buildings.

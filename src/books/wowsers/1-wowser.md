@@ -3,21 +3,21 @@ title: Wowser
 date: 1968-11-11
 summary: Traces the word "wowser" from John Norton's boastful 1899 claim to have coined it, through Mencken's definition, to the Methodist-driven puritanism that made Victoria and South Australia the nation's primmest states.
 tags:
-- The Bulletin
-- James Mirams
-- Cyril Pearl
-- Geoffrey Serle
-- Sidney J. Baker
-- John Norton
-- William Artnhur Holman
-- Henry Louis Mencken  
-- The Christian Colonist
-- Douglas Pike
-- (Dean) Hussey Burgh Macartney
 - (Bishop) Charles Perry
-- Thistle Anderson (Mrs Herbert Fisher)
+- (Dean) Hussey Burgh Macartney
+- The Bulletin
 - Cardinal Patrick Francis Moran
+- The Christian Colonist
+- Cyril Pearl
+- Douglas Pike
+- Geoffrey Serle
+- Henry Louis Mencken  
+- James Mirams
+- John Norton
 - Reverend Bishop Ian Shevill
+- Sidney J. Baker
+- Thistle Anderson (Mrs Herbert Fisher)
+- William Artnhur Holman
 ---
 
 Wowser is a beautiful word. For sheer coarseness and devastating power in attack we have 'bludger', for a neat exercise in deflation or the destruction of pomposity, we have the line, 'don't come the raw prawn'; but surely the richest, most gloriously expressive of all Australian words is 'Wowser'. 

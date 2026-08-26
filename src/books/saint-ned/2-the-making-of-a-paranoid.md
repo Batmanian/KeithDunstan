@@ -3,10 +3,10 @@ title: The Making of a Paranoid
 date: 1980-11-11
 summary: Traces Ned Kelly's Irish convict lineage through his father Red Kelly's transportation for pig stealing, his mother Ellen Quinn's family of horse thieves around Greta, and his own apprenticeship to the bushranger Harry Power, arguing his hatred of police was inherited before it was earned.
 tags:
-  - Ned Kelly
   - Ellen Kelly
-  - Harry Power
   - Glenrowan
+  - Harry Power
+  - Ned Kelly
 ---
 
 Ned Kelly was not just a normal, fair average quality, bushranging desperado. He had almost Walter Mitty-like dreams. He saw himself as a Robin Hood leading poor, suffering rural workers against a corrupt vicious ruling class. The representatives of that class were the police. This, perhaps, is the key to Ned Kelly. He was a paranoid in his loathing of men in the policeman's uniform. The names of every man who wore a Victorian police force read like an Irish electoral roll. The majority of them were Irishmen.

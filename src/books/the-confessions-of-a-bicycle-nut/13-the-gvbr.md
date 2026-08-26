@@ -3,10 +3,10 @@ title: The GVBR
 date: 1999-11-11
 summary: The founding of the Great Victorian Bike Ride, from Ron Shepherd's $10,000 grant and Graham Rebbeck's mothered-and-catered organisation to the eccentrics it drew, penny-farthing riders, a saxophone-playing diesel fitter, and 83-year-old Alan 'Curly' Hartup, still finishing after everybody else.
 tags:
-  - Ron Shepherd
+  - Charlie Farren
   - Graham Rebbeck
   - Marie Dunstan
-  - Charlie Farren
+  - Ron Shepherd
 ---
 
 By 1984 the bicycle was fashionable and accepted. We did not see the Governor and his Lady out on a tandem, nor did we see the Prime Minister on his way to Parliament House aboard a safety, but at last bicycles were accepted by the city authorities. The Bicycle Institute now had its own quarters, complete with permanent secretariat and Government backing.

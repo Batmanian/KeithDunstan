@@ -16,8 +16,8 @@ tags:
   - J. J. Brown
   - Reg Ansett
   - Sir Robert Menzies
-  - Spencer Street Station
   - The Southern Aurora
+  - Spencer Street Station
   - Victorian Railways
   - Viscount de L'Isle
 ---

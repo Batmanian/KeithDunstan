@@ -5,8 +5,8 @@ summary: Enrols undercover at the Australian Academy of Investigation's 'MI4' pr
 categories:
 - The Bulletin
 tags:
-  - James Bond
   - Collins Street
+  - James Bond
 ---
 
 Always I have been a most interested student of Mr James Bond, so it was with some excitement that I noticed the advertisement in the newspapers: "MI4 Investigations Services. Enrol Now With the Australian Academy of Investigation." Clearly this was a school for private eyes. I slipped my Ronson storm-proof lighter into my fob pocket, took out my 9mm Luger and strapped on my shoulder holster.

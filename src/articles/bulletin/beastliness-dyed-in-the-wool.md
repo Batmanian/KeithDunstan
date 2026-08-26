@@ -5,13 +5,13 @@ summary: Covers the Wool Board's annual fashion showcase at Her Majesty's Theatr
 categories:
 - The Bulletin
 tags:
+  - Exhibition Street
   - Her Majestys Theatre
-  - Sir William Gunn
   - Murray Rose
   - Ned Kelly
   - Sir Robert Menzies
+  - Sir William Gunn
   - Wangaratta
-  - Exhibition Street
 ---
 
 To be perfectly honest, it is very difficult to maintain one's equilibrium. Your correspondent always attends the annual party turned on by the Wool Board, Wool Bureau or whatever. Last year it was in Goldsbrough Mort's ancient wool store in Bourke Street, and it was a little beauty. We had hot rum punch, damper, Irish stew, tea with gum leaves, folk songs, hurricane lamps, Chips Rafferty, wild colonial girls, the lot. Sir William Gunn even did a jig.

@@ -68,5 +68,6 @@ Open up any part of the floor or ceiling anywhere in the hotel, and the wound wi
 
 I have tried to find out from Hank whether the opening ceremonies will be as grand as those of 1879. Will there be a specially composed anthem? Will 1000 sit down to dinner? Will the dinner be as good as those satisfactory viands provided by Mr. Clements, and (shudder) will there be 11 speeches? Mr. Rowland, so far, has been non-committal, and not at any time is he given to over-statement. But he did say it would be worth one's while getting a tram into town.
 
+<hr>
 
-This article first apeared in Walkabout Magazine, July 1962. The article with pictures, [is available online at Trove.](https://nla.gov.au/nla.obj-752698903/view?sectionId=nla.obj-755713101&partId=nla.obj-752705308#page/n13/mode/1up)
+*Source: Paddy's Market to Luxury Hotel, Walkabout Magazine, July 1962. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-752698903).*

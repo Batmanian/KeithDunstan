@@ -5,13 +5,13 @@ summary: Compares the television staging of Robert Menzies' and Arthur Calwell's
 categories:
 - The Bulletin
 tags:
-  - Sir Robert Menzies
   - Arthur Calwell
   - Bob Hawke
-  - Hubert Opperman
   - Gough Whitlam
   - Harold Holt
+  - Hubert Opperman
   - J. C. Williamson's
+  - Sir Robert Menzies
 ---
 
 Melbourne has not always triumphed as a television town. Let us admit it freely, there have been occasions when our national TV shows have failed to grip the nation, but we have had a lovely rating for our two major performances this past week.

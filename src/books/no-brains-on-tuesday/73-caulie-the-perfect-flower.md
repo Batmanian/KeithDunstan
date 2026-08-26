@@ -3,10 +3,10 @@ title: Caulie - The Perfect Flower
 date: 1991-01-01
 summary: A vain streak that once produced giant dahlias named Vivien Leigh and Sammy Davis Jr is redirected into vegetable gardening once nearly everyone in the family's circle turns vegetarian or vegan, ending in a cost analysis showing the home-grown, organic, decidedly average-looking cauliflowers cost four times what the same vegetables would have at the local market.
 tags:
-  - Phar Lap
-  - Vivien Leigh
-  - Sammy Davis Jr
   - Percy Cerutty
+  - Phar Lap
+  - Sammy Davis Jr
+  - Vivien Leigh
 ---
 
 There has always been a deep streak of vulgarity in my nature.

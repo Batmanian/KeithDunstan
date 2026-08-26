@@ -3,14 +3,14 @@ title: The Legend
 date: 1980-11-11
 summary: Opens 'Saint Ned' by surveying a century of Ned Kelly worship, from Sidney Nolan's paintings and Arthur Boyd's sculpture to rival historians' verdicts, and argues Kelly's outlaw defiance of an entire police force answers a distinctly Australian craving for a hero who outwits authority.
 tags:
-  - Ned Kelly
-  - Sidney Nolan
-  - Malcolm H Ellis
-  - Manning Clark
-  - Norman Lindsay
   - Donald Horne
   - Glenrowan
+  - Malcolm H Ellis
+  - Manning Clark
+  - Ned Kelly
+  - Norman Lindsay
   - Sidney J. Baker
+  - Sidney Nolan
 ---
 
 One hundred years have gone by and that strange steel helmet of Ned Kelly looms over Australia like a mystic tombstone. Was he a savage thug or was he the complete, romantic hero? We are no more sure now than we were then.

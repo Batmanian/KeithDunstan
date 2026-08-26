@@ -3,17 +3,17 @@ title: The Rowing Passion
 date: 1973-11-11
 summary: Traces Australian rowing from Edward Trickett's 1876 world championship and Henry Searle's death and record-breaking funeral, through the Hanlan-Beach sculling rivalry, to Bobby Pearce, Mervyn Wood and the showmanship of Stuart Mackenzie at Henley.
 tags:
-  - Edward Trickett
-  - Edward Hanlan
-  - William Beach
-  - Harry Searle
-  - John B. Kelly Sr
-  - John B. Kelly Jr
   - Bobby Pearce
-  - Mervyn Wood
+  - Edward Hanlan
+  - Edward Trickett
+  - Harry Searle
+  - John B. Kelly Jr
+  - John B. Kelly Sr
   - Kooyong
+  - Mervyn Wood
   - Stuart Mackenzie
   - Vyacheslav Ivanov
+  - William Beach
 ---
 
 Australians possess their own vast, self-contained continent, an area as large as the United States, but always they have preferred to cling to the coastline. Perhaps the early settlers were even frightened to stray too far from the lands of their origin.

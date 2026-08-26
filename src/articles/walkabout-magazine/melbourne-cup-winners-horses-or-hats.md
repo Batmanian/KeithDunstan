@@ -106,4 +106,4 @@ Couldn't she win, too?
 
 <hr>
 
-*Source: [MELBOURNE CUP WINNERS HORSES OR HATS?](https://nla.gov.au/nla.obj-746943926), Walkabout Magazine, 1966-10-01. Retrieved via the National Library of Australia's Trove database.*
+*Source: Melbourne Cup Winners: Horses or Hats?, Walkabout Magazine, October 1966. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-746943926).*

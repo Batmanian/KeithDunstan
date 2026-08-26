@@ -3,30 +3,30 @@ title: Demonic people
 date: 1994-11-11
 summary: Closes the book with portraits of the liquor trade's larger-than-life characters, led by Carlton & United's autocratic boss "Foge" Fogarty, who froze Keith out entirely after one imagined slight.
 tags:
-  - Wine
-  - Winemaking
-  - Viticulture
-  - Henry Lawson
-  - Reg Fogarty
-  - Pedler Palmer
-  - Lou Richards
-  - Len Evans
-  - Marie Dunstan
-  - Peter Lehmann
-  - Dr Max Lake
   - Berek Segan
-  - James Halliday
-  - Peter Walker
-  - Hermann Schneider
-  - John C Brown
-  - Sir Robert Menzies
+  - Carlton and United Breweries
+  - Charles Malpas
   - Dan Murphy
   - Doug Crittenden
-  - Charles Malpas
-  - Jimmy Watson
-  - Robin Boyd
-  - Carlton and United Breweries
+  - Dr Max Lake
   - Eric Purbrick
+  - Henry Lawson
+  - Hermann Schneider
+  - James Halliday
+  - Jimmy Watson
+  - John C Brown
+  - Len Evans
+  - Lou Richards
+  - Marie Dunstan
+  - Pedler Palmer
+  - Peter Lehmann
+  - Peter Walker
+  - Reg Fogarty
+  - Robin Boyd
+  - Sir Robert Menzies
+  - Viticulture
+  - Wine
+  - Winemaking
 ---
 
 Henry Lawson was a little too fond of the Demon and there are some marvellous Lawson quotes, but my favourite is this. He said the greatest pleasure he ever knew was when his eyes met the eyes of a mate over the top of foaming glass of beer. The demon is a wonderful catalyst, a magic ingredient for mateship and some of the most generous, remarkable people I have met have been in the liquor industry.

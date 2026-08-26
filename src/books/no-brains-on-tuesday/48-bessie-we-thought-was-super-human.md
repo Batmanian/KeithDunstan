@@ -3,10 +3,10 @@ title: Bessie We Thought Was 'Super' Human
 date: 1991-01-01
 summary: Keith Dunstan says goodbye to Bessie, the family's toy poodle put down at 15, recalling her escapes from a Prahran vet and a West Wyalong garage, her four kilometre solo dash home through heavy traffic, and the strict bedtime and mealtime rituals that made her, in his telling, closer to a small opinionated human than a dog.
 tags:
-  - Warwick Capper
-  - Prahran
   - Captain Cook
   - Melway
+  - Prahran
+  - Warwick Capper
 ---
 
 Bessie died on Saturday. We took her down to the vet. A very sympathetic young lady gave her a needle and put her to sleep for ever.

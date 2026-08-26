@@ -3,10 +3,10 @@ title: Yuletide All Over
 date: 1991-01-01
 summary: Melburnians not born in Australia are asked to remember Christmas back home, gathering Julius Sumner Miller on a hand-to-mouth farm shared by Lithuanian and Latvian parents, Sir Arvi Parbo on a minus-30-degree Estonian Christmas Eve, Wolf Blass on Stadtlum in East Germany, and Franco Cozzo on a Sicilian family Christmas of pasta, lasagne and church.
 tags:
-  - Julius Sumner Miller
   - Arvi Parbo
-  - Wolf Blass
   - Franco Cozzo
+  - Julius Sumner Miller
+  - Wolf Blass
 ---
 
 Our first contact was Professor Julius Sumner Miller, you know the wonderful scientist who does the Cadbury ads on television? He wasn't easy to find. We called him in California.

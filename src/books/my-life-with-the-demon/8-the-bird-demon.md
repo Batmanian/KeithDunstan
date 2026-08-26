@@ -3,16 +3,16 @@ title: The bird demon
 date: 1994-11-11
 summary: From doting bird-feeders to declaring war on starlings and blackbirds raiding the vineyard's grapes, trying gas guns, "Frite" shotgun cartridges, fake hawks and mirrored windmills, none of which the birds took seriously for long.
 tags:
-  - Wine
-  - Winemaking
-  - Viticultre
+  - Andre Simon
   - John C Brown
-  - Reg Egan
   - Leon Massoni
   - Lucian Dressell
-  - Andre Simon
-  - Mrs Beeton
   - Marie Dunstan
+  - Mrs Beeton
+  - Reg Egan
+  - Viticultre
+  - Wine
+  - Winemaking
 ---
 
 

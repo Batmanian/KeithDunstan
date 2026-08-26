@@ -102,4 +102,4 @@ It would be possible to go on and talk of the products of Great Western, of the 
 
 <hr>
 
-*Source: [ADVENTURES OF A WOULD-BE WINE SNOB](https://nla.gov.au/nla.obj-755916911), Walkabout Magazine, 1964-12-01. Retrieved via the National Library of Australia's Trove database. Pictures by George D. Carson.*
+*Source: Adventures of a Would-be Wine Snob, Walkabout Magazine, December 1964. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-755916911).*

@@ -3,9 +3,9 @@ title: God Save Fish'n'Chips
 date: 1991-01-01
 summary: A defence of fish and chips and Melbourne's under-rated shark meat, sold for decades as 'flake', against the American fast-food invasion, widening into a tally of other indigenous Melbourne treats, from meat pies to dim sims to hot crumpets, now under threat.
 tags:
+  - Colonel Sanders
   - McDonalds
   - Pizza Hut
-  - Colonel Sanders
 ---
 
 God Save Fish'n'Chips

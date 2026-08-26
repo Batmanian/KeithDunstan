@@ -9,17 +9,17 @@ tags:
   - Buster Keaton
   - Clara Bow
   - Hoyts
+  - The Imperial Hotel
   - John McCormack 
   - Lola Montez
   - Melbourne
+  - The Odeon
   - Regent Theatre
   - Ronald Colman
   - Russell Street
   - Savoy Theatre
   - St Georges Hall
   - Temperance Hall
-  - The Imperial Hotel
-  - The Odeon
   - Whelan the Wrecker
 
 ---

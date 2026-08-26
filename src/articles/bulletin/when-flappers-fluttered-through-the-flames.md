@@ -5,15 +5,15 @@ summary: Marks Melbourne's belated 1964 premiere of 'Cleopatra' at the renamed C
 categories:
 - The Bulletin
 tags:
+  - Bourke Street
   - Cleopatra Theatre
   - Elizabeth Taylor
-  - Richard Burton
-  - Theda Bara
   - Frank Thring Snr
+  - Hoyts
+  - Richard Burton
   - Sir George Tallis
   - Sir Rohan Delacombe
-  - Hoyts
-  - Bourke Street
+  - Theda Bara
 ---
 
 Could one ask for your forbearance?  By now it must be all too obvious that I have an insufferable passion for old movie houses.  The gush you are about to receive was caused by the advent of ‘Cleopatra.’

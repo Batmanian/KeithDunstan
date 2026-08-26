@@ -83,4 +83,4 @@ Meanwhile I am wondering if Sir William Gunn will eventually find a holiday hous
 
 <hr>
 
-*Source: [BEEF BOOM IN TOMBSTONE TERRITORY](https://nla.gov.au/nla.obj-755657343), Walkabout Magazine, 1968-10-01. Retrieved via the National Library of Australia's Trove database.*
+*Source: Beef Boom in Tombstone Territory, Walkabout Magazine, October 1968. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-755657343).*

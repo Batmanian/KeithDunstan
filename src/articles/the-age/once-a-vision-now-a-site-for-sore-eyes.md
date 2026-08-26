@@ -5,15 +5,15 @@ summary: The gutted, empty Southern Cross Hotel four years after the Nauru Gover
 categories:
 - The Age
 tags:
+  - The Beatles
   - Bourke Street
   - C.J. Dennis
   - Collins Street
   - E.W. Cole
   - Eastern Market
-  - Nauru
   - National Mutual Centre
+  - Nauru
   - Southern Cross Hotel
-  - The Beatles
   - Western Market
 ---
 

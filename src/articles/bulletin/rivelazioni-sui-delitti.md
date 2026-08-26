@@ -5,9 +5,9 @@ summary: Profiles Il Globo, the Italian-language newspaper whose fearless report
 categories:
 - The Bulletin
 tags:
-  - Il Globo
-  - Domenico Italiano
   - Ava Gardner
+  - Domenico Italiano
+  - Il Globo
 ---
 
 For sheer gutsy journalism we won't forget easily the work this past week of our local Italian newspaper, "Il Globo". The men at "Il Globo" were the first to have the courage to point out in print that the Victorian Market was rotten with extortion rackets. Then they went on to describe how Vincenzo Angilletta, the first man killed, had a long criminal record before he ever came to Australia in 1951. They had the Immigration Department hopping as they hadn't hopped in years.

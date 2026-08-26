@@ -6,9 +6,9 @@ categories:
 - The Bulletin
 tags:
   - Ararat
-  - Henry Bolte
-  - Carlton and United Breweries
   - Australian Hotels Association
+  - Carlton and United Breweries
+  - Henry Bolte
 ---
 
 Back in November, 1961, the director of Victoria's Fisheries and Wildlife Department, Mr A. D. Butcher, returned from the US and said: "European carp could become the rabbit plague of our streams." He said carp had become a menace in many American rivers because they "out-competed" other fish. Carp were prolific breeders, but dirty eaters and their presence in a river or a lake made it unfit for other fish.

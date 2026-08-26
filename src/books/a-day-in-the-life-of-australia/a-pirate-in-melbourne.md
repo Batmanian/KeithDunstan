@@ -3,10 +3,10 @@ title:  A Pirate in Melbourne
 date: 1988-01-29
 summary: The Confederate raider Shenandoah anchors in Port Phillip mid-Civil War and Melbourne society falls over itself to fete Captain Waddell, dividing The Argus and The Age over whether he's a hero or a pirate.
 tags:
-  -  The Argus
   -  The Age
-  -  Sir Charles Darling
+  -  The Argus
   -  Shenandoah 
+  -  Sir Charles Darling
 ---
 
 A Pirate in Melbourne

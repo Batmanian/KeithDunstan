@@ -4,13 +4,13 @@ date: 1994-11-11
 summary: Tots up the ruinous, itemised cost of running a one-acre boutique vineyard, over $46,000 before the land, and needles Premier Jeff Kennett for selling unlicensed "Cabinet Claret" out of Parliament House.
 tags:
 
-  - Wine
-  - Viticulture
-  - Winemaking
   - Bronwyn Bishop
-  - Jeff Kennett
-  - Garry Crittenden
   - David Dunstan
+  - Garry Crittenden
+  - Jeff Kennett
+  - Viticulture
+  - Wine
+  - Winemaking
 ---
 
 An old editor once gave me some advice. Never resign from a job in a fit of rage. Always wait a week until you have calmed down. Before becoming a vigneron it might be a good idea to wait a month or even a year. Think how many hours it will take out of your week then multiply by ten.

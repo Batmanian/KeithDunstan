@@ -1,0 +1,746 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>John Barry Humphries</title>
+<meta name="title" content="John Barry Humphries">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Profile of Barry Humphries, tracing his Melbourne Grammar schooldays, the creation of Edna Everage and Barry McKenzie, and his rise to international stardom as Dame Edna Everage.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/ratbags/4-john-barry-humphries/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="John Barry Humphries">
+<meta property="og:description" content="Profile of Barry Humphries, tracing his Melbourne Grammar schooldays, the creation of Edna Everage and Barry McKenzie, and his rise to international stardom as Dame Edna Everage.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="John Barry Humphries">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/ratbags/4-john-barry-humphries/">
+<meta name="twitter:title" content="John Barry Humphries">
+<meta name="twitter:description" content="Profile of Barry Humphries, tracing his Melbourne Grammar schooldays, the creation of Edna Everage and Barry McKenzie, and his rise to international stardom as Dame Edna Everage.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="John Barry Humphries">
+<link rel="canonical" href="https://keithdunstan.org/books/ratbags/4-john-barry-humphries/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1980-11-11">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="Ratbags">
+<meta property="article:tag" content="Barry Humphries">
+<meta property="article:tag" content="Edna Everage">
+<meta property="article:tag" content="Melbourne Grammar">
+<meta property="article:tag" content="Barry McKenzie">
+<meta property="article:tag" content="Moonee Ponds">
+<meta property="article:tag" content="Camberwell">
+<meta property="article:tag" content="Zoe Caldwell">
+<meta property="article:tag" content="Ray Lawler">
+<meta property="article:tag" content="Robin Boyd">
+<meta property="article:tag" content="Harry M. Miller">
+<meta property="article:tag" content="Bruce Beresford">
+<meta property="article:tag" content="Barry Crocker">
+<meta property="article:tag" content="Don Dunstan">
+<meta property="article:tag" content="Gough Whitlam">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">John Barry Humphries</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            28
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1980-11-11">1980</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Profile of Barry Humphries, tracing his Melbourne Grammar schooldays, the creation of Edna Everage and Barry McKenzie, and his rise to international stardom as Dame Edna Everage.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="Ratbags">
+         <!--<a href="/tags/barry-humphries/" class="btn btn-outline-dark btn-sm me-2">Barry Humphries</a><a href="/tags/edna-everage/" class="btn btn-outline-dark btn-sm me-2">Edna Everage</a><a href="/tags/melbourne-grammar/" class="btn btn-outline-dark btn-sm me-2">Melbourne Grammar</a><a href="/tags/barry-mckenzie/" class="btn btn-outline-dark btn-sm me-2">Barry McKenzie</a><a href="/tags/moonee-ponds/" class="btn btn-outline-dark btn-sm me-2">Moonee Ponds</a><a href="/tags/camberwell/" class="btn btn-outline-dark btn-sm me-2">Camberwell</a><a href="/tags/zoe-caldwell/" class="btn btn-outline-dark btn-sm me-2">Zoe Caldwell</a><a href="/tags/ray-lawler/" class="btn btn-outline-dark btn-sm me-2">Ray Lawler</a><a href="/tags/robin-boyd/" class="btn btn-outline-dark btn-sm me-2">Robin Boyd</a><a href="/tags/harry-m.-miller/" class="btn btn-outline-dark btn-sm me-2">Harry M. Miller</a><a href="/tags/bruce-beresford/" class="btn btn-outline-dark btn-sm me-2">Bruce Beresford</a><a href="/tags/barry-crocker/" class="btn btn-outline-dark btn-sm me-2">Barry Crocker</a><a href="/tags/don-dunstan/" class="btn btn-outline-dark btn-sm me-2">Don Dunstan</a><a href="/tags/gough-whitlam/" class="btn btn-outline-dark btn-sm me-2">Gough Whitlam</a>-->
+
+        
+      </header>
+      <div class="article-body">Of course, the extraordinary thing is to meet Barry Humphries playing Barry Humphries. He is tall and elegant...oh, so elegant. He is just someone from the Max Beerbohm 'Yellow Book' era, just a little foppish but so beautifully dressed.<br><br>
+For example, in the Australian summer of 1977 he favored a natural color linen suit, a white panama hat, a dark blue striped shirt, a large bow tie and, on his lapel there was a lovely enamelled butterfly. He completed the scene with a monocle which he could handle with a flourish and suggested undoubted nobility. In the winter, instead of that white Panama, he tended to wear a marvellous hat made of a black velour. It had a wide floppy rim.<br><br>
+His hair could only be described as Army sergeant short, an act of rebellion dating from 1970 when even bank clerks tended to wear their locks down to their shoulders. It was a different matter back in 1958 when the 24-year-old Humphries wore his lank dark hair sitting on his collar; an act of extraordinary courage in a country where even a faint deviation from the norm raised cries about one's manhood.<br><br>
+Humphries said his hair-do made Australians shifty-eyed and nervous and inclined to collide with the furniture. In extreme cases they would avoid this sight by crossing to the other side of the road.<br><br>
+He was born on 17 February, 1934 and he grew up in an area of extreme respectability in Melbourne's Camberwell. His entry in <i>Who's Who in Australia</i> says somewhat wryly, 'self educated, attended Melbourne Grammar School.' The Melbourne Grammar experience never evoked warm memories. He has written: 'My first weeks of the new "big school" were weeks of terror and bewilderment. Aged masters slouched across the quadrangle in gowns so tattered and green with antiquity that they resembled the ragged creepers which depended from the bluestone walls of the school chapel. Prefects and probationers, the school's licensed bullies, preyed mercilessly upon the new boys, and anyone who had not been recently scalped by a barber or who was caught cap-less on the Toorak tram might expect a thrashing from some impetiginous youth but a few years his senior...the boarders formed an elitist group of the kind even a socialist would grudgingly admire, uniformly dull of wit, loud-mouthed and ferociously conformist.'<br><br>
+'School spirit', he says, was ruthlessly enforced and precious hours of after-school leisure were wasted in dangerous and futile exercises on the playing fields. 'Like sheep to the slaughter the boys would subject themselves to hours of health impairing sport, often returning to their homes after dark, too ill and exhausted to study.'<br><br>
+But Humphries was different, as soon as his name was ticked off the role, he would vanish into a cubicle in the school lavatories, and with the aid of an accomplice who pushed his gladstone bag through the door, he would do a quick change back into his school clothes. Then, as soon as he received an all clear whistle — off on a tram to freedom.<br><br>
+That went well for a remarkable time, until one day there was a knock on the door, and there stood the Neanderthal figure of the school captain...'The game's up Humphries.'...As Humphries put it, his locker-room crime was akin to blasphemy, he had offended a deity infinitely more sacred than the High C of E Jesus in the school chapel. For that crime he earned the school nickname 'Queenie Humphries', a fate almost worse than death.<br><br>
+Anyone who did well scholastically was somewhat despised in those days. He said: 'At the end of my last year at Melbourne Grammar I scored, two, no three Exhibitions...English, British History and a General Exhibition. I was considered to be quite bright.'<br><br>
+The rule stated that if he intended to do an Arts Course at the University of Melbourne, then he must have a language. Meanwhile he had to study German at night school and he was forced into a Law Course. 'I yawned my way through Law,' he said, 'I didn't pass an exam. I spent my time doing revues. And university was a disappointment. I saw it just like school in mufti. My father thought perhaps I should get a job in commerce full of the old boys, wearing their ties and RSL badges.'<br><br>
+He went to a Vocation Guidance Officer, who asked his interminable questions and after much deliberation came up with the remarkable idea — he ought to get a job in a vocation guidance office. Actually he won a job with the EMI record company in Flinders Lane. 'They put me in a room,' he said, 'with no windows. My job was to break up the old, no longer saleable 78 rpm records. Heartbreak it was, those beautiful records. I wanted to sneak away with piles of Mahler, Debussy, Sibelius and...oh yes, Ronald Frankau and the Ink Spots. I went at it with a sort of inane frenzy. I remember an executive told me I wasn't fast enough. "Hit the record one inch to the right of the hole," he told me. There was something symbolic in that.'<br><br>
+He had a resentment, almost an anger against what seemed the unbearable conformity and dullness of suburbia. He conducted a series of practical jokes, which seemed most curious, designed only to amuse B. Humphries, yet everyone had the same link, to upset the well-ordered, local, affluent calm.<br><br>
+For example, there was the remarkable Ashburton Line incident. He took a seat in an early morning train, non-smoker first class. He had accomplices stationed at stops all along the line. At the first stop an accomplice opened the carriage door and silently passed in a grape fruit. At the next stop another passed in some cornflakes, at the next bacon and eggs, at the next toast and finally coffee. The effect on the other passengers was paralysing, a sensational experience. There was no payoff, no reporters present. To have explained his actions would have spoilt everything.<br><br>
+Then there was the incident during the bargain sales at David Jones in Sydney, the typical sale with clothes heaped on the counter. He went to a delicatessen in King's Cross and bought a supply of sliced ham. Surreptitiously he placed slices of ham here and there amongst the clothes. 'Now,' said Humphries, telling of this incident, 'if they had found a moth ball they wouldn't have been surprised. If they had found a silverfish, even a tennis ball or a portable radio, they would have understood. But a slice of ham! Nobody would put slices of ham in amongst clothing even as a joke.'<br><br>
+The bargain hunting lassies called a gentleman with a carnation in his button-hole. He went off with one of the offending slices between two fingers, deeply disturbed. He was never likely to be the same again.<br><br>
+Frequently he made his psychological attacks in trains. An even more hurtful affair was the time when his accomplice stepped into a crowded peak hour compartment. He was wearing dark glasses, he carried a white stick and he had a plaster cast on one leg. Courteous people offered him a seat. Then as soon as he was comfortable he pulled out a pianola roll and began to read it.<br><br>
+At the next stop Humphries entered wearing a black cloak, black hat and with his long dark hair, he was clearly not one of us. To make him appear even more undesirable he started to read a great volume titled <i>Mein Kampf</i>. At the next stop he lurched towards the door and fell over his friend's plaster cast. He screamed: 'You blind, crippled, Australian bastard!'<br><br>
+He also conducted a surrealist campaign against a Mr. Malouf who had a small mixed business near Melbourne University. One day the young Humphries went into the shop and bought a bar of Lux soap. He gave Mr. Malouf the money and he handed back the soap, plus the change. Humphries took the change and left the soap on the counter. Mr. Malouf shouted to Humphries to come back, he had forgotten his soap.<br><br>
+Humphries explained that he didn't want the soap, he had merely wanted to buy it. Other Humphries friends called and went through the same ritual, paying for the cake of soap, but never taking it away until the hapless Mr. Malouf began to wonder about his sanity; a grave fundamental principle was being undermined, that upon the exchange of money one should receive goods.<br><br>
+He went to art school and contemplated making a career as an artist and he battled hopelessly to make a career in the dreaded commerce and only one thing saved him. At night he was appearing in repertory theatre and he did so well John Sumner invited him to go on tour with the Council of Adult Education, and asked: 'Have you ever thought of making acting your career?'<br><br>
+'My first thought was,' said Barry, 'how am I going to tell my folks? This was an inconceivable way of earning a crust. Who had ever met an actor? A fellow with dyed hair once came to school to read us poetry. He was considered a very ODD sort of person.'<br><br>
+But they went on tour all around Victoria by bus. Barry played in <i>Twelfth Night</i> opposite Zoe Caldwell. Also on the bus was Ray Lawler, an actor who spent his nights writing a play called <i>Summer of the Seventeenth Doll</i>. There were long hours on the bus and as a break from the horror of community singing he used to do a monologue in a falsetto voice. It was another form of Humphries reaction, very funny, but full of minute detail about the drear of society, furniture, clothes, advertised products. He called it a liturgy of advertising, and as one listened one could depict the aridity of life in suburbia and absorb all its prejudices.<br><br>
+John Sumner said to him: 'You should do that for our end of year revue?'<br><br>
+'Who will I get to do it?' Humphries replied, 'Zoe Caldwell?'<br><br>
+'No, you do it yourself.'<br><br>
+The problem was what to wear for this first solo performance. He wore a blue floral dress, New Look style; a pink twin set, a pointed yellow hat. On his hairy legs he had short men's socks and with bright lipstick he gave himself a comical red mouth. He called himself Edna Everage from Moonee Ponds. Why Moonee Ponds? Well, it seemed a funny name and after all the tale was all about billeting for the Olympic Games and looking after 'lovely people from Afghanistan.' The year was 1956.<br><br>
+Immediately Edna began to blossom as a character, and Barry had to think deeply about what she would wear. He approached well-ordered, well-behaved stores like Myers with fear.<br><br>
+'First, I used to go into a store and say I need some clothes for my sister. She's sick in hospital so I have to buy for her.'<br><br>
+'What size sir?'<br><br>
+'Well, oddly enough she's exactly the same size as me.'<br><br>
+Later, he said, he went into a shop in Oxford Street, London, tried the same routine and the girl with a raised eyebrow replied, 'Oh, don't worry dearie, all the boys buy their clothes from us.'<br><br>
+Edna Everage was to blossom more hysterically later. He was the first to establish his name in 1958 with a series of remarkable art exhibitions. One exhibition was devoted entirely to 'cakescapes', 'piescapes' and 'saucescapes'. One quite vile picture was titled — I WAS EATING A PIE WHEN I COUGHED.<br><br>
+There was an awe-inspiring frenzy about many of his activities. He said this wasn't done without fear and partly it was an attempt to overcome an appalling shyness. At the opening of his Piescape exhibition he put his elbow in a bowl of tomato sauce to test it for correct temperature and then drank it. What was left over he poured over his head. This, said he, was his tribute to our great national drink.<br><br>
+He pointed out that the pure beauty of his art works made from pies, and cakes was this. Unlike more regrettable art works being displayed to the public, these could not last longer than a week. He was proud of one exhibit, a military boot filled with condensed milk. Its title was <i>Puss in Boots</i>.<br><br>
+At his exhibition of forkscapes and shoescapes there was a sculpture of twisted forks titled <i>The Battle of the Plate</i>, there was a collection of boots nailed to a board called <i>A Thing of Booty is a Joy Forever</i> and a stuffed fox on a bicycle wheel was called <i>Still Life of the Poety of Motion</i>. Two sculptors walked out of the exhibition at the Victorian Artists Society. In the words of the <i>Herald</i> their beards were bristling with indignation.<br><br>
+All the time the Humphries characters Edna Everage, Norm, Sandy Stone, Martin Agrippa, Morrie Tate and at one stage even Dame Myra Stoper were taking on their terrible frenetic edge. He developed his monologues on ABC television and then produced them on record with the introduction by the architect, Robin Boyd, who was one of the first to recognise his talents.<br><br>
+In Toorak, South Yarra, and even in Beaumaris it was IN to have heard of Barry Humphries and to own one of his records. He had a photographic memory for dissecting and identifying the crusty Australian scene.<br><br>
+He showed this much later when as Edna Everage, poet laureate of Moonee Ponds, he launched <i>A Dirty Book — Pollution in Australia</i> by Derek Whitelock. It began:<br><br>
+<div class="text-center">
+The Melbourne of my girlhood was a fine Rexona Town,<br>
+Her smile was bright with Kolynos and Persil white her gown,<br>
+Her Bedggood shoes with Nugget shone, she scorned inferior brands,<br>
+And in her Lux-white gloves there slept her soft Palmolive hands,<br>
+She washed her crowning glory in the suds of Wright's Coal Tar,<br>
+And in her spotless laundry lay her loyal Velvet Bar;<br>
+With Reckitt's Blue (a knob or two), Dutch Cleanser and a chamois,<br>
+While every window in her house with sparkling with Bon Ami.<br>
+While Lily kept her bathtub bright and Silvo shone her tap<br>
+And the fragrant scent of Phenyl wafted from her gully trap.<br><br>
+But where, Oh where, I ask you, is that wholesome lass of yore?<br>
+The Wundawax has long since dimmed upon her kitchen floor,<br>
+The Marveer on her dining suite is caked with layers of soot<br>
+And her Cuticura'd face is black as a Monash student's foot.<br>
+Her breath where Floral cachuns mingled once with Listerine<br>
+Now reeks like New Australian food, or a Harpic-less latrine;<br>
+Those stockings washed in Sunlight soap are soaked with mud and sweat<br>
+And Aunt Jenny wouldn't recognise her filthy lace layette!<br><br>
+Immaculate Miss Melbourne has really gone to pot;<br>
+A foul old crone now occupies John Batman's spotless spot.<br>
+She defiles the land we borrowed from the Aborigines,<br>
+As I'm sure they would corrobordie between corroborees.<br>
+Her chimneys stain the Dulux Sky, the Yarra is polluted,<br>
+In Phillip's Bay floats foul decay, the Mallee has been rooted.<br>
+My childhood creek at Moonee Ponds which once was clean and pure<br>
+Now reeks like a New Australian's breath, or like some open sewer.
+</div><br>
+He looked upon advertising as the fingerprints, the identifying marks of a generation — the Greeks left behind marble statues — the Australians left behind Huttons Hams mirrors and black men in shirts saying 'Mine Tinkit They Fit.' He had an extraordinary gift for finding fading advertising signs. Perhaps his most superior discovery was a 'Dr. Morse's Indian Root Pills' hoarding almost in mint condition on a wall in a lane just off Lonsdale Street.<br><br>
+As befits a triumphant archaeologist he held a triumphant lunch at the Society Restaurant, then as the guests finished their dessert, he ordered taxis and champagne. It was all done with appropriate style. The guests went by taxi to pay homage to the sign. Humphries made an elegant speech concerning the importance of his discovery, then at the appropriate moment the waiters stepped forward with glasses of champagne on silver trays.<br><br>
+'To Doctor Morse,' cried Humphries.<br><br>
+Then all pilgrims drank their champagne and threw their glasses against the brick wall. There were numerous complaints to the newspapers the next day about the under-privileged and the wasteful destruction of champagne glasses.<br><br>
+In 1959 he went to London and had a very successful season playing Fagan in <i>Oliver</i>. He wrote to me at <i>The Sun</i> in Melbourne, saying that there was just one thing that could bring him back home, a genuine old war-time sign announcing THIS IS A WAR SAVINGS STREET. We discovered that even 16 years after the war's end many streets like Somerset Place, Windsor; Edinburgh Street, Hampton and South Street, Ascot Vale, still proudly sported their War Savings Street signs. Qantas flew two signs to him in London free of charge.<br><br>
+He nailed one of these outside 10 Downing Street in London and as he drove the hammer he said: 'We aim to preserve all existing signs, and re-erect those that have suffered from the corrosion of time and the apathy of peace. Our motto is "They meant something then — what do they mean now?" Naturally the new suburbs present a problem. Many residents in Clayton, Highett, McKinnon and Nunawading may object that they can't get into the act. We are therefore preparing signs for them — THIS MIGHT HAVE BEEN A WAR SAVINGS STREET.'<br><br>
+He returned to Australia in 1962 to put on his one-man show, <i>A Nice Night's Entertainment</i>. What was a hit in 1962 was a tremendous hit in 1965, when the new show was called <i>Excuse I</i>. There was a suspicion everywhere now that Humphries was Australia's first theatrical genius and wherever he appeared television cameras gathered in force.<br><br>
+Always at Press conferences he had a well-prepared act. When he arrived at the airport in 1965 he ran up aircraft ladder, threw out his chin and posed as Joan Sutherland. He was wearing a large badge in his buttonhole, which read I WILL DOMINATE YOU. 'So useful', he said, 'to wear in countries where the white races are in a minority.' He also handed out more badges, which were shaped like a Returned Servicemen's League rosette, with the message KEEP VIETNAM YELLOW.<br><br>
+'They are reversible,' he said, 'with the message in Vietnamese on the other side. I will apply to the Melbourne City Council for a button day in Collins Street. Then I will sell them on behalf of the Melbourne Grammar Building Fund.'<br><br>
+At times he was merciless towards Melbourne Grammar and legend has it that he was expelled from the Old Melburnians Association because in one of his early revues he placed a Melbourne Grammar tie around a beer bottle. In the movie <i>The Adventures of Barry McKenzie</i> there is an extraordinary scene played by Dennis Price, in the role of Mr Ronald Gort. He inveigles Barry into his den and there he is, the formal English gentleman, now dressed as a junior Billy Bunter complete with shorts and school cap. He hands Bazza a cane 'Thrash me, Sir. Do with me what you will.'<br><br>
+Mr Gort is wearing a Melbourne Grammar old school tie and on the wall of his den there is the Melbourne Grammar motto <i>Ora et Labora</i>.<br><br>
+As the Old Boy became more and more successful the headmaster invited him back to meet the boys and in 1971 he was even guest of honor at Old Boys night in the Camberwell Town Hall. He made a magnificent entry aboard a camel.<br><br>
+The sixties were not years of easy happiness. His sensitivity was tissue thin, and he could not abide criticism. I have seen him on a street corner in Chapel Street, Prahran reduced almost to tears by the taunts of University students. Before any show, before any public performance he suffered hours of self doubts when he managed to convince himself of the certainty of failure. For his early Edna Everage stunts he had to steel himself, develop an Arctic cold courage. He said in 1977 'I'm still terribly nervous every night before a performance. In this kind of entertainment you can't afford to hesitate. You must have the courage to go on with it. Success is 80 per cent effrontery and 20 per cent talent.'<br><br>
+His greatest act of Arctic courage was in 1964. He was in London and making Edna's 'execrably bad home movies' for <i>Excuse I</i>. Sir Robert Menzies was in London so he wanted this movie with Edna and Sir Robert together. So he dressed as Mrs. Everage and in the terrible London cold he waited outside the Savoy Hotel for two and a half hours. The doorman and others were impressed. 'You must be very loyal,' they said. Then Sir Robert Menzies came out of the hotel and walked to his car. Edna ran out screaming: 'I'm one of your electors. You're doing a fine job, Sir Robert.' The tragedy was the man Humphries had hired did not also have Arctic courage. He had fled, so the episode never got on to film.<br><br>
+He reacted savagely to those who suspected his motives and believed that anyone who left the shores of Australia should be a mobile koala travelling league with a New Zealand Artist Nick Garland and created the comic strip <i>The Adventures of Barry McKenzie</i>. It ran for 10 years in the London magazine <i>Private Eye</i>. It craftily exploited the prejudices of Australians versus the Poms. The Poms were depicted as rapacious, mean cunning, and somewhat unwashed. The Australians personified by Bazza McKenzie were stupid, beery, chundersome and incomparably vulgar. Its satire was as kindly as a funnel web spider and it changed the language, creating an entirely new slang both in England and Australia.<br><br>
+His comic strip book contained a glossary of terms for all those who didn't understand such as 'Poms, magistrates, fourth-form schoolboys, nuns, Harry M. Miller, Customs officers and consenting male and female adults in private.'<br><br>
+<i>Abo's armpit:</i> (See under lubra's loincloth.) An allegedly malodorous zone.<br>
+<i>Bastard:</i> A nice person.<br>
+<i>Beef bayonet:</i> (See under Percy, pork sword, John Thomas, Nunga old fella), the virile member.<br>
+<i>Bonzer:</i> Beaut, extra grouse, and fan-bloody-tastic.<br>
+<i>Bun in the oven:</i> (See under up the duff), preggers.<br>
+<i>Bundle of lettuce:</i> (see under greenies), folding stuff, paper money.<br>
+<i>Chilled ones:</i> (See under foaming frosties, nick oil, stubbies, coldies, Fosters), lager beer.<br>
+<i>Chuck:</i> Enough to make you. (See under chunder, technicolor yawn).<br>
+<i>Crustacean, uncooked:</i> (See under prawn, raw).<br>
+<i>Knuckle sandwich:</i> A punch in the face.<br>
+<i>Kookaburra's khyber, as dry as a:</i> A condition of the throat prior to the ingurgitation of ice-cold lager.<br>
+<i>Petrols, petrol bowsers:</i> Trousers.<br>
+<i>Skinful:</i> To be replete with alcohol.<br><br>
+Then of course, there was 'snakes hiss' or 'point percy at the porcelain' a phrase which instantly went around the world.<br><br>
+The Bazza strip was often quoted but never published in any Australian newspapers. It was banned from even entering Australia.<br><br>
+<i>Bizarre</i> a collection of literary erotica was Barry's first publication and it appeared in 1965, very handsomely produced, price $10. This too, suffered criticism and in January 1967 it was banned from the Moorabbin Library on the motion of the Mayor, Cr. Reginald Butler. The <i>Herald</i> quoted Cr. Butler saying: 'All things are not free. You are not entitled to take opium or liquor above a certain strength. the same applies to literature.'<br><br>
+From London Humphries wrote a public letter to Cr. Butler:<br><br>
+<div class="text-center">
+Dear Sir,<br>
+First of all may I saw how delighted I am to see the name of Moorabbin creeping into the international news. It is not before time since too few people at home and abroad associate the name of your delightful suburb with cultural matters. I meditate upon a day not far off when Moorabbin will be the home of an international festival of arts. I know, sir, that the affairs of Moorabbin must keep you extremely busy, leaving you little time for idle reading. In view of this, would you do me the honor of accepting a complimentary autographed copy of my humble work <i>Bizarre</i> to study at your leisure so that the good folk of Moorabbin are not deprived too long of the pleasure of reading it. I shall be delighted to insert bookmarkers at the best bits.<br><br>
+Your obt. serv.<br>
+Barry Humphries<br><br>
+RSVP
+</div><br>
+<i>Bizarre</i> was not off the shelves for long. A month later the Moorabbin Council approved a recommendation from the Library administration committee that the book should go back, however, bearing the stamp 'suitable for adults.'<br><br>
+Often there were complaints in Parliament that the works of Barry Humphries did not suit the national image, but Harry Miller, the show business entrepreneur was more eloquent than most. In 1969 he returned to Sydney from London and told reporters: 'That man Humphries is an idiot. We have enough trouble convincing the world Australia is sophisticated. Yet we have this idiot Humphries running around ruining the country. He is doing more harm to Australia each night on stage in London than a whole bunch of our dowdy politicians could do in a month. I really think we should feel responsible about our national image because people know too little about Australia.<br><br>
+Humphries replied that he was horrified that his show had been criticised by his dear friend.<br><br>
+'I am busily engaged,' said he, 'in improving the show by issuing the audience with paper Australian flags, dressing the usherettes as koalas and learning to play <i>Waltzing Matilda</i> on the didjeridoo.'<br><br>
+Warming to his subject he said he was making an intense study of <i>The Boys in the Band</i> and <i>Hair</i>, Mr. Miller's current offerings in the hope of learning further lessons in patriotic play-writing.<br><br>
+'As well as all this I am also writing a patriotic drama based on the highly successful career of a sophisticated New Zealand hosiery salesman. I do hope my dear friend and artistic adviser Mr Miller will approve. God Save the Queen.'<br><br>
+Thereupon Mr Humphries returned to another performance at the Fortune Theatre and <i>Just a Show</i>. The criticism which irked him most was the suggestion that the talent, Mrs Norm Everage all, was just a passing thing, and the great idea of Mrs Suburbia soon would be played out. He told the story of his old school teacher who said to him: 'Ah yes Humphries, but are you sure you're not just a flash in the pan.' Even the names of his shows have a protective ring, a feeling of waiting to be knocked — <i>Just a Show</i>, <i>Excuse I</i>, <i>A Load of Old Stuff</i> and <i>At Least You Can Say You've Seen it</i>.<br><br>
+From 1966 on the strain began to wear through. He was never known to miss a performance or miss an important public appearance, but he became a heavy drinker and often he needed half a glass of brandy to keep going. In 1970 he seemed close to despair and very ill. On June 15 police arrested him at 1.15 in the afternoon in Burke Road in the Melbourne suburb of Camberwell. The charge was 'drunk and disorderly.' The police accused him of using insulting language: 'You must have had a dull day. Didn't you have any old ladies to arrest! Hope you have a better evening you pathetic bastards.'<br><br>
+Three days later Mrs Ena Hands, wife of the licensee of the Royston Hotel in River Street Richmond, found him slumped, muddy and dishevelled in a factory doorway.<br><br>
+Two men, apparently, had followed him down a laneway beaten him up and left him there. They stole a watch and gold fountain pen. He went off for treatment at St. Vincent's Hospital. Yet that night he had to open an exhibition of Balinese paintings at the Age Gallery. His face was bruised and he announced. 'Actually I am bruised everywhere except on my knuckles.' He prodded his stomach and said 'The police are looking for a pair of boots that fit two dents in my stomach.'<br><br>
+He launched off into one of his famous poems:<br><br>
+<div class="text-center">
+There are schooldays I remember<br>
+So far off and yet so near<br>
+When we had to write the same old essay three times every year.<br>
+What did you do in holidays? The English Master said<br>
+Then sat back to smoke his pipe<br>
+And watch the little bastards sweat<br>
+What did we do, where did we go in those misty 1940s?<br>
+What Shangri-La could be reached by car<br>
+On those dismal family sorties?<br>
+The Pontiac and Oldsmobile the faithful pre-war Dodge.<br>
+Were lucky if they took us further South than Dava Lodge.<br>
+There were ranges called Strezlecki and the bay they called Half Moon<br>
+There were rolled oats for our brekky<br>
+Ping pong in the afternoon.<br>
+Autumn evenings at Olinda toasting crumpets on the logs<br>
+And in summer buckles resting on a thousand Jantzen togs.<br>
+We could weave these into essays, but we couldn't mention things<br>
+Like the nice old man at Mornington who watched us on the swings<br>
+And dark-eyed boys excused from Chapel nonetheless were forced to rally<br>
+Their imaginations to describe in full the Warburton Chalet
+</div><br>
+And so it went on describing holidays at Cowes, Lorne, Stawell and the Lucky Little bastard, son of scion at a Bourke Street store, who went to Sydney but it all finished with the bitter lines:<br><br>
+<div class="text-center">
+If you want to keep your feet up<br>
+Relax and just unbend<br>
+There's a peaceful Richmond gutter<br>
+That I highly recommend.
+</div><br>
+The drunk and disorderly charges came up in Camberwell Court on 7 September and subsequently were dropped. The Rev. Douglas Tasker, director of Christian Television Association told the court he had married Humphries to wife Rosalind, ten years earlier, and he explained the problem to the magistrate: 'He has a problem of his public image and his own personal character — his own character is different from his public image. He is a shy retiring person and easily hurt.<br><br>
+He originates ideas, writes his own shows and produces them. This makes him vulnerable and sensitive to criticism. It also puts him under excessive strain. I don't know how he does it.'<br><br>
+For three months he was in a private hospital and the new Humphries emerged, infinitely less strained with never a mention of the agonised hours at the police station or the alley at the back of a Richmond pub. No more brandy, not even a glass of wine, his drink from that day on was mainly soda water or ginger ale.<br><br>
+Another casualty of the strain of those years was marriage. His marriage to Rosalind, his second broke up, his two daughters Tessa and Emily, as teenaged school girls appeared in the film <i>The Getting of Wisdom</i>.<br><br>
+Now he was much jauntier, wearing a monocle the velour hat and the bow tie, and late in 1971 he went off to London with film producer Bruce Beresford to make a film version of his comic strip <i>The Wonderful World of Barry McKenzie</i>.<br><br>
+There was a sweet irony in this. For more than three years his comic strip book had been in Australia as obscene, a corrupting thing for tender Australian minds. Now the very Government that banned the book as an obscenity suddenly saw it as a cultural object and put up $250,000 to back it through the Film Development Corporation.<br><br>
+Barry Crocker was chosen to play the lead, a gentleman with a chin exquisitely designed for the part. Humphries who played roles Edna Everage, Meyer de Lamphrey the mad psychiatrist plus a Jesus freak rock singer approached his task with some enthusiasm: 'We are filming it in winter' he said, 'because this is ideal for making London as picturesquely horrible as possible. Practically all our extras will be colored and we will have a Large FOR RENT sign outside St. Paul's. Yes, and we've built a special taxi meter. It's a meter designed specially for Australians. As soon as an Australian gets into a taxi every time the meter clocks over it goes up another £5 until it registers £20.'<br><br>
+He also added to the realistic charm of London by sprinkling dog droppings everywhere on the pavement. Naturally McKenzie fans were eager to find out how he would handle the famous Bazza chunder scenes.<br><br>
+'We have made a chunder machine. There is a pipe which will go up in the inside of Barry Crocker's trousers then around the camera. The technicolor yawn will look quite magnificent on a big screen.'<br><br>
+Even more important was the chunder recipe.<br><br>
+'We have scientific experts working on that, but I suspect they will have to fall back on my original formua. This consists of large quantities of sweetcorn, tinned tomatoes and Heinz mixed vegetable salad.'<br><br>
+Some critics crinkled their noses over the extravagant behaviour of Barry McKenzie but it had a big public success both in Britain and Australia. It's profit after costs was $570,000 and it ranked six on the list of the 20 top-grossing Australian films between 1971 and 1977. The sequel <i>Bazza Holds His Own</i>, released in 1974 was only slightly behind with $483,345.<br><br>
+In <i>Bazza Holds His Own</i> Aundy Edna was mistaken for the Queen, kidnapped and flown off to Transylvania where Count Dracula lusted after her soft neck. Yet the coup was the capture of the special guest artists Gough Whitlam and Mrs Whitlam. In the closing sequence of the film Edna is back home again in Sydney and there are the Whitlams waiting to greet her. The Prime Minister says: 'I now dub thee Dame Edna Everage. Arise, Dame Edna.'<br><br>
+The title did not remain dormant with the film. From then on she was Dame Edna Everage Housewife Superstar. Barry admitted she was a very different creature from those old days in Moonee Ponds.<br><br>
+'Back in the 1950's she was obsessed about sponge fingers, cups of tea, sand-blasted double doors, lamingtons — and she adored china ducks on the wall. She has outgrown all that. Travel does wonderful things for you doesn't it? She now likes Quiche Lorraine, she makes a beautiful cheesecake and she drinks campari and soda.<br><br>
+'She used to watch <i>Bellbird</i> on the telly, but now she loves <i>Power without Glory</i> — that's the <i>Blue Hills</i> of the late 70s. She used to be in a sort of large smocks. Now she's in denim. She gets her denim in South Yarra and you wouldn't believe the number of people in London who want to buy Edna's clothes. I could buy a Dame Edna shop in London.'<br><br>
+The year 1976 was the year when Housewife Superstar did actually become a superstar. He had tried his one-man show several times before in London and it could be described as a comfortable success. Now he went for the Apollo, a big theatre in London's West End. The smart money bet that he would last three weeks. There was another big show opening on the same night, so he took a gamble, he opened at midnight.<br><br>
+His gag was that he couldn't open earlier because the critics never came out until the pubs closed. As it was the critics waved. Even the august <i>New Statesman</i> described the astonishing ending to the show when Dame Edna hurled gladioli at the audience then had them all waving their gladdies in sensuous phallic unison. One little fat man struggled up to the stage and according to the <i>New Statesman</i>: 'Dame Edna, bouffant-bewigged, butterfly-bespectacled, all pink, green, blue and gold and high-heeled, glad-handed the fat man on the stage and forced him down with a bright red kiss on his bald pate, to the cheers of several thousand like-minded and like-aged gladioli wavers. "I'm your fairy gladmother!" Edna shrieked as she shoved the sweating, owl-grinning fat man off the stage, tossing after him the remark that such as little glad as his was a tragedy. He waved the glad above his head, joining in the crude laughter at his expense.'<br><br>
+There was never an empty seat and scalpers were getting up to £8 a seat. 'More than they were charging for Bing Crosby, who was performing down the road.' according to Barry Humphries. The show ran for five months and finished only then because he ran out of energy.<br><br>
+He did a show in Hong Kong, then just before Christmas he taped a show for BBC television... not as Dame Edna but as Humphries the art and history expert. Courteous, brimming with self confidence and erudition he chatted about the <i>fin-de-siècle</i> painters in Dieppe. He appeared alternately on the pebbly Dieppe beach in a striped 90's swimsuit, in a boater and blazer strolling on the promenade, and in a business suit climbing the stairs to the rooms where Charles Conder once lived.<br><br>
+He had a season in Australia and a season in New York. His timing was better, he had a clear, understandable, international style and he had developed an extraordinary gift for communing with his audience, for developing a two way feed back. I asked him about the occasion he remembered best.<br><br>
+The scene was Adelaide, 1976. 'You know how I like to torture late-comers' he said. 'I noticed that in the entire theatre only two seats were empty. House seats they were, usually kept for very important people. I let the audience in on this and there was a nice sense of anticipation. It wasn't for half an hour after the show started that he arrived. I have my powerful torch built into my handbag. I turn it on by a little rosette.<br><br>
+'The beam shone full on a gentlemen dressed in the fineries of youth, tiptoeing, and on his arm was a lady whom Edna would call "a tinted lass". It was Don Dunstan, premier of South Australia and his fiancee. The audience cheered and cheered. When they quietened a little I said: "I am often asked what is the latest thing in the theatre in Australia... Ladies and gentlemen, he has just walked in".'
+<hr>
+SOURCES:<br>
+<i>Sun News Pictorial</i>, 17 January, 1963.<br>
+Barry Humphries, The <i>Bulletin</i>, 20 August 1977.<br>
+Ibid.<br>
+<i>Sun News Pictorial</i>, 24 August, 1974.<br>
+Keith Dunstan, <i>Supporting a Column</i>.<br>
+<i>Sunday Observer</i>, 14 November, 1971.<br>
+<i>Sun News Pictorial</i>, 24 August, 1974.<br>
+Keith Dunstan, <i>Supporting a Column</i>.<br>
+The <i>Herald</i>, 23 August, 1958.<br>
+Keith Dunstan, <i>Supporting a Column</i>.<br>
+Ibid.<br>
+<i>Sun News Pictorial</i>, 12 August, 1972.<br>
+<i>Sun News Pictorial</i>, 1971.<br>
+<i>Sun News Pictorial</i>, 22 January, 1977.<br>
+Ibid, Keith Dunstan, <i>Supporting a Column</i>.<br>
+<i>The Wonderful World of Barry MacKenzie</i>, <i>The Bulletin</i>, 4 December, 1971.<br>
+The <i>Herald</i>, 14 January, 1967.<br>
+The <i>Herald</i>, 12 January, 1967.<br>
+The <i>Age</i>, 7 February, 1967.<br>
+The <i>Herald</i>, 11 April, 1969.<br>
+The <i>Sun</i> News Pictorial, 12 April, 1969.<br>
+The <i>Herald</i>, 7 September, 1970.<br>
+The <i>Age</i>, 20 June, 1970.<br>
+The <i>Sun</i> News Pictorial, 22 June, 1970.<br>
+Ibid., 7 September, 1970.<br>
+The <i>Bulletin</i>, 4 December, 1971.<br>
+The <i>Sun</i> News Pictorial, 22 January, 1977.<br>
+The <i>Advertiser</i>, Adelaide, 8 June, 1977.<br>
+The <i>Sun</i> News Pictorial, 22 January, 1977.
+<hr>
+Continue to the next chapter: <a href="/books/ratbags/5-edward-william-cole">Edward William Cole</a>
+</div>
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        Profile of Barry Humphries, tracing his Melbourne Grammar schooldays, the creation of Edna Everage and Barry McKenzie, and his rise to international stardom as Dame Edna Everage.
+      </p>
+
+<hr>
+<h4 class="h6">Related topics</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/barry-crocker/" class="link-secondary">Barry Crocker</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Barry Crocker">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/barry-humphries/" class="link-secondary">Barry Humphries</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Barry Humphries">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/barry-mckenzie/" class="link-secondary">Barry McKenzie</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Barry McKenzie">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/bruce-beresford/" class="link-secondary">Bruce Beresford</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Bruce Beresford">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/camberwell/" class="link-secondary">Camberwell</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Camberwell">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/don-dunstan/" class="link-secondary">Don Dunstan</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Don Dunstan">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/edna-everage/" class="link-secondary">Edna Everage</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Edna Everage">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/gough-whitlam/" class="link-secondary">Gough Whitlam</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Gough Whitlam">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/harry-m.-miller/" class="link-secondary">Harry M. Miller</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Harry M. Miller">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne-grammar/" class="link-secondary">Melbourne Grammar</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne Grammar">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/moonee-ponds/" class="link-secondary">Moonee Ponds</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Moonee Ponds">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/ray-lawler/" class="link-secondary">Ray Lawler</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Ray Lawler">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/robin-boyd/" class="link-secondary">Robin Boyd</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Robin Boyd">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/zoe-caldwell/" class="link-secondary">Zoe Caldwell</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Zoe Caldwell">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/barry-crocker/" class="link-secondary">Barry Crocker</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Barry Crocker">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/barry-humphries/" class="link-secondary">Barry Humphries</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Barry Humphries">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/barry-mckenzie/" class="link-secondary">Barry McKenzie</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Barry McKenzie">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/bruce-beresford/" class="link-secondary">Bruce Beresford</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Bruce Beresford">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/camberwell/" class="link-secondary">Camberwell</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Camberwell">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/don-dunstan/" class="link-secondary">Don Dunstan</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Don Dunstan">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/edna-everage/" class="link-secondary">Edna Everage</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Edna Everage">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/gough-whitlam/" class="link-secondary">Gough Whitlam</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Gough Whitlam">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/harry-m.-miller/" class="link-secondary">Harry M. Miller</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Harry M. Miller">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne-grammar/" class="link-secondary">Melbourne Grammar</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne Grammar">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/moonee-ponds/" class="link-secondary">Moonee Ponds</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Moonee Ponds">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/ray-lawler/" class="link-secondary">Ray Lawler</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Ray Lawler">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/robin-boyd/" class="link-secondary">Robin Boyd</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Robin Boyd">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/zoe-caldwell/" class="link-secondary">Zoe Caldwell</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Zoe Caldwell">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

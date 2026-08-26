@@ -5,10 +5,10 @@ summary: Gleefully projects Melbourne's population overtaking Sydney's by 1985 u
 categories:
 - The Bulletin
 tags:
-  - National Mutual Centre
-  - ICI Building
   - Collins Street
   - The Herald
+  - ICI Building
+  - National Mutual Centre
 ---
 
 Actually it is in the worst possible bad taste to go in for comparisons, but then, don't you see, it's things in the worst possible bad taste that always make the best reading.

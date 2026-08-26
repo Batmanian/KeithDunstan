@@ -10,11 +10,11 @@ tags:
   - Eric Westbrook
   - Exhibition Building
   - Joseph Reed
+  - Jules Lefebvre
   - Melbourne
   - National Gallery of Victoria
   - Robin Boyd
   - Sidney Myer
-  - Jules Lefebvre
   - Young and Jacksons Hotel
 ---
 
@@ -74,4 +74,4 @@ In Melbourne we are a hard, practical people.
 
 <hr>
 
-*Source: [MELBOURNE'S EVERGREEN EXHIBITION](https://nla.gov.au/nla.obj-756035335), Walkabout Magazine, 1964-05-01. Retrieved via the National Library of Australia's Trove database. Pictures by Mark Strizic.*
+*Source: Melbourne's Evergreen Exhibition, Walkabout Magazine, May 1964. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-756035335).*

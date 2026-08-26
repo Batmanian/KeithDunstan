@@ -1,0 +1,726 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beatrice Miles</title>
+<meta name="title" content="Beatrice Miles">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Profile of &#39;Bea&#39; Miles, Sydney&#39;s most famous eccentric of the mid-twentieth century, covering her taxi battles, court appearances, Shakespeare recitals and death in 1973.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/ratbags/2-beatrice-miles/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Beatrice Miles">
+<meta property="og:description" content="Profile of &#39;Bea&#39; Miles, Sydney&#39;s most famous eccentric of the mid-twentieth century, covering her taxi battles, court appearances, Shakespeare recitals and death in 1973.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Beatrice Miles">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/ratbags/2-beatrice-miles/">
+<meta name="twitter:title" content="Beatrice Miles">
+<meta name="twitter:description" content="Profile of &#39;Bea&#39; Miles, Sydney&#39;s most famous eccentric of the mid-twentieth century, covering her taxi battles, court appearances, Shakespeare recitals and death in 1973.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Beatrice Miles">
+<link rel="canonical" href="https://keithdunstan.org/books/ratbags/2-beatrice-miles/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1980-11-11">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="Ratbags">
+<meta property="article:tag" content="Beatrice Miles">
+<meta property="article:tag" content="Sydney">
+<meta property="article:tag" content="Abbotsleigh">
+<meta property="article:tag" content="Ashfield">
+<meta property="article:tag" content="Wahroonga">
+<meta property="article:tag" content="James Ricketson">
+<meta property="article:tag" content="Smith&#39;s Weekly">
+<meta property="article:tag" content="John Clifford">
+<meta property="article:tag" content="Sylvia Markham">
+<meta property="article:tag" content="John Beynon">
+<meta property="article:tag" content="Little Sisters of the Poor">
+<meta property="article:tag" content="Rookwood Cemetery">
+<meta property="article:tag" content="William Shakespeare">
+<meta property="article:tag" content="Rushcutters Bay">
+<meta property="article:tag" content="St James Church">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">Beatrice Miles</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            20
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1980-11-11">1980</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Profile of &#39;Bea&#39; Miles, Sydney&#39;s most famous eccentric of the mid-twentieth century, covering her taxi battles, court appearances, Shakespeare recitals and death in 1973.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="Ratbags">
+         <!--<a href="/tags/beatrice-miles/" class="btn btn-outline-dark btn-sm me-2">Beatrice Miles</a><a href="/tags/sydney/" class="btn btn-outline-dark btn-sm me-2">Sydney</a><a href="/tags/abbotsleigh/" class="btn btn-outline-dark btn-sm me-2">Abbotsleigh</a><a href="/tags/ashfield/" class="btn btn-outline-dark btn-sm me-2">Ashfield</a><a href="/tags/wahroonga/" class="btn btn-outline-dark btn-sm me-2">Wahroonga</a><a href="/tags/james-ricketson/" class="btn btn-outline-dark btn-sm me-2">James Ricketson</a><a href="/tags/smith&amp;#39;s-weekly/" class="btn btn-outline-dark btn-sm me-2">Smith&#39;s Weekly</a><a href="/tags/john-clifford/" class="btn btn-outline-dark btn-sm me-2">John Clifford</a><a href="/tags/sylvia-markham/" class="btn btn-outline-dark btn-sm me-2">Sylvia Markham</a><a href="/tags/john-beynon/" class="btn btn-outline-dark btn-sm me-2">John Beynon</a><a href="/tags/little-sisters-of-the-poor/" class="btn btn-outline-dark btn-sm me-2">Little Sisters of the Poor</a><a href="/tags/rookwood-cemetery/" class="btn btn-outline-dark btn-sm me-2">Rookwood Cemetery</a><a href="/tags/william-shakespeare/" class="btn btn-outline-dark btn-sm me-2">William Shakespeare</a><a href="/tags/rushcutters-bay/" class="btn btn-outline-dark btn-sm me-2">Rushcutters Bay</a><a href="/tags/st-james-church/" class="btn btn-outline-dark btn-sm me-2">St James Church</a>-->
+
+        
+      </header>
+      <div class="article-body">Bea Miles said it in court, dictated it to reporters, proclaimed it as often as she could: 'I am a true thinker and speaker. I cannot stand or endure the priggery, caddery, snobbery, smuggery, hypocrisy, lies, flattery, compliments, praise, jealousy, envy, pretence, conventional speech and behaviour and affected artificial behaviour upon which society is based.'<br><br>
+She had two reasons why she had to be lonely, five reasons why she believed herself intelligent, six reasons why the police victimised her for 25 years and 13 reasons why she was happy. Let us start with the 13-formula:<br><br>
+1. Avoid covetousness, envy, greed, jealousy, lying, malice, snobbery.<br>
+2. Be content with what you have financially, socially and materially, provided you're not forced to live in abject poverty.<br>
+3. Be contented with what you are morally and intellectually.<br>
+4. Cry when you're unhappy or in pain.<br>
+5. Cut your possessions to a minimum.<br>
+6. Drink only when you're thirsty — and then only milk, water or soda water.<br>
+7. Eat only when you're hungry.<br>
+8. Exercise your mind as much as possible.<br>
+9. Laugh only to show feelings of pleasure and amusement and not pleasure and amusement at the predicaments of others.<br>
+10. Sing when you're happy.<br>
+11. Compose yourself for sleep about an hour before you think you're going to feel tired.<br>
+12. Vary your life as much as possible.<br>
+13. Don't give a rap for appearances, clothes, money, social position, what people think of you, manners, fashion and most tradition.<br><br>
+Bea Miles was different and suffered for it. She followed these rules almost precisely to the letter often at terrible cost. During her life time she was Sydney's most famous eccentric. She was an extraordinary sight, a bulky figure of 13 stone or more. Often she was in bare feet or failing that sandshoes without any laces. Her tangled hair was cut short, she always wore a green tennis eye shade then maybe she had on a man's sports coat or more likely a battered military great coat, held at the neck with a safety pin. Always she had a cigarette in her mouth.<br><br>
+Bea Miles was the scourge of taxi drivers and the agony of cinema proprietors. For 20 years she never slept in a bed and she was in court 195 times, providing some of the most entertaining court stories ever written in Sydney newspapers. Always she gave her name as 'Bea Miles, student, N.F.P.A.'<br><br>
+When asked the meaning of N.F.P.A. she would say 'No Fixed Place of Abode, of course.' Bea Miles was born at Ashfield, Sydney in 1901, the youngest daughter of a family of two daughters, and two sons. Her father had his own accountancy business and as he prospered they moved to Wahroonga and Beatrice was sent to the very exclusive Abbotsleigh private school. She graduated with first class honors in English and Bs in Latin, French and Modern History.<br><br>
+She went on to Sydney University and thought for a time of becoming a doctor. But she said she couldn't stand the type of young men who were doing medicine, so she switched to Arts. That lasted for one year, she became ill and left.<br><br>
+She was very nearly the first drop out, the first hippie. She was tall, slim, strikingly good-looking and she dashed around Sydney on a male-type racing bicycle. Sometimes she was in shorts and a shirt with a wide-brimmed white hat, or sometimes she pedalled in full evening dress, blowing a policeman's whistle, which was some considerable achievement.<br><br>
+She specialised in ignoring all convention. She would ride hanging on to the fronts of trams, or when riding her bike, she would cling to the back of any moving vehicle she could find, most unladylike for an Abbotsleigh girl. But she would do more than that she would jump on the bonnets of moving cars for a free ride and she rode all the way to Newcastle on a car bumper.<br><br>
+This strange behaviour was not acceptable to the staid citizens of the nineteen-twenties and at the age of 21 she was committed to a mental asylum, and she was in various mental institutions for the next three years. James Ricketson, a Sydney film maker interviewed Bea Miles about this and she told him that her father was responsible for that terrible time: 'When I was 18 he hated me so much that he wanted me locked up. He tried to drive me mad. He'd go round with a paper and pencil and write down in a book everything that he thought about me was mad... Such a person is insane himself. My father had a fixation on me; he was incestuous; mother had to stop him doing things in the house.' She accused her father of beating her, treating her brutally and she believed he sent her to an institution because of a fear her mother would tell the police about his incestuous behavior.<br><br>
+It was <i>Smith's Weekly</i> that got her out of the asylum. It published her story on the front page, and caused such a stir that after her release her father had to agree to pay a weekly allowance to allow her to live away from home.<br><br>
+Her father could have been the reason for her life long horror of any sexual attachment to a male. When asked about men she would always provide good copy for reporters. 'Men? They're second only to women as bores and hypocrites.'<br><br>
+Bea Miles began to gather fame in the late thirties. By that time she was known to every taxi driver, every tram and bus conductor in Sydney. Her philosophy was that all public transport should be free. Many of the old hands treated her kindly for the character she was; others fought her, man-handled her, dumped her on the pavement, took her to the police.<br><br>
+Despite her bulk she was brilliant at getting a door open and flopping into a cab while it was still moving. Once there it was a frightening task to dislodge her. She would give her directions and most times she would not expect to pay. If the taxi driver was abusive, unpleasant, violent she could be superbly violent in return. Her neatest trick was to bend back the taxi doors until the hinges snapped. That sort of behaviour cost her a jail sentence of three months in 1957 and six months in 1958.<br><br>
+One of her classic door bending efforts took place in February 1956. The Police Sergeant told the Central Court that she had tried to leap into a moving cab in the middle of Park Street at 8 p.m. on Tuesday night. There was not a taxi driver in Sydney who did not know her by sight and this one announced immediately that his cab was not for hire.<br><br>
+The cab wouldn't budge, so Bea in retaliation stepped out of the cab and bent back the door. Naturally the taxi driver became very angry, and according to the prosecution when a Police Sergeant intervened Bea shouted: 'you're a mongrel, a thief and a drunken robber.'<br><br>
+Always she conducted her own defence and she had more practice in Court than most barristers. Invariably she would say she was deaf and couldn't hear. Then she would ask the Magistrate nicely if she could approach the bench.<br><br>
+'I used insulting words to him when he used them to me,' she said. 'He called me a maggot. That's a nice thing to call a lady.'<br><br>
+When asked to explain the savage assault on the cab door she said: 'You see, when I get into a cab they kick and punch me.'<br><br>
+The Police Prosecutor said: 'Have you any bruises to show where this driver kicked and punched you on this occasion?'<br><br>
+Bea pounced on that one. 'Yes I have. I've got them on my bottom.' Then her lips curled, 'But you're not going to see them.'<br><br>
+She was ordered to pay fines and costs of £24/10.<br><br>
+Several weeks later she was accused of jumping into a moving cab and landing right on the laps of passengers.<br><br>
+'I have as much right to an empty cab as anyone else,' said Bea Miles.<br><br>
+'If you were sitting in people's laps how could the cab have been empty,' replied the magistrate.<br><br>
+Bea didn't care for the police and she despised magistrates. In her best cultured voice she told the court:<br><br>
+'When constituted authority comes into conflict with unauthorised movement you can be sure that nine times out of ten the unauthorised person is telling the truth.'<br><br>
+'Hmmmmm,' sighed the magistrate.<br><br>
+'In other words,' she continued aggressively, 'the police are practised liars. I am not.'<br><br>
+That cost her £5.<br><br>
+She had a gift for creating the spectacular scene. In Rowe Street there was yet another classic broken door situation. This time the taxi driver claimed she not only bent it, she removed the back door hinges and all. He chased her into a barber shop and she locked herself in the men's lavatory.<br><br>
+The barber shop proprietor said: 'About 1.45 p.m. I walked into the toilet and found Bea standing there looking at me quite fiercely. Then she shoved me out the door and locked it. I pleaded with her to come out, but she just wouldn't answer and she clicked the lock into place. Then I called the police and sergeants came from everywhere all offering solutions to the problem.'<br><br>
+Not only did the police come, every citizen in Rowe Street was there; it was a live show better than the Tivoli. The barber went down the road to the chemist to see if he could buy a stink bomb. The chemist had no such item, but he did suggest that the barber try ammonia.<br><br>
+The barber put a pad under the door, soaked it in ammonia and waited for something to happen. Nothing. The next idea was to rig up an electric fan and blow the fumes under the door. Oddly enough most of it seemed to blow back the other way asphixiating the police. The humiliation was too much. The barber claimed he could hear Bea laughing inside.<br><br>
+This went on for an hour, while they pleaded with her to come out. Finally a Sergeant put his shoulder against the door and smashed it in. So Bea went off on another charge of having caused malicious damage.<br><br>
+On a further occasion there was a great disturbance in Martin Place. Bea was refusing to budge from a cab. She had taken the driver's ignition keys and thrown them out the window. 'He was going to take me to the car wash and have me hosed down, she told the police.<br><br>
+She did not get hosed then, but such things did happen. In December 1950 a <i>Daily Mirror</i> reporter found her dripping, wet and crying, sitting in a taxi in Central Lane outside the C.I.B.<br><br>
+'Who does the driver think he is,' she sobbed. 'He's thrown three buckets of water over me, but I'm not leaving.' There were hundreds of spectators and although water flowed around her on the seat and through the doors of the taxi she still sat firm. Between sobs she told the reporter: 'I hired this man in Martin Place to drive me to Chatswood. Instead he drove me to Clarence Street Police Station. The police there refused to take any action, so he drove me up here.'<br><br>
+Bus and tram conductors mostly were tolerant, yet she still managed to get arrested for fare evasion with beautiful regularity. In April 1959 the Magistrate, Mr Blackmore confronted her with having to pay a bus fare. He made an offer, he would treat her kindly if she promised to pay all her fares for the next month.<br><br>
+She was back in the Court within a fortnight for evading a fare on a tram. 'Well, Miss Miles,' said Magistrate Blackmore, 'I thought you promised me that you would pay your fares for a month.'<br><br>
+'Yes,' said Bea innocently, 'but that was for buses not trams.'<br><br>
+Mr Blackmore gave a weary sign. 'If I allow you time to pay your fine this time will you promise to pay on the trams.'<br><br>
+'I'll pay on the trams too,' called out Bea, and by this time she was already heading for the door.'<br><br>
+The great transport battle continued for 30 years with little respite. Sometimes when she was in court she would give a little hand-out to the Press table.<br><br>
+'The Police have victimised me for 23 years for six reasons:<br><br>
+1. They can't make me leave the city.<br>
+2. They can't get me on a criminal charge.<br>
+3. Nor on a vice charge.<br>
+4. Nor on a drunk ditto.<br>
+5. They can't vag me.<br>
+6. They can't get an honest doctor to declare me insane.'<br><br>
+Several times she was injured. One day in Park Street she blocked traffic solid between George and Pitt Streets. There she was lying unconscious on the road bleeding from the head. The police interviewed a taxi driver, but no action was taken.<br><br>
+Yet it was not all like that. Some taxi drivers understood and actually adored her. In January 1955 she approached a King's Cross taxi driver, John Clifford and asked him to drive her to Perth.<br><br>
+He looked at her stunned. 'Don't be silly Bea. Go away, I'm busy. Anyway...' and he grabbed a figure out of the air, 'a trip like that would cost you 656 pounds.'<br><br>
+'All right,' she said, 'the bank's closed now, but I'll be back in the morning with the money.'<br><br>
+Sydney's <i>Daily Telegraph</i> published a small paragraph saying that Bea Miles had not been seen for several days and there was an extraordinary story going around the Cross that she had hired a taxi to go to Perth.<br><br>
+And indeed she had. There were two drivers John Clifford and Mrs Sylvia Markham of Crow's Nest. Bea announced that she was going to Perth to collect wild flowers for the Sydney Herbarium.<br><br>
+The cost of the fare was a shilling a mile. She paid in £5 instalments. At the end of every 100 miles she would reach into her purse, pull out another £5 and hand it over. Altogether the trip cost her close to the original target of nearly £700. There were no hotels. She taught her two taxi drivers how to sleep in the open on hard ground. 'Bea could sleep on rocks, or anywhere,' Clifford said.<br><br>
+Sylvia Markham said: 'She's a mighty women — she's next to a genius, but she's the most impatient woman I ever met. We never had time even to clean our teeth.' And Mrs Markham described how Bea sang all the time. These were Australian songs mostly composed by herself. 'That got a bit monotonous at times,' she said.<br><br>
+There were a number of these trips. She saved her money from the £3 a week left to her in her father's estate. A veteran taxi driver, Les Davis, described his experiences in the <i>Women's Weekly</i>. He first saw her when she was aged about 55 sneaking, creeping or perhaps even stalking through a tangle of traffic. Then she hopped into a taxi right in front. At the time he thanks God it was not his.<br><br>
+He waited fascinated to see how his colleague would handle the problem. Bea was in the front seat, so this taxi driver brought both feet up, then with a massive shove sent her out on the road still in a sitting position. The driver did not stop there, he jumped out with fists clenched. Bea would have received a thrashing had not Lewis gone in to separate them.<br><br>
+The driver said savagely: 'She bent the hinge on my door and I'm going to get square.'<br><br>
+Lewis found himself saying: 'Not while I'm around.' That was the beginning of a long friendship. 'I can say with pride I knew Bea Miles and I liked her,' he wrote.<br><br>
+That was the start of a regular association. He said that on Christmas Day 1953 she came to his boarding house at Bondi Junction. She was as abrupt as ever. 'I want to go to Broken Hill via Melbourne and I want to go now. Will you take me or not?'<br><br>
+Lewis said: 'Something caught in my throat and I coughed and spluttered violently. 'Now? I can't go now!' But he said that Bea gave him that 'yes or no' look stared him into the ground and he knew he couldn't win. 'I will be with you in five minutes,' he said.<br><br>
+'Make it three,' she said, whereupon she went out and made herself comfortable in the front seat of the taxi. Lewis persuaded the owner-driver of the cab to come too and away they went.<br><br>
+He said the current rate was one shilling and threepence a mile and after every 100 miles Bea handed over £6-5.<br><br>
+She laid down five conditions for the drive.<br><br>
+1. They must make no romantic advances to her.<br><br>
+2. They must take care not to run over or otherwise injure any animal, bird or insect.<br><br>
+3. They must do any cooking that was necessary.<br><br>
+4. They must stop and pick up anyone at all, according to her decision and drive them anywhere according to her directions.<br><br>
+5. There must be a steadily maintained speed limit of 30 m.p.h.<br><br>
+They kept to all the rules except the last. In Melbourne Lewis and his friend slept in the taxi. Bea slept at the top of the steps in a church in Collins Street.<br><br>
+At one stage, Lewis with some puzzlement, asked her why she was making the trip. She was indignant and she yelled back her answer.<br><br>
+'Haven't you ever wanted to see this wonderful vast expanse of Australia for yourself?'<br><br>
+Lewis said he couldn't afford to.<br><br>
+'Oh don't talk such damned rubbish. You sound like an uneducated clot. Of course you could. I dearly love this country and I am not content to just read about it, or let others give me their version or impression of what they have seen. I want to go and see for myself, and you should make the most of this chance to do likewise. Now shut up and drive, can't you go any faster?'<br><br>
+So condition number 5 was broken as easily as any of the Ten Commandments.<br><br>
+That was surprising enough. Another thing which startled the taxi driving pair was the way she wanted to help people. At one point on the road she screamed: 'Stop the Car! Stop the Car! Go back to that bridge. I want to see where that fellow is going. Hurry up. Damn you.'<br><br>
+'Gawd strike a light, Bea, he's going the other way. He wouldn't want a lift from us.'<br><br>
+'Go back, I saw. I'm still paying you aren't I?'<br><br>
+So they turned round, picked up an Aboriginal, drove him seven miles in the opposite direction, then another mile off the main road to his house. Bea went in, met the family, and gave them a ten shilling note.<br><br>
+The Aboriginal said: 'God bless you missus. You're a real fine lady. How would you like a drink of plonk?'<br><br>
+Bea declined gracefully. On the way home from Broken Hill Bea could not get to a bank and no longer was she digging into her handbag. By the time they reached Sydney she still owed them £70 and the taxi drivers had all but given the money away. But Lewis says she did not forget, she paid every penny the next day.<br><br>
+Bea was arrested so many times, eventually she found it easier to settle for N.F.P.A. She slept in a bandstand in Belmore Park, she slept in schools and for many years she slept in the front porch of St James Church in King Street. Bea, the atheist, was grateful for that and she said of the rector: 'He's a very nice person for a Christian.' Then came the Sunday morning when she refused to get out of her swag to allow worshippers to enter the Church and she was barred. Her favorite spot was a stormwater channel in Rushcutters Bay — no one seemed to harrass her there.<br><br>
+Apart from her father's legacy she did have another small source of income. She made use of her extraordinary knowledge of Shakespeare. Quote almost any line of Shakespeare to her and she could carry on and finish the verse. So she gave recitations and her regular spot was outside the Public Library where she stood with a sign around her neck: SHAKESPEARE — POETRY RECITALS. 3/-, 2/-, 1/-, 6d.<br><br>
+Ross Campbell reported that one day he asked for a recital. There she was at the top of the library steps and she said: 'Now you sit over there.' She pointed to the square base of one of the pillars and she announced: 'I'll sit here.'<br><br>
+She sat down opposite Campbell, about six feet away. 'What play would you like?'<br><br>
+'<i>Macbeth</i>.'<br><br>
+'Any particular speech?'<br><br>
+'I think I'd like Tomorrow and tomorrow and tomorrow.'<br><br>
+'The price is a shilling.'<br><br>
+In a loud voice, with strong dramatic effect, Bea declaimed:<br><br>
+<div class="text-center">
+Tomorrow and tomorrow and tomorrow<br>
+Creeps in this petty pace from day to day.'
+</div><br>
+The crowds walked past looking curious but Bea went on...<br><br>
+<div class="text-center">
+It is a tale<br>
+Told by an idiot, full of sound and fury<br>
+Signifying nothing.'
+</div><br>
+One did not get a great deal for a shilling. For her top fee of three shillings the listener could have <i>The Man from Snowy River</i>.<br><br>
+Her poetry reading was so good she entered the Sydney Eisteddford in 1947 and 1948. In 1948 she received 79 marks out of 100 for her reading of <i>Measure for Measure</i> and the adjudicator rated her 'a first class comedy actress.'<br><br>
+In 1948 the judges disqualified her for refusing to read the set piece <i>The Swallow</i> by Wilfrid Gibson, an English poem about a shipwrecked man who befriends a swallow.<br><br>
+Bea wrote this letter to the adjudicator: 'I will not recite English poetry to an Australian audience. The washed out words of an effete product of a worn-out land are not fit for Australians. The piece set for us to recite is worthless in the extreme. More likely than crushing the bird to his breast, the marooned man would have wrung its neck and eaten the confounded thing.'<br><br>
+In defiance Bea read two poems by Australian poet Ian Mudie, <i>Belong</i> and <i>Corroboree</i>. The adjudicator gave her a special certificate of merit.<br><br>
+Another of her peculiar interests was the cinema. She believed that the picture theatres, like public transport should be free. So moving her unstoppable bulk she would voyage straight past the ushers and drop down in the front stalls. There, regardless of the rules, she would light a cigarette and watch closely.<br><br>
+If she did not approve of what she saw, and that was often, she would say so.<br><br>
+'Rats,' she would holler, or 'Take it off.' Or 'Don't kiss with your mouth open you dirty swine.'<br><br>
+She had no time whatever for the British. She despised the Royal Family and she had a particular distaste for <i>Gaumont British News</i>. 'Australians have fought five times for England,' she said. 'We've given the English huge sums of money, we've fed and protected them for generations and all we get in return is "This the <i>Gaumont British News</i> bring the world to Australia". I like their dirty cheek.'<br><br>
+By 1964 a diabetic and suffering from arthritis Bea was becoming too sick and old for the N.F.P.A. life. There was not a home for the aged in Sydney that was prepared to look upon her as a desirable inmate. Beatrice Miles was an aggressively outspoken atheist, who had from the time she was 21, announced that there was no God, so it was interesting that it was the godly who took her in. She went to the Roman Catholics Little Sisters of the Poor at Randwick. When asked how an atheist, a rationalist, could reconcile herself living in an institution run by nuns, she replied: 'No problem, I'm only here because there's no atheist home for me to go to.'<br><br>
+She indicated one of the Sisters, Mary Rebecca. 'There you are. She's a pet. The best girl in the place. Give me a bit of time and I'll make her the best atheist.'<br><br>
+One taxi driver, John Beynon, remained her friend for 22 years. Every Thursday he would go to the Little Sisters of the Poor and take her driving in his cab. They would go to the Library. Even in her later years she read 14 books a week. Beynon said: 'The people at the Library didn't believe she could read so fast and would test her out by asking questions. She would sit and relate the whole of each book after the other.'<br><br>
+Then she would go to the City Market, buy cases of oranges and ask Beynon to drive around so that she could distribute them to poor people.<br><br>
+Shortly before her death she did receive baptism as a Catholic. She died on 2 December, 1973, aged 71.<br><br>
+She had some interesting ideas even at the end. She wanted a band to play <i>Advance Australia Fair</i>, <i>Waltzing Matilda</i> and <i>Tie Me Kangaroo Down Sport</i> at her funeral. She also wanted a ribbon draped over her coffin with the words 'One who loved Australia' written on it.<br><br>
+All this was done. The Geoff Bull Jazz Band played the songs outside the Crematorium. And if the police victimised her during her life time, they were there to escort her when she made her last car ride. Among the cars in the procession there was a Red De Luxe cab driven by her friend John Beynon, who was executor of her will.<br><br>
+Before she died she supervised the carving of the epitaph which was to go on her tombstone in the family section of Rookwood Cemetary. Of course it came from Shakespeare — <i>Measure for Measure, Act III, Scene I.</i><br><br>
+<div class="text-center">
+Reason thus with life,<br>
+If I lose thee, I do lose a thing<br>
+That none but fools would keep; a breath thou art,<br>
+Servile to all the skyey influences,<br>
+That dost this habitation, where thou keep'st,<br>
+Hourly afflict.
+</div>
+<hr>
+SOURCES:<br>
+<i>The Sun</i>, 20 July 1970.<br>
+<i>Sydney Morning Herald</i>, 2 March 1957.<br>
+<i>Sunday Telegraph</i>, 9 December 1973.<br>
+James Ricketson, <i>The Bulletin</i>, 8 March 1975.<br>
+Ibid.<br>
+Ibid.<br>
+<i>Daily Telegraph</i>, 2 February 1956.<br>
+<i>Daily Telegraph</i>, 26 January 1958.<br>
+<i>Daily Mirror</i>, 11 January 1957.<br>
+<i>Daily Telegraph</i>, 26 February 1956.<br>
+<i>Daily Mirror</i>, 29 December 1950.<br>
+<i>Daily Telegraph</i>, 7 May 1959.<br>
+<i>Truth</i>, 11 February 1951.<br>
+The <i>Sun</i>, 11 June 1956.<br>
+<i>Daily Telegraph</i>, 20 January 1953.<br>
+<i>Truth</i>, 23 January 1953.<br>
+<i>Daily Telegraph</i>, 27 January 1953.<br>
+Australian <i>Women's Weekly</i>, 11 December 1968.<br>
+<i>Daily Telegraph</i>, 6 June 1954.<br>
+Ross Campbell, <i>Daily Telegraph</i>, 1 November 1956.<br>
+<i>Truth</i>, 26 September 1948.<br>
+<i>Daily Telegraph</i>, 25 September 1948.<br>
+Ron Saw, <i>Daily Mirror</i>, 26 May 1957.<br>
+Ibid.<br>
+<i>Sydney Morning Herald</i>, 6 December 1973.<br>
+<i>Sunday Telegraph</i>, 9 December 1973.
+<hr>
+Continue to the next chapter: <a href="/books/ratbags/3-stephen-harold-gascoigne">Stephen Harold Gascoigne</a>
+</div>
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        Profile of &#39;Bea&#39; Miles, Sydney&#39;s most famous eccentric of the mid-twentieth century, covering her taxi battles, court appearances, Shakespeare recitals and death in 1973.
+      </p>
+
+<hr>
+<h4 class="h6">Related topics</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/abbotsleigh/" class="link-secondary">Abbotsleigh</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Abbotsleigh">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/ashfield/" class="link-secondary">Ashfield</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Ashfield">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/beatrice-miles/" class="link-secondary">Beatrice Miles</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Beatrice Miles">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/james-ricketson/" class="link-secondary">James Ricketson</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="James Ricketson">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/john-beynon/" class="link-secondary">John Beynon</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="John Beynon">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/john-clifford/" class="link-secondary">John Clifford</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="John Clifford">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/little-sisters-of-the-poor/" class="link-secondary">Little Sisters of the Poor</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Little Sisters of the Poor">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/rookwood-cemetery/" class="link-secondary">Rookwood Cemetery</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Rookwood Cemetery">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/rushcutters-bay/" class="link-secondary">Rushcutters Bay</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Rushcutters Bay">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/smith&#39;s-weekly/" class="link-secondary">Smith&#39;s Weekly</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Smith&#39;s Weekly">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/st-james-church/" class="link-secondary">St James Church</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="St James Church">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/sydney/" class="link-secondary">Sydney</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sydney">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/sylvia-markham/" class="link-secondary">Sylvia Markham</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sylvia Markham">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/wahroonga/" class="link-secondary">Wahroonga</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Wahroonga">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/william-shakespeare/" class="link-secondary">William Shakespeare</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="William Shakespeare">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/abbotsleigh/" class="link-secondary">Abbotsleigh</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Abbotsleigh">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/ashfield/" class="link-secondary">Ashfield</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Ashfield">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/beatrice-miles/" class="link-secondary">Beatrice Miles</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Beatrice Miles">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/james-ricketson/" class="link-secondary">James Ricketson</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="James Ricketson">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/john-beynon/" class="link-secondary">John Beynon</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="John Beynon">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/john-clifford/" class="link-secondary">John Clifford</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="John Clifford">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/little-sisters-of-the-poor/" class="link-secondary">Little Sisters of the Poor</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Little Sisters of the Poor">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/rookwood-cemetery/" class="link-secondary">Rookwood Cemetery</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Rookwood Cemetery">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/rushcutters-bay/" class="link-secondary">Rushcutters Bay</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Rushcutters Bay">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/smith&#39;s-weekly/" class="link-secondary">Smith&#39;s Weekly</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Smith&#39;s Weekly">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/st-james-church/" class="link-secondary">St James Church</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="St James Church">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/sydney/" class="link-secondary">Sydney</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sydney">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/sylvia-markham/" class="link-secondary">Sylvia Markham</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sylvia Markham">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/wahroonga/" class="link-secondary">Wahroonga</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Wahroonga">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/william-shakespeare/" class="link-secondary">William Shakespeare</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="William Shakespeare">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

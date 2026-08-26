@@ -1,6 +1,6 @@
 ---
 title: Rough Riding for Five Minutes a Year
-date: 1962-02-01
+date: 1962-09-01
 summary: Rides the outback rodeo circuit with Australia's professional rough-riders, from the Myrtleford Rodeo's untamed high-plains bulls to a wild-horse race that leaves one rider knocked cold and refusing all help.
 categories:
 - Walkabout Magazine
@@ -10,13 +10,13 @@ tags:
   - Ken Healy
   - Marrabel
   - Max Hillier
+  - The Merry Muster
   - Myrtletord
   - Peter Poole
   - Ricthie Fraser
   - Rockhampton
   - Rocky Round-up
   - Rodeo
-  - The Merry Muster
   - The Rough Riders Association
   - Tommy Cannon
   - Walgett
@@ -64,7 +64,9 @@ The big novelty event at Myrtleford was the Wild Horse Race. They put six wild h
 
 'Just hate being fussed over,' he said.
 
-This article first apeared in *Walkabout Magazine*, September 1962. The article with pictures, [is available online at Trove.](https://nla.gov.au/nla.obj-752699070/view?sectionId=nla.obj-755724925&partId=nla.obj-752720703#page/n21/mode/1up)
+<hr>
+
+*Source: Rough Riding for Five Minutes a Year, Walkabout Magazine, September 1962. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-752699070).*
 
 
 

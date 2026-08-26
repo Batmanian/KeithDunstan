@@ -3,11 +3,11 @@ title: When I'm Sixty-Four
 date: 1991-01-01
 summary: Turning 64 to the strains of the Beatles song of the same name, Keith Dunstan works through each verse in turn, from the price of home-bottled wine and the vanishing art of mending a fuse to babysitting grandchildren Vera, Chuck and Dave and the long-gone two-a-day postal delivery.
 tags:
-  - The Beatles
   - Arthur Richards
+  - The Beatles
+  - Hoyts
   - Lorne
   - Portsea
-  - Hoyts
 ---
 
 I was driving home in the car last week and on came that sing-song plaintive tone of the Beatles:

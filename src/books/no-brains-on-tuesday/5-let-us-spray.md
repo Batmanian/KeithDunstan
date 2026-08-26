@@ -3,8 +3,8 @@ title: Let Us Spray
 date: 1991-01-01
 summary: Keith Dunstan's account of accidentally spraying his entire Mornington Peninsula vineyard and his wife's rose garden with weedkiller instead of fungicide, and the frantic three-hour hosing operation with neighbours that saved all 1200 vines.
 tags:
-  - Lillian Frank
   - Brown Brothers of Milawa
+  - Lillian Frank
   - Mornington Peninsula
 ---
 

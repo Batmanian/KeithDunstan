@@ -3,30 +3,30 @@ title: The Cricket Passion
 date: 1973-11-11
 summary: Traces cricket's role in binding the Australian colonies into a nation, and the fierce, sometimes poisonous rivalry with England that ran from the first touring elevens through the Sydney riot of 1879, Bradman and Bodyline, to the cancelled 1971-72 South African tour.
 tags:
-  - Rowland Bowen
-  - Ted Dexter
-  - Charles Dickens
-  - H. H. Stephenson
-  - Melbourne Cricket Ground
-  - W. G. Grace
-  - Marylebone Cricket Club
-  - Charles Bannerman
-  - Fred Spofforth
+  - Ali Bacher
+  - Bill Woodfull
   - Billy Murdoch
-  - Lord Harris
-  - Victor Trumper
+  - Charles Bannerman
+  - Charles Dickens
   - Clem Hill
-  - Warwick Armstrong
   - Don Bradman
   - Douglas Jardine
+  - Fred Spofforth
+  - H. H. Stephenson
   - Harold Larwood
-  - Bill Woodfull
-  - Ian Meckiff
-  - Norman O'Neill
-  - John Snow
-  - Ray Illingworth
   - Ian Chappell
-  - Ali Bacher
+  - Ian Meckiff
+  - John Snow
+  - Lord Harris
+  - Marylebone Cricket Club
+  - Melbourne Cricket Ground
+  - Norman O'Neill
+  - Ray Illingworth
+  - Rowland Bowen
+  - Ted Dexter
+  - Victor Trumper
+  - W. G. Grace
+  - Warwick Armstrong
 ---
 
 Which was the most important in binding Australia into one nation? Was it cricket, was it Federation, or was it some great national disaster like Gallipoli? Rowland Bowen, the cricket historian, gives at least some of the credit to cricket. Australians came together on the sporting field, long before they joined in matters of defence or Parliament. In 1877, twenty-four years before Federation, the divided, intensely jealous Australian colonies combined to play the first Test Match against England. The colonies called this the 'Australian' team, and the satisfaction to be had in beating the mother country could hardly be under-estimated. The win did huge things for the national ego. Triumphs in sculling came at the same time, and there was even a belief that this young country might be a place for breeding a race of supermen. The victory helped overcome feelings of inadequacy, of lack of sophistication, of second-ratedness. These feelings have never really departed.

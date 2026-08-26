@@ -3,38 +3,38 @@ title: The Beer Demon
 date: 1994-11-11
 summary: Traces the wartime origins of Australia's six o'clock closing laws, sold as a patriotic blow against the Kaiser, and the mad, beer-soaked "six o'clock swill" they produced for the next half-century.
 tags:
-  - Wine
   - 6 Oclock swill
+  - Beer
+  - Breakfast Creek Hotel
+  - Cathedral Hotel
+  - Chloe
+  - Coopers Beer
+  - Curly Rourke
+  - Dr Carl Resch
+  - Fosters Lager
+  - Gough Whitlam
+  - Henry Bolte
+  - Home brewing
+  - Hotel Australia
+  - Ian Johnson
+  - Jeff Moss
+  - Jules Lefebvre
   - King George V
+  - Melbourne Cricket Club
+  - Menzies Hotel
+  - Norman Brown
+  - Osmar White
+  - Paul Sheahan
+  - Peter Janson
+  - Reschs
   - Reverend E. C. Crotty
   - Sir Alexander Peacock
-  - Henry Bolte
-  - Cathedral Hotel
-  - Menzies Hotel
-  - Young and Jacksons Hotel
-  - Hotel Australia
-  - Jules Lefebvre
-  - Chloe
-  - Beer
-  - Tom Ford
-  - Osmar White
-  - Norman Brown
-  - Curly Rourke
-  - Breakfast Creek Hotel
-  - Dr Carl Resch
-  - Coopers Beer
-  - Fosters Lager
-  - Reschs
   - Swan Lager
-  - Gough Whitlam
+  - Tom Ford
   - Wallhalla
   - Warwick W Armstrong
-  - Home brewing
-  - Peter Janson
-  - Melbourne Cricket Club
-  - Jeff Moss
-  - Paul Sheahan
-  - Ian Johnson
+  - Wine
+  - Young and Jacksons Hotel
 ---
 
 Living in New York was extremely uncomplicated. The Demon drink was half the Australian price. Whisky, Bourbon, Scotch and Rye could even be bought in gallon bottles. Liquor stores were open night and day. They never seemed to close. Why did one not find drunks on the streets as we did in Melbourne? There was no problem about restaurants, even tiny cafes served drinks with meals. How easy it was to slip into this style of life. Our local grocer was an Italian, named Bruno. One Sunday morning I went round to Bruno to buy a dozen bottles of beer.

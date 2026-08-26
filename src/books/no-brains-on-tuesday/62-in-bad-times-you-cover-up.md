@@ -3,10 +3,10 @@ title: In Bad Times You Cover Up
 date: 1991-01-01
 summary: A theory that beach fashion tracks the economy, with hemlines and swimwear shrinking in prosperous times and lengthening in a downturn, illustrated by baggy skirts spotted on Collins Street and a history of bathing costumes running from pre-World War 1 modesty through the scandalous 1955 Surfers Paradise bikini to a predicted recession-driven return to full-length skirts in the surf.
 tags:
-  - Surfers Paradise
-  - St Kilda
   - Claudette Colbert
   - Ginger Rogers
+  - St Kilda
+  - Surfers Paradise
 ---
 
 Undoubtedly you are aware of the cover-up theory of economics.

@@ -3,25 +3,25 @@ title: Columns secured on the grapevine
 date: 1966-11-11
 summary: Confesses a lifelong, failed ambition to become a wine snob, then tours Rutherglen and Great Western's historic vineyards and Melbourne's suburban home-bottling clubs decanting hogsheads by wheelbarrow.
 tags:
-  - Wine
-  - Florentino Restaurant
-  - Home Bottlers
-  - Grape Phylloxera
-  - Hugh Fraser 
-  - George Francis Morris
-  - Rutherglen
-  - Sir Rohan Delacombe
   - All Saints Winery
-  - George Sutherland Smith III
-  - P. OSullivan
-  - John C Brown
-  - J.C. -Jimmy- Watson
   - Chateau Tahbilk
+  - Colin Preece
   - Eric Purbrick
+  - Florentino Restaurant
+  - George Francis Morris
+  - George Sutherland Smith III
+  - Grape Phylloxera
   - Great Western
   - Great Western Champagne
-  - Colin Preece
   - Hans Irvine
+  - Home Bottlers
+  - Hugh Fraser 
+  - J.C. -Jimmy- Watson
+  - John C Brown
+  - P. OSullivan
+  - Rutherglen
+  - Sir Rohan Delacombe
+  - Wine
 ---
 
 Columnists try to be so clever. Desperately they try to analyse the interests of the public, to write columns which will reach the greatest number of people. Yet it is very hard to stop one's own idiosyncrasies, fads, prejudices, quirks, hates and loves from showing through.

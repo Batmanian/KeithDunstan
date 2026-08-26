@@ -3,8 +3,8 @@ title: The Auto Fiend
 date: 1999-11-11
 summary: A polemic against Australia's car addiction, from Melbourne's $2 billion freeway spend and France's 1998 one-day Paris car ban to the global rise of rail trails, closing with a science-fiction vision of a Melbourne of 2030 where the petrol has run out and bicycles rule the city again.
 tags:
-  - Ivan Illich
   - Bill Bryson
+  - Ivan Illich
   - Warburton-Lilydale trail
 ---
 

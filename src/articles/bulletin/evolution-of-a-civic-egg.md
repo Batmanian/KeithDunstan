@@ -5,9 +5,9 @@ summary: Explains how Melbourne's Lord Mayoralty is quietly decided each year by
 categories:
 - The Bulletin
 tags:
-  - Maurice Nathan
   - Fitzroy
   - Marie Dalley
+  - Maurice Nathan
 ---
 
 We have just been through the throes of municipal elections. There are new faces everywhere, new bits of chain dangling, new pieces of ermine. Of course, the most important election was that of our Lord Mayor. Now, we elect our Lord Mayors in a most curious way. Actually, *elect* is far too strong a word. You could almost say that it is a process of evolution, like the production of an egg. The citizens of Melbourne do not get a say, the ratepayers do not get a say.

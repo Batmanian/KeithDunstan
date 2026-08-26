@@ -3,13 +3,13 @@ title: Introduction
 date: 1991-01-01
 summary: Opens 'No Brains on Tuesday' by recounting Keith Dunstan's 1985 defection from the Sun News-Pictorial, where his father had been General Manager, to write for the Age and Sydney Morning Herald, and the guilt, gracious phone calls and one cold shoulder that followed.
 tags:
-  - Sun News-Pictorial
   - The Age
-  - Sydney Morning Herald
-  - Max Suich
   - Creighton Burns
   - Les Carlyon
+  - Max Suich
   - Ron Barassi
+  - Sun News-Pictorial
+  - Sydney Morning Herald
 ---
 
 Sometimes in my blackest moments I compare my perfidy with that of Ron Barassi. After 34 years with Melbourne's *Sun News-Pictorial* I ratted, I left to write a column for the *Age*.

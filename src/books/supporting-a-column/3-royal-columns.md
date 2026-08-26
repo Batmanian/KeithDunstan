@@ -3,32 +3,32 @@ title: Royal columns
 date: 1966-11-11
 summary: On the strange craft of covering Royal Tours since 1954, the newsroom bans on "obviously" and "radiant," the Potemkin-village stage-management of crowds, and factories scrubbed spotless for a royal visit.
 tags:
-  - Royal Family
   - 1963 Royal Visit to Australia
-  - Queen Elizabeth II
-  - Douglas Wilkie
-  - Catherine the Great
-  - Ben Casey
-  - Elizabeth - the Queen Mother
-  - Brisbane
+  - The Australian National University
   - Ballarat
-  - Princess Alexandra
-  - Jack Riley
+  - Ben Casey
+  - Bing Crosby
+  - Brisbane
   - Canberra
-  - Tattersalls
+  - Catherine the Great
   - Cloudland
+  - Douglas Wilkie
+  - Elizabeth - the Queen Mother
+  - Farrago
   - Ivan Kurdyukov, Russian Ambassador
-  - Sir William Slim - Governor-General
+  - Jack Riley
+  - King Bhumibol
   - Lady (Iona) Carrington
   - Marshal Gyorgy Zhukov
-  - King Bhumibol
-  - Queen Sirikit
-  - Southeast Asia Treaty Organization (SEATO)
-  - Bing Crosby
-  - Squadron Leader Lawrence Henry Hicks
-  - The Australian National University
-  - Farrago
   - Prince Philip
+  - Princess Alexandra
+  - Queen Elizabeth II
+  - Queen Sirikit
+  - Royal Family
+  - Sir William Slim - Governor-General
+  - Southeast Asia Treaty Organization (SEATO)
+  - Squadron Leader Lawrence Henry Hicks
+  - Tattersalls
 ---
 
 The penalty for writing a column is that one gets to cover Royal Tours. And if one becomes a veteran columnist one becomes something of a tour expert. Since 1954 there have been six major Royal Tours. 

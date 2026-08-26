@@ -6,6 +6,7 @@ categories:
 - The Bulletin
 tags:
   - Albert Park
+  - The Argus
   - Elizabeth Maureen Williams
   - H. A. Winneke
   - Harold Holt
@@ -18,7 +19,6 @@ tags:
   - Queensland
   - Rylah
   - Scotch College
-  - The Argus
   - Toorak
 ---
 

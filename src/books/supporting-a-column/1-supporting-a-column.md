@@ -3,23 +3,23 @@ title: Supporting a column
 date: 1966-11-11
 summary: Keith reflects on the strange trade of daily column-writing, chasing tips, debunking apocryphal caravan and comic-strip stories, and once mailing a mistakenly delivered stuffed Corgi to the wrong Mr Robinson.
 tags:
-  - A Place in the Sun
+  - Arthur Richards
+  - The Beatles
   - Bill Tipping
   - Billy Hughes
+  - Cassandra (William Connor)
   - The Courier-Mail
-  - Arthur Richards
   - The Daily Telegraph
+  - The Heart of Juliet Jones
   - Herb Caen
   - Kirwan Ward
-  - Cassandra (William Connor)
   - Lindsay Hassett
   - Malcolm Muggeridge
+  - A Place in the Sun
   - Ronald Searle
   - Roy Dotrice
-  - The Beatles
-  - Walter ODonoghue
-  - The Heart of Juliet Jones
   - Steamboat  
+  - Walter ODonoghue
 ---
 
 Kirwan Ward of Perth's Daily News once said that writing a daily column was like walking a tightrope across Niagara Falls, a little scary until you got used to it.

@@ -90,4 +90,4 @@ Even if that is never likely, one Queensland newspaper full of gusto recently de
 
 <hr>
 
-*Source: [From Prickly Pear to PETROLEUM](https://nla.gov.au/nla.obj-753903479), Walkabout Magazine, 1963-07-01. Retrieved via the National Library of Australia's Trove database.*
+*Source: From Prickly Pear to Petroleum, Walkabout Magazine, July 1963. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-753903479).*

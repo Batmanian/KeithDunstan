@@ -3,41 +3,41 @@ title: Melbourne
 date: 1978-01-01
 summary: A portrait of Melbourne in the 1978 anthology, tracing its gold rush bravado, the 1892 bank crash and lasting inferiority complex, Toorak snobbery and the finest buildings, before closing with restaurant recommendations ranging from Emil's in Lonsdale Street to Smacka Fitzgibbon's jazz bar in North Melbourne.
 tags:
-  - Melbourne
-  - Mietta O'Donnell
-  - Toorak
+  - Anthony Trollope
+  - Barry Humphries
+  - Bruce Beresford
+  - Carlton
+  - Collingwood
   - Collins Street
-  - St Kilda
-  - South Yarra
-  - Yarra River
-  - Melbourne Grammar
-  - Melbourne Club
+  - Dick Hamer
+  - Essendon
+  - Fitzroy
   - Flemington Racecourse
+  - Gough Whitlam
+  - Henry Handel Richardson
+  - Ian Turner
+  - Jimmy Watson
+  - Melbourne
+  - Melbourne Club
   - Melbourne Cricket Ground
-  - St Patrick's Cathedral
-  - St Paul's Cathedral
-  - National Gallery of Victoria
-  - Young and Jacksons Hotel
+  - Melbourne Grammar
   - Menzies Hotel
-  - Windsor Hotel
+  - Mietta O'Donnell
+  - National Gallery of Victoria
   - Princess Theatre
   - Richmond Brewery
-  - Barry Humphries
-  - Stanley Bruce
-  - Jimmy Watson
-  - Smacka Fitzgibbon
   - Sarah Bernhardt
+  - Smacka Fitzgibbon
+  - South Yarra
+  - St Kilda
+  - St Patrick's Cathedral
+  - St Paul's Cathedral
+  - Stanley Bruce
+  - Toorak
   - William Butterfield
-  - Bruce Beresford
-  - Henry Handel Richardson
-  - Gough Whitlam
-  - Anthony Trollope
-  - Collingwood
-  - Fitzroy
-  - Essendon
-  - Carlton
-  - Dick Hamer
-  - Ian Turner
+  - Windsor Hotel
+  - Yarra River
+  - Young and Jacksons Hotel
 ---
 
 **Chairman Jeff** once wrote: 'Melbourne seems to have been ironed out by a celestial flatiron determined to smooth out every crease and wrinkle for the sake of making tram tracks.' It is flat — ideal for trams, bicycles, roller skates or for bowling a hoop.

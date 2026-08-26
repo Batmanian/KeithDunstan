@@ -16,8 +16,8 @@ tags:
   - Road Traffic Authority
   - Sigmund Jorgensen
   - United States
-  - Victorian Bicycle Institute
   - United States
+  - Victorian Bicycle Institute
   - Walhalla
 ---
 

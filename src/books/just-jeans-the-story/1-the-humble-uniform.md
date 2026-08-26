@@ -3,34 +3,34 @@ title: The Humble Uniform
 date: 1995-01-01
 summary: Traces blue denim from Levi Strauss's 1873 rivet patent with tailor Jacob Davis through Hollywood's James Dean, Marlon Brando and Elvis Presley to the protest fashion of the Vietnam-era counterculture, opening Keith Dunstan's history of Just Jeans with the story of jeans before the company itself existed.
 tags:
-  - John Bratby
-  - Calvin Klein
-  - Levi Strauss
-  - Jacob Davis
-  - Walter Haas Snr
-  - Whitcomb Judson
-  - Gideon Sundback
   - Adolf von Baeyer
+  - Albert Sefrankel
   - Annie Oakley
-  - Yves Saint Laurent
-  - James Dean
-  - The Wild One
-  - Rebel Without a Cause
-  - Marilyn Monroe
+  - Bill Boyd
+  - Calvin Klein
+  - Clark Gable
   - Clash by Night
   - Elvis Presley
-  - Love Me Tender
-  - Clark Gable
-  - The Misfits
-  - Leslie Halliwell
-  - Marshall McLuhan
-  - John F. Kennedy
-  - Robert F. Kennedy
-  - Martin Luther King Jr.
-  - Bill Boyd
+  - Gideon Sundback
   - Hopalong Cassidy
+  - Jacob Davis
+  - James Dean
+  - John Bratby
+  - John F. Kennedy
+  - Leslie Halliwell
+  - Levi Strauss
+  - Love Me Tender
+  - Marilyn Monroe
+  - Marshall McLuhan
+  - Martin Luther King Jr.
+  - The Misfits
   - New York Times
-  - Albert Sefrankel
+  - Rebel Without a Cause
+  - Robert F. Kennedy
+  - Walter Haas Snr
+  - Whitcomb Judson
+  - The Wild One
+  - Yves Saint Laurent
 ---
 
 <!-- Page 1, the opening of this chapter, is missing from the supplied scans. The text below picks up mid-chapter on page 2. -->

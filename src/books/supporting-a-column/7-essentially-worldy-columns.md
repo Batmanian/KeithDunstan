@@ -3,41 +3,41 @@ title: Essentially worldly columns
 date: 1966-11-11
 summary: On chasing column fodder overseas during the lean weeks, including a heavily armed, machine-gun-escorted tour of a Strategic Air Command nuclear bomber base at Fort Worth, Texas, at the height of the Cold War.
 tags:
-  - Darwin
-  - Douglas Lockwood
-  - Fort Worth - Texas
-  - Strategic Air Command -USAAF-
-  - Canadian Pacific Airlines
-  - John Bechervaise
+  - (Thich) Quang Do
   - 1960 Tokyo Olympics
-  - All Nippon Airlines (ANA)
-  - Peter Temm
-  - Kure -Diggers- waifs
-  - Yone Ito
-  - Masaaki Usui
-  - Percy Cerutty
   - Alderman Hills
+  - All Nippon Airlines (ANA)
   - Bangkok
+  - Boys Own Paper
   - Brian Hill
+  - Canadian Pacific Airlines
   - China
   - Cockfighting
+  - Darwin
   - Douglas Lockwood
+  - Douglas Lockwood
+  - Fort Worth - Texas
   - Henry Cabot Lodge
   - Hong Kong
   - Japan
+  - John Bechervaise
+  - Kure -Diggers- waifs
+  - Louis Beltran
   - Manila
   - Masaaki Usui
-  - (Thich) Quang Do
+  - Masaaki Usui
+  - Percy Cerutty
+  - Peter Temm
+  - The Philipines
+  - Rajadamnern Stadium - Bangkok
   - Sir Robert Menzies
   - Sondrestrom
+  - Strategic Air Command -USAAF-
   - Texas
   - Thailand
-  - The Philipines
   - Vietnam
   - Womens Army Corps
-  - Louis Beltran
-  - Rajadamnern Stadium - Bangkok
-  - Boys Own Paper
+  - Yone Ito
 ---
 
 There come terrible periods in the lives of newspaper columnists when all ideas seem to dry up, and the hideous thought comes that there may never be another idea again. There are awful dead periods that come in cycles. Sometimes it is because of the season. Maybe it is January, the courts are not sitting, Parliament is in recess and everybody is out of own. Or maybe the football season is just over, cricket has yet to get under way and even the sporting editor is looking grey and frightened.

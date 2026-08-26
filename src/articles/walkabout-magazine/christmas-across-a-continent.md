@@ -79,4 +79,4 @@ And what about the bush track? Work still goes on. The artesian bores have to be
 
 <hr>
 
-*Source: [Christmas across a continent](https://nla.gov.au/nla.obj-754299301), Walkabout Magazine, 1963-12-01. Retrieved via the National Library of Australia's Trove database.*
+*Source: Christmas across a continent, Walkabout Magazine, December 1963. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-754299301).*

@@ -1,0 +1,590 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>George Dick Meudell</title>
+<meta name="title" content="George Dick Meudell">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Profile of George Dick Meudell, the dandyish stockbroker and waspish chronicler of Melbourne&#39;s 1890s Land Boom and crash, whose scandalous memoir &#39;The Pleasant Career of a Spendthrift&#39; was suppressed for decades.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/ratbags/12-george-dick-meudell/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="George Dick Meudell">
+<meta property="og:description" content="Profile of George Dick Meudell, the dandyish stockbroker and waspish chronicler of Melbourne&#39;s 1890s Land Boom and crash, whose scandalous memoir &#39;The Pleasant Career of a Spendthrift&#39; was suppressed for decades.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="George Dick Meudell">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/ratbags/12-george-dick-meudell/">
+<meta name="twitter:title" content="George Dick Meudell">
+<meta name="twitter:description" content="Profile of George Dick Meudell, the dandyish stockbroker and waspish chronicler of Melbourne&#39;s 1890s Land Boom and crash, whose scandalous memoir &#39;The Pleasant Career of a Spendthrift&#39; was suppressed for decades.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="George Dick Meudell">
+<link rel="canonical" href="https://keithdunstan.org/books/ratbags/12-george-dick-meudell/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1980-11-11">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="Ratbags">
+<meta property="article:tag" content="George Dick Meudell">
+<meta property="article:tag" content="Melbourne">
+<meta property="article:tag" content="Bendigo">
+<meta property="article:tag" content="Athenaeum Club">
+<meta property="article:tag" content="Benjamin Josman Fink">
+<meta property="article:tag" content="Matthew Davies">
+<meta property="article:tag" content="W.L. Baillieu">
+<meta property="article:tag" content="Land Boom">
+<meta property="article:tag" content="Bank of Victoria">
+<meta property="article:tag" content="Stock Exchange">
+<meta property="article:tag" content="Pleasant Career of a Spendthrift">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">George Dick Meudell</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            18
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1980-11-11">1980</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Profile of George Dick Meudell, the dandyish stockbroker and waspish chronicler of Melbourne&#39;s 1890s Land Boom and crash, whose scandalous memoir &#39;The Pleasant Career of a Spendthrift&#39; was suppressed for decades.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="Ratbags">
+         <!--<a href="/tags/george-dick-meudell/" class="btn btn-outline-dark btn-sm me-2">George Dick Meudell</a><a href="/tags/melbourne/" class="btn btn-outline-dark btn-sm me-2">Melbourne</a><a href="/tags/bendigo/" class="btn btn-outline-dark btn-sm me-2">Bendigo</a><a href="/tags/athenaeum-club/" class="btn btn-outline-dark btn-sm me-2">Athenaeum Club</a><a href="/tags/benjamin-josman-fink/" class="btn btn-outline-dark btn-sm me-2">Benjamin Josman Fink</a><a href="/tags/matthew-davies/" class="btn btn-outline-dark btn-sm me-2">Matthew Davies</a><a href="/tags/w.l.-baillieu/" class="btn btn-outline-dark btn-sm me-2">W.L. Baillieu</a><a href="/tags/land-boom/" class="btn btn-outline-dark btn-sm me-2">Land Boom</a><a href="/tags/bank-of-victoria/" class="btn btn-outline-dark btn-sm me-2">Bank of Victoria</a><a href="/tags/stock-exchange/" class="btn btn-outline-dark btn-sm me-2">Stock Exchange</a><a href="/tags/pleasant-career-of-a-spendthrift/" class="btn btn-outline-dark btn-sm me-2">Pleasant Career of a Spendthrift</a>-->
+
+        
+      </header>
+      <div class="article-body"><strong>G</strong>EORGE DICK MEUDELL was a little fat man who was frequently brilliant and would have loved to have been Treasurer of Australia. He believed, along with fellow members of the Athenaeum Club, that a rotund girth was a sound insurance against bad health. He held to the nineteenth century belief that the fat around one's middle was a superb built-in larder, an insurance should ever one be left wasting in hospital.<br><br>
+As a gentleman in his top hat and frock coat, as a confidant of all the great men of his day, he believed it was necessary to be well turned out. 'To be well dressed,' he said, 'is better than to have the consolation of one of the many religions.' So he imported all his clothes from London; his suits from Meyer and Mortimer of Conduit Street, his hats from Scott's, his boots from Lobb's in St James Street and all his shirts, linen, hose, from Whitelock's in Pall Mall. In the nineteen thirties he lamented that there were no well-dressed men in Melbourne any more. The style and cut of their dress was utterly primeval. 'Today', he said, 'the sexes have the manners and morals of negroes with a similitude to the dreadful blackfellows of the United States.'<br><br>
+Nearly all of George Meudell's opinions were original, controversial and frequently caused havoc. 'My way of joking,' he said, 'is to tell the truth. It is the funniest joke in the world. His funniest joke was to tell the true story of Melbourne's Land Boom and have it suppressed for nigh on seventy years.<br><br>
+George Meudell was born in 1860 and he was, literally, born in a bank. His father, William Meudell, was manager of the Bank of Victoria in Bendigo. Bendigo was a gold town and millions of pounds must have passed through his hands, and it was his job to protect his colony's assets on the princely salary of five pounds a week.<br><br>
+Bendigo was called Sandhurst in those days and the young Meudell went to the Sandhurst High School. He never had much of an opinion of the Australian education system. It all came from Britain. Later he wrote: 'How can men brought up in the old-fashioned, worm-eaten, stagnant English public schools and universities, be expected to have modern ideas and be able to convey them to young people of brighter intelligence and spirit... Personally I never had the luck to have one single competent teacher. My long school career was a blunder.'<br><br>
+Yet at the age of fourteen he was <i>promine accessit</i> to the dux of school, which no doubt, the 'ill-educated' Meudell could have explained was number two. His rival beat him only by taking Greek as an examination subject.<br><br>
+What happened to the fellow who came first? He fled from Melbourne in the eighteen eighties. According to <i>Table Talk</i> he disappeared after taking from his wealthy clients something that 'had nothing to do with Greek.'<br><br>
+Meudell went on to study law at Melbourne University but as a schoolboy he lost the sight in one eye. He cut it with a pocket knife and at University he found the intense law reading too much for him. Later he went round the world consulting eye specialists. He was frightened his other eye might go out in sympathy. One famous specialist was Dr George Anderson Crichett of Harley Street, London. Meudell was fascinated. Sir George's waiting rooms were not filled with stale magazines. He provided sherry, port and biscuits. The sherry was 1856 and the port was 1848. 'It helped clear one's vision,' said George. The great man insisted on payment in cash. He had specially made waistcoats with large pockets. In the left pocket he put silver coins, in the right he put sovereigns and five pound Bank of England notes he placed in his hip pocket.<br><br>
+When they left Sandhurst George's father became general manager of the Bank of Victoria and for that illustrious post he received fourteen pounds a week. They all lived above the bank in Collins Street. The family was considerable. George had six sisters and one brother.<br><br>
+George followed his father into the bank. On the first day the staff of twenty lined up to receive him. All underpaid, he said. Not one of them received more than three pounds a week. The chairman and founder of the bank was the Honorable Henry Miller, better known as 'Money' Miller. He told young George to be an honest banker like his father and finished with the advice: 'If you ever feel a desire to go wrong, don't prig petty cash or enter threepenny letters as sixpennies, collar £10,000 and be sure to burn the bally books.'<br><br>
+Meudell had four years at the bank in Bendigo. He thought the way to get on would be to study shorthand and he got up at dawn every morning to practise. At the end of a year he could do 150 words a minute and he was one of the first skilled Pitman operators. The local bank inspector hinted that this would get him a job in head office. No such thing happened. He was offered a transfer to Horsham, and according to <i>Table Talk</i> the Meudell 'expletives' came out faster than his shorthand. Horsham at that time was hardly the centre of excitement. The railway line had yet to go there. It had tradesmen who had never seen the sea, a lawyer's clerk who had never been beyond Ballarat and <i>Table Talk</i> even claimed it possessed a soprano who could sing like Melba. She had never even seen Stawell.<br><br>
+George Meudell was amused by many of the activities of the Bank of Victoria. In his book <i>Pleasant Career of a Spendthrift</i> he told of the alarm that went through the bank when the Kelly Gang were in full cry. The north-eastern district was the Kelly stronghold and they were all issued with ancient pistols and one hundred cartridges.<br><br>
+Oxley was right in the heart of Kelly land and the bank there had a staff of four. A director of the bank, a senile old gentleman named Lane, visited the Bank and gave instructions, and told them what to do when the Kellys called:<br><br>
+'You, Mr Wallis, will stay in the manager's room and on the first alarm will aim through the door at the easiest object, You, Mr Sutherland, the teller, will drop on your knees directly Mr Edward Kelly enters the front door, seize the revolver provided by head office, and kill Kelly without delay; then you will run out to the stable, mount your grey horse (for which the bank allows you twenty pounds a year fodder allowance) and ride swiftly to Oxley for the police. You Mr Williams (the ledger keeper), when you notice Mr Daniel Kelly pointing his rifle at you, you will instantly fall to the floor of the ledger desk and shoot him without wasting time... And you, Mr George, will take your weapon from the drawer and aim at Mr Byrne or Mr Hart, whoever may first appear. I trust you are practising markmanship assiduously.'<br><br>
+They went through the whole procedure again and then Mr Lane began asking questions. 'And now, Mr George, when the Kellys enter the bank chambers, what will you be doing?'<br><br>
+'Well, Mr Lane, I really think I would be still sitting on my stool making a mess of things.'<br><br>
+According to Meudell Mr George was transferred to head office for showing a lack of respect to a senior officer, and the Kellys never called.<br><br>
+As for Meudell he refused to go to Horsham. He resigned and joined the Melbourne Savings Bank.<br><br>
+So his career progressed. He became by turn manager of the Emerald Hill branch, manager of the Carlton branch, confidential assistant to the Actuary and in 1886 he started his own accounting business.<br><br>
+But George was into everything from the Masons and the Bimetallic League to the Australian Natives' Association. He was as intense nationalist and at the age of 22 he wrote a passionate paper <i>Australia for the Australians</i>. He put forward the idea that the Australians were a unique people. Because of the climate, the food, because the early immigrants had to be of strong stock to come to the colonies, Australia was creating a young, new, vigorous race. The politicians England have given Australia were of the parish vestry type with 'hoary and fosselized minds'... 'Their intellects are as stunted as the feet of a Chinese dame,' he said.<br><br>
+He saw the coming of a new shining era. 'I do not wish to imply that the Australians are perfect beyond compare, and they alone have penetrated the sanctuary of truth but they at least are on the threshold.'<br><br>
+He finished with the noble line that Australia would never be properly governed until the 'united cry may be earnestly resounded from York to Otway, Perth to Brisbane — Australia for the Australians.'<br><br>
+Soon the phrase was appearing everywhere and Meudell's friend J.F. Archibald made it the slogan of the <i>Bulletin</i>. Young Meudell followed this with another article denouncing the suggestion that there should be political union with Britain. 'How could you chain a vigorous lusty youth to a decrepit old man<br><br>
+<div class="text-center">
+Crabbed age and youth<br>
+Cannot live together,<br>
+Youth is hot and bold<br>
+Age is weak and cold.
+</div><br>
+He had no time for the entire vice regal system. Governors and Government houses were just there to look after the pompous. The serious work they had to do any competent Chief Justice could handle in five minutes. And he made the fascinating suggestion: 'The seven Governors cost the country about £100,000 a year, which when saved would support six good brass bands in the six capitals.'<br><br>
+He tried valiantly to carry his ideas into Parliament. He claimed that like everyone else he was 'steeped, soaked and pickled in vanity' and he had a right to be there. He tried twice to win the Victorian seat of Grenville, a mining district near Ballarat. He went from hamlet to hamlet and he found the business of canvassing, making three speeches a day, very wearing. So he hired a horse, a buggy and an operator with a gramophone. He mixed up his speeches with comic songs and fun recitations. The children adored it and followed his show in hundreds, but still he did not get into Parliament.<br><br>
+He was a founder of the Young Victoria Patriotic League and the National Citizens Reform League which aimed at reducing the members of the Legislative Assembly from 95 to 46, the Council from 36 to 23 and the number of Ministers from ten to five. His dream of becoming the Treasurer never came true, his campaigns cost him three hundred pounds each and his strong opinions, plenty of enemies.<br><br>
+His real claim to fame was as a waspish, often cynical chronicler of the Land Boom and the bank crash of 1893. 'It was all so ridiculous and amusing,' he said, 'and the best of the joke was that none of the leaders of the people in the Press, Parliament, Church or on the platform ever uttered a single word of warning of the coming debacle, the terrible catastrophe which brought ruin to tens of thousands of decent people.'<br><br>
+He gave star billing in the Land Boom to Mr Benjamin Josman Fink. Sometimes he described him as Machiavelli, sometimes he called him the most brilliant financier he encountered anywhere in the world, sometimes he called him a 'pawky, shrewd man,' and another time as a man Messianistic in his conceit. B.J. Fink 'played the piano divinely' and made a fortune selling £10 German pianos for £40 to suburban housewives. He sold pianos 'as other men sell crayfish or peanuts.' He was worth quarter of a million pounds and he had no need to move into the 'cesspit of the land boom', but he crashed with debts of £1,520,175 and assets of only £500,900. He paid a halfpenny in the pound yet when he died in London he left £250,000.<br><br>
+He said that B.J. Fink 'cajoled' him out of his comfortable accounting business in which he was making £750 a year and talked him into becoming assistant manager of the ill-fated Mercantile Finance & Guarantee Company. 'There,' he said, 'I wrote a good many prospectuses of companies. The most splendid specimen of the art of imagining the basis of a prospectus ever perpetrated in Australia was my draft for the Australian Assets Purchase Company, capital £5,500,000. It was a rare farrago of high-price rubbish.'<br><br>
+B.J. Fink suggested to him that he should buy some shares in Mercantile Finance, so he bought 2000 at eight pounds each. Nine months later he was lucky to sell them for twenty-five shilling each — net loss £13,500. That little disillusionment caused him to leave the company before any further disasters arrived. He accepted an offer of secretary of the Australian Property Company at a salary of £1200 a year, but that was another company on a sure, clear path to bankruptcy, so he left and bought a seat on the Stock Exchange.<br><br>
+He told the story of Sir Matthew Davies, a politician who owned an enormous mansion in Malvern a man whose bankrupt companies managed to ruin shareholders by the thousand. Meudell and Davies were living at the Athenaeum Club at the very time when the banks and building companies were crashing.<br><br>
+'At breakfast time M.H. took his seat looking blithe and debonair, spic and span, smiling withal sombre at heart. Hidden behind the <i>Argus</i> he would whisper "How dreadful, another bank closed its doors. Tut, tut, very sad." Or, "Did you see Lath and Plaster Building on Sand Society has stopped payment? Shocking isn't it? Waiter, a little more buttered toast, very hot and very buttery."'<br><br>
+Meudell himself was smart enough to see in advance what was happening. He was aware that a financial cave-in was inevitable, so he rented a safe deposit box and when the forty-seventh building society had failed and the last bank had closed its doors he had a little cache of one thousand gold sovereigns. That saw him through.<br><br>
+At the turn of the century he was working very long hours at the Stock Exchange. He began to cough blood. One doctor told him he had only three months to live. Another 'who looked like a coffin-lifter's helper' asked him if he had made a will.<br><br>
+Meudell pointed out <i>Materia Medica</i> and <i>British Pharmacopoeia</i> should be suppressed by force. Doctors prescribe medicine of which they know nothing to cure diseases in a body of which they know less. They cannot cure cancer, consumption, baldness or rheumatoid arthritis to name a few. So with his wife Lillie he went to live at Kangaroo Flat and ate eggs and milk at the rate of three quarts a day. 'I slept like a night watchman, avoided exercise, a thing that calls more people than it saves, and in a year put on three stone.' From then on, he says, his diet was crayfish, onions and stout. He was cured.<br><br>
+Yet for a man who did not believe that the gentlemen of the Stock Exchange should indulge in mental activity and nothing more, so on 27 June, 1903 he staged the Stock Exchange Walk. Unfit stockbrokers trained for a fortnight — many overweight gentlemen walked daily from their homes to the city. The race was over thirteen and one fifth miles from Brighton Beach to Beaumaris then back to South Brighton. According to the newspapers Brighton was <i>en fête</i>, bunting and all. Crowds turned out by train, buggy, horse, bicycle, tandem and even motor. The winner was a young stockbroker, A. Starling, who had possessed his seat only eighteen months. He covered the course in 2 hours 18 minutes 3 seconds and won a gold medal decorated with a bear and a bull. As for Mr Meudell, he did not exert himself. He went ahead on horseback.<br><br>
+In 1929 he published his book <i>The Pleasant Career of a Spendthrift</i>. It was an extraordinary collection of jumbled reminiscences, potted views on all subjects, mini biographies of people of the day and there was even a chapter titled 'Lords Who Have Met Me.'<br><br>
+There was a chapter on what a marvellous place Melbourne used to be in the eighteen eighties, when the hotels used to open until 11.30 p.m., 'a roughish sort of a town, wide open and frankly immoral.' He told of hotels like the Rainbow in Swanston Street, six bars, filled with at least a hundred <i>filles de joie</i> and kerosene lamps shone brightly while barmen opened bottles of Moet et Chandon, Pommery and Krug by the dozen. It was a short walk from there to the famous Theatre Royal with its meeting area known euphemistically as 'The Saddling Paddock.' Here was a vestibule with a quarter of a mile of bars and one would find literally hundreds of ladies of pleasant manners and easy virtue. Little Lonsdale Street was the centre of the better class of prostitutes with houses kept by Scotch Maude, Madame Brussels, Biddy O'Connor and round the corner Mother Fraser, a favourite pleasure house of club men... well conducted and not expensive. All this, he wrote, was ruined by the Puritans, the Wowsers, the Scots Church and Presbyterian Policemen, so the joyousness of Melbourne's night life was silently squelched.<br><br>
+George Routledge & Sons Ltd., London, published the first edition and reviews are hard to find. The <i>Times</i> produced a review reeking with disdain: 'In his book an Australian "barracker" comments sourly on the game of life in the raucous tones of his kind but without the humour which on cricket grounds at times qualifies its partisanship. This shrillness is apparently the effect aimed at for in the note on the wrapper the book is commended as being written in a language that is fascinating on account of its unrestrained daring. It has no other claim to attention.'<br><br>
+Possibly the reviews are hard to find because of the explosive nature of its contents. Many newspapers wanted no part of it because their boards were sprinkled with relatives of old land boomers and those who remembered too well. Meudell in pithy terms told the full story of the land boom with particular reference to names like B.J. Fink, Sir Matthew Davies and W.L. Baillieu.<br><br>
+Michael Cannon in the <i>Land Boomers</i> describes as a mystery what happened next. Did Meudell write the book as a blackmailing exercise, hoping he would be hard to keep quiet. Cannon said he made extensive inquiries among people who knew Meudell and the unanimous verdict was that he was too honest — too honest for his own good. Cannon says the book was put on sale in Melbourne in late 1929 and it caused a profound sensation. After the first release orders came down from the board room of Angus and Robertson to withdraw the book from sale. The chairman, J.M. Gillepsie, was named in the book as one of the land boomers.<br><br>
+Philip Garrett, formerly chief of the Research Department at the State Library of Victoria, says that late in 1929 Thomas Fleming Cooke, Librarian of the State Public Lending Library asked him to buy two copies for their shelves. It wasn't to be had in any shop and Cooke had heard that booksellers had been warned not to stock it. However Meudell was selling it privately at his office.<br><br>
+Meudell had his office in the grand old St. James building opposite Menzies Hotel in William Street. He had a single room, entered directly from the passage. Garrett recalls that it was carpeted but apart from a desk and three chairs there was no other furniture. Along the right wall, going right up to the lofty eighteen foot ceiling there was this remarkable sight — double stacks of the <i>The Pleasant Career of a Spendthrift</i> in white wrappers, hundreds of them. The published price was ten shillings and sixpence and Garrett bought two copies for a guinea.<br><br>
+There was always speculation on how many copies were bought by those mentioned just to get them out of sight, but <i>The Pleasant Career of a Spendthrift</i> became a very rare and sought after book, and is now worth anything from $30 to $50.<br><br>
+Another edition appeared in 1933, this time published by Wilke & Co. Pty. Ltd. It was called 'Second Impression' but there was an addition to the title <i>The Pleasant Career of a Spendthrift and His Later Reflections</i>. Considerable pressure must have been applied because now there was nothing but the kindliest references to the Finks and W.L Baillieu. All the harsh stuff had gone and no longer was there any mention how B.J Fink had paid a halfpenny in the pound and had gone to London after a threat of assassination. It was still a sprightly book but one could describe it as having been speyed. Michael Cannon told the story brilliantly in 1966 and even then it was not all that easy. The sores of the Land Boom took a very long time to heal.<br><br>
+Meudell remained on the Stock Exchange but he and his wife spent much of their time travelling. He claimed that he travelled 400,000 miles by land and sea, on over 400 steamships and stayed in 600 hotels. He was not always complimentary about what he saw. He said; 'there is no need to visit Canada and the United States. Travel there is costly and uncomfortable, and these brand new centres of hustle have nothing to show that the Australian cannot see much better nearer home... Travel in Eastern countries is spoiled by the dirt the traveller has to endure. My experience is that travel amongst coloured and uncivilized people is neither instructive nor comfortable.'<br><br>
+As for Kipling's much extolled Rangoon, 'Its native bazaar is the filthiest in the East, and its municipal management generally is a disgrace to the authorities. We went to Rangoon to see the Shwe Dagon Pagoda... it is a tinselled, garish, fraud.'<br><br>
+Aden: 'One of the most unpleasant spots on the globe.<br><br>
+Cairo: A bestial city and all Egypt an over-rated abomination.<br><br>
+London: Repulsive, hideous, unattractive. Possesses the narrowness of Canton, the noise of Chicago, the vulgarity of New York, the crowding of Calcutta and the filthiness of Buenos Aires.'<br><br>
+He did however like Paris, Berlin, Vienna, Copenhagen, St. Petersburg and all New Zealand.<br><br>
+He remained vigorous, active and a regular visitor to the State Library until he was quite elderly. He died suddenly at his house in St Kilda on 27 May 1936, aged 76.<br><br>
+His own comment was that he committed the immorality of being too far in front of his own age and in other times gone by he would have been tortured and hanged.
+<hr>
+SOURCES:<br>
+George Meudell, <i>The Pleasant Career of a Spendthrift</i>.<br>
+<i>Table Talk</i>, 14 April 1896.<br>
+George Meudell, <i>The Pleasant Career of a Spendthrift</i>.<br>
+<i>Table Talk</i>, 14 April 1896.<br>
+<i>Cyclopedia Victoria</i>. Vol 1 P 409.<br>
+<i>Melbourne Review</i>, Vol 7, 1882.<br>
+<i>Melbourne Review</i>, Vol 10, July 1885.<br>
+George Meudell, <i>The Pleasant Career of a Spendthrift</i>.<br>
+<i>Weekly Times</i>, 26 April 1902, P 10.<br>
+George Meudell, <i>The Pleasant Career of a Spendthrift</i>.<br>
+The <i>Argus</i>, 29 June 1903.<br>
+The <i>Weekly Times</i>, 4 July 1903.<br>
+The <i>Times Literary Supplement</i>, 15 August 1929, P 639.<br>
+The <i>Traveller</i>, 1 February 1903.<br>
+The <i>Argus</i>, 28 May 1936.<br>
+George Meudell, <i>The Pleasant Career of a Spendthrift and His Later Reflections</i>.
+<hr>
+Continue to the next chapter: <a href="/books/ratbags/13-frank-thring">Frank Thring</a>
+</div>
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        Profile of George Dick Meudell, the dandyish stockbroker and waspish chronicler of Melbourne&#39;s 1890s Land Boom and crash, whose scandalous memoir &#39;The Pleasant Career of a Spendthrift&#39; was suppressed for decades.
+      </p>
+
+<hr>
+<h4 class="h6">Related topics</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/athenaeum-club/" class="link-secondary">Athenaeum Club</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Athenaeum Club">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/bank-of-victoria/" class="link-secondary">Bank of Victoria</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Bank of Victoria">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/bendigo/" class="link-secondary">Bendigo</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Bendigo">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/benjamin-josman-fink/" class="link-secondary">Benjamin Josman Fink</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Benjamin Josman Fink">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/george-dick-meudell/" class="link-secondary">George Dick Meudell</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="George Dick Meudell">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/land-boom/" class="link-secondary">Land Boom</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Land Boom">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/matthew-davies/" class="link-secondary">Matthew Davies</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Matthew Davies">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/pleasant-career-of-a-spendthrift/" class="link-secondary">Pleasant Career of a Spendthrift</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Pleasant Career of a Spendthrift">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/stock-exchange/" class="link-secondary">Stock Exchange</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Stock Exchange">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/w.l.-baillieu/" class="link-secondary">W.L. Baillieu</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="W.L. Baillieu">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/athenaeum-club/" class="link-secondary">Athenaeum Club</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Athenaeum Club">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/bank-of-victoria/" class="link-secondary">Bank of Victoria</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Bank of Victoria">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/bendigo/" class="link-secondary">Bendigo</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Bendigo">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/benjamin-josman-fink/" class="link-secondary">Benjamin Josman Fink</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Benjamin Josman Fink">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/george-dick-meudell/" class="link-secondary">George Dick Meudell</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="George Dick Meudell">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/land-boom/" class="link-secondary">Land Boom</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Land Boom">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/matthew-davies/" class="link-secondary">Matthew Davies</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Matthew Davies">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/pleasant-career-of-a-spendthrift/" class="link-secondary">Pleasant Career of a Spendthrift</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Pleasant Career of a Spendthrift">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/stock-exchange/" class="link-secondary">Stock Exchange</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Stock Exchange">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/w.l.-baillieu/" class="link-secondary">W.L. Baillieu</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="W.L. Baillieu">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

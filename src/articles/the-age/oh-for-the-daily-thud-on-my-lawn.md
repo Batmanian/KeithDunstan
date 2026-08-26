@@ -5,13 +5,13 @@ summary: A tribute to the ritual of reading a printed daily newspaper in bed eac
 categories:
 - The Age
 tags:
+  - The Argus
+  - The Bulletin
   - East Malvern
+  - The Herald
   - Herald and Weekly Times
   - Rupert Murdoch
   - Tandberg
-  - The Argus
-  - The Bulletin
-  - The Herald
 ---
 
 FRANKLY, I couldn't live without my morning fix of a daily newspaper. In the old days we had a newsagent who delivered the paper tightly rolled in plastic. He could throw it so that the paper landed right on our door mat.

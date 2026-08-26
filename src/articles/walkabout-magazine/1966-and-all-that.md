@@ -96,4 +96,4 @@ The kids will forget their school lunches 35 times, lose their hats, caps and ho
 
 <hr>
 
-*Source: [1966 AND ALL THAT](https://nla.gov.au/nla.obj-747000705), Walkabout Magazine, 1966-12-01. Retrieved via the National Library of Australia's Trove database.*
+*Source: 1966 and All That, Walkabout Magazine, December 1966. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-747000705).*

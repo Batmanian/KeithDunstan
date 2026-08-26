@@ -5,9 +5,9 @@ summary: Follows Royal Commissioner P. D. Phillips's liquor inquiry into a Unive
 categories:
 - The Bulletin
 tags:
-  - P. D. Phillips
-  - Melbourne University
   - Carlton and United Breweries
+  - Melbourne University
+  - P. D. Phillips
 ---
 
 Unquestionably the most exciting serial we have ever offered on this page has been the saga of Victoria's liquor. In our last episodes our protagonist, Mr P. D. Phillips, QC, Royal Commissioner, was deeply involved in his liquor inquiry. He had done battle with the breweries, he had brilliantly persuaded some of our leading clergy to his own way of thinking, and he had been on a personal tour of Melbourne pubs at night on closing time. NOW READ ON:

@@ -4,8 +4,8 @@ date: 1990-11-11
 summary: "Explains why he finally wrote his autobiography after fifteen years of avoiding it, mourning the lost family histories of unrecorded ancestors and settling on a title from his old science teacher's verdict: \"You have no brains at all. But you do have guts.\""
 tags: 
 - Autobiography
-- Cornwall
 - Brunswick - Germany
+- Cornwall
 ---
 
 

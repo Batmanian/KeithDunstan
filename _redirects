@@ -17,3 +17,35 @@
 
 # Keywords renamed to topics
 /keyword/*                                 /topic/:splat                                   301
+
+# Ratbags and The Paddock That Grew — chapter files renumbered 26 Aug 2026 so
+# a Foreword+Introduction consistently occupy slots 0/1 (matching every other
+# book with front matter), pushing each book's real chapters down by one.
+/books/ratbags/1-foreword/                             /books/ratbags/0-foreword/                             301
+/books/ratbags/2-introduction/                         /books/ratbags/1-introduction/                         301
+/books/ratbags/3-beatrice-miles/                       /books/ratbags/2-beatrice-miles/                       301
+/books/ratbags/4-stephen-harold-gascoigne/             /books/ratbags/3-stephen-harold-gascoigne/             301
+/books/ratbags/5-john-barry-humphries/                 /books/ratbags/4-john-barry-humphries/                 301
+/books/ratbags/6-edward-william-cole/                  /books/ratbags/5-edward-william-cole/                  301
+/books/ratbags/7-clement-lindley-wragge/                /books/ratbags/6-clement-lindley-wragge/               301
+/books/ratbags/8-james-george-beaney/                  /books/ratbags/7-james-george-beaney/                  301
+/books/ratbags/9-alfred-edward-lynch/                  /books/ratbags/8-alfred-edward-lynch/                  301
+/books/ratbags/10-hugh-donald-mcintosh/                /books/ratbags/9-hugh-donald-mcintosh/                 301
+/books/ratbags/11-william-charles-wentworth-iv/        /books/ratbags/10-william-charles-wentworth-iv/        301
+/books/ratbags/12-prince-leonard-of-hutt/              /books/ratbags/11-prince-leonard-of-hutt/              301
+/books/ratbags/13-george-dick-meudell/                 /books/ratbags/12-george-dick-meudell/                 301
+/books/ratbags/14-frank-thring/                        /books/ratbags/13-frank-thring/                        301
+/books/ratbags/15-lillian-frank/                       /books/ratbags/14-lillian-frank/                       301
+/books/ratbags/16-xavier-alfred-francis-herbert/       /books/ratbags/15-xavier-alfred-francis-herbert/       301
+/books/ratbags/17-percy-wills-cerutty/                 /books/ratbags/16-percy-wills-cerutty/                 301
+/books/ratbags/18-arthur-stace/                        /books/ratbags/17-arthur-stace/                        301
+/books/ratbags/19-leonard-paul-evans/                  /books/ratbags/18-leonard-paul-evans/                  301
+/books/ratbags/20-king-omalley/                        /books/ratbags/19-king-omalley/                        301
+/books/ratbags/21-alexander-tolmer/                    /books/ratbags/20-alexander-tolmer/                    301
+/books/ratbags/22-percy-aldridge-grainger/             /books/ratbags/21-percy-aldridge-grainger/             301
+/books/ratbags/23-germaine-greer/                      /books/ratbags/22-germaine-greer/                      301
+/books/ratbags/24-justus-jorgensen/                    /books/ratbags/23-justus-jorgensen/                    301
+/books/ratbags/25-clement-john-de-garis/               /books/ratbags/24-clement-john-de-garis/               301
+/books/ratbags/26-kevin-charles-pro-hart/              /books/ratbags/25-kevin-charles-pro-hart/              301
+/books/the-paddock-that-grew/1-foreword/               /books/the-paddock-that-grew/0-foreword/               301
+/books/the-paddock-that-grew/2-introduction/           /books/the-paddock-that-grew/1-introduction/           301

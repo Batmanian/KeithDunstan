@@ -6,11 +6,11 @@ categories:
 - The Bulletin
 tags:
   - Capitol Theatre
-  - Walter Burley Griffin
-  - Marion Mahony Griffin
-  - Swanston Street
   - Eric Westbrook
   - Flinders Street Station
+  - Marion Mahony Griffin
+  - Swanston Street
+  - Walter Burley Griffin
 ---
 
 For seven years now we have watched our movie houses being turned into offices, storage sheds, bowling alleys, even into artificial ski runs and, frankly, nobody has cared very much. But now we have bitter news. On February 5 the Capitol in Swanston Street, right opposite the Town Hall, will be shooting its last reel.

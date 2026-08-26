@@ -15,8 +15,8 @@ tags:
   - Frank Beaurepaire
   - Frederick Scherger
   - Gos Lane
-  - Norman Strang
   - Norman McKinnell
+  - Norman Strang
   - Royal Australian Air Force
   - Second World War
   - Sir George Foster Pearce

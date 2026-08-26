@@ -3,10 +3,10 @@ title:  A Brand New Commonwealth
 date: 1988-01-01
 summary: Sydney celebrates the birth of the Commonwealth of Australia on 1 January 1901, with a grand procession, Lord Hopetoun sworn in as Governor-General, and Queen Victoria's proclamation uniting six jealous colonies into one federation.
 tags:
-  -  John Hope, 7th Earl of Hopetoun
   -  Edmund Barton
-  -  William Simaurez Smith
+  -  John Hope, 7th Earl of Hopetoun
   -  Sir Henry Parkes
+  -  William Simaurez Smith
 ---
 
 #### 1 January 1901

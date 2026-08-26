@@ -78,4 +78,4 @@ But there's no doubt that the general interest in gardening here, particularly i
 
 <hr>
 
-*Source: [BATTLE OF THE FLOWER](https://nla.gov.au/nla.obj-755149002), Walkabout Magazine, 1965-05-01. Retrieved via the National Library of Australia's Trove database.*
+*Source: Battle of the Flower, Walkabout Magazine, May 1965. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-755149002).*

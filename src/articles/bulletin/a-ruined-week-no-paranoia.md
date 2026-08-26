@@ -5,11 +5,11 @@ summary: Surveys a week of civic drama, a State Electricity Commission strike th
 categories:
 - The Bulletin
 tags:
-  - Ron Barassi
-  - John Peck
-  - John Coleman
-  - Henry Bolte
   - Graham Kennedy
+  - Henry Bolte
+  - John Coleman
+  - John Peck
+  - Ron Barassi
 ---
 
 Few cities are called upon to suffer the terrible shocks we have endured these past couple of weeks. First there was the strike by the State Electricity Commission workers. Oh, true, we didn't go entirely without power. We were asked to play the game by using only two electric lights, our refrigerators, and electric stoves, only if we really had to.

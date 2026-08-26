@@ -5,11 +5,11 @@ summary: Follows the Melbourne City Council's ballot to crown the city's two-mil
 categories:
 - The Bulletin
 tags:
+  - Bill Onus
+  - Harold Holt
+  - Henry Bolte
   - Maurice Nathan
   - Sir Rohan Delacombe
-  - Henry Bolte
-  - Harold Holt
-  - Bill Onus
   - St Kilda
 ---
 

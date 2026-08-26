@@ -5,17 +5,17 @@ summary: Founds the Anti-Football League in his Sun column in 1967, giving footb
 tags:
   - Anti-Football League
   - Australian Rules Football
+  - Australian Rules Football
   - Barry Humphries
   - Brownlow Medal
   - Bruce Matear
+  - Douglas Wilkie
   - Fred Goding
   - Jack Dyer
   - Kate Bailleu
   - Lou Richards
   - Sir Kenneth Luke 
   - Sport
-  - Australian Rules Football
-  - Douglas Wilkie
   - Sun News-Pictorial
   - Walter ODonoghue
 ---

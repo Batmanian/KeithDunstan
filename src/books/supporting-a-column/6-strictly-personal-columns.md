@@ -3,54 +3,54 @@ title: Strictly personal columns
 date: 1966-11-11
 summary: On the art of the celebrity interview, from Ava Gardner insisting on her two-tone Bentley for a hundred-yard drive on the set of "On the Beach" to Peter Ustinov failing spectacularly to learn to crack a stockwhip for "The Sundowners."
 tags:
-  - Herald and Weekly Times Ltd
-  - Frank Sinatra
-  - Ava Gardner
-  - On the Beach
-  - Walter Chiari
-  - Theyre a Weird Mob - film
-  - Charlton Heston
-  - Ben Hur
-  - Graham Walsh
-  - Irene Handl
-  - Margaret Rutherford
-  - Peter Ustinov
-  - Marlene Dietrich
-  - Danny Kaye
-  - Bolshoi Ballet
-  - Larissa Trembovelskaya
-  - Sir Dallas Brooks - Governor
-  - Sir Robert Menzies
-  - Sophie Tucker
-  - Menzies Hotel, Melbourne
-  - Sir Maurice Nathan - Lord Mayor
-  - Johnnie Ray
-  - Radio Station 3UZ
-  - The Beatles
-  - The Southern Cross Hotel
-  - Don Lunn
-  - Sir Leo Curtis - Lord Mayor
-  - Sir Arthur Fadden
-  - W.M. (Billy) Hughes
-  - Griffith
-  - John and Frank Livingstone
-  - New York Yacht Club
-  - Lord Casey 
-  - Sir Eugene Gorman
   - Adam Lindsay Gordon
+  - Ava Gardner
   - Barry Humphries
-  - The Establishment Club
-  - Patrick Tennison
+  - The Beatles
+  - Ben Hur
+  - Bolshoi Ballet
+  - Charlton Heston
   - Dame Joan Sutherland
-  - Edna Everage
-  - Roy (Mo) Rene
-  - Tania Verstak
   - Dame Mabel Brookes
-  - Sir Norman Brookes
+  - Danny Kaye
+  - Don Lunn
+  - Edna Everage
+  - The Establishment Club
+  - Frank Sinatra
+  - Graham Walsh
+  - Griffith
   - Harold Gengoult Smith
   - Harry Emmerton
-  - On the Beach - film
+  - Herald and Weekly Times Ltd
+  - Irene Handl
+  - John and Frank Livingstone
+  - Johnnie Ray
+  - Larissa Trembovelskaya
+  - Lord Casey 
+  - Margaret Rutherford
+  - Marlene Dietrich
+  - Menzies Hotel, Melbourne
   - Napoleon Bonaparte
+  - New York Yacht Club
+  - On the Beach
+  - On the Beach - film
+  - Patrick Tennison
+  - Peter Ustinov
+  - Radio Station 3UZ
+  - Roy (Mo) Rene
+  - Sir Arthur Fadden
+  - Sir Dallas Brooks - Governor
+  - Sir Eugene Gorman
+  - Sir Leo Curtis - Lord Mayor
+  - Sir Maurice Nathan - Lord Mayor
+  - Sir Norman Brookes
+  - Sir Robert Menzies
+  - Sophie Tucker
+  - The Southern Cross Hotel
+  - Tania Verstak
+  - Theyre a Weird Mob - film
+  - W.M. (Billy) Hughes
+  - Walter Chiari
 ---
 
 There used to be an old Chief of Staff in Melbourne who had a contempt for all stories that were gathered on the telephone. His favourite saying was: ‘I only like reporters that have mud on their boots.” Column writing is no different. It is difficult to write a daily column by warming an office seat. Indeed in the interests of journalism we could even create a ‘Newton’ law of non-motion: 'The greater the seat-warming the greater the brilliance of mind and imagination necessary to maintain a column.’ No doubt the very clever and the very creative can fill a space every day without seeing anyone, but not lesser mortals.

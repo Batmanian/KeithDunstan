@@ -3,8 +3,8 @@ title:   Duke Makes Sport in the Colonies
 date: 1988-01-25
 summary: Prince Alfred, Duke of Edinburgh, scandalises Melbourne's bishops during his 1868 royal tour with visits to the Saddling Paddock's "notorious women" and a Stephen Street brothel, then heads off possum shooting by moonlight.
 tags:
-  -  Prince Alfred the Duke Edinburgh
   -  Captain Frederick Standish
+  -  Prince Alfred the Duke Edinburgh
 ---
 
 #### 25 January 1868

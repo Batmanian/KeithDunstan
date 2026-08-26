@@ -5,12 +5,12 @@ summary: Defends Melbourne's civic pride against a Sydney magazine's charge of d
 categories:
 - The Bulletin
 tags:
-  - Henry Bolte
   - Albert Tucker
   - Chris Wallace-Crabbe
-  - Sun News-Pictorial
-  - St Kilda
+  - Henry Bolte
   - Ross Grey-Smith
+  - St Kilda
+  - Sun News-Pictorial
 ---
 
 We have always considered ourselves to be the Australian city of dignity. Well, dignitywise, the past few weeks have been a trifle unnerving. Let us start by hoping that you did not see the Melbourne issue of the "Current Affairs Bulletin". Among other things it described us as being drab, uninspiring, banal, barbarous in some of our habits, and dreary. The only reason we stuck it out and didn't flock off to better places was because we were stunned by our mediocrity and arrogance.

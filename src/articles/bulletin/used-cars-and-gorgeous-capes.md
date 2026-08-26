@@ -5,9 +5,9 @@ summary: Surveys Melbourne's colourful used-car dealer scene, from Kevin Dennis'
 categories:
 - The Bulletin
 tags:
-  - Kevin Dennis
   - Emmanuel Margolin
   - Harold Holt
+  - Kevin Dennis
 ---
 
 Melbourne always has been a good used car town. Many of our most fascinating characters are used car men. At the moment our biggest individual dealer is Mr Kevin Dennis. He works on the old "face" principle. That is, the more often your face appears in public then the more the public is likely to love and trust you.

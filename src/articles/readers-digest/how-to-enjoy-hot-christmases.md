@@ -6,8 +6,8 @@ summary: A defence of the Australian habit of serving roast turkey and plum pudd
 categories:
   - Reader's Digest
 tags:
-  - Henry Lawson
   - Hayman Island
+  - Henry Lawson
   - Mawson Station
   - Mt Isa
 ---

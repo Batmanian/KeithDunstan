@@ -6,14 +6,14 @@ summary: A Melbourne man's affectionate account of the long civic rivalry betwee
 categories:
   - Reader's Digest
 tags:
-  - Melbourne
-  - Sydney
-  - Henry Bolte
-  - Robert Heffron
-  - Sydney Opera House
-  - Tullamarine
   - Albury
   - Geelong Grammar
+  - Henry Bolte
+  - Melbourne
+  - Robert Heffron
+  - Sydney
+  - Sydney Opera House
+  - Tullamarine
 ---
 
 As a Melbourne man, I was taught early in life that a Sydney type of person was to be found in Melbourne for a very natural reason — it was only natural, when the Royal Family decided to visit Australia, that they should be received in Melbourne. It was only natural when an important trade delegation arrived that they would do business in Melbourne. The banks had their headquarters in Melbourne. One just preferred to do business in Melbourne.

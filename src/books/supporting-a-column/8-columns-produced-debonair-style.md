@@ -3,29 +3,29 @@ title: Columns produced debonair style
 date: 1966-11-11
 summary: A 10,000-mile light-plane joyride around the outback with three friends in a hired Beechcraft Debonair, buzzing roadhouses for a lift and landing at opal-mining Coober Pedy, a town with no police, phone or pub.
 tags:
-  - Frank Reinehr
-  - Imants Dizgalvis
+  - (Benjamin) Gayelord Hauser
+  - (Pastor) Sid Denton
+  - 6 Oclock swill
   - Alfred Heintz
+  - Ayers Rock (Uluru)
+  - Bob Millar
+  - Boolardy
+  - Boolardy Station
+  - Charles Eadon-Clarke
   - Coober Pedy
   - Ettie Hall
-  - Jack Brewster
-  - Ayers Rock (Uluru)
-  - Walkabout magazine
+  - Frank Reinehr
   - Henley on the Todd Regatta
-  - Bob Millar
-  - L.J. Hooker Corporation Ltd
-  - Wickham River
+  - Imants Dizgalvis
+  - Jack Brewster
   - King Brumby
-  - Marble Bar
+  - L.J. Hooker Corporation Ltd
   - Len Beadell
-  - Boolardy
-  - Victoria River Downs
-  - 6 Oclock swill
-  - (Pastor) Sid Denton
-  - Boolardy Station
+  - Marble Bar
   - Robert Francis Bruce (Bob) Lefroy
-  - (Benjamin) Gayelord Hauser
-  - Charles Eadon-Clarke
+  - Victoria River Downs
+  - Walkabout magazine
+  - Wickham River
 ---
 The best trip I ever made for the column was not overseas, but a tour of the north of Australia. It was the best tour for fun and personal excitement and the best from the newspaper point of view. Some schools followed it as a daily project and one of my happiest possessions is a bundle of letters received from every member of a class at Cheltenham State School.
 

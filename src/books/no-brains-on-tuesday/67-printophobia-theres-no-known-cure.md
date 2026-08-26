@@ -3,20 +3,20 @@ title: Printophobia - There's No Known Cure
 date: 1991-01-01
 summary: A lifelong fear of large print and banner headlines is diagnosed as printophobia, prompting a defence of reading the paper back-to-front, skipping royals, crime and economists, and a closing tally of the truly disastrous Christmases, from the unsolved Bogle murders to Harold Holt's drowning at Portsea, that editors secretly treasure.
 tags:
+  - Bogle-Chandler case
+  - Collingwood
   - Dean Jones
-  - Tandberg
+  - Greg Norman
+  - Harold Holt
   - Jeff Hook
+  - Margaret Thatcher
   - Molly Meldrum
   - Neville Wran
-  - Rupert Murdoch
-  - Bogle-Chandler case
-  - Harold Holt
   - Portsea
-  - Greg Norman
-  - Collingwood
   - Prince Philip
   - Queen Elizabeth II
-  - Margaret Thatcher
+  - Rupert Murdoch
+  - Tandberg
 ---
 
 At 7 pm during the week-end we cracked.

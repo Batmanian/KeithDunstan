@@ -3,11 +3,11 @@ title: Mr Kelly at Euroa
 date: 1980-11-11
 summary: Follows the Kelly gang's first bank robbery, a genial, almost theatrical siege of Younghusband's Faithful's Creek Station and the Euroa branch of the National Bank in which Kelly charmed his hostages, dressed his gang in new clothes bought with stolen money, and rode off with £2060.
 tags:
-  - Ned Kelly
-  - Joe Byrne
-  - Steve Hart
   - Dan Kelly
   - Glenrowan
+  - Joe Byrne
+  - Ned Kelly
+  - Steve Hart
 ---
 
 All Victoria was now agog with the outrage at Stringybark Creek. The *Williamstown Advertiser* painted a garish picture of the villain. Already he probably had twenty murders to his credit and as for his morals "He spends his money among harlots in whose sweet society he is now basking."¹

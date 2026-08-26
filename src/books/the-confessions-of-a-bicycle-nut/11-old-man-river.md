@@ -3,10 +3,10 @@ title: Old Man River
 date: 1999-11-11
 summary: A posting to Los Angeles brings a cast of eccentric Californian cycling companions, before Keith and Marie join a Bikecentennial tour tracing the Mississippi from its source at Lake Itaska to New Orleans, through Hannibal's Mark Twain shrines and Memphis's Elvis souvenir strip.
 tags:
-  - Marie Dunstan
-  - Jeff Hook
-  - Mark Twain
   - Elvis Presley
+  - Jeff Hook
+  - Marie Dunstan
+  - Mark Twain
 ---
 
 There was sweet irony in the story of the tandem - within 12 months it was back in California. The Herald & Weekly Times Ltd sent the Dunstans to Los Angeles for three years.

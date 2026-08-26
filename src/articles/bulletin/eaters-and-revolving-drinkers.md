@@ -6,10 +6,10 @@ categories:
 - The Bulletin
 tags:
   - Albert Park
-  - Myer
+  - Bernarr Macfadden
   - Hotel Australia
   - Lelord Kordel
-  - Bernarr Macfadden
+  - Myer
 ---
 
 Melbourne is a jolly good calorie town. This week a fancy new restaurant opened at Albert Park. It is on the edge of the lake, and flanked by golf courses. There are splendid views in all directions. It caters for 180 people, but the centrepiece, the crowning touch, is the circular bar. It seats 18 people and rotates gently like a merry-go-round.

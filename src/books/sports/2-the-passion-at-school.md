@@ -3,25 +3,25 @@ title: The Passion at School
 date: 1973-11-11
 summary: Surveys the near-religious grip of school sport on Australian boarding and grammar schools, from the ritual status of football and rowing colours to the pitched battles between Melbourne Grammar and Wesley College, and closes on the modern anxiety of children's sport turning parents into fanatics.
 tags:
-  - Wesley College
-  - Scotch College
-  - Xavier College
-  - L. A. Adamson
-  - Melbourne Grammar
-  - Geelong Grammar
-  - Sydney Grammar
-  - St Kilda
   - The Argus
-  - Melbourne Cricket Ground
-  - Melbourne University
-  - Her Majestys Theatre
-  - Stanley Bruce
-  - Neville Cardus
-  - Ron Clarke
   - Dr A. W. Willee
+  - Geelong Grammar
   - Harry Prout
   - Henry Varley
+  - Her Majestys Theatre
   - John McLaren
+  - L. A. Adamson
+  - Melbourne Cricket Ground
+  - Melbourne Grammar
+  - Melbourne University
+  - Neville Cardus
+  - Ron Clarke
+  - Scotch College
+  - St Kilda
+  - Stanley Bruce
+  - Sydney Grammar
+  - Wesley College
+  - Xavier College
 ---
 
 When I was at school it was a toss-up as to who was the senior god—the captain of boats or the football captain. They wore their prized special blazer in the school colours. One had to be a regular member of a senior team to win colours, and we looked upon them in wonder like altar boys gazing at the robes of an archbishop. There were no colours to be had—and few honours—for triumphing at the examination table.

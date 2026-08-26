@@ -3,38 +3,38 @@ title: The Swimming Passion
 date: 1973-11-11
 summary: Traces the rise of Australian swimming from the invention of the crawl and Fanny Durack's fight to compete at the 1912 Olympics, through Andrew 'Boy' Charlton's teenage duel with Arne Borg, to the punishing modern training regimes behind Dawn Fraser, Murray Rose and Shane Gould.
 tags:
-  - Alick Wickham
-  - Dick Cavill
-  - Ted Lane
-  - Fanny Durack
-  - Rose Scott
-  - Mina Wylie
-  - Hugh D. McIntosh
-  - Frank Beaurepaire
-  - Wesley College
   - Alfred Deakin
-  - Dame Nellie Melba
-  - Billy Hughes
-  - Carbine
+  - Alick Wickham
   - Andrew 'Boy' Charlton
   - Arne Borg
-  - Frank Cotton
-  - Forbes Carlile
-  - Murray Rose
+  - Billy Hughes
+  - Carbine
+  - Dame Nellie Melba
   - Dawn Fraser
-  - Jon Henricks
-  - Harry Gallagher
-  - Ilsa Konrads
-  - Jon Konrads
+  - Dick Cavill
   - Don Talbot
-  - Shane Gould
-  - Keith Miller
-  - Sir Robert Menzies
+  - Fanny Durack
+  - Forbes Carlile
+  - Frank Beaurepaire
+  - Frank Cotton
+  - Harry Gallagher
+  - Hugh D. McIntosh
+  - Ilsa Konrads
   - John Marshall
+  - Jon Henricks
+  - Jon Konrads
   - Karen Moras
-  - Michael Wenden
-  - Prince Philip
+  - Keith Miller
   - Melbourne Cricket Ground
+  - Michael Wenden
+  - Mina Wylie
+  - Murray Rose
+  - Prince Philip
+  - Rose Scott
+  - Shane Gould
+  - Sir Robert Menzies
+  - Ted Lane
+  - Wesley College
 ---
 
 Do Australians really have webbed feet? Until the First World War cricket, rowing and prize fighting were the prime methods by which Australians struggled to get noticed. Then came the other sports—the tennis racket wielders and the swimmers. At tennis they were good enough, but swimming they tackled with such single-minded determination, an outsider could be forgiven for thinking they invented the pastime.

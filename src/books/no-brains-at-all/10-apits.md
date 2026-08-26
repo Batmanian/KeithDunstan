@@ -4,6 +4,7 @@ date: 1990-11-11
 summary: On taking over "A Place in the Sun," the Sun News-Pictorial's daily column he would write for the next 27 years, transforming APITS from an inherited institution into his own voice. 
 tags:
   - 6 Oclock swill
+  - The Age
   - Allan Wilkie
   - Anti-Football League
   - Brian Fitzpatrick
@@ -13,7 +14,7 @@ tags:
   - Eastern Market
   - Ernie Sigley
   - Frank Daly
-  - Young and Jacksons Hotel
+  - The Herald
   - J. Stewart Legge
   - Jeff Hook
   - Kooyong
@@ -27,9 +28,8 @@ tags:
   - Sir Keith Murdoch
   - South Yarra
   - Sun News-Pictorial
-  - The Age
-  - The Herald
   - Whelan the Wrecker
+  - Young and Jacksons Hotel
 ---
 
 

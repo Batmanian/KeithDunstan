@@ -3,8 +3,8 @@ title: Poodles Are Irrational
 date: 1991-01-01
 summary: A new poodle, Lotte, is acquired only after a breeder subjects Keith Dunstan's family to a lecture on the proper year long grief period owed a dead dog, then settles in as Bessie's opposite, adoring children, favouring human food over dog food, and howling operatically rather than sleep in her own bed.
 tags:
-  - Sun News-Pictorial
   - June Bronhill
+  - Sun News-Pictorial
 ---
 
 Regular readers of this column might just possibly remember an embarrassing account two years ago of the death of Bessie. Please stand by for the regrettable sequel.

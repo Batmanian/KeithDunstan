@@ -3,10 +3,10 @@ title: On the Silk Road
 date: 1999-11-11
 summary: A 22-day bicycle tour through Guangdong Province and Beijing in 1983, cycling laps of Tian'anmen Square on a hired Chinese roadster, filing past Mao Tse Tung's embalmed body in the Chairman Mao Memorial Hall, and buying silk in Guangzhou for a daughter's wedding dress.
 tags:
-  - Sarah Dunstan
-  - Mao Tse Tung
   - Beijing
   - Guangzhou
+  - Mao Tse Tung
+  - Sarah Dunstan
 ---
 
 The ultimate dream, of course, was to ride a bicycle in China. China was the one place where the bicycle prevailed, where the bicycle was king. The official figure was 700 million bicycles on the roads, and undoubtedly this was a conservative estimate.

@@ -4,8 +4,8 @@ date: 1991-01-01
 summary: A battle-weary account of Mornington Peninsula vignerons' escalating war against birds devouring their grapes, from a Bob Hawke scarecrow and Frife shells to rocket warfare, scare guns and a neighbour's confession when asked which birds he had admired that month.
 tags:
   - Bob Hawke
-  - Paul Keating
   - Mornington Peninsula
+  - Paul Keating
 ---
 
 We need psychological help. We are in the midst of a deep emotional crisis over birds.

@@ -3,18 +3,18 @@ title: Our Sporting Obsession
 date: 1973-11-11
 summary: Opens 'Sports' by arguing that sport is Australia's true national religion, tracing how politicians, Governors-General and even Prime Ministers have hitched themselves to football clubs and cricket teams to win public esteem, and how a colonial inferiority complex turned nineteenth-century sporting victories into proof the new nation could produce men and women equal to Britain.
 tags:
-  - John Snow
-  - Melbourne Cricket Ground
-  - Henry Lawson
-  - Gough Whitlam
-  - Sir Robert Menzies
-  - John Wren
   - Collingwood
-  - Hubert Opperman
-  - Ron Barassi
   - Edward Trickett
   - Flemington Racecourse
+  - Gough Whitlam
+  - Henry Lawson
+  - Hubert Opperman
+  - John Snow
+  - John Wren
+  - Melbourne Cricket Ground
   - Melbourne Punch
+  - Ron Barassi
+  - Sir Robert Menzies
 ---
 
 John Snow, the English fast bowler, has been eloquent on our sporting madness. He wrote: 'In my opinion Melburnians are like piranha fish when it comes to sport. They will devour anything that will satisfy their appetite for competition.' Vividly he told what it was like to be out in the middle of the vast Melbourne Cricket Ground with sixty thousand hostile pairs of eyes, glaring: 'When you are a gladiator at that colosseum—and the villain of the piece—you can almost feel the jaws of the Melbourne mob snapping at you.'

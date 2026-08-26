@@ -5,8 +5,8 @@ summary: An exclusive interview with Chloe at Young & Jackson's Hotel on the pro
 tags:
   - Chloe
   - Jules Lefebvre
-  - Young and Jacksons Hotel
   - Melbourne
+  - Young and Jacksons Hotel
 ---
 
 The Princes Bridge Hotel, alias Young & Jackson's, wants to put up an illuminated sign on the Melbourne City Council. It is causing trouble with the Melbourne City Council. At 4.30 pm yesterday I managed to obtain this exclusive interview.

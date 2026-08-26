@@ -3,18 +3,18 @@ title: The Creative Demon
 date: 1994-11-11
 summary: Keith and Marie buy Poplar Bend, a small Mornington Peninsula property to grow their own wine, only to find it infested with Baron von Mueller's imported blackberries and a sheep killed by marauding pet dogs.
 tags:
-  - Wine
-  - Baron Ferdinand von Mueller
-  - John and Patricia Brown
-  - Jean-Antoine Chaptal
-  - David Dunstan
   - Andrew Hickinbotham
-  - Neill Robb
-  - Ted Zakorski
-  - Joseph Swan
   - Anthony Hanson
+  - Baron Ferdinand von Mueller
+  - David Dunstan
+  - Jean-Antoine Chaptal
   - John and Marjorie Paterson
+  - John and Patricia Brown
+  - Joseph Swan
+  - Neill Robb
   - Peter McMahon
+  - Ted Zakorski
+  - Wine
 ---
 
 Human beings are beset by strange urges, nearly all of them financially disastrous. Some want to own a race horse, some in their dreams of glory see themselves in command of a 20 metre yacht, great pregnant spinnaker billowing out front, competing in the Sydney Hobart yacht race. Some spend a life time trying to write the great Australian novel. Others, Walter Mitty style, have the urge to produce their very own chardonnay, pinot or illustrious cabernet. They see themselves being the perfect host, producing the wine of the evening. Giving a modest Ray Milland smile they say: "Actually, this is one of ours." Oh, there are many of these. Just take Victoria's Morninton Peninsula. At the last count there were over 90 vineyards. It began with Nat and Rosalie White's Main Ridge Estate in 1976. Baillieu Myer followed soon after with his Elgee Park, but in the 1980s the vineyards seemed to breed, lawyers, doctors, school teachers, engineers. They were spawning like Mercedes-Benzes in Heyington Place, Toorak. Who didn't actually own a vineyard?

@@ -5,10 +5,10 @@ summary: Traces Port Phillip Bay's sudden scallop boom, from a handful of boats 
 categories:
 - The Bulletin
 tags:
-  - Port Phillip Bay
   - Arthur Rylah
-  - St Kilda
   - Baron von Mueller
+  - Port Phillip Bay
+  - St Kilda
 ---
 
 Dr Johnson once said: "Claret is for boys, whisky is for men, but he who aspires to be a hero drinks brandy." Alternatively one might say: "Mud crabs are for boys, crayfish are for men, but he who aspires to be a hero eats scallops." You must understand that something rare and beautiful has happened. Very likely it is the best thing that has happened to Melbourne since Baron von Mueller designed the Botanic Gardens.

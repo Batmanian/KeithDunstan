@@ -3,10 +3,10 @@ title: Defy the Turkey Plot
 date: 1991-01-01
 summary: A defence of the Christmas turkey against critics pushing chicken, duck or seafood instead, running through the full ritual of carving, leftovers and turkey curry, a grandfather who managed a ham and bacon firm, and one disastrous cold-chicken-and-ice-cream experiment that abandoned every tradition and left the family feeling nothing but flat.
 tags:
-  - Leo Schofield
-  - David Livingstone
-  - Myer
   - David Jones
+  - David Livingstone
+  - Leo Schofield
+  - Myer
 ---
 
 There has been an ominous move afoot this Christmas, a plot against the turkey.

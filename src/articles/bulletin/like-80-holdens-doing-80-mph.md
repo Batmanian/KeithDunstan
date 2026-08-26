@@ -5,11 +5,11 @@ summary: Reports from Avalon on the handover of the first Australian-built Mirag
 categories:
 - The Bulletin
 tags:
-  - Qantas
   - Frederick Scherger
+  - Point Cook
+  - Qantas
   - Reg Ansett
   - Sir Richard Williams
-  - Point Cook
 ---
 
 For those of us who have never quite been able to cure a slight itch and a longing every time an aeroplane goes overhead, last week was a week to remember. The handing over of the first Australian-built Mirage III took place at Avalon, that mighty strip 33 miles from Melbourne, where the Qantas trainee Boeing 707 pilots do their expensive circuits and bumps.

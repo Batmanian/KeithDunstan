@@ -5,12 +5,12 @@ summary: Tells the story of Federici, the Princess Theatre's baritone ghost who 
 categories:
 - The Bulletin
 tags:
+  - The Argus
   - June Bronhill
   - Melbourne
   - Princess Theatre
   - Ronald Searle
   - T. H. Goodwin
-  - The Argus
   - William Pitt
 ---  
 

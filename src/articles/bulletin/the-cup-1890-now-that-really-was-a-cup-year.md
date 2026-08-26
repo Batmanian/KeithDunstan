@@ -5,14 +5,14 @@ summary: A Melbourne Cup Day feature tracing the race from R. C. Bagot's foundin
 categories:
 - The Bulletin
 tags:
-  - Flemington Racecourse
-  - Melbourne Cricket Ground
-  - Maurice Cavanough
-  - Carbine
-  - Donald Wallace
-  - Melbourne Punch
-  - Chester Manifold
   - Archer
+  - Carbine
+  - Chester Manifold
+  - Donald Wallace
+  - Flemington Racecourse
+  - Maurice Cavanough
+  - Melbourne Cricket Ground
+  - Melbourne Punch
   - Sandown Park
 ---
 

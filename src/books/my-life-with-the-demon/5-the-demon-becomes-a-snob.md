@@ -3,28 +3,28 @@ title: The demon becomes a snob
 date: 1994-11-11
 summary: On the columnist's endless round of PR-fuelled launches and champagne breakfasts, Stanley Korman's American import, that turned a professional drinker into an accidental wine snob.
 tags:
-  - Wine
-  - Rothbury Estate Society
-  - Len Evans
+  - Berek Segan
   - Brown Brothers of Milawa
-  - Viticultural Society of Victoria
-  - James Halliday
-  - Neville Baker
-  - John Beeston
+  - David Thomas
+  - Doug Crittenden
+  - Douglas Seabrook
+  - Dr Max Lake
   - Frank Christie
+  - Hermann Schneider
+  - James Halliday
+  - Joe Sullivan
+  - John Beeston
+  - John Cunnington
+  - Len Evans
+  - Neville Baker
   - Peter Joyce
   - Peter Walker
-  - David Thomas
-  - John Cunnington
   - Reg Egan
-  - Joe Sullivan
-  - Dr Max Lake
-  - Hermann Schneider
-  - Doug Crittenden
-  - Tom Seabrook
-  - Douglas Seabrook
+  - Rothbury Estate Society
   - Rudi Komon
-  - Berek Segan
+  - Tom Seabrook
+  - Viticultural Society of Victoria
+  - Wine
 ---
 
 

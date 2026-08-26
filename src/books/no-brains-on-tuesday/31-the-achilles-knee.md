@@ -3,8 +3,8 @@ title: The Achilles Knee
 date: 1991-01-01
 summary: A survey of the epidemic of knee injuries in Australian football, with the argument that Polly Farmer's knee was the biggest news story of 1962, that the cartilage is God's most poorly designed joint, and that there should be a Cartilage Council alongside the Heart Foundation and Anti-Cancer Council.
 tags:
-  - Polly Farmer
   - Gary Ablett
+  - Polly Farmer
 ---
 
 Every week one of our contemporaries prints a list of all the footballers that have been injured. It goes down almost a full page.

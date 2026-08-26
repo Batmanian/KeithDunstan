@@ -3,8 +3,8 @@ title: Would a Tax on the Waistline Help?
 date: 1991-01-01
 summary: A detailed proposal for NICK, the New Inspired Consumption Kill, as a more rational alternative to the consumption tax, targeting automobiles for their emissions, graffiti pens, plastic bags, outdoor advertising, noisy motorbikes, television repeats, corporate take-over bids and the booming diet industry.
 tags:
-  - Rupert Murdoch
   - Paul Keating
+  - Rupert Murdoch
 ---
 
 The tubes are alive with the sound of consumption tax.

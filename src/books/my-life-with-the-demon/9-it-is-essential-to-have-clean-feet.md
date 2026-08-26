@@ -3,12 +3,12 @@ title: It is essential to have clean feet
 date: 1994-11-11
 summary: The agonising, pregnancy-like suspense of waiting for grapes to ripen for vintage, juggling volunteer pickers' cancelled lunch dates against sugar readings that refuse to cooperate with the weather.
 tags:
-  - Wine
   - Len Evans
-  - Winemaking
   - Mietta O'Donnell
-  - Viticulture
   - T.S. Eliot
+  - Viticulture
+  - Wine
+  - Winemaking
 ---
 
 T S. ELIOT used to say April is the cruellest month. It is a time of nervous tension and almost constant prayer. The wise man never believes anything until the grapes are bubbling in the fermenter. One year Len Evans was particularly happy with his vintage. He reported in Saturday's *Australian* newspaper that the grapes were perfect. This could be the greatest year in the Hunter Valley. They were picking on Monday.

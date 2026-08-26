@@ -5,10 +5,10 @@ summary: Traces the escalating advertising war between Volkswagen and BMC over w
 categories:
 - The Bulletin
 tags:
-  - Volkswagen
-  - Sir Hubert Wilkins
   - Ernest Shackleton
+  - Sir Hubert Wilkins
   - Southern Cross Hotel
+  - Volkswagen
 ---
 
 The drivers of Mini Minors have a deep fraternity. A minimaniac, aged fiftyish, tells me that on a recent trip to Sydney he exchanged toots with every other minimaniac along the entire route. Indeed, he even exchanged toots with an elderly female minimaniac who must have been 80 if she was a minute. However, on meeting Volkswagens the thing to do was to glare and maintain a hostile silence.

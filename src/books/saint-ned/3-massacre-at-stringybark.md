@@ -3,12 +3,12 @@ title: Massacre at Stringybark
 date: 1980-11-11
 summary: Covers the Fitzpatrick incident that jailed Ned Kelly's mother and drove him into the bush, then the Stringybark Creek ambush in which Kelly and his gang shot dead Constables Lonigan and Scanlon and Sergeant Kennedy, turning him from horse thief into the most wanted outlaw in the colony.
 tags:
-  - Ned Kelly
-  - Ellen Kelly
-  - Joe Byrne
-  - Steve Hart
   - Dan Kelly
+  - Ellen Kelly
   - Glenrowan
+  - Joe Byrne
+  - Ned Kelly
+  - Steve Hart
 ---
 
 The event which really started the Kelly gang's rampage, the fuse which activated the Ned Kelly paranoid hatred of the police was the jailing of his mother for three years. It all began on 15 April, 1878.

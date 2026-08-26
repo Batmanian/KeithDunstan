@@ -5,17 +5,17 @@ summary: A eulogy for Melbourne's fire-gutted Tivoli Theatre, tracing its histor
 categories:
 - The Bulletin
 tags:
+  - The Argus
+  - The Bijou Theatre 
   - Bourke Street
   - Chico Marx
   - Harry Houdini
   - Harry Rickard
+  - The Haymarket Theatre
   - His Majestys Theatre
+  - The Kings Theatre 
   - Marie Lloyd
   - Melbourne
-  - The Argus
-  - The Bijou Theatre 
-  - The Haymarket Theatre
-  - The Kings Theatre 
   - Theatre Royal
   - Tivoli Theatre
   - Varieties Music Hall

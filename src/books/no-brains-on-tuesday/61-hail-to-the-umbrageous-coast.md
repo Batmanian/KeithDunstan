@@ -3,14 +3,14 @@ title: Hail to the Umbrageous Coast
 date: 1991-01-01
 summary: The postwar Australian cult of the deep tan, recast as reckless now that skin cancer has turned the mandatory brown of an Anglesea or Lorne holiday into a four-in-five gamble with melanoma, leads into a mock tourism pitch ranking every state capital by sunlessness in search of a slogan sunburnt Queensland could never steal, from The Umbrageous Coast down to a frank Pale Skins Paradise.
 tags:
-  - Bondi
-  - Coolangatta
-  - Lorne
   - Alan Bond
-  - Hobart
-  - Perth
-  - Darwin
+  - Bondi
   - Brisbane
+  - Coolangatta
+  - Darwin
+  - Hobart
+  - Lorne
+  - Perth
 ---
 
 Don't you feel a trace of sadness that the era of sun worship is over.

@@ -5,12 +5,12 @@ summary: Tours the condemned cells and gallows yard of the old Melbourne Gaol, r
 categories:
 - The Bulletin
 tags:
-  - Ned Kelly
-  - Melbourne Gaol
-  - Elijah Upjohn
-  - Pentridge
-  - Daniel Mannix
   - The Argus
+  - Daniel Mannix
+  - Elijah Upjohn
+  - Melbourne Gaol
+  - Ned Kelly
+  - Pentridge
   - Russell Street
 ---
 

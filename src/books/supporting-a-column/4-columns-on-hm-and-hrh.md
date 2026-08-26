@@ -3,32 +3,32 @@ title: Columns on HM and HRH
 date: 1966-11-11
 summary: Recalls the mass hysteria of the Queen's marathon 1954 tour, 500 collapsing from a day-long wait in Melbourne, and Prince Philip's 1956 tour of Papua and New Guinea, greeted by King Metakaka and his thirteen wives.
 tags:
-  - Royal Family
-  - Queen Elizabeth II
-  - Prince Philip
-  - The Sun News-Pictorial
-  - John Cahill 
-  - Sir Robert Menzies
-  - Goorambat
   - 1956 Olympic Games
-  - King Metakaka
-  - Papua New Guinea
-  - Manus Island
-  - Darwin
-  - Ivan Fedorovich Skripov
+  - Alice Springs
   - Commander Jock Colville
+  - Darwin
+  - Goorambat
+  - Hamilton Downs Station
   - Harold Holt
-  - Reverend Irving Benson
-  - Victoria Racing Club 
+  - Henry James OFarrell
+  - HMS Galatea
   - Hobart
   - Hobart Regatta
-  - HMS Galatea
-  - Henry James OFarrell
-  - Alice Springs
+  - Ivan Fedorovich Skripov
+  - John Cahill 
   - Katherine - NT
-  - Hamilton Downs Station
+  - King Metakaka
   - Kununurra
+  - Manus Island
   - Ord River
+  - Papua New Guinea
+  - Prince Philip
+  - Queen Elizabeth II
+  - Reverend Irving Benson
+  - Royal Family
+  - Sir Robert Menzies
+  - The Sun News-Pictorial
+  - Victoria Racing Club 
 ---
 
 Maybe never again will we see a Royal Visit like that of 1954. The Queen and her Prince were both young, both very handsome and there was a sort of mystic curiosity about them. It became terribly important to see them with one’s eyes, to verify for oneself that they really existed. So it became a competitive game to see the Queen. *The Sun News-Pictorial* reported that many women saw the Queen fourteen or fifteen times, but it was a man, Mr W. K. Bartel, of North Balwyn, who broke their record. An amateur photographer, he saw the Queen twenty-two times. 

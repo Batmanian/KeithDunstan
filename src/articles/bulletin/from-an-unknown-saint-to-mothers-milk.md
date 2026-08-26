@@ -5,10 +5,10 @@ summary: Unpacks the furore over St Kilda Football Club's proposed 1965 move fro
 categories:
 - The Bulletin
 tags:
-  - St Kilda
-  - Moorabbin
   - Collingwood
   - Fitzroy
+  - Moorabbin
+  - St Kilda
 ---
 
 May the Heavens turn me into a pillar of salt for such heresy but I have always felt this: The only possible excuse for Australian Rules football is the fact that it helps to keep cricket alive during the summer.

@@ -3,10 +3,10 @@ title: Never Trust a Banker With a Christian Name
 date: 1991-01-01
 summary: The vanished gravitas of banking, from stern manager-arranged 'positions' for a mother's favourite son and hard-collared tellers in Corinthian-columned monoliths, to glass-fronted branches staffed by first-name tellers called Cheryl or Jason and pushing Easy Money loans, with the State Bank of South Australia's expense-account glory days as Exhibit A.
 tags:
-  - T.S. Eliot
   - Max Schubert
   - Penfolds
   - State Bank of South Australia
+  - T.S. Eliot
 ---
 
 There is a bush song written by that great poet Anonymous which goes:

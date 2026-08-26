@@ -5,12 +5,12 @@ summary: Recounts the fevered build-up and mud-soaked revenge match after South 
 categories:
 - The Bulletin
 tags:
-  - South Australia
   - Adelaide Oval
   - John Peck
+  - Melbourne Cricket Ground
   - Polly Farmer
   - Ron Barassi
-  - Melbourne Cricket Ground
+  - South Australia
   - Victorian Football League
 ---
 

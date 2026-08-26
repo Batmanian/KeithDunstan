@@ -5,8 +5,8 @@ summary: Covers Everton Football Club's touring visit to Melbourne, from the Eng
 categories:
 - The Bulletin
 tags:
-  - Everton
   - Collingwood
+  - Everton
   - Melbourne Cricket Ground
 ---
 

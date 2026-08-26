@@ -5,12 +5,12 @@ summary: A tour of Victoria's ornate Legislative Council chamber and a survey of
 categories:
 - The Bulletin
 tags:
-  - Henry Bolte
-  - Victorian Legislative Council
-  - Exhibition Building
   - Board of Works
-  - Victoria
+  - Exhibition Building
+  - Henry Bolte
   - New South Wales
+  - Victoria
+  - Victorian Legislative Council
 ---
 
 Victoria has returned to the darknesses of the pre-Bolte era. The Legislative Council is in full command, tossing back bills like a credit-squeezed company. The truth is that the democratic process of law-making has come to a halt. Upper House again, do I hear you say? Why not cut off its head? Why not, indeed?

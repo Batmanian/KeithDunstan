@@ -5,10 +5,10 @@ summary: Surveys Victoria's long, thwarted history of liquor licensing reform, f
 categories:
 - The Bulletin
 tags:
-  - Henry Bolte
-  - Victorian Legislative Council
-  - Stanley Korman
   - The Age
+  - Henry Bolte
+  - Stanley Korman
+  - Victorian Legislative Council
 ---
 
 Actually, liquor in Victoria is like the weather — everyone talks about it, but no one does anything about it. And, frankly, we enjoy talking about liquor more than anything. We didn't really get our famous 6 o'clock closing until 1917. At the time things were desperately serious as the Somme, and someone had the brilliant idea that if only the bars were closed at 6 p.m. this would win the war for us. As you may remember, we did win that war, so naturally we have stuck firmly to 6 o'clock closing ever since.

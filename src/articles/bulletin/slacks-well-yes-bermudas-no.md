@@ -5,11 +5,11 @@ summary: Covers the culture clash when the women's Commonwealth golf tournament 
 categories:
 - The Bulletin
 tags:
-  - Royal Melbourne Golf Club
-  - Peter Thomson
+  - The Age
   - Fletcher Jones
   - Nancy Astor
-  - The Age
+  - Peter Thomson
+  - Royal Melbourne Golf Club
 ---
 
 Some facts should be revealed to sensitive readers rather gently, but I'm afraid I have to tell you this one straight out — women have been wearing slacks at Royal Melbourne Golf Club. You must understand that the Royal Melbourne is the Melbourne Club of golf. Its record is august and impeccable. No woman has ever been allowed to wear slacks there.

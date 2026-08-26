@@ -6,6 +6,7 @@ categories:
 - The Bulletin
 tags:
   - Adrian Rawlins
+  - The Age
   - Albert Tucker
   - Atheneum Gallery
   - Contemporary Art Society
@@ -17,7 +18,6 @@ tags:
   - Paul Fitzgerald
   - San Francisco
   - Tate Gallery
-  - The Age
   - Toorak
   - William Dargie
 ---

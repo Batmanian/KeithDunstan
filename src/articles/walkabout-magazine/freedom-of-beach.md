@@ -84,4 +84,4 @@ So bikinis became legal in Sydney, as long as they were 'proper and adequate'. N
 
 <hr>
 
-*Source: [FREEDOM OF BEACH](https://nla.gov.au/nla.obj-753891969), Walkabout Magazine, 1963-01-01. Retrieved via the National Library of Australia's Trove database.*
+*Source: Freedom of Beach, Walkabout Magazine, January 1963. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-753891969).*

@@ -3,12 +3,12 @@ title: Our Dream Time Bill of Rights
 date: 1991-01-01
 summary: A mock Bill of Rights for the truly important freedoms Canberra's actual debate keeps overlooking, from a cap on cricket replays and telephone hold music to an illuminated supermarket directory board and a curfew on sons borrowing the family car, capping off with a plea that politicians simply sound half civilised.
 tags:
-  - Sir Robert Menzies
-  - Canberra
-  - Myer
-  - David Jones
   - Bankcard
   - Board of Works
+  - Canberra
+  - David Jones
+  - Myer
+  - Sir Robert Menzies
   - Telecom
 ---
 

@@ -4,8 +4,8 @@ date: 1972-06-01
 summary: Barry Humphries' foreword to 'Knockers', a mock-defensive survey of Australian knockery aimed at expatriates, critics and the film industry, recalling his own drubbing over an 'Aussie slang shocks Britain' headline and Dick Bentley's BBC Australia Day broadcast.
 tags:
   - Barry Humphries
-  - Max Harris
   - Dick Bentley
+  - Max Harris
   - Patrick White
   - Sir Thomas White
 ---

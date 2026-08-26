@@ -9,11 +9,11 @@ tags:
   - Ballarat
   - Chester Manifold
   - Des Gilmore
+  - The Fortress
   - Justice Taylor
   - Post Office Royal Commission
   - Senior Detective Cook
   - St Kilda
-  - The Fortress
   - Totalisator Agency Board (TAB)
   - Victoria
   - Victoria Racing Club

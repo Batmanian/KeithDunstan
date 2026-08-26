@@ -3,15 +3,15 @@ title: Making Your Life Remote
 date: 1991-01-01
 summary: A survey of the household chaos caused by an ever multiplying pile of remote controls, from mixing up the video and the CD player in the dark to friends who need four separate remotes for their garage doors, hi-fi and front gate, and a mail-order catalogue's promise of a single universal remote to replace them all.
 tags:
+  - Daryl Somers
+  - Derryn Hinch
+  - Diana Rigg
   - Don Bradman
   - Graham Kennedy
   - Harold Larwood
-  - Diana Rigg
-  - Daryl Somers
-  - Derryn Hinch
   - Joan Sutherland
-  - Ray Lindwall
   - Len Hutton
+  - Ray Lindwall
 ---
 
 We learn something every day. Now we know how to murder by video.

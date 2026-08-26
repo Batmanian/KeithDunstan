@@ -1,0 +1,619 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Percy Aldridge Grainger</title>
+<meta name="title" content="Percy Aldridge Grainger">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Profile of composer and pianist Percy Grainger, the flame-haired, hatless, bicycling genius of Country Gardens, whose devotion to his mother Rose, obsession with flagellantism, free-form music machines and the Grainger Museum made him Australia&#39;s eccentric of the century.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/ratbags/21-percy-aldridge-grainger/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Percy Aldridge Grainger">
+<meta property="og:description" content="Profile of composer and pianist Percy Grainger, the flame-haired, hatless, bicycling genius of Country Gardens, whose devotion to his mother Rose, obsession with flagellantism, free-form music machines and the Grainger Museum made him Australia&#39;s eccentric of the century.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Percy Aldridge Grainger">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/ratbags/21-percy-aldridge-grainger/">
+<meta name="twitter:title" content="Percy Aldridge Grainger">
+<meta name="twitter:description" content="Profile of composer and pianist Percy Grainger, the flame-haired, hatless, bicycling genius of Country Gardens, whose devotion to his mother Rose, obsession with flagellantism, free-form music machines and the Grainger Museum made him Australia&#39;s eccentric of the century.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Percy Aldridge Grainger">
+<link rel="canonical" href="https://keithdunstan.org/books/ratbags/21-percy-aldridge-grainger/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1980-11-11">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="Ratbags">
+<meta property="article:tag" content="Percy Grainger">
+<meta property="article:tag" content="Rose Grainger">
+<meta property="article:tag" content="Country Gardens">
+<meta property="article:tag" content="Grainger Museum">
+<meta property="article:tag" content="Ella Strom">
+<meta property="article:tag" content="Melbourne University">
+<meta property="article:tag" content="Frankfurt">
+<meta property="article:tag" content="Edvard Grieg">
+<meta property="article:tag" content="Vera Bradford">
+<meta property="article:tag" content="Duke Ellington">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">Percy Aldridge Grainger</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            30
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1980-11-11">1980</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Profile of composer and pianist Percy Grainger, the flame-haired, hatless, bicycling genius of Country Gardens, whose devotion to his mother Rose, obsession with flagellantism, free-form music machines and the Grainger Museum made him Australia&#39;s eccentric of the century.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="Ratbags">
+         <!--<a href="/tags/percy-grainger/" class="btn btn-outline-dark btn-sm me-2">Percy Grainger</a><a href="/tags/rose-grainger/" class="btn btn-outline-dark btn-sm me-2">Rose Grainger</a><a href="/tags/country-gardens/" class="btn btn-outline-dark btn-sm me-2">Country Gardens</a><a href="/tags/grainger-museum/" class="btn btn-outline-dark btn-sm me-2">Grainger Museum</a><a href="/tags/ella-strom/" class="btn btn-outline-dark btn-sm me-2">Ella Strom</a><a href="/tags/melbourne-university/" class="btn btn-outline-dark btn-sm me-2">Melbourne University</a><a href="/tags/frankfurt/" class="btn btn-outline-dark btn-sm me-2">Frankfurt</a><a href="/tags/edvard-grieg/" class="btn btn-outline-dark btn-sm me-2">Edvard Grieg</a><a href="/tags/vera-bradford/" class="btn btn-outline-dark btn-sm me-2">Vera Bradford</a><a href="/tags/duke-ellington/" class="btn btn-outline-dark btn-sm me-2">Duke Ellington</a>-->
+
+        
+      </header>
+      <div class="article-body"><strong>T</strong>HERE ARE TWO FACTS concerning Percy Grainger which are indisputable. He was odd and he was a genius. His oddness was so great one could almost label him as Australia's eccentric of the century, yet there is a suspicion that he enjoyed being a character and at times, here and there, he would add a little more color to the canvas just to complete the extraordinary picture.<br><br>
+Many touring artists develop a gift for dealing with the Press and gaining instant coverage. Percy Grainger was a journalists' dream. As a young man he was beautiful — he had those classic, fine sensitive features. He was small only five feet four inches, but he was lithe, strong and he had the most remarkable hair to be seen on the concert stage. It was flaming, vivid orange. In later years it turned fair and then grey, but that was not all. It was the way he wore it, brushed up so that it was almost a foot high. He was not the type of man one could fail to see, or a name one would grope for on the second meeting — he was unforgettable.<br><br>
+His clothes almost always were bizarre. Photographs taken of him through the nineteen twenties, thirties and forties, show him in a tweedy type jacket, waistcoat, a rather nice knitted silk tie, a shirt whose collar long ago gave up any pretensions to formality, white linen trousers — the type worn by house painters — and tan military boots with soles so thick he could have walked from New York to Alaska. Frequently he almost did. He never hesitated to wear shorts and he did this amongst people who were astonished at the sight of an adult in bare knees and in an era when it was almost a sin for a gentleman to be out in the open bare-headed, he never wore a hat.<br><br>
+Just being hatless was eccentric to the Americans, but he went further than that, he would never wear an overcoat. In January, February, March, in America's Middle West when the cold is paralysing this extraordinary Australian would arrive on foot for concerts, coatless and hatless. 'I don't feel the cold, so what's the point?' he would say.<br><br>
+When he was hiking to a concert he would even be in old khaki and he would carry a rucksack. At least three times he was arrested for vagrancy. In 1939 he arrived in Wausau, Wisconsin. It was winter, it was February, he had been working hard in the train en route and he looked more than usually dishevelled. A policeman at the railway station noted that he was hatless, coatless and wearing thin white trousers, so he concluded — in American terms — he was an out of work bum. So he took him back to the police station and there the officer in charge asked some questions:<br><br>
+'What's your name?'<br><br>
+'Percy Grainger,' his prisoner replied. This caused some surprise because Grainger was a celebrity, known in the U.S. from coast to coast.<br><br>
+'Oh yeah,' said the police chief, 'well mine's William Tell.' Eventually the Wausau concert manager arrived and the whole affair was straightened out.<br><br>
+Grainger did not want incidents such as these to go unnoticed. In the Grainger Museum there is a letter on Hotel Wausau notepaper addressed to Police Officer Harry Anklam:<br><br>
+'I see in tonight's <i>Wausau Daily Record Herald</i> that Police Officer Harry Anklam is mentioned as the patrolman who spoke to me this morning in the street about my trousers... I wish to report this incident to my Press Agent, but do not wish to report it incorrectly. Unfortunately I have not a very good memory for dialogue — for the exact words spoken in conversation. Thinking it over, I believe I was wrong in attributing to you the words "What business have you got walking about in those thin pants?" I think what you said was "What do you mean by walking about in those thin pants?" I would like to report the incident to my Press Agent as quickly as possible.'<br><br>
+His Press Agent had much to work on. Frequently he hit as many as five newspapers in the one day and the cuttings were pasted into scrap books, still preserved at the Grainger Museum. Over and over again the cuttings show the fascination newspaper reporters had for his mode of travel.<br><br>
+He travelled everywhere by train, second or third class. He never used a sleeper. He sat up working in the train and when he became tired he curled up and slept on the railway seat. At times it must have been unbelievably arduous. In 1940 he told a Toronto reporter that in twenty-one days he had sat up for nineteen and in that time he did not take off his clothes. 'I do not buy berths, compartments or drawing-rooms. When night comes on or I am exhausted I fix a little pillow on the seat edge and curl up. I've done it for years. Why? To save money.'<br><br>
+Grainger lived with the self denial of a monk so that he could give his money away. He supported completely at least nine people and he gave away anything up to $5000 at a time to support musicians and help musical causes. As he told the Toronto reporter he needed $65,000 for the Grainger Museum in Melbourne.<br><br>
+He saved money in all sorts of ways. He would always walk from the railway station to his hotel and often this would be a considerable distance, so what he saved on expenses went into his projects. In 1948 in Pittsburgh, Ohio, he gave a typical interview. He told the reporters that he saved by living on cheese and hard tack. When that got monotonous he bought a tomato for flavor. He believed in travelling extremely light so that he could carry his sixty pounds of music. He took only two shirts for a three months tour. These he never ironed because he preferred the crepe de Chine look and he washed everything in the hotel room basin. He said: 'I can wear a shirt a week before I have to wash it. An evening shirt will last me for seventeen concerts. I always wash everything myself because it is quicker that way. Don't even have to iron the shirts — they don't show from the stage — you know.'<br><br>
+He indulged in similar economies in Melbourne. In 1956 when he was setting up the Grainger Museum he used to travel from Elsternwick to the city on a second-class workman's ticket. It was possible to get the cut rate only if the ticket was bought before the peak hour, so Grainger caught his train at 6.23 a.m. Then he had his evening meal at a milk bar in Swanston Street. The favorite dish was hot buttered crumpets and tomato soup.<br><br>
+Meals were always a vague affair. He believed in eating only when hungry and this was coupled with a vanity about his figure. He never liked his weight to vary from 145 pounds. He became a vegetarian in 1924, a convert through George Bernard Shaw. Actually he disliked vegetables, he preferred to eat jam, fruit, pies, sweet puddings, nuts, cheese and cereals. In an article for the <i>American Vegetarian</i> he wrote: 'It has been a great relief to me not to have to eat any longer food that looks as revolting as flesh does and tastes as strong and nasty as it does. Since that time I don't seem to have had a real cold, whereas as a young boy, when I was given a lot of beef tea and other evil-tasting "strengthening" concoctions I always seemed to have a sore throat or a cold. Also I must admit, my powers of work and endurance have grown by leaps and bounds. As a young man, I was rather lethargic, easily wearied and discouraged. But now nothing seems to discourage me, and I can work sixteen hours a day every day, and never want a change or a holiday.' Enthusing over vegetarianism in Boston he told reporters: 'I work daily from 5 a.m. to midnight' and he added slyly... 'but I am very lazy.'<br><br>
+He was very good at off the cuff comments which startled the news men. He told the <i>Christian Science Monitor</i> one day that he never went to concerts because he derived no pleasure from something he couldn't discuss while it was going on. Silence at concerts was something invented by the unmusical.<br><br>
+Just after the outbreak of the Hitler war he announced that he could always predict a coming war just by listening to the type of music a nation was playing. Yes, he predicted the First World War, the Second World War, Finland's heroic stand, all of them. That received a fine run.<br><br>
+The reporters also found irresistable his enthusiasm for making comments on the music during the middle of a concert, or even more startling, moving the piano. Before or even in the middle of a concert he would put his shoulder to the piano and move it across the stage... 'My reputation for liking to move pianos isn't just an eccentricity. It stems from a whole inferiority complex as far as music is concerned. I feel uncomfortable at a piano. My whole instinct is to get up and move the piano instead of playing it. Anyway there are people who never get a good view if it is left in the one spot.'<br><br>
+Vera Bradford is an Australian pianist who knew him well. In 1930 she went to Chicago on a Grainger scholarship and stayed for six years. She studied with Percy Grainger and worked with him. She said: 'He wasn't so much an eccentric: he was a brilliant man who believed in what he was doing and he had a terrible contempt for convention. He once said to me "Why do we have to accept convention? Why can't we be natural and look at the world through the eyes of a child?"<br><br>
+'He did things that were convenient to him so people thought he was odd. For example, he devised a method for carrying parcels. He had a thing which clipped on his suit, and so parcels hung from it on strings. He could carry his parcels and walk with his hands free. People thought that was strange but it worked.<br><br>
+'You know that <i>glissando</i> effect in Debussy — terribly difficult really. He taught us how to run the fingers down the keys using a silk handerchief. He invented a device so that the silk handerchief immediately would pop back into his pocket on a rubber band. Marvellous. Yes, it just looked like Harpo Marx.<br><br>
+'He always walked everywhere, of course. One day in New York he arrived at Grand Central Station, then put all his luggage in a wheel barrow and pushed it to his hotel. There were about ten reporters buzzing all around him. They got a wonderful story. Oh yes, he had a shrewd eye for publicity. He was a good businessman.<br><br>
+'He was a very big name and an absolutely brilliant pianist. When I was in America there were only four things Americans had ever heard about Australia — Percy Grainger, Nellie Melba, we had a horse race every day and there was something strange about the railway gauges. He had a habit of giving conductors heart failure by arriving dead on time for concerts with not a second to spare. In 1932 he was soloist with the Chicago Symphony Orchestra playing the Tchaikovsky piano concerto, I can see him now, Frederick Stock, conductor of the orchestra, pacing up and down the stage, pointing his toes the way he had, saying "Where's Grainger, Where's Grainger?" Percy arrived just fifteen minutes before he was due to go on, usual gear, rucksack on his backing, holding his dress suit.<br><br>
+'There was a desperate rush to change, pull off his big boots, lace up his shoes, then dead on time he literally ran on the stage, still panting. And he gave an absolutely wonderful performance that night. He wasn't being eccentric. He was always nervous. He couldn't face that piano until the last minute.<br><br>
+'He liked to startle people and be controversial. He once told me "If you are famous you can get away with almost anything." After he had been in the room, you wouldn't be the same, you'd be all stirred up. He was a remarkable man. Of course, his father was brilliant — there's someone who has been under-estimated.'<br><br>
+Percy's father, John Grainger, was an Adelaide architect and he designed public buildings all around Australia — Parliament House in Perth, town halls in Kalgoorlie, Boulder, Hobart and Maryborough, Queensland. Soon after marrying Rose Aldridge in Adelaide he won a competition from twenty-one entries to design Princes Bridge in Melbourne. He also designed the Federal Coffee Palace, which was to be the flag ship, the shining banner of temperance. Later it was to be the licensed Federal Hotel, but when it opened its doors on Collins Street in 1888 it was described as the greatest, most exotic hotel Australia had seen with accommodation for 400 people, 'six accident-proof lifts', gas light on all floors and even electric bells.<br><br>
+The Graingers came to Melbourne for the building of Princes Bridge and Percy was born at Brighton on 8 July 1882. John and Rose Grainger both had a love of music and he was a gifted artist but that seemed all that they had in common. The marriage was a disaster and for a man who designed the greatest temple of temperance it was particularly ironic that he should become an alcoholic. He lost his health, went to England in 1889 in an attempt to recover, returned to Perth as Government architect and the Graingers never again lived together. He died in 1917 his son having supported him for many years.<br><br>
+From the beginning, Rose a beautiful woman, also a good pianist, devoted her life entirely to her son, and she did it with an awe-inspiring intensity. After the experience with her husband she made him swear he would never touch tobacco or alcohol. Percy would not be merely famous, she wanted him to be great with a capital G. He did not have a happy time at school and he gave various estimates of his time there — from three weeks to three months. Whatever it was it was certainly brief.<br><br>
+His mother educated him at home and from the time he could walk he was hard at work on the piano. His mother gave music lessons so that she could support him. By the time he was six his skills were the talk of the district and when he was eight he was proving so brilliant his mother took him to Louis Pabst, a celebrated teacher of the day.<br><br>
+At ten he was giving concerts and all the reviews predicted a brilliant future for the remarkable young man. When he was twelve a benefit concert at the Melbourne Town Hall raised £50 and on 29 May 1895, his mother took him off to Germany, to study at Dr Hoch's Conservatorium of Music in Frankfurt.<br><br>
+He described this period in a New York radio broadcast: 'There mother gave us a room in a boarding house and entered me at the Conservatory where I was the youngest pupil. Soon all our money was gone. But mother started giving English lessons and was able to keep us going to pay for my tuition. At the Conservatory I realized that what I wanted most was to write. So I did a lot of composing and rather neglected my piano practising. I often said to my mother "I feel it is wrong of me to spend my time composing while you are working so hard." But mother said to me, "No Percy. Keep on composing. Some day I know you are going to be great."'<br><br>
+He often said that his time at the Conservatory was wasted but there he met the young English composers, Cyril Scott, Balfour Gardiner and Roger Quilter, who became life long friends. It was here he developed his intense nationalism and devotion to what he called Nordic blue-eyed music. It interested him that all the most brilliant students were English or Scandinavian and he told Robert Lewis Taylor of the <i>New Yorker</i>: 'Up to then, I thought music had to be written by Germans. I began to wonder if Englishmen and Australians couldn't write music too.'<br><br>
+He was in Germany until 1901 when his mother slipped on a frosty pavement and injured her back so badly no longer could she earn a living and Percy had to go back to work. He went to London, started as an accompanist for the Australian soprano, Lillian Devlin, and he was an instant success. He played so well, he was so spectacular to look at, he was the darling of the London scene.<br><br>
+He found the social round, and being a performing lion, unbearable, when all he wanted to do was compose. He wrote later: 'The chief source of my wretchedness was the clumsiness of my fingers and the faultiness of my memory. The very first time I played in public when I wan ten my memory played tricks on me and my fingers indulged in back to front inaccuracies that have clung to me all through sixty-one years of public playing. If I didn't practice six to nine hours a day my memory was unreliable. If I did practise six to nine hours my fingers were too tired to play well.' If he did have a memory lapse during a concert he would improvise until once again he picked up the thread. He said: 'I remember in 1903 nobody paid much attention to me while I was on tour. Then once near the end of a piece my memory slipped. I managed to vamp back into place but I got so mad — scared too — that I played as loud as I could. For the first time I got a tremendous amount of applause. They heard all that noise — there's a fellow who can play.'<br><br>
+He escaped from all this in 1903 by going on a touring party with Ada Crossley giving concerts in Australia, New Zealand and South Africa. Already he had a reputation in London for running to his concerts now he could do things on a much grander scale. His most prodigious effort was to walk sixty-five miles between Pietmaritzburg and Durban and just managed to make it for the next concert. Concert-goers were astonished to see him turn up in shorts. It was in 1905 in England that he developed his passion for folk songs. He said: 'It all began while on a bicycle trip through the English countryside. I heard some English peasants singing old folk songs. And the thought came to me to write down these lovely tunes before they disappeared. I remember one old chap in Lincolnshire. At first I couldn't get him to sing for me. When he did I found I had no paper on which to write it down. I got so excited I wrote the song down on the wallpaper of the cottage. Then I had to spend another two hours persuading him to let me rip off nine feet of the wallpaper.<br><br>
+'Then I found an old woman who knew a rare folk song. But she wouldn't sing it for me. I waited until she left the room. Then I told the woman's daughter my plan and hid. Then the girl brought her mother back into the room and persuaded her to sing my song. And I copied it as best I could cramped up in the dark under the bed. Later on I worked over the melodies I'd collected. And from them I wrote such pieces as <i>Shepherd's Hey, Brig Fair, Died for Love</i> and most popular of all <i>Country Gardens</i>.'<br><br>
+He was fluent in four languages apart from English and he could read in six. He developed an intimate association with both Delius and Grieg. Grieg said of him: 'As a piano player I do not know which of the very greatest I should liken him to. But all comparison is futile when greatness is the question... If I had his technique my conception of the nature of piano playing would have been exactly the same. Like a God, he is lifted high above all suffering, all struggle. But one feels they have been there, but are overcome. It is a man, a great and distinguished man who plays. May life go well for him.'<br><br>
+In 1914 Rose and Percy Grainger left London for New York and he was as big a success in the USA as he had been in England. In 1917 he joined the U.S. Army as a bandsman second class on $36 a month. Here was bliss. No concerts and until they found him out, complete anonymity. He said the two years in the Army were the happiest of his life.<br><br>
+In 1918 he produced his final version of <i>Country Gardens</i> and it was a world hit. It broke all records selling at the rate of 35,000 copies a year for more than twenty years. It was the great platform of prosperity on which Grainger sat — royalties from this and other songs came in at the rate of $10,000 to $15,000 a year. It was a boon and a curse. Out of more than 400 compositions, many of them much more profound, the public when they remembered Percy Grainger thought only of <i>Country Gardens</i>.<br><br>
+His worst year was in 1922 when his mother killed herself. She had been ill for years and one terrible morning when visiting an agent's office in New York she threw herself out of an 18-storey window. The relationship between Percy and Rose always had been intense. They wrote each other thousands of letters and all of them have been preserved. On nearly every page Rose says that to be without him is agony and how she yearns to hold him in her arms. Percy refers to his mother as 'Mumsie' and uses similar lines.<br><br>
+To be fair many of the letters urge him to marry but life for the girl may not have been easy had he done so. Yet he made no secret that he had sexual relationships with many of his girl friends. In 1922 a rumor got around that the relationship between Rose and Percy was rather more than that of mother and son. The rumor clearly contributed to her final madness and death. At the Grainger Museum there is a copy of the last heart-rending letter that she wrote to her son. At times it is half-spelled and every line echoes a mind at the extreme end of mental anguish.<br><br>
+My dear son,<br><br>
+...You must tell the truth, that in spite of everything I said — I have never for one moment loved you wrongly — or you me — not for one moment or thought of doing so. The whole thing has driven me insane and I have accused myself of something I have never thought of. You and I have never loved one another anything but purely and right. No one will believe me — but it is the real truth as you know.<br><br>
+Every day gets worse. I am an idiot and no one seems to realize it. I am so sorry — I have loved you and so many others so dearly.<br><br>
+You have tried so hard to be all that is noble — but your mad side has ruined us dear. God knows the truth — man will not believe the truth I am writing.<br><br>
+Your poor insane Mother.<br><br>
+That was the finish. There was doubt about the word 'ruined' it was almost indecipherable. Percy when he heard the news was in a state of near collapse and for months he refused to appear in public. In memory of his mother he produced a book in sepia on high quality paper titled <i>Photos of Rose Grainger and of three short accounts of her life by herself, in her own handwriting reproduced for her kin and friends by her adoring son Percy Grainger, also table of dates and summary of her cultural tastes</i>.<br><br>
+The book has many beautiful pictures, some on her own and some with Percy. It ends with two chilling photographs of Rose in her coffin.<br><br>
+Just to help him forget he made trips to Europe and Australia. Then in 1926 on the way home aboard the <i>Aorangi</i> he met a beautiful blue-eyed, blonde-haired Swedish girl, Ella Strom. She had no idea who he was and mistook him for the ship's pianist. He was forty-four and she was thirty-seven. They were married a year later in a somewhat bizarre fashion in the Hollywood Bowl before 22,000 people. She wore no engagement ring. Percy did not believe in such conventional methods for expressing betrothal but he did make a number of extravagant statements about his bride, who in some ways looked uncommonly like his mother:<br><br>
+'After the great spiritual cut-off-ness and loneliness I have borne since the death of my beloved mother in 1922, it is an unspeakable boon to me to have this soul satisfying comrade to me to commune with by letter and to look forward to sharing my life with in so near a future.' In a letter home he described her as a Swedish poet, painter, music lover and he added: 'Miss Strom is the very prototype of radiant Nordic, as lovely as the morning to look upon, and a regular Amazon to walk, run, swim and dance, and play games.'<br><br>
+For their wedding ceremony Percy composed a special song <i>To My Nordic Princess</i> and he remained in love with her until the day he died. Even at the age of seventy-seven he wrote to her 'My own heart's dearest Ella... I think both you and I are unusually gentle and subtle, and therefore I consider it a miracle of good luck that we met and wedded. I am so endlessly thankful to my darling wife.'<br><br>
+Ella was the perfect partner. She understood all his eccentricities and enthused over most of them. Everyone who met Grainger talked of his kindness, his courteous, gentle manner and his immense generosity, yet there were strange depths to his character. He had a life long interest in flagellation. This is often hinted at in his letters and obviously his mother was aware of it.<br><br>
+When he died there was an envelope marked 'Do not open until 10 (ten) years after my death.' The date on the envelope was May 10, 1956, which was almost the time of the Eugene Goossens scandal in Sydney, when this great conductor was forced to leave the country. Possibly Percy Grainger feared discovery could deal him a similar fate. The sealed envelope was kept properly in a bank vault for years after his death, then turned over to the Grainger Museum.<br><br>
+This is one item from the envelope written in longhand: 'I attach enormous importance to flagelantism (like boxing, football and other sports) it is a means of turning the hostile, harsh and destructive elements in a man into <i>harmless channels</i>. Much of civilisation consists of turning hostility into playfulness.<br><br>
+The fact that I have enjoyed whipping myself, or having myself whipped by a woman shows that my wish to whip woman does not (as far as I can see) arise out of the wish to humiliate or dominate woman. The photographs of myself whipped by myself in Kansas City and various photographs taken of my wife whipped by me show that my flagelantism was not make believe or puerility, but had an element of drasticness in it and my flagelantism was never inhuman or uncontrolled. And the fact that neither my wife or my sweethearts resented my flagelantism suggests that it was not unduly harsh no worse than the pains endured in football or other rough games. I have never met a woman who was flagelantically inclined herself. My experience it is the delight in seeing her lover happy and satisfied that makes her willing to submit to flagelantism. I have always been potent sexually and never had any interest in homosexuality. My flagelantic orgies by myself were always followed by self-help (onanism) and flagelantic orgies with my wife and sweethearts were almost always followed by coitus. But normal coitus was always easy and satisfactory for me without flagelantism of any kind. So my flagelantism must I think be viewed as something complete in itself and not as an aid to other activities.<br><br>
+'To me it has always seemed that my flagelantism is connected with my love of beauty, my love of Greek statues and nakedness and my longing for something sharp and drastic such as we hear in Tchaikovsky's music. I have always disliked pornographic or indecent pictures, photos and literature. Indecent pictures occur in many of the Flagelantic books I have enjoyed. In those cases I have been bored by the indecent passages while thrilled by the flagelantic passages. I think the happiest moment of my life was in 1910 when I saw in a bookshop near the main post office flagelantic books openly displayed. <i>Sous Le Fuet, In Louisiana, White Woman Slaves, Sadie Blackeyes</i>. It was a few days before my first recital in Holland and I put the books aside — unread — until after my concert. I didn't wish to weaken myself before the concert. After the concert I read the books all night. The happiest night of my life, I suppose.<br><br>
+'I consider pornographic literature (for those that like it) flagelantic literature etc. most important for the future of mankind — as a means of releasing the sexual fury proper in a vigorous male. I have had more pleasure from badly written flagelantic books than from the world's best literature. Sex is better than art — goes deeper.'<br><br>
+He hated the standard Italian directions on music. Instead he used words like <i>well to the fore, bumpingly, top notes glassy, die right here</i>, and for a line such as <i>poco a poco crescendo molto</i> he had <i>louden lots bit by bit</i>. He had to force publishers to put these notations on his music. These thoughts were twenty or even fifty years ahead of their time. His inventive brain was constantly turning in all sorts of remarkable directions.<br><br>
+He went further. He believed that the English had been muddied by all the Greek, Latin, French and German derivations. No longer was it possible to have ease of communication, so he created his 'Blue-eyed English' and used it in his letters, often to the confusion of all.<br><br>
+He could have produced his own dictionary. For surprise, the Blue-eyed was <i>Aback-take-ment</i>. Accountant — <i>add-up-man</i>. Obvious — <i>clear-to-see</i>. Restaurant — <i>eat shop</i>. Religion — <i>God-belief</i>. Doctorate — <i>know-all-title</i>. Inability — <i>No-can-do-ness</i>. Absess — <i>puss-hole</i>. Hypochondriac — <i>sick-monger</i>. Music — <i>tone-art</i>. Museum — <i>Past-hoard-house</i>.<br><br>
+He delighted in anything that was different. In 1910 after he had returned from New Zealand and the South Seas, inspired by colorful Maori clothes, his mother had the idea of making clothes out of Turkish towelling — cool in summer and warm in winter.<br><br>
+'I leaped at the idea,' said Percy, 'seeing therein a chance to return to something comparable with the garish brilliance of the "skyblue and scarlet" garments of our Saxon and Scandinavian forefathers. I resented very much the darkness and dullness of European fashions.'<br><br>
+He wore these clothes while giving music lessions between 1910 and 1914 and he took up the idea again in Australia in 1934-35 when he saw 'the beauty of the bath towels on sale'. So Ella set to work to do the sewing and the results are still on display in the Grainger Museum. Some of the towels look as if they could well have come out of the YMCA.<br><br>
+He was highly receptive to anything new in music and he couldn't abide the idea that people kept going to the same concerts listening to the same composers. 'Audiences only like music they know. How can they get a thrill out of it when they know what's coming up all the time'. He had a saying that the world is dying of good taste and in a lecture at New York University in 1932 he caused a sensation by announcing to the students: 'The three greatest composers who ever lived are Bach, Delius and Duke Ellington. Unfortunately Bach is dead, Delius is very ill, but we are happy to have with us today the Duke.' And so he introduced Duke Ellington.<br><br>
+One of Grainger's remarkable innovative works was <i>The Warriors</i> written for three grand pianos, a full symphony orchestra, gongs, bells, marimbas, mallets used on piano strings. It was the story of an Aboriginal ballet, a riotous piece filled with changing moods. The most famous performance was in Chicago in 1930 and Vera Bradford was one of the performers — she played the marimba. She recalls that the President of the Chicago Musical College said to Grainger that he could have as many pianos as he liked. He replied: 'All right, I'll have twenty.' Actually they used nineteen. The performance took place in the Civic Opera House. Most of the grand pianos, all Steinways, came from Lyon and Healy's music store, just round the corner and one by one they were brought up on stage in a creaking old lift.<br><br>
+Just the visual sight of nineteen pianos arranged in tiers was splendid, but according to Vera Bradford, the great volume of sound on the night was 'absolutely magnificent.'<br><br>
+Grainger would use anything for the right sound. For his work <i>In a Nutshell</i> he used such items as a kitchen range, a soda fountain, twenty-six stove pipes, an ice box and three dozen coffee pots. <i>A Tribute to Stephen Foster</i> was scored for chorus, piano, orchestra and a hundred glasses played by members of the chorus rubbing their fingers round the rim of the glass.<br><br>
+Maybe the best place to observe Grainger's innovative skill is in the Grainger Museum. The idea for the Museum first came to him while he was a student in Germany back in the eighteen nineties. He said: 'I foresaw that a period of English-speaking and Scandinavian leadership in musical originality lay just ahead.' So he started to collect manuscripts, musical sketches, letters, articles, momentoes — not just Grainger material but a whole musical era. Grainger gathered all the money from concert tours in 1934-35, just to build his museum in the grounds of the University of Melbourne. He designed it himself and even laid some of the bricks.<br><br>
+It is a remarkable fortress-like construction of ugly red brick and the only light enters through solid glass blocks and skylights. It resembles one of those vandal proof constructions built for changing sheds around the bayside. It opened officially in December 1938, but was not really open to the public regularly until the 1960s when grants came from the Music Board, the Australia Council and Melbourne University.<br><br>
+Just the cost of packing and sending all the material to Australia was a huge burden to Percy and Ella Grainger. There is a range of pianos and harmoniums dating back to the early eighteen hundreds. There are recordings, tapes, thousands of letters, books, an early Edison phonograph and a reproduction of the Graingers' music room in London with the actual furniture.<br><br>
+There are the clothes of his composer friends Cyril Scott, Roger Quilter and H. Balfour Gardiner. He wrote to them, asked for the suits, shirts, ties, that they actually wore, in good condition, and put them on models in a display case. There are Rose Grainger's clothes, going back sixty years. There is a dress that Ella Grainger wore to the White House in 1938 and locks of Percy's hair back to the age of seven. There is even a child's yacht and it has the caption: 'Model yacht bought for me by my mother at the boat house at the NE end of Albert Park Lagoon in 1894 or 95 when I was 11 or 12 years old. It went to each new country, to Germany, England, America and has always been one of my cherished possessions, none the less dear to me because I never after leaving Australia in 1895 had a chance to sail it.'<br><br>
+The star exhibits, of course, are his free-form music machines. He claimed that he had this music in his head from the time he sailed his little boat on Albert Park Lake, and from 1945 on he set out to make the gliding sounds, free of all beat, like the natural sounds heard in nature. He used to wander out from his house in White Plains, New York, and scout for useful pieces from rubbish. After he had been cautioned once or twice he found it wiser to do his scavenging in a more respectable suit.<br><br>
+He used to work on these machines with a New York engineer, Burnett Cross, and their most spectacular creation is in the Museum. It could be a vintage loom, a mangle, or even a refined instrument of torture. It consists of brown paper rolls cut into climbing and descending graphs, oscillators, valves, pulleys, discs and wires. All this invention undoubtedly was superceded by electronic music and the Moog Synthesiser, but Grainger claimed that this music could be created for a tenth of the cost of the electronic variety.<br><br>
+He lived in New York from 1914 on, with occasional visits back to Australia. In 1918 he became an American citizen. He once wrote 'I am bitterly ashamed of having had to change my nationality.' He intensely wanted to be Australian and more than anything he wanted to be recognised as an innovative, original, Australian composer. His letters and writings strangely condemnatory of his own successes and skills.<br><br>
+He wrote: 'It was never my intention that the Australianism of my music should be overlooked. Yet this is what happened. British musicians who welcomed my settings of British tunes became suddenly deaf when I out to develop an Australian theme or an Australian mood... The most Australian mooded of all my compositions <i>The Marching Song of Democracy</i> has been shunned like the plague...'<br><br>
+In 1938 when he was being lionized all over America he wrote: 'At present American performing fees of my compositions bring in over £2000 a year and this does not include European, Australian and Asiatic performing rights. Yet I never see a representative work of mine on a symphony programme, my works are hardly ever heard as originally scored by me, but mainly in arranged versions, my larger works are never given unless I conduct them myself; where musical progress and compositional experiments are discussed my name is never mentioned. Can a more complete aesthetic failure be imagined? Not by me.'<br><br>
+His spectacular behavior, his love for discarding all convention, undoubtedly was his greatest handicap. He claimed that the true worth of his Grainger Museum would be recognised 200 years hence. Perhaps also this will apply to his compositions.<br><br>
+He died on 20 February 1961, at the age of seventy-nine, an atheist to the end. His views on religion were aggressive: 'Motherwards, religion is the ruination of life. All our dark and needless belief in sin stems from religion, while our disastrous ambitions stem from the fighting spirit of the <i>Old Testament</i>. The world of modern motoring, modern machines, modern art, modern amorality, would be just paradise if we could only shed the blight of religion.'<br><br>
+In his will he left his skeleton to Melbourne University 'for possible display in the Grainger Museum.' That macabre idea never came about. It was buried in the Aldridge family vault at West Terrace Cemetery, Adelaide.<br><br>
+He had one last ghostly performance. In January 1973 the Sinfonia Orchestra in London gave a performance of Greig's <i>Piano Concerto</i> with Percy Grainger as soloist on an old Duoart piano player roll made more than fifty years earlier. A young musician, Rex Lawson, twenty-four, who operated the piano player found it eerie watching the keys moving up and down, apparently of their own volition. Even stranger, his music stand moved up mysteriously even though he had his foot on it. The <i>Herald</i> correspondent in London, reported that Grainger would have enjoyed the show enormously — he was a convinced spiritualist when he died.
+<hr>
+SOURCES:<br>
+Robert Lewis Taylor, <i>The Running Pianist</i>.<br>
+Letter. Grainger Museum, 21 February 1939.<br>
+Toronto <i>Daily Star</i>, 2 May 1940.<br>
+Pittsburgh, Ohio, <i>Telegraph</i>, 9 February 1948.<br>
+John Sinclair, The <i>Herald</i>, 12 May 1956.<br>
+Boston <i>Daily Globe</i>, 19 January 1940.<br>
+<i>Christian Science Monitor</i>, 19 January 1940.<br>
+Pittsburgh, Ohio, <i>Telegraph</i>, 9 February 1948.<br>
+Keith Dunstan, <i>Wowsers</i>.<br>
+Toronto <i>Daily Star</i>, 2 May 1940.<br>
+John Bird, <i>Percy Grainger</i>.<br>
+Broadcast New York City, 10 October 1939, Transcript, Grainger Museum.<br>
+Robert Lewis Taylor, <i>The Running Pianist</i>.<br>
+Anecdotes, Page 98, Grainger Museum.<br>
+Washington <i>Daily News</i>, 27 March 1940.<br>
+Broadcast New York City, 10 October 1939, Transcript, Grainger Museum.<br>
+Edvard Greig, Diary, 5 August 1907.<br>
+Letter Grainger Museum, 29 April 1922.<br>
+Copy of book in Grainger Museum.<br>
+The <i>Herald</i>, 4 August 1928.<br>
+<i>Sun</i> News Pictorial, 1 May 1928.<br>
+Iola Matthews, <i>Hemisphere</i>, Vol 20, No 5, May 1976.<br>
+<i>Leader</i> Magazine, 11 December 1948.<br>
+Blue-eyed English glassary, compiled by Teresa Balaugh, Grainger Museum.<br>
+Caption on towel clothing, Grainger Museum.<br>
+Washington <i>Daily News</i>, 27 March 1940.<br>
+John Bird, <i>Percy Grainger</i>.<br>
+Iola Matthews <i>Hemisphere</i>, Vol 20, No 5, May 1976.<br>
+<i>Australian Journal of Music Education</i>, No 18, April 1976.<br>
+Anecdotes, page 91, Grainger Museum.<br>
+Davidson seminar documentation, Grainger Museum.<br>
+Anecdotes, Page 86, Grainger Museum.<br>
+The <i>Herald</i>, 29 December 1962.<br>
+Ibid, 10 January 1973.
+<hr>
+Continue to the book index: <a href="/ratbags">Ratbags</a>
+</div>
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        Profile of composer and pianist Percy Grainger, the flame-haired, hatless, bicycling genius of Country Gardens, whose devotion to his mother Rose, obsession with flagellantism, free-form music machines and the Grainger Museum made him Australia&#39;s eccentric of the century.
+      </p>
+
+<hr>
+<h4 class="h6">Related topics</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/country-gardens/" class="link-secondary">Country Gardens</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Country Gardens">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/duke-ellington/" class="link-secondary">Duke Ellington</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Duke Ellington">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/edvard-grieg/" class="link-secondary">Edvard Grieg</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Edvard Grieg">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/ella-strom/" class="link-secondary">Ella Strom</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Ella Strom">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/frankfurt/" class="link-secondary">Frankfurt</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Frankfurt">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/grainger-museum/" class="link-secondary">Grainger Museum</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Grainger Museum">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne-university/" class="link-secondary">Melbourne University</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne University">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/percy-grainger/" class="link-secondary">Percy Grainger</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Percy Grainger">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/rose-grainger/" class="link-secondary">Rose Grainger</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Rose Grainger">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/vera-bradford/" class="link-secondary">Vera Bradford</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Vera Bradford">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/country-gardens/" class="link-secondary">Country Gardens</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Country Gardens">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/duke-ellington/" class="link-secondary">Duke Ellington</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Duke Ellington">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/edvard-grieg/" class="link-secondary">Edvard Grieg</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Edvard Grieg">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/ella-strom/" class="link-secondary">Ella Strom</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Ella Strom">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/frankfurt/" class="link-secondary">Frankfurt</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Frankfurt">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/grainger-museum/" class="link-secondary">Grainger Museum</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Grainger Museum">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne-university/" class="link-secondary">Melbourne University</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne University">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/percy-grainger/" class="link-secondary">Percy Grainger</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Percy Grainger">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/rose-grainger/" class="link-secondary">Rose Grainger</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Rose Grainger">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/vera-bradford/" class="link-secondary">Vera Bradford</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Vera Bradford">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

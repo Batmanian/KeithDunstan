@@ -3,16 +3,16 @@ title: Introduction
 date: 2004-11-11
 summary: Keith Dunstan explains how Bulletin editor Peter Hastings recruited him to write a Melbourne column under the pseudonym 'Batman' in 1962, to get around his Herald and Weekly Times contract, and looks back on the wowserish, soon-to-vanish Melbourne of the 1960s that the column chronicled.
 tags:
-  - Peter Hastings
+  - Anti-Football League
   - Donald Horne
+  - Douglas Wilkie
+  - Eastern Market
+  - Moomba
+  - Occidental Hotel
+  - Peter Hastings
   - Sir Frank Packer
   - Sir John Williams
-  - Douglas Wilkie
-  - Anti-Football League
-  - Moomba
-  - Eastern Market
   - Whelan the Wrecker
-  - Occidental Hotel
 ---
 In 1961 Donald Horne was editing a lively fortnightly The Observer, which he started in 1958. On October 19, famed Sydney newspaper tyro, Sir Frank Packer bought the Bulletin on behalf of Australian Consolidated Press. He called Horne and said, 'I've bought The Bulletin. Which will we kill off, it or The Observer.' This was a tough choice for Donald. Did he kill off his baby or did he kill off the oldest journal in the country. He chose to be editor of The Bulletin.
 

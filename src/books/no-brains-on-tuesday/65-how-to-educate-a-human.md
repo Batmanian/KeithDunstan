@@ -4,10 +4,10 @@ date: 1991-01-01
 summary: A Senate committee's verdict that Australian graduates are narrow-minded and poor communicators prompts a redesigned curriculum heavy on the subjects school actually left out, from wine lists and tax forms to sex education, comparative religion, car mechanics, semantics and how to trust a politician.
 tags:
   - Bob Hawke
-  - RACV
   - Hotel Australia
-  - Southern Cross Hotel
   - Multi Function Polis
+  - RACV
+  - Southern Cross Hotel
 ---
 
 After being a barbarian for most of my life I am fascinated by the great education debate.

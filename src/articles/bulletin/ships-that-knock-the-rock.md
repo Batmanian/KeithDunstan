@@ -6,9 +6,9 @@ categories:
 - The Bulletin
 tags:
   - Corsair Rock
+  - Henry Bolte
   - Port Phillip Bay
   - Portsea
-  - Henry Bolte
   - St Kilda
 ---
 

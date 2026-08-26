@@ -3,20 +3,20 @@ title: The virus
 date: 1990-11-11
 summary: From ghost-writing hangings and murders for radio's "D24" crime series to the giddy arrival of his first hardback book, "The Paddock That Grew," in 1962, and a publisher who admitted he'd never read one of his own titles.
 tags:
+  - The Age
   - Barry Humphries
   - Brian Breheny
-  - Crawford Productions
   - Colin Bednall
+  - Crawford Productions
   - D24
-  - HG Wells
   - GTV9
+  - The Herald
+  - HG Wells
   - Los Angeles
   - Max Suich 
   - Melbourne Cricket Club
   - Phillip Garrett
   - Squizzy Taylor
-  - The Age
-  - The Herald
   - William Dunstan VC
   - Wowsers
   - Writing for Television

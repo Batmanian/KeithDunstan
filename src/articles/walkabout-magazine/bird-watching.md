@@ -58,4 +58,6 @@ The killing of birds in Australia could make a long sad story. Club members are 
 
 This could be another matter for the bird watchers to watch. You may wish to join them. They may seem strange in some of their habits, but, as I said before, just possibly they are the sanest people around. 
 
-This article first apeared in Walkabout Magazine, February 1962. The article with pictures, [is available online at Trove.](https://nla.gov.au/nla.obj-752644449/view?sectionId=nla.obj-755701384&partId=nla.obj-752653519#page/n19/mode/1up)
+<hr>
+
+*Source: Bird Watching, Walkabout Magazine, February 1962. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-752644449).*

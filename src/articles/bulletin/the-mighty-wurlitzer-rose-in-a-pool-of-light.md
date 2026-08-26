@@ -40,5 +40,13 @@ Just then Tony arrived for his early morning practice.  We sank deep into the be
 Mr Ashmore said: ‘We are making progress in bringing back the Mighty Wurlitzer, but incredibly I cannot get the radio stations to play organ music.’
 
 I said: ‘Is there an electric guitar on the Mighty Wurlitzer?’
-"No, I don't think so, he replied.  
-‘That might be your answer.
+
+‘No, I don't think so,’ he replied.
+
+‘That might be your answer.’
+
+BATMAN
+
+<hr>
+
+*Source: Around Melbourne: The Last of the Great Palaces, The Bulletin, 9 April 1966. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-702198349).*

@@ -3,9 +3,9 @@ title: Mr Suzuki I'm Trying, Honestly
 date: 1991-01-01
 summary: Keith Dunstan marks his own household against David Suzuki's ten golden rules for green living from the Sunday Age, faring well on fountain pens and cotton napkins but badly on shrink-wrapped hardware and the weekly tombstone-sized garbage bin, and confesses to Dr Suzuki a final honest score of three out of ten.
 tags:
-  - David Suzuki
   - Coles Myer
   - David Jones
+  - David Suzuki
 ---
 
 Now I wonder if there are many S.A.P. members who are enduring the same problems. Perhaps we could band together, and open a market. Now what would be the right name? I have looked up the opposite of 'Super' in my thesaurus and come up with mini, bantam, dainty, diminutive, dwarfish, lilliputian, micro, minuscule, minute, pygmy, tiny and wee.

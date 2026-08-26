@@ -3,23 +3,23 @@ title: The Racing Passion
 date: 1973-11-11
 summary: Traces Australia's worship of the horse from the colony's first race meetings to the Melbourne Cup, built around three champions the public mourned like royalty, Carbine, Phar Lap and Gunsynd, and the money that racing moves through the nation.
 tags:
-  - Phar Lap
-  - Carbine
-  - Gunsynd
-  - Tommy Corrigan
-  - Harry Telford
-  - Tommy Woodcock
-  - Donald Wallace
-  - Damon Runyon
-  - John Francis Hogan
-  - Birdsville
-  - Maurice Cavanough
-  - Murray Rose
-  - Melbourne Cup
-  - Flemington Racecourse
-  - Melbourne Punch
   - The Argus
+  - Birdsville
+  - Carbine
+  - Damon Runyon
+  - Donald Wallace
+  - Flemington Racecourse
+  - Gunsynd
+  - Harry Telford
+  - John Francis Hogan
+  - Maurice Cavanough
+  - Melbourne Cup
+  - Melbourne Punch
+  - Murray Rose
+  - Phar Lap
   - Sir Henry Bolte
+  - Tommy Corrigan
+  - Tommy Woodcock
 ---
 
 Has the horse taken over the role of god of the Australians? The Catholic writer John Francis Hogan thought so. He pointed out that other nations had great national festivals to commemorate a famous deed in history. Perhaps they did honour to some departed hero, perhaps they celebrated a noble victory in the battle for freedom or rejoiced anew at the overthrow of a hated despot. Australians were different. Their excuse for a national festival was the worship of the horse. The first week in November was devoted entirely to 'that interesting quadruped'. Hogan said that as we had decided to adopt the horse as our god we could hardly afford to belittle our 'dusky brethren in less civilized lands' who selected their gods from the animal kingdom.

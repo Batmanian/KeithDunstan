@@ -3,21 +3,21 @@ title: Finding the wine demon
 date: 1994-11-11
 summary: Pinpoints the moment wine took hold, a 1959 drive through North East Victoria's wine country past Brown Brothers at Milawa, after years in Queensland where rum with milk was the accepted breakfast tonic.
 tags:
-  - Wine
-  - Bundaberg Rum
+  - Adrian Benns
   - Brown Brothers of Milawa
-  - Rhine Castle Wines
-  - Milawa
+  - Bundaberg Rum
+  - Chateau Tahbilk
   - Dan Murphy 
-  - Stan Keon 
+  - Doug Crittenden
+  - Eric Purbrick
   - Ian Sutherland Smith 
   - Jimmy Watson
-  - Chateau Tahbilk
-  - Eric Purbrick
   - Len Evans
-  - Doug Crittenden
+  - Milawa
+  - Rhine Castle Wines
+  - Stan Keon 
   - Tulloch Wines
-  - Adrian Benns
+  - Wine
 ---
 
 When did my serious trouble with Bacchus actually begin? I reckon it was a lovely day in December 1959. I was driving with my friend Adrian Benns through North East Victoria. There are few areas more lovely. All along the little creeks that run into the Ovens and King Rivers are these River Red Gums. They look well fed and comfortable. The bark is a dazzling white and the trunks are as fat as 1000 gallon drums.

@@ -5,13 +5,13 @@ summary: Marks Hoyts' golden jubilee against the demolition of Melbourne's old S
 categories:
 - The Bulletin
 tags:
-  - Hoyts
-  - Savoy Theatre
-  - Whelan the Wrecker
-  - Regent Theatre
   - Dame Nellie Melba
+  - Hoyts
+  - Regent Theatre
   - Rudolf Valentino
   - Russell Street
+  - Savoy Theatre
+  - Whelan the Wrecker
 ---
 
 This week we are in the midst of merry-making and melancholy. We're merry-making because, in the year of Cleopatra, Hoyts is celebrating its 50th anniversary. We have just been told that this is the golden jubilee of the greatest theatre chain in the Southern Hemisphere and girls dressed in gold lame are distributing Todd-AO size birthday cakes.

@@ -3,25 +3,25 @@ title: The Tennis Passion
 date: 1973-11-11
 summary: Traces Australian tennis from Norman Brookes's penniless 1905 Wimbledon tilt and the Davis Cup mania that followed, through Frank Sedgman and Lew Hoad's fights against professionalism, to Evonne Goolagong's 1971 Wimbledon win over Margaret Court.
 tags:
-  - Norman Brookes
   - Anthony Wilding
+  - Bill Tilden
   - Dame Mabel Brookes
-  - H. L. Doherty
   - Davis Cup
+  - Evonne Goolagong
   - Frank Sedgman
-  - Ken McGregor
-  - Jack Kramer
+  - H. L. Doherty
   - Harry Hopman
-  - Lew Hoad
+  - Jack Kramer
+  - Jaroslav Drobny
+  - John Newcombe
+  - Ken McGregor
   - Ken Rosewall
   - Kooyong
+  - Lew Hoad
+  - Margaret Court
+  - Norman Brookes
   - Rod Laver
   - Roy Emerson
-  - John Newcombe
-  - Margaret Court
-  - Evonne Goolagong
-  - Jaroslav Drobny
-  - Bill Tilden
 ---
 
 Tennis until the early 1900s was of no interest to the sport-mad watching public. Tennis was for the very nice, well brought up people, for those with money. Tennis was the feeling, a milk and water game.

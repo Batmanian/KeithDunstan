@@ -85,4 +85,4 @@ For all those restaurants that have been left out one can only apologise. It is 
 
 <hr>
 
-*Source: [Epicurean Melbourne](https://nla.gov.au/nla.obj-755742391), Walkabout Magazine, 1962-12-01. Retrieved via the National Library of Australia's Trove database.*
+*Source: Epicurean Melbourne, Walkabout Magazine, December 1962. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-755742391).*

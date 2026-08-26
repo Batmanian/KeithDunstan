@@ -3,20 +3,20 @@ title: Achieving the divinity
 date: 1994-11-11
 summary: A love letter to champagne, from gold-rush diggers smashing empty bottles for skittle pins to Len Evans's rule of opening a good bottle for any old friend, whatever the hour.
 tags:
-  - Wine
-  - Len Evans
-  - Greg Gallagher
-  - Kathleen Quealy
-  - Dr Samuel Johnson
-  - David Dunstan
-  - Richard Ernest Nowell -REN- Twopeny
-  - Les Francis
-  - Ian Mackenzie
   - Christopher Daniel
-  - William Painter
   - Darren Kelly
+  - David Dunstan
+  - Dr Samuel Johnson
+  - Greg Gallagher
   - Ian Home
+  - Ian Mackenzie
+  - Kathleen Quealy
+  - Len Evans
+  - Les Francis
+  - Richard Ernest Nowell -REN- Twopeny
   - Rocco Tallarida
+  - William Painter
+  - Wine
 ---
 
 In April 1779 Dr Johnson said: "Claret is the liquor for boys; port for men; but he who aspires to be a hero drinks brandy." Sadly I will never make a hero. Heroics with brandy do terrible things to the brain and spirit, and I found out early, life is easier if one avoids any wine that is fortified. It is a pity that the most beautiful drinks have to contain alcohol, for it is the taste that is important, not what it does to the brain. Dr Johnson on that same day in 1779 said: "A man who exposes himself when intoxicated has not the art of getting drunk."

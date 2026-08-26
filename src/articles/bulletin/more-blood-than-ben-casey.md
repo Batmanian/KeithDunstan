@@ -5,8 +5,8 @@ summary: Skewers the Mornington Shire Council's banning of Enid Blyton's Noddy f
 categories:
 - The Bulletin
 tags:
-  - Enid Blyton
   - Brothers Grimm
+  - Enid Blyton
 ---
 
 Melbourne has gone blissfully undisturbed by any matters of social consequence this Yuletide, except for one thing which has roused us to anger. And this is the banning of Noddy.

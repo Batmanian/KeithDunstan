@@ -3,16 +3,16 @@ title: We Can Have a Dinkum Aussie Theme Park
 date: 1991-01-01
 summary: News that Japan's trade ministry is planning an Australian theme park prompts a detailed design brief of quarter-acre-block suburbia, from the Hills Hoist and the outside dunny to a mock Bay 13 and a 'Koala Privatisation Mart' stocked with everything the government sold off that week.
 tags:
-  - Christopher Skase
   - Alan Bond
-  - John Elliott
+  - Bob Hawke
+  - Christopher Skase
+  - Collingwood
   - Dennis Lillee
   - Fosters Lager
+  - John Elliott
   - Melbourne Cricket Ground
-  - Collingwood
   - Qantas
   - Toorak
-  - Bob Hawke
 ---
 
 Aren't you fascinated with the news that the Japanese Ministry of International Trade and Industry is planning to build an Australian Theme Park or even Aussie Multi Cultural Polis?

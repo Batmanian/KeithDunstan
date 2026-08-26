@@ -3,33 +3,33 @@ title: Somewhat stunted columns
 date: 1966-11-11
 summary: A tour of Keith's stunt-column years, seconding a wrestler against Primo Carnera, singing silently in the Lohengrin chorus, running a Chinese parade dragon's tail, and breaking his hand skiing on nylon matting in the Domain.
 tags:
-  - Primo Carnera
-  - Stanley Kowalski
   - Alan Holmes Bonnie Muir
-  - Tennis
-  - Kooyong
-  - Wrestling
-  - Frank Doczy
   - Alex Olmedo
-  - Frank Sedgman
-  - Lew Hoad
-  - Pancho Segura
-  - Stefan Haag
-  - Elizabethan Theatre Trust
-  - Her Majestys Theatre
-  - Victorian Symphony Orchestra
-  - Eric Clapham
-  - Ronald Dowd
+  - Bruce Bretherton
+  - Christine Borge
   - Elizabeth West
+  - Elizabethan Theatre Trust
+  - Eric Clapham
+  - Frank Chin
+  - Frank Doczy
+  - Frank Sedgman
+  - Her Majestys Theatre
+  - Hilton Nicholas
+  - Jean Shrimpton
+  - Kooyong
+  - Lew Hoad
+  - Melbourne Trams
   - Montsalvat
   - Moomba
-  - Melbourne Trams
-  - Frank Chin
-  - Christine Borge
-  - Jean Shrimpton
-  - Hilton Nicholas
   - Paddy Hopkirk
-  - Bruce Bretherton
+  - Pancho Segura
+  - Primo Carnera
+  - Ronald Dowd
+  - Stanley Kowalski
+  - Stefan Haag
+  - Tennis
+  - Victorian Symphony Orchestra
+  - Wrestling
 ---
 
 THERE'S nothing very new in writing stunt columns. There's a columnist in Hawaii who specializes in the most daring of adventures. One day he accused the women of Honolulu of being lazy, of having little to do. The response was satisfactorily devastating, and, if I remember correctly, one mother invited him to take over her menage for twenty-four hours, while she moved out to a hotel. She left behind her ten children. This Hawaii columnist found plenty of material for his column that day.

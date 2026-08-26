@@ -3,11 +3,11 @@ title: Introduction
 date: 1973-11-11
 summary: Explains that 'Sports' grew out of a 1969 La Trobe Library exhibition on Victoria's sporting past, and sets out Dunstan's aim to show that sport, not war or politics, is the true key to understanding the Australian character.
 tags:
+  - Carbine
+  - Harry Searle
   - La Trobe Library
   - Melbourne
   - Prince Philip
-  - Harry Searle
-  - Carbine
 ---
 
 Australia is not the only country that is sport crazy. The Canadians have their passion for ice hockey, the Japanese and the Americans adore baseball, the South Americans are frenzied over soccer and the passion in England for the horse runs deep, but few countries have such a complete all-round sport mania as Australia.

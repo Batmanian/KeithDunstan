@@ -5,12 +5,12 @@ summary: A history of Australia's long, losing battle to regulate what beachgoer
 categories:
 - Walkabout Magazine
 tags:
+  - The Argus
   - Lorne
   - Manly
   - St Kilda
   - Sun News-Pictorial
   - Surfers Paradise
-  - The Argus
   - William Gocher
 ---
 
@@ -110,4 +110,4 @@ So I continue to sit on the beach, wearing my dark glasses, waiting to see what 
 
 <hr>
 
-*Source: [THE BIKINIWHAT NEXT?](https://nla.gov.au/nla.obj-757696163), Walkabout Magazine, 1968-01-01. Retrieved via the National Library of Australia's Trove database.*
+*Source: The Bikini, What Next?, Walkabout Magazine, January 1968. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-757696163).*

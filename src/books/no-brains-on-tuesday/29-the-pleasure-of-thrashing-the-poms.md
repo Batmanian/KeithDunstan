@@ -4,8 +4,8 @@ date: 1991-01-01
 summary: The deep tribal satisfaction of beating England at cricket, from Spofforth's 1882 Melbourne homecoming with gold medals and electric lights to Ted Dexter's frank admission in Wisden that Englishmen take an unreasonable dislike to Australians, with a belated plea for sportsmanship toward Graham Gooch's men.
 tags:
   - Alan Border
-  - Merv Hughes
   - Melbourne Cricket Ground
+  - Merv Hughes
   - Sir Donald Bradman
 ---
 

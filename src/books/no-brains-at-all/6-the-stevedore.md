@@ -12,8 +12,8 @@ tags:
   - Melbourne Cricket Ground
   - Morotai
   - New York Herald-Tribune
-  - Sir Donald Bradman
   - The New York Times
+  - Sir Donald Bradman
   - Toorak
   - U.S. Armed Forces
   - Wirraway

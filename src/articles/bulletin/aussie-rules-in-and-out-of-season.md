@@ -5,13 +5,13 @@ summary: Recounts Geelong's first VFL premiership in 11 years, the frantic logis
 categories:
 - The Bulletin
 tags:
-  - Hubert Opperman
-  - Polly Farmer
+  - Bob Davis
   - Collingwood
-  - Melbourne Cricket Ground
+  - Hubert Opperman
   - Ian Johnson
   - Kardinia Park
-  - Bob Davis
+  - Melbourne Cricket Ground
+  - Polly Farmer
 ---
 
 It is all over, and once again we have the agonising thought: how are we to face those long, dreary summer Saturdays ahead? There are some small comforts. "Football Replay" will start soon and we will have all the matches played back to us through the summer.

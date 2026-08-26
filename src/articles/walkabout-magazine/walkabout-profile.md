@@ -42,4 +42,4 @@ Before leaving Jean Battersby, it was important to discuss one aspect. She had a
 
 <hr>
 
-*Source: [WALKABOUT PROFILE](https://nla.gov.au/nla.obj-744601021), Walkabout Magazine, 1969-05-01. Retrieved via the National Library of Australia's Trove database.*
+*Source: Walkabout Profile: Jean Battersby, Walkabout Magazine, May 1969. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-744601021).*

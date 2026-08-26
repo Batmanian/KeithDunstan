@@ -3,8 +3,8 @@ title: No Shame for Carnivores
 date: 1991-01-01
 summary: A return to meat-eating after years of vegetarian, macrobiotic and Pritikin dinner-party fashions, tracing the household's swing from the boneless-lamb TV commercials of the deep-freeze era through a self-conscious vegan and quiche phase back to a butcher offering pre-marinated Mongolian lamb and Hungarian goulash.
 tags:
-  - Toorak
   - Carlton
+  - Toorak
 ---
 
 Have you noticed, it is all over? The shame is gone. Quite all right, at least for several weeks, to be carnivorous.

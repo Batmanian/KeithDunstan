@@ -3,10 +3,10 @@ title: Goodbye to the Daily at Dawn
 date: 1991-01-01
 summary: A eulogy for the Sun News-Pictorial on its 1990 merger into the Herald Sun, recalling the Sun-Herald rivalry Keith Dunstan grew up inside as the son of the Sun's General Manager, and the newsroom rituals lost with it, from the DRUM of the presses to bylines that had to be earned.
 tags:
-  - Sun News-Pictorial
   - The Herald
   - Herald Sun
   - Sir Keith Murdoch
+  - Sun News-Pictorial
   - William Dunstan VC
 ---
 

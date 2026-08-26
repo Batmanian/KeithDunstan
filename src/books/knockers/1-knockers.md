@@ -3,16 +3,16 @@ title: Knockers
 date: 1972-01-01
 summary: Opens 'Knockers' by tracing the Australian compulsion to cut down its own achievers, from a Melbourne newspaper importing a London editor to soothe its colonial cringe, through visiting critics from James Cameron to Clement Freud, to the vicious reception of the Sydney Opera House and Australian writers at home.
 tags:
-  - Sidney J. Baker
-  - Rupert Murdoch
-  - James Cameron
+  - Alwyn Kurts
   - Clement Freud
+  - Dame Nellie Melba
   - Donald Horne
   - Graham Kennedy
-  - Dame Nellie Melba
+  - James Cameron
   - Patrick White
-  - Alwyn Kurts
+  - Rupert Murdoch
   - The Seekers
+  - Sidney J. Baker
 ---
 
 KNOCKING

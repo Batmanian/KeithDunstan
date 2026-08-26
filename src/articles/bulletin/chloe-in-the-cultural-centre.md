@@ -5,18 +5,18 @@ summary: Surveys Melbourne's early-1960s building boom around the corner of Flin
 categories:
 - The Bulletin
 tags:
-  - Flinders Street Station
-  - Young and Jacksons Hotel
   - Chloe
-  - Stanley Korman
+  - Flinders Street Station
   - Henry Bolte
-  - Maurice Nathan
   - Luna Park
+  - Maurice Nathan
   - National Gallery of Victoria
   - Southern Cross Hotel
   - St Paul's Cathedral
-  - Yarra River
+  - Stanley Korman
   - Swanston Street
+  - Yarra River
+  - Young and Jacksons Hotel
 ---
 
 We have just had an orgy of self-congratulation on how beautiful Melbourne is going to be. The things that are happening at the corner of Flinders Street and Swanston Street leave us practically breathless. At the Prince's Bridge Station we have the £5 million Prince's Gate project, due to start next March — roofing the railway yards, two 15-storey buildings, beautiful plaza, flower-pots, occasional trees, the lot.

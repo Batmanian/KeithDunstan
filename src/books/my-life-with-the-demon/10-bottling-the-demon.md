@@ -3,30 +3,30 @@ title: Bottling the Demon
 date: 1994-11-11
 summary: Winter in the vineyard means months of hand-pruning, 32,000 snips an acre, done to a Walkman soundtrack and punctuated by secateur injuries and a run-in with a frost-flicked cane across the face.
 tags:
-  - Wine
-  - Winemaking
-  - Viticulture
-  - Virgil Thomson
-  - Ian Matthews - Portavin
-  - Ken and Wendy Bilham
+  - Anatole de Montaiglon
+  - Ashley Harris
+  - Baillieu Myer
+  - Carlton and United Breweries
+  - Douglas Seabrook
   - Dr John Wilson
+  - Dr Thomas Fitzgerald
   - Fred Williams
+  - Henry Figsby Young
+  - Ian Matthews - Portavin
   - James Halliday
   - Jules Lefebvre
-  - Douglas Seabrook
-  - Tom Seabrook
-  - Baillieu Myer
-  - Nat and Rosalie White
-  - Anatole de Montaiglon
-  - Dr Thomas Fitzgerald
-  - Henry Figsby Young
+  - Ken and Wendy Bilham
   - Marie Dunstan
+  - Nat and Rosalie White
   - Peter Cudlipp
   - Peter McIntosh
   - Philip Suter
   - Terry Laidler
-  - Ashley Harris
-  - Carlton and United Breweries
+  - Tom Seabrook
+  - Virgil Thomson
+  - Viticulture
+  - Wine
+  - Winemaking
 ---
 
 

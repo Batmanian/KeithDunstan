@@ -3,39 +3,39 @@ title: The Evil Desecration of the Sabbath
 date: 1968-11-11
 summary: Charts the century-long Sabbatarian campaign to keep Melbourne silent on Sundays, from the riotous 1883 row over opening the National Gallery, and its nude scandal painting Chloe, to the 1968 bill that finally ended it.
 tags:
+- Alexander Colquhoun
+- Anatole de Courde de Montaiglon
 - Brian Fitzpatrick
-- William Kelly
-- John Norton
+- Charles Henry Pearson
 - Dr FB Barry Smith
+- Dr Thomas Fitzgerald
+- Frederick Hadkinson Bromley
+- Frederick McCubbin
+- George Moore
+- James Balfour
+- James Goodall Francis
+- John Munro Bruce
+- John Norton
+- John Russell
+- Jules Lefebvre
+- Louis Abrahams
+- Louis Lawrence Smith
+- Rev Bishop Samuel Thornton
 - Rev Dr Adam Cairns
+- Rev F W Fitchett
+- Rev JC Symons
 - Rev John Sutton
 - Rev M Mackay
-- Rev Bishop Samuel Thornton
-- Sir George Ferguson Bowen
-- Rev JC Symons
-- James Goodall Francis
-- Charles Henry Pearson
-- Frederick Hadkinson Bromley
-- Rev. Charles Strong
-- Jules Lefebvre
-- George Moore
-- Anatole de Courde de Montaiglon
-- Dr Thomas Fitzgerald
-- John Russell
-- Thomas Trood
-- Frederick McCubbin
-- Louis Abrahams
-- Thomas Humphrey
-- Alexander Colquhoun
-- Rev F W Fitchett
-- William Shiels
-- John Munro Bruce
-- Sir Henry Wrixon
-- Louis Lawrence Smith
-- James Balfour
-- Sir Robert Menzies
 - Rev Sir Irving Benson
+- Rev. Charles Strong
 - Sir Arthur Gordon Rylah
+- Sir George Ferguson Bowen
+- Sir Henry Wrixon
+- Sir Robert Menzies
+- Thomas Humphrey
+- Thomas Trood
+- William Kelly
+- William Shiels
 ---
 
 The purity of the Sabbath Day was always a fine Anglican custom, it was a fine Scottish custom, but incredibly it also thrived in the so-called lusty, free and casy colonies of Australia and New Zealand. Yet of all colonial cities it thrived best in Melbourne. After all, Melbourne rather felt that it had a superior moral tone to other places, and even as late as 1965 the city on Sundays had a certain splendid solemnity about it.

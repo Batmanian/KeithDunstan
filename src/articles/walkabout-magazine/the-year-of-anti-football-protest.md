@@ -106,4 +106,4 @@ At that moment I wondered whether the AFL had been defeated and what we should d
 
 <hr>
 
-*Source: [THE YEAR OF ANTI-FOOTBALL PROTEST](https://nla.gov.au/nla.obj-755512119), Walkabout Magazine, 1968-04-01. Retrieved via the National Library of Australia's Trove database.*
+*Source: The Year of Anti-Football Protest, Walkabout Magazine, April 1968. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-755512119).*

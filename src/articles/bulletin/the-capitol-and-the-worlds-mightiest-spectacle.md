@@ -5,15 +5,15 @@ summary: On the closure of Walter Burley Griffin's Capitol Theatre, recalling it
 categories:
 - The Bulletin
 tags:
+  - The Capitol Theatre
   - Cecil B. de Mille
   - Eric Westbrook
+  - The Herald
   - Jan Rubini 
   - Marion Mahoney
   - Melbourne Club
   - National Gallery of Victoria
   - Swanston Street
-  - The Capitol Theatre
-  - The Herald
   - Walter Burley Griffin
 ---
 

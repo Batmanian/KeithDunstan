@@ -3,15 +3,15 @@ title: The Early Demon
 date: 1994-11-11
 summary: Opens 'My Life with the Demon' with Keith's first taste of alcohol as a schoolboy altar server at Geelong Grammar, sneaking sips of the sacramental wine and topping the bottle back up with water.
 tags:
-  - Wine
-  - Geelong Grammar School 
+  - Cyril H Denny
   - The Dean of Melbourne - Rev Dr H B Macartney
   - E Tennyson Smith
-  - Samuel Mauger
-  - William Dunstan VC
-  - Cyril H Denny
-  - Sir Keith Murdoch
+  - Geelong Grammar School 
   - Lady Elisabeth Murdoch
+  - Samuel Mauger
+  - Sir Keith Murdoch
+  - William Dunstan VC
+  - Wine
 ---
 
 Oh dear, when was the first occasion I was struck down by the demon drink? It could have been when I was a server, an altar boy at Geelong Grammar School. Actually I loved being an altar boy. There was the business of dress ups, the bright red cassock, the white surplice, and a certain feeling of power standing there with the priest by the altar.

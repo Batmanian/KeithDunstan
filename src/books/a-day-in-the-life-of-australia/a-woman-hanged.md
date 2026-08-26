@@ -4,9 +4,9 @@ date: 1988-01-15
 summary: A harrowing account of the 1894 hanging of "baby farmer" Frances Knorr at Melbourne Gaol, Victoria's first execution of a woman since 1863, despite petitions denouncing it as an "abominable, fiendish injustice."
 tags:
   -  Frances Knorr
-  -  Melbourne Gaol
-  -  John Makin
   -  James Patterson
+  -  John Makin
+  -  Melbourne Gaol
 ---
 
 #### 15 January 1894

@@ -5,8 +5,8 @@ summary: Goes behind the scenes at Myer's Santa Claus School, a 28-subject cours
 categories:
 - The Bulletin
 tags:
-  - Myer
   - Charles Howard
+  - Myer
 ---
 
 As you must know, the year is not divided into months, but into serious merchandising compartments. We have the New Year sales, the summer sales, Mother's Day, winter sales, Father's Day, the spring racing carnival and, then, at last, the decks are cleared for the greatest compartment of all, Christmas. In recent years Christmas has been arriving earlier and earlier, getting indecently mixed up with the hair of Mr Guy Fawkes and the VRC.

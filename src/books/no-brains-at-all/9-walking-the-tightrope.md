@@ -5,6 +5,7 @@ summary: The death of Sir Keith Murdoch in 1952, and his abandoned plot to buy T
 tags:
   - Adelaide News
   - Anglicanism
+  - The Argus
   - Bob Dalziel
   - Brian Johnstone
   - Brisbane
@@ -12,15 +13,14 @@ tags:
   - Courier-Mail
   - Desmond Zwar
   - Donald Friend
+  - The Financial Review
   - Herald and Weekly Times
   - J. F. Williams
+  - The London Daily Mirror
   - Margaret Olley 
   - Peter Carey
   - Rudolf Pekárek
   - Sir Keith Murdoch
-  - The Argus
-  - The Financial Review
-  - The London Daily Mirror
   - William Dunstan VC
 ---
 

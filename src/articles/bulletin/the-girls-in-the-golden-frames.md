@@ -5,8 +5,8 @@ summary: Traces Melbourne's pub counter-lunch tradition from its Edwardian heyda
 categories:
 - The Bulletin
 tags:
-  - Collins Street
   - Bourke Street
+  - Collins Street
 ---
 
 Whenever the old-timers get to talking about the glories of Old Melbourne it never takes more than 25 seconds to get on to the subject of free counter-lunches. Back at the turn of the century Melbourne was literally clinking with hotels, and the population had to do a very decent beer-drinking job to support them. So competition was tremendous. The free counter-lunch came into being, and it blossomed and blossomed.

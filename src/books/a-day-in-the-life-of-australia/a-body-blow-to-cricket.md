@@ -3,11 +3,11 @@ title: A Body Blow to Cricket
 date: 1988-01-14
 summary: Recounts the Bodyline crisis boiling over at the Third Test in Adelaide, where Larwood's leg-theory bowling injured Woodfull and Oldfield and the Australian Board of Control cabled the MCC accusing England of endangering the game.
 tags:
-  - Cricket
   - Bodyline series
-  - Sir Donald Bradman
-  - Pelham Warner
+  - Cricket
   - Lionel Palairet
+  - Pelham Warner
+  - Sir Donald Bradman
 ---
 
 #### 14 January 1933

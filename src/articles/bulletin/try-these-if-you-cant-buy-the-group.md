@@ -5,9 +5,9 @@ summary: A satirical survey of the pulp novels, nudist magazines and lurid histo
 categories:
 - The Bulletin
 tags:
-  - The Group
-  - Arthur Rylah
   - The Age
+  - Arthur Rylah
+  - The Group
 ---
 
 This has been another rough week. Until now I have always managed to keep pace with my banned book reading. At school I read my Marie Stopes; at an early age I got hold of "Ulysses." I read "Love Me, Sailor," "Lady Chatterley's Lover," and "Lolita," but so far I have been unable to get a copy of "The Group."

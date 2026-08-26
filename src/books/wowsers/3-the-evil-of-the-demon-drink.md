@@ -3,22 +3,22 @@ title: The Evil of the Demon Drink
 date: 1968-11-11
 summary: Traces the colonial appetite for alcohol from Victoria's staggering 1850s statistics, through the failed prohibition experiment at William Chaffey's Mildura irrigation colony, the Blue Ribbon movement and Coffee Palace boom under Premier James Munro, the great barmaid debate and King O'Malley's parliamentary oratory, and on to the six o'clock swill that dominated Australian drinking culture from 1916 to 1966.
 tags:
-- E.W. Cole
-- Samuel Mauger
+- 6 Oclock swill
 - Alfred Deakin
-- James Munro
-- King O'Malley
+- Ballarat
+- Camberwell
 - Donald Dunstan
+- E.W. Cole
+- Federal Coffee Palace
 - Geoffrey Blainey
+- James Munro
+- Kalgoorlie
+- King O'Malley
 - Mildura
 - Renmark
-- Kalgoorlie
-- Camberwell
-- Ballarat
+- Samuel Mauger
 - Williamstown
 - Women's Christian Temperance Union
-- Federal Coffee Palace
-- 6 Oclock swill
 ---
 
 <!-- Pages 34–48: The Sots. This opening section is partially illegible in the scan due to spine curvature throughout. The following summary reflects the legible content. -->
