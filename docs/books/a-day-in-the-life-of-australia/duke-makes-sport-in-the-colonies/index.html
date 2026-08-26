@@ -186,13 +186,13 @@
 
         
       </header>
-      <h4>25 January 1868</h4>
+      <div class="article-body"><h4>25 January 1868</h4>
 <p>His Royal Highness, Prince Alfred, the Duke Edinburgh, 23 years old and the second son - Queen Victoria, has been having a fine old l.!Ille on his tour of the colonies. He arrived here - captain of HMS Galatea. Rumour has it that companied by Melbourne's Chief of Police, Captain Frederick Standish, and other dignitaries, the Duke visited the Saddling Paddock at the Theatre Royal.</p>
 <p>Begging your pardon, but everybody calls it -addling Paddock because that is where the :nost notorious women of Melbourne gather. It a small bar presided over by a man, and it is here the girls gather for their pick-ups. On no account would you ever take your wife or jaughter to such a place.</p>
 <p>From there they went to Sarah Fraser's house of ill repute in Stephen Street. According to the police reporter, J.M.Forde, one young lady, one of the most handsome, followed the Duke to Sydney and set up house in Castlereagh treet.</p>
 <p>The Duke has also visited a public ball in Melbourne's Exhibition building. Is this proper? Bishop Perry immediately pointed out that the love of balls is indicative of a poor condition of Christian health. The theatre, balls and racing are on the same level as drunkenness, fornication and racing.</p>
 <p>However, best of all, His Royal Highness has enjoyed shooting; killing animals. In South Australia the Governor took him to the Govern­ment Farm in the Adelaide Hills. The ideal situation for possum shooting was a moonlight night. One looked up through the trees, silhouetted the possum against the moon.</p>
-
+</div>
       
       
         <!-- Desktop-only: right after content, as before. Mobile shows its
@@ -221,12 +221,20 @@ moves up into the article header there instead of appearing here). -->
 
 <hr>
 <h4 class="h6">Related topics</h4>
-<p class="small text-muted mb-3">
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
     
-    <a href="/topic/prince-alfred-the-duke-edinburgh/" class="link-secondary">Prince Alfred the Duke Edinburgh</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/captain-frederick-standish/" class="link-secondary">Captain Frederick Standish</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Captain Frederick Standish">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/captain-frederick-standish/" class="link-secondary">Captain Frederick Standish</a>
-</p>
+    <li class="topic-jump-item">
+      <a href="/topic/prince-alfred-the-duke-edinburgh/" class="link-secondary">Prince Alfred the Duke Edinburgh</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Prince Alfred the Duke Edinburgh">Jump to &rarr;</a>
+    </li>
+  </ul>
+
 
 
 <br>
@@ -240,12 +248,20 @@ article content; last updated trails at the very end. -->
 <div class="d-md-none">
   
   <h4 class="h6">Related topics</h4>
-  <p class="small text-muted mb-3">
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
     
-    <a href="/topic/prince-alfred-the-duke-edinburgh/" class="link-secondary">Prince Alfred the Duke Edinburgh</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/captain-frederick-standish/" class="link-secondary">Captain Frederick Standish</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Captain Frederick Standish">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/captain-frederick-standish/" class="link-secondary">Captain Frederick Standish</a>
-</p>
+    <li class="topic-jump-item">
+      <a href="/topic/prince-alfred-the-duke-edinburgh/" class="link-secondary">Prince Alfred the Duke Edinburgh</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Prince Alfred the Duke Edinburgh">Jump to &rarr;</a>
+    </li>
+  </ul>
+
   
   <small><a href="/search/">View all topics</a></small>
 
@@ -256,6 +272,97 @@ article content; last updated trails at the very end. -->
     </p>
   
 </div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
 
 
         </div>

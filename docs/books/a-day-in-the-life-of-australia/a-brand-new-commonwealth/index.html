@@ -188,7 +188,7 @@
 
         
       </header>
-      <h4>1 January 1901</h4>
+      <div class="article-body"><h4>1 January 1901</h4>
 <p>What an extraordinary day it has been, a new century, a new unity, a brand new Common­wealth. There were hymns in the churches, patriotic songs in the theatres, singing in the clubs.</p>
 <p>One could hardly move in Sydney, every available tram, every harbour ferry, every horse­ drawn bus carried all loyal citizens into the city for the launching of the Commonwealth of Australia. They had only been trying to do it for the past SO years. The six colonies were so jealous of each other I thought they would never get there.</p>
 <p>Best of all, though, was the procession. It started at 10.30 a.m. and moved through streets all decorated with marvellous triumphal arches; Venetian poles; Japanese lanterns; and every kind of flag, crown, painting and symbol of loyalty. The noise was uproarious: gongs, whistles, bells, accordions, rattles, people beat­ ing tin dishes.</p>
@@ -197,7 +197,7 @@
 <p>The procession wound through to Centen­nial Park, and a choir sang 'O God our help in ages past, our hope for years to come'. The Church of England Archbishop of Sydney, William Simaurez Smith, said the prayers. The Catholic representative, Cardinal Patrick Moran, was not there. Some say he was miffed because Archbishop Smith won precedence in the procession. So Cardinal Moran had his own ceremony outside St Mary's cathedral.</p>
 <p>Our new Governor-General, Lord Hope­toun, was there. Had he been Admiral of the entire British Fleet, he could not have looked more impressive. There was a reading of a proclamation from Her Majesty Queen Victoria: 'We do hereby declare that on and after the First Day of January One Thousand Nine hundred and One, the people of New South Wales, Victoria, South Australia, Queensland, Tasmania and Western Australia shall be united in a Federal Commonwealth under the name Commonwealth of Australia'.</p>
 <p>It will be difficult to get out of the habit of talking about States instead of colonies, and I wonder whether they will be any more friendly to each other. At least there will be one advan­tage. It will be splendid being able to send goods from one State to another without paying customs duties.</p>
-
+</div>
       
       
         <!-- Desktop-only: right after content, as before. Mobile shows its
@@ -226,16 +226,30 @@ moves up into the article header there instead of appearing here). -->
 
 <hr>
 <h4 class="h6">Related topics</h4>
-<p class="small text-muted mb-3">
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
     
-    <a href="/topic/john-hope-7th-earl-of-hopetoun/" class="link-secondary">John Hope, 7th Earl of Hopetoun</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/edmund-barton/" class="link-secondary">Edmund Barton</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Edmund Barton">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/edmund-barton/" class="link-secondary">Edmund Barton</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/john-hope-7th-earl-of-hopetoun/" class="link-secondary">John Hope, 7th Earl of Hopetoun</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="John Hope, 7th Earl of Hopetoun">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/william-simaurez-smith/" class="link-secondary">William Simaurez Smith</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/sir-henry-parkes/" class="link-secondary">Sir Henry Parkes</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sir Henry Parkes">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/sir-henry-parkes/" class="link-secondary">Sir Henry Parkes</a>
-</p>
+    <li class="topic-jump-item">
+      <a href="/topic/william-simaurez-smith/" class="link-secondary">William Simaurez Smith</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="William Simaurez Smith">Jump to &rarr;</a>
+    </li>
+  </ul>
+
 
 
 <br>
@@ -249,16 +263,30 @@ article content; last updated trails at the very end. -->
 <div class="d-md-none">
   
   <h4 class="h6">Related topics</h4>
-  <p class="small text-muted mb-3">
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
     
-    <a href="/topic/john-hope-7th-earl-of-hopetoun/" class="link-secondary">John Hope, 7th Earl of Hopetoun</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/edmund-barton/" class="link-secondary">Edmund Barton</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Edmund Barton">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/edmund-barton/" class="link-secondary">Edmund Barton</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/john-hope-7th-earl-of-hopetoun/" class="link-secondary">John Hope, 7th Earl of Hopetoun</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="John Hope, 7th Earl of Hopetoun">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/william-simaurez-smith/" class="link-secondary">William Simaurez Smith</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/sir-henry-parkes/" class="link-secondary">Sir Henry Parkes</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sir Henry Parkes">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/sir-henry-parkes/" class="link-secondary">Sir Henry Parkes</a>
-</p>
+    <li class="topic-jump-item">
+      <a href="/topic/william-simaurez-smith/" class="link-secondary">William Simaurez Smith</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="William Simaurez Smith">Jump to &rarr;</a>
+    </li>
+  </ul>
+
   
   <small><a href="/search/">View all topics</a></small>
 
@@ -269,6 +297,97 @@ article content; last updated trails at the very end. -->
     </p>
   
 </div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
 
 
         </div>

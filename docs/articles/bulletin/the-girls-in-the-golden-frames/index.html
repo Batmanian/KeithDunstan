@@ -186,7 +186,7 @@
 
         
       </header>
-      <p>Whenever the old-timers get to talking about the glories of Old Melbourne it never takes more than 25 seconds to get on to the subject of free counter-lunches. Back at the turn of the century Melbourne was literally clinking with hotels, and the population had to do a very decent beer-drinking job to support them. So competition was tremendous. The free counter-lunch came into being, and it blossomed and blossomed.</p>
+      <div class="article-body"><p>Whenever the old-timers get to talking about the glories of Old Melbourne it never takes more than 25 seconds to get on to the subject of free counter-lunches. Back at the turn of the century Melbourne was literally clinking with hotels, and the population had to do a very decent beer-drinking job to support them. So competition was tremendous. The free counter-lunch came into being, and it blossomed and blossomed.</p>
 <p>If the memories of the old-timers are correct they would start about 11 a.m. with biscuits and cheese, cold sausages, corned beef, salads, pickles, black puddings and savory snacks. At noon there would be gorgeous aromas in the bar as the hot joints came in. There would be pigs' cheeks, piping hot, trestle tables covered with roasts of pork, lamb, beef, corned beef with steaming carrots, spuds, the lot.</p>
 <p>Naturally before he partook of these things a gentleman was expected to do the right thing and buy himself a threepenny beer. Indeed, some unco-operative eaters bought themselves only one beer and stocked up with enough food for a day or two. In the language of the day he was called &quot;a bar sparrer&quot;, and he was not encouraged to come again.</p>
 <p>Alas, rising costs and a war ruined this beautiful era. The counter-lunch has made many, many reappearances, with a notable return in 1949, but its boom right now is starting to savor of the Edwardian era. What with ever-rising city values, pubs are going out of existence one by one. As in 1910, we can only keep them going by doing the decent thing — drinking a devil of a lot of beer. Regrettably, the publicans have ignored the rich tradition that the counter-lunch should be free, but they are certainly laying on the food — spatchcock, beef Stroganoff, grilled snapper, paprika goulash.</p>
@@ -204,7 +204,7 @@
 <p>Competition is also strong in banking and the oil industry. Maybe they will come to our service stations. Perhaps our private banks are already thinking of this idea for pepping up trade. Pretty girls poised in boxes above the teller's window would be an undoubted attraction.</p>
 <hr>
 <p><em>Source: Around Melbourne THE GIRLS IN THE GOLDEN FRAMES, The Bulletin, 1963-11-16. Accessible via the <a href="https://nla.gov.au/nla.obj-697861708">National Library of Australia's Trove database</a>.</em></p>
-
+</div>
       
       
         <!-- Desktop-only: right after content, as before. Mobile shows its
@@ -233,12 +233,20 @@ moves up into the article header there instead of appearing here). -->
 
 <hr>
 <h4 class="h6">Related topics</h4>
-<p class="small text-muted mb-3">
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
     
-    <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/bourke-street/" class="link-secondary">Bourke Street</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Bourke Street">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/bourke-street/" class="link-secondary">Bourke Street</a>
-</p>
+    <li class="topic-jump-item">
+      <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Collins Street">Jump to &rarr;</a>
+    </li>
+  </ul>
+
 
 
 <br>
@@ -252,12 +260,20 @@ article content; last updated trails at the very end. -->
 <div class="d-md-none">
   
   <h4 class="h6">Related topics</h4>
-  <p class="small text-muted mb-3">
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
     
-    <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/bourke-street/" class="link-secondary">Bourke Street</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Bourke Street">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/bourke-street/" class="link-secondary">Bourke Street</a>
-</p>
+    <li class="topic-jump-item">
+      <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Collins Street">Jump to &rarr;</a>
+    </li>
+  </ul>
+
   
   <small><a href="/search/">View all topics</a></small>
 
@@ -268,6 +284,97 @@ article content; last updated trails at the very end. -->
     </p>
   
 </div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
 
 
         </div>

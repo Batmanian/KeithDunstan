@@ -29,7 +29,7 @@
 
         {% endblock %}
       </header>
-      {{ content | safe }}
+      <div class="article-body">{{ content | safe }}</div>
       {% set lastUpdated = page.inputPath | gitLastUpdated %}
       {% if lastUpdated %}
         <!-- Desktop-only: right after content, as before. Mobile shows its

@@ -188,7 +188,7 @@
 
         
       </header>
-      <p>There was always a desire to own a tandem. They just looked right. They were symbolic of marital bliss. After all, there was the song about Daisy, one of the most famous ever written. This lovesick character, back in the 1890s, didn't want single bikes. When he was proposing '<em>Daisy, Daisy, give me an answer do</em>', he thought the lady would look sweet on a bicycle built for two.</p>
+      <div class="article-body"><p>There was always a desire to own a tandem. They just looked right. They were symbolic of marital bliss. After all, there was the song about Daisy, one of the most famous ever written. This lovesick character, back in the 1890s, didn't want single bikes. When he was proposing '<em>Daisy, Daisy, give me an answer do</em>', he thought the lady would look sweet on a bicycle built for two.</p>
 <p>In the 1880s there was an extraordinary machine called a Sociable, where the blissful couple could ride side by side. Wouldn't it have been great to own one? In the 1890s it was de rigueur to be photographed on your bike and particularly on your tandem. For example, there is a famous shot of the Honorable Rupert and Mrs Carrington on their tandem at Government House, Melbourne. They look beautiful together. Mrs Carrington is wearing a perky straw hat with a feather and a long white gown, which reaches to her ankles. The Honorable Rupert is in a straw boater, a heavy suit and no bicycle clips. Ah, but here's an interesting point, Mrs Carrington is in command, controlling the handlebars. Rupert the Honorable is on the rear seat.</p>
 <p>It happens in all the vintage pictures, female up front, gentleman behind. Two reasons. It was not proper for the female to be so close to the male posterior and long skirts had a better chance of being caught in the chain at the rear. No matter how they sat, a tandem always looked more majestic, more powerful, than a single bike.</p>
 <p>In 1975, tandems were scarce indeed. Some enthusiasts had built their own by welding the frames of two single bikes. Experts like Ron Shepherd warned against them. They would flex like a coat hanger and cause eternal misery. Bill Gilbert, manager of General Accessories, said there was a tandem in their store at Malvern Star. It had been there for years. I could have it for $500.</p>
@@ -248,7 +248,7 @@ and ride it home.</p>
 <li><em>The Age</em>, 6 October 1978.</li>
 <li><em>Sun News Pictorial</em>, 3 November 1976.</li>
 </ol>
-
+</div>
       
       
         <!-- Desktop-only: right after content, as before. Mobile shows its
@@ -277,16 +277,30 @@ moves up into the article header there instead of appearing here). -->
 
 <hr>
 <h4 class="h6">Related topics</h4>
-<p class="small text-muted mb-3">
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
     
-    <a href="/topic/brian-dixon/" class="link-secondary">Brian Dixon</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/brian-dixon/" class="link-secondary">Brian Dixon</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Brian Dixon">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/jeff-hook/" class="link-secondary">Jeff Hook</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/jeff-hook/" class="link-secondary">Jeff Hook</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Jeff Hook">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/malvern-star/" class="link-secondary">Malvern Star</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/malvern-star/" class="link-secondary">Malvern Star</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Malvern Star">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/marie-dunstan/" class="link-secondary">Marie Dunstan</a>
-</p>
+    <li class="topic-jump-item">
+      <a href="/topic/marie-dunstan/" class="link-secondary">Marie Dunstan</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Marie Dunstan">Jump to &rarr;</a>
+    </li>
+  </ul>
+
 
 
 <br>
@@ -300,16 +314,30 @@ article content; last updated trails at the very end. -->
 <div class="d-md-none">
   
   <h4 class="h6">Related topics</h4>
-  <p class="small text-muted mb-3">
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
     
-    <a href="/topic/brian-dixon/" class="link-secondary">Brian Dixon</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/brian-dixon/" class="link-secondary">Brian Dixon</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Brian Dixon">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/jeff-hook/" class="link-secondary">Jeff Hook</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/jeff-hook/" class="link-secondary">Jeff Hook</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Jeff Hook">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/malvern-star/" class="link-secondary">Malvern Star</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/malvern-star/" class="link-secondary">Malvern Star</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Malvern Star">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/marie-dunstan/" class="link-secondary">Marie Dunstan</a>
-</p>
+    <li class="topic-jump-item">
+      <a href="/topic/marie-dunstan/" class="link-secondary">Marie Dunstan</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Marie Dunstan">Jump to &rarr;</a>
+    </li>
+  </ul>
+
   
   <small><a href="/search/">View all topics</a></small>
 
@@ -320,6 +348,97 @@ article content; last updated trails at the very end. -->
     </p>
   
 </div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
 
 
         </div>

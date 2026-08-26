@@ -188,7 +188,7 @@
 
         
       </header>
-      <p>Actually, liquor in Victoria is like the weather — everyone talks about it, but no one does anything about it. And, frankly, we enjoy talking about liquor more than anything. We didn't really get our famous 6 o'clock closing until 1917. At the time things were desperately serious as the Somme, and someone had the brilliant idea that if only the bars were closed at 6 p.m. this would win the war for us. As you may remember, we did win that war, so naturally we have stuck firmly to 6 o'clock closing ever since.</p>
+      <div class="article-body"><p>Actually, liquor in Victoria is like the weather — everyone talks about it, but no one does anything about it. And, frankly, we enjoy talking about liquor more than anything. We didn't really get our famous 6 o'clock closing until 1917. At the time things were desperately serious as the Somme, and someone had the brilliant idea that if only the bars were closed at 6 p.m. this would win the war for us. As you may remember, we did win that war, so naturally we have stuck firmly to 6 o'clock closing ever since.</p>
 <p>Yet we <em>have</em> tried to alter matters. There was the Royal Commission of 1944. In 1956 we had a referendum on closing hours: 10 p.m. closing, yes or no. On that occasion the Victorian Temperance Alliance, carrying the total abstinence flag, had a resounding victory — 60.7 per cent of the votes to 39.3 per cent for the would-be drinkers.</p>
 <p>Towards the end of 1959 we sent Judge Fraser on what many considered a dream assignment. This was to spend four months browsing round the pubs of the world inspecting how others imbibed alcohol. Well, the Judge returned, made an excellent report, but we accepted very few of his recommendations.</p>
 <p>During 1962 and 1963 the Bolte Government tried repeatedly to introduce a very kindly, innocuous liquor reform bill, which didn't even mention 10 p.m. closing; but on each occasion it was rejected by the combined forces of the Labor and Country Parties in the Legislative Council.</p>
@@ -207,7 +207,7 @@
 That we are the people of England, and we have not spoken yet&quot;.</em></p>
 <hr>
 <p><em>Source: Around Melbourne WHATEVER BECAME OF THOSE SANE DRINKERS?, The Bulletin, 1964-02-15. Accessible via the <a href="https://nla.gov.au/nla.obj-689189633">National Library of Australia's Trove database</a>.</em></p>
-
+</div>
       
       
         <!-- Desktop-only: right after content, as before. Mobile shows its
@@ -236,16 +236,30 @@ moves up into the article header there instead of appearing here). -->
 
 <hr>
 <h4 class="h6">Related topics</h4>
-<p class="small text-muted mb-3">
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
     
-    <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Henry Bolte">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/victorian-legislative-council/" class="link-secondary">Victorian Legislative Council</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/stanley-korman/" class="link-secondary">Stanley Korman</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Stanley Korman">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/stanley-korman/" class="link-secondary">Stanley Korman</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/the-age/" class="link-secondary">The Age</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="The Age">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/the-age/" class="link-secondary">The Age</a>
-</p>
+    <li class="topic-jump-item">
+      <a href="/topic/victorian-legislative-council/" class="link-secondary">Victorian Legislative Council</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Victorian Legislative Council">Jump to &rarr;</a>
+    </li>
+  </ul>
+
 
 
 <br>
@@ -259,16 +273,30 @@ article content; last updated trails at the very end. -->
 <div class="d-md-none">
   
   <h4 class="h6">Related topics</h4>
-  <p class="small text-muted mb-3">
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
     
-    <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Henry Bolte">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/victorian-legislative-council/" class="link-secondary">Victorian Legislative Council</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/stanley-korman/" class="link-secondary">Stanley Korman</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Stanley Korman">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/stanley-korman/" class="link-secondary">Stanley Korman</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/the-age/" class="link-secondary">The Age</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="The Age">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/the-age/" class="link-secondary">The Age</a>
-</p>
+    <li class="topic-jump-item">
+      <a href="/topic/victorian-legislative-council/" class="link-secondary">Victorian Legislative Council</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Victorian Legislative Council">Jump to &rarr;</a>
+    </li>
+  </ul>
+
   
   <small><a href="/search/">View all topics</a></small>
 
@@ -279,6 +307,97 @@ article content; last updated trails at the very end. -->
     </p>
   
 </div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
 
 
         </div>

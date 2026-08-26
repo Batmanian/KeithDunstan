@@ -188,7 +188,7 @@
 
         
       </header>
-      <p><em>If you don't get roast turkey and pudding with brandy sauce on Christmas Day, when will you get them?</em></p>
+      <div class="article-body"><p><em>If you don't get roast turkey and pudding with brandy sauce on Christmas Day, when will you get them?</em></p>
 <p>Back at the turn of the century, Henry Lawson, the most authentically Australian of writers, a man who could distil the very essence out of the gum trees and the ash out of the camp fire, wrote a tale called 'The Ghosts of Many Christmases.' He told of Christmas eating damper in the Outback, Christmas in a greasy six-penny Sydney restaurant, Christmas out on the western goldfields, where dinner was five pounds of corned beef boiled in a kerosene tin.</p>
 <!-- Pages 29–30 of the original: one column of text preceding the passage below is partially illegible in the scan due to spine curvature. The childhood Melbourne section begins mid-paragraph here. -->
 <p>...apparently they weren't bad Christians, either.</p>
@@ -212,7 +212,7 @@
 <p>Occasionally, I must confess, Australian Christmas can combine with tradition and be utterly good. A friend named Geoff Little lives at Shute Harbour on Hayman Island, on the Barrier Reef. His Christmas begins on a two-masted yacht heading out of harbour into a golden day of sunshine, threading through the islands to an uninhabited beach — foraging for fish, diving for oysters, building a driftwood fire, dining on barbecued coral trout and fresh oysters, then drifting home on the evening wind.</p>
 <!-- The concluding passage of the article (p. 33) is partially obscured in the scan by an adjacent Reader's Digest feature. The article closes with a reflection on children, Santa Claus, and the case for keeping a proper hot Christmas dinner. -->
 <p>But, with all respect, I love hot roast turkey and Christmas pudding with brandy sauce, and if you don't get them on Christmas Day, when will you get them?</p>
-
+</div>
       
       
         <!-- Desktop-only: right after content, as before. Mobile shows its
@@ -241,16 +241,30 @@ moves up into the article header there instead of appearing here). -->
 
 <hr>
 <h4 class="h6">Related topics</h4>
-<p class="small text-muted mb-3">
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
     
-    <a href="/topic/henry-lawson/" class="link-secondary">Henry Lawson</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/hayman-island/" class="link-secondary">Hayman Island</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Hayman Island">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/hayman-island/" class="link-secondary">Hayman Island</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/henry-lawson/" class="link-secondary">Henry Lawson</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Henry Lawson">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/mawson-station/" class="link-secondary">Mawson Station</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/mawson-station/" class="link-secondary">Mawson Station</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Mawson Station">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/mt-isa/" class="link-secondary">Mt Isa</a>
-</p>
+    <li class="topic-jump-item">
+      <a href="/topic/mt-isa/" class="link-secondary">Mt Isa</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Mt Isa">Jump to &rarr;</a>
+    </li>
+  </ul>
+
 
 
 <br>
@@ -264,16 +278,30 @@ article content; last updated trails at the very end. -->
 <div class="d-md-none">
   
   <h4 class="h6">Related topics</h4>
-  <p class="small text-muted mb-3">
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
     
-    <a href="/topic/henry-lawson/" class="link-secondary">Henry Lawson</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/hayman-island/" class="link-secondary">Hayman Island</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Hayman Island">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/hayman-island/" class="link-secondary">Hayman Island</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/henry-lawson/" class="link-secondary">Henry Lawson</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Henry Lawson">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/mawson-station/" class="link-secondary">Mawson Station</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/mawson-station/" class="link-secondary">Mawson Station</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Mawson Station">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/mt-isa/" class="link-secondary">Mt Isa</a>
-</p>
+    <li class="topic-jump-item">
+      <a href="/topic/mt-isa/" class="link-secondary">Mt Isa</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Mt Isa">Jump to &rarr;</a>
+    </li>
+  </ul>
+
   
   <small><a href="/search/">View all topics</a></small>
 
@@ -284,6 +312,97 @@ article content; last updated trails at the very end. -->
     </p>
   
 </div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
 
 
         </div>

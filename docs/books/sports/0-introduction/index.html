@@ -189,7 +189,7 @@
 
         
       </header>
-      <p>Australia is not the only country that is sport crazy. The Canadians have their passion for ice hockey, the Japanese and the Americans adore baseball, the South Americans are frenzied over soccer and the passion in England for the horse runs deep, but few countries have such a complete all-round sport mania as Australia.</p>
+      <div class="article-body"><p>Australia is not the only country that is sport crazy. The Canadians have their passion for ice hockey, the Japanese and the Americans adore baseball, the South Americans are frenzied over soccer and the passion in England for the horse runs deep, but few countries have such a complete all-round sport mania as Australia.</p>
 <p>Few countries have such a consuming determination to conquer at sport; and what other country devotes so much energy to thinking, talking about and living sport? Our television almost exists through sport and the sporting sections of our newspapers are the biggest in the world, particularly during the Melburnian winter, sport seems to swamp and stifle all other creative activities.</p>
 <p>I do not hate sport, indeed I am as passionately fond of it as most Australians, but the purpose of this book is to show that sport is a national obsession.</p>
 <p>The inspiration for it came from an exhibition entitled 'Sporting Life in Victoria', staged in the autumn of 1969 at the La Trobe Library in Melbourne. This exhibition was beautifully researched and presented, and I was fascinated to note that the Australian passion was not something which began in the 1940s or the 1950s, but that even a hundred years ago our tiny population was producing some of the world's best sporting crowds.</p>
@@ -197,7 +197,7 @@
 <p>Sport as an activity has been incredibly under-rated by our historians and in most important works it is barely mentioned. Perhaps I have hardly bruised the surface in this book, but if one wants to understand Australians, I believe it is important to study their age-old mania for games. This mania does not necessarily mean playing them—absurdly most Australians over the age of thirty prefer to stand by and look on.</p>
 <hr>
 <p class="lead"><a href="/sports/">Sports contents</a> · Next chapter: <a href="/books/sports/1-our-sporting-obsession/">Our Sporting Obsession</a></p>
-
+</div>
       
       
         <!-- Desktop-only: right after content, as before. Mobile shows its
@@ -226,18 +226,35 @@ moves up into the article header there instead of appearing here). -->
 
 <hr>
 <h4 class="h6">Related topics</h4>
-<p class="small text-muted mb-3">
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
     
-    <a href="/topic/la-trobe-library/" class="link-secondary">La Trobe Library</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/carbine/" class="link-secondary">Carbine</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Carbine">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/harry-searle/" class="link-secondary">Harry Searle</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Harry Searle">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/prince-philip/" class="link-secondary">Prince Philip</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/la-trobe-library/" class="link-secondary">La Trobe Library</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="La Trobe Library">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/harry-searle/" class="link-secondary">Harry Searle</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/carbine/" class="link-secondary">Carbine</a>
-</p>
+    <li class="topic-jump-item">
+      <a href="/topic/prince-philip/" class="link-secondary">Prince Philip</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Prince Philip">Jump to &rarr;</a>
+    </li>
+  </ul>
+
 
 
 <br>
@@ -251,18 +268,35 @@ article content; last updated trails at the very end. -->
 <div class="d-md-none">
   
   <h4 class="h6">Related topics</h4>
-  <p class="small text-muted mb-3">
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
     
-    <a href="/topic/la-trobe-library/" class="link-secondary">La Trobe Library</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/carbine/" class="link-secondary">Carbine</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Carbine">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/harry-searle/" class="link-secondary">Harry Searle</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Harry Searle">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/prince-philip/" class="link-secondary">Prince Philip</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/la-trobe-library/" class="link-secondary">La Trobe Library</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="La Trobe Library">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/harry-searle/" class="link-secondary">Harry Searle</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/carbine/" class="link-secondary">Carbine</a>
-</p>
+    <li class="topic-jump-item">
+      <a href="/topic/prince-philip/" class="link-secondary">Prince Philip</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Prince Philip">Jump to &rarr;</a>
+    </li>
+  </ul>
+
   
   <small><a href="/search/">View all topics</a></small>
 
@@ -273,6 +307,97 @@ article content; last updated trails at the very end. -->
     </p>
   
 </div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
 
 
         </div>

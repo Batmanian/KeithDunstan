@@ -187,7 +187,7 @@
 
         
       </header>
-      <p>Doing this is like sitting naked in the bath while a television crew films you for the 'Today' show. A dreadful experience. So why do it? Vanity? It is an act of vanity, yes. But I must put in a plea of guilty with extenuating circumstances.</p>
+      <div class="article-body"><p>Doing this is like sitting naked in the bath while a television crew films you for the 'Today' show. A dreadful experience. So why do it? Vanity? It is an act of vanity, yes. But I must put in a plea of guilty with extenuating circumstances.</p>
 <p>Heaven knows how many times I have thought about my great-grandfather John Dunstan, a tin miner who was born in Penryn, Cornwall, in 1833. He arrived in Adelaide with his wife, Nanny Collins, on 20 August 1854 aboard the William Prowse, and from there they proceeded overland to Ballarat. Almost certainly John Dunstan would have been at Eureka, but I know nothing of his life, not a thing about that huge adventure of leaving home for ever, sailing out to the new colonies, establishing a life at the diggings. Was he filled with fury over the injustices he found in the young colony? Did he and young Nanny have their triumphs? Did they turn up any gold? Who knows? There are no diaries, no letters. All gone.</p>
 <p>Or what about another great-grandfather, Henry Mitchell, a miner also? He came from Brunswick, Germany, in 1855. In 1861 he married Harriet Ann Andrews of Portreath, Cornwall, at Brown's Diggings on 3 March. What a fascinating occasion that must have been. But I know practically nothing about them except that Great-grandfather Mitchell died young. Just ten years after his arrival in Australia he was riding from Scarsdale to Smythesdale near Ballarat when a dog frightened his horse. The Ballarat Star of 10 January 1885 described it as a 'yelping cur'. Henry fell, suffered a kick from his horse and died. How did Harriet Ann and their two children survive after that If only Harriet Ann had written something down.</p>
 <p>Every family should have its own historian, biographer, diarist, someone to keep records of lives that may have seemed ordinary in 1850, 1880 or 1900, but are fascinating to us now. There is a modern craze for genealogy, a great desire to know about our ancestors, but most genealogists only uncover bare bones - births, deaths and marriages. We need to put humanity on those bones.</p>
@@ -204,7 +204,7 @@
 <p>After the writing there was the hunt to find the right title. 'A Fortunate Life' would have been ideal, but unfortunately it had already been taken. 'Tandem' I liked because for more than forty years my life has been in tandem with my wife, Marie Rose. We love tandem bicycling. The cyclist who rides number two on a tandem is known as the stoker. This life would have gone nowhere without Marie Rose as the stoker. Finally we went back to the words of my old science teacher, Charlie Cameron, who had tried valiantly to teach me the mysteries of chemistry and physics. One day in desperation he had said: 'Dunstan, you are stupid. You have no brains at all. But you do have guts'.
 There is something in that. Even if it does not require superior brain, just possibly it takes guts to write an autobiography.</p>
 <hr>
-Continue to chapter one: <a href="/books/no-brains-at-all/1-a-nice-suburb/">A nice suburb</a>
+Continue to chapter one: <a href="/books/no-brains-at-all/1-a-nice-suburb/">A nice suburb</a></div>
       
       
         <!-- Desktop-only: right after content, as before. Mobile shows its
@@ -233,14 +233,25 @@ moves up into the article header there instead of appearing here). -->
 
 <hr>
 <h4 class="h6">Related topics</h4>
-<p class="small text-muted mb-3">
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
     
-    <a href="/topic/autobiography/" class="link-secondary">Autobiography</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/autobiography/" class="link-secondary">Autobiography</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Autobiography">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/cornwall/" class="link-secondary">Cornwall</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/brunswick-germany/" class="link-secondary">Brunswick - Germany</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Brunswick - Germany">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/brunswick-germany/" class="link-secondary">Brunswick - Germany</a>
-</p>
+    <li class="topic-jump-item">
+      <a href="/topic/cornwall/" class="link-secondary">Cornwall</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Cornwall">Jump to &rarr;</a>
+    </li>
+  </ul>
+
 
 
 <br>
@@ -254,14 +265,25 @@ article content; last updated trails at the very end. -->
 <div class="d-md-none">
   
   <h4 class="h6">Related topics</h4>
-  <p class="small text-muted mb-3">
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
     
-    <a href="/topic/autobiography/" class="link-secondary">Autobiography</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/autobiography/" class="link-secondary">Autobiography</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Autobiography">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/cornwall/" class="link-secondary">Cornwall</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/brunswick-germany/" class="link-secondary">Brunswick - Germany</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Brunswick - Germany">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/brunswick-germany/" class="link-secondary">Brunswick - Germany</a>
-</p>
+    <li class="topic-jump-item">
+      <a href="/topic/cornwall/" class="link-secondary">Cornwall</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Cornwall">Jump to &rarr;</a>
+    </li>
+  </ul>
+
   
   <small><a href="/search/">View all topics</a></small>
 
@@ -272,6 +294,97 @@ article content; last updated trails at the very end. -->
     </p>
   
 </div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
 
 
         </div>

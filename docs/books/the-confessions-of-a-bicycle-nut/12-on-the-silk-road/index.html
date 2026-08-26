@@ -188,7 +188,7 @@
 
         
       </header>
-      <p>The ultimate dream, of course, was to ride a bicycle in China. China was the one place where the bicycle prevailed, where the bicycle was king. The official figure was 700 million bicycles on the roads, and undoubtedly this was a conservative estimate.</p>
+      <div class="article-body"><p>The ultimate dream, of course, was to ride a bicycle in China. China was the one place where the bicycle prevailed, where the bicycle was king. The official figure was 700 million bicycles on the roads, and undoubtedly this was a conservative estimate.</p>
 <p>In 1983 a Sydney travel agent, Christine Gee, started organising bicycle tours to China. Her inspiration was a Hong Kong-born Chinese, Charles Ng. Charles was an ebullient, high-spirited, bike-riding character, who never stopped talking. He pronounced his name 'Nnnnnn'. Charles dabbled with these adventures for the first time in 1981 by organising bike tours for Americans.</p>
 <p>When he suggested the idea, the Chinese were not interested. They couldn't believe he was serious. He was just organising an evil Western spying expedition. Why would affluent Americans leave their Cadillacs, Buicks and Fords, to come to China to ride push bikes around paddy fields?</p>
 <p>He worked on the Chinese for a year before they would accept it. He told us later: &quot;You see, the Chinese ride bicycles because they have to. The use them for everything, for carrying the rice, the firewood, even pigs. The truth is, they hate them. If they could get into cars like Westerners they would dump those bikes so fast, Beijing would become like Los Angeles.&quot;</p>
@@ -253,7 +253,7 @@
 <p>No stopping, we were not allowed even to pause. Macabre it was, perhaps horrifying, and yet...and yet, it was a dignified, moving experience.</p>
 <p>We left Beijing by aircraft back to Guanqzhou and now it was time for shopping. Glorious hand-made silk blouses were to be had for $15 to $20. We were taken to a silk factory and we looked in wonder at thousands of rolls of pure silk in myriads of colours. It suddenly occurred to me that my daughter Sarah was marrying Peter Cudlipp in six weeks time. If only? Yes, I could. I bought five yards of pure, heavy bridal silk for $65. The same silk would have cost hundreds in Australia.</p>
 <p>I was on a bicycle at the time and I wondered how many parents had carried back the wedding dress for their daughter in a bicycle pannier. March 3, 1983 at Trinity College Chapel, Melbourne University was quite a day. Sarah looked very, very beautiful in that Chinese silk dress.</p>
-
+</div>
       
       
         <!-- Desktop-only: right after content, as before. Mobile shows its
@@ -282,16 +282,30 @@ moves up into the article header there instead of appearing here). -->
 
 <hr>
 <h4 class="h6">Related topics</h4>
-<p class="small text-muted mb-3">
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
     
-    <a href="/topic/sarah-dunstan/" class="link-secondary">Sarah Dunstan</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/beijing/" class="link-secondary">Beijing</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Beijing">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/mao-tse-tung/" class="link-secondary">Mao Tse Tung</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/guangzhou/" class="link-secondary">Guangzhou</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Guangzhou">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/beijing/" class="link-secondary">Beijing</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/mao-tse-tung/" class="link-secondary">Mao Tse Tung</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Mao Tse Tung">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/guangzhou/" class="link-secondary">Guangzhou</a>
-</p>
+    <li class="topic-jump-item">
+      <a href="/topic/sarah-dunstan/" class="link-secondary">Sarah Dunstan</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sarah Dunstan">Jump to &rarr;</a>
+    </li>
+  </ul>
+
 
 
 <br>
@@ -305,16 +319,30 @@ article content; last updated trails at the very end. -->
 <div class="d-md-none">
   
   <h4 class="h6">Related topics</h4>
-  <p class="small text-muted mb-3">
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
     
-    <a href="/topic/sarah-dunstan/" class="link-secondary">Sarah Dunstan</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/beijing/" class="link-secondary">Beijing</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Beijing">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/mao-tse-tung/" class="link-secondary">Mao Tse Tung</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/guangzhou/" class="link-secondary">Guangzhou</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Guangzhou">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/beijing/" class="link-secondary">Beijing</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/mao-tse-tung/" class="link-secondary">Mao Tse Tung</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Mao Tse Tung">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/guangzhou/" class="link-secondary">Guangzhou</a>
-</p>
+    <li class="topic-jump-item">
+      <a href="/topic/sarah-dunstan/" class="link-secondary">Sarah Dunstan</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sarah Dunstan">Jump to &rarr;</a>
+    </li>
+  </ul>
+
   
   <small><a href="/search/">View all topics</a></small>
 
@@ -325,6 +353,97 @@ article content; last updated trails at the very end. -->
     </p>
   
 </div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
 
 
         </div>

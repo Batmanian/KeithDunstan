@@ -12037,3 +12037,30 @@ blockquote {
   width: fit-content;
   margin-top: 1rem;
 }
+
+/* Related topics list on article pages: a "Jump to" link appears next to
+   each topic on hover/focus and scrolls to + flashes its first occurrence
+   in the article body. */
+.topic-jump-list .topic-jump-item {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.topic-jump-list .topic-jump-link {
+  opacity: 0;
+  white-space: nowrap;
+  transition: opacity 0.15s ease-in-out;
+}
+.topic-jump-list .topic-jump-item:hover .topic-jump-link,
+.topic-jump-list .topic-jump-item:focus-within .topic-jump-link {
+  opacity: 1;
+}
+
+.topic-jump-highlight {
+  background-color: #fff3a3;
+  transition: background-color 1.5s ease-out;
+}
+.topic-jump-highlight.topic-jump-highlight--settled {
+  background-color: transparent;
+}

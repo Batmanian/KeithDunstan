@@ -185,7 +185,7 @@
 
         
       </header>
-      <p>Last week on this page your pioneer misled you a trifle. He suggested that the most exciting entertainments available in Melbourne on a Sunday were the Botanic Gardens and animals — live at the Zoo and stuffed at the Museum. This, of course, was completely overlooking the marvellous craze of the 'sixties — looking at &quot;display&quot; houses. Indeed, one trembles to think what it will be like now that Mr Bury has introduced his Home Savings Grant Bill with its lovely £250 grant. Even with the Bill still warm in his hand the ads have started to appear: &quot;Honeymooners! Visit Our Dream Sites This Weekend. Plan Your Future Now. Deposit, £250.&quot;</p>
+      <div class="article-body"><p>Last week on this page your pioneer misled you a trifle. He suggested that the most exciting entertainments available in Melbourne on a Sunday were the Botanic Gardens and animals — live at the Zoo and stuffed at the Museum. This, of course, was completely overlooking the marvellous craze of the 'sixties — looking at &quot;display&quot; houses. Indeed, one trembles to think what it will be like now that Mr Bury has introduced his Home Savings Grant Bill with its lovely £250 grant. Even with the Bill still warm in his hand the ads have started to appear: &quot;Honeymooners! Visit Our Dream Sites This Weekend. Plan Your Future Now. Deposit, £250.&quot;</p>
 <p>The thing to do is to go out to what we call the Perambulator Belt into darkest Doncaster and nicest Nunawading. You look at the classified ads on a Saturday morning, then plan your day. For example, a short time back there was a beauty, a £150,000 display village at East Doncaster. The traffic jams were two miles long and 32,000 people surged through in the first weekend.</p>
 <p>The terminology takes a little understanding. An OYOHU is an own-your-own-home-unit and an OYOV is an own-your-own-villa. The FLAT, you understand, is outdated. Then you will see EXPOSITION homes advertised as opposed to mere EXHIBITION homes. With an exposition home you are entitled to expect a display on a grander style, rather like the New York World's Fair. You get the big sell. For example, on a recent excursion I found an exposition house with a huge board outside which read: THE FUTURAMIC SHEERLINE. This did not confuse an old hand. I checked the classified ads and realised at once that it was the SF BV 3 spac. bedrm., WW carpets, BIW robes, EHWS that I had been reading about.</p>
 <p>Apart from expositions there has been a swing to Old England. You get a triple-fronted, dream kit., BV named &quot;Tewkesbury Manor&quot; or a white brick SP lounge DD to dining-rm called &quot;Canterbury Mews&quot;.</p>
@@ -202,7 +202,7 @@
 <p>Maybe it would be a good idea if the Housing Commission added a few of these places to their list of display houses, so that all Victoria could look at them on their wonderful week-end round.</p>
 <hr>
 <p><em>Source: Around Melbourne THE OYOHUS OF THE PRAM BELT, The Bulletin, 1964-05-16. Accessible via the <a href="https://nla.gov.au/nla.obj-698137325">National Library of Australia's Trove database</a>.</em></p>
-
+</div>
       
       
         <!-- Desktop-only: right after content, as before. Mobile shows its
@@ -231,10 +231,15 @@ moves up into the article header there instead of appearing here). -->
 
 <hr>
 <h4 class="h6">Related topics</h4>
-<p class="small text-muted mb-3">
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
     
-    <a href="/topic/brotherhood-of-st-laurence/" class="link-secondary">Brotherhood of St Laurence</a>
-</p>
+    <li class="topic-jump-item">
+      <a href="/topic/brotherhood-of-st-laurence/" class="link-secondary">Brotherhood of St Laurence</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Brotherhood of St Laurence">Jump to &rarr;</a>
+    </li>
+  </ul>
+
 
 
 <br>
@@ -248,10 +253,15 @@ article content; last updated trails at the very end. -->
 <div class="d-md-none">
   
   <h4 class="h6">Related topics</h4>
-  <p class="small text-muted mb-3">
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
     
-    <a href="/topic/brotherhood-of-st-laurence/" class="link-secondary">Brotherhood of St Laurence</a>
-</p>
+    <li class="topic-jump-item">
+      <a href="/topic/brotherhood-of-st-laurence/" class="link-secondary">Brotherhood of St Laurence</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Brotherhood of St Laurence">Jump to &rarr;</a>
+    </li>
+  </ul>
+
   
   <small><a href="/search/">View all topics</a></small>
 
@@ -262,6 +272,97 @@ article content; last updated trails at the very end. -->
     </p>
   
 </div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
 
 
         </div>

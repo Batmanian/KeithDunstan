@@ -186,7 +186,7 @@
 
         
       </header>
-      <p>Always I have been a most interested student of Mr James Bond, so it was with some excitement that I noticed the advertisement in the newspapers: &quot;MI4 Investigations Services. Enrol Now With the Australian Academy of Investigation.&quot; Clearly this was a school for private eyes. I slipped my Ronson storm-proof lighter into my fob pocket, took out my 9mm Luger and strapped on my shoulder holster.</p>
+      <div class="article-body"><p>Always I have been a most interested student of Mr James Bond, so it was with some excitement that I noticed the advertisement in the newspapers: &quot;MI4 Investigations Services. Enrol Now With the Australian Academy of Investigation.&quot; Clearly this was a school for private eyes. I slipped my Ronson storm-proof lighter into my fob pocket, took out my 9mm Luger and strapped on my shoulder holster.</p>
 <p>After parking my 4½ litre drophead Bentley it was a matter of minutes before I was seated opposite the chief of MI4 in his Collins Street office. He was tall, over six feet, and his supple frame was clothed in a dark blue suit. He was John Langham, a former Melbourne CIB detective. I told him that I was fit, ready, and able to sign up with MI4 as an agent.</p>
 <p>The disillusionment was not easy to bear. Mr Langham gave a dry laugh. He said they had no connection whatever with MI5. The similarity in names was merely a coincidence. Nor did the academy have any connection with high-grade espionage; it merely offered a 15-phase course for £35 which covered process serving, identification, fingerprints and the bread-and-butter lines like accident investigation for insurance companies, missing persons and divorce.</p>
 <p>Mr Langham showed me the course notes and I quickly looked up phase 7, which gave advice on divorce work. It said: &quot;The motor car has now become an important medium for illicit consorting. Nowadays they are fast and spacious and provide excellent cover for acts that cannot be carried out in parks and gardens.&quot;</p>
@@ -196,7 +196,7 @@
 <p>So I took Mr Langham's 15-phase course, a pile of literature 12 inches high. Obviously I will never become a James Bond, but it will come in useful. You may be amazed at some of the undercover stories you will read in THE BULLETIN from now on.</p>
 <hr>
 <p><em>Source: Around Melbourne NOW WATCH OUT FOR THOSE INSIDE STORIES!, The Bulletin, 1964-06-06. Accessible via the <a href="https://nla.gov.au/nla.obj-698165912">National Library of Australia's Trove database</a>.</em></p>
-
+</div>
       
       
         <!-- Desktop-only: right after content, as before. Mobile shows its
@@ -225,12 +225,20 @@ moves up into the article header there instead of appearing here). -->
 
 <hr>
 <h4 class="h6">Related topics</h4>
-<p class="small text-muted mb-3">
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
     
-    <a href="/topic/james-bond/" class="link-secondary">James Bond</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Collins Street">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>
-</p>
+    <li class="topic-jump-item">
+      <a href="/topic/james-bond/" class="link-secondary">James Bond</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="James Bond">Jump to &rarr;</a>
+    </li>
+  </ul>
+
 
 
 <br>
@@ -244,12 +252,20 @@ article content; last updated trails at the very end. -->
 <div class="d-md-none">
   
   <h4 class="h6">Related topics</h4>
-  <p class="small text-muted mb-3">
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
     
-    <a href="/topic/james-bond/" class="link-secondary">James Bond</a>,
+    <li class="topic-jump-item">
+      <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Collins Street">Jump to &rarr;</a>
+    </li>
     
-    <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>
-</p>
+    <li class="topic-jump-item">
+      <a href="/topic/james-bond/" class="link-secondary">James Bond</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="James Bond">Jump to &rarr;</a>
+    </li>
+  </ul>
+
   
   <small><a href="/search/">View all topics</a></small>
 
@@ -260,6 +276,97 @@ article content; last updated trails at the very end. -->
     </p>
   
 </div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
 
 
         </div>
