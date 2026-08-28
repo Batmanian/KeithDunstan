@@ -102,6 +102,8 @@ topics:
     description: Andrew Peacock was a long-serving Liberal politician and twice leader of the federal Opposition through the 1980s and early 1990s, whose reported habit of keeping a car-boot fax machine and cellular phone struck Keith Dunstan as the emblem of a newly gadget-obsessed Australia.
   - name: Anglicanism
     description: Anglicanism is the Protestant tradition descended from the Church of England, established when Henry VIII broke from Rome in 1534; Keith Dunstan wrote about wrestling with faith and eventually being drawn to its High Church wing as a young journalist in Brisbane.
+  - name: Annie Besant
+    description: Annie Besant was an English freethinker and birth control advocate whose pamphlet 'The Law of Population' triggered a landmark 1888 Sydney obscenity prosecution, resolved in her favour by a judgment Keith Dunstan quoted at length in 'Wowsers' as decades ahead of its time.
   - name: Annie Oakley
     description: Annie Oakley was the celebrated sharpshooter of Buffalo Bill's Wild West show, invoked by Keith Dunstan as the model for the 1930s New York divorcee playing at horse riding on a Reno dude ranch while waiting out her residency.
   - name: Anthony Eden
@@ -392,6 +394,8 @@ topics:
     description: Donald Dunstan was the reforming Labor Premier of South Australia who served two terms from 1967 to 1979, and whose new licensing legislation extending hotel trading hours to 10 p.m. ended the state's era of six o'clock closing, the event with which Keith Dunstan closed 'Wowsers'.
   - name: Donald Horne
     description: Donald Horne was the author and social critic best known for 'The Lucky Country', whose writing on Australians' ingrained distrust of authority and the police Keith Dunstan cited to explain the enduring appeal of Ned Kelly.
+  - name: Duke of Edinburgh
+    description: Prince Alfred, Duke of Edinburgh and Queen Victoria's second son, toured the Australian colonies in 1867-68 as captain of H.M.S. Galatea, a visit Keith Dunstan repeatedly cited in 'Wowsers' for its brushes with colonial vice, from the Theatre Royal's notorious 'Saddling Paddock' to a Sydney bagnio shadowed by a police detective.
   - name: Doug Crittenden
     description: Doug Crittenden was the gregarious grocer-turned-wine-retailer who ran the family firm O.R. Crittenden & Co. in Toorak's Malvern Road from the 1940s, discovering Great Western's unwanted white wine and reselling it as the bestselling 'Seven Oaks Riesling', and whose palate Keith Dunstan ranked among the finest in the country.
   - name: Donald Wallace
@@ -486,6 +490,8 @@ topics:
     description: Gembrook is the town at the end of the narrow-gauge Puffing Billy line through the Dandenong Ranges, and the district where used-car dealer Emmanuel Margolin's cattle stud, Langley Park, was sold off for a fraction of its value during his credit-squeeze collapse.
   - name: Geoffrey Blainey
     description: Geoffrey Blainey is one of Australia's most prolific and readable historians, whose 'A History of Camberwell' Keith Dunstan drew on in 'Wowsers' to explain why the Melbourne suburb voted itself dry in 1920 and stayed that way for a generation.
+  - name: George Meudell
+    description: George Meudell was a Melbourne stockbroker, company promoter and bon viveur whose gusty memoir 'The Pleasant Career of a Spendthrift' Keith Dunstan drew on in 'Wowsers' for its nostalgic, unrepentant account of the roguish, wide-open Melbourne of the 1876 Land Boom years.
   - name: Georg Gruber
     description: Georg Gruber conducted the Vienna Boys Choir from 1933 to 1937 before founding his own touring ensemble, the Vienna Mozart Boys' Choir, in 1938, recruiting talents like Walter Hauser for a nine-month world tour that stranded the boys in Australia when war broke out.
   - name: Georges
@@ -670,6 +676,8 @@ topics:
     description: Lex Davison was a four-time Australian Grand Prix winner whose first taste for speed came not in a racing car but on skates at Melbourne's Glaciarium, racing to the Post Horn Gallop and jumping chairs and barrels.
   - name: Luna Park
     description: Luna Park is St Kilda's seaside amusement park, opened in 1912, a Melbourne landmark that turns up in Keith Dunstan's writing alongside E.W. Cole's Book Arcade as one of the city's great, slightly disreputable pleasure palaces.
+  - name: Madame Brussels
+    description: Madame Brussels ran Melbourne's most famous and durable Lonsdale Street brothel from at least 1876 until a 1908 clean-up under a new Vagrancy Act, a fixture of the city's vice trade whose quiet, benevolent-midwife demeanour in court Keith Dunstan contrasted with her reputation in 'Wowsers'.
   - name: Malcolm H Ellis
     description: Malcolm H. Ellis was an Australian historian and biographer whose harsh verdict on Ned Kelly, as one of the most cold-blooded and egotistical criminals ever hanged in the country, Keith Dunstan set against the romantic readings of Manning Clark and Dame Mabel Brookes.
   - name: Malvern Star
@@ -686,6 +694,8 @@ topics:
     description: Marilyn Monroe was the American film star Keith Dunstan cited both in 1952's 'Clash by Night' and, a decade later, in her final film 'The Misfits', as evidence that denim could look as good on Hollywood's most famous figure as on a ranch hand.
   - name: Marion Mahony Griffin
     description: Marion Mahony Griffin was the American architect who designed the Capitol Theatre's celebrated prism-and-cube ceiling alongside her husband Walter Burley Griffin, a piece of Melbourne picture-palace grandeur Keith Dunstan noted the National Gallery's director hoped to salvage when the cinema closed in 1964.
+  - name: Marshall Hall
+    description: G.W.L. Marshall Hall was the University of Melbourne's brilliant, provocative first Ormond Professor of Music, whose 1898 speech glorifying war and a subsequent volume of erotic verse cost him his chair in a bitter 1900 re-appointment battle Keith Dunstan detailed at length in 'Wowsers'.
   - name: Marshall McLuhan
     description: Marshall McLuhan was the Canadian media theorist whose observation that jeans represented 'a rip-off and a rage against the establishment' Keith Dunstan used as a chapter epigraph in his history of Just Jeans.
   - name: Martin Luther King Jr.
@@ -860,6 +870,8 @@ topics:
     description: Robert F. Kennedy was the American senator and presidential candidate assassinated in 1968, one of the killings Keith Dunstan cited as searing blood into the counterculture decade that made denim a badge of protest.
   - name: Robert Heffron
     description: Robert Heffron was the Labor Premier of New South Wales through the early 1960s, whose sparring with Victoria's Henry Bolte over jetports, industry and interstate boasting Keith Dunstan turned into a running gag, once proposing the two premiers settle their rivalry in a railway carriage at Albury.
+  - name: Robert Close
+    description: Robert Close was the Melbourne novelist gaoled and fined in 1948 over his novel 'Love Me Sailor', a sentence overturned on appeal but not before it became, as Keith Dunstan recorded in 'Wowsers', a byword for the harshness of Australian obscenity prosecutions.
   - name: Robin Boyd
     description: Robin Boyd was an Australian architect, writer and critic known for championing modernist architecture and shaping public debate about Australian design. He was also a prominent commentator on suburban taste and national identity, most famously through his book The Australian Ugliness.
   - name: Ron Barassi
@@ -926,6 +938,8 @@ topics:
     description: Sir Robert Menzies was Australia's longest-serving Prime Minister, leading the country continuously from 1949 to 1966 and appearing throughout Keith Dunstan's writing both as a recurring figure in his Bulletin columns on Melbourne's civic self-regard and, in his more ceremonial guise once knighted, bricking a bottle of Chateau Tahbilk red into a cellar wall not to be opened until 2060 and entertaining royalty on their tours of Australia.
   - name: Sir Rohan Delacombe
     description: Sir Rohan Delacombe was Governor of Victoria through the 1960s, a vice-regal fixture at events from a Wangaratta wool festival's 'Wild Colonial' banquet to a cinema's world-first screening of 'Cleopatra', appearing in Keith Dunstan's writing purely in his ceremonial capacity.
+  - name: Sir Thomas Blamey
+    description: Sir Thomas Blamey was Australia's only Field Marshal and a former Chief Commissioner of Victoria Police, who as Commissioner in the early 1930s finally broke the 75-year-old brothel district of Little Lonsdale Street with sustained police picketing, as Keith Dunstan recounted in 'Wowsers'.
   - name: Sir Thomas White
     description: Sir Thomas White was Australia's High Commissioner in London, who complained that the BBC never consulted his office before a slang-packed 1956 Australia Day broadcast fronted by Dick Bentley, part of the storm Barry Humphries recounted in his foreword to 'Knockers'.
   - name: Sir William Gunn

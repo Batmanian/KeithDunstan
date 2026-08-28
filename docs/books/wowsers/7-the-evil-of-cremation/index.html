@@ -1,0 +1,477 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Evil of Cremation</title>
+<meta name="title" content="The Evil of Cremation">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Traces Australia&#39;s slow, resisted shift from burial to cremation, from Dr Neild&#39;s 1873 pitch to the Royal Society and the scandalous 1895 beach cremation of Mrs Henniker at Sandringham, through the founding of Melbourne&#39;s Fawkner crematorium in 1927, to the eventual normalisation of cremation across every state.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/wowsers/7-the-evil-of-cremation/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="The Evil of Cremation">
+<meta property="og:description" content="Traces Australia&#39;s slow, resisted shift from burial to cremation, from Dr Neild&#39;s 1873 pitch to the Royal Society and the scandalous 1895 beach cremation of Mrs Henniker at Sandringham, through the founding of Melbourne&#39;s Fawkner crematorium in 1927, to the eventual normalisation of cremation across every state.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="The Evil of Cremation">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/wowsers/7-the-evil-of-cremation/">
+<meta name="twitter:title" content="The Evil of Cremation">
+<meta name="twitter:description" content="Traces Australia&#39;s slow, resisted shift from burial to cremation, from Dr Neild&#39;s 1873 pitch to the Royal Society and the scandalous 1895 beach cremation of Mrs Henniker at Sandringham, through the founding of Melbourne&#39;s Fawkner crematorium in 1927, to the eventual normalisation of cremation across every state.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="The Evil of Cremation">
+<link rel="canonical" href="https://keithdunstan.org/books/wowsers/7-the-evil-of-cremation/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1968-11-11">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="Wowsers">
+<meta property="article:tag" content="Fawkner">
+<meta property="article:tag" content="Sandringham">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Published works</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">The Evil of Cremation</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            10
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1968-11-11">1968</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Traces Australia&#39;s slow, resisted shift from burial to cremation, from Dr Neild&#39;s 1873 pitch to the Royal Society and the scandalous 1895 beach cremation of Mrs Henniker at Sandringham, through the founding of Melbourne&#39;s Fawkner crematorium in 1927, to the eventual normalisation of cremation across every state.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="Wowsers">
+         <!--<a href="/tags/fawkner/" class="btn btn-outline-dark btn-sm me-2">Fawkner</a><a href="/tags/sandringham/" class="btn btn-outline-dark btn-sm me-2">Sandringham</a>-->
+
+        
+      </header>
+      <div class="article-body"><p>The brochure from the Melbourne Crematorium is in a deep tasteful green and on the cover there is a nice colour picture of a rose garden. This brochure is in the noblest of crematorium English, and the introduction goes thus: 'The Crematorium, set in the lovely parklands of the new Melbourne General Cemetery, embodies all the best of modern thought to make the passing of our loved ones as beautiful as possible. Here, in the colourful gardens and shady paths, one may meditate amongst the beauties of nature which breathe an atmosphere of life—not death. Death is not an end, but the entry to a new life. The trail of love is endless and lies in the human heart. Why, here is its very start.'</p>
+<p>So much for the introduction. Inside there are some telling arguments: 'Rain makes a burial even more ghastly than usual, but it does not affect a cremation. Who would compare the quiet dissappearance of the casket at the end of the cremation service, and the comfort of the knowledge that all that has to be has taken place, with the anguish of the last terrible moments of earth burial and the thoughts that follow . . . No matter how thickly settled Melbourne may, in the process of time, become, the Melbourne Crematorium at Fawkner will forever, while human life exists, remain a region of peace, tranquillity, and beauty.'</p>
+<p>In the nineteenth century it was a different story. Cremation was abhorrent, and, if not un-Christian, at the very least disrespectful to the dead. There was always the feeling that if there were a second coming and the trumpets blew, the dead would still be found at their original address and would rise up in front of their elegantly carved headstones.</p>
+<!-- Page 158 is missing from the scan supplied for transcription; its content bridges the resurrection objection above and the Bulletin quip about reclothing a skeleton that opens page 159, and has not been transcribed. -->
+<p>The <em>Bulletin</em> said there was one big factor that was holding up cremation. Devoted souls believed in the Almighty's ability to reclothe a skeleton, but doubted his ability to reform from ash.<a href="#1"><sup>1</sup></a></p>
+<p>England's first crematorium opened at Woking in 1885, and even in 1873 a small group of Melbourne enthusiasts was fighting for cremation. At a meeting of the Royal Society on 8 December 1873, a Dr Neild called for this new method for disposal of the dead. He said cemeteries caused millions of deaths yearly from disease, and he told of the poisonous fumes of sulphurated gas, the odours that rose from the graves.</p>
+<p><em>Melbourne Punch</em> was amused. It put this verse into the mouth of an undertaker:<a href="#2"><sup>2</sup></a></p>
+<blockquote>
+The most villainous scheme I have ever heard!<br>
+A really most scandalous plan!<br>
+Mere theory, wicked, unjust, absurd,<br>
+Outraging the Nature of Man!!!<br>
+Why this would abolish the sexton's spade,<br>
+The mutes, the hearse, and the poles,<br>
+E'en the parsons allow for our noble trade,<br>
+They never burn aught but souls.<br>
+But NEILD would plough over the cemetery's sod,<br>
+And rifle each grass-grown mound,<br>
+And would turn into ashes the image of GOD,<br>
+And the oven a burying ground!
+</blockquote>
+<p><em>Punch</em> optimistically believed that cremation would be the end of almost all funeral expenses: 'Has it ever occurred to anyone who has scanned the items of an undertaker's bill that while that sable bird of prey was allowed to clothe and coffin a corpse at so great a cost to the survivors, there are hundreds of persons in the community, living beings be it remembered, without a shirt on their backs or roofs to shelter them.'<a href="#3"><sup>3</sup></a></p>
+<p>On 30 October 1892, the Melbourne Cremation Society was formed. Professor Kernot of Melbourne University presided, and he was in good form. Cremation could be done decently for £1, relatives could be kept in urns on the mantlepiece, and when eventually a crematorium was built at Frankston, the body could obtain a single ticket and the mourners a return.<a href="#4"><sup>4</sup></a></p>
+<p>Melbourne citizens were horrified at this levity, and there were many letters of protest to the newspapers. The Professor was roundly condemned by the <em>Argus,</em> and so was his society. In praise of old-fashioned methods, the newspaper said:</p>
+<p>One has but to walk into a Melbourne cemetery and see the fresh flowers placed on graves to wither, and then one will understand how completely the sentiment of the living has adapted itself to the custom of the burial . . . the advocates of cremation must bear in mind they are proposing to change a custom which has the sanctity of religion, which has been made sacred by the feelings of many generations of men and women, and which is regarded as the only reverent and fitting method of treating the bodies of the dead.<a href="#5"><sup>5</sup></a></p>
+<p>Melbourne's first cremation of a European took place in April 1895. The subject was so appalling, newspapers almost ignored it. The only record is in an undertakers' trade journal called <em>The Light,</em> which lasted only a few issues. Much to the horror of the Brighton Council, the cremation took place on the beach at Sandringham. When Mrs Henniker died at 8 William Street, Richmond, at the age of 83, her will made it very clear that she wished to be cremated. Her son, Mr Frederick Henniker, set about making the arrangements, and according to <em>Light,</em> Mr J. R. Le Pine, of Richmond, agreed to do it, 'at moderate cost'.</p>
+<p>Mr Le Pine picked a remote spot on the sea-shore between Half Moon Bay and Blackrock. <em>Light</em> said:</p>
+<p>A van containing three tons of firewood and a keg of kerosene had been sent on in advance and everything was ready when the procession arrived at the chosen spot where a knot of curious spectators gathered quickly at the unwonted spectacle of a hearse drawn up in a sandy track in the middle of the scrub.</p>
+<p>Then the undertaker's men, bearing the coffin aloft on their shoulders, made their way slowly and carefully down the steep and narrow pathway that led from the summit of the cliff to Beach, where the funeral pyre was rapidly built around the shell in which the body was enclosed, an elaborate coffin, richly trimmed in white plush, a plate on top, on which was engraved the name, age and date of death of the deceased, and when the logs had been all piled about it in a solid structure the coffin was completely hidden from view. Some dry brushwood sprinkled with kerosene was laid among the logs, and then the undertaker's men having finished their task withdrew.</p>
+<p>No clergyman was present, but the mourners carrying wreaths of white flowers stood around the pyre and the only son of the deceased bending on his knees beside the heap of wood set fire to it with his own hand. At once the flame crackled in the brushwood, and fanned by the fresh southerly breeze that blew in straight from the Bay, soon leaped among the logs. The heat was intense and the onlookers had to retreat some distance off but they watched the progress of the flames with unflagging interest. As the fire gained strength and crept around the coffin, a little band of mourners, among whom were half a dozen elderly ladies and young girls, sang very softly a few verses of Moody and Sanky's hymn 'Shall We Gather At The River'. The hymn 'There's A Land That Is Brighter Than Day' was sung, then mourners climbed the cliffs again, and an empty hearse rattling away at a brisk trot told all was over. The undertaker left the scene at 9.30 p.m.</p>
+<p>The event at Sandringham Beach was described in Parliament as 'a scandalous and horrible occurrence' but as there was no law against it at the time, no penalty was imposed.<a href="#6"><sup>6</sup></a></p>
+<p>There were attempts to push a Cremation Bill through the Victorian Parliament in 1892-3, 1898, 1899-1900 and 1903, when it was finally passed. The leader in the affair was Mr F. S. Grimwade, who introduced a private member's bill in the Legislative Council.</p>
+<p>There were all sorts of objections to the idea. W. Foster Rogers, writing in <em>The Austral Light</em> of February 1893, pointed out that if cremation became the rule then a serious increase in bushfires might result. Furthermore the fumes from the crematorium would become an intolerable nuisance in the city.</p>
+<p>Then Mr Duffy, opposing the bill in the Legislative Assembly in 1903, said cremation was wanted only by a few faddists. It would make the work of detectives immensely more difficult. After cremation, all evidence of a crime by poisoning would be destroyed. Then there was the religious and sentimental objection. 'Let us cover up our dead reverently and decently from human eyes,' he said. 'Let us visit the graves of our departed, and place upon them tokens of our remembrance. All the sentiment that gathers about the grave of the husband and father, when the widow and children come to place their wreaths upon it, will be completely done away with by this Bill if it should be passed in law.'<a href="#7"><sup>7</sup></a></p>
+<p>But it did become law, and although there was still no crematorium, the first cremation took place at Springvale on 13 April 1905. Edward Davies, a devoted member of the Cremation Society, died at eighty-five, leaving £80,000, and gave orders for cremation, with instructions that his ashes be scattered 'to the four winds'.</p>
+<p>The death was on Monday, and the funeral was on the following Thursday, so there was a rush at the Springvale Necropolis to build a temporary crematorium. They dug a hole in the centre of the lawn, 11 ft. 6 in. by 7 ft. 6 in., and 2 ft. 6 in. deep, and lined it with brick. They used six tons of firewood, and in the centre placed a wooden chute to take the coffin. They put a sheet of iron on top of the chute and a sheet of iron underneath, and made sure there was firewood all around. The theory was that as everything burned away the iron sheets would trap the ashes.</p>
+<p>There was a special train from the city for the mourners. The clergyman, instead of saying, 'I commit this body to the earth', said, 'I commit this body to the flames'. Four kegs of kerosene had been put on the wood and as the clergyman said these words an attendant lit the pyre with a torch. The <em>Argus</em> said: 'The whole ceremony was most impressive and free from anything repellent.'<a href="#8"><sup>8</sup></a></p>
+<p>Even so, this did not create great enthusiasm for cremations in Melbourne. By 1920 only fifty-seven cremations had taken place in Victoria, an average of one every three months.<a href="#9"><sup>9</sup></a> The Cremation Society lapsed and did not reform until 1924. Melbourne did not gain a modern crematorium until 1927, when one was built at Fawkner at a cost of £5000. The great coup was the cremation of the Archbishop of Melbourne, Dr Harrington Lees, and by September 1929, the number of cremations for the year had reached 150.</p>
+<p>South Australia was much more advanced. The South Australian Parliament assented to a Cremation Bill on 19 December 1891, and the Adelaide Crematorium, most ecclesiastical in appearance, opened in 1903.</p>
+<p>There was a time when the devoted had to go interstate for their cremations. New South Wales, for example, moved very slowly. There were a number of Acts designed to assist cremation, the Necropolis Act of 1901, the Public Health Act of 1902, the Local Government Act of 1919, and the Necropolis Amendment Act of 1923.</p>
+<p>The Cremation Society of N.S.W. was formed in 1908 and had 300 members, but it made little progress. In 1916 a petition was signed by 16,000 people in N.S.W. asking for cremation, but Sydney did not get its crematorium at Rookwood until after the Amendment Act of 1923. There were 122 cremations in 1926, and by 1932 this had gone up to 966, and soon cremation was the popular thing for the majority.</p>
+<p>Why—to get back to our brochure from the Melbourne Crematorium—we have it pointed out to us with enthusiasm that 17,320 deaths take place annually in Melbourne; and the brochure finishes with the lines from Longfellow:</p>
+<blockquote>
+When the hours of day are numbered,<br>
+And the voices of the night<br>
+Wake the better soul, that slumbered,<br>
+To a holy, calm delight.<br>
+With a slow and noiseless footstep<br>
+Comes that messenger divine,<br>
+Takes a vacant chair besides me,<br>
+Lays her gentle hand in mine.
+</blockquote>
+<p>The old Melbourne Crematorium Society would have approved.</p>
+<hr>
+<small>
+<a name="1">1.</a> *The Bulletin*, quoted on cremation, nineteenth century.<br>
+<a name="2">2.</a> *Melbourne Punch*, quoted on Dr Neild's cremation proposal, 1873.<br>
+<a name="3">3.</a> *Melbourne Punch*, on the cost of undertakers.<br>
+<a name="4">4.</a> Melbourne Cremation Society, formed 30 October 1892.<br>
+<a name="5">5.</a> *The Argus*, on the Melbourne Cremation Society.<br>
+<a name="6">6.</a> *The Light*, undertakers' trade journal, on the Sandringham Beach cremation, April 1895.<br>
+<a name="7">7.</a> Mr Duffy, Legislative Assembly, 1903.<br>
+<a name="8">8.</a> *The Argus*, on the first Springvale cremation, 13 April 1905.<br>
+<a name="9">9.</a> Cremation Society of Victoria records, to 1920.<br>
+</small>
+</div>
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        Traces Australia&#39;s slow, resisted shift from burial to cremation, from Dr Neild&#39;s 1873 pitch to the Royal Society and the scandalous 1895 beach cremation of Mrs Henniker at Sandringham, through the founding of Melbourne&#39;s Fawkner crematorium in 1927, to the eventual normalisation of cremation across every state.
+      </p>
+
+<hr>
+<h4 class="h6">Related topics</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/fawkner/" class="link-secondary">Fawkner</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Fawkner">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/sandringham/" class="link-secondary">Sandringham</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sandringham">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/fawkner/" class="link-secondary">Fawkner</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Fawkner">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/sandringham/" class="link-secondary">Sandringham</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sandringham">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>
