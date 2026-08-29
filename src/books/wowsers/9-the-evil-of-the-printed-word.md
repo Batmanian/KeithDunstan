@@ -336,3 +336,7 @@ They all had this in common, all books were handsomely bound in hard covers. All
 <a name="44">44.</a> *The Age*, on the National Literature Board of Review, November 1967.<br>
 <a name="45">45.</a> 'The Book Sale of the Century', Bourke Street, Melbourne, January 1968.<br>
 </small>
+
+<hr>
+
+Continue to chapter ten: <a href="{{ '/books/wowsers/10-the-gambling-evil/' | url }}">The Gambling Evil</a>

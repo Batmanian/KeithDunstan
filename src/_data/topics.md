@@ -492,6 +492,8 @@ topics:
     description: Gembrook is the town at the end of the narrow-gauge Puffing Billy line through the Dandenong Ranges, and the district where used-car dealer Emmanuel Margolin's cattle stud, Langley Park, was sold off for a fraction of its value during his credit-squeeze collapse.
   - name: Geoffrey Blainey
     description: Geoffrey Blainey is one of Australia's most prolific and readable historians, whose 'A History of Camberwell' Keith Dunstan drew on in 'Wowsers' to explain why the Melbourne suburb voted itself dry in 1920 and stayed that way for a generation.
+  - name: George Adams
+    description: George Adams was the founder of Tattersall's, the sweepstake operation he began in Sydney before moving to Queensland and then to Hobart in the 1890s, where he contributed £1 million a year to Tasmanian Consolidated Revenue until the lottery finally moved to Melbourne in 1954.
   - name: George Meudell
     description: George Meudell was a Melbourne stockbroker, company promoter and bon viveur whose gusty memoir 'The Pleasant Career of a Spendthrift' Keith Dunstan drew on in 'Wowsers' for its nostalgic, unrepentant account of the roguish, wide-open Melbourne of the 1876 Land Boom years.
   - name: Georg Gruber
@@ -908,6 +910,8 @@ topics:
     description: ''
   - name: Sammy Davis Jr
     description: Sammy Davis Jr was the American singer, dancer and Rat Pack entertainer, a name flashy enough that Keith Dunstan gave it to one of the giant show dahlias he grew for the sheer vulgar pleasure of being noticed.
+  - name: Samuel Gillott
+    description: Samuel Gillott was a Victorian politician who served as Chief Secretary and a Minister in Tommy Bent's government, and whose name was dragged into the public controversy over Madame Brussels's Lonsdale Street establishment when W. H. Judkins and John Norton's Truth alleged he had financial connections to the property.
   - name: Samuel Mauger
     description: Samuel Mauger was a Melbourne City Councillor and the most prominent temperance campaigner in colonial Victoria, a man who could find depravity anywhere and who pursued the liquor trade, barmaids, and Sunday trading with equal enthusiasm across several decades of public life.
   - name: Sandown Park
@@ -996,6 +1000,8 @@ topics:
     description: Tandberg is the pen name of Ron Tandberg, The Age's long-serving editorial cartoonist, whose minimalist front-page sketches Keith Dunstan made a point of hunting for in his careful morning ritual with the newspaper.
   - name: Tania Verstak
     description: Tania Verstak was the Russian-born, Sydney-raised beauty queen crowned Miss Australia in 1961 and Miss International in 1962, a celebrity fixture of the fashion-parade carnival atmosphere Keith Dunstan wrote about at the Melbourne Cup and in his profiles of visiting stars.
+  - name: Tattersall's
+    description: Tattersall's was the sweepstake lottery founded by George Adams, operating first in Sydney before shifting to Queensland and then Hobart, where it became central to Tasmanian public finance, until it moved to Melbourne in 1954 and became Victoria's dominant lottery for decades.
   - name: Tatura
     description: Tatura is the Victorian country town whose wartime internment camp held enemy aliens including Georg Gruber and Otto Sternberg, the conductor and teacher of the touring Vienna Mozart Boys' Choir, for the duration of the war.
   - name: Ted Baillieu
@@ -1102,6 +1108,8 @@ topics:
     description: W. H. Gocher was the editor of the Manly and North Sydney News who deliberately flouted the daylight bathing ban at Manly Beach in 1902 to force his own arrest, a stunt that took years and repeated attempts to succeed but which Keith Dunstan credited in 'Wowsers' with breaking open Australia's daylight surf bathing.
   - name: William Dunstan VC
     description: William Dunstan was Keith Dunstan's father, who won the Victoria Cross at Gallipoli's Lone Pine in 1915 as a shy twenty-year-old and went on to a career in Melbourne newspaper management, casting a long shadow that Keith wrote about growing up under in 'No Brains at All'.
+  - name: William Henry Judkins
+    description: William Henry Judkins was the Superintendent of the Pleasant Sunday Afternoon at Melbourne's Wesley Church, the most flamboyant anti-gambling campaigner of the Edwardian era, who waged a sustained public campaign against John Wren, Madame Brussels and the Collingwood Tote through meetings, open letters and confrontations that ended with eggs and hooters at a packed Wesley Church theatre.
   - name: Wine
     description: Wine runs through Keith Dunstan's writing as both subject and personal obsession, from a schoolboy's furtive sips of sacramental wine at Geelong Grammar to decades as a professional taster and, eventually, an amateur vigneron, all recounted at length in 'My Life with the Demon'.
   - name: Winemaking

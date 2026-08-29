@@ -95,6 +95,24 @@ Severity can accelerate this. Anything that touched production data, lost work, 
 
 <!-- Newest first. Append new entries directly below this line. -->
 
+### 2026-08-30 — Chapter file not linked from book index page
+
+- **Area:** `book index pages / chapter housekeeping`
+- **Severity:** low
+- **Count:** 1
+
+**What happened**
+`src/books/wowsers/10-the-gambling-evil.md` was transcribed and written but the corresponding entry in `src/wowsers.njk` was plain text with no `<a href>` link. Chapter 9 also had no "continue to chapter ten" navigation link. Eleventy built the chapter page without complaint — it was invisible from the index but not broken.
+
+**Root cause**
+No automated check verified that every `.md` file in `src/books/[book]/` is linked from the matching `src/[book].njk` index page.
+
+**Consequence**
+The chapter existed on the site but was unreachable via the book's table of contents until a second pass caught it.
+
+**Rule**
+Run `npm run check-chapter-links` (or `npm run build`, which now calls it) before considering any chapter transcription task complete — it exits 1 if any chapter file is missing from its book index.
+
 ### 2026-08-24 — Uncertain text strings not recorded at transcription time
 
 - **Area:** `transcription / todo tracking`
