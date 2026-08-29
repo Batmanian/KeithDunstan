@@ -3,11 +3,12 @@ title: The Evil of the Social Evil
 date: 1968-11-11
 summary: Surveys a century of Australian prostitution euphemised as 'the social evil', from the Theatre Royal's notorious Saddling Paddock and Melbourne's Little Lonsdale Street brothels under Madame Brussels, through the 1891 mystery of Parliament's stolen mace, to Brisbane's condoned, medically inspected brothels and the bikini-era brothel economics of the 1960s.
 tags:
+- Arthur Rylah
 - Duke of Edinburgh
 - George Meudell
 - Madame Brussels
-- Sir Arthur Gordon Rylah
 - Sir Thomas Blamey
+- Thomas Bent
 ---
 
 Prostitution in the nineteenth century was almost as common as hotelkeeping, but it was a word too awful to mention aloud. The Victorian Parliament in 1873 called for a report on prostitution but it did not appear under that offensive title. It is listed in the Parliamentary Papers as 'A report on the Social Evil'. Ladies and gentlemen of the Victorian era always recognized that the social evil was prostitution. Victoria, New South Wales and South Australia had organizations for combating it, and these were called Social Purity Societies. A brothel could be a Disorderly House, a House of Ill Fame, an Immoral House, but never a brothel.
@@ -259,3 +260,7 @@ In the late sixties, perhaps the social evil was not as prevalent as it had been
 <a name="36">36.</a> Mr Brand, Premier of Western Australia.<br>
 <a name="37">37.</a> Australian Natives' Association, Victoria, March 1968.<br>
 </small>
+
+<hr>
+
+Continue to chapter nine: <a href="{{ '/books/wowsers/9-the-evil-of-the-printed-word/' | url }}">The Evil of the Printed Word</a>

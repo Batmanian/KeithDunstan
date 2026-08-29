@@ -476,6 +476,8 @@ topics:
     description: Franco Cozzo was the Sicilian-born Footscray furniture retailer famous for his ornate baroque showrooms and his own thickly-accented television commercials, a beloved only-in-Melbourne identity whose Christmas memories of Sicily Keith Dunstan collected for a column on migrants' Yuletide traditions.
   - name: Frank Galbally
     description: Frank Galbally was a former Collingwood footballer turned prominent Melbourne criminal lawyer and Collingwood committeeman, whose fiery speeches against the VFL's TV blackout and toasts to the club's honour Keith Dunstan reported on in successive Bulletin columns.
+  - name: Frank Hardy
+    description: Frank Hardy was the Australian novelist whose 1950 roman à clef 'Power Without Glory', thinly fictionalising the life of Collingwood Tote operator John Wren, was the most celebrated — and legally perilous — piece of muckraking in Australian literary history, drawing on material Keith Dunstan also drew on for 'Wowsers'.
   - name: Frederick Scherger
     description: Frederick Scherger was the RAAF Air Commodore, later Air Chief Marshal, whose string-pulling twice altered the course of the young Keith Dunstan's wartime career, first securing him pilot training over his father's objections and later commanding him, memorably, in the Pacific.
   - name: Fritz Kreisler
@@ -554,6 +556,8 @@ topics:
     description: Hubert Opperman was a champion endurance cyclist who rode for the Malvern Star marque before turning politician, winning the seat of Corio in 1949 and later serving as a Minister for Shipping and Transport and for Immigration, an early example of Keith Dunstan's argument that sporting fame was a ready path into Australian public life.
   - name: ICI Building
     description: The ICI Building was Melbourne's first true skyscraper by 1950s standards and briefly the tallest building in Australia, an early salvo in the city's decades-long height rivalry with Sydney that Keith Dunstan traced through to the Conzinc Riotinto tower and the National Mutual Centre.
+  - name: Isaac Isaacs
+    description: Isaac Isaacs was a Victorian politician, jurist and Australia's first native-born Governor-General, who as Attorney-General in the 1890s led the government's legal campaign against John Wren's illegal Collingwood Tote, a case Keith Dunstan used to illustrate the futility of trying to suppress Melbourne's gambling culture.
   - name: J. C. Williamson's
     description: J. C. Williamson's was Australia's dominant theatrical production company, its 1963 Melbourne staging of 'How to Succeed in Business Without Really Trying' at Her Majesty's Theatre briefly hijacked when Arthur Calwell's television policy speech bled through an actor's stage intercom mid-scene.
   - name: Jack Johnson
@@ -606,6 +610,8 @@ topics:
     description: John Landy was the Australian middle-distance runner who became the second man ever to run a mile in under four minutes, in 1954, and whose name Keith Dunstan invoked among the era's sporting heroes his own restless, football-averse children had little time for.
   - name: John McLaren
     description: John McLaren was the author of 'Our Troubled Schools', a study of the near-religious grip of sport on Australian education that Keith Dunstan drew on for its argument that even teachers were pressed into obeisance to the school sporting 'holy shrine'.
+  - name: John McLeod
+    description: John McLeod, known at Flemington as 'Big Mick', was an unlicensed bookmaker whose refusal to pay out on a Grand National Day wager triggered a crowd assault in which he was kicked to death at Flemington Racecourse, an incident Keith Dunstan used in 'Wowsers' to show how the anti-gambling crusade found its martyr — though an unlikely one.
   - name: John Norton
     description: John Norton was the founder of the scandal-sheet newspaper Truth, who boasted of coining the word 'wowser' in 1899, a claim Keith Dunstan traced and complicated with the help of philologist Sidney J. Baker in his book 'Wowsers'.
   - name: John Peck
@@ -1024,6 +1030,8 @@ topics:
     description: The Tivoli Theatre was Melbourne's grand old vaudeville and variety house, tracing its lineage back to the 1850s diggers' Varieties Music Hall and hosting stars from Marie Lloyd to Harry Houdini before a fire gutted it, a loss Keith Dunstan mourned in the Bulletin.
   - name: Tom Seabrook
     description: Tom Seabrook was a respected Australian wine judge and father of fellow judge Douglas Seabrook, part of the small circle of serious palates Keith Dunstan relied on and deferred to in his own amateur wine education.
+  - name: Tommy Bent
+    description: Tommy Bent was the Premier of Victoria in the early 1900s, a shrewd Collingwood-area politician on close terms with John Wren who became the target of the Reverend Worrall's anti-gambling campaign after the murder of bookmaker 'Big Mick' McLeod at Flemington, and whose meeting with Worrall Keith Dunstan recounted in 'Wowsers'.
   - name: Tommy Burns
     description: Tommy Burns was the Canadian world heavyweight boxing champion who lost his title to Jack Johnson in a famous 1908 Sydney bout staged by promoter Hugh 'Huge Deal' McIntosh, a fight Keith Dunstan recalled in both a profile of McIntosh and an unrelated column on tug-o'-war.
   - name: Tommy Corrigan
@@ -1106,6 +1114,8 @@ topics:
     description: The Wirraway was the single-engined training aircraft the young Keith Dunstan flew during his RAAF training in 1943, chosen over the twin-engined Avro Anson in the hope of one day flying fighters.
   - name: Wolf Blass
     description: Wolf Blass is the German-born winemaker whose flamboyant, medal-laden Barossa Valley wines and showman's persona made his surname one of Australia's best known wine brands, whose childhood Christmases in Stadtlum, East Germany, Keith Dunstan collected for a column on migrants' Yuletide memories.
+  - name: (Reverend) H. Worrall
+    description: The Reverend H. Worrall was a Geelong Methodist minister whose outrage at the murder of bookmaker 'Big Mick' McLeod at Flemington Racecourse turned him into the unlikely leader of Melbourne's 1906 anti-gambling crusade, culminating in a march on Parliament House with thousands of followers singing 'Onward Christian Soldiers', an episode Keith Dunstan told at length in 'Wowsers'.
   - name: Xavier College
     description: Xavier College is Melbourne's leading Catholic boys' school, named by Keith Dunstan alongside Scotch and Wesley as one of the fierce sporting rivals whose supporters would take up the mocking cry of 'UNDAH' at premiership matches.
   - name: Yarra River

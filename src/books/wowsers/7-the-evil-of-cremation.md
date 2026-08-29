@@ -104,3 +104,7 @@ The old Melbourne Crematorium Society would have approved.
 <a name="8">8.</a> *The Argus*, on the first Springvale cremation, 13 April 1905.<br>
 <a name="9">9.</a> Cremation Society of Victoria records, to 1920.<br>
 </small>
+
+<hr>
+
+Continue to chapter eight: <a href="{{ '/books/wowsers/8-the-evil-of-the-social-evil/' | url }}">The Evil of the Social Evil</a>

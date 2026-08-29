@@ -218,3 +218,7 @@ Yes, the bikini, like atomic power, was difficult to check.
 <a name="20">20.</a> Central Court, Sydney, Joan Barry case, 1961.<br>
 <a name="21">21.</a> Victorian Federation of Catholic Mothers' Clubs, November 1964.<br>
 </small>
+
+<hr>
+
+Continue to chapter seven: <a href="{{ '/books/wowsers/7-the-evil-of-cremation/' | url }}">The Evil of Cremation</a>

@@ -4,6 +4,7 @@ date: 1968-11-11
 summary: Traces Australia's long, erratic history of literary censorship, from Annie Besant's 1888 birth-control obscenity trial and Professor Marshall Hall's scandalous 1900 dismissal from Melbourne University, through the gaoling of novelist Robert Close in 1948, to the secret Customs blacklist and the eventual 1960s release of Lady Chatterley's Lover and Lolita.
 tags:
 - Annie Besant
+- Arthur Rylah
 - Marshall Hall
 - Norman Lindsay
 - Robert Close

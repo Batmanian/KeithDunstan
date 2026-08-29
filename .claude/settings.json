@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node ocr/transcribe.js /tmp/wowsers-converted/IMG_9620.png /tmp/wowsers-converted/IMG_9621.png /tmp/wowsers-converted/IMG_9622.png /tmp/wowsers-converted/IMG_9623.png /tmp/wowsers-converted/IMG_9624.png)",
+      "Bash(export ANTHROPIC_API_KEY=$\\(grep ANTHROPIC_API_KEY .env)",
+      "Bash(.env\\) node *)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:halloffame.melbournepressclub.com)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(json.dumps\\(d[:3], indent=2\\)\\)\")",
+      "Bash(node -e ' *)"
+    ]
+  }
+}

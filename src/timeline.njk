@@ -4,7 +4,7 @@ title: Timeline
 titleClass: h2 mb-2
 ---
 
-<p class="text-muted">Every transcribed article in the archive, alongside Keith Dunstan's published books, in the order they appeared &mdash; from his earliest Walkabout pieces through to his latest columns in The Age.<br> Select a linked entry to read it in full.</p>
+<p class="text-muted">Every transcribed article in the archive, alongside Keith Dunstan's published books and key life events, in the order they appeared &mdash; from his birth through to his final columns in The Age.<br> Select a linked entry to read it in full.</p>
 
 <div class="mb-3">
   <div class="timeline-legend d-flex flex-wrap gap-3 small text-muted mb-2" role="group" aria-label="Filter by publication">
@@ -13,6 +13,7 @@ titleClass: h2 mb-2
     <button type="button" class="timeline-legend-item" data-filter="walkabout-magazine" aria-pressed="true"><span class="timeline-legend-dot timeline-pub-walkabout-magazine"></span>Walkabout Magazine</button>
     <button type="button" class="timeline-legend-item" data-filter="other" aria-pressed="true"><span class="timeline-legend-dot timeline-pub-other"></span>The Australian Gourmet</button>
     <button type="button" class="timeline-legend-item" data-filter="book" aria-pressed="true"><span class="timeline-legend-dot timeline-legend-dot--book"></span>Book</button>
+    <button type="button" class="timeline-legend-item" data-filter="keiths-life" aria-pressed="true"><span class="timeline-legend-dot timeline-pub-keiths-life"></span>Keith's Life</button>
     <button type="button" class="timeline-legend-reset small text-muted">Reset</button>
   </div>
   <div class="d-flex align-items-center gap-2">
@@ -29,7 +30,7 @@ titleClass: h2 mb-2
 <div class="timeline my-4" id="timeline-list">
   {% for item in collections.timeline %}
   {% set pubSlug = item.publication | slug %}
-  {% set knownPub = pubSlug in ['the-age', 'the-bulletin', 'walkabout-magazine'] %}
+  {% set knownPub = pubSlug in ['the-age', 'the-bulletin', 'walkabout-magazine', 'keiths-life'] %}
   {% set filterSlug = 'book' if item.isBook else (pubSlug if knownPub else 'other') %}
   <div
     class="timeline-item timeline-pub-{{ filterSlug }}{% if item.isBook %} timeline-item--book{% endif %}"
@@ -45,7 +46,7 @@ titleClass: h2 mb-2
     {% else %}
     <span class="timeline-card">
     {% endif %}
-      <time class="timeline-date" datetime="{{ item.date | htmlDateString }}">{% if item.isBook %}{{ item.date | postDate(['book']) }}{% else %}{{ item.date | readableDate }}{% endif %}</time>
+      <time class="timeline-date" datetime="{{ item.date | htmlDateString }}">{% if item.isBook or item.yearOnly %}{{ item.date | postDate(['book']) }}{% else %}{{ item.date | readableDate }}{% endif %}</time>
       <span class="timeline-title">{{ item.title }}</span>
       <span class="badge timeline-badge rounded-pill fw-normal">{{ item.publication }}</span>
     {% if item.url %}</a>{% else %}</span>{% endif %}
@@ -71,11 +72,13 @@ titleClass: h2 mb-2
     --tl-the-bulletin: #e69f00;
     --tl-walkabout-magazine: #009e73;
     --tl-book: #cc79a7;
+    --tl-keiths-life: #7c3aed;
     --tl-other: var(--bs-secondary-color);
   }
   [data-bs-theme="dark"] {
     --tl-the-bulletin: #bf7d12;
     --tl-book: #a85589;
+    --tl-keiths-life: #6d28d9;
   }
   .timeline {
     position: relative;
@@ -107,6 +110,7 @@ titleClass: h2 mb-2
   .timeline-pub-the-bulletin .timeline-dot { background-color: var(--tl-the-bulletin); }
   .timeline-pub-walkabout-magazine .timeline-dot { background-color: var(--tl-walkabout-magazine); }
   .timeline-pub-book .timeline-dot { background-color: var(--tl-book); }
+  .timeline-pub-keiths-life .timeline-dot { background-color: var(--tl-keiths-life); }
   .timeline-card {
     display: inline-block;
     text-decoration: none;
@@ -124,6 +128,8 @@ titleClass: h2 mb-2
   .timeline-pub-walkabout-magazine .timeline-card:focus .timeline-title { color: var(--tl-walkabout-magazine); }
   .timeline-pub-book .timeline-card:hover .timeline-title,
   .timeline-pub-book .timeline-card:focus .timeline-title { color: var(--tl-book); }
+  .timeline-pub-keiths-life .timeline-card:hover .timeline-title,
+  .timeline-pub-keiths-life .timeline-card:focus .timeline-title { color: var(--tl-keiths-life); }
   .timeline-pub-other .timeline-card:hover .timeline-title,
   .timeline-pub-other .timeline-card:focus .timeline-title { color: var(--tl-other); }
   .timeline-date {
@@ -145,6 +151,7 @@ titleClass: h2 mb-2
   .timeline-pub-the-bulletin .timeline-badge { color: var(--tl-the-bulletin); }
   .timeline-pub-walkabout-magazine .timeline-badge { color: var(--tl-walkabout-magazine); }
   .timeline-pub-book .timeline-badge { color: var(--tl-book); }
+  .timeline-pub-keiths-life .timeline-badge { color: var(--tl-keiths-life); }
   .timeline-summary {
     margin-top: 0.25rem;
     max-width: 40rem;
@@ -202,6 +209,7 @@ titleClass: h2 mb-2
   .timeline-legend-dot.timeline-pub-the-age { background-color: var(--tl-the-age); }
   .timeline-legend-dot.timeline-pub-the-bulletin { background-color: var(--tl-the-bulletin); }
   .timeline-legend-dot.timeline-pub-walkabout-magazine { background-color: var(--tl-walkabout-magazine); }
+  .timeline-legend-dot.timeline-pub-keiths-life { background-color: var(--tl-keiths-life); }
   .timeline-legend-dot.timeline-pub-other { background-color: var(--tl-other); }
   .timeline-legend-dot--book {
     width: 0.9rem;

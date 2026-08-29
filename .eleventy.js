@@ -5,6 +5,7 @@ const { dateToRfc822 } = require('@11ty/eleventy-plugin-rss')
 const metagenPlugin = require('eleventy-plugin-metagen')
 const matter = require("gray-matter");
 const books = require("./src/_data/books.json");
+const lifeEvents = require("./src/_data/lifeEvents.json");
 
 module.exports = function(eleventyConfig) {
 
@@ -118,7 +119,17 @@ module.exports = function(eleventyConfig) {
       isBook: true,
       external: !!book.external
     }));
-    return [...articleItems, ...bookItems].sort((a, b) => a.date - b.date);
+    const lifeItems = lifeEvents.map(event => ({
+      date: new Date(event.date + "T00:00:00Z"),
+      title: event.title,
+      url: event.url || null,
+      summary: event.summary,
+      publication: "Keith's Life",
+      tags: null,
+      isBook: false,
+      yearOnly: !!event.yearOnly
+    }));
+    return [...articleItems, ...bookItems, ...lifeItems].sort((a, b) => a.date - b.date);
   });
 
   // The N most-referenced tags across a set of collection items (e.g.
