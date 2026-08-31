@@ -5,9 +5,9 @@ summary: An updated introduction added for a later printing of 'The Paddock That
 tags:
   - Bill O'Reilly
   - Colin McDonald
-  - Don Bradman
   - Keith Miller
   - Melbourne Cricket Ground
+  - Sir Donald Bradman
   - Wesley Hall
 ---
 

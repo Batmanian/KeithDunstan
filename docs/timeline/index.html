@@ -107,6 +107,9 @@
           <a class="nav-link" href="/timeline/">Timeline</a>
         </li>
         <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
           <a class="nav-link" href="/search.html">Search</a>
         </li>
 
@@ -171,8 +174,8 @@
   <div class="d-flex align-items-center gap-2">
     <label for="timeline-sort" class="form-label small text-muted mb-0 text-nowrap">Sort by</label>
     <select id="timeline-sort" class="form-select form-select-sm" style="max-width: 12rem;">
-      <option value="date-asc" selected>Date, oldest first</option>
-      <option value="date-desc">Date, newest first</option>
+      <option value="date-asc">Date, oldest first</option>
+      <option value="date-desc" selected>Date, newest first</option>
       <option value="publication">Publication</option>
       <option value="title">Title, A&ndash;Z</option>
     </select>
@@ -5347,13 +5350,17 @@
       }
     };
 
+    function applySort(key) {
+      var sorter = sorters[key];
+      if (!sorter) return;
+      var items = Array.prototype.slice.call(list.querySelectorAll('.timeline-item'));
+      items.sort(sorter).forEach(function (item) { list.appendChild(item); });
+    }
+
+    applySort('date-desc');
+
     if (select) {
-      select.addEventListener('change', function () {
-        var sorter = sorters[select.value];
-        if (!sorter) return;
-        var items = Array.prototype.slice.call(list.querySelectorAll('.timeline-item'));
-        items.sort(sorter).forEach(function (item) { list.appendChild(item); });
-      });
+      select.addEventListener('change', function () { applySort(select.value); });
     }
 
     if (legend) {

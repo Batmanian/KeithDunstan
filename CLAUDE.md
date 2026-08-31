@@ -125,27 +125,46 @@ npm run build    # production build (output → docs/, what Netlify deploys)
 
 **Deploy:** `git push` to `master` triggers Netlify build automatically (configured in `netlify.toml`, publishes from `docs/`).
 
-**OCR tooling:** `ocr/transcribe.js` transcribes scanned book pages via the Claude API (`claude-opus-4-7`). Images are pre-processed before sending to avoid API 400 errors.
+**OCR tooling:** Two options, in order of preference:
 
-**iPhone Live Photo JPEG problem:** Photos taken on an iPhone are HEIF-embedded JPEGs. Both `sharp` and the Claude API reject them with a security-limit or "Could not process image" error. **Use macOS `sips` to convert them first** — it strips the HEIF container natively:
+1. **Tesseract (free, no API credits required)** — system binary at `/opt/homebrew/bin/tesseract`. Prefer this unless the Anthropic API key has confirmed credits.
+2. **`ocr/transcribe.js`** — sends images to the Claude API (`claude-opus-4-7`). Requires `ANTHROPIC_API_KEY` with remaining credits in `.env`.
+
+**iPhone scan pipeline (HEIC files):** iPhones save scans as HEIC. Both Tesseract and the Claude API need plain PNG. Use `sips` to convert, then rotate if needed (phone shots of open books are typically 90° off):
 
 ```bash
-# Convert one file
-sips -s format png input.jpeg --out output.png -Z 1800
+# 1. Convert HEIC → PNG
+mkdir -p /tmp/converted
+for f in scans/*.HEIC; do
+  sips -s format png "$f" --out /tmp/converted/"$(basename "${f%.HEIC}").png" -Z 1800
+done
 
-# Batch-convert a whole scans directory
-for f in scans/*.jpeg; do
-  sips -s format png "$f" --out /tmp/converted/"${f%.jpeg}.png" -Z 1800
+# 2. Rotate 90° (open-book phone shots usually need this — verify with one image first)
+mkdir -p /tmp/rotated
+for f in /tmp/converted/*.png; do
+  sips -r 90 "$f" --out /tmp/rotated/"$(basename "$f")"
 done
 ```
 
-After converting to PNG, send via the Anthropic SDK as `image/png` base64. See `ocr/transcribe.js` for the full pipeline (requires `ANTHROPIC_API_KEY` in env and `npm install sharp @anthropic-ai/sdk`).
+**Tesseract dependency fix (one-time, per machine):** Tesseract requires `libtiff.5.dylib` but Homebrew ships `.6`. Fix with a symlink:
 
-**Book scan workflow:**
-1. `sips` batch-convert `scans/*.jpeg` → `/tmp/converted/*.png`
+```bash
+ln -sf /opt/homebrew/opt/libtiff/lib/libtiff.6.dylib /opt/homebrew/opt/libtiff/lib/libtiff.5.dylib
+```
+
+**Book scan workflow (Tesseract):**
+1. Convert and rotate scans as above → `/tmp/rotated/*.png`
+2. Run Tesseract across all pages: `for f in /tmp/rotated/*.png; do echo "=== $(basename $f) ==="; tesseract "$f" stdout -l eng --psm 6; echo; done > /tmp/ocr-raw.txt`
+3. Read `/tmp/ocr-raw.txt` — note that phone shots of open books capture two pages at once, so OCR output contains noise from the facing page bleeding into each line. Cross-reference with visual reads of the original images to reconstruct clean text.
+4. Write `.md` files following the frontmatter conventions above; add tags, summaries, and inter-chapter navigation links by hand.
+
+**Book scan workflow (Claude API / `ocr/transcribe.js`):**
+1. `sips` batch-convert `scans/*.HEIC` or `scans/*.jpeg` → `/tmp/converted/*.png` (and rotate if needed)
 2. Run `node ocr/transcribe.js /tmp/converted/*.png` to print transcriptions to stdout
 3. Review output, split at chapter headings, and write `.md` files following the frontmatter conventions above
 4. Add tags, summaries, and inter-chapter navigation links by hand
+
+See `ocr/transcribe.js` for the Claude API pipeline (requires `ANTHROPIC_API_KEY` in env and `npm install sharp @anthropic-ai/sdk`).
 
 **Trove tooling:** `trove/` contains Python scripts for fetching Keith Dunstan's articles from the National Library of Australia's Trove API v3. Pipeline: `setup.py` (once) → `fetch_batman.py` / `fetch_byline.py` → `deduplicate.py` → `remove_duplicates.py` → `triage.py` (interactive review) → move to `src/articles/[publication-slug]/`. See `trove/README.md` for full context.
 

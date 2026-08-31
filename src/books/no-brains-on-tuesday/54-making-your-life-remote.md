@@ -6,12 +6,12 @@ tags:
   - Daryl Somers
   - Derryn Hinch
   - Diana Rigg
-  - Don Bradman
   - Graham Kennedy
   - Harold Larwood
   - Joan Sutherland
   - Len Hutton
   - Ray Lindwall
+  - Sir Donald Bradman
 ---
 
 We learn something every day. Now we know how to murder by video.

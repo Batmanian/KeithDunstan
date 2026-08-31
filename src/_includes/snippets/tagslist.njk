@@ -1,6 +1,6 @@
 {%- set shownTags = [] %}
 {%- for tag in collections.tagList %}
-  {%- if tag.tagCount > 2 %}
+  {%- if tag.tagCount > 3 %}
     {%- set _ = shownTags.push(tag) %}
   {%- endif %}
 {%- endfor %}
@@ -9,13 +9,13 @@
   {%- for tag in shownTags %}
     {%- set tagUrl %}{{ '/topic/' | url }}{{ tag.tagName | slug }}/{% endset -%}
     {%- if tag.tagCount >= 7 -%}
-      {%- set tagSize = "fs-2 fw-semibold" -%}
-    {%- elif tag.tagCount >= 5 -%}
       {%- set tagSize = "fs-3 fw-semibold" -%}
+    {%- elif tag.tagCount >= 5 -%}
+      {%- set tagSize = "fs-4 fw-semibold" -%}
     {%- elif tag.tagCount >= 4 -%}
-      {%- set tagSize = "fs-4" -%}
-    {%- elif tag.tagCount >= 2 -%}
       {%- set tagSize = "fs-5" -%}
+    {%- elif tag.tagCount >= 2 -%}
+      {%- set tagSize = "fs-6" -%}
     {%- else -%}
       {%- set tagSize = "fs-6 text-muted" -%}
     {%- endif %}

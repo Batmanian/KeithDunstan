@@ -1,0 +1,384 @@
+---
+title: The Football Passion
+date: 1973-01-01
+summary: Traces the Australian devotion to Australian Rules football from its 1858 origins at Melbourne Grammar and Scotch College through decades of crowd riots, inter-suburb feuds, the Coleman suspension, the Barassi defection, and the rival passions of Rugby League in New South Wales and Queensland.
+tags:
+  - Alfred Deakin
+  - Ashes
+  - Australian Football League
+  - Australian Rules Football
+  - Ben Casey
+  - Brownlow Medal
+  - Carlton
+  - Clive Churchill
+  - Collingwood
+  - Dally Messenger
+  - Essendon
+  - Fitzroy
+  - George Coulthard
+  - Hawthorn Football Club
+  - Ian Turner
+  - Jack Dyer
+  - John Coleman
+  - Lou Richards
+  - Melbourne Cricket Ground
+  - Melbourne Football Club
+  - Melbourne Grammar
+  - Melbourne Punch
+  - Monash University
+  - North Melbourne Football Club
+  - Peter Hudson
+  - Richmond Football Club
+  - Ron Barassi
+  - Roy Cazaly
+  - Scotch College
+  - Sidney J. Baker
+  - South Melbourne Football Club
+  - Sydney Cricket Ground
+  - T. W. Wills
+  - Victor Trumper
+  - Victorian Football League
+---
+
+<h2>The Football Passion</h2>
+
+The most revealing of all football stories concerns a church in the Melbourne suburb of Hawthorn. There was a board outside which had on it, 'What would you do if God came to Hawthorn today?' Some graffiti artist scrawled underneath: 'Move Peter Hudson to centre half-forward.' Professor Ian Turner when giving his Fifth Ron Barassi Memorial Lecture at Monash University said: 'When I tell the story outside Hawthorn they say "Who's Peter Hudson?" When I tell the story in Hawthorn they ask, "Who's God?"'
+
+Nor is God unimportant to football lovers. On 21 May 1973, at St Francis Church, Lonsdale Street, Melbourne, where Ned Kelly's parents are reputed to have been married, there was a special footballers' Mass, attended by nine hundred footballers, umpires, officials and others.
+
+During the service Len Thompson of Collingwood came forward with his 1972 Brownlow Medal, Don McKenzie of Sunshine came forward with his J. J. Liston VFA First Division medal and Wayne Schimmelbusch of Brunswick came forward with his VFA Second Division Medal.
+
+Thereupon, Father P. Negri, the principal celebrant, blessed all three medals. Alan Trengove of the *Sun News-Pictorial* reported on 6 June that Father Rivett, a Collingwood supporter, who was the organiser of the Mass, showed immense restraint in asking for the Brownlow Medal to be blessed without calling on Len Thompson to win it again.
+
+In April 1972 the *Herald* reported the case of a gentleman, who, just before he died the previous October, expressed the wish that his ashes be buried on the Richmond football ground. The club secretary, Mr Alan Schwab, made this possible; the ashes were buried right in the goal square. There are other cases of similar devotion; a Perth man had himself buried in the number 18 guernsey of South Fremantle, plus South Fremantle football socks.
+
+Not many supporters go to these lengths during life, but they do immense themselves in the colours of the club during death. They paint their houses in club colours, buy club socks, towels, ties, rugs and key rings. Even when the gentlemen are drying the dishes at night they mop up in the number of the club dearest to their heart.
+
+In 1965 one enterprising firm brought out nappies for baby in club colours, which was surprising. Nappies are designed for no particular reason, and the thoughtful man may have felt that club nappies were hardly a compliment to the club concerned. The Gas and Fuel Corporation produced scarves, stripes in the red and white glory of South Melbourne and the gold and brown of Hawthorn. The Bank of New South Wales, although it had its origins in a foreign State, had the foresight to produce in the shape of footballs for Victoria, South Australia and Western Australia.
+
+In 1965 we had bank passbooks in the colours of individual football teams. One firm brought out ice-creams in the shape of footballs so that you could lick the team you loved, and worst of all, the Flyer Emporium sold wigs in team football colours.
+
+The advertisement said: 'Let your football team go to your head. Wear a wig in your team's football colours . . . You'll look terrific — and everyone will see what a strong supporter you are.'
+
+But for the true picture of the behaviour of the football fan it is interesting to study how they behave at finals time. All the seats for finals at the Melbourne Cricket Ground were pre-sold during the second week of August. The peak years of the queuing frenzy were probably 1964 and 1965. The devotees started to queue immediately after the matches finished on the Saturday afternoon and then remained in line until ticket selling started eight days later on the Monday morning. In 1965 the main build-up came four days before selling day, and it reached its peak with ten thousand queues. On selling eve there was a tremendous atmosphere, perhaps like 'canvas town' in the days of the gold rush of 1852. Melburnians queued in style. They moved in with rugs, steam lanterns, sausages and crates of beer. Many, as soon as established a permanent spot in the queue, set up a tent or camp. They brought along furniture, tables, chairs, kitchen dressers, camp stoves. One family, I remember, had a lounge suite — a sofa and two armchairs of quite charming contemporary design. During the night there was all sorts of entertainment to be had from record players, guitars, community singing, to the occasional portable television set.
+
+It rained, frequently it was miserably cold, yet the queues were undaunted. Altogether there were five thousand cars, many of them bogged in the mud. Some brought caravans or furniture trucks fitted out with beds. Experienced, well-trained queues ran a shift system of queuing, four hours in the furniture trucks, four hours in the queue. In the early hours of the morning it was a remarkable scene — thousands of little fires — and as dawn came there was the smell everywhere of sausages and eggs.
+
+*This was the peak.* The queue frenzy never happened again to quite the same degree, and all sorts of methods were devised to improve the distribution of tickets. There was an angry debate in Parliament. Sir Herbert Hyland, a former Country Party Leader, thought the scene outside the Melbourne Cricket Ground was akin to 'Oriental squalor' and he called for a full inquiry before a judge. The Deputy Premier, Mr Rylah (later Sir Arthur), said it must never happen again.
+
+*The following year the order went out:* no camping equipment, no stoves or fires, no lounge suites and queuing was restricted. Queues were forbidden to start lining up until twenty hours before the windows opened. Selling started on Tuesday so that queues had to restrain themselves until noon on the Monday. Many defied the order and the Essendon cheer squad admitted that it was in the vicinity as early as the previous Wednesday. One acted with the stealth of guerillas. They lurked behind trees and at the approach of City Council officers disappeared into the jungles of Richmond Park.
+
+The nation is divided into camps — New South Wales and Queensland play mainly Rugby League and Rugby Union — while Victoria, Tasmania, South Australia and Western Australia are passionate devotees of Australian Rules. During 1971, 7,900,000 people watched the sport, more than half of them outside Victoria. They saw a total of 180,000 players in 7,250 teams and, according to *the Australian*, five thousand and further teams of youngsters prepared for their confirmation to the faith. Attendances are always higher in the Australian Rules cities — only Sydney and Brisbane fail to achieve a gross attendance equal to their population. A Gallup poll in 1951 showed that football matches are watched at least occasionally by every second adult in the Australian Rules States and by one in three to one in four in Rugby States.
+
+As mentioned earlier Melbourne is the arch-diocese of the Australian Rules religion and its history is well known. Some Melbourne Cricket Club members decided they needed a game to keep their players fit during the winter. The prime mover in this was T. W. Wills, a good inter-colonial cricketer. His football training was classic. His father had sent him home to England to school at Rugby, yet he wanted to change the game. He thought Australian grounds were too hard for the Rugby tackle, he didn't want any maimed cricketers.
+
+The famous battle of 1858 between Melbourne Grammar and Scotch College gets the credit for being the first Australian Rules match. The game was to start at noon with an interval for lunch; the first team to score two goals would be the winner. That rule remained until 1869. There were forty men a side, but with eighty in the game and the goal posts nearly half a mile apart, scoring was very difficult. Scotch College, after battling for three hours, managed to score a goal and finally darkness made play impossible. A fortnight later the match was continued, but still Scotch could not get a second goal. A week later the two teams tried for a third time to finish the match, but even then the eighty players could not score a goal, and the game had to be abandoned. Wills umpired part of the game and one of his co-founders, H. C. A. Harrison, was part of the game and one of his co-founders, H. C. A. Harrison, was a spectator. They decided that forty a side was too much, so they cut team size to twenty, called the game Victorian football and so it remained for many years.
+
+The game developed and a stream of clubs came into existence — Geelong, Richmond, South Yarra, Carlton. The Victorian Football Association was formed in 1877, Queensland and Tasmania in 1879 and South Australia in 1875, to Queensland and Tasmania in 1879 and to Western Australia in 1883. The spread to the West was due to the gold rush and all the gold-seeking Victorians who flocked there. In 1877 a trustee of the Sydney Cricket Ground, Phil Sheridan, became very interested in the game. He invited George Coulthard, one of the finest Victorian players, to go to Sydney and show them how it was played. Sheridan also invited him to join a fishing expedition in Sydney Harbour, and while sitting on the side of the boat with his coat almost trailing in the water, a large shark seized his coat tails. Had it not parted company with his coat, Coulthard would have been pulled into the water. This was all too much for Mr Coulthard and he promptly returned to Melbourne. So it has perhaps been for the best that Australian Rules could have been the major code in Sydney today.
+
+On 1 July 1880, Victoria did actually play an Australian Rules match against New South Wales. Victoria won nine goals 'plus innumerable behinds' to one solitary behind by New South Wales. *Melbourne Punch* said the New South Wales team was very weak and the result was most unsatisfactory to ninety-nine out of a hundred people asking why the game was not taking on in Sydney.
+
+Melburnians would insist on calling the game 'Victorian Rules' . . . Had they dubbed the game Scandinavian Rules, well and good, but VICTORIAN — perish the thought! The sooner the game is altered to Australian Rules of Football, the better.
+
+However, in Melbourne the game prospered very early to the astonishment of everyone. The Melbourne Cricket Club would not have the game on the main oval. This was considered to be a preposterous suggestion — imagine what football players would do to the beautiful turf. Instead they used a double-sided grandstand, and football was played outside in Richmond Park. However in June 1877, a game was played on the main arena. The match was between Melbourne and Carlton, and it drew a crowd between eight and ten thousand, with gate receipts of £200.
+
+*The Australasian* said:
+
+> This pretty clearly demonstrates that football is the most popular of our outdoor sports. Who ever heard of such an attendance at a cricket match. Who wouldn't have a cricket ground and let it after this! Innocuous cricket clubs take heart of grace, and let your ground for this purpose say in the month of June, when the damage to the turf signifies but little.
+
+Of course at the sight of all this money the cricket clubs did let their grounds and the great boom was on. A Carlton-Melbourne match in June 1877 drew fifteen thousand people. Nat Gould, the author, was astonished by it all. He said:
+
+It is no uncommon thing on a Saturday afternoon in Melbourne, when the famous clubs meet in a Cup Tie, to see from 25,000 to 30,000 spectators present. Considering the population as compared with some great English cities, this I think, is an extraordinary attendance.
+
+An English Rugby team toured Australia in 1888 and thrashed Melbourne so easily at Rugby, that they decided to try Victorian Rules. They played Carlton before a crowd of twenty-five thousand. It was all a little confusing. The English found it difficult to dispense with good old-fashioned tackling, nor did they take to the high mark.
+
+Carlton won fourteen goals seventeen behinds to three goals seven behinds. R. L. Seddon, the English captain, later drowned while rowing a skiff on the Hunter River, near Maitland. A. E. Stoddart, who also captained England at cricket, took over.
+
+It is interesting to note also that the football inanities go back a long way. In the 1880s the *Sportsman* newspaper used to include a coupon and one could vote for best players after each match — the best backs, centre men, wingers, followers, rovers and all rounders.
+
+Then there was a bookmaker, Robert Phillips, who would place advertisements to announce his own loyalty. In June 1888, South Melbourne beat Geelong at Geelong, eight goals eight behinds to one goal four behinds. Phillips was so excited by this he took an entire column on the front page of the *Sportsman*. It started:
+
+> GO AHEAD
+> SOUTH MELBOURNE.
+> ALAS! POOR GEELONG.
+
+Then he had a tombstone with the inscription:
+
+> Sacred to the Memory
+> Of Poor Geelong
+> In Memoriam
+> Erected
+> By Their Great Admirer
+> Robert Phillips
+> The South Melbournite.
+
+Football at this time was also very violent. Newspapers were always giving accounts of fights, of assaults on the umpire, of shocking behaviour by larrikins. The *Sportsman* complained of the ing language: 'The language these people use is something fearful to listen to, and as they do not whisper their profanities and curses, it is difficult to find a spot where respectable people can witness this popular pastime.' The journal then went on to describe a riot which took place at Fitzroy.
+
+North Melbourne's used to be the most feared ground. No player liked going there and the *Argus* described it as that 'nasty patch of swamp misnamed a recreation reserve'. Two teams which disliked each other particularly were North Melbourne and Collingwood. They fought in 1895 and again in 1896.
+
+The trouble at the North Melbourne ground started when a woman slapped the face of the umpire at half time. The *Argus* reported that the female barracker had become the most objectionable feature of Melbourne football grounds. On some grounds they spat in the faces of players as they came in to the dressing rooms, and even worse, occasionally they harpooned them with their long hat pins. The gentle maidens at this match, said the *Argus*, kept up a screech of abuse and at the height of the battle they shouted 'Kill him', at the umpire. One said, what a pity they let him off during the Geelong match. They should have killed him then.
+
+All would have been well had North Melbourne won, but Collingwood did them nearby a goal. The moment the first bell rang there was a rush to the pavilion gate. Quickly North Melbourne and Collingwood players gathered around the umpire and they prepared to run the gauntlet. Had they not done this umpire Roberts could have been killed.
+
+The *Argus* reported that the moment he stepped through the boundary gate scores of men 'rushed at him like wolves and a scene of indescribable tumult followed. Fists and sticks were going and one man in the thick of a crowd with an implement wrapped in paper, was making desperate attempts to fracture someone's skull.' No doubt he was trying to do it nicely. Later it turned out his heavy instrument was wrapped in the sheet music of *H.M.S. Pinafore*. In the first rush the mob seized Roberts by the hair and dragged him to the ground. The hero of the hour was Proudfoot of Collingwood, who picked up the umpire. Using one arm to shield his head from blows, he used the other to carry umpire Roberts, and made a true ruckman's mob-shaking charge to the dressing room. Many of the Collingwood players received a mauling before they could reach the dressing room. McDougall of North Melbourne was knocked almost unconscious. Even the angry crowd had not finished. The toughs waited outside the dressing room to get the players before they caught their cabs, and the police had to be brought in to clear them.
+
+Uniforms at this time were often weird and wonderful, face-up worsters, long trousers and even caps. One can only wonder at the skill required in keeping a cap on. The *Vagabond Papers* mentioned one player who wore glasses. This was not unusual. John 'Specs' Binnie, a former Scotch College boy, used to play for Melbourne. It was his custom to bring six pairs of glasses to the ground on match days, give them to the umpire, and as each pair was broken he would collect another set. At the end of the match he would gather up the broken parts and have them repaired for the next battle.
+
+In 1897 eight Association clubs broke away from the Victorian Football Association — Collingwood, South Melbourne, Essendon, Fitzroy, Geelong, St Kilda, Carlton and Melbourne. From then on behinds were counted as one point; before this, they had been counted, but they had no effect on the result of the game.
+
+1908 was a big year, being the Jubilee year of Australian Rules, and the occasion of the first inter-State carnival which took place on the M.C.G. Victoria won the championship, but the big surprise was the remarkable form of the New Zealanders — they beat both Queensland and New South Wales. At the end of the carnival there was a 'Monster Smoke Night' in the Melbourne Town Hall and the Prime Minister, Mr Alfred Deakin, proposed the toast of Australian Rules Football. That made it official, the game came of age, and it was Victorian Rules no longer.
+
+The Victorian Football Association stopped play for the duration of the 1914–18 war, but the League was determined to continue. A crisis came during the great recruiting drive of 1918. The *Argus* particularly was very upset. It could not understand how any young man could prefer playing football to the more 'noble sport' of killing Germans.
+
+When the debate started it ran a three-column story with the headlines:
+
+> PLAY THE GREATER GAME!
+> RESPOND TO YOUR COUNTRY'S CALL
+> The Path of Duty Is The Way To Glory.
+
+It had a poem, which began:
+
+> Out of the South, where the skies are blue,
+> Out of the South, where the hearts beat true,
+> Aiding the Old Land, guarding the New —
+> &nbsp;&nbsp;&nbsp;&nbsp;Others come marching on.
+> Out of the South, for their own fair fame,
+> Out of the South, where they've played the game,
+> Out of the South whence the Anzacs came
+> &nbsp;&nbsp;&nbsp;&nbsp;Others are marching on.
+
+Then there was a story by 'Old Boy' the regular sporting writer. He wrote:
+
+> Which Game? War or football! Which will you play? Many hundreds have answered the question in the only way commensurate with loyalty to the nation. Those who have not evidently place their club first, and prefer the struggle for a premiership cup before the prospect of a military cross.
+
+Some clubs did decide to cancel football for the war, but others with the blessing of the League played on, and the *Argus* was frightened that a further football season would divert young men from 'noble thoughts' to 'frivolous objects'.
+
+'Everybody knows that in the football season the game becomes an obsession with many thousands of young men. It amounts to a sort of fever. They talk of nothing else in the railway trains and trams. But chaps of the Saints beating South and so on. These young men do not play football, they talk football, read about football, and go to football matches, but they derive neither physical nor intellectual advantage from the game.'
+
+There was a whole recruiting move to put the war on a sporting basis, but not only was there the Sporting Battalion. 'The Sportsman's 1000', mentioned earlier, but the *Argus* wrote stories like this one, full of romance. Speaking of the Australian Expeditionary Force, it said:
+
+They were the type of Australian that love adventure, that know no fear, that could not be mere spectators. For these men no circumstances were strong enough to make them stay at home. They wanted to have a first-hand knowledge of the war, to feel the thrill of battle, to play a part in history's greatest tragedy, to see the world and feel they were doing their duty. They represented the kind of man who wants to be in the game rather than have his excitement second-hand.
+
+The president of the Victorian Football League, Mr O. Mortice Williams, did not agree with all this talk. He said: 'Despite the distressing times through which we are passing, some degree of harmless and healthful recreation is beneficial to everyone.'
+
+In Sydney, Rugby Union suspended all competitive matches for the war, but the new Rugby League carried on and so gained a near monopoly of the spectator public. It was a little error from which Rugby Union never quite recovered. Rugby Union did not make the same mistake during the Second World War.
+
+Of course, the arguments against football at the time of the Second World War were not nearly as fierce, and Mr L. H. McBrien, secretary of the Victorian Football League, was always carefully on the defensive. In his annual report of 1941 he said:
+
+The history of the British race is replete with evidence of the value of sport to prepare men for the fighting front and to preserve the balance of the nation in the highest state of perfection to give the soldier adequate preparation.
+
+No doubt he was right. From time to time soldiers, airmen, those on leave, did play with their old teams and when that happened there was the marvellous combination of war hero and sporting hero all rolled into one.
+
+In May 1943, Squadron Leader Keith 'Bluey' Truscott, D.F.C. and Bar, returned to Melbourne, after fighting in the Battle of Britain and for one Saturday afternoon he went straight back into the Melbourne team. Ivan Southall recalled the extraordinary reception he received.
+
+Bluey played that afternoon in the old sweater he used to wear. They had kept it in mothballs for him. The Thousands rose as one to honour him . . . They rushed him bodily. Hundreds of excited schoolboys and men and women engulfed him. Dyer (the Richmond captain) paraded him into the heart of the Richmond team and towards the great block of Richmond supporters, and the reception was a vast human roar and very nearly overwhelming.
+
+He was hopelessly out of training and he could barely drag one foot after the other. 'Let's have a go at the ball,' he pleaded.
+
+The Tigers did slot down, bless them, but if they had slowed down any more when the Bluey was near the ball they would have stopped, and the thousands thought he was clowning and laughed until they could laugh no more. At last Jack Dyer dropped the ball in the goal-mouth and Bluey captured it and put it through. He kicked his goal and the multitude cheered until it was hoarse.
+
+This was a line from an official V.F.L. report.
+
+A soldier, one of the games players in the V.F.L., came home on leave from the murderous business going on in New Guinea. His club, in dirty war-time boots, welcomed him lukewarmly and asked him to strip that very next Saturday afternoon. He played that day — played as if his life depended on it. When the siren sounded the boy went down and scooped up a handful of grass and earth from his home ground. Curious team mates asked him why . . . 'Well, I'd like to take a bit of our ground and of our game. I love back with me next time,' he replied. He never came back.
+
+Then there was the cry 'Up there Cazaly'. Roy Cazaly, 1893–1963, was a great South Melbourne footballer, and the rousing cry which originated around 1921, became part of our language, so much so that Sidney J. Baker says Australia's North Division troops used it in North Africa as a battle cry during the Second World War.
+
+But it is important to examine why Melbourne became so football crazy. There are other towns in the world that take their football seriously. There's Auckland, Buenos Aires, Madrid, Rome, Glasgow, Moscow, but their enthusiasm is of a different kind. Our heroes are local heroes. Victoria is completely introverted. All that interests Melbourne is the local competition. Melburnians do not want international football; they don't even like interstate football. Interstate football is a tiresome arrangement which interrupts the weekly competition. In 1963 there was a poll newspaper readers to decide what should be done about interstate matches. The result was clear cut — 42.3 per cent of readers suggested scrap them altogether.
+
+Why is Melbourne like this? Nobody has ever given an adequate explanation. The cynical fellow will tell you it's a cheap drug. What else is there to do in Melbourne? The enthusiast will say that the answer is obvious — here we have the most exciting, most spectacular game ever devised for mankind. Obviously both explanations are inadequate.
+
+The great depression of the 1890s put a sudden stop to the expansion of Melbourne. There was a further depression in the 'thirties and, more than anything else, football was a cheap entertainment. During these difficult times there was a big population in the inner suburbs. Old clubs like Collingwood, Richmond, Carlton, Fitzroy and South Melbourne could draw their recruits and their supporters from within their own boundaries. This was a violent era, with larrikins and gangs the curse of the city. Football was an outlet for some of the tensions, and competitive feeling between the suburbs was extraordinarily high.
+
+The people from Carlton would loathe the people from Fitzroy. The people from Collingwood would loathe the people from Richmond. The match between Collingwood and Richmond was always a classic battle worth going miles to see. Then almost everybody loathed North Melbourne and Melbourne — North Melbourne for its lowly origins and Melbourne for its superior, upper-class background.
+
+These thoughts on the rivalry between the suburbs may sound exaggerated, but many of the old players remember the situation. Jack 'Captain Blood' Dyer, the tough man of Richmond, wrote a book which he dedicated to his mother with these words: 'To my mother who at the beginning of my career started worrying that I would be hurt, and finished worrying whom I would hurt.' He recalled that North Melbourne players were known as the Shinboners, a name won through many a bruised shin. He said there was never any love lost between Richmond and North, and that this dated from the old Association days when the Richmond Tigers were frightened out of turning up for a match. Word came that keen supporters had dumped two loads of gravel and rocks in the players' race, ammunition for the Shinboners in case of defeat. Richmond decided it would be smarter to forfeit the match.
+
+Similar were his feelings about Collingwood:
+
+> I've laboured the point of my hatred of Collingwood and it isn't a friendly dislike — it's the way Collingwood fans like them, they think they are God's gift to football, they shun all outsiders and the only time I like to think of Collingwood is when they lose, because it hurts them so much . . . When they lose they never visit your rooms or congratulate you . . . I wouldn't do anything they offered, you wouldn't know what they had done to it.
+
+Or take a line from a former Collingwood captain, Lou Richards:
+
+> I was born into a Magpie family and reared in the Magpie nest, kicking old tins and paper footballs around the streets of Collingwood and Abbotsford. These are industrial suburbs, and although football fever was high and the ambition to play with Collingwood pounded in the hearts of all the school kids, the depression was just ending and we never had footballs for the very plain fact that our parents couldn't afford them. But maybe this helped to breed the type of footballer for which Collingwood is typically famous. We used to play in the street every night after school, using whatever we could scrounge for a football — usually we would stuff some papers into discarded cigarette packets. To get a kick was an art in itself because no holds were barred.
+
+In Melbourne then the suburbs were more tightly knit. No doubt St George in Sydney could generate similar passions to Collingwood, but what could you do with Western Suburbs, Eastern Suburbs, or North Sydney. Take Collingwood. Visitors will hardly credit it, but the tradition there is almost a mystic thing. The Collingwood club rooms have the atmosphere of a shrine, one tends almost to cross oneself upon passing through the doors. Famous British regiments took centuries to build their traditions, but with blood being spilled here every Saturday afternoon, traditions were built with astonishing speed. The Collingwood walls are adorned with colourful photographs and great names, names that are revered like fallen revolutionary heroes. The late E. W. Tipping once gave an account of the annual preseason dinner at Collingwood.
+
+It was done in great style. The club members in black ties turned up in force; there was wine, turkey, and brandy served in balloons. Later came the profound moment: first a fanfare of trumpets and then from the end of the hall entered a Boy Scout bearing high and aloft the most cherished embroidered cushion. On this cushion was the most cherished article in all Collingwood — the No. 1 black and white Collingwood guernsey. As the Boy Scout came forward, out stepped the Collingwood captain to accept his guernsey from the club president himself. And so it went every man on the senior football list received his guernsey in the same way. This helped him to appreciate that he was receiving one of the highest honours in Melbourne town. Graduating at Wes Point would have been a lesser honour.
+
+Elections in Collingwood also are interesting. I remember the one of 1963. Two distinguished men were competing for the presidency. One had criminal actions and was Leader of the Opposition in the Legislative Council, and more important than anything, a former Collingwood player. On the other side was Tom Sherrin, a football manufacturer, and, what's more, his business was right there in Collingwood. Elections in State politics can be dull, but this was done in the grand style. The elections were really wood. The Galbally team, for example, had a complete telephone canvass.
+
+Every club member received at least three letters in the nail. The candidates personally put their cases on two commercial television stations. There were men to hand out pamphlets at the railway stations all along the Collingwood line. Then on polling day the players paraded with cards asking the members to vote for Tom Sherrin. What's more, just like a Federal election, there were 'How to Vote' cards.
+
+Tom Sherrin had an easy win. It all cost a great deal in time, effort and money. Neither Tom Sherrin nor Jack Galbally had anything to gain financially or in privilege by winning the election. There was just the prestige to be had in being President of Collingwood.
+
+The drive and fanaticism of Victorian Football League coaches is also something to observe. Perhaps the most passionate of them was Alan Killigrew, who was coach of St Kilda and North Melbourne. He believed in tradition. He had pictures on the training room walls of great players of the past and there were inspiring slogans for the players of the present. The most important slogan at North Melbourne was: 'The Team that Wins Gains Football Immortality.'
+
+It was fascinating to watch him giving his pre-play speech to his side. At this he was superb. He was Billy Graham, Billy Graham, Laurence Olivier, all rolled into one. He knew how to build to a climax, how to time an impact and how to drop to an emotional hush.
+
+When talking he could not stand still. He would march up and down the dressing room. He wore no coat, his tie would hang down loose and he would become red in the face. In 1965 he wrote down one of his speeches in shorthand. Here are some extracts:
+
+This is it. THIS IS IT. You're in the BIG TIME after today. Now I want you to go out on that ground in a body all tight together. I want you to look like a VFL SIDE — the cream of Australian football. I want the whole WORLD know — it's US — against THEM.
+
+You're going to fight now for North Melbourne and believe me, there's no better cause. North Melbourne always has been noted for GUTS. Don't you forget that ever. There's never been a North Melbourne team that didn't have GUTS. North Melbourne teams have been beaten, yes, they have been annihilated, but they have never been frightened. NEVER.
+
+And if someone doesn't say something good, give a good mark, give him a rap. Tell him, You're a team, remember. You got to LOVE each other. Yes. LOVE EACH OTHER.
+
+The world is your oyster — if you win. But this is a ruthless business, the jungle. DOG eat DOG. If you go down, you're finished. NO-BODY'S INTERESTED IN YOU. Already they're saying North Melbourne for the four. You can do it IF YOU BELIEVE IT. Well, I believe you can . . . It's the truth.
+
+All right . . . I can't tell you how to win. I can't put blood in your heart. I can't push the blood through to work your muscles. HEART IS SOMETHING YOU GOTTA HAVE ON YOUR OWN. Now North has won only five times in thirty-eight years. Well, what are you going to do!
+
+(Very soft now) Are you going to be one of those teams who COULDN'T or one of those who CAN!
+
+(Applause and shouts of enthusiasm as the team runs out on to the ground.)
+
+Killigrew would try to vary his approach week by week. Sometimes he would quote the classics, even down to the great speech of Shakespeare's King Henry at Agincourt. So much for the drive for club loyalty which has helped create the Australian football phenomena.
+
+As explained earlier, intense rivalry between suburbs was a factor in building enthusiasm. By comparisons, but tremendous publicity gave it a neat suburban cast. It is intriguing to compare the space given to football before and after the Second World War. During 1971, 7,900,000 people watched the sport and the newspapers, particularly *the Herald*, discovered that circulation gains came automatically with the start of the football season. And so began the huge coverage. Football would make the newspapers some days four or five times a week. On one occasion the *Herald* found that the most news-making event in the world was that the full forward for Geelong had a sore neck. *The Herald* also became the first newspaper to employ a football writer to write football full time all the year round. There were the disputes, the transfers, the appointment of coaches, and soon he had football on the posters throughout the summer, doing far better than the football writer.
+
+The football coverage on television has been greater than that given to gun play. The replays go all around Australia, to Sydney and Queensland. Enormous matches group and grand finals are played during the summer so that enthusiasts will not forget. There are preview programmes, selection of team programmes, and post-mortems. There was one very popular programme on Sunday mornings when the injuries of the day before were announced. The compere was dressed in a white jacket complete with stethoscope around his neck, like Ben Casey. It gave the whole affair authenticity.
+
+Quiz programmes involving football heroes have also been popular. There was one on GTV9 called 'The Big Game', which became in remarkable style. The set was a reproduction of a football field, and the players turned out in full football regalia. The compere was in white shirt and shorts, exactly like a field umpire. When players answered questions correctly, they scored goals and behinds. It was all done with authentic atmosphere. There were even cheer squads, which squealed and waved streamers after every question.
+
+The goal umpire was a Go-Go girl, all in white, white boots and sensational white mini skirt. After the scoring of a goal she did an ecstatic dance, rotating her pelvis and waving the flags at the same time.
+
+One man who has tried to explain the Melbourne madness is Professor Ian Turner, a historian at Monash University. Every year, dressed in a Richmond football sweater and Richmond beanie, he gives his Ron Barassi Memorial lecture to a packed lecture hall of students.
+
+In 1971 he started by giving evidence of the strength of the mania. He quoted the author George Johnston:
+
+> In Melbourne, football is a fever disease like recurrent malaria and evidently incurable. For six or seven months of the year a mad contagion runs through the Press, TV, radio and everyday life. Melbourne has no summer — only a period of hibernation between football seasons.
+
+He recalled also the words of the Reverend Alan Walker, speaking at the M.C.G.:
+
+> Ladies and Gentlemen gathered here on this great occasion, whichever team we may support — the Saints or the Demons — we can surely agree that we are joined together as brothers in Jesus Christ.
+
+'Thereupon came a mighty voice from the Southern stand: "What about the bloody umpire?"'
+
+He quoted a series of erudite authorities to prove that sport was really a substitute for warfare, the one thing that separated us from palaeolithic savages. For example, the psycho-analyst A. A. Brill stated:
+
+> All men have an aggressive component in their psyche. This is one of the primary weapons in the fight for survival. Therefore, it needs socially manageable and socially approved outlets. One such outlet is spectator sports. Sports are a great and necessary catharsis, indispensable to civilised man — a Saturday purgation of the combative instinct which is dammed up within him.
+
+Professor Turner said he noted a fine example of this in a St Kilda–Richmond match at Moorabbin. The Tigers were five goals down but pulling up fast. Professor Turner heard a thirtysix, beer-gutted supporter shout: 'You bloody Carlton, you piss-ant bastard.' This, he said, brilliantly released racial, political, sexual and male chauvinist prejudices.
+
+He said football lovers got three things out of the game: a transcendency out of their drab daily lives and identification with heroes; a sense of belonging; the joining of a club and thereby gaining in importance; and the aesthetic satisfaction in watching a pleasing performance. There were two reasons for Melbourne's particular passion. Climatically Melbourne was more suited to winter sport than Sydney, and it was more inwardly turned culturally than Sydney, so Melbourne needed this thing to get rid of its aggressions.
+
+Two traumatic events of the past twenty-five years stand out as worthy of record in a social history of football behaviour; first, the suspension of John Coleman, and second, the departure of Ron Barassi from Melbourne.
+
+Coleman of Essendon was the greatest full forward of his generation. He could soar to uncanny heights when stretching for a mark. In his first league match against Hawthorn he kicked twelve goals. In 1949 he kicked a hundred goals, in 1950 a hundred and twenty goals and he helped lift Essendon to the premiership in both years. Yet he was so much pressure, the match-winner that other teams and their supporters could not tolerate him. He was an object to be flattered or even coaxed into a situation which would have him reported. Nor was Coleman a totally placid and calm personality; he was capable of being needled.
+
+In 1951 in a match against Carlton he was reported for misconduct. The tribunal took place at V.F.L. headquarters, Harrison House, in Spring Street. Now tribunal nights are always melodramatic affairs and the crowd turns out in the manner of the 1840s when it was the custom to pay one's respects at a public execution. The entertainment benefits to be gained from a public hanging and a football tribunal are not dissimilar. In the 1970s it is done with an all-star cast of press, radio, lights and outside broadcast vans which beam the triumphs of the innocent and the agonies of the guilty, to every home in Melbourne. On this occasion the tribunal let Coleman off with a caution and the fans went berserk; they wanted to chair him down the street.
+
+The last game of the season was against Carlton. Jack Dyer has described it this way:
+
+A dramatic fight broke out in the first half and Coleman reeled from a heavy blow and then sprang back fighting. He threw a wild punch at Harry Caspar and the player descended on one another in a furious mêlée. Before the dust settled the umpires had reported Caspar for striking Coleman and Coleman for retaliating.
+
+The magnitude of the disaster can only be imagined. With Coleman Essendon was sure once more to take the flag, without him they were ruined. The furious crowd threw bottles and hundreds gathered outside the umpire's room for more than an hour howling with rage. One man tried to hit umpire Barbour. There was even an unsuccessful attempt to bribe the Carlton ruckman, Harry Caspar, to take all the blame.
+
+On tribunal night the crowd began to arrive at Harrison House hours beforehand and the police came in to keep order. The *Sun News-Pictorial* said the demonstrations there were the most remarkable ever seen at a tribunal. He was the first man to be tried. He received four weeks' suspension, but as Carlton was not playing in the final this was no serious matter. As he came out some shouted 'You dirty dog', others 'Good on you, Harry'. Some young women tried to kiss him, while others followed him across Spring Street calling out abuse.
+
+Coleman, when he received the verdict, he sank down and burst into tears. This meant that he was out for the final series and now Essendon's chances were dim indeed. He spent twenty minutes in an ante room in a state of emotional shock.
+
+Meanwhile the crowd outside was impatient. They hooted for five minutes when they heard the verdict and then set up a chanting: 'We want Coleman — we want Coleman.' The Collingwood faction retaliated with: 'Shut up' and 'Pull your head in'.
+
+Finally he appeared, pale and ill-looking with his overcoat pulled about his head. There was a wild and strange demonstration. Women predominated in the crowd — half were sympathetic wanting to shake his hand or put an arm around his shoulders. Others shouted 'Serves you right' . . . 'Pity you didn't get more.' A girl with a loud voice shouted, 'Been crying has he; let's kiss him better.'
+
+Coleman stumbled through the wildly surging crowd. Out on the footpath he staggered, struck his head on a State Electricity Commission control box, and down he went. Essendon officials helped him into a car — he was only semi-conscious.
+
+The controversy was on. All most newspaper critics thought Coleman had been harshly treated. Jack Cannon of the *Argus* wrote: 'Had I been Coleman I would have hit back, retaliated. Anybody would.'
+
+Essendon were in the Victorian Grand Final with the greatest full forward in the country sitting in the press box for a newspaper. He saw his team lose to Geelong by nine points.
+
+The Ron Barassi story reached its height in December 1964. He was the captain of the all-powerful Melbourne Football Club — the oldest, most distinguished club. He was the greatest Demon of them all. He was Mr Football in Melbourne. When the electoral office put out sample forms they never used names like John Doe or John Smith. They put Ron Barassi. If one asks a Melbourne newspaperman for the greatest news story of 1964 automatically he will say: 'Ron Barassi's move to Carlton'.
+
+On 10 December Carlton offered Barassi $18,000 on a three-year contract to become playing coach of Carlton. The whole idea seemed too absurd, something not to be taken seriously. There was an audible sigh of relief from Melbourne supporters when he rejected it. Melbourne made a counter offer, and the famous Demon coach, Norm Smith, even offered to stand down.
+
+Carlton kept hammering, offering all kinds of fringe benefits and finally, almost on Christmas Eve, Barassi accepted.
+
+The shock was hard to bear for Barassi was supposed to be the epitome of devotion, of bleed-to-death-for-your-club loyalty. How could he do this thing? The newspaper letters were fascinating. Here are some examples:
+
+A staunch Demon supporter, I cried when I learned of Ron Barassi's appointment to Carlton. If Barassi feels that he is too good for Melbourne then why go to a lower club? The victories won't be as frequent nor will the praise and sympathy from his supporters, Carlton and Melbourne.
+
+— Demons Supporter, Melbourne.
+
+What does Ron Barassi think he is doing? How about the thousands of Demon fanatics who have defended him when attacked, backed him up when he is outspoken and supported him when down!
+
+— Red and Blue, Burwood.
+
+There were some pathetic reports from women who kept budgerigars. It is the custom in Melbourne to make budgies loyal football supporters. One lady at Lilydale wrote how patiently she had taught her budgie to sing: 'Come on Ron'. There was a lady in the city who went even further. She taught her budgie to say: 'Come on the Demons', 'Kick a goal Barassi', and 'Good kick Barassi'.
+
+Many wondered what happened to those budgerigars for they can be taught only at an early age. Were they strangled and replaced with birds of greater loyalty?
+
+There was another problem. Most small boys in Melbourne are given football sweaters by their loving parents. According to the Melbourne Sports Depot, the most popular sweaters sold in Melbourne in 1964 were Melbourne Club sweaters. Nine out of ten of these had the number 31 on the back, the number always worn by Ron Barassi in battle. It was also worn by his father, Ron Barassi Snr, a former Melbourne rover.
+
+This caused hard feelings. Barassi made a visit to an institute for crippled children where he was received enthusiastically by all the children except one:
+
+'Who do you barrack for?' Barassi asked.
+
+'Melbourne,' said the boy.
+
+'Why don't you speak to me?'
+
+And the boy called out: 'Because I hate you, I hate you, I hate you.'
+
+'Because you went to Carlton, that's why.'
+
+It took Barassi, king of football, almost an hour to talk him around.
+
+The contempt that Australian Rules devotees have for other codes is very real — they are almost totally introverted, as sure of themselves as nuns in a convent. Rugby League and Rugby Union fans are, perhaps, a little more broad-minded. They will at least accept the Melbourne game on television. The cleavage continues. In Sydney the Melbourne game is known as 'aerial ping pong'; in Melbourne the Sydney game gets the label 'open air wrestling'.
+
+The difference in enthusiasm can be gauged from the figures. The Victorian Football League in 1971 drew 3,526,436 people to first grade matches, Rugby League drawing nearly the same number of games, attracted 1,575,585. So taking into account the difference of population between the two cities Australian Rules attracts three times as many spectators as Rugby League.
+
+It would be a mistake to conclude from these figures that Rugby lovers of Sydney and Brisbane are unmoved by the game. Their passion move in different directions. Rugby League is played with even more aggression and certainly more savagery than Australian Rules, and when it comes to international battles one would be tempted to believe that a state of war existed without even the niceties of the Geneva Convention.
+
+Rugby Union in Australia began at Sydney University in 1864, the first administrative body, the Southern Union, did not arrive for another ten years. The public schools made a huge contribution for they put sides into the competition, sides which were anything but weak; they were able to overcome the best in Sydney. Of course, students at this time tended to be older than today. Parents would find their sons such a handy source of labour they would keep them down on the farm, almost illiterate until they were sixteen or even eighteen. Then they would send them to the city for polishing, to be turned into young gentlemen.
+
+Rugby Union had its peak of popularity in the Edwardian era when fifteen to twenty thousand used to attend club games. In all-time high was in 1907 when fifty-two thousand saw Australia play the All Blacks at the Sydney Cricket Ground. Rugby Union did not really get the same attention until the 1971 South African Tour, which caused sufficient interest for a Queensland premier to call a state of emergency, surely unprecedented in football history.
+
+But as Rugby Union had its moment of glory in 1907, Rugby League had its moment of birth. A Sydney Club investor, Alec Burdon, broke his arm on a tour of the New South Wales Northern Rivers. He paid his own medical expenses and he received no compensation for time lost at work.
+
+So a group of footballers met, at Victor Trumper's shop in Sydney, voted to quit the Union and start the professional game. Trumper was at his peak in cricketing but he was also passionately interested in football. They guaranteed players a dollar a day tour and seventy-five cents a day out-of-pocket expenses. The new league managed to attract some of the finest Australian players, including H. H. 'Daily' Messenger, whom the League reveres still as the finest player of all time. At the League headquarters in Sydney there is a picture of Messenger. It has no name on it, for it would be sacrilege even to ask, the picture is labelled 'The Master'.
+
+Rugby League sent an Australian team to New Zealand and devotees still look on it as the greatest in League history. In Test match score was two wins and one draw. However the bitterness, that nationalistic urge to see England go under, probably began in 1914. England came to Australia during a stirring series. The Ashes stayed in England in 1902 and this was another stirring series. In the Second Test an English forward spat on the Australian lock, Arthur Collinson, who hit back with boots and fists. The resentment was all nicely fermented for the Third Test, fists. which in the great tradition of these matters became known as the 'Battle of Odsal', for it took place at Bradford's Odsal Stadium. It was another classic battle with players fighting toe-to-toe in a melee in front of the stands. At the end of the game England's captain, Ernest Ward, refused to shake hands with the Australian captain, Clive Churchill. Churchill's hand was left hanging in the air. Australia won this final Test 27–7 after losing the first two, and English pressmen gave them the sinister title, the 'fucking Kangaroos'.
+
+Sydney journalist Gary Leiter has written in their defence:
+
+> Like many teams have found in their tussles with English teams, the Australians could not contain themselves against this well-conceived English plan. On this occasion the Australians retaliated openly to their under-hand intimidations and were thus blamed for the savagery.
+
+Yet perhaps the most celebrated battle of all took place on 10 July 1934 at the Sydney Cricket Ground. Some have referred to it as a bar-room brawl reminiscent of the gold rush days, others have suggested that it made the old fight stadium at Rushcutter's Bay seem pallid, timid affairs. England and Australia were about to play the third and deciding Test in Melbourne, as a propaganda venture for Rugby League, in the very Temple of Australian Rules.
+
+Anxious to cash in on the gate money, keen to get public interest while it was hot, and keener to take on the Englishmen while they were down, the Australians decided to play the Third Test the following Saturday. The English team was away playing at Bathurst and without their knowledge the Australians cabled London for permission to make the change in date.
+
+When he received this news the English captain, Harold Wagstaff, was livid. He had no wish to play three Test matches in one week. Already his team was shockingly depleted with injuries. The result was a Churchillian 'we shall fight on the beaches' attitude.
+
+On the Saturday morning before they left for the ground, the Englishmen had a special meeting in their hotel. The team manager, John Clifford, locked the door and told the thirteen men that they had to play as never before.
+
+> You are playing in a game of football this afternoon, but more than that you are playing for England, and, more, even, you are playing for Right versus Wrong. You will win because you have to win.
+>
+> Don't forget the message from home. England expects every man to do his duty.
+
+The play was so torrid England had to go through the second half with only ten men. Soon after the start of the second half, Frank Williams, went off with a crippled leg. In the second half, Douglas Clark, a British Empire wrestler, broke his collar bone. He broke his thumb in the first half, but that was not enough to stop a footballer when England expected every man to do his duty. Another player, Billy Hall, went off without warning but came back for the last desperate ten minutes. So England won 14–8 and honour was saved.
+
+One of the most famous Tests was the Second Test in Brisbane of 1932. This has been known ever since as the 'Battle of Brisbane' and it has gone into the language like 'Up there Cazaly'. Sidney J. Baker has given it special recognition in his book *The Australian Language*. It is like Eureka, Gallipoli or Alamein: whenever Australian patriotism is to be roused one has to think of the Battle of Brisbane.
+
+The English team was skilful, tough, very strong, and they won the first Test at the Sydney Cricket Ground 8–6 before a crowd of 70,204, which has not been equalled even yet for a Test match.
+
+Feeling was bad even before the Second Test started. As body-line came in with the 1932 Rugby tour, the stiff-arm tackle came in with the 1932 Rugby League tour, an English import. Sports writers defined it this way: 'an extended, stiffened arm swung simultaneously with a high tackle and making contact with the face of a baseball bat.' They also exploited a close up defence which was frequently off-side, to drive back the Australian attack.
+
+Just before the match Harry Sunderland, the Australian team manager, gave the bitterness of the situation a high tuning when he visited the Englishmen's dressing rooms. All the English players looked on as Sunderland walked in and confronted his English counterpart, Bob Anderton. He put thirteen two shilling pieces and thirteen pennies down on the table. 'We are the two bobs, you are the pennies,' he said, and he arranged them all in field positions. Then he moved them in a manner to show very clearly how the Australians planned their tactics. Finally he picked up his 'two bobs' disapproved of their tactics, and told Anderton if he could keep the pennies as a souvenir.
+
+The Englishmen were hugely insulted and from then on the battle was away. At times the players fought the game toe to toe, punch for punch. The Queensland forward Dan Dempsey broke his arm, had it set, then ran on again tearing away bandages and splint, pleading that he could at least get in someone's way, only to be sent off again.
+
+The big lock, Frank O'Connor, refused to remain on a stretcher when he was being carried off the field. Ernie Norman, the five eighth from Eastern Suburbs, was carried from the field unconscious three times and was reported as running round like a headless chook. The half back, Hec Gee, of Ipswich, had a lump torn out of his lip.
+
+The climax came when the Australian second rower, Joe Pearce, sent the ball to the five eighth, Eric Weissel, who had been almost completely out of action with a suspected broken ankle. Somehow he ignored the pain and went forward, escaping tackle after tackle. Two Englishmen flattened him five yards before the line, but he got up again, passed the ball to Hec Gee, who dived to score between the posts. Weissel's ankle was too bad to proceed further, but Joe Pearce kicked for him to give Australia a 15–6 win. Their triumph was all too brief, for England won the Third Test 18–13 and the Ashes.
+
+But just to prove a little further that Rugby lovers are moved by football, it is important to mention the Rugby League win of 22 July 1950, played in the mud at the Sydney Cricket Ground. Australia won the Ashes at Rugby League is not nearly as rich as our success at cricket. In 1950 a long, long drought ended and Australia won the Ashes for the first time since 1920. Harold Matthews, a former secretary of the New South Wales Rugby League, wrote in 1967, that neither before nor since had he witnessed such emotion at a League game.
+
+Australia lost the First Test, won the Second in Brisbane and then triumphed 5–2 in the Third. Not only were the conditions similar to those of an Indian monsoon, tears of joy everywhere added to the moisture. The players hugged each other. Thousands invaded the ground and tried to chair all the players to the dressing room.
+
+Sydney Cricket Ground officials had to call in the police for the crowd was taking as souvenirs everything in sight — corner-posts, goal-posts, pads, line flags and even the buckets that the players had used during the game to wash the mud out of their eyes. Raiding rugby fans went into the sacred enclosure of the members' reserve where they broke a plate glass window. They chanted and cried for the Australian captain, calling out 'We want Churchill'. John Quinlan, co-manager of the successful 1911–12 Kangaroo team, was there, tears running down his face, and he was the first of the officials to congratulate the players.
+
+The Ashes stayed in England in 1952 and this was another stirring series. In the Second Test an English forward spat on the Australian lock, Arthur Collinson, who hit back with boots and fists. The resentment was all nicely fermented for the Third Test, which in the great tradition of these matters became known as the 'Battle of Odsal', for it took place at Bradford's Odsal Stadium. It was another classic battle with players fighting toe-to-toe in a melee in front of the stands.
+
+<hr>
+<p>Back to chapter eight: <a href="{{ '/books/sports/8-the-boxing-passion/' | url }}">The Boxing Passion</a><br>
+Continue to chapter ten: The Pedalling Passion</p>

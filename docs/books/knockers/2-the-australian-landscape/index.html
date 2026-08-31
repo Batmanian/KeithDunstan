@@ -1,0 +1,628 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Australian Landscape</title>
+<meta name="title" content="The Australian Landscape">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Traces the knocker&#39;s tradition back to the earliest Dutch navigators and British explorers, then through colonial painters and poets who saw the Australian landscape as weird and melancholy, arguing that the mass importation of European animals, plants and aesthetic habits expressed settlers&#39; inability to accept what was already there.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/knockers/2-the-australian-landscape/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="The Australian Landscape">
+<meta property="og:description" content="Traces the knocker&#39;s tradition back to the earliest Dutch navigators and British explorers, then through colonial painters and poets who saw the Australian landscape as weird and melancholy, arguing that the mass importation of European animals, plants and aesthetic habits expressed settlers&#39; inability to accept what was already there.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="The Australian Landscape">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/knockers/2-the-australian-landscape/">
+<meta name="twitter:title" content="The Australian Landscape">
+<meta name="twitter:description" content="Traces the knocker&#39;s tradition back to the earliest Dutch navigators and British explorers, then through colonial painters and poets who saw the Australian landscape as weird and melancholy, arguing that the mass importation of European animals, plants and aesthetic habits expressed settlers&#39; inability to accept what was already there.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="The Australian Landscape">
+<link rel="canonical" href="https://keithdunstan.org/books/knockers/2-the-australian-landscape/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1972-01-01">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="Knockers">
+<meta property="article:tag" content="Adam Lindsay Gordon">
+<meta property="article:tag" content="Arthur Koestler">
+<meta property="article:tag" content="D. H. Lawrence">
+<meta property="article:tag" content="Hans Heysen">
+<meta property="article:tag" content="La Trobe Library">
+<meta property="article:tag" content="Louis Buvelot">
+<meta property="article:tag" content="Marcus Clarke">
+<meta property="article:tag" content="Robin Boyd">
+<meta property="article:tag" content="St Kilda">
+<meta property="article:tag" content="Thomas Austin">
+<meta property="article:tag" content="William Dampier">
+<meta property="article:tag" content="William Strutt">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">The Australian Landscape</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            16
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1972-01-01">1972</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Traces the knocker&#39;s tradition back to the earliest Dutch navigators and British explorers, then through colonial painters and poets who saw the Australian landscape as weird and melancholy, arguing that the mass importation of European animals, plants and aesthetic habits expressed settlers&#39; inability to accept what was already there.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="Knockers">
+         <!--<a href="/tags/adam-lindsay-gordon/" class="btn btn-outline-dark btn-sm me-2">Adam Lindsay Gordon</a><a href="/tags/arthur-koestler/" class="btn btn-outline-dark btn-sm me-2">Arthur Koestler</a><a href="/tags/d.-h.-lawrence/" class="btn btn-outline-dark btn-sm me-2">D. H. Lawrence</a><a href="/tags/hans-heysen/" class="btn btn-outline-dark btn-sm me-2">Hans Heysen</a><a href="/tags/la-trobe-library/" class="btn btn-outline-dark btn-sm me-2">La Trobe Library</a><a href="/tags/louis-buvelot/" class="btn btn-outline-dark btn-sm me-2">Louis Buvelot</a><a href="/tags/marcus-clarke/" class="btn btn-outline-dark btn-sm me-2">Marcus Clarke</a><a href="/tags/robin-boyd/" class="btn btn-outline-dark btn-sm me-2">Robin Boyd</a><a href="/tags/st-kilda/" class="btn btn-outline-dark btn-sm me-2">St Kilda</a><a href="/tags/thomas-austin/" class="btn btn-outline-dark btn-sm me-2">Thomas Austin</a><a href="/tags/william-dampier/" class="btn btn-outline-dark btn-sm me-2">William Dampier</a><a href="/tags/william-strutt/" class="btn btn-outline-dark btn-sm me-2">William Strutt</a>-->
+
+        
+      </header>
+      <div class="article-body"><p>The knockers of Australia started early. Maybe there were others who were not enthusiastic, but the first to put their feelings on paper, the first migrants to return as quickly as possible, were the great Dutch navigators. They came looking for treasures to rival those of the Aztecs and the Incas. They were greatly disappointed.</p>
+<p>Jan Cartenszoon, captain of the Dutch vessel <em>Pera</em>, called at what must have been the Mitchell River, on the north-west coast. In his journal for 23 May 1623, he wrote:</p>
+<blockquote>
+<p>The land here is low-lying and without hills; it is very dry and barren, for during the time we have searched and examined this part of the coast to our best ability, we have not seen one fruit-bearing tree, nor anything that man could make use of; there are no mountains or even hills, so that it may safely be concluded that the land contains no metals, nor yields any precious woods, such as sandal-wood aloes or columba; In our judgement this is the most arid and barren region that could be found anywhere on the earth; the inhabitants, too, are the most wretched and poorest creatures I have seen in my age or time; as there are no large trees anywhere on this coast, they have no boats or canoes, whether large or small.</p>
+</blockquote>
+<p>The blacks here attacked us with their weapons, but afterwards they retreated and took to flight ... like all, they are ill-natured and evil, of tall nature and very lean to look at, but naked; they are quite black and stark naked, with feathers stuck through the lower part of the nose.</p>
+<p>Francois Pelsaert, who was wrecked on the West Australian coast in 1629, did not like the country either. He could find no water and was distressed at the barren look of the country, no trees, no shrubs, not even grass, only strange ant hills, so large they looked like huts or 'abodes of men'. Then there were the flies. 'We also found such multitude of flies here, which perched on our mouths and crept into our eyes, that we could not keep them off our persons.'</p>
+<p>William Dampier, upon entering Shark's Bay, Western Australia, in 1699, described it as 'God's miserablest country'. For his journal of 1 September 1699 he wrote:</p>
+<blockquote>
+<p>We were sadly pestered with the flies, which were more troublesome to us than the sun, though it shone clear and strong upon us all the while, very hot.</p>
+</blockquote>
+<p>But his comments on the Australian aboriginal are probably the most devastating ever written:</p>
+<blockquote>
+<p>Their Eye-lids are always half-closed, to keep the Flies out of their Eyes: they being so troublesome here, that no fanning will keep them from coming to one's Face; and without the assistance of both hands to keep them off, they will creep into ones Nostrils; and Mouth too, if the Lips are not shut very close. So that from their Infancy being thus annoyed with these Insects, they never do open their Eyes as other People.</p>
+</blockquote>
+<p>Both Pelsaert and Dampier complained of the plagues of flies. This is a recurring theme for nigh all the early visitors to Australia. They all talk of the flies which get into the nose and mouth, and appear in devastating hordes beyond anything they have seen. The most eloquent about this was the Irish writer, William Kelly. In Melbourne the way to kill them was to buy a white powder which dissolved in water. It sounded more effective than all the modern DDTs and aerosol sprays. This powder, when placed in a saucer and water added, gave off a vapour which, according to Kelly, brought the flies down in hundreds of thousands. They covered the carpet, so that they squelched underfoot, or squelched upon one as one sat down in a chair; even worse, they dropped into one's wine, and looked like blackcurrants on one's bread and butter.</p>
+<p>Of the Melbourne fly plague of 1853 he wrote:</p>
+<blockquote>
+<p>They abounded in million myriads everywhere; they almost darkened the air and were so unbearably juicy and obtrusive that many people armed themselves with what they called horse tail twigs to thrash them away. But thrash away until your arm ached, switch thousand upon thousands into pieces, the moment you paused, fresh legions as if incensed at your brutality swarmed upon you in buzzing viciousness, straddling over each other's backs in their anxiety to have revenge, the more daring forcing their way up your nostrils and into the corners of your mouth and eyes.</p>
+<p>All shops seemed alive with them, especially butchers' shops; and when a quarter of beef was disturbed on the hooks to cut out a roasting piece or a sirloin, the insect roar which arose was positively startling, following their prey to the block and going down in their blind fury almost side by side with the knife in the incision, sometimes dropping onto a man with a florid rump steak, as if they would wrest it off the plate of the customer.</p>
+</blockquote>
+<p>Kelly would have appreciated a much later commentary on flies by Robin Boyd in his book <em>The Great Australian Dream</em>. In a satirical piece he explained that there were two kinds of flies in our lives. The first was the common house-fly, an outsider from the Old Country. Then there was the bush fly, also probably imported. Finally there was the blowfly, better known as the Blowey, which was unquestionably a native of this country. So, to understand Australia, first one had to learn to love the Blowey.</p>
+<p>Perhaps it should even get a grading from the National Trust.</p>
+<p>Kelly, even if he did not like the flies, had an extraordinary gusto in his writing, but it is much harder to understand the attitudes of the early painters. The first thing that astonishes any photographer on his arrival in Australia is the light. Summer readings can be so bright as to almost push the needle off his exposure meter. The paintings of the colonial artists look as if they were painted at nine o'clock at night, or maybe Messrs Glover, Conrad Martens, Eugene Von Guerard, Louis Buvelot and others were the first of the enthusiasts for dark glasses.</p>
+<p>It is not that the paintings have gone dark with time: these artists saw nothing in Australia that was beautiful — their pictures reflect the quality of their gloom. They were used to the younger, more vigorous, pretty-pretty growth of Europe and the unkempt Australian bush was weird, strange, melancholy. Not until the 1870s or the 1880s was any artist capable of interpreting a gum tree — they tended to look like elms, chestnuts or, especially, poplars. The proper shade of green totally eluded them.</p>
+<p>One of the greatest of the colonial artists was Louis Buvelot, a Swiss, born in 1814. His pictures always depicted the late afternoon or evening and, but for the settlers' huts, some of them could be taken from alpine Europe. But obviously he did not like the brightness of the light and he found it better to give the scene the gloom of the end of day.</p>
+<p>William Strutt is another interesting example. He came to Melbourne in 1850 and stayed for eleven years. He would have been an ideal police roundsman for a metropolitan daily newspaper — he specialised in mayhem and disaster. His most famous painting is on the wall in the La Trobe Library, Melbourne. Its title is 'Black Thursday, 6 February 1851.' Soon after Strutt arrived there was a classic Victorian bushfire, which devastated the colony. The temperature in Melbourne went up to 117 degrees and smoke blacked out the sun. Strutt toured with his sketch book, then spent three years painting his bushfire scene.</p>
+<p>The canvas is vast, requiring a very large wall to cope. The scene is dark, redolent with pouring black smoke, dust, screaming terrified women, fleeing wildlife, dead kangaroos, battling settlers, dying sheep — it makes Dante's Inferno a reasonably comfortable affair. Strutt went for hold-ups, bushfires, droughts, deaths of explorers. 'Martyrs of the Road', painted in 1852, is a picture of horse carcases stretched out on the dreary landscape. He pre-dated Clifton Pugh, Nolan and Drysdale by a hundred years. Another picture for Strutt was the hold-up in St Kilda Road. In 1852 the road to St Kilda was often a trip of high adventure. Bernard Smith writes that in October of that year a number of travellers were held up and robbed in St Kilda Road. The bushrangers tied the captives together in twos and threes, posting a man over them with a gun with orders to shoot anyone who moved: 'If you miss one you are sure to hit one of the others.'</p>
+<p>They staged their hold-up for two hours, steadily adding more victims as they came along. It all made a good horror painting for William Strutt.</p>
+<p>Eugene Von Guerard was another of the early painters, who went to the goldfields. He was an Austrian who painted with marvellous detail and precision, but his colours were such that his paintings never looked quite like Australia.</p>
+<p>All this proved that early environment affects what an artist sees through his eyes. Seventy years later Max Meldrum said that an artist when in Australia actually had to mix more shades and varieties of colour than when painting in Europe. The Australian landscape was subtle and varied; the European, rich and monotonous. Hans Heysen said the same thing: 'There is an infinity of landscape here caused by the purity of the atmosphere. It is not so obvious as the greenness of Europe, but it is infinitely more varied and delicate in tone. The landscape is a pinky mauve, a lilac, and the reflection of the sun particles of the atmosphere is a warm amber. So I should say our colour scheme is amber and lilac.'</p>
+<p>Both artists and writers gave a melancholy picture, particularly the moody, introspective young poet, Adam Lindsay Gordon, who arrived at Port Adelaide aboard the <em>Julia</em> on 14 November 1853. Poem after poem he wrote on the hardships of life, on suffering and death. He was fascinated by the awful fate of the Burke and Wills expedition, which symbolised for him the hardship of the country. He titled his poem 'Gone' and it was written in the days when the statue to Burke and Wills was in Collins Street, Melbourne. When the city acquired its trams this had to be shifted around the corner into Spring Street.</p>
+<p>The poem began:</p>
+<blockquote>
+<p>In Collins Street standeth a statue tall —<br>
+A statue tall on a pillar of stone,<br>
+Telling its story, to great and small,<br>
+Of the dust reclaimed from the sand waste lone.<br>
+Weary and wasted, and wan,<br>
+Feeble and faint, and languid and low,<br>
+He lay on the desert a dying man,<br>
+Who has gone, my friends, where all must go.</p>
+</blockquote>
+<p>And continued:</p>
+<blockquote>
+<p>What matters the sand or the whitening chalk,<br>
+The blighted herbage or the black'ning log,<br>
+The crooked beak of the eagle or the crow,<br>
+Or the hot red tongue of the native dog?<br>
+That couch was rugged, those sextons rude,<br>
+Yet, in spite of a leaden shroud, we know<br>
+That the bravest and fairest are earthworms' food,<br>
+When once they've gone where we all must go.</p>
+</blockquote>
+<p>His poem 'Wormwood and Nightshade' tells of the miserable scene. He starts by saying he dreamt skies were blue and he dreamt that the earth was green, but it was never thus.</p>
+<blockquote>
+<p>To right and to left extended<br>
+The uplands are blank and drear,<br>
+And their neutral tints are blended<br>
+With the dead leaves sombre and sere:<br>
+The cold grey mist from the still side<br>
+Of the lake creeps sluggish and sure,<br>
+Bare and bleak is the hill side,<br>
+Barren and bleak the moor.</p>
+</blockquote>
+<p>R. H. Horne in 1859 published a book designed to tell the prospective immigrant the real story about this country. Too many charming little essays in adventure had been written already. Mr Horne believed he was giving the true story.</p>
+<blockquote>
+<p>Dry-leaved and leafless forests rising around the advancing man; deep creeks and mad watercourse make rugged flaws in his way; the dense scrub defies him, like a wall of roots and thorny matting; the wild raspberry hooks off his clothes, and tears his flesh; he sleeps exhausted amidst the torments of insect life; he awakes at daybreak to the starving delirium of the unknown bush. Before his footsteps the savage desert of sand, of stones or marsh and bog, of grim forest, or rank luxuriance, or of choking weeds, becomes a station and a farm, a homestead, a smiling pasture, where order reigns, and where the unbroken silence, which once threatened the imagination of the lost man with famine and fever and delirious death, now only suggests the tranquillity of peace and plenty.</p>
+</blockquote>
+<p>Horne was enthusiastic about a letter-writer to the <em>Argus</em>. This correspondent said there was nothing more ugly than the colonial trees. They were ragged in form, monotonous in character and colour. But look, all varieties of European trees and shrubs flourished here; with a little effort the entire countryside could be transformed. So he enthused:</p>
+<blockquote>
+<p>Spring would clothe our forests with a tender green, summer expand their foliage, so as to convert the woodland coverts into cool umbrageous shelters from the heat; and autumn 'laying a fiery finger on the leaves', would impart to the landscape a richness of colour with which our eyes are unfamiliar here. The chestnut tree would strew the ground with snow, and the elm, as in the days of Virgil, afford support to, and receive a new grace from, the clinging vine; autumnal paths would be aromatic with the odour of fallen beech and walnut leaves; and art would derive fresh inspiration from the forest trees which communicate so much of grandeur and loveliness to the face of England.</p>
+</blockquote>
+<p>Colonials in Brisbane, Melbourne, Sydney and Adelaide needed little such urging — they could not wait to surround themselves with the grandeur and loveliness of the face of England and they certainly did their best to make their paths aromatic with the odour of fallen beech and walnut leaves. Municipal parks everywhere were designed to resemble Kew Gardens as nearly as possible. Elms, oaks and, later, exotic palms were ideal for the streets. Even now a visitor to Melbourne would find it hard to believe that he is entering an Australian town. Few domestic houses in the inner suburbs have Australian shrubs in the gardens; few have the 'ragged', 'monotonous', 'characterless' eucalyptus and, given a number of May frosts, autumn's fiery finger can put on a splendid show.</p>
+<p>Then to make themselves feel even further at home the early settlers imported some astonishing scourges, such as the Scotch thistle, the Bathurst burr, the milk thistle and the Scotch burr. James Fenton in his book <em>Bush Life in Tasmania Fifty Years Ago</em> tells of the thrill he had back in 1843 when he was given three cuttings of that 'invaluable exotic', the blackberry plant. The original plant, 'a novel importation', had come in a pot from England, and Fenton received his cuttings from an old gardener named Jacob Broadway. Enthusiastically Fenton wrote:</p>
+<blockquote>
+<p>I put my valued cuttings in my garden on a rich plot of chocolate soil. I watered them! I watched them! I weeded them! With all the tenderness of a nursery man, and had the unspeakable pleasure of seeing them put forth buds in due time. . . .</p>
+<p>Two or three years after that date the blackberry bushes grew up luxuriantly and spread out violently. At first it seemed mysterious how they managed to spring up so far away from the parent bushes, but it was soon apparent that the birds were fond of blackberries and that they carried the seed far and near.</p>
+</blockquote>
+<p>Rabbits, of course, came out with the First Fleet, but one of the most enthusiastic breeders and importers of wild life was Thomas Austin of Barwon Park, Victoria, who brought out rabbits, hares, pheasants, anything that would reproduce the fine shooting conditions of England. <em>The Field</em> in England in 1867 reported that the shooting for Barwon Park in 1866 was rabbits, 14,253; hawks 448, eaglehawks 23, native cats 622, tame cats 32.</p>
+<p>Foxes and deer were imported in the 1860s when the acclimatisation societies brought in canaries, quail, blackbirds, partridges, thrushes, skylarks, mynahs, starlings and sparrows. Their move was so effective that eventually sparrows, mynahs and starlings managed to dominate our backyard scene.</p>
+<p>All these imports were necessary as cheering aids. It is curious how so many of the early writers wrote of the melancholy, or the overpowering sadness of the Australian scene. R. H. Jessop in 1862 lamented the barren nature of the bush. There were no luscious fruits, only leaves so bitter they gave the effect of washing one's mouth out with turpentine. The trees, too, gave off a gum that was both violent and nauseating. Close to Sydney, he said, the forests were interminable and it was the same all around the Australian coast. There was nothing to relieve the eye of this sombre sad scenery.</p>
+<p>The most celebrated essay on this subject came from Marcus Clarke. It was titled 'Australian Scenery', and it was written originally as a preface to Adam Lindsay Gordon's poems. The two went well together.</p>
+<blockquote>
+<p>What is the dominant note of Australian scenery? That which is the dominant note of Edgar Allan Poe's poetry — Weird melancholy. A poem like 'L'Allegro' could never be written by an Australian. It is too airy, too sweet, too freshly happy. The Australian mountain forests are funereal, secret, mysterious. Their solitude is desolation. They seem to stifle in their stark. Their solitude is desolation.</p>
+<p>No one with a touch of imagination can fail to be depressed by the sombreness of the land. I shall never forget my first weeks in Australia. It looked a weary land — conscious of its own shortcomings. It looked as if the Almighty had started to make a fine continent of it and left it half made.</p>
+</blockquote>
+<p>Foster Fraser found the gum trees 'repellent', the wood hard, the trees gnarled, shedding their bark, standing bare and miserable, and he found the birds without song.</p>
+<p>But it is interesting that the visitor from Europe is overwhelmed by the Australian landscape, and it can happen to him now as it happened to others in the 1850s. Arthur Koestler in 1960 called it 'the faceless continent with the lonely citizens terrified of the open spaces shrinking to the southern fringes'.</p>
+<p>D. H. Lawrence picked up almost exactly the 'weird melancholy' of Marcus Clarke. Lawrence came to Australia, first to Sydney in May 1922, and in a furious burst of creative energy he wrote the novel <em>Kangaroo</em> in six weeks. It was the story of Richard Lovat Somers, a writer of poems and essays, a man with an income of £400 a year. He had decided that everything in Europe was played out, finished, and he had to find a new country, so he chose Australia. The experiment was not a success.</p>
+<blockquote>
+<p>And the vast, uninhabited land frightened him. It seemed so hoary and lost, so unapproachable. The sky was pure, crystal pure and blue, of a lovely pale blue colour: the air was wonderful and new and unbreathed: and there were great distances. But the bush, the grey, charred bush. It scared him. As a poet he felt entitled to all kinds of emotions and sensations which the ordinary man would have repudiated. Therefore he let himself feel all sorts of things about the bush. It was so phantom-like, so ghostly, with its tall pale trees and many dead trees like corpses, partly charred by bush fires: and then the foliage so dark, like grey-green iron. And then it was deathly still. Even the few birds seemed to be swamped in silence. Waiting — waiting — the bush seemed to be hoarsely waiting. And he could not penetrate into its secret. He couldn't get at it. Nobody could get at it. What was it waiting for?</p>
+</blockquote>
+<p>Not everyone perceived this melancholy, some found the landscape just plain dull. Charles Kean, the Shakespearean actor, in 1864 said nothing in the Australian countryside could be described as beautiful. The eternal gum tree became monotonous and one searched in vain for variety in the foliage.</p>
+<p>And Robert Morley, an actor who has portrayed every conceivable part, wrote of Australia in 1949: 'It's so empty and featureless, like a newspaper that has been entirely censored. We used to drive for miles, always expecting that round the next corner there would be something to look at, and there never was. That is the charm of Australia.'</p>
+<p>Actually over a long period there is an even consistency on the knocking of Australian scenery. Quite recently there was a letter in the <em>Sun Herald</em>, Sydney, so remarkable it could have been written in the 1820s. It was signed A. Whitear, English migrant.</p>
+<blockquote>
+<p>While most of your feathered inhabitants are attractive to the eye, what an unholy noise they make.</p>
+<p>Would it be possible for Australia House to organize an emigration scheme for thrushes, blackbirds and larks to this country to demonstrate to these sandpaper-throated creatures how a dawn chorus should really be performed?</p>
+</blockquote>
+<p>An interesting idea, and at the same time why not import some English rabbits and hares? They have become rather scarce around Sydney lately.</p>
+<hr>
+Continue to chapter three: <a href="/books/knockers/3-the-australian-character/">The Australian Character</a>
+</div>
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        Traces the knocker&#39;s tradition back to the earliest Dutch navigators and British explorers, then through colonial painters and poets who saw the Australian landscape as weird and melancholy, arguing that the mass importation of European animals, plants and aesthetic habits expressed settlers&#39; inability to accept what was already there.
+      </p>
+
+<hr>
+<h4 class="h6">Related topics</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/adam-lindsay-gordon/" class="link-secondary">Adam Lindsay Gordon</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Adam Lindsay Gordon">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/arthur-koestler/" class="link-secondary">Arthur Koestler</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Arthur Koestler">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/d.-h.-lawrence/" class="link-secondary">D. H. Lawrence</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="D. H. Lawrence">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/hans-heysen/" class="link-secondary">Hans Heysen</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Hans Heysen">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/la-trobe-library/" class="link-secondary">La Trobe Library</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="La Trobe Library">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/louis-buvelot/" class="link-secondary">Louis Buvelot</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Louis Buvelot">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/marcus-clarke/" class="link-secondary">Marcus Clarke</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Marcus Clarke">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/robin-boyd/" class="link-secondary">Robin Boyd</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Robin Boyd">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="St Kilda">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/thomas-austin/" class="link-secondary">Thomas Austin</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Thomas Austin">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/william-dampier/" class="link-secondary">William Dampier</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="William Dampier">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/william-strutt/" class="link-secondary">William Strutt</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="William Strutt">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/adam-lindsay-gordon/" class="link-secondary">Adam Lindsay Gordon</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Adam Lindsay Gordon">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/arthur-koestler/" class="link-secondary">Arthur Koestler</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Arthur Koestler">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/d.-h.-lawrence/" class="link-secondary">D. H. Lawrence</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="D. H. Lawrence">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/hans-heysen/" class="link-secondary">Hans Heysen</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Hans Heysen">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/la-trobe-library/" class="link-secondary">La Trobe Library</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="La Trobe Library">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/louis-buvelot/" class="link-secondary">Louis Buvelot</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Louis Buvelot">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/marcus-clarke/" class="link-secondary">Marcus Clarke</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Marcus Clarke">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/robin-boyd/" class="link-secondary">Robin Boyd</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Robin Boyd">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="St Kilda">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/thomas-austin/" class="link-secondary">Thomas Austin</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Thomas Austin">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/william-dampier/" class="link-secondary">William Dampier</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="William Dampier">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/william-strutt/" class="link-secondary">William Strutt</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="William Strutt">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

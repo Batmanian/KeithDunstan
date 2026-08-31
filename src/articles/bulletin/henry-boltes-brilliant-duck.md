@@ -6,13 +6,13 @@ categories:
 - The Bulletin
 tags:
   - Bill Ponsford
-  - Donald Bradman
   - Frank Tyson
   - Harold Larwood
   - Henry Bolte
   - Jack Iverson
   - Melbourne Cricket Club
   - Melbourne Cricket Ground
+  - Sir Donald Bradman
 ---
 
 We are immensely proud of our Mr Henry Bolte. Our neighboring colonies of New South Wales and South Australia have never given him the sympathy that was his due, but after his performance at the Melbourne Cricket Ground I am sure they will see him in a different light.

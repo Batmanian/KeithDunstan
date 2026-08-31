@@ -7,6 +7,7 @@ tags:
   - Geelong Grammar
   - Hubert Opperman
   - Malvern Star
+  - Sir Donald Bradman
   - Sturmey Archer
   - Weston Bate
 ---

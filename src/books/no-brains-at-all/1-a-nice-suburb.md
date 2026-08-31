@@ -15,7 +15,7 @@ tags:
   - Methodism
   - Philip Roth
   - Religion
-  - Sir Don Bradman
+  - Sir Donald Bradman
   - Toorak
   - Wadhurst
   - William Dunstan VC

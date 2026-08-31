@@ -124,4 +124,4 @@ Whether the audience is stultifyingly conformist or just plain dull, the critics
 
 There should be a better word for all this than knocking. There should be some fine Australian witticisms as an American term meaning 'to criticise unfairly ... an unfair critic'. An American dictionary more simply says 'a knocker' is 'a fault-finder' and gives its first use in *Everybody's Magazine*, 1900. A discontented actor who receives less than £40 a week. Maybe it is not the best word, but we should still admire it. After all, it comes from overseas.
 <hr>
-Continue to chapter two: The Australian Landscape
+Continue to chapter two: <a href="{{ '/books/knockers/2-the-australian-landscape/' | url }}">The Australian Landscape</a>

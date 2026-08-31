@@ -1,0 +1,753 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Australian Character</title>
+<meta name="title" content="The Australian Character">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Surveys two centuries of knockers on the Australian national character, from W. G. Grace&#39;s disputed 1874 letter savaging colonial cricket fans to Malcolm Muggeridge&#39;s lotus-eating portraits and Arthur Koestler&#39;s Qantas plastic hook epiphany, tracing also the long shame and eventual pride in the Australian accent.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/knockers/3-the-australian-character/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="The Australian Character">
+<meta property="og:description" content="Surveys two centuries of knockers on the Australian national character, from W. G. Grace&#39;s disputed 1874 letter savaging colonial cricket fans to Malcolm Muggeridge&#39;s lotus-eating portraits and Arthur Koestler&#39;s Qantas plastic hook epiphany, tracing also the long shame and eventual pride in the Australian accent.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="The Australian Character">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/knockers/3-the-australian-character/">
+<meta name="twitter:title" content="The Australian Character">
+<meta name="twitter:description" content="Surveys two centuries of knockers on the Australian national character, from W. G. Grace&#39;s disputed 1874 letter savaging colonial cricket fans to Malcolm Muggeridge&#39;s lotus-eating portraits and Arthur Koestler&#39;s Qantas plastic hook epiphany, tracing also the long shame and eventual pride in the Australian accent.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="The Australian Character">
+<link rel="canonical" href="https://keithdunstan.org/books/knockers/3-the-australian-character/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1972-01-01">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="Knockers">
+<meta property="article:tag" content="Adam Lindsay Gordon">
+<meta property="article:tag" content="Anthony Trollope">
+<meta property="article:tag" content="Arthur Koestler">
+<meta property="article:tag" content="Clement Freud">
+<meta property="article:tag" content="D. H. Lawrence">
+<meta property="article:tag" content="Donald Horne">
+<meta property="article:tag" content="Joan Sutherland">
+<meta property="article:tag" content="John Pilger">
+<meta property="article:tag" content="Malcolm Muggeridge">
+<meta property="article:tag" content="Marcus Clarke">
+<meta property="article:tag" content="Max Harris">
+<meta property="article:tag" content="Melbourne Cricket Ground">
+<meta property="article:tag" content="Patrick White">
+<meta property="article:tag" content="Punch">
+<meta property="article:tag" content="Qantas">
+<meta property="article:tag" content="Ray Illingworth">
+<meta property="article:tag" content="Robert Helpmann">
+<meta property="article:tag" content="Rolf Harris">
+<meta property="article:tag" content="The Beatles">
+<meta property="article:tag" content="W. G. Grace">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">The Australian Character</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            25
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1972-01-01">1972</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Surveys two centuries of knockers on the Australian national character, from W. G. Grace&#39;s disputed 1874 letter savaging colonial cricket fans to Malcolm Muggeridge&#39;s lotus-eating portraits and Arthur Koestler&#39;s Qantas plastic hook epiphany, tracing also the long shame and eventual pride in the Australian accent.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="Knockers">
+         <!--<a href="/tags/adam-lindsay-gordon/" class="btn btn-outline-dark btn-sm me-2">Adam Lindsay Gordon</a><a href="/tags/anthony-trollope/" class="btn btn-outline-dark btn-sm me-2">Anthony Trollope</a><a href="/tags/arthur-koestler/" class="btn btn-outline-dark btn-sm me-2">Arthur Koestler</a><a href="/tags/clement-freud/" class="btn btn-outline-dark btn-sm me-2">Clement Freud</a><a href="/tags/d.-h.-lawrence/" class="btn btn-outline-dark btn-sm me-2">D. H. Lawrence</a><a href="/tags/donald-horne/" class="btn btn-outline-dark btn-sm me-2">Donald Horne</a><a href="/tags/joan-sutherland/" class="btn btn-outline-dark btn-sm me-2">Joan Sutherland</a><a href="/tags/john-pilger/" class="btn btn-outline-dark btn-sm me-2">John Pilger</a><a href="/tags/malcolm-muggeridge/" class="btn btn-outline-dark btn-sm me-2">Malcolm Muggeridge</a><a href="/tags/marcus-clarke/" class="btn btn-outline-dark btn-sm me-2">Marcus Clarke</a><a href="/tags/max-harris/" class="btn btn-outline-dark btn-sm me-2">Max Harris</a><a href="/tags/melbourne-cricket-ground/" class="btn btn-outline-dark btn-sm me-2">Melbourne Cricket Ground</a><a href="/tags/patrick-white/" class="btn btn-outline-dark btn-sm me-2">Patrick White</a><a href="/tags/punch/" class="btn btn-outline-dark btn-sm me-2">Punch</a><a href="/tags/qantas/" class="btn btn-outline-dark btn-sm me-2">Qantas</a><a href="/tags/ray-illingworth/" class="btn btn-outline-dark btn-sm me-2">Ray Illingworth</a><a href="/tags/robert-helpmann/" class="btn btn-outline-dark btn-sm me-2">Robert Helpmann</a><a href="/tags/rolf-harris/" class="btn btn-outline-dark btn-sm me-2">Rolf Harris</a><a href="/tags/the-beatles/" class="btn btn-outline-dark btn-sm me-2">The Beatles</a><a href="/tags/w.-g.-grace/" class="btn btn-outline-dark btn-sm me-2">W. G. Grace</a>-->
+
+        
+      </header>
+      <div class="article-body"><p>The English have always been sensitive about Australia. Australians are sensitive too, but theirs is more of an anger. In 1965 the B.B.C. ran a 'Panorama' programme. They produced a mock tirade against Australia, in which a voice addressed the country:</p>
+<blockquote>
+<p>Australia, I have to say to you:
+You are described by every visiting Englishman as a most arid and obnoxious place. You have in two hundred years produced no Milton, no Shakespeare — only Bluey and Cobber.</p>
+<p>You are past masters of reducing duty to its coarsest element. You have diminished womanhood, a race that includes Florence Nightingale, Edith Cavell, and Helen of Troy, to your common denominator of 'a bunch of Sheilas'.</p>
+<p>You have taken the gentleman's game of cricket and given it the airs and graces of a train-load of Everton supporters on their way back from a Cup Final.</p>
+<p>Your pound is worth only 15/8. Your wine is like something to be found in joke shops along with rubber eclairs and squeaking koala bears.</p>
+<p>Your emigrants have taken to congregating in the Earls Court Road where they are an obstruction and a nuisance. Your population is rising on 114 million, although occasionally happily some of your citizens are consumed by sharks.</p>
+<p>How extraordinary that out of all these subjects only Rolf Harris, Chips Rafferty, and Joan Sutherland should have risen to prominence.</p>
+<p>You have produced three songs: 'Tie Me Kangaroo Down Sport', 'Me Boomerang Won't Come Back' and the perennial 'Waltzing Matilda'.</p>
+</blockquote>
+<p>Several hundred angry viewers jammed the B.B.C.'s switchboard after the show, describing it as 'unfair' and in 'very poor taste'. Most of the calls were from Australians. There were official protests from Australia House and every B.B.C. word was cabled to Melbourne.</p>
+<p>There was much comment in Melbourne, Sydney and Adelaide newspapers and they produced their own poems on England, such as:</p>
+<blockquote>
+<p>Over the past hundred years, England has been known here principally as a breeding-ground for comedians and A.B.C. radio announcers. Its principal exports for the past three years have been the Beatles, the Rolling Stones and Screaming Lord Sutch.</p>
+<p>The main culture comes from the North Country — the Beatles, <em>Z Cars</em> and Harold Wilson. It is a land famous for great sporting venues — Lord's, Wembley and Scotland's St Andrew's — ideal for watching the triumphs of other countries.</p>
+<p>Its modern poetry has been produced by drinking Irishmen, and the drama by drinking Irishmen, often in a kitchen sink. The land that produced Florence Nightingale in the nineteenth century produced Christine Keeler and Mandy Rice-Davies in the twentieth. And they enriched the language of Shakespeare with a new word, 'Keeler-haul'.</p>
+<p>Their three best songs are 'Greensleeves', 'Hearts of Oak' and 'God Save the Queen'. The only worthwhile living English artist is Ronald Searle. It is a land of warm blighted motor cars, appalling weather, loathsome plumbing, stony beaches, over-taxation, scrawny girls, kippers and fish and chips.</p>
+</blockquote>
+<p>That helped to exorcise a few pains. The B.B.C. tirade actually was a normal simple routine method for getting a good reaction to a programme. <em>Punch</em>, after the 1970–1 M.C.C. cricket tour to Australia, noted how very sensitive were the Australians. The spectators were even roused to throw beer cans at the Englishmen during the seventh Test. <em>Punch</em> suggested that an exchange of insults was probably the best way to keep up a good relationship. 'Who wants friends?' it said. 'We want someone to hate, someone to fight with — and not just on the cricket pitch. Friendship is a poor substitute for the acrimony that makes up a good parent-child relationship. Let Australia be friends with America. Or Japan. But not us.'</p>
+<p><em>Punch</em> said the travelling gourmet Clement Freud had already described Australians as a second-class people living in a second-class country, so just to keep up the good work they wanted to make a few maternal observations.</p>
+<p>(1) There is no such thing as a big warm-hearted Aussie. Australians are uncouth, self-centred, humourless and aggressive. The only redeeming fact is that they also happen to be wonderfully touchy.</p>
+<p>(2) London is full of Australian secretaries because Australian men are awful. 'Their idea of giving a woman a treat,' one told me, 'is to take her up to a bar to meet his mates, and line up six wineglasses full of beer.'</p>
+<p>(3) You can't buy anything in Australian shops except stuffed koala bears.</p>
+<p>(4) All Australian women have skins like leather jackets.</p>
+<p>Yes, said <em>Punch</em>, the most hurtful thing in life is to be ignored — especially if you happen to be an Australian.</p>
+<p><em>Punch</em> was having fun over the bitterness displayed during the Second Test Match. The English captain Ray Illingworth was asked at the end of the match if he had seen any change in the crowds. He replied: 'They wait longer to get their hair cut and they get drunker.'</p>
+<p>To understand the knocking here one must understand the character of Australians. It has been said that Australia did not come really of age on the beaches of Gallipoli but on the turf of the Melbourne Cricket Ground and Lord's.</p>
+<p>Sport in a young country always symbolises something. A block of land, youth, young physical manliness, strength, dedication, and to be able to thrash, mercilessly, the finest Eleven England could put in the field, was a matter of huge satisfaction. It helped salve all sorts of national feelings of inadequacy. When W. L. Murdoch's team returned after the great 'Ashes' victory at the Oval in 1882 it was honoured with one of the greatest torchlight processions Melbourne had seen. There were 700 firemen all with torchlights, there were five bands, there were crowds massed all along Collins Street and it finished with a thrilling fireworks display at the Melbourne Cricket Ground.</p>
+<p>So Australia's desperate desire to win has created some classic examples of knocking. Perhaps the greatest sufferer was Dr W. G. Grace on two separate tours. In 1874 he came to Australia at a personal fee of £1,500 plus expenses. The criticism from the colonial Press was constant. They questioned his amateur status, they accused him of bringing out a weak and inferior team and the <em>Australasian</em> described him as 'a bumptious and overbearing captain'.</p>
+<p>The second time round in 1891–2 Dr Grace wanted £3,000 plus expenses, an enormous figure for that time. The Press carried on just where it had left off in 1874. <em>Melbourne Punch</em> constantly referred to him by different names. He was 'The Grand Old Buffer', 'The Great I Am', 'Ursa Major — The Great Bear' and, after the fee of £3,000, time and again he was 'The Great Cash Amateur'. One of the newspapers described him as 'The Medical Man'. The <em>Punch</em> reply to this was 'A Medical Man forsooth. Oh yes, W.G. has a great practice in Gloucester. . . . Cricket practice.'</p>
+<p>But the most devastating example of the knocking of Grace was a letter. Originally it appeared during the 1874 tour. It was said to be a letter to an Adelaide friend, written just before W. G. Grace left for home. It was clever, seeming to contain all Grace's innermost thoughts and prejudices. This letter was reprinted again and again. Newspapers both in Sydney and Adelaide dug it out once more in 1892, and there is no doubt it contributed much to his unpopularity.</p>
+<p>In the newspapers it was headed:</p>
+<p>GRACE ON AUSTRALIANS — A CURIOUS LETTER</p>
+<blockquote>
+<p>Dear M:</p>
+<p>With one foot on sea and one on shore, I send you a few farewell lines as you are about to say good-bye to in this country of yahoos. Those inferior apologies for newspapers in Melbourne lost no opportunity in showing up the inconvenience of being a gentleman sometimes. I know I did, or there would have been more pulling of noses on more than one occasion. My brother (E. M. Grace) was within an ace of pitching into one of the Melbourne cads about the disputed ball in the last match there. But unfortunately he thought better of it as he had 60,000 objections on getting his name mixed up as a bruiser of colonials.</p>
+<p>The professionals were sulky with me for making them travel second class from home. It is true I led them to believe up to the morning of sailing from Southampton they might have in the saloon, but if I had humbugged them they might have refused to go when it was too late to fill their places. I actually packed them in second class and charged the difference. They were very sulky from the day they started. They shall pay for it when we get back if my influence has any effect with the club's engaging them. However as I had a pecuniary interest in the affair I was obliged to keep sweet with them. To tell you the truth I care so little for colonial opinion that you may publish this letter if you like. It will show the cads what I think of them.</p>
+<p>A good deal was about my stopping away from the lunch at various places. My reason was that I did not want to fraternise with the tinkers, tailors and snobs who are the great guns in your cricket world. To take their money was a fair thing in return for work done but to hobnob with a lot of scum was a different thing. For instance, calling up to me at Lord's, 'How d'ye do Mr Grace. I lunched with you in Australia.' My dear fellow, colonial society is low — even in your eyes. Your gentlemen are yet unborn. I suppose including yourself, I met about three gentlemen during the whole trip.</p>
+<p>Now good-bye. I do not expect a very pleasant voyage home for we are at daggers drawn among ourselves and there will be a fight or two before it is all over.</p>
+</blockquote>
+<p>It all sounded like Grace. The story about the professionals being furious because they had to travel out second-class was true. The professionals were second-class in everything to the amateurs throughout the tour. It even extended to hotels — first-class for the amateurs, second-class for the professionals. It was rather true also that Dr Grace denied that he ever wrote the letter. The <em>Bulletin</em> said it was written by Richard Egan Lee 'of Melbourne, a man who was a doctor'. The letter with the doctor's signature at the bottom was a fake. <em>Blackwood's Magazine</em> in the January 1892 issue had a reputation in Australia of being one of London's most respectable and influential magazines.</p>
+<p>The <em>Blackwood's</em> article was so magnificent it started by saying that Australian cricket tours began in 1878. In those days Englishmen were visiting Australia to know — would they be in appearance imprudent thieves, rough managers of the convicts associated with Botany Bay and Norfolk Island? <em>Blackwood's</em> said:</p>
+<blockquote>
+<p>The sanguine expectations were not altogether realized, but it must be confessed that many members of the colonial teams were forbidding and almost truculent in their aspect. Their fiendish smile of satisfaction as they bowled their man. Their manners, again, seemed to indicate that they belonged to the highest classes of Australian society. . . . There was even a suspicion, amounting in some cases to a certainty, that several members of these teams, although a 'Mr' was pre-fixed to their names on the score sheets, could hardly be described as an amateur in the English sense of the term. Their visits to this country were believed to be prompted not so much by love of sport as by the desire for money, and so unsociably did they wrangle among themselves and give free-spoken and unusually unseasonable advice to their captain and invoke malediction on the umpire's head. . . . In short it was sufficiently patent to all who watched the colonial matches that, in many instances, the Australians were deficient in the temper and self-control which enable gentlemen and sportsmen to show the same equanimity in defeat as in victory.</p>
+<p>As for play in Australia, the grounds were filled with so many roughs and rowdies, the pavilions packed with so many bookmakers, that respectable people would not go there.</p>
+</blockquote>
+<p>This article appeared at just the right psychological time when Grace's men were touring Australia. Every newspaper commented. The <em>Argus</em> said: 'Amusing and amazing. The article contains reflections on Australian cricket which our present visitors will do totally undeserved and which for the sake of good feeling should have been omitted.'</p>
+<p>'Oh dear! Boy, bring me a couple of bags of salt,' said <em>Melbourne Punch</em>. It was particularly delighted with the lines about amateurism. 'Amateur in the English sense of the term. Aye. We know the sort. The sense of touch. Three thousand pounds and all expenses. That's the good old English amateur.'</p>
+<p>Ray Illingworth, Dr Grace indirectly, and <em>Blackwood's Magazine</em> all scored Australia for its lack of culture. Knocking of Oz culture always has taken precedence, then we have had knocking of Australia's capacity for booze, knocking of the awful Australian accent, knocking of morals, knocking of the Australian female and of course the knocking of the lazy, languid, sun-blessed Australian.</p>
+<p>Yet even though the percentage of uncultured Australians is probably smaller than in London, Rome, Vancouver or New York, always they have been described most eloquently and the most eloquent describers have been Australians.</p>
+<p>On 4 August 1966 there was this line in the <em>Sydney Sun</em>: 'Dr John Reid, Associate Professor of English at Auckland University has told New Zealanders to be more like the Aussies. He described the Aussie as &quot;dynamic, forward-looking, self-critical and shirt-sleeved, democratic and willing to take a chance.&quot;'</p>
+<p>This inspired Allan Ashbolt to write in <em>Meanjin</em>:</p>
+<blockquote>
+<p>Behold the man — the Australian man of today — on a Sunday morning in the suburbs, when the high-decibel drone of the motor-mower is calling the faithful to worship. A block of land, a brick veneer, and the motor-mower beside him in the wilderness — what more does he want to sustain him, except a Holden to polish, a beer with the boys, marital sex on Saturday nights, a few furtive adulteries, an occasional gamble on the horses or the lottery, the tribal rituals of football, the flickering shadows in his lounge-room of cops and robbers, goodies and baddies, guys and dolls?</p>
+</blockquote>
+<p>The most skilled surgeons are the ex-patriots: their knives take on a more brilliant edge <em>in absentia</em>.</p>
+<p>Sir Robert Helpmann, 2 May 1969: 'I don't despair about the cultural scene in Australia because there isn't one here to despair about.' And on 18 August 1970, when asked what he thought about the state of the theatre in Australia: 'It would be nice if there were any theatre.'</p>
+<p>John Pilger, Australian resident in London, gave the real picture of Australia for the glossy London magazine <em>Nova</em>. He said migrants came to Australia, to the promised lotus land, utopia, and it was true they didn't have to queue for their peace of mind — they were anaesthetised the moment they stepped ashore. It was waiting for them in the atmosphere, in the talk, on the radio and telly. Here was a land where one could mentally retire at twenty-five and not be bothered by challenges other than the challenge of acquiring the house and the car. He said:</p>
+<blockquote>
+<p>I have the feeling that the microcosm of modern man's radicalism, his cynicism and his inscrutable mindlessness is not in Alabama or Johannesburg, the mad fermenting fringes, but in the ordinary, value-free, selfish and tedious Australian way of life. . . . There is, in fact, a minimum of information, or desire for information. Australians, my brother says (and he lives here all the time), are really like a lot of empty jars on a shelf waiting to be filled by whatever is poured into them; and it really doesn't matter what it is. And it is very sad that the biggest, emptiest jars are the newly educated.</p>
+</blockquote>
+<p>John Pilger was clearly hoping for an Australian backlash and he worded his story accordingly. In 1962 Charles Osborne introduced some Australian writing in the <em>London Magazine</em>. This was less deliberately provocative, but equally incisive. One piece by the Australian playwright Alan Seymour was titled 'Four Conversations and a Comment'. Seymour imagined the typical bronzed brawn-of-body Australian. He would emit such a line as, 'When I hear the word culture I reach for my spear gun.' The cult of the body, the lotus-eating laziness, the sun-drenched somnolence and the general spiritual aridity were commonplaces in discussions on Australia, but what worried him was the aridity which persisted where one would not expect it, namely in Australian intellectual life. And Australian middle-class life was hollow at the centre, for it was here that distaste for or complete ignorance of culture most alarmingly manifested itself.</p>
+<p>The entire issue of <em>London Magazine</em> was devoted to Australian writing, but again it caused blisters on the sensitive Australian skin. C. B. Christensen, editor of the Australian literary journal <em>Meanjin</em>, said the issue was an unedifying spectacle. <em>London Magazine</em> had an opportunity of presenting a real cross-section of the best of Australian contemporary work but 'what we got was largely a series of jeremiads against Australia, odious in tone and written by a handful of Australians abroad'.</p>
+<p>On the other hand Australia has suffered constantly from visiting authors. Anthony Trollope in 1871 was actually very kind. He was enchanted by Sydney Harbour, he loved Port Phillip and the sophistication of Melbourne, he adored Adelaide and found Perth pretty. He suffered from heat, flies and mosquitoes and his one real criticism was the constant reiteration by the locals of the wonders of achievement. Trollope wrote:</p>
+<blockquote>
+<p>When a gentleman sounds his own trumpet he 'blows' . . . a good deal in South Australia. They blow even in poor Tasmania. They blow loudly in New South Wales, and very loudly in Victoria. But the blast of the trumpet as heard in Melbourne is louder than all the blasts — and the Melbourne blast beats all the other blowing of that proud colony. My first, my constant, my parting advice to my Australian cousins is contained in two words — don't blow.</p>
+</blockquote>
+<p>Even a century later this quotation is being used against Victoria. New South Welshmen found it particularly useful after statements made by Sir Henry Bolte.</p>
+<p>Sidney and Beatrice Webb came to Australia in 1898. They found the place crude, unpleasant, the people lacking in manners with a depressing scarcity of males and females with whom they could make intelligent conversation.</p>
+<p>J. A. Froude came in 1885 as a literary giant. Sir Henry Parkes, no less, was lined up to meet him. If he did not stay at Government House in each of the capitals then he stayed at the best clubs, including the Melbourne Club in Melbourne and the Union in Sydney.</p>
+<p>Froude wrote that Australia had only one poet, Adam Lindsay Gordon:</p>
+<blockquote>
+<p>Something too much of the Guy Livingstone type, an inferior Byron, a wild rider, desperate, dissipated, but with gleams of most noble nature shining through the turbid atmosphere. He, poor fellow, hungering after what Australia could not give him — what perhaps no country on earth at present could give him — was the victim of his own sad nature.</p>
+</blockquote>
+<p>One gained the impression from Froude that Gordon's suicide was a normal thing in such surroundings.</p>
+<p>He said that apart from two or three leading lawyers and the more eminent statesmen there were no persons that he met who showed much concern about the 'deeper spiritual problems'. His most quotable and most damning phrase was: 'It is hard to quarrel with men who only wish to be innocently happy.'</p>
+<p>Of course, not all authors who wrote about Australia even came here. Jules Verne wrote a stirring novel called <em>Mistress Branican</em>, a curious mixture of melodrama, natural history, exploration and wild adventure set in the deserts of South and Western Australia. The aborigines are the only people called Australians in the novel and they come out as frightening creatures.</p>
+<blockquote>
+<p>The Australian has remained a savage in manners and tastes, and with his ineradicable habits of cannibalism he is on the lowest step of the human ladder, and hardly above the carnivora.</p>
+</blockquote>
+<p>Of his hero Somers, D. H. Lawrence wrote in <em>Kangaroo</em>:</p>
+<blockquote>
+<p>He understood now that the Romans had preferred death to exile. He could sympathise now with Ovid on the Danube hungering for Rome and blind to the land around him, blind to the savages. So Somers felt blind to Australia, and blind to the uncouth Australians. To him they were barbarians. The most loutish Neapolitan loafer was nearer to him in pulse than these British Australians with their aggressive familiarity.</p>
+</blockquote>
+<p>Arthur Koestler appeared to feel the same kind of horror. It all started with Qantas. First-class passengers with Qantas receive a number of give-aways presented in a packet — ball-point pen, red overnight socks, post-cards and a plastic hook. This is, or used to be, a useful device. It could hold one's napkin up to one's collar while eating or it could hook over one's car window and make a hanger for clothes. That innocent little plastic hook became a symbol for Koestler. He made a great deal of it. It was the lead for his article in the <em>Sunday Times</em> when he returned home.</p>
+<blockquote>
+<p>That plastic hook, and the napkin with the hole in it, did the trick for me: they became a symbol of something in the Australian character both touching and putting off — goodwill devoid of grace, a down-to-earth pragmatism that can be aesthetically offensive, a culture that is deliberately, almost defiantly, suburban. . . . in the dreary wastes of suburbia there is nowhere to 'go out' except the petrol station. In spite of the immensity of its open spaces and ocean beaches, Australia can give the visitor a feeling of claustrophobia. Or perhaps one should put it the other way round and say that a suburbanised culture of the mind, affected by agoraphobia — a fear of open spaces of the mind.</p>
+</blockquote>
+<p>Koestler found it curious that the two continents, the United States and Australia, which had been pioneered by the most adventurous individualists, had produced conformity in the most stifling extremes and had produced the most philistine societies of our century. He wrote:</p>
+<blockquote>
+<p>The thin-lipped Yes of conformity is not an advanced form of human communication; nor is its loud-mouthed, matey variant. Australian crowds have a smell of loneliness — you can feel it in the bus, in the pub, at the local, at the beach, wherever you go.</p>
+</blockquote>
+<p>One is a little suspicious of the amount of time spent by Koestler in buses, in pubs, at the races or on the beach, but all Australian newspapers were eager to syndicate his <em>Sunday Times</em> article. As for Qantas, it felt humiliated. He killed the plastic hook. No longer is it among the Qantas give-aways.</p>
+<p>When Malcolm Muggeridge came to Australia as editor of <em>Punch</em> we absolutely bent over, kygmy style, waiting to be kicked. He found that we had sad eyes, cheeks that tended to be lean and leathery, mouths twisted and decidedly humorous and ironical. We were basically quite lawless. We despised the law. We would talk in bars, but in restaurants and public vehicles we were inclined to taciturnity, especially if women were about. Muggeridge wrote:</p>
+<blockquote>
+<p>To some extent Australians have succumbed to the plenitude and lotus-eating ways of their country. When they move, they hurry, but often they lounge. Work is a necessity, not a mystique. On the Snowy Mountains project it is easy to distinguish the Old from the New Australians. The former have a leisurely easy-going way of working which the others have not yet acquired. I shall always think of them affectionately as dryly humorous and disrespectful, with the ineradicable preference for the one-armed bandit to the two-armed cashier or economist and with an ineradicable contempt for double entry, whether financial or ideological.</p>
+</blockquote>
+<p>James Michener said we were never lazy when sport was involved. Even cricket, which he described as the dullest of games, was murder when Australians were involved. Salvador de Madariaga, the celebrated Spanish jurist and philosopher, thought Australia was a paradise for the working man and therefore monotonous. Hotels were run by visitors for the sake of the staffs. 'The cordial, simple human approach of the Australian cools off at the slightest suggestion of anything impinging on his leisure,' he said.</p>
+<p>John Douglas Pringle was a visitor, but then again became editor of the <em>Sydney Morning Herald</em>. He wrote a very perceptive book which would have received better reviews had his critics not been so sensitive.</p>
+<blockquote>
+<p>It is, as I know by experience, a hard thing to read or write after a day spent in the glare and thunder of the surf. There is no real winter to drive the population indoors, and turn their minds to books and music and theatres, as it does in colder climates. Everything seems to discourage intellectual effort in a nation where intellectual effort has never been highly regarded. If, then, culture is to be judged by the general standard of education and the arts among the population, once again it must be said that Australia has little or none. Indeed there is a perhaps truly terrifying cruelty in the manners and pursuits of the majority, whose intellectual interests seem almost entirely limited to the study of the racing and football pages.</p>
+</blockquote>
+<p>Another theme which runs through a century of knocking is the laconic 'she's right' attitude of the Australian, the feeling that almost anything was good enough.</p>
+<p>What proved galling more than anything was the English accent. The <em>Triad</em> was a monthly literary journal which originated in New Zealand and was published in Sydney. In 1912 it said:</p>
+<blockquote>
+<p>If something rather tremendous doesn't happen quite soon, the rising generation of Australians will speak the most debased English tolerated anywhere in the British Empire.</p>
+</blockquote>
+<p>The sense of shame over the Australian accent continued for a very long time. The Current Affairs Bulletin in 1952 produced a paper on the Australian accent. It took a look at two extreme points of view:</p>
+<p>1 The development of an Australian accent is a deplorable and abnormal happening, a corrupt deviation from the line of correct English.</p>
+<p>2 An Australian way of speech is a good and desirable thing as a sign or symbol of our national independence.</p>
+<p>So to sum up, the Current Affairs Bulletin said:</p>
+<blockquote>
+<p>There is no harm in having a characteristic Australian speech so long as people in other English-speaking countries do not find it difficult to understand, and so long as it does not make it hard for an Australian to understand other English speakers. While we need not be uncomfortable about the Australian accent we should not exalt its individuality unduly by talking about 'the Australian language'.</p>
+</blockquote>
+<p>All this received the blessing of Dame Enid Lyons, the wife of a former prime minister. She said:</p>
+<blockquote>
+<p>That was a more than ordinarily sound — and soothing — statement issued from Sydney University in the Current Affairs Bulletin. That there is such an animal as an Australian accent and that, at his worst, he is singularly unbeautiful, no one, I think, will deny. The question is should he be exhibited on the spot, or gradually groomed into acceptability. Personally, I'm all for letting him live.</p>
+</blockquote>
+<p>After this the Australian accent began to prosper. Some very Australian plays like 'Summer of the Seventeenth Doll' and 'The One Day of the Year' were performed in London. At last even Australian accents were acceptable on the London stage. Ray Lawler when choosing his cast for the 'Doll' had the huge satisfaction of knocking back accents that were too English. 'Sorry mite, yet accent's not brrook enough.'</p>
+<p>But it wasn't until Alistair Morrison produced his series on Strine that Australians actually began to delight in their accent. Morrison was inspired by the report in the <em>Sydney Morning Herald</em> of 30 November 1964. Monica Dickens was autographing copies of her latest book in a Sydney bookshop. A woman handed her a copy and said something. Thinking this was the woman's name Monica Dickens wrote 'To Emma Chisit' above her signature. Miss Dickens did not realise the purity of the Strine version of 'How much is it?'</p>
+<p>Now it is practically <em>de rigueur</em> for Australians to give visitors to the country copies of books on Strine. The accent has arrived.</p>
+<p>The search for a respectable Australian accent has been just part of the remorseless search to identify the Australian character. His humour is of the rubbishing, chuckling, denigrating kind. We are terrified of emotion, not sharp-witted, but it is easier to be insulted than to be complimented. Max Harris said: 'In an atmosphere of reciprocal banter or rubbishing Australians can express mutual affection without running any risk of indecently exposing states of feeling.'</p>
+<p>We are told that Australians have a contempt for authority with a fine Anzac-bred spirit of self-reliance. Craig McGregor sees in the Australian character a hedonistic urge, a passion for the pleasures of life — sunshine, beer and sex — not the responsibilities.</p>
+<p>We are supposed to be easy-going, frank, with a highly-developed sense of egalitarianism. Yet at the same time we show a curious desire to huddle into suburbs like Toorak, one of the most closely knit, socially superior suburbs anywhere.</p>
+<p>Donald Horne sees Australia as the first suburban nation, massively conformist, a materialistic nation, where the men talk mostly about sport, money and motor cars. In this community it is considered an affectation to be different.</p>
+<p>Patrick White also is obsessed by the great Australian suburbia, the Sarsaparilla of his novels. The people are utterly bound by a suburban tradition. He says:</p>
+<blockquote>
+<p>Europe has many theatres, museums, banks — one can escape from suburbia in a big cosmopolitan city. But there's not much escape from it here, and how some people hate to see men trying to raise their heads above it. It's as bad as some of the lesser cities of the United States. If I hadn't gone overseas I would have blown up or committed suicide.</p>
+</blockquote>
+<p>But with a constant blood transfusion coming from Europe, England, Turkey and now even Latin America, how do you define the Australian character? Better than a quarter of the population are now New Australians. The knockers and the anti-knockers may never achieve their goal.</p>
+<p>Perhaps we should leave it to Marcus Clarke, for he wrote the most fantastic of all pieces on the Australian character. Ian Turner in 'The Australian Dream' said it started a debate which went on solemnly for more than a decade. Turner suggests that Marcus Clarke may have been facetious when he wrote it, and this is a possibility, for in the 1870s he was famous for his humorous sketches. Yet none of his colleagues put it down as humour. The Marcus Clarke memorial volume published in 1884 contained all his works published in his lifetime. His piece on 'The Future Australian Race' was in the 'Critical' section.</p>
+<blockquote>
+<p>The Australians will be selfish, self-reliant, ready in resource, prone to wander, caring little for home ties. Marriages will be much more frequent, and the hotel system in America will be much favoured. The Australians will be large meat eaters, and meat eaters require more stimulants than vegetarians. The present custom of drinking alcohol to excess — favoured alike by dietary scale and by carnivorous practices — will continue. All carnivores are rash, gloomy, given to violence. There is plenty of oxygen in Australian air, and our Australians will have capacious chests also — capitis paribus, large nostrils. The climate is unfavourable to the development of tumorous diathesis; therefore, we cannot expect men of genius unless we beget them by frequent intermarriage. . . . The Australians will be freed from the highest burden of intellectual development.</p>
+<p>For their faces. The sun beating on the face closes the eyes, puckers the cheeks, and contracts the muscles of the orbit. Our children will have deep-set eyes with overhanging brows; the lower eyelid will not melt into the cheek, but will stand out on profile, clear and defined. This, though it may add to character, takes away from beauty. The curve between the centre of the upper lip and angle of the mouth will be intensified; hence, the upper lip will be shortened, and the whole mouth made fleshy and sensual. The custom of meat-eating will square the jaw and render the hair coarse but plentiful. The Australians will be a square-headed, masterful man, with full temples, plenty of beard, a keen eye, a stern and yet sensual mouth. His teeth will be bad, and his lungs good. He will suffer from liver disease, and become prematurely bald. Average duration of life in the unmarried, fifty-nine; in the married, sixty-five and a decimal.</p>
+<p>The conclusion of all this is that, in another hundred years the average Australian will be a tall, coarse, strong-jawed, greedy, pushing, talented man, excelling in swimming and horsemanship. His religion will be a form of Presbyterianism; his national policy a Democracy tempered by the rate of exchange. His wife will be a thin, narrow woman, very fond of dress and idleness, caring little for her children, but without sufficient brain power to sin with zest. In five hundred years — unless recruited from foreign nations — the breed will be wholly extinct; but in that five hundred years it will have changed the face of nature, and swallowed up all our contemporary civilisation.</p>
+</blockquote>
+<p>It is, however — perhaps fortunately — impossible that we shall live to see this stupendous climax.</p>
+<hr>
+Back to chapter two: <a href="/books/knockers/2-the-australian-landscape/">The Australian Landscape</a>
+</div>
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        Surveys two centuries of knockers on the Australian national character, from W. G. Grace&#39;s disputed 1874 letter savaging colonial cricket fans to Malcolm Muggeridge&#39;s lotus-eating portraits and Arthur Koestler&#39;s Qantas plastic hook epiphany, tracing also the long shame and eventual pride in the Australian accent.
+      </p>
+
+<hr>
+<h4 class="h6">Related topics</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/adam-lindsay-gordon/" class="link-secondary">Adam Lindsay Gordon</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Adam Lindsay Gordon">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/anthony-trollope/" class="link-secondary">Anthony Trollope</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Anthony Trollope">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/arthur-koestler/" class="link-secondary">Arthur Koestler</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Arthur Koestler">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/clement-freud/" class="link-secondary">Clement Freud</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Clement Freud">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/d.-h.-lawrence/" class="link-secondary">D. H. Lawrence</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="D. H. Lawrence">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/donald-horne/" class="link-secondary">Donald Horne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Donald Horne">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/joan-sutherland/" class="link-secondary">Joan Sutherland</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Joan Sutherland">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/john-pilger/" class="link-secondary">John Pilger</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="John Pilger">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/malcolm-muggeridge/" class="link-secondary">Malcolm Muggeridge</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Malcolm Muggeridge">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/marcus-clarke/" class="link-secondary">Marcus Clarke</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Marcus Clarke">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/max-harris/" class="link-secondary">Max Harris</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Max Harris">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne-cricket-ground/" class="link-secondary">Melbourne Cricket Ground</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne Cricket Ground">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/patrick-white/" class="link-secondary">Patrick White</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Patrick White">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/punch/" class="link-secondary">Punch</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Punch">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/qantas/" class="link-secondary">Qantas</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Qantas">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/ray-illingworth/" class="link-secondary">Ray Illingworth</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Ray Illingworth">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/robert-helpmann/" class="link-secondary">Robert Helpmann</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Robert Helpmann">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/rolf-harris/" class="link-secondary">Rolf Harris</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Rolf Harris">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/the-beatles/" class="link-secondary">The Beatles</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="The Beatles">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/w.-g.-grace/" class="link-secondary">W. G. Grace</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="W. G. Grace">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/adam-lindsay-gordon/" class="link-secondary">Adam Lindsay Gordon</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Adam Lindsay Gordon">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/anthony-trollope/" class="link-secondary">Anthony Trollope</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Anthony Trollope">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/arthur-koestler/" class="link-secondary">Arthur Koestler</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Arthur Koestler">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/clement-freud/" class="link-secondary">Clement Freud</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Clement Freud">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/d.-h.-lawrence/" class="link-secondary">D. H. Lawrence</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="D. H. Lawrence">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/donald-horne/" class="link-secondary">Donald Horne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Donald Horne">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/joan-sutherland/" class="link-secondary">Joan Sutherland</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Joan Sutherland">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/john-pilger/" class="link-secondary">John Pilger</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="John Pilger">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/malcolm-muggeridge/" class="link-secondary">Malcolm Muggeridge</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Malcolm Muggeridge">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/marcus-clarke/" class="link-secondary">Marcus Clarke</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Marcus Clarke">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/max-harris/" class="link-secondary">Max Harris</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Max Harris">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne-cricket-ground/" class="link-secondary">Melbourne Cricket Ground</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne Cricket Ground">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/patrick-white/" class="link-secondary">Patrick White</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Patrick White">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/punch/" class="link-secondary">Punch</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Punch">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/qantas/" class="link-secondary">Qantas</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Qantas">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/ray-illingworth/" class="link-secondary">Ray Illingworth</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Ray Illingworth">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/robert-helpmann/" class="link-secondary">Robert Helpmann</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Robert Helpmann">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/rolf-harris/" class="link-secondary">Rolf Harris</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Rolf Harris">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/the-beatles/" class="link-secondary">The Beatles</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="The Beatles">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/w.-g.-grace/" class="link-secondary">W. G. Grace</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="W. G. Grace">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

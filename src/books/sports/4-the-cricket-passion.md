@@ -9,7 +9,6 @@ tags:
   - Charles Bannerman
   - Charles Dickens
   - Clem Hill
-  - Don Bradman
   - Douglas Jardine
   - Fred Spofforth
   - H. H. Stephenson
@@ -23,6 +22,7 @@ tags:
   - Norman O'Neill
   - Ray Illingworth
   - Rowland Bowen
+  - Sir Donald Bradman
   - Ted Dexter
   - Victor Trumper
   - W. G. Grace

@@ -4,7 +4,14 @@
       "Bash(node ocr/transcribe.js /tmp/wowsers-converted/IMG_9620.png /tmp/wowsers-converted/IMG_9621.png /tmp/wowsers-converted/IMG_9622.png /tmp/wowsers-converted/IMG_9623.png /tmp/wowsers-converted/IMG_9624.png)",
       "Bash(export ANTHROPIC_API_KEY=$\\(grep ANTHROPIC_API_KEY .env)",
       "Bash(.env\\) node *)",
-      "Bash(node /Users/jack2026/Documents/repos/Untitled/KeithDunstan/scripts/check-chapter-links.js)"
+      "Bash(node /Users/jack2026/Documents/repos/Untitled/KeithDunstan/scripts/check-chapter-links.js)",
+      "Bash(node ocr/transcribe.js /tmp/sports-converted/IMG_9728.png /tmp/sports-converted/IMG_9729.png /tmp/sports-converted/IMG_9730.png /tmp/sports-converted/IMG_9731.png /tmp/sports-converted/IMG_9732.png /tmp/sports-converted/IMG_9733.png /tmp/sports-converted/IMG_9734.png /tmp/sports-converted/IMG_9735.png /tmp/sports-converted/IMG_9736.png /tmp/sports-converted/IMG_9737.png /tmp/sports-converted/IMG_9738.png)",
+      "Bash(tesseract --version)",
+      "Bash(ln -sf /opt/homebrew/opt/libtiff/lib/libtiff.6.dylib /opt/homebrew/opt/libtiff/lib/libtiff.5.dylib)",
+      "Bash(tesseract /tmp/sports-converted/IMG_9728.png stdout -l eng)",
+      "Bash(tesseract /tmp/sports-converted/IMG_9728.png stdout --psm 0)",
+      "Bash(sed -n '391,395p' /Users/jack2026/Documents/repos/Untitled/KeithDunstan/src/_data/topics.md)",
+      "Bash(sed -n '933,937p' /Users/jack2026/Documents/repos/Untitled/KeithDunstan/src/_data/topics.md)"
     ]
   }
 }

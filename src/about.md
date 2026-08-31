@@ -58,4 +58,4 @@ summary: How this archive works, how to follow updates via RSS, how to reach Kei
     </div>
   </div>
 </div>
-<p><small>Word count and reading time (at 200 words a minute) are drawn from every published book chapter and article; the topic count reflects the people, places and organisations catalogued on the <a href="{{ '/search/' | url }}">search and topics</a> page. All three update automatically as more of Keith's work is added.</small></p>
+<p><small>Word count and reading time (at 200 words a minute) are drawn from every published book chapter and article; the topic count reflects the people, places and organisations catalogued on the <a href="{{ '/search/' | url }}">search</a> and <a href="{{ '/topics/' | url }}">topics</a> pages. All three update automatically as more of Keith's work is added.</small></p>

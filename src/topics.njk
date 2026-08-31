@@ -1,0 +1,63 @@
+---
+title: Topics
+titleClass: h2 mb-2
+layout: layouts/default.njk
+permalink: /topics/
+---
+
+{% block content %}
+
+{%- set letters = ["#", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"] %}
+
+<p class="text-muted mb-4">{{ collections.tagList.length }} topics drawn from Keith Dunstan's books and articles. Jump to a letter or scroll to browse.</p>
+
+<nav class="mb-5" aria-label="Alphabetical index">
+  <div class="d-flex flex-wrap gap-1">
+    {%- for letter in letters %}
+      <a href="#letter-{{ letter }}" class="btn btn-sm btn-outline-secondary">{{ letter }}</a>
+    {%- endfor %}
+  </div>
+</nav>
+
+{%- set prevLetter = "" %}
+{%- for tag in collections.tagList %}
+  {%- set rawFirst = tag.tagName[0] | upper %}
+  {%- if rawFirst >= "A" and rawFirst <= "Z" %}
+    {%- set firstLetter = rawFirst %}
+  {%- else %}
+    {%- set firstLetter = "#" %}
+  {%- endif %}
+
+  {%- if firstLetter != prevLetter %}
+    {%- if not loop.first %}</dl>{% endif %}
+    <h2 id="letter-{{ firstLetter }}" class="h4 mt-5 mb-3 border-bottom pb-2">{{ firstLetter }}</h2>
+    <dl>
+    {%- set prevLetter = firstLetter %}
+  {%- endif %}
+
+  {%- set topicData = topics.topics | findTopic(tag.tagName) %}
+  {%- set tagPosts = collections[tag.tagName] %}
+
+  <dt class="mb-1 mt-4">
+    <a href="{{ '/topic/' | url }}{{ tag.tagName | slug }}/" class="text-decoration-none fs-6 fw-semibold">{{ tag.tagName }}</a>
+  </dt>
+  {%- if topicData and topicData.description %}
+    <dd class="text-muted mb-1 ms-0">{{ topicData.description }}</dd>
+  {%- endif %}
+  {%- if tagPosts %}
+    <dd class="ms-0">
+      <ul class="mb-0 small">
+        {%- for post in tagPosts | sort(false, false, "date") %}
+          <li>
+            <a href="{{ post.url | url }}" class="text-decoration-none">&ldquo;{{ post.data.title }}&rdquo;</a>
+            <span class="text-muted ms-1">&middot; {{ post.date | postDate(post.data.tags) }}</span>
+          </li>
+        {%- endfor %}
+      </ul>
+    </dd>
+  {%- endif %}
+
+  {%- if loop.last %}</dl>{% endif %}
+{%- endfor %}
+
+{% endblock %}

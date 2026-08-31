@@ -11,7 +11,7 @@ function walkMarkdownFiles(dir) {
     const full = path.join(dir, entry.name);
     if (entry.isDirectory()) {
       results = results.concat(walkMarkdownFiles(full));
-    } else if (entry.isFile() && entry.name.endsWith(".md")) {
+    } else if (entry.isFile() && (entry.name.endsWith(".md") || entry.name.endsWith(".njk"))) {
       results.push(full);
     }
   }
@@ -42,10 +42,18 @@ module.exports = () => {
   const totalReadMinutes = Math.round(totalWords / WORDS_PER_MINUTE);
   const readHours = Math.round(totalReadMinutes / 60);
 
-  const topicsData = matter(
-    fs.readFileSync(path.join(root, "_data", "topics.md"), "utf8")
-  ).data;
-  const totalTopics = (topicsData.topics || []).length;
+  const EXCLUDED_TAGS = new Set(["all", "nav", "post", "posts", "book", "books", "article", "articles"]);
+  const uniqueTags = new Set();
+  for (const dir of ["books", "articles"]) {
+    for (const file of walkMarkdownFiles(path.join(root, dir))) {
+      const raw = fs.readFileSync(file, "utf8");
+      const { data } = matter(raw);
+      for (const tag of (data.tags || [])) {
+        if (!EXCLUDED_TAGS.has(tag)) uniqueTags.add(tag);
+      }
+    }
+  }
+  const totalTopics = uniqueTags.size;
 
   return {
     totalWords,
