@@ -11,7 +11,7 @@ tags:
   - Chloe
   - Exhibition Building
   - Fosters Lager
-  - Henry Bolte
+  - Sir Henry Bolte
   - Jules Lefebvre
   - Louis Armstrong
   - Melbourne

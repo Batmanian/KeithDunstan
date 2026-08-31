@@ -6,7 +6,7 @@ categories:
 - The Age
 tags:
   - Bicycle Victoria
-  - Henry Bolte
+  - Sir Henry Bolte
   - Melbourne
   - Metro Trains
   - Peter Ryan

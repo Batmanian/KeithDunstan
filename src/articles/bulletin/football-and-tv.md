@@ -14,7 +14,7 @@ tags:
   - Footscray
   - Frank Galbally
   - Hawthorn
-  - Henry Bolte
+  - Sir Henry Bolte
   - Melbourne
   - Melbourne Sun
   - St Kilda

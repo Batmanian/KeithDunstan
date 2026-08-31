@@ -8,7 +8,7 @@ tags:
   - Albert Tucker
   - Arthur Boyd
   - Essendon
-  - Henry Bolte
+  - Sir Henry Bolte
   - John Batman
   - John Perceval
   - M. G. Sloman

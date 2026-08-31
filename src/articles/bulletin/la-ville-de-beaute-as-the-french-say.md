@@ -10,7 +10,7 @@ tags:
   - Dallas Brooks
   - Exhibition Building
   - Franz Hollinger
-  - Henry Bolte
+  - Sir Henry Bolte
   - International Labor Organisation
   - Melbourne
   - Royal Melbourne Hospital

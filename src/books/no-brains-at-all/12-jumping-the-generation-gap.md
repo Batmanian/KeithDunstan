@@ -10,7 +10,7 @@ tags:
   - Dr. Jim Cairns
   - East Malvern
   - Georges
-  - Henry Bolte
+  - Sir Henry Bolte
   - John Landy
   - Korowa Girls School
   - Marie Rose

@@ -8,7 +8,7 @@ tags:
   - Bill Ponsford
   - Frank Tyson
   - Harold Larwood
-  - Henry Bolte
+  - Sir Henry Bolte
   - Jack Iverson
   - Melbourne Cricket Club
   - Melbourne Cricket Ground

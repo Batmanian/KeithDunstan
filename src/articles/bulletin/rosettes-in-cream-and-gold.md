@@ -7,7 +7,7 @@ categories:
 tags:
   - Board of Works
   - Exhibition Building
-  - Henry Bolte
+  - Sir Henry Bolte
   - New South Wales
   - Victoria
   - Victorian Legislative Council

@@ -7,7 +7,7 @@ categories:
 tags:
   - East Gippsland Trail
   - Great Southern Trail
-  - Henry Bolte
+  - Sir Henry Bolte
   - Lilydale-Warburton Rail Trail
   - Mount Donna Buang
   - OKeefe Trail

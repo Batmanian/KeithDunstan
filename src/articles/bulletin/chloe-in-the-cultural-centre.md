@@ -7,7 +7,7 @@ categories:
 tags:
   - Chloe
   - Flinders Street Station
-  - Henry Bolte
+  - Sir Henry Bolte
   - Luna Park
   - Maurice Nathan
   - National Gallery of Victoria

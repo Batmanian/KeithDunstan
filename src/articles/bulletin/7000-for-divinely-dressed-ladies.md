@@ -9,7 +9,7 @@ tags:
   - Chester Manifold
   - Frank Grey-Smith
   - Geoff Lane
-  - Henry Bolte
+  - Sir Henry Bolte
   - Johnny Sellers
   - Melbourne Cricket Club
   - Melbourne Cup

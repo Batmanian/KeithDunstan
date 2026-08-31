@@ -7,7 +7,7 @@ categories:
 tags:
   - Albert Tucker
   - Chris Wallace-Crabbe
-  - Henry Bolte
+  - Sir Henry Bolte
   - Ross Grey-Smith
   - St Kilda
   - Sun News-Pictorial

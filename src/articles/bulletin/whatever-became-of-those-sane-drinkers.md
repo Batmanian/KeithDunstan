@@ -6,7 +6,7 @@ categories:
 - The Bulletin
 tags:
   - The Age
-  - Henry Bolte
+  - Sir Henry Bolte
   - Stanley Korman
   - Victorian Legislative Council
 ---

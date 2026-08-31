@@ -8,7 +8,7 @@ categories:
 tags:
   - Albury
   - Geelong Grammar
-  - Henry Bolte
+  - Sir Henry Bolte
   - Melbourne
   - Robert Heffron
   - Sydney

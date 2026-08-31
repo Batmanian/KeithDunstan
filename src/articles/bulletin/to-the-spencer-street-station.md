@@ -12,7 +12,7 @@ tags:
   - Barry Humphries
   - Basil Atkinson
   - Doug Elliot
-  - Henry Bolte
+  - Sir Henry Bolte
   - J. J. Brown
   - Reg Ansett
   - Sir Robert Menzies

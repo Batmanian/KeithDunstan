@@ -544,8 +544,6 @@ topics:
     description: Hawthorn Football Club, the Hawks, is one of the oldest clubs in the Victorian Football League, based in the inner-Melbourne suburb of Hawthorn and famous in the 1970s for full-forward Peter Hudson, whose name was scrawled into a church sign as the answer to 'What would you do if God came to Hawthorn today?'.
   - name: Hayman Island
     description: Hayman Island is a resort island on the Great Barrier Reef off the Queensland coast, whose sheltered waters and surrounding uninhabited islands Keith Dunstan held up as the setting for the ideal Australian Christmas, spent on a two-masted yacht, diving for oysters and barbecuing coral trout on a driftwood fire.
-  - name: Henry Bolte
-    description: Sir Henry Bolte was Victoria's blunt, long-serving Liberal Premier from 1955 to 1972, a plain-spoken figure Keith Dunstan needled throughout the Bulletin years, from his government's standoff with students over the hanging of Robert Tait to the misquoted line that earned him the nickname 'Satchmo'.
   - name: Henry Lawson
     description: Henry Lawson was Australia's foremost bush balladist and short story writer, whose 1892 verse mocking the nation's readiness to 'make a hero of a clod' for sport Keith Dunstan quoted to show the sporting super-religion was already entrenched a century before he wrote about it.
   - name: Henry Varley
@@ -1001,7 +999,7 @@ topics:
   - name: Sir H. D. Littlejohn
     description: Henry Duncan Littlejohn was a Scottish forensic scientist and Edinburgh's long-serving Medical Officer of Health, whose medical warnings against tobacco a Victorian MP quoted in 1905 while introducing a bill against juvenile smoking, as Keith Dunstan recorded in 'Wowsers'.
   - name: Sir Henry Bolte
-    description: Sir Henry Bolte was Victoria's blunt, long-serving Liberal Premier from 1955 to 1972, whose plain-spoken threats against striking workers and prickly rivalry with New South Wales made him one of Keith Dunstan's most reliable sources of comic material.
+    description: Sir Henry Bolte was Victoria's blunt, long-serving Liberal Premier from 1955 to 1972, whose plain-spoken threats against striking workers, prickly rivalry with New South Wales, standoff with students over the hanging of Ronald Ryan, and the misquoted line that earned him the nickname 'Satchmo' made him one of Keith Dunstan's most reliable sources of comic material throughout the Bulletin years.
   - name: Sir Hubert Wilkins
     description: Sir Hubert Wilkins was the Australian polar explorer whose 1927 Antarctic expedition, revealed in a 1963 biography to have used a Baby Austin sedan, briefly upstaged both Volkswagen and BMC's rival advertising campaigns claiming their small car had conquered the ice first.
   - name: Sir John Williams

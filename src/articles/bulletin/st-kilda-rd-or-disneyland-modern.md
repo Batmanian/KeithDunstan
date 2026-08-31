@@ -12,7 +12,7 @@ tags:
   - Harold de Marigny
   - Harold Luth
   - Healesville
-  - Henry Bolte
+  - Sir Henry Bolte
   - Melbourne
   - Memphis
   - N. R. MacGregor

@@ -6,7 +6,7 @@ tags:
   - Alan Parker
   - Brian Dixon
   - Geelong Grammar
-  - Henry Bolte
+  - Sir Henry Bolte
   - Malvern Star
 ---
 

@@ -6,7 +6,7 @@ categories:
 - The Bulletin
 tags:
   - Graham Kennedy
-  - Henry Bolte
+  - Sir Henry Bolte
   - John Coleman
   - John Peck
   - Ron Barassi

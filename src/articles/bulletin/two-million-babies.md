@@ -7,7 +7,7 @@ categories:
 tags:
   - Bill Onus
   - Harold Holt
-  - Henry Bolte
+  - Sir Henry Bolte
   - Maurice Nathan
   - Sir Rohan Delacombe
   - St Kilda

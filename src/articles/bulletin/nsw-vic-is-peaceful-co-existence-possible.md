@@ -10,7 +10,7 @@ tags:
   - Black Rock
   - Fitzgerald
   - Gough Whitlam
-  - Henry Bolte
+  - Sir Henry Bolte
   - HMVS Cerberus
   - Maurice Nathan
   - Melbourne

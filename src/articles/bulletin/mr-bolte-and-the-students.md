@@ -11,7 +11,7 @@ tags:
   - Earl of Harewood
   - Flinders Street Station
   - Harold Macmillan
-  - Henry Bolte
+  - Sir Henry Bolte
   - Herbert Hyland
   - Lovegrove
   - Melbourne University

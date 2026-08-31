@@ -13,7 +13,7 @@ tags:
   - Dr Carl Resch
   - Fosters Lager
   - Gough Whitlam
-  - Henry Bolte
+  - Sir Henry Bolte
   - Home brewing
   - Hotel Australia
   - Ian Johnson

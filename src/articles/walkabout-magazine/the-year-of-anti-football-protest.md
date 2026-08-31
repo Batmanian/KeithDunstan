@@ -8,7 +8,7 @@ tags:
   - Anti-Football League
   - Douglas Wilkie
   - Harold Holt
-  - Kenneth Luke
+  - Sir Kenneth Luke
   - Melbourne Cricket Ground
   - Ron Barassi
   - Sun News-Pictorial
