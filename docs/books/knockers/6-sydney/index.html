@@ -1,0 +1,683 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sydney</title>
+<meta name="title" content="Sydney">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="A survey of the knocks dealt to Sydney across more than a century, from convict-era clergy who found it the most wicked city on earth, to visiting architects and writers who deplored its planning, its architecture and its temper, alongside the spirited replies of Sydneysiders who gave as good as they got.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/knockers/6-sydney/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Sydney">
+<meta property="og:description" content="A survey of the knocks dealt to Sydney across more than a century, from convict-era clergy who found it the most wicked city on earth, to visiting architects and writers who deplored its planning, its architecture and its temper, alongside the spirited replies of Sydneysiders who gave as good as they got.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Sydney">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/knockers/6-sydney/">
+<meta name="twitter:title" content="Sydney">
+<meta name="twitter:description" content="A survey of the knocks dealt to Sydney across more than a century, from convict-era clergy who found it the most wicked city on earth, to visiting architects and writers who deplored its planning, its architecture and its temper, alongside the spirited replies of Sydneysiders who gave as good as they got.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Sydney">
+<link rel="canonical" href="https://keithdunstan.org/books/knockers/6-sydney/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1972-01-01">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="Knockers">
+<meta property="article:tag" content="AMP Building">
+<meta property="article:tag" content="Anthony Trollope">
+<meta property="article:tag" content="Australia Square">
+<meta property="article:tag" content="Beatrice Webb">
+<meta property="article:tag" content="Bondi">
+<meta property="article:tag" content="Botany Bay">
+<meta property="article:tag" content="Captain Cook">
+<meta property="article:tag" content="Guardian (newspaper)">
+<meta property="article:tag" content="Harry Seidler">
+<meta property="article:tag" content="Jack London">
+<meta property="article:tag" content="James Morris">
+<meta property="article:tag" content="Manly">
+<meta property="article:tag" content="Parramatta">
+<meta property="article:tag" content="Robert Morley">
+<meta property="article:tag" content="Romano&#39;s">
+<meta property="article:tag" content="Sydney">
+<meta property="article:tag" content="William Street">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">Sydney</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            19
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1972-01-01">1972</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A survey of the knocks dealt to Sydney across more than a century, from convict-era clergy who found it the most wicked city on earth, to visiting architects and writers who deplored its planning, its architecture and its temper, alongside the spirited replies of Sydneysiders who gave as good as they got.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="Knockers">
+         <!--<a href="/tags/amp-building/" class="btn btn-outline-dark btn-sm me-2">AMP Building</a><a href="/tags/anthony-trollope/" class="btn btn-outline-dark btn-sm me-2">Anthony Trollope</a><a href="/tags/australia-square/" class="btn btn-outline-dark btn-sm me-2">Australia Square</a><a href="/tags/beatrice-webb/" class="btn btn-outline-dark btn-sm me-2">Beatrice Webb</a><a href="/tags/bondi/" class="btn btn-outline-dark btn-sm me-2">Bondi</a><a href="/tags/botany-bay/" class="btn btn-outline-dark btn-sm me-2">Botany Bay</a><a href="/tags/captain-cook/" class="btn btn-outline-dark btn-sm me-2">Captain Cook</a><a href="/tags/guardian-(newspaper)/" class="btn btn-outline-dark btn-sm me-2">Guardian (newspaper)</a><a href="/tags/harry-seidler/" class="btn btn-outline-dark btn-sm me-2">Harry Seidler</a><a href="/tags/jack-london/" class="btn btn-outline-dark btn-sm me-2">Jack London</a><a href="/tags/james-morris/" class="btn btn-outline-dark btn-sm me-2">James Morris</a><a href="/tags/manly/" class="btn btn-outline-dark btn-sm me-2">Manly</a><a href="/tags/parramatta/" class="btn btn-outline-dark btn-sm me-2">Parramatta</a><a href="/tags/robert-morley/" class="btn btn-outline-dark btn-sm me-2">Robert Morley</a><a href="/tags/romano&amp;#39;s/" class="btn btn-outline-dark btn-sm me-2">Romano&#39;s</a><a href="/tags/sydney/" class="btn btn-outline-dark btn-sm me-2">Sydney</a><a href="/tags/william-street/" class="btn btn-outline-dark btn-sm me-2">William Street</a>-->
+
+        
+      </header>
+      <div class="article-body"><p>Melbourne in the 1920s and in 1970 the serious crime rate was higher in Melbourne than in Sydney. For corruption in high places Sydney has yet to outdo the Melbourne Abortion Inquiry. Sydney had bad public relations from a very early period. For example, Governor Hunter, writing home to the Colonial Secretary in 1798, said: 'A more wicked, abandoned and irreligious set of people have never been brought together in any part of the world.'</p>
+<p>A more eloquent writer was the Reverend David McKenzie. In 1845 he wrote a book titled <em>Ten Years in Australia</em>, designed as a useful handbook for the intending migrant. It was meant to be the real truth as opposed to some of the romantic pieces written by other colonial travellers. He wrote:</p>
+<blockquote>
+<p>If I had any selfish interest in advising you to emigrate to Australia, I would not say a single syllable about the morals of the society of Botany Bay. But I have no wish that any of you should come here, neither have I the least inducement to conceal from you any of the moral deformities; and I must then candidly tell you that our calendar of crime is truly frightful, embracing murder, highway robbing, stabbing, arson, cutting and maiming, burglary, shooting and wounding, rape, piracy, perjury, cattle-stealing, etc. In one year no fewer than 116 capital convictions had been passed for crimes of violence alone.</p>
+<p>If you were only to peep into the Sydney police office on a Monday fore-noon, you would then see a lovely specimen of our morality. Scores of men, women, boys, and girls, who had been dragged off the streets on the preceding evening for drunkenness, fighting and other similar offences, standing with brazen faces to hear their respective sentences. You may then every two or three minutes hear thundered forth with the voice of authority from the magistrates' bench, 'Six hours to the stocks—ten days to the cells—twenty days to the treadmill—fifty lashes (on his bare back)!'</p>
+</blockquote>
+<p>Equally shocked was a clergyman who lived in Sydney at the same time. He said he had been all over the world, but no place anywhere could compare with Sydney for its number of public houses and drink shops. You could not walk fifty yards in any direction without finding one. You could guarantee being able to get a drink at any intersection because the grog shops occupied all the best positions.</p>
+<p>From high to low, the merchant, mechanic, and labourer, all are alike a thirsty community; the bar-rooms of the hotels and inns are as much crowded as the taps of the dram-shops. Drink, drink, drink, seems to be the universal motto, and the quantity that is consumed is incredible; from early morning to dark night, it is the same—Bacchus being constantly sacrificed to.</p>
+<p>Our poor clergyman had trouble from the start. Upon arriving in Sydney he booked into a boarding-house in Pitt Street. The next day all the ladies and gentlemen of the house assembled in the dining-room for dinner. The table was beautifully laid. Much time passed but nothing happened. Later they heard a disturbance out in the kitchen. The proprietress had called the police. Next they knew, Old John, the manservant, and his two female assistants were being carted off 'in a helpless state of intoxication'. So much for dinner. Old John received fifty lashes and the two women were sentenced to the female factory at Parramatta.</p>
+<p>He said the general punishment for male convicts was the lash and the number of lashes handed out was extraordinary. He wrote:</p>
+<blockquote>
+<p>There are, in fact, not a few convicts who have received many thousand lashes in the aggregate; the writer had one assigned to him who had, previously to coming into his service, received 2,275 lashes, and had become so hardened by it, that he would much sooner receive 100, than even the shortest term of imprisonment.</p>
+</blockquote>
+<p>In 1862 another learned gentleman, William R. H. Jessop M.A., was complaining about the drunkenness. He thought Sydney University was the most miserable kind of failure. One college, built and maintained at vast expense, for some time had not received a single student. 'Why?' he asked, 'Now, I affirm positively and with indignation, that this college has not a single student, because the head, a professor of divinity, is said to be guilty of continual inebriety. There is no mincing the matter; it deserves to be known — the disgrace of Sydney and its people.'</p>
+<p>Thereupon Mr Jessop sent off his knocks in all directions. 'There was not one pretty woman in the entire colony. No, not one.' And Sydney was remarkable for this point in particular. Yes, there were no women worth looking at and the men were positively ugly.</p>
+<p>When I came to this part of Australia and saw the wonderful works which nature had done for its inhabitants . . . then thought I, 'Surely this is a wise and understanding people!' But what did I find? The people were rude, ignorant and vicious, without natural respect for themselves, without any regard for others — perverse, descending from an evil source and perpetuating the evil. They talk of liberty, every man to his neighbour, yet are they slaves; many under the thralldom of superstition, many under the tyranny of crafty men, many chained to the ground by vice, many held in the bonds of ignorance. They talk of their lights, yet they sit in gross darkness; they talk of their wisdom, yet their speech is foolishness. They are an envious people, and a coward people; for whom they fear, him they hate — they hate him right sore. They are a forward people, going astray in their politics or ever they are born.²</p>
+<p>He was also very unimpressed with the Sydney politicians. The Speaker was grave and gentlemanly, but as for the others, they were not the type that a gentleman could ask to dine with a friend. They were so ungainly in their manners, so rude in their speech, rough, quarrelsome, braggart, coarse and forbidding.</p>
+<p>In 1898 those intellectual radicals Sidney and Beatrice Webb commented on Sydney with almost equally lofty contempt. Beatrice found Sydney inhabited by a lower-middle-class population aggressive in manner and blatant in dress. It was a city without loneliness or splendour; only bad taste and cold indifference.</p>
+<p>But for the full depth of feeling the colonial one should turn to Mrs Webb's account of her visit to the Sydney Lord Mayor and his Council:</p>
+<blockquote>
+<p>There, seated in his robes, sat a large, red-faced, black-bearded man with an expression of worried stupidity, fingering with the printed report he was about to lay before the Council with ardent nervousness. He was illiterate in speech and awkward in manner, and extra-ordinarily muddled in answering our inquiries; an aroma of whisky scented the air. . . . The Aldermen were the same sort as the Mayor, heavy common persons; the Mayoress, attired in a long silk gown, turned out to be the quintessence of vulgarity, not only a total absence of manners but in ostentation and snobbishness.⁴</p>
+</blockquote>
+<p>At one o'clock we adjourned for lunch, an elaborate 'dinner' with a plentiful supply of expensive wine. During the meal I tried to extract information from the Mayor, but all I got was the assurance that he was a very rich man and that he had no occasion to bother himself about the affairs of the city.</p>
+<p>While horrified at the lack of culture of the citizens of Sydney, the knockers were perhaps more consistently aggressive over the dismal appearance of Sydney, the lamentable architecture, the total absence of planning. Some found it odd that 12,000 miles from home the dull British would set to work in Sydney reproducing everything that was heavy and dreary in London or Manchester. Francis W. L. Adams in 1886 said the Puritanism was the same, the heavy brand of Calvinism was there and people clung not only to the old faith but the same gloomy dress, cumbrous on the women, hideous on the men. Then six degrees south of the tropic of Capricorn one would find the usual English architecture with its 'impotence to express anything'.⁵</p>
+<p>Godfrey Charles Mundy thought the same thing in 1855. He said:</p>
+<blockquote>
+<p>The construction of the buildings is blameably ill-suited to a semi-tropical climate — bare-faced, smug-looking tenements without verandas or even broad eaves, a fault extending to the Government House itself, whose great staring windows are doomed to grill unveiled, because, forsooth, any excrescence upon their stone mullions would be heterodox to the order or disorder of its architecture.</p>
+</blockquote>
+<p>One curious volume is titled: <em>My Experiences in Australia. Recollections of a Visit to the Australian Colonies 1856–7</em> by 'A Lady'. No doubt had she revealed her identity she would have ceased to be 'A Lady' and merely a female.</p>
+<p>'A Lady' was shocked by the miserable tumbledown cottages, surrounded with old broken palings which had all, evidently, been erected in the 'year one' of the colony. She said: 'The city does not seem to have been built originally according to any plan, but the ground was sold or given in patches to private individuals, who erected all sorts of edifices with all sorts of aspects and accesses.</p>
+<p>The result naturally is not very striking or imposing. . . . I know of few more uninteresting places . . . constant and deep must be the yearnings of emigrants, or almost all classes and characters, for &quot;country, mother country&quot;, and many an earnest prayer must be breathed for permission &quot;to gaze upon her shores again.&quot;'</p>
+<p>One of the most interesting descriptions of Sydney planning was written by 'An Enraged Melbourne Man' in <em>The Triad</em> for 13 June 1907. He said:</p>
+<blockquote>
+<p>Both city and suburbs seem to have been laid out by a public entertainer, who had some sort of a notion of making an extensive switchback railway. When we came from the wharf we made our way down one declivity by hanging on to veranda posts, and brought up at the corner of two lanes flanked by shops that might have been in the side street of some tenth-rate Melbourne suburb. We asked someone where the city was. He told us we were at the corner of King and George Streets, right in the centre. . . . Sydney streets are disconcerting to the stranger. To walk along them is like running a hurdle race. Nobody has repaired them since the days of Captain Cook.</p>
+</blockquote>
+<p>Sixty years later it is possible to find one of Sydney's leading architects, Mr Harry Seidler, the designer of Australia Square, again criticising Sydney planning. In 1967 he said: 'Sydney is the ugliest and most disorganized city in the Western world. Sydney has reached a state of anarchy in planning.' He said that on the planning committees of local council they had such well-meaning people as local butchers.⁷</p>
+<p>Harry Seidler's comments received splendid newspaper coverage. Melbourne newspapers particularly were only too keen to give solid coverage to his words. They gave an even better spread to the pronouncements of J. M. Richards, the executive editor of Britain's <em>Architectural Review</em>. He was billed as England's foremost architectural critic. He said: 'Sydney is a mess, you can't find the buildings.'</p>
+<p>Sydney was unusually unlucky in that some of the worst buildings stuck out like sore thumbs. The AMP buildings, the Qantas headquarters and the Royal Exchange building were among those that caught his eye.</p>
+<p>'They are far below the standard of which a sophisticated, go-getting city should be capable,' Mr Richards said. 'And most of the substantial buildings, with the exception of some of the American-style office towers, are dressed up in nearly as vulgar a fashion as these three. The AMP building is a horror — an ugly kind of building that is too prominent.'⁸</p>
+<p>Mr Richards gave a little solace to the suffering Sydney soul for he also assaulted Canberra's pride, the new National Library, as an 'architectural disaster'. He said, 'The form of the building is a kind of scraped-down classical temple reminiscent of Mussolini's Italy.'</p>
+<p>Mr Richards was bitterly assaulted in return. The Minister for the Interior, Mr Nixon, suggested that Mr Richards didn't really know what he was talking about. After all, he wasn't even a practising architect.</p>
+<p>As for the Harbour, it has nearly always been above criticism. The words of Anthony Trollope have never been forgotten: 'I have seen nothing equal to it — nothing second to it. It is so inexpressibly lovely that it makes a man ask himself whether it would not be worth while to move his household goods to the Eastern Coast of Australia, in order that he might look at it as long as he can look at anything.'</p>
+<p>The truly deft knockers have always adopted the line that it is virtually impossible to see its beauty. It has been so hemmed in by domestic housing there is not even a suitable boulevard from which the tourist can observe its beauties. Perhaps it has been that way for a long time. That 'Enraged Melbourne Man' writing in <em>The Triad</em> said in 1907:</p>
+<blockquote>
+<p>It may possibly have been a harbour once. Now it is what a public speaker in Sydney described the other night as a pond in a paddock. The beautiful harbour today looks like a cross between a right-of-way in Port Melbourne and an advertising block on St Kilda Road. When we complained, the Sydney people told us that we could not see its beauties. If we wanted to appreciate it now we would have to get a boat and look round the back of the hoardings. We did this the next day, but the first place we landed at, a man came along with a gun and two bulldogs and told us to clear off his pretty land.⁹</p>
+</blockquote>
+<p>James Morris of the <em>Guardian</em>, one of the great peripatetic travel writers, thought the harbour did not live up to its billings. It certainly was not as beautiful as its popularly nominated peers, Rio de Janeiro, Hong Kong or San Francisco. If it was to be any good then it needed the backdrop of a city like San Francisco and Sydney certainly was not that. Mr Morris didn't even like the bridge. He thought it a lumpish, ugly thing.¹⁰</p>
+<p>But what about the character of the Sydney people? Ellen Kean said in 1864:</p>
+<blockquote>
+<p>You can conceive nothing like the slowness of the Sydney people. They are like great insects they call dead straws. You have to poke them to know they live. They are very rich but they do not know how to spend their money, they do not even know how to mis-spend it. You see few books among them, they like dancing and cricket, and will endure a little music. How they live through the twenty-four hours I do not know. But I could not live amongst them. I should die of their nothing-at-all-ativeness.¹¹</p>
+</blockquote>
+<p>The celebrated J. A. Froude said in 1885:</p>
+<blockquote>
+<p>The deficiency of the Sydney colonists is one which they share at present with a large part of the civilised world in that they have no severe intellectual interests. They aim at little — what money will buy and to make money and buy enjoyment with it is the be-all and end-all of their existence. They are courteous and polite, as well to one another as to strangers . . . but it is only to conquer the enemies of material comfort . . . but their own lives may be bright and it is hard to quarrel with men who only wish to be innocently happy.¹²</p>
+</blockquote>
+<p>Yet John Foster Fraser in 1910 was not so sure about happy innocence. He said:</p>
+<blockquote>
+<p>The climate, with soft rains in the winter and semi-tropical sultriness in the Australian summer — produces an amiability — which makes the Sydney folk as pleasantly contented a community as can be found.</p>
+<p>And yet — this struck me as curious — they are not a joyous-looking people. You may have heard of the Australian frown — a puckering of the face, due to the sun glare. Nor in the streets do you mark any blitheness and gaiety of demeanour — no merry, girlish laughter. On a Sunday afternoon the domain breasting the harbour is thronged with people, neatly dressed, decorous, admiring the scene — but solemn. There is no spray of light chatter such as distinguishes the promenaders in London's Hyde Park on a Sunday afternoon.¹³</p>
+</blockquote>
+<p>Sydney has been accused frequently of being an American-style city, another chunk of California. So frequently it has accepted and rejected the knocks of Americans. William Wordon in the <em>Saturday Evening Post</em> of 1955 in a not very perceptive article described the Sydney-sider as a 'real gone guy, a crazy, mixed-up kid, a wild and woolly, beer-drinking, gambling, football-playing self-conscious individualist'.</p>
+<p>Richard R. Ronard was more aggressive in 1966. He said:</p>
+<blockquote>
+<p>Twenty years ago with wartime austerity in full force shortages were taken for granted and understood. Imagine my surprise when an old Australian acquaintance said to me over lunch: 'You'll be right mate, if you just remember that in Sydney the consumer has no rights whatsoever.'</p>
+<p>Beginning with the average barmaid, the average theatre-cashier, the average shop-assistant and the average telephonist, I'm inclined to think that this piece of unsolicited advice was the understatement of the year.</p>
+<p>Anywhere else in the world, any female flunkie pulling this stuff would be sacked the first day. Failing that the retail firm, shop or theatre would rapidly go out of business.</p>
+<p>The biggest draw-back as overseas visitors see this country is your oft-quoted remark, 'It'll do mate . . .' This horrible sentiment is truly holding this country back from ever becoming a first class nation.</p>
+<p>But then who cares? The gorgeous sunshine is still available, the blue harbour still shimmers, the beautiful beaches still beckon, and life for so many is easy in the main, so effortless compared with the daily struggle for bread, shelter and sustenance in so many lands.</p>
+<p>Could that be the reason behind your famous slogan which sits astride this lovely land like a deadly plague, 'It'll do mate.'¹³</p>
+</blockquote>
+<p>John Douglas Pringle on the other hand found something aggressive about the Sydney people. It rose to the surface in the way that drivers forced their way through regardless of rules or common courtesy. It could be seen in the dumps of rubbish which littered the roads and the countless beer bottles flung casually into the bush or the creeks. You could hear it in the angry shouts of the crowd as the favourite failed and the jockey was jeered and booted as he rode back to the paddock. Yes, you could see it in the sight of drunks brawling on the footpath in William Street, while men stood around laughing and urging the winner to 'put the boot in'.</p>
+<p>Pringle also mentioned the aggressiveness of the hard-faced society women, lunching at Romano's, looking for the attention of photographers and social reporters. It was a rough, boisterous, greedy city with little time for the grace of life, where 'push' was a quality much admired.¹⁴</p>
+<p>But the knock which Sydney has not forgotten was that of James Morris in 1962. Morris, writing for the <em>Guardian</em>, covered Australia very thoroughly, taking in all the capital cities as well as the outback. He was handsome in his praise for almost all the other cities. Melbourne purred when he described Collins Street as 'recognizably one of the great streets of the world'. But his knock of Sydney was a terrible indictment:</p>
+<blockquote>
+<p>The origins of Sydney are unsavoury, her history is disagreeable to read, her temper is coarse, her organization seems to be slipshod, her suburbs are hideous, and her politics often crooked, her buildings are mostly plain, her voices rasp on the ear, her trumpeted Art Movement is, I suspect, half spurious, her newspapers are either dull or distasteful, and in the end when you hunger for beauty or consolation in this famous place, you return willy-nilly to the harbour front where the ships tread with graceful care towards their moorings and the great humped bridge stands like an arbiter above the quays.</p>
+<p>Sydney is not one of your absolute cities, and in nothing that I have detected, except perhaps the racing commentaries, is she quite in the first class. She is almost as old as San Francisco, indeed, and bigger than all but a handful of European cities, but there is something cold and vacuous at her core, something that makes the stranger, however hospitable his acquaintances, feel obscurely lonely in her streets. For most Sydney citizens the purpose of life may be summarized in the pattern of fun on Saturday afternoons at Manly Beach, all bronzed open-air men, and perhaps it is this capacity of intent, this lack of lofty memories or aspirations that makes its metropolis feel so pallid or frigid at the soul.</p>
+<p>The people of Sydney will usually greet you warmly enough, even heartily, but compared with the great immigrant cities of the New World — Montreal, New York or São Paulo — this place feels cruelly aloof. Perhaps it is the origins of Sydney that invoke this sensation — for, in spite of the sophistries of her society ladies, she was founded by the scum of England only six generations ago. Perhaps it is in the expressions of those ladies themselves, so steely, scornful, accusatory and plebeian, as though they were expecting you (which heaven forbid) to pinch their tight-corseted behinds. Perhaps it is the intolerance of one citizen to another, sour waitress to indifferent customer. Sydney does not feel like a haven. She does not reach out as New York once did to receive 'your tired, your poor, your hungry masses, yearning to breathe free'. No great ideals of politics or humanity animate her, no visions of nobility, but only starker impulses of self-advancement or survival.</p>
+<p>But Sydney does not yet feel a great city — not a generous, confident, serene city, not a city of any warmth or splendour. Turn your back on the bridge and you will travel through a labyrinth of unlovely boulevards, a humdrum desolation, until at last you reach the outskirts of the place, and there before you, if you persevere, stretches the emptiness of Australia, which is inescapable, which runs like some chill virus through the bloodstream of this country, and so binds the fragile years together that even now you may sense the presence of the chain gangs in Sydney and fancy the punishment cutter striking out to Pinchgut.¹⁷</p>
+</blockquote>
+<p>The reaction to this both in England and in Sydney could only be described as considerable. The <em>Guardian</em> devoted a page to the replies.¹⁸ Here are some examples:</p>
+<p>Sir. A Sydneysider might find it difficult to believe that a visitor to Port Jackson — even so brilliantly perceptive as James Morris — could find a key to the city's ethos in what he calls its unsavoury origins. It is a popular British conception that Australians generally and Sydneysiders particularly, are sensitive about their convict origins. I would suggest that the average Australian is no more conscious of sordid events in his country's history than is the Londoner who regards the Bloody Tower mainly as a source of tourist revenue.</p>
+<p>Yours etc. Antony Scott Veitch,
+Courtfield Gardens,
+London SW5.</p>
+<p>Sir. Whether or not Mr Morris wants to pinch the behinds of these society ladies of Sydney is a matter for them and him. But the association of them with the founders of our society is as irrelevant as it is unworthy.</p>
+<p>Yours etc. Ronald Dunlop,
+Sydney.</p>
+<p>Sir. After six years in England, and having acquired knowledge in one of its famous institutions, one is no longer resentful, but wry. One digs up his own fond memories of the 'Steak and Kidney' and asks himself: 'What sun-singed, singleted, beer-swilling wag from Woolloomooloo has once again gone and rubbed a Pom up the wrong way.'</p>
+<p>Yours very truly, Eric Lambert,
+Red House,
+Lr. Maplestead,
+Halstead, Essex.</p>
+<p>Perhaps we should finish here with two gentle knocks from two famous celebrities. Jack London was mostly distressed by the noise.</p>
+<p>I live in a flat on Phillip Street. The sidewalls are cement. The streets hard macadam, the buildings on either side are of brick and iron. The acoustics of Phillip Street are splendid. Phillip Street is a combined boiler-shop and lunatic asylum. I am fairly credulous, but I should never have accepted on mere faith that several garbage men could produce such a vast quantity of unnecessary noise.</p>
+<p>I am a good sleeper, but morning after morning by four or five o'clock the last shreds of sleep are routed. It has always been my boast that I could sleep anywhere. I have slept in noisy Asiatic cities. I have slept alongside batteries in action in wartime. I have slept in the black Arctic night while a thousand wolf dogs bayed the moon. I have slept in the silence of snow and ice, or sweet country and remote peaks. The throbbing roar of great cities is an anaesthetic to me, the 'shouting of a backstay in a gale' is a tender lullaby. I have slept everywhere and always until I came to Phillip Street.</p>
+<p>I know now the licence of brutal thoughts and the lust for blood, the desire to kill. As I lean wan-faced and angry from my window at 5 a.m. and gaze at a certain garbage man.¹⁹</p>
+<p>The final comment is from Robert Morley, and it is much more succinct.</p>
+<p>'Sydney. It's a terrible name isn't it? Why didn't they call it Bert?'²⁰</p>
+<hr>
+<p>Back to chapter five: <a href="/books/knockers/5-melbourne/">Melbourne</a><br>
+Continue to chapter seven: <a href="/books/knockers/7-each-other/">Each Other</a></p>
+</div>
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+  <p class="lead">
+        A survey of the knocks dealt to Sydney across more than a century, from convict-era clergy who found it the most wicked city on earth, to visiting architects and writers who deplored its planning, its architecture and its temper, alongside the spirited replies of Sydneysiders who gave as good as they got.
+      </p>
+
+
+<hr>
+<h4 class="h6">Topics in this item</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/amp-building/" class="link-secondary">AMP Building</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="AMP Building">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/anthony-trollope/" class="link-secondary">Anthony Trollope</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Anthony Trollope">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/australia-square/" class="link-secondary">Australia Square</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Australia Square">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/beatrice-webb/" class="link-secondary">Beatrice Webb</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Beatrice Webb">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/bondi/" class="link-secondary">Bondi</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Bondi">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/botany-bay/" class="link-secondary">Botany Bay</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Botany Bay">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/captain-cook/" class="link-secondary">Captain Cook</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Captain Cook">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/guardian-(newspaper)/" class="link-secondary">Guardian (newspaper)</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Guardian (newspaper)">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/harry-seidler/" class="link-secondary">Harry Seidler</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Harry Seidler">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/jack-london/" class="link-secondary">Jack London</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Jack London">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/james-morris/" class="link-secondary">James Morris</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="James Morris">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/manly/" class="link-secondary">Manly</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Manly">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/parramatta/" class="link-secondary">Parramatta</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Parramatta">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/robert-morley/" class="link-secondary">Robert Morley</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Robert Morley">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/romano&#39;s/" class="link-secondary">Romano&#39;s</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Romano&#39;s">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/sydney/" class="link-secondary">Sydney</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sydney">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/william-street/" class="link-secondary">William Street</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="William Street">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/amp-building/" class="link-secondary">AMP Building</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="AMP Building">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/anthony-trollope/" class="link-secondary">Anthony Trollope</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Anthony Trollope">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/australia-square/" class="link-secondary">Australia Square</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Australia Square">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/beatrice-webb/" class="link-secondary">Beatrice Webb</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Beatrice Webb">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/bondi/" class="link-secondary">Bondi</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Bondi">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/botany-bay/" class="link-secondary">Botany Bay</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Botany Bay">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/captain-cook/" class="link-secondary">Captain Cook</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Captain Cook">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/guardian-(newspaper)/" class="link-secondary">Guardian (newspaper)</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Guardian (newspaper)">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/harry-seidler/" class="link-secondary">Harry Seidler</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Harry Seidler">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/jack-london/" class="link-secondary">Jack London</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Jack London">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/james-morris/" class="link-secondary">James Morris</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="James Morris">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/manly/" class="link-secondary">Manly</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Manly">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/parramatta/" class="link-secondary">Parramatta</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Parramatta">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/robert-morley/" class="link-secondary">Robert Morley</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Robert Morley">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/romano&#39;s/" class="link-secondary">Romano&#39;s</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Romano&#39;s">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/sydney/" class="link-secondary">Sydney</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sydney">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/william-street/" class="link-secondary">William Street</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="William Street">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

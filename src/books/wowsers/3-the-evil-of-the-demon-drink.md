@@ -2,6 +2,19 @@
 title: The Evil of the Demon Drink
 date: 1968-11-11
 summary: Traces the colonial appetite for alcohol from Victoria's staggering 1850s statistics, through the failed prohibition experiment at William Chaffey's Mildura irrigation colony, the Blue Ribbon movement and Coffee Palace boom under Premier James Munro, the great barmaid debate and King O'Malley's parliamentary oratory, and on to the six o'clock swill that dominated Australian drinking culture from 1916 to 1966.
+sections:
+  - title: The Sots
+    anchor: the-sots
+  - title: The Glorious Days of Abstinence
+    anchor: the-glorious-days-of-abstinence
+  - title: The Seductive Lures
+    anchor: the-seductive-lures
+  - title: Prohibition
+    anchor: prohibition
+  - title: Sober by Law
+    anchor: sober-by-law
+  - title: Six O'Clock Closing
+    anchor: six-oclock-closing
 tags:
 - 6 Oclock swill
 - Alfred Deakin
@@ -23,7 +36,7 @@ tags:
 
 <!-- Pages 34–48: The Sots. This opening section is partially illegible in the scan due to spine curvature throughout. The following summary reflects the legible content. -->
 
-**The Sots**
+<h2 id="the-sots">The Sots</h2>
 
 <!-- A passage covering the opening census statistics of colonial Victoria — showing per-capita alcohol consumption far in excess of any other colony — is partially illegible in the scan. -->
 
@@ -37,7 +50,7 @@ But the champion of champions, the wowser of wowsers, was without doubt Councill
 
 <!-- Pages 45–48, closing the section with a summary of the scale of the colonial drinking problem and the strength of feeling among early temperance campaigners, are partially illegible in the scan. -->
 
-**The Glorious Days of Abstinence**
+<h2 id="the-glorious-days-of-abstinence">The Glorious Days of Abstinence</h2>
 
 <!-- Pages 49–55 covering the founding of the Port Phillip Temperance Society in 1838, the early campaigns of Mrs Dalgarno and other women reformers, and the origins of the Blue Ribbon movement in Victoria, are partially illegible in the scan due to spine curvature. -->
 
@@ -63,7 +76,7 @@ James Munro launched the Federal Bank, started building societies, and bought up
 
 <!-- Pages 67–69 covering the collapse of the Federal Coffee Palace, the Australia Felix Total Abstinence Society, and the transition into the debate over barmaids, are partially illegible in the scan. -->
 
-**The Seductive Lures**
+<h2 id="the-seductive-lures">The Seductive Lures</h2>
 
 <!-- Pages 70–74 covering the debate over counter lunches, the arguments of the licensed victuallers that food service was a natural extension of hospitality, and the early moves to restrict barmaids, are partially illegible in the scan due to spine curvature. -->
 
@@ -79,7 +92,7 @@ The Kalgoorlie barmaids inspired a poem that circulated through the goldfields:
 
 <!-- Pages 81–83 covering the Kalgoorlie barmaid poem and the closing arguments of 'The Seductive Lures' section are partially illegible in the scan. -->
 
-**Prohibition**
+<h2 id="prohibition">Prohibition</h2>
 
 Governor La Trobe made the first serious attempt at prohibition in Victoria in 1852, but it came to nothing. The experiment that came closest to working was not in Victoria at all, but in two remote irrigation settlements on the Murray River that had been founded on the explicit condition that no liquor licence would ever be granted.
 
@@ -103,7 +116,7 @@ The Mildura Coffee Palace did get its wine licence and it opened for trade on th
 
 After another eleven years of agitation, Mildura had a chance to change. The Temperance forces all came to town to hold a poll. There were two polls — one for Mildura west and one for Mildura east — and in both the prohibition side was heavily defeated. Mildura had gone for licensing, and the long experiment of the irrigation colony without liquor was over.
 
-**Sober by Law**
+<h2 id="sober-by-law">Sober by Law</h2>
 
 When everything else failed, the Temperance men turned militant: the only answer was to make men sober by Act of Parliament. The Reverend Francis B. Boyce, the leader of the Local Option League in New South Wales, wrote: 'In shutting out intemperance, it is the plain duty of Government to prevent the sale of intoxicating liquor by an Act of Parliament, in spite of a minimal portion of this kind. Every licence refused is a distinct advance on the road to sobriety, and every new licence granted is a distinct step backwards.'<a href="#1"><sup>1</sup></a>
 
@@ -219,7 +232,7 @@ Alcohol shall fall!
 
 <!-- Pages 104–106 covering the final votes, the progression towards the six o'clock campaign, and as the section draws to a close, are partially illegible in the scan. -->
 
-**Six O'Clock Closing**
+<h2 id="six-oclock-closing">Six O'Clock Closing</h2>
 
 Six o'clock closing in Australia is now only a memory, but one of the richest and most colourful memories in our history. It was unbelievably grim and gruesome, and it lasted for over half a century, from 1915 to 1966.<a href="#28"><sup>28</sup></a>
 

@@ -74,6 +74,8 @@ tags:
 ---
 ```
 
+**Sub-chapter headings within long chapters:** Use `<h2 id="slug">Heading Text</h2>` HTML inline in the markdown file — never `## markdown headings` or `**bold**` text. The slug is the heading text lowercased with spaces replaced by hyphens and punctuation removed (e.g. `Six O'Clock Closing` → `six-oclock-closing`, `The Evil of Tattersall's` → `the-evil-of-tattersalls`). The jump link TOC is driven by a `sections:` frontmatter field (a YAML list of `{title, anchor}` pairs) which `blogsidebar-single.njk` renders as an "In this chapter" list in the sidebar (desktop and mobile), positioned between the summary and "Related topics". Do not add an inline TOC list to the chapter body. The corresponding book index page (`.njk`) sub-chapter list items should link to these anchors using the pattern `<a href="{{ '/books/[book]/[chapter]/' | url }}#slug">Sub-chapter name</a>`.
+
 **Open Graph metadata:** `src/_includes/snippets/opengraph.njk` (included from every layout via `head.njk`) generates `og:description`/`twitter:description` directly from each page's `summary` frontmatter (falling back to `description`, then to `src/_data/metadata.json`'s sitewide default only when a page has neither). A generic or missing `summary` shows up immediately as a generic link preview — this is the main reason the convention above matters.
 
 ---
@@ -144,6 +146,10 @@ mkdir -p /tmp/rotated
 for f in /tmp/converted/*.png; do
   sips -r 90 "$f" --out /tmp/rotated/"$(basename "$f")"
 done
+
+# 3. Delete originals once conversion is confirmed — only delete scans that have been fully transcribed;
+#    keep any that cover chapters still pending (e.g. a chapter being rescanned)
+rm scans/IMG_NNNN.HEIC  # list individually, don't glob-delete untranscribed chapters
 ```
 
 **Tesseract dependency fix (one-time, per machine):** Tesseract requires `libtiff.5.dylib` but Homebrew ships `.6`. Fix with a symlink:

@@ -33,6 +33,17 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("filterTagList", filterTagList)
 
+  // Same deep-merge doubling can affect the sections array — deduplicate by anchor.
+  eleventyConfig.addFilter("uniqueSections", function(sections) {
+    if (!sections) return [];
+    const seen = new Set();
+    return sections.filter(s => {
+      if (seen.has(s.anchor)) return false;
+      seen.add(s.anchor);
+      return true;
+    });
+  });
+
   // _redirects and _headers live at the repo root; Netlify only reads them
   // from the publish directory, so they have to be passed through into the
   // build output.

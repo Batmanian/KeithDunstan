@@ -354,4 +354,5 @@ In the track events at Mexico only Ralph Doubell, 800 metres, and Maureen Caird,
 Few Senators ever ask questions why Australians do not win more Nobel Prizes.
 
 <hr>
-<p>Back to chapter ten: The Pedalling Passion</p>
+<p>Back to chapter ten: The Pedalling Passion<br>
+Continue to chapter twelve: <a href="{{ '/books/sports/12-the-billiards-passion/' | url }}">The Billiards Passion</a></p>

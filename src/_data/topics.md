@@ -56,6 +56,10 @@ topics:
     description: Bonnie Muir was the referee at a 1960s Melbourne wrestling bout Keith Dunstan seconded for his column, between the heavyweight Primo Carnera and the showman Stanley 'Murder Inc.' Kowalski.
   - name: Alan Russell
     description: Alan Russell was a Brisbane-turned-Sunshine Coast dentist who became a one-man morality crusade, bombarding parliamentarians with lengthy telegrams and photographing stage and screen productions he considered indecent.
+  - name: Alan Whicker
+    description: Alan Whicker was a British television journalist whose 1970 Australian series included a programme titled 'This Is The Problem — Women Are Not People', in which, as Keith Dunstan recounted in 'Knockers', Australian women queued to condemn their own treatment by Australian men.
+  - name: Alcock & Co.
+    description: Alcock & Co. was the Melbourne billiard table manufacturer built by Dublin-born Henry Upton Alcock from 1853, whose vast Russell Street establishment became one of the wonders of colonial Melbourne and whose tables, blessed by a world champion and a royal duke, effectively made billiards a necessity in any gentleman's home or hotel.
   - name: Albert Park
     description: Albert Park is the bayside parkland just south of the Melbourne CBD, built around an artificial lake that became, in Keith Dunstan's telling, the site of a years-long losing battle against an invasive Canadian waterweed, and which developer Stanley Korman once proposed topping with his own Eiffel Tower.
   - name: Albert Sefrankel
@@ -72,6 +76,10 @@ topics:
     description: Alex Olmedo was a Peruvian-born tennis champion who won Wimbledon and the Australian Championships in 1959, becoming the first Latin American man to win a Grand Slam singles title; Keith Dunstan once lined his court as a Kooyong linesman.
   - name: Alexander Colquhoun
     description: Alexander Colquhoun was a Scottish-born Melbourne painter and long-serving art critic for the Herald and later the Age, and a trustee of the National Gallery of Victoria in the early twentieth century.
+  - name: Alexander Buttner
+    description: Alexander Buttner was a Melbourne doctor who, after fifty years in Victoria, convinced himself that the climate was steadily weakening the Australian-born population, predicting in a widely quoted pronouncement that the white race on the continent was doomed without continuous immigration of fresh European stock.
+  - name: Alexander Peacock
+    description: Alexander Peacock was a Victorian politician who moved a counter-amendment at the 1898 Federal Convention proposing that the site of the future Federal Territory be within the colony of Victoria, a motion defeated by thirty votes as part of the long wrangle over which city would become Australia's capital.
   - name: Alexandra Gardens
     description: Alexandra Gardens is the parkland strip along the Yarra in central Melbourne where Moomba's carnival rides and sideshows are set up each year, a logistical feat Keith Dunstan wrote about when profiling the Wittingslow family who run them.
   - name: Alfred Deakin
@@ -88,6 +96,8 @@ topics:
     description: Allan Wilkie was a Scottish-born actor whose touring Shakespearean company, launched in Melbourne in 1920, gave some 14,000 performances of 27 of Shakespeare's plays across Australia through the 1920s, including many to country schoolchildren.
   - name: Alwyn Kurts
     description: Alwyn Kurts was an Australian actor who, at a 1970 Melbourne protest meeting of television performers, told Keith Dunstan how the pop group the Seekers had been turned down for a spot on local television shortly before they sailed for Britain and sudden stardom.
+  - name: AMP Building
+    description: The AMP Building in central Sydney was singled out by British architectural critic J. M. Richards in the late 1960s as a horror and an ugly kind of building too prominent for a sophisticated city, a verdict Keith Dunstan recorded in 'Knockers' as one of the more memorably wounding external verdicts on Sydney's built environment.
   - name: Anatole de Courde de Montaiglon
     description: Anatole de Courde de Montaiglon was a nineteenth-century French librarian, art historian and specialist in medieval literature, whose admiring critique of the nude painting Chloe was quoted during Melbourne's furious 1880s debate over its display.
   - name: Anatole de Montaiglon
@@ -140,6 +150,8 @@ topics:
     description: Arthur Richards was Keith Dunstan's predecessor as front-page columnist on the Brisbane Courier-Mail in the early 1950s; Dunstan described him as 'a far better columnist than I could ever be, and adored by all Queensland.'
   - name: Arthur Russell
     description: Arthur Russell was a Melbourne dentist and amateur illusionist who bought into a small touring circus called Hoyts, then in 1913 hired a Bourke Street hall to found what grew into Hoyts, one of Australia's largest cinema chains.
+  - name: Arthur's Seat
+    description: Arthur's Seat is the prominent hill on Victoria's Mornington Peninsula above Dromana, part of the wild country that attracted the kangaroo battue parties of the 1860s, who would steam overnight from Melbourne, land at dawn and drive hundreds of kangaroos towards a line of guns across the scrubby slopes.
   - name: Arvi Parbo
     description: Sir Arvi Parbo was the Estonian-born mining engineer who fled to Australia after the war and rose to chair Western Mining Corporation and Alcoa of Australia, one of the country's most prominent business figures, whose memory of a bitterly cold Estonian Christmas Eve Keith Dunstan collected for a column on migrants' Yuletide memories.
   - name: Ashes
@@ -168,12 +180,16 @@ topics:
     description: The Australian Railways Union, formed in 1920 from a merger of state-based railway unions, represented rail workers for much of the twentieth century; Keith Dunstan recalled its Victorian secretary as courteous in person, despite being denounced by newspaper editors and politicians as a dangerous radical.
   - name: Australian Rules Football
     description: Australian Rules Football is a distinctive football code that emerged in Melbourne in the 1850s, formalised as the Victorian Football League in 1897 and renamed the Australian Football League in 1990; it has long been Victoria's dominant winter sport and a central part of the state's identity.
+  - name: Australia Square
+    description: Australia Square is a Sydney skyscraper complex designed by Harry Seidler, whose architect nonetheless joined the chorus of critics lamenting Sydney's disorganised planning in the late 1960s, as Keith Dunstan recorded in 'Knockers'.
   - name: Austrian Club
     description: The Austrian Club of Melbourne is the social and cultural hub for the city's Austrian community, which Walter Hauser, one of the Vienna Mozart Boys' Choir singers stranded in Melbourne by the outbreak of war in 1939, served as secretary for ten years and president for two.
   - name: Autobiography
     description: Autobiography is the literary genre of first-person life writing; the tag marks the introduction to Keith Dunstan's own memoir, No Brains at All.
   - name: Ava Gardner
     description: Ava Gardner (1922-1990) was an American film actress and one of Hollywood's leading stars of the 1940s and '50s, known for films such as The Killers and Mogambo as well as her marriages to Mickey Rooney, Artie Shaw and Frank Sinatra.
+  - name: Avoca Football Club
+    description: The Avoca Football Club in Tasmania's Fingal Valley organised an annual June wallaby shoot, charging two dollars a head, whose gruesome 1967 front-page photograph of a shooter clubbing a wallaby to death on a rock prompted national outrage, as Keith Dunstan recorded in 'Sports'.
   - name: Avro Ansons
     description: The Avro Anson was a twin-engine British aircraft used chiefly as a trainer, with more than a thousand flown by the RAAF during the Second World War to teach pilots, navigators and other aircrew under the Empire Air Training Scheme.
   - name: Ayers Rock (Uluru)
@@ -204,8 +220,12 @@ topics:
     description: Barry McKenzie was a crude, beer-swilling Australian-abroad comic strip character created by Barry Humphries for the satirical magazine Private Eye, later brought to the screen in two 1970s films starring Barry Crocker.
   - name: Batemans Bay
     description: Batemans Bay is a holiday town on the New South Wales south coast that Keith Dunstan named, alongside Merimbula and Bermagui, as one of the region's favourite summer beach destinations.
+  - name: Bass Strait
+    description: Bass Strait is the body of water separating mainland Australia from Tasmania, whose remote island groups, particularly the Furneaux Group, were home to the Cape Barren goose, a uniquely Australian bird Keith Dunstan wrote about in his account of Australia's slaughter of its own native wildlife.
   - name: Beatrice Miles
     description: Beatrice 'Bea' Miles (1902-1973) was a well-educated Sydney eccentric who spent decades living without a fixed address, feuding famously with taxi drivers and reciting Shakespeare for money on the city's streets.
+  - name: Beatrice Webb
+    description: Beatrice Webb was the English socialist intellectual who visited Australia with her husband Sidney in 1898 and found Sydney populated by lower-middle-class aggressiveness and bad taste, while Melbourne's well-to-do women struck her as uncivilised, dressy and idle, observations Keith Dunstan quoted in 'Knockers'.
   - name: Beau Geste - film
     description: Beau Geste is a 1939 Hollywood adventure film about the French Foreign Legion, famous for its vast desert-fort battle scenes; Keith Dunstan invoked it to describe the sprawling summer camping grounds at Rosebud on Port Phillip Bay.
   - name: Beer
@@ -234,8 +254,12 @@ topics:
     description: Bernard 'Midget' Farrelly (1944-2016) was a pioneering Australian surfer who won the inaugural official World Surfing Championship at Manly in 1964, becoming one of Australian surfing's first national idols.
   - name: Bernarr Macfadden
     description: Bernarr Macfadden was the American physical-culture guru interviewed by Keith Dunstan at 83, fresh from parachuting into the Hudson River, who ate grass and chewed mahogany for his gums and predicted he'd live to 125, though he in fact died four years later.
+  - name: Bertram Stevens
+    description: Bertram Stevens was the Premier of New South Wales who was approached about purchasing a rival Captain Cook birthplace cottage in Marton, Yorkshire, to erect at Kurnell as a counterweight to Melbourne's Cook's Cottage, only for it to be discovered that the Marton cottage had been demolished in 1786, as Keith Dunstan recounted in 'Knockers'.
   - name: Betty Cuthbert
     description: Betty Cuthbert (1938-2017) was an Australian sprinter dubbed the 'Golden Girl' who won three gold medals at the 1956 Melbourne Olympics and a fourth in the 400 metres at Tokyo in 1964, making her the only sprinter, male or female, to win Olympic gold at 100, 200 and 400 metres.
+  - name: Betty Grable
+    description: Betty Grable was the American film star and pin-up who appeared among the seventy-nine alleged infidelities cited by Rory Calhoun's first wife Lita Baron in their divorce, a colourful backdrop to the marriage Keith Dunstan noted between Calhoun and Australian writer Sue K. Langley.
   - name: Bicycle Victoria
     description: Bicycle Victoria is the state's peak cycling advocacy body, whose figures on the rising share of commuter cyclists heading into Melbourne at peak hour Keith Dunstan cited in his case for a London-style congestion tax.
   - name: Bikecentennial
@@ -264,6 +288,10 @@ topics:
     description: Bondi is Sydney's most famous beach, its lifesavers long a shorthand for sun-bronzed Australian health that Keith Dunstan noted had curdled, once skin cancer turned the same tan into a warning sign rather than a boast.
   - name: Book of Exodus
     description: The Book of Exodus recounts the ten plagues visited on Egypt to force the Pharaoh's hand, a framework Keith Dunstan borrowed wholesale, and none too reverently, to catalogue Melbourne's own afflictions of possums, cars, mobile phones and football.
+  - name: Botany Bay
+    description: Botany Bay is the inlet south of Sydney where Captain Cook made his 1770 landfall, and where Captain Phillip established the first settlement in 1788, a founding so saturated in crime and convict history that critics from colonial clergy to twentieth-century journalists reached for it as shorthand for Sydney's allegedly unsavoury origins.
+  - name: Broad Arrow
+    description: Broad Arrow is a former gold-mining town near Kalgoorlie in Western Australia, where Fred Lindrum senior ran a billiard saloon and the young Walter Lindrum spent formative years practising after his brother, as Keith Dunstan recounted in 'Sports'.
   - name: Bourke Street
     description: Bourke Street is one of Melbourne's two great city thoroughfares, historically the address of its grand theatres, including the Princess, the Regent and the fire-gutted Tivoli, whose vanished glamour Keith Dunstan mourned more than once in the Bulletin.
   - name: Brian Dixon
@@ -294,6 +322,10 @@ topics:
     description: Canberra is Australia's purpose-built national capital, whose founding King O'Malley championed with fruit-cake oratory and which Keith Dunstan visited on assignment during Royal Tours, complete with buildings painted only on the side the Queen would see.
   - name: Cape York Peninsula
     description: ''
+  - name: Cape Barren geese
+    description: The Cape Barren goose is a large grey bird unique to the offshore islands of southern Australia, whose near-extinction through habitat loss and organised shooting Keith Dunstan documented in 'Sports', including a 1965 Tasmanian open season that professor Jock Marshall condemned as barbarity dressed up as wildlife management.
+  - name: Cape Schanck
+    description: Cape Schanck is the rugged southernmost tip of the Mornington Peninsula in Victoria, part of the wild country beyond Dromana and Arthur's Seat where kangaroo battue parties hunted in their hundreds during the 1860s and 1870s.
   - name: Capitol Theatre
     description: The Capitol Theatre on Swanston Street was Walter Burley Griffin's 1924 movie palace, the first true de-luxe cinema in the Southern Hemisphere, famous for a prism-and-cube ceiling of 4500 coloured lights designed by his wife Marion Mahony, and its closure as a cinema in 1964 Keith Dunstan mourned even as architects campaigned to save it.
   - name: Captain Cook
@@ -302,6 +334,8 @@ topics:
     description: Carlton is the inner Melbourne suburb just north of the city, home to Lygon Street's Italian cafes and the Carlton Football Club, and the destination where Keith Dunstan's runaway hoons were finally cornered by a convoy of angry taxi drivers in 'Mayhem, Rapine and Sin'.
   - name: Carlton and United Breweries
     description: Carlton and United Breweries was Victoria's dominant brewing company, formed by an early-twentieth-century merger and long the state's de facto beer monopoly under its autocratic managing director Reg 'Foge' Fogarty, whose grip on price and supply Keith Dunstan chronicled in both the Bulletin and 'My Life with the Demon'.
+  - name: Castlemaine
+    description: Castlemaine is a Victorian goldfields town where Henry Upton Alcock of Alcock & Co. opened his own slate quarry to supply the billiard tables he made at his Russell Street factory, avoiding the need to import slate from England.
   - name: Chateau Tahbilk
     description: Chateau Tahbilk is one of Australia's oldest wineries, founded in 1860 on the Goulburn River near Nagambie and run for six decades by the elegant, Rolls-Royce-driving Eric Purbrick, whose gift of a spare brewery barrel first let Keith Dunstan buy and lay down wine in bulk.
   - name: Chelsea Flower Show
@@ -362,6 +396,8 @@ topics:
     description: D. H. Lawrence was the English novelist whose observation that Australians played sport as if their lives depended on it Keith Dunstan quoted alongside Henry Lawson's, to needle a nation he thought had forgotten sport was meant to be fun.
   - name: Dally Messenger
     description: H. H. 'Dally' Messenger was the New South Wales Rugby Union star who defected to the new Rugby League competition in 1907, becoming its first great hero and revered still at the Rugby League headquarters in Sydney, where a photograph of him hangs unlabelled, known simply as 'The Master'.
+  - name: Dame Mary Gilmore
+    description: Dame Mary Gilmore was an Australian poet, journalist and social activist whose childhood memory of a white settler shooting an Aboriginal man and woman bathing in a river, purely as sport, Keith Dunstan cited in 'Sports' as evidence of the casual violence inflicted on Aboriginal Australians in the colonial era.
   - name: Dame Nellie Melba
     description: Dame Nellie Melba was the Australian operatic soprano whose international fame in the early twentieth century made her, in Keith Dunstan's estimation, one of the few Australians ever more famous at home and abroad than the subjects of his own later profiles.
   - name: Damon Runyon
@@ -388,6 +424,8 @@ topics:
     description: The Davis Cup is international men's tennis's premier team competition, whose declining Australian fortunes Keith Dunstan used to illustrate a theory that Australians lose interest in a sport entirely the moment the national team stops winning it.
   - name: Dean Bailey
     description: Dean Bailey was the Melbourne Football Club coach sacked in August 2011 after two and a half seasons, one of a rash of mid-season coaching casualties that year Keith Dunstan reached for as fresh evidence for his old Anti-Football League cause.
+  - name: Denis Brogan
+    description: Denis Brogan was a Cambridge political scientist who spent five weeks in Australia in 1958 and then wrote in Harper's magazine that he had rarely seen a smart woman in the streets of Melbourne or Sydney, a verdict that gave Australian fashion editors days of indignant coverage, as Keith Dunstan recounted in 'Knockers'.
   - name: Dennis Lillee
     description: Dennis Lillee was the fearsome Australian fast bowler of the 1970s and 80s, an icon of Boxing Day Test cricket vivid enough that Keith Dunstan pictured him bowling as the essential frame of any exhibit on the Australian summer.
   - name: Derryn Hinch
@@ -418,6 +456,8 @@ topics:
     description: Dr Max Lake was a Hunter Valley winemaker and prolific wine writer whose palate and opinions Keith Dunstan encountered on the Melbourne wine-society circuit chronicled in 'My Life with the Demon'.
   - name: Dr Thomas Fitzgerald
     description: Dr Thomas Fitzgerald was the Melbourne Hospital surgeon who bought the nude painting Chloe and loaned it to the National Gallery in 1883, unwittingly setting off the Sabbatarian scandal that made the painting's later fame at Young and Jackson's Hotel possible.
+  - name: Dromana
+    description: Dromana is the town at the foot of Arthur's Seat on Victoria's Mornington Peninsula, where kangaroo battue parties landed before dawn in the 1860s and 1870s after overnight steamers from Melbourne, using stockmen and stockwhips to drive kangaroos towards a line of waiting guns.
   - name: E. H. Flack
     description: E. H. Flack was a Melbourne Grammar schoolboy athlete who won both the 800 metres and the 1500 metres at the inaugural modern Olympic Games in Athens in 1896, becoming Australia's first Olympic gold medallist; Australian officials accidentally raised the Austrian flag rather than the Australian flag in his honour.
   - name: E.W. Cole
@@ -426,12 +466,18 @@ topics:
     description: East Malvern is the middle-class Melbourne suburb where Keith Dunstan was born.
   - name: Eastern Market
     description: The Eastern Market was Melbourne's raucous nineteenth-century produce and bric-a-brac bazaar, home over the decades to phrenologists, dancing ducks and a fortune-teller called Madame Zinga Lee, before its site was cleared to build the Southern Cross Hotel that Keith Dunstan toured on its 1962 opening.
+  - name: Eddie Charlton
+    description: Eddie Charlton was a New South Wales snooker player who came agonisingly close to the world snooker championship in May 1973, losing to Ray Reardon in a 75-frame final at Manchester, a near-miss Keith Dunstan recorded in 'Sports' as a reminder that Australia's billiards passion had not yet produced a world snooker champion.
   - name: Edna Everage
     description: Mrs Edna Everage was Barry Humphries's suburban Moonee Ponds housewife character, created in the 1950s and still a minor stage turn when Keith Dunstan welcomed Humphries home from London in 1962, decades before she became the international star Dame Edna.
   - name: Edouard Borovansky
     description: Edouard Borovansky was the Czech-born dancer and founder of the Borovansky Ballet, Australia's first professional ballet company, whom Keith Dunstan remembered scoffing that Australian swearing was pitiful next to the 120 'magnificent' Czech swear words at his disposal.
+  - name: Edward Braddon
+    description: Edward Braddon was a Tasmanian politician at the 1898 Federal Convention who tried to steer the capital debate toward Hobart by arguing that if the two great rivals Sydney and Melbourne could not agree, perhaps Tasmania should benefit, a ploy that failed but enlivened the proceedings as Keith Dunstan recounted in 'Knockers'.
   - name: Edward Trickett
     description: Edward Trickett was a Sydney sculler who in 1876 became Australia's first world sporting champion, beating England's Joseph Sadler on the Thames, a victory Keith Dunstan cited as the moment Australians first believed their isolation and climate could produce men equal to the mother country.
+  - name: Ellen Kean
+    description: Ellen Kean was the wife of the celebrated Shakespearean actor Charles Kean, who toured Australia with him in 1863 and reported the Melbourne climate in vivid, suffering detail, cataloguing its every variety of bad weather except snow, while finding the Sydney people so lethargic they had to be poked to prove they were alive.
   - name: Ellen Kelly
     description: Ellen Kelly was Ned Kelly's mother, a Beveridge-born daughter of Irish famine immigrants whose 1878 jailing for supposedly aiding and abetting the attempted murder of Constable Fitzpatrick was, in Keith Dunstan's account, the real spark that turned her son from horse thief into outlaw.
   - name: Elijah Upjohn
@@ -440,6 +486,8 @@ topics:
     description: Elizabeth Taylor starred in 'Cleopatra', whose huge, hand-painted Melbourne poster required careful re-touching after early proofs ran an unfortunate line straight down her bosom, part of the fanfare Keith Dunstan covered around the film's belated Melbourne premiere.
   - name: Elvis Presley
     description: Elvis Presley wore jeans in his brief screen debut in the 1956 western 'Love Me Tender', four songs and a death scene that Keith Dunstan noted was fortunately shot before the film's end.
+  - name: Elsa Jacoby
+    description: Elsa Jacoby was an Australian woman who appeared on Alan Whicker's 1970 television programme about Australian women, telling him she felt a second-class citizen and that it was only when you went abroad and discovered women were treated differently elsewhere that you realised what Australia was doing to its women, as Keith Dunstan recorded in 'Knockers'.
   - name: Elwood
     description: Elwood is the bayside Melbourne suburb beside St Kilda where Germaine Greer was born in 1939, and which Keith Dunstan once jokingly suggested rebranding 'Sunstroke Strip' to match Melbourne's brief flirtation with a beach-resort image.
   - name: Emmanuel Margolin
@@ -448,6 +496,8 @@ topics:
     description: Enid Blyton was the phenomenally successful British children's author whose Noddy books, banned from Mornington Peninsula libraries in 1963 as badly written and 'debasing', prompted Keith Dunstan to track down an uncensored Brothers Grimm collection and find far worse on the shelves already.
   - name: Eric Purbrick
     description: Eric Purbrick was the English-educated, Rolls-Royce-driving proprietor who took over a run-down Chateau Tahbilk in 1931 and built it into one of Australia's most respected wineries, gifting Keith Dunstan a spare brewery barrel that let him buy wine in bulk for the first time.
+  - name: Eric Rolls
+    description: Eric Rolls was an Australian author whose book 'They All Ran Wild', on the introduction of rabbits and other exotic animals to Australia, Keith Dunstan drew on in 'Sports' for its account of the colonial desire to stock the bush with English game animals for sport.
   - name: Eric Westbrook
     description: Eric Westbrook directed Melbourne's National Gallery of Victoria through the 1960s, championing modernist painters against traditionalists like William Dargie in a public letters-page feud Keith Dunstan covered, and later oversaw the gallery's move into its new St Kilda Road building.
   - name: Ernest Shackleton
@@ -464,14 +514,20 @@ topics:
     description: Exhibition Street is one of the Melbourne CBD's main thoroughfares, home in the early 1960s to the newly built Southern Cross Hotel that Keith Dunstan toured for its novelties on opening.
   - name: Federal Coffee Palace
     description: The Federal Coffee Palace was James Munro's grandest temperance venture, a vast Melbourne hotel without a licence that opened in 1888 at the height of the Coffee Palace boom, was eventually quietly serving wine within a decade, and collapsed with the 1890s depression, taking Munro's fortune with it.
+  - name: Fingal Valley
+    description: The Fingal Valley in northern Tasmania is the setting for an annual June wallaby shoot organised by the Avoca Football Club, whose 1967 edition drew national outrage when Melbourne's Herald ran a front-page photograph of a shooter clubbing a wallaby to death on a rock, as Keith Dunstan recounted in 'Sports'.
   - name: Fitzroy
     description: Fitzroy is the inner Melbourne suburb immediately north-east of the city, historically working-class and a byword for the opposite of Toorak's polish, which Keith Dunstan used as the backdrop for a joyriding car crash and brawl reported live on radio station 3UZ's Sunday-morning 'Newsbeat'.
+  - name: Fitzroy Gardens
+    description: Fitzroy Gardens is a Melbourne public park in East Melbourne where the philanthropist Russell Grimwade re-erected Captain Cook's cottage, shipped from Great Ayton in Yorkshire in 1934, prompting a lively Sydney-Melbourne dispute about what Cook had to do with Melbourne, as Keith Dunstan recounted in 'Knockers'.
   - name: Flemington
     description: Flemington is the Melbourne suburb best known for its racecourse, home to the Melbourne Cup carnival whose fashion parades and society spectacle Keith Dunstan covered with a wry eye through the early 1960s.
   - name: Flemington Racecourse
     description: Flemington Racecourse is home to the Melbourne Cup and the Victoria Racing Club, and the venue Keith Dunstan reported from during Queen Elizabeth II's 1963 visit, when the VRC banned television cameras only to see attendance fall well short of the Queen Mother's earlier, televised meeting.
   - name: Fletcher Jones
     description: Fletcher Jones was the Australian menswear manufacturer, based in Warrnambool, whose company designed the tailored slacks Australian competitors wore to practice at the 1963 women's Commonwealth golf tournament, a rare crack in Royal Melbourne Golf Club's skirts-only dress code.
+  - name: Flinders Island
+    description: Flinders Island is the largest of the Furneaux Group in Bass Strait, where the Tasmanian Animals and Birds Protection Board restricted the 1965 Cape Barren goose shooting season to three islands nearby, an episode Professor Jock Marshall condemned as a jolly three-ring circus with a happy time for all except the endangered bird.
   - name: Flinders Street Station
     description: Flinders Street Station is Melbourne's grand French Renaissance-style railway terminus, completed in 1910 under its famous clocks after a cost blowout and a lengthy public inquiry, and slated in 1963 for a $30 million redevelopment Keith Dunstan reported alongside fears for its old neighbour, Young and Jackson's.
   - name: Florentino Restaurant
@@ -482,6 +538,8 @@ topics:
     description: Four'n Twenty was the meat pie brand Les McClure built into a 59-radio-van Melbourne empire before selling to Peters for £600,000, a company whose mid-century pie-machine teething troubles Keith Dunstan noted turned out product 'black, brown and brindle'.
   - name: Fosters Lager
     description: Foster's Lager is Australia's best-known beer export, a Carlton and United Breweries product whose supply and pricing Keith Dunstan tracked through decades of Melbourne pub life, from Premier Henry Bolte's 'Satchmo' nickname to the wartime origins of the six o'clock swill.
+  - name: Francis Ratcliffe
+    description: Francis Ratcliffe was a former head of CSIRO's wildlife research section whose paper for the Australian Conservation Foundation argued that the kangaroo was unique among Australian mammals in having benefited from European settlement, and that industrial-scale professional shooting had pushed it toward extinction, a case Keith Dunstan set out at length in 'Sports'.
   - name: Franco Cozzo
     description: Franco Cozzo was the Sicilian-born Footscray furniture retailer famous for his ornate baroque showrooms and his own thickly-accented television commercials, a beloved only-in-Melbourne identity whose Christmas memories of Sicily Keith Dunstan collected for a column on migrants' Yuletide traditions.
   - name: Frank Galbally
@@ -490,8 +548,12 @@ topics:
     description: Frank Hardy was the Australian novelist whose 1950 roman à clef 'Power Without Glory', thinly fictionalising the life of Collingwood Tote operator John Wren, was the most celebrated — and legally perilous — piece of muckraking in Australian literary history, drawing on material Keith Dunstan also drew on for 'Wowsers'.
   - name: Frederick Scherger
     description: Frederick Scherger was the RAAF Air Commodore, later Air Chief Marshal, whose string-pulling twice altered the course of the young Keith Dunstan's wartime career, first securing him pilot training over his father's objections and later commanding him, memorably, in the Pacific.
+  - name: Fred Lindrum
+    description: Fred Lindrum was Walter Lindrum's brother and fellow billiards champion, a member of the extraordinary Lindrum dynasty that dominated Australian billiards for two generations and whose early practice in a Broad Arrow billiard saloon formed part of the family's foundation mythology.
   - name: Fritz Kreisler
     description: Fritz Kreisler was the Austrian-born violinist whose recordings Keith Dunstan recalled winding carefully through on a childhood HMV portable gramophone, wary of jarring the needle mid-piece on a 12-inch classical disc.
+  - name: Furneaux Group
+    description: The Furneaux Group is the archipelago of islands in Bass Strait between Victoria and Tasmania, historically famous for its sealing and mutton-bird industries, and a focus of the wildlife exploitation Keith Dunstan examined in 'Sports'.
   - name: Gallipoli
     description: Gallipoli was the 1915 First World War campaign where Keith Dunstan's father, William Dunstan, won the Victoria Cross defending the captured trenches at Lone Pine, a feat of his father's youth that Keith wrote of growing up in the shadow of.
   - name: Geelong Grammar
@@ -502,10 +564,14 @@ topics:
     description: Gembrook is the town at the end of the narrow-gauge Puffing Billy line through the Dandenong Ranges, and the district where used-car dealer Emmanuel Margolin's cattle stud, Langley Park, was sold off for a fraction of its value during his credit-squeeze collapse.
   - name: Geoffrey Blainey
     description: Geoffrey Blainey is one of Australia's most prolific and readable historians, whose 'A History of Camberwell' Keith Dunstan drew on in 'Wowsers' to explain why the Melbourne suburb voted itself dry in 1920 and stayed that way for a generation.
+  - name: Geoffrey Ingleton
+    description: Geoffrey Ingleton was an Australian naval officer and historian whose work Keith Dunstan cited in the Melbourne-versus-Sydney rivalry chapters of 'Knockers', documenting the long colonial competition between the two cities.
   - name: George Adams
     description: George Adams was the founder of Tattersall's, the sweepstake operation he began in Sydney before moving to Queensland and then to Hobart in the 1890s, where he contributed £1 million a year to Tasmanian Consolidated Revenue until the lottery finally moved to Melbourne in 1954.
   - name: George Coulthard
     description: George Coulthard was a talented Victorian cricketer and Australian Rules footballer who was invited to Sydney in 1877 to demonstrate Australian Rules, narrowly escaping a shark attack during a fishing trip in Sydney Harbour; Keith Dunstan argued that but for the shark, Australian Rules might have become the dominant football code in Sydney.
+  - name: George Ernest Morrison
+    description: George Ernest Morrison was the Australian-born journalist and China correspondent for The Times known as "Chinese Morrison," cited in 'Knockers' among the parade of visitors who formed definitive opinions about Australia's cities.
   - name: George Meudell
     description: George Meudell was a Melbourne stockbroker, company promoter and bon viveur whose gusty memoir 'The Pleasant Career of a Spendthrift' Keith Dunstan drew on in 'Wowsers' for its nostalgic, unrepentant account of the roguish, wide-open Melbourne of the 1876 Land Boom years.
   - name: Georg Gruber
@@ -520,12 +586,18 @@ topics:
     description: Glenrowan is the small north-eastern Victorian town where the Kelly gang's siege and Ned Kelly's capture in his home-made steel armour brought the outlaw's two-year run to its end in June 1880, the climactic setting Keith Dunstan built 'Saint Ned' towards.
   - name: Glaciarium
     description: The Melbourne Glaciarium was an early indoor ice rink opened in 1906 on City Road, a genteel social centre of orchestras, skating romances and speed contests that Keith Dunstan farewelled after fire destroyed the long-closed building in 1963.
+  - name: Godfrey Charles Mundy
+    description: Godfrey Charles Mundy was a British army officer and travel writer whose 1852 book 'Our Antipodes' recorded his impressions of colonial Australia, cited in 'Knockers' among the long line of visitors who arrived with opinions fully formed.
   - name: Gough Whitlam
     description: Gough Whitlam was the Labor leader and Prime Minister from 1972 to 1975 who, despite having no real interest in the code, became Geelong Football Club's number-one ticket holder purely for the photo opportunity, one of the political vanities Keith Dunstan delighted in puncturing.
   - name: Graham Kennedy
     description: Graham Kennedy was the pioneering Melbourne television host of 'In Melbourne Tonight', whose on-air appeal for a runaway show poodle and starring role in a rival networks' hotel-opening special both made it into Keith Dunstan's Bulletin columns.
+  - name: Graham Pizzey
+    description: Graham Pizzey was an Australian ornithologist and author of the standard 'A Field Guide to the Birds of Australia', cited by Keith Dunstan in 'Sports' as one of the conservationists who documented the decline of native species and argued for their legal protection.
   - name: Great Victorian Bike Ride
     description: The Great Victorian Bike Ride is Bicycle Victoria's annual mass-participation cycling tour, drawing thousands of riders on a multi-day route across the state each year, an event whose history Keith Dunstan's cycling-club friend Doug Morffew researched and which Dunstan covered as a rider himself for The Age.
+  - name: Guardian
+    description: The Guardian is the British newspaper whose correspondents Keith Dunstan cited in 'Knockers' among the stream of overseas journalists filing despatches about Australia that ranged from the admiring to the witheringly dismissive.
   - name: Gunsynd
     description: Gunsynd, 'the Goondiwindi Grey', was the champion racehorse of the early 1970s whose 1973 retirement tour drew farewell crowds and commemorative songs at Flemington, Randwick and Doomben, a sendoff Keith Dunstan compared to Dame Nellie Melba's.
   - name: Hans Heysen
@@ -538,6 +610,8 @@ topics:
     description: Harry Power was a veteran Victorian bushranger who took the teenage Ned Kelly under his wing around 1869, teaching him bush skills and horse-holding on stick-ups, a mentorship Keith Dunstan traced as the young Kelly's first real education in outlawry.
   - name: Harry Prout
     description: Harry Prout was the Wesley College footballer who dominated public schools football from 1903 to 1907, celebrated in a headmaster-composed drinking song, 'Harry Rover', that Keith Dunstan quoted in full as proof of just how deified a schoolboy sporting champion could become.
+  - name: Harry Seidler
+    description: Harry Seidler was the Austrian-born Australian architect who designed Australia Square in Sydney, and who himself lamented Sydney's chaotic planning even as his own tower rose above it, a contradiction Keith Dunstan recorded in 'Knockers'.
   - name: Harry Telford
     description: Harry Telford trained Phar Lap through his Australian career, and stayed behind heartbroken in Melbourne when the champion travelled to the United States in 1932, where he died suddenly, a grief Keith Dunstan quoted at length from contemporary press reports.
   - name: Hawthorn Football Club
@@ -546,6 +620,8 @@ topics:
     description: Hayman Island is a resort island on the Great Barrier Reef off the Queensland coast, whose sheltered waters and surrounding uninhabited islands Keith Dunstan held up as the setting for the ideal Australian Christmas, spent on a two-masted yacht, diving for oysters and barbecuing coral trout on a driftwood fire.
   - name: Henry Lawson
     description: Henry Lawson was Australia's foremost bush balladist and short story writer, whose 1892 verse mocking the nation's readiness to 'make a hero of a clod' for sport Keith Dunstan quoted to show the sporting super-religion was already entrenched a century before he wrote about it.
+  - name: Henry Upton Alcock
+    description: Henry Upton Alcock was the Dublin-born cabinetmaker who arrived in Melbourne in 1853 and built Alcock & Co. into the colony's pre-eminent billiard table manufacturer, quarrying his own slate in Castlemaine, hosting champion John Roberts Senior for an exhibition tour, and establishing billiards as a serious Australian pastime.
   - name: Henry Varley
     description: Henry Varley was a Temperance preacher in 1890s Melbourne whose pamphlet warning schoolboys against 'personal pollution' prescribed cold baths and compulsory sport as the cure, a piece of Victorian moral panic Keith Dunstan cited as an early root of school sport's near-religious status.
   - name: Herb Elliott
@@ -566,6 +642,10 @@ topics:
     description: Hopalong Cassidy was the immaculate cowboy hero played on screen by Bill Boyd, whose black jeans and shirt, as Keith Dunstan told it, made black briefly a rival to indigo blue in denim's popularity.
   - name: Hopetoun Road
     description: Hopetoun Road is the Toorak street where used-car dealer Emmanuel Margolin's mansion stood at number 60, the setting for the two-part saga of his financial collapse and the one-day household auction Keith Dunstan covered in the Bulletin.
+  - name: Horace Lindrum
+    description: Horace Lindrum was the Australian billiards and snooker champion, Walter Lindrum's nephew, who won the 1952 world snooker title and continued the family's remarkable dominance of the cue-sport world well into the television age.
+  - name: Horace Wheelwright
+    description: Horace Wheelwright was a nineteenth-century English sportsman and naturalist who lived in Victoria from the 1850s and chronicled his hunting of native wildlife in 'Bush Wanderings of a Naturalist' (1861), cited by Keith Dunstan in 'Sports' as an early example of the slaughter the new colony made routine.
   - name: Hotel Australia
     description: The Hotel Australia on Collins Street was one of Melbourne's grand old hotels, host to a football-themed Grand Final night in its Gold Room and, decades later, to Keith Dunstan's own wedding-night stay on the way home from his honeymoon.
   - name: Hoyts
@@ -576,6 +656,8 @@ topics:
     description: The ICI Building was Melbourne's first true skyscraper by 1950s standards and briefly the tallest building in Australia, an early salvo in the city's decades-long height rivalry with Sydney that Keith Dunstan traced through to the Conzinc Riotinto tower and the National Mutual Centre.
   - name: Isaac Isaacs
     description: Isaac Isaacs was a Victorian politician, jurist and Australia's first native-born Governor-General, who as Attorney-General in the 1890s led the government's legal campaign against John Wren's illegal Collingwood Tote, a case Keith Dunstan used to illustrate the futility of trying to suppress Melbourne's gambling culture.
+  - name: Isabella Bird
+    description: Isabella Bird was the intrepid Victorian-era Scottish travel writer whose 1872 impressions of Melbourne, published in 'The Australian Felix', included a notably unflattering account of the city and its inhabitants that Keith Dunstan catalogued in 'Knockers'.
   - name: J. C. Williamson's
     description: J. C. Williamson's was Australia's dominant theatrical production company, its 1963 Melbourne staging of 'How to Succeed in Business Without Really Trying' at Her Majesty's Theatre briefly hijacked when Arthur Calwell's television policy speech bled through an actor's stage intercom mid-scene.
   - name: Jack Donaldson
@@ -584,6 +666,8 @@ topics:
     description: Jack Dyer, 'Captain Blood', was the Richmond Football Club's legendary full-back and captain in the 1930s and 40s, renowned for his ferocious physical style; he later became a football commentator and wrote 'Captain Blood', a memoir Keith Dunstan drew on for his account of the Essendon-Carlton brawl that ended John Coleman's season.
   - name: Jack Johnson
     description: Jack Johnson was the first black world heavyweight boxing champion, who took the title from Tommy Burns in a 1908 Sydney bout promoted by 'Huge Deal' McIntosh, a fight Keith Dunstan recalled both in a profile of McIntosh and in a column on a forgotten Melbourne tug-o'-war craze.
+  - name: Jack London
+    description: Jack London was the American author who visited Australia in 1908 on his ill-fated voyage of the Snark, filing despatches about Sydney that Keith Dunstan included in the parade of visiting writers who found the city disappointing or its harbour overrated.
   - name: Jack O'Hagan
     description: Jack O'Hagan was the Australian popular songwriter who wrote 'Our Don Bradman' and 'Our Marjorie' to celebrate Marjorie Jackson's double gold medal triumph at the 1952 Helsinki Olympics, completing the recording in seven days with a twenty-two-piece ABC Dance Band.
   - name: Jacob Davis
@@ -596,6 +680,8 @@ topics:
     description: James Dean was the young American actor whose denim-clad, doomed rebel in 'Rebel Without a Cause' Keith Dunstan credited with sealing jeans as the uniform of 1950s teenage defiance.
   - name: James Halliday
     description: James Halliday is Australia's foremost wine writer and judge, a Sydney wine-society regular of the 1960s and 70s who went on to found and run several pioneering Australian vineyards, and whom Keith Dunstan called on every vintage to assess his own small crop of grapes.
+  - name: James Morris
+    description: James Morris was the Welsh travel writer (later Jan Morris) whose early dispatches on Sydney Keith Dunstan quoted in 'Knockers', finding in them a characteristically sharp outsider's eye for what Sydney was and what it thought it was.
   - name: James Munro
     description: James Munro was Premier of Victoria from 1890 to 1892 and the leading champion of the Coffee Palace movement, convinced that a grand hotel without a bar could replace the public house as the centre of colonial social life, a dream that ended in financial ruin during the 1890s depression.
   - name: Jean Shrimpton
@@ -610,8 +696,12 @@ topics:
     description: Joan Sutherland was the Australian soprano nicknamed 'La Stupenda', world famous for her bel canto roles including the Mad Scene from 'Lucia di Lammermoor', a showstopper Keith Dunstan invoked as the gold standard of operatic sound he'd love a universal remote to summon on command.
   - name: Joan Barry
     description: Joan Barry was a Bondi beachgoer fined three pounds in 1961 after a beach inspector ordered her off the sand for wearing a bikini, a prosecution Keith Dunstan recounted in 'Wowsers' as evidence of how slowly Australian attitudes to swimwear actually shifted.
+  - name: Jock Marshall
+    description: Jock Marshall was the Australian zoologist and conservationist who condemned the 1965 open season on Cape Barren geese in Tasmania as a "jolly three-ring circus with a happy time for all except the birds," a quote Keith Dunstan used to illustrate official indifference to wildlife protection in 'Sports'.
   - name: Joe Byrne
     description: Joe Byrne was Ned Kelly's closest confidant in the gang, a good-looking, penniless bush poet Keith Dunstan credited with likely drafting Kelly's rambling defensive letters, who shot the police informer Aaron Sherritt days before dying himself at Glenrowan.
+  - name: Joe Davis
+    description: Joe Davis was the dominant English billiards and snooker champion who held the world snooker title continuously from 1927 to 1946 and who, along with Walter Lindrum, ensured the post-war game shifted decisively from billiards to snooker as a global spectator sport.
   - name: John Alexander Dowie
     description: John Alexander Dowie was an Edinburgh-born, Adelaide-raised faith healer who founded the Christian Catholic Church of Zion and built a following across the United States, preaching against theatre, drink and tobacco alike with a pulpit oratory Keith Dunstan singled out in 'Wowsers' as unmatched even by the causes he condemned.
   - name: John Batman
@@ -628,8 +718,14 @@ topics:
     description: John Elliott was the brash Melbourne businessman who ran Elders IXL and Carlton and United Breweries, chaired the Carlton Football Club and briefly led the federal Liberal Party, whose late-1980s corporate reach Keith Dunstan reached for as shorthand for the era's overextended big spenders.
   - name: John F. Kennedy
     description: John F. Kennedy was the American president whose assassination in Dallas in 1963 Keith Dunstan cited as marking the start of a decade of political turmoil that made denim a badge of protest.
+  - name: John Foster Fraser
+    description: John Foster Fraser was the British journalist and cyclist whose 1905 travel book on Australia gave Melbourne a scathing once-over that Keith Dunstan quoted in 'Knockers' among the catalogue of visiting critics.
   - name: John Francis Hogan
     description: John Francis Hogan was a Catholic writer who argued that Australians had made the horse their national god, devoting an entire annual festival, the Melbourne Cup carnival, to 'that interesting quadruped', an observation Keith Dunstan used to open 'Sports'.
+  - name: John Gorton
+    description: John Gorton was the Liberal Prime Minister of Australia from 1968 to 1971, a larrikin by temperament and a distinctly unfussy patriot by inclination, whose interventions in the Melbourne-Sydney argument Keith Dunstan noted in 'Knockers'.
+  - name: John Gould
+    description: John Gould was the English ornithologist who visited Australia in 1838 and 1839 and published the landmark 'Birds of Australia', cataloguing hundreds of species; Keith Dunstan cited his work in 'Sports' as among the earliest systematic records of wildlife that colonial sportsmen would proceed to slaughter on an industrial scale.
   - name: John Landy
     description: John Landy was the Australian middle-distance runner who became the second man ever to run a mile in under four minutes, in 1954, and whose name Keith Dunstan invoked among the era's sporting heroes his own restless, football-averse children had little time for.
   - name: John McLaren
@@ -638,12 +734,18 @@ topics:
     description: John McLeod, known at Flemington as 'Big Mick', was an unlicensed bookmaker whose refusal to pay out on a Grand National Day wager triggered a crowd assault in which he was kicked to death at Flemington Racecourse, an incident Keith Dunstan used in 'Wowsers' to show how the anti-gambling crusade found its martyr — though an unlikely one.
   - name: John Norton
     description: John Norton was the founder of the scandal-sheet newspaper Truth, who boasted of coining the word 'wowser' in 1899, a claim Keith Dunstan traced and complicated with the help of philologist Sidney J. Baker in his book 'Wowsers'.
+  - name: John Pascoe Fawkner
+    description: John Pascoe Fawkner was one of the founders of Melbourne, a newspaper proprietor and politician who became a central figure in the Melbourne-versus-Sydney rivalry that Keith Dunstan traced from the colony's earliest days in 'Knockers'.
   - name: John Peck
     description: John Peck was a Victorian interstate footballer whose flattening haymaker on South Australia's Sawley during a mud-soaked 1963 revenge match at Adelaide Oval made him a two-match-suspended, briefly notorious 'Gregory Peck' in Keith Dunstan's account.
   - name: John Perceval
     description: John Perceval was one of the Antipodean group of Australian painters whose original works Keith Dunstan admired hanging in the Robin Boyd-designed John Batman motor inn, a name he cited again in his tongue-in-cheek survey of corporate art-as-status-symbol.
   - name: John Pilger
     description: John Pilger was an Australian-born investigative journalist and documentary filmmaker based in London, whose 1960s essay for the London magazine 'Nova' describing Australia as a place where people were anaesthetised the moment they stepped ashore Keith Dunstan cited in 'Knockers' as a prime example of the brilliantly cutting expatriate knocker.
+  - name: John Pringle
+    description: John Pringle was the Scottish-born editor of The Sydney Morning Herald in the 1950s and 60s, whose book 'Australian Accent' Keith Dunstan quoted in 'Knockers' for its astute, occasionally exasperated assessment of Australian society as seen from the editor's chair.
+  - name: John Roberts Senior
+    description: John Roberts Senior was the English professional billiards champion who toured Australia in the 1880s at the invitation of Henry Upton Alcock, playing exhibition matches that turned billiards from a colonial pastime into a national obsession.
   - name: John Snow
     description: John Snow was the English fast bowler whose complaints about hostile, piranha-like Australian crowds during the 1970-71 Ashes tour Keith Dunstan quoted at length to open 'Sports', including Snow's own account of trading words with a jeering ten-year-old at the MCG.
   - name: John Wren
@@ -658,6 +760,8 @@ topics:
     description: June Bronhill was an acclaimed Australian operatic soprano of the 1950s and 60s, whose star power Keith Dunstan invoked in pieces on both Melbourne's fleeting cultural pretensions and its taste for genuine theatrical ghost stories.
   - name: Kalgoorlie
     description: Kalgoorlie is the Western Australian goldfields city that boomed after the 1893 gold rush, whose barmaids inspired a verse that circulated through the goldfields and was reproduced in Keith Dunstan's 'Wowsers' as evidence of the temperance movement's running battle with the culture of the mining camp pub.
+  - name: Kangaroo Island
+    description: Kangaroo Island, off the South Australian coast, was one of the sites Keith Dunstan examined in 'Sports' for the historical slaughter of wildlife, its isolation having made it both a refuge for rare animals and a hunting ground that was slow to receive legal protection.
   - name: Kardinia Park
     description: Kardinia Park is Geelong Football Club's home ground, where a thousand-odd fans gathered the day after the 1963 Grand Final to watch a mock funeral for a shot sparrowhawk, standing in for vanquished rival Hawthorn, complete with prayer book and hymn.
   - name: Kathleen Quealy
@@ -696,8 +800,12 @@ topics:
     description: Levi Strauss was the Bavarian-born dry-goods trader who, working with Nevada tailor Jacob Davis, patented the riveted work trouser in 1873 that became blue jeans, a history Keith Dunstan traced in his account of Just Jeans.
   - name: Lillian Frank
     description: Lillian Frank was the Melbourne hairdresser and social identity who fled wartime Burma as a Jewish refugee before reigning for decades as the reigning queen of Melbourne Cup fashion and an OBE-honoured charity fundraiser, a friend whose salon gossip Keith Dunstan enjoyed passing on.
+  - name: Lita Baron
+    description: Lita Baron was an American actress and dancer, Rory Calhoun's first wife, who cited seventy-nine alleged infidelities in their divorce, providing the colourful backstory to Calhoun's later marriage to Australian writer Sue K. Langley that Keith Dunstan noted in 'Knockers'.
   - name: Lithgow
     description: Lithgow is the New South Wales mining town that became famous as the home of Marjorie Jackson, 'The Lithgow Flyer', whose double gold medal victory at the 1952 Helsinki Olympics prompted the town to celebrate with ambulance sirens, fire alarms and factory whistles throughout the night.
+  - name: Lord Casey
+    description: Lord Casey was Richard Casey, Australian politician and Governor-General, whose views on native wildlife conservation Keith Dunstan cited in 'Sports' as part of the slow official turn towards protection of species that colonial sporting culture had spent a century depleting.
   - name: Lord Harris
     description: Lord Harris captained England's 1878-79 cricket tour of Australia and endured a full-scale pitch invasion at the Sydney Cricket Ground after a disputed umpiring decision, a riot that soured Anglo-Australian cricket relations for years.
   - name: Lorne
@@ -716,6 +824,8 @@ topics:
     description: Luna Park is St Kilda's seaside amusement park, opened in 1912, a Melbourne landmark that turns up in Keith Dunstan's writing alongside E.W. Cole's Book Arcade as one of the city's great, slightly disreputable pleasure palaces.
   - name: Madame Brussels
     description: Madame Brussels ran Melbourne's most famous and durable Lonsdale Street brothel from at least 1876 until a 1908 clean-up under a new Vagrancy Act, a fixture of the city's vice trade whose quiet, benevolent-midwife demeanour in court Keith Dunstan contrasted with her reputation in 'Wowsers'.
+  - name: Maggie Tabberer
+    description: Maggie Tabberer was Australia's leading fashion model and television personality of the 1960s and 70s, singled out in 'Knockers' among Australian women who had succeeded in building international careers while the country's cultural critics still debated whether such success was possible.
   - name: Maitland
     description: Maitland is a New South Wales Hunter Valley town famous in Australian sports history as the home of boxer Les Darcy, and the scene of R. L. Seddon's drowning while rowing on the Hunter River after the 1888 English rugby tour of Australia.
   - name: Malcolm H Ellis
@@ -746,12 +856,16 @@ topics:
     description: Marshall McLuhan was the Canadian media theorist whose observation that jeans represented 'a rip-off and a rage against the establishment' Keith Dunstan used as a chapter epigraph in his history of Just Jeans.
   - name: Martin Luther King Jr.
     description: Martin Luther King Jr. was the American civil rights leader assassinated in 1968, a killing Keith Dunstan listed among the traumas that radicalised the jeans-wearing generation of the late 1960s.
+  - name: Martin Place
+    description: Martin Place is the central Sydney pedestrian mall and ceremonial heart of the city's CBD, a landmark that features in the Melbourne-versus-Sydney rivalry Keith Dunstan charted in 'Knockers', where partisans on both sides argued over the merits of their respective city centres.
   - name: Maureen Caird
     description: Maureen Caird was the Australian sprinter who won the gold medal in the 80 metres hurdles at the 1968 Mexico City Olympics, one of only two Australian track and field gold medals at those Games alongside Ralph Doubell's 800 metres.
   - name: Maurice Cavanough
     description: Maurice Cavanough was a racing historian whose research into the tough colonial 'waler' horse and Melbourne's habit of dating personal milestones by that year's Melbourne Cup winner Keith Dunstan drew on to open 'Sports'.
   - name: Maurice Nathan
     description: Maurice Nathan was Lord Mayor of Melbourne through the early 1960s, a vocal booster for the city's stalled jetport at Tullamarine whom Keith Dunstan covered ordering a new set of £770 mayoral robes after the old, decades-handed-down set finally fell apart.
+  - name: Max Bygraves
+    description: Max Bygraves was the English entertainer who visited Australia in the early 1970s and filed his own assessment of the place for publication back home, joining the long queue of British showbusiness names whose opinions of Australia Keith Dunstan catalogued in 'Knockers'.
   - name: Max Harris
     description: Max Harris was the Adelaide poet, critic and Nation magazine reviewer whose lukewarm 1960 verdict on a young Barry Humphries' early gramophone records prompted the mock-defensive foreword Humphries later wrote for Keith Dunstan's 'Knockers'.
   - name: Max Schubert
@@ -810,14 +924,20 @@ topics:
     description: Moonee Ponds is the unglamorous northern Melbourne suburb Barry Humphries chose as the fictional home of his housewife creation Edna Everage, a joke Keith Dunstan noted had already been given hard statistical backing by a contemporary survey of stay-at-home, television-watching suburban Melburnians.
   - name: Mt Isa
     description: Mt Isa is the remote copper and silver mining city in far north-west Queensland, whose flying doctor service Keith Dunstan telephoned one Christmas to find the area's sole medical practitioner covering an England-sized territory by radio, then spending Christmas dinner at the local pub over hot turkey and plum pudding in 40-degree heat.
+  - name: Mulaika Corben
+    description: Mulaika Corben was an Asian businesswoman featured in 'Knockers' among the overseas women who had formed opinions of Australian women and Australian society, her perspective adding an international counterpoint to the domestic debates Keith Dunstan was surveying.
   - name: Multi Function Polis
     description: The Multi Function Polis was a proposed high-tech planned city, a joint Japanese-Australian venture floated in the late 1980s and never built, whose jargon-heavy name Keith Dunstan cited as exactly the kind of extraordinary official phrase a course in semantics ought to help decode.
   - name: Murray Rose
     description: Murray Rose was the Australian Olympic swimmer and world record holder whose vegetarian diet disproved the old Australian belief that champion athletes had to be built on steak, and whose American celebrity Keith Dunstan cited as proof that Yankee resentment over Phar Lap's death had long since faded.
   - name: Myer
     description: Myer is the Melbourne-founded department store chain whose Bourke Street window display of unclad mannequins gave Keith Dunstan one of his most successful manufactured controversies, a flood of outraged and approving letters written to his own Sun News-Pictorial column under the pseudonym Shocked, East Malvern.
+  - name: Myra Roper
+    description: Myra Roper was the author of a study of Australian women Keith Dunstan drew on in 'Knockers', finding in her research a systematic account of the social and professional limitations still facing women in mid-twentieth-century Australia.
   - name: Nancy Astor
     description: Nancy Astor was the American-born Viscountess Astor and the first woman to sit as a Member of the British Parliament, whose donated trophy, a mounted globe, went to the winner of the women's Commonwealth golf tournament Keith Dunstan covered at Royal Melbourne in 1963.
+  - name: Naracoorte
+    description: Naracoorte is the South Australian regional town whose caves, rich in fossil megafauna, also featured in Keith Dunstan's broader account in 'Sports' of the ecological history of species loss across Australia's southern colonies.
   - name: National Gallery of Victoria
     description: The National Gallery of Victoria is the state's principal art museum, whose 1960s directorship under Eric Westbrook and rancorous public feuds over modern art Keith Dunstan covered as regularly as he covered the gallery's more popular drawcards, like its beloved painting of the racehorse Phar Lap.
   - name: National Mutual Centre
@@ -842,6 +962,8 @@ topics:
     description: Osmar White was a celebrated Australian war correspondent and author who trained Herald cadets including the young Keith Dunstan with blunt, bludgeoning encouragement, and who later turned up as an opinionated judge in one of Keith's amateur beer-tasting panels.
   - name: P. D. Phillips
     description: P. D. Phillips, QC, was one of the most brilliant wigs at the Victorian Bar before retiring in 1958 to lecture in law at Melbourne University, then returned to public life in 1963 as Royal Commissioner into Victoria's liquor licensing laws, becoming a reliable source of good newspaper copy in the process.
+  - name: Paris Nesbit
+    description: Paris Nesbit was the Victorian politician whose intervention in the debate over wildlife shooting regulations Keith Dunstan noted in 'Sports', as the legislature struggled to balance the claims of hunters, farmers and conservationists in the 1960s and 70s.
   - name: Parramatta
     description: Parramatta is the western Sydney suburb and home of Betty Cuthbert, whose triple gold medal victory at the 1956 Melbourne Olympics prompted Parramatta to rename the main street of its Ermington suburb 'Betty Cuthbert Avenue' and to name a camellia in her honour.
   - name: Pat Rafter
@@ -866,6 +988,8 @@ topics:
     description: Perth is the Western Australian capital that hosted the 1962 Commonwealth Games and, further afield, the seceding wheat farmer Len Casley's self-declared Hutt River Principality, two very different subjects of Keith Dunstan's reporting.
   - name: Peter Hudson
     description: Peter Hudson was Hawthorn Football Club's full-forward in the early 1970s, famous for his high-marking ability and goal-scoring; he is the subject of the chapter's opening anecdote, in which a graffiti artist answers 'What would you do if God came to Hawthorn today?' with 'Move Peter Hudson to centre half-forward'.
+  - name: Peter Michaels
+    description: Peter Michaels was a journalist featured in 'Knockers' among those who had visited Australia and formed opinions on Australian women, his reportage adding to the international chorus of assessment that Keith Dunstan surveyed in that chapter.
   - name: Peter Ryan
     description: Peter Ryan was the Victorian Nationals leader and Deputy Premier under Ted Baillieu from 2010, whose argument that public transport couldn't cope with a congestion tax's flow-on effects Keith Dunstan dismissed as an excuse for leaving Melbourne's 'Great God Car' unchecked.
   - name: Peter Thomson
@@ -906,12 +1030,16 @@ topics:
     description: ''
   - name: RAAF
     description: The Royal Australian Air Force was the service Keith Dunstan joined at eighteen in 1943, training as a pilot instead of the wireless air gunner he'd been assigned to become thanks to his father's string-pulling, an episode he recounted at length in 'No Brains at All'.
+  - name: R. E. Twopeny
+    description: R. E. Twopeny was the author of 'Town Life in Australia' (1883), one of the sharpest and most widely quoted Victorian-era assessments of Australian colonial society, whose chapter on women Keith Dunstan drew on in 'Knockers' as evidence that criticism of Australian women was well established before the twentieth century began.
   - name: RACV
     description: The RACV is Victoria's motoring club, whose roadside patrols Keith Dunstan called on when he locked his own keys inside his car at the beach, only for its usual 30-second average to stretch into a 45-minute defeat by his car's brand new anti-theft locks.
   - name: Ralph Doubell
     description: Ralph Doubell was the Australian middle-distance runner who won the 800 metres gold medal at the 1968 Mexico City Olympics, one of only two Australian gold medals on the track at those Games.
   - name: Ray Lindwall
     description: Ray Lindwall was the great Australian fast bowler of the post-war era, whose partnership with Keith Miller terrorised English batting line-ups, and whose graceful action Keith Dunstan wistfully wished a television remote's fast-reverse button could conjure back into view.
+  - name: Ray Reardon
+    description: Ray Reardon was the Welsh snooker champion who defeated Eddie Charlton in the 1973 world final at Manchester, a 75-frame marathon that Keith Dunstan recorded in 'Sports' as proof that Australia's billiards tradition had not yet translated into a world snooker title.
   - name: Rebel Without a Cause
     description: Rebel Without a Cause is the 1955 film starring James Dean as a troubled, denim-jacketed teenager that Keith Dunstan credited with turning jeans into a symbol of the postwar 'bejeaned rebel generation'.
   - name: Reg Egan
@@ -924,6 +1052,8 @@ topics:
     description: Renmark is a South Australian irrigation town on the Murray River founded by the Chaffey brothers in the 1880s under an agreement forbidding any liquor licence, making it one of the few settlements in Australian history to begin life as a legally enforced dry colony.
   - name: Richard Burton
     description: Richard Burton was the Welsh actor whose co-star and off-screen romance with Elizabeth Taylor in 'Cleopatra' made the couple's absence keenly felt when Melbourne finally staged its own belated, gold-draped premiere of the film in March 1964.
+  - name: Richard Henry Horne
+    description: Richard Henry Horne was the English poet and author who emigrated to Victoria in 1852 and spent thirteen years on the goldfields and in Melbourne, writing critically of Australian colonial society; Keith Dunstan quoted his observations in 'Knockers' among the earliest literary assessments of Melbourne.
   - name: Richmond Brewery
     description: Richmond Brewery was a Melbourne beer maker absorbed into Carlton and United Breweries on Friday the 13th, 1962, one of the consolidations behind CUB's growing grip on Victoria's beer supply that Keith Dunstan tracked in the Bulletin.
   - name: Richmond Football Club
@@ -938,6 +1068,8 @@ topics:
     description: Robert Close was the Melbourne novelist gaoled and fined in 1948 over his novel 'Love Me Sailor', a sentence overturned on appeal but not before it became, as Keith Dunstan recorded in 'Wowsers', a byword for the harshness of Australian obscenity prosecutions.
   - name: Robert Helpmann
     description: Robert Helpmann was an Australian dancer, choreographer, actor and director who became a star of the Sadler's Wells Ballet in London alongside Margot Fonteyn, and whose 1969 remark that there was no cultural scene in Australia to despair about Keith Dunstan reproduced in 'Knockers' as a perfect specimen of the expatriate knock.
+  - name: Robert Morley
+    description: Robert Morley was the rotund English actor and wit who visited Australia on a 1971 theatrical tour and filed despatches about the country that Keith Dunstan quoted in 'Knockers', finding Morley's particular brand of comfortable condescension a useful illustration of the visiting British celebrity knock.
   - name: Robin Boyd
     description: Robin Boyd was an Australian architect, writer and critic known for championing modernist architecture and shaping public debate about Australian design. He was also a prominent commentator on suburban taste and national identity, most famously through his book The Australian Ugliness.
   - name: Roger Bannister
@@ -946,14 +1078,22 @@ topics:
     description: Rolf Harris was a West Australian entertainer, artist and television personality who became a household name in Britain with novelty records including 'Tie Me Kangaroo Down, Sport', and who appeared in 'Knockers' as one of the very few Australians a 1965 BBC 'Panorama' satirical tirade could bring itself to name as having risen to prominence.
   - name: Ron Barassi
     description: Ron Barassi was the star rover and captain of the Melbourne Football Club through its 1950s and 60s premiership years, who went on to coach Carlton and North Melbourne to flags of their own, achieving a fame in Keith Dunstan's Melbourne that stretched to poodle jumpers sold in South Yarra bearing his number.
+  - name: Romano's
+    description: Romano's was the celebrated Sydney restaurant that figures in 'Knockers' among the landmarks Melburnians and Sydney partisans argued over in the long-running city rivalry Keith Dunstan documented, the name shorthand for Sydney's claim to superior dining and nightlife.
   - name: Ron Clarke
     description: Ron Clarke was the Australian distance runner and world-record holder whose observation that Australian school sport favoured a talented élite over the mass of pupils Keith Dunstan cited against the myth of a nation of sporting participants.
+  - name: Ronald Biggs
+    description: Ronald Biggs was one of the Great Train Robbers who escaped from Wandsworth Prison in 1965 and eventually settled in Brazil, cited in 'Knockers' among the curious visitors who passed through Australia and formed opinions about the country.
   - name: Ronald Searle
     description: Ronald Searle was the celebrated English cartoonist and illustrator, praised in a letter to Keith Dunstan's column as 'the only worthwhile living English artist' and invoked again as an obvious spiritual ancestor of the ornate, gothic Princess Theatre.
+  - name: Rory Calhoun
+    description: Rory Calhoun was the American Western film star whose marriage to Australian writer Sue K. Langley provided 'Knockers' with one of its more colourful footnotes, the union coming after his first wife Lita Baron had cited seventy-nine alleged infidelities in their divorce.
   - name: Ross Grey-Smith
     description: Ross Grey-Smith was the Melbourne solicitor and grandson of a former Melbourne Cricket Club president who took over as chairman of the Victoria Racing Club committee in 1962, steering it through its ill-fated best-dressed-racegoer publicity drive.
   - name: Roy Cazaly
     description: Roy Cazaly was the South Melbourne footballer (1893-1963) famous for his extraordinary high-marking ability, whose name gave rise to the barracker's cry 'Up there Cazaly', which became so embedded in Australian culture that Sidney J. Baker recorded the Ninth Division using it as a battle cry in North Africa during the Second World War.
+  - name: Roy McGregor-Hastie
+    description: Roy McGregor-Hastie was a British writer whose book on Australian women Keith Dunstan drew on in 'Knockers', finding in it a view from an outside observer on the social position and aspirations of Australian women in the early 1970s.
   - name: Royal Family
     description: The Royal Family's Australian tours, from the marathon 1954 visit onward, gave Keith Dunstan some of his strangest professional material, from banned adjectives like 'obviously' and 'radiant' to the elaborately stage-managed crowds a young reporter learned to see through.
   - name: Royal Melbourne Golf Club
@@ -964,14 +1104,20 @@ topics:
     description: Rudolf Valentino was the silent-era Hollywood heartthrob whose own sword reportedly hung as a prop on the wall of Melbourne's ornate State Theatre until it was stolen in the 1930s, one of the picture palace's more improbable decorations.
   - name: Rupert Murdoch
     description: Rupert Murdoch built the global News Corporation empire from a single inherited Adelaide newspaper, and by the early 2010s was predicting the death of print newspapers by 2020, a forecast Keith Dunstan, writing amid the wreckage of the News of the World scandal, refused to believe.
+  - name: Rupertswood
+    description: Rupertswood is the grand Italianate mansion at Sunbury north of Melbourne, built by pastoralist William Clarke in the 1870s, where the Ashes tradition was born in 1882 when Lady Clarke presented a terracotta urn to the visiting English cricketers, a founding story Keith Dunstan recounted in 'Sports'.
   - name: Rushcutters Bay
     description: Rushcutters Bay is the Sydney harbourside suburb where fight promoter Hugh 'Huge Deal' McIntosh built Sydney Stadium for his 1908 Burns-Johnson world title fight, a venue that also hosted the Sydney eccentric Bea Miles in her long, colourful career.
+  - name: Russell Grimwade
+    description: Russell Grimwade was the Melbourne philanthropist who funded the re-erection of Captain Cook's Yorkshire cottage in Fitzroy Gardens in 1934, a gesture that prompted a lively dispute about what Cook had to do with Melbourne, as Keith Dunstan recounted in 'Knockers'.
   - name: Russell Mockridge
     description: Russell Mockridge was a brilliant, badly short-sighted Australian cyclist who won two Empire Games gold medals in 1952 and both the Amateur and Open Grand Prix in Paris, before being killed in a collision with a bus in Clayton Road, Melbourne, in 1958 while training for the Tour de France; a bike shop manager gave Keith Dunstan Mockridge's own oil can to carry across America on the Bikecentennial ride.
   - name: Russell Street
     description: Russell Street is the Melbourne CBD street long associated with police headquarters, a backdrop to both Keith Dunstan's coverage of the city's record bank robbery and his profile of Hoyts' cinema history.
   - name: Rutherglen
     description: ''
+  - name: S. T. Gill
+    description: S. T. Gill was the colonial-era artist whose vivid sketches of the Victorian goldfields and bush life became some of the most reproduced images of nineteenth-century Australia, cited by Keith Dunstan in 'Sports' as an early visual record of the hunting and outdoor culture that defined the period.
   - name: Sammy Davis Jr
     description: Sammy Davis Jr was the American singer, dancer and Rat Pack entertainer, a name flashy enough that Keith Dunstan gave it to one of the giant show dahlias he grew for the sheer vulgar pleasure of being noticed.
   - name: Samuel Gillott
@@ -994,8 +1140,12 @@ topics:
     description: Sidney Nolan was one of Australia's most celebrated painters, best known for his Ned Kelly series, whose original works Keith Dunstan admired hanging in a Robin Boyd-designed motor inn and cited again as the ultimate benchmark of corporate art-as-status-symbol.
   - name: Sigmund Jorgensen
     description: Sigmund Jorgensen ran the Clichy restaurant in Collingwood and was the son of Montsalvat founder Justus Jorgensen, a genial host whose free-flowing champagne once left Keith Dunstan unable to stay upright on his bicycle home.
+  - name: Sir Archibald Weigall
+    description: Sir Archibald Weigall was Governor of South Australia from 1920 to 1922, whose dismissive remarks about Australian wildlife and the colony's gun culture Keith Dunstan quoted in 'Sports' as a representative official voice from an era when slaughter was still a recreational norm.
   - name: Sir Donald Bradman
     description: Sir Donald Bradman, Australia's greatest batsman, had a Test batting average of 99.94, the sport's most celebrated statistic, and appears throughout Keith Dunstan's writing both as the ultimate shorthand for sporting greatness and in his administrative role as chairman of the Australian Cricket Board of Control in the early 1960s, defending Test cricket's dignity against Henry Bolte's comic Centenary replay scheme and, in 1971, cancelling South Africa's tour.
+  - name: Sir George Pearce
+    description: Sir George Pearce was the Western Australian-born federal politician and Defence Minister, nicknamed 'Minister for Massacres' for his handling of wartime conscription, whose views on wildlife and rural land management Keith Dunstan noted in 'Sports' as emblematic of official attitudes to the natural environment in the early twentieth century.
   - name: Sir H. D. Littlejohn
     description: Henry Duncan Littlejohn was a Scottish forensic scientist and Edinburgh's long-serving Medical Officer of Health, whose medical warnings against tobacco a Victorian MP quoted in 1905 while introducing a bill against juvenile smoking, as Keith Dunstan recorded in 'Wowsers'.
   - name: Sir Henry Bolte
@@ -1048,8 +1198,12 @@ topics:
     description: Stawell is the western Victorian town that hosts the Stawell Gift, Australia's most famous professional foot race, run on Easter Monday; Keith Dunstan described its 'vintage turn-of-the-century air', its bookmakers under the trees, and the celebrated scandals of its history, including the 1920 Jack Lindsay alias fraud and the 1933 Cyril Heath groin-kick affair with its Phar Lap police connection.
   - name: Steve Hart
     description: Steve Hart was the youngest and snappiest-dressed member of the Kelly gang, a brilliant horseman utterly loyal to Ned Kelly, who died alongside Dan Kelly in the burning Glenrowan inn in 1880.
+  - name: Sue K. Langley
+    description: Sue K. Langley was an Australian writer who married American Western film star Rory Calhoun, a union that gave 'Knockers' one of its better supporting anecdotes, involving Calhoun's first wife Lita Baron and her inventory of seventy-nine alleged infidelities.
   - name: Sun News-Pictorial
     description: The Sun News-Pictorial was Melbourne's morning tabloid and, for 27 years, the paper that ran Keith Dunstan's daily column 'A Place in the Sun', the platform from which he also launched the Anti-Football League in 1967.
+  - name: Sunbury
+    description: Sunbury is the town north of Melbourne near which Rupertswood station stands, the Clarke family's grand pastoral estate where the Ashes urn was created in 1882, and which Keith Dunstan identified as a distinctly unlikely birthplace for cricket's most sacred relic.
   - name: Surfers Paradise
     description: Surfers Paradise is the Gold Coast resort strip that boomed through the 1950s and 60s on Miami-style tower blocks and invented traditions like a water-skiing Father Christmas, and whose local council was first to approve the bikini for its beaches in 1955, all of which Keith Dunstan surveyed with amused disdain in his Walkabout travel writing.
   - name: Swanston Street
@@ -1072,6 +1226,8 @@ topics:
     description: Tandberg is the pen name of Ron Tandberg, The Age's long-serving editorial cartoonist, whose minimalist front-page sketches Keith Dunstan made a point of hunting for in his careful morning ritual with the newspaper.
   - name: Tania Verstak
     description: Tania Verstak was the Russian-born, Sydney-raised beauty queen crowned Miss Australia in 1961 and Miss International in 1962, a celebrity fixture of the fashion-parade carnival atmosphere Keith Dunstan wrote about at the Melbourne Cup and in his profiles of visiting stars.
+  - name: Taronga Park Zoo
+    description: Taronga Park Zoo is the Sydney harbourside wildlife park, established in 1916, cited in 'Sports' as one of the institutions that emerged from the same era as Australia's conservation movement, offering public display of native animals as an alternative to the unregulated slaughter Keith Dunstan documented.
   - name: Tattersall's
     description: Tattersall's was the sweepstake lottery founded by George Adams, operating first in Sydney before shifting to Queensland and then Hobart, where it became central to Tasmanian public finance, until it moved to Melbourne in 1954 and became Victoria's dominant lottery for decades.
   - name: Tatura
@@ -1082,6 +1238,8 @@ topics:
     description: Telecom Australia was the government-owned telephone carrier before its 1993 rebranding as Telstra, the monopoly Keith Dunstan blamed equally for a maddening on-hold music habit and for tempting the nation into buying ever more elaborate handsets it didn't need.
   - name: Telstra
     description: Telstra is Australia's largest telecommunications company, whose sponsorship of Australian Football League mobile coverage Keith Dunstan blamed for letting fans watch football on their phones in class, at work and even during church sermons.
+  - name: Terence Stamp
+    description: Terence Stamp was the English actor who visited Australia in the late 1960s and wrote about his time there, filing observations that Keith Dunstan collected in 'Knockers' among the British film world's contributions to the long literature of foreign assessments of Australian life.
   - name: The Age
     description: The Age is Melbourne's broadsheet newspaper, founded in 1854 and long the rival of Keith Dunstan's own Herald and Sun, whose letters pages hosted the public feud between traditionalist and modernist painters that he covered for the Bulletin in 1962.
   - name: The Argus
@@ -1106,6 +1264,8 @@ topics:
     description: Theda Bara was the silent-era Hollywood vamp billed as 'The Most Beautiful Woman in the World', whose 1916 Melbourne season in 'Carmen' at the theatre later renamed Cleopatra drew ecstatic reviews Keith Dunstan dug up decades later while touring the building's old office.
   - name: Thomas Austin
     description: Thomas Austin was an English-born Victorian pastoralist of Barwon Park who in 1859 imported twenty-four rabbits for sport shooting, setting off one of the most ecologically catastrophic feral animal introductions in history, and which Keith Dunstan recounted in 'Knockers' as the ultimate irony of Australian nostalgia for English conditions.
+  - name: Thomas Chirnside
+    description: Thomas Chirnside was a Scottish-born Victorian pastoralist who built one of the largest land empires in colonial Victoria, including the grand Werribee Park estate, and whose career Keith Dunstan examined in 'Sports' as an example of the station culture that made organised hunting a social institution.
   - name: Tivoli Theatre
     description: The Tivoli Theatre was Melbourne's grand old vaudeville and variety house, tracing its lineage back to the 1850s diggers' Varieties Music Hall and hosting stars from Marie Lloyd to Harry Houdini before a fire gutted it, a loss Keith Dunstan mourned in the Bulletin.
   - name: Tom Seabrook
@@ -1128,6 +1288,8 @@ topics:
     description: Tullamarine is the site of Melbourne's new international airport, whose slow approval process became, in Keith Dunstan's telling, the great running grievance of the early-1960s Sydney-Melbourne rivalry.
   - name: United States
     description: The United States supplied Keith Dunstan with two very different tours of duty, a newlywed posting as a correspondent in the early 1950s and, decades later, source material for his cycling memoirs, essays and cultural comparisons.
+  - name: University of Melbourne
+    description: The University of Melbourne is Victoria's oldest university, whose students in 1962 led a months-long campaign against the hanging of Robert Tait that Keith Dunstan covered for the Bulletin, and whose campus provided the setting for a string of Bulletin columns on academic and student life.
   - name: Victor Trumper
     description: Victor Trumper was the most beloved Australian batsman of the Edwardian era, celebrated in verse and testimonial nights, whose death from Bright's disease in 1915 drew twenty thousand mourners onto the streets of Sydney even as newspapers were filled with Gallipoli casualty lists.
   - name: Victoria
@@ -1154,6 +1316,8 @@ topics:
     description: Walter A. Haas Snr was the Levi Strauss & Co chairman and descendant of the founder whose singed encounter with a crotch rivet on a 1941 camping trip, as Keith Dunstan told it, finally got the rivet removed from the design.
   - name: Walter Hauser
     description: Walter Hauser was a chorister with the Vienna Mozart Boys' Choir stranded in Melbourne by the outbreak of war in 1939, who went on to a career as an industrial chemist and, as Keith Dunstan's regular bridge partner of fourteen years, into one of the columnist's own obituaries.
+  - name: Walter Lindrum
+    description: Walter Lindrum was Australia's greatest billiards champion, who from the mid-1920s so completely dominated world billiards that his opponents petitioned to change the rules around him, leaving him as a touring exhibition player rather than a competitive champion, and whose extraordinary Broad Arrow upbringing Keith Dunstan recounted in 'Sports'.
   - name: Walter ODonoghue
     description: Walter O'Donoghue was the red-haired, big-hearted advertising manager of the Myer Emporium who agreed to bankroll Keith Dunstan's fledgling Anti-Football League with badges and sponsorship, on the condition it be run for charity to give it a veneer of respectability.
   - name: Wangaratta
@@ -1164,6 +1328,10 @@ topics:
     description: Warwick Armstrong was a dominant Australian all-rounder and later Test captain whose 1912 withdrawal, alongside five other leading players, in a dispute over team management triggered public indignation meetings across the country.
   - name: Warwick Capper
     description: Warwick Capper was an Australian rules footballer renowned through the 1980s for his spectacular high-flying marks and flamboyant, media-courting persona, his name synonymous enough with a dramatic leap that Keith Dunstan invoked it to describe his poodle bounding round a hotel room.
+  - name: Waterloo Cup
+    description: The Waterloo Cup is England's premier coursing event, run annually in Lancashire since 1836, whose format and scoring system Keith Dunstan explained in 'Sports' while tracing the history of hare coursing as it was imported to Australia by the same pastoral gentry who brought rabbit shooting and fox hunting.
+  - name: Werribee Park
+    description: Werribee Park is the grand Italianate mansion and pastoral estate of the Chirnside family on the western outskirts of Melbourne, now a heritage property, whose history of organised game hunting Keith Dunstan recounted in 'Sports' as emblematic of the station-owner culture of colonial Victoria.
   - name: Wesley College
     description: Wesley College is one of Melbourne's oldest private schools, whose golden era of sporting dominance under headmaster L. A. Adamson and pitched cap-stealing battles with Melbourne Grammar Keith Dunstan held up as the high-water mark of school sport's grip on Australian life.
   - name: Western Australia
@@ -1176,18 +1344,30 @@ topics:
     description: Whitcomb Judson was the American inventor who patented an early hook-and-eye clasp fastener in 1893, the clumsy ancestor of the zip that Keith Dunstan credited in his history of denim.
   - name: Wildlife Act 1975
     description: The Wildlife Act 1975 is the Victorian law protecting native fauna, including the common brushtail possum, whose legally sanctioned population explosion in a wet 2010 gave Keith Dunstan the biblical conceit for a column on Melbourne's assorted modern-day plagues.
+  - name: William Clarke
+    description: William Clarke was the pastoralist and land speculator who built Rupertswood at Sunbury in the 1870s, one of the largest rural estates in Victoria, on whose croquet lawn in 1882 Lady Clarke created the Ashes urn and presented it to the visiting English cricketers, as Keith Dunstan recounted in 'Sports'.
   - name: William Creswick
     description: William Creswick was an English Shakespearean actor whose triumphant Melbourne season in 1877 prompted the Bishop of Melbourne to invite him to give dramatic readings to the city's clergy, a breakthrough moment for the theatre's respectability that Keith Dunstan recorded in 'Wowsers'.
   - name: William Dampier
     description: William Dampier was an English buccaneer, navigator and naturalist who became the first Englishman to explore parts of Australia, visiting the north-western coast in 1688 and again in 1699, when he described Shark Bay as 'God's miserablest country', an assessment Keith Dunstan ranked in 'Knockers' among the earliest and most eloquent contributions to the knocker tradition.
+  - name: William Kelly
+    description: William Kelly was a nineteenth-century Irish-Australian journalist and goldfields chronicler whose reports on the colonial period Keith Dunstan drew on in 'Knockers', finding in them an early domestic voice joining the chorus of external critics sizing up Melbourne's character.
+  - name: William Randolph Hearst
+    description: William Randolph Hearst was the American newspaper magnate who visited Australia in the early twentieth century and whose impressions of the country Keith Dunstan collected in 'Knockers' among the global press proprietors who could not resist forming opinions about the colonies they passed through.
   - name: W. H. Gocher
     description: W. H. Gocher was the editor of the Manly and North Sydney News who deliberately flouted the daylight bathing ban at Manly Beach in 1902 to force his own arrest, a stunt that took years and repeated attempts to succeed but which Keith Dunstan credited in 'Wowsers' with breaking open Australia's daylight surf bathing.
+  - name: W. J. Lyne
+    description: W. J. Lyne was the New South Wales premier whose proposal to the 1898 Federal Convention, that the capital be fixed at the junction of the Murray and Murrumbidgee Rivers, was one of several attempts to steer the site away from Melbourne's orbit and toward NSW, as Keith Dunstan recounted in 'Knockers'.
   - name: William Dunstan VC
     description: William Dunstan was Keith Dunstan's father, who won the Victoria Cross at Gallipoli's Lone Pine in 1915 as a shy twenty-year-old and went on to a career in Melbourne newspaper management, casting a long shadow that Keith wrote about growing up under in 'No Brains at All'.
   - name: William Henry Judkins
     description: William Henry Judkins was the Superintendent of the Pleasant Sunday Afternoon at Melbourne's Wesley Church, the most flamboyant anti-gambling campaigner of the Edwardian era, who waged a sustained public campaign against John Wren, Madame Brussels and the Collingwood Tote through meetings, open letters and confrontations that ended with eggs and hooters at a packed Wesley Church theatre.
+  - name: William Street
+    description: William Street is Sydney's inner-city thoroughfare running from the CBD to Kings Cross, cited in 'Knockers' as part of the rivalry between Melbourne and Sydney over which city offered the more civilised and ordered streetscape.
   - name: William Strutt
     description: William Strutt was an English-born colonial painter who lived in Melbourne from 1850 to 1861 and specialised in scenes of disaster and mayhem, most famously his vast canvas 'Black Thursday, 6 February 1851' now in the La Trobe Library, which Keith Dunstan cited in 'Knockers' as evidence that early colonial artists saw Australia chiefly as a stage for suffering and calamity.
+  - name: Willie Smith
+    description: Willie Smith was an English billiards champion whose career overlapped with the dominance of Walter Lindrum, and who is mentioned in Keith Dunstan's history of Australian billiards in 'Sports' among the international figures the Lindrum family had to contend with or outlast.
   - name: Wine
     description: Wine runs through Keith Dunstan's writing as both subject and personal obsession, from a schoolboy's furtive sips of sacramental wine at Geelong Grammar to decades as a professional taster and, eventually, an amateur vigneron, all recounted at length in 'My Life with the Demon'.
   - name: Winemaking
@@ -1200,6 +1380,8 @@ topics:
     description: The Wirraway was the single-engined training aircraft the young Keith Dunstan flew during his RAAF training in 1943, chosen over the twin-engined Avro Anson in the hope of one day flying fighters.
   - name: Wolf Blass
     description: Wolf Blass is the German-born winemaker whose flamboyant, medal-laden Barossa Valley wines and showman's persona made his surname one of Australia's best known wine brands, whose childhood Christmases in Stadtlum, East Germany, Keith Dunstan collected for a column on migrants' Yuletide memories.
+  - name: Wollongong
+    description: Wollongong is the New South Wales industrial city south of Sydney, cited in 'Knockers' in the context of the Melbourne-versus-Sydney debate, its existence as a substantial rival to Sydney's hinterland relevant to the question of which city truly dominated the eastern seaboard.
   - name: (Reverend) H. Worrall
     description: The Reverend H. Worrall was a Geelong Methodist minister whose outrage at the murder of bookmaker 'Big Mick' McLeod at Flemington Racecourse turned him into the unlikely leader of Melbourne's 1906 anti-gambling crusade, culminating in a march on Parliament House with thousands of followers singing 'Onward Christian Soldiers', an episode Keith Dunstan told at length in 'Wowsers'.
   - name: Xavier College
@@ -1222,6 +1404,8 @@ topics:
     description: Charles Bannerman was the Australian opening batsman who scored international cricket's first Test century against England at the Melbourne Cricket Ground in 1877.
   - name: Charles Dickens
     description: Charles Dickens was the English novelist whom Melbourne caterers Spiers and Pond hoped to bring to Australia before substituting H. H. Stephenson's touring cricket eleven.
+  - name: Charles Kean
+    description: Charles Kean was the celebrated Shakespearean actor who toured Australia with his wife Ellen in 1863, forming a famously low opinion of Melbourne's climate and the general quality of antipodean life.
   - name: Charles Howard
     description: Charles Howard directed Santa Claus Inc. of Albion, New York, the original American Santa Claus training school founded in 1937, whose curriculum and reindeer-breeding advice Myer imported wholesale to run its own Melbourne Santa Claus School in 1963.
   - name: Douglas Jardine

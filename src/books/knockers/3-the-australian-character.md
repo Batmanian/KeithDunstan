@@ -225,4 +225,5 @@ Perhaps we should leave it to Marcus Clarke, for he wrote the most fantastic of 
 It is, however — perhaps fortunately — impossible that we shall live to see this stupendous climax.
 
 <hr>
-Back to chapter two: <a href="{{ '/books/knockers/2-the-australian-landscape/' | url }}">The Australian Landscape</a>
+<p>Back to chapter two: <a href="{{ '/books/knockers/2-the-australian-landscape/' | url }}">The Australian Landscape</a><br>
+Continue to chapter four: <a href="{{ '/books/knockers/4-the-australian-female/' | url }}">The Australian Female</a></p>

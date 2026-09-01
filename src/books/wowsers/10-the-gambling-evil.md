@@ -2,6 +2,17 @@
 title: The Gambling Evil
 date: 1968-11-11
 summary: Traces Australian gambling culture from the colonial era to the 1950s through the saga of John Wren's Collingwood Tote, the anti-gambling crusades of the Reverend Worrall and William Henry Judkins, the flamboyant open-letter war between Judkins and Wren's ally John Norton, the doomed campaigns against starting-price bookmakers, and the long battle of the states over George Adams's Tattersall's lottery before it finally settled in Melbourne in 1954.
+sections:
+  - title: The Collingwood Tote
+    anchor: the-collingwood-tote
+  - title: The Worrall Affair
+    anchor: the-worrall-affair
+  - title: The Triumph of William Henry Judkins
+    anchor: the-triumph-of-william-henry-judkins
+  - title: Totes, Bookies and S.P. Men
+    anchor: totes-bookies-and-sp-men
+  - title: The Evil of Tattersall's
+    anchor: the-evil-of-tattersalls
 tags:
   - Carbine
   - Collingwood
@@ -104,7 +115,7 @@ Henry Varley's Anti-Gambling League had little effect on Melbourne. The thunder 
 
 ---
 
-## The Collingwood Tote
+<h2 id="the-collingwood-tote">The Collingwood Tote</h2>
 
 If [*unclear reference*] — and the Opening of the Library, Gallery and Museum — nay the Battle of Stalingrad — tells something of the mood of the period and the man who reigned as the gambling God, John Wren. Better than anything else it tells something of the mood of the Collingwood Tote.
 
@@ -183,7 +194,7 @@ In 1895 the Victoria Racing Club folded their outlook on the Totes. *Norton's Tr
 
 ---
 
-## The Worrall Affair
+<h2 id="the-worrall-affair">The Worrall Affair</h2>
 
 In 1906, Detective Sergeant David O'Donnell was forty-seven years old. Big Dave everyone called him. He had a formidable, bushy dark beard and he was formidable by nature. 'I do not cut, shuffle, or deal with betting men,' he said. 'I never made a bet in my life.' He had no doubts about his own ability as a police officer. His career in charge of the detective force on the Richmond squad had been to investigate frauds, forgeries, embezzlements and such. He had served in Egypt and one posting in Colombo.
 
@@ -291,7 +302,7 @@ The Worrall Affair was over. Yet the remarkable thing about the whole story is t
 
 ---
 
-## The Triumph of William Henry Judkins
+<h2 id="the-triumph-of-william-henry-judkins">The Triumph of William Henry Judkins</h2>
 
 The Edwardian era was a time for passionate campaigning against sin. Almost everything was evil: mixed bathing, dancing, theatres, racing. In August 1906 there was a deputation to the Premier, Mr Bent, of several dozen nicely-minded people of Melbourne.
 
@@ -364,7 +375,7 @@ That was the end of the Collingwood Tote era. Betting shops closed down. The pol
 
 ---
 
-## Totes, Bookies and S.P. Men
+<h2 id="totes-bookies-and-sp-men">Totes, Bookies and S.P. Men</h2>
 
 A South Australian Royal Commission once tried to get to the bottom of the gambling problem: what was it that made good South Australians gamble? It was a fundamental problem: the urge to be ranked with the Collingwood Tote, a South Australian, as a species of criminal, they had to gamble, the force of the people's habits was so strong that it came back to illegitimate forms — the urge to acquire wealth, an idle dream. Occasionally it was an idle dream to take a risk for pleasurable gain.
 
@@ -455,7 +466,7 @@ Yet the gambling situation was always, at its best, a matter of local convenienc
 
 ---
 
-## The Evil of Tattersall's
+<h2 id="the-evil-of-tattersalls">The Evil of Tattersall's</h2>
 
 There are sixteen or eighteen sweepstakes in King Street, there are 16 or 18 of them and they exist beyond the reach of the large constitutions.<a href="#58"><sup>58</sup></a>
 
@@ -542,7 +553,7 @@ In Hobart the negotiations went on. Three hours before the Premier, Mr Cain, was
 
 ---
 
-## The Press Conference
+<h2 id="the-press-conference">The Press Conference</h2>
 
 The news that Tattersall's was about to leave Hobart after fifty years had electrified the trustees of the George Adams fortune. The trustees called his press conference. They were very nervous. There were tears in some quarters. George Adams, who had spent many years in Tasmania, contributing £1 million a year to Consolidated Revenue, had advised his ticket offices through a lottery manager, of course, that his lottery might perhaps have to return to New South Wales.
 
