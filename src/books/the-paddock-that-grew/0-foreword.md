@@ -3,10 +3,13 @@ title: Foreword
 date: 1962-01-01
 summary: Sir Edmund Herring's foreword to 'The Paddock That Grew', recalling the M.C.G.'s landmark cricket moments from W. G. Grace and the first Test match of 1877 through to his own boyhood memory of Victor Trumper making a pair in 1908.
 tags:
+  - 1956 Olympic Games
+  - Charles Bannerman
+  - Marylebone Cricket Club
   - Melbourne Cricket Club
   - Melbourne Cricket Ground
   - Victor Trumper
-  - W G Grace
+  - W. G. Grace
 ---
 
 This is a book that is going to give a great deal of pleasure to a much wider public than members of the Melbourne Cricket Club. For it recounts in a highly entertaining way the history of what may well be described as a great national institution. No history of Melbourne, or for that matter of Victoria or Australia, would be complete without some record of the part played by this remarkable club in the life of the community and in the development and management of international cricket.

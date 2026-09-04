@@ -16,6 +16,10 @@
 ordered version below (see postcontent.njk for the mobile summary, which
 moves up into the article header there instead of appearing here). -->
 <div class="bg-light p-4 rounded d-none d-md-block">
+{% if bookContext and not excludeBookContext %}
+  <p class="small text-muted fst-italic mb-2">{{ bookContext }} This is his column about {{ title }}.</p>
+  <hr>
+{% endif %}
   <p class="lead">
         {{ summary }}
       </p>

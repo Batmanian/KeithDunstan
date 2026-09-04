@@ -24,6 +24,8 @@
 
 **Default layout (`layouts/post.njk`) and collection tag** (`book` or `article`) are set per-collection by `src/books/books.json` and `src/articles/articles.json` — don't repeat them in frontmatter.
 
+**'A Day in the Life of Australia' sidebar context:** Every chapter in this book (except the Introduction) shows a context note at the top of the sidebar: "Commissioned by 'The Age' newspaper to celebrate Australia's bicentennial in 1988, Keith wrote a historical account of Australia's history for each day of the year. This is his column about [title]." This is driven by a `bookContext` field in `src/books/a-day-in-the-life-of-australia/a-day-in-the-life-of-australia.json` and rendered conditionally in `blogsidebar-single.njk`. New chapter files in this directory inherit it automatically; add `excludeBookContext: true` to any front-matter file (like the Introduction) where the phrasing doesn't apply.
+
 **Token budget:** For token-heavy tasks (large subagent fan-outs, bulk transcription/triage runs, big searches), don't spend more than ~75% over a typical session's usage unless the user explicitly directs otherwise. If a task looks like it'll blow past that, pause and check in rather than running it to completion.
 
 **Key constraints:**

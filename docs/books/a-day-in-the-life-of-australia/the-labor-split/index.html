@@ -1,0 +1,466 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Labor Split</title>
+<meta name="title" content="The Labor Split">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="The Australian Labor Party fractures in March 1955 after Dr Evatt attacks the Movement, an internal anti-Communist group with close ties to the Catholic Bishops, leading to the sacking of the Victorian ALP executive, the suspension of 24 parliamentarians, John Cain&#39;s government reduced to 25 of 65 votes, and the emergence of a new breakaway State Parliamentary Labor Party whose leader the commentator Clive Turnbull sees turning Victoria into a little France of chaotic politics.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/a-day-in-the-life-of-australia/the-labor-split/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="The Labor Split">
+<meta property="og:description" content="The Australian Labor Party fractures in March 1955 after Dr Evatt attacks the Movement, an internal anti-Communist group with close ties to the Catholic Bishops, leading to the sacking of the Victorian ALP executive, the suspension of 24 parliamentarians, John Cain&#39;s government reduced to 25 of 65 votes, and the emergence of a new breakaway State Parliamentary Labor Party whose leader the commentator Clive Turnbull sees turning Victoria into a little France of chaotic politics.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="The Labor Split">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/a-day-in-the-life-of-australia/the-labor-split/">
+<meta name="twitter:title" content="The Labor Split">
+<meta name="twitter:description" content="The Australian Labor Party fractures in March 1955 after Dr Evatt attacks the Movement, an internal anti-Communist group with close ties to the Catholic Bishops, leading to the sacking of the Victorian ALP executive, the suspension of 24 parliamentarians, John Cain&#39;s government reduced to 25 of 65 votes, and the emergence of a new breakaway State Parliamentary Labor Party whose leader the commentator Clive Turnbull sees turning Victoria into a little France of chaotic politics.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="The Labor Split">
+<link rel="canonical" href="https://keithdunstan.org/books/a-day-in-the-life-of-australia/the-labor-split/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1988-03-31">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="A Day In The Life Of Australia">
+<meta property="article:tag" content="Arthur Calwell">
+<meta property="article:tag" content="Herbert Evatt">
+<meta property="article:tag" content="Henry Bolte">
+<meta property="article:tag" content="John Cain">
+<meta property="article:tag" content="Victoria">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">The Labor Split</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            3
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1988-03-31">1988</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            The Australian Labor Party fractures in March 1955 after Dr Evatt attacks the Movement, an internal anti-Communist group with close ties to the Catholic Bishops, leading to the sacking of the Victorian ALP executive, the suspension of 24 parliamentarians, John Cain&#39;s government reduced to 25 of 65 votes, and the emergence of a new breakaway State Parliamentary Labor Party whose leader the commentator Clive Turnbull sees turning Victoria into a little France of chaotic politics.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="A Day In The Life Of Australia">
+         <!--<a href="/tags/arthur-calwell/" class="btn btn-outline-dark btn-sm me-2">Arthur Calwell</a><a href="/tags/herbert-evatt/" class="btn btn-outline-dark btn-sm me-2">Herbert Evatt</a><a href="/tags/henry-bolte/" class="btn btn-outline-dark btn-sm me-2">Henry Bolte</a><a href="/tags/john-cain/" class="btn btn-outline-dark btn-sm me-2">John Cain</a><a href="/tags/victoria/" class="btn btn-outline-dark btn-sm me-2">Victoria</a>-->
+
+        
+      </header>
+      <div class="article-body"><p>The Australian Labor Party is in ruins and it is very hard to see its future.</p>
+<p>Last October the Federal Leader, Dr Evatt, launched a bitter attack on an inside group in the party, which was trying to take over ALP policy.</p>
+<p>So much of this has been innuendo, nobody coming out in the open. From what we can gather, inside the Labor Party there is a group known to some as 'The Movement'. Now the Movement has a very close alliance with the Bishops of the Roman Catholic Church, which has been distressed over the ALP's soft line towards Communists. The Movement formed industrial groups to fight Communism within the unions.</p>
+<p>Headquarters for the Movement has been in Victoria. Dr Evatt moved in, sacked the Victorian ALP executive and appointed a new one.</p>
+<p>The old executive refused to resign, so we experienced the ludicrous situation where both the 'old' and the 'new' executives went to the Hobart ALP conference.</p>
+<p>Yesterday we had one of the most dramatic days in the history of State politics. Twenty-four parliamentarians who attended a meeting of the 'old' executive have been suspended. Amongst them are seven federal members: Joshua, Cremean, Keon, Andrews, Bryson, Bourke and Devlin. Amongst the 17 State members, four are ministers: Mr Barry (Health), Mr Hayes (Housing), Mr Coleman (Honorary Minister) and Mr Scully (Honorary Minister) have been sacked from Cabinet. Mr Coleman has been selected as leader of the breakaway party, and Mr Barry, leader in the lower house. They are calling themselves the State Parliamentary Labor Party. So now we have two Labor parties in Victoria.</p>
+<p>Mr John Cain, the Labor Premier, has called on the Governor, Sir Dallas Brooks, tendered his resignation and has received a Commission to reconstruct his Government. But it is all a very bad dream. Now Cain can command only 25 votes of the 65 in the House. The leaders of the new party, Coleman and Barry, have written to the Premier saying that in no circumstances will their party support any further vote for supply.</p>
+<p>On the Federal side, Mr Arthur Calwell has remained loyal to Dr Evatt and the traditional ALP. He is still convinced there will be a reconciliation, but it is difficult to see how it can happen; feelings are running deep. Supporters of the sacked old executive are saying they are pledged to fight Communism, but this new Evatt executive had a non-aggression pact with the Communist party. The Communists were holding John Cain a prisoner.</p>
+<p>Dr Evatt says the unholy, secret anti-Labor alliance backed by Mr B.A. Santamaria will soon 'be shattered by public exposure and the growing determination of the rank and file of Labor'. Commentator, Clive Turnbull, has a despairing story today. He says:</p>
+<p>Stable Government becomes a dream. Victoria becomes a kind of little France, not the France of French cooking or oo-la-la, but the France of chaotic politics, blown one way or another while the country slides still further down hill.</p>
+<p>It is inevitable as the start of the football season that we will have an election and neither of the two Labor parties will have a ghost of a chance. The Liberal-Country leader is a man named Henry Bolte, whom nobody knows much about. Many people see him as a very unlikely prospect as Premier.</p>
+<p>Further reading: The Movement, Paul Ormonde.</p>
+</div>
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+
+  <p class="small text-muted fst-italic mb-2">Commissioned by &#39;The Age&#39; newspaper to celebrate Australia&#39;s bicentennial in 1988, Keith wrote a historical account of Australia&#39;s history for each day of the year. This is his column about The Labor Split.</p>
+  <hr>
+
+  <p class="lead">
+        The Australian Labor Party fractures in March 1955 after Dr Evatt attacks the Movement, an internal anti-Communist group with close ties to the Catholic Bishops, leading to the sacking of the Victorian ALP executive, the suspension of 24 parliamentarians, John Cain&#39;s government reduced to 25 of 65 votes, and the emergence of a new breakaway State Parliamentary Labor Party whose leader the commentator Clive Turnbull sees turning Victoria into a little France of chaotic politics.
+      </p>
+
+
+<hr>
+<h4 class="h6">Topics in this item</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/arthur-calwell/" class="link-secondary">Arthur Calwell</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Arthur Calwell">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Henry Bolte">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/herbert-evatt/" class="link-secondary">Herbert Evatt</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Herbert Evatt">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/john-cain/" class="link-secondary">John Cain</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="John Cain">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/victoria/" class="link-secondary">Victoria</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Victoria">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/arthur-calwell/" class="link-secondary">Arthur Calwell</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Arthur Calwell">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Henry Bolte">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/herbert-evatt/" class="link-secondary">Herbert Evatt</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Herbert Evatt">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/john-cain/" class="link-secondary">John Cain</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="John Cain">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/victoria/" class="link-secondary">Victoria</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Victoria">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

@@ -3,11 +3,19 @@ title: Introduction
 date: 1974-01-01
 summary: An updated introduction added for a later printing of 'The Paddock That Grew', describing the roar of a full M.C.G. at the 1961 Fifth Test against the West Indies and the ground's growth from the 1877 first Test to the 1970 VFL Grand Final crowd of 121,696.
 tags:
+  - 1956 Olympic Games
   - Bill O'Reilly
+  - Carlton
+  - Clem Hill
   - Colin McDonald
+  - Collingwood
+  - Fred Spofforth
   - Keith Miller
+  - Len Hutton
+  - Melbourne Cricket Club
   - Melbourne Cricket Ground
   - Sir Donald Bradman
+  - W. G. Grace
   - Wesley Hall
 ---
 

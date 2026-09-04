@@ -100,6 +100,8 @@ Contents list sourced from `src/wowsers.njk`.
 | 9 | The Evil of the Printed Word | ✅ | |
 | 10 | The Gambling Evil | ⬜ | No file exists; original has 5 sub-sections (The Collingwood Tote, The Worrall Affair, The Triumph of William Henry Judkins, Totes Bookies and S.P. Men, The 'Evil' of Tattersall's) |
 
+**Image rights — pending:** A photograph of Keith Dunstan and Barry Humphries has been placed in `src/books/wowsers/images/`. Permission to reproduce it in low resolution on this website must be sought from the **Herald and Weekly Times Photographic Archive** before it can be published. Do not add the image to any live page until clearance is confirmed.
+
 **Change found 15 Aug 2026:** chapters 3–8 were previously tracked here as empty `.mx` placeholder stubs (`title: XX`, `tags: XXX`, no body text). Those six files no longer exist in the working tree — `git status` shows them as uncommitted deletions, so they're still recoverable from git history (`git show HEAD:src/books/wowsers/3-the-evil-of-the-demon-drink.mx`, etc.) if that turns out to be unintentional. Not caused by this session; cause and intent unconfirmed — worth checking with Jack before assuming they should stay deleted.
 
 **Also fixed since last update:** the previously-reported `hrex`-typo/wrong-book-link bug in `src/wowsers.njk`'s Contents list is gone — chapters 3–10 now render as plain, unlinked text (`<li>Chapter N: Title</li>`), not broken links into `my-life-with-the-demon`. Correct as a placeholder until each chapter has its own file to link to.

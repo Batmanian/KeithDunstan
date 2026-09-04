@@ -1,0 +1,571 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Sydney Opera House</title>
+<meta name="title" content="The Sydney Opera House">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="A chronological compendium of knocks aimed at the Sydney Opera House from 1962 to 1971, from Noel Coward&#39;s &#39;Danish Blue&#39; to Sir Tyrone Guthrie&#39;s &#39;mish-mash of buildings&#39;, tracing the battles with Joern Utzon, the steadily ballooning cost, and the running comparisons with Melbourne&#39;s own architectural failures.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/knockers/9-the-sydney-opera-house/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="The Sydney Opera House">
+<meta property="og:description" content="A chronological compendium of knocks aimed at the Sydney Opera House from 1962 to 1971, from Noel Coward&#39;s &#39;Danish Blue&#39; to Sir Tyrone Guthrie&#39;s &#39;mish-mash of buildings&#39;, tracing the battles with Joern Utzon, the steadily ballooning cost, and the running comparisons with Melbourne&#39;s own architectural failures.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="The Sydney Opera House">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/knockers/9-the-sydney-opera-house/">
+<meta name="twitter:title" content="The Sydney Opera House">
+<meta name="twitter:description" content="A chronological compendium of knocks aimed at the Sydney Opera House from 1962 to 1971, from Noel Coward&#39;s &#39;Danish Blue&#39; to Sir Tyrone Guthrie&#39;s &#39;mish-mash of buildings&#39;, tracing the battles with Joern Utzon, the steadily ballooning cost, and the running comparisons with Melbourne&#39;s own architectural failures.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="The Sydney Opera House">
+<link rel="canonical" href="https://keithdunstan.org/books/knockers/9-the-sydney-opera-house/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1972-01-01">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="Knockers">
+<meta property="article:tag" content="Barry Humphries">
+<meta property="article:tag" content="Harry Seidler">
+<meta property="article:tag" content="James Morris">
+<meta property="article:tag" content="Joan Sutherland">
+<meta property="article:tag" content="Joern Utzon">
+<meta property="article:tag" content="John Gorton">
+<meta property="article:tag" content="National Gallery of Victoria">
+<meta property="article:tag" content="Robin Boyd">
+<meta property="article:tag" content="Sir Robert Menzies">
+<meta property="article:tag" content="Sydney Opera House">
+<meta property="article:tag" content="Walter Burley Griffin">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">The Sydney Opera House</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            11
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1972-01-01">1972</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A chronological compendium of knocks aimed at the Sydney Opera House from 1962 to 1971, from Noel Coward&#39;s &#39;Danish Blue&#39; to Sir Tyrone Guthrie&#39;s &#39;mish-mash of buildings&#39;, tracing the battles with Joern Utzon, the steadily ballooning cost, and the running comparisons with Melbourne&#39;s own architectural failures.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="Knockers">
+         <!--<a href="/tags/barry-humphries/" class="btn btn-outline-dark btn-sm me-2">Barry Humphries</a><a href="/tags/harry-seidler/" class="btn btn-outline-dark btn-sm me-2">Harry Seidler</a><a href="/tags/james-morris/" class="btn btn-outline-dark btn-sm me-2">James Morris</a><a href="/tags/joan-sutherland/" class="btn btn-outline-dark btn-sm me-2">Joan Sutherland</a><a href="/tags/joern-utzon/" class="btn btn-outline-dark btn-sm me-2">Joern Utzon</a><a href="/tags/john-gorton/" class="btn btn-outline-dark btn-sm me-2">John Gorton</a><a href="/tags/national-gallery-of-victoria/" class="btn btn-outline-dark btn-sm me-2">National Gallery of Victoria</a><a href="/tags/robin-boyd/" class="btn btn-outline-dark btn-sm me-2">Robin Boyd</a><a href="/tags/sir-robert-menzies/" class="btn btn-outline-dark btn-sm me-2">Sir Robert Menzies</a><a href="/tags/sydney-opera-house/" class="btn btn-outline-dark btn-sm me-2">Sydney Opera House</a><a href="/tags/walter-burley-griffin/" class="btn btn-outline-dark btn-sm me-2">Walter Burley Griffin</a>-->
+
+        
+      </header>
+      <div class="article-body"><p>The Sydney Opera House or the pyramids — the Pharaohs did not have the benefit of a Lottery. The continuing story of the $100,000 Opera House Lottery made the extraction of the money relatively painless.</p>
+<p>It all began with the Cahill Labor Government which wanted to prove to all the world that the Australian Labor Party was not without a feeling for culture. There is little recorded history to explain what agonies took place with the construction of the Cheops Pyramid, but the Sydney Opera House certainly caused more agonies, more architectural problems than any building in modern history.</p>
+<p>The battles and the infighting with Joern Utzon went on for ten years. The Opposition in the State Parliament found the Opera House a heaven-sent implement with which to taunt the Government. When the Liberals came to power in 1965 Utzon had to deal with a new tough Minister for Public Works, Mr David Hughes. Hughes was appalled at the steadily rising costs and was convinced that all the problems of this thing, that was threatening to envelop everything like an amoeba, could be pinned onto Joern Utzon. In February 1966 he made a move to downgrade him from controlling architect to design consultant.</p>
+<p>This, of course, Utzon would not accept. There was a protest march through the city of a thousand architects, artists, and Utzon supporters. In the Royal Australian Institute of Architects there were rival groups — the 'Utzon in Charge' group and the 'Utzon Go Home' group. Seventy-five of the eighty-five members of the government architects' office signed a statement that nobody but Utzon should finish the building.</p>
+<p>The Sydney University Architects' Club printed Michelangelo's unhappy letters over the problems he had with St Peter's over sixteenth-century knockers. A Sydney sculptor went on a three-day hunger strike and one protester kept sending telegrams to the Premier with the message 'Do Not Crucify Utzon This Easter'.</p>
+<p>On 28 April 1966, Joern Utzon, a sadly disappointed man, left Australia under an assumed name with his wife and family. Other architects were appointed to complete his Opera House. He had left it for ever. The Opera House, which some enthusiasts described as the building of the century, became a running joke.</p>
+<p>Here is a chronological list of knocks.</p>
+<p><em>Circa 1962.</em> Gag repeated in every column in the country: Danish Blue.</p>
+<p><em>1 June 1962.</em> British <!-- [illegible passage] -->: 'It will have a splendid structural appearance from the point of view of looks, but I am convinced that it <!-- [illegible passage] --> companies.'</p>
+<p><em>18 January 1963.</em> <!-- [illegible passage] -->: 'It is too monumental on one side, at the sacrifice of being a functional one.'</p>
+<p><em>April 1963. Leader of NSW Opposition, Mr R. W. Askin:</em> 'The Opera House finances have gone from the East to put up hospital fees.'</p>
+<p><em>3 June 1963. Noel Coward:</em> 'Very nice, I suppose, although I'm not sure it will ever be ready? My considered opinion is that a much less efficient country could have got the job done long ago.'</p>
+<p><em>Circa 1964. Sydney</em> joke: 'A Goanna petrified Moby Dick and dressed him for orchestral music.'</p>
+<p><em>Circa 1965. Sydney taxi-driver:</em> 'The first building that because Brisbane kept the white man's <!-- [illegible passage] --> should open with 221 bars.'</p>
+<p><em>1 July 1965. Sir Tyrone Guthrie:</em> 'Although Australia would be in order, I might consider the Sydney Opera House a stock joke that a lot of the world is not giggling at. It will lift Sydney out of its imitation of British suburban <!-- [illegible passage] -->.'</p>
+<p><em>29 July 1965. Russian pianist, Pavel Serebryakov:</em> 'It looks like a — upside down.'</p>
+<p><em>5 October 1965.</em> <!-- [illegible passage] --> squinted unenthusiastically at the £5,000,000 Opera House, still far from completion. 'It might have been cheaper,' he said, 'if they built it over there and sailed it across.'</p>
+<p><em>October 1965. A letter from the NSW Premier, Mr Askin:</em> The <!-- [illegible passage] --> should contain 500 poker machines, 25 bar-room tables, and a TAB office with closed circuit TV.</p>
+<p><em>Circa 1965. Joan Sutherland:</em> 'That great effigy.'</p>
+<p><em>Circa 1965. Sir John Barbirolli:</em> 'A piece of Danish pastry.'</p>
+<p><em>Circa 1965. Norman Ayrton, British producer of the Sutherland–Williamson Opera Company:</em> 'Preposterous. Hilarious.'</p>
+<p><em>Circa 1965. Solicitor, David Griffin:</em> 'The New South Whale.'</p>
+<p><em>29 July 1965. Alan Trengove:</em> 'An Opera House — there would be some sense in it if we were getting a Madison Square Garden or a few more race tracks. But Opera? . . . It's just not part of the Sydney tradition.'</p>
+<p><em>1 March 1966. Noel Hawken:</em> 'Harborside cynics are suggesting that a suitable work to open the building, when it is finished in the 1970s, would be an opera about building the Opera House.'</p>
+<p>Titles suggested by Sydney wits include 'Joern Drivin' Me Crazy', 'The Biggest New South Whale', and 'Danish Pastry Blues'.</p>
+<p>Ideas for orchestral motifs already differ over there. Some say that because Bennelong Point was the spot where Governor Phillip kept the white man's first captive aboriginal the orchestra should open with 221 bars on didjeridoos. [The highest roof sail will be 221 feet high.] Others say that as Bennelong Point was the site of Sydney's oldest tram sheds loud cracked bells would be in order.</p>
+<p><em>7 March 1966. Joan Hammond:</em> 'Sydney Opera House? Pah, it's not even a real opera house. It's a mammoth, money-swallowing concern. Anyone who has got anything to do with it should hang his head in shame.'</p>
+<p><em>10 March 1966. E. W. Tipping:</em> 'One suggestion is that if they can't finish the Sydney Opera House without Mr Utzon they could turn it into a Luna Park. Yes — with the motto: &quot;Just for funds!&quot; '</p>
+<p><em>13 March 1966. Sydney architect, Walter Bunning:</em> 'The many failures of the project are world-shattering. Contrary to much that has been written, the Sydney Opera House, from the functional point of view, will be a second-rate building when compared with the Lincoln Center Opera House being built in New York, which is due to open in October. The Lincoln Center has a higher seating capacity at about half the cost, and will have taken less than half the time to build.'</p>
+<p><em>19 March 1966. The Herald:</em> 'Sydney's in strife trying to finish off an opera house. Melbourne's got no use for an old opera house that became the Tivoli. If the worse comes to the worst, we could buy those sails and put them on the Tiv. — and beat Sydney to the punch. Again!'</p>
+<p><em>10 April 1967. Harry Seidler:</em> 'The extraordinary thing was that a man of Utzon's daring could ever have won such a contest. An architect, I cannot but bitterly regret that this marvellous concept will not be finished as he wanted it.'</p>
+<p><em>22 May 1967. Marie Collier:</em> 'They have no right to call it an opera house. Its main function will be for symphonies.'</p>
+<p><em>22 May 1967. Giuseppe di Stefano:</em> 'I may not know much about Australia, but I do know about opera. I say that the Sydney opera house project is futile. I think they are crazy to think opera in Sydney can succeed.'</p>
+<p><em>5 February 1968. Beverley Nichols:</em> 'I thought it looked as if it was something that had crawled out of the sea and was up to no good. It reminds me of one of those films where giant ants and things take over.'</p>
+<p><em>19 February 1968. Robert Feist, conductor:</em> 'Architecturally it will go down in history, but it's just not suitable for opera.'</p>
+<p><em>14 September 1968. Laurie Thomas:</em> 'Fairly large models — large enough for you to get inside them — of the concert hall and of the opera hall, showing their seating, their walls and their ceilings, fill one with a sense of despair. The smaller opera hall is not too bad. Its walls and ceilings have a simple, prismatic look of fairly clean planes. But the concert hall is a disaster. It has the air of an extraordinarily fussy Town Hall. The ceiling is covered with knobs that can only be described as inverted teats. The walls are like cardboard concertinas, the organ placed in a stepped upright shape too corny to be believed. Above the stage dangle giant saucers or reflector discs. . . . What has happened to the curved ceilings designed by Utzon?'</p>
+<p><em>25 August 1970. Sir Tyrone Guthrie:</em> 'Some grand mistakes have been made and I won't mince matters — the Sydney Opera House is one of them. It is just a mish-mash of buildings, and quite inadequate. The stage won't take an opera or ballet of world-standard size. . . . I don't know how many millions it <!-- [illegible passage] --> the hanging space.'</p>
+<!-- [illegible passage] --> 1971: A letter from Ceylon <!-- [illegible passage] --> the most elegant form. <!-- [illegible passage] --> the Cosmos Centre, which is also the <!-- [illegible passage] --> Melbourne's knocking as the more prominent. The Melbourne Arts Centre, queuing to schedule <!-- [illegible passage] --> The Arts Centre was also one of the most internationally <!-- [illegible passage] --> arts centre in Toorak. The <!-- [illegible passage] --> groups of men following <!-- [illegible passage] --> according to <!-- [illegible passage] --> of an international competition. Roy Grounds <!-- [illegible passage] --> unlike Joern Utzon, Mr Grounds's estimate <!-- [illegible passage] --> Actually Mr <!-- [illegible passage] --> the first stage was <!-- [illegible passage] --> $16 million. But <!-- [illegible passage] --> and 1968 this was <!-- [illegible passage] --> Bolte, was able to make <!-- [illegible passage] --> indulge in the vulgarity of <!-- [illegible passage] --> Some could not abide <!-- [illegible passage] --> and Guy Boyd, the sculptor, said it from the outside 'dull and unimagimative'. This did not go down well. In August 1968, he <!-- [illegible passage] --> very few operas <!-- [illegible passage] --> are very <!-- [illegible passage] -->
+<p>Sir Henry still refused to revoke the laws on capital punishment. He found this an awesome remark.</p>
+<p>Some did not approve of the entrance with the water running down the plate glass. Barry Humphries said it reminded him of old-fashioned butcher shops, which always used running water on their windows to help to cool the meat. He also said: 'The Cultural Centre and King's Bridge are Melbourne's own independent deterrents — we can only hope these terrible weapons will not be used.'</p>
+<p>There was high praise from distinguished visitors, but those who did not approve received excellent news coverage. Mr Norman Bromelle, keeper of the department of conservation at London's Victoria and Albert Museum and secretary-general of the International Institute for the Conservation of Historic and Artistic Works, said: 'I didn't like it at all. The whole place seemed to me to be pretty poor, dismal and depressing. In the interior there are deficiencies in both lighting and background. One fault may have been, I think, that the people in charge have not consulted enough and seriously enough with all kinds of people on the gallery staff.' He said a museum should be a bright, lively place, where mini-skirts were welcomed, full of the colour and beauty of the young.</p>
+<p>Another distinguished visitor was Mr J. M. Richards, Britain's leading architectural critic, and editor of the <em>Architectural Review</em>. He was merciless about the leading buildings in Sydney, Canberra and Melbourne, but on his first day in Melbourne he neglected to see the Arts Centre. However, enthusiasts for his judgement made sure that he went there. He described it as 'Australia's answer to Coventry Cathedral and similarly independent of the main stream of modern architecture, giving no impression of leading Australian architecture in any constructive new direction.' He found the gallery visually restless, with so many changes of material and conflicts of shape. His summing-up: 'Too many ideas seem to be chasing too few convictions.'</p>
+<p>There was controversy over a 20-cent admission charge. 'What other civilised gallery would impose a charge like this?' There was controversy over the decision to put the Victorian coat of arms over the entrance. Norma Redpath was commissioned to do the job, but Patrick McCaughey of the <em>Age</em> thought it a wilful misuse of talent.</p>
+<p>He said: 'What other new museum in the world would seriously contemplate putting a crest or a coat of arms up on its walls in an uneasy compromise between State piety and artistic patronage?'</p>
+<p>There was much praise, at the opening. Dr A. van Schendel, director of Amsterdam's Rijksmuseum, described the gallery as an extraordinary achievement, one of the wonders of the world.</p>
+<p>Some of the sharper knocks came later, and the sharpest came from one of Australia's most imaginative photographers, Gordon De'Lisle. It appeared in the <em>Australian</em> under the heading 'A Nice Little Art Gallery':</p>
+<p>Reading the popular outpourings on Melbourne's Arts Centre, one feels that one is drowning in parochial, marshmallow self-congratulation . . . and it seems high time that some debunking was done.</p>
+<p>When I first met the architect, Roy Grounds, some twenty years ago, he had just completed his Toorak home, a grey stone house with a court in the middle; a house literally turned inside out, such as was popular in the United States at that time. What Grounds, innocent of new notions, has now perpetrated, is simply three such houses, laid end-to-end in a unit.</p>
+<p>The building squats, featureless, like an obscure grey telephone exchange, floating in already scungy moats floored with lolly papers on St Kilda Road, and hovering like a bleak penitentiary suspended over an acre or two of ferro-concrete to Sturt Street.</p>
+<p>The facade is indeed so self-effacing as to be without pride in itself. The Great Hall is a bitter, terrible disappointment. French's ceiling is indeed superb, but its support is a veritable forest of black poles, gaunt as a monk's chorus, littering the airspace and thudding enormous, powerful values back at the whole thing, which is rendered an aesthetically emasculated cumbersomeness.</p>
+<p>Great cathedrals with twenty times this airspace were built clean-floored in the thirteenth century; with all of today's technology at his command, Grounds has been able to come up with nothing better than an elegant-ceilinged hayshed.</p>
+<p>The galleries themselves are pleasant enough, and well-lit on the hanging areas . . . but, one should perceive with downcast eyes; a glance upward distracts with endless vistas of angle-iron, plastic and gimerack plywood.</p>
+<p>Let's be honest: what Mrs Everage would call a 'nice little gallery', we <!-- [illegible passage] --> original idea to <!-- [illegible passage] --></p>
+<p>Let's hope Canberra does <!-- [illegible passage] --></p>
+</div>
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+
+  <p class="lead">
+        A chronological compendium of knocks aimed at the Sydney Opera House from 1962 to 1971, from Noel Coward&#39;s &#39;Danish Blue&#39; to Sir Tyrone Guthrie&#39;s &#39;mish-mash of buildings&#39;, tracing the battles with Joern Utzon, the steadily ballooning cost, and the running comparisons with Melbourne&#39;s own architectural failures.
+      </p>
+
+
+<hr>
+<h4 class="h6">Topics in this item</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/barry-humphries/" class="link-secondary">Barry Humphries</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Barry Humphries">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/harry-seidler/" class="link-secondary">Harry Seidler</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Harry Seidler">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/james-morris/" class="link-secondary">James Morris</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="James Morris">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/joan-sutherland/" class="link-secondary">Joan Sutherland</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Joan Sutherland">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/joern-utzon/" class="link-secondary">Joern Utzon</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Joern Utzon">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/john-gorton/" class="link-secondary">John Gorton</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="John Gorton">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/national-gallery-of-victoria/" class="link-secondary">National Gallery of Victoria</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="National Gallery of Victoria">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/robin-boyd/" class="link-secondary">Robin Boyd</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Robin Boyd">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/sir-robert-menzies/" class="link-secondary">Sir Robert Menzies</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sir Robert Menzies">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/sydney-opera-house/" class="link-secondary">Sydney Opera House</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sydney Opera House">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/walter-burley-griffin/" class="link-secondary">Walter Burley Griffin</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Walter Burley Griffin">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/barry-humphries/" class="link-secondary">Barry Humphries</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Barry Humphries">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/harry-seidler/" class="link-secondary">Harry Seidler</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Harry Seidler">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/james-morris/" class="link-secondary">James Morris</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="James Morris">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/joan-sutherland/" class="link-secondary">Joan Sutherland</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Joan Sutherland">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/joern-utzon/" class="link-secondary">Joern Utzon</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Joern Utzon">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/john-gorton/" class="link-secondary">John Gorton</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="John Gorton">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/national-gallery-of-victoria/" class="link-secondary">National Gallery of Victoria</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="National Gallery of Victoria">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/robin-boyd/" class="link-secondary">Robin Boyd</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Robin Boyd">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/sir-robert-menzies/" class="link-secondary">Sir Robert Menzies</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sir Robert Menzies">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/sydney-opera-house/" class="link-secondary">Sydney Opera House</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sydney Opera House">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/walter-burley-griffin/" class="link-secondary">Walter Burley Griffin</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Walter Burley Griffin">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

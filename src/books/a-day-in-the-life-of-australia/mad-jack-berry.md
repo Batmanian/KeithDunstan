@@ -1,0 +1,31 @@
+---
+title: Mad Jack Berry
+date: 1988-01-08
+summary: Victoria's Premier Graham Berry earns the nickname 'Mad Jack Berry' after sacking 278 public servants in a single day, a drastic response to the Legislative Council's rejection of his bill to pay members of Parliament three hundred pounds a year.
+tags:
+  - Victoria
+---
+
+We are calling today 'Black Wednesday'. Why? You will remember on 6 February 1851, Victoria was set aflame by bushfires, and by 11.00 a.m. the temperature in Melbourne had reached 117 degrees, so we called it 'Black Thursday'. Black Wednesday is worse.
+
+Our Premier, Mr Graham Berry, has just sacked 278 public servants. Mr Berry is an ex-grocer and a radical. He has fought for protection, a land tax for monopolists and, in particular, he has tried to break down the privilege and exclusive power of the upper house, the Legislative Council.
+
+His present aim is to get payment for politicians, an extraordinary move really. Many people believe if you actually pay politicians you will get all sorts of riff raff in Parliament. The Honourable W. Degraves put it very well in the Legislative Council:
+
+I intend to vote against the Bill and if I have a seat in the House for the next 10 years I will vote against it. I look upon it as nothing more nor less than an encouragement to a parcel of political loafers to come here and do as they please. If we had payment for members I have no doubt we should have political loafers introduced in larger numbers, and they would keep the country in a state of uproar from one year's end to another and I look upon it as a downright attempt to loot the Treasury.
+
+Mr Henry Wrixon MLA said 'Give money to politicians and you get the poor and meansless, who have not succeeded in prosecuting any business successfully'.
+
+Mr Berry, very slyly, slipped payment for members on the end of the Appropriation Bill. The Legislative Assembly passed it but, on 20 December, the Legislative Council rejected it. The members were to get £30 a year.
+
+Mr Berry did not resign or call for an election. If there was no money to be had, he took other measures. He just sacked all these public servants. The 278 include departmental heads, police magistrates, county court judges, coroner and Crown prosecutor and field wardens.
+
+The Age is sympathetic to Mr Berry in his plight, but other leading articles are blistering. They are calling him 'Mad Jack Berry' and 'Jerry Bunkum'. Melbourne Punch so disapproves of this idea of paying members of Parliament, it has produced a song that it calls 'The Lay of the Liberal MLA':
+
+Three hundred a Year!
+Three hundred a Year!
+What a glorious grab is 300 a year.
+To the loafer, and beggar and bankrupt how dear
+Is the chance of a clutch of 300 a year.
+
+The Governor, Sir George Bowen, is coming under terrible criticism for agreeing to Mr Berry's action. But I'm worried about all these public servants. They have only discovered their plight this morning. Most of them, I fear, will be destitute, whereas I am sure the unpaid politicians will survive.

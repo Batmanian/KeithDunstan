@@ -2,6 +2,7 @@
 title: Introduction
 date: 1989-11-11
 summary: Age editor Creighton Burns' idea behind 'A Day in the Life of Australia' explained, matching each day of 1988 with historical events from the same date across Australia's past two hundred years.
+excludeBookContext: true
 tags:
 ---
 <a href="https://en.wikipedia.org/wiki/Creighton_Burns">Creighton Burns</a>, Editor of the Age in Melbourne, had the original idea. He said: 'Why not celebrate Australia's Bicentenary this way? Take events that you find interesting, then go through the diary day by day in 1988 and match them with the same day in some year during the previous two hundred.

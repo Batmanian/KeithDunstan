@@ -1,0 +1,802 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The First Cricket Matches</title>
+<meta name="title" content="The First Cricket Matches">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Follows the Melbourne Cricket Club&#39;s earliest contests, its lean years, the celebrations of Victoria&#39;s separation and the colony&#39;s first intercolonial matches against Van Diemen&#39;s Land.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/the-paddock-that-grew/3-the-first-cricket-matches/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="The First Cricket Matches">
+<meta property="og:description" content="Follows the Melbourne Cricket Club&#39;s earliest contests, its lean years, the celebrations of Victoria&#39;s separation and the colony&#39;s first intercolonial matches against Van Diemen&#39;s Land.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="The First Cricket Matches">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/the-paddock-that-grew/3-the-first-cricket-matches/">
+<meta name="twitter:title" content="The First Cricket Matches">
+<meta name="twitter:description" content="Follows the Melbourne Cricket Club&#39;s earliest contests, its lean years, the celebrations of Victoria&#39;s separation and the colony&#39;s first intercolonial matches against Van Diemen&#39;s Land.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="The First Cricket Matches">
+<link rel="canonical" href="https://keithdunstan.org/books/the-paddock-that-grew/3-the-first-cricket-matches/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1962-01-01">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="The Paddock That Grew">
+<meta property="article:tag" content="Batman&#39;s Hill">
+<meta property="article:tag" content="Brighton">
+<meta property="article:tag" content="Charles La Trobe">
+<meta property="article:tag" content="Clunes">
+<meta property="article:tag" content="Geelong">
+<meta property="article:tag" content="John Pascoe Fawkner">
+<meta property="article:tag" content="Launceston">
+<meta property="article:tag" content="Melbourne Cricket Club">
+<meta property="article:tag" content="Port Phillip">
+<meta property="article:tag" content="Robert Russell">
+<meta property="article:tag" content="Tasmania">
+<meta property="article:tag" content="Van Diemen&#39;s Land">
+<meta property="article:tag" content="Victoria">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">The First Cricket Matches</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            18
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1962-01-01">1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Follows the Melbourne Cricket Club&#39;s earliest contests, its lean years, the celebrations of Victoria&#39;s separation and the colony&#39;s first intercolonial matches against Van Diemen&#39;s Land.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="The Paddock That Grew">
+         <!--<a href="/tags/batman&amp;#39;s-hill/" class="btn btn-outline-dark btn-sm me-2">Batman&#39;s Hill</a><a href="/tags/brighton/" class="btn btn-outline-dark btn-sm me-2">Brighton</a><a href="/tags/charles-la-trobe/" class="btn btn-outline-dark btn-sm me-2">Charles La Trobe</a><a href="/tags/clunes/" class="btn btn-outline-dark btn-sm me-2">Clunes</a><a href="/tags/geelong/" class="btn btn-outline-dark btn-sm me-2">Geelong</a><a href="/tags/john-pascoe-fawkner/" class="btn btn-outline-dark btn-sm me-2">John Pascoe Fawkner</a><a href="/tags/launceston/" class="btn btn-outline-dark btn-sm me-2">Launceston</a><a href="/tags/melbourne-cricket-club/" class="btn btn-outline-dark btn-sm me-2">Melbourne Cricket Club</a><a href="/tags/port-phillip/" class="btn btn-outline-dark btn-sm me-2">Port Phillip</a><a href="/tags/robert-russell/" class="btn btn-outline-dark btn-sm me-2">Robert Russell</a><a href="/tags/tasmania/" class="btn btn-outline-dark btn-sm me-2">Tasmania</a><a href="/tags/van-diemen&amp;#39;s-land/" class="btn btn-outline-dark btn-sm me-2">Van Diemen&#39;s Land</a><a href="/tags/victoria/" class="btn btn-outline-dark btn-sm me-2">Victoria</a>-->
+
+        
+      </header>
+      <div class="article-body"><p>The inaugural meeting of the M.C.C. was on November 15, 1838. The first cricket match was a week later on November 22, 1838. They played on a paddock which is now the site of the Royal Mint in William Street. It was one of the few clear pieces of land in the town, but later the M.C.C. men found something better, a cricket ground west of Spencer Street, the home of the future Spencer Street Railway Station.</p>
+<p>This first match was between the civilians and the military. Robert Russell, who lived until his 92nd year and died in 1900, said as an old man that he could remember little about it, except that no uniform was worn and the civilians won. But the <em>Port Phillip Gazette</em> of December 1, 1838, gives this report:</p>
+<blockquote>
+<p>Pleasure and recreation are absolutely necessary to relieve our minds and bodies from too constant attention and labour with truly gratified feelings there. Did we not witness the gentlemen of the district assemble last Saturday week on the beautiful pleasure grounds around this fast-rising town, to bring into practice one of the most elegant and manly sports that can be enjoyed? Yes, it was pleasurable to witness those whose mental and enterprising minds had turned this, but short time since wilderness, into a busy emporium of traffic, relinquishing for a time their occupations and writings. These efforts to establish sports such as these.</p>
+<p>During the week arrangements had been made by the gentlemen civilians of the district to play a match at cricket again at the military. Captain Smyth, with the enthusiasm natural to him, and desirous of forwarding everything either really beneficial or of useful amusement, was joined by many of those who had retired from the Services, but whose hearts are still with it, mustered on the ground a company with which they would have attempted a more stirring contest.</p>
+<p>It was a heartening sight to witness from an adjacent hill the ground as it was laid out. Camps pitched, banners tastefully arranged, and all the enlivening smiles of beauty that would have graced a far-famed tournament of other time, formed a scene which we trust often again to witness.</p>
+<p>At 12 o'clock precisely, a signal called the players to their post, when the game commenced, the Military taking the first innings. We have not the particulars of the game in full, but briefly notice those who particularly distinguished themselves. After a duration of several hours the game terminated in a triumph on the part of the club, principally owing to the bowling and fielding, and Mr. Russell's batting. On the whole, the game displayed on the part of both corps, a judgment and an activity that a first-rate club might be proud of.</p>
+</blockquote>
+<p>So the Melbourne Cricket Club won.</p>
+<p>The Melbourne Cricket Club did not have all the good cricketers. There were the retailers, the tradesmen and the artisans. They banded together to form 'The Melbourne Union Cricket Club.' On January 12, 1839, the gentlemen of the M.C.C. played the tradesmen. The tradesmen beat the gentlemen so mercilessly that as a point of honour it was necessary to have a return match on January 19. This time the gentlemen won comfortably. The M.C.C. president, Gentleman Powlett, scored 120 runs, the first century to be scored in the colony. The star of the tradesmen was Mr. Thomas Halfpenny, a strapping mountain of a man. He did well both at batting and wicketkeeping.</p>
+<p>The greatest problem of all was to organise suitable matches. There were only two cricket clubs. They couldn't continue interminably playing each other Saturday after Saturday. So the committee members had to think of matches that were a trifle different. They played the Benedicts v. Bachelors. The husbands won, and Husband Powlett scored a total of 101 out of 180. There were more matches between the military and the civilians, alphabetical games, the first half of the alphabet against the second half, and a match which caused great interest was the Whiskers v. Clean Shaven contest. It took the Gold Rush of 1851 to bring the beard to its full glory of goatee, mutton chop, squatter's gap, Lord Dundreary, or the unlimited growth as exhibited by Dr. Grace. Before then the majority of the men in the colony were clean-shaven. The beards won by seven wickets. As for Mr. Powlett, history does not record how many runs Bearded Powlett made.</p>
+<p>The next club to be formed was at Brighton. It was a good area, some very fine villas were being built at this fashionable resort. Their cricket team was a good one, so good that the M.C.C. did not have one victory against Brighton between 1842 and 1845. For example, on Easter Monday, March 24, 1845, there was a splendid turnout of the fashionable world at the Batman's Hill ground. The match was played in the presence of Superintendent La Trobe, Crown Prosecutor Croke, Deputy-Sheriff McKenzie and Crown Solicitor Gurner. In the first innings Melbourne made 70, Brighton 55. Then there was a spell of half an hour, when there were plenty of good old fashioned colonial refreshments. Melbourne returned to make only 35 and Brighton 70. Brighton's bowling was so skilful that according to one cricket authority it would 'do honour to Kent any time.'</p>
+<p>One fascinating story has gone into history about this game. One of the players was a Mr. John Highett. He was a rich man, a gentleman 'whose purse never was below the low water mark.' This time he had £500 in bank notes in one of his top pockets, which was a vast sum of money when you think £3 a week was a very attractive wage. Well, Mr. Highett put down his jacket complete with the £500, and went out to play cricket. At dressing time when he returned, the coat, £500 and all, was gone. Mr. Highett had to return home coatless.</p>
+<p>The next day the coat was found all nicely tied up in a parcel and addressed to the Chief Constable. But there was no clue to the identity of the thief or the whereabouts of the money. Garryowen comments primly: 'There can be little doubt that the paper money was promptly placed in the melting pot of the publicans and thus put into speedy liquidation.'</p>
+<p>The forties was a tough period for the M.C.C. The price of wool and wheat had fallen disastrously and they were known as the 'Hungry Forties.' There are blank spaces in the minutes where the club very nearly went out of existence, only to be revived again. On November 1, 1841, there was an election, the first that gives us a complete list of office-bearers.</p>
+<blockquote>
+<p>President: F. A. Powlett.<br>
+Vice-President: H. F. Gurner (Crown Solicitor).<br>
+Honorary Secretary: G. Cavenagh.<br>
+Honorary Treasurer: W. V. McVittie.</p>
+</blockquote>
+<p>Cavenagh was to become a powerful force in the club. He was president from 1846–49, 1850–54, and he won the batting average for the 1846–47 season. He was a man full of energy. In 1836 he was joint editor of the <em>Sydney Gazette</em>, but he wanted to get out on his own. So he came to Melbourne, where he started as sole proprietor of the <em>Port Phillip Herald</em>, first published on January 8, 1840. He imported staff and an editor, William Kerr, from England, and he put in the first steam printing press ever used in Victoria. In 1849 his newspaper became the <em>Melbourne Herald</em>.</p>
+<p>Entrance fee remained at one guinea, and by 1847 there were 127 members. Some of them were interesting. There was Mr. W. C. Haines, for example, who in 1856 became Victoria's first Premier under responsible government. There was Dr. Patrick Cussen, president of the first Medical Association, and almost certainly a relative of Sir Leo Cussen, who was later a great president of the club. Dr. Cussen was famous, too, for performing the first surgical operation in the colony. He successfully removed the hand of a soldier which had been blown off in the accidental discharge of a blunderbuss when firing a salute for Lady Franklin on the occasion of her visit to the colony in 1841.</p>
+<p>In 1844, also, there was the cricket match at Geelong. This was something of an endurance test. One team went by horse and cart, a two-day drive. For the 1847 M.C.C. team it was different. They embarked on the steamer <em>Aphrasia</em>, then sailed for eight hours so that they could start the match in Geelong on time at noon. For the return match the teams got together in the evening at the Shakespeare Hotel, at the corner of Collins and Market Streets.</p>
+<p>In 1848 the club moved to a site on the south bank of the Yarra, between the river and Emerald Hill (now South Melbourne). It was the paddock where John Pascoe Fawkner in 1836 raised the first wheat in the colony. The club secretary, Mr. Cavenagh, asked Superintendent La Trobe for use of the land, and supported his request with the suggestion that Sir George Gipps had granted a similar request to the Australian Cricket Club in Sydney. Furthermore, Sir George had even supplied them with a team of convicts to help turf the wicket. Mr. Cavenagh did not receive any convicts, but he did get the 10 acres of land. Immediately the club put up a wooden booth, a vast improvement on the tent it had at Batman's Hill. A four-rail fence went in at a cost of £30/13/4, and the club turfed part of the area for £24/13/6.</p>
+<p>On August 1, 1850, the Colonies Bill passed through the House of Commons in London, which gave separation to the Port Phillip Settlement from New South Wales. Victoria was to be a brand new colony. Naturally this intelligence had to come to Australia by ship, and the news did not reach Melbourne until the morning of November 11.</p>
+<p>After months of rumour this was it. Melbourne went cockahoop; that's the only way you could describe it. There was a 21-gun salute in the Flagstaff Gardens, which was answered by firing the guns of all the vessels in the Bay. Immediately after the salute His Worship the Mayor, Cr. Nicholson, released a balloon which carried the great Separation news written on sheets of parchment.</p>
+<p>At sunset the Mayor fired a beacon on Flagstaff Hill, which was answered by bonfires on hill after hill throughout the settlement. There was a display of fireworks and rockets on Punt Road Hill, South Yarra, which the <em>Argus</em> described as the greatest ever seen in the Colony (presumably N.S.W.). Furthermore, this was an occasion that would go down in the history of the world. The Mayor declared that Thursday, Friday and Saturday were to be public holidays when no work was to be done. The newspapers by agreement took the unprecedented step of not publishing for four days. They gave the reason that not a single worker should be left out of the celebrations. The <em>Argus</em> pointed out that even though this was happening perhaps the sun would continue to rise.</p>
+<p>On Wednesday, November 13, it was the city of 100,000 lights. There were tar barrels blazing in the streets, which continued until a shower of rain put them out at 9 p.m. Every business, every hotel, had a sign up announcing WELCOME TO SEPARATION. Mr. Cashmore, the Collins Street draper, had a transparency which depicted one balloon marked MELBOURNE above another balloon marked SYDNEY. Sydney was saying: 'We can't hold on any longer.' And Melbourne replied: 'Let it go then, we can take care of ourselves.'</p>
+<p>There were dinners, there was a big gymnastics display at Emerald Hill, there was free beer, and on the Friday there was a procession watched by 10,000 for the opening of the new Princes Bridge, an occasion long awaited in the settlement. The celebrations continued for nearly a fortnight.</p>
+<p>Although the new Act did not come into effect until July 1, 1851, the M.C.C. could hardly wait to launch an Intercolonial Cricket Match. So they decided to issue a challenge for the gentlemen of Port Phillip versus the gentlemen of Van Diemen's Land, the match to be played at Launceston on a date to be arranged and depending on the steamer <em>Shamrock</em> to arrive at that place.</p>
+<p>Mr. H. A. Smith offered to take the M.C.C. team of 13 to Launceston and back on the <em>Shamrock</em> for £5 a head. A special general meeting of the club agreed to this, and they fixed the date for February 11, 12, 1851. It was proposed by G. E. Bell, seconded by Dr. Ford, who was the first vaccinator in the colony, that the M.C.C. should have a special uniform for the big match. The committee talked it over for some time, then decided to adopt the colours red, white and blue. That was well over a century ago, and they have been the official colours of the M.C.C. ever since.</p>
+<p>It was a very serious business. The committee appointed Messrs. Campbell, Bell and Powlett selectors. They fixed Tuesdays, Thursdays and Saturdays for practice. Furthermore, it went into the official minutes that if any member selected, living within two miles of the town, absented himself more than one day in the week out of the three set apart for practice, without being able to give a satisfactory reason in writing for his absence, then he would be fined one guinea. Sadly, Mr. Powlett sprained his ankle and could not play, but what with players like W. Philpott, T. F. Hamilton and Clyde Lister there was no question the M.C.C. would be too strong for the Islanders.</p>
+<p>At this time the population of Port Phillip was 97,489, the population of Melbourne 23,143.</p>
+<p>It was just as well that the match was on, for there was a heat wave over Victoria and the colony was suffering from disastrous bushfires. The <em>Argus</em> reported that the whole sky was red, and from the city it was possible to see the flames of the Dandenongs. In the town of Dandenong only one building was left standing and that was the Dandenong Inn. But the fires were everywhere, and Portland reported temperatures ranging between 112 and 116.</p>
+<p>Meanwhile in Launceston there was another disaster. The Van Diemen's Land team won by two runs with three wickets still intact.</p>
+<p>The Islanders were very decent about it. It was reported: 'As a mark of kindness and good feeling of the Tasmanians towards the Port Phillipians, not the slightest breath of applause escaped from the multitude, numbering over 1500, but a marked silence ensued as though they had committed a breach of hospitality to their guests. This generous and manly feeling will not soon be forgotten by those who witnessed it.'</p>
+<p>While the M.C.C. team was there it had a marvellous time. Indeed, it was even suggested, judging from some members' play, that it was too good. After the match they went for the day to the William Field Enfield Estate at Bishopsbourne, and also for a trip by coach to Hobart. The players stayed at the Cornwall Hotel. This same hotel was actually the birthplace of Melbourne. It was there that John Batman and a party of graziers laid their plans for an expedition to Port Phillip in 1835. Then on the night of February 11, 1851, 100 gentlemen of Port Phillip and Van Diemen's Land sat down to dinner. After the dinner there was a ball.</p>
+<p>This was one newspaper report:</p>
+<blockquote>
+<p>No sooner had the <em>Shamrock</em> discharged her passengers at Launceston than the whole town was in a buzz, each and every person trying to outdo his neighbour in every kind attention which the most genuine hospitality could suggest. Everybody invited everybody, and the difficulty was to partake of all that was offered. From the time of landing to the time of embarking, the same spirit continued, dinners, balls, musical parties, picnics, and every description of entertainment was got up to give a hearty welcome to the strangers from Port Phillip. On the morning of the departure from Launceston, and as an indication of the good fellowship and friendly feeling displayed, the Launceston Band volunteered their services to enliven the scene and cheer the return of the cricketers. It accordingly formed past the Cornwall Hotel, the headquarters of the Victorians, and played several tunes in first-class style, amongst them <em>Home Sweet Home</em>.</p>
+<p>The Tasmanian cricketers also met them, and the two elevens, with their friends, walked arm in arm to the steamer, the band playing before them. On their arrival at the wharf, <em>God Save the Queen</em> was played, and Mr. Philpott, in a few brief remarks, thanked the assembled multitude for their unbounded kindness, and especially for the last pleasing demonstration at parting. The Victorians assembled on the deck of the <em>Shamrock</em> echoed the feelings of Mr. Philpott with a thrice renewed explosion of cheers, a compliment loudly reciprocated on the shore.</p>
+</blockquote>
+<p>As for the cricket, it was played on the old racecourse and the ground was almost incredibly rough. This could partly explain the low scores. The Port Phillipians were baffled by the very slow and peculiar bowling of the Tasmanians, whereas the Tasmanians did not know how to handle the fast bowling of the Port Phillipians.</p>
+<p>This was the score sheet:</p>
+<table>
+<thead>
+<tr>
+<th>Port Phillip, 1st Innings</th>
+<th style="text-align:right">Runs</th>
+<th>Port Phillip, 2nd Innings</th>
+<th style="text-align:right">Runs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cooper, b. McDowell</td>
+<td style="text-align:right">4</td>
+<td>Hamilton, lbw., b. McDowell</td>
+<td style="text-align:right">35</td>
+</tr>
+<tr>
+<td>W. Philpott, c. Maddox, b. McDowell</td>
+<td style="text-align:right">17</td>
+<td>Brodie, c. Tabart, b. Henty</td>
+<td style="text-align:right">5</td>
+</tr>
+<tr>
+<td>Hamilton, b. McDowell</td>
+<td style="text-align:right">10</td>
+<td>Hall, lbw., b. McDowell</td>
+<td style="text-align:right">6</td>
+</tr>
+<tr>
+<td>Lister, run out</td>
+<td style="text-align:right">10</td>
+<td>Lister, c. Maddox, b. Field</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td>Thomson, b. McDowell</td>
+<td style="text-align:right">1</td>
+<td>Thomson, b. Henty</td>
+<td style="text-align:right">0</td>
+</tr>
+<tr>
+<td>R. Philpott, b. Henty</td>
+<td style="text-align:right">12</td>
+<td>W. Philpott, run out</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td>Antill, stumped Marshall</td>
+<td style="text-align:right">0</td>
+<td>Cooper, b. Henty</td>
+<td style="text-align:right">0</td>
+</tr>
+<tr>
+<td>Brodie, c. Henty, b. McDowell</td>
+<td style="text-align:right">17</td>
+<td>R. Philpott, c. Westbrooke, b. Henty</td>
+<td style="text-align:right">1</td>
+</tr>
+<tr>
+<td>Marsden, b. Henty</td>
+<td style="text-align:right">2</td>
+<td>Marsden, b. McDowell</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td>Hall, not out</td>
+<td style="text-align:right">6</td>
+<td>Harvey, c. McDowell, b. —</td>
+<td style="text-align:right">1</td>
+</tr>
+<tr>
+<td>Harvey, b. Henty</td>
+<td style="text-align:right">0</td>
+<td>Antill, not out</td>
+<td style="text-align:right">0</td>
+</tr>
+<tr>
+<td>Byes</td>
+<td style="text-align:right">1</td>
+<td>Byes</td>
+<td style="text-align:right">1</td>
+</tr>
+<tr>
+<td>Leg Byes</td>
+<td style="text-align:right">2</td>
+<td><strong>Total</strong></td>
+<td style="text-align:right"><strong>57</strong></td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td style="text-align:right"><strong>82</strong></td>
+<td>Time: 1 hour 20 minutes</td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Total for two innings: 139</strong></p>
+<table>
+<thead>
+<tr>
+<th>Van Diemen's Land, 1st Innings</th>
+<th style="text-align:right">Runs</th>
+<th>Van Diemen's Land, 2nd Innings</th>
+<th style="text-align:right">Runs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Du Croz, b. Antill</td>
+<td style="text-align:right">27</td>
+<td>Du Croz, b. Antill</td>
+<td style="text-align:right">6</td>
+</tr>
+<tr>
+<td>J. Marshall, c. Lister, b. Antill</td>
+<td style="text-align:right">13</td>
+<td>Giblin, b. Antill</td>
+<td style="text-align:right">1</td>
+</tr>
+<tr>
+<td>Field, b. Antill</td>
+<td style="text-align:right">0</td>
+<td>Westbrooke, c. Cooper, b. Antill</td>
+<td style="text-align:right">4</td>
+</tr>
+<tr>
+<td>Maddox, b. Antill</td>
+<td style="text-align:right">1</td>
+<td>Tabart, not out</td>
+<td style="text-align:right">15</td>
+</tr>
+<tr>
+<td>Gibson, b. Hamilton</td>
+<td style="text-align:right">8</td>
+<td>Field, c. Thomson, b. Brodie</td>
+<td style="text-align:right">1</td>
+</tr>
+<tr>
+<td>Westbrooke, b. Antill</td>
+<td style="text-align:right">10</td>
+<td>Gibson, b. Antill</td>
+<td style="text-align:right">1</td>
+</tr>
+<tr>
+<td>Arthur, b. Antill</td>
+<td style="text-align:right">1</td>
+<td>Marshall, c. &amp; b. Antill</td>
+<td style="text-align:right">0</td>
+</tr>
+<tr>
+<td>Tabart, b. Hamilton</td>
+<td style="text-align:right">2</td>
+<td>Arthur, c. Harvey, b. Antill</td>
+<td style="text-align:right">0</td>
+</tr>
+<tr>
+<td>Giblin, not out</td>
+<td style="text-align:right">7</td>
+<td>McDowell, not out</td>
+<td style="text-align:right">4</td>
+</tr>
+<tr>
+<td>Henty, b. Antill</td>
+<td style="text-align:right">0</td>
+<td>Byes</td>
+<td style="text-align:right">3</td>
+</tr>
+<tr>
+<td>McDowell, c. and b. Hamilton</td>
+<td style="text-align:right">11</td>
+<td>Wides</td>
+<td style="text-align:right">2</td>
+</tr>
+<tr>
+<td>Byes</td>
+<td style="text-align:right">10</td>
+<td><strong>Total, 7 (dec.)</strong></td>
+<td style="text-align:right"><strong>37</strong></td>
+</tr>
+<tr>
+<td>Leg Byes</td>
+<td style="text-align:right">6</td>
+<td></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td>Wides</td>
+<td style="text-align:right">8</td>
+<td></td>
+<td style="text-align:right"></td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td style="text-align:right"><strong>104</strong></td>
+<td></td>
+<td style="text-align:right"></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Total for two innings: 141</strong></p>
+<p>After the match the Melbourne team presented £5 to the Launceston Church of England Grammar School, the oldest public school in Australia, as a donation towards its building fund. It was then five years old. In return the headmaster, Mr. Kane, sent the M.C.C. a map of Van Diemen's Land as a gift from himself and the boys.</p>
+<p>And the <em>Launceston Chronicle</em> very kindly printed this:</p>
+<blockquote>
+<p>We are much gratified by the visit of these gentlemen, as fine a specimen of mankind as could be seen in the world. Everyone is speaking in the most enthusiastic terms of them. The opinions of the people are highly complimentary, having heard so much of the Melbournites as being a rough set, blue shirts and black pipes being invariably coupled with the names of the Port Phillipians. The contrary is obviously the case.</p>
+</blockquote>
+<p>The Victorians were keen to return the hospitality of the Tasmanians as soon as possible, but it wasn't easy. They hadn't reckoned on the discovery of gold. The first gold strike was at Clunes in July 1851, followed by strikes at Warrandyte, then Ballarat, which was to become one of the richest surface goldfields ever known.</p>
+<p>La Trobe, the first Lieutenant-Governor of Victoria, wrote on October 10, 1851:</p>
+<blockquote>
+<p>Within the last three weeks the towns of Melbourne and Geelong and their large suburbs have been in appearance nearly emptied of their male inhabitants; the streets which, for a week or ten days, were crowded by drays loading with the outfit for the workings, are now seemingly deserted. Not only have the idlers, and day labourers in town and country, thrown up their employment and run off to the workings, but responsible tradesmen, farmers, clerks and not a few of the superior classes have followed. Cottages are deserted, houses to let, business is at a standstill, and even schools are closed. In some of the suburbs not a man is left, and the women for their own protection group together to keep house. The ships in the harbour are in a great measure deserted, and we hear of instances where even masters of vessels, foreseeing the impossibility of maintaining control over their men otherwise, have made up parties among them to go shares.</p>
+</blockquote>
+<p>The <em>Melbourne Morning Herald</em> said:</p>
+<blockquote>
+<p>The whole city is 'gold mad.' Richmond is a deserted village, so far as the lords of creation are concerned, only one grey-headed old gentleman of some seventy summers being left . . .</p>
+</blockquote>
+<p>So you can imagine, in such a state of chaos, the difficulties of trying to play cricket. The return match did not take place until March 30, 1852. Then it proved an almost impossible problem to get canvas for the public tents. All the canvas had gone with the diggers to the goldfields. Yet eventually they did get a large marquee and a tent.</p>
+<p>Play was due to start at 11 a.m. sharp, and any player who was not at his post was liable for a fine of £2. Whatever the state of the game lunch was to be taken at 1.30 p.m. Mr. Yewers, the caterer, was under contract to furnish a luncheon including three dozen bottles of champagne each day, the wine to be approved, he taking the chance of a greater or lesser number. Even though there were seven breweries in the colony at the time, it was the custom in those days for gentlemen cricketers always to have champagne at lunch and apparently French champagne too. This continued right up until the eighteen-eighties, when standards slipped. The M.C.C. made a ruling and the cricketers switched to beer.</p>
+<p>For the big match His Excellency and suite, both the Judges, and most of the elite of Melbourne were present. There were several thousand spectators. The ground on the south side of the river was in perfect condition and well-rolled. According to the reports, the large marquee for the use of the members contained a table loaded with the good things of life, to which a large party, including a great number of ladies, sat down at luncheon and did ample justice to the viands. It was said that at times the popping of champagne corks drowned the conversation. The players dined in the wooden shed used by the club in their matches. After toasting each other in champagne they resumed the game.</p>
+<p>This time Victoria made the score even. They had a victory of 61 runs, by making 80 in the first innings and 125 in the second. Tasmania made 55 in the first innings and 81 in the second. Hamilton made 42 runs in both innings for Victoria and Powlett made 1 and 33.</p>
+</div>
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+
+  <p class="lead">
+        Follows the Melbourne Cricket Club&#39;s earliest contests, its lean years, the celebrations of Victoria&#39;s separation and the colony&#39;s first intercolonial matches against Van Diemen&#39;s Land.
+      </p>
+
+
+<hr>
+<h4 class="h6">Topics in this item</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/batman&#39;s-hill/" class="link-secondary">Batman&#39;s Hill</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Batman&#39;s Hill">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/brighton/" class="link-secondary">Brighton</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Brighton">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/charles-la-trobe/" class="link-secondary">Charles La Trobe</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Charles La Trobe">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/clunes/" class="link-secondary">Clunes</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Clunes">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/geelong/" class="link-secondary">Geelong</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Geelong">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/john-pascoe-fawkner/" class="link-secondary">John Pascoe Fawkner</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="John Pascoe Fawkner">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/launceston/" class="link-secondary">Launceston</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Launceston">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne-cricket-club/" class="link-secondary">Melbourne Cricket Club</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne Cricket Club">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/port-phillip/" class="link-secondary">Port Phillip</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Port Phillip">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/robert-russell/" class="link-secondary">Robert Russell</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Robert Russell">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/tasmania/" class="link-secondary">Tasmania</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Tasmania">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/van-diemen&#39;s-land/" class="link-secondary">Van Diemen&#39;s Land</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Van Diemen&#39;s Land">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/victoria/" class="link-secondary">Victoria</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Victoria">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/batman&#39;s-hill/" class="link-secondary">Batman&#39;s Hill</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Batman&#39;s Hill">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/brighton/" class="link-secondary">Brighton</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Brighton">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/charles-la-trobe/" class="link-secondary">Charles La Trobe</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Charles La Trobe">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/clunes/" class="link-secondary">Clunes</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Clunes">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/geelong/" class="link-secondary">Geelong</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Geelong">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/john-pascoe-fawkner/" class="link-secondary">John Pascoe Fawkner</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="John Pascoe Fawkner">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/launceston/" class="link-secondary">Launceston</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Launceston">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne-cricket-club/" class="link-secondary">Melbourne Cricket Club</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne Cricket Club">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/port-phillip/" class="link-secondary">Port Phillip</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Port Phillip">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/robert-russell/" class="link-secondary">Robert Russell</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Robert Russell">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/tasmania/" class="link-secondary">Tasmania</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Tasmania">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/van-diemen&#39;s-land/" class="link-secondary">Van Diemen&#39;s Land</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Van Diemen&#39;s Land">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/victoria/" class="link-secondary">Victoria</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Victoria">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

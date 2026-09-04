@@ -254,6 +254,8 @@ topics:
     description: Bernard 'Midget' Farrelly (1944-2016) was a pioneering Australian surfer who won the inaugural official World Surfing Championship at Manly in 1964, becoming one of Australian surfing's first national idols.
   - name: Bernarr Macfadden
     description: Bernarr Macfadden was the American physical-culture guru interviewed by Keith Dunstan at 83, fresh from parachuting into the Hudson River, who ate grass and chewed mahogany for his gums and predicted he'd live to 125, though he in fact died four years later.
+  - name: Bert Hinkler
+    description: Bert Hinkler was the Australian aviator who made the first solo flight from England to Australia in 1928, completing the 11,000-mile journey in fifteen and a half days; his arrival at Canberra Government House was one of the rare occasions that drew the Governor-General, Lord Stonehaven, back to the capital.
   - name: Bertram Stevens
     description: Bertram Stevens was the Premier of New South Wales who was approached about purchasing a rival Captain Cook birthplace cottage in Marton, Yorkshire, to erect at Kurnell as a counterweight to Melbourne's Cook's Cottage, only for it to be discovered that the Marton cottage had been demolished in 1786, as Keith Dunstan recounted in 'Knockers'.
   - name: Betty Cuthbert
@@ -336,6 +338,8 @@ topics:
     description: Carlton and United Breweries was Victoria's dominant brewing company, formed by an early-twentieth-century merger and long the state's de facto beer monopoly under its autocratic managing director Reg 'Foge' Fogarty, whose grip on price and supply Keith Dunstan chronicled in both the Bulletin and 'My Life with the Demon'.
   - name: Castlemaine
     description: Castlemaine is a Victorian goldfields town where Henry Upton Alcock of Alcock & Co. opened his own slate quarry to supply the billiard tables he made at his Russell Street factory, avoiding the need to import slate from England.
+  - name: Charles La Trobe
+    description: Charles Joseph La Trobe was Victoria's first Lieutenant-Governor from 1839 to 1854, a man historians have generally treated with sympathy, but whose tenure was savagely attacked by the Argus, which called him an incubus and a snake, mobilised public meetings to demand his recall, and pronounced the deathknell of his administration, only to discover that Her Gracious Majesty ignored the whole thing.
   - name: Chateau Tahbilk
     description: Chateau Tahbilk is one of Australia's oldest wineries, founded in 1860 on the Goulburn River near Nagambie and run for six decades by the elegant, Rolls-Royce-driving Eric Purbrick, whose gift of a spare brewery barrel first let Keith Dunstan buy and lay down wine in bulk.
   - name: Chelsea Flower Show
@@ -750,6 +754,8 @@ topics:
     description: John Snow was the English fast bowler whose complaints about hostile, piranha-like Australian crowds during the 1970-71 Ashes tour Keith Dunstan quoted at length to open 'Sports', including Snow's own account of trading words with a jeering ten-year-old at the MCG.
   - name: John Wren
     description: John Wren was a Melbourne businessman who built his fortune on the illegal Collingwood Tote and rose from underworld figure to widely admired public benefactor largely through his generosity to the Collingwood Football Club, a case study Keith Dunstan used to show that sporting patronage could launder almost any reputation.
+  - name: Joern Utzon
+    description: Joern Utzon was the Danish architect who won the 1956 international competition for the Sydney Opera House with a brilliant shell-form design, then spent a decade fighting over costs and control before leaving Australia under an assumed name in April 1966, never to return, leaving others to complete what he had conceived.
   - name: Jules Lefebvre
     description: Jules Lefebvre (1836–1911) was a French academic painter and Chevalier of the Légion d'honneur who painted Chloe in Paris in 1875; the work won the gold medal of honour at the Paris Salon of 1876 and became Melbourne's most famous painting after it was shipped to the 1880 International Exhibition and eventually hung in the saloon bar of Young and Jackson's Hotel.
   - name: Julius Sumner Miller
@@ -808,6 +814,8 @@ topics:
     description: Lord Casey was Richard Casey, Australian politician and Governor-General, whose views on native wildlife conservation Keith Dunstan cited in 'Sports' as part of the slow official turn towards protection of species that colonial sporting culture had spent a century depleting.
   - name: Lord Harris
     description: Lord Harris captained England's 1878-79 cricket tour of Australia and endured a full-scale pitch invasion at the Sydney Cricket Ground after a disputed umpiring decision, a riot that soured Anglo-Australian cricket relations for years.
+  - name: Lord Stonehaven
+    description: Lord Stonehaven was Australia's Governor-General from 1925 to 1930, whose persistent absence from Canberra drew public comment in the Labor Daily; he was sufficiently rarely seen in the capital that his Wednesday visit to receive aviator Bert Hinkler was noted as an event, and his opinion of Canberra was that its one virtue was being only 300 miles from Melbourne.
   - name: Lorne
     description: ''
   - name: Los Angeles

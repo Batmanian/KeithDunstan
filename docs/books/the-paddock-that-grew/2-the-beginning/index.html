@@ -1,0 +1,564 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Beginning</title>
+<meta name="title" content="The Beginning">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Traces the Melbourne Cricket Club&#39;s beginnings in the rough settlement of 1838, its influential founders and the extraordinary duels fought by Peter Snodgrass, Redmond Barry and F. A. Powlett.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/the-paddock-that-grew/2-the-beginning/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="The Beginning">
+<meta property="og:description" content="Traces the Melbourne Cricket Club&#39;s beginnings in the rough settlement of 1838, its influential founders and the extraordinary duels fought by Peter Snodgrass, Redmond Barry and F. A. Powlett.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="The Beginning">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/the-paddock-that-grew/2-the-beginning/">
+<meta name="twitter:title" content="The Beginning">
+<meta name="twitter:description" content="Traces the Melbourne Cricket Club&#39;s beginnings in the rough settlement of 1838, its influential founders and the extraordinary duels fought by Peter Snodgrass, Redmond Barry and F. A. Powlett.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="The Beginning">
+<link rel="canonical" href="https://keithdunstan.org/books/the-paddock-that-grew/2-the-beginning/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1962-01-01">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="The Paddock That Grew">
+<meta property="article:tag" content="Bank of Australasia">
+<meta property="article:tag" content="Batman&#39;s Hill">
+<meta property="article:tag" content="F A Powlett">
+<meta property="article:tag" content="John Batman">
+<meta property="article:tag" content="Melbourne">
+<meta property="article:tag" content="Melbourne Cricket Club">
+<meta property="article:tag" content="Ned Kelly">
+<meta property="article:tag" content="Peter Snodgrass">
+<meta property="article:tag" content="Redmond Barry">
+<meta property="article:tag" content="Robert Hoddle">
+<meta property="article:tag" content="Robert Russell">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">The Beginning</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            11
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1962-01-01">1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Traces the Melbourne Cricket Club&#39;s beginnings in the rough settlement of 1838, its influential founders and the extraordinary duels fought by Peter Snodgrass, Redmond Barry and F. A. Powlett.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="The Paddock That Grew">
+         <!--<a href="/tags/bank-of-australasia/" class="btn btn-outline-dark btn-sm me-2">Bank of Australasia</a><a href="/tags/batman&amp;#39;s-hill/" class="btn btn-outline-dark btn-sm me-2">Batman&#39;s Hill</a><a href="/tags/f-a-powlett/" class="btn btn-outline-dark btn-sm me-2">F A Powlett</a><a href="/tags/john-batman/" class="btn btn-outline-dark btn-sm me-2">John Batman</a><a href="/tags/melbourne/" class="btn btn-outline-dark btn-sm me-2">Melbourne</a><a href="/tags/melbourne-cricket-club/" class="btn btn-outline-dark btn-sm me-2">Melbourne Cricket Club</a><a href="/tags/ned-kelly/" class="btn btn-outline-dark btn-sm me-2">Ned Kelly</a><a href="/tags/peter-snodgrass/" class="btn btn-outline-dark btn-sm me-2">Peter Snodgrass</a><a href="/tags/redmond-barry/" class="btn btn-outline-dark btn-sm me-2">Redmond Barry</a><a href="/tags/robert-hoddle/" class="btn btn-outline-dark btn-sm me-2">Robert Hoddle</a><a href="/tags/robert-russell/" class="btn btn-outline-dark btn-sm me-2">Robert Russell</a>-->
+
+        
+      </header>
+      <div class="article-body"><p>Cricket and the Melbourne Cricket Club came to Melbourne in 1838 when the town was only three years old. It wasn't a place for the meek or the weak. A Port Phillipian needed a great capacity for enduring discomforts, he needed the mind of a visionary, and, just possibly, he needed a unique capacity for rum.</p>
+<p>The settlement put on strength like a hefty young calf, but there was little to take the eye. Admittedly there were brick buildings and a weatherboard here and there, but mostly Melbourne consisted of wattle and daub huts roofed with sheets of bark or coarse shingles. These houses had fences, and the front gardens now facing very famous streets grew cabbages and potatoes. Yet one outstanding impression seemed to remain with all those who could remember the time, mud. Flinders Street was a swamp. One wouldn't dare cross parts of Collins Street unless equipped with thigh boots and the idea was seriously canvassed of using a ferry or a punt in Elizabeth Street.</p>
+<p>There were logs of wood and tree stumps in the main streets. Then there were those dreadful places where a stump had been removed. The hole left behind a well of soft mud, a likely place on a dark night for a man to fall in up to his armpits.</p>
+<p>The west end of Little Flinders Street was the promising place of business, followed by Collins, Elizabeth and Bourke Streets. Swanston Street, the main artery today, was nothing at all. It was a town of young people, scarcely anyone was over 30. The men wore blue serge suits, no coats, cabbage tree hats, belts supporting tobacco pouches and sometimes pistols, breeches, high boots and spurs.</p>
+<p>Aborigines, practically naked, wandered everywhere. They did odd jobs, they helped cart water, but already they had been degraded by the white man's habits, rum and tobacco. They begged constantly for money and food. Then at nightfall, followed by their dogs, they retreated to their camps outside the town.</p>
+<p>There was no mail delivery and no public water supply. If anyone needed water then he walked down to the Yarra with a bucket. It was difficult even to know the time of day, because until 1848 there was no public clock. There were two or three watchmakers in the town, but they disagreed constantly about the time, and sometimes their claims could vary by an incredible margin.</p>
+<p>Yet the surrounding countryside was lush and very beautiful. On the river and around the swamps there were great numbers of swans, pelicans and wild duck. Kangaroos hopped through the long grass, and John Batman reported that quail flew past in great clouds, 1000 at a time.</p>
+<p>It was John Batman who on June 8, 1835, sailed his ketch 6½ miles up the Yarra, where he found good, fresh water. Then making his way through the scrub and ti-tree to what is now the corner of Collins and Market Streets, he declared that this would be the place for a village.</p>
+<p>When Robert Russell, a 28-year-old surveyor, came from Sydney a year later there were 15,000 sheep and 200 settlers in the district. In 1837 Russell drew up the plans for Melbourne, under the orders of Governor Bourke and the Lands Commissioner, Robert Hoddle. He laid it out in the beautifully precise system of rectangles that we know now. Even then he must have realised that he was designing a great city.</p>
+<p>But Russell's enterprise spread in many directions, particularly on sporting matters. He was said to be a first class gun shot. He potted duck on the marshes around Middle Park and he shot kangaroo on the river bank there by the Gardens and Alexandra Avenue.</p>
+<p>He raced a horse in the first race meeting and he played in the first cricket match. It would be nice to be able to report that cricket was the first sport played in the colony. However, some aggressive gambling traits in the Australian character were uppermost even then.</p>
+<p>Racing came first, and the meeting took place in March 1838 on the west side of Spencer Street near Batman's Hill. Now it is the site of Spencer Street Railway Station. Yet as more Government officials, more military men and graziers came to the settlement, naturally, attention turned to an even more gentlemanly sport, cricket. Robert Russell had the idea that there should be a village cricket club and he became one of the foundation members of the M.C.C.</p>
+<p>On November 15, 1838, five gentlemen met and drew up a document agreeing to form a cricket club to be called the 'Melbourne Cricket Club,' subscription one guinea.</p>
+<p>The signatories were:</p>
+<blockquote>
+<p>F. A. Powlett,<br>
+R. Russell,<br>
+Arthur Mundy,<br>
+C. F. Mundy,<br>
+George B. Smyth.</p>
+</blockquote>
+<p>They all paid their guinea and on the same day the first secretary, Mr. D. G. McArthur, bought two bats, balls and stumps for £2/0/3.</p>
+<p>Port Phillip was a small settlement, but the founders of the M.C.C. were key men. F. A. Powlett, the first president, was the Crown Land Commissioner of the Western Division of the Port Phillip Settlement and also the first Police Magistrate. It is almost certain that he was a descendant of the Rev. Charles Powlett, who took such a part in the founding of the Hambledon Club, the first cricket club in England. For years he was the best cricketer in the colony and there is one thing nobody can take away from him, he made the first century and he took the first hat-trick. He has another neat distinction. He shares with T. F. Hamilton the honour of being one of the two presidents of the M.C.C. who have represented their State or Colony at cricket.</p>
+<p>Arthur Mundy and C. F. Mundy worked for the Melbourne Insurance Company. Later they went to Adelaide. G. B. Smyth was a captain of the 80th Regiment and he was appointed captain of Mounted Police.</p>
+<p>After the first five there were other interesting members, such as D. C. McArthur. He came from Sydney to open the Bank of Australasia, Melbourne's first trading bank. It opened on August 28, 1838, in a two-roomed brick cottage on the north side of Little Collins Street, between Elizabeth and Queen Streets. An armed sentry and two mastiffs formed the guard. He was president of the M.C.C. from 1868 to 1877.</p>
+<p>There was Captain Bacchus of the 18th Light Dragoons. He became a grazier at Bacchus Marsh. There was William Highett, first manager of the Union Bank. Redmond Barry, a young barrister, and, of course, the irrepressible Peter Snodgrass. Never will we forget Mr. Snodgrass, for it was he who fought the first duel in the colony.</p>
+<p>Snodgrass was a very excitable man. His father was a lieutenant-colonel, and apparently he had inherited some of the old man's enthusiasm for military customs. On New Year's Day, 1840, he was at the Lamb's Inn, the hotel which was to become Scott's. He had a furious argument with a grazier from Yering, named William Ryrie. A challenge to a duel was issued and accepted. The time was to be dawn the following morning on the cricket field, yes, the racetrack by Batman's Hill. It would have been more convenient to hold it later, but everyone felt dawn was the traditional hour for duels.</p>
+<p>Seconds were appointed. Lt. Vignolles of the 28th Regiment for Mr. Snodgrass, the challenger, and Mr. T. F. H-lt-n for the challengee. Garryowen, the historian who records this duel, didn't give the full names of the others, but apparently he was a little bashful about Mr. T. F. H-lt-n.*</p>
+<p>The time already was 11 p.m., when they realised that they had no duelling pistols. The Melbourne Club had none and it was impossible to go hunting around the town for pistols without giving warning to the Police.</p>
+<p>Then Mr. H-lt-n remembered that he knew a Mr. Hawdon at the village of Heidelberg, eight miles away. Mr. Hawdon had an excellent pair of hair-trigger duelling pistols. Mr. H-lt-n had a fine speedy horse, so he offered to ride there at once. This offer was met with great cheers and applause.</p>
+<p>At 1 a.m. Mr. H-lt-n returned galloping down Collins Street, waving a pistol in either hand. Once again there was uproarious applause. It was then that they realised another fearful difficulty was upon them, no powder, no ammunition. They couldn't go to a store, because on a previous Christmas there had been an explosion in the market reserve which blew up the only sporting emporium.</p>
+<p>Of course, Captain Smyth, the military commandant, and a good M.C.C. member, was the man. Captain Smyth lived in the officers' quarters at the west end of Bourke Street. It was decided that Mr. Snodgrass' second, Lt. Vignolles, should go and see him at once. This, Lt. Vignolles flatly refused to do. It was easy to see his point. No lieutenant likes to rouse his senior officer out of bed after one in the morning. It seemed then that it might be a good idea to postpone the whole thing until another time.</p>
+<p>But, lo, in again stepped Mr. H-lt-n. Rather than let the very good fun fall through, he would take the risk of calling on Captain Smyth himself. For the third time Mr. H-lt-n earned the cheers of the company.</p>
+<p>It must have been well after 2 a.m. when he made his way to the Captain's house. The Captain stepped wearily out of bed, and after much hesitation he finally agreed to help. So Mr. H-lt-n's large coat pocket was turned into a powder magazine.</p>
+<p>Meanwhile Mrs. Smyth, in her nightdress, was peering through the partly opened door. She thought it was some sort of a stick-up. She rushed out, grabbed Mr. H-lt-n by the collar and demanded to know what he had hidden in his pocket. Mrs. Smyth grabbed at the pocket, Mr. H-lt-n tore himself free and in one movement his coat was ripped right up to the shoulder.</p>
+<p>At 5 a.m. Mr. H-lt-n returned, a trifle tattered, but nevertheless he had triumphed. The next move was to get a doctor. The party dug out a Dr. D. J. Thomas of Bourke Street, who was said to be a surgeon of considerable skill. By the time they got to Batman's Hill it was broad daylight and a lovely, fresh summer's morning.</p>
+<p>The usual formalities took place. The principals took up their positions and everything was almost ready. However by this time Mr. Snodgrass was almost bursting with excitement, so much so that his hair trigger went off and he shot himself in the foot. Mr. Ryrie, a perfect gentleman, fired into the air and honour was satisfied.</p>
+<p>Everyone rushed over to Mr. Snodgrass, who was lying stretched out. He wasn't terribly injured except for a slight loss of blood and the loss of a toenail. Thereupon the party decided to dispose of the remaining ammunition and powder. They did this by putting Dr. Thomas' new belltopper on a tree stump and riddling it with bullets. It was still too unfashionable an hour to go to the Melbourne Club so they returned to the Lamb Inn, where they celebrated for most of the day.</p>
+<p>You might imagine this was the end of Mr. Snodgrass' duelling career, but it was not. In August 1841 he clashed with Redmond Barry, the young barrister, and also an M.C.C. member. Barry had written a letter to a friend, who unhappily showed it to Snodgrass. Seeing that there were a few points about Snodgrass in the letter, he took action immediately.</p>
+<p>Once again the duel took place, correctly, at dawn. This time on a spot midway between the Sandridge (Port Melbourne) Pier and the Albert Park Railway Station. Redmond Barry arrived, superbly attired, as if he were all ready for a Royal levée. He had on his belltopper, he was strap-trousered, swallow-tail coated, white-vested, gloved, cravated; all was perfection. He made sure the distance was correctly paced out. He placed his hat most carefully on the ground. He drew off his gloves, pulled down his spotless wristbands and bowed with great dignity to Mr. Snodgrass. Then he took his pistol and adopted a majestic pose while waiting the command for action.</p>
+<p>Poor Snodgrass. He was a very different type from Barry. He fussed and fidgeted. It wasn't that he was frightened, he was just anxious to get it over. No ceremonial nonsense about Snodgrass. But it was all too much. Again he discharged his pistol before the signal was given. Fortunately no damage was done. Barry, magnanimously, fired his pistol in the air.</p>
+<p>Both men did well after this. Snodgrass became a capturer of bushrangers, a member of parliament and a 'voluble if not eloquent' chairman of committees in the Legislative Assembly.</p>
+<p>Redmond Barry went on to be Victoria's first Solicitor-General. As Sir Redmond Barry he became a Supreme Court judge and the first Chancellor of Melbourne University. Then just before he died he was the judge who sentenced Ned Kelly to death.</p>
+<p>There was one more duel. In 1842 Mr. F. A. Powlett fought Mr. Hogue, a merchant. The site was Flemington Hill. They each exchanged two shots. Hogue missed altogether, but Powlett sent a bullet through Hogue's clothing. This, up to the time of going to press, is the only occasion when a President of the Melbourne Cricket Club has ever engaged in a duel.</p>
+<p>* Obviously T. F. Hamilton, who became M.C.C. President from 1859–1868 and an original member.</p>
+<hr>
+Continue to chapter two: <a href="/books/the-paddock-that-grew/3-the-first-cricket-matches/">The First Cricket Matches</a>
+</div>
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+
+  <p class="lead">
+        Traces the Melbourne Cricket Club&#39;s beginnings in the rough settlement of 1838, its influential founders and the extraordinary duels fought by Peter Snodgrass, Redmond Barry and F. A. Powlett.
+      </p>
+
+
+<hr>
+<h4 class="h6">Topics in this item</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/bank-of-australasia/" class="link-secondary">Bank of Australasia</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Bank of Australasia">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/batman&#39;s-hill/" class="link-secondary">Batman&#39;s Hill</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Batman&#39;s Hill">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/f-a-powlett/" class="link-secondary">F A Powlett</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="F A Powlett">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/john-batman/" class="link-secondary">John Batman</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="John Batman">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne-cricket-club/" class="link-secondary">Melbourne Cricket Club</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne Cricket Club">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/ned-kelly/" class="link-secondary">Ned Kelly</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Ned Kelly">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/peter-snodgrass/" class="link-secondary">Peter Snodgrass</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Peter Snodgrass">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/redmond-barry/" class="link-secondary">Redmond Barry</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Redmond Barry">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/robert-hoddle/" class="link-secondary">Robert Hoddle</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Robert Hoddle">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/robert-russell/" class="link-secondary">Robert Russell</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Robert Russell">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/bank-of-australasia/" class="link-secondary">Bank of Australasia</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Bank of Australasia">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/batman&#39;s-hill/" class="link-secondary">Batman&#39;s Hill</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Batman&#39;s Hill">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/f-a-powlett/" class="link-secondary">F A Powlett</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="F A Powlett">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/john-batman/" class="link-secondary">John Batman</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="John Batman">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne-cricket-club/" class="link-secondary">Melbourne Cricket Club</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne Cricket Club">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/ned-kelly/" class="link-secondary">Ned Kelly</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Ned Kelly">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/peter-snodgrass/" class="link-secondary">Peter Snodgrass</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Peter Snodgrass">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/redmond-barry/" class="link-secondary">Redmond Barry</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Redmond Barry">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/robert-hoddle/" class="link-secondary">Robert Hoddle</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Robert Hoddle">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/robert-russell/" class="link-secondary">Robert Russell</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Robert Russell">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>
