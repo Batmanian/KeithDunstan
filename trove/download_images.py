@@ -2,7 +2,7 @@
 """Download Bulletin stub article pages, with at least 60s between image requests.
 
 Run: python3 -u trove/download_images.py
-Cutoff: trove/image-download-config.json, exclusive publication date in "before".
+Cutoff: trove/image-download-config.json, exclusive date in "before", or null for all dates.
 Stop: create trove/output/image-download/STOP (or send SIGTERM).
 Resume: remove STOP and run the same command. Stubs are never changed.
 """
@@ -90,8 +90,10 @@ def article_pages(html, pid):
 
 
 def select_stubs(before):
-    cutoff = datetime.date.fromisoformat(before)
     paths = sorted(STUBS.rglob("*.md"))
+    if before is None:
+        return paths, len(paths)
+    cutoff = datetime.date.fromisoformat(before)
     selected = []
     for stub in paths:
         match = re.search(r'^date:\s*["\x27]?(\d{4}-\d{2}-\d{2})', stub.read_text(), re.M)
@@ -188,7 +190,8 @@ def main():
                  deferred_stubs=inventory_total - len(paths), complete_articles=0,
                  skipped_deleted_articles=0, failed_articles=0)
     consecutive_errors = 0
-    log(f"Starting {len(paths)} stubs dated before {before}; "
+    scope = f"dated before {before}" if before else "across all dates"
+    log(f"Starting {len(paths)} stubs {scope}; "
         f"{inventory_total - len(paths)} deferred; image request interval {INTERVAL}s; destination {DEST}")
     try:
         for stub in paths:

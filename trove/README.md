@@ -64,18 +64,18 @@ for all known publications. Safe to re-run.
 ### Download article scans for later transcription
 
 `python3 -u trove/download_images.py` (from the repository root) downloads the
-page images linked by Bulletin stubs before the saved date cutoff, keeping the stubs unchanged. At the
+page images linked by Bulletin stubs within the saved scope, keeping the stubs unchanged. At the
 archive owner's request, these review copies live in
 `src/trove-scans/bulletin/<year>/<stub-name>/`, with a `source.json` recording
 the title, byline, source URLs, rights statement and image checksums. This folder
 is gitignored and excluded from Eleventy. No site build is needed.
 
-The saved cutoff in `trove/image-download-config.json` is currently
-`"before": "1978-01-01"`: download through 31 December 1977, then exit.
-There are 1,189 stubs in this batch; 280 stubs dated 1978 onwards are deferred.
-The user extended the original pre-1968 batch by ten years, adding 1968–1977.
-To continue into later years when ready, change `before` to the next exclusive
-cutoff and restart the same command. Already completed images are skipped.
+The saved scope in `trove/image-download-config.json` is currently
+`"before": null`: download all remaining Bulletin stubs with no date cutoff.
+All 1,469 stubs are in scope, including the 280 previously deferred from 1978
+onwards. Completed downloads and deleted scans remain skipped.
+To impose a cutoff in future, set `before` to an exclusive ISO date such as
+`"1978-01-01"` and restart the same command.
 The worker reads this configuration at startup, so stop and restart it to apply
 a changed cutoff. `progress.json` records the active cutoff and batch counts;
 `images_downloaded` is cumulative across runs.

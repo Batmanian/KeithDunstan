@@ -1,0 +1,448 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Big Strike and Late Closing</title>
+<meta name="title" content="The Big Strike and Late Closing">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="A sardonic dispatch from strike-bound Melbourne in February 1966, where a Victorian public servants&#39; walkout brought empty city bars, warm beer and candlelight, while the pubs that survived thrived under the newly extended 10 o&#39;clock trading hours, and Chloe continued to bare all at Young and Jackson&#39;s for another 30 hours a week.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/articles/bulletin/1966-02-19-the-big-strike-and-late-closing/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="The Big Strike and Late Closing">
+<meta property="og:description" content="A sardonic dispatch from strike-bound Melbourne in February 1966, where a Victorian public servants&#39; walkout brought empty city bars, warm beer and candlelight, while the pubs that survived thrived under the newly extended 10 o&#39;clock trading hours, and Chloe continued to bare all at Young and Jackson&#39;s for another 30 hours a week.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="The Big Strike and Late Closing">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/articles/bulletin/1966-02-19-the-big-strike-and-late-closing/">
+<meta name="twitter:title" content="The Big Strike and Late Closing">
+<meta name="twitter:description" content="A sardonic dispatch from strike-bound Melbourne in February 1966, where a Victorian public servants&#39; walkout brought empty city bars, warm beer and candlelight, while the pubs that survived thrived under the newly extended 10 o&#39;clock trading hours, and Chloe continued to bare all at Young and Jackson&#39;s for another 30 hours a week.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="The Big Strike and Late Closing">
+<link rel="canonical" href="https://keithdunstan.org/articles/bulletin/1966-02-19-the-big-strike-and-late-closing/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1966-02-19">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="The Bulletin">
+<meta property="article:tag" content="Chloe">
+<meta property="article:tag" content="Sir Henry Bolte">
+<meta property="article:tag" content="Young and Jacksons Hotel">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">The Big Strike and Late Closing</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            5
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1966-02-19">19 Feb 1966</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A sardonic dispatch from strike-bound Melbourne in February 1966, where a Victorian public servants&#39; walkout brought empty city bars, warm beer and candlelight, while the pubs that survived thrived under the newly extended 10 o&#39;clock trading hours, and Chloe continued to bare all at Young and Jackson&#39;s for another 30 hours a week.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="The Bulletin">
+         <!--<a href="/tags/chloe/" class="btn btn-outline-dark btn-sm me-2">Chloe</a><a href="/tags/sir-henry-bolte/" class="btn btn-outline-dark btn-sm me-2">Sir Henry Bolte</a><a href="/tags/young-and-jacksons-hotel/" class="btn btn-outline-dark btn-sm me-2">Young and Jacksons Hotel</a>-->
+
+        
+      </header>
+      <div class="article-body"><p>Perhaps the most significant news of last week's strike was that the union strong man, Mr M.C. Jordan, became a grandfather. We had lovely front page pictures of our Trades Hall Council Secretary, cuddling his grandchild, Mandy Susan, 7lb. 13oz. Indeed in strike-bound Melbourne the <em>Age</em> conducted this important interview:</p>
+<p><em>Age</em>: Will the baby soften your hard line over the strike?</p>
+<p>Jordan: No, no, I don't think so.</p>
+<p><em>Age</em>: Will you visit your daughter-in-law today? If so, how?</p>
+<p>Jordan: By car, I think.</p>
+<p>However, to be honest, I do not feel that Mandy Susan, 7lb. 13oz., was an important factor in the strike. I believe that late hotel hours were behind it all and this column is planning to get behind the Principal of the Methodist Ladies' College, the Reverend Dr A. H. Wood, for a 6 o'clock closing movement in Victoria.</p>
+<p>Originally the strike was to have been before Christmas, but as Sir Henry Bolte put it, 'they squibbed it'. Unquestionably it was the time spent after 6 o'clock that gave them the courage to go ahead this time with their remarkable demands for four weeks' annual leave for State Government workers.</p>
+<p>It was a ghastly few days — no water, warm beer, no trains, no trams, candlelight — and TV reduced to almost nothing. You will appreciate the agony of it all when I tell you that we had to go without our regular sessions of <em>Coronation Street</em> and <em>Peyton Place</em>.</p>
+<p>Most of the theatres were closed, except that the Playboy Club in South Yarra operated by candlelight. But, frankly, if I am to carry on a dignified campaign for 6 o'clock closing I prefer to be associated with my bunnies not in shadowy candle-power but in the full glare of fluorescent lighting.</p>
+<p>So with no TV, no ABC concert, what was there to do but go out and drink, and this is a good opportunity to give you our report on 10 o'clock closing. The city was so empty it was frightening. I looked in at the Cathedral Hotel at 9 p.m. There was only one other person in the bar, and we experienced the sort of pure happiness of Crusoe when suddenly he discovered Friday.</p>
+<p>However, out in the suburbs, they were doing better than ever, and Mr Reg Dennis was a happy man. The Dennis family have five hotels, and Mr Dennis was happy indeed. His headquarters is the Tower Hotel, well-known as the last oasis on the edge of the great dry-area-desert of Camberwell. He had candles on all the tables and in the bar and he was being utterly honest about the cooling of his beer. He had adopted picnic-race-meeting conditions. He had put all his barrels in 44-gallon drums packed in brine.</p>
+<p>Said Mr Dennis: 'We're going very well. We're serving a continuous buffet from 11.30 am. to 11.30 p.m. We've put a carpet in our saloon and public bars, wall-to-wall, a good heavy Axminster it is. At 7 o'clock we start off with the dance band and at 10.30 we have the guest artists, this week Dorothy Baker and Johnny Rohan. I tell you, we're spending £350 a week on entertainment at each of our hotels. We get about 350 people up 'til 10 o'clock, then about 150 stay 'til 11.30. We get a late permit if we're serving meals.'</p>
+<p>The vital question: what was the average age? He said, 'Twenty-three.' The older people came in the first week out of curiosity, but not many now. Then, according to the statistics, the average consumption of beer was six glasses per head.</p>
+<p>The smarter restaurants also were very happy. Outside Capers in Collins Street there was a sign: 'Hurray, beer is here — through February complimentary drinks for all at 11 p.m. — New Era. Relax and enjoy yourself until midnight.' You must appreciate that under the Old Order restaurants had wine licences and the Government considered it dangerously unlawful to drink beer outside a hotel. Now all licensed restaurants can serve beer. At Capers, Mr Peter Shelmerdine also was happy.</p>
+<p>And that's another thing we want to talk about. So far not one theatre has taken advantage of the opportunity of putting in bars. We saw ourselves wandering out after the first act for scotch-and-water, or even half-way through the first act if things weren't so good. But so far it is not to be. The problem is that there are hardly any theatres, and most of them are in darkness.</p>
+<p>Then one wonders what effect 10 o'clock closing will have on the theatres. That's if people prefer to drink beer looking at Dorothy Baker at the Tower Hotel or taking their beer in an ice bucket till midnight at Capers. Your correspondent is worried about all this. He likes to see his theatres thriving, and he worries about poor Chloe in Young and Jackson's who has to expose her nudity now for another 30 hours a week and even looks back with nostalgia to the days when a pub provided beer, noise and warmth at closing time at six.</p>
+<p>But there is just one compensation. At 6.15 every night there used to be the great Victorian exodus across the Murray. Now all the NSW lot come across the border at 6.15.</p>
+<hr>
+<p><em>Source: AROUND MELBOURNE The Big Strike and Late Closing Life without Coronation Street, The Bulletin, 19 February 1966. Accessible via the <a href="https://nla.gov.au/nla.obj-702147501">National Library of Australia's Trove database</a>.</em></p>
+</div>
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+
+  <p class="lead">
+        A sardonic dispatch from strike-bound Melbourne in February 1966, where a Victorian public servants&#39; walkout brought empty city bars, warm beer and candlelight, while the pubs that survived thrived under the newly extended 10 o&#39;clock trading hours, and Chloe continued to bare all at Young and Jackson&#39;s for another 30 hours a week.
+      </p>
+
+
+<hr>
+<h4 class="h6">Topics in this item</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/chloe/" class="link-secondary">Chloe</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Chloe">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/sir-henry-bolte/" class="link-secondary">Sir Henry Bolte</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sir Henry Bolte">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/young-and-jacksons-hotel/" class="link-secondary">Young and Jacksons Hotel</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Young and Jacksons Hotel">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/chloe/" class="link-secondary">Chloe</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Chloe">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/sir-henry-bolte/" class="link-secondary">Sir Henry Bolte</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sir Henry Bolte">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/young-and-jacksons-hotel/" class="link-secondary">Young and Jacksons Hotel</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Young and Jacksons Hotel">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

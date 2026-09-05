@@ -113,6 +113,13 @@ class DownloadHistoryTests(unittest.TestCase):
         self.assertEqual(selected, [self.stub])
         self.assertEqual(total, 2)
 
+    def test_null_cutoff_includes_all_remaining_years(self):
+        later = self.stub.parent / "1984-12-31-later.md"
+        later.write_text('---\ndate: 1984-12-31\n---\n')
+        selected, total = d.select_stubs(None)
+        self.assertEqual(selected, [self.stub, later])
+        self.assertEqual(total, 2)
+
 
 if __name__ == "__main__":
     unittest.main()

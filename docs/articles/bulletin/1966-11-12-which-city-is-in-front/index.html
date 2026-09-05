@@ -1,0 +1,479 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Which City is in Front...?</title>
+<meta name="title" content="Which City is in Front...?">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="A survey of the Melbourne versus Sydney rivalry, examining competing newspaper claims about population growth, migration, new industries, building completions and personal income, prompted by the CIA-level precision with which LBJ&#39;s visit was split equally between the two cities.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/articles/bulletin/1966-11-12-which-city-is-in-front/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Which City is in Front...?">
+<meta property="og:description" content="A survey of the Melbourne versus Sydney rivalry, examining competing newspaper claims about population growth, migration, new industries, building completions and personal income, prompted by the CIA-level precision with which LBJ&#39;s visit was split equally between the two cities.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Which City is in Front...?">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/articles/bulletin/1966-11-12-which-city-is-in-front/">
+<meta name="twitter:title" content="Which City is in Front...?">
+<meta name="twitter:description" content="A survey of the Melbourne versus Sydney rivalry, examining competing newspaper claims about population growth, migration, new industries, building completions and personal income, prompted by the CIA-level precision with which LBJ&#39;s visit was split equally between the two cities.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Which City is in Front...?">
+<link rel="canonical" href="https://keithdunstan.org/articles/bulletin/1966-11-12-which-city-is-in-front/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1966-11-12">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="The Bulletin">
+<meta property="article:tag" content="Adelaide">
+<meta property="article:tag" content="Little Lon">
+<meta property="article:tag" content="Melbourne">
+<meta property="article:tag" content="South Yarra">
+<meta property="article:tag" content="Sydney">
+<meta property="article:tag" content="Victoria Promotion Committee">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">Which City is in Front...?</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            5
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1966-11-12">12 Nov 1966</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A survey of the Melbourne versus Sydney rivalry, examining competing newspaper claims about population growth, migration, new industries, building completions and personal income, prompted by the CIA-level precision with which LBJ&#39;s visit was split equally between the two cities.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="The Bulletin">
+         <!--<a href="/tags/adelaide/" class="btn btn-outline-dark btn-sm me-2">Adelaide</a><a href="/tags/little-lon/" class="btn btn-outline-dark btn-sm me-2">Little Lon</a><a href="/tags/melbourne/" class="btn btn-outline-dark btn-sm me-2">Melbourne</a><a href="/tags/south-yarra/" class="btn btn-outline-dark btn-sm me-2">South Yarra</a><a href="/tags/sydney/" class="btn btn-outline-dark btn-sm me-2">Sydney</a><a href="/tags/victoria-promotion-committee/" class="btn btn-outline-dark btn-sm me-2">Victoria Promotion Committee</a>-->
+
+        
+      </header>
+      <div class="article-body"><p>Perhaps you noticed that the LBJ visit was carefully arranged, precisely four hours in Melbourne and four hours in Sydney. No doubt the CIA had a hand in this. No doubt discussions took place at the highest level on a fearful question of one city being four minutes ahead of the other. The high office of the President of the United States simply could not afford to get involved.</p>
+<p>Well, your correspondent would like to advise the CIA that this attitude is a little out of date. Lately, newspapers in both capitals have been printing articles pointing out the undoubted superiority of the other city. The Sun News-Pictorial has been running articles in Melbourne that Sydney is leaving us far behind. On the other hand, the Sun Herald in Sydney has been printing articles pointing out how Sydney is slipping behind Melbourne.</p>
+<p>The Sun Herald pointed out that Melbourne had hit the front in population growth. Then: 'Bigger and better international airports.' On the other hand, Melbourne's Sun says that Sydney has far more vitality, more visual excitement, the buildings are taller and more spectacular. The city has a whole atmosphere of getting things done. Indeed, it has already put down five times our length of expressway. Then, in another article, it says that Sydney is getting ahead on crime. Once Melbourne's gunmen were the most lethal in Australia. The big men of the Melbourne underworld when travelling interstate were feared and feted like royalty by awed local criminals. Not so any more. Now, Sydney criminals look upon Melbourne as a law-abiding city and Sydney with its new reputation for armed hold-ups and safe robberies is clearly the crime capital.</p>
+<p>Do you get the feeling of this new attitude? The CIA has made a mistake. Here in Melbourne we would be charmed if LBJ spent six hours in Sydney and only two in Melbourne. On the other hand, unquestionably, Sydney would be thrilled if LBJ spent two hours in Sydney and four in Melbourne.</p>
+<p>This week your correspondent decided to seek out the truth and called on the Victoria Promotion Committee. He put the blunt question: 'Which city is in front?'</p>
+<p>Douglas Anderson, the committee director, said: 'The Sydney-Melbourne business always reminds me of Manhattan, New York. Sydney is mid-town, from 43rd Street up, where all the fun and life are; Melbourne is downtown, where they're making the money.'</p>
+<p>He pointed out that people had looked at figures: it's true that Melbourne is growing faster and at the present rate should pass Sydney in the mid-1970s, and according to the latest figures, Victoria's population growth for the past years has been 1.89 percent compared with 1.57 in NSW.</p>
+<p>As for migrants, according to the latest figures, Melbourne is slipping. We had more in 1963-64, but in 1964-65 NSW had 48,349 and Victoria 44,427. In 1965-66 it was NSW 23,098 and Victoria 19,979.</p>
+<p>But the important question was 'new industries' and how many had been attracted. For years this has been the favourite topic for all politicians in 'marvellous Melbourne.' Victorian Promotion Committee man Dick Kerr pointed out that this was the toughest point of all. He said: 'For example, we would dearly love the figures on overseas investment, but we can only get these from the Commonwealth Statistician on an Australia-wide basis.' Mr Kerr rather suspects that it is evenly divided. Sydney gets a third of the overseas capital, Melbourne gets a third, and the other States get the rest.</p>
+<p>Your correspondent dug into a mass of statistics, and if they seem to favour Victoria please understand we haven't got them into line with the reckoning, and we'll have them round the other way next year. Victoria for financial year 1964-65 led in new building completions — $67,450,000 to NSW's $59,864,000. Victoria for 1964-65 had the highest personal income, $830 per head, to NSW $752. Savings bank deposits at December 31, 1965, had Victoria in front with $535.40, those wise, cautious South Australians second with $507.80, and NSW third with $418.20.</p>
+<p>Would Wonders never cease? Victoria led the other States in factory expansion. We also led in retail sales expansion.</p>
+<p>As for the pure business of happy living we have no statistics. One takes it for granted that Sydney Rugby League clubs are jollier than our RSL clubs and that your Italian restaurants serve better canneloni than our Italian restaurants.</p>
+<p>Furthermore, just three weeks ago the Commonwealth opened another wing of their vast Commonwealth Centre at the corner of Spring and Little Lonsdale Streets. You should appreciate the significance of this: Little Lon was our red-light district, rich in history. The six acres of this once gay little area are now occupied by important Commonwealth Departments. Of course, the female population has gone nowhere. Now there are at least 1200 of them, but mostly they're employed at typing and shorthand.</p>
+<p>Yet there's one other factor, perhaps too early yet to judge its real significance. Rumour has it that the NSW Government is cracking down on stripping at the Cross. Girls once gainfully employed have been looking for jobs elsewhere. Just interesting advertisements have been appearing. South Yarra is now advertising: 'Topless Go-Go at the Playboy. 24 gorgeous exciting Go-Go dance hostesses.'</p>
+<p>Could it be that South Yarra, a paint-throw from Dame Mabel's, is to become the new strip capital?</p>
+<hr>
+<p><em>Source: Around Melbourne: &quot;Which City is in Front....?&quot;, The Bulletin, 12 November 1966. Accessible via the <a href="https://nla.gov.au/nla.obj-689430422">National Library of Australia's Trove database</a>.</em></p>
+</div>
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+
+  <p class="lead">
+        A survey of the Melbourne versus Sydney rivalry, examining competing newspaper claims about population growth, migration, new industries, building completions and personal income, prompted by the CIA-level precision with which LBJ&#39;s visit was split equally between the two cities.
+      </p>
+
+
+<hr>
+<h4 class="h6">Topics in this item</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/adelaide/" class="link-secondary">Adelaide</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Adelaide">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/little-lon/" class="link-secondary">Little Lon</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Little Lon">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/south-yarra/" class="link-secondary">South Yarra</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="South Yarra">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/sydney/" class="link-secondary">Sydney</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sydney">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/victoria-promotion-committee/" class="link-secondary">Victoria Promotion Committee</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Victoria Promotion Committee">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/adelaide/" class="link-secondary">Adelaide</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Adelaide">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/little-lon/" class="link-secondary">Little Lon</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Little Lon">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/south-yarra/" class="link-secondary">South Yarra</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="South Yarra">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/sydney/" class="link-secondary">Sydney</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sydney">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/victoria-promotion-committee/" class="link-secondary">Victoria Promotion Committee</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Victoria Promotion Committee">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

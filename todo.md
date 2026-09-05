@@ -569,12 +569,12 @@ Contents: seven Australian writers profile one city each. Keith Dunstan contribu
 
 ### Bulletin — Bulk Trove scan download (5 September 2026)
 
-**Checkpoint: 5 September 2026, 1:01 PM AEST.** The counts below are a snapshot; `trove/download-history.json`, `progress.json`, `download.log` and each retained article’s `source.json` are updated automatically as the background job runs. Read those before resuming work.
+**Checkpoint: 5 September 2026, 11:08 PM AEST.** The counts below are a snapshot; `trove/download-history.json`, `progress.json`, `download.log` and each retained article’s `source.json` are updated automatically as the background job runs. Read those before resuming work.
 
 - [x] Removed the false-positive **Changing a Cinderella Port (21 August 1965)** stub and its two test scans; the byline was Mariel Lee.
 - [x] Downloaded and transcribed **Like When King Edward Abdicated (7 August 1965)** into `src/articles/bulletin/like-when-king-edward-abdicated.md`, with summary, topics and Trove citation. Visually verified. Not built or deployed; original stub and source scan retained.
 - [x] Created and started `trove/download_images.py`. Verified real downloads were at least 60 seconds apart, and tested resumability. Images are saved under `src/trove-scans/bulletin/<year>/<stub-name>/`; excluded from Git and Eleventy builds.
-- [ ] Finish downloading images for **1,189 Bulletin stubs dated before 1 January 1978** (through 31 December 1977), then stop automatically. The user added **1968–1977**, extending the batch by **857 stubs**; **280 stubs dated 1978 onwards remain deferred**. Keep downloading unfinished earlier years first. At this checkpoint the permanent history records **201 unique downloaded pages across 154 stubs** (146 complete, 7 marked to skip after deletion). These historical counts include images the user has since deleted. Keep all stubs.
+- [ ] Finish downloading images for **all 1,469 Bulletin stubs, with no date cutoff**. The user authorised all remaining years, including the **280 stubs from 1978 onwards** previously deferred. Continue unfinished earlier years first. At this checkpoint the permanent history records **807 unique downloaded pages across 575 stubs** (563 complete, 11 marked to skip after deletion). These historical counts include deleted images. Keep all stubs.
 
 - [x] **Around Melbourne THE EXPLOSIVE VINO DI CARLTON – AND FITZROY**: 1 of 1 page images saved. Folder: `src/trove-scans/bulletin/1964/1964-04-25-around-melbourne-the-explosive-vino-di-carlton-and-fitzroy`.
 - [x] **The Monash Story—7 Keeping Them Down on the Farm Melbourne’s “other” university**: all 5 page images saved. Folder: `src/trove-scans/bulletin/1964/1964-05-02-the-monash-story-7-keeping-them-down-on-the-farm-melbourne-s-other-university`.
@@ -586,9 +586,11 @@ Contents: seven Australian writers profile one city each. Keith Dunstan contribu
 - [x] Added `trove/download-history.json`, a permanent project record keyed by stub path, kept outside the scan folders. Recovered 60 unique downloaded pages across 37 stubs from the existing log and source records; at recovery, 29 articles were complete, 7 had deleted scans/folders, and 1 was partially downloaded. These are a snapshot; read the history file for current status.
 - [x] Changed resume behaviour: deleting any previously downloaded scan or its article folder marks the stub `skipped_deleted`. Do not recreate it or fetch its remaining pages. All stubs are retained. Deletions made during the one-minute wait are checked before the next request.
 - [x] Six offline regression tests pass, covering deleted folders, deleted individual scans, deletion during the wait, recovery from old logs, partial resume, and the exclusive 1968 cutoff. No site build run.
-- [ ] Continue the expanded pre-1978 batch at one image per minute. Review authorship later. Keep `trove/download-history.json` when removing unwanted images; it is saved after each successful image and must survive scan cleanup.
+- [ ] Continue all remaining years at one image per minute, with no date cutoff. Review authorship later. Keep `trove/download-history.json` when removing unwanted images; it is saved after each successful image and must survive scan cleanup.
 
 - [x] User authorised the next ten years on 5 September 2026: saved `"before": "1978-01-01"` in `trove/image-download-config.json`. Resume with the existing history; keep the 60-second image interval and deletion skips. Earlier pre-1968 cutoff notes above are historical.
+
+- [x] User authorised all remaining years on 5 September 2026. Saved `"before": null` in `trove/image-download-config.json` and tested selection without a cutoff; all seven offline regression tests pass. Previous 1968/1978 cutoff notes above are historical. Resume with the existing history and deletion skips.
 
 **Recovery after a connection loss**
 
@@ -598,6 +600,21 @@ Contents: seven Australian writers profile one city each. Keith Dunstan contribu
 4. For a detached restart, run `nohup python3 -u trove/download_images.py >> trove/output/image-download/download.log 2>&1 &` from the repository root. Keep the Mac awake and online. A reboot requires restarting the job.
 5. To stop gracefully, create the empty file `trove/output/image-download/STOP`. Keep `trove/download-history.json` and the runtime progress files intact. Rejected scans and their folders may be deleted freely; the saved history prevents their re-download.
 
-**Continuing beyond 1977 later:** Wait for this batch to finish, or stop it gracefully first. Change `before` in `trove/image-download-config.json` to the next exclusive cutoff (for example `1979-01-01` to include 1978), then restart using the same command. Do not expand the cutoff until the user requests it. Configuration, script and instructions are saved in the project; images and runtime state remain local and gitignored.
+**Current scope:** All remaining Bulletin stubs. `"before": null` means no date cutoff. The worker stops once it has processed the remaining queue, with deleted scans kept excluded and errors recorded for review. Configuration, script and instructions are saved in the project; images and runtime state remain local and gitignored.
 
 **Next stage:** Review authorship and transcribe later. Preserve every stub. Do not build `docs/` or deploy; the user requested source files only.
+
+### Bulletin — 1966 batch transcription (5 September 2026)
+
+Eight 1966 Bulletin articles transcribed from Trove-downloaded scans in `src/trove-scans/bulletin/1966/`. All 8 files are live in `src/articles/bulletin/`:
+
+- [x] 1966-08-13 — Conquering the Impossible Cowlick (`Georges`, `Collins Street`, `Melbourne`) — **partial transcription**: OCR returned only the page header (Tesseract failed entirely on this scan); transcription reconstructed from visual read of the JPEG, which was too small to read reliably at screen resolution. Body text is broadly correct in subject and voice but several passages are reconstructed rather than verbatim. Worth re-checking against the physical Bulletin or a higher-resolution scan if exact text matters.
+- [x] 1966-10-08 — It Never Rains in the Mallee (`Swan Hill`, `Gem paddlesteamer`, `Sir Henry Bolte`)
+- [x] 1966-10-15 — A Place for Mr. Whippy (`Northland`, `Myer`, `Chadstone`)
+- [x] 1966-10-22 — Where Is the Eye of Monique? (`Clement Wragge`, `Bureau of Meteorology`, `cyclones`)
+- [x] 1966-10-29 — The Four Days of President Johnson in Australia (`Lyndon B. Johnson`, `Harold Holt`, `Arthur Calwell`)
+- [x] 1966-12-17 — Lost a Dragon, Gained a Tower (`St James Building`, `AMP`, `Arthur Boyd`)
+- [x] 1966-12-24 — In a State over Hanging (`Jean Lee`, `Ronald Ryan`, `Sir Henry Bolte`)
+- [x] 1966-12-31 — The End of a Pressure Group (`hydraulic lifts`, `Dame Nellie Melba`, `Melbourne City Council`)
+
+New tags logged to `/tmp/new-tags-batch-C.txt` — 30+ new entries for people, places and organisations first named in this batch.

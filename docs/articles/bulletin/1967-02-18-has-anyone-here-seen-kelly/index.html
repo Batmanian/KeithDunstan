@@ -1,0 +1,483 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Has Anyone Here Seen Kelly?</title>
+<meta name="title" content="Has Anyone Here Seen Kelly?">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Melbourne&#39;s Lord Mayor launches a $10,000 fly-control quiz competition, prompting Keith Dunstan to revisit the city&#39;s long war against blowflies through the writings of William Kelly, whose 1853 account of Melbourne&#39;s plague of flies remains the most vivid on record.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/articles/bulletin/1967-02-18-has-anyone-here-seen-kelly/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Has Anyone Here Seen Kelly?">
+<meta property="og:description" content="Melbourne&#39;s Lord Mayor launches a $10,000 fly-control quiz competition, prompting Keith Dunstan to revisit the city&#39;s long war against blowflies through the writings of William Kelly, whose 1853 account of Melbourne&#39;s plague of flies remains the most vivid on record.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Has Anyone Here Seen Kelly?">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/articles/bulletin/1967-02-18-has-anyone-here-seen-kelly/">
+<meta name="twitter:title" content="Has Anyone Here Seen Kelly?">
+<meta name="twitter:description" content="Melbourne&#39;s Lord Mayor launches a $10,000 fly-control quiz competition, prompting Keith Dunstan to revisit the city&#39;s long war against blowflies through the writings of William Kelly, whose 1853 account of Melbourne&#39;s plague of flies remains the most vivid on record.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Has Anyone Here Seen Kelly?">
+<link rel="canonical" href="https://keithdunstan.org/articles/bulletin/1967-02-18-has-anyone-here-seen-kelly/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1967-02-18">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="The Bulletin">
+<meta property="article:tag" content="Melbourne">
+<meta property="article:tag" content="Melbourne City Council">
+<meta property="article:tag" content="Perth">
+<meta property="article:tag" content="Prince Charles">
+<meta property="article:tag" content="Timbertop">
+<meta property="article:tag" content="William Kelly">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">Has Anyone Here Seen Kelly?</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            5
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1967-02-18">18 Feb 1967</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Melbourne&#39;s Lord Mayor launches a $10,000 fly-control quiz competition, prompting Keith Dunstan to revisit the city&#39;s long war against blowflies through the writings of William Kelly, whose 1853 account of Melbourne&#39;s plague of flies remains the most vivid on record.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="The Bulletin">
+         <!--<a href="/tags/melbourne/" class="btn btn-outline-dark btn-sm me-2">Melbourne</a><a href="/tags/melbourne-city-council/" class="btn btn-outline-dark btn-sm me-2">Melbourne City Council</a><a href="/tags/perth/" class="btn btn-outline-dark btn-sm me-2">Perth</a><a href="/tags/prince-charles/" class="btn btn-outline-dark btn-sm me-2">Prince Charles</a><a href="/tags/timbertop/" class="btn btn-outline-dark btn-sm me-2">Timbertop</a><a href="/tags/william-kelly/" class="btn btn-outline-dark btn-sm me-2">William Kelly</a>-->
+
+        
+      </header>
+      <div class="article-body"><p>Actually Melbourne has always been a good fly town. If under Sir Henry we decide to become an independent sovereign state, then we will need some symbolic sounds for our Radio Victoria, just as Radio Australia uses the laugh of the kookaburra.</p>
+<p>Perhaps it would be best to open up with three: the musical sound of an empty beer can clanking down the steps at the Melbourne Cricket Ground, the slap of a hand hitting the bottom of a tomato-sauce bottle, and the sound of a blowfly bashing its head against a window.</p>
+<p>John Batman had a fly problem and indeed most of the chroniclers of Melbourne talk of flies. The best of them all, though, is that entertaining Irishman William Kelly. In his 'Life in Victoria', he says: 'The fly nuisance in the summer of 1853 was something akin to a plague. They abounded in million myriads everywhere; they almost darkened the very air, and were so unbearably saucy and obtrusive that many people armed themselves with what they called horse-tail twigs to thrash them away. But thrash away until your arm ached, the moment you paused, fresh legions, as if incensed at your brutality, swarmed upon you in buzzing viciousness, straddling one another's backs in their desire to have revenge, the more daring even mounting upon your face, and forcing their way into your nostrils and into the corners of your eyes. All shops seemed alive with them, especially butcher shops; and when a hanging quarter of beef was disturbed on the hooks the beseeching roar which ensued was positively startling.'</p>
+<p>Well, William Kelly did a superb job of describing one of the unique qualities of our Melbourne.</p>
+<p>After him the best publicist was Prince Charles at Timbertop. You may remember that Timbertop has these fascinating flytraps. There is a glass bowl, a kerosene tin with holes in it, and a lump of meat. The flies, attracted by the smell of meat, fly through holes punched in the tin, travel up through a tube where they are trapped in a bowl of water.</p>
+<p>Cleaning the flytraps is a rostered duty at Timbertop and an enterprising photographer caught Prince Charles doing this. Unquestionably it was the most fascinating royal photograph of 1966.</p>
+<p>These past four years the anti-fly campaign has been run by a public relations firm, Leonard Barker &amp; Associates. This year a large gold-embossed card came in the post with the message 'The Lord Mayor and Lady Mayoress request the pleasure of the company of... at a reception to the launching of the Fly Control Campaign for 1967.' The invitation added 'Dress Informal.' Many of us felt that this was typical of the down-to-earth, get-on-with-the-job Melbourne way of doing things that we could forgo white tie and medals for the opening of a fly campaign.</p>
+<p>Everybody was there, including councillors' ladies in their best cocktail frocks. Champagne and hors-d'oeuvre were served and in the corner was the enemy, a huge model of a house fly. As John Hamilton of 'The Age' pointed out: 'It was only fitting that this enormous model of a fly should be suitably tagged, because we had all received lapel badges proclaiming our respective participation in the campaign.' And so it was: the fly bore the label 'I AM MUSCA DOMESTICA.'</p>
+<p>The Lord Mayor, Cr. Beaurepaire, who sadly collected the title 'Lord of the Flies,' announced the quiz competition with the holiday prizes worth $10,000. The first prize is a holiday trip for two, with $500 in travellers' cheques, by Alitalia to Austria, Germany, Switzerland, and Hong Kong, or Japan. The second prize is a trip to Perth.</p>
+<p>In order to win this competition the householder fills out one of 500,000 forms which have such questions as 'Do you always wrap up all rubbish before placing in a rubbish bin? Yes? No?' and 'Do you use only garden refuse in your compost heap? Yes? No?' The first three correct entries opened out of a pile of 500,000 letters win the prizes.</p>
+<p>Your correspondent sought out Mr Len Barker and asked him what was the point of this lottery.</p>
+<p>'It's an education program,' he said. 'If we can control the places where flies breed by teaching householders clean habits, we can get rid of flies.'</p>
+<p>Mr Barker went on to say that mass spraying would not only be enormously expensive but totally ineffective — the only way to stop them breeding in the first place is at home.</p>
+<p>To the suggestion that the $10,000 might be better used in bringing out Chairman Mao's fly-control man, he said aggressively: 'This business about China and its flies and every Chinese killing 50 a day is a great myth. It's only in a rich society that you get a large number of flies.'</p>
+<p>Mr Barker was utterly convinced that this education could work. 'And do you know why we picked Perth for the second prize? The contestant can go to a town where there are very few flies. The City of Perth has worked on similar lines to this and their campaign has been very successful.'</p>
+<p>Your correspondent was a little disappointed that this campaign by public health authorities and municipalities did not involve some direct spraying action against the fly.</p>
+<p>Admittedly, most sprays do not work, but one could refer His Worship the Mayor to William Kelly's book, page 339. In 1853, said he, the flies came into his house like the exhaustless armies of Darius. 'I brought home on one occasion a poison which was in general use in the city and environs. It was a powder which dissolved in water, and, exposed on plates throughout the house, spread about a vapour very fatal to them. They fell by millions of millions, you crushed them as you walked across the carpet, they dropped paralysed into your wine, inter poculum et labra.'</p>
+<p>'And at last, I saw most satisfactorily, for the tenth time, take the dust-pan and hand-brush and sweep from the carpet a heap of dead flies that would count by hundreds of thousands.'</p>
+<p>Has anyone here seen Kelly?</p>
+<hr>
+<p><em>Source: Around Melbourne: Has Anyone Here Seen Kelly?, The Bulletin, 18 February 1967. Accessible via the <a href="https://nla.gov.au/nla.obj-699100130">National Library of Australia's Trove database</a>.</em></p>
+</div>
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+
+  <p class="lead">
+        Melbourne&#39;s Lord Mayor launches a $10,000 fly-control quiz competition, prompting Keith Dunstan to revisit the city&#39;s long war against blowflies through the writings of William Kelly, whose 1853 account of Melbourne&#39;s plague of flies remains the most vivid on record.
+      </p>
+
+
+<hr>
+<h4 class="h6">Topics in this item</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne-city-council/" class="link-secondary">Melbourne City Council</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne City Council">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/perth/" class="link-secondary">Perth</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Perth">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/prince-charles/" class="link-secondary">Prince Charles</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Prince Charles">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/timbertop/" class="link-secondary">Timbertop</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Timbertop">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/william-kelly/" class="link-secondary">William Kelly</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="William Kelly">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne-city-council/" class="link-secondary">Melbourne City Council</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne City Council">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/perth/" class="link-secondary">Perth</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Perth">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/prince-charles/" class="link-secondary">Prince Charles</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Prince Charles">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/timbertop/" class="link-secondary">Timbertop</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Timbertop">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/william-kelly/" class="link-secondary">William Kelly</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="William Kelly">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>
