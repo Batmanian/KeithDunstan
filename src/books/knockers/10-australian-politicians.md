@@ -429,3 +429,6 @@ The Deputy Prime Minister, Mr Anthony, said there was 'an almost deliberate camp
 But do politicians ever have a hope of being loved? Will Rushton made the most delicate and well-timed knock when he arrived back in Australia after Christmas 1971.
 
 'Politicians? You're very lucky not having any here.'
+
+<hr>
+Continue to chapter eleven: <a href="{{ '/books/knockers/11-royalty/' | url }}">Royalty</a>

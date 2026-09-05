@@ -1,0 +1,721 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Royalty</title>
+<meta name="title" content="Royalty">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="A survey of two centuries of Australian royal-knocking, from the colonial press&#39;s attacks on Prince Alfred&#39;s brothel visits and the Bulletin&#39;s sustained assault on the Guelph family through the sedition trial of the labor journal Tocsin, the abdication crisis of Edward VIII, and the 1967 prosecution of the satirical journal Tom Thumb for a mock interview with Prince Philip.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/knockers/11-royalty/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Royalty">
+<meta property="og:description" content="A survey of two centuries of Australian royal-knocking, from the colonial press&#39;s attacks on Prince Alfred&#39;s brothel visits and the Bulletin&#39;s sustained assault on the Guelph family through the sedition trial of the labor journal Tocsin, the abdication crisis of Edward VIII, and the 1967 prosecution of the satirical journal Tom Thumb for a mock interview with Prince Philip.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Royalty">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/knockers/11-royalty/">
+<meta name="twitter:title" content="Royalty">
+<meta name="twitter:description" content="A survey of two centuries of Australian royal-knocking, from the colonial press&#39;s attacks on Prince Alfred&#39;s brothel visits and the Bulletin&#39;s sustained assault on the Guelph family through the sedition trial of the labor journal Tocsin, the abdication crisis of Edward VIII, and the 1967 prosecution of the satirical journal Tom Thumb for a mock interview with Prince Philip.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Royalty">
+<link rel="canonical" href="https://keithdunstan.org/books/knockers/11-royalty/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1972-01-01">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="Knockers">
+<meta property="article:tag" content="Alexander Peacock">
+<meta property="article:tag" content="Anzac Day">
+<meta property="article:tag" content="Carbine">
+<meta property="article:tag" content="Edward Findley">
+<meta property="article:tag" content="Francis Adams">
+<meta property="article:tag" content="Geoffrey Dutton">
+<meta property="article:tag" content="John Norton">
+<meta property="article:tag" content="Melbourne Punch">
+<meta property="article:tag" content="Norman Lindsay">
+<meta property="article:tag" content="St Kilda">
+<meta property="article:tag" content="The Bulletin">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">Royalty</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            25
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1972-01-01">1972</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A survey of two centuries of Australian royal-knocking, from the colonial press&#39;s attacks on Prince Alfred&#39;s brothel visits and the Bulletin&#39;s sustained assault on the Guelph family through the sedition trial of the labor journal Tocsin, the abdication crisis of Edward VIII, and the 1967 prosecution of the satirical journal Tom Thumb for a mock interview with Prince Philip.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="Knockers">
+         <!--<a href="/tags/alexander-peacock/" class="btn btn-outline-dark btn-sm me-2">Alexander Peacock</a><a href="/tags/anzac-day/" class="btn btn-outline-dark btn-sm me-2">Anzac Day</a><a href="/tags/carbine/" class="btn btn-outline-dark btn-sm me-2">Carbine</a><a href="/tags/edward-findley/" class="btn btn-outline-dark btn-sm me-2">Edward Findley</a><a href="/tags/francis-adams/" class="btn btn-outline-dark btn-sm me-2">Francis Adams</a><a href="/tags/geoffrey-dutton/" class="btn btn-outline-dark btn-sm me-2">Geoffrey Dutton</a><a href="/tags/john-norton/" class="btn btn-outline-dark btn-sm me-2">John Norton</a><a href="/tags/melbourne-punch/" class="btn btn-outline-dark btn-sm me-2">Melbourne Punch</a><a href="/tags/norman-lindsay/" class="btn btn-outline-dark btn-sm me-2">Norman Lindsay</a><a href="/tags/st-kilda/" class="btn btn-outline-dark btn-sm me-2">St Kilda</a><a href="/tags/the-bulletin/" class="btn btn-outline-dark btn-sm me-2">The Bulletin</a>-->
+
+        
+      </header>
+      <div class="article-body"><p>Of course, Royalty-knocking is not what it used to be. The enthusiasm has gone out of the game. The enthusiasts for an Australian republic rail against the waste of Royalty, the useless expenditure on State Governors, and the intolerable boredom and snobbery of Royal tours. But then enthusiasts are not in large numbers. Occasionally the critics make suggestions about the rudeness and impatience of Prince Philip, but they don't attack him for his morals and never would they describe Queen Elizabeth as a fat old hunk of sauerkraut. This was the form for many a journal during the Victorian and Edwardian eras. A knock of the Queen, the Prince of Wales or even a Governor or Governor-General was ideal for putting life into a dull publication.</p>
+<p>Indeed in 1894 John Smith, who described himself as a herbalist and agitator, went to jail for nine months for saying: 'Half the workers of Great Britain are starving. At the same time we are paying half a million a year to that sauerkrauted old brute, the Queen. If I had my way I'd blow her sky high.'</p>
+<p>It was always considered good sport to attack the Royal family on their morals. There was a fine crop of stories about the sinful behaviour both in Sydney and Melbourne of Prince Alfred, Duke of Edinburgh.</p>
+<p>Alfred was the second son of Queen Victoria and at the time he came to Australia as Captain of H.M.S. Galatea. J. M. Forde, the best-known Melbourne Police reporter, noted that the Duke, accompanied by the Chief Commissioner of Police, Captain Standish, went to the Saddling Paddock at the Flemington racecourse.</p>
+<p>The Saddling Paddock was not precisely Royal. The Duke made no secret of his visits to Stephen Street, the particular establishment chosen for his Melbourne assignations, since his visit to Sydney and taking a cottage in Castlereagh Street, where 'I have conclusive evidence that His Royal Highness visited the lady, who was certainly one of the most superior in her class and time.'</p>
+<p>Stephen Street? That was the present Exhibition Street. The Melbourne City Council changed its name to improve its spicy reputation. The newspapers agreed that Prince Alfred visited the fashionable brothel of Sarah Fraser. Truth was more precise:</p>
+<blockquote>
+<p>The jewel of the Fraser harem was Sara Saqui, a silken-haired, dark-eyed Oriental beauty, whose charm of mien and manner a St Anthony would have had much trouble to resist. She never mixed publicly with other women and in her abode she surrounded herself with all the luxuries and refinements of a grand dame. To get an introduction to Sara was not to be hoped for by a callow fledgling. An hour or two passed by two or three friends meant £10 or £20 spent in champagne. A little supper with the goddess would make a big hole in £100. The Duke of Edinburgh was her most distinguished client.</p>
+</blockquote>
+<p>Inspector Detective Christie, the most experienced and most gentlemanly detective in the Victorian Police Force, under Captain Standish, took him to see Sara Saqui. The apotheosis of the Prince's ideal of beauty is authenticated and old Lyons the auctioneer will vouch for the fact that the Royal couch which was sold by him more than a quarter century after the Duke's visit bore the Royal Arms with the inscription: Under Royal Patronage.</p>
+<p>The ire against the Prince of Wales, the future King Edward VII, started early. The Prince of Wales's public peccadilloes never sounded all that alarming, but they provided marvellous material for the republicans. The first came in 1870 when the Prince was named in the famous Mordaunt v. Mordaunt divorce case. The Argus correspondent said that for ten days the newspapers were filled with details more disgusting than anything in the published correspondence. This was the sort of thing that would hasten the republic by more than fifty years. Having said all that, he reported that the published correspondence between Albert Edward and Lady Mordaunt was 'perfectly harmless and even stupid'.</p>
+<p>In 1876 Melbourne Punch attacked him for wasting his time on good living. The Prince at the time was touring India shooting tiger with the 'assistance of 300 elephants'. Punch was upset because he had accepted presents worth half a million sterling and it referred to his Royal Highness as that 'obese, bald-headed young man'.</p>
+<p>Yet Edward-baiting did not get into top gear until the 1890s. In June 1891, Sir William Gordon-Cumming, a distinguished soldier, an officer in the Guards, no less, was found guilty of cheating at baccarat. There was the famous quotation of Talleyrand that a man could commit all kind of follies, behave badly to his friends, but should he cheat at cards, no pardon was possible, he was permanently dishonoured. This is what happened to Sir William — London was terribly shocked and he was immediately 'stripped of his clubs'. The Royal banker in the baccarat game was His Royal Highness the Prince of Wales.</p>
+<p>The Argus, which was very good at tut-tutting, was not quite so disturbed at the cheating of Sir William as it was that the Prince of Wales had been playing cards. It said it would 'be a shock to the public that the recreations of the Prince of Wales are by no means those of a country pastor'. The public would be disturbed to find that the Prince mixed with a 'gambling set', that he allowed himself to be placed in false positions 'by a weakness for the novi homines and the heavy money bags of society'.</p>
+<p>The Bulletin, of course, was delighted. It never, like the respectable Argus, went for the 'His Royal Highness' stuff. He was 'The Tummy' or 'The Fat Little Baccarat Man'. The Bulletin's sympathies were for Sir William Gordon-Cumming. He never had a hope. His 'professional Tory' counsel was at a vast disadvantage. He couldn't plead in any way that was disrespectful to the Prince of Wales. Now, said the Bulletin, if only he had hired a smart young barrister, who wasn't seeking a fancy place in society, he could have argued:</p>
+<blockquote>
+<ol>
+<li>The entire company from the Royal banker down was drunk.</li>
+<li>Cumming only did what his accusers were doing anyway.</li>
+<li>Case-hardened roués like the Prince of Wales were hardly good enough to swear away the character of a bullfrog.</li>
+</ol>
+</blockquote>
+<p>The jury then would have found for the defendant, but they could add a rider that Tummy was guilty of carrying the implements of gambling in his trousers pocket, but he might be released on the Queen's recognizances and until an Act of Parliament was passed on his behalf.</p>
+<p>After this the Bulletin rarely let up. There was a special poem penned for 'Tummy' on the occasion of his fiftieth birthday:</p>
+<blockquote>
+<p>The embryo monarch is a dreary spectacle and by no means a good subject to rejoice about. He has one dismal eye fixed on his unpaid bills, and the other on a ballet girl in tights. He never said anything brilliant, or did anything surprising. The monarchy lives on the memory of the brave old brawn-clad kings of past history, and here he is in naval uniform and a meaningless decoration or two and a big absurd stomach, and a bald head, and small, casino legs, and a gambling kit in his portmanteau; it is enough on the principle of ancient legend.</p>
+</blockquote>
+<blockquote>
+<p>The monarchy which rallies round a dismal person of his quality and a baccarat kit in his portmanteau is doomed. A course of Turkish baths, and a long series of them, might postpone the downfall of the Guelphs, but even this is being shoved to destruction by its own heavy stomach, and its short uncertain legs are its undoing.</p>
+</blockquote>
+<p>Cyril Pearl in his book about Sydney has described the Bulletin campaign from George III to the toast. In 1897 Norton described Queen Victoria as 'the podgy-figured little German woman . . . this flabby, fat-accretioned little person', but he added 'God Save the Queen', 'if only to keep her rascal of a son, the turf-swindling, card-sharping, wife-debauching, boozing Edward Prince of Wales, off the Australian colonies'. Norton was charged with sedition. However, the jury was puzzled whether calling the Queen flabby, fat and little was likely to cause the downfall of the State, so they discharged him and the case was dropped.</p>
+<p>Curiously enough Norton, on his death, merely said he was kind to Edward VII — he was a pleasing person but a mental mediocrity. Obviously it was refreshing to have a new king to go to work on.</p>
+<p>The Bulletin thought it was shocking to have to toast this elderly mediocrity who did nothing whatever for human welfare. As for Governors, the Bulletin believed that they served no useful purpose. It was horrified in 1887 that the Government of New South Wales paid the huge annual salary of £7,200 to Lord Carrington. The ordinary citizens of NSW got no benefit from it — 'in a political or Governmental sense absolutely nil'.</p>
+<p>The Bulletin had a theory that the Governor was paid to do nothing. Indeed the less he did, the more he kept out of Governmental affairs, the less character and personality he displayed, the better constitutional Governor he was. Therefore Lord Carrington was an excellent Governor. He had the sort of personality which could be wiped out as easily as a chalk mark on a wet slate.</p>
+<p>The Bulletin had the answer for this. 'A Governor is expected to dispense hospitality and the sum paid to him in salary is to enable him to feed and entertain the snobocracy and wealthy groveldom of the country calling itself Society.'</p>
+<p>Before Federation there was a suggestion that a Prince of the Royal blood should become the first Governor-General. The Bulletin was aghast. Prince of the Royal blood! Who wanted royal blood? One had only to look at the three Georges — poor things! All were fools. The third was a fool whenever he was in his senses, but often he was a lunatic. Just the thought of a Royal gentleman for a Governor-General, said the Bulletin, was enough to make one tremble at the idea of Federation.</p>
+<p>The Bulletin, however, enjoyed itself most on those grand Jubilees, the fiftieth and sixtieth year of Victoria's reign. Rarely did it refer to her as Queen Victoria; more often she was Mrs Guelph, the old, long-forgotten German name.</p>
+<p>On one occasion the Bulletin wrote:</p>
+<blockquote>
+<p>Victoria is just going to put up a statue of the Queen as a jubilee memento just because the colony has been named after the wealthy Mrs Guelph. If the Southern grovellers will only arrange that the marble shall be facially a good portrait, and like its original short and dumpy, not to say squat and fat and obese and melancholy-looking, and if further they will put it in a place where it may and must be seen by everybody gratis, all the loyalty of the great Victorian nation will evaporate in less than three weeks.</p>
+</blockquote>
+<p>The Bulletin printed sections of poems deriding the old Queen. Some of them were extremely cruel. One of the Bulletin poets, Francis Adams, produced his verse in hard covers under the title 'Army of the Night'. Here are lines from his Jubilee poem:</p>
+<blockquote>
+<p>Never in one true cause, for our sake and the light's sake
+Did you strike one honest blow, did you speak one noble word.</p>
+</blockquote>
+<p>At the height of the Jubilee celebrations the Bulletin created a half-satirical piece it titled 'Jubilee Gifts — A Phantasmagoria'.</p>
+<p>The scene was the throne room in St James's Palace. The Queen, 'the Royal Idol', was on her throne, surrounded by her progeny and their progeny 'in numbers beyond calculation'. The nobility, the military — 'the eminent blood-spillers', the rich, were all there. These people came forward and as they knelt and grovelled 'the Royal Idol scratched her left ear and brushed a fly off her imperial nose with her own imperial hand'.</p>
+<p>England, Ireland, Scotland and the colonies were represented by female figures. But after all these figures had made what the Bulletin would describe as the usual platitudinous grovelling speeches, mysterious shades came forward and gave the Queen the awful truth.</p>
+<p>The shadows of Egypt, Sudan, Burma and the Zulu nations said:</p>
+<blockquote>
+<p>Royal Ruler of a nation
+Blind and greedy as the grave
+You have brought us degradation
+And we bring you what you gave.</p>
+</blockquote>
+<blockquote>
+<p>Gifts of tears — the tears of widows,
+Gifts of blood — blood of our dead.
+Slain in fighting for their freedom,
+And we lay them on your head.</p>
+</blockquote>
+<p>The Shadow of England said:</p>
+<blockquote>
+<p>From the dens of want and fever,
+Where disease draws fetid breath
+And my gaunt and starving children
+Live a dismal life in death.</p>
+</blockquote>
+<blockquote>
+<p>From the depth of city squalor
+Where the young to crime are bred
+I have brought you groans and curses
+And I lay them on your head.</p>
+</blockquote>
+<p>The Shadow of Ireland in tatters and with fetters on her hands said:</p>
+<blockquote>
+<p>From a land of cold and hunger,
+Where still sounds the mourner's cry;
+From the roadsides where my children
+Are cast out to starve and die,
+I have brought you dying curses —
+Would that swords they were instead
+And the tears of famished orphans
+And I lay them on your head.</p>
+</blockquote>
+<p>The Shadow of Australia said:</p>
+<blockquote>
+<p>I admire your perseverance
+On your throne so long to stick
+And I don't deny that you have
+Drawn your wages like a brick;
+And I'll freely grant that, madam
+You are good and you are old,
+But I can't see those are reasons
+Why from me you should get gold —
+You have not gone out of your way
+Any wish of mine to please.</p>
+</blockquote>
+<p>Finally came the awful Phantom of the Future:</p>
+<blockquote>
+<p>Hast thou given of the riches
+That to thee in trust God gave?
+Nay, thou claspest them still closer
+On the threshold of the grave.</p>
+</blockquote>
+<blockquote>
+<p>And I see the day approaching
+When the poor will have their own
+And will rear the shrine of freedom
+On the ruins of your throne.</p>
+</blockquote>
+<p>At this stage, according to the Bulletin, the lights went out and two Australian witnesses who had been admiring the awesome performance retreated into the street. Regrettably the Bulletin did not provide any dialogue for the 'Royal God Idol'. Her words might have been most revealing.</p>
+<p>Ten years later Queen Victoria was celebrating the sixtieth year of her reign, her Diamond Jubilee this time. The Bulletin virtually said 'so what'. The mere fact of length meant nothing whatever. The Amazon was a long river, the 1336 drought was a very long drought, and Judge Windeyer was capable of making frighteningly long speeches to juries, and the railway to Oodnadatta was a very long railway, but all this was hardly a matter for rejoicing.</p>
+<p>But perhaps this was the most eloquent piece:</p>
+<blockquote>
+<p>For many years a painful struggle has been going on with Victoria, but the heaviness of her loss has been only too apparent. A halo of crepe and ashes has been constructed around her. The whole Empire has been requested to be staggered and moved at the extent of her widowhood, which as her late husband died in his bed of a very ordinary complaint and left her well-provided for, seems hardly more remarkable than the majority of widowhoods.</p>
+</blockquote>
+<blockquote>
+<p>Great efforts have been made to arouse enthusiasm about the fact that she is a well-conducted old lady who never did anything shocking, which matter, as very few old ladies ever do anything shocking, is not remarkable. Her political wisdom, which was never proved by a single known act, and her condescension to a stout, elderly Scotch servant named Brown, and the fact that her secretary sends telegrams of inquiry when any notable person breaks his leg, have also been advertised to the point of weariness. And through it all, there persistently intrudes the vision of a brief, stout, rather cross-looking old lady dressed in rusty black and with a countenance that shows no specially admirable characteristic whatever.</p>
+</blockquote>
+<p>One of the favourite jokes was the immense size of the Royal family. On 26 June 1894, after the birth of a Royal Prince, who was the future Edward VIII and Duke of Windsor, the Premier of Victoria, Sir James Patterson, moved in the House that a cable should be sent to the Queen.</p>
+<p>The Bulletin would have called it the usual grovel:</p>
+<blockquote>
+<p>Most Gracious Sovereign. We Your Majesty's faithful subjects, the Legislative Assembly of Victoria in Parliament assembled, beg leave to approach Your Majesty with renewed assurances of our Loyalty and affection. We present to Your Majesty our sincere congratulations on the birth of the son to His Royal Highness the Duke of York, and we assure Your Majesty that this auspicious event is hailed with great joy by Your Majesty's loyal subjects in this colony.</p>
+</blockquote>
+<p>John Murray, Labor, the member for Warrnambool, created history by making a protest. He said goodness knows we had enough children of our own more worthy of congratulation, and he artfully suggested that all the honourable members who were keen on sending this cable should share in its cost. 'Now I would like to know,' he said, 'have we already dispatched seventy-four messages of this kind? Because I am told by the papers that this is the seventy-fifth descendant of Her Gracious Majesty Queen Victoria.'</p>
+<p>He then pointed out the fearsome prospect of this seventy-five multiplying and multiplying until the whole business of the House was occupied in sending congratulatory telegrams.</p>
+<p>The next year at the opening of Parliament, on 30 May 1895, he was artful again. He noted in the address in reply to the Lieutenant-Governor's speech that there had been no little loyal messages to the Queen, no 'tender allusions to the mother country'. He continued:</p>
+<blockquote>
+<p>Unfortunately during the recess we have not had to congratulate ourselves on another little prince or princess — another addition to the Royal squad — nor have we had to deplore the loss of a prince or princess by death, so that the one may be fairly set against the other. I think the opportunity might have been taken to fill the gap by some allusion to the loss of one although not born in Australia, has so endeared himself during his six years' residence here that he had become their idol, almost their god. . . . I, of course, allude to the illustrious, the incomparable, the unvanquished Carbine.</p>
+</blockquote>
+<p>Mr Murray referred to Carbine's departure from Melbourne, the crowds that went to the wharf to wish him good-bye, the 'sublime pathos' of the stories that filled the newspapers and even the pathetic incident when a venerable old lady presented the horse with a bouquet of flowers, which Carbine in all his innocence thought was a bunch of carrots.</p>
+<p>Mr Murray said seeing Carbine had now arrived safely in England, it would be a good idea to recall Mr Duncan Gillies and make Carbine the Agent-General for Victoria.</p>
+<p>One of the most curious examples of royalty-knocking appeared in Tocsin on 20 June 1901. Tocsin was a Victorian Labor Party newspaper, very radical in its outlook. It had no love for the new King. Already, on 31 January, it had said: 'How one smiles to oneself as one fits the words &quot;Gracious&quot; and &quot;Majesty&quot; to such a one as the ci-devant Prince of Wales.'</p>
+<p>In the celebrated 20 June issue Tocsin had a long, carefully argued article on freedom of the Press. It pointed out that suppression of any kind was a dangerous, intolerable menace to liberty. An article may be a wanton, baseless wicked scandal, but the law itself provided safeguards for that sort of thing. However, arbitrary suppression was just as capable of being used to silence truth as falsehood.</p>
+<p>As an example it cited the seizure of copies of the 9 May issue of Dublin's Irish People. Police suppressed the issue at the order of the Chief Secretary for Ireland, Mr Wyndham. The Irish People was incensed because the English-born Cardinal Vaughan, the Duke of Norfolk and other English Catholics had presented a loyal address to King Edward VII. The Irish People was doubly upset because the King in his oath of allegiance had just made a solemn declaration that some Catholic beliefs were 'idolatrous and superstitious'.</p>
+<p>Tocsin said daily newspapers had obsequiously refrained from giving the people the full story about the suppression of the Irish People. It then printed the entire article. The strongest words were these:</p>
+<blockquote>
+<p>Down on his knees before the old and bald-headed crone, the lover of every woman of fair features who has appeared in English society for forty years including titled dummies and as yet untitled actresses — the 'English gentleman' perjurers of a historic divorce case — the polluted 'hero' of one of the most malodorous scenes in Zola's rotten novel Nana — the centre of a score of disgraceful scandals of the most contemptible type — down in front of this English King, whose latest public performance was to stigmatise on his solemn 'oath' the whole Catholic world as 'superstitious idolators' knelt an English-born Cardinal — a Prince of the Church — with a document which might have been presented to a Legree in a Southern 'plantation' fifty years ago.</p>
+</blockquote>
+<p>After those paragraphs the story became a little more gentle. It merely described the King as 'this old and worn-out descendant of a race of scoundrels and more practical professors of hideous immorality'.</p>
+<p>The article in Tocsin appeared on the Thursday. Parliament met the following Tuesday and immediately after the Speaker had taken the chair, the Premier, Alexander Peacock, told members that Tocsin, 'a certain journal published in this city', had committed a libel on the King. He was just going to bed on Thursday night when a representative of the Argus showed him the article. The article was on the freedom of the Press, but that was merely a subterfuge 'to spread and circulate this libel, which no other journal in the British Empire has attempted to do'.</p>
+<p>Mr Peacock explained that he had consulted the Attorney-General, the Solicitor-General, and that he had even asked the Lieutenant-Governor to cable the Secretary of State in London to see if there was any law whereby they could seize and suppress Tocsin. Sadly the power was not there.</p>
+<p>However, he said, it was to the credit of the news-vendors of Melbourne that when they learned what the issue contained, the majority of them refused to sell it. Then the Premier gave his body blow:</p>
+<blockquote>
+<p>Now I come to a somewhat serious aspect of the question and that is that the name of a member of this House appears on the imprint as the publisher and printer and by our law is responsible for everything contained in that paper. I can only say that I was pained and shocked when this matter was brought under my notice at midnight to think that one of our members should have stood up there on the floor of the chamber, taken the oath of allegiance and joined in the adoption of an address to His Majesty the King sympathizing with him on account of the death of Her Late Majesty Queen Victoria and also tendering our loyalty and congratulations, and at the same time that address was passed by the House, this newspaper that bears his imprint should have appeared.</p>
+</blockquote>
+<p>The accused man was Edward Findley, M.L.A., the Labor member for Melbourne. Mr Peacock said he sent him a letter ordering him to be in his seat in the House at 4.30 p.m. that day.</p>
+<p>Mr Findley was very brief in his remarks. He said he was just the publisher of Tocsin. He was not the editor and had no more control over its contents than the publisher of Hansard. He knew nothing about the article until he was told by the Argus. He said he regretted the article had appeared.</p>
+<p>Mr Peacock said regret was not enough. He moved that Mr Findley had committed an act discreditable to the honour of Parliament and that he be expelled from the House.</p>
+<p>Some members tried to tone down the motion. After all, they said, Mr Findley was one of the youngest members of the House and actual expulsion was very harsh treatment. Surely it would be more reasonable just to suspend him for a period of time. The strongest defence came from Dr Maloney, a radical. He described Findley as a good friend and comrade and that his sentence should be no more than a week's suspension.</p>
+<p>After all the Argus, which had gone 'like a sleuth hound hunting its prey', had in the past printed very similar articles. So too had the Age. For example, on 14 April 1883, the Age printed this extract from Redpath's Weekly on Queen Victoria:</p>
+<blockquote>
+<p>Seize first the selfish old drunkard who is seen so often staggering at Balmoral and grasps with demon-like greed the money by the million wrung from honest and starving toil yet refuses to give a shilling to relieve the distress in Ireland, distress brought on by her misgovernment. She is a criminal. Seize next the heir apparent — the foulest libertine of all Europe.</p>
+</blockquote>
+<p>Edward Findley lost 64 votes to 17 and so was expelled from Parliament.</p>
+<p>Tocsin's fury with the Argus was something to read. In its 27 June issue it said: 'It looks like the Argus with its exaggerated articles and pruriency-whetting posters were willing even to soil its King in the vain endeavour to catch up a fraction of the Age circulation'. Nor did it agree with the Premier that the 20 June issue was not a good seller.</p>
+<p>One of the pitiable sights of last week's excitement was the procession of bell-toppered Tories and unctuous Professional 'Loyalists' trooping into a city newsvendor's shop and tumbling over one another in their frenzied haste to pay their threepences and eventually sixpences for a copy of the Tocsin which had been alleged to contain an article on the King that Mr Balfour had stated to be 'foul', 'obscene' and 'unfit for the eyes of English gentlemen'.</p>
+<p>However, the Melbourne Public Library made sure that unfit eyes did not see the issue. It ordered that the offending pages of Tocsin be burned. Only in recent years have they been replaced with photostat copies by courtesy of the Mitchell Library in Sydney.</p>
+<p>As for Edward Findley, there was no serious harm to his career. He became a Victorian Senator in 1903 and remained in Federal Parliament on and off until he was defeated in 1928.</p>
+<p>John Norton died in 1916; Truth was never the same again.</p>
+<p>The Bulletin turned almost amicable in its treatment of the Royal Family during the First World War. The public had nothing but praise for brave King George V who did not desert London; they admired the handsome Prince of Wales, who so obviously wanted to fight beside the men of his own generation and visited them in the field in France.</p>
+<p>So for decades royalty-knocking went out of fashion. It wasn't considered done even to draw a cartoon of the King or his Queen and any jokes about royalty were in 'the worst possible taste'.</p>
+<p>The Australian newspapers in 1936 showed very good manners during the King Edward VIII — Mrs Wallis Simpson affair, even to the extent of refusing to print cabled stories about the romance.</p>
+<p>But when abdication became inevitable the conservative newspapers were unanimous. 'A morganatic marriage is unacceptable' intoned the Age. 'The issue is clear. The King cannot marry the American woman,' thundered the Herald.</p>
+<p>Smith's Weekly went passionately the other way. It devoted almost an entire issue to the controversy. On the front page it had large romantic black and white portraits of Edward and Mrs Simpson plus these glowing words: 'To lose him would be a calamity. He is the greatest rallying-point of patriotism that history has known. For to him is accorded what no King since the birth of time has been given — the hearts of the free peoples of the mightiest Empire that ever was or ever shall be.'</p>
+<p>Smith's was all for the marriage, but the Bulletin produced a leader which almost reminded one of the 1890s. It said the hearts of flappers and the editors of flapper-papers might be moved by 'LUV' but history would not. History would just say that at the age of forty-two, in a time of national disquiet, Edward VIII abandoned his empire, his church, his crown and his house for an infatuation for a double-divorcee. And it continued:</p>
+<blockquote>
+<p>What was the King's staff doing when Edward and Mrs Simpson had their pictures taken on a Dalmatian beach just like 'Arry and 'Arriet' out for a day at Margate? Why did it let him ride in a coach through the streets of foreign cities with his Mrs Simpson as sole passenger? Never since the days of the Prince Regent, the Worst Gentleman in Europe, had the monarchy put on such a show of itself.</p>
+</blockquote>
+<p>Monarchy-knocking did not gather pace again until the 1960s. It had some inspired guidance with modern republicans like Donald Horne and Geoffrey Dutton. In 1966 Sun Books under the editorship of Geoffrey Dutton produced a paperback titled <em>Australia and the Monarchy</em>.</p>
+<p>It had chapters by many authors. Richard Walsh, for example, wrote:</p>
+<blockquote>
+<p>The Queen ranks as an anti-hero verging on anti-leader. Instead of choosing our leader on merit, we prefer the arbitrariness of birth; the head of the hierarchy is selected by the bizarre twist of chromosomes. Instead of leading she is completely directed; instead of competence there is a veneer of graciousness; her eloquence comes by courtesy of a squad of trite-writers whose mellifluous waffle conveys the personality, as Lord Altrincham once so memorably phrased it 'of a priggish schoolgirl, captain of the hockey team, a prefect and a recent candidate for promotion'.</p>
+</blockquote>
+<p>Walsh went on to describe the royal tours from 1963 on as bonanza-size flops. Dutton himself in a newspaper article described Australia as a nation of schizophrenic babies wailing to have their nappies changed by Mum or Dad. The Queen, the great Mum, handed out all the goodies, the lovely knighthoods and MBEs, the Royal prefix to the name of clubs, etc. The only trouble was 'Dad' happened to be Uncle Sam and he gave the orders: off to Vietnam. Don't dare to recognize Red China. A rocket base here. A tracking station there.</p>
+<p>After the publication of <em>Australia and the Monarchy</em> Geoffrey Dutton received a letter from an elderly member of the Adelaide Club. The member implied that he was speaking for a group of members who took strong objection to the book and suggested that Mr Dutton should resign. Mr Dutton, who had been a member for twenty-two years, did just that.</p>
+<p>Then in 1967 there was the first prosecution for seditious libel in Victoria's history. A weekly journal called Tom Thumb ran a satirical interview with Prince Philip. There were three defendants, the publishers of Tom Thumb, Bevyn Howard Baker and his brother Bryan Jeffrey Baker, and a writer, Thomas Patrick Higgs.</p>
+<p>The lines which so offended the police were these:</p>
+<p>Tom Thumb: What is the main reason for your current tour?</p>
+<p>Philip: Any excuse to get out of the house. She is driving me insane.</p>
+<p>Tom Thumb: When you say 'she', Sir, I presume you are referring to your wife the Queen?</p>
+<p>Philip: I am not referring to Liberace.</p>
+<p>Tom Thumb: In what way is she irritating you, Sir?</p>
+<p>Philip: Nag, nag, nag. She doesn't let up for a bloody minute. 'Don't leave your polo stick in the hall, Philip'. 'Don't drink too much at the luncheon today'. 'You are just about due for a hair-cut, Philip'. 'Really, Philip, you are getting fatter every day'.</p>
+<p>Tom Thumb: Is it true you have been having a little trouble with Prince Charles since he arrived back?</p>
+<p>Philip: No end of trouble. He sold the lead off the roof of Buckingham Palace to a second-hand dealer and pissed the proceeds up against the wall of the Down Under Club with a bunch of Aussie deadbeats.</p>
+<p>Tom Thumb: Do you think Prince Charles will make a good King when he comes to the throne?</p>
+<p>Philip: He is not fit to govern a two-stroke motor.</p>
+<p>Tom Thumb: But perhaps he could be taught the skills of a monarch?</p>
+<p>Philip: Never. He's a throwback to Henry VIII. They say 'there will always be an England' but I predict this boy of mine will go a long way to proving them wrong before he's finished.</p>
+<p>Tom Thumb: Let's go back to the Queen for a moment.</p>
+<p>Philip: Do we have to?</p>
+<p>Tom Thumb: She must go down as one of the truly majestic Queens in British history.</p>
+<p>Philip: Personally I think she's as plain as a robber's dog.</p>
+<p>The police when making their charges interviewed each of the men separately. Mr Bevyn Baker pleaded in vain that the whole article was meant to be a joke.</p>
+<p>Mr La Fontaine, arguing for the Crown, said the suggestions that the Queen was a 'nag' or a 'bore' may not be libellous, but they were seditious and the reference to Prince Charles pinching the tiles off the roof of the Palace was clearly libellous and seditious.</p>
+<p>But no one was hanged for sedition this day. Mr J. M. Duggan S.M. doubted whether the Queen would suffer from the article in Tom Thumb and did not think for one moment that it really implied that Prince Charles was a thief. So, like John Norton long before, the men of Tom Thumb were set free.</p>
+<p>Occasionally we become a little upset at the activities of Prince Philip. In 1959 when photographers were trying to turn a hose on him H.R.H. said: 'Don't you dare turn that bloody thing on.' Some of the local clergy were upset and they demanded that he justify the use of a swear word in public.</p>
+<p>In April 1969 Prince Charles described a beach belonging to the City of St Kilda as 'diluted sewerage'. At the time St Kilda was paying a public relations firm big fees to spread the word that St Kilda was the Cote d'Azur of Australia, or, at the very least, the Surfers Paradise of the South. Thereupon the Mayor of St Kilda, Cr. Jim Duggan, commented: 'When that crank came here, he didn't have the brains to tell us he was going to St Kilda, or we would have had the place cleaned up.'</p>
+<p>But the knockers are now comparatively rare. Royalty-knockers closer to the Palace are infinitely more eloquent and efficient.</p>
+<hr>
+Continue to chapter twelve: <a href="/books/knockers/12-australian-myths/">Australian Myths</a>
+</div>
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+
+  <p class="lead">
+        A survey of two centuries of Australian royal-knocking, from the colonial press&#39;s attacks on Prince Alfred&#39;s brothel visits and the Bulletin&#39;s sustained assault on the Guelph family through the sedition trial of the labor journal Tocsin, the abdication crisis of Edward VIII, and the 1967 prosecution of the satirical journal Tom Thumb for a mock interview with Prince Philip.
+      </p>
+
+
+<hr>
+<h4 class="h6">Topics in this item</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/alexander-peacock/" class="link-secondary">Alexander Peacock</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Alexander Peacock">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/anzac-day/" class="link-secondary">Anzac Day</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Anzac Day">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/carbine/" class="link-secondary">Carbine</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Carbine">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/edward-findley/" class="link-secondary">Edward Findley</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Edward Findley">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/francis-adams/" class="link-secondary">Francis Adams</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Francis Adams">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/geoffrey-dutton/" class="link-secondary">Geoffrey Dutton</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Geoffrey Dutton">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/john-norton/" class="link-secondary">John Norton</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="John Norton">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne-punch/" class="link-secondary">Melbourne Punch</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne Punch">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/norman-lindsay/" class="link-secondary">Norman Lindsay</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Norman Lindsay">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="St Kilda">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/the-bulletin/" class="link-secondary">The Bulletin</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="The Bulletin">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/alexander-peacock/" class="link-secondary">Alexander Peacock</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Alexander Peacock">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/anzac-day/" class="link-secondary">Anzac Day</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Anzac Day">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/carbine/" class="link-secondary">Carbine</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Carbine">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/edward-findley/" class="link-secondary">Edward Findley</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Edward Findley">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/francis-adams/" class="link-secondary">Francis Adams</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Francis Adams">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/geoffrey-dutton/" class="link-secondary">Geoffrey Dutton</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Geoffrey Dutton">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/john-norton/" class="link-secondary">John Norton</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="John Norton">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne-punch/" class="link-secondary">Melbourne Punch</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne Punch">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/norman-lindsay/" class="link-secondary">Norman Lindsay</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Norman Lindsay">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="St Kilda">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/the-bulletin/" class="link-secondary">The Bulletin</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="The Bulletin">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

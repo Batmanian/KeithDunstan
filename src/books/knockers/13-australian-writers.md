@@ -1,0 +1,388 @@
+---
+title: Australian Writers
+date: 1972-01-01
+summary: Traces the long contempt shown to Australian writers, from the colonial press's dismissal of Adam Lindsay Gordon and the Victorian Parliament's refusal to grant a pension to Marcus Clarke's destitute widow, through Henry Lawson's fury at being ignored, the decades of neglect suffered by Joseph Furphy and Henry Handel Richardson, D. H. Lawrence's savage reception, the Ern Malley hoax and the prosecution of Max Harris, the critical savaging of Patrick White, and the knocking of Germaine Greer and Barry Humphries on their return from overseas triumph.
+tags:
+  - A. D. Hope
+  - Adam Lindsay Gordon
+  - Albert Tucker
+  - Alfred Deakin
+  - Angry Penguins
+  - Arthur Boyd
+  - Barcroft Boake
+  - Barry Humphries
+  - Barry McKenzie
+  - Bernard O'Dowd
+  - C. J. Dennis
+  - D. H. Lawrence
+  - Germaine Greer
+  - Henry Handel Richardson
+  - Henry Kendall
+  - Henry Lawson
+  - Joseph Furphy
+  - Marcus Clarke
+  - Max Harris
+  - Norman Lindsay
+  - Patrick White
+  - Sidney Nolan
+  - The Bulletin
+  - Thomas Keneally
+  - Victor Daley
+  - Xavier Herbert
+---
+
+Bernard O'Dowd said in 1912: 'Review work is largely done in the odd moments of partially educated news readers, who, with rare exceptions, they have not the courage to pronounce for or against a book without seeing a London opinion of it.'
+
+Oh, there was great enthusiasm for the literary giants of the day, Dickens, Trollope, Thackeray, Jack London, but unless an Australian writer had some other occupation he could not make a living in his own country. It would have been easier had Australians not spoken English. If, say, Arunta had been the national language, perhaps the bookshops would have found it easier and cheaper to sell books by Australians. *For the Term of His Natural Life* by Marcus Clarke in Arunta might even have made it as the novel for Leaving Pass English.
+
+There is a dream that still prevails, that the great Australian novel has yet to be written. This will be a super summing-up of the national ethos, a Don Quixote, Moby Dick, Brothers Karamazov, all rolled into one. So the great Australian novel has been looked upon like the coming of a Messiah, and somehow it always keeps missing the boat. In 1901 even the Bulletin despaired. The Pink Page recorded:
+
+> We have had some 100 years for the glimmerings of a national literature — the reflex of our life. We have had Gordon and Marcus Clarke, Boake and Lawson. What is their note? Pessimism, pessimism and again pessimism. The tragedy of desolation, the half understood, the visibly expressed horror of a vast, vague and bloodless land. Where is the Australian writer whose work is flooded with hope?
+
+A letter-writer in answer to this enhanced the gay scene even further. He pointed out that Gordon shot himself, Boake hanged himself on his own whip and Clarke's most intimate friends are known to whisper confidentially when they speak of his death. Of course, the whisper he was trying to purvey was that Clarke 'drank' and he went on to suggest that things were not all that good with Henry Lawson either. He was so right.
+
+But all Australian writers at this time suffered from lack of recognition and the impossible task of selling their works. Even academics were not wanted.
+
+In 1911 the Bulletin was waging a campaign against the 'importing mania', the idea that nothing animate, vegetable or mineral unless it came from overseas was any use. It reported that Melbourne University was looking for a Professor of English. Already they had Walter Murdoch, a Master of Arts from Melbourne University. For eight years he had been doing the work required of a professor. A petition, signed by 150 members of the University Council, suggesting that Murdoch should have his chair, was unsuccessful. Yet amongst those who should have known better: 'they are hopeless'. How correct they were. Walter Murdoch did not get recognition and his chair and had to go to the University of Western Australia.
+
+This was the general thing. Australian writers have always needed the overseas stamp before they could be accepted in Australia. Maurice Guest by Henry Handel Richardson had been read in Europe for twenty years before Australians had heard of it. Rolf Boldrewood suffered the same fate. Nothing happened in Australia until *Robbery Under Arms* appeared in London in 1889. He had to hawk the manuscript to newspapers and journals in Australia until finally the Sydney Mail bought the right to run it as a serial. But as for publishing it in book form: 'An Australian house refused to take the risk.' Australian life was depressingly tough for the early writers.
+
+Adam Lindsay Gordon in 1867 published his first book, *Sea Spray and Smoke Drift*, at his own expense, £50 for 500 copies. He only sold a hundred of them and, as one biographer put it, they remained a load on the publisher's shelves. Gordon hardly any of the newspapers took the trouble to review. He got one good review from Baily's Magazine in England, but that was in the November issue of *Colonial Monthly*, which used such words as 'unimpressive', 'abrupt' and Byron. It ended with this sour paragraph: 'Altogether it is one of the least curiosities issued from the colonial printing press, and deserves encouragement at the hands of those whose tastes incline to horse sport.'
+
+The only good reviews he ever had were in later issues of *Colonial Monthly*; these described him as the most Australian of our literary aspirants and 'we look forward with some pride and much hope to the day when it will be a boast to have discovered his genius in 1868'. This almost certainly was written by the editor, his friend Marcus Clarke. The other good review came from Henry Kendall and appeared in the Australasian. It was a review of *Bush Ballads and Galloping Rhymes*. It described the work as undoubtedly the superior of Whyte-Melville and Charles Kingsley and the rival of Swinburne.
+
+On the morning of 23 June 1870, Kendall showed Clarke the two-column review which was to go in the Australasian the following Saturday. But even this was not enough. The next morning Gordon kissed his wife good-bye, went down to Brighton Beach, put the muzzle of a rifle in his mouth and shot himself.
+
+Gordon, Clarke and Kendall, although different in temperament and background, suffered similar agonies. Kendall was a nature poet and the first to recognize the beauty of the Australian bush. He was born in 1839 in Ulladulla in New South Wales. He had success with a book of verse which sold 500 copies in Sydney and this persuaded him that perhaps he could make a living by freelance writing in Melbourne. But like Gordon he failed. His second volume, *Leaves from Australian Forests*, published in 1869, did not sell and lost his publisher £90. So when he knew Gordon and Clarke, his income was slight and at times he didn't have enough money even to buy food. Eventually he went off to the north coast of New South Wales to work as a book-keeper in a timber yard.
+
+Marcus Clarke, despite the solemnity of *For the Term of His Natural Life*, had a reputation for wit, gaiety and high living. He became a member of the Melbourne Club and continually lived beyond his means. His skill was far superior to any of his contemporaries', but he was often in trouble.
+
+The Argus first sacked him in 1867 for an almost classic reason: the editor sent him to review a theatre performance by Mr and Mrs George Case. Clarke turned in a critical account for the next morning's Argus, which caused understandable anger from the Case family. Mrs Case had 'suffered an indisposition' and the show had not taken place. For this Clarke was reduced in ranks from staff member to mere contributor.
+
+In 1872 he was in trouble with the Argus once more. That year the Victoria Racing Club refused to give the newspapers free tickets for the Melbourne Cup and the newspapers responded by refusing to cover the meeting; that is, all newspapers except the Herald. On cup night the Herald had a brilliant report, one of the cleverest that had ever been written about the meeting. The writing was so good, the style so distinctive, it just had to be Marcus Clarke. The Argus still considered him their property and the editor was furious. The authorities called him in and demanded an explanation. Clarke admitted he had written the story, but denied he had been to the Cup. Anyway, no one else could go where he couldn't so he felt he had a right to accept the assignment. That was the end of Marcus Clarke with the Argus.
+
+In 1870, Sir Redmond Barry made him assistant librarian of the Public Library, which supplemented his freelance activities. It was in this year that he began writing *For the Term of His Natural Life* for the Australian Journal and it appeared in serial form for three years. (The title was changed to *For the Term of His Natural Life* with the 1885 edition.) The story goes that he would fall shockingly into arrears with his copy and sometimes he would have to be locked up with tobacco and a reasonable amount of whisky until he produced results.
+
+It was published in Melbourne as a single volume in 1874, and eventually it had considerable acclaim in England and America. The Marcus Clarke journals published enthusiastic reviews from the Daily Telegraph, the Spectator, the Saturday Review, the London Morning Post, the Boston Gazette, the Graphic, Vanity Fair and a leading German newspaper, where it had been translated. But Clarke continued to play hard, he fell deeper and deeper into debt. He went bankrupt and he lost his job with the library. During the last year of his life, he suffered repeatedly from a disordered liver. Finally he had an attack in August 1881 at the age of thirty-five.
+
+But the interesting point about Clarke was the way he was treated by the Victorian Legislative Assembly. In September 1882, Mr Reid, the member for Fitzroy, introduced a bill for £1,000 to be placed on the Estimates to subsidize the works of the late Marcus Clarke so that copies of his books could be presented to all free libraries and mechanics' institutes and the proceeds go to his widow and family.
+
+Mr Reid and his supporters said that Clarke and Adam Lindsay Gordon constituted a period of Australian literature by themselves. Clarke was a genius, the only great author Victoria had produced, and this money should be paid for services rendered and to encourage other great writers in the future. Authors like Clarke could do far more for Victoria than a wasteful International Exhibition such as they had had a few years before.
+
+Clarke's widow at this stage was almost destitute. The State had given her a job as a registrar of births, marriages and deaths, but this produced an income of only £50 to £60 a year, certainly not enough to raise a family of six young children. There was a later move to forget the publication subsidy and make a straight grant to her of the £1,000.
+
+The move had a few powerful supporters, Alfred Deakin and the eloquent, brilliant David Gaunson, the defender of Ned Kelly and later John Wren. Gaunson taunted the House, and asked how many of them had ever read Clarke's great work. 'It is well-known in all English-speaking communities, and it has been taken into favour too by continental nations,' he said, 'but I believe I am correct in saying not twenty members here have read it.'
+
+His taunts were not over-effective. Some members were actually proud that they hadn't read it. Mr Woods said: 'Is it the greatest thing in the world to write works of fiction? I have never read the particular work . . . I tried to read it once, but could not.'
+
+Then came two of the most extraordinary attacks ever made on an Australian writer, both from future premiers who were to have much to do with the Land Boom and the Bank Crash of 1893, J. B. Patterson and Thomas Bent. James Patterson said the only book by Marcus Clarke that anyone had heard of was *His Natural Life* and as far as he was concerned it was the most unnatural book he had ever read in his life. He described it as follows:
+
+> If it had been written at the time it would have done Tasmania some service, but a mere record of what transpired in years gone by is only the work of a scribbler. Scribblers were being reared by thousands, but what the country needs are thinkers. There was nothing but scribbling in *His Natural Life*. It simply reached certain diabolical and unnatural horrors which took place in Tasmania many years ago, and it is hard reading that any decent son would care about introducing into his house. His Natural Life has absolutely nothing to commend it. I certainly would not recommend it.
+
+Mr Patterson said there were thousands of distressed widows in the community — why should they make an exception of this scribbler's widow?
+
+Thomas Bent was even more eloquent. He said:
+
+> Though I do not want to discuss its merits or demerits, I will ask is there one honourable man that was a friend of Marcus Clarke who would say he was a man or that he was fit to be associated with? Is that book that has been spoken of one that is fit to be read in the family? It is loathsome in the highest degree. Is it a book for the family, for instance? Is there anything elevating in its character or the author's character? It is all very well for the Chief Secretary to talk about Marcus Clarke's literary ability, but to those who knew him he was not a man with an honest trait or one kindly act to his credit. Has the honourable member who submitted the Bill read *His Natural Life?*
+
+Mr Reid: 'Certainly.'
+
+Mr Bent: 'What was it about? Sharks and bulldogs and lacerated flesh. A very good summary of it. I shall certainly resist the passing of the motion to the utmost.'
+
+There was a vain effort by one member to show that the granting of pension to relatives of great literary figures was common in England, and six were granted in 1882 and 1883, but he got nowhere. The motion did not even get as far as a formal vote. The record says 'The motion was negatived without a division.'
+
+<h2 id="henry-lawson">Henry Lawson</h2>
+
+Unquestionably the most eloquent man on the suffering of Australian writers was Henry Lawson. Maybe Lawson did not reach great heights as a bush poet, but as a short-story writer he gathers eminence year by year. H. M. Green in his *History of Australian Literature* puts him on a level almost with Gorki.
+
+The agony of it all is well told in his poem which appeared during May 1892:
+
+> Southern men of letters, vainly seeking recognition here —
+> Southern men of letters, driven to the Northern hemisphere!
+> It is time your wrongs were known; it is time you claimed redress —
+> Time that you were independent of the mighty Northern press.
+> Sing a song of Southern writers, sing a song of Southern fame
+> Of the dawn of art and letters and your native country's shame.
+
+> In the land where sport is sacred, where the laborer is a god,
+> You must pander to the people, make a hero of a clod!
+> What avail the sacrifices of the battles you begin
+> For the literary honor of the land we're living in?
+> Print a masterpiece in Melbourne, and it will be lost, I ween,
+> For your weakest stuff is clever in a London magazine.
+
+> Southern men of letters, seeking kinder fields across the wave,
+> Tell a shameful story entitled 'Deniehy's Forgotten Grave!'
+> Ask the South of Charlie Harpur! Seek the bitter truth and tell
+> Of the life of Henry Kendall, in the land he loved so well.
+> See the songs he wrote in vain! Touch the South with bitter things;
+> Take the harp he touched so gently; show the blood upon the strings.
+
+> Banish envy, Southern writers! Strike with no uncertain hand,
+> For the sound of Gordon's rifle still is ringing thro the land!
+
+> Oh! The niggard recognition! Oh! the fame that came in vain
+> To the poor dead poet lying with a bullet through his brain!
+> Gone, my friends! (he thought it better to be gone away from here)
+> Gone, my friends, with 'last year's' dead leaves — at the falling of the year.
+
+It was bitter stuff. The poem pulled in every literary tragedy except young Barcroft Boake, who a few weeks before, on 2 May, at the age of twenty-seven, hanged himself on his stockwhip in a patch of scrub at Middle Harbour, Sydney. For the previous five months his only earnings had been a few guineas from contributions to the Bulletin.
+
+In 1899 Lawson wrote his famous tirade for the Bulletin. He said there were a score of Australian writers, most of them little more than lads, who could write better stuff than appeared in the English magazines. But the so-called great Australian magazines and newspapers never gave them any more than niggardly assistance. Some of their work brightened Australia for years but no one in all wide Australia stood up and asked whether a native-born writer went aboard a boat with a decent suit on his back or a five-pound note in his pocket.
+
+Describing his own plight he said:
+
+> When desperately hard up and with a wife to provide for, I at last was forced to apply to the Government for temporary work. I was kept hanging about the office for weeks; and when as a last resource I applied for a railway pass for a month to enable me to find work in the country and gather new material for literary work, I did not receive a reply.
+
+> My advice to any young Australian writer whose talents have been recognized, would be to go steerage, stow away, swim and seek London, Yankeeland, or Timbuctoo — rather than stay in Australia till his genius has turned to gall or beer. Or failing still, if still interested in human nature and literature, to study elementary anatomy, especially as it lies to the cranium, and shoot himself at the aid of a looking-glass.
+
+Lawson did not receive sympathy. There was some angry correspondence. One letter said:
+
+> Sorry to hear that Lawson has taken to howling about hardships, which after all, are only the ordinary experience of life on our continent. A wider and more sincere sympathy with his fellows — many of whom have deeper waters to pass through than he ever had — would have inspired him to sound a more poetic note. He cannot blame his comperes for want of patriotism, as he absolutely lacks that trait of the true poet — that is if his condemnation of Australia is sincere. It is very seldom that a poet abuses the land that bred him.
+
+Lawson's total earnings through his writings between 1887 and 1899 were £700. So it was hardly surprising that he was bitter. Denton Prout in his biography of Lawson, *The Grey Dreamer*, quotes the preface to Lawson's first book *Short Stories in Prose and Verse*: 'The Australian writer until he gets a "London hearing" is only accepted as an imitator of some recognized English or American author; and, as soon as he shows signs of coming to the front he is labelled "The Australian Southey", "The Australian Burns", or "The Australian Bret Harte", and, lately, "The Australian Kipling". Thus no matter how original he may be, he is branded at the very start, as a plagiarist.'
+
+It would be unfair to say that Lawson suffered all his life. Around the turn of the century copies of his poems and short stories sold by the thousand. He received many fulsome reviews talking about his genius. But on the other hand he suffered so many knocks that there is even a book by Fred J. Bloomfield titled *Henry Lawson and His Critics*. Bloomfield goes as far as to call it 'the vulture-scream of vituperation'.
+
+Denton Prout quotes some of the knocking reviews in his book. There was a review of *In the Days When the World was Wide* by that great literary figure Henry Gyles Turner which appeared in the Leader on 29 February 1896:
+
+> On the whole the poems are rather inferior. Any man with an ear for rhythm and faculty for rhyme; and who had been steeped in Gordon, Brunton Stephens and Kendall, could have this small volume's worth squeezed out of him under pressure. But I doubt if he will ever do much better, the whole business is so manifestly mechanical.
+
+Not only were Lawson's political views unpopular, but he was loathed for not writing about the actual Australian outback in terms which would have been of immense delight to Government Tourist bureaux.
+
+When he wrote such verse as 'When Your Pants Begin to Go' he was being vulgar and this poem was excluded from some anthologies because it was felt it might be damaging to young people.
+
+The most savage attacks on Lawson actually came after his death. An article in *Australia* by Fred Davison was titled 'The Henry Lawson Myth' and it said:
+
+> Lawson was not the great writer that some claim him to have been. His outlook on life was too narrow. He saw — not the things that really matter, but the mean and petty things, and he used his talent to give these mean and petty things a mischievous prominence. There is little of uplift in his writings, they contain no inspiration for Australian youth. The fact is that it wasn't in Lawson to write a truly optimistic thing — and without optimism there can be no success either for a man or a nation. Henry Lawson's writings are full of droughts, dead sheep, blow-flies, drunken men, and flat-chested women it would be a kindness to kill. He had the hell-given habit of seeing the wrong side of everything.
+
+*Australia* didn't stop there. It followed up with another article which had lines like these:
+
+> Of the work he left behind, about one-third is good Australian stuff, worthy of the man, of his country, and of us, his fellow Australians for whom he speaks. The remaining two-thirds is either a libel on the land that gave him birth or whining complaint against the conditions of human existence. There is no denying that some of even his most melancholy lines are true. But life does not consist wholly of tramping the city pavements till you've counted every flag, nor the shame of going home hard-up. Lawson writes as if it does.
+
+He knew what was happening well enough, but his world was the old world of the bush and Bulletin and he could not change with it. He kept repeating old themes until they were worn dry.
+
+<h2 id="joseph-furphy">Joseph Furphy</h2>
+
+The game so lovingly pursued in the literary supplements was the hunt for the great Australian novel. The most impressive candidates, Joseph Furphy and Henry Handel Richardson, had to wait at least a quarter of a century for recognition.
+
+Perhaps the greatest candidate is Furphy. It is a trifle ironical that the name Furphy is better known for lavatory humour than it is for noble writing. Joseph Furphy was actually a member of the famous Furphy family of Shepparton. They had a large foundry which produced the water-carts that were standard equipment at Army camps during the First World War. The name FURPHY appeared on every vehicle, so it was natural that all latrine rumours should become known as furphies. A teller of tales was a furphy merchant. But in the First World War fewer Australians had heard of Furphy or his great novel. As H. M. Green has written, the little interest Australian readers took in Australian novels was entirely confined to novels of simple adventure unmixed with mental activity.
+
+Furphy was an occasional contributor of paragraphs to the Bulletin. All his life he had been a lover of literature. He could read in Greek and German but he did not start to write until he was in his forties and he didn't begin *Such is Life* until he was fifty.
+
+He submitted his manuscript to the Bulletin in 1897. A. G. Stephens, the greater literary potentate of the day, and founder of the Red Page, was almost wildly enthusiastic. But there had to be revisions, and J. F. Archibald, the editor, had to be convinced, so the Bulletin did not publish it until 1903. Furphy used the pen-name 'Tom Collins', and one of the few advertisements for the book appeared in the Bulletin on 30 July of that year: 'price 4/6, handsomely bound in cloth and decorated'.
+
+It was interesting that Furphy chose a pen-name. Perhaps he thought it wasn't quite done to push oneself. Stephens asked him for a summary of the book and by mistake he thought a review was wanted. So he even knocked himself. His worst: '[Tom Collins] discloses an unmoderate egotist, apparently undisciplined by controversy and evidently fostered by solitary communion.'
+
+The book went almost unreviewed. The Australasian was enthusiastic and thorough, but the Evening News in Sydney was savage and facetiously compared Tom Collins to Bret Harte:
+
+> It reminds us of Bret Harte by the absence of none of the literary qualities that one associates with that writer. It may be a faithful description of certain phases of Australian life in the bush, but its literary methods are poor, and its style is not above reproach. Before when Mr 'Tom Collins' writes 'What the quadruple expletive's the matter with you?' he adopts the manner of a clown, who reproduces 'gags' of remote antiquity.
+
+The *Bookman* magazine thought it an excellent work spoiled by the author's passion for displaying his vast erudition: 'As a consequence the reader is speedily wearied with constant references to old acquaintances.'
+
+The Bulletin printed a notice of its own handsomely bound publication in which it called it a major work. Furphy tried hard to sell a second romance. He hawked it to publisher after publisher, but no one would look at it. He died in 1912. But for Kate Baker, who took up his cause and had *Such is Life* re-published in 1917, the chances are that Joseph Furphy would be unknown.
+
+Miles Franklin, Furphy's biographer, records that in 1927 Kate Baker suggested that there should be some kind of memorial in Shepparton, the very place where he wrote *Such is Life*. Four years later in an address to the Henry Lawson Fellowship at Footscray she mentioned this fact again. She even found a playwright who attacked Shepparton for its neglect of its 'famous son'. Through the Shepparton News the supporters opened a subscription list, but the response was too meagre. Nothing came of it.
+
+Although we have innumerable monuments to mayors, politicians, and famous soldiers, Australia never erected a monument to Henry Handel Richardson either. She was almost unknown in Australia.
+
+<h2 id="henry-handel-richardson">Henry Handel Richardson</h2>
+
+Henry Handel Richardson was almost unknown in Australia until after 1930 when *The Fortunes of Richard Mahony* was published as a trilogy. Admittedly she left Australia as a schoolgirl, but *Maurice Guest*, published in 1910, had a profound effect in London. It is said to have had an influence on Compton Mackenzie in *Sinister Street* and Somerset Maugham in *Of Human Bondage*.
+
+She went to school at the Presbyterian Ladies' College in Melbourne and in 1912 she published *The Getting of Wisdom*. This must have been noticed, because PLC never forgave her for it. In *Myself When Young* she wrote: 'When I tried to revisit my old school I was refused admittance and had to content myself with peering through the cracks in the paling fence.'
+
+The most interesting example of the ignorance of the existence of Henry Handel Richardson is the delightful non-review that appeared in the *Book Lover* in December 1917. The issue was full of reviews of inconsequential books that nobody has heard of since, but here is the only comment they ever made on *Australia Felix*, first volume of the Richard Mahony trilogy:
+
+> This book appears as written by 'Henry Handel Richardson' whose name will be remembered as the writer of two books, *Maurice Guest* and *The Getting of Wisdom*, which appeared some years ago. We understand it is the assumed name of a lady, and, what makes it interesting to us here is that it is a story of Ballarat in the early gold-mining days. We are told by many who have read it that it is intensely interesting, and we think that opinion is deserved. It must be said, however, it consists of 406 pages closely printed — and that is beyond our possibilities at this busy time of year. It must be said that the author writes in lengthy paragraphs — a dangerous habit.
+
+Curiously enough the poets, particularly the bush balladists, were more popular than the writers. Banjo Paterson, less gloomy than Lawson, never had to struggle for sales. Bernard O'Dowd, Roderic Quinn, Victor Daley and C. J. Dennis were all household names.
+
+C. J. Dennis, of course, was a literary phenomenon. *The Songs of a Sentimental Bloke* was published in 1915. The public loved it and 67,000 copies sold in the first year. But then intellectual critics, while finding Dennis all very amusing, thought him not quite the thing for serious-minded people. Should one be run over by a truck it would be most regrettable to be found with a copy of the Sentimental Bloke in one's pocket. H. L. Mencken, the most brilliant of American critics, settled the whole thing. He described *The Bloke* as 'mawkish, tedious and idiotic'. Although he did concede the book contained an excellent compendium of Australian slang.
+
+A critic for *The Triad* wrote that he started out applauding with the others, but when he settled down to really read it and hear it recited, well: 'that settled me, and I itched to go forth privily and kill Mr Dennis with an axe. The book about the Bloke was clever, but it was claptrap. There never was such a larrikin, and most assuredly there never was such a Doreen in any larrikin's path. It was all faked figures, theatrically dolled-up in a glamour of limelight.'
+
+So for thirty years after the 1920s this marvellous little book was hardly read at all. Fresh editions did not appear and it was almost forgotten.
+
+But any connoisseur of knocking interested in the hammering of a poet should turn to the famous tirade by John Norton, produced from Truth. Victor Daley died of tuberculosis in 1905 at the age of forty-seven. True, immediately after his death there was an extraordinary outpouring of public emotion. The obituaries were loaded with sentiment. People who had never read his poetry while he was alive moaned at his death. All sorts of half-remembered Daley anecdotes were published; most of them undoubtedly fiction.
+
+Cyril Pearl in *Wild Men of Sydney* quoted the line of E. J. Brady: 'The gates of the marvellous swung open before him. John Keats whose genius he most resembles, bade him welcome, and courtly Shakespeare nodded friendly recognition, and reckless Omar smiled.'
+
+There was a similar outpouring when Henry Lawson died, yet this does not explain the savagery of the Norton attack. Why such an onslaught on a poet who was probably unknown to nine out of a hundred Truth readers? Perhaps it was detestation for the writer, for the artist, for anyone who appeared to be half creative. Norton told the world that Daley was a hopeless drunk, which was odd coming from him. He was a notorious drunk. In his biography of Sydney, Cyril Pearl wrote that in 1907 when Norton died, he was described by Mr Justice Owen of the New South Wales Supreme Court as 'an habitual drunkard of the worst type'. But these were Norton's words on Daley:
+
+> Daley was a man whom drink had degraded to the lowest level. To get cash to continue to drink he would stoop to any low, trick. When he couldn't beg or borrow the money, which was rarely repaid, he played all sorts of paltry tricks on his friends to get drink. At one time he would represent that one of his children had died and he had no means for giving the body a decent burial.
+
+> Australia has not proved propitious to its poets. You have only to recollect what a drivelling, seedy lot these bush bards have been. Nowhere in the world have such a paltry lot of poetasters put forward such proud claims to be considered as national poets. The best of them now dead died as broken-down boozers, and the best or worst of those remaining bid fair to follow in their footsteps. I have myself buried a baker's dozen of their sort.
+
+> The booming of a drunk derelict like Daley by a band of boozing bar-bumming bards is disgusting in the extreme. If tolerated without protest it would encourage the growth of a pest from which this land already suffers, the pothouse poet.
+
+The story goes that one of Daley's friends, William Bede Melville, was so incensed over this libel that he waited for Norton in King Street, Sydney, and thrashed him on the bare buttocks.
+
+But this was not an easy country, particularly for the poet. E. J. Shaw Neilson is one of the great names in the history of Australian writing. H. M. Green describes him as perhaps our most notable mystic poet and the finest lyricist of his time. He was born in Penola in South Australia and like Lawson had his training in the outback.
+
+He was a sensitive loner who did not make friends easily. Few recognized his enormous talent, although at the age of fifty he did receive a Commonwealth literary pension — the enormous sum of £1 a week. Neilson described himself as the navvy with a pension. He had trouble with his eyesight and it was not easy for him to get normal work. In 1928 he received a job with the Country Roads Board in Melbourne as a messenger at 1s a week, and this was when his pension was raised to £2 a week.
+
+It makes one wonder how many at the Country Roads Board knew that he was Australia's finest poet, and when they sent him to buy a cut lunch, across the road, or sent him off with a piece of paper to be delivered.
+
+The man who devotedly looked after him in his last years was James Devaney. The Devaneys took him into their home when his health gave way in 1941. Devaney in his book *Shaw Neilson* says that Neilson in twenty-one years of writing made a total of £7. Devaney said: 'I think he was puzzled by the alternate praise of the highest kind and the hostile notes that belittled his work.' Stephens published his first class of verse, *Heart of Spring*, in 1919. He printed 500 copies and it took four years to get rid of them at five shillings each, and the last he had to give away.
+
+Neilson was particularly upset by a review of the later *Beauty Imposes* which appeared in the Bulletin and was written by David McKee Wright. To call the best of Australia's poets 'fairly said' is to invite the wrath of those who rank beside him: Lawson, Gilmore — all Australians, not likely to make the new Australians by themselves. And he went on this: 'I recognise there are many people who like my verse. I was indeed, not likely showed me a number of knocking critics.' He said he knew the *Bookfellow*, the *Weekly*, Robin Guild in 1926. 'Tis so often like a girl's whim, the reviews of Neilson's books were strangely uneven and contradictory lot. In the hands of journalists, he said, perhaps when Neilson was published in 1924, it is remarkable.'
+
+The newspaper reviews were, said Devaney, a strangely uneven and contradictory lot. 'In the hands of journalists, who may have a nose for news but feel whatever for poetry, or book reviewing of any kind.'
+
+<h2 id="d-h-lawrence">D. H. Lawrence</h2>
+
+But let us return to the continuing story of the hunt for the great Australian novel. *Kangaroo* by D. H. Lawrence deserves notice if only for the reason that it was the one novel mentioned by Professor Stewart in his famous Commonwealth Literary Fund lecture.
+
+Lawrence was in Australia barely for two months, but the result was two novels, *The Boy in the Bush* which he wrote in collaboration with Mary Louise Skinner, whom he met in Western Australia. She gave him her manuscript and Lawrence later rewrote it in New Mexico. Poor Mary Skinner was terribly shocked with the result. Lawrence was ahead of his time. The book finished with 'R-certificate' qualities quite beyond what Miss Skinner expected.
+
+*The Boy in the Bush* was a quick novel, but *Kangaroo* was even quicker. Lawrence and his wife arrived in Perth by ship at the beginning of May 1922 and within a fortnight they had left again by ship for Sydney. As Richard Aldington points out in an introduction to *Kangaroo*, the first four chapters are set in Sydney, but actually Lawrence was only there for a Saturday and Sunday before he set out for his famous bungalow 'Wyework' at Thirroul. So he started *Kangaroo* around 3 June and there at Wyework in utter defiance of Australia he wrote his 150,000 words in six weeks.
+
+Lawrence presented no introductions while in Australia and was, apparently, very lonely and missing the opportunities for intellectual conversation. It still seems extraordinary that a great, even notorious, English novelist could arrive in Sydney without the newspapers or literary people being aware that he was there.
+
+*Kangaroo* contains some of the most vivid descriptions of Australian scenery ever written. Adrian Lawlor said he had not seen the coast south of Sydney, 'but after reading Lawrence, God! I've been there.'
+
+It was almost as if we were jealous of this interloper who had come to write about our country. The Herald in Melbourne found Somers in *Kangaroo* 'one of the least convincing characters' of modern fiction. The novel was a failure. 'The great Australian novel has yet to be written', said the Herald. As for *The Boy in the Bush*, the Age was shocked. The Age said that the book developed 'into sheer animalism. Passages in this novel are disgusting.'
+
+The only time that Lawrence's visit and books were noted at length was in a furious correspondence in the Bulletin. R. S. Ross wrote:
+
+> Astounded by the callow critiques of *Kangaroo* and the failure of the great dailies to see the forest of Genius for the trees of Good and Evil, I whimsically collected notices of *The Boy in the Bush*. In Melbourne the Argus complains of its 'rather nauseating stark realism', the Herald sneers at the 'psychological complex' it supposes the hero to represent; the Sun weeps that if the work is a success 'it will be a success of scandal' and the Age screams that the novel represents a nightmarish country inhabited by incredible people. It's Australia seen through the eyes of a degenerate. Because alongside descriptive skills at its zenith we have Sex hatefully alluring, with no happy endings, Lawrence's masterpiece of this masterful land is to be tabu. I would that an Australian had written *Kangaroo* and *The Boy in the Bush*. Alas, an Australian will never write them until the critics are chosen away from the conventional mummeries and moralities set on high as the immaculate standards of literary judgement.
+
+A reply came the very next week. The letter was unsigned but it is doubtful whether Lawrence was ever so spectacularly knocked:
+
+> God save Australia from these cheap writers from semi-literate countries whose reputation is mostly their advertising by inferior people. D. H. Lawrence, a cheap bookster, is taken seriously even by a Bulletin reviewer, yet his nastiness is the mainstay, and he ekes out a poor love story of humans with the episode of a coupling of a stallion and a mare.
+
+> There are plenty of Australian writers of rubbish, and local rubbish should have the preference. We must have writers as bad as Lawrence and Keable and Compton Mackenzie and Hugh Walpole and W. L. George, and there are plenty of bad short story writers in Sydney and Melbourne to write yards on Australia as foolish as Galsworthy.
+
+<h2 id="ern-malley">Ern Malley</h2>
+
+The most spectacular piece of Australian literary knocking began in a letter written in a sweet, round, feminine hand, dated 28 October 1943. It was addressed to the editors of Angry Penguins, a literary quarterly based in Adelaide. The Angry Penguins were the rebels, the protesters, the avant-garde; the co-editors of the magazine were John Reed and Max Harris.
+
+The letter came from a Miss Ethel Malley of Croydon and told how she had been going through the effects of her deceased brother Ern Malley, who had recently died in Melbourne at the age of twenty-five. She had found a collection of poems and thought perhaps Max Harris might be interested.
+
+His full name was Ernest Lalor Malley. He was born in Liverpool, England, on 14 March 1918. He didn't really have many breaks. His father died of war wounds in 1920 and upon his death Ernest's mother decided to emigrate. They settled at Petersham, Sydney, and Ern went to the Petersham High School. His mother died in 1933 and at fifteen Ern was an orphan. He left school without even getting his intermediate.
+
+From then on Ern was something of a drop-out. He worked as a mechanic at Palmer's Garage on Taverner's Hill. At seventeen he tossed in his job, and although his sister Ethel tried to persuade him to stay, it was no good, he drifted off to Melbourne where he sold insurance for the National Mutual Society. From then on it was a tragic story of failing health. Ern lived by himself in a room in South Melbourne, making money on the side by repairing watches. The letters to Ethel were few. 'I was worried at the time whether he was looking after himself properly, because he was never strong.' In January 1943 he was back in Sydney, where tragically, pathetically, on 23 July 'he passed away', and he was cremated at Rookwood Cemetery.
+
+The astonishing manuscript that Ethel found amongst his things consisted of sixteen poems, bearing the title *The Darkening Ecliptic*, and at the bottom of the title-page were the words 'Do not speak of secret matters in a field of little hills' — Old Proverb. Max Harris deduced that this was a reference to his complete silence on the subject of poetry during his lifetime.
+
+He did not hesitate very long. The autumn 1944 edition of Angry Penguins was a special Ern Malley edition. A very attractive edition it was, too, with a Sidney Nolan painting on the cover. Max Harris said in the Foreword: 'I am firmly convinced that this unknown mechanic and insurance peddler is one of the most outstanding poets we have produced here. Yet this is based on no romantic reaction to the circumstances by which his poetry has come into our possession. It is the perfect integration of his poetry.'
+
+The first indication that Ern Malley was unhealthy in more ways than one came on 18 June 1944. Fact, a tabloid-sized supplement to the Sunday edition of the Sun in Sydney, carried the headlines:
+
+ERN MALLEY, THE GREAT POET — OR THE GREATEST HOAX?
+
+Fact was edited by Colin Simpson and obviously he had received a tip. He had been on the job. There was no Palmer's Garage on Taverner's Hill. No insurance salesman named Ern Malley ever worked for National Mutual. Nobody named Malley had been cremated at Rookwood during the past ten years. As for Dalmar Street, Croydon, the address given on Ethel Malley's letter — no such lady lived there.
+
+In the next issue, 25 June, Fact said it would clear up the whole story. It said the merit of the Poems of Ern Malley were the key — they were deliberately concocted without intention of meaning or merit as 'an attempt to debunk what was regarded as a pretentious kind of modern verse'.
+
+Ern Malley was actually the work of two Sydney poets, James McAuley and Harold Stewart. In a letter to Fact they said they had written all the Malley poems in one afternoon with the aid of a chance collection of books that happened to be on their desk: a Concise Oxford Dictionary, a collected Shakespeare, a Dictionary of Quotations. 'We opened books at random, and made a list of phrases. We then wove them into non-sensical sentences.'
+
+They said that the first lines of the poems were lifted as a quotation straight from a Government report. The poem on drainage went:
+
+> Swamps, marshes, barrow pits and
+> other areas of stagnant water serve
+> As breeding grounds. Now
+> Have I found you, my anopheles!
+> (There is a meaning for the circumspect)
+> Come we will dance sedate quadrilles
+> A pallid polka or a yelping shimmy
+> Over these sodden breeding grounds
+> We will be wraiths and wreathes of tissue paper
+> To clog the Town Council in their plans.
+> Culture forsooth — Albert, get my tea.
+
+Newspapers everywhere had a field day. In Adelaide there were all sorts of puns and gags. 'Penguins skating on thin ice' was very popular. The Sun's Fact, still enjoying its triumph, announced that the Mathematical Society of the University of Sydney had awarded the Degree of Doctor of Oxometry to Ern Malley. Two copies of the degree came to Fact for forwarding to Lieutenant James McAuley and Corporal Harold Stewart. The Society's President, R. N. Bracewell, stated that Ern Malley had shown himself a notable producer of oxoplasm. Oxoplasm, he said, might be defined as very pretentious talk. 'The symbol of the society was a bull.' He considered this a very great honour. Only two such honorary doctorates had ever been awarded outside the university.
+
+The Sun was ready to pounce on Angry Penguins at all events. That week there was a Contemporary Art Society exhibition in Sydney and many of the paintings had come from Adelaide. On one page the Sun reported the dumbfounded amazement of two Diggers who looked at the pictures.
+
+One Digger looked at 'Images' by Albert Tucker, twirled his head, knelt down and almost stood on his hands. 'It's got me beat, Bill,' was his comment.
+
+Colin Simpson, who reviewed the exhibition, wrote: 'Anybody who paints like that ought to be taken to a psychiatrist, somebody said, looking over my shoulder at "The Sower" by James Gleeson. "The Sower" is Death and Destruction Plus. He has an eye falling out and wild bears in his chest and more cracks than a blitzed building. I can live without it. Albert Tucker, a Melbournite, rocks the customers with his Images. He sees people mainly as mouths. Arthur Boyd, (he's a Melbourne Angry Penguin,) is another eye-popper, he's as wild as a headhunter and comfortable as a train smash. He is very young and if he doesn't grow old too quickly or start pulling faces for money he may go somewhere as an artist.'
+
+At a time when poetry was rarely mentioned it was remarkable that so many newspapers, in wartime, should have chosen to write leading articles about it. The Herald in Melbourne was ponderous. There was a great lesson to be had in this exercise. If alleged experts could be so easily taken in, then how was the layman to detect the good from the bad? The Advertiser in Adelaide thought there should be a fitting academic award for the 'poetasters and other quidnuncs who took the fictitious Ern Malley to their bosoms swearing he was a genius after their own hearts'. The Advertiser suggested a wooden spoon on a leather medal.
+
+The Pink Page of the Bulletin was equally savage. The editors of Angry Penguins were so completely the victims of fashionable associations of the moment that they had made complete fools of themselves.
+
+Practically none of the newspapers or magazines bothered to look at the poems, to see whether they contained merit or not. As Max Harris said later, there was a feeling that modernism in poetry had been dealt such a low blow that he was not going to answer.
+
+Although he assembled a collection of highly respectable opinion which agreed that the poems did have literary merit, the press was no longer interested. The winter issue of Angry Penguins was another matter. The basis of the Harris argument was in these lines:
+
+> It is quite obvious that Stewart and McAuley (or one of them) have made an exceedingly close study of modern poetry, even to the extent of becoming imbued with the whole impulse of the modern movement. Without this study and without this involvement, the Malley poems could not have been written, and it is at least a possibility that the idea of writing these poems as a hoax served as a release from some inhibition which had previously prevented them in their 'serious' poetry, from writing anything remarkable.
+
+Angry Penguins did indeed round up an impressive array of opinion. Sir Herbert Read cabled from London: 'I TOO WOULD HAVE BEEN DECEIVED BY ERN MALLEY BUT HOAXERS HOISTED BY OWN PETARD AS TOUCHED OFF UNCONSCIOUS SOURCES INSPIRATION. WORK TOO SOPHISTICATED BUT ELEMENTS OF GENUINE POETRY.'
+
+Other backers were Geoffrey Dutton, Reg S. Ellery, Brian Elliott, lecturer in Australian literature at Adelaide University, Professor A. R. Chisholm, Albert Tucker and Adrian Lawlor. Lawlor, painter, critic, said he had laughed as well as anyone at the joke, but after reading the poems he had no hesitation in putting it on record that his critical judgement was entirely in accord with the Angry Penguin editors and his advice to McAuley and Stewart was that when they felt like composing poetry they should co-opt the help of their gifted, if phoney, collaborator, Ern Malley.
+
+The persecution of Max Harris did not end there. That September he was prosecuted in Adelaide for obscene advertisments. That was the greatest irony of all, that a complete hoax should be published and that Max Harris should be convicted and fined £5 for having published them.
+
+<h2 id="patrick-white">Patrick White</h2>
+
+Patrick White has written that the exaltation of mediocrity is the thing he dislikes most in Australia. It is interesting that the greatest of our artists have suffered the greatest knocking.
+
+Patrick White will go down in history as the greatest Australian novelist ever produced. In English and American journals he has been compared with James Joyce, Thomas Mann, Herman Melville, Sinclair Lewis; his works, particularly *The Tree of Man* and *Voss*, have received the most merciless treatment. In 1958 John Hetherington made a survey for the Bulletin of thirty-eight reviews which had appeared of his works. Eight had been more favourable than otherwise, six had been hostile. Some were constructive and some were discouraging to the reader, as though to discourage him from buying his works.
+
+Looking back on this period Patrick White said that the most painful reviews were A. D. Hope's review of *The Tree of Man* in the Sydney Morning Herald. The Bulletin and the Daily Telegraph had a headline 'The most unreadable novelist'. He says the Melbourne knockers were just as bad as the Sydney knockers, but he can remember a distinguished Sydney female critic licking her lips before reading *Voss* for the radio. It was 'the superior approach rather than the wording which was offensive: "I know of course what Mr White is TRYING to do."'
+
+He noted too that when he received a bad review overseas often he had tried to give the book to Theo Moody, writer of the Telegraph's 'Novel News', but he turned pale and ran out of the room. There was nothing left for but to read *Voss* himself. He said:
+
+> He does not write clear, coherent English of the kind I personally find congenial. He tortures the language into strange and puzzling shapes. He crams it with sudden metaphors and hints of dark meanings. This sort of thing plainly goes big with English and American critics. But I find reading him very uphill work. I don't pretend to know what the book means and am not anxious to find out. But its success abroad does raise an interesting question about the standards of taste among influential critics. They are suckers for books written in pretentious, oracular style and with suggestions of a mystical message. The way they went for Colin Wilson's claptrap *The Outsider* was an example.
+
+> Now they have hailed Patrick White's prose obstacle course as a work of genius. It is a quaint coincidence that while drama critics in New York were panning our finest play literary critics were going over one of our most unreadable novels. If I were a member of America's Book of the Month Club and were forced to read *Voss* I would kick up a big row at the next meeting.
+
+On the other hand Kylie Tennant in the Sydney Morning Herald praised the pace, the strength and the power of the prose of *Voss*, but finished with the damning: 'when the book strikes off into the deserts of mysticism I am one of those who sooner go home.'
+
+The A. D. Hope review of *The Tree of Man* which was most painful to Patrick White:
+
+> The bunyip of Australia is the archetypal great Australian novel and the book is, in fact, the genuine article. For one thing it is very big. At first sight it has all the earmarks which traditionally distinguish the great novel. The pattern is all too familiar. It is a family saga. It is a story of childhood and youth. . . . There is even a great bushfire. I cannot tell why Mr White has chosen to set his novel in the old bunyip tradition when he might have given us something more original.
+
+> I give the impression that he knows too much about his characters and talks too much about them. He gives the impression that every detail of their thoughts is an open book to him, as in danger of making them odious. If he tells all he knows he is in danger of being called prolific.
+
+> The novelist needs a plain style, a clear, good open texture of language to carry him to the end of his story. Sometimes when Mr White forgets his darling artifices he achieves this; but for the most part he tries to write a novel as though he were writing poetry, and lyric poetry at that. He cannot describe a character without the long ribbon of images. He cannot simply say that a man is moderately thirsty; but says instead he 'had the mercurial scaling of his ordinarily moist and thoughtful eyes fixed in the white scales of thirst'.
+
+> When so few Australian novelists can write prose at all, it is a great pity to see Mr White, who shows on every page the touch of the born writer, deliberately choosing to write in pretentious and illiterate verbiage as a medium.
+
+Thomas Keneally never fared quite as badly as Patrick White. Some of his novels, particularly *Bring Larks and Heroes*, received very good reviews indeed. Max Harris and, one time, carefully slotted him somewhat below Patrick White and Hal Porter. So seeing that he was not quite so successful perhaps Keith Dunstan could find knocks for his works. The profundities which reviewers detected in *Bring Larks and Heroes* may be due to something within the work itself:
+
+> The plot gasps to a halt and the author shows frequent desperate ingenuity in getting it going again. Behind the imposing facade of metaphysical speculation there is a substance of frankly adolescent fantasy.
+> *Meanjin*, Vol. 27/2, 1968.
+
+> *Three Cheers for the Paraclete* is a retreat which poses the question where Keneally is going and can go. He shows the crucial tension not in his work between his experience and his ambitions. Thomas Keneally has not yet resolved this problem and until he does he is in danger of being a passing novelty as though they may say in 10 years' time: 'Who was that novelist in the late sixties who wrote about priests and all that?'
+> *The Nation*, 21 December 1968.
+
+> *The Survivor*. It is a rich indigestible pudding of a book.
+> *Sydney Morning Herald*, November 1969.
+
+Xavier Herbert took four years to get his great novel *Capricornia* published after he finished it in 1934. He remembers in particular a review by Brian Penton which appeared in the Daily Telegraph. It was headed 'For Your Dustbin'. In the autumn 1972 issue of *Overland* he wrote: 'Soldiers Women was well and truly pissed upon by a lot of critics. That did not worry me of course. What stopped me from reading reviews is that for some people pissing on things bigger than themselves is as compulsive as for puppy dogs.'
+
+<h2 id="germaine-greer">Germaine Greer</h2>
+
+In January 1972 Dr Germaine Greer returned to her home town Melbourne to publicize her book *The Female Eunuch*. She had done what other Australian writers can only dream about. She had been acclaimed by the top literary magazines of Britain. She had reached the top eight of the best-seller lists in the United States. She was sought after by all the top television programmes. Playboy magazine interviewed her in depth over page after page. On the world scene she was the best-known Australian female since Dame Nellie Melba.
+
+In her first interview she was frank enough: 'Most men don't really like women,' she said, 'especially as they get older and lose interest sexually while hubby has a beer. It's a joke around the world the way women sit in the car outside the pub while the men go up one end of the bar, and the women go to the other end talking and knitting.'
+
+This sort of statement received mild replies; however she did receive a hauling from the critics. Peter Lawson in *The Australian* accused Germaine Greer of petty dishonesty and an inability to communicate. She said she had to swot hard on her book *The Female Eunuch*, which introduced members of the party.
+
+But the knock of all time came from Thelma Forshay in the Age. She described the book as 'the orchestrated over-the-back-fence screech called The Female Eunuch'. Let's take a look at that blood-curdling gory scream called *The Female Eunuch*:
+
+> The Female Eunuch, noble as he is based on the serious fancy (theory) that, in the beginning, we were all men and castrated half of us. We were thereafter called a year inconvenience — my own business, it has displaced the bookie's bag from the best-seller list. It is another sign of Australian reading habits.
+
+> Is it not time we placed this anti-feminine rubbish where it belongs, in the rubbish tin? Even if it can get the author a Commonwealth Literary prize which should have gone to a struggling author without Humphries' financial resources, it is still unreadable rubbish.
+
+The Sydney Morning Herald described it as 'unbonzer, unfunny' and made the extraordinary charge for a reviewer: 'don't buy it'. The Canberra Times' Pat Rappolt wrote: 'One is tempted to write the shortest review ever penned. An objective description might be contained appropriately in a single, sibilant, four-letter word.'
+
+When reporters asked Germaine Greer what she thought of the Forshay review, her reply was eloquent. She stuck out her tongue.
+
+When she left on 22 March she was bitter. She said she was fed up with Australian institutions which were 'so complacent, so ignoble, and so inefficiently run it's unbelievable'. She wouldn't come back for a while not 'even at gunpoint'.
+
+<h2 id="barry-humphries">Barry Humphries</h2>
+
+Perhaps we should finish with Barry Humphries, the man who wrote the introduction to this book. He has been knocked by Harry Miller, knocked by members of Parliament for not projecting the utterly correct Oz image in London. For years his comic strip book 'The Wonderful World of Barry McKenzie' was banned in Australia. Yet Bazza McKenzie was more revealing, had more to say about Australia, than any comic strip ever produced by an Australian.
+
+Upon its release there were plenty of knocks. In reply to a favourable review in *Nation* there was this letter over the name 'A. W. Sheppard':
+
+> Of course it sells well, I am almost ashamed to say that in my own business it has displaced Gregory's Street Directory from the best-seller list. It is another sign of the adolescence of Australian reading habits. Is it not time we placed this anti-feminine rubbish where it belongs, in the rubbish tin? Even if it can get the author a Commonwealth Literary prize which should have gone to a struggling author without Humphries' financial resources, it is still unreadable rubbish.
+
+The Sydney Morning Herald described it as 'unbonzer, unfunny' and made the extraordinary charge for a reviewer: 'don't buy it'. The Canberra Times' Pat Rappolt wrote: 'One is tempted to write the shortest review ever penned. An objective description might be contained appropriately in a single, sibilant, four-letter word.'
+
+But Bazza survived. After being officially banned by the Customs Department as likely to corrupt innocent Australians it received the official blessing of the Commonwealth Film Board with a handsome subsidy for Barry McKenzie to be immortalized on film. Not always is knocking harmful.

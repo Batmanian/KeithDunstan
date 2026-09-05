@@ -61,6 +61,52 @@ for all known publications. Safe to re-run.
 
 ## Workflow
 
+### Download article scans for later transcription
+
+`python3 -u trove/download_images.py` (from the repository root) downloads the
+page images linked by Bulletin stubs before the saved date cutoff, keeping the stubs unchanged. At the
+archive owner's request, these review copies live in
+`src/trove-scans/bulletin/<year>/<stub-name>/`, with a `source.json` recording
+the title, byline, source URLs, rights statement and image checksums. This folder
+is gitignored and excluded from Eleventy. No site build is needed.
+
+The saved cutoff in `trove/image-download-config.json` is currently
+`"before": "1978-01-01"`: download through 31 December 1977, then exit.
+There are 1,189 stubs in this batch; 280 stubs dated 1978 onwards are deferred.
+The user extended the original pre-1968 batch by ten years, adding 1968–1977.
+To continue into later years when ready, change `before` to the next exclusive
+cutoff and restart the same command. Already completed images are skipped.
+The worker reads this configuration at startup, so stop and restart it to apply
+a changed cutoff. `progress.json` records the active cutoff and batch counts;
+`images_downloaded` is cumulative across runs.
+
+Image requests are spaced at least 60 seconds apart, including failed requests
+and restarts. Successful downloads are recorded permanently in
+`trove/download-history.json`, outside the scan folders and included in the
+project's versionable files. History is saved after every image and records the
+stub, downloaded pages and completion status. Existing logs and sidecars are
+used to recover earlier downloads, including folders already deleted.
+
+**Deleting scans is a review decision.** If a previously downloaded image or
+article folder is removed, that stub becomes `skipped_deleted`; its files will
+not be recreated and any remaining pages for it will not be fetched. This check
+also happens after the one-minute wait, so folders deleted while the worker is
+running stay deleted. Keep the history file when cleaning up scans. Stub files
+are never altered or removed by the downloader.
+
+Completed downloads are skipped on resume. Whole-issue links that
+do not identify an article are marked `needs_review`; bylines are recorded for
+later triage, not treated as proof of authorship. HTTP 403/429, five consecutive
+request failures, or less than 2 GiB free disk space pause the run for review.
+
+The background run's log is `trove/output/image-download/download.log`, and its
+counts and status are in `progress.json` beside it. Create an empty
+`trove/output/image-download/STOP` file to stop gracefully. Remove that file and
+run the command again to resume. The computer must remain awake and online for
+downloads to progress. A reboot requires restarting the command.
+
+### Fetch and triage stubs
+
 Run the scripts in order:
 
 ```bash

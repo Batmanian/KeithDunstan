@@ -1,0 +1,104 @@
+---
+title: "Point Cook: More Choosy Than Ever"
+date: 1964-11-21
+summary: A profile of the RAAF's officer training academy at Point Cook, tracing the base's history from Sir Richard Williams's first flight in 1914 to the newly degree-granting RAAF Academy of 1964, where cadets study physics alongside their flying.
+categories:
+- The Bulletin
+tags:
+  - Athenaeum Club
+  - Melbourne University
+  - Monash University
+  - Point Cook
+  - RAAF
+  - Sir Richard Williams
+---
+
+At Point Cook there is a small museum where the RAAF has preserved its first aeroplane. It is a monoplane, in splendid condition, and a somewhat curious little creature. Like its up-to-date successor, the Mirage, it immediately caused some embarrassment — and it is French.
+
+The museum also has the log book for the first flying training course which commenced on August 18, 1914. Here is one entry:
+
+*18th August, 1914 — No. 1 Machine, WILLIAMS — Time in Air, 8 ½ mins. — Distance, 4 miles; Pilot, Lt HARRISON.*
+
+Then another entry says very bluntly: 'Machine No. 1, Capt. WHITE — Pilot; struck hangar, machine wrecked.'
+
+Capt. White, the late Sir Thomas White, KBE, DFC, VD, died in 1957. Lt Williams, now Air Marshal Sir Richard Williams, KBE, CB, DSO, at 74, is very much alive and generally considered to be the father of our Air Force. I met him at the Athenaeum Club in Melbourne. He ignored the lift. With Marshal determination he went straight up the stairs.
+
+The Australian Government brought out two pilots to start the flying school. First came Lt Henry Petre in 1913. He chose Point Cook as the flying field because it was 'ideally suited for both land and sea planes'. Then several months later out came Lt Harrison with two BE biplanes, two Deperdussin monoplanes and a Bristol Boxkite monoplane. Sir Richard said that Tommy White was a captain in the citizen forces. This immediately caused some embarrassment and the Army had to make Lt Petre a captain. There were two others on the course, G. P. Mertz from the University Rifles, and D. J. W. Manwell from the Light Horse Command.
+
+Naturally one had to start talking about the beautifully-preserved Deperdussin. Sir Richard said its preservation was hardly surprising. It never got off the ground. The Deperdussin had three cylinders in a Y shape. Every time it taxied out to the take-off position the plugs oiled up and the engine stopped.
+
+The most useful aircraft was the Boxkite. But it was a delicate business. It had a flying speed of about 45 m.p.h., a top speed of about 45 m.p.h. and a stalling speed of about 45 m.p.h. Its ceiling, depending on the weather, lies around 1500 feet and it took 24 minutes to get there. Yet, said Sir Richard, it was a very safe aircraft. Nobody ever got killed in the Boxkite. Everything always happened so slowly. It fluttered and flopped more like a leaf.
+
+Sir Richard explained that they went solo at 24 hours, and after this they received no more instruction, unless by special request. Then after five hours solo, a total of 7½ hours flying, they were ready to be licensed and this was done in a most interesting manner. The Federation Aeronautique Internationale controlled all the licensing of pilots in the world. The British agent for the FAI was the Royal Aero Club in London which in turn appointed a local committee. When the cadets at Point Cook came a general staff officer and a military area assistant called Major E. F. Harrison (later Brigadier Harrison, MHR, and no relation to Lt Harrison). His job was to stand on the ground with a notebook and make sure that the examinee went through all the correct manoeuvres as laid down by the FAI.
+
+This included such things as performing figures of eight, switching off the engine at 200 feet and landing within a marked circle on the aerodrome.
+
+Through the war years Point Cook turned out 105 pilots. It started again under the three-year-old RAAF in 1924. Sir Richard said in those days they used the Avro 504K. It had a rotary engine and no throttle. The engine either went flat out or not at all, so there was a somewhat special technique for approach and landing. There was a button on top of the control column for starting and stopping the engine. The pilot as he came in had to start and stop the engine all the way to touch down. In 1927 Sir Richard himself made the decision to switch to the de Havilland Moth with the Cirrus engine, the first Air Force to do so. This Moth was the parent of the Tiger Moth which trained all our pilots during the Second World War.
+
+The training over the years did not change much. Mostly it took 12 months to turn out an officer pilot. After the Second World War the RAAF wanted something to compete with the Army's Duntroon and the Navy's Jervis Bay, so in 1947 they launched the RAAF College, a four-year course which covered flying training and a series of subjects up to tertiary level.
+
+In 1961 they went a step further — the college took on the rather grander title of the RAAF Academy. The Academy became a registered college of the University of Melbourne.
+
+<h2 id="standards-are-going-up">Standards are going up</h2>
+
+This year, for the first time, all the graduates of the Academy walk out as Bachelors of Science. So the Air Force — and one can detect some small satisfaction — has taken a clear lead on the other Services. The Army has in progress a system which will give degree status to the present intake at Duntroon, but it still has to get the blessing of Parliament. The Navy makes sure that selected Naval College graduates get their degrees in England, but it has no parallel with the RAAF Academy course.
+
+It is worth discussing why this urge for degree status is necessary. Sir Richard said: 'If the Government is going to take a young man, use up the most vigorous years of his life, then perhaps toss him out at 47, then it should do something for him. It should train him in such a way so that he can get himself a decent job when he goes out. And he will if he's a B.Sc.'
+
+The Commandant of the Academy and CO at Point Cook, Air Commodore Parsons, CBE, DSO, DFC, AFC, is a flier of some considerable experience and no possessor of a university degree. I put it to Air Commodore Parsons that the pilot of a Mirage or a TFX would need much practical knowledge of electronics and engineering, but he could still handle such an aircraft most efficiently without being a Bachelor of Science.
+
+He said: 'To be perfectly candid, at the moment these degrees are not essential. But 10 to 15 years from now anyone without a degree in this country just won't be considered as first class. Our standards are going up all the time.
+
+'As far as flying is concerned, essential "no", desirable "yes". You see, not all our pilots go through the Academy. We must have a nucleus of highly-trained people, at least a dozen a year. These are our future leaders. They will be planning the operation of aircraft, talking to the designers and builders of aeroplanes. They'll be representing Australia in all kinds of jobs overseas. A degree gives them just that much start. There were times when it would have been a great help to me.'
+
+Point Cook must have been almost unbelievably bleak in 1914. The You Yangs seem to divert the main wet weather streams. For most of the year the very flat country looks thirsty and brown, more like a piece of the Mallee than the lush south. Early in the piece nobody ever stayed at Point Cook unless they had to. All but the duty staff would rush to Melbourne at first opportunity. Air Marshal Williams tried very hard to make it look like home. He had cypress trees planted everywhere which served at least to break down the winds.
+
+Taking into account that this was the mother station of the RAAF, it still has the slight look of impermanence, as if a City Council really wanted it back in a few years' time. The only really good buildings are the Officers' Mess and the Academy's new quarter million pound Science Block. The Academy staff is waiting, hopefully, for a whole complex of permanent buildings which will cost another million pounds, but the decision for this is still in a pile of papers somewhere at Cabinet level.
+
+The cadets live in huts. Every old airman knows them, thousands of the same type were put up during the war. The cadets call them 'wind tunnels'. They have a passage down the centre, and every cadet gets a room of his own. He has to keep it in the same, rigid immaculate splendour just like Duntroon. There's a regulation spot for every article. The shirts have to be folded and piled with beautiful geometric precision, and books on a shelf have to descend in height to please a Group Captain's orderly eye.
+
+Inspections, of course, can come any time. But real inspection time is Tuesday morning, and Monday is traditional 'panic night' when all hands sweat to get everything perfect. An inspecting officer is likely to run a finger along the top of a door, or to ask why one's football boots, clean and shiny, are not in correct position. Football boots have to be there even though it might be sunny March.
+
+They are allowed to put some pictures and pin-ups on the walls, but the array I saw revealed little interest in females. Sex took second place to 30/98 Vauxhalls, Aston Martins, Phantom jets and TFX-F111s. The modern Air Force appeals to the technical mind.
+
+Indeed in the great hunt for the fit, clever, young Australian the RAAF can afford to be more choosy than anyone. The Air Force does appeal, even if the technical requirements in the atom age and the pure precision of the job do seem terrifying. Most of the older pilots who flew Wapitis, Bulldogs and Demons insist that all the fun has gone out of it. 'It used to take us half a day just to start.'
+
+Last year there were 278 applications, all matriculated students, and of these they took one in 10. From 20 to 25 per cent of applicants are weeded out — fall down because of lack of academic potential or various personality reasons. Schooling makes little difference. Almost all the cadets come from high schools — Christian Brothers schools. Commodore Parsons as chairman. The best if they know the names of a few RAAF bases like Butterworth, and that they know the difference between a Sabre and a Vampire. Air Commodore Parsons says there was an interesting applicant this year. Not only did he know the types, but he criticised the Minister and the Government at length for what he felt was a disastrous decision.
+
+In each course there's a photograph of each course. If a cadet fails on course he gets a red cross through his face on the photograph, like the pictures they used to have in the squadrons during the war, except that the red crosses used to be black.
+
+On 17 course there are 32 heads, but when you look at the photograph of 14 course the red crosses have multiplied and there are only 14 left with the possibility of more to go.
+
+<h2 id="for-sprogs-its-hell">For sprogs it's hell</h2>
+
+Few actually leave the Air Force. Those who fail academically mostly leave the Academy and take the other road to a flying career, the 12-month course which does not lead to a commission. Those who fail as pilots have the alternative of becoming navigators or going into the technical branch.
+
+It is one of the frustrations of the early years that the young Academy cadets, who are supposed to be future leaders, are degree men. To keep up their interest they are allowed just a gentle whiff of flying in the early years. In the first year they can get 10 hours, in the second year five hours and in the third year five hours. Ultimately they go to the Basic Flying Training School at Point Cook where they do 120 hours on Winjeels, then over to Pearce, Western Australia, for another 120 hours on Vampire jets which usually takes their course into the fifth year. They graduate as Flying Officers. The scrub rate for the Academy students is roughly the same as for all pilot trainees, nigh on 40 per cent.
+
+How long flying training will continue at historic Point Cook is a matter of conjecture. For sprog pilots it's hell. Over at Avalon, just across the way, there are Boeing 707s doing circuits and bumps, at Laverton there are Sabres, at Essendon and soon Tullamarine, there are Boeing 727s, Electras and heaven knows what. The poor little bloke in his Winjeel, before he sets out on a low-level cross-country, he has to get cleared by four authorities: Point Cook, Avalon, Laverton and Civil. The weather could change the situation any minute. If the trainee doesn't keep up to the second with the right information he might find a 707 boring down behind him on an ILS approach path.
+
+The Winjeels have a scheduled life until 1968, and then the RAAF will have to find a replacement and, possibly, a new area for Basic Flying Training. Like all air forces the RAAF would like to start all through jet training and the propeller will become just a memory. We will get the situation as with US pilots who come here and don't know how to fly a propeller aeroplane. Air Commodore Parsons and Wing-Cdr F. O. Knudsen, CO of BFTS, feel that the RAAF needs a trainer which will last well into the seventies. Therefore, this all-through trainer should be supersonic, something like America's twin jet T-38. You raise the argument that the young pilot on his first solo could get out of the circuit area and flash straight through the sound barrier. They don't see this as an argument. They feel it's cheaper in the long run to have one trainer. And when you suggest this is awe-inspiring equipment to put in front of a trainee, they say: 'You can learn to drive just as easily on a Jaguar as a Mini Minor.'
+
+But, as said earlier, the flying comes later. It has to be remembered that this is very much a college of Melbourne University and the lecturers are supplied by Melbourne University. The students are fortunate in having as their dean, Professor V. D. Hopper, professor of Physics at Melbourne and a world authority on upper air physics. Maybe it is tough learning to be a military officer and an academic at the same time, but there are benefits. For the lecturer there's the advantage, if a lecture starts at 9 a.m. by heavens every student has to be there at 9 a.m. There's no starvation for equipment. If the students want any books they arrive in a hurry. There's certainly no queueing up in the library, no students sitting on the floor. Classes are small enough to remind the senior lecturer in physics, Dr P. J. Eccles, of the intimacy of Oxford and Cambridge in the old days.
+
+<h2 id="status-taken-seriously">Status taken seriously</h2>
+
+The professor takes the university status of the Academy very seriously. There are actual students from Melbourne on the job doing post-graduate research. He has a £15,000 annual research grant from the RAAF and he has something of a Mussel touch for gathering grants and equipment from all over. So they are doing all sorts of research on the upper atmosphere, they are experimenting with radar meteorology, breaking into new fields on long and short range propagation, and the fascinating side for the cadets, they are running an official satellite tracking station in close association with Woomera.
+
+So you get this rather extraordinary atmosphere where cadet pilots, who one time had to know little more than the theory of flight, now work in an academic world side by side with students on their way to their Ph.Ds.
+
+As for discipline, Group-Captain Shiells feels that the RAAF has a somewhat different approach — not as cast-iron, not as inflexible as the Army. Maybe the agonies are not as prolonged as in the other Services, but the system is much the same. In the first year the cadet is the lowest form of life, he waits on the tables, he goes through initiation ceremonies, at dinner time he answers questions from senior students on RAAF history and news of the day, and he never walks, he goes everywhere at the double. Group-Captain Shiells says that they are certainly not as tough as some of the US academies. There the students go through what is called the 'square meal'. They sit at the dinner table at attention, no talking unless spoken to. As they eat the spoon or fork has to make a perfect rectangular approach to the mouth. This done he must put down his spoon or fork on the plate and continue to sit at attention until he is ready for the next mouthful.
+
+<h2 id="traditional-dunking">Traditional dunking</h2>
+
+As the student progresses he picks up privileges. In the second year he is allowed a car and he can march about instead of running. He is allowed once again to wear civilian clothes at prescribed times, his leave improves and finally, glory be, he gets special Mess privileges and he is allowed to drink. Punishment is practically standard issue as for the other Services. The cadet has to be out on the parade ground at 6.20 a.m., rifle, boots, sidearms, etc. There they stay until 6.50 and, depending upon the humour of the senior orderly cadet, they go to work. The average labour is 10-12 laps of the parade ground at the double.
+
+The students work the academic year of Melbourne University, then at other times there are compensations. They do a canoe trip down the Goulburn with the CO, said to be a most agreeable exercise. They do a tour of eastern bases, Williamstown, Richmond, de Havillands at Bankstown. There's the northbound tour, Amberley, Townsville, Darwin, Alice Springs, and there's the tour to Edinburgh and Woomera.
+
+You think what lies ahead of the RAAF cadet of 1964, his responsibilities, and the fearsome machines he will have to handle and understand, and the natural conclusion is that he would be a completely different breed. It is reassuring to discover that this is not so and they haven't changed much from 1928 or 1936. The same things go on.
+
+The junior cadets by tradition have just three chances for cutting loose and they all involve dunking senior cadets in the pond behind the officers' mess. These come when the senior cadet goes solo, when he gets his B.Sc and his 21st birthday. They go hunting for the man in question after 10 p.m. and then he gets dragged forcibly to the spot. The 21st birthday dunking could be the worst because that might come in June and it involves a lot of dunks; whereas the solo job usually comes in warmer October. The tradition then is to draw a pair of wings on the young birdman's chest in raven oil.
+
+<hr>
+
+*Source: SECT Objectors Point Cook: More Choosy Than Ever, The Bulletin, 21 November 1964. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.obj-701933308).*

@@ -95,6 +95,44 @@ Severity can accelerate this. Anything that touched production data, lost work, 
 
 <!-- Newest first. Append new entries directly below this line. -->
 
+### 2026-09-05 — Preserve download history outside removable scan folders
+
+- **Area:** `trove / scan sourcing`
+- **Severity:** medium
+- **Count:** 1
+
+**What happened**
+Restarting the Trove worker downloaded pages again after the user had deleted non-Keith scans during review.
+
+**Root cause**
+Resume checks relied on image files and sidecars inside the folders being deleted, so removal looked like an incomplete download.
+
+**Consequence**
+Rejected scans were recreated; the user clarified that deleted scans must stay deleted.
+
+**Rule**
+Persist successful page downloads in `trove/download-history.json` outside removable scan folders, and treat missing previously downloaded scans as a permanent skip for that stub, including during an active download run.
+
+
+### 2026-09-05 — Check Bulletin bylines before selecting download samples
+
+- **Area:** `trove / scan sourcing`
+- **Severity:** low
+- **Count:** 1
+
+**What happened**
+The first download sample was a Mariel Lee article mentioning Batman, and the user requested its removal.
+
+**Root cause**
+A search-result stub was selected before checking the source byline.
+
+**Consequence**
+The false-positive stub and two downloaded scans needed removal and replacement.
+
+**Rule**
+Check Trove article creator metadata before choosing a Bulletin sample, then visually verify the byline on the downloaded scan.
+
+
 ### 2026-08-30 — Chapter file not linked from book index page
 
 - **Area:** `book index pages / chapter housekeeping`

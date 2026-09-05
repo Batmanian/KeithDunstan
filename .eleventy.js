@@ -12,6 +12,8 @@ module.exports = function(eleventyConfig) {
   // Repository guidance files can live beside image assets, but they are not
   // site content and may contain Liquid examples that Eleventy cannot render.
   eleventyConfig.ignores.add("src/assets/images/*.md");
+  // Local Trove scans awaiting transcription, not website content.
+  eleventyConfig.ignores.add("src/trove-scans/**");
 
   // Powers the {% metagen %} shortcode used in snippets/opengraph.njk to
   // generate Open Graph / Twitter Card / canonical tags for every page.

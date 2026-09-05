@@ -1,0 +1,743 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Australian Myths</title>
+<meta name="title" content="Australian Myths">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Examines the knocking of Australia&#39;s most sacred national myths, from the vicious attacks on Ned Kelly in Melbourne Punch and the homosexuality allegation that proved the one knock too far, through the sustained persecution of Les Darcy as a wartime shirker, the failed attempts to deflate Don Bradman and Kingsford Smith, and the long campaign against the Sydney Harbour Bridge and the Melbourne Shrine of Remembrance, ending with the Anzac Day controversies of the 1960s.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/knockers/12-australian-myths/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Australian Myths">
+<meta property="og:description" content="Examines the knocking of Australia&#39;s most sacred national myths, from the vicious attacks on Ned Kelly in Melbourne Punch and the homosexuality allegation that proved the one knock too far, through the sustained persecution of Les Darcy as a wartime shirker, the failed attempts to deflate Don Bradman and Kingsford Smith, and the long campaign against the Sydney Harbour Bridge and the Melbourne Shrine of Remembrance, ending with the Anzac Day controversies of the 1960s.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Australian Myths">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/knockers/12-australian-myths/">
+<meta name="twitter:title" content="Australian Myths">
+<meta name="twitter:description" content="Examines the knocking of Australia&#39;s most sacred national myths, from the vicious attacks on Ned Kelly in Melbourne Punch and the homosexuality allegation that proved the one knock too far, through the sustained persecution of Les Darcy as a wartime shirker, the failed attempts to deflate Don Bradman and Kingsford Smith, and the long campaign against the Sydney Harbour Bridge and the Melbourne Shrine of Remembrance, ending with the Anzac Day controversies of the 1960s.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Australian Myths">
+<link rel="canonical" href="https://keithdunstan.org/books/knockers/12-australian-myths/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1972-01-01">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="Knockers">
+<meta property="article:tag" content="Anzac Day">
+<meta property="article:tag" content="Arthur Streeton">
+<meta property="article:tag" content="Carbine">
+<meta property="article:tag" content="Don Bradman">
+<meta property="article:tag" content="J. T. Lang">
+<meta property="article:tag" content="Les Darcy">
+<meta property="article:tag" content="Melbourne Punch">
+<meta property="article:tag" content="Melbourne Shrine">
+<meta property="article:tag" content="Ned Kelly">
+<meta property="article:tag" content="Norman Lindsay">
+<meta property="article:tag" content="Phar Lap">
+<meta property="article:tag" content="Robin Boyd">
+<meta property="article:tag" content="Sydney Harbour Bridge">
+<meta property="article:tag" content="The Bulletin">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<link rel="mask-icon" href="/img/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">Australian Myths</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            32
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1972-01-01">1972</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Examines the knocking of Australia&#39;s most sacred national myths, from the vicious attacks on Ned Kelly in Melbourne Punch and the homosexuality allegation that proved the one knock too far, through the sustained persecution of Les Darcy as a wartime shirker, the failed attempts to deflate Don Bradman and Kingsford Smith, and the long campaign against the Sydney Harbour Bridge and the Melbourne Shrine of Remembrance, ending with the Anzac Day controversies of the 1960s.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="Knockers">
+         <!--<a href="/tags/anzac-day/" class="btn btn-outline-dark btn-sm me-2">Anzac Day</a><a href="/tags/arthur-streeton/" class="btn btn-outline-dark btn-sm me-2">Arthur Streeton</a><a href="/tags/carbine/" class="btn btn-outline-dark btn-sm me-2">Carbine</a><a href="/tags/don-bradman/" class="btn btn-outline-dark btn-sm me-2">Don Bradman</a><a href="/tags/j.-t.-lang/" class="btn btn-outline-dark btn-sm me-2">J. T. Lang</a><a href="/tags/les-darcy/" class="btn btn-outline-dark btn-sm me-2">Les Darcy</a><a href="/tags/melbourne-punch/" class="btn btn-outline-dark btn-sm me-2">Melbourne Punch</a><a href="/tags/melbourne-shrine/" class="btn btn-outline-dark btn-sm me-2">Melbourne Shrine</a><a href="/tags/ned-kelly/" class="btn btn-outline-dark btn-sm me-2">Ned Kelly</a><a href="/tags/norman-lindsay/" class="btn btn-outline-dark btn-sm me-2">Norman Lindsay</a><a href="/tags/phar-lap/" class="btn btn-outline-dark btn-sm me-2">Phar Lap</a><a href="/tags/robin-boyd/" class="btn btn-outline-dark btn-sm me-2">Robin Boyd</a><a href="/tags/sydney-harbour-bridge/" class="btn btn-outline-dark btn-sm me-2">Sydney Harbour Bridge</a><a href="/tags/the-bulletin/" class="btn btn-outline-dark btn-sm me-2">The Bulletin</a>-->
+
+        
+      </header>
+      <div class="article-body"><p>Australians don't hold many things truly sacred, however there are a few heroes, myths, treasured people and things . . . Ned Kelly, Les Darcy, Anzac Day, the Harbour Bridge, the Melbourne Shrine, Kingsford Smith, Don Bradman and, of course, Phar Lap.</p>
+<p>Almost all of these sacred shrines have suffered a thorough knocking, except perhaps Phar Lap. It is hard to believe that Phar Lap wasn't knocked by someone. There are rumours that a vicious attack was made upon him for being a gelding, that he wasn't a complete noble, classic creature, but I cannot find it. Phar Lap was the one perfect Australian being that never was knocked. But one could introduce a small jarring knock; Phar Lap wasn't truly an Australian. He was born in New Zealand. This could explain why he was knock-free.</p>
+<h2 id="ned-kelly">Ned Kelly</h2>
+<p>Of all our true heroes Ned Kelly would have to rank number one. He has a beautiful folk-myth character. In Victoria we have Ned Kelly museums, we have hotel bars named in his honour. Distinguished legal authorities have even suggested that there should be a posthumous Ned Kelly re-trial with the object of clearing his name. Many have wondered why Ned Kelly has not been mentioned in the regular handout of Commonwealth and State awards.</p>
+<p>Yet it is possible to select a remarkable number of Kelly knocks. The most spectacular appeared in Melbourne Punch on 1 July 1880. As a piece of writing with a certain feeling of dislike for a special individual it has few equals:</p>
+<blockquote>
+<p>We are aware that the opinion will seem strange to those who still hold the belief that under other circumstances Ned Kelly would have been a hero. Under no circumstances could the wretched nature have been altered. He murdered with the ferocity of a wild beast, when there was no chance of retaliation. He swaggered with the bravado of a bully before powerless men when he himself was armed to the teeth, but he displayed no bravery. He was at heart a thorough coward, whose hand shook so when he was menaced with real danger that he was unable to take an aim at one of his pursuers.</p>
+</blockquote>
+<blockquote>
+<p>And Ned, the leader, the man who would never be taken alive — is captured, roaring with physical pain like a wounded bull, and the hero straightaway commences with lying statements to pose as a brave fellow, when every act of his lawless career, from the brutal end of Kennedy to his attempt to leave his comrades in the lurch, shows unmistakable signs of his being a white-livered cur, even if a bloody poltroon.</p>
+</blockquote>
+<blockquote>
+<p>The grave yawns for him. His hemp is spun and twisted. If his life holds out long enough to enable him to reach the gallows, it will be found that he met his fate with abject terror, or with unseemly bravado put on to hide the inward quaking. The nation clamours eagerly for the life so long and bloodily forfeited, to its outraged laws, and all those of the community who have a detestation of a cowardly murderer, must contemplate without pity the ultimate fate of a wretch without one redeeming point, that of Edward Kelly, Murderer, Traitor, Hypocrite, Liar and Coward!</p>
+</blockquote>
+<p>Eighty-five years later Melbourne was terribly shocked when the Institute of Applied Science relegated its suit of Kelly armour to the basement. There are three Kelly suits in existence and normally they are treated with the reverence of splinters taken from the True Cross.</p>
+<p>The assistant director of the Institute, J. F. Kendall, was quoted as saying: 'Why should we revere a convicted murderer? It's a pity that we have as a national hero a man who was nothing but an outlaw.'</p>
+<p>Mercifully there was an outcry and the Ned Kelly armour was restored to its proper position, something to be admired at all times like the stuffed skin of Phar Lap.</p>
+<p>Another man who was outraged by the worship of Ned was M. H. Ellis, the historian. He thought it an enigma that one of the most decent, law-abiding people in the world should make a national hero of 'one of the most cold-blooded, egotistical, and utterly self-centred criminals who ever decorated the end of a rope in an Australian jail'. Warming somewhat to his subject Ellis wrote:</p>
+<blockquote>
+<p>His frankness in turpitude, his utter vengefulness, his cruelty, his coldblooded lack of regret at the wiping out of the lives of decent men can only repel even an unfastidious mind. There is not one single fact in his record that calls for admiration or approval, not one act of generosity apart from his distribution of stolen property among his own family and a band of unlovely associates, most of whom were as bad as himself, living in an atmosphere smelling highly of criminality, sly grog, and utter disrespect for other people's lives and properties — a bullying, drunken, constantly peace-disturbing community which terrorised main highways throughout Victoria to the Murray for a matter of twenty-five years.</p>
+</blockquote>
+<blockquote>
+<p>He was a compulsive, psychopathic murderer, an equally compulsive boaster who subjected his audiences of prisoners in such places as Jerilderie to harangues about his wrongs through which ran a whining note of self pity with the overlay of megalomania that led him to tell Scott, the bank manager at Euroa, after he had robbed him: 'The country belongs to us. We can go any road we like.'</p>
+</blockquote>
+<blockquote>
+<p>Everything about the Kellys that I can discover was base, vicious and undesirable. Ned was an arch-bully, menacing, vain, cruel, predatory, more like a wolverine than a dingo.</p>
+</blockquote>
+<p>In 1970 the English director Tony Richardson gave us a charming film on the life of Ned Kelly. Ned came out as a nice, clean-living Robin Hood, who was chivalrous to the ladies, but unfortunately got into a certain amount of bother with the police.</p>
+<p>Ross Campbell in the Bulletin wrote that Richardson overlooked a few things, like the time when Kelly, at only fourteen, was on a charge of robbing and beating a Chinese hawker, or when at fifteen he was jailed for knocking down a hawker named McCormack.</p>
+<p>The film did not report how he sent to Mrs McCormack a parcel containing a pair of calf's testicles with a note suggesting they might be of use to her seeing she had no children. Nor did the film mention, says Ross Campbell, the full details of Sergeant Kennedy's death. He was the last of three police killed at Stringybark Creek and Kelly maintained he was killed at the wounded man's own request. But the film made no mention of the autopsy report that Kennedy's ears had been cut off.</p>
+<p>But all reports of Kelly as a testicle-sender and ear-remover seem as nothing before the ultimate knock. Sidney J. Baker in his book <em>The Australian Language</em>, published in 1966, said: 'Apart from a mistaken regard for Ned Kelly and his associates (examining evidence I have little doubt that they were homosexuals), there are few Australians who are even remotely to be classed as folk heroes.'</p>
+<p>The Sydney Morning Herald gasped: 'WHEW!' They had heard the vaguely disturbing whispers in the past but never had anyone actually named him outright. They sent a reporter to ask Mr Baker more. 'The material is scattered,' he said enigmatically. In those days it wasn't polite to mention it. He pointed out that Ned was fond of dressing as women; that other members of the gang sometimes dressed as women; that Dan Kelly and Hart were said to have died in each other's arms at Glenrowan; and that one of Ned's early associates gave as one of his reasons for not being associated with women.</p>
+<p>Aaron Curnow, who lured Ned Kelly from the hotel at Glenrowan, told the Royal Commission which followed the Kelly uprising that young Dan Kelly came out of the hotel and asked him to come inside and have a dance. Curnow said: 'I said I could not dance with the boots I had on. Ned Kelly then came out of the hotel and, hearing me, said: &quot;Come on, never mind your boots.&quot; I went into the hotel and danced with Dan Kelly.'</p>
+<p>Douglas Stewart and Frank Hardy were furious at this heresy. Hardy argued that Dan Kelly was drunk when he danced with Curnow and, as for dressing up in women's clothes, the whole case seemed to rest on an incident at Euroa when they looted a hawker's cart while sticking up Younghusband's station. They did play the goat by spraying each other with scent bottles and dressing up in some of the women's clothes in the stock.</p>
+<p>Norman Lindsay, who was eighty-seven at the time, took the trouble to write to the Bulletin a special article in reply. He said he was one of the few people who could remember back to this time. Sewerage was so bad and there were so many open drains, surely it was normal for men to wear eau-de-cologne to drown the stench. Men danced with men at get-togethers for the simple reason women were not to be had in these country areas; they were practically all-male communities. As for Dan and Hart dying in each other's arms, what did they expect? A building was burning down over their heads. Probably they were terrified.</p>
+<p>This is a piece of knocking that has never been forgotten by the Australian public. It is all very well to call him a white-livered cur, a bully, a coward, a liar and a psychopathic murderer — but to actually name him as a queer is going too far.</p>
+<h2 id="les-darcy">Les Darcy</h2>
+<p>Like Ned Kelly and Phar Lap, Les Darcy is part of Australian folklore. One shouldn't compare horses with people, but on the folklore level both reach a mystic all-adoring plane. Phar Lap and Les Darcy had similar careers. Both went to the United States to seek further fame, to prove themselves as complete world champions. Both died over there, tragically, before their aim was realized.</p>
+<p>Both died of a potent infection, well explained medically, but to this date there are plenty of Australians who have never forgiven the United States. They believe both Darcy and Phar Lap died through some filthy, gangster, Yankee, Mafia-like skulduggery.</p>
+<p>Les Darcy, according to most vintage boxing enthusiasts, was the best boxer ever born in Australia. Between 1910 and 1916 he had fifty fights and lost only four of them — twice on points early in his career, once on a foul and once by disqualification. He beat the world middleweight champion Jeff Smith. It was a disputed title but Darcy was accepted by some overseas writers as the world middleweight champion. He won the Australian heavyweight title by beating Harold Hardwick, who was five inches taller and nearly a stone heavier than he was. As far as crowds were concerned he had the Bradman, Phar Lap touch. The crowds who came to see him at Sydney's Rushcutters Bay were never less than 10,000 and sometimes went as high as 15,000.</p>
+<p>There was a terrible flaw in the 'Golden Boy' story of Les Darcy; he was fighting with his fists instead of a rifle. He did actually try to join up in September 1914, but his mother refused her consent. Les grew up at Maitland, the son of struggling Irish 'cocky' parents. Until he began to box he knew little else but near-poverty and later he entirely supported his family by his earnings. While boxing at Rushcutters Bay his mail regularly contained both requests for autographs and plain envelopes which held nothing but a white feather. In August 1916 he tried to enlist again, but on the 17th he received a telegram from his mother, saying once again she would not consent.</p>
+<p>Meanwhile there had been tempting offers from the U.S. He told a recruiting officer that he wanted to go to the U.S. to put the world middleweight championship beyond dispute. This way he could earn enough money to provide for his mother and family. Then when he was twenty-one he would return to Australia and enlist.</p>
+<p>Darcy did an astonishing thing. He had no passport, no official papers of any kind. He left Australia on 27 October secretly and illegally aboard the tanker Hettie Luckenbach bound for New York. He paid £75 to be allowed to stow away. He arrived there under the name James Dawson and paid a 25-dollar fine for being without a passport, but he was allowed to enter America.</p>
+<p>The newspapers did not realize what Darcy had done until early November; then came a torrent of almost hysterical abuse. A Brisbane newspaper had an Open Letter to Les Darcy which began: 'Your 21st birthday found you, the great Les Darcy, the Australian bulldog fleeing in disguise.'</p>
+<p>On 17 November 1916, Sydney's Sunday Times had a letter:</p>
+<blockquote>
+<p>Now it seems to be definitely established that Les Darcy has slipped away to America, this paper and a great crowd of reputable citizens want to know what action the Federal Government proposes taking in the matter. Here is a young man in the prime of his physical fitness, the most embodied Commonwealth middleweight and heavyweight champion of Australia, whose income for the past three years has not been less than £5,000 a year. He is fit for military service and he has made all this money out of the people of Australia. . . . There need be no magnifying of this man Darcy's importance. He is not important in the least. This paper regards with indignation the conduct of any man who bolts from his country at its hour of need. It regards with unspeakable contempt any and every person who connives in any way to such levanting. For a fellow who bolts in such a funk when he begins to deem it possible that his duty may be thrust upon him, there can be nothing but disgust and scorn.</p>
+</blockquote>
+<p>Stadiums Ltd. stripped Darcy of all his titles. According to Snowy Baker, the fight promoter, no longer was he fit to hold them. As reports of how he was being treated in his own country reached the U.S., he found it impossible to get fights. The Governor of New York, Governor Whitman, directed the New York State Athletic Commission to prohibit Darcy from having any fights in that State. He described Darcy as 'nothing but a slacker'.</p>
+<p>This was greeted with approval back home. The Argus in Melbourne wrote:</p>
+<blockquote>
+<p>Les Darcy will always remember his 21st birthday. On that day he became a man, or to use a less inappropriate expression, he attained his majority. It was October 28, the day of the conscription referendum, and it became necessary for him, having become a man (legally, that is) to go into camp. Instead of doing this he sneaked out of the country. Now his sin is finding him out. The scathing words of the Governor of New York — that Darcy was a slacker, afraid to fight for his country — will follow this young athlete throughout his career. He is forbidden to fight in New York and doubtless other States will impose a similar embargo. We can hardly pay Darcy the compliment of supposing that he has a conscience, but his loss of reputation will mean substantial loss of money.</p>
+</blockquote>
+<p>Not satisfied with that the Argus thundered once again a few weeks later: it pointed out that he had been disgraced and humiliated in the U.S. and he could not get a fight anywhere.</p>
+<blockquote>
+<p>So that Darcy a fighter who will not fight is out of the frying pan into the fire. A potential champion of the world gains no applause and reaps no honour. It is not that he refrained from volunteering that constitutes his shame in the eyes of all sport-loving men. It is that he ran away. The obloquy which he has incurred will follow him wherever he travels as long as he lives.</p>
+</blockquote>
+<p>On 25 April he enlisted in the U.S. Army Aviation Reserve Corps and he took out preliminary American citizenship papers. The Air Corps promoted him to sergeant and gave him immediate furlough to fight Len Rowlands in Memphis, Tennessee. As he went into training he began complaining about sore teeth and gums. He came down with a streptococcus throat infection which led to blood poisoning. This affected his heart and he died on 24 May 1917.</p>
+<p>Suddenly there was a tremendous surge of grief and sympathy back in Australia. His body was embalmed and returned to Australia. San Francisco had an unofficial day of mourning when the coffin containing his body passed through the city. Back home there were funeral services at Woollahra and at Maitland where he was buried. The services were attended by large crowds of mourners and a monument paid for by public subscription was erected over his grave '. . . as a tribute to his unsurpassed brilliance as a boxer, and in testimony of his high and lovable character, and of the uprightness and integrity of his life'. There were no more knocking leaders.</p>
+<h2 id="don-bradman">Don Bradman</h2>
+<p>Don Bradman was another hero who had to be knocked. At the beginning of the Second World War he was incomparably the greatest Australian. He had twenty-one lines in Who's Who, eight fewer than Hitler and seventeen more than Stalin. It was difficult to knock his cricket, although there were a number of shrewd tries. Many suggested that his style would not be suited to English wickets and one of those who made the suggestion, Percy Fender, captain of Surrey, had the misery in 1930 of seeing Bradman make 252 not out in his first match at the Oval.</p>
+<p>Many suggested that he was frightened of truly fast hostile bowling: Larwood said so himself. Yet Bradman still managed to top the Australian averages with 56.57 for the 1932 bodyline series.</p>
+<p>The cricketing knocks usually failed — he kept on breaking records. More successful were the pieces on the Bradman personality. During the 1930 tour he ran into trouble with the Board of Control. Already he had written his life-story, which was appearing in the English newspapers. In <em>Farewell to Cricket</em> Bradman defended himself. He said he was writing nothing on the current tour and besides the Board had given consent to Clarrie Grimmett. Smith's Weekly commented:</p>
+<blockquote>
+<p>Don Alexander Napoleon Bradman has hit the fussy controllers to leg. Pompous rules and regulations of the Board of Control have been cut, slashed and smitten into scraps. Don had done things this Tour which no lesser players would have dared to attempt. The Board of Control has been left simply gasping.</p>
+</blockquote>
+<blockquote>
+<p>About a month ago he startled Manager Kelly and the cricketing world at large by writing a series of newspaper articles for the London Star. This action was open and defiant. All England knows the history of the campaign undertaken by the Australian writers. It meant the removal of Arthur Mailey from Test Cricket, even though Mailey by profession is a journalist. But this was only the beginning of Don's Napoleonic pursuit of his own destiny.</p>
+</blockquote>
+<blockquote>
+<p>Since then, Bradman had made a movie-tone demonstrating his strokes. He has signed his autograph on hundreds of cricket bats. I am informed that he even agreed to sign a contract to appear in one of the London halls during the fifth Test. But this last boldness was too much for the distressed Manager Kelly who nipped the boldness in the bud.</p>
+</blockquote>
+<blockquote>
+<p>Latest demonstration of Don's independence is to be seen in London shop windows, which display his photograph in large sizes, advertising a wireless set of well-known brand.</p>
+</blockquote>
+<p>Don was in more trouble when he arrived home. He left the rest of the team in Adelaide and flew on ahead with Travis Shortridge in the Southern Cloud. Five months later Shortridge was lost in the Australian Alps. The wreck of the Southern Cloud was not found for twenty-seven years.</p>
+<p>But this was the best reception to a flight Shortridge ever had. The newspapers announced that the Bradman aeroplane would reach Essendon at 3.30 p.m. and there would be a big reception. The name of Bradman was enough to draw the crowds even when he was away from the cricket ground. At 3.30 there were 10,000 people at the airport. Aeroplanes in 1930 were somewhat more vague in their habits than they are now and Bradman did not arrive for another two hours. But, of course, cricket crowds are tremendously well trained in patience and they were still all there at 5.30 p.m.</p>
+<p>When the Southern Cloud came to a stop on the tarmac Bradman had to be rescued by mounted police, so that he could make his way to the tray of the lorry which was draped with the Union Jack. This was the spot for the speeches.</p>
+<p>Next morning the rest of the team arrived at Port Melbourne aboard the Oronsay and the crowd waiting to see them was only two thousand. There was anger over Bradman. Many members of the team thought Bradman had deliberately stolen their thunder. As Jack Fingleton wrote: 'One said they felt like apologizing for themselves, when, in the wake of the regal Bradman entry and exit, they came after him into an atmosphere of stale beer.'</p>
+<p>Bradman said he had no say in the matter. His employers had asked him to fly on ahead. 'No question of refusing entered my head because my employers had a perfect right to seek my return at the earliest moment.' General Motors presented him with a sports car at the airport and, as Bradman said, it all created an 'unfortunate impression'.</p>
+<p>Here is a small collection of typical Bradman knocks:</p>
+<blockquote>
+<p>It is no disparagement that one could sometimes hope he will become on and off the field a little more human.
+<em>Geoffrey Tebbutt, With the 1930 Australians</em></p>
+</blockquote>
+<blockquote>
+<p>Bradman is an enigma, a paradox; an idol of millions of people, yet, with a few, the most unpopular cricketer I ever met. People close to him either like or dislike him. There is no other compromise.
+<em>Arthur Mailey</em></p>
+</blockquote>
+<blockquote>
+<p>[The Bodyline Series.] I am certain of this: that he refused decisively to be made an Aunt Sally, and I do not now believe that anybody would desire to blame him on that account. This rather than any vague theory of beating bodyline, was probably the essence of his amazing and unorthodox capers at the crease before the ball was bowled. Like Peter Doody, his life, judged by Bradman standards, might have been a short and gay one but it also had the merit of being, as far as possible, safe physically. He received only the one blow, whereas Woodfull, Richardson, Ponsford, McCabe and myself carried a multiplicity of bodyline bruises for the entire season.
+<em>'Cricket Crisis' by Jack Fingleton</em></p>
+</blockquote>
+<p>Fingleton quoted Adam Lindsay Gordon with the lines:</p>
+<blockquote>
+<p>No game was ever worth a rap
+For a rational man to play
+Into which no accident, no mishap
+Could possibly find its way.</p>
+</blockquote>
+<p>Bradman is not popular in New South Wales — the State which started him on his incomparable career. They feel they gave him his start, and when he made his name he went off to play for South Australia and left them in the lurch. In the Cricketers Club in New South Wales there is only one picture of a cricketer to be seen and this is of Victor Trumper — 'I think that is all wrong.' <em>Keith Miller, Cricket Crisis</em></p>
+<p>In the book <em>Overthrows</em> by E. H. D. Sewell there is a chapter titled 'A Frank Australian Letter' which gives the observations of former Sydney bank manager, Leigh Riley. Riley once asked C. G. Macartney what he thought of Bradman. Macartney replied: 'Just a run-making machine and nothing else.' A further extract from the letter states: 'What does the public of Australia think of Bradman? Well, certainly not what you or I, Noble and the other judges think. The public thinks he is the greatest Australian batsman ever and will argue long on that point. And I, and of course most judges in Australia, think otherwise. I think Grace's records were more a matter of skill more canny, Trumper's whole make-up — looks, bearing, confidence and daring and cricketing genius — more remarkable than Bradman.'</p>
+<h2 id="kingsford-smith">Kingsford Smith</h2>
+<p>One would have imagined that it would have been almost impossible to knock Sir Charles Kingsford Smith, the heroic pioneer aviator. He had rugged, magnificent Australian good looks. He had few rivals and like Don Bradman there were very few who could come anywhere near him in the same field of achievement.</p>
+<p>Yet J. R. Carter, one of his biographers, wrote in <em>The Southern Cloud</em>:</p>
+<blockquote>
+<p>It is difficult to understand after this lapse of time why Kingsford Smith was throughout his public career the target of innuendo and criticism, ninety-nine per cent of it unjust and most of it ill-natured, and a lot downright vicious. There must be few of Australia's famous sons who spent the closing years of their lives in such an atmosphere of disappointment, strain, ill-luck, official opposition and neglect.</p>
+</blockquote>
+<p>Kingsford Smith throughout his career certainly suffered from outrageous official neglect; apart from such non-costly awards as a knighthood he received little Government help. He was co-founder of Australian National Airways in 1928, but by 1932 it was in liquidation, suffering financial agonies. Bitterly he wrote:</p>
+<blockquote>
+<p>There may be glory, but there is little cash nowadays for aviation feats. The successful airman who performs some startling or sensational flight will find himself overwhelmed with invitations; he will be surrounded by film men, camera men, press men, microphones — he receives an excess of publicity so that his name and his fame speeds around the world with the speed of radio. But it all ends there, and when the captains and the kings depart, he is left high and dry on a pedestal from which he must find his own way down.</p>
+</blockquote>
+<p>But worse things happened than mere official neglect. In 1929 Kingsford Smith and Charles Ulm set out for England in the Southern Cross with the object of buying new aircraft for their airline. After taking off they accidentally lost their radio aerial, so they could transmit but could not receive. They failed to receive reports of shocking weather ahead and flew straight into a blinding storm. Short of fuel, they force-landed in the mud flats of the Glenelg river estuary by the Kimberleys. They were deeply bogged, stranded in some of the loneliest and most inhospitable country in Australia. All they had to eat was some tins of baby food, a Thermos of coffee and a small flask of brandy. This remarkable combination inspired them to name the spot 'Coffee Royal'.</p>
+<p>A great air search started and it was thirteen days before they were found. In that search two of Kingsford Smith's friends, Keith Anderson and H. S. Hitchcock, crashed and died. J. R. Carter wrote:</p>
+<blockquote>
+<p>The idol over whom Australia had gone hysterical, the hero they had mobbed and cheered, had feet of clay it seemed. His countrymen believed he had deliberately staged the 'Coffee Royal' affair to get publicity for himself. The Southern Cross was never lost, rumour said. Everything had been 'fixed'. Smithy and his crew were to be 'found' at a convenient time when interest had reached fever-peak. A fickle public that had showered Kingsford Smith with praise had now turned on him, as many another famous man has found since men first created public images.</p>
+</blockquote>
+<p>The rumours gained such a pace that the Prime Minister, Mr Bruce, set up a public inquiry into the circumstances of the forced landing. As J. R. Carter said, two of the world's most famous airmen were in the humiliating position of being grilled in a witness-box on every detail, motive, arrangement of their flight. They were eventually exonerated but the inquiry left Kingsford Smith in a sour mood. Of the publicity stunt suggestion he later wrote: 'It is difficult to understand a mentality which could conceive such a despicable and ridiculous idea.'</p>
+<p>In 1934 Kingsford Smith entered the London to Melbourne centenary air race. He suffered an incredible series of mishaps and misfortunes. He could not get the aeroplane he wanted and finally he settled for a single-engined American racer, a Lockheed Altair. There were criticisms that he was un-Australian for choosing American instead of British. Furthermore he could not get a certificate of airworthiness because America was not a member of the International Convention of Air Navigation. This caused a delay. A crack in the engine cowling caused another so that he had to withdraw from the race. This caused an immense stir — it was like Don Bradman pulling out of a Test match. There were suggestions that he was frightened and he received a bundle of white feathers in the mail.</p>
+<p>Kingsford Smith commented: 'It was even suggested that I never had any real intention of pitting myself against these other champions; that as the time drew near, I had lost confidence in myself, or in my machine, or both; that I would fly only if I was absolutely sure of winning; and that I was no sportsman.' A hero may often become a nation's whipping-boy overnight.</p>
+<h2 id="sacred-objects">Sacred Objects</h2>
+<p>Our sacred heroes can also take the form of inanimate objects. One of our most sacred things was always the Sydney Harbour Bridge. Just like the Sydney Opera House, it suffered. It took too long in construction, its cost was outrageous. It wasn't necessary and, finally, it was ugly.</p>
+<p>At the time of its construction, circa 1920, there was a little poem, a Paternoster which went like this:</p>
+<blockquote>
+<p>Our 'arbour which art in Sydney,
+Good-o be thy name.
+Thy Bridge be done
+If not in 'thirty, then in thirty-one.
+Give us our trespasses
+Forgive those cows in Melbourne,
+Thine the 'arbour, the Bridge and the glory,
+For ever and ever, Amen.</p>
+</blockquote>
+<p>There were disputes over who actually designed the Bridge: was it the engineer, Freeman? It was never actually resolved and a plaque had to be put on the Bridge to say that it was a joint effort. An article under 'Plain English' in the Bulletin was typical of some of the things that were written:</p>
+<blockquote>
+<p>This Bridge was built prematurely and at wicked cost with borrowed money by Dorman, Long and Co. Ltd. who tendered on a form of contract and specification prepared for the Government of New South Wales by Bradfield. But as the contractors had to take full responsibility for the design and as the design was variable and as they didn't know Bradfield, they, not being daft, put their own engineer Ralph Freeman on to the job and so he altered Albert Bradfield's incomplete plans. Thus nobody knows now who did really design the thing we can't afford. But it is plain that in the circumstances most of Bradfield's work was superfluous; and that this Tablet is put up as a memorial and a warning of the wastefulness of Government enterprise from its inception to its completion.</p>
+</blockquote>
+<p>In the weeks before the opening twenty Anglican bishops and archbishops signed a protest against the official opening taking place in Holy Week. Bishop Cranswick said:</p>
+<blockquote>
+<p>It has been disgraceful enough that for many years the committee of Sydney Agricultural Show should turn the day on which our Blessed Lord's death is commemorated into a vast gala day. But when a responsible Government deliberately determines to desecrate the whole atmosphere of Holy Week with a series of popular festivities the offence surely becomes unbearable.</p>
+</blockquote>
+<p>As it turned out the Bridge was actually opened by Colonel Charles de Groot, another piece of knocking, as related in the chapter on Australian politicians. Lord Shelbourne of Gloucestershire arrived before the Orontes and described the new Bridge as 'an unnecessary monstrosity and an enormous waste of money which should have been used on other causes'.</p>
+<p>The Country Party agreed completely. That week it brought out a report that the cost of the Bridge plus the Sydney underground railway had cost £543 million, money which had not added one penny to Australia's production. The report said:</p>
+<blockquote>
+<p>Thousands of struggling pioneers still bring their produce to market with laden pack horses over steep mountain tracks. Thousands of courageous men and women swing their wool and other commodities across bush streams on flying foxes by day. No bridges for them, no electric railways. The country people of Australia produce 96 per cent of the total exports and two-thirds of her nation's wealth. In the shadow of the Sydney Bridge the city induces the nation to hatching a witch's brood of default, disaster, Communism and despair.</p>
+</blockquote>
+<p>Since that time the Bridge has become so invaluable that the newspapers have pleaded almost constantly for another; so criticism has largely come on its aesthetic qualities. The definitive piece on this appears in Robin Boyd's <em>Australian Ugliness</em>. Robin Boyd found the pylons at each corner unnecessary pieces of ornament, a classic example of the Boydian 'featurism'. He wrote:</p>
+<blockquote>
+<p>Most people at the time it was built thought the pylons were redundant features, not as a necessary addition to make the steel presentable. The steel itself was understood to be necessarily ugly; so the pylon towers reversed the interesting logic of the arch by transferring the emphasis from the centre to the ends, where everyone who was familiar with bridges expected to see high pylons. The pylons thus simplified the great span of the arch with stone veneer.</p>
+</blockquote>
+<p>Unlike the Harbour Bridge, one would have thought the Melbourne Shrine almost too sacred. Not so. The Shrine, like all great projects, has had its knocks.</p>
+<p>The design for the Shrine was the result of a public competition. The winners were the Melbourne architects P. B. Hudson and J. H. Wardrop, both, as it was very carefully pointed out at the time, ex-Servicemen. Models of their design were first on display in the Melbourne Town Hall in January 1922. Immediately knocking started, and there was plenty of it.</p>
+<p>'Could they not have waited a little time to submit something more graceful and dignified? It looks like a cross between a pyramid and a factory.'</p>
+<p>A man who described himself as 'Ex-A.I.F.' wrote: 'It gives me no thrill. It is gloomy and dull. It suggests nothing to me of all the laughter and tears of the A.I.F. It says nothing to me of the outstanding qualities of the Australians — naturalness, initiative and bee-line daring. It is artificial, faint-hearted and purposeless. It is just so much dumb, dead stone.'</p>
+<p>The Herald kept up a campaign employing its top writers to announce in long articles what a disaster this thing would be for Melbourne. This was accompanied by stern leaders:</p>
+<blockquote>
+<p>The winning design of the War Memorial must not be executed. It fails decisively on two grounds: it lacks artistic inspiration, and its completion would entail a grossly improper expenditure of £250,000 of public money. The proposed memorial represents not the best but the worst quality of our Victorian character. It would be a monument marked by a plum conservatism. Let us cheerfully accept the failure and not be guilty of the mad folly of perpetuating it at a cost of £250,000.</p>
+</blockquote>
+<p>Perhaps the most determined attack came from three leading artists, Sir Arthur Streeton, Blamire Young and Septimus Power. They thought it un-Australian, a curious blending of ancient Egyptian and Grecian styles.</p>
+<p>The architects were furious at the attack. Mr Hudson said: 'Blamire Young may be a good daub artist but he knows nothing about architecture.'</p>
+<p>But there was worse to come. William Lucas, an architect who came second in the competition, attacked the winning entry on the grounds that it was not original. He protested against the building of the winning design and in a letter to the Herald said: 'The design approximates in essential vital principles to the Hall of Memory in Birmingham and the Scottish Rite Temple in Washington, U.S.A.'</p>
+<p>This time the architects were even more furious. They replied they had never seen the monuments in Birmingham or Washington and their design was actually inspired by the Mausoleum of Halicarnassus in ancient Greece, a temple 'of such beauty and splendour that it had been ranked as one of the seven wonders of the world'.</p>
+<p>Mr Lucas was Editor of the Journal of the Institute of Architects and immediately word went around that he would be suspended for unethical conduct. Mr Lucas commented coldly: 'It is the first I have heard of such a novel idea.' Yet the novel idea became fact. He was suspended and at a formal meeting of the Institute of Architects he was found guilty of unprofessional conduct. Mr F. Davies, in seconding the motion, said the principle of playing the game and obeying the umpire was observed throughout the Empire. Mr Lucas had departed from that spirit. He had entered a competition, one of the rules of which was that the award should be final, and as a sportsman he ought to have accepted the award. 'Hear, hear,' cried the other architects. The Federal Council of the Institute then passed a motion describing the design as an architectural triumph.</p>
+<p>But years went by and nothing happened. In 1927 there were moves to have the project switched to something practical like a memorial hospital. Some members of Parliament and city councillors fought for a memorial square and the move very nearly succeeded. They wanted a large square in front of Parliament House extending from Little Collins to Little Bourke Streets and equally deep. Then out in front of the square there was to be a 300-foot obelisk flanked by four statues 130 feet high. Costs finally defeated it and it was the Legacy Club and Sir John Grice who brought the War Memorial committee back together again to build the Shrine. And so the building was opened by the Duke of Gloucester on 11 November 1934.</p>
+<p>Since then the Shrine has taken a number of knocks. In October 1969 we heard from that publication of the Victorian Institute of Architects again. A Sydney architect, David Saunders, made some sharp remarks about the culture of Melbourne with the Shrine at one end of St Kilda Road and the Carlton brewery at the other. 'Here we have the Shrine of Remembrance masquerading as Newton and Pullan's putative reconstruction of the Mausoleum of Halicarnassus. Trust Melbourne to try to capture one of the seven wonders of the world.'</p>
+<p>Batman, a columnist in the Bulletin, also had knocking things to say. He wrote of an organization called the National Distrust of Australia, an organization dedicated to not saving but getting rid of the horrid buildings of the nation. He gave his buildings classifications:</p>
+<blockquote>
+<p>A — of national unimportance, to be unpreserved at all costs.
+B — highly unsignificant, to be unpreserved.
+C — unnotable, worthy of unpreservation.
+D — uninteresting, unpreservation desirable.</p>
+</blockquote>
+<p>Batman gave a B grading to the Shrine. The National Mutual building, Spencer Street Station and the Melbourne Masonic Centre also earned B gradings. Perhaps the Shrine's worst knock came on the early morning of 23 April 1971. Melburnians awakened to see the word PEACE written in very large, beautifully executed letters on the Shrine's main pillars.</p>
+<p>There was a letter to each pillar. According to the police four youths attacked the guard on the main steps during the early hours of the morning, then used white paint to make the decoration. The guard, Constable L. Wratten, of the Government House guard, went to the Police Hospital with cuts and abrasions. An anonymous caller to the Age said that only two people did the job and he denied very firmly that there had been any violence.</p>
+<p>Some correspondents to the newspapers suggested that PEACE was not entirely an unworthy word to put on the Shrine, but the Chief Commissioner of Police described the vandalism as 'an outrage'.</p>
+<p>It was the eve of Anzac Day. Colonel Kemsley, Chairman, Shrine Trustees, said: 'I am going to leave the vandalism over the weekend. I want all Melbourne to come and see it. If I could become a soldier again I'd kill the bastards. I'd shoot them or hang them all from the nearest tree. My bloody oath I would.'</p>
+<p>Melbourne citizens did not gain the benefit of a public hanging because the PEACE perpetrators were not found.</p>
+<h2 id="anzac-day">Anzac Day</h2>
+<p>The Returned Servicemen's League and the old soldiers are very sensitive to criticism; like an alkali on litmus paper, the reaction is immediate. Honi Soit, the students' newspaper of the University of Sydney, made an attack on Anzac Day just before the annual march in April 1960.</p>
+<p>Honi Soit described the day as the 'annual ritual of national narcissism-cum-Bacchanalian revel' and a 'protracted sentimentalizing of a brutal unlovely phenomenon'. The article said the emphasis placed on the death of old comrades was a feature of Anzac Day celebrations which indicated a neurotic morbidity that was the mark of an unbalanced personality. It said:</p>
+<blockquote>
+<p>Such phenomena as saluting 'The Little Digger's' empty chair and the maudlin drunken sentimentality of reunion reminiscences are symptomatic of this. Anzac was conceived solely as a means for continuing the fallacy that war is an ennobling activity. I do not want to prevent people remembering their own personal griefs on this day. I just object to the prostitution of these griefs in a bonanza of emotionalism, hypocrisy and alcohol in an incongruous admixture of religion and fleshly lust.</p>
+</blockquote>
+<blockquote>
+<p>I do not know, nor do I greatly care, if these views are widely held. All I know is that to me the ceremonies of Anzac Day stand for all that is bigoted, ignorant and intolerant in humanity.</p>
+</blockquote>
+<p>The rage in the RSL was considerable. Brigadier F. P. H. Fewtrell, custodian of the Cenotaph and a member of the RSL executive said: 'Something will be done about it at the next meeting of the RSL state executive. These students need to be taught a lesson.'</p>
+<p>Farrago, the Melbourne University newspaper, followed up the attack the following week. It came from the younger generation and described itself as of the stars and planets which had happened forty years ago. 'The maintenance of a festival devoted explicitly to the glorification of war and the creation of hysteria is a comment on either the sincerity of official appeals for world peace and International co-operation, or the intelligence level of the RSL and kindred bodies. The spirit represented by Anzac Day is one of the most pernicious which the human spirit possesses. The RSL calls it patriotism — a better word would be jingoism. The same feeling which motivated Hitler's Germany and Tojo's Japan makes old soldiers march on the 25th of April each year. Anzac Day is a palpable demonstration of mob hysteria, a perennial reminder of man's eternal arrogance and stupidity.'</p>
+<p>The article had the desired reaction. The Federal President of the RSL, Sir George Holland, described the Farrago article as 'complete and utter filth, an article produced by an unbalanced mind. I cannot understand a university newspaper publishing it. The University has no control over the newspaper. It is a law unto itself.'</p>
+<p>There were very determined moves to have a check put on Farrago. Sir Arthur Amies said he would bring the article to the notice of the University Council. Yet somehow Farrago survived and so did the RSL.</p>
+<p>Perhaps in a curious sort of way it is the continual knocking that keeps the great national myths alive.</p>
+<hr>
+Continue to chapter thirteen: <a href="/books/knockers/13-australian-writers/">Australian Writers</a>
+</div>
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+
+  <p class="lead">
+        Examines the knocking of Australia&#39;s most sacred national myths, from the vicious attacks on Ned Kelly in Melbourne Punch and the homosexuality allegation that proved the one knock too far, through the sustained persecution of Les Darcy as a wartime shirker, the failed attempts to deflate Don Bradman and Kingsford Smith, and the long campaign against the Sydney Harbour Bridge and the Melbourne Shrine of Remembrance, ending with the Anzac Day controversies of the 1960s.
+      </p>
+
+
+<hr>
+<h4 class="h6">Topics in this item</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/anzac-day/" class="link-secondary">Anzac Day</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Anzac Day">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/arthur-streeton/" class="link-secondary">Arthur Streeton</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Arthur Streeton">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/carbine/" class="link-secondary">Carbine</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Carbine">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/don-bradman/" class="link-secondary">Don Bradman</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Don Bradman">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/j.-t.-lang/" class="link-secondary">J. T. Lang</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="J. T. Lang">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/les-darcy/" class="link-secondary">Les Darcy</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Les Darcy">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne-punch/" class="link-secondary">Melbourne Punch</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne Punch">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne-shrine/" class="link-secondary">Melbourne Shrine</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne Shrine">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/ned-kelly/" class="link-secondary">Ned Kelly</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Ned Kelly">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/norman-lindsay/" class="link-secondary">Norman Lindsay</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Norman Lindsay">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/phar-lap/" class="link-secondary">Phar Lap</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Phar Lap">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/robin-boyd/" class="link-secondary">Robin Boyd</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Robin Boyd">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/sydney-harbour-bridge/" class="link-secondary">Sydney Harbour Bridge</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sydney Harbour Bridge">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/the-bulletin/" class="link-secondary">The Bulletin</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="The Bulletin">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/anzac-day/" class="link-secondary">Anzac Day</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Anzac Day">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/arthur-streeton/" class="link-secondary">Arthur Streeton</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Arthur Streeton">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/carbine/" class="link-secondary">Carbine</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Carbine">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/don-bradman/" class="link-secondary">Don Bradman</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Don Bradman">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/j.-t.-lang/" class="link-secondary">J. T. Lang</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="J. T. Lang">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/les-darcy/" class="link-secondary">Les Darcy</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Les Darcy">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne-punch/" class="link-secondary">Melbourne Punch</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne Punch">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne-shrine/" class="link-secondary">Melbourne Shrine</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne Shrine">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/ned-kelly/" class="link-secondary">Ned Kelly</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Ned Kelly">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/norman-lindsay/" class="link-secondary">Norman Lindsay</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Norman Lindsay">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/phar-lap/" class="link-secondary">Phar Lap</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Phar Lap">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/robin-boyd/" class="link-secondary">Robin Boyd</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Robin Boyd">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/sydney-harbour-bridge/" class="link-secondary">Sydney Harbour Bridge</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sydney Harbour Bridge">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/the-bulletin/" class="link-secondary">The Bulletin</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="The Bulletin">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

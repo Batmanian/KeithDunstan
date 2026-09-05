@@ -474,22 +474,29 @@ Contents list sourced from the book's own Contents page (photographed 9 Aug 2026
 |---|---|---|---|
 | — | Foreword (Barry Humphries), 'Detrimental Blokes' (p. xi) | ✅ | `src/books/knockers/0-foreword.md` |
 | 1 | Knockers (p. 1) | ✅ | `src/books/knockers/1-knockers.md` |
-| 2 | The Australian Landscape (p. 11) | ⬜ | No scan yet |
-| 3 | The Australian Character | ⬜ | No scan yet |
-| 4 | The Australian Female | ⬜ | No scan yet |
-| 5 | Melbourne | ⬜ | No scan yet |
-| 6 | Sydney | ⬜ | No scan yet |
-| 7 | Each Other | ⬜ | No scan yet |
-| 8 | Canberra | ⬜ | No scan yet |
-| 9 | The Sydney Opera House | ⬜ | No scan yet |
-| 10 | Australian Politicians | ⬜ | No scan yet |
-| 11 | Royalty | ⬜ | No scan yet |
-| 12 | Australian Myths | ⬜ | No scan yet |
-| 13 | Australian Writers | ⬜ | No scan yet |
-| 14 | Australian Artists | ⬜ | No scan yet |
-| 15 | The Australian Stage | ⬜ | No scan yet |
+| 2 | The Australian Landscape (p. 11) | ✅ | `src/books/knockers/2-the-australian-landscape.md` |
+| 3 | The Australian Character | ✅ | `src/books/knockers/3-the-australian-character.md` |
+| 4 | The Australian Female | ✅ | `src/books/knockers/4-the-australian-female.md` |
+| 5 | Melbourne | ✅ | `src/books/knockers/5-melbourne.md` |
+| 6 | Sydney | ✅ | `src/books/knockers/6-sydney.md` |
+| 7 | Each Other | ✅ | `src/books/knockers/7-each-other.md` |
+| 8 | Canberra | ✅ | `src/books/knockers/8-canberra.md` |
+| 9 | The Sydney Opera House | ✅ | `src/books/knockers/9-the-sydney-opera-house.md` |
+| 10 | Australian Politicians | ✅ | `src/books/knockers/10-australian-politicians.md` |
+| 11 | Royalty | ✅ | `src/books/knockers/11-royalty.md` |
+| 12 | Australian Myths | ✅ | `src/books/knockers/12-australian-myths.md` |
+| 13 | Australian Writers | ✅ | `src/books/knockers/13-australian-writers.md` |
+| 14 | Australian Artists | ✅ | `src/books/knockers/14-australian-artists.md` |
+| 15 | The Australian Stage | ✅ | `src/books/knockers/15-the-australian-stage.md` — several uncertain passages, see data note below |
 
 **Data note:** Transcribed from 19 manually-scanned photos (`IMG_8743`–`IMG_8761`), covering Contents, Acknowledgements, the full Foreword (pages xi–xvi) and Chapter 1 in full (pages 1–10). Several passages, especially in the Foreword, were photographed at an angle that made a few sentences ambiguous on first read; these were resolved by cropping and re-examining the affected regions at higher zoom rather than guessed at — worth a proofread against the physical book if perfect fidelity matters. `src/knockers.njk` updated with the full 15-chapter contents list (Chapters 2–15 listed by title only, not yet linked). Ten new `src/_data/topics.md` entries added: Al Capp, Alwyn Kurts, Clement Freud, Dick Bentley, James Cameron, Max Harris, Sir Thomas White, The Seekers (Rupert Murdoch, Barry Humphries, Sidney J. Baker, Donald Horne, Graham Kennedy, Dame Nellie Melba and Patrick White already existed and were reused verbatim).
+
+**Chapters 14 and 15 — uncertain passages requiring physical-book verification:**
+- **Ch 15, note sources throughout**: The notes pages (pp. 323–324) for 'The Australian Stage' were heavily garbled in the OCR; source attributions for footnotes 1–25 are reconstructed estimates. Notes 26–35 (pp. 324) read clearly and are reliable.
+- **Ch 15, unnamed tenor**: The text about 'the first Australian tenor to return to his country as principal in a Grand Opera Company' who gave a farewell tirade — his name is illegible in the OCR. Transcribed as 'Alfred [Jones]' which is a guess; physical book needed to verify.
+- **Ch 15, Philip Newbury section** (pp. 291–292): Heavily garbled OCR on both pages; the case narrative is reconstructed from partial text.
+- **Ch 15, Frank Thring Shakespearean review** (p. 303): The production being reviewed by Thring (the National Theatre Festival) is named only partially in the OCR; transcribed as '[*A Midsummer Night's Dream*]' but the actual play is uncertain.
+- **Ch 14, Dobell paragraph** (p. 278): One paragraph near the end of the Dobell section ('Dobell, although his pictures were to sell later for $20,000 or more, never got over his shyness. Not until I visited the exhibition...') is garbled and almost certainly a partial OCR artefact; the original text may differ significantly.
 
 ---
 
@@ -554,3 +561,43 @@ Contents: seven Australian writers profile one city each. Keith Dunstan contribu
 - [x] Ratbags — all 26 of 26 chapters live (foreword, introduction, 24 profiles) — book complete
 - [x] Books fully live on site: No Brains At All, Supporting a Column, My Life with the Demon, The Australian Upper Crust Book, Ratbags (as scoped)
 - [x] Books partially live: A Day in the Life of Australia (8 of 258 known entries + 11 drafted), Wowsers (2 of 10 chapters)
+
+
+### Bulletin — Trove image download test
+
+- [x] Transcribed **Like When King Edward Abdicated: Norm Smith’s grand old flag (7 August 1965)** to `src/articles/bulletin/like-when-king-edward-abdicated.md`. Source checked visually; build skipped as requested. Complete page 25 scan saved in `trove/output/bulletin/stubs/Scans/1965-08-07-around-melbourne-like-when-king-edward-abdicated-norm-smiths-grand-old-flag/`; BATMAN signature, date and article ending visually verified. Source metadata saved alongside the JPEG.
+
+### Bulletin — Bulk Trove scan download (5 September 2026)
+
+**Checkpoint: 5 September 2026, 1:01 PM AEST.** The counts below are a snapshot; `trove/download-history.json`, `progress.json`, `download.log` and each retained article’s `source.json` are updated automatically as the background job runs. Read those before resuming work.
+
+- [x] Removed the false-positive **Changing a Cinderella Port (21 August 1965)** stub and its two test scans; the byline was Mariel Lee.
+- [x] Downloaded and transcribed **Like When King Edward Abdicated (7 August 1965)** into `src/articles/bulletin/like-when-king-edward-abdicated.md`, with summary, topics and Trove citation. Visually verified. Not built or deployed; original stub and source scan retained.
+- [x] Created and started `trove/download_images.py`. Verified real downloads were at least 60 seconds apart, and tested resumability. Images are saved under `src/trove-scans/bulletin/<year>/<stub-name>/`; excluded from Git and Eleventy builds.
+- [ ] Finish downloading images for **1,189 Bulletin stubs dated before 1 January 1978** (through 31 December 1977), then stop automatically. The user added **1968–1977**, extending the batch by **857 stubs**; **280 stubs dated 1978 onwards remain deferred**. Keep downloading unfinished earlier years first. At this checkpoint the permanent history records **201 unique downloaded pages across 154 stubs** (146 complete, 7 marked to skip after deletion). These historical counts include images the user has since deleted. Keep all stubs.
+
+- [x] **Around Melbourne THE EXPLOSIVE VINO DI CARLTON – AND FITZROY**: 1 of 1 page images saved. Folder: `src/trove-scans/bulletin/1964/1964-04-25-around-melbourne-the-explosive-vino-di-carlton-and-fitzroy`.
+- [x] **The Monash Story—7 Keeping Them Down on the Farm Melbourne’s “other” university**: all 5 page images saved. Folder: `src/trove-scans/bulletin/1964/1964-05-02-the-monash-story-7-keeping-them-down-on-the-farm-melbourne-s-other-university`.
+
+- [x] Saved the exclusive cutoff in `trove/image-download-config.json` (`"before": "1968-01-01"`), tested that 31 December 1967 is included and 1 January 1968 excluded, and restarted the existing job without discarding progress. The one-minute image interval remains in force.
+
+**Download history and rejected scans (updated 5 September 2026)**
+
+- [x] Added `trove/download-history.json`, a permanent project record keyed by stub path, kept outside the scan folders. Recovered 60 unique downloaded pages across 37 stubs from the existing log and source records; at recovery, 29 articles were complete, 7 had deleted scans/folders, and 1 was partially downloaded. These are a snapshot; read the history file for current status.
+- [x] Changed resume behaviour: deleting any previously downloaded scan or its article folder marks the stub `skipped_deleted`. Do not recreate it or fetch its remaining pages. All stubs are retained. Deletions made during the one-minute wait are checked before the next request.
+- [x] Six offline regression tests pass, covering deleted folders, deleted individual scans, deletion during the wait, recovery from old logs, partial resume, and the exclusive 1968 cutoff. No site build run.
+- [ ] Continue the expanded pre-1978 batch at one image per minute. Review authorship later. Keep `trove/download-history.json` when removing unwanted images; it is saved after each successful image and must survive scan cleanup.
+
+- [x] User authorised the next ten years on 5 September 2026: saved `"before": "1978-01-01"` in `trove/image-download-config.json`. Resume with the existing history; keep the 60-second image interval and deletion skips. Earlier pre-1968 cutoff notes above are historical.
+
+**Recovery after a connection loss**
+
+1. Check `trove/output/image-download/download.log` and `progress.json` for new timestamps. A lost chat connection does not itself stop the separate local worker. A stale `running` value alone does not prove it is still alive; check the PID in `worker.pid` if present.
+2. If stopped, read the recorded error/reason first. The worker pauses on HTTP 403/429, five consecutive request failures, or less than 2 GiB free disk space. Whole-issue links without an article mapping are marked `needs_review` for later triage.
+3. To resume, remove `trove/output/image-download/STOP` if present, then run `python3 -u trove/download_images.py` from the repository root. It reads the saved cutoff in `trove/image-download-config.json`, skips completed pages and retains the previous image-request time. A file lock prevents two workers running simultaneously.
+4. For a detached restart, run `nohup python3 -u trove/download_images.py >> trove/output/image-download/download.log 2>&1 &` from the repository root. Keep the Mac awake and online. A reboot requires restarting the job.
+5. To stop gracefully, create the empty file `trove/output/image-download/STOP`. Keep `trove/download-history.json` and the runtime progress files intact. Rejected scans and their folders may be deleted freely; the saved history prevents their re-download.
+
+**Continuing beyond 1977 later:** Wait for this batch to finish, or stop it gracefully first. Change `before` in `trove/image-download-config.json` to the next exclusive cutoff (for example `1979-01-01` to include 1978), then restart using the same command. Do not expand the cutoff until the user requests it. Configuration, script and instructions are saved in the project; images and runtime state remain local and gitignored.
+
+**Next stage:** Review authorship and transcribe later. Preserve every stub. Do not build `docs/` or deploy; the user requested source files only.

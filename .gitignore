@@ -16,3 +16,7 @@ venv/
 # Working scan/OCR files — large, local-only, regenerable from the physical book
 **/Scans/
 /ocr/
+
+# Downloaded Trove masters and resumable local download state
+/src/trove-scans/
+/trove/output/image-download/
