@@ -592,6 +592,10 @@ Contents: seven Australian writers profile one city each. Keith Dunstan contribu
 
 - [x] User authorised all remaining years on 5 September 2026. Saved `"before": null` in `trove/image-download-config.json` and tested selection without a cutoff; all seven offline regression tests pass. Previous 1968/1978 cutoff notes above are historical. Resume with the existing history and deletion skips.
 
+**Server-error checkpoint: 6 September 2026, 8:15 PM AEST.** The worker paused at 11:23 am AEST on 6 September after five consecutive Trove HTTP 500 responses. It had reached 4 December 1976; permanent history recorded 1,537 unique downloaded pages across 883 complete entries, 225 deletion skips and 7 errored entries. At inspection, 1,236 JPEGs remained on disk. Restarted the resumable worker to retry errored stubs and continue all remaining years. The first retry (`1974-12-21-the-bulletin.md`) still returned HTTP 500 at 8:15 pm AEST; recovery is not yet confirmed. Check the current log and history for recovery results; one image per minute and deletion exclusions remain in force.
+
+**IP-block diagnosis (6 September 2026):** Two checks from this computer using the downloader’s existing user agent found that the known-working article `https://nla.gov.au/nla.obj-698916182` still returns HTTP 200. The failed link `https://nla.gov.au/nla.obj-1768692951` returns HTTP 500 but its page explicitly says “Page could not be found”, with no IP-block message or Retry-After header. This supports a record/link-specific failure rather than a blanket IP block; it does not establish the cause of every failed record. The restarted worker paused again at 8:20 pm AEST after five HTTP 500 responses and remains paused. Investigate the failed record links before another restart.
+
 **Recovery after a connection loss**
 
 1. Check `trove/output/image-download/download.log` and `progress.json` for new timestamps. A lost chat connection does not itself stop the separate local worker. A stale `running` value alone does not prove it is still alive; check the PID in `worker.pid` if present.

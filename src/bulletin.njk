@@ -24,6 +24,9 @@ summary: Keith Dunstan's articles published in The Bulletin.
               <li class="mb-2">
                 <a href="{{ article.url | url }}">{{ article.data.title }}</a>
                 <span class="text-muted"> — {{ article.date | readableDate }}</span>
+                {% if article.data.summary %}
+                  <span class="text-muted ms-2" style="font-size: 0.8em;">{{ article.data.summary }}</span>
+                {% endif %}
               </li>
             {% endfor %}
           </ul>
