@@ -95,6 +95,45 @@ Severity can accelerate this. Anything that touched production data, lost work, 
 
 <!-- Newest first. Append new entries directly below this line. -->
 
+### 2026-09-07 — Regex-based frontmatter edits must verify byte-for-byte, not just visually spot-check
+
+- **Area:** `scripts / frontmatter editing`
+- **Severity:** high
+- **Count:** 1
+- **GRADUATED → CLAUDE.md** (2026-09-07)
+
+**What happened**
+`scripts/set-obsidian-tags.js` (adds a generated `obsidian_tags:` field next to every content file's `tags:`) was run across all 591 vault files. Two pre-existing, unusual `tags:` layouts — Wowsers' chapters use zero-indented list items (`- Item` at column 0, not `  - Item`), and one *My Life with the Demon* chapter has a blank line between `tags:` and its first item — broke the regex that locates the end of the `tags:` block. For the blank-line file, the real `tags:` field was left empty and its actual seven tags ended up floating, unindented, after the newly-inserted `obsidian_tags:` block instead — a real risk of losing production tag data, caught only because a full-site build diff showed three `/topic/*` pages had silently disappeared.
+
+**Root cause**
+The block-boundary regex assumed list items always immediately follow `tags:` with no blank line, an assumption disproven by ~1% of the corpus. It was verified once, by eye, on a couple of files where it demonstrably worked — a scan for content that fits the assumption doesn't rule out an outlier that breaks it.
+
+**Consequence**
+Caught before commit via a full-site build diff against the pre-change commit (byte-for-byte comparison of ~3000 output files), so no data was actually lost — but the corruption existed in the working tree and would have been committed and pushed had the diff not been run. Fixed the regex (a lookahead so an allowed blank line can't consume a real content line's indentation) and added a permanent post-write check to the script itself: re-parse the edited file and refuse to write unless the original `tags:` array survives byte-for-byte and the new field matches what was computed.
+
+**Rule**
+Any script that edits existing frontmatter via text manipulation (not a full YAML re-parse/re-serialise) must re-parse the file after editing and assert the untouched fields are byte-for-byte identical to before, refusing to write otherwise — do not rely on eyeballing a sample of the diff.
+
+
+### 2026-09-07 — fs.readdirSync withFileTypes doesn't follow symlinks; use fs.statSync
+
+- **Area:** `scripts / vault symlinks`
+- **Severity:** medium
+- **Count:** 1
+
+**What happened**
+After converting `src/books/`/`src/articles/` content files to symlinks into the new `vault/` submodule, `scripts/generate-topics.js` and `src/_data/siteStats.js` silently stopped finding almost all content: `generate-topics.js` started dropping real topics from `src/_data/topics.md`, and `siteStats.js`'s word/topic counts on the About page collapsed to near-zero.
+
+**Root cause**
+Both walked directories using `fs.readdirSync(dir, { withFileTypes: true })` and then checked `entry.isFile()`/`entry.isDirectory()` on the returned `Dirent` objects. On this filesystem, `Dirent.isFile()` reflects the directory entry itself, not what a symlink points to — so it returns `false` for every symlinked file, even one that points at a perfectly normal file.
+
+**Consequence**
+Caught immediately via a full test build and a `node -e` one-liner isolating the exact `Dirent` behaviour, before anything was committed. Fixed both scripts to call `fs.statSync(fullPath)` (which follows symlinks) instead of trusting the `Dirent` from `readdirSync`.
+
+**Rule**
+Any code walking `src/books/` or `src/articles/` that needs to tell files from directories must use `fs.statSync`/`fs.lstatSync` as appropriate, never `Dirent.isFile()`/`isDirectory()` from `readdirSync(dir, {withFileTypes: true})` — that content is symlinked in from `vault/`, and the `Dirent` type reflects the link, not its target.
+
+
 ### 2026-09-05 — Preserve download history outside removable scan folders
 
 - **Area:** `trove / scan sourcing`

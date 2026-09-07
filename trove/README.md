@@ -14,7 +14,7 @@ Eleventy, but the output format here is not coupled to it.
 - **Project**: Digital archive of Keith Dunstan (1925–2013), Australian journalist
 - **Live site**: keithdunstan.org
 - **Repo**: github.com/JackDunstan/KeithDunstan
-- **Content target**: `src/articles/[publication-slug]/` (after triage and manual review)
+- **Content target**: `vault/articles/[publication-slug]/` — the site's `vault/` git submodule (an Obsidian vault), the authoritative content source, **not** `src/articles/` (which now holds only symlinks into `vault/`; see `../CLAUDE.md`'s "Content authority" section). After moving files there, run `npm run link:vault` in the repo root to symlink them into `src/`.
 - **Frontmatter rules**: See `../CLAUDE.md` — tags are granular proper nouns only
 - **Attribution rule**: Every article must link back to its Trove source URL
 - **Keith's pen name in The Bulletin**: 'Batman' — column titled 'Batman's [topic]'
@@ -134,14 +134,15 @@ Then:
 
 1. Open `output/master_results.csv` to review what was found
 2. Complete the frontmatter (`summary`, `tags`) on files in `transcribed/` per `../CLAUDE.md`
-3. Move approved files from `output/<publication>/transcribed/` to `src/articles/<publication-slug>/`
-4. `git add`, `git commit`, `git push` — Netlify builds automatically
+3. Move approved files from `output/<publication>/transcribed/` to `vault/articles/<publication-slug>/` (the vault submodule, not `src/articles/`)
+4. Run `npm run link:vault` in the repo root to symlink the new files into `src/`
+5. Commit and push in **both** repos: the vault submodule first, then the site repo (which needs its submodule pointer updated) — `git add`, `git commit`, `git push` in each. Netlify builds automatically once the site repo is pushed.
 
 For manually sourced scans, retain the corresponding stub whenever the article
 is deferred, incomplete, rejected from the current transcription batch or still
 needs attribution/date checking. Remove a stub and its source scan only after a
 complete transcription has been visually verified and published in
-`src/articles/<publication-slug>/`. Track deferred and incomplete scans in
+`vault/articles/<publication-slug>/`. Track deferred and incomplete scans in
 `../todo.md` so they remain visible sourcing tasks.
 
 ---
@@ -173,7 +174,7 @@ tags: []
 ---
 ```
 
-Before moving to `src/articles/bulletin/`, you must:
+Before moving to `vault/articles/bulletin/`, you must:
 - Write a proper `summary` (one or two sentences, factual, third person)
 - Add `tags` (5–15 granular proper nouns per `../CLAUDE.md`)
 - Review the article text for OCR errors
@@ -256,7 +257,7 @@ For other publications, change `l-title` to the publication name as it appears i
 3. Update the CSV log filename
 4. Add the new slug to the `PUBLICATIONS` list in `setup.py` and re-run it
 5. Run fetch and triage scripts as normal
-6. Move approved files to `src/articles/[publication-slug]/`
+6. Move approved files to `vault/articles/[publication-slug]/`, then run `npm run link:vault` in the repo root
 
 ---
 
