@@ -23,7 +23,8 @@
     "clean": "rm -rf dev/*",
     "clean-prod": "rm -rf docs/*",
     "generate-topics": "node scripts/generate-topics.js",
-    "export:vault": "node scripts/export-obsidian-vault.js"
+    "export:vault": "node scripts/export-obsidian-vault.js",
+    "link:vault": "node scripts/link-vault-content.js"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.1.5",

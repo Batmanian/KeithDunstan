@@ -1,24 +1,24 @@
 #!/usr/bin/env node
-// Regenerates the Obsidian vault (vault/) from the site's content directories.
-// Mirrors every book chapter and article file into the same relative folder
-// structure, skipping the Eleventy-only config/index files (*.json, the
-// per-book *-index.njk / book-slug.njk pages) that aren't chapter content.
+// One-off/rare-use safety net, NOT the normal workflow — see link-vault-content.js
+// for that. The vault (vault/) is the authoritative content source; src/books/
+// and src/articles/ are symlinks into it (created by link-vault-content.js), so
+// under normal operation there's nothing in src/ for this script to find that
+// isn't already a symlink back to the vault.
 //
-// Content is copied verbatim except for one mechanical fix: chapter-nav
-// lines use Eleventy's `{{ '/books/x/y' | url }}` template filter (e.g.
-// `Continue to the next chapter: <a href="{{ '/books/x/y' | url }}">...`),
-// which Obsidian can't evaluate and would otherwise show as broken literal
-// text. That filter is a no-op on this site (no pathPrefix), so it's
-// resolved to the plain path — the link and its text are unchanged, only
-// the unrendered template syntax is removed.
+// This script exists for the case where a real (non-symlink) .md/.njk file
+// ends up directly in src/books/ or src/articles/ anyway — e.g. old habit, a
+// script that hasn't been updated, a merge — and needs absorbing into the
+// vault. It only ever reads real files (symlinks are skipped, since those are
+// already vault content) and only ever writes into the vault, so it's safe to
+// re-run at any time — it can't delete or overwrite existing vault notes.
 //
-// Ratbags' chapters are the one book stored as *.njk instead of *.md (same
-// frontmatter/content shape, no real templating) — those are included too,
-// written out with a .md extension so Obsidian treats them as notes.
+// Absorbed files get the same normalization as the original src-to-vault
+// migration: Eleventy's `{{ '/path' | url }}` chapter-nav filter (which
+// Obsidian can't evaluate) is resolved to a plain path, and Ratbags' *.njk
+// chapters (the one book stored that way, same content shape, no real
+// templating) are converted to *.md.
 //
-// The vault is its own git repository (a submodule of this one), so this
-// script only ever touches vault/books/ and vault/articles/, never
-// vault/.git, vault/.obsidian, or vault/README.md.
+// Run `npm run link:vault` afterward to symlink src/ to the absorbed file(s).
 // Run with `npm run export:vault`.
 
 const fs = require("fs");
@@ -43,14 +43,17 @@ function isBookIndexFile(name, bookSlug) {
   return name === `${bookSlug}.njk` || name.endsWith("-index.njk");
 }
 
-function copyContent(srcDir, destDir, bookSlug) {
+// Copies only real (non-symlink) *.md/*.njk files — anything already a
+// symlink is already vault content and is left alone.
+function absorbStrayContent(srcDir, destDir, bookSlug) {
   let copied = 0;
-  fs.mkdirSync(destDir, { recursive: true });
+  if (!fs.existsSync(srcDir)) return copied;
   for (const entry of fs.readdirSync(srcDir, { withFileTypes: true })) {
+    if (entry.isSymbolicLink()) continue;
     const srcPath = path.join(srcDir, entry.name);
     const ext = path.extname(entry.name);
     if (entry.isDirectory()) {
-      copied += copyContent(srcPath, path.join(destDir, entry.name), entry.name);
+      copied += absorbStrayContent(srcPath, path.join(destDir, entry.name), entry.name);
       continue;
     }
     if (!entry.isFile()) continue;
@@ -60,8 +63,14 @@ function copyContent(srcDir, destDir, bookSlug) {
     if (!isMarkdown && !isChapterNjk) continue;
 
     const destName = isChapterNjk ? entry.name.replace(/\.njk$/, ".md") : entry.name;
+    const destPath = path.join(destDir, destName);
+    if (fs.existsSync(destPath)) {
+      console.warn(`Skipping ${path.relative(ROOT, srcPath)}: ${path.relative(ROOT, destPath)} already exists in the vault.`);
+      continue;
+    }
+    fs.mkdirSync(destDir, { recursive: true });
     const content = fs.readFileSync(srcPath, "utf8");
-    fs.writeFileSync(path.join(destDir, destName), resolveUrlFilters(content));
+    fs.writeFileSync(destPath, resolveUrlFilters(content));
     copied += 1;
   }
   return copied;
@@ -69,8 +78,11 @@ function copyContent(srcDir, destDir, bookSlug) {
 
 let total = 0;
 for (const { src, dest } of SOURCES) {
-  fs.rmSync(dest, { recursive: true, force: true });
-  total += copyContent(src, dest, null);
+  total += absorbStrayContent(src, dest, null);
 }
 
-console.log(`Exported ${total} files to vault/`);
+if (total > 0) {
+  console.log(`Absorbed ${total} file(s) into vault/. Run 'npm run link:vault' to symlink src/ to them.`);
+} else {
+  console.log("No stray content files found in src/ — vault is already the sole source.");
+}

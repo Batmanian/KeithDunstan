@@ -1,6 +1,5 @@
 ---
 topics:
-
   - name: (Benjamin) Gayelord Hauser
     description: Gayelord Hauser was an American nutritionist and self-help author who became one of the twentieth century's first celebrity diet gurus, urging followers to eat natural, unprocessed foods and counting Greta Garbo among his Hollywood clients.
   - name: (Bishop) Charles Perry
@@ -29,6 +28,8 @@ topics:
     description: The six o'clock swill was the mad rush to down as many beers as possible before hotel bars shut at 6pm, a wartime austerity measure that lingered in Victoria until 1966 and which Keith Dunstan remembered as a defining, faintly absurd feature of 1950s Melbourne drinking.
   - name: 7th Battalion
     description: The 7th Battalion was an Australian infantry unit that fought at Gallipoli, including the desperate defence of the captured trenches at Lone Pine in August 1915, where four of its men, including Keith Dunstan's father William Dunstan, won the Victoria Cross.
+  - name: A Place in the Sun
+    description: A Place in the Sun, or APITS, was the daily column Keith Dunstan wrote for Melbourne's Sun News-Pictorial for twenty-seven years from 1958, a column that had actually run since the paper's first edition in 1922.
   - name: Abbotsleigh
     description: Abbotsleigh is an exclusive girls' school founded in 1885 that has stood at Wahroonga on Sydney's North Shore since 1898; Keith Dunstan noted it as the strait-laced alma mater of the eccentric Sydney identity Bea Miles.
   - name: Aborigines
@@ -49,8 +50,6 @@ topics:
     description: Adolf von Baeyer was the German chemist who in 1878 synthesised indigo dye, a breakthrough that, as Keith Dunstan noted, ruined the natural indigo trade of India and China while guaranteeing denim makers a reliable supply of blue.
   - name: Adrian Benns
     description: Adrian Benns was a wartime friend of Keith Dunstan's who turned up unannounced on the island of Labuan during his RAAF service in 1945, and who years later joined him on the North Victorian wine trip that first drew Dunstan into wine.
-  - name: The Age
-    description: The Age is Melbourne's broadsheet newspaper, founded in 1854 and long the rival of Keith Dunstan's own Herald and Sun, whose letters pages hosted the public feud between traditionalist and modernist painters that he covered for the Bulletin in 1962.
   - name: Air Training Corps
     description: The Air Training Corps was a wartime youth organisation set up in 1941 to prepare teenage boys for RAAF service, giving cadets like Keith Dunstan priority in the call-up when they turned eighteen.
   - name: Al Capp
@@ -161,8 +160,6 @@ topics:
     description: Archer was the Sydney horse that won the first two Melbourne Cups, in 1861 and 1862, having been walked more than 550 miles from Nowra to Melbourne by his strapper Dave Power rather than shipped, a preparation Keith Dunstan held up as the toughest in Cup history.
   - name: Archer Thomas
     description: Archer Thomas was editor of Melbourne's Herald newspaper in the late 1940s, an exuberant, encouraging boss who gave the young Keith Dunstan his start in journalism despite his notoriously poor spelling.
-  - name: The Argus
-    description: The Argus was one of Melbourne's oldest newspapers until its 1957 closure, a masthead Sir Keith Murdoch was secretly plotting to buy and turn against his own Herald and Weekly Times empire when he died in 1952, a near-miss Keith Dunstan recounted through his Murdoch-loyalist father's eyes.
   - name: Arne Borg
     description: Arne Borg was a Swedish swimmer known as 'the Electric Flash', the world's middle and long-distance freestyle champion of the 1920s, whose narrow 1924 defeat by teenage Andrew 'Boy' Charlton at Manly Baths became a landmark of Australian swimming folklore.
   - name: Arthur Boyd
@@ -277,8 +274,6 @@ topics:
     description: Bates Smart and McCutcheon was the Melbourne architectural firm that collaborated with American firm Skidmore Owings and Merrill on the design of the new AMP building in William Street, completed in the late 1960s as Victoria's tallest office building.
   - name: Batman Treaty Re-enactment Association
     description: The Batman Treaty Re-enactment Association was a Melbourne historical group that in July 1963 proposed a compromise recognising both John Batman and John Pascoe Fawkner as co-founders of Melbourne, with Batman as founder and Fawkner as father of the settlement.
-  - name: The Beatles
-    description: The Beatles were at the height of Beatlemania through the mid-1960s, a cultural phenomenon Keith Dunstan brushed up against in the celebrity-interview circuit chronicled in 'Supporting a Column', where the era's biggest stars were fair game for a columnist's daily deadline.
   - name: Beatrice Miles
     description: Beatrice 'Bea' Miles (1902-1973) was a well-educated Sydney eccentric who spent decades living without a fixed address, feuding famously with taxi drivers and reciting Shakespeare for money on the city's streets.
   - name: Beatrice Webb
@@ -417,8 +412,6 @@ topics:
     description: Bruce Beresford is the Australian film director best known for Breaker Morant (1980) and Driving Miss Daisy (1989), who made a documentary in Melbourne on the life of Henry Handel Richardson and told Keith Dunstan it was the most knockabout, wonderfully nineteenth-century city in the world.
   - name: Bruce Small
     description: Bruce Small was the Malvern Star bicycle entrepreneur who at 72 became Mayor of the Gold Coast in 1967, running the council at a ferocious pace and battling the 1967 beach erosion crisis at Surfers Paradise.
-  - name: The Bulletin
-    description: The Bulletin was the century-old national weekly Keith Dunstan wrote for under the pseudonym John Batman for many years, one of the mastheads he mourned in a long list of newspapers that had died by the time he wrote about his enduring love of the printed page.
   - name: Bureau of Meteorology
     description: The Bureau of Meteorology is Australia's national weather service, which in 1962 reversed its long resistance to naming cyclones, following American practice in giving them female names drawn from lists prepared three years in advance by its cyclone warning officers.
   - name: Burke and Wills
@@ -435,8 +428,6 @@ topics:
     description: The Cape Barren goose is a large grey bird unique to the offshore islands of southern Australia, whose near-extinction through habitat loss and organised shooting Keith Dunstan documented in 'Sports', including a 1965 Tasmanian open season that professor Jock Marshall condemned as barbarity dressed up as wildlife management.
   - name: Cape Schanck
     description: Cape Schanck is the rugged southernmost tip of the Mornington Peninsula in Victoria, part of the wild country beyond Dromana and Arthur's Seat where kangaroo battue parties hunted in their hundreds during the 1860s and 1870s.
-  - name: Cape York Peninsula
-    description: ''
   - name: Capitol Theatre
     description: The Capitol Theatre on Swanston Street was Walter Burley Griffin's 1924 movie palace, the first true de-luxe cinema in the Southern Hemisphere, famous for a prism-and-cube ceiling of 4500 coloured lights designed by his wife Marion Mahony, and its closure as a cinema in 1964 Keith Dunstan mourned even as architects campaigned to save it.
   - name: Captain Cook
@@ -517,8 +508,6 @@ topics:
     description: Community Aid Abroad was the Australian international aid organisation, later known as Oxfam Australia, for whose benefit the 1967 Melbourne "Walk Against Want" charity walk raised nearly $18,000, as Keith Dunstan reported in his final Bulletin column of the year.
   - name: Conzinc Riotinto
     description: Conzinc Riotinto of Australia (CRA) was the mining giant whose Melbourne headquarters building briefly held the city's height record before being overtaken by the planned AMP Society tower at the St. James site.
-  - name: Coober Pedy
-    description: ''
   - name: Coolangatta
     description: Coolangatta is the southernmost of the Gold Coast's surf towns, its beach roared along by triathlon competitors in Keith Dunstan's account of the sun-bronzed Australian ideal turning, under the weight of skin cancer statistics, from something to envy into something to dread.
   - name: Corinne Kerby
@@ -647,10 +636,10 @@ topics:
     description: E.W. Cole was the eccentric bookseller and showman who built Melbourne's Cole's Book Arcade into a sprawling entertainment palace at the Eastern Market, a Bourke Street landmark Keith Dunstan later wrote about mourning as one of the city's great lost buildings.
   - name: East Malvern
     description: East Malvern is the middle-class Melbourne suburb where Keith Dunstan was born.
+  - name: East Melbourne
+    description: ''
   - name: Eastern Market
     description: The Eastern Market was Melbourne's raucous nineteenth-century produce and bric-a-brac bazaar, home over the decades to phrenologists, dancing ducks and a fortune-teller called Madame Zinga Lee, before its site was cleared to build the Southern Cross Hotel that Keith Dunstan toured on its 1962 opening.
-  - name: The Easybeats
-    description: The Easybeats were a Sydney-based rock group of the mid-1960s, formed by five young migrants, who became one of Australia's most successful pop acts and later achieved international fame with the 1966 single 'Friday on My Mind'.
   - name: Eddie Charlton
     description: Eddie Charlton was a New South Wales snooker player who came agonisingly close to the world snooker championship in May 1973, losing to Ray Reardon in a 75-frame final at Manchester, a near-miss Keith Dunstan recorded in 'Sports' as a reminder that Australia's billiards passion had not yet produced a world snooker champion.
   - name: Edna Everage
@@ -775,6 +764,8 @@ topics:
     description: Frank Moss was the Victorian Country Party leader who in 1964 forced a complete political surrender from Premier Henry Bolte by threatening to reject supply in the Legislative Council, winning concessions on rail fares, freight charges and electoral redistribution.
   - name: Frank Sedgman
     description: Frank Sedgman was a Melbourne tennis champion whose 1951 Davis Cup win triggered a public subscription for his wedding present, and whose eventual defection to the professional ranks for a record fee scandalised amateur tennis officials.
+  - name: Frank Thring
+    description: ''
   - name: Frank Tyson
     description: Frank Tyson was the England fast bowler nicknamed 'Typhoon' who took 28 wickets in the 1954-55 Ashes series in Australia, later settling in Melbourne as a cricket writer and commentator and covering the 1965-66 series for English papers.
   - name: Frankie Lightfoot
@@ -865,8 +856,6 @@ topics:
     description: The Great Victorian Bike Ride is Bicycle Victoria's annual mass-participation cycling tour, drawing thousands of riders on a multi-day route across the state each year, an event whose history Keith Dunstan's cycling-club friend Doug Morffew researched and which Dunstan covered as a rider himself for The Age.
   - name: Great White Fleet
     description: The Great White Fleet was the name given to the sixteen white-painted American battleships sent on a world cruise by President Theodore Roosevelt in 1907-09, whose arrival in Melbourne in August 1908 drew the largest single-day crowd in the city's history.
-  - name: The Group
-    description: The Group was Mary McCarthy's 1963 novel of Vassar graduates' lives and loves, banned in Victoria in 1964, a decision Keith Dunstan used as the pretext for a tour of the far more lurid pulp fiction and nudist magazines still sitting freely on newsagents' shelves.
   - name: GTV-9
     description: GTV-9 was a Melbourne television station whose sports journalist Tony Charlton competed annually against HSV-7's Mike Williamson to be first on air with the Brownlow Medal winner, losing the race for five consecutive years through the early 1960s.
   - name: Guardian
@@ -911,6 +900,8 @@ topics:
     description: Hector Crawford was a Melbourne entertainment entrepreneur and television producer who founded Crawford Productions and who narrowly missed out on the Channel 0 licence, making the Sandown Park closed-circuit contract one of his consolation prizes.
   - name: Heidelberg School
     description: The Heidelberg School was a circle of Australian painters active in the 1880s and 1890s, centred on the Melbourne suburb of Heidelberg, whose outdoor, impressionistic depictions of the Australian bush and coast established a dominant visual idiom for Australian art; its leading figures included Arthur Streeton, Tom Roberts, Charles Conder and Frederick McCubbin.
+  - name: Henry Bolte
+    description: ''
   - name: Henry Handel Richardson
     description: Henry Handel Richardson was the pen name of Ethel Florence Lindesay Richardson (1870-1946), one of Australia's most celebrated novelists, best known for The Fortunes of Richard Mahony trilogy, and the subject of a documentary by Bruce Beresford that Keith Dunstan cited as evidence of Melbourne's enduring nineteenth-century character.
   - name: Henry Lawson
@@ -923,8 +914,6 @@ topics:
     description: Henry Varley was a Temperance preacher in 1890s Melbourne whose pamphlet warning schoolboys against 'personal pollution' prescribed cold baths and compulsory sport as the cure, a piece of Victorian moral panic Keith Dunstan cited as an early root of school sport's near-religious status.
   - name: Her Majestys Theatre
     description: Her Majesty's Theatre is one of Melbourne's grand old playhouses, home to 'My Fair Lady''s long-running, near-3-million-ticket Australian season that Keith Dunstan covered as a genuine box-office phenomenon.
-  - name: The Herald
-    description: The Herald was Melbourne's evening broadsheet and flagship of the Herald and Weekly Times group, the paper Keith Dunstan joined as a cadet reporter in the late 1940s despite his own father's warning that journalism led to a hack's life.
   - name: Herald and Weekly Times
     description: The Herald and Weekly Times was the Melbourne newspaper group publishing the Herald and the Sun News-Pictorial, built by Sir Keith Murdoch into Australia's dominant press empire, and the company Keith Dunstan joined as a cadet reporter and returned to for most of his career.
   - name: Herald Sun
@@ -1089,6 +1078,8 @@ topics:
     description: John Brown was the genial, unflappable proprietor of Brown Brothers winery at Milawa in Victoria's North East, a vigneron whose wines first drew Keith Dunstan seriously into wine on a 1959 drive through the district.
   - name: John Coleman
     description: John Coleman was Essendon's legendary full-forward, whose shock disqualification on the eve of the 1951 VFL finals, after a collision that also left him stumbling and in tears, Keith Dunstan invoked as the benchmark tragedy against which Ron Barassi's own 1963 tribunal suspension was measured.
+  - name: John Curtin
+    description: ''
   - name: John Curtin Hotel
     description: The John Curtin Hotel is a Carlton pub where Keith Dunstan kept a mate in the police Wireless Patrol topped up with beer, in exchange for the ever-changing numerical code broadcast over the D24 police radio band.
   - name: John Elliott
@@ -1185,8 +1176,6 @@ topics:
     description: King's Cross is Sydney's bohemian, red-light entertainment district, the natural backdrop for the eccentrics — from a homecoming Barry Humphries to the 'ratbags' of Keith Dunstan's book of that name — who didn't fit Australia's more conformist suburbs.
   - name: King's School
     description: The King's School in Parramatta, Sydney, is one of Australia's oldest and most prestigious independent schools, cited by education writer John McLaren as one of the elite institutions, alongside Geelong Grammar, that formed the pinnacle of the Australian private school hierarchy.
-  - name: The Kinks
-    description: The Kinks were a London rock band formed in 1964, whose sharp, guitar-driven singles were among the wave of British Invasion records that dominated Australian radio charts in the mid-1960s before local acts began to challenge them.
   - name: Kooroora Chalet
     description: Kooroora Chalet was a commercial lodge and chalet complex at Mount Buller, run by Hungarian caterer Ernest Forras, whose 1965 opening of new extensions including a heated outdoor pool and the Bull's Blood Bar became one of the social events of the ski season.
   - name: Kooyong
@@ -1195,6 +1184,8 @@ topics:
     description: L. A. Adamson was the long-serving headmaster of Wesley College, a former Rugby School man whose fervent belief in school sport as character-building produced a 'colours' hierarchy and a devotional song for one of his star footballers, the model of the sport-worshipping headmaster Keith Dunstan surveyed in 'Sports'.
   - name: La Trobe Library
     description: The La Trobe Library's 1969 exhibition 'Sporting Life in Victoria' inspired Keith Dunstan to write Sports and supplied much of the historical research and imagery behind the book.
+  - name: Larry Foley
+    description: ''
   - name: Lauren Bacall
     description: Lauren Bacall was the Hollywood actress and model, known for her sultry looks, whom Keith Dunstan invoked to describe the appearance of the young Mrs Commodore Svetlana aboard the Soviet whaling ship Sovietskaya Ukraina during its 1964 Melbourne visit.
   - name: Lelord Kordel
@@ -1393,12 +1384,8 @@ topics:
     description: The Mildura Arts Centre opened in November 1966 after a narrow council vote chose an art gallery over a new city hall, and was the venue for the third Mildura Prize for Sculpture in 1967, which Keith Dunstan covered as the biggest sculpting event in the country.
   - name: Mina Wylie
     description: Mina Wylie was a Sydney swimmer who partnered Fanny Durack as one of only two Australian women sent to the 1912 Stockholm Olympics, funded by public subscription, and won silver in the 100 metres freestyle.
-  - name: The Misfits
-    description: The Misfits is the 1961 film, and the last for both Clark Gable and Marilyn Monroe, which critic Leslie Halliwell dismissed as self-pitying but which Keith Dunstan defended for showing denim as nobody had worn it before.
   - name: Monash University
     description: Monash University is Melbourne's second university, founded in 1958 at Clayton, home to historian Ian Turner who delivered the annual Ron Barassi Memorial Lectures on the sociology of Australian Rules football, which Keith Dunstan cited in 'Sports' for Turner's analysis of football as a substitute for warfare.
-  - name: The Monkees
-    description: The Monkees were an American pop group created for a 1966 television series, whose 1968 Australian tour drew fewer than 2000 fans to Essendon Airport but generated a surprisingly political press conference at the President Motor Inn in Melbourne.
   - name: Montsalvat
     description: Montsalvat is the artists' colony at Eltham that painter-priest Justus Jorgensen built from demolished Melbourne buildings and the unpaid labour of devoted disciples, a monument to obsession Keith Dunstan profiled in 'Ratbags'.
   - name: Moomba
@@ -1565,8 +1552,6 @@ topics:
     description: Pierre Salinger was the American journalist and Press Secretary to President John F. Kennedy, who famously refused to join Kennedy's 50-mile fitness walks and earned the ironic nickname "Plucky Pierre" — an anecdote Barry Jones retailed to Keith Dunstan during the 1967 Melbourne "Walk Against Want."
   - name: Pizza Hut
     description: Pizza Hut was one of the American fast-food chains Keith Dunstan cited, alongside McDonalds and Colonel Sanders, as swamping unadvertised Australian staples like fish and chips, meat pies and dim sims.
-  - name: A Place in the Sun
-    description: A Place in the Sun, or APITS, was the daily column Keith Dunstan wrote for Melbourne's Sun News-Pictorial for twenty-seven years from 1958, a column that had actually run since the paper's first edition in 1922.
   - name: PMG
     description: The PMG (Postmaster-General's Department) was the Australian federal agency responsible for postal services and telecommunications, which in 1968 began aggressively promoting bulk direct-mail advertising at discounted rates as a new revenue stream.
   - name: Point Cook
@@ -1683,8 +1668,6 @@ topics:
     description: Rohan Rivett was the editor of the Adelaide News who was the first journalist to interview Monash University's inaugural Vice-Chancellor Dr J. A. L. Matheson on television, a programme Keith Dunstan recalled ending on a telling shot of gumboots.
   - name: Rolf Harris
     description: Rolf Harris was a West Australian entertainer, artist and television personality who became a household name in Britain with novelty records including 'Tie Me Kangaroo Down, Sport', and who appeared in 'Knockers' as one of the very few Australians a 1965 BBC 'Panorama' satirical tirade could bring itself to name as having risen to prominence.
-  - name: The Rolling Stones
-    description: The Rolling Stones were a London rhythm-and-blues group formed in 1962 who, alongside the Beatles, led the British Invasion of Australian radio charts through the mid-1960s; they toured Australia in 1965.
   - name: Romano's
     description: Romano's was the celebrated Sydney restaurant that figures in 'Knockers' among the landmarks Melburnians and Sydney partisans argued over in the long-running city rivalry Keith Dunstan documented, the name shorthand for Sydney's claim to superior dining and nightlife.
   - name: Ron Barassi
@@ -1775,8 +1758,6 @@ topics:
     description: Scotch College is one of Melbourne's oldest private schools and a fierce sporting rival of Wesley College and Melbourne Grammar, whose 1912 football premiership Keith Dunstan noted was stripped after the discovery of an over-age player.
   - name: Scottish Amicable
     description: Scottish Amicable was a British mutual insurance company whose 15-storey Melbourne office building, opened on 29 November 1965 by Prime Minister Sir Robert Menzies with haggis piped in according to Scottish tradition, was the grandest of that year's insurance-company openings.
-  - name: The Seekers
-    description: The Seekers were the Melbourne folk-pop group who, unable to find television work at home, sailed for Britain in the early 1960s to sudden stardom, an exit Alwyn Kurts cited to Keith Dunstan as proof Australian television only trusts talent that has already succeeded overseas.
   - name: Sel Baton
     description: Sel Baton of Notts Novelties was a Flinders Lane fashion manufacturer who remembered travelling the Gippsland circuit as a young country representative in the early 1900s, and who characterised the difficulty of the rag trade as being like snooker, not just about what you put in the pocket but what you left for your opponent.
   - name: Seppelts
@@ -1849,6 +1830,8 @@ topics:
     description: Reg 'Snowy' Baker was Australia's greatest all-round sportsman of the early twentieth century, an Olympic silver medallist in boxing at the 1908 London Games, champion swimmer, diver, polo player, boxer and later Hollywood film star; Keith Dunstan wrote that he became a film director in Hollywood and died in 1953.
   - name: Social clubs
     description: Social clubs, from the Melbourne Club's pastoral establishment to corporate Australia's status-conscious equivalents, were an institution Keith Dunstan wrote about both from the outside, as satire, and from the inside, recalling his own father's old-boy networks.
+  - name: South Australia
+    description: ''
   - name: South Australia Hotel
     description: The South Australia Hotel was a grand Adelaide hotel with a reputation for strict dress enforcement, cited by Keith Dunstan as a byword for the firm removal of tieless patrons.
   - name: South Boorook
@@ -1967,6 +1950,32 @@ topics:
     description: Templestowe is a suburb in Melbourne's north-east that hosted a chapter of the Beer Appreciation Society of Australia from 1966 and the first Australian Beer Festival in March 1968.
   - name: Terence Stamp
     description: Terence Stamp was the English actor who visited Australia in the late 1960s and wrote about his time there, filing observations that Keith Dunstan collected in 'Knockers' among the British film world's contributions to the long literature of foreign assessments of Australian life.
+  - name: The Age
+    description: The Age is Melbourne's broadsheet newspaper, founded in 1854 and long the rival of Keith Dunstan's own Herald and Sun, whose letters pages hosted the public feud between traditionalist and modernist painters that he covered for the Bulletin in 1962.
+  - name: The Argus
+    description: The Argus was one of Melbourne's oldest newspapers until its 1957 closure, a masthead Sir Keith Murdoch was secretly plotting to buy and turn against his own Herald and Weekly Times empire when he died in 1952, a near-miss Keith Dunstan recounted through his Murdoch-loyalist father's eyes.
+  - name: The Beatles
+    description: The Beatles were at the height of Beatlemania through the mid-1960s, a cultural phenomenon Keith Dunstan brushed up against in the celebrity-interview circuit chronicled in 'Supporting a Column', where the era's biggest stars were fair game for a columnist's daily deadline.
+  - name: The Bulletin
+    description: The Bulletin was the century-old national weekly Keith Dunstan wrote for under the pseudonym John Batman for many years, one of the mastheads he mourned in a long list of newspapers that had died by the time he wrote about his enduring love of the printed page.
+  - name: The Easybeats
+    description: The Easybeats were a Sydney-based rock group of the mid-1960s, formed by five young migrants, who became one of Australia's most successful pop acts and later achieved international fame with the 1966 single 'Friday on My Mind'.
+  - name: The Group
+    description: The Group was Mary McCarthy's 1963 novel of Vassar graduates' lives and loves, banned in Victoria in 1964, a decision Keith Dunstan used as the pretext for a tour of the far more lurid pulp fiction and nudist magazines still sitting freely on newsagents' shelves.
+  - name: The Herald
+    description: The Herald was Melbourne's evening broadsheet and flagship of the Herald and Weekly Times group, the paper Keith Dunstan joined as a cadet reporter in the late 1940s despite his own father's warning that journalism led to a hack's life.
+  - name: The Kinks
+    description: The Kinks were a London rock band formed in 1964, whose sharp, guitar-driven singles were among the wave of British Invasion records that dominated Australian radio charts in the mid-1960s before local acts began to challenge them.
+  - name: The Misfits
+    description: The Misfits is the 1961 film, and the last for both Clark Gable and Marilyn Monroe, which critic Leslie Halliwell dismissed as self-pitying but which Keith Dunstan defended for showing denim as nobody had worn it before.
+  - name: The Monkees
+    description: The Monkees were an American pop group created for a 1966 television series, whose 1968 Australian tour drew fewer than 2000 fans to Essendon Airport but generated a surprisingly political press conference at the President Motor Inn in Melbourne.
+  - name: The Rolling Stones
+    description: The Rolling Stones were a London rhythm-and-blues group formed in 1962 who, alongside the Beatles, led the British Invasion of Australian radio charts through the mid-1960s; they toured Australia in 1965.
+  - name: The Seekers
+    description: The Seekers were the Melbourne folk-pop group who, unable to find television work at home, sailed for Britain in the early 1960s to sudden stardom, an exit Alwyn Kurts cited to Keith Dunstan as proof Australian television only trusts talent that has already succeeded overseas.
+  - name: The Wild One
+    description: The Wild One is the 1953 film in which Marlon Brando's leather-jacketed, denim-wearing biker gang leader helped fix blue jeans in the popular imagination as the garb of rebellion.
   - name: Thea Astley
     description: Thea Astley was an acclaimed Australian novelist and four-time Miles Franklin Award winner, whose suggestion that ageing writers be issued a pill to make them stop Keith Dunstan quoted approvingly on turning 65 himself, still filing columns.
   - name: Theda Bara
@@ -1975,6 +1984,8 @@ topics:
     description: Thomas Austin was an English-born Victorian pastoralist of Barwon Park who in 1859 imported twenty-four rabbits for sport shooting, setting off one of the most ecologically catastrophic feral animal introductions in history, and which Keith Dunstan recounted in 'Knockers' as the ultimate irony of Australian nostalgia for English conditions.
   - name: Thomas Chirnside
     description: Thomas Chirnside was a Scottish-born Victorian pastoralist who built one of the largest land empires in colonial Victoria, including the grand Werribee Park estate, and whose career Keith Dunstan examined in 'Sports' as an example of the station culture that made organised hunting a social institution.
+  - name: Timbertop
+    description: ''
   - name: Tivoli Theatre
     description: The Tivoli Theatre was Melbourne's grand old vaudeville and variety house, tracing its lineage back to the 1850s diggers' Varieties Music Hall and hosting stars from Marie Lloyd to Harry Houdini before a fire gutted it, a loss Keith Dunstan mourned in the Bulletin.
   - name: Tom Hollway
@@ -2007,6 +2018,8 @@ topics:
     description: The Totalisator Agency Board, or TAB, was Victoria's off-course betting monopoly established in 1961 to compete with illegal starting-price bookmakers, whose first-year profits Keith Dunstan reported alongside the police raids still being mounted on SP betting dens at the same time.
   - name: Trevor Bailey
     description: Trevor Bailey was an English all-rounder and post-playing broadcaster whose earnest, Stock-Exchange-reporter style in the 1968 Ashes commentary box Keith Dunstan contrasted with the warmth and wit of the old cricket radio days.
+  - name: Truth newspaper
+    description: ''
   - name: Tullamarine
     description: Tullamarine is the site of Melbourne's new international airport, whose slow approval process became, in Keith Dunstan's telling, the great running grievance of the early-1960s Sydney-Melbourne rivalry.
   - name: United States
@@ -2115,8 +2128,6 @@ topics:
     description: Whelan the Wrecker was Melbourne's dominant demolition firm, founded in 1891 by the bowler-hatted Irish immigrant Jim Whelan and known for chalking 'WHELAN THE WRECKER WAS HERE' at every job, from ordinary Bulletin-era teardowns like the old Savoy cinema to the more delicate business of dismantling three cracked spans of King's Bridge.
   - name: Whitcomb Judson
     description: Whitcomb Judson was the American inventor who patented an early hook-and-eye clasp fastener in 1893, the clumsy ancestor of the zip that Keith Dunstan credited in his history of denim.
-  - name: The Wild One
-    description: The Wild One is the 1953 film in which Marlon Brando's leather-jacketed, denim-wearing biker gang leader helped fix blue jeans in the popular imagination as the garb of rebellion.
   - name: Wildlife Act 1975
     description: The Wildlife Act 1975 is the Victorian law protecting native fauna, including the common brushtail possum, whose legally sanctioned population explosion in a wet 2010 gave Keith Dunstan the biblical conceit for a column on Melbourne's assorted modern-day plagues.
   - name: William Beach
@@ -2175,3 +2186,6 @@ topics:
     description: Young and Jackson's is the landmark Melbourne pub on the corner of Flinders Street and Swanston Street, opposite Flinders Street Station, famous for its nude painting of Chloe and, in Keith Dunstan's telling, so reliably empty in the January heat that he could find parking outside it and a stool at its saloon bar without a wait.
   - name: Yves Saint Laurent
     description: Yves Saint Laurent was the French couturier whose declaration that jeans held all the sex appeal and simplicity he wanted for his own designs Keith Dunstan used as an epigraph in his history of Just Jeans.
+---
+
+Generated by `npm run generate-topics` from every `tags:` entry across the site's content files that has at least 3 page entries (topics below that only appear here if they already have a hand-written description). Re-running the script preserves existing `description` values and only appends topics it hasn't seen before — it never removes or overwrites one. Fill in `description` for each entry as time allows.

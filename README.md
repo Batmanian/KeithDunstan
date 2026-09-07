@@ -17,7 +17,15 @@ Built with [Eleventy (11ty)](https://www.11ty.dev/) using the 11straps boilerpla
 
 Requires Node.js (v14+).
 
+All book chapters and articles are authored in the `vault/` git submodule
+(an Obsidian vault) rather than directly under `src/` — clone with
+`--recurse-submodules`, or run `git submodule update --init` after a plain
+clone, or `src/books/`/`src/articles/` will be full of broken symlinks and
+the build will be missing all content.
+
 ```bash
+git clone --recurse-submodules https://github.com/JackDunstan/KeithDunstan.git
+
 npm install       # Install dependencies
 npm run watch     # Local dev server with live reload at http://localhost:3000
 npm run build-dev # Build to /dev (unminified)
@@ -32,12 +40,15 @@ Pushes to `master` trigger automatic Netlify build and deploy.
 
 ```
 /
+├── vault/                         # Git submodule (Obsidian vault) — the content authority
+│   ├── books/[book-slug]/*.md     # Book chapters — edit here, not in src/
+│   └── articles/[publication-slug]/*.md
 ├── src/
-│   ├── books/                    # All books, one folder per title
+│   ├── books/                    # Symlinks into vault/books/ (created by `npm run link:vault`)
 │   │   └── [book-slug]/
-│   │       ├── 0-introduction.md
-│   │       └── 1-chapter-name.md
-│   ├── articles/                 # All magazine/periodical articles
+│   │       ├── 0-introduction.md  -> ../../../vault/books/[book-slug]/0-introduction.md
+│   │       └── 1-chapter-name.md  -> ...
+│   ├── articles/                 # Symlinks into vault/articles/, same pattern
 │   │   ├── bulletin/
 │   │   ├── walkabout-magazine/
 │   │   └── the-australian-gourmet/
@@ -46,6 +57,7 @@ Pushes to `master` trigger automatic Netlify build and deploy.
 ├── dev/                          # Dev build output (do not edit)
 ├── docs/                         # Production build output, deployed by Netlify (do not edit)
 ├── ocr/                          # Working directory for OCR source files
+├── scripts/link-vault-content.js # Symlinks vault/ content into src/ (`npm run link:vault`)
 ├── _redirects                    # Netlify redirect rules (legacy URL support only)
 ├── .eleventy.js
 ├── gulpfile.js
@@ -89,7 +101,7 @@ Pushes to `master` trigger automatic Netlify build and deploy.
 
 ## Content Workflow
 
-Content is transcribed from physical books and digitised magazine scans (sourced from Trove, State Library Victoria). See `CLAUDE.md` for the full transcription workflow and frontmatter requirements.
+Content is transcribed from physical books and digitised magazine scans (sourced from Trove, State Library Victoria), and authored directly into the `vault/` submodule — an Obsidian-compatible vault that is the single source of truth for every chapter and article. `src/books/`/`src/articles/` never hold real content files; they're symlinks, kept in sync with `npm run link:vault`. See `CLAUDE.md` for the full transcription workflow and frontmatter requirements.
 
 ---
 

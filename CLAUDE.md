@@ -3,10 +3,12 @@
 **Project:** Digital archive of Keith Dunstan (1925–2013), Australian journalist and author.  
 **Site:** https://keithdunstan.org — built with Eleventy (11ty) + Bootstrap 5 (11straps boilerplate), Gulp, deployed via Netlify from GitHub.
 
+**Content authority:** every book chapter and article is authored in the `vault/` git submodule (an Obsidian vault, `vault/books/[book-slug]/*.md` and `vault/articles/[publication-slug]/*.md`) — **that vault is the source of truth, not `src/`.** `src/books/[book-slug]/*.md` and `src/articles/[publication-slug]/*.md` are symlinks into `vault/`, created by `scripts/link-vault-content.js` (`npm run link:vault`); Eleventy reads them exactly as it would a real file. **Never create or edit a chapter/article `.md` file directly under `src/books/` or `src/articles/`** — edit the file in `vault/` instead (it's the symlink target, so the change is live immediately), or for a brand-new file, add it to `vault/` and then run `npm run link:vault` to create the matching symlink. Directory-level Eleventy config (`books.json`, `articles.json`, per-book `[book-slug].json`) and non-content assets that sit alongside chapters (raw scan `.HEIC`/`.jpg` files, stray images) are **not** part of the vault and stay as real files directly in `src/` — `link:vault` never touches them. Ratbags is the one book whose chapters Eleventy reads as `*.njk` (not `*.md`) even though the vault stores them as `.md` — `link:vault` maps the extension automatically; this is the one hardcoded special case in that script.
+
 **Content lives in:**
-- `src/books/[book-slug]/` — book chapters
-- `src/articles/[publication-slug]/` — magazine/newspaper articles
-- Book intro/index pages sit directly in `src/` (e.g. `src/supporting-a-column.njk`, `src/batman-in-the-bulletin.njk`)
+- `src/books/[book-slug]/` — book chapters (symlinks into `vault/books/[book-slug]/`)
+- `src/articles/[publication-slug]/` — magazine/newspaper articles (symlinks into `vault/articles/[publication-slug]/`)
+- Book intro/index pages sit directly in `src/` (e.g. `src/supporting-a-column.njk`, `src/batman-in-the-bulletin.njk`) — these are Eleventy/publishing pages, not vault content, and are real files
 
 **Current collections:**
 | Slug | Location | Type | Description |
@@ -104,8 +106,8 @@ Scripts in `trove/` fetch Keith Dunstan's articles from the National Library of 
 **Workflow:**
 1. Fetch stubs → `trove/output/[publication]/stubs/`
 2. Triage with `python triage.py` → move to `transcribed/` or `rejected/`
-3. Move transcribed to `src/articles/[publication]/`
-4. Commit and push
+3. Move transcribed to `vault/articles/[publication]/` (the vault submodule is the content authority — not `src/articles/`), then run `npm run link:vault` in the site repo to symlink it into `src/`
+4. Commit and push in both the vault repo and the site repo (submodule pointer)
 
 **Key notes:**
 - Preserve Trove source URLs in output
@@ -128,7 +130,7 @@ npm run watch    # local dev (output → dev/)
 npm run build    # production build (output → docs/, what Netlify deploys)
 ```
 
-**Deploy:** `git push` to `master` triggers Netlify build automatically (configured in `netlify.toml`, publishes from `docs/`).
+**Deploy:** `git push` to `master` triggers Netlify build automatically (configured in `netlify.toml`, publishes from `docs/`). Netlify clones the `vault/` submodule automatically since its remote (`github.com/JackDunstan/KD-Vault`) is a public HTTPS URL — no extra deploy-key config needed. If the vault gets new content, remember to update the submodule pointer (`git submodule update --remote vault`, or `cd vault && git pull`) and commit it here too, or the live site won't see the change even though `vault/`'s own repo is up to date.
 
 **OCR tooling:** Two options, in order of preference:
 
@@ -165,19 +167,19 @@ ln -sf /opt/homebrew/opt/libtiff/lib/libtiff.6.dylib /opt/homebrew/opt/libtiff/l
 1. Convert and rotate scans as above → `/tmp/rotated/*.png`
 2. Run Tesseract across all pages: `for f in /tmp/rotated/*.png; do echo "=== $(basename $f) ==="; tesseract "$f" stdout -l eng --psm 6; echo; done > /tmp/ocr-raw.txt`
 3. Read `/tmp/ocr-raw.txt` — note that phone shots of open books capture two pages at once, so OCR output contains noise from the facing page bleeding into each line. Cross-reference with visual reads of the original images to reconstruct clean text.
-4. Write `.md` files following the frontmatter conventions above; add tags, summaries, and inter-chapter navigation links by hand.
+4. Write `.md` files into `vault/books/[book-slug]/` (the vault submodule is the content authority — not `src/books/`) following the frontmatter conventions above; add tags, summaries, and inter-chapter navigation links by hand. Run `npm run link:vault` afterward to symlink the new chapter(s) into `src/`.
 
 **Book scan workflow (Claude API / `ocr/transcribe.js`):**
 1. `sips` batch-convert `scans/*.HEIC` or `scans/*.jpeg` → `/tmp/converted/*.png` (and rotate if needed)
 2. Run `node ocr/transcribe.js /tmp/converted/*.png` to print transcriptions to stdout
-3. Review output, split at chapter headings, and write `.md` files following the frontmatter conventions above
-4. Add tags, summaries, and inter-chapter navigation links by hand
+3. Review output, split at chapter headings, and write `.md` files into `vault/books/[book-slug]/` following the frontmatter conventions above
+4. Add tags, summaries, and inter-chapter navigation links by hand, then run `npm run link:vault` to symlink the new chapter(s) into `src/`
 
 See `ocr/transcribe.js` for the Claude API pipeline (requires `ANTHROPIC_API_KEY` in env and `npm install sharp @anthropic-ai/sdk`).
 
-**Trove tooling:** `trove/` contains Python scripts for fetching Keith Dunstan's articles from the National Library of Australia's Trove API v3. Pipeline: `setup.py` (once) → `fetch_batman.py` / `fetch_byline.py` → `deduplicate.py` → `remove_duplicates.py` → `triage.py` (interactive review) → move to `src/articles/[publication-slug]/`. See `trove/README.md` for full context.
+**Trove tooling:** `trove/` contains Python scripts for fetching Keith Dunstan's articles from the National Library of Australia's Trove API v3. Pipeline: `setup.py` (once) → `fetch_batman.py` / `fetch_byline.py` → `deduplicate.py` → `remove_duplicates.py` → `triage.py` (interactive review) → move to `vault/articles/[publication-slug]/`, then `npm run link:vault`. See `trove/README.md` for full context.
 
-**Adding a new book (checklist):** whether it's a fresh title or one being added ahead of scans arriving, every book needs all four of these or the site's three "list every book" surfaces (Books page, timeline, bibliography data) drift out of sync:
+**Adding a new book (checklist):** whether it's a fresh title or one being added ahead of scans arriving, every book needs all four of these or the site's three "list every book" surfaces (Books page, timeline, bibliography data) drift out of sync. (Chapter content itself, once transcribed, goes in `vault/books/[book-slug]/` — see Content authority above — then `npm run link:vault`; these four items are the publishing-side scaffolding, which stays in `src/`.)
 1. **Index page** — `src/[book-slug].njk`, following the pattern of existing minimal book pages (e.g. `src/the-perfect-cup.njk`): title/summary frontmatter, a lead paragraph, publisher/ISBN if known, and a placeholder note if chapters haven't been transcribed yet.
 2. **`src/books.njk` accordion entry** — linking to the index page. **Keep the whole accordion sorted chronologically (oldest first)** — insert the new entry in its correct year position rather than appending to the end.
 3. **`src/_data/books.json` entry** — `{ title, year, url, summary }` — this is what powers `/timeline/` (via the `timeline` collection in `.eleventy.js`), so a book only shows up there once it's added here. Order within the file doesn't matter (the collection sorts by date), but keeping it roughly chronological makes the file easier to scan.

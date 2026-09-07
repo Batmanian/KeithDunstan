@@ -33,9 +33,14 @@ function findContentFiles(dir) {
   let results = [];
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     const fullPath = path.join(dir, entry.name);
-    if (entry.isDirectory()) {
+    // Book/article content is symlinked in from vault/ (see
+    // link-vault-content.js), so type checks must follow the link —
+    // Dirent.isDirectory()/isFile() report the symlink itself, not its
+    // target, and would silently skip every linked file.
+    const stat = fs.statSync(fullPath);
+    if (stat.isDirectory()) {
       results = results.concat(findContentFiles(fullPath));
-    } else if (entry.isFile() && CONTENT_EXTENSIONS.includes(path.extname(entry.name)) && fullPath !== OUTPUT_FILE) {
+    } else if (stat.isFile() && CONTENT_EXTENSIONS.includes(path.extname(entry.name)) && fullPath !== OUTPUT_FILE) {
       results.push(fullPath);
     }
   }

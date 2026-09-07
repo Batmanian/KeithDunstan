@@ -5,13 +5,19 @@ const matter = require("gray-matter");
 // Walks src/books/ and src/articles/ directly (rather than going through
 // Eleventy's collection API) so this data is available before any template
 // renders and isn't affected by collection build order.
+//
+// Content here is symlinked in from vault/ (see link-vault-content.js), so
+// type checks must follow the link via fs.statSync — Dirent.isDirectory()/
+// isFile() report the symlink itself, not its target, and would silently
+// skip every linked file.
 function walkMarkdownFiles(dir) {
   let results = [];
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     const full = path.join(dir, entry.name);
-    if (entry.isDirectory()) {
+    const stat = fs.statSync(full);
+    if (stat.isDirectory()) {
       results = results.concat(walkMarkdownFiles(full));
-    } else if (entry.isFile() && (entry.name.endsWith(".md") || entry.name.endsWith(".njk"))) {
+    } else if (stat.isFile() && (entry.name.endsWith(".md") || entry.name.endsWith(".njk"))) {
       results.push(full);
     }
   }
