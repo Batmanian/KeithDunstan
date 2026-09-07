@@ -26,7 +26,8 @@
     "export:vault": "node scripts/export-obsidian-vault.js",
     "link:vault": "node scripts/link-vault-content.js",
     "link:vault-images": "node scripts/link-vault-images.js",
-    "set:og-images": "node scripts/set-og-images.js"
+    "set:og-images": "node scripts/set-og-images.js",
+    "set:obsidian-tags": "node scripts/set-obsidian-tags.js"
   },
   "dependencies": {
     "@11ty/eleventy": "^3.1.5",
