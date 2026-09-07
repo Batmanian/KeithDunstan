@@ -12,7 +12,7 @@ summary: Keith's first book, about the origins and history of the Melbourne Cric
     </div>
     <div class="col-12 col-md-9">
         <h2 class="h4">From the original dust jacket</h2>
-        <p>Published in 1962, The Paddock That Grew tells the story of the Melbourne Cricket Ground, from its beginnings as a stretch of swampy paddock beside the Yarra to its status as one of the world's great sporting arenas. It was revised and republished in 2000 by the M.C.C. trustees under the title <a href="{{ '/the-peoples-ground' | url }}">The People's Ground</a>.</p>
+        {{ "the-paddock-that-grew" | bookContent("summary.md") | safe }}
     </div>
 </div>
 <hr>
@@ -51,5 +51,5 @@ summary: Keith's first book, about the origins and history of the Melbourne Cric
 <hr>
 <div class="col-12 col-lg-10 offset-lg-1">
 <h2>Acknowledgements</h2>
-<p>In writing this book I am indebted to the late Mr Hugh Field, both for his remarkable knowledge of cricket and for the years of research that he carried out to make this history possible. Special acknowledgement is also given to the Melbourne Cricket Club's magnificent gallery, to Mr Lloyd Brown and to the <em>Herald</em> and the <em>Sun News-Pictorial</em> for photographs.</p>
+{{ "the-paddock-that-grew" | bookContent("acknowledgements.md") | safe }}
 </div>

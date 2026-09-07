@@ -27,6 +27,12 @@ const path = require("path");
 const ROOT = path.join(__dirname, "..");
 const NJK_BOOKS = new Set(["ratbags"]);
 
+// Index-page content fragments (see export-obsidian-vault.js / .eleventy.js's
+// bookContent filter) are always read as literal filenames by that filter —
+// they're not chapters, so the NJK_BOOKS extension mapping below must never
+// touch them, even for a book (like Ratbags) whose real chapters map to .njk.
+const CONTENT_FRAGMENT_FILES = new Set(["summary.md", "acknowledgements.md", "front-matter.md"]);
+
 const SOURCES = [
   { vault: path.join(ROOT, "vault", "books"), src: path.join(ROOT, "src", "books"), isBooks: true },
   { vault: path.join(ROOT, "vault", "articles"), src: path.join(ROOT, "src", "articles"), isBooks: false },
@@ -47,7 +53,8 @@ function walkMarkdown(dir, base = dir) {
 
 function destRelFor(vaultRelPath, isBooks) {
   const topSlug = vaultRelPath.split(path.sep)[0];
-  if (isBooks && NJK_BOOKS.has(topSlug)) {
+  const basename = path.basename(vaultRelPath);
+  if (isBooks && NJK_BOOKS.has(topSlug) && !CONTENT_FRAGMENT_FILES.has(basename)) {
     return vaultRelPath.replace(/\.md$/, ".njk");
   }
   return vaultRelPath;

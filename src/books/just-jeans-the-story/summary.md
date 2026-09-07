@@ -1,0 +1,1 @@
+../../../vault/books/just-jeans-the-story/summary.md

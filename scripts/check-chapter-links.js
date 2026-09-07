@@ -8,6 +8,11 @@ const path = require('path');
 const booksDir = path.join(__dirname, '../src/books');
 const srcDir = path.join(__dirname, '../src');
 
+// Content fragments (extracted book-index-page prose, pulled in via the
+// `bookContent` filter in .eleventy.js) rather than standalone chapters —
+// they have no /books/[book]/[slug] page of their own to be linked from.
+const NON_CHAPTER_FILES = new Set(['summary.md', 'acknowledgements.md', 'front-matter.md']);
+
 let errors = 0;
 
 const books = fs.readdirSync(booksDir).filter(entry => {
@@ -28,7 +33,7 @@ for (const book of books) {
   const indexContent = fs.readFileSync(indexFile, 'utf8');
 
   const chapters = fs.readdirSync(bookDir)
-    .filter(f => f.endsWith('.md'))
+    .filter(f => f.endsWith('.md') && !NON_CHAPTER_FILES.has(f))
     .sort();
 
   for (const chapter of chapters) {

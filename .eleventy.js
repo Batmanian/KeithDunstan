@@ -1,3 +1,5 @@
+const fs = require("fs");
+const path = require("path");
 const { DateTime } = require("luxon");
 const { execFileSync } = require("child_process");
 const navigationPlugin = require('@11ty/eleventy-navigation')
@@ -14,12 +16,34 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.ignores.add("src/assets/images/*.md");
   // Local Trove scans awaiting transcription, not website content.
   eleventyConfig.ignores.add("src/trove-scans/**");
+  // Book-index content fragments (summary/acknowledgements/front-matter,
+  // extracted from a book's dust-jacket blurb into vault/books/[slug]/) are
+  // pulled into their book's index page via the bookContent filter above —
+  // they are not standalone pages and must not be built as their own URLs.
+  eleventyConfig.ignores.add("src/books/*/summary.md");
+  eleventyConfig.ignores.add("src/books/*/acknowledgements.md");
+  eleventyConfig.ignores.add("src/books/*/front-matter.md");
 
   // Powers the {% metagen %} shortcode used in snippets/opengraph.njk to
   // generate Open Graph / Twitter Card / canonical tags for every page.
   eleventyConfig.addPlugin(metagenPlugin);
 
   // Provides the dateToRfc822 filter used by src/feed.njk (/feed.xml).
+  // Pulls a content fragment (summary/acknowledgements prose, extracted
+  // from a book's dust-jacket blurb) out of its vault-sourced file —
+  // src/books/[bookSlug]/[filename], a symlink into vault/books/[bookSlug]/
+  // — so a book's index page (src/[book-slug].njk) can include real vault
+  // content rather than having it typed inline in the template. Returns ""
+  // if the book has no such fragment (not every book has acknowledgements),
+  // so callers can wrap it in {% if %}. Content is raw HTML already (not
+  // markdown), extracted verbatim from the original template — use with
+  // `| safe` at the call site.
+  eleventyConfig.addFilter("bookContent", (bookSlug, filename) => {
+    const filePath = path.join(__dirname, "src", "books", bookSlug, filename);
+    if (!fs.existsSync(filePath)) return "";
+    return matter(fs.readFileSync(filePath, "utf8")).content.trim();
+  });
+
   eleventyConfig.addFilter("dateToRfc822", dateToRfc822);
 
   eleventyConfig.setDataDeepMerge(true);
