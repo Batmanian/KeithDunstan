@@ -1,0 +1,3 @@
+[submodule "vault"]
+	path = vault
+	url = https://github.com/JackDunstan/KD-Vault.git
