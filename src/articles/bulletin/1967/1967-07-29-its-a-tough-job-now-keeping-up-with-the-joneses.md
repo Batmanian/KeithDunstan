@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1967/1967-07-29-its-a-tough-job-now-keeping-up-with-the-joneses.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1967/1967-03-11-where-do-we-go-for-our-blue-ribbon-security.md

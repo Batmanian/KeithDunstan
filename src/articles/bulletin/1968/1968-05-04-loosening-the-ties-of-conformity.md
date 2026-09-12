@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1968/1968-05-04-loosening-the-ties-of-conformity.md

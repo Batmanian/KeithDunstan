@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/the-ghost-of-the-princess.md

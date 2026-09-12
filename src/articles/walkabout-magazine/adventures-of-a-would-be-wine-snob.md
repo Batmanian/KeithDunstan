@@ -1,1 +1,0 @@
-../../../vault/articles/walkabout-magazine/adventures-of-a-would-be-wine-snob.md

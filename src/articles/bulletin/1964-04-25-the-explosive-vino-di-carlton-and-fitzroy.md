@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1964-04-25-the-explosive-vino-di-carlton-and-fitzroy.md

@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1964-08-15-no-sunday-tumbling-or-burletta-yet.md

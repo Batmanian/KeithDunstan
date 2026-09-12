@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1967/1967-08-26-for-men-only-and-everything-so-discreet.md

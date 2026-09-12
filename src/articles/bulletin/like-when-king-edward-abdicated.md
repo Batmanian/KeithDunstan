@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/like-when-king-edward-abdicated.md

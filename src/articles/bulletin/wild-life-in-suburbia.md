@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/wild-life-in-suburbia.md

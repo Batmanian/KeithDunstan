@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1967/1967-12-16-the-art-of-upmanship-among-the-joggers.md

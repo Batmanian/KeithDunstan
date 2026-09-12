@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1963/a-ruined-week-no-paranoia.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1962/a-bowling-alley-and-a-bidet.md

@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1967-12-23-the-war-on-want-strides-painfully-ahead.md

@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/in-the-depths-of-se-2.md

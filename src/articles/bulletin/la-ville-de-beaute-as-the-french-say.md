@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/la-ville-de-beaute-as-the-french-say.md

@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/used-cars-and-gorgeous-capes.md

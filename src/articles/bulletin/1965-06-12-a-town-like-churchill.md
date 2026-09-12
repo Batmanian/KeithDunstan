@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1965-06-12-a-town-like-churchill.md

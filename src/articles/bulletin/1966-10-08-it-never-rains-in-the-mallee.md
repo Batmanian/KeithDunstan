@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1966-10-08-it-never-rains-in-the-mallee.md

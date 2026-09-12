@@ -1,0 +1,1 @@
+../../../../vault/articles/walkabout-magazine/1963/freedom-of-beach.md

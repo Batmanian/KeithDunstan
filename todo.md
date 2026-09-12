@@ -147,6 +147,8 @@ The book's contents page (`src/a-day-in-the-life-of-australia.njk`) lists **258 
 
 *(Updated 3 Aug 2026)* ProQuest was checked as a source for Keith's post-1954 Age columns (not in Trove, per the table above) — only 8 articles could be pulled from that database. All 8 have been transcribed and are now live in `src/articles/the-age/`, plus a 9th (obituary of Richard Cudlipp) sourced separately. ProQuest is considered exhausted for this title; "On the right side of Tuscany" (2 May 1989) remains the one known-but-unsourced title, still requiring physical/microfilm sourcing.
 
+*(Updated 11 Sep 2026)* A fresh ProQuest search result URL via the State Library of Victoria (accountid=13905) has been supplied — use this to retrieve further Age articles: `https://www.proquest.com/results/C88412084D924EC8PQ/4?accountid=13905#scrollTo`
+
 ### Bulletin — 2 known-missing titles
 
 *(Updated 29 Jul 2026 — the `src/bulletin/` path-conflict described below was already resolved per the Completed section; both drafts now live correctly under `src/articles/bulletin/`. "Batman's Melbourne: This is a fine state to be in" is live at `src/articles/bulletin/batmans-melbourne-this-is-a-fine-state-to-be-in.md`.)*

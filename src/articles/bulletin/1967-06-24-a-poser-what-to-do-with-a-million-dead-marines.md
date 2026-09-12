@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1967-06-24-a-poser-what-to-do-with-a-million-dead-marines.md

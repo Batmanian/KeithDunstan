@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/under-the-king-street-bridge.md

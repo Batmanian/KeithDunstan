@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1967/1967-11-25-nowhere-for-a-refined-person-to-hang-his-hat.md

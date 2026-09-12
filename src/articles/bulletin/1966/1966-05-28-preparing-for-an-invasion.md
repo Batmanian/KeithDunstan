@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1966/1966-05-28-preparing-for-an-invasion.md

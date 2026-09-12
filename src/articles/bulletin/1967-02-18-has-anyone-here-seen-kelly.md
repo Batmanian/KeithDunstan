@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1967-02-18-has-anyone-here-seen-kelly.md

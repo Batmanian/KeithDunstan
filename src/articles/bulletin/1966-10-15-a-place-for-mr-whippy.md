@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1966-10-15-a-place-for-mr-whippy.md

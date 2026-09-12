@@ -1,0 +1,1 @@
+../../../../vault/articles/walkabout-magazine/1962/bird-watching.md

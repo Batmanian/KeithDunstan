@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1967-04-22-taking-the-row-out-of-rowing.md

@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1965-06-26-no-biz-like-snow-biz.md

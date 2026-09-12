@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1968/1968-07-13-operation-gold-coast-does-the-trick.md

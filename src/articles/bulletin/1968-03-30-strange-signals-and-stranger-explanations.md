@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1968-03-30-strange-signals-and-stranger-explanations.md

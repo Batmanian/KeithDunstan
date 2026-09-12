@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1967-11-04-pmg-knocks-the-mystique-out-of-s-e-2.md

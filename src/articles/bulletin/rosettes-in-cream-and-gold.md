@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/rosettes-in-cream-and-gold.md

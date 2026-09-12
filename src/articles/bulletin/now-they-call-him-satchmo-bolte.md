@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/now-they-call-him-satchmo-bolte.md

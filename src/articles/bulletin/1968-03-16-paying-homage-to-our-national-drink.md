@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1968-03-16-paying-homage-to-our-national-drink.md

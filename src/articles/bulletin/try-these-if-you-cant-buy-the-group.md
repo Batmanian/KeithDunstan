@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/try-these-if-you-cant-buy-the-group.md

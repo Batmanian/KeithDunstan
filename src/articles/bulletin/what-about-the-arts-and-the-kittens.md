@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/what-about-the-arts-and-the-kittens.md

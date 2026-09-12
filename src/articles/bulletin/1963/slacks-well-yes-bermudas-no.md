@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1963/slacks-well-yes-bermudas-no.md

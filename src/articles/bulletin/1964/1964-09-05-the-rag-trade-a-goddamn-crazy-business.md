@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1964/1964-09-05-the-rag-trade-a-goddamn-crazy-business.md

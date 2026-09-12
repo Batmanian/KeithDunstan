@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/football-and-mfl.md

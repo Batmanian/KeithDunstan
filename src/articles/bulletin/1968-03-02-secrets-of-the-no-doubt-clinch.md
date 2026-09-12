@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1968-03-02-secrets-of-the-no-doubt-clinch.md

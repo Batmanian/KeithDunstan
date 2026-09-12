@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1964/1964-09-05-night-of-high-drama.md

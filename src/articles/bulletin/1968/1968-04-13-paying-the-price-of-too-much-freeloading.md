@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1968/1968-04-13-paying-the-price-of-too-much-freeloading.md

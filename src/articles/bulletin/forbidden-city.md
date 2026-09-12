@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/forbidden-city.md

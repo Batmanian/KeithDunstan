@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1963/vengeance-on-a-black-mud-altar.md

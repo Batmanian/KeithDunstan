@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/evolution-of-a-civic-egg.md

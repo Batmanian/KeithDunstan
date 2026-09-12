@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1967/1967-04-01-a-detour-to-rutherglens-festival.md

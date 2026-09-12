@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1968/1968-01-06-gawd-couldnt-you-go-a-couple-of-jugs.md

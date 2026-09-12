@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1968-06-08-catering-for-footballs-teetotallers.md

@@ -1,1 +1,0 @@
-../../../vault/articles/walkabout-magazine/melbourne-cup-winners-horses-or-hats.md

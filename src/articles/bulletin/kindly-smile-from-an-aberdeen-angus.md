@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/kindly-smile-from-an-aberdeen-angus.md

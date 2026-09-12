@@ -1,1 +1,0 @@
-../../../vault/articles/walkabout-magazine/christmas-across-a-continent.md

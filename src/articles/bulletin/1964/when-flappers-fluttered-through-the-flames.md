@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1964/when-flappers-fluttered-through-the-flames.md

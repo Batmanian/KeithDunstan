@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1965/1965-05-29-a-mural-for-1000-years.md

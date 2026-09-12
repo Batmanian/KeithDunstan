@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/all-the-queens-men.md

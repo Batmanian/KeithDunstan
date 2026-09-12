@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/liquor-and-the-silk-trade.md

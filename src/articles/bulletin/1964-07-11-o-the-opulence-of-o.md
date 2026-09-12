@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1964-07-11-o-the-opulence-of-o.md

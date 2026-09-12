@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1965/1965-05-01-theres-money-in-mulga.md

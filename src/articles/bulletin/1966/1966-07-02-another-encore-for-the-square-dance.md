@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1966/1966-07-02-another-encore-for-the-square-dance.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1967/1967-02-04-protesting-as-a-way-of-life.md

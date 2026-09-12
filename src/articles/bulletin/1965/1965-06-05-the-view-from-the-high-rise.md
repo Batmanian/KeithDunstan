@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1965/1965-06-05-the-view-from-the-high-rise.md

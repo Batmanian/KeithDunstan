@@ -1,1 +1,0 @@
-../../../vault/articles/walkabout-magazine/the-bikini-what-next.md

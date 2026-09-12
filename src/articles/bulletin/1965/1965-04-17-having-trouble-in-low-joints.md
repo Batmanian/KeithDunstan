@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1965/1965-04-17-having-trouble-in-low-joints.md

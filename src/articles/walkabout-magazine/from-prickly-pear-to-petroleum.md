@@ -1,1 +1,0 @@
-../../../vault/articles/walkabout-magazine/from-prickly-pear-to-petroleum.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1965/1965-10-30-melbournes-sacred-rites-cup-day-is-not-for-racing.md

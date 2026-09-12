@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1965-10-02-pop-goes-the-cash-register.md

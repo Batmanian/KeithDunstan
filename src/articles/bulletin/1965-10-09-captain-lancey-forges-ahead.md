@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1965-10-09-captain-lancey-forges-ahead.md

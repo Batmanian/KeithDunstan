@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/beastliness-dyed-in-the-wool.md

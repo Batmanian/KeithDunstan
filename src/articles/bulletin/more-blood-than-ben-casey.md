@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/more-blood-than-ben-casey.md

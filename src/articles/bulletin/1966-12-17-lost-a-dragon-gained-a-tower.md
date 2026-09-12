@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1966-12-17-lost-a-dragon-gained-a-tower.md

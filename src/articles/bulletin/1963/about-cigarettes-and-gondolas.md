@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1963/about-cigarettes-and-gondolas.md

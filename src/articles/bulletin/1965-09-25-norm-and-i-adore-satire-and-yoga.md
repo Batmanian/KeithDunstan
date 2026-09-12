@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1965-09-25-norm-and-i-adore-satire-and-yoga.md

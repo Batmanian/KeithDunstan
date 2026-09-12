@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/met-any-good-used-football-players-lately.md

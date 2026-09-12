@@ -1,1 +1,0 @@
-../../../vault/articles/walkabout-magazine/1966-and-all-that.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1964/1964-11-07-the-moss-spreads-in-spring-street.md

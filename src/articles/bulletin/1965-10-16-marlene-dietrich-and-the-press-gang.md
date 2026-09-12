@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1965-10-16-marlene-dietrich-and-the-press-gang.md

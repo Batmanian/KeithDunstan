@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1966/1966-06-11-the-great-football-fade-out.md

@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/those-lucky-oyo-men.md

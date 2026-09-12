@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1966-12-24-in-a-state-over-hanging.md

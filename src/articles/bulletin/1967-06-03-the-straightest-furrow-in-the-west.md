@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1967-06-03-the-straightest-furrow-in-the-west.md

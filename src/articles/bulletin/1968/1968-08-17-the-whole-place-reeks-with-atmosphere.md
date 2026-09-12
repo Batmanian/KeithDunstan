@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1968/1968-08-17-the-whole-place-reeks-with-atmosphere.md

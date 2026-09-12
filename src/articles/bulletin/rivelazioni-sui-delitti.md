@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/rivelazioni-sui-delitti.md

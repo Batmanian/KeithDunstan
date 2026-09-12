@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1964-10-03-high-jinks-in-the-hard-top.md

@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/two-million-babies.md

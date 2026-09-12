@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1965-03-06-the-day-of-the-herefords.md

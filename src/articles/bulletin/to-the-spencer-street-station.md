@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/to-the-spencer-street-station.md

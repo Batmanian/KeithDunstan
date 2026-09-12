@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1964/1964-10-10-mr-borgs-auction-in-se2.md

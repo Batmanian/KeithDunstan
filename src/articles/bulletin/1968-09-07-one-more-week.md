@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1968-09-07-one-more-week.md

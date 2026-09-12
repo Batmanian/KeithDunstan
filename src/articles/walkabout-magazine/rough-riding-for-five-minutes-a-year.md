@@ -1,1 +1,0 @@
-../../../vault/articles/walkabout-magazine/rough-riding-for-five-minutes-a-year.md

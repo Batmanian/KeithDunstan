@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1966-07-09-hitting-the-clubs-on-the-head.md

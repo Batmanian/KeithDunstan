@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/the-electronic-sir-robert.md

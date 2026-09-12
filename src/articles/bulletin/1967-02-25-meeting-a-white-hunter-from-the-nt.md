@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1967-02-25-meeting-a-white-hunter-from-the-nt.md

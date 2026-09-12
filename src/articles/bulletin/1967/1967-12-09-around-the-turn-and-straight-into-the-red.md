@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1967/1967-12-09-around-the-turn-and-straight-into-the-red.md

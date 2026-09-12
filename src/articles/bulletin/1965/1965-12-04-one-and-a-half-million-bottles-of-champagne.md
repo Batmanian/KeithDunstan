@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1965/1965-12-04-one-and-a-half-million-bottles-of-champagne.md

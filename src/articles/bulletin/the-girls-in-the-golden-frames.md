@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/the-girls-in-the-golden-frames.md

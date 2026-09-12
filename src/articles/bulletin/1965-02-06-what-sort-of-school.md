@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1965-02-06-what-sort-of-school.md

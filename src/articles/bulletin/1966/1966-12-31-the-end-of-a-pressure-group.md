@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1966/1966-12-31-the-end-of-a-pressure-group.md

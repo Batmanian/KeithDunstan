@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/a-little-red-rented-rowboat.md

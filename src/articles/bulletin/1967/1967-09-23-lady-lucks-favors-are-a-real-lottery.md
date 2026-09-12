@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1967/1967-09-23-lady-lucks-favors-are-a-real-lottery.md

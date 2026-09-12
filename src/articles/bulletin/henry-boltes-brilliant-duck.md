@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/henry-boltes-brilliant-duck.md

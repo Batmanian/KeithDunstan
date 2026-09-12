@@ -1,0 +1,1 @@
+../../../../vault/articles/walkabout-magazine/1969/walkabout-profile.md

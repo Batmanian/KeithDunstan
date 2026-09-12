@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1966/1966-05-07-the-wall-street-end-of-collins-street.md

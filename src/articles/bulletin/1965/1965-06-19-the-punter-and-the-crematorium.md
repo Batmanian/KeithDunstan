@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1965/1965-06-19-the-punter-and-the-crematorium.md

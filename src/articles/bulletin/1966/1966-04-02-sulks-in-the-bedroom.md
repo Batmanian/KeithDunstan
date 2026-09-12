@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1966/1966-04-02-sulks-in-the-bedroom.md

@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/getting-publicity-for-peanuts.md

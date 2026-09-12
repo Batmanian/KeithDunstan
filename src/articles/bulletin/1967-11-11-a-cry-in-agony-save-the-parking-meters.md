@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1967-11-11-a-cry-in-agony-save-the-parking-meters.md

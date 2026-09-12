@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1964-07-25-life-at-jervis-bay-no-longer-turning-australian-boys-into-englishmen.md

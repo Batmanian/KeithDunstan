@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1964-08-01-penguins-pies-and-megapodes.md

@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/goodbye-to-the-glaci.md

@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/the-stampede-and-the-fall-out-shelter.md

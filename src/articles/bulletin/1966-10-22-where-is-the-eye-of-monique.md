@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1966-10-22-where-is-the-eye-of-monique.md

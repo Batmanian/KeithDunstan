@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/eaters-and-revolving-drinkers.md

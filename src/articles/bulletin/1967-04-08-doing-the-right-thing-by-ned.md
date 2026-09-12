@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1967-04-08-doing-the-right-thing-by-ned.md

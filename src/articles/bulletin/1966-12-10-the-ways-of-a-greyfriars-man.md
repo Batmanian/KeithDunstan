@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1966-12-10-the-ways-of-a-greyfriars-man.md

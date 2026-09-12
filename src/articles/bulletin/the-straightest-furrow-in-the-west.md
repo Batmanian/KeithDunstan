@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/the-straightest-furrow-in-the-west.md

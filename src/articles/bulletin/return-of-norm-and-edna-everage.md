@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/return-of-norm-and-edna-everage.md

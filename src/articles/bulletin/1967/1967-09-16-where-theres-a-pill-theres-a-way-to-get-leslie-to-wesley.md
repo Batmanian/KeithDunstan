@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1967/1967-09-16-where-theres-a-pill-theres-a-way-to-get-leslie-to-wesley.md

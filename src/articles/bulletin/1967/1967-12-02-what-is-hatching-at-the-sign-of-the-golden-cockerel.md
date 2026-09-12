@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1967/1967-12-02-what-is-hatching-at-the-sign-of-the-golden-cockerel.md

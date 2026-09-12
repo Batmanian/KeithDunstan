@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1968-09-28-the-monkees-getting-all-socially-significant.md

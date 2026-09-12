@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1962/la-ville-de-beaute-as-the-french-say.md

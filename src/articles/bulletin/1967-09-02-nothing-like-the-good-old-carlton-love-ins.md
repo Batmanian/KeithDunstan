@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1967-09-02-nothing-like-the-good-old-carlton-love-ins.md

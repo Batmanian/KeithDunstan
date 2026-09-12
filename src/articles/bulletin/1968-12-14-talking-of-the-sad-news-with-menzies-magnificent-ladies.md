@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1968-12-14-talking-of-the-sad-news-with-menzies-magnificent-ladies.md

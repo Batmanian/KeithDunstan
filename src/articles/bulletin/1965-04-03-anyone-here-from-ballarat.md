@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1965-04-03-anyone-here-from-ballarat.md

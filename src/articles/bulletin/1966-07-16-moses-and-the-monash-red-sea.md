@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1966-07-16-moses-and-the-monash-red-sea.md

@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/rembrandt-and-phar-lap.md

@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1966-03-19-not-a-muscovy-duck-type.md

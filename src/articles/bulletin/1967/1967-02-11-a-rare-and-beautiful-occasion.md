@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1967/1967-02-11-a-rare-and-beautiful-occasion.md

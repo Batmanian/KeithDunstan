@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1965/1965-02-27-gin-and-chicken-on-hd-day.md

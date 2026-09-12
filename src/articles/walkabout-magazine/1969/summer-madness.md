@@ -1,0 +1,1 @@
+../../../../vault/articles/walkabout-magazine/1969/summer-madness.md

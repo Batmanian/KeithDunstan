@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/as-conspicuous-as-a-negro-at-a-kkk-picnic.md
