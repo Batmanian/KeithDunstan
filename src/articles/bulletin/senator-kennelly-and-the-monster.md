@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/senator-kennelly-and-the-monster.md

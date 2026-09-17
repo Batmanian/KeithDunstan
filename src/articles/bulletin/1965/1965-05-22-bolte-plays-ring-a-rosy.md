@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1965/1965-05-22-bolte-plays-ring-a-rosy.md

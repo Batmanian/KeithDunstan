@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1966-11-05-in-the-wake-of-the-shrimp.md

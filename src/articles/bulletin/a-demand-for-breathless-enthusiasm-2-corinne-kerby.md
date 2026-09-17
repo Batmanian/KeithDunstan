@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/a-demand-for-breathless-enthusiasm-2-corinne-kerby.md

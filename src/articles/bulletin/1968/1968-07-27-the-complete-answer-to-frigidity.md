@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1968/1968-07-27-the-complete-answer-to-frigidity.md

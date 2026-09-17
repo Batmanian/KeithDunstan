@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1966/1966-02-19-the-big-strike-and-late-closing.md

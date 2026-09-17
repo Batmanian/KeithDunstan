@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1968-08-10-the-weathermans-tip-on-the-ideal-climate.md

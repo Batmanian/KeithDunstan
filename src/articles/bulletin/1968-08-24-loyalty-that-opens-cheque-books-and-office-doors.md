@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1968-08-24-loyalty-that-opens-cheque-books-and-office-doors.md

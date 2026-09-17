@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1967-01-28-times-past-at-lorne.md

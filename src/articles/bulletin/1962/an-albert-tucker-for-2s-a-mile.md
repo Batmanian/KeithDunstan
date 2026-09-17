@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1962/an-albert-tucker-for-2s-a-mile.md

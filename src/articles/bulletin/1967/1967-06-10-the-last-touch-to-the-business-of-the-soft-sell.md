@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1967/1967-06-10-the-last-touch-to-the-business-of-the-soft-sell.md

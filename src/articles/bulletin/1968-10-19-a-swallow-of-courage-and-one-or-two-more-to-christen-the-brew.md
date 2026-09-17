@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1968-10-19-a-swallow-of-courage-and-one-or-two-more-to-christen-the-brew.md

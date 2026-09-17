@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1968/1968-06-15-its-harder-than-ever-to-judge-a-book-by-its-cover.md

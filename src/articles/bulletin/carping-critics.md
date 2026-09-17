@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/carping-critics.md

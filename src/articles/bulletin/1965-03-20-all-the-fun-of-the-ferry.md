@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1965-03-20-all-the-fun-of-the-ferry.md

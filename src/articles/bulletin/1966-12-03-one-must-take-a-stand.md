@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1966-12-03-one-must-take-a-stand.md

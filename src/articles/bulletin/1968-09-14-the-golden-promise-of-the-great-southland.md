@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1968-09-14-the-golden-promise-of-the-great-southland.md

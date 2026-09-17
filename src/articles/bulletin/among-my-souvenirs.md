@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/among-my-souvenirs.md

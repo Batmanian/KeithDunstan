@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1964-10-17-whats-been-missin-from-kissin.md

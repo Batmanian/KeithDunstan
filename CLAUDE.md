@@ -7,8 +7,14 @@
 
 **Content lives in:**
 - `src/books/[book-slug]/` — book chapters (symlinks into `vault/books/[book-slug]/`)
-- `src/articles/[publication-slug]/` — magazine/newspaper articles (symlinks into `vault/articles/[publication-slug]/`)
+- `src/articles/[publication-slug]/[YYYY]/` — articles in year subdirectories (symlinks into `vault/articles/[publication-slug]/[YYYY]/`)
 - Book intro/index pages sit directly in `src/` (e.g. `src/supporting-a-column.njk`, `src/batman-in-the-bulletin.njk`) — these are Eleventy/publishing pages, not vault content, and are real files
+
+**Article year folders:** Every publication stores articles in year subdirectories — `vault/articles/the-age/1985/*.md`, `vault/articles/bulletin/1964/*.md`, etc. The Eleventy collection globs use `**/*.md` to match recursively. Always create new article files inside the correct year folder; never put them in the publication root.
+
+**Stub articles (incomplete transcriptions):** Stubs created by `scripts/create-age-1986-stubs.py` — and any article file whose `title` is `[Stub — YYYY-MM-DD]` — **must carry `eleventyExcludeFromCollections: true` as the first frontmatter field.** This prevents them from appearing in the timeline, publication pages, tag pages, or the article listing. When finishing a transcription (replacing the stub body and frontmatter with real content), remove `eleventyExcludeFromCollections: true` so the article becomes discoverable. The script already adds this field to new stubs; existing stubs in `vault/articles/the-age/` already have it.
+
+**todo.md record-keeping — keep in sync with stub/transcription work:** After any session that creates stubs, transcribes articles, or changes the state of outstanding work, update `todo.md` to reflect the new reality — specifically the "Articles by publication" table counts and the relevant publication section. The rule: stubs in the vault are the ground truth (hidden from site, always current), but `todo.md` is the human-readable status that explains *why* each group of stubs is incomplete and *what is needed* to complete them. Both must stay in sync. When updating: correct the live article count in the table row, note the stub count per year, and record the blocker (garbled OCR, truncated scan, needs ProQuest, not yet attempted, etc.) so future sessions know where to start.
 
 **Current collections:**
 | Slug | Location | Type | Description |
@@ -23,6 +29,7 @@
 | `bulletin` | `src/articles/` | Articles | Written under pseudonym "John Batman" |
 | `walkabout-magazine` | `src/articles/` | Articles | Walkabout magazine pieces |
 | `the-australian-gourmet` | `src/articles/` | Articles | Gourmet magazine pieces |
+| `the-age` | `src/articles/` | Articles | The Age columns (1985 onward, year subfolders) |
 
 **Default layout (`layouts/post.njk`) and collection tag** (`book` or `article`) are set per-collection by `src/books/books.json` and `src/articles/articles.json` — don't repeat them in frontmatter.
 

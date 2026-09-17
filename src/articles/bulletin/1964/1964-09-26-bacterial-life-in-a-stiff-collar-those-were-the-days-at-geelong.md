@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1964/1964-09-26-bacterial-life-in-a-stiff-collar-those-were-the-days-at-geelong.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1963/salvation-in-the-sheep-pavilion.md

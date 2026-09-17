@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1967/1967-07-22-the-sporting-way-to-get-rid-of-those-messy-crowds.md

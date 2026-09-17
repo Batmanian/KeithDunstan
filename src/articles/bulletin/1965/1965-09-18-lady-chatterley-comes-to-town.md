@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1965/1965-09-18-lady-chatterley-comes-to-town.md

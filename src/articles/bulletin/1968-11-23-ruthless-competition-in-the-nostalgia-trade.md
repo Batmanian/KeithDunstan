@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1968-11-23-ruthless-competition-in-the-nostalgia-trade.md

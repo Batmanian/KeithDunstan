@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1966-08-06-wanted-a-civic-symbol.md

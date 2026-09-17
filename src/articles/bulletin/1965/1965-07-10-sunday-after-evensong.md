@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1965/1965-07-10-sunday-after-evensong.md

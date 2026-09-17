@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1968-08-17-isnt-it-time-to-bury-the-ashes.md

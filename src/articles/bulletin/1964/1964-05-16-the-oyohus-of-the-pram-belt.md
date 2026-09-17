@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1964/1964-05-16-the-oyohus-of-the-pram-belt.md

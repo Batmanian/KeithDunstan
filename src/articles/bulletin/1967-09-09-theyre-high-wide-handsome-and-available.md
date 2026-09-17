@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1967-09-09-theyre-high-wide-handsome-and-available.md

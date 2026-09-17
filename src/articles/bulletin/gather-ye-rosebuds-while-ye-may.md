@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/gather-ye-rosebuds-while-ye-may.md

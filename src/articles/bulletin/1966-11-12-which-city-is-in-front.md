@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1966-11-12-which-city-is-in-front.md

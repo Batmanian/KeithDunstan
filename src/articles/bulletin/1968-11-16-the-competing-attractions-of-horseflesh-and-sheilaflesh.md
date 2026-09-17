@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1968-11-16-the-competing-attractions-of-horseflesh-and-sheilaflesh.md

@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1968-11-30-getting-all-steamed-up-over-diseasels.md

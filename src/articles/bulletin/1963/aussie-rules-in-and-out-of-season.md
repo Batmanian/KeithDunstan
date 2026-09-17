@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1963/aussie-rules-in-and-out-of-season.md

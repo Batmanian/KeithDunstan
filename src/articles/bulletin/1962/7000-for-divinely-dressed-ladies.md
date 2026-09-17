@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1962/7000-for-divinely-dressed-ladies.md

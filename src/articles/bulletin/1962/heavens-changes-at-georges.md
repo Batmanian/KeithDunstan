@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1962/heavens-changes-at-georges.md

@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1966-07-30-among-the-pasties.md

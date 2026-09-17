@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1965/1965-09-11-mr-fudge-knows-his-se2.md

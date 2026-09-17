@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1968-11-02-when-high-rise-really-means-skyscraper.md

@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1966-06-18-everything-in-apple-pie-order.md

@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1966-08-13-conquering-the-impossible-cowlick.md

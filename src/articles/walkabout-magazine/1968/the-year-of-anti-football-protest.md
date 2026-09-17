@@ -1,0 +1,1 @@
+../../../../vault/articles/walkabout-magazine/1968/the-year-of-anti-football-protest.md

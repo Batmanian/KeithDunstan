@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1966-04-30-whos-been-working-on-the-railroad.md

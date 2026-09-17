@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1965/1965-11-20-how-afferbeck-lauders-life-was-changed.md

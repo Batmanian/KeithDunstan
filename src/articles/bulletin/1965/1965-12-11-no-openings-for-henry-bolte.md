@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1965/1965-12-11-no-openings-for-henry-bolte.md

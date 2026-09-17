@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1966-05-14-the-battle-of-the-sly-bakers-90000-illegal-loaves.md

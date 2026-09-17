@@ -94,31 +94,33 @@ module.exports = function(eleventyConfig) {
     return (topicList || []).find(topic => topic.name === name);
   });
 
-  // Auto-populates as new files are added to src/articles/bulletin/ — no
-  // per-article tag or manual link list to keep in sync.
+  // Auto-populates as new files are added under src/articles/bulletin/ — no
+  // per-article tag or manual link list to keep in sync. The ** glob covers
+  // year subdirectories (e.g. bulletin/1964/). Stubs carry
+  // eleventyExcludeFromCollections: true so they are excluded here.
   eleventyConfig.addCollection("bulletin", collection => {
-    return collection.getFilteredByGlob("src/articles/bulletin/*.md")
+    return collection.getFilteredByGlob("src/articles/bulletin/**/*.md")
       .sort((a, b) => a.date - b.date);
   });
 
   // Same auto-populating pattern as the bulletin collection above, for
   // src/articles/walkabout-magazine/.
   eleventyConfig.addCollection("walkabout", collection => {
-    return collection.getFilteredByGlob("src/articles/walkabout-magazine/*.md")
+    return collection.getFilteredByGlob("src/articles/walkabout-magazine/**/*.md")
       .sort((a, b) => a.date - b.date);
   });
 
   // Same auto-populating pattern as the bulletin collection above, for
-  // src/articles/the-age/.
+  // src/articles/the-age/ (including year subdirectories 1985/, 1986/, …).
   eleventyConfig.addCollection("theage", collection => {
-    return collection.getFilteredByGlob("src/articles/the-age/*.md")
+    return collection.getFilteredByGlob("src/articles/the-age/**/*.md")
       .sort((a, b) => a.date - b.date);
   });
 
   // Same auto-populating pattern as the bulletin collection above, for
   // src/articles/readers-digest/.
   eleventyConfig.addCollection("readersdigest", collection => {
-    return collection.getFilteredByGlob("src/articles/readers-digest/*.md")
+    return collection.getFilteredByGlob("src/articles/readers-digest/**/*.md")
       .sort((a, b) => a.date - b.date);
   });
 

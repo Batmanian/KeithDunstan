@@ -1,0 +1,1 @@
+../../../../vault/articles/walkabout-magazine/1965/battle-of-the-flower.md

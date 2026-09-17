@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1968-04-20-the-possum-capital-of-the-world.md

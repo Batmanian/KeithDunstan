@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/heavens-changes-at-georges.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1964/1964-11-21-sect-objectors-point-cook-more-choosy-than-ever.md

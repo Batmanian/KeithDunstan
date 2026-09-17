@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1967-04-29-the-unending-wars-of-the-planesmen.md

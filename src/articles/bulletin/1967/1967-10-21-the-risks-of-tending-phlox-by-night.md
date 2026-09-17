@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1967/1967-10-21-the-risks-of-tending-phlox-by-night.md

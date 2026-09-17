@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1967-09-30-talking-turkey-and-a-little-gaelic-about-football.md

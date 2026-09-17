@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/the-mighty-wurlitzer-rose-in-a-pool-of-light.md

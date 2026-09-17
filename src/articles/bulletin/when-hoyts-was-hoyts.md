@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/when-hoyts-was-hoyts.md

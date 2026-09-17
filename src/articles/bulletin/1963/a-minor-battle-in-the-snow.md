@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1963/a-minor-battle-in-the-snow.md

@@ -1,1 +1,0 @@
-../../../vault/articles/walkabout-magazine/beef-boom-in-tombstone-territory.md

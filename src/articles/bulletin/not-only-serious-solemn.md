@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/not-only-serious-solemn.md

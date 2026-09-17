@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/mayhem-rapine-and-sin.md

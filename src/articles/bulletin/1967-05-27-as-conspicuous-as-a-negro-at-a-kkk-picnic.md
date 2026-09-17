@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1967-05-27-as-conspicuous-as-a-negro-at-a-kkk-picnic.md

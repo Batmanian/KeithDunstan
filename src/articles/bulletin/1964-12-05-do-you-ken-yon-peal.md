@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1964-12-05-do-you-ken-yon-peal.md

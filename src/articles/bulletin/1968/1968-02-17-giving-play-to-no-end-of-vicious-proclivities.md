@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1968/1968-02-17-giving-play-to-no-end-of-vicious-proclivities.md

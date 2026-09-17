@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1965-03-13-a-touch-of-gogol.md

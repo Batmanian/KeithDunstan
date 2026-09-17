@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/a-rug-of-abyssinian-monkey-skins.md

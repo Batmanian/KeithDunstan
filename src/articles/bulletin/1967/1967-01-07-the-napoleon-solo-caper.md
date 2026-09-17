@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1967/1967-01-07-the-napoleon-solo-caper.md

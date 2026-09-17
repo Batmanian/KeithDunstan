@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1963/ships-that-knock-the-rock.md

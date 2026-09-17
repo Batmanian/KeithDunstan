@@ -1,1 +1,0 @@
-../../../vault/articles/walkabout-magazine/summer-madness.md

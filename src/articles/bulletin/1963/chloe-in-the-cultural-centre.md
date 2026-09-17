@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1963/chloe-in-the-cultural-centre.md

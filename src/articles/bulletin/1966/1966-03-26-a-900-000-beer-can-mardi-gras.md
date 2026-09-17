@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1966/1966-03-26-a-900-000-beer-can-mardi-gras.md

@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1965-01-16-the-girl-who-came-back.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1966/1966-06-25-flying-ladies-and-rich-young-men.md

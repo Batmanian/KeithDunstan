@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1968/1968-05-25-adelaides-barmaid-drought-of-sixty-years-is-over.md

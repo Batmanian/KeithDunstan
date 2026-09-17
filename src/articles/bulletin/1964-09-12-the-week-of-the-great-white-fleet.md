@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1964-09-12-the-week-of-the-great-white-fleet.md

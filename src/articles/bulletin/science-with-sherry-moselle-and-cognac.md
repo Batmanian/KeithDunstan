@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/science-with-sherry-moselle-and-cognac.md

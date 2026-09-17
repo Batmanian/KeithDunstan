@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/the-cup-some-bowlers-were-low-and-rakish.md

@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/bunnies-in-black-silk-stockings.md

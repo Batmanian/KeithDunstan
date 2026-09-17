@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1964-06-13-eyestrain-for-arts-sake.md

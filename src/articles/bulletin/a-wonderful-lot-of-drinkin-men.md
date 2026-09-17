@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/a-wonderful-lot-of-drinkin-men.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1964/1964-06-20-a-noble-10m-home-for-a-noble-game.md

@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/clara-bow-ronald-colman-and-all-that.md

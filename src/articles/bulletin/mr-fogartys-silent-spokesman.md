@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/mr-fogartys-silent-spokesman.md

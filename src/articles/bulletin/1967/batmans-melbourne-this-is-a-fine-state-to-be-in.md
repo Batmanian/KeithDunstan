@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1967/batmans-melbourne-this-is-a-fine-state-to-be-in.md

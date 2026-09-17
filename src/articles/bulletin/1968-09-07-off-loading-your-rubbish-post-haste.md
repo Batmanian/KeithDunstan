@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1968-09-07-off-loading-your-rubbish-post-haste.md

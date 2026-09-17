@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1968-06-22-listening-to-the-cricket-isnt-what-it-used-to-be.md

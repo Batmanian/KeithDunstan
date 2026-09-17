@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1964-06-06-now-watch-out-for-those-inside-stories.md

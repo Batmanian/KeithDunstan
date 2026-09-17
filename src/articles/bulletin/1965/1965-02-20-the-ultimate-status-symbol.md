@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1965/1965-02-20-the-ultimate-status-symbol.md

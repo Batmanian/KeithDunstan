@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1967/heres-perhaps-another-place-for-a-future-village.md

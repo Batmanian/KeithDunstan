@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/not-just-a-beer-up-club.md

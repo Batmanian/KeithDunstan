@@ -1,1 +1,0 @@
-../../../vault/articles/walkabout-magazine/walkabout-profile.md

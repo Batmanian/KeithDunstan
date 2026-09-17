@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1966-08-20-a-beautiful-blending-of-blues.md

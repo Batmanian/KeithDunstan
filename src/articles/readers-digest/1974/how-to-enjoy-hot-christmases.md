@@ -1,0 +1,1 @@
+../../../../vault/articles/readers-digest/1974/how-to-enjoy-hot-christmases.md

@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/the-new-image.md

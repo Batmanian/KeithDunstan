@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1962/the-fortress-affair-or-sp-in-the-raw.md

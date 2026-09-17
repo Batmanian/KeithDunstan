@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/slacks-well-yes-bermudas-no.md

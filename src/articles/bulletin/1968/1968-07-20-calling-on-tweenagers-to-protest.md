@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1968/1968-07-20-calling-on-tweenagers-to-protest.md

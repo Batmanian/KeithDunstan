@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1967/1967-05-06-art-on-a-pastoral-binge-wine-food-and-fantasy.md

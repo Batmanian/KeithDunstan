@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1965-04-10-dogs-chasing-each-others-tails.md

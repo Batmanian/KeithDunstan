@@ -1,0 +1,1 @@
+../../../../vault/articles/walkabout-magazine/1968/beef-boom-in-tombstone-territory.md

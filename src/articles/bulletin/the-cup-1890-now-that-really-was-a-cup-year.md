@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/the-cup-1890-now-that-really-was-a-cup-year.md

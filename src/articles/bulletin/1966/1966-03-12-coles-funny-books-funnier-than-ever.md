@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1966/1966-03-12-coles-funny-books-funnier-than-ever.md

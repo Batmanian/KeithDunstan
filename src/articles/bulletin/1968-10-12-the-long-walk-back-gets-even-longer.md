@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1968-10-12-the-long-walk-back-gets-even-longer.md

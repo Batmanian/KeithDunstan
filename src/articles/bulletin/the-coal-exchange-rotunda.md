@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/the-coal-exchange-rotunda.md

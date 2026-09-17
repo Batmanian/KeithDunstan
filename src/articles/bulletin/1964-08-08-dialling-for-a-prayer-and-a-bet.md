@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1964-08-08-dialling-for-a-prayer-and-a-bet.md

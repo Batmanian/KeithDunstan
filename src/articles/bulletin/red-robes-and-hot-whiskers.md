@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/red-robes-and-hot-whiskers.md

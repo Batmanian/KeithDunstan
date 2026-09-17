@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1966-10-01-a-marvellous-auction-sale.md

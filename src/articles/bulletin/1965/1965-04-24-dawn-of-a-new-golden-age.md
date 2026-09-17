@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1965/1965-04-24-dawn-of-a-new-golden-age.md

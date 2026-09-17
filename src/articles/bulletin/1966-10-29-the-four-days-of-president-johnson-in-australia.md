@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1966-10-29-the-four-days-of-president-johnson-in-australia.md

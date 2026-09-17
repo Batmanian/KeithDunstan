@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1962/mr-fogartys-silent-spokesman.md

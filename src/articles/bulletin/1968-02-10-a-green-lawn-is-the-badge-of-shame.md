@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1968-02-10-a-green-lawn-is-the-badge-of-shame.md

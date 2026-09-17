@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1968/1968-10-05-the-big-sell-for-the-big-spenders.md

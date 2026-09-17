@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/whatever-became-of-those-sane-drinkers.md

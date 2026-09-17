@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1967-07-15-by-day-the-loafers-at-night-the-scoundrels.md

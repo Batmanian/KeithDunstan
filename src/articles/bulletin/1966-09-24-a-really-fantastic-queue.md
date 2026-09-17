@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1966-09-24-a-really-fantastic-queue.md

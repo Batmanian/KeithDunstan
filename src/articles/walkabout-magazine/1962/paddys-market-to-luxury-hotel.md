@@ -1,0 +1,1 @@
+../../../../vault/articles/walkabout-magazine/1962/paddys-market-to-luxury-hotel.md

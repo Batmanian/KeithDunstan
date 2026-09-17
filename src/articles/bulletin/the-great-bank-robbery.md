@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/the-great-bank-robbery.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1968/1968-06-01-darling-i-love-you-cried-the-bald-bishop.md

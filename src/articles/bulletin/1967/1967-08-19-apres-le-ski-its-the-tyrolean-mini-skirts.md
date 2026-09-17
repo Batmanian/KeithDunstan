@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1967/1967-08-19-apres-le-ski-its-the-tyrolean-mini-skirts.md

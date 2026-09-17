@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1966-05-21-the-dancing-girls-of-little-lon.md

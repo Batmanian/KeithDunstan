@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1966/1966-01-08-taking-your-pick-at-rosebud.md

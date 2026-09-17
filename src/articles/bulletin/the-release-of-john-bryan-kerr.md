@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/the-release-of-john-bryan-kerr.md

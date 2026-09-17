@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1967-07-01-psychedelic-underpants-give-a-man-assurance.md

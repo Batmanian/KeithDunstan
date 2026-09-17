@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/mr-bolte-and-the-students.md

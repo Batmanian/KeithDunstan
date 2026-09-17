@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1967-10-07-home-bottling-goes-down-the-drain.md

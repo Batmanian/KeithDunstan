@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1962/500-is-a-poodle.md

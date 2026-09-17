@@ -1,1 +1,0 @@
-../../../vault/articles/walkabout-magazine/the-year-of-anti-football-protest.md

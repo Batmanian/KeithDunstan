@@ -1,1 +1,0 @@
-../../../vault/articles/bulletin/1968-08-03-nobody-could-paint-cows-better-than-scheltema.md
