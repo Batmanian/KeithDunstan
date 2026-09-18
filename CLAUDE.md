@@ -14,8 +14,6 @@
 
 **Stub articles (incomplete transcriptions):** Stubs created by `scripts/create-age-1986-stubs.py` — and any article file whose `title` is `[Stub — YYYY-MM-DD]` — **must carry `eleventyExcludeFromCollections: true` as the first frontmatter field.** This prevents them from appearing in the timeline, publication pages, tag pages, or the article listing. When finishing a transcription (replacing the stub body and frontmatter with real content), remove `eleventyExcludeFromCollections: true` so the article becomes discoverable. The script already adds this field to new stubs; existing stubs in `vault/articles/the-age/` already have it.
 
-**todo.md record-keeping — keep in sync with stub/transcription work:** After any session that creates stubs, transcribes articles, or changes the state of outstanding work, update `todo.md` to reflect the new reality — specifically the "Articles by publication" table counts and the relevant publication section. The rule: stubs in the vault are the ground truth (hidden from site, always current), but `todo.md` is the human-readable status that explains *why* each group of stubs is incomplete and *what is needed* to complete them. Both must stay in sync. When updating: correct the live article count in the table row, note the stub count per year, and record the blocker (garbled OCR, truncated scan, needs ProQuest, not yet attempted, etc.) so future sessions know where to start.
-
 **Current collections:**
 | Slug | Location | Type | Description |
 |------|----------|------|-------------|
