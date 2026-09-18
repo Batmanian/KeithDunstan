@@ -1,7 +1,7 @@
 # Todo — Keith Dunstan Archive
 
 Tracking outstanding work across all active workstreams.
-Last updated: 13 September 2026.
+Last updated: 15 August 2026.
 
 **Status legend used throughout this file:**
 
@@ -134,7 +134,7 @@ The book's contents page (`src/a-day-in-the-life-of-australia.njk`) lists **258 
 | The Bulletin | 95 | 4 | ~1,545 | 34 "Around Melbourne" columns (Mar–Dec 1962) transcribed from manually-scanned photos 28–29 Jul 2026; 11 more 1963 columns transcribed the same way 29 Jul–18 Aug 2026; 38 more (33 1963–64 + 5 dropped in mid-session, all JPEG scans) transcribed 19 Aug 2026 — see the dedicated JPEG-scan batch note above. Separate from the untouched Trove stub pipeline. See §6 for the Trove pipeline; known-missing/incomplete titles listed above (2 pre-existing PNG cases + 2 newly-found incomplete "Out and About" JPEG scans) |
 | Walkabout Magazine | 17 | 1 | 0 | 18 known articles per site total; 17 now transcribed and live (31 Jul 2026 — see Completed section), 1 outstanding awaiting a scan (Collins Street Charm) — see list below |
 | The Australian Gourmet | 1 | — | Not in Trove | Extent of Keith's total output for this title is unknown; physical copies needed |
-| The Age (post-1954) | 32 | 1 known ("On the right side of Tuscany", 2 May 1989) | Not in Trove | 17 flat (undated/misc) + 5 from 1984 scans + 3 from 1985 scans + 7 from 1986 scans live. 97 stubs in vault (hidden): 3×1984, 14×1985, 80×1986. See note below |
+| The Age (post-1954) | 9 | 1 known ("On the right side of Tuscany", 2 May 1989) | Not in Trove | Not digitised in Trove. ProQuest explored 3 Aug 2026 — capped at 8 pullable articles for this title; all 8 transcribed and live, plus 1 more (obituary of Richard Cudlipp) sourced separately. See note below |
 | Home Beautiful | 0 | 8 known issues (Dec 1949 – Feb 1951, `src/writing.njk`) | Not in Trove | Not yet sourced |
 
 ### Walkabout — 1 outstanding, known title
@@ -142,20 +142,6 @@ The book's contents page (`src/a-day-in-the-life-of-australia.njk`) lists **258 
 *(Updated 31 Jul 2026 — the other 14 in this list, plus Paddy's Market to Luxury Hotel, Epicurean Melbourne, Freedom of Beach and From Prickly Pear to Petroleum, which were already live but miscounted in the table above, are all now transcribed. See Completed section for the full current list of 17 live Walkabout articles.)*
 
 - [ ] Collins Street Charm — `1968-12-01` — no scan yet uploaded to `trove/output/walkabout/scans/`; needs a physical scan before it can be transcribed. Not possible at this stage (Updated 29 Jul 2026). Pages missing or not scanned in Trove's colelctionz
-
-### The Age — scan stubs (updated Sep 2026)
-
-Newspaper PDFs (ProQuest/Trove scans) are in `src/articles/the-age/[YEAR]/`. Vault stubs in `vault/articles/the-age/[YEAR]/` are hidden from the site via `eleventyExcludeFromCollections: true`.
-
-**1984 — 3 stubs remaining** (5 of 8 KD-byline PDFs transcribed):
-- [ ] `1984-01-21` — garbled multi-column OCR; article is about video disc/home recording technology
-- [ ] `1984-03-17` — garbled multi-column OCR; article is about punk band "I Spit in Your Gravy"
-- [ ] `1984-11-17` — co-authored with Debbie Spillane; very garbled OCR
-
-**1985 — 14 stubs remaining** (3 of 17 KD-byline files transcribed; 3 deleted as non-KD/duplicates):
-All 14 are incomplete scans — the article continues on a page not captured in the PDF. Needs ProQuest or physical retrieval for continuation. Dates: 1985-06-29, 1985-07-06, 1985-08-17, 1985-09-27-2, 1985-10-04, 1985-10-18, 1985-10-26, 1985-11-08, 1985-11-15, 1985-11-23, 1985-11-23-2, 1985-11-29, 1985-12-14, 1985-12-20.
-
-**1986 — 80 stubs remaining** (7 of 83 KD-byline PDFs transcribed: 1986-01-24, 1986-01-25, 1986-02-14, 1986-02-28-2, 1986-05-30, 1986-07-26, 1986-12-12). The majority of scans are truncated (article continues on a page not captured in the PDF). Complete articles found so far follow the "My Sunday" Good Weekend profile format and fit on a single page. Stubs have `eleventyExcludeFromCollections: true`.
 
 ### The Age — ProQuest explored, resource exhausted
 
@@ -342,6 +328,7 @@ For publications not in Trove, physical copies must be sourced and scanned. Foll
 ---
 
 ## 8. Site — Technical
+- [ ] **Dangling reference: `CLAUDE.md` points to a `src/assets/images/CLAUDE.md` that doesn't exist.** Found 7 Sep 2026 while auditing docs for the vault-as-content-authority migration (out of scope for that task, so not fixed then). The main `CLAUDE.md`'s "Key constraints" section says "Adding, sourcing or crediting any image: see `src/assets/images/CLAUDE.md` first" for rights clearance/sidecar records/credit formatting — no such file exists anywhere in the repo (`find . -iname "CLAUDE.md"` returns only the root one). Either the nested file was never created, or it existed once and was deleted/never committed. Needs a decision: write the missing file (if the rights-clearance/credit conventions it's supposed to govern still need documenting somewhere), or remove the dangling reference from the root `CLAUDE.md` if that guidance now lives elsewhere or is no longer needed.
 - [x] **Sort tags alphabetically across all existing files** — done 26 Aug 2026. Verified against `CLAUDE.md`'s case-insensitive, leading-article-ignoring rule using the same `gray-matter` parser the codebase already uses elsewhere: 139 of 298 `src/articles/`/`src/books/` files had `tags:` out of order. Fixed with a one-off script that reordered each file's existing `- tag` lines in place (verified via a dry run first, then confirmed the real run's diff was a pure permutation — 683 insertions/683 deletions, equal counts, no line added or removed) rather than re-serializing YAML, so quoting/formatting is untouched. Full `npx eleventy` build confirmed clean afterward (2192 files, no errors).
 - [ ] **Review `src/robots.txt` AI-crawler list quarterly** — user-agent names for AI search/retrieval vs. model-training crawlers churn more than anything else on the site; next review due Oct 2026. See also `/licence/`, `/llms.txt` and `/.well-known/tdmrep.json` (added 29 Jul 2026) — the reuse/licensing signals all reference each other and should be reviewed together.
 - [ ] **OG descrptions — add summaries from 'Topic' pages to OG descriptions
