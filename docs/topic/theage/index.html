@@ -1,0 +1,1293 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Topic: theage</title>
+<meta name="title" content="Topic: theage">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="The collected literary works of Keith Dunstan OAM">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://keithdunstan.org/topic/theage/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Topic: theage">
+<meta property="og:description" content="The collected literary works of Keith Dunstan OAM">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Topic: theage">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/topic/theage/">
+<meta name="twitter:title" content="Topic: theage">
+<meta name="twitter:description" content="The collected literary works of Keith Dunstan OAM">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Topic: theage">
+<link rel="canonical" href="https://keithdunstan.org/topic/theage/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-lg-10 col-xl-8">
+          <header>
+      <h1 class="h2 mb-2">Topic: theage</h1>
+</header>
+
+
+  
+  
+  <p class="text-muted mb-1">32 items include the topic of theage.</p>
+  <p class="fst-italic text-muted mb-5"></p>
+  <div class="row d-flex justify-content-center">
+  <div class="col-12">
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/1984/1984-04-03/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Americans sure are normal enough to live in Adelaide”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1984-04-03">03 Apr 1984</time>
+        </p>
+
+        <p>Returning from California, Keith Dunstan argues the United States is one of the most normal places on earth, and that Australian country motel breakfasts — three-ply toast, instant coffee — make a sorry contrast to American roadside hotcakes.</p>
+
+        <a href="/articles/the-age/1984/1984-04-03/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/adelaide/" class="link-secondary">Adelaide</a>,
+              
+              <a href="/topic/california/" class="link-secondary">California</a>,
+              
+              <a href="/topic/santa-monica/" class="link-secondary">Santa Monica</a>,
+              
+              <a href="/topic/toorak-road/" class="link-secondary">Toorak Road</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/1984/1984-05-06/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“I&#39;ve really had an earful...”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1984-05-06">06 May 1984</time>
+        </p>
+
+        <p>A comic survey of the earring boom, from Elton John&#39;s diamond studs and Queen Elizabeth II&#39;s pearls to the domestic hazards of pierced ears in a household of daughters.</p>
+
+        <a href="/articles/the-age/1984/1984-05-06/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/elton-john/" class="link-secondary">Elton John</a>,
+              
+              <a href="/topic/queen-elizabeth-ii/" class="link-secondary">Queen Elizabeth II</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/1984/1984-05-12/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Stand by as the get-away becomes a give-away”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1984-05-12">12 May 1984</time>
+        </p>
+
+        <p>A tour through airline brochures reveals the extraordinary lengths carriers are going to in 1984 to win custom, from Dom Perignon in Waterford Crystal to Delft liqueur houses and Sony Walkman headsets.</p>
+
+        <a href="/articles/the-age/1984/1984-05-12/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/klm/" class="link-secondary">KLM</a>,
+              
+              <a href="/topic/pan-am/" class="link-secondary">Pan Am</a>,
+              
+              <a href="/topic/qantas/" class="link-secondary">Qantas</a>,
+              
+              <a href="/topic/sas/" class="link-secondary">SAS</a>,
+              
+              <a href="/topic/singapore-airlines/" class="link-secondary">Singapore Airlines</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/1984/1984-05-20/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Know him? We&#39;ve just kissed.”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1984-05-20">20 May 1984</time>
+        </p>
+
+        <p>A 1984 photograph of Prince Charles kissing Prince Edward on the cheek prompts a survey of the social kissing boom, from Brezhnev lifting Kissinger bodily off the ground to the art of the cocktail party fake-kiss.</p>
+
+        <a href="/articles/the-age/1984/1984-05-20/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/bert-newton/" class="link-secondary">Bert Newton</a>,
+              
+              <a href="/topic/dennis-lillee/" class="link-secondary">Dennis Lillee</a>,
+              
+              <a href="/topic/desmond-haynes/" class="link-secondary">Desmond Haynes</a>,
+              
+              <a href="/topic/geoff-lawson/" class="link-secondary">Geoff Lawson</a>,
+              
+              <a href="/topic/henry-kissinger/" class="link-secondary">Henry Kissinger</a>,
+              
+              <a href="/topic/jimmy-carter/" class="link-secondary">Jimmy Carter</a>,
+              
+              <a href="/topic/leonid-brezhnev/" class="link-secondary">Leonid Brezhnev</a>,
+              
+              <a href="/topic/michael-parkinson/" class="link-secondary">Michael Parkinson</a>,
+              
+              <a href="/topic/prince-charles/" class="link-secondary">Prince Charles</a>,
+              
+              <a href="/topic/prince-edward/" class="link-secondary">Prince Edward</a>,
+              
+              <a href="/topic/queen-mother/" class="link-secondary">Queen Mother</a>,
+              
+              <a href="/topic/viv-richards/" class="link-secondary">Viv Richards</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/1984/1984-06-10/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“The Punks at the Automatic Teller”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1984-06-10">10 Jun 1984</time>
+        </p>
+
+        <p>A visit to Melbourne&#39;s punk hairdressers reveals the engineering behind the Apache-strip, the bobtail, and the scrunch, all of it driven not by political protest but by the desire to look like Boy George.</p>
+
+        <a href="/articles/the-age/1984/1984-06-10/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/boy-george/" class="link-secondary">Boy George</a>,
+              
+              <a href="/topic/wrest-point-casino/" class="link-secondary">Wrest Point Casino</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/1985/1985-07-28/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Good Lord! — or, an appeal to Mr Packer on a silly cut-off”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1985-07-28">28 Jul 1985</time>
+        </p>
+
+        <p>An open letter to Kerry Packer protesting Channel Nine&#39;s threatened withdrawal of cricket television coverage, arguing Australians are so devoted to the sport that any government permitting its removal from free-to-air TV would face electoral consequences.</p>
+
+        <a href="/articles/the-age/1985/1985-07-28/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/alan-mcgilvray/" class="link-secondary">Alan McGilvray</a>,
+              
+              <a href="/topic/bill-peach/" class="link-secondary">Bill Peach</a>,
+              
+              <a href="/topic/geoff-lawson/" class="link-secondary">Geoff Lawson</a>,
+              
+              <a href="/topic/graham-gooch/" class="link-secondary">Graham Gooch</a>,
+              
+              <a href="/topic/ian-chappell/" class="link-secondary">Ian Chappell</a>,
+              
+              <a href="/topic/kerry-packer/" class="link-secondary">Kerry Packer</a>,
+              
+              <a href="/topic/michael-duffy/" class="link-secondary">Michael Duffy</a>,
+              
+              <a href="/topic/mike-willesee/" class="link-secondary">Mike Willesee</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/1985/1985-09-27/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Worm Fans Rout Norm”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1985-09-27">27 Sep 1985</time>
+        </p>
+
+        <p>A wry observation on Melbourne&#39;s graffiti war over imprisoned BLF leader Norm Gallagher, whose &quot;Free Norm&quot; slogans rivals were altering by turning the N into a W, prompting a wish for a CSIRO spray that could erase all such propaganda from the city&#39;s walls.</p>
+
+        <a href="/articles/the-age/1985/1985-09-27/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/blf/" class="link-secondary">BLF</a>,
+              
+              <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>,
+              
+              <a href="/topic/csiro/" class="link-secondary">CSIRO</a>,
+              
+              <a href="/topic/flinders-street-station/" class="link-secondary">Flinders Street Station</a>,
+              
+              <a href="/topic/john-cain/" class="link-secondary">John Cain</a>,
+              
+              <a href="/topic/nauru-house/" class="link-secondary">Nauru House</a>,
+              
+              <a href="/topic/ned-kelly/" class="link-secondary">Ned Kelly</a>,
+              
+              <a href="/topic/norm-gallagher/" class="link-secondary">Norm Gallagher</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/1985/1985-12-06/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“The Gallery of Sport Waits for Norm”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1985-12-06">06 Dec 1985</time>
+        </p>
+
+        <p>A wry lament over the Victorian Gallery of Sport at the MCG, still unfinished after months of BLF stoppages, demarcation disputes, and a walkout triggered by Premier John Cain&#39;s site visit, with completion now pushed to April 1986 at a cost overrun of $1.5 million.</p>
+
+        <a href="/articles/the-age/1985/1985-12-06/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/australian-workers&#39;-union/" class="link-secondary">Australian Workers&#39; Union</a>,
+              
+              <a href="/topic/blf/" class="link-secondary">BLF</a>,
+              
+              <a href="/topic/bryce-thomas/" class="link-secondary">Bryce Thomas</a>,
+              
+              <a href="/topic/dawn-fraser/" class="link-secondary">Dawn Fraser</a>,
+              
+              <a href="/topic/don-bradman/" class="link-secondary">Don Bradman</a>,
+              
+              <a href="/topic/frank-sedgman/" class="link-secondary">Frank Sedgman</a>,
+              
+              <a href="/topic/hubert-opperman/" class="link-secondary">Hubert Opperman</a>,
+              
+              <a href="/topic/jimmy-carruthers/" class="link-secondary">Jimmy Carruthers</a>,
+              
+              <a href="/topic/john-cain/" class="link-secondary">John Cain</a>,
+              
+              <a href="/topic/john-landy/" class="link-secondary">John Landy</a>,
+              
+              <a href="/topic/melbourne-cricket-ground/" class="link-secondary">Melbourne Cricket Ground</a>,
+              
+              <a href="/topic/norm-gallagher/" class="link-secondary">Norm Gallagher</a>,
+              
+              <a href="/topic/robert-de-castella/" class="link-secondary">Robert de Castella</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/1986/1986-01-24/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Elephants Return to the Fold”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1986-01-24">24 Jan 1986</time>
+        </p>
+
+        <p>Hildegard Kamphausen, owner of the Chateau Wyuna restaurant at Mt Evelyn, acquired a deconsecrated 1909 Church of Christ from Montrose and had it moved two and a half kilometres to her property, transforming it into a wedding chapel booked months in advance.</p>
+
+        <a href="/articles/the-age/1986/1986-01-24/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/chateau-wyuna/" class="link-secondary">Chateau Wyuna</a>,
+              
+              <a href="/topic/church-of-christ/" class="link-secondary">Church of Christ</a>,
+              
+              <a href="/topic/nellie-melba/" class="link-secondary">Nellie Melba</a>,
+              
+              <a href="/topic/hildegard-kamphausen/" class="link-secondary">Hildegard Kamphausen</a>,
+              
+              <a href="/topic/mt-evelyn/" class="link-secondary">Mt Evelyn</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/1986/1986-01-25/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Herman Schneider&#39;s Sunday”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1986-01-25">25 Jan 1986</time>
+        </p>
+
+        <p>A profile of Swiss-born Melbourne restaurateur Herman Schneider, whose supposedly sacred Sunday off from running Two Faces in South Yarra and Roesti in Hardware Street was inevitably eaten up by market runs, wine tastings, and anxious checks on both restaurants.</p>
+
+        <a href="/articles/the-age/1986/1986-01-25/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/hardware-street/" class="link-secondary">Hardware Street</a>,
+              
+              <a href="/topic/herman-schneider/" class="link-secondary">Herman Schneider</a>,
+              
+              <a href="/topic/roesti/" class="link-secondary">Roesti</a>,
+              
+              <a href="/topic/south-yarra/" class="link-secondary">South Yarra</a>,
+              
+              <a href="/topic/two-faces/" class="link-secondary">Two Faces</a>,
+              
+              <a href="/topic/wantirna/" class="link-secondary">Wantirna</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/1986/1986-02-14/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Hector Crawford&#39;s Sunday”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1986-02-14">14 Feb 1986</time>
+        </p>
+
+        <p>A profile of Hector Crawford and soprano Glenda Raymond, the Melbourne entertainment power couple whose Sunday tennis club on Toorak Road attracted judges, academics and portrait painters, followed by an evening screening Crawford Productions footage for the Nine Network.</p>
+
+        <a href="/articles/the-age/1986/1986-02-14/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/crawford-productions/" class="link-secondary">Crawford Productions</a>,
+              
+              <a href="/topic/glenda-raymond/" class="link-secondary">Glenda Raymond</a>,
+              
+              <a href="/topic/hector-crawford/" class="link-secondary">Hector Crawford</a>,
+              
+              <a href="/topic/lake-eildon/" class="link-secondary">Lake Eildon</a>,
+              
+              <a href="/topic/nine-network/" class="link-secondary">Nine Network</a>,
+              
+              <a href="/topic/william-dargie/" class="link-secondary">William Dargie</a>,
+              
+              <a href="/topic/zelman-cowen/" class="link-secondary">Zelman Cowen</a>,
+              
+              <a href="/topic/toorak-road/" class="link-secondary">Toorak Road</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/1986/1986-02-28-2/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“As Organic and Good Earth as All Hell”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1986-02-28">28 Feb 1986</time>
+        </p>
+
+        <p>A visit to the Red Hill Market on the Mornington Peninsula, the monthly produce and craft market that began in 1976 with 22 stalls and by its tenth anniversary had grown to 210, drawing crowds from across Victoria and as far as Adelaide.</p>
+
+        <a href="/articles/the-age/1986/1986-02-28-2/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/mornington-peninsula/" class="link-secondary">Mornington Peninsula</a>,
+              
+              <a href="/topic/portsea/" class="link-secondary">Portsea</a>,
+              
+              <a href="/topic/red-hill/" class="link-secondary">Red Hill</a>,
+              
+              <a href="/topic/tony-barber/" class="link-secondary">Tony Barber</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/1986/1986-05-30/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Peter Russell-Clarke&#39;s Sunday”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1986-05-30">30 May 1986</time>
+        </p>
+
+        <p>A Good Weekend &quot;My Sunday&quot; profile of Peter Russell-Clarke at Soho, his century-old farm on Victoria&#39;s Bellarine Peninsula, where cooking experiments, Queenscliff fish, long lunches and a mob of more than fifty peacocks define his country weekends.</p>
+
+        <a href="/articles/the-age/1986/1986-05-30/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/bellarine-peninsula/" class="link-secondary">Bellarine Peninsula</a>,
+              
+              <a href="/topic/peter-russell-clarke/" class="link-secondary">Peter Russell-Clarke</a>,
+              
+              <a href="/topic/point-nepean/" class="link-secondary">Point Nepean</a>,
+              
+              <a href="/topic/queenscliff/" class="link-secondary">Queenscliff</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/1986/1986-07-26/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“David Penman&#39;s Sunday”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1986-07-26">26 Jul 1986</time>
+        </p>
+
+        <p>A Good Weekend &quot;My Sunday&quot; profile of David Penman, Anglican Archbishop of Melbourne, tracing his weekend from midnight NBC news to parish rounds, Wimbledon tennis, and his growing collection of more than 40 wombat figurines.</p>
+
+        <a href="/articles/the-age/1986/1986-07-26/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/australian-rules-football/" class="link-secondary">Australian Rules Football</a>,
+              
+              <a href="/topic/bishopscourt/" class="link-secondary">Bishopscourt</a>,
+              
+              <a href="/topic/carlton-football-club/" class="link-secondary">Carlton Football Club</a>,
+              
+              <a href="/topic/david-penman/" class="link-secondary">David Penman</a>,
+              
+              <a href="/topic/east-melbourne/" class="link-secondary">East Melbourne</a>,
+              
+              <a href="/topic/frank-little/" class="link-secondary">Frank Little</a>,
+              
+              <a href="/topic/melbourne-cricket-ground/" class="link-secondary">Melbourne Cricket Ground</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/1986/1986-12-12/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Frank Little&#39;s Sunday”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1986-12-12">12 Dec 1986</time>
+        </p>
+
+        <p>A Good Weekend &quot;My Sunday&quot; profile of Frank Little, Catholic Archbishop of Melbourne, whose Sundays run to three or four different homilies, an Italian Mass he preaches in Italian, and a Monday golf game at Metropolitan that recently ended when he stepped off the sixth tee.</p>
+
+        <a href="/articles/the-age/1986/1986-12-12/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/david-penman/" class="link-secondary">David Penman</a>,
+              
+              <a href="/topic/essendon-football-club/" class="link-secondary">Essendon Football Club</a>,
+              
+              <a href="/topic/frank-little/" class="link-secondary">Frank Little</a>,
+              
+              <a href="/topic/kevin-sheedy/" class="link-secondary">Kevin Sheedy</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/metropolitan-golf-course/" class="link-secondary">Metropolitan Golf Course</a>,
+              
+              <a href="/topic/st-patrick&#39;s-cathedral/" class="link-secondary">St Patrick&#39;s Cathedral</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/this-street-was-made-for-walking/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“This street was made for walking”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1997-10-13">13 Oct 1997</time>
+        </p>
+
+        <p>A defence of the pedestrianised Swanston Walk against councillors pushing to reopen it to traffic, citing survey figures showing it as the busiest pedestrian corner in Melbourne and the return of retailers like Levi Strauss and Nike.</p>
+
+        <a href="/articles/the-age/this-street-was-made-for-walking/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/box-hill/" class="link-secondary">Box Hill</a>,
+              
+              <a href="/topic/burke-and-wills/" class="link-secondary">Burke and Wills</a>,
+              
+              <a href="/topic/citylink/" class="link-secondary">CityLink</a>,
+              
+              <a href="/topic/david-bardas/" class="link-secondary">David Bardas</a>,
+              
+              <a href="/topic/elizabeth-street/" class="link-secondary">Elizabeth Street</a>,
+              
+              <a href="/topic/levi-strauss/" class="link-secondary">Levi Strauss</a>,
+              
+              <a href="/topic/nike/" class="link-secondary">Nike</a>,
+              
+              <a href="/topic/swanston-street/" class="link-secondary">Swanston Street</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/the-happy-thwack-of-cash-on-willow/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“The happy thwack of cash on willow”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1997-10-27">27 Oct 1997</time>
+        </p>
+
+        <p>A meditation on cricket&#39;s transformation from a game of beautifully organised boredom, best enjoyed dozing at the Melbourne Cricket Ground, into a business fought over by players threatening strike action for a share of ballooning sponsorship money.</p>
+
+        <a href="/articles/the-age/the-happy-thwack-of-cash-on-willow/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/3lo/" class="link-secondary">3LO</a>,
+              
+              <a href="/topic/bay-13/" class="link-secondary">Bay 13</a>,
+              
+              <a href="/topic/dennis-lillee/" class="link-secondary">Dennis Lillee</a>,
+              
+              <a href="/topic/donald-cordner/" class="link-secondary">Donald Cordner</a>,
+              
+              <a href="/topic/john-arlott/" class="link-secondary">John Arlott</a>,
+              
+              <a href="/topic/melbourne-cricket-ground/" class="link-secondary">Melbourne Cricket Ground</a>,
+              
+              <a href="/topic/shane-warne/" class="link-secondary">Shane Warne</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/harbor-no-grudge-its-better-here/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Harbor no grudge, it&#39;s better here; The bay and me”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1997-12-29">29 Dec 1997</time>
+        </p>
+
+        <p>A Boxing Day case for Port Phillip Bay over its more celebrated rival, touring favourite spots from Sea Winds and Point Nepean to the Sorrento ferry and a flathead-fishing trip with mate Doug Crittenden.</p>
+
+        <a href="/articles/the-age/harbor-no-grudge-its-better-here/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/arthurs-seat/" class="link-secondary">Arthurs Seat</a>,
+              
+              <a href="/topic/clarice-beckett/" class="link-secondary">Clarice Beckett</a>,
+              
+              <a href="/topic/doug-crittenden/" class="link-secondary">Doug Crittenden</a>,
+              
+              <a href="/topic/point-nepean/" class="link-secondary">Point Nepean</a>,
+              
+              <a href="/topic/port-phillip-bay/" class="link-secondary">Port Phillip Bay</a>,
+              
+              <a href="/topic/portsea/" class="link-secondary">Portsea</a>,
+              
+              <a href="/topic/queenscliff/" class="link-secondary">Queenscliff</a>,
+              
+              <a href="/topic/sorrento/" class="link-secondary">Sorrento</a>,
+              
+              <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>,
+              
+              <a href="/topic/sydney-harbour/" class="link-secondary">Sydney Harbour</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/moombas-and-shakers/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Moombas and shakers”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1998-03-05">05 Mar 1998</time>
+        </p>
+
+        <p>A profile of the Wittingslow family, the fairground dynasty who have run Moomba&#39;s rides and sideshows since patriarch Tom Wittingslow started out guessing weights at Penny Land in 1932, and who now stage the festival itself.</p>
+
+        <a href="/articles/the-age/moombas-and-shakers/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/alexandra-gardens/" class="link-secondary">Alexandra Gardens</a>,
+              
+              <a href="/topic/australian-ballet/" class="link-secondary">Australian Ballet</a>,
+              
+              <a href="/topic/batman-avenue/" class="link-secondary">Batman Avenue</a>,
+              
+              <a href="/topic/federation-square/" class="link-secondary">Federation Square</a>,
+              
+              <a href="/topic/luna-park/" class="link-secondary">Luna Park</a>,
+              
+              <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+              
+              <a href="/topic/sidney-myer-music-bowl/" class="link-secondary">Sidney Myer Music Bowl</a>,
+              
+              <a href="/topic/wittingslow-family/" class="link-secondary">Wittingslow family</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/a-new-clutch-of-ugly-ducklings-blots-the-cityscape/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“A new clutch of ugly ducklings blots the cityscape”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1998-08-08">08 Aug 1998</time>
+        </p>
+
+        <p>A nomination round for Melbourne&#39;s ugliest sights, from the Foxtel and Optus advertising signs looming over the historic Young and Jackson&#39;s Hotel to the kitsch interior of the new Imax Theatre and the warring columns of 101 Collins Street.</p>
+
+        <a href="/articles/the-age/a-new-clutch-of-ugly-ducklings-blots-the-cityscape/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/crown-casino/" class="link-secondary">Crown Casino</a>,
+              
+              <a href="/topic/foxtel/" class="link-secondary">Foxtel</a>,
+              
+              <a href="/topic/hopetoun-road/" class="link-secondary">Hopetoun Road</a>,
+              
+              <a href="/topic/imax-theatre/" class="link-secondary">Imax Theatre</a>,
+              
+              <a href="/topic/moorabbin-town-hall/" class="link-secondary">Moorabbin Town Hall</a>,
+              
+              <a href="/topic/optus/" class="link-secondary">Optus</a>,
+              
+              <a href="/topic/public-transport-corporation/" class="link-secondary">Public Transport Corporation</a>,
+              
+              <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+              
+              <a href="/topic/yarra-river/" class="link-secondary">Yarra River</a>,
+              
+              <a href="/topic/young-and-jacksons-hotel/" class="link-secondary">Young and Jacksons Hotel</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/on-the-right-track-at-last/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“On the right track at last”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1998-10-31">31 Oct 1998</time>
+        </p>
+
+        <p>The Lilydale-Warburton Rail Trail opens along a disused line closed by Henry Bolte in 1964, part of a growing Victorian movement converting old railway corridors into 36 kilometres of bush trail free of motor vehicles.</p>
+
+        <a href="/articles/the-age/on-the-right-track-at-last/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/east-gippsland-trail/" class="link-secondary">East Gippsland Trail</a>,
+              
+              <a href="/topic/great-southern-trail/" class="link-secondary">Great Southern Trail</a>,
+              
+              <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+              
+              <a href="/topic/lilydale-warburton-rail-trail/" class="link-secondary">Lilydale-Warburton Rail Trail</a>,
+              
+              <a href="/topic/mount-donna-buang/" class="link-secondary">Mount Donna Buang</a>,
+              
+              <a href="/topic/okeefe-trail/" class="link-secondary">OKeefe Trail</a>,
+              
+              <a href="/topic/warburton/" class="link-secondary">Warburton</a>,
+              
+              <a href="/topic/woori-yallock-creek/" class="link-secondary">Woori Yallock Creek</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/once-a-vision-now-a-site-for-sore-eyes/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Once a vision, now a site for sore eyes”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1998-11-14">14 Nov 1998</time>
+        </p>
+
+        <p>The gutted, empty Southern Cross Hotel four years after the Nauru Government&#39;s redevelopment plans collapsed, and a look back at the lively Eastern Market it replaced in the 1960s, the market where C.J. Dennis&#39;s Sentimental Bloke first met Doreen.</p>
+
+        <a href="/articles/the-age/once-a-vision-now-a-site-for-sore-eyes/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/the-beatles/" class="link-secondary">The Beatles</a>,
+              
+              <a href="/topic/bourke-street/" class="link-secondary">Bourke Street</a>,
+              
+              <a href="/topic/c.j.-dennis/" class="link-secondary">C.J. Dennis</a>,
+              
+              <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>,
+              
+              <a href="/topic/e.w.-cole/" class="link-secondary">E.W. Cole</a>,
+              
+              <a href="/topic/eastern-market/" class="link-secondary">Eastern Market</a>,
+              
+              <a href="/topic/national-mutual-centre/" class="link-secondary">National Mutual Centre</a>,
+              
+              <a href="/topic/nauru/" class="link-secondary">Nauru</a>,
+              
+              <a href="/topic/southern-cross-hotel/" class="link-secondary">Southern Cross Hotel</a>,
+              
+              <a href="/topic/western-market/" class="link-secondary">Western Market</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/after-500-kilometres-still-the-kings-and-queens-of-the-road/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“After 500 kilometres, still the kings (and queens) of the road”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1998-12-05">05 Dec 1998</time>
+        </p>
+
+        <p>The 15th Great Victorian Bike Ride brings 2100 cyclists 500 kilometres from Wahgunyah to Melbourne, among them 83-year-old veteran Alan &quot;Curly&quot; Hartup and the ride&#39;s youngest finisher, nine-year-old Anna Clements.</p>
+
+        <a href="/articles/the-age/after-500-kilometres-still-the-kings-and-queens-of-the-road/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/alan-hartup/" class="link-secondary">Alan Hartup</a>,
+              
+              <a href="/topic/alexandra/" class="link-secondary">Alexandra</a>,
+              
+              <a href="/topic/benalla/" class="link-secondary">Benalla</a>,
+              
+              <a href="/topic/elsternwick/" class="link-secondary">Elsternwick</a>,
+              
+              <a href="/topic/geelong-grammar-school/" class="link-secondary">Geelong Grammar School</a>,
+              
+              <a href="/topic/great-victorian-bike-ride/" class="link-secondary">Great Victorian Bike Ride</a>,
+              
+              <a href="/topic/myrtleford/" class="link-secondary">Myrtleford</a>,
+              
+              <a href="/topic/newstead/" class="link-secondary">Newstead</a>,
+              
+              <a href="/topic/vicroads/" class="link-secondary">VicRoads</a>,
+              
+              <a href="/topic/wahgunyah/" class="link-secondary">Wahgunyah</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/obituary-richard-cudlipp/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Obituary: Richard Cudlipp”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1999-05-12">12 May 1999</time>
+        </p>
+
+        <p>An obituary for advertising executive Dick Cudlipp, who rose to managing director of George Patterson Bates in 1965, drove Carlton and United Breweries&#39; campaign against the Courage Brewery, and later became a Western District cattle and vineyard grazier.</p>
+
+        <a href="/articles/the-age/obituary-richard-cudlipp/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/bendigo/" class="link-secondary">Bendigo</a>,
+              
+              <a href="/topic/carlton-and-united-breweries/" class="link-secondary">Carlton and United Breweries</a>,
+              
+              <a href="/topic/courage-brewery/" class="link-secondary">Courage Brewery</a>,
+              
+              <a href="/topic/george-patterson-bates/" class="link-secondary">George Patterson Bates</a>,
+              
+              <a href="/topic/kingston-heath/" class="link-secondary">Kingston Heath</a>,
+              
+              <a href="/topic/kyneton/" class="link-secondary">Kyneton</a>,
+              
+              <a href="/topic/richard-cudlipp/" class="link-secondary">Richard Cudlipp</a>,
+              
+              <a href="/topic/sydney-grammar/" class="link-secondary">Sydney Grammar</a>,
+              
+              <a href="/topic/victoria-bitter/" class="link-secondary">Victoria Bitter</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/joy-of-sport-lost-in-a-country-that-takes-it-far-too-seriously/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Joy of sport lost in a country that takes it far too seriously”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="2010-12-29">29 Dec 2010</time>
+        </p>
+
+        <p>Reflects on Australia&#39;s outsized reaction to the 2010-11 Ashes loss under Ricky Ponting, arguing the country has forgotten that sport, unlike genuine disasters such as Cyclone Tracy, is meant to be enjoyed regardless of the result.</p>
+
+        <a href="/articles/the-age/joy-of-sport-lost-in-a-country-that-takes-it-far-too-seriously/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/ashes/" class="link-secondary">Ashes</a>,
+              
+              <a href="/topic/bogle-chandler-case/" class="link-secondary">Bogle-Chandler case</a>,
+              
+              <a href="/topic/cyclone-tracy/" class="link-secondary">Cyclone Tracy</a>,
+              
+              <a href="/topic/d.-h.-lawrence/" class="link-secondary">D. H. Lawrence</a>,
+              
+              <a href="/topic/davis-cup/" class="link-secondary">Davis Cup</a>,
+              
+              <a href="/topic/henry-lawson/" class="link-secondary">Henry Lawson</a>,
+              
+              <a href="/topic/julia-gillard/" class="link-secondary">Julia Gillard</a>,
+              
+              <a href="/topic/kevin-rudd/" class="link-secondary">Kevin Rudd</a>,
+              
+              <a href="/topic/pat-rafter/" class="link-secondary">Pat Rafter</a>,
+              
+              <a href="/topic/percy-cerutty/" class="link-secondary">Percy Cerutty</a>,
+              
+              <a href="/topic/ricky-ponting/" class="link-secondary">Ricky Ponting</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/plagues-be-upon-us-lets-hope-for-no-divine-retribution/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Plagues be upon us, let&#39;s hope for no divine retribution”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="2011-01-04">04 Jan 2011</time>
+        </p>
+
+        <p>A mock-biblical catalogue of Melbourne&#39;s afflictions during a wet 2010, led by a possum population boom under the Wildlife Act, and running through cars, mobile phones, football and noisy restaurants via the ten plagues of Exodus.</p>
+
+        <a href="/articles/the-age/plagues-be-upon-us-lets-hope-for-no-divine-retribution/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/book-of-exodus/" class="link-secondary">Book of Exodus</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/midsomer-murders/" class="link-secondary">Midsomer Murders</a>,
+              
+              <a href="/topic/poirot/" class="link-secondary">Poirot</a>,
+              
+              <a href="/topic/victoria/" class="link-secondary">Victoria</a>,
+              
+              <a href="/topic/wildlife-act-1975/" class="link-secondary">Wildlife Act 1975</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/its-crunch-time-for-melbourne-we-need-a-congestion-tax/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“It&#39;s crunch time for Melbourne: we need a congestion tax”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="2011-01-27">27 Jan 2011</time>
+        </p>
+
+        <p>Argues Melbourne should follow London and Stockholm in adopting a congestion tax to break the city&#39;s addiction to the motor car, citing Bicycle Victoria figures on the rising share of peak-hour commuter cyclists.</p>
+
+        <a href="/articles/the-age/its-crunch-time-for-melbourne-we-need-a-congestion-tax/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/bicycle-victoria/" class="link-secondary">Bicycle Victoria</a>,
+              
+              <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/metro-trains/" class="link-secondary">Metro Trains</a>,
+              
+              <a href="/topic/peter-ryan/" class="link-secondary">Peter Ryan</a>,
+              
+              <a href="/topic/ted-baillieu/" class="link-secondary">Ted Baillieu</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/swear-fines-a-nonsense-when-invective-is-so-ineffective/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Swear fines a nonsense when invective is so ineffective”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="2011-06-06">06 Jun 2011</time>
+        </p>
+
+        <p>Marks new Victorian on-the-spot fines for swearing by recalling editor Michael Davie&#39;s landmark 1979 decision to print an obscenity in The Age, and proposes Paul Keating chair an inquiry into supplying Australians with fresh invective.</p>
+
+        <a href="/articles/the-age/swear-fines-a-nonsense-when-invective-is-so-ineffective/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/edouard-borovansky/" class="link-secondary">Edouard Borovansky</a>,
+              
+              <a href="/topic/michael-davie/" class="link-secondary">Michael Davie</a>,
+              
+              <a href="/topic/paul-keating/" class="link-secondary">Paul Keating</a>,
+              
+              <a href="/topic/john-williams/" class="link-secondary">John Williams</a>,
+              
+              <a href="/topic/skyhooks/" class="link-secondary">Skyhooks</a>,
+              
+              <a href="/topic/sun-news-pictorial/" class="link-secondary">Sun News-Pictorial</a>,
+              
+              <a href="/topic/ted-baillieu/" class="link-secondary">Ted Baillieu</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/all-i-know-about-ethics-i-learned-at-sword-point/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“All I know about ethics, I learned at sword-point”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="2011-07-17">17 Jul 2011</time>
+        </p>
+
+        <p>Recalls a career of manufactured tabloid outrage, from a fake letters-page furore over Myer&#39;s window mannequins to a night spent hiding in a wardrobe from a sword-wielding husband, prompted by reflecting on the collapse of the News of the World.</p>
+
+        <a href="/articles/the-age/all-i-know-about-ethics-i-learned-at-sword-point/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/1962-commonwealth-games/" class="link-secondary">1962 Commonwealth Games</a>,
+              
+              <a href="/topic/chelsea-flower-show/" class="link-secondary">Chelsea Flower Show</a>,
+              
+              <a href="/topic/geelong-grammar/" class="link-secondary">Geelong Grammar</a>,
+              
+              <a href="/topic/john-curtin-hotel/" class="link-secondary">John Curtin Hotel</a>,
+              
+              <a href="/topic/myer/" class="link-secondary">Myer</a>,
+              
+              <a href="/topic/news-of-the-world/" class="link-secondary">News of the World</a>,
+              
+              <a href="/topic/prince-charles/" class="link-secondary">Prince Charles</a>,
+              
+              <a href="/topic/prince-philip/" class="link-secondary">Prince Philip</a>,
+              
+              <a href="/topic/sun-news-pictorial/" class="link-secondary">Sun News-Pictorial</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/once-footy-dominated-our-lives-now-things-are-much-worse/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Once, footy dominated our lives. Now, things are much worse”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="2011-08-22">22 Aug 2011</time>
+        </p>
+
+        <p>Surveys the exponential growth of Australian Football League saturation since Keith Dunstan and Douglas Wilkie founded the Anti-Football League in 1967, from a single Saturday afternoon competition to year-round coverage, gambling and coaching sackings.</p>
+
+        <a href="/articles/the-age/once-footy-dominated-our-lives-now-things-are-much-worse/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/anti-football-league/" class="link-secondary">Anti-Football League</a>,
+              
+              <a href="/topic/australian-football-league/" class="link-secondary">Australian Football League</a>,
+              
+              <a href="/topic/dean-bailey/" class="link-secondary">Dean Bailey</a>,
+              
+              <a href="/topic/douglas-wilkie/" class="link-secondary">Douglas Wilkie</a>,
+              
+              <a href="/topic/melbourne-football-club/" class="link-secondary">Melbourne Football Club</a>,
+              
+              <a href="/topic/rupert-murdoch/" class="link-secondary">Rupert Murdoch</a>,
+              
+              <a href="/topic/shane-warne/" class="link-secondary">Shane Warne</a>,
+              
+              <a href="/topic/telstra/" class="link-secondary">Telstra</a>,
+              
+              <a href="/topic/victorian-football-league/" class="link-secondary">Victorian Football League</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/obituary-walter-joseph-hauser/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Obituary: Walter Joseph Hauser”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="2012-02-11">11 Feb 2012</time>
+        </p>
+
+        <p>An obituary for Walter Hauser, one of the touring Vienna Mozart Boys&#39; Choir singers stranded in Melbourne by the outbreak of war in 1939, who was taken in by Archbishop Daniel Mannix and went on to a career as an industrial chemist and Keith Dunstan&#39;s regular bridge partner.</p>
+
+        <a href="/articles/the-age/obituary-walter-joseph-hauser/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/austrian-club/" class="link-secondary">Austrian Club</a>,
+              
+              <a href="/topic/cabrini-hospital/" class="link-secondary">Cabrini Hospital</a>,
+              
+              <a href="/topic/daniel-mannix/" class="link-secondary">Daniel Mannix</a>,
+              
+              <a href="/topic/georg-gruber/" class="link-secondary">Georg Gruber</a>,
+              
+              <a href="/topic/melbourne-football-club/" class="link-secondary">Melbourne Football Club</a>,
+              
+              <a href="/topic/st-patrick&#39;s-cathedral/" class="link-secondary">St Patrick&#39;s Cathedral</a>,
+              
+              <a href="/topic/tatura/" class="link-secondary">Tatura</a>,
+              
+              <a href="/topic/vienna-mozart-boys&#39;-choir/" class="link-secondary">Vienna Mozart Boys&#39; Choir</a>,
+              
+              <a href="/topic/walter-hauser/" class="link-secondary">Walter Hauser</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/oh-for-the-daily-thud-on-my-lawn/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Oh, for the daily thud on my lawn”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="2012-06-21">21 Jun 2012</time>
+        </p>
+
+        <p>A tribute to the ritual of reading a printed daily newspaper in bed each morning, tracing Keith Dunstan&#39;s own newspaper family history against the decades-long death toll of Melbourne mastheads and Rupert Murdoch&#39;s prediction that print itself would be gone by 2020.</p>
+
+        <a href="/articles/the-age/oh-for-the-daily-thud-on-my-lawn/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/the-argus/" class="link-secondary">The Argus</a>,
+              
+              <a href="/topic/the-bulletin/" class="link-secondary">The Bulletin</a>,
+              
+              <a href="/topic/east-malvern/" class="link-secondary">East Malvern</a>,
+              
+              <a href="/topic/the-herald/" class="link-secondary">The Herald</a>,
+              
+              <a href="/topic/herald-and-weekly-times/" class="link-secondary">Herald and Weekly Times</a>,
+              
+              <a href="/topic/rupert-murdoch/" class="link-secondary">Rupert Murdoch</a>,
+              
+              <a href="/topic/tandberg/" class="link-secondary">Tandberg</a>
+          </p>
+        
+      </div>
+    
+  </div>
+</div>
+
+
+  <br>
+  <p>See <a href="/search/">all topics</a>.</p>
+
+
+
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

@@ -1,0 +1,933 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Topic: Moomba</title>
+<meta name="title" content="Topic: Moomba">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="The collected literary works of Keith Dunstan OAM">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://keithdunstan.org/topic/moomba/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Topic: Moomba">
+<meta property="og:description" content="The collected literary works of Keith Dunstan OAM">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Topic: Moomba">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/topic/moomba/">
+<meta name="twitter:title" content="Topic: Moomba">
+<meta name="twitter:description" content="The collected literary works of Keith Dunstan OAM">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Topic: Moomba">
+<link rel="canonical" href="https://keithdunstan.org/topic/moomba/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-lg-10 col-xl-8">
+          <header>
+      <h1 class="h2 mb-2">Topic: Moomba</h1>
+</header>
+
+
+  
+  
+  <p class="text-muted mb-1">17 items include the topic of Moomba.</p>
+  <p class="fst-italic text-muted mb-5">Moomba is Melbourne&#39;s annual autumn civic festival, launched in 1955 to replace the old union-run Eight Hour Day march, whose descent from a riotous street procession into a corporate-sponsored, camel-banned parade Keith Dunstan mourned in the Bulletin.</p>
+  <div class="row d-flex justify-content-center">
+  <div class="col-12">
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1962/the-new-image/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“The New Image”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1962-03-03">03 Mar 1962</time>
+        </p>
+
+        <p>On Melbourne&#39;s sudden reputation for permissiveness, from a swimsuit-censorship row at the Australian Swimming Championships to the Moomba Committee&#39;s controversial beer garden in the Alexandra Gardens.</p>
+
+        <a href="/articles/bulletin/1962/the-new-image/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/adelaide-festival-of-arts/" class="link-secondary">Adelaide Festival of Arts</a>,
+              
+              <a href="/topic/alexandra-gardens/" class="link-secondary">Alexandra Gardens</a>,
+              
+              <a href="/topic/amateur-swimming-union/" class="link-secondary">Amateur Swimming Union</a>,
+              
+              <a href="/topic/elwood/" class="link-secondary">Elwood</a>,
+              
+              <a href="/topic/john-rigby/" class="link-secondary">John Rigby</a>,
+              
+              <a href="/topic/johnny-o&#39;keefe/" class="link-secondary">Johnny O&#39;Keefe</a>,
+              
+              <a href="/topic/judy-joy-davies/" class="link-secondary">Judy Joy Davies</a>,
+              
+              <a href="/topic/june-bronhill/" class="link-secondary">June Bronhill</a>,
+              
+              <a href="/topic/maurice-nathan/" class="link-secondary">Maurice Nathan</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+              
+              <a href="/topic/new-south-wales/" class="link-secondary">New South Wales</a>,
+              
+              <a href="/topic/olympic-pool/" class="link-secondary">Olympic Pool</a>,
+              
+              <a href="/topic/sidney-myer-music-bowl/" class="link-secondary">Sidney Myer Music Bowl</a>,
+              
+              <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1962/no-camels-for-swanston-street/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“No Camels for Swanston Street”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1962-03-24">24 Mar 1962</time>
+        </p>
+
+        <p>Mourns the decline of Melbourne&#39;s once-riotous Eight Hour Day march into a corporate-sponsored Moomba procession, its circus camels banned, then reports on Sandown Park&#39;s star-studded car-racing debut.</p>
+
+        <a href="/articles/bulletin/1962/no-camels-for-swanston-street/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/eight-hour-day/" class="link-secondary">Eight Hour Day</a>,
+              
+              <a href="/topic/flemington/" class="link-secondary">Flemington</a>,
+              
+              <a href="/topic/jack-brabham/" class="link-secondary">Jack Brabham</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/melbourne-racing-club/" class="link-secondary">Melbourne Racing Club</a>,
+              
+              <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+              
+              <a href="/topic/myer-emporium/" class="link-secondary">Myer Emporium</a>,
+              
+              <a href="/topic/sandown-park/" class="link-secondary">Sandown Park</a>,
+              
+              <a href="/topic/springvale-crematorium/" class="link-secondary">Springvale Crematorium</a>,
+              
+              <a href="/topic/stirling-moss/" class="link-secondary">Stirling Moss</a>,
+              
+              <a href="/topic/swanston-street/" class="link-secondary">Swanston Street</a>,
+              
+              <a href="/topic/totalisator-agency-board-(tab)/" class="link-secondary">Totalisator Agency Board (TAB)</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1962/rembrandt-and-phar-lap/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Rembrandt and Phar Lap”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1962-05-05">05 May 1962</time>
+        </p>
+
+        <p>A reluctant Melburnian tourist takes a sightseeing coach tour of his own city, from Ned Kelly&#39;s gaol to the National Gallery, and finds Phar Lap draws more attention than the Rembrandt.</p>
+
+        <a href="/articles/bulletin/1962/rembrandt-and-phar-lap/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/a.-g.-grant/" class="link-secondary">A. G. Grant</a>,
+              
+              <a href="/topic/adelaide-festival-of-arts/" class="link-secondary">Adelaide Festival of Arts</a>,
+              
+              <a href="/topic/captain-cook/" class="link-secondary">Captain Cook</a>,
+              
+              <a href="/topic/doug-ingersole/" class="link-secondary">Doug Ingersole</a>,
+              
+              <a href="/topic/flinders-street-railway-station/" class="link-secondary">Flinders Street Railway Station</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/melbourne-cricket-ground/" class="link-secondary">Melbourne Cricket Ground</a>,
+              
+              <a href="/topic/melbourne-tourism/" class="link-secondary">Melbourne Tourism</a>,
+              
+              <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+              
+              <a href="/topic/national-gallery-of-victoria/" class="link-secondary">National Gallery of Victoria</a>,
+              
+              <a href="/topic/ned-kelly/" class="link-secondary">Ned Kelly</a>,
+              
+              <a href="/topic/phar-lap/" class="link-secondary">Phar Lap</a>,
+              
+              <a href="/topic/royal-arcade/" class="link-secondary">Royal Arcade</a>,
+              
+              <a href="/topic/sidney-myer-music-bowl/" class="link-secondary">Sidney Myer Music Bowl</a>,
+              
+              <a href="/topic/sydney/" class="link-secondary">Sydney</a>,
+              
+              <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+              
+              <a href="/topic/young-and-jacksons/" class="link-secondary">Young and Jacksons</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1963/about-cigarettes-and-gondolas/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“About Cigarettes and Gondolas”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1963-02-23">23 Feb 1963</time>
+        </p>
+
+        <p>Surveys Melbourne&#39;s booming cigarette trade and Nobel laureate Macfarlane Burnet&#39;s lonely campaign against smoking, then reports the mishap befalling Moomba&#39;s imported 16th-century Venetian gondola, which shrank so badly out of water that it now refuses to float.</p>
+
+        <a href="/articles/bulletin/1963/about-cigarettes-and-gondolas/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/albert-monk/" class="link-secondary">Albert Monk</a>,
+              
+              <a href="/topic/don-ingersole/" class="link-secondary">Don Ingersole</a>,
+              
+              <a href="/topic/macfarlane-burnet/" class="link-secondary">Macfarlane Burnet</a>,
+              
+              <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+              
+              <a href="/topic/philip-morris/" class="link-secondary">Philip Morris</a>,
+              
+              <a href="/topic/walter-and-eliza-hall-institute/" class="link-secondary">Walter and Eliza Hall Institute</a>,
+              
+              <a href="/topic/yarra-river/" class="link-secondary">Yarra River</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1963/all-the-queens-men/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“All the Queen&#39;s Men”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1963-03-09">09 Mar 1963</time>
+        </p>
+
+        <p>On the exhausted vocabulary of Royal Tour reporting nine years after &quot;obviously&quot; and &quot;radiant&quot; were banned in 1954, and on Melbourne&#39;s noticeably cooler, less crowd-mobbed reception for the Queen&#39;s 1963 visit compared with her first.</p>
+
+        <a href="/articles/bulletin/1963/all-the-queens-men/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/flemington-racecourse/" class="link-secondary">Flemington Racecourse</a>,
+              
+              <a href="/topic/harold-holt/" class="link-secondary">Harold Holt</a>,
+              
+              <a href="/topic/irving-benson/" class="link-secondary">Irving Benson</a>,
+              
+              <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+              
+              <a href="/topic/victoria-racing-club/" class="link-secondary">Victoria Racing Club</a>,
+              
+              <a href="/topic/woomera/" class="link-secondary">Woomera</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1965/1965-03-13-a-touch-of-gogol/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“A Touch of Gogol”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1965-03-13">13 Mar 1965</time>
+        </p>
+
+        <p>Showman Eric Edgley&#39;s three-year ordeal to bring the Moscow State Circus to Melbourne for Moomba, including battles with animal welfare groups over the tigers, quarantine tangles that seemed to implicate Sir Robert Menzies in a Kremlin plot, and the awkward post-show drinks party where the Russians stood at one end and the Australians at the other.</p>
+
+        <a href="/articles/bulletin/1965/1965-03-13-a-touch-of-gogol/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+              
+              <a href="/topic/robert-menzies/" class="link-secondary">Robert Menzies</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1965/1965-03-20-all-the-fun-of-the-ferry/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“All the Fun of the Ferry”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1965-03-20">20 Mar 1965</time>
+        </p>
+
+        <p>A report on Melbourne&#39;s Moomba festival, tracing how it grew from the old Eight-hour Day trade union procession into a city-wide holiday spectacle, with Sydney&#39;s Manly ferry North Head the unexpected hit of the week on the Yarra.</p>
+
+        <a href="/articles/bulletin/1965/1965-03-20-all-the-fun-of-the-ferry/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/carlton-and-united-breweries/" class="link-secondary">Carlton and United Breweries</a>,
+              
+              <a href="/topic/graham-kennedy/" class="link-secondary">Graham Kennedy</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+              
+              <a href="/topic/sidney-myer-music-bowl/" class="link-secondary">Sidney Myer Music Bowl</a>,
+              
+              <a href="/topic/sydney/" class="link-secondary">Sydney</a>,
+              
+              <a href="/topic/yarra-river/" class="link-secondary">Yarra River</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1965/1965-10-30-melbournes-sacred-rites-cup-day-is-not-for-racing/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Melbourne&#39;s Sacred Rites”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1965-10-30">30 Oct 1965</time>
+        </p>
+
+        <p>A survey of the Melbourne Cup carnival&#39;s elaborate rituals, from the Governor-General&#39;s mounted procession down the straight to the champagne-and-chicken-sandwich car park rites, arguing that serious racegoers prefer Derby Day and that the Cup itself is just a gloriously open handicap.</p>
+
+        <a href="/articles/bulletin/1965/1965-10-30-melbournes-sacred-rites-cup-day-is-not-for-racing/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/anzac-day/" class="link-secondary">Anzac Day</a>,
+              
+              <a href="/topic/flemington/" class="link-secondary">Flemington</a>,
+              
+              <a href="/topic/flemington-racecourse/" class="link-secondary">Flemington Racecourse</a>,
+              
+              <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+              
+              <a href="/topic/jean-shrimpton/" class="link-secondary">Jean Shrimpton</a>,
+              
+              <a href="/topic/lord-casey/" class="link-secondary">Lord Casey</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/melbourne-cup/" class="link-secondary">Melbourne Cup</a>,
+              
+              <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+              
+              <a href="/topic/national-trust/" class="link-secondary">National Trust</a>,
+              
+              <a href="/topic/victoria-racing-club/" class="link-secondary">Victoria Racing Club</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1965/1965-11-27-batman-crosses-the-murray/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Batman Crosses the Murray”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1965-11-27">27 Nov 1965</time>
+        </p>
+
+        <p>A visit to Sydney forces a grudging admission that the city is gaining an edge on Melbourne, with superior old and new buildings, easier taxi access, cheaper public transport and a Sydney Opera House that, from a distance at least, looks glorious.</p>
+
+        <a href="/articles/bulletin/1965/1965-11-27-batman-crosses-the-murray/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/australia-square/" class="link-secondary">Australia Square</a>,
+              
+              <a href="/topic/canberra/" class="link-secondary">Canberra</a>,
+              
+              <a href="/topic/forbes-carlile/" class="link-secondary">Forbes Carlile</a>,
+              
+              <a href="/topic/harry-seidler/" class="link-secondary">Harry Seidler</a>,
+              
+              <a href="/topic/jock-marshall/" class="link-secondary">Jock Marshall</a>,
+              
+              <a href="/topic/joan-sutherland/" class="link-secondary">Joan Sutherland</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+              
+              <a href="/topic/percy-cerutty/" class="link-secondary">Percy Cerutty</a>,
+              
+              <a href="/topic/sydney/" class="link-secondary">Sydney</a>,
+              
+              <a href="/topic/sydney-opera-house/" class="link-secondary">Sydney Opera House</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1966/1966-03-26-a-900-000-beer-can-mardi-gras/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“A 900,000 Beer-can Mardi Gras”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1966-03-26">26 Mar 1966</time>
+        </p>
+
+        <p>Moomba&#39;s eleventh year comes into its own as a genuine street festival, with a parade crowd estimated at 900,000 along Swanston Street, an anti-Vietnam demonstration that pelted television host Graham Kennedy with flour, and the customary carpet of empty beer cans along the Yarra banks.</p>
+
+        <a href="/articles/bulletin/1966/1966-03-26-a-900-000-beer-can-mardi-gras/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/adelaide-festival-of-arts/" class="link-secondary">Adelaide Festival of Arts</a>,
+              
+              <a href="/topic/alexandra-gardens/" class="link-secondary">Alexandra Gardens</a>,
+              
+              <a href="/topic/judith-anderson/" class="link-secondary">Judith Anderson</a>,
+              
+              <a href="/topic/graham-kennedy/" class="link-secondary">Graham Kennedy</a>,
+              
+              <a href="/topic/gtv-9/" class="link-secondary">GTV-9</a>,
+              
+              <a href="/topic/herb-elliott/" class="link-secondary">Herb Elliott</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+              
+              <a href="/topic/ron-barassi/" class="link-secondary">Ron Barassi</a>,
+              
+              <a href="/topic/swanston-street/" class="link-secondary">Swanston Street</a>,
+              
+              <a href="/topic/verdun-howell/" class="link-secondary">Verdun Howell</a>,
+              
+              <a href="/topic/wangaratta/" class="link-secondary">Wangaratta</a>,
+              
+              <a href="/topic/yarra-river/" class="link-secondary">Yarra River</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/books/supporting-a-column/2-somewhat-stunted-columns/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Somewhat stunted columns”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1966-11-11">1966</time>
+        </p>
+
+        <p>A tour of Keith&#39;s stunt-column years, seconding a wrestler against Primo Carnera, singing silently in the Lohengrin chorus, running a Chinese parade dragon&#39;s tail, and breaking his hand skiing on nylon matting in the Domain.</p>
+
+        <a href="/books/supporting-a-column/2-somewhat-stunted-columns/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/alan-holmes-bonnie-muir/" class="link-secondary">Alan Holmes Bonnie Muir</a>,
+              
+              <a href="/topic/alex-olmedo/" class="link-secondary">Alex Olmedo</a>,
+              
+              <a href="/topic/bruce-bretherton/" class="link-secondary">Bruce Bretherton</a>,
+              
+              <a href="/topic/christine-borge/" class="link-secondary">Christine Borge</a>,
+              
+              <a href="/topic/elizabeth-west/" class="link-secondary">Elizabeth West</a>,
+              
+              <a href="/topic/elizabethan-theatre-trust/" class="link-secondary">Elizabethan Theatre Trust</a>,
+              
+              <a href="/topic/eric-clapham/" class="link-secondary">Eric Clapham</a>,
+              
+              <a href="/topic/frank-chin/" class="link-secondary">Frank Chin</a>,
+              
+              <a href="/topic/frank-doczy/" class="link-secondary">Frank Doczy</a>,
+              
+              <a href="/topic/frank-sedgman/" class="link-secondary">Frank Sedgman</a>,
+              
+              <a href="/topic/her-majestys-theatre/" class="link-secondary">Her Majestys Theatre</a>,
+              
+              <a href="/topic/hilton-nicholas/" class="link-secondary">Hilton Nicholas</a>,
+              
+              <a href="/topic/jean-shrimpton/" class="link-secondary">Jean Shrimpton</a>,
+              
+              <a href="/topic/kooyong/" class="link-secondary">Kooyong</a>,
+              
+              <a href="/topic/lew-hoad/" class="link-secondary">Lew Hoad</a>,
+              
+              <a href="/topic/melbourne-trams/" class="link-secondary">Melbourne Trams</a>,
+              
+              <a href="/topic/montsalvat/" class="link-secondary">Montsalvat</a>,
+              
+              <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+              
+              <a href="/topic/paddy-hopkirk/" class="link-secondary">Paddy Hopkirk</a>,
+              
+              <a href="/topic/pancho-segura/" class="link-secondary">Pancho Segura</a>,
+              
+              <a href="/topic/primo-carnera/" class="link-secondary">Primo Carnera</a>,
+              
+              <a href="/topic/ronald-dowd/" class="link-secondary">Ronald Dowd</a>,
+              
+              <a href="/topic/stanley-kowalski/" class="link-secondary">Stanley Kowalski</a>,
+              
+              <a href="/topic/stefan-haag/" class="link-secondary">Stefan Haag</a>,
+              
+              <a href="/topic/tennis/" class="link-secondary">Tennis</a>,
+              
+              <a href="/topic/victorian-symphony-orchestra/" class="link-secondary">Victorian Symphony Orchestra</a>,
+              
+              <a href="/topic/wrestling/" class="link-secondary">Wrestling</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1967/1967-03-25-morleys-moomba-a-king-for-all-occasions/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Morley&#39;s Moomba: a king for all occasions”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1967-03-25">25 Mar 1967</time>
+        </p>
+
+        <p>English actor Robert Morley reigns as King of Moomba, dispensing caustic one-liners about Melbourne&#39;s streets, Flinders Street Station, and marching girls while accompanying Queen Patsy Ann Earp through the Moomba procession and losing enthusiastically at the Bendigo races.</p>
+
+        <a href="/articles/bulletin/1967/1967-03-25-morleys-moomba-a-king-for-all-occasions/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/flinders-street-station/" class="link-secondary">Flinders Street Station</a>,
+              
+              <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+              
+              <a href="/topic/princess-theatre/" class="link-secondary">Princess Theatre</a>,
+              
+              <a href="/topic/robert-morley/" class="link-secondary">Robert Morley</a>,
+              
+              <a href="/topic/swanston-street/" class="link-secondary">Swanston Street</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1968/1968-03-30-strange-signals-and-stranger-explanations/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Strange signals and stranger explanations”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1968-03-30">30 Mar 1968</time>
+        </p>
+
+        <p>A Venusian visitor stationed in the Fitzroy Gardens writes home to his father explaining Melbourne&#39;s baffling customs, from citizens pouring water on dust-covered ground at night to a political class trading baroque insults, culminating in the observation that the planet is clearly doomed and rescue is urgently required.</p>
+
+        <a href="/articles/bulletin/1968/1968-03-30-strange-signals-and-stranger-explanations/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/arthur-calwell/" class="link-secondary">Arthur Calwell</a>,
+              
+              <a href="/topic/arthur-rylah/" class="link-secondary">Arthur Rylah</a>,
+              
+              <a href="/topic/board-of-works/" class="link-secondary">Board of Works</a>,
+              
+              <a href="/topic/fitzroy-gardens/" class="link-secondary">Fitzroy Gardens</a>,
+              
+              <a href="/topic/john-gorton/" class="link-secondary">John Gorton</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+              
+              <a href="/topic/parkes-radio-telescope/" class="link-secondary">Parkes Radio Telescope</a>,
+              
+              <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1969/1969-03-22-batman-s-melbourne-where-culture-reigned-and-thunder-rumbled/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Where Culture Reigned and Thunder Rumbled”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1969-03-22">22 Mar 1969</time>
+        </p>
+
+        <p>The 1969 Moomba festival&#39;s bid for culture collapses with a $10,000 balloon that bursts twice, threatening letters and egg-throwing threats against Italian opera star Tito Gobbi as Moomba King, and a Sydney Symphony Orchestra concert attended by fewer people than the ABC&#39;s Melbourne typists, while Keith Dunstan reveals that &#39;moomba&#39; likely means &#39;thunder&#39; in the Dippil Aboriginal language.</p>
+
+        <a href="/articles/bulletin/1969/1969-03-22-batman-s-melbourne-where-culture-reigned-and-thunder-rumbled/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/hector-crawford/" class="link-secondary">Hector Crawford</a>,
+              
+              <a href="/topic/johnnie-famechon/" class="link-secondary">Johnnie Famechon</a>,
+              
+              <a href="/topic/lionel-rose/" class="link-secondary">Lionel Rose</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+              
+              <a href="/topic/robin-boyd/" class="link-secondary">Robin Boyd</a>,
+              
+              <a href="/topic/tito-gobbi/" class="link-secondary">Tito Gobbi</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/books/knockers/5-melbourne/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Melbourne”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1972-01-01">1972</time>
+        </p>
+
+        <p>A survey of the knocking that Melbourne has attracted from visiting film stars, Victorian-era travel writers and its own poets and journalists, running from Robert Morley&#39;s verdict on the Town Hall to Marcus Clarke&#39;s tormented climate diary to Chris Wallace-Crabbe&#39;s branding of the city as drab and uninspiring.</p>
+
+        <a href="/books/knockers/5-melbourne/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/alexander-buttner/" class="link-secondary">Alexander Buttner</a>,
+              
+              <a href="/topic/ava-gardner/" class="link-secondary">Ava Gardner</a>,
+              
+              <a href="/topic/barry-humphries/" class="link-secondary">Barry Humphries</a>,
+              
+              <a href="/topic/bourke-street/" class="link-secondary">Bourke Street</a>,
+              
+              <a href="/topic/brian-fitzpatrick/" class="link-secondary">Brian Fitzpatrick</a>,
+              
+              <a href="/topic/charles-kean/" class="link-secondary">Charles Kean</a>,
+              
+              <a href="/topic/chris-wallace-crabbe/" class="link-secondary">Chris Wallace-Crabbe</a>,
+              
+              <a href="/topic/clement-freud/" class="link-secondary">Clement Freud</a>,
+              
+              <a href="/topic/ellen-kean/" class="link-secondary">Ellen Kean</a>,
+              
+              <a href="/topic/flinders-street-station/" class="link-secondary">Flinders Street Station</a>,
+              
+              <a href="/topic/isabella-bird/" class="link-secondary">Isabella Bird</a>,
+              
+              <a href="/topic/john-foster-fraser/" class="link-secondary">John Foster Fraser</a>,
+              
+              <a href="/topic/marcus-clarke/" class="link-secondary">Marcus Clarke</a>,
+              
+              <a href="/topic/max-bygraves/" class="link-secondary">Max Bygraves</a>,
+              
+              <a href="/topic/melbourne-cup/" class="link-secondary">Melbourne Cup</a>,
+              
+              <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+              
+              <a href="/topic/national-gallery-of-victoria/" class="link-secondary">National Gallery of Victoria</a>,
+              
+              <a href="/topic/r.-e.-twopeny/" class="link-secondary">R. E. Twopeny</a>,
+              
+              <a href="/topic/richard-henry-horne/" class="link-secondary">Richard Henry Horne</a>,
+              
+              <a href="/topic/robert-morley/" class="link-secondary">Robert Morley</a>,
+              
+              <a href="/topic/ronald-biggs/" class="link-secondary">Ronald Biggs</a>,
+              
+              <a href="/topic/swanston-street/" class="link-secondary">Swanston Street</a>,
+              
+              <a href="/topic/terence-stamp/" class="link-secondary">Terence Stamp</a>,
+              
+              <a href="/topic/the-argus/" class="link-secondary">The Argus</a>,
+              
+              <a href="/topic/william-kelly/" class="link-secondary">William Kelly</a>,
+              
+              <a href="/topic/yarra-river/" class="link-secondary">Yarra River</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/moombas-and-shakers/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Moombas and shakers”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1998-03-05">05 Mar 1998</time>
+        </p>
+
+        <p>A profile of the Wittingslow family, the fairground dynasty who have run Moomba&#39;s rides and sideshows since patriarch Tom Wittingslow started out guessing weights at Penny Land in 1932, and who now stage the festival itself.</p>
+
+        <a href="/articles/the-age/moombas-and-shakers/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/alexandra-gardens/" class="link-secondary">Alexandra Gardens</a>,
+              
+              <a href="/topic/australian-ballet/" class="link-secondary">Australian Ballet</a>,
+              
+              <a href="/topic/batman-avenue/" class="link-secondary">Batman Avenue</a>,
+              
+              <a href="/topic/federation-square/" class="link-secondary">Federation Square</a>,
+              
+              <a href="/topic/luna-park/" class="link-secondary">Luna Park</a>,
+              
+              <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+              
+              <a href="/topic/sidney-myer-music-bowl/" class="link-secondary">Sidney Myer Music Bowl</a>,
+              
+              <a href="/topic/wittingslow-family/" class="link-secondary">Wittingslow family</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/books/batman-in-the-bulletin/introduction/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Introduction”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="2004-11-11">2004</time>
+        </p>
+
+        <p>Keith Dunstan explains how Bulletin editor Peter Hastings recruited him to write a Melbourne column under the pseudonym &#39;Batman&#39; in 1962, to get around his Herald and Weekly Times contract, and looks back on the wowserish, soon-to-vanish Melbourne of the 1960s that the column chronicled.</p>
+
+        <a href="/books/batman-in-the-bulletin/introduction/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/anti-football-league/" class="link-secondary">Anti-Football League</a>,
+              
+              <a href="/topic/donald-horne/" class="link-secondary">Donald Horne</a>,
+              
+              <a href="/topic/douglas-wilkie/" class="link-secondary">Douglas Wilkie</a>,
+              
+              <a href="/topic/eastern-market/" class="link-secondary">Eastern Market</a>,
+              
+              <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+              
+              <a href="/topic/occidental-hotel/" class="link-secondary">Occidental Hotel</a>,
+              
+              <a href="/topic/peter-hastings/" class="link-secondary">Peter Hastings</a>,
+              
+              <a href="/topic/frank-packer/" class="link-secondary">Frank Packer</a>,
+              
+              <a href="/topic/john-williams/" class="link-secondary">John Williams</a>,
+              
+              <a href="/topic/whelan-the-wrecker/" class="link-secondary">Whelan the Wrecker</a>
+          </p>
+        
+      </div>
+    
+  </div>
+</div>
+
+
+  <br>
+  <p>See <a href="/search/">all topics</a>.</p>
+
+
+
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>
