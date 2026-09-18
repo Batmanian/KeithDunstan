@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-05-03-batman-s-melbourne-bhp-leads-the-high-rise-trend.md

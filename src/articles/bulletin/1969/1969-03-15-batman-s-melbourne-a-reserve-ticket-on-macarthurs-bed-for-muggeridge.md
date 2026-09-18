@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-03-15-batman-s-melbourne-a-reserve-ticket-on-macarthurs-bed-for-muggeridge.md

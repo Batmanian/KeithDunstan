@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-08-02-batman-s-melbourne-high-living-in-an-air-conditioned-ice-cube-tray.md

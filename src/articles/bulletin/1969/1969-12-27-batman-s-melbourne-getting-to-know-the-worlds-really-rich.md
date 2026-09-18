@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-12-27-batman-s-melbourne-getting-to-know-the-worlds-really-rich.md

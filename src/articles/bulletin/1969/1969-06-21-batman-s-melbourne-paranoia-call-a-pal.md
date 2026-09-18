@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-06-21-batman-s-melbourne-paranoia-call-a-pal.md

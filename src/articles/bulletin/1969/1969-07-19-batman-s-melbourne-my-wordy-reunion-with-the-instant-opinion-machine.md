@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-07-19-batman-s-melbourne-my-wordy-reunion-with-the-instant-opinion-machine.md

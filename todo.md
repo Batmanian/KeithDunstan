@@ -131,7 +131,7 @@ The book's contents page (`src/a-day-in-the-life-of-australia.njk`) lists **258 
 
 | Publication | ✅ Live | Known outstanding (titled) | Stubs awaiting triage (Trove) | Notes |
 |---|---|---|---|---|
-| The Bulletin | 95 | 4 | ~1,545 | 34 "Around Melbourne" columns (Mar–Dec 1962) transcribed from manually-scanned photos 28–29 Jul 2026; 11 more 1963 columns transcribed the same way 29 Jul–18 Aug 2026; 38 more (33 1963–64 + 5 dropped in mid-session, all JPEG scans) transcribed 19 Aug 2026 — see the dedicated JPEG-scan batch note above. Separate from the untouched Trove stub pipeline. See §6 for the Trove pipeline; known-missing/incomplete titles listed above (2 pre-existing PNG cases + 2 newly-found incomplete "Out and About" JPEG scans) |
+| The Bulletin | 145 | 4 | ~1,545 | 34 "Around Melbourne" columns (Mar–Dec 1962) transcribed from manually-scanned photos 28–29 Jul 2026; 11 more 1963 columns transcribed the same way 29 Jul–18 Aug 2026; 38 more (33 1963–64 + 5 dropped in mid-session, all JPEG scans) transcribed 19 Aug 2026; 8 1966 from Trove-downloaded scans 5 Sep 2026; 50 1969 from Trove-downloaded scans 19 Sep 2026 — see §6 for detail. Separate from untouched Trove stub pipeline. Known-missing/incomplete titles listed below (2 pre-existing PNG cases + 2 newly-found incomplete "Out and About" JPEG scans) |
 | Walkabout Magazine | 17 | 1 | 0 | 18 known articles per site total; 17 now transcribed and live (31 Jul 2026 — see Completed section), 1 outstanding awaiting a scan (Collins Street Charm) — see list below |
 | The Australian Gourmet | 1 | — | Not in Trove | Extent of Keith's total output for this title is unknown; physical copies needed |
 | The Age (post-1954) | 32 | 1 known ("On the right side of Tuscany", 2 May 1989) | Not in Trove | 17 flat (undated/misc) + 5 from 1984 scans + 3 from 1985 scans + 7 from 1986 scans live. 97 stubs in vault (hidden): 3×1984, 14×1985, 80×1986. See note below |
@@ -639,3 +639,17 @@ Eight 1966 Bulletin articles transcribed from Trove-downloaded scans in `src/tro
 - [x] 1966-12-31 — The End of a Pressure Group (`hydraulic lifts`, `Dame Nellie Melba`, `Melbourne City Council`)
 
 New tags logged to `/tmp/new-tags-batch-C.txt` — 30+ new entries for people, places and organisations first named in this batch.
+
+### Bulletin — 1969 batch transcription (19 September 2026)
+
+50 articles transcribed from Trove-downloaded scans in `src/trove-scans/bulletin/1969/` using batch Tesseract OCR. All 50 files are live in `vault/articles/bulletin/1969/` and symlinked into `src/articles/bulletin/1969/`:
+
+- 47 Batman's Melbourne / Batman Roves Again / Batman in the Snow / Batman's Hair weekly columns
+- 2 feature articles by Batman byline: "On the Wrong Side of Toorak" (12 Apr), "Mining Ballarat's Golden Past" (21 Jun)
+- 1 feature: "Italy in Suburbia" (3 May)
+- Excluded from transcription: "The Lady in the Lodge" (Bettina Gorton profile, not Keith), "The Bulletin Columns" (table of contents), "Letters for Decency's Sake" (reader letters)
+- `the-rest-of-batman` (Oct 18) is the continuation of "Vice Is a Four-Letter Word" — merged into that article's file rather than transcribed separately
+
+**OCR notes:** Two articles had degraded OCR: "Save 'Matilda'" (24 May) was nearly incomprehensible due to three-column layout; "Let's Not Cry Over Spilt Beer" (22 Nov) lost interior detail from the garbled page 1. Both are transcribed but may be imprecise in places — worth checking against the Trove scans if verbatim text matters.
+
+36 new topics.md entries added for people, places and organisations first named in this batch (Neil Armstrong, Lionel Rose, Johnnie Famechon, West Gate Bridge, Palais de Danse, Eureka Stockade, Trak Cinema, etc.).

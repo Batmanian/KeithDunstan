@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-02-15-batman-s-melbourne-the-leisure-rat-race-is-merciless.md

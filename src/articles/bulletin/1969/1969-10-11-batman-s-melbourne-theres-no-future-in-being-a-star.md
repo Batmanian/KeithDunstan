@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-10-11-batman-s-melbourne-theres-no-future-in-being-a-star.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-03-01-batman-s-melbourne-the-wedding-the-greatest-thing-since-the-bogle-case.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-01-11-batman-s-melbourne-all-the-rich-scents-of-the-bush-rodeo.md

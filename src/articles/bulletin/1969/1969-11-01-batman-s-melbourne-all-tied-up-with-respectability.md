@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-11-01-batman-s-melbourne-all-tied-up-with-respectability.md

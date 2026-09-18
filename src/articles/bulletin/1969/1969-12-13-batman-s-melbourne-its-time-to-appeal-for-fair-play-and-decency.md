@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-12-13-batman-s-melbourne-its-time-to-appeal-for-fair-play-and-decency.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-06-14-batman-s-hair-middle-aged-and-methodist-amidst-the-nakedness.md

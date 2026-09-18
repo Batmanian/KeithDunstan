@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-10-04-batman-s-melbourne-a-city-that-loves-to-be-disdained.md

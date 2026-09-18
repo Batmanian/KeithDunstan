@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-05-17-batman-s-melbourne-going-to-market-about-an-adopted-young-american.md

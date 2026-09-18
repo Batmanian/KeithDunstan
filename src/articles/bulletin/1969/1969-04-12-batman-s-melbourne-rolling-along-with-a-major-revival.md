@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-04-12-batman-s-melbourne-rolling-along-with-a-major-revival.md

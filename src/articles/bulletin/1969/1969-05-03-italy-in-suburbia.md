@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-05-03-italy-in-suburbia.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-07-12-batman-s-melbourne-the-red-baron-goes-to-battle-again.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-01-18-batman-s-melbourne-at-last-the-dance-is-over-at-st-kilda.md

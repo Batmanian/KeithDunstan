@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-11-08-batman-s-melbourne-how-to-put-our-trust-in-the-forgettable.md

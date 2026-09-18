@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-01-04-batman-s-melbourne-again-its-time-for-change-in-the-name-of-charity.md

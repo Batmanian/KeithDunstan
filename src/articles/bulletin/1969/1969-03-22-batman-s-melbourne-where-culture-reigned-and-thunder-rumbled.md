@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-03-22-batman-s-melbourne-where-culture-reigned-and-thunder-rumbled.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-09-27-batman-s-melbourne-in-defence-of-the-charismatic-meat-pie.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-07-26-batman-s-melbourne-if-you-cant-beat-them-in-the-search-join-me-in-research.md

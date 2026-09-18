@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-03-08-batman-s-melbourne-theres-gold-in-them-there-cans-for-cats-and-canines.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-12-06-batman-s-melbourne-at-last-a-bridge-symbol-of-natural-modesty.md

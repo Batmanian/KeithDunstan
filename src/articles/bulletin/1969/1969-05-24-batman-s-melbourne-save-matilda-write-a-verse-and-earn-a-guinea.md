@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-05-24-batman-s-melbourne-save-matilda-write-a-verse-and-earn-a-guinea.md

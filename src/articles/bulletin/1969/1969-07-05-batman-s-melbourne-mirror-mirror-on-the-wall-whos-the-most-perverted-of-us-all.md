@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-07-05-batman-s-melbourne-mirror-mirror-on-the-wall-whos-the-most-perverted-of-us-all.md

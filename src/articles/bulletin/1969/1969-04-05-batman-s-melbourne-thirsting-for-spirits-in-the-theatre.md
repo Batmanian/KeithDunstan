@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-04-05-batman-s-melbourne-thirsting-for-spirits-in-the-theatre.md

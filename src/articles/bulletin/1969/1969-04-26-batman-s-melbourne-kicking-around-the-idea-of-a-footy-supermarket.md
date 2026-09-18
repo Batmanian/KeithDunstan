@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-04-26-batman-s-melbourne-kicking-around-the-idea-of-a-footy-supermarket.md

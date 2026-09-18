@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-10-18-batman-s-melbourne-vice-is-a-four-letter-word.md

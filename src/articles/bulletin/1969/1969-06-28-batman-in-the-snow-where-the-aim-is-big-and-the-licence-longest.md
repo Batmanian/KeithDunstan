@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-06-28-batman-in-the-snow-where-the-aim-is-big-and-the-licence-longest.md

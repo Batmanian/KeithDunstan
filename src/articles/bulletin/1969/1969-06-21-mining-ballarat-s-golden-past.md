@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-06-21-mining-ballarat-s-golden-past.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-05-31-batman-s-melbourne-a-new-religion-in-the-temples-of-hoyts.md

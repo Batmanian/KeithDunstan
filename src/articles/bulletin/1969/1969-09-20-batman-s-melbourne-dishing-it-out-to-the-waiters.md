@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-09-20-batman-s-melbourne-dishing-it-out-to-the-waiters.md

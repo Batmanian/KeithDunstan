@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1969/1969-02-22-batman-s-melbourne-a-visit-to-beef-up-the-japan-tourist-trade.md
