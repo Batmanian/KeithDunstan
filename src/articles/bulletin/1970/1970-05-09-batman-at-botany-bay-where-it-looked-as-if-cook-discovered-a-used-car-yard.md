@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-05-09-batman-at-botany-bay-where-it-looked-as-if-cook-discovered-a-used-car-yard.md

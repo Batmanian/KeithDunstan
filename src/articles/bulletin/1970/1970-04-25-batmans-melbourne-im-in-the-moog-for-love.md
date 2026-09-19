@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-04-25-batmans-melbourne-im-in-the-moog-for-love.md

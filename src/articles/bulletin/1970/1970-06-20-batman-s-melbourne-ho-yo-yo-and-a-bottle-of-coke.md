@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-06-20-batman-s-melbourne-ho-yo-yo-and-a-bottle-of-coke.md

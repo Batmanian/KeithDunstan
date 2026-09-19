@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-10-24-batman-s-vineyards-would-you-believe-tourists-for-the-quaffing-of.md

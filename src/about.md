@@ -37,7 +37,7 @@ summary: How this archive works, how to follow updates via RSS, how to reach Kei
 
 <hr>
 
-<h2>This site, in numbers</h2>
+<h2>The archive, in numbers</h2>
 <div class="row text-center g-4 my-2">
   <div class="col-12 col-md-4">
     <div class="border rounded p-4 h-100">
@@ -57,5 +57,17 @@ summary: How this archive works, how to follow updates via RSS, how to reach Kei
       <div class="text-muted">topics indexed</div>
     </div>
   </div>
+  <div class="col-12 col-md-6">
+    <div class="border rounded p-4 h-100">
+      <div class="h3 fw-bold text-nowrap">{{ siteStats.totalArticles }}</div>
+      <div class="text-muted">articles transcribed</div>
+    </div>
+  </div>
+  <div class="col-12 col-md-6">
+    <div class="border rounded p-4 h-100">
+      <div class="h3 fw-bold text-nowrap">{{ siteStats.percentTranscribed }}</div>
+      <div class="text-muted">of Keith's writing transcribed</div>
+    </div>
+  </div>
 </div>
-<p><small>Word count and reading time (at 200 words a minute) are drawn from every published book chapter and article; the topic count reflects the people, places and organisations catalogued on the <a href="{{ '/search/' | url }}">search</a> and <a href="{{ '/topics/' | url }}">topics</a> pages. All three update automatically as more of Keith's work is added.</small></p>
+<p><small>Word count and reading time (at 200 words a minute) are drawn from every published book chapter and article; the topic count reflects the people, places and organisations catalogued on the <a href="{{ '/search/' | url }}">search</a> and <a href="{{ '/topics/' | url }}">topics</a> pages. The article count covers all transcribed newspaper and magazine pieces. The percentage is an estimate based on Keith's known output: his daily Sun News-Pictorial column (1946&ndash;1978, five days a week), The Bulletin column (~1,950 known pieces), roughly 30 books, and other journalism — approximately six million words in total. All figures update automatically as more of Keith's work is added.</small></p>

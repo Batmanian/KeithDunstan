@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-04-04-batman-s-melbourne-a-night-in-the-clink-for-the-national-trust.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-05-16-batman-s-melbourne-where-bad-weathers-best-to-ride-mountains-that-move.md

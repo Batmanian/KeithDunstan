@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-02-07-batman-s-melbourne-the-night-i-was-kept-awake-by-a-belly-dancer.md

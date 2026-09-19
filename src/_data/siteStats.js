@@ -50,6 +50,7 @@ module.exports = () => {
 
   const EXCLUDED_TAGS = new Set(["all", "nav", "post", "posts", "book", "books", "article", "articles"]);
   const uniqueTags = new Set();
+  let totalArticles = 0;
   for (const dir of ["books", "articles"]) {
     for (const file of walkMarkdownFiles(path.join(root, dir))) {
       const raw = fs.readFileSync(file, "utf8");
@@ -57,9 +58,21 @@ module.exports = () => {
       for (const tag of (data.tags || [])) {
         if (!EXCLUDED_TAGS.has(tag)) uniqueTags.add(tag);
       }
+      if (dir === "articles" && !data.eleventyExcludeFromCollections) {
+        totalArticles++;
+      }
     }
   }
   const totalTopics = uniqueTags.size;
+
+  // Estimated total words in Keith's full published output — see methodology in todo.md §15.
+  // Sun News-Pictorial column (1946–1978, 5 days/week, ~300 words): ~2,400,000
+  // The Bulletin column (~1,950 articles, ~700 words each):         ~1,365,000
+  // Books (~30 titles, ~65,000 words each):                         ~1,950,000
+  // Other journalism (The Age, Walkabout, Gourmet, etc.):             ~285,000
+  // Total:                                                          ~6,000,000
+  const estimatedTotalWords = 6000000;
+  const percentTranscribed = Math.round((totalWords / estimatedTotalWords) * 100);
 
   return {
     totalWords,
@@ -67,6 +80,8 @@ module.exports = () => {
     totalReadTime: readHours > 0
       ? `${readHours} hour${readHours === 1 ? "" : "s"}`
       : `${totalReadMinutes} min`,
-    totalTopics
+    totalTopics,
+    totalArticles: totalArticles.toLocaleString("en-AU"),
+    percentTranscribed: `~${percentTranscribed}%`,
   };
 };

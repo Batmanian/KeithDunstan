@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-01-10-batman-s-melbourne-jazzing-up-the-dear-old-george.md

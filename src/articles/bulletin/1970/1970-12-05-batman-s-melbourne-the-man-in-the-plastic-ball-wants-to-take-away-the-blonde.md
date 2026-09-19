@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-12-05-batman-s-melbourne-the-man-in-the-plastic-ball-wants-to-take-away-the-blonde.md

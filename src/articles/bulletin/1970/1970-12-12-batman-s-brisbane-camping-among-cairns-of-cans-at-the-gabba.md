@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-12-12-batman-s-brisbane-camping-among-cairns-of-cans-at-the-gabba.md

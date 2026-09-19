@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-02-28-batman-s-melbourne-a-man-with-real-power-behind-his-attack.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-09-12-batman-s-melbourne-all-boys-in-the-ban-but-for-a-naughty-neighbor.md

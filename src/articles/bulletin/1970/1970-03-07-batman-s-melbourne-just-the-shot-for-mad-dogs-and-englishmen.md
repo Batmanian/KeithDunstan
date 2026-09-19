@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-03-07-batman-s-melbourne-just-the-shot-for-mad-dogs-and-englishmen.md

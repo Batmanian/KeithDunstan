@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-04-18-batmans-melbourne-see-what-happens-when-rules-become-a-religion.md

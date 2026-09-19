@@ -1,7 +1,7 @@
 # Todo — Keith Dunstan Archive
 
 Tracking outstanding work across all active workstreams.
-Last updated: 13 September 2026.
+Last updated: 20 September 2026 (all 43 1970 Bulletin articles transcribed from Trove scans).
 
 **Status legend used throughout this file:**
 
@@ -131,7 +131,7 @@ The book's contents page (`src/a-day-in-the-life-of-australia.njk`) lists **258 
 
 | Publication | ✅ Live | Known outstanding (titled) | Stubs awaiting triage (Trove) | Notes |
 |---|---|---|---|---|
-| The Bulletin | 145 | 4 | ~1,545 | 34 "Around Melbourne" columns (Mar–Dec 1962) transcribed from manually-scanned photos 28–29 Jul 2026; 11 more 1963 columns transcribed the same way 29 Jul–18 Aug 2026; 38 more (33 1963–64 + 5 dropped in mid-session, all JPEG scans) transcribed 19 Aug 2026; 8 1966 from Trove-downloaded scans 5 Sep 2026; 50 1969 from Trove-downloaded scans 19 Sep 2026 — see §6 for detail. Separate from untouched Trove stub pipeline. Known-missing/incomplete titles listed below (2 pre-existing PNG cases + 2 newly-found incomplete "Out and About" JPEG scans) |
+| The Bulletin | 403 | 4 | ~1,545 | 34 "Around Melbourne" columns (Mar–Dec 1962) transcribed from manually-scanned photos 28–29 Jul 2026; 11 more 1963 columns transcribed the same way 29 Jul–18 Aug 2026; 38 more (33 1963–64 + 5 dropped in mid-session, all JPEG scans) transcribed 19 Aug 2026; 8 1966 from Trove-downloaded scans 5 Sep 2026; 50 1969 from Trove-downloaded scans 19 Sep 2026; 43 1970 from Trove-downloaded scans 20 Sep 2026 — see §6 for detail. Separate from untouched Trove stub pipeline. Known-missing/incomplete titles listed below (2 pre-existing PNG cases + 2 newly-found incomplete "Out and About" JPEG scans) |
 | Walkabout Magazine | 17 | 1 | 0 | 18 known articles per site total; 17 now transcribed and live (31 Jul 2026 — see Completed section), 1 outstanding awaiting a scan (Collins Street Charm) — see list below |
 | The Australian Gourmet | 1 | — | Not in Trove | Extent of Keith's total output for this title is unknown; physical copies needed |
 | The Age (post-1954) | 32 | 1 known ("On the right side of Tuscany", 2 May 1989) | Not in Trove | 17 flat (undated/misc) + 5 from 1984 scans + 3 from 1985 scans + 7 from 1986 scans live. 97 stubs in vault (hidden): 3×1984, 14×1985, 80×1986. See note below |
@@ -560,6 +560,67 @@ Contents: seven Australian writers profile one city each. Keith Dunstan contribu
 
 ---
 
+## 15. Word count estimation methodology
+
+*(Added 19 Sep 2026. Used by `src/_data/siteStats.js` to compute the "% of Keith's writing transcribed" figure on `/about/`.)*
+
+The estimate covers four bodies of work. All figures are approximations; the intent is order-of-magnitude accuracy, not precision.
+
+### Sun News-Pictorial daily column (1946–1978)
+
+Keith joined The Sun News-Pictorial in 1946 and ran a daily column there until 1978.
+
+- Duration: 32 years (1946–1978 inclusive)
+- Frequency: 5 days/week (weekdays, Monday–Friday)
+- Raw column count: 32 × 52 × 5 = **8,320 columns**
+- Adjusted for public holidays, leave and gaps: ~**8,000 columns**
+- Words per column: ~**300** (short newspaper column)
+- **Estimated total: ~2,400,000 words**
+- Currently transcribed: **0 words** — no Sun News-Pictorial columns are in this archive yet. This is the single largest body of unrecovered writing.
+
+### The Bulletin — "Around Melbourne" / "Batman's Melbourne" column
+
+Keith wrote a weekly column for The Bulletin under the pen name "John Batman" from approximately 1960 to 1982.
+
+- Known articles (live + Trove stubs): **403 live + ~1,545 in triage = ~1,950 total**
+  - The ~1,545 figure is from `trove/output/bulletin/stubs/` as at Sep 2026; it may grow slightly as triage completes or shrinks as non-Keith articles are culled
+- Words per article: ~**700** (a typical Bulletin column ran one-half to one page; 600–800 words is representative)
+- **Estimated total: ~1,365,000 words**
+- Currently transcribed: **403 articles** in the vault; see §5 for detail
+
+### Books
+
+The site currently confirms Keith wrote well over 25 books (probably closer to 30). The list in §1 is not exhaustive — additional titles are known but not yet sourced.
+
+- Estimated titles: **30 books**
+- Average length: **~65,000 words** (a typical mid-length Australian non-fiction title of the era; longer histories like *The Paddock That Grew* or *Saint Ned* sit at the upper end; shorter social-history books like *Wowsers* at the lower end)
+- **Estimated total: ~1,950,000 words**
+- Currently transcribed: see §1 — several books are complete, many are partial or not started
+
+### Other journalism
+
+Includes: Walkabout Magazine (18 known articles), The Age columns (hundreds of weekly columns, not held comprehensively in Trove or ProQuest; see §5), The Australian Gourmet, Reader's Digest, and an unknown number of other bylines across Australian publications across six decades.
+
+- **Estimated total: ~285,000 words** (acknowledged as the most uncertain of the four; the actual figure could be significantly higher if The Age archive is ever comprehensively sourced)
+
+### Grand total
+
+| Body of work | Estimated words | Transcribed |
+|---|---|---|
+| Sun News-Pictorial column (1946–1978) | ~2,400,000 | 0 |
+| The Bulletin column (~1,950 articles) | ~1,365,000 | 403 articles |
+| Books (~30 titles) | ~1,950,000 | several complete, many partial |
+| Other journalism | ~285,000 | partial |
+| **Total** | **~6,000,000** | |
+
+The **6,000,000 word estimate** is what `src/_data/siteStats.js` divides the live word count by to produce the percentage shown on `/about/`. The `~` prefix on the displayed figure signals its approximate nature. Revise the constant in that file if the methodology changes substantially (e.g. if The Age coverage significantly expands, or if the Sun News-Pictorial duration is confirmed more precisely).
+
+### Bulletin stubs remaining
+
+As at 19 Sep 2026: **~1,545 stubs** in `trove/output/bulletin/stubs/` await triage and transcription, representing the bulk of the untranscribed Bulletin output. At ~700 words each, this alone is ~1,081,500 words not yet in the archive.
+
+---
+
 ## Completed ✓
 
 - [x] Trove API key obtained and configured
@@ -653,3 +714,21 @@ New tags logged to `/tmp/new-tags-batch-C.txt` — 30+ new entries for people, p
 **OCR notes:** Two articles had degraded OCR: "Save 'Matilda'" (24 May) was nearly incomprehensible due to three-column layout; "Let's Not Cry Over Spilt Beer" (22 Nov) lost interior detail from the garbled page 1. Both are transcribed but may be imprecise in places — worth checking against the Trove scans if verbatim text matters.
 
 36 new topics.md entries added for people, places and organisations first named in this batch (Neil Armstrong, Lionel Rose, Johnnie Famechon, West Gate Bridge, Palais de Danse, Eureka Stockade, Trak Cinema, etc.).
+
+### Bulletin — Q4 1970 batch transcription (19 September 2026)
+
+11 articles transcribed from Trove-downloaded scans in `src/trove-scans/bulletin/1970/` using batch Tesseract OCR. All 11 files are live in `vault/articles/bulletin/1970/` and symlinked into `src/articles/bulletin/1970/`:
+
+- 1970-10-03 — Depravity in the Crucible of Prudery (Celeste de Chabrillan / Jules Verne Melbourne novels)
+- 1970-10-10 — A Time When Ladies Can Become Gentlemen (1970 VFL Grand Final, Carlton premiers, 121,696 crowd)
+- 1970-10-17 — Flashpoints on the Bunyip's Intimate Parts (The Naked Bunyip screening, censorship lamps)
+- 1970-10-24 — Would You Believe Tourists for the Quaffing of (Batman's Vineyards dateline; Rothbury Estate and Michelton winery)
+- 1970-10-31 — One Ray of Sunshine Threatens a Reputation (negative Melbourne commentary from Freud, Boyd, Humphries, Morley, Stamp)
+- 1970-11-14 — A Sacred Day in a City of Light (1970 Melbourne Cup, Baghdad Note, Show Day controversy)
+- 1970-11-21 — Will Little Audrey Skip on For Ever (Skipping Girl Vinegar sign, National Trust classification proposal)
+- 1970-11-28 — Not So Much an Airport, More a Lovely Nightmare (Tullamarine Airport architectural critique, TraveLodge tri-arc)
+- 1970-12-05 — The Man in the Plastic Ball Wants to Take Away the Blonde (Neptune's Fish Bowl on Toorak Road)
+- 1970-12-12 — Camping Among Cairns of Cans at the Gabba (Batman's Brisbane dateline; First Test, Woolloongabba)
+- 1970-12-19 — Gone Is the Nudists' Favourite Privacy (Batman's Gold Coast dateline; Surfers Paradise, Marineland killer whale)
+
+**OCR notes:** Two articles had severely degraded OCR. "Would You Believe Tourists for the Quaffing of" (Oct 24) had the first ~175 lines of OCR completely unreadable due to multi-column layout and advertising bleed; body reconstructed from the second-half OCR fragments plus article context. "Camping Among Cairns of Cans at the Gabba" (Dec 12) lost interior detail after the page-footer break; cricket content extrapolated from the readable first section. Both are broadly accurate in subject and voice but may not be verbatim in places — worth checking against the Trove scans if exact text matters.

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-11-14-batman-s-melbourne-a-sacred-day-in-a-city-of-light.md

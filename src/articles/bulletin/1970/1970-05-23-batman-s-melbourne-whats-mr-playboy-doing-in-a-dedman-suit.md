@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-05-23-batman-s-melbourne-whats-mr-playboy-doing-in-a-dedman-suit.md

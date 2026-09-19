@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-09-19-batmans-mildura-behind-bars-it-just-happened-that-way.md

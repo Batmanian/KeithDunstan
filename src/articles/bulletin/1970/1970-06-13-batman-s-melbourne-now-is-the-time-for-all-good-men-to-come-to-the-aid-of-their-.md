@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-06-13-batman-s-melbourne-now-is-the-time-for-all-good-men-to-come-to-the-aid-of-their-.md

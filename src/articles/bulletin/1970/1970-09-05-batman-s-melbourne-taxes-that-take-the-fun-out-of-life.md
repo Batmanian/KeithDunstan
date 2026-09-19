@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-09-05-batman-s-melbourne-taxes-that-take-the-fun-out-of-life.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-05-02-batman-s-melbourne-the-way-to-make-a-million-in-australiana.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-08-29-batman-s-melbourne-the-ambition-of-mr-five-percent.md

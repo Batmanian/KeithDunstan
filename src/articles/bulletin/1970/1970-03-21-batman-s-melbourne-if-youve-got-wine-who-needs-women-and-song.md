@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-03-21-batman-s-melbourne-if-youve-got-wine-who-needs-women-and-song.md

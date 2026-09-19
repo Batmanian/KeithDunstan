@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-12-19-batman-s-gold-coast-gone-is-the-nudists-favorite-privacy.md

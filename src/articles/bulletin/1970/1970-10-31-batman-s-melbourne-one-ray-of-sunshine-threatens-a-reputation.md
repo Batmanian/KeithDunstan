@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-10-31-batman-s-melbourne-one-ray-of-sunshine-threatens-a-reputation.md

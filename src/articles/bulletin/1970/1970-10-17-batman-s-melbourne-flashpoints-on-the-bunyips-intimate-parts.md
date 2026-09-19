@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-10-17-batman-s-melbourne-flashpoints-on-the-bunyips-intimate-parts.md

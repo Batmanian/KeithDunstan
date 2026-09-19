@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-06-27-batman-s-melbourne-the-wit-of-a-man-cartoonists-would-hate-to-lose.md

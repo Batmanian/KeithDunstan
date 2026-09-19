@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-01-03-batman-s-melbourne-that-was-the-year-that-was-1970.md

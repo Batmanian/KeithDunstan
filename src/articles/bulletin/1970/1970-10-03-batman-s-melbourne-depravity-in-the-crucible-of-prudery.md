@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-10-03-batman-s-melbourne-depravity-in-the-crucible-of-prudery.md

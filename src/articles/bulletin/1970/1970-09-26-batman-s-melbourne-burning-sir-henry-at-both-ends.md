@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-09-26-batman-s-melbourne-burning-sir-henry-at-both-ends.md

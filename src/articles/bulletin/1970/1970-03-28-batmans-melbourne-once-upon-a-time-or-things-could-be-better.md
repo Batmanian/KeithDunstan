@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-03-28-batmans-melbourne-once-upon-a-time-or-things-could-be-better.md

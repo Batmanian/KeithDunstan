@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-10-10-batman-s-melbourne-a-time-when-ladies-can-become-gentlemen.md

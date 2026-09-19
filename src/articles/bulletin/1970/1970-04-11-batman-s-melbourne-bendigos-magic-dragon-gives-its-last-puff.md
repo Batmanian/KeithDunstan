@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-04-11-batman-s-melbourne-bendigos-magic-dragon-gives-its-last-puff.md

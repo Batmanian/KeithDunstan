@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-01-17-batman-s-melbourne-skipping-around-a-rewarding-tragedy.md

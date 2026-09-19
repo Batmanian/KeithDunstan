@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1970/1970-05-30-batman-s-melbourne-what-a-beautiful-baby-is-leading-the-pre-poll-parade.md
