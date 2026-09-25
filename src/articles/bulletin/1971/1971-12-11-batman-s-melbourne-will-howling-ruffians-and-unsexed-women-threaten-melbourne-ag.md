@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-12-11-batman-s-melbourne-will-howling-ruffians-and-unsexed-women-threaten-melbourne-ag.md

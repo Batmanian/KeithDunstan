@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-10-23-batman-s-melbourne-getting-away-with-a-gnome-even-on-a-sunday.md

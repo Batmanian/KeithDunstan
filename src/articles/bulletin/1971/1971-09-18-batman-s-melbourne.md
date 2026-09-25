@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-09-18-batman-s-melbourne.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-01-02-batman-s-melbourne-now-heres-a-dame-who-slept-around.md

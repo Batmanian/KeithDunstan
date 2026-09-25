@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-06-19-batman-s-melbourne-please-dont-rob-the-poor-man-of-his-beer.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-06-26-batmans-melbourne-down-the-paris-end-of-collins-street.md

@@ -1,0 +1,66 @@
+{
+  "title": "Keith Dunstan: the man and his influence",
+  "question": "These revisions put Keith first. Choose one, or reply in the agent chat with what to combine or change.",
+  "options": [
+    {
+      "id": "legacy",
+      "label": "Keith, remembered",
+      "thesis": "Lead with the man and an attributed recollection of his character.",
+      "viewport": "A large portrait beside Keith’s name and a short tribute, followed by his public legacy.",
+      "risk": "The tribute should invite discovery rather than feel like an obituary.",
+      "comp": ".impeccable/mocks/decision/legacy.png",
+      "palette": [
+        "#198754",
+        "#ffffff",
+        "#212529"
+      ],
+      "materials": [
+        "Existing portrait",
+        "Inter typography",
+        "Quiet editorial rules"
+      ]
+    },
+    {
+      "id": "profile",
+      "label": "The man behind the column",
+      "thesis": "An editorial profile introduces a modest man with a substantial public voice.",
+      "viewport": "Keith’s name anchors a portrait-led profile, with career evidence in a narrow adjacent column.",
+      "risk": "The evidence must support the personality without becoming a résumé.",
+      "comp": ".impeccable/mocks/decision/profile.png",
+      "palette": [
+        "#198754",
+        "#ffffff",
+        "#212529"
+      ],
+      "materials": [
+        "Existing portrait",
+        "Inter typography",
+        "Quiet editorial rules"
+      ]
+    },
+    {
+      "id": "life",
+      "label": "A life that reached beyond the page",
+      "thesis": "Connect the writer to his role in the life of Melbourne.",
+      "viewport": "An intimate introduction above three biographical moments linking journalism, cycling and satire.",
+      "risk": "Public activities must lead back to the writing.",
+      "comp": ".impeccable/mocks/decision/life.png",
+      "palette": [
+        "#198754",
+        "#ffffff",
+        "#212529"
+      ],
+      "materials": [
+        "Existing portrait",
+        "Inter typography",
+        "Quiet editorial rules"
+      ]
+    }
+  ],
+  "reroll": false,
+  "steer": false,
+  "buildPath": {
+    "value": "comp",
+    "toggle": true
+  }
+}

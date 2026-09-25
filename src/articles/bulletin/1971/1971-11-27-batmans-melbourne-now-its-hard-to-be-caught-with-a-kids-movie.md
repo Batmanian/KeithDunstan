@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-11-27-batmans-melbourne-now-its-hard-to-be-caught-with-a-kids-movie.md

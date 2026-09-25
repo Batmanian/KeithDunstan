@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-03-13-batman-s-melbourne-will-the-man-in-the-abstract-painting-be-the-model-of-the-yea.md

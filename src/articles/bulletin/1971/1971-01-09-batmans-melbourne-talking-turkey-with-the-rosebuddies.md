@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-01-09-batmans-melbourne-talking-turkey-with-the-rosebuddies.md

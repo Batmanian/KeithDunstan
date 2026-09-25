@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-05-22-batman-s-aeroplanes.md

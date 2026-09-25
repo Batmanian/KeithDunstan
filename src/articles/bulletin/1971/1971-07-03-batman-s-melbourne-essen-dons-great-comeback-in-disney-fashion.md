@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-07-03-batman-s-melbourne-essen-dons-great-comeback-in-disney-fashion.md

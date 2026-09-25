@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-04-03-batman-s-melbourne-how-the-pure-sunday-disappeared-in-melbourne.md

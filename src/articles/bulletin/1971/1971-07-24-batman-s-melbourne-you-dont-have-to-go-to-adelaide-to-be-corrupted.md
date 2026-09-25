@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-07-24-batman-s-melbourne-you-dont-have-to-go-to-adelaide-to-be-corrupted.md

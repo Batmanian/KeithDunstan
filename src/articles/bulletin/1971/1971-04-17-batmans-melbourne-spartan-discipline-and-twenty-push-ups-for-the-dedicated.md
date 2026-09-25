@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-04-17-batmans-melbourne-spartan-discipline-and-twenty-push-ups-for-the-dedicated.md

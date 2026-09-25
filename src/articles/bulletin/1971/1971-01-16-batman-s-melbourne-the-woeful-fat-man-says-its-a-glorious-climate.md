@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-01-16-batman-s-melbourne-the-woeful-fat-man-says-its-a-glorious-climate.md

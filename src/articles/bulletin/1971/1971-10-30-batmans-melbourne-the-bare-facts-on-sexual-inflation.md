@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-10-30-batmans-melbourne-the-bare-facts-on-sexual-inflation.md

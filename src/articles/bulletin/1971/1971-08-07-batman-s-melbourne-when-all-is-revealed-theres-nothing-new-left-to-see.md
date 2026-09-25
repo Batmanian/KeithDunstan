@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-08-07-batman-s-melbourne-when-all-is-revealed-theres-nothing-new-left-to-see.md

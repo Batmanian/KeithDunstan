@@ -93,6 +93,24 @@ Severity can accelerate this. Anything that touched production data, lost work, 
 
 ## Log
 
+### 2026-09-20 — Service interactive mockup feedback before ending the turn
+
+- **Area:** `Impeccable decision page`
+- **Severity:** medium
+- **Count:** 1
+
+**What happened**
+The user requested revised mockups through the comparison page, but no next set arrived.
+
+**Root cause**
+The agent ended its turn without collecting the decision page's queued answer. The session subsequently expired.
+
+**Consequence**
+The user encountered a stalled page and had to report it in chat.
+
+**Rule**
+Collect decision-page answers during an active session; before ending a turn, direct further revision requests to chat rather than leave an unserviced re-roll control.
+
 <!-- Newest first. Append new entries directly below this line. -->
 
 ### 2026-09-07 — Regex-based frontmatter edits must verify byte-for-byte, not just visually spot-check

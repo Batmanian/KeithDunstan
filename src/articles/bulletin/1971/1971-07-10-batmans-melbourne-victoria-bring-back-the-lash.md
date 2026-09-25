@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-07-10-batmans-melbourne-victoria-bring-back-the-lash.md

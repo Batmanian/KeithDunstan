@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-06-05-batman-s-melbourne-melbourne-keeps-its-hair-on.md

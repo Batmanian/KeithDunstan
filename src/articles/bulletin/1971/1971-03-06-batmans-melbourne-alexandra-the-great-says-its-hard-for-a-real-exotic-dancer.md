@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-03-06-batmans-melbourne-alexandra-the-great-says-its-hard-for-a-real-exotic-dancer.md

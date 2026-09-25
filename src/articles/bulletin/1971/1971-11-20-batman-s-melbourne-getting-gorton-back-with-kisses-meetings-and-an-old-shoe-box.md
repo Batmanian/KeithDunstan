@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-11-20-batman-s-melbourne-getting-gorton-back-with-kisses-meetings-and-an-old-shoe-box.md

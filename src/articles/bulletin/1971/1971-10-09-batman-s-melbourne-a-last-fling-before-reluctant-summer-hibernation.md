@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-10-09-batman-s-melbourne-a-last-fling-before-reluctant-summer-hibernation.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-11-06-batmans-melbourne-the-very-hard-week-that-was.md

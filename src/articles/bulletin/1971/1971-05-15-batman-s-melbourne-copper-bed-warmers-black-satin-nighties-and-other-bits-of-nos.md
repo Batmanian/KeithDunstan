@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-05-15-batman-s-melbourne-copper-bed-warmers-black-satin-nighties-and-other-bits-of-nos.md

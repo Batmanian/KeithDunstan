@@ -1,0 +1,66 @@
+{
+  "title": "Keith Dunstan: home page concepts",
+  "question": "Which introduction would make you want to explore Keith's writing? Choose one, combine elements, or suggest a revision.",
+  "options": [
+    {
+      "id": "guided",
+      "label": "Meet Keith",
+      "thesis": "Introduce the person, then show the range of his writing.",
+      "viewport": "A generous introduction and portrait, followed by an editorial guide to his subjects and publications.",
+      "risk": "The biography must stay concise so the writing remains central.",
+      "comp": ".impeccable/mocks/decision/guided.png",
+      "palette": [
+        "#198754",
+        "#ffffff",
+        "#212529"
+      ],
+      "materials": [
+        "Documentary portrait",
+        "Inter typography",
+        "Fine rules and generous whitespace"
+      ]
+    },
+    {
+      "id": "subjects",
+      "label": "Australian life, observed",
+      "thesis": "Begin with familiar subjects and reveal the writer connecting them.",
+      "viewport": "A broad typographic introduction above an asymmetric subject index and a compact portrait.",
+      "risk": "Subject labels need compelling real reading selections.",
+      "comp": ".impeccable/mocks/decision/subjects.png",
+      "palette": [
+        "#198754",
+        "#ffffff",
+        "#212529"
+      ],
+      "materials": [
+        "Documentary portrait",
+        "Inter typography",
+        "Fine rules and generous whitespace"
+      ]
+    },
+    {
+      "id": "publications",
+      "label": "A writer in the public eye",
+      "thesis": "Explain Keith through the newspapers and magazines that carried his voice.",
+      "viewport": "Portrait and introduction beside a prominent publication itinerary, followed by books.",
+      "risk": "Publication names need context for readers who never encountered them.",
+      "comp": ".impeccable/mocks/decision/publications.png",
+      "palette": [
+        "#198754",
+        "#ffffff",
+        "#212529"
+      ],
+      "materials": [
+        "Documentary portrait",
+        "Inter typography",
+        "Fine rules and generous whitespace"
+      ]
+    }
+  ],
+  "reroll": true,
+  "steer": true,
+  "buildPath": {
+    "value": "comp",
+    "toggle": true
+  }
+}

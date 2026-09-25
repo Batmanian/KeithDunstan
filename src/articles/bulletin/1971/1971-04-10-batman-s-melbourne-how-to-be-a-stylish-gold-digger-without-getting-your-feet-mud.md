@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-04-10-batman-s-melbourne-how-to-be-a-stylish-gold-digger-without-getting-your-feet-mud.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-06-12-batman-s-brisbane-an-old-lover-turns-faithless-and-its-not-the-same-anymore.md

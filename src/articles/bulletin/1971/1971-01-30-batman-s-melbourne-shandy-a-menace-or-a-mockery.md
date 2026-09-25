@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-01-30-batman-s-melbourne-shandy-a-menace-or-a-mockery.md

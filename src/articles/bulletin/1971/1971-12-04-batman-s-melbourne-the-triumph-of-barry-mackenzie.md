@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-12-04-batman-s-melbourne-the-triumph-of-barry-mackenzie.md

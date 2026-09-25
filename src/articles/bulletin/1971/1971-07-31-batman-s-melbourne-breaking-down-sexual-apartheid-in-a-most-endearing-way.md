@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-07-31-batman-s-melbourne-breaking-down-sexual-apartheid-in-a-most-endearing-way.md

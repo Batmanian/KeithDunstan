@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1971/1971-10-16-batman-s-melbourne-doing-my-way-on-an-old-cigar-box-lid.md

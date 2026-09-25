@@ -1,7 +1,7 @@
 # Todo — Keith Dunstan Archive
 
 Tracking outstanding work across all active workstreams.
-Last updated: 20 September 2026 (all 43 1970 Bulletin articles transcribed from Trove scans).
+Last updated: 20 September 2026 (all 43 1970 + 45 1971 Bulletin articles transcribed from Trove scans).
 
 **Status legend used throughout this file:**
 
@@ -131,7 +131,7 @@ The book's contents page (`src/a-day-in-the-life-of-australia.njk`) lists **258 
 
 | Publication | ✅ Live | Known outstanding (titled) | Stubs awaiting triage (Trove) | Notes |
 |---|---|---|---|---|
-| The Bulletin | 403 | 4 | ~1,545 | 34 "Around Melbourne" columns (Mar–Dec 1962) transcribed from manually-scanned photos 28–29 Jul 2026; 11 more 1963 columns transcribed the same way 29 Jul–18 Aug 2026; 38 more (33 1963–64 + 5 dropped in mid-session, all JPEG scans) transcribed 19 Aug 2026; 8 1966 from Trove-downloaded scans 5 Sep 2026; 50 1969 from Trove-downloaded scans 19 Sep 2026; 43 1970 from Trove-downloaded scans 20 Sep 2026 — see §6 for detail. Separate from untouched Trove stub pipeline. Known-missing/incomplete titles listed below (2 pre-existing PNG cases + 2 newly-found incomplete "Out and About" JPEG scans) |
+| The Bulletin | 448 | 4 | ~1,545 | 34 "Around Melbourne" columns (Mar–Dec 1962) transcribed from manually-scanned photos 28–29 Jul 2026; 11 more 1963 columns transcribed the same way 29 Jul–18 Aug 2026; 38 more (33 1963–64 + 5 dropped in mid-session, all JPEG scans) transcribed 19 Aug 2026; 8 1966 from Trove-downloaded scans 5 Sep 2026; 50 1969 from Trove-downloaded scans 19 Sep 2026; 43 1970 from Trove-downloaded scans 20 Sep 2026; 45 1971 from Trove-downloaded scans 20 Sep 2026 — see §6 for detail. Separate from untouched Trove stub pipeline. Known-missing/incomplete titles listed below (2 pre-existing PNG cases + 2 newly-found incomplete "Out and About" JPEG scans) |
 | Walkabout Magazine | 17 | 1 | 0 | 18 known articles per site total; 17 now transcribed and live (31 Jul 2026 — see Completed section), 1 outstanding awaiting a scan (Collins Street Charm) — see list below |
 | The Australian Gourmet | 1 | — | Not in Trove | Extent of Keith's total output for this title is unknown; physical copies needed |
 | The Age (post-1954) | 32 | 1 known ("On the right side of Tuscany", 2 May 1989) | Not in Trove | 17 flat (undated/misc) + 5 from 1984 scans + 3 from 1985 scans + 7 from 1986 scans live. 97 stubs in vault (hidden): 3×1984, 14×1985, 80×1986. See note below |
@@ -562,7 +562,7 @@ Contents: seven Australian writers profile one city each. Keith Dunstan contribu
 
 ## 15. Word count estimation methodology
 
-*(Added 19 Sep 2026. Used by `src/_data/siteStats.js` to compute the "% of Keith's writing transcribed" figure on `/about/`.)*
+*(Added 19 Sep 2026; revised 20 Sep 2026 to account for dictionary-series books. Used by `src/_data/siteStats.js` to compute the "% of Keith's writing transcribed" figure on `/about/`.)*
 
 The estimate covers four bodies of work. All figures are approximations; the intent is order-of-magnitude accuracy, not precision.
 
@@ -590,12 +590,18 @@ Keith wrote a weekly column for The Bulletin under the pen name "John Batman" fr
 
 ### Books
 
-The site currently confirms Keith wrote well over 25 books (probably closer to 30). The list in §1 is not exhaustive — additional titles are known but not yet sourced.
+`src/_data/books.json` contains 42 known titles, split into two categories:
 
-- Estimated titles: **30 books**
-- Average length: **~65,000 words** (a typical mid-length Australian non-fiction title of the era; longer histories like *The Paddock That Grew* or *Saint Ned* sit at the upper end; shorter social-history books like *Wowsers* at the lower end)
-- **Estimated total: ~1,950,000 words**
-- Currently transcribed: see §1 — several books are complete, many are partial or not started
+**Regular books (33 titles)** — full-length non-fiction (memoirs, histories, social studies):
+- Average length: **~65,000 words**
+- **Subtotal: ~2,145,000 words**
+
+**Dictionary series (9 titles)** — the Jeff Hook illustrated "Sun Books" comic glossaries (A Cricket Dictionary, Footy, Tennis, Health and Fitness, Racing, Wine, Bowls, Hook Line and Sinker, Skiing):
+- These are small illustrated novelty books; each contains approximately **~300 words** of Keith's text
+- **Subtotal: ~2,700 words**
+
+**Total books: ~2,148,000 words**
+Currently transcribed: see §1 — several regular books are complete, many are partial or not started; no dictionary-series books are transcribed
 
 ### Other journalism
 
@@ -609,11 +615,11 @@ Includes: Walkabout Magazine (18 known articles), The Age columns (hundreds of w
 |---|---|---|
 | Sun News-Pictorial column (1946–1978) | ~2,400,000 | 0 |
 | The Bulletin column (~1,950 articles) | ~1,365,000 | 403 articles |
-| Books (~30 titles) | ~1,950,000 | several complete, many partial |
+| Books: 33 regular + 9 dictionary series | ~2,148,000 | several complete, many partial |
 | Other journalism | ~285,000 | partial |
-| **Total** | **~6,000,000** | |
+| **Total** | **~6,200,000** | |
 
-The **6,000,000 word estimate** is what `src/_data/siteStats.js` divides the live word count by to produce the percentage shown on `/about/`. The `~` prefix on the displayed figure signals its approximate nature. Revise the constant in that file if the methodology changes substantially (e.g. if The Age coverage significantly expands, or if the Sun News-Pictorial duration is confirmed more precisely).
+The **6,200,000 word estimate** is what `src/_data/siteStats.js` divides the live word count by to produce the percentage shown on `/about/`. The `~` prefix on the displayed figure signals its approximate nature. Revise the constant in that file if the methodology changes substantially (e.g. if The Age coverage significantly expands, or if the Sun News-Pictorial duration is confirmed more precisely).
 
 ### Bulletin stubs remaining
 
