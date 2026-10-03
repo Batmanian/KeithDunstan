@@ -1,0 +1,468 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Just the Shot for Mad Dogs and Englishmen</title>
+<meta name="title" content="Just the Shot for Mad Dogs and Englishmen">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="A war-correspondent account of joining the opening day of the duck shooting season in the Riverina near Hay, where 100-plus camouflaged gunmen mobilise before dawn through swamp mud, with pre-battle keg, army-surplus logistics, and a dog so faithful it kept retrieving the one protected water hen someone shot by mistake.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/articles/bulletin/1970/1970-03-07-batman-s-melbourne-just-the-shot-for-mad-dogs-and-englishmen/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Just the Shot for Mad Dogs and Englishmen">
+<meta property="og:description" content="A war-correspondent account of joining the opening day of the duck shooting season in the Riverina near Hay, where 100-plus camouflaged gunmen mobilise before dawn through swamp mud, with pre-battle keg, army-surplus logistics, and a dog so faithful it kept retrieving the one protected water hen someone shot by mistake.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Just the Shot for Mad Dogs and Englishmen">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/articles/bulletin/1970/1970-03-07-batman-s-melbourne-just-the-shot-for-mad-dogs-and-englishmen/">
+<meta name="twitter:title" content="Just the Shot for Mad Dogs and Englishmen">
+<meta name="twitter:description" content="A war-correspondent account of joining the opening day of the duck shooting season in the Riverina near Hay, where 100-plus camouflaged gunmen mobilise before dawn through swamp mud, with pre-battle keg, army-surplus logistics, and a dog so faithful it kept retrieving the one protected water hen someone shot by mistake.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Just the Shot for Mad Dogs and Englishmen">
+<link rel="canonical" href="https://keithdunstan.org/articles/bulletin/1970/1970-03-07-batman-s-melbourne-just-the-shot-for-mad-dogs-and-englishmen/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1970-03-07">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="The Bulletin">
+<meta property="article:tag" content="Bendigo">
+<meta property="article:tag" content="Echuca">
+<meta property="article:tag" content="Melbourne">
+<meta property="article:tag" content="Riverina">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">Just the Shot for Mad Dogs and Englishmen</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            5
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1970-03-07">07 Mar 1970</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A war-correspondent account of joining the opening day of the duck shooting season in the Riverina near Hay, where 100-plus camouflaged gunmen mobilise before dawn through swamp mud, with pre-battle keg, army-surplus logistics, and a dog so faithful it kept retrieving the one protected water hen someone shot by mistake.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="The Bulletin">
+         <!--<a href="/tags/bendigo/" class="btn btn-outline-dark btn-sm me-2">Bendigo</a><a href="/tags/echuca/" class="btn btn-outline-dark btn-sm me-2">Echuca</a><a href="/tags/melbourne/" class="btn btn-outline-dark btn-sm me-2">Melbourne</a><a href="/tags/riverina/" class="btn btn-outline-dark btn-sm me-2">Riverina</a>-->
+
+        
+      </header>
+      <div class="article-body"><p>FOR THE MAN who has survived his first duck season opening there should be a campaign medal, and for the scarred and the walking wounded a general issuing of Purple Hearts.</p>
+<p>Your man went on a public relations venture, rather in the manner of a war correspondent in the field. The word was about even in early January that after the big wet the lakes and swamps of the Riverina were infested with duck, the best prospect in 20 years.</p>
+<p>But it is very interesting. You have to go to the Riverina, somewhere near Hay. We received printed movement orders and we had to swear not to reveal the location of the property. All the way north via Kilmore, Bendigo, Echuca the road was bumper to bumper with superbly equipped vehicles and amphibious craft. Meanwhile, the innocent birdlife had no conception that this huge invading army was moving north.</p>
+<p>The security system on these Riverina properties is remarkable. You go by invitation. We were told we had to be at the gate by 12 noon or it would be too late. This proved to be correct; precisely at noon the gate was chained shut and secured with three padlocks.</p>
+<p>'We used to have an open go here,' said one property owner. 'Not any more. The bastards'll do anything. We've had cattle shot. We had a stallion killed with five bullets in it. We've had watertanks holed right through. One time we went out to drive the tractor, five minutes later it blew up. Yeah, bullets through the radiator and sump.'</p>
+<p>Even then, resourceful green-beret types managed to get in. More than 100 shooters were in the camp. Immediately one noted that it was important to wear the right gear. Army disposals jungle greens and giggle hats were absolutely right. Waders were utterly out. For speed of movement through the swamp one wore ripple-soled gym sneakers. It was best to have the 'I've-suffered-the-green-hell' look. Many gunmen were bearded. I was impressed. They looked like Fidel Castro guerillas with all the courageous outdoorsmanship of a Marlboro advertisement.</p>
+<p>Pre-battle equipment also was important. There were large caravans, beautiful tents. One gentleman had an engine-operated deep-freeze on the back of his vehicle. Three hydroplanes were available and the duck hunters had acquired several small outboard motors. Two of them had large Volkswagen motors and the third was magnificently equipped with a Porsche. Their great advantage was that in draft they could virtually skim on wet mud. They kept the duck aloft and circulating.</p>
+<p>At 8.30 p.m. there was an assembly of all shooters for an address by the owner. Here there was atmosphere, gum trees, the river nearby and a gun-shot through the trees, with barks and rumoured squeals. There were noises like a harangue before Agincourt, and we had the feeling that Englishmen, still comfortable in their beds, would be accurs'd that they were not here this day.</p>
+<p>The owner said we would rise at 4 a.m., leave the camp at 5 a.m. His car would be the first out and not a shot would be fired until 6 a.m., sunrise. Again the organisation was remarkable. On the back of a truck was an 18-gallon keg, complete with pluto taps.</p>
+<p>At 4 a.m. alarms went off, the noise searing through 100 hangovers. At five precisely, according to the movement order, a long crocodile of cars moved out toward the swamp. At 5.25 just as one was slopping through the mud, feeling accursed that this day one wasn't in a comfortable bed, the explosion started way ahead of schedule. This was awe-inspiring. The noise was comparable to the Battle of Ypres. 'Run. Run,' shouted the commander, 'we are already five minutes too late.' We ran, ran, for what seemed half a mile, until at 5.40 I was standing out in the middle of swamp with frigid mud up to my knees. It was deathly cold. The scene was beautiful, the water scarlet with the first light of dawn.</p>
+<p>The sky was filled with the clatter and whirr of wings and the duck were dropping with a thwack on the water. The big swans came through low and straight, not even bothering to take deviating action. Swans know they are protected, sort of noncombatants under the International Red Cross agreement.</p>
+<p>Your correspondent actually shot at duck and in the excitement of the moment, laden with bandoliers, 200 rounds, duck holders, mosquito repellent and gun, there was the awful danger of never again being able to rise out of the ooze. 'Don't worry about that,' roared the commander, 'Blackies on your left. Fire.' Oh, I fired, but I had committed the sin of not having reloaded.</p>
+<p>Of course, other people had dogs to fetch their duck, but then you must understand that on the first day dogs are unreliable because the gunfire unnerves them. However, one gunman became so frustrated with his dog he swam out and returned with the duck in his mouth to show the dog what to do. Another gentleman, in error, shot a water hen, a protected bird. Desperately he threw it away, but every time he did his faithful hound galloped back, water hen in mouth.</p>
+<p>Yet the area lived up to expectation; clearly almost every shooter gained a full bag of ten duck, at an average cost of, say, around $10 each.</p>
+<p>Your correspondent retired quietly. It was interesting to note that the local pub had a true shooting atmosphere. There was a sign in the bar:</p>
+<p>WILL SWAP NAGGING WIFE FOR GOOD PIG DOG.</p>
+<hr>
+<p><em>Source: Batman's Melbourne: Just the Shot for Mad Dogs and Englishmen, The Bulletin, 7 March 1970. Accessible via the<a href="https://nla.gov.au/nla.obj-1721833124">National Library of Australia's Trove database</a>.</em></p>
+</div>
+      
+      
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
+          Last updated <time datetime="2026-09-20">20 Sep 2026</time>
+        </footer>
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+
+  <p class="lead">
+        A war-correspondent account of joining the opening day of the duck shooting season in the Riverina near Hay, where 100-plus camouflaged gunmen mobilise before dawn through swamp mud, with pre-battle keg, army-surplus logistics, and a dog so faithful it kept retrieving the one protected water hen someone shot by mistake.
+      </p>
+
+
+<hr>
+<h4 class="h6">Topics in this item</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/bendigo/" class="link-secondary">Bendigo</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Bendigo">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/echuca/" class="link-secondary">Echuca</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Echuca">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/riverina/" class="link-secondary">Riverina</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Riverina">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/bendigo/" class="link-secondary">Bendigo</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Bendigo">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/echuca/" class="link-secondary">Echuca</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Echuca">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/riverina/" class="link-secondary">Riverina</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Riverina">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-09-20">20 Sep 2026</time>
+    </p>
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

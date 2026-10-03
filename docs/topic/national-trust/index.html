@@ -1,0 +1,773 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Topic: National Trust</title>
+<meta name="title" content="Topic: National Trust">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="The collected literary works of Keith Dunstan OAM">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://keithdunstan.org/topic/national-trust/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Topic: National Trust">
+<meta property="og:description" content="The collected literary works of Keith Dunstan OAM">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Topic: National Trust">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/topic/national-trust/">
+<meta name="twitter:title" content="Topic: National Trust">
+<meta name="twitter:description" content="The collected literary works of Keith Dunstan OAM">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Topic: National Trust">
+<link rel="canonical" href="https://keithdunstan.org/topic/national-trust/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-lg-10 col-xl-8">
+          <header>
+      <h1 class="h2 mb-2">Topic: National Trust</h1>
+</header>
+
+
+  
+  
+  <p class="text-muted mb-1">16 items include the topic of National Trust.</p>
+  <p class="fst-italic text-muted mb-5">The National Trust (Victoria) is the organisation that advocates for the preservation of places of historical significance, which opened the Nareeb estate in Toorak for public inspection in 1964 before its auction, classifying it as interesting with preservation desirable, a rating that proved insufficient to save it from subdivision.</p>
+  <div class="row d-flex justify-content-center">
+  <div class="col-12">
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1964/1964-12-26-you-need-more-than-a-d-in-toorak/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“You Need More Than a &#39;D&#39; in Toorak”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1964-12-26">26 Dec 1964</time>
+        </p>
+
+        <p>The opening of &#39;Nareeb&#39;, Toorak&#39;s last great private estate, for public auction draws 15,000 visitors to the 53-acre Kooyong Road property unchanged since 1888, where the contents, from a 1920 Rolls-Royce to aspidistras, sell for over £18,000.</p>
+
+        <a href="/articles/bulletin/1964/1964-12-26-you-need-more-than-a-d-in-toorak/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/hotel-australia/" class="link-secondary">Hotel Australia</a>,
+              
+              <a href="/topic/national-trust/" class="link-secondary">National Trust</a>,
+              
+              <a href="/topic/nellie-stewart/" class="link-secondary">Nellie Stewart</a>,
+              
+              <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+              
+              <a href="/topic/windsor-hotel/" class="link-secondary">Windsor Hotel</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1965/1965-09-11-mr-fudge-knows-his-se2/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Mr Fudge Knows His S.E.2”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1965-09-11">11 Sep 1965</time>
+        </p>
+
+        <p>Melbourne developer H. J. Fudge&#39;s plan to subdivide Nareeb, the last of Toorak&#39;s great mansions, into 20 luxury house lots at up to £39,000 each marks a turning point in the postcode rivalry between Toorak S.E.2 and the newly chic South Yarra S.E.1.</p>
+
+        <a href="/articles/bulletin/1965/1965-09-11-mr-fudge-knows-his-se2/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/national-trust/" class="link-secondary">National Trust</a>,
+              
+              <a href="/topic/robin-boyd/" class="link-secondary">Robin Boyd</a>,
+              
+              <a href="/topic/south-yarra/" class="link-secondary">South Yarra</a>,
+              
+              <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+              
+              <a href="/topic/victorian-amateur-turf-club/" class="link-secondary">Victorian Amateur Turf Club</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1965/1965-10-30-melbournes-sacred-rites-cup-day-is-not-for-racing/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Melbourne&#39;s Sacred Rites”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1965-10-30">30 Oct 1965</time>
+        </p>
+
+        <p>A survey of the Melbourne Cup carnival&#39;s elaborate rituals, from the Governor-General&#39;s mounted procession down the straight to the champagne-and-chicken-sandwich car park rites, arguing that serious racegoers prefer Derby Day and that the Cup itself is just a gloriously open handicap.</p>
+
+        <a href="/articles/bulletin/1965/1965-10-30-melbournes-sacred-rites-cup-day-is-not-for-racing/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/anzac-day/" class="link-secondary">Anzac Day</a>,
+              
+              <a href="/topic/flemington/" class="link-secondary">Flemington</a>,
+              
+              <a href="/topic/flemington-racecourse/" class="link-secondary">Flemington Racecourse</a>,
+              
+              <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+              
+              <a href="/topic/jean-shrimpton/" class="link-secondary">Jean Shrimpton</a>,
+              
+              <a href="/topic/lord-casey/" class="link-secondary">Lord Casey</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/melbourne-cup/" class="link-secondary">Melbourne Cup</a>,
+              
+              <a href="/topic/moomba/" class="link-secondary">Moomba</a>,
+              
+              <a href="/topic/national-trust/" class="link-secondary">National Trust</a>,
+              
+              <a href="/topic/victoria-racing-club/" class="link-secondary">Victoria Racing Club</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1965/1965-12-04-one-and-a-half-million-bottles-of-champagne/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“One and a Half Million Bottles of Champagne”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1965-12-04">04 Dec 1965</time>
+        </p>
+
+        <p>Victoria&#39;s historic wineries at Great Western and All Saints, Wahgunyah, receive National Trust plaques in the same week, prompting a tour of Great Western&#39;s 34 miles of underground drives and a visit to the castellated All Saints winery, whose Sutherland Smith family have kept Rutherglen&#39;s wine tradition alive since the 1860s despite phylloxera wiping out much of the region.</p>
+
+        <a href="/articles/bulletin/1965/1965-12-04-one-and-a-half-million-bottles-of-champagne/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/all-saints-winery/" class="link-secondary">All Saints Winery</a>,
+              
+              <a href="/topic/ararat/" class="link-secondary">Ararat</a>,
+              
+              <a href="/topic/chateau-tahbilk/" class="link-secondary">Chateau Tahbilk</a>,
+              
+              <a href="/topic/national-trust/" class="link-secondary">National Trust</a>,
+              
+              <a href="/topic/rutherglen/" class="link-secondary">Rutherglen</a>,
+              
+              <a href="/topic/robert-menzies/" class="link-secondary">Robert Menzies</a>,
+              
+              <a href="/topic/stawell/" class="link-secondary">Stawell</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1966/1966-04-16-the-phantom-rolls-royce/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“The Phantom Rolls-Royce”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1966-04-16">16 Apr 1966</time>
+        </p>
+
+        <p>The Melbourne City Council orders a Phantom V Rolls-Royce for the Lord Mayor at $23,800, prompting a survey of the Council&#39;s peculiar anachronisms, from the Civic Group&#39;s gentlemanly rotation of the mayoralty to the ongoing failure to build a civic square or make sensible use of a city block opposite Myer.</p>
+
+        <a href="/articles/bulletin/1966/1966-04-16-the-phantom-rolls-royce/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>,
+              
+              <a href="/topic/harry-seidler/" class="link-secondary">Harry Seidler</a>,
+              
+              <a href="/topic/kevin-dennis/" class="link-secondary">Kevin Dennis</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/melbourne-city-council/" class="link-secondary">Melbourne City Council</a>,
+              
+              <a href="/topic/national-trust/" class="link-secondary">National Trust</a>,
+              
+              <a href="/topic/princess-theatre/" class="link-secondary">Princess Theatre</a>,
+              
+              <a href="/topic/tivoli-theatre/" class="link-secondary">Tivoli Theatre</a>,
+              
+              <a href="/topic/windsor-hotel/" class="link-secondary">Windsor Hotel</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1966/1966-07-02-another-encore-for-the-square-dance/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Another Encore for the Square Dance”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1966-07-02">02 Jul 1966</time>
+        </p>
+
+        <p>Melbourne&#39;s 110-year obsession with building a civic square is traced through a parade of proposals, from an 1856 newspaper leader and a Jubilee scheme tied to Parliament House, through post-war plans to demolish the Windsor Hotel and Princess Theatre, to the current stand-off with the English Hammerson development group over the Swanston and Collins Streets corner site.</p>
+
+        <a href="/articles/bulletin/1966/1966-07-02-another-encore-for-the-square-dance/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/bourke-street/" class="link-secondary">Bourke Street</a>,
+              
+              <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>,
+              
+              <a href="/topic/exhibition-building/" class="link-secondary">Exhibition Building</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/melbourne-city-council/" class="link-secondary">Melbourne City Council</a>,
+              
+              <a href="/topic/national-trust/" class="link-secondary">National Trust</a>,
+              
+              <a href="/topic/princess-theatre/" class="link-secondary">Princess Theatre</a>,
+              
+              <a href="/topic/swanston-street/" class="link-secondary">Swanston Street</a>,
+              
+              <a href="/topic/whelan-the-wrecker/" class="link-secondary">Whelan the Wrecker</a>,
+              
+              <a href="/topic/windsor-hotel/" class="link-secondary">Windsor Hotel</a>,
+              
+              <a href="/topic/young-and-jacksons-hotel/" class="link-secondary">Young and Jacksons Hotel</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1966/1966-07-09-hitting-the-clubs-on-the-head/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Hitting the Clubs on the Head”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1966-07-09">09 Jul 1966</time>
+        </p>
+
+        <p>Melbourne&#39;s private clubs face a crisis following the end of six o&#39;clock closing, with the Hardware Club, University Club, Royal Caledonian Club and Public Schools Club all shedding members or contemplating moves, while the Yorick Club debates whether to merge with the Savage Club or simply wind up, and the boom business shifts to a carpet-lined hotel in Hawthorn with a Breathalyser at the bar.</p>
+
+        <a href="/articles/bulletin/1966/1966-07-09-hitting-the-clubs-on-the-head/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/adam-lindsay-gordon/" class="link-secondary">Adam Lindsay Gordon</a>,
+              
+              <a href="/topic/athenaeum-club/" class="link-secondary">Athenaeum Club</a>,
+              
+              <a href="/topic/camberwell/" class="link-secondary">Camberwell</a>,
+              
+              <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>,
+              
+              <a href="/topic/hawthorn/" class="link-secondary">Hawthorn</a>,
+              
+              <a href="/topic/marcus-clarke/" class="link-secondary">Marcus Clarke</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/melbourne-club/" class="link-secondary">Melbourne Club</a>,
+              
+              <a href="/topic/national-trust/" class="link-secondary">National Trust</a>,
+              
+              <a href="/topic/six-oclock-swill/" class="link-secondary">Six Oclock swill</a>,
+              
+              <a href="/topic/yorick-club/" class="link-secondary">Yorick Club</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1968/1968-01-06-gawd-couldnt-you-go-a-couple-of-jugs/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“&quot;Gawd, couldn&#39;t you go a couple of jugs!&quot;”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1968-01-06">06 Jan 1968</time>
+        </p>
+
+        <p>A visit to Beechworth, the perfectly preserved gold-rush town in north-east Victoria, where the annual Golden Horseshoes Festival re-enacts an 1873 Chinese procession with elaborate costumes, Tom Mitchell on horseback, and a time capsule buried beneath the town hall steps.</p>
+
+        <a href="/articles/bulletin/1968/1968-01-06-gawd-couldnt-you-go-a-couple-of-jugs/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/beechworth/" class="link-secondary">Beechworth</a>,
+              
+              <a href="/topic/bob-askin/" class="link-secondary">Bob Askin</a>,
+              
+              <a href="/topic/harold-holt/" class="link-secondary">Harold Holt</a>,
+              
+              <a href="/topic/national-trust/" class="link-secondary">National Trust</a>,
+              
+              <a href="/topic/ned-kelly/" class="link-secondary">Ned Kelly</a>,
+              
+              <a href="/topic/ron-barassi/" class="link-secondary">Ron Barassi</a>,
+              
+              <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+              
+              <a href="/topic/rohan-delacombe/" class="link-secondary">Rohan Delacombe</a>,
+              
+              <a href="/topic/tanswells-commercial-hotel/" class="link-secondary">Tanswells Commercial Hotel</a>,
+              
+              <a href="/topic/tom-mitchell/" class="link-secondary">Tom Mitchell</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1968/1968-08-17-the-whole-place-reeks-with-atmosphere/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“The whole place reeks with atmosphere”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1968-08-17">17 Aug 1968</time>
+        </p>
+
+        <p>Melbourne restaurants and pubs compete furiously on atmosphere in 1968, from Dame Zara Holt opening the Lazar with oysters and champagne at breakfast, to the salvaged treasures of Cliveden Mansions headed for the new Dillingham hotel, and Louis Fleyfel&#39;s half-million-dollar Le Chateau rising behind a Queensway Road facade.</p>
+
+        <a href="/articles/bulletin/1968/1968-08-17-the-whole-place-reeks-with-atmosphere/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/zara-holt/" class="link-secondary">Zara Holt</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/melbourne-cricket-ground/" class="link-secondary">Melbourne Cricket Ground</a>,
+              
+              <a href="/topic/national-trust/" class="link-secondary">National Trust</a>,
+              
+              <a href="/topic/whelan-the-wrecker/" class="link-secondary">Whelan the Wrecker</a>,
+              
+              <a href="/topic/william-clarke/" class="link-secondary">William Clarke</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1968/1968-11-23-ruthless-competition-in-the-nostalgia-trade/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Ruthless competition in the nostalgia trade”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1968-11-23">23 Nov 1968</time>
+        </p>
+
+        <p>A survey of Victoria&#39;s booming heritage preservation movement, from the renovation of Melbourne pubs to Swan Hill&#39;s Folk Museum, the Castlemaine Market restoration appeal, and Ballarat&#39;s Sovereign Hill gold-mining town project.</p>
+
+        <a href="/articles/bulletin/1968/1968-11-23-ruthless-competition-in-the-nostalgia-trade/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/ballarat/" class="link-secondary">Ballarat</a>,
+              
+              <a href="/topic/castlemaine/" class="link-secondary">Castlemaine</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/national-trust/" class="link-secondary">National Trust</a>,
+              
+              <a href="/topic/rohan-delacombe/" class="link-secondary">Rohan Delacombe</a>,
+              
+              <a href="/topic/sovereign-hill/" class="link-secondary">Sovereign Hill</a>,
+              
+              <a href="/topic/st-paul&#39;s-cathedral/" class="link-secondary">St Paul&#39;s Cathedral</a>,
+              
+              <a href="/topic/swan-hill/" class="link-secondary">Swan Hill</a>,
+              
+              <a href="/topic/swan-hill-folk-museum/" class="link-secondary">Swan Hill Folk Museum</a>,
+              
+              <a href="/topic/swanston-street/" class="link-secondary">Swanston Street</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1969/1969-10-25-batman-s-melbourne-immortalising-a-rabbit-warren/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Immortalising a Rabbit Warren”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1969-10-25">25 Oct 1969</time>
+        </p>
+
+        <p>The National Trust&#39;s acquisition of Barwon Park, the 42-room bluestone mansion near Winchelsea built by squatter Thomas Austin who released 24 rabbits from the clipper Lightning in 1859, leads Keith Dunstan through Eric Rolls&#39;s account of how the English rabbit adapted magnificently to antipodean conditions, the Duke of Edinburgh&#39;s record bag of 86 rabbits in a morning, and a proposal for a bronze memorial to those first two bunnies.</p>
+
+        <a href="/articles/bulletin/1969/1969-10-25-batman-s-melbourne-immortalising-a-rabbit-warren/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/duke-of-edinburgh/" class="link-secondary">Duke of Edinburgh</a>,
+              
+              <a href="/topic/eric-rolls/" class="link-secondary">Eric Rolls</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/national-trust/" class="link-secondary">National Trust</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1969/1969-11-08-batman-s-melbourne-how-to-put-our-trust-in-the-forgettable/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“How to Put Our Trust in the Forgettable”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1969-11-08">08 Nov 1969</time>
+        </p>
+
+        <p>An article by Sydney architect David Young criticising Melbourne&#39;s built environment, ending with the flashing Carlton Brewery sign as the city&#39;s true glory, inspires Keith Dunstan to found the National Distrust of Australia, a parody body that grades ugly buildings for preservation rather than lovely ones, with the Carlton Brewery sign earning an A classification and Whelan the Wrecker as the proposed foreword writer for its coffee-table companion volume.</p>
+
+        <a href="/articles/bulletin/1969/1969-11-08-batman-s-melbourne-how-to-put-our-trust-in-the-forgettable/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/carlton-and-united-breweries/" class="link-secondary">Carlton and United Breweries</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/national-trust/" class="link-secondary">National Trust</a>,
+              
+              <a href="/topic/whelan-the-wrecker/" class="link-secondary">Whelan the Wrecker</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1970/1970-04-04-batman-s-melbourne-a-night-in-the-clink-for-the-national-trust/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“A Night in the Clink for the National Trust”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1970-04-04">04 Apr 1970</time>
+        </p>
+
+        <p>The National Trust throws a champagne party inside the condemned Melbourne Gaol, as rival plans for Pentridge Prison and proposals for a $40 million redevelopment leave Melbourne&#39;s most magnificently horrible jails facing uncertain futures.</p>
+
+        <a href="/articles/bulletin/1970/1970-04-04-batman-s-melbourne-a-night-in-the-clink-for-the-national-trust/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/arthur-rylah/" class="link-secondary">Arthur Rylah</a>,
+              
+              <a href="/topic/collingwood/" class="link-secondary">Collingwood</a>,
+              
+              <a href="/topic/l.-j.-hooker/" class="link-secondary">L. J. Hooker</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/melbourne-gaol/" class="link-secondary">Melbourne Gaol</a>,
+              
+              <a href="/topic/national-trust/" class="link-secondary">National Trust</a>,
+              
+              <a href="/topic/ned-kelly/" class="link-secondary">Ned Kelly</a>,
+              
+              <a href="/topic/pentridge/" class="link-secondary">Pentridge</a>,
+              
+              <a href="/topic/squizzy-taylor/" class="link-secondary">Squizzy Taylor</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1971/1971-01-02-batman-s-melbourne-now-heres-a-dame-who-slept-around/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Now Here&#39;s a Dame Who Slept Around”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1971-01-02">02 Jan 1971</time>
+        </p>
+
+        <p>A lament for four Melbourne institutions closing at once, the Oriental Hotel at the Paris end of Collins Street, the Regent Theatre with its Vintage Hoyts decor, the Tasma Guest House in Parliament Place, and Hilliers milk bar by the Regent, all falling to wreckers over the Christmas break.</p>
+
+        <a href="/articles/bulletin/1971/1971-01-02-batman-s-melbourne-now-heres-a-dame-who-slept-around/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>,
+              
+              <a href="/topic/hoyts/" class="link-secondary">Hoyts</a>,
+              
+              <a href="/topic/melbourne-club/" class="link-secondary">Melbourne Club</a>,
+              
+              <a href="/topic/mulligan&#39;s-pool-room/" class="link-secondary">Mulligan&#39;s Pool Room</a>,
+              
+              <a href="/topic/national-trust/" class="link-secondary">National Trust</a>,
+              
+              <a href="/topic/nellie-melba/" class="link-secondary">Nellie Melba</a>,
+              
+              <a href="/topic/norman-lindsay/" class="link-secondary">Norman Lindsay</a>,
+              
+              <a href="/topic/regent-theatre/" class="link-secondary">Regent Theatre</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1971/1971-05-15-batman-s-melbourne-copper-bed-warmers-black-satin-nighties-and-other-bits-of-nos/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Copper Bed-Warmers, Black Satin Nighties and Other Bits of Nostalgia”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1971-05-15">15 May 1971</time>
+        </p>
+
+        <p>Melbourne&#39;s competitive nostalgia industry, from a South Yarra gallery showing the history of bed-warming devices to the new Old Melbourne Motor Inn at Flemington Road fitted out with chandeliers from the demolished Regent Theatre, and the National Trust&#39;s campaign to raise the HMVS Cerebus from Black Rock.</p>
+
+        <a href="/articles/bulletin/1971/1971-05-15-batman-s-melbourne-copper-bed-warmers-black-satin-nighties-and-other-bits-of-nos/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/fitzroy/" class="link-secondary">Fitzroy</a>,
+              
+              <a href="/topic/flemington/" class="link-secondary">Flemington</a>,
+              
+              <a href="/topic/national-trust/" class="link-secondary">National Trust</a>,
+              
+              <a href="/topic/regent-theatre/" class="link-secondary">Regent Theatre</a>,
+              
+              <a href="/topic/south-yarra/" class="link-secondary">South Yarra</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1971/1971-10-02-batman-s-melbourne-whatever-is-happening-to-toorak/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Whatever Is Happening to Toorak”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1971-10-02">02 Oct 1971</time>
+        </p>
+
+        <p>A lament for the decline of old Toorak, as wreckers demolish its mock Tudor streetscape to make way for a Safeway supermarket and office tower called the Village Centre.</p>
+
+        <a href="/articles/bulletin/1971/1971-10-02-batman-s-melbourne-whatever-is-happening-to-toorak/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/collins-street/" class="link-secondary">Collins Street</a>,
+              
+              <a href="/topic/graeme-gunn/" class="link-secondary">Graeme Gunn</a>,
+              
+              <a href="/topic/melbourne-city-council/" class="link-secondary">Melbourne City Council</a>,
+              
+              <a href="/topic/national-trust/" class="link-secondary">National Trust</a>,
+              
+              <a href="/topic/prahran/" class="link-secondary">Prahran</a>,
+              
+              <a href="/topic/prahran-town-hall/" class="link-secondary">Prahran Town Hall</a>,
+              
+              <a href="/topic/toorak/" class="link-secondary">Toorak</a>
+          </p>
+        
+      </div>
+    
+  </div>
+</div>
+
+
+  <br>
+  <p>See <a href="/search/">all topics</a>.</p>
+
+
+
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

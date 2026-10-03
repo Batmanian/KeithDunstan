@@ -1,0 +1,585 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Topic: Eric Westbrook</title>
+<meta name="title" content="Topic: Eric Westbrook">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="The collected literary works of Keith Dunstan OAM">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://keithdunstan.org/topic/eric-westbrook/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Topic: Eric Westbrook">
+<meta property="og:description" content="The collected literary works of Keith Dunstan OAM">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Topic: Eric Westbrook">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/topic/eric-westbrook/">
+<meta name="twitter:title" content="Topic: Eric Westbrook">
+<meta name="twitter:description" content="The collected literary works of Keith Dunstan OAM">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Topic: Eric Westbrook">
+<link rel="canonical" href="https://keithdunstan.org/topic/eric-westbrook/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-lg-10 col-xl-8">
+          <header>
+      <h1 class="h2 mb-2">Topic: Eric Westbrook</h1>
+</header>
+
+
+  
+  
+  <p class="text-muted mb-1">9 items include the topic of Eric Westbrook.</p>
+  <p class="fst-italic text-muted mb-5">Eric Westbrook directed Melbourne&#39;s National Gallery of Victoria through the 1960s, championing modernist painters against traditionalists like William Dargie in a public letters-page feud Keith Dunstan covered, and later oversaw the gallery&#39;s move into its new St Kilda Road building.</p>
+  <div class="row d-flex justify-content-center">
+  <div class="col-12">
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1962/not-only-serious-solemn/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Not Only Serious – Solemn!”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1962-06-02">02 Jun 1962</time>
+        </p>
+
+        <p>A blow-by-blow account of Melbourne&#39;s raging Age letters-page feud between realist and modernist painters, pitting William Dargie against National Gallery director Eric Westbrook.</p>
+
+        <a href="/articles/bulletin/1962/not-only-serious-solemn/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/adrian-rawlins/" class="link-secondary">Adrian Rawlins</a>,
+              
+              <a href="/topic/the-age/" class="link-secondary">The Age</a>,
+              
+              <a href="/topic/albert-tucker/" class="link-secondary">Albert Tucker</a>,
+              
+              <a href="/topic/atheneum-gallery/" class="link-secondary">Atheneum Gallery</a>,
+              
+              <a href="/topic/contemporary-art-society/" class="link-secondary">Contemporary Art Society</a>,
+              
+              <a href="/topic/eric-westbrook/" class="link-secondary">Eric Westbrook</a>,
+              
+              <a href="/topic/john-brach/" class="link-secondary">John Brach</a>,
+              
+              <a href="/topic/max-ragless/" class="link-secondary">Max Ragless</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/national-gallery-of-victoria/" class="link-secondary">National Gallery of Victoria</a>,
+              
+              <a href="/topic/paul-fitzgerald/" class="link-secondary">Paul Fitzgerald</a>,
+              
+              <a href="/topic/san-francisco/" class="link-secondary">San Francisco</a>,
+              
+              <a href="/topic/tate-gallery/" class="link-secondary">Tate Gallery</a>,
+              
+              <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+              
+              <a href="/topic/william-dargie/" class="link-secondary">William Dargie</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1962/the-coal-exchange-rotunda/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“The Coal Exchange Rotunda”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1962-08-18">18 Aug 1962</time>
+        </p>
+
+        <p>Architect Roy Grounds proposes shipping London&#39;s condemned Victorian Coal Exchange rotunda 12,000 miles to Melbourne&#39;s new Cultural Centre, igniting a row over whether it&#39;s a masterpiece or, as one letter-writer put it, &quot;ostentatious Victorian junk.&quot;</p>
+
+        <a href="/articles/bulletin/1962/the-coal-exchange-rotunda/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/best-overend/" class="link-secondary">Best Overend</a>,
+              
+              <a href="/topic/chas.-davies/" class="link-secondary">Chas. Davies</a>,
+              
+              <a href="/topic/cultural-centre/" class="link-secondary">Cultural Centre</a>,
+              
+              <a href="/topic/eric-westbrook/" class="link-secondary">Eric Westbrook</a>,
+              
+              <a href="/topic/institute-of-architects/" class="link-secondary">Institute of Architects</a>,
+              
+              <a href="/topic/john-betjeman/" class="link-secondary">John Betjeman</a>,
+              
+              <a href="/topic/king-street-bridge/" class="link-secondary">King Street Bridge</a>,
+              
+              <a href="/topic/leonard-cox/" class="link-secondary">Leonard Cox</a>,
+              
+              <a href="/topic/maurice-nathan/" class="link-secondary">Maurice Nathan</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/peter-martin/" class="link-secondary">Peter Martin</a>,
+              
+              <a href="/topic/port-phillip-bay/" class="link-secondary">Port Phillip Bay</a>,
+              
+              <a href="/topic/roy-grounds/" class="link-secondary">Roy Grounds</a>,
+              
+              <a href="/topic/sydney-opera-house/" class="link-secondary">Sydney Opera House</a>,
+              
+              <a href="/topic/toorak/" class="link-secondary">Toorak</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1964/vale-osiris-and-the-mighty-wurlitzer/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Vale, Osiris and the Mighty Wurlitzer!”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1964-01-25">25 Jan 1964</time>
+        </p>
+
+        <p>Marks the closure of Walter Burley Griffin&#39;s Capitol Theatre on Swanston Street, the first dinkum de-luxe movie palace in the Southern Hemisphere since its 1924 opening with &#39;The Ten Commandments&#39;, and surveys the broader decline of Melbourne&#39;s grand old picture palaces as the State splits into the Forum and the Rapallo.</p>
+
+        <a href="/articles/bulletin/1964/vale-osiris-and-the-mighty-wurlitzer/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/capitol-theatre/" class="link-secondary">Capitol Theatre</a>,
+              
+              <a href="/topic/eric-westbrook/" class="link-secondary">Eric Westbrook</a>,
+              
+              <a href="/topic/flinders-street-station/" class="link-secondary">Flinders Street Station</a>,
+              
+              <a href="/topic/marion-mahony-griffin/" class="link-secondary">Marion Mahony Griffin</a>,
+              
+              <a href="/topic/swanston-street/" class="link-secondary">Swanston Street</a>,
+              
+              <a href="/topic/walter-burley-griffin/" class="link-secondary">Walter Burley Griffin</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/walkabout-magazine/1964/melbournes-evergreen-exhibition/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Melbourne&#39;s Evergreen Exhibition”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1964-05-01">01 May 1964</time>
+        </p>
+
+        <p>A history of Melbourne&#39;s Exhibition Building, from the lavish international exhibitions of 1880 and 1888 through Sidney Myer&#39;s Depression-era Christmas dinner for 11,000 unemployed people to its 1963 revival as a trade fair venue.</p>
+
+        <a href="/articles/walkabout-magazine/1964/melbournes-evergreen-exhibition/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/carlton/" class="link-secondary">Carlton</a>,
+              
+              <a href="/topic/chloe/" class="link-secondary">Chloe</a>,
+              
+              <a href="/topic/eric-westbrook/" class="link-secondary">Eric Westbrook</a>,
+              
+              <a href="/topic/exhibition-building/" class="link-secondary">Exhibition Building</a>,
+              
+              <a href="/topic/joseph-reed/" class="link-secondary">Joseph Reed</a>,
+              
+              <a href="/topic/jules-lefebvre/" class="link-secondary">Jules Lefebvre</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/national-gallery-of-victoria/" class="link-secondary">National Gallery of Victoria</a>,
+              
+              <a href="/topic/robin-boyd/" class="link-secondary">Robin Boyd</a>,
+              
+              <a href="/topic/sidney-myer/" class="link-secondary">Sidney Myer</a>,
+              
+              <a href="/topic/young-and-jacksons-hotel/" class="link-secondary">Young and Jacksons Hotel</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1966/1966-10-01-a-marvellous-auction-sale/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“A Marvellous Auction Sale”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1966-10-01">01 Oct 1966</time>
+        </p>
+
+        <p>A charity auction for Melbourne&#39;s Cultural Centre raises funds through improbable lots — LBJ&#39;s hat, Patrick White&#39;s autographed plays, Dita Cobb&#39;s false eyelashes — while the centre itself remains mired in a naming dispute between &#39;National Gallery and Art Centre of Victoria&#39; and the simpler &#39;Artorium&#39;.</p>
+
+        <a href="/articles/bulletin/1966/1966-10-01-a-marvellous-auction-sale/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/arthur-calwell/" class="link-secondary">Arthur Calwell</a>,
+              
+              <a href="/topic/aubrey-gibson/" class="link-secondary">Aubrey Gibson</a>,
+              
+              <a href="/topic/daryl-lindsay/" class="link-secondary">Daryl Lindsay</a>,
+              
+              <a href="/topic/eric-westbrook/" class="link-secondary">Eric Westbrook</a>,
+              
+              <a href="/topic/harold-holt/" class="link-secondary">Harold Holt</a>,
+              
+              <a href="/topic/joan-sutherland/" class="link-secondary">Joan Sutherland</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/national-gallery-of-victoria/" class="link-secondary">National Gallery of Victoria</a>,
+              
+              <a href="/topic/patrick-white/" class="link-secondary">Patrick White</a>,
+              
+              <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+              
+              <a href="/topic/robert-menzies/" class="link-secondary">Robert Menzies</a>,
+              
+              <a href="/topic/sydney-opera-house/" class="link-secondary">Sydney Opera House</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1967/1967-05-06-art-on-a-pastoral-binge-wine-food-and-fantasy/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Art on a pastoral binge: wine, food, and fantasy”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1967-05-06">06 May 1967</time>
+        </p>
+
+        <p>A tour of the gallery movement sweeping Victoria&#39;s provincial towns, from the Hamilton Shaw Collection to Ballarat&#39;s hotbed of Lindsays and the new Mildura Arts Centre, where the third Mildura Prize for Sculpture drew a washing-machine agitator with a Ford Thunderbird tail-light and a taxi driver who reckoned the winner was two giraffes mating.</p>
+
+        <a href="/articles/bulletin/1967/1967-05-06-art-on-a-pastoral-binge-wine-food-and-fantasy/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/ballarat/" class="link-secondary">Ballarat</a>,
+              
+              <a href="/topic/eric-westbrook/" class="link-secondary">Eric Westbrook</a>,
+              
+              <a href="/topic/mildura/" class="link-secondary">Mildura</a>,
+              
+              <a href="/topic/national-gallery-of-victoria/" class="link-secondary">National Gallery of Victoria</a>,
+              
+              <a href="/topic/norman-lindsay/" class="link-secondary">Norman Lindsay</a>,
+              
+              <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1968/1968-03-09-the-cultural-benefits-of-a-really-good-row/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“The cultural benefits of a really good row”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1968-03-09">09 Mar 1968</time>
+        </p>
+
+        <p>The National Gallery of Victoria&#39;s imminent move into its new Roy Grounds-designed St Kilda Road building is reported from the inside, including a 3 a.m. security operation to transfer 200,000 pieces, a jaded Venus with her broken belongings in a bag, and Phar Lap presiding imperiously over it all in the McCoy Hall.</p>
+
+        <a href="/articles/bulletin/1968/1968-03-09-the-cultural-benefits-of-a-really-good-row/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/chloe/" class="link-secondary">Chloe</a>,
+              
+              <a href="/topic/nellie-melba/" class="link-secondary">Nellie Melba</a>,
+              
+              <a href="/topic/eric-westbrook/" class="link-secondary">Eric Westbrook</a>,
+              
+              <a href="/topic/john-longstaff/" class="link-secondary">John Longstaff</a>,
+              
+              <a href="/topic/leonard-french/" class="link-secondary">Leonard French</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/national-gallery-of-victoria/" class="link-secondary">National Gallery of Victoria</a>,
+              
+              <a href="/topic/phar-lap/" class="link-secondary">Phar Lap</a>,
+              
+              <a href="/topic/roy-grounds/" class="link-secondary">Roy Grounds</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1968/1968-08-31-henrys-two-bob-sideshow-built-to-last-10000-years/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“&quot;Henry&#39;s two-bob sideshow&quot; built to last 10,000 years”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1968-08-31">31 Aug 1968</time>
+        </p>
+
+        <p>The opening of Melbourne&#39;s National Gallery of Victoria on St Kilda Road, with its Leonard French glass ceiling, George Dreyfus fanfare and champagne banquet for 450 guests, prompts Keith Dunstan to declare it the most beautiful gallery he has seen and the city&#39;s first genuine tourist symbol.</p>
+
+        <a href="/articles/bulletin/1968/1968-08-31-henrys-two-bob-sideshow-built-to-last-10000-years/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/arthur-boyd/" class="link-secondary">Arthur Boyd</a>,
+              
+              <a href="/topic/eric-westbrook/" class="link-secondary">Eric Westbrook</a>,
+              
+              <a href="/topic/fred-williams/" class="link-secondary">Fred Williams</a>,
+              
+              <a href="/topic/john-brack/" class="link-secondary">John Brack</a>,
+              
+              <a href="/topic/leonard-french/" class="link-secondary">Leonard French</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/national-gallery-of-victoria/" class="link-secondary">National Gallery of Victoria</a>,
+              
+              <a href="/topic/roy-grounds/" class="link-secondary">Roy Grounds</a>,
+              
+              <a href="/topic/sidney-nolan/" class="link-secondary">Sidney Nolan</a>,
+              
+              <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+              
+              <a href="/topic/st-kilda-road/" class="link-secondary">St Kilda Road</a>,
+              
+              <a href="/topic/william-dargie/" class="link-secondary">William Dargie</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1969/1969-12-27-batman-s-melbourne-getting-to-know-the-worlds-really-rich/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Getting to Know the World&#39;s Really Rich”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1969-12-27">27 Dec 1969</time>
+        </p>
+
+        <p>The official opening of the AMP Society&#39;s new 26-storey William Street tower, built over the demolished St. James Building by Skidmore Owings and Merrill with local architects Bates Smart and McCutcheon, reveals 26,400 square feet of travertine marble, a staff basement with five billiard tables, a gymnasium, four table tennis tables and a squash court, and a $50,000 sculpture by Clement Meadmore that has already been defaced by graffiti enthusiasts treating it like a urinal.</p>
+
+        <a href="/articles/bulletin/1969/1969-12-27-batman-s-melbourne-getting-to-know-the-worlds-really-rich/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/amp-building/" class="link-secondary">AMP Building</a>,
+              
+              <a href="/topic/bates-smart-and-mccutcheon/" class="link-secondary">Bates Smart and McCutcheon</a>,
+              
+              <a href="/topic/clement-meadmore/" class="link-secondary">Clement Meadmore</a>,
+              
+              <a href="/topic/eric-westbrook/" class="link-secondary">Eric Westbrook</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/skidmore-owings-and-merrill/" class="link-secondary">Skidmore Owings and Merrill</a>
+          </p>
+        
+      </div>
+    
+  </div>
+</div>
+
+
+  <br>
+  <p>See <a href="/search/">all topics</a>.</p>
+
+
+
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

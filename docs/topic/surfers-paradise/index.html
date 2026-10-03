@@ -1,0 +1,709 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Topic: Surfers Paradise</title>
+<meta name="title" content="Topic: Surfers Paradise">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="The collected literary works of Keith Dunstan OAM">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://keithdunstan.org/topic/surfers-paradise/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Topic: Surfers Paradise">
+<meta property="og:description" content="The collected literary works of Keith Dunstan OAM">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Topic: Surfers Paradise">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/topic/surfers-paradise/">
+<meta name="twitter:title" content="Topic: Surfers Paradise">
+<meta name="twitter:description" content="The collected literary works of Keith Dunstan OAM">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Topic: Surfers Paradise">
+<link rel="canonical" href="https://keithdunstan.org/topic/surfers-paradise/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-lg-10 col-xl-8">
+          <header>
+      <h1 class="h2 mb-2">Topic: Surfers Paradise</h1>
+</header>
+
+
+  
+  
+  <p class="text-muted mb-1">11 items include the topic of Surfers Paradise.</p>
+  <p class="fst-italic text-muted mb-5">Surfers Paradise is the Gold Coast resort strip that boomed through the 1950s and 60s on Miami-style tower blocks and invented traditions like a water-skiing Father Christmas, and whose local council was first to approve the bikini for its beaches in 1955, all of which Keith Dunstan surveyed with amused disdain in his Walkabout travel writing.</p>
+  <div class="row d-flex justify-content-center">
+  <div class="col-12">
+      <div class="py-4 border-bottom">
+        <a href="/articles/walkabout-magazine/1963/christmas-across-a-continent/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Christmas across a continent”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1963-12-01">01 Dec 1963</time>
+        </p>
+
+        <p>A survey of how Australians spend Christmas Day across wildly different settings, from turkey conservatives at Rosebud and water-skiing Santas at Surfers Paradise to Warramunga camps, Antarctic research bases, and mail runs to Cocos Island and Tasman Island lighthouse.</p>
+
+        <a href="/articles/walkabout-magazine/1963/christmas-across-a-continent/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/aborigines/" class="link-secondary">Aborigines</a>,
+              
+              <a href="/topic/alice-springs/" class="link-secondary">Alice Springs</a>,
+              
+              <a href="/topic/antarctica/" class="link-secondary">Antarctica</a>,
+              
+              <a href="/topic/ayers-rock-(uluru)/" class="link-secondary">Ayers Rock (Uluru)</a>,
+              
+              <a href="/topic/bill-harney/" class="link-secondary">Bill Harney</a>,
+              
+              <a href="/topic/canberra/" class="link-secondary">Canberra</a>,
+              
+              <a href="/topic/cape-york-peninsula/" class="link-secondary">Cape York Peninsula</a>,
+              
+              <a href="/topic/cocos-islands/" class="link-secondary">Cocos Islands</a>,
+              
+              <a href="/topic/coober-pedy/" class="link-secondary">Coober Pedy</a>,
+              
+              <a href="/topic/surfers-paradise/" class="link-secondary">Surfers Paradise</a>,
+              
+              <a href="/topic/tasman-island/" class="link-secondary">Tasman Island</a>,
+              
+              <a href="/topic/thursday-island/" class="link-secondary">Thursday Island</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1964/1964-11-28-oh-bondi-oh-surfers-oh-oh-st-kilda/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Oh, Bondi! Oh, Surfers! Oh, OH, St. Kilda!”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1964-11-28">28 Nov 1964</time>
+        </p>
+
+        <p>The campaign by Melbourne&#39;s Victorian Federation of Catholic Mothers to ban bikinis from bayside beaches prompts a survey of the unlikely coalition of voices for and against, from Ron Barassi&#39;s wife to Premier Bolte and the bikini manufacturer who announced he would double production.</p>
+
+        <a href="/articles/bulletin/1964/1964-11-28-oh-bondi-oh-surfers-oh-oh-st-kilda/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/arthur-rylah/" class="link-secondary">Arthur Rylah</a>,
+              
+              <a href="/topic/bondi/" class="link-secondary">Bondi</a>,
+              
+              <a href="/topic/frank-moss/" class="link-secondary">Frank Moss</a>,
+              
+              <a href="/topic/googie-withers/" class="link-secondary">Googie Withers</a>,
+              
+              <a href="/topic/ivon-stoneham/" class="link-secondary">Ivon Stoneham</a>,
+              
+              <a href="/topic/loreto-federation/" class="link-secondary">Loreto Federation</a>,
+              
+              <a href="/topic/ron-barassi/" class="link-secondary">Ron Barassi</a>,
+              
+              <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+              
+              <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>,
+              
+              <a href="/topic/surfers-paradise/" class="link-secondary">Surfers Paradise</a>,
+              
+              <a href="/topic/victorian-federation-of-catholic-mothers/" class="link-secondary">Victorian Federation of Catholic Mothers</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1967/1967-11-11-a-cry-in-agony-save-the-parking-meters/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“A cry in agony: &#39;Save the parking meters!&#39;”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1967-11-11">11 Nov 1967</time>
+        </p>
+
+        <p>A visit to Surfers Paradise finds the beach half-rebuilt after the storm that threatened to topple Garfield Towers into the surf, the Progress Association&#39;s Meter Maids still feeding sixpences into parking meters, and the new Mayor Bruce Small opening rotary conventions in lion cages and conducting the Salvation Army Band as a man of quite extraordinary civic energy.</p>
+
+        <a href="/articles/bulletin/1967/1967-11-11-a-cry-in-agony-save-the-parking-meters/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/malvern-star/" class="link-secondary">Malvern Star</a>,
+              
+              <a href="/topic/surfers-paradise/" class="link-secondary">Surfers Paradise</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/walkabout-magazine/1968/the-bikini-what-next/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“The Bikini, What Next?”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1968-01-01">01 Jan 1968</time>
+        </p>
+
+        <p>A history of Australia&#39;s long, losing battle to regulate what beachgoers wear and when they may swim, from the segregated sea baths and bathing machines of the 1890s and William Gocher&#39;s 1902 defiance of Manly&#39;s bathing laws to the 1968 furore over the bikini.</p>
+
+        <a href="/articles/walkabout-magazine/1968/the-bikini-what-next/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/the-argus/" class="link-secondary">The Argus</a>,
+              
+              <a href="/topic/lorne/" class="link-secondary">Lorne</a>,
+              
+              <a href="/topic/manly/" class="link-secondary">Manly</a>,
+              
+              <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>,
+              
+              <a href="/topic/sun-news-pictorial/" class="link-secondary">Sun News-Pictorial</a>,
+              
+              <a href="/topic/surfers-paradise/" class="link-secondary">Surfers Paradise</a>,
+              
+              <a href="/topic/william-gocher/" class="link-secondary">William Gocher</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1968/1968-07-13-operation-gold-coast-does-the-trick/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Operation Gold Coast does the trick”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1968-07-13">13 Jul 1968</time>
+        </p>
+
+        <p>Bruce Small&#39;s audacious Melbourne publicity blitz for Surfers Paradise, bussing meter maids, bikini girls and media teams into the city during miserable winter weather, delivers a 50 per cent booking surge for Ansett-ANA and a front-page picture of a shivering Geri Engleton in a bikini at Swanston and Flinders.</p>
+
+        <a href="/articles/bulletin/1968/1968-07-13-operation-gold-coast-does-the-trick/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/ansett-ana/" class="link-secondary">Ansett-ANA</a>,
+              
+              <a href="/topic/arthur-calwell/" class="link-secondary">Arthur Calwell</a>,
+              
+              <a href="/topic/bruce-small/" class="link-secondary">Bruce Small</a>,
+              
+              <a href="/topic/coolangatta/" class="link-secondary">Coolangatta</a>,
+              
+              <a href="/topic/gold-coast/" class="link-secondary">Gold Coast</a>,
+              
+              <a href="/topic/gough-whitlam/" class="link-secondary">Gough Whitlam</a>,
+              
+              <a href="/topic/harry-seidler/" class="link-secondary">Harry Seidler</a>,
+              
+              <a href="/topic/surfers-paradise/" class="link-secondary">Surfers Paradise</a>,
+              
+              <a href="/topic/taa/" class="link-secondary">TAA</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/books/wowsers/6-the-evil-of-bathing/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“The Evil of Bathing”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1968-11-11">1968</time>
+        </p>
+
+        <p>Charts a century of council by-laws policing Australian beaches in the name of morality rather than safety, from Sydney&#39;s 1833 bathing curfew and W. H. Gocher&#39;s defiant 1902 daylight swim at Manly, through Melbourne&#39;s sex-segregated Edwardian beaches and the &#39;no loitering&#39; laws of St Kilda, to the bikini panics of the 1960s.</p>
+
+        <a href="/books/wowsers/6-the-evil-of-bathing/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/aubrey-laidlaw/" class="link-secondary">Aubrey Laidlaw</a>,
+              
+              <a href="/topic/bondi/" class="link-secondary">Bondi</a>,
+              
+              <a href="/topic/ivy-schilling/" class="link-secondary">Ivy Schilling</a>,
+              
+              <a href="/topic/joan-barry/" class="link-secondary">Joan Barry</a>,
+              
+              <a href="/topic/manly/" class="link-secondary">Manly</a>,
+              
+              <a href="/topic/moorabbin/" class="link-secondary">Moorabbin</a>,
+              
+              <a href="/topic/port-campbell/" class="link-secondary">Port Campbell</a>,
+              
+              <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>,
+              
+              <a href="/topic/surfers-paradise/" class="link-secondary">Surfers Paradise</a>,
+              
+              <a href="/topic/w.-h.-gocher/" class="link-secondary">W. H. Gocher</a>,
+              
+              <a href="/topic/warrnambool/" class="link-secondary">Warrnambool</a>,
+              
+              <a href="/topic/williamstown/" class="link-secondary">Williamstown</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/walkabout-magazine/1969/summer-madness/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Summer Madness”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1969-12-01">01 Dec 1969</time>
+        </p>
+
+        <p>A wry survey of Australia&#39;s overloaded summer beach culture, surfboards, caravans, and competitive Rosebud campsites, from Portsea and Palm Beach&#39;s Toorak-set glamour to Surfers Paradise&#39;s Miami-style tower blocks.</p>
+
+        <a href="/articles/walkabout-magazine/1969/summer-madness/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/batemans-bay/" class="link-secondary">Batemans Bay</a>,
+              
+              <a href="/topic/beau-geste-film/" class="link-secondary">Beau Geste - film</a>,
+              
+              <a href="/topic/bermagui/" class="link-secondary">Bermagui</a>,
+              
+              <a href="/topic/bernard-midget-farrelly/" class="link-secondary">Bernard -Midget- Farrelly</a>,
+              
+              <a href="/topic/caloundra/" class="link-secondary">Caloundra</a>,
+              
+              <a href="/topic/david-livingstone-explorer/" class="link-secondary">David Livingstone - explorer</a>,
+              
+              <a href="/topic/eildon-reservoir/" class="link-secondary">Eildon Reservoir</a>,
+              
+              <a href="/topic/gold-coast/" class="link-secondary">Gold Coast</a>,
+              
+              <a href="/topic/hawkesbury-river/" class="link-secondary">Hawkesbury River</a>,
+              
+              <a href="/topic/highway-one/" class="link-secondary">Highway One</a>,
+              
+              <a href="/topic/mackay/" class="link-secondary">Mackay</a>,
+              
+              <a href="/topic/merimbukla/" class="link-secondary">Merimbukla</a>,
+              
+              <a href="/topic/mooloolabar/" class="link-secondary">Mooloolabar</a>,
+              
+              <a href="/topic/noosa/" class="link-secondary">Noosa</a>,
+              
+              <a href="/topic/palm-beach-nsw/" class="link-secondary">Palm Beach - NSW</a>,
+              
+              <a href="/topic/port-lincoln/" class="link-secondary">Port Lincoln</a>,
+              
+              <a href="/topic/port-phillip-bay/" class="link-secondary">Port Phillip Bay</a>,
+              
+              <a href="/topic/portsea-victoria/" class="link-secondary">Portsea, Victoria</a>,
+              
+              <a href="/topic/robert-nat-young/" class="link-secondary">Robert -Nat- Young</a>,
+              
+              <a href="/topic/rosebud-victoria/" class="link-secondary">Rosebud, Victoria</a>,
+              
+              <a href="/topic/rottnest-island/" class="link-secondary">Rottnest Island</a>,
+              
+              <a href="/topic/summer-holidays/" class="link-secondary">Summer holidays</a>,
+              
+              <a href="/topic/surfers-paradise/" class="link-secondary">Surfers Paradise</a>,
+              
+              <a href="/topic/surfing/" class="link-secondary">Surfing</a>,
+              
+              <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+              
+              <a href="/topic/victor-harbour/" class="link-secondary">Victor Harbour</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1970/1970-12-19-batman-s-gold-coast-gone-is-the-nudists-favorite-privacy/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Gone Is the Nudists&#39; Favourite Privacy”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1970-12-19">19 Dec 1970</time>
+        </p>
+
+        <p>A Christmas visit to Surfers Paradise reveals the Broadbeach International hotel remodelled in Spanish and Mexican theme bars, a revolving giant beer mug on the main strip, and Marineland&#39;s new killer whale shipped from Seattle at great expense, while the nudists&#39; favourite dunes have been turned into a tourist aquatic park.</p>
+
+        <a href="/articles/bulletin/1970/1970-12-19-batman-s-gold-coast-gone-is-the-nudists-favorite-privacy/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/brisbane/" class="link-secondary">Brisbane</a>,
+              
+              <a href="/topic/gold-coast/" class="link-secondary">Gold Coast</a>,
+              
+              <a href="/topic/lennons-hotel/" class="link-secondary">Lennons Hotel</a>,
+              
+              <a href="/topic/queensland/" class="link-secondary">Queensland</a>,
+              
+              <a href="/topic/surfers-paradise/" class="link-secondary">Surfers Paradise</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/books/knockers/4-the-australian-female/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“The Australian Female”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1972-01-01">1972</time>
+        </p>
+
+        <p>Surveys a century of knockers on the Australian woman, from R. E. Twopeny&#39;s 1883 portrait of the bored, overdressed colonial hostess to Alan Whicker&#39;s 1970 television programme in which Australian women lined up to condemn themselves.</p>
+
+        <a href="/books/knockers/4-the-australian-female/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/alan-whicker/" class="link-secondary">Alan Whicker</a>,
+              
+              <a href="/topic/beatrice-webb/" class="link-secondary">Beatrice Webb</a>,
+              
+              <a href="/topic/betty-grable/" class="link-secondary">Betty Grable</a>,
+              
+              <a href="/topic/denis-brogan/" class="link-secondary">Denis Brogan</a>,
+              
+              <a href="/topic/donald-horne/" class="link-secondary">Donald Horne</a>,
+              
+              <a href="/topic/elsa-jacoby/" class="link-secondary">Elsa Jacoby</a>,
+              
+              <a href="/topic/flemington-racecourse/" class="link-secondary">Flemington Racecourse</a>,
+              
+              <a href="/topic/john-pilger/" class="link-secondary">John Pilger</a>,
+              
+              <a href="/topic/john-pringle/" class="link-secondary">John Pringle</a>,
+              
+              <a href="/topic/lita-baron/" class="link-secondary">Lita Baron</a>,
+              
+              <a href="/topic/maggie-tabberer/" class="link-secondary">Maggie Tabberer</a>,
+              
+              <a href="/topic/max-harris/" class="link-secondary">Max Harris</a>,
+              
+              <a href="/topic/mulaika-corben/" class="link-secondary">Mulaika Corben</a>,
+              
+              <a href="/topic/myra-roper/" class="link-secondary">Myra Roper</a>,
+              
+              <a href="/topic/peter-michaels/" class="link-secondary">Peter Michaels</a>,
+              
+              <a href="/topic/r.-e.-twopeny/" class="link-secondary">R. E. Twopeny</a>,
+              
+              <a href="/topic/rory-calhoun/" class="link-secondary">Rory Calhoun</a>,
+              
+              <a href="/topic/roy-mcgregor-hastie/" class="link-secondary">Roy McGregor-Hastie</a>,
+              
+              <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>,
+              
+              <a href="/topic/sue-k.-langley/" class="link-secondary">Sue K. Langley</a>,
+              
+              <a href="/topic/surfers-paradise/" class="link-secondary">Surfers Paradise</a>,
+              
+              <a href="/topic/university-of-melbourne/" class="link-secondary">University of Melbourne</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/books/sports/12-the-billiards-passion/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“The Billiards Passion”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1973-01-01">1973</time>
+        </p>
+
+        <p>A history of Australia&#39;s obsession with billiards, from the craft and commercial genius of Dublin-born table-maker Henry Upton Alcock, who built a Melbourne empire from Tasmanian timber and Collingwood slate, through the Lindrum dynasty and the almost superhuman world championship career of Walter Lindrum.</p>
+
+        <a href="/books/sports/12-the-billiards-passion/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/alcock-and-co./" class="link-secondary">Alcock &amp; Co.</a>,
+              
+              <a href="/topic/ballarat/" class="link-secondary">Ballarat</a>,
+              
+              <a href="/topic/bendigo/" class="link-secondary">Bendigo</a>,
+              
+              <a href="/topic/broad-arrow/" class="link-secondary">Broad Arrow</a>,
+              
+              <a href="/topic/castlemaine/" class="link-secondary">Castlemaine</a>,
+              
+              <a href="/topic/collingwood/" class="link-secondary">Collingwood</a>,
+              
+              <a href="/topic/don-bradman/" class="link-secondary">Don Bradman</a>,
+              
+              <a href="/topic/duke-of-edinburgh/" class="link-secondary">Duke of Edinburgh</a>,
+              
+              <a href="/topic/eddie-charlton/" class="link-secondary">Eddie Charlton</a>,
+              
+              <a href="/topic/fitzroy/" class="link-secondary">Fitzroy</a>,
+              
+              <a href="/topic/fred-lindrum/" class="link-secondary">Fred Lindrum</a>,
+              
+              <a href="/topic/fritz-kreisler/" class="link-secondary">Fritz Kreisler</a>,
+              
+              <a href="/topic/henry-upton-alcock/" class="link-secondary">Henry Upton Alcock</a>,
+              
+              <a href="/topic/horace-lindrum/" class="link-secondary">Horace Lindrum</a>,
+              
+              <a href="/topic/joe-davis/" class="link-secondary">Joe Davis</a>,
+              
+              <a href="/topic/john-roberts-senior/" class="link-secondary">John Roberts Senior</a>,
+              
+              <a href="/topic/john-wren/" class="link-secondary">John Wren</a>,
+              
+              <a href="/topic/kalgoorlie/" class="link-secondary">Kalgoorlie</a>,
+              
+              <a href="/topic/melbourne-club/" class="link-secondary">Melbourne Club</a>,
+              
+              <a href="/topic/phar-lap/" class="link-secondary">Phar Lap</a>,
+              
+              <a href="/topic/ray-reardon/" class="link-secondary">Ray Reardon</a>,
+              
+              <a href="/topic/russell-street/" class="link-secondary">Russell Street</a>,
+              
+              <a href="/topic/st-paul&#39;s-cathedral/" class="link-secondary">St Paul&#39;s Cathedral</a>,
+              
+              <a href="/topic/surfers-paradise/" class="link-secondary">Surfers Paradise</a>,
+              
+              <a href="/topic/walter-lindrum/" class="link-secondary">Walter Lindrum</a>,
+              
+              <a href="/topic/willie-smith/" class="link-secondary">Willie Smith</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/books/no-brains-on-tuesday/62-in-bad-times-you-cover-up/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“In Bad Times You Cover Up”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1991-01-01">1991</time>
+        </p>
+
+        <p>A theory that beach fashion tracks the economy, with hemlines and swimwear shrinking in prosperous times and lengthening in a downturn, illustrated by baggy skirts spotted on Collins Street and a history of bathing costumes running from pre-World War 1 modesty through the scandalous 1955 Surfers Paradise bikini to a predicted recession-driven return to full-length skirts in the surf.</p>
+
+        <a href="/books/no-brains-on-tuesday/62-in-bad-times-you-cover-up/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/claudette-colbert/" class="link-secondary">Claudette Colbert</a>,
+              
+              <a href="/topic/ginger-rogers/" class="link-secondary">Ginger Rogers</a>,
+              
+              <a href="/topic/st-kilda/" class="link-secondary">St Kilda</a>,
+              
+              <a href="/topic/surfers-paradise/" class="link-secondary">Surfers Paradise</a>
+          </p>
+        
+      </div>
+    
+  </div>
+</div>
+
+
+  <br>
+  <p>See <a href="/search/">all topics</a>.</p>
+
+
+
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

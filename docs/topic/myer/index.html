@@ -1,0 +1,703 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Topic: Myer</title>
+<meta name="title" content="Topic: Myer">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="The collected literary works of Keith Dunstan OAM">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://keithdunstan.org/topic/myer/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Topic: Myer">
+<meta property="og:description" content="The collected literary works of Keith Dunstan OAM">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Topic: Myer">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/topic/myer/">
+<meta name="twitter:title" content="Topic: Myer">
+<meta name="twitter:description" content="The collected literary works of Keith Dunstan OAM">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Topic: Myer">
+<link rel="canonical" href="https://keithdunstan.org/topic/myer/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-lg-10 col-xl-8">
+          <header>
+      <h1 class="h2 mb-2">Topic: Myer</h1>
+</header>
+
+
+  
+  
+  <p class="text-muted mb-1">16 items include the topic of Myer.</p>
+  <p class="fst-italic text-muted mb-5">Myer is the Melbourne-founded department store chain whose Bourke Street window display of unclad mannequins gave Keith Dunstan one of his most successful manufactured controversies, a flood of outraged and approving letters written to his own Sun News-Pictorial column under the pseudonym Shocked, East Malvern.</p>
+  <div class="row d-flex justify-content-center">
+  <div class="col-12">
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1963/eaters-and-revolving-drinkers/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Eaters — and Revolving Drinkers”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1963-10-12">12 Oct 1963</time>
+        </p>
+
+        <p>Tours Melbourne&#39;s calorie-conscious boom, from Albert Park&#39;s new circular-bar restaurant and Collins Street&#39;s steak house Capers, through to health guru Lelord Kordel&#39;s free Myer lectures pitched, rather transparently, at selling his own diet books.</p>
+
+        <a href="/articles/bulletin/1963/eaters-and-revolving-drinkers/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/albert-park/" class="link-secondary">Albert Park</a>,
+              
+              <a href="/topic/bernarr-macfadden/" class="link-secondary">Bernarr Macfadden</a>,
+              
+              <a href="/topic/hotel-australia/" class="link-secondary">Hotel Australia</a>,
+              
+              <a href="/topic/lelord-kordel/" class="link-secondary">Lelord Kordel</a>,
+              
+              <a href="/topic/myer/" class="link-secondary">Myer</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1963/red-robes-and-hot-whiskers/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Red Robes and Hot Whiskers”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1963-10-26">26 Oct 1963</time>
+        </p>
+
+        <p>Goes behind the scenes at Myer&#39;s Santa Claus School, a 28-subject course modelled on America&#39;s original Santa Claus Inc. that trains a whole football team&#39;s worth of department-store Fathers Christmas each November, complete with reindeer consultants, hidden microphones and a graduation degree in Bachelor of Santa Claus.</p>
+
+        <a href="/articles/bulletin/1963/red-robes-and-hot-whiskers/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/charles-howard/" class="link-secondary">Charles Howard</a>,
+              
+              <a href="/topic/myer/" class="link-secondary">Myer</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1966/1966-08-20-a-beautiful-blending-of-blues/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“A Beautiful Blending of Blues”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1966-08-20">20 Aug 1966</time>
+        </p>
+
+        <p>The launch of the Men&#39;s Fashion Council&#39;s Australian Fashion Express tour, a train fitted out to spread the gospel of conservative dressing through the four eastern states, reported from Spencer Street with a wary eye on the matching Paisley cufflinks.</p>
+
+        <a href="/articles/bulletin/1966/1966-08-20-a-beautiful-blending-of-blues/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/arthur-rylah/" class="link-secondary">Arthur Rylah</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/myer/" class="link-secondary">Myer</a>,
+              
+              <a href="/topic/spencer-street-station/" class="link-secondary">Spencer Street Station</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1966/1966-10-15-a-place-for-mr-whippy/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“A Place for Mr. Whippy”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1966-10-15">15 Oct 1966</time>
+        </p>
+
+        <p>Myer&#39;s new $18 million Northland shopping centre opens in Melbourne&#39;s north, drawing 150,000 people on its first Tuesday and prompting a tour of its air-conditioned malls, waterless plastic fountain, bistro, gallery paintings and a Mr. Whippy ice cream van finally given a respectable home.</p>
+
+        <a href="/articles/bulletin/1966/1966-10-15-a-place-for-mr-whippy/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/chadstone/" class="link-secondary">Chadstone</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/mr.-whippy/" class="link-secondary">Mr. Whippy</a>,
+              
+              <a href="/topic/myer/" class="link-secondary">Myer</a>,
+              
+              <a href="/topic/northland/" class="link-secondary">Northland</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1967/1967-12-23-the-war-on-want-strides-painfully-ahead/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“The war on want strides painfully ahead”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1967-12-23">23 Dec 1967</time>
+        </p>
+
+        <p>A vivid account of Melbourne&#39;s sponsored walk fundraising craze, culminating in the 20-mile &quot;Walk Against Want&quot; to Dandenong in which more than 1200 people, including Jim Cairns, Barry Jones and a woman in high heels, raised nearly $18,000 for community aid abroad while covering themselves in blisters.</p>
+
+        <a href="/articles/bulletin/1967/1967-12-23-the-war-on-want-strides-painfully-ahead/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/barry-jones/" class="link-secondary">Barry Jones</a>,
+              
+              <a href="/topic/dandenong/" class="link-secondary">Dandenong</a>,
+              
+              <a href="/topic/jim-cairns/" class="link-secondary">Jim Cairns</a>,
+              
+              <a href="/topic/john-f.-kennedy/" class="link-secondary">John F. Kennedy</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/monash-university/" class="link-secondary">Monash University</a>,
+              
+              <a href="/topic/myer/" class="link-secondary">Myer</a>,
+              
+              <a href="/topic/sidney-myer-music-bowl/" class="link-secondary">Sidney Myer Music Bowl</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1968/1968-05-04-loosening-the-ties-of-conformity/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Loosening the ties of conformity”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1968-05-04">04 May 1968</time>
+        </p>
+
+        <p>Melbourne&#39;s necktie as the symbol of civic respectability comes under threat from Lord Snowdon, Harry Miller&#39;s pink skivvy at the Tosca opening night, and a Myer advertisement for turtle-neck evening shirts with zips up the back, prompting alarm about what tielessness might mean for the social order.</p>
+
+        <a href="/articles/bulletin/1968/1968-05-04-loosening-the-ties-of-conformity/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/geelong-grammar/" class="link-secondary">Geelong Grammar</a>,
+              
+              <a href="/topic/keith-miller/" class="link-secondary">Keith Miller</a>,
+              
+              <a href="/topic/lou-richards/" class="link-secondary">Lou Richards</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/melbourne-grammar/" class="link-secondary">Melbourne Grammar</a>,
+              
+              <a href="/topic/myer/" class="link-secondary">Myer</a>,
+              
+              <a href="/topic/naval-and-military-club/" class="link-secondary">Naval and Military Club</a>,
+              
+              <a href="/topic/old-melburnians/" class="link-secondary">Old Melburnians</a>,
+              
+              <a href="/topic/princess-theatre/" class="link-secondary">Princess Theatre</a>,
+              
+              <a href="/topic/scotch-college/" class="link-secondary">Scotch College</a>,
+              
+              <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+              
+              <a href="/topic/south-australia-hotel/" class="link-secondary">South Australia Hotel</a>,
+              
+              <a href="/topic/southern-cross-hotel/" class="link-secondary">Southern Cross Hotel</a>,
+              
+              <a href="/topic/windsor-hotel/" class="link-secondary">Windsor Hotel</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1968/1968-09-14-the-golden-promise-of-the-great-southland/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“The golden promise of the great southland”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1968-09-14">14 Sep 1968</time>
+        </p>
+
+        <p>A report on the opening of Myer&#39;s vast new Southland shopping centre on the Nepean Highway, drawing comparisons between Myer&#39;s suburban retail empire and Communist state planning, and noting the opening-day chaos of 150,000 shoppers.</p>
+
+        <a href="/articles/bulletin/1968/1968-09-14-the-golden-promise-of-the-great-southland/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/chadstone/" class="link-secondary">Chadstone</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/myer/" class="link-secondary">Myer</a>,
+              
+              <a href="/topic/southland/" class="link-secondary">Southland</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1969/1969-02-08-batman-s-melbourne-whats-his-is-hers-and-vice-versa/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“What&#39;s His Is Hers and Vice Versa”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1969-02-08">08 Feb 1969</time>
+        </p>
+
+        <p>Keith Dunstan investigates Melbourne&#39;s bisexual fashion revolution at the Myer In Gear shop in Lonsdale Street, where boys buy girls&#39; clothes and girls buy boys&#39; clothes, Nehru jackets and cufflinks are interchangeable, and the only reliable way to tell the sexes apart is by hair length.</p>
+
+        <a href="/articles/bulletin/1969/1969-02-08-batman-s-melbourne-whats-his-is-hers-and-vice-versa/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/myer/" class="link-secondary">Myer</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1969/1969-04-12-on-the-wrong-side-of-toorak/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“On the Wrong Side of Toorak”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1969-04-12">12 Apr 1969</time>
+        </p>
+
+        <p>A survey of Toorak&#39;s transformation from a hilly suburb of large estates and stately homes into a high-rise battlefield, where Whelan the Wrecker demolishes Sir Robert Knox&#39;s neo-Tudor mansion, the Nathan Beller 13-storey flat wins Board of Works approval despite 600 protestors in St. John&#39;s Hall, and a Bailey bridge over the Yarra triggers Toorak&#39;s first public protest movement.</p>
+
+        <a href="/articles/bulletin/1969/1969-04-12-on-the-wrong-side-of-toorak/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/myer/" class="link-secondary">Myer</a>,
+              
+              <a href="/topic/toorak/" class="link-secondary">Toorak</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1970/1970-02-21-batman-s-melbourne-theres-something-to-be-said-for-the-old-john-bull/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“There&#39;s Something to Be Said for the Old John Bull”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1970-02-21">21 Feb 1970</time>
+        </p>
+
+        <p>As Melbourne prepares for the 1970 royal tour, Keith examines a surprising royalist revival led by Brigadier Richard Eason&#39;s British Brotherhood, which seeks one flag, one anthem and a common Commonwealth defence, while Myer stages a British week complete with a Santa Claus dressed as John Bull.</p>
+
+        <a href="/articles/bulletin/1970/1970-02-21-batman-s-melbourne-theres-something-to-be-said-for-the-old-john-bull/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/country-fire-authority/" class="link-secondary">Country Fire Authority</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/myer/" class="link-secondary">Myer</a>,
+              
+              <a href="/topic/royal-family/" class="link-secondary">Royal Family</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1970/1970-03-14-batman-s-melbourne-boys-will-be-boys-or-is-it-a-girl/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Boys Will Be Boys — or Is It a Girl?”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1970-03-14">14 Mar 1970</time>
+        </p>
+
+        <p>A Geelong court case in which a young man assaulted someone he took to be a boy prompts a field guide to identifying the sexes in the age of unisex fashion, covering make-up, hair, footwear, trousers and handbags, with a final tip borrowed from James Laver that the creature acting like the boss is almost certainly female.</p>
+
+        <a href="/articles/bulletin/1970/1970-03-14-batman-s-melbourne-boys-will-be-boys-or-is-it-a-girl/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/geelong/" class="link-secondary">Geelong</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/myer/" class="link-secondary">Myer</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1970/1970-09-26-batman-s-melbourne-burning-sir-henry-at-both-ends/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Burning Sir Henry at Both Ends”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1970-09-26">26 Sep 1970</time>
+        </p>
+
+        <p>Melbourne&#39;s 16 major electricity stoppages since May 1969 have turned candle-shopping into a civic pastime, with the most popular model being a 99-cent effigy of Sir Henry Bolte&#39;s head, while Keith Dunstan traces the city&#39;s industrial action tradition to the great Victorian Railways strike of May 1903.</p>
+
+        <a href="/articles/bulletin/1970/1970-09-26-batman-s-melbourne-burning-sir-henry-at-both-ends/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/bob-hawke/" class="link-secondary">Bob Hawke</a>,
+              
+              <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/myer/" class="link-secondary">Myer</a>,
+              
+              <a href="/topic/victoria/" class="link-secondary">Victoria</a>,
+              
+              <a href="/topic/victorian-railways/" class="link-secondary">Victorian Railways</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1970/1970-11-14-batman-s-melbourne-a-sacred-day-in-a-city-of-light/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“A Sacred Day in a City of Light”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1970-11-14">14 Nov 1970</time>
+        </p>
+
+        <p>The 1970 Melbourne Cup, won by Baghdad Note, becomes the occasion for a survey of the day&#39;s religious significance in Australian life, the government&#39;s hasty legislation after Myer tried to open its stores on Show Day, the Flemington fashion parade in what looked like Baghdad-inspired costume, and the strange segregation of the MCG Members&#39; Stand replicated at VRC.</p>
+
+        <a href="/articles/bulletin/1970/1970-11-14-batman-s-melbourne-a-sacred-day-in-a-city-of-light/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/baghdad-note/" class="link-secondary">Baghdad Note</a>,
+              
+              <a href="/topic/flemington-racecourse/" class="link-secondary">Flemington Racecourse</a>,
+              
+              <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/melbourne-cup/" class="link-secondary">Melbourne Cup</a>,
+              
+              <a href="/topic/myer/" class="link-secondary">Myer</a>,
+              
+              <a href="/topic/victoria-racing-club/" class="link-secondary">Victoria Racing Club</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/books/no-brains-on-tuesday/64-our-dream-time-bill-of-rights/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Our Dream Time Bill of Rights”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1991-01-01">1991</time>
+        </p>
+
+        <p>A mock Bill of Rights for the truly important freedoms Canberra&#39;s actual debate keeps overlooking, from a cap on cricket replays and telephone hold music to an illuminated supermarket directory board and a curfew on sons borrowing the family car, capping off with a plea that politicians simply sound half civilised.</p>
+
+        <a href="/books/no-brains-on-tuesday/64-our-dream-time-bill-of-rights/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/bankcard/" class="link-secondary">Bankcard</a>,
+              
+              <a href="/topic/board-of-works/" class="link-secondary">Board of Works</a>,
+              
+              <a href="/topic/canberra/" class="link-secondary">Canberra</a>,
+              
+              <a href="/topic/david-jones/" class="link-secondary">David Jones</a>,
+              
+              <a href="/topic/myer/" class="link-secondary">Myer</a>,
+              
+              <a href="/topic/robert-menzies/" class="link-secondary">Robert Menzies</a>,
+              
+              <a href="/topic/telecom/" class="link-secondary">Telecom</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/books/no-brains-on-tuesday/75-defy-the-turkey-plot/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Defy the Turkey Plot”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1991-01-01">1991</time>
+        </p>
+
+        <p>A defence of the Christmas turkey against critics pushing chicken, duck or seafood instead, running through the full ritual of carving, leftovers and turkey curry, a grandfather who managed a ham and bacon firm, and one disastrous cold-chicken-and-ice-cream experiment that abandoned every tradition and left the family feeling nothing but flat.</p>
+
+        <a href="/books/no-brains-on-tuesday/75-defy-the-turkey-plot/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/david-jones/" class="link-secondary">David Jones</a>,
+              
+              <a href="/topic/david-livingstone/" class="link-secondary">David Livingstone</a>,
+              
+              <a href="/topic/leo-schofield/" class="link-secondary">Leo Schofield</a>,
+              
+              <a href="/topic/myer/" class="link-secondary">Myer</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/the-age/all-i-know-about-ethics-i-learned-at-sword-point/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“All I know about ethics, I learned at sword-point”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="2011-07-17">17 Jul 2011</time>
+        </p>
+
+        <p>Recalls a career of manufactured tabloid outrage, from a fake letters-page furore over Myer&#39;s window mannequins to a night spent hiding in a wardrobe from a sword-wielding husband, prompted by reflecting on the collapse of the News of the World.</p>
+
+        <a href="/articles/the-age/all-i-know-about-ethics-i-learned-at-sword-point/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/1962-commonwealth-games/" class="link-secondary">1962 Commonwealth Games</a>,
+              
+              <a href="/topic/chelsea-flower-show/" class="link-secondary">Chelsea Flower Show</a>,
+              
+              <a href="/topic/geelong-grammar/" class="link-secondary">Geelong Grammar</a>,
+              
+              <a href="/topic/john-curtin-hotel/" class="link-secondary">John Curtin Hotel</a>,
+              
+              <a href="/topic/myer/" class="link-secondary">Myer</a>,
+              
+              <a href="/topic/news-of-the-world/" class="link-secondary">News of the World</a>,
+              
+              <a href="/topic/prince-charles/" class="link-secondary">Prince Charles</a>,
+              
+              <a href="/topic/prince-philip/" class="link-secondary">Prince Philip</a>,
+              
+              <a href="/topic/sun-news-pictorial/" class="link-secondary">Sun News-Pictorial</a>
+          </p>
+        
+      </div>
+    
+  </div>
+</div>
+
+
+  <br>
+  <p>See <a href="/search/">all topics</a>.</p>
+
+
+
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

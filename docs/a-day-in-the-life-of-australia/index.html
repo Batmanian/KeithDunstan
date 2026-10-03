@@ -1,0 +1,556 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A day in the life of Australia</title>
+<meta name="title" content="A day in the life of Australia">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Commissioned by &#39;The Age&#39; newspaper to celebrate the bicentennial in 1988, Keith wrote an historical account of Australia&#39;s history for each day of the year. They were compiled to form this book.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://keithdunstan.org/a-day-in-the-life-of-australia/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="A day in the life of Australia">
+<meta property="og:description" content="Commissioned by &#39;The Age&#39; newspaper to celebrate the bicentennial in 1988, Keith wrote an historical account of Australia&#39;s history for each day of the year. They were compiled to form this book.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="A day in the life of Australia">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/a-day-in-the-life-of-australia/">
+<meta name="twitter:title" content="A day in the life of Australia">
+<meta name="twitter:description" content="Commissioned by &#39;The Age&#39; newspaper to celebrate the bicentennial in 1988, Keith wrote an historical account of Australia&#39;s history for each day of the year. They were compiled to form this book.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="A day in the life of Australia">
+<link rel="canonical" href="https://keithdunstan.org/a-day-in-the-life-of-australia/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-lg-10 col-xl-8">
+          <header>
+      <h1 class="display-4">A day in the life of Australia</h1>
+</header>
+<div class="row">
+        <div class="col-12 col-md-3">
+            <img src="/img/adayinthelifeofaustralia.jpg" class="img-fluid" alt="Cover of the book">
+        </div>
+        <div class="col-12 col-md-9">
+<p class="lead">Commissioned by 'The Age' newspaper to celebrate Australia's bicentennial in 1988, Keith wrote an historical account of Australia's history for each day of the year. They were compiled to form this book, published in 1989.
+</p>
+<h2 class="h4"> From the original dust jacket </h2>
+<p>"These are just some of the stirring events that made the news over the past two hundred years. Day by day, Keith Dunstan recreated sensational stories from our history in his 1988 Age column. Now, in response to public demand, they have been collected in one handsome and memorable volume.</p>
+<p>
+A Day in the Life of Australia offers a fascinating series of glimpses into an Australia that is gone for ever —a brilliant kaleidoscope of great moments as they would have appeared to those alive at the time. Contemporary illustrations add a lively and authentic touch. 
+Amazing, appalling, entertaining and informative, the news of yesteryear makes great reading today. </p>
+<p>
+    </div></div>
+ 
+ 
+<div class="col-12 col-lg-8 offset-lg-2">
+                    <p class="lead"><a href="/books/a-day-in-the-life-of-australia/introduction">Introduction</a></p>
+                    <h2 class="h4">January</h2>
+                  <ul>
+                    <li><a href="/books/a-day-in-the-life-of-australia/a-brand-new-commonwealth">A Brand New Commonwealth</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/eighteen-wickets-to-fall">Eighteen Wickets to Fall</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/bridge-disaster-divides-hobart">Bridge Disaster Divides Hobart</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/the-garbage-symphony">The Garbage Symphony</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/mad-jack-berry">Mad Jack Berry</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/the-wonder-of-listening-in">The Wonder of 'Listening In'</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/oh-woe-a-cash-amateur">Oh Woe! A Cash Amateur</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/victoria-ablaze">Victoria Ablaze</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/a-body-blow-to-cricket">A Body Blow to Cricket</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/a-woman-hanged">A Woman Hanged</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/clipping-coupons">Clipping Coupons</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/plane-travels-faster-than-a-horse-or-automobile">Plane Travels Faster than Horse or Automobile</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/last-ride-for-captain-moonlight">Last Ride for Captain Moonlite</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/a-hollow-affair-for-burke-and-wills">A Hollow Affair for Burke and Wills</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/stuart-crosses-the-continent">Stuart Crosses the Continent</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/duke-makes-sport-in-the-colonies">Duke Makes Sport in the Colonies</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/first-fleet-anchors-in-sydney-cove">First Fleet Anchors in Sydney Cove</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/mace-disappears-during-drunken-freak">Mace Disappears during Drunken Freak</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/a-pirate-in-melbourne">A Pirate in Melbourne</a></li>
+                    </ul>
+                    <br>
+                        <h2 class="h4">February</h2>
+                        <ul>
+                    <li><a href="/books/a-day-in-the-life-of-australia/race-riots-in-kalgoorlie">Race Riots in Kalgoorlie</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/mr-dean-navigates-the-air">Mr Dean Navigates the Air</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/brisbane-paralysed-by-general-strike">Brisbane Paralysed by General Strike</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/sydney-turns-out-to-welcome-the-queen">Sydney Turns Out to Welcome the Queen</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/touring-aboriginal-side-leaves-for-england">Touring Aboriginal Side Leaves for England</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/an-incredible-colonial">An Incredible Colonial</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/the-end-of-the-six-oclock-swill">The End of the Six O'Clock Swill</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/the-cheek-of-ned-kelly">The Cheek of Ned Kelly</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/general-gordon-and-khartoum-fall-to-the-mahdi">General Gordon and Khartoum Fall to the Mahdi</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/voyager-sinks-during-naval-exercise">Voyager Sinks during Naval Exercise</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/nsw-quarantined-as-epidemic-worsens">NSW Quarantined as Epidemic Worsens</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/captain-armstrong-crucified">Captain Armstrong 'Crucified'</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/the-fall-of-singapore">The Fall of Singapore</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/lola-montez-horse-whips-editor">Lola Montez Horse-whips Editor</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/embarking-for-the-boer-war">Embarking for the Boer War</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/japanese-bomb-darwin">Japanese Bomb Darwin</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/sydney-wellington-telegraph-link">Sydney-Wellington Telegraph Link</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/hinkler-the-new-lindbergh">Hinkler 'The New Lindbergh'</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/ex-convict-the-rothschild-of-botany-bay">Ex-convict the Rothschild of Botany Bay</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/farewell-to-dame-nellie-melba">Farewell to Dame Nellie Melba</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/the-demon-counter-lunch">The Demon Counter Lunch</a></li>
+                      </ul>
+                        <h2 class="h4">March</h2>
+                        <ul>
+                    <li><a href="/books/a-day-in-the-life-of-australia/smiths-weekly">Smith's Weekly</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/dawn-fraser-expelled">Dawn Fraser Expelled</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/the-purity-of-our-sunday">The Purity of our Sunday</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/divorce-in-nsw">Divorce in NSW</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/runners-unwelcome-at-mcg">Runners Unwelcome at MCG</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/a-cricket-selectors-brawl">A Cricket Selectors' Brawl</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/menzies-thwarted">Menzies Thwarted</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/the-desperate-dollar-shortage">The Desperate Dollar Shortage</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/gaslight-for-hobart">Gaslight for Hobart</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/hmas-perth-and-yarra-lost">HMAS Perth and Yarra Feared Lost</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/madame-pavlova">Madame Pavlova</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/canberra-to-be-national-capital">Canberra to be National Capital</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/problems-in-picking-an-australian-xi">Problems in Picking an Australian XI</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/knuckled-fighters-take-to-the-bush">Bare Knuckled Fighters Take to the Bush</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/de-groot-opens-harbour-bridge">De Groot Opens Harbour Bridge</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/the-theatre-royal-burns">The Theatre Royal Burns</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/general-macarthur-arrives">General MacArthur Arrives</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/airliner-crashes-in-ne-victoria">Air-liner Crashes in NE Victoria</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/red-raggers-turn-out-in-brisbane">'Red Raggers' Turn Out in Brisbane</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/convicts-murder-inspector-general">Convicts Murder Inspector-General</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/annette-kellerman-the-perfect-woman">Annette Kellerman, the Perfect Woman</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/the-russian-scare">The Russian Scare</a></li>
+                    <li><a href="/books/a-day-in-the-life-of-australia/the-labor-split">The Labor Split</a></li>
+                     </ul>
+                        <h2 class="h4">April</h2>
+                        <ul>  
+                   
+                    <li>Phoenix Foundry Proudly Delivers `Engine 83' </li>
+                    <li>The Cremation Outrage</li>
+                    <li> Hobart Leads the Way with Parking Meters </li>
+                    <li>Phar Lap Dies in California `Yes' to WA </li>
+                    <li>Secession </li>
+                    <li>`Mad Dog' Morgan is Dead </li>
+                    <li>Ironclad HMVS Cerberus Arrives</li>
+                    <li> We Weep for Carbine </li>
+                    <li>`The Lion of Athens'</li>
+                    <li> Tree Breaks Fall of Famous Balloonist</li>
+                    <li> Classical Education now Open to All</li>
+                    <li> The Kelly Blood Money </li>
+                    <li>Conscripts Leave for Vietnam </li>
+                    <li>Eight Hours Labour </li>
+                    <li>Mrs Petrov Decides to Stay </li>
+                    <li>Australians Bury Gallant Enemy </li>
+                    <li>Air Ace Heroes in Defeat </li>
+                    <li>Fatherly Statesman Leaves Young Family </li>
+                    <li>Fitzsimmons Takes World Heavyweight Title </li>
+                    <li>Melbourne is a Cess Pit </li>
+                     </ul>
+                        <h2 class="h4">May</h2>
+                        <ul>  
+          
+                    <li>Banks Take an Enforced Holiday </li>
+                    <li>The Complete Week-end</li>
+                    <li> Keeping the Chinese Out</li>
+                    <li> The First Agricultural Society Exhibition</li>
+                    <li> Ben Hall Cut Down</li>
+                    <li> Truganini, the Last of her Tribe </li>
+                    <li>Federal Parliament Opens </li>
+                    <li>Parliament Housed in Canberra </li>
+                    <li>'Chloe' </li>
+                    <li>Samuel Marsden, the 'Flogging Parson'</li>
+                    <li> Jack Lang Sacked </li>
+                    <li>Turning a Sheep Paddock into a City </li>
+                    <li>The Dambusters </li>
+                    <li>Hospital Ship Torpedoed </li>
+                    <li>Holden Celebrates</li>
+                    <li> Mafeking Relieved</li>
+                    <li> Commander Killed at Gallipoli</li>
+                    <li> Amy Johnson </li>
+                    <li>`Mercenary Cads' </li>
+                    <li>Melbourne's Finest Street </li>
+                    <li>The Prince Removes his Gloves </li>
+                    <li>The Career of a Spendthrift </li>
+                    <li>Blamey's Remarkable Funeral </li>
+                     </ul>
+                        <h2 class="h4">June</h2>
+                        <ul>  
+                    <li>Labor Commits Suicide </li>
+                    <li>Midget Submarines in Sydney Harbour</li>
+                    <li> The War in South Africa is Over</li>
+                    <li> Professor Miller — Champion Athlete</li>
+                    <li> Making Do </li>
+                    <li>Smithy Crosses the Pacific</li>
+                    <li> Alcohol and War Wage Battle</li>
+                    <li> Ben Chifley Dead</li>
+                    <li> All Change at the Border</li>
+                    <li> Beatle Mania Strikes Melbourne </li>
+                    <li>Shark Disgorges Grim Evidence</li>
+                    <li> Sydney's Theatre Royal Burns but the Show Goes On</li>
+                    <li> Sharkey Charged with Sedition</li>
+                    <li> Celebrating the Queen's Jubilee</li>
+                    <li> Landy Runs a Four-minute Mile</li>
+                    <li> The Great Wheelbarrow Marathon</li>
+                    <li> Poet Suicides </li>
+                    <li>Jacka Awarded the VC</li>
+                    <li> An End to the War to End All Wars </li>
+                    <li>Fire at St Mary's </li>
+                    <li>Dentist's Boxkite Disturbs the Cows </li>
+                         </ul>
+                        <h2 class="h4">July</h2>
+                        <ul>  
+                    <li>Les Darcy Dies Unfairly Condemned</li>
+                    <li> Anti-Chinese Feeling Sparks Racial Riot </li>
+                    <li>'Diamond Jim' Dies</li>
+                    <li> Politics Takes its Toll</li>
+                    <li> AIF Scores a Superb Victory </li>
+                    <li>Velocipedes — the Latest Craze </li>
+                    <li>Bradman Out at Last </li>
+                    <li>Campaign against Barmaids </li>
+                    <li>Cawarra Breaks Up in Heavy Seas</li>
+                    <li> Flemington Crowd Turns Savage </li>
+                    <li>Bluebird Captures Land Speed Record </li>
+                    <li>The Perfect Co-operative Society</li>
+                    <li> Dr Bell Checks Out our Telephones</li>
+                    <li> Angry Penguins Embarrassed </li>
+                    <li>Eureka Hero Elected Speaker</li>
+                    <li> Melbourne Welcomes the Fleet</li>
+                    <li> M. Blondin Risks his Neck</li>
+                    <li> Our Troops off to Korea</li>
+                    <li> Horse Racing Returns to Adelaide </li>
+                    <li>Lord Casey New Governor-General </li>
+                            </ul>
+                        <h2 class="h4">August</h2>
+                        <ul>  
+                    <li>Miners Entombed by Explosion </li>
+                    <li>A One-word Sermon </li>
+                    <li>Walter Lindrum Dies</li>
+                    <li> Army Goes In as Miners Go Out </li>
+                    <li>Patriotism and the Prizes of War </li>
+                    <li>POWs Break-out at Cowra</li>
+                    <li> Long Live the King</li>
+                    <li> Gas Lights the City </li>
+                    <li>Night A Taste for Australian 'Twanguage'</li>
+                    <li> Dark Prospects for Night Football</li>
+                    <li> Air Crash Horror in Canberra </li>
+                    <li>The Rise of the Bunyip Aristocracy</li>
+                    <li> Blacksmith Forges Ahead</li>
+                    <li> Impressionists Unworthy of Serious Attention </li>
+                    <li>Taking Over the Banks</li>
+                    <li> Harbour Span is Complete</li>
+                    <li> Burke's Expedition Heads for the Great 'Incognita' </li>
+                    <li>Deepening Depression</li>
+                    <li> Amazon Brigade Marches in Support of Union Reprisal</li>
+                    <li> Killings in Coorong</li>
+                    <li> Football Kicks Off </li>
+                    <li>Intercolonial Exhibition Marks Centenary</li>
+                    <li> Fleet Misses the Party </li>
+                                  </ul>
+                        <h2 class="h4">September</h2>
+                        <ul>  
+                    <li>Who is the Pyjama Girl? </li>
+                    <li>Choosing a Federal Flag </li>
+                    <li>Supporters Incensed at Coleman Suspension</li>
+                    <li> Magnificent Funeral for Pauper Poet </li>
+                    <li>Great Benefactor and Courageous Idealist Dies </li>
+                    <li>The Last Tasmanian Tiger</li>
+                    <li> Revenge Killing of Barrister</li>
+                    <li> War a Hindrance to Sport</li>
+                    <li> Australia's First Railway </li>
+                    <li>Stupendous Conflagration in City</li>
+                    <li> Navy Captures Rabaul </li>
+                    <li>Collingwood Meets Melbourne and Supporters Go Beserk</li>
+                    <li> Looking to the Lottery to Fill Government's Coffers </li>
+                    <li>Party Accord on Devaluation </li>
+                    <li>The Pilfering of Parks </li>
+                    <li>Wireless Telegraphy will Bring us the News </li>
+                    <li>Two Women Elected to Federal Parliament </li>
+                    <li>Pride in the Men who will March to War</li>
+                    <li> For Nellie There's No Place Like Home </li>
+                    <li>'Inclement' Wragge Forecasting a Change </li>
+                    <li>Mixed Bathing in St Kilda Baths</li>
+                    <li> Tolmer and Norah Take on All Comers </li>
+                                  </ul>
+                        <h2 class="h4">October</h2>
+                        <ul>  
+                    <li>Something for Everyone at International Exhibition</li>
+                    <li> Atomic Explosion at Monte Bello</li>
+                    <li> Islands Yana Bursts its Banks</li>
+                    <li> Paddle Steamer Reaches Albury </li>
+                    <li>Alice Meets her Match in Veno</li>
+                    <li> £5 for Most Mothers</li>
+                    <li> Judge Flouts Convention</li>
+                    <li> Bicycling on Circuit</li>
+                    <li> Tasmanian Natives Hunted like Wild Beasts</li>
+                    <li> Say Something Nice about Canberra </li>
+                    <li>The Birth of the Liberals</li>
+                    <li> The first Issue of the Age </li>
+                    <li>Bombala a Capital Idea </li>
+                    <li>Prime Minister Loses his Seat </li>
+                    <li>Bushrangers on St Kilda Road </li>
+                    <li>Prime Minister's Wife Prepared to Shoot A Poisoner</li>
+                    <li> Hanged Comet Flashes out of the Sky </li>
+                    <li>Frank Hardy Charged with Libel </li>
+                    <li>Good-bye to the dear old Cables </li>
+                    <li>Squizzy Taylor is Dead</li>
+                    <li> Kelly Sentenced to Death </li>
+                                 </ul>
+                        <h2 class="h4">November</h2>
+                        <ul>  
+                    <li>Conscripts will Not be Forced into Battle</li>
+                    <li> Raised Hemline Raises Eyebrows </li>
+                    <li>Scandal in Collingwood</li>
+                    <li> Brawling and Looting in Police Strike</li>
+                    <li> A Portrait or a Caricature?</li>
+                    <li> Burke and Wills Perish, but Archer Wins the Cup </li>
+                    <li> Railway Spans the Continent </li>
+                    <li> Hugh Mahon, as Irish as they Come </li>
+                    <li> Good Riddance to Sydney </li>
+                    <li> Sydney Sinks the Emden </li>
+                    <li> Boxing Hero Wins World Title</li>
+                    <li> Cable Trams Set Melbourne Agog</li>
+                    <li> Emus V Army </li>
+                    <li> Luxury Train Makes its Debut</li>
+                    <li> 'Oppy' Cycles from Fremantle to Sydney</li>
+                    <li> Adventurer Lucky to be Alive </li>
+                    <li> Driving Out the Demon Drink</li>
+                    <li> 'Honest, I was a Riot'</li>
+                    <li> Electric Lamps Light up the Night</li>
+                    <li> Hargrave takes Flight</li>
+                    <li> Free Banquet turns into Free-for-all </li>
+                    <li> No Chance of Saying No </li>
+                              </ul>
+                        <h2 class="h4">December</h2>
+                        <ul>  
+                    <li>
+                      Swimming is a Delicate Matter</li>
+                    <li>
+                      The First Hippy Drop-out</li>
+                    <li>
+                      Sydney missing, Presumed Lost</li>
+                    <li>
+                      Fearful Affray at Eureka</li>
+                    <li>
+                      Oil Strike at Exmouth Gulf</li>
+                    <li>
+                      Spofforth our ‘Demon’ Bowler</li>
+                    <li>
+                      Illegal Fisticuffs</li>
+                    <li> Shock and Grief greet Abdication</li>
+                    <li>
+                      Indomitable Aeronaut Parachutes Down</li>
+                    <li> London-Melbourne Flight a Triumph</li>
+                    <li>
+                      Plugger Wins and Retires Richly Rewarded</li>
+                    <li> Women Revel in Right to Vote</li>
+                    <li>
+                      Prime Minister Feared Drowned</li>
+                    <li>
+                      Fighting Phylloxera</li>
+                    <li>
+                      Not a Drop of Water to Save Burning Homes</li>
+                    <li>
+                      Troops silently Steal Away</li>
+                    <li>
+                      White Australia, the Law of the Land</li>
+                    <li>
+                      Black Fighter Exacts his Revenge</li>
+                    <li>
+                      Victoria’s Extravagant Victory</li>
+                    <li>
+                      One Survives Steamer Sinking</li>
+                    <li>
+                      Paying Politicians Opens the Door to</li>
+                    <li>
+                      Riff-raff</li>
+                    <li> Buckley Makes for the Bush</li>
+                  </div>
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

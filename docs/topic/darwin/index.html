@@ -1,0 +1,581 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Topic: Darwin</title>
+<meta name="title" content="Topic: Darwin">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="The collected literary works of Keith Dunstan OAM">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://keithdunstan.org/topic/darwin/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Topic: Darwin">
+<meta property="og:description" content="The collected literary works of Keith Dunstan OAM">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Topic: Darwin">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/topic/darwin/">
+<meta name="twitter:title" content="Topic: Darwin">
+<meta name="twitter:description" content="The collected literary works of Keith Dunstan OAM">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Topic: Darwin">
+<link rel="canonical" href="https://keithdunstan.org/topic/darwin/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-lg-10 col-xl-8">
+          <header>
+      <h1 class="h2 mb-2">Topic: Darwin</h1>
+</header>
+
+
+  
+  
+  <p class="text-muted mb-1">8 items include the topic of Darwin.</p>
+  <p class="fst-italic text-muted mb-5">Darwin is the Northern Territory&#39;s tropical frontier capital, a town of barely a thousand people when novelist Xavier Herbert worked there as a young pharmacist and later Superintendent of Aborigines, and later a stop on Prince Philip&#39;s 1956 royal tour, remembered for its notorious late-night crocodile hunt.</p>
+  <div class="row d-flex justify-content-center">
+  <div class="col-12">
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1966/1966-10-22-where-is-the-eye-of-monique/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Where Is the Eye of Monique?”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1966-10-22">22 Oct 1966</time>
+        </p>
+
+        <p>The Bureau of Meteorology&#39;s system for naming cyclones, explained through the man responsible for choosing 100 female names every three years, with a history tracing the practice from Brisbane&#39;s cantankerous nineteenth-century meteorologist Clement Wragge to the 1966-67 season&#39;s lineup of Angela, Colette, Monique and Odette.</p>
+
+        <a href="/articles/bulletin/1966/1966-10-22-where-is-the-eye-of-monique/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/alfred-deakin/" class="link-secondary">Alfred Deakin</a>,
+              
+              <a href="/topic/brisbane/" class="link-secondary">Brisbane</a>,
+              
+              <a href="/topic/bureau-of-meteorology/" class="link-secondary">Bureau of Meteorology</a>,
+              
+              <a href="/topic/clement-wragge/" class="link-secondary">Clement Wragge</a>,
+              
+              <a href="/topic/darwin/" class="link-secondary">Darwin</a>,
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/onslow/" class="link-secondary">Onslow</a>,
+              
+              <a href="/topic/perth/" class="link-secondary">Perth</a>,
+              
+              <a href="/topic/queensland/" class="link-secondary">Queensland</a>,
+              
+              <a href="/topic/western-australia/" class="link-secondary">Western Australia</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/books/supporting-a-column/4-columns-on-hm-and-hrh/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Columns on HM and HRH”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1966-11-11">1966</time>
+        </p>
+
+        <p>Recalls the mass hysteria of the Queen&#39;s marathon 1954 tour, 500 collapsing from a day-long wait in Melbourne, and Prince Philip&#39;s 1956 tour of Papua and New Guinea, greeted by King Metakaka and his thirteen wives.</p>
+
+        <a href="/books/supporting-a-column/4-columns-on-hm-and-hrh/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/1956-olympic-games/" class="link-secondary">1956 Olympic Games</a>,
+              
+              <a href="/topic/alice-springs/" class="link-secondary">Alice Springs</a>,
+              
+              <a href="/topic/commander-jock-colville/" class="link-secondary">Commander Jock Colville</a>,
+              
+              <a href="/topic/darwin/" class="link-secondary">Darwin</a>,
+              
+              <a href="/topic/goorambat/" class="link-secondary">Goorambat</a>,
+              
+              <a href="/topic/hamilton-downs-station/" class="link-secondary">Hamilton Downs Station</a>,
+              
+              <a href="/topic/harold-holt/" class="link-secondary">Harold Holt</a>,
+              
+              <a href="/topic/henry-james-ofarrell/" class="link-secondary">Henry James OFarrell</a>,
+              
+              <a href="/topic/hms-galatea/" class="link-secondary">HMS Galatea</a>,
+              
+              <a href="/topic/hobart/" class="link-secondary">Hobart</a>,
+              
+              <a href="/topic/hobart-regatta/" class="link-secondary">Hobart Regatta</a>,
+              
+              <a href="/topic/ivan-fedorovich-skripov/" class="link-secondary">Ivan Fedorovich Skripov</a>,
+              
+              <a href="/topic/john-cahill/" class="link-secondary">John Cahill</a>,
+              
+              <a href="/topic/katherine-nt/" class="link-secondary">Katherine - NT</a>,
+              
+              <a href="/topic/king-metakaka/" class="link-secondary">King Metakaka</a>,
+              
+              <a href="/topic/kununurra/" class="link-secondary">Kununurra</a>,
+              
+              <a href="/topic/manus-island/" class="link-secondary">Manus Island</a>,
+              
+              <a href="/topic/ord-river/" class="link-secondary">Ord River</a>,
+              
+              <a href="/topic/papua-new-guinea/" class="link-secondary">Papua New Guinea</a>,
+              
+              <a href="/topic/prince-philip/" class="link-secondary">Prince Philip</a>,
+              
+              <a href="/topic/queen-elizabeth-ii/" class="link-secondary">Queen Elizabeth II</a>,
+              
+              <a href="/topic/reverend-irving-benson/" class="link-secondary">Reverend Irving Benson</a>,
+              
+              <a href="/topic/royal-family/" class="link-secondary">Royal Family</a>,
+              
+              <a href="/topic/robert-menzies/" class="link-secondary">Robert Menzies</a>,
+              
+              <a href="/topic/the-sun-news-pictorial/" class="link-secondary">The Sun News-Pictorial</a>,
+              
+              <a href="/topic/victoria-racing-club/" class="link-secondary">Victoria Racing Club</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/books/supporting-a-column/7-essentially-worldy-columns/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Essentially worldly columns”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1966-11-11">1966</time>
+        </p>
+
+        <p>On chasing column fodder overseas during the lean weeks, including a heavily armed, machine-gun-escorted tour of a Strategic Air Command nuclear bomber base at Fort Worth, Texas, at the height of the Cold War.</p>
+
+        <a href="/books/supporting-a-column/7-essentially-worldy-columns/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/(thich)-quang-do/" class="link-secondary">(Thich) Quang Do</a>,
+              
+              <a href="/topic/1960-tokyo-olympics/" class="link-secondary">1960 Tokyo Olympics</a>,
+              
+              <a href="/topic/alderman-hills/" class="link-secondary">Alderman Hills</a>,
+              
+              <a href="/topic/all-nippon-airlines-(ana)/" class="link-secondary">All Nippon Airlines (ANA)</a>,
+              
+              <a href="/topic/bangkok/" class="link-secondary">Bangkok</a>,
+              
+              <a href="/topic/boys-own-paper/" class="link-secondary">Boys Own Paper</a>,
+              
+              <a href="/topic/brian-hill/" class="link-secondary">Brian Hill</a>,
+              
+              <a href="/topic/canadian-pacific-airlines/" class="link-secondary">Canadian Pacific Airlines</a>,
+              
+              <a href="/topic/china/" class="link-secondary">China</a>,
+              
+              <a href="/topic/cockfighting/" class="link-secondary">Cockfighting</a>,
+              
+              <a href="/topic/darwin/" class="link-secondary">Darwin</a>,
+              
+              <a href="/topic/douglas-lockwood/" class="link-secondary">Douglas Lockwood</a>,
+              
+              <a href="/topic/fort-worth-texas/" class="link-secondary">Fort Worth - Texas</a>,
+              
+              <a href="/topic/henry-cabot-lodge/" class="link-secondary">Henry Cabot Lodge</a>,
+              
+              <a href="/topic/hong-kong/" class="link-secondary">Hong Kong</a>,
+              
+              <a href="/topic/japan/" class="link-secondary">Japan</a>,
+              
+              <a href="/topic/john-bechervaise/" class="link-secondary">John Bechervaise</a>,
+              
+              <a href="/topic/kure-diggers-waifs/" class="link-secondary">Kure -Diggers- waifs</a>,
+              
+              <a href="/topic/louis-beltran/" class="link-secondary">Louis Beltran</a>,
+              
+              <a href="/topic/manila/" class="link-secondary">Manila</a>,
+              
+              <a href="/topic/masaaki-usui/" class="link-secondary">Masaaki Usui</a>,
+              
+              <a href="/topic/percy-cerutty/" class="link-secondary">Percy Cerutty</a>,
+              
+              <a href="/topic/peter-temm/" class="link-secondary">Peter Temm</a>,
+              
+              <a href="/topic/the-philipines/" class="link-secondary">The Philipines</a>,
+              
+              <a href="/topic/rajadamnern-stadium-bangkok/" class="link-secondary">Rajadamnern Stadium - Bangkok</a>,
+              
+              <a href="/topic/robert-menzies/" class="link-secondary">Robert Menzies</a>,
+              
+              <a href="/topic/sondrestrom/" class="link-secondary">Sondrestrom</a>,
+              
+              <a href="/topic/strategic-air-command-usaaf/" class="link-secondary">Strategic Air Command -USAAF-</a>,
+              
+              <a href="/topic/texas/" class="link-secondary">Texas</a>,
+              
+              <a href="/topic/thailand/" class="link-secondary">Thailand</a>,
+              
+              <a href="/topic/vietnam/" class="link-secondary">Vietnam</a>,
+              
+              <a href="/topic/womens-army-corps/" class="link-secondary">Womens Army Corps</a>,
+              
+              <a href="/topic/yone-ito/" class="link-secondary">Yone Ito</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1967/1967-02-25-meeting-a-white-hunter-from-the-nt/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Meeting a White Hunter from the N.T.”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1967-02-25">25 Feb 1967</time>
+        </p>
+
+        <p>A profile of Allan Stewart, former Black Watch lieutenant turned safari camp operator at Nourlangie in Arnhem Land, who runs big-game hunting for clients including Stirling Moss and Reg Ansett while cohabiting with buffalo herds, crocodiles, and memories of thirty days in Fanny Bay gaol.</p>
+
+        <a href="/articles/bulletin/1967/1967-02-25-meeting-a-white-hunter-from-the-nt/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/ansett-ana/" class="link-secondary">Ansett-ANA</a>,
+              
+              <a href="/topic/arnhem-land/" class="link-secondary">Arnhem Land</a>,
+              
+              <a href="/topic/darwin/" class="link-secondary">Darwin</a>,
+              
+              <a href="/topic/northern-territory/" class="link-secondary">Northern Territory</a>,
+              
+              <a href="/topic/reg-ansett/" class="link-secondary">Reg Ansett</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/books/ratbags/15-xavier-alfred-francis-herbert/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Xavier (Alfred Francis) Herbert”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1980-11-11">1980</time>
+        </p>
+
+        <p>Profile of novelist Xavier Herbert, from his ratbag youth and the bankrupted first typesetting of Capricornia to nine years writing the 850,000-word epic Poor Fellow My Country in a fireproofed gas stove at Redlynch.</p>
+
+        <a href="/books/ratbags/15-xavier-alfred-francis-herbert/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/xavier-herbert/" class="link-secondary">Xavier Herbert</a>,
+              
+              <a href="/topic/capricornia/" class="link-secondary">Capricornia</a>,
+              
+              <a href="/topic/poor-fellow-my-country/" class="link-secondary">Poor Fellow My Country</a>,
+              
+              <a href="/topic/sadie-norden/" class="link-secondary">Sadie Norden</a>,
+              
+              <a href="/topic/darwin/" class="link-secondary">Darwin</a>,
+              
+              <a href="/topic/redlynch/" class="link-secondary">Redlynch</a>,
+              
+              <a href="/topic/cairns/" class="link-secondary">Cairns</a>,
+              
+              <a href="/topic/aborigines/" class="link-secondary">Aborigines</a>,
+              
+              <a href="/topic/miles-franklin-award/" class="link-secondary">Miles Franklin Award</a>,
+              
+              <a href="/topic/p.r.-stephensen/" class="link-secondary">P.R. Stephensen</a>,
+              
+              <a href="/topic/black-velvet/" class="link-secondary">Black Velvet</a>,
+              
+              <a href="/topic/disturbing-element/" class="link-secondary">Disturbing Element</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/books/a-day-in-the-life-of-australia/japanese-bomb-darwin/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Japanese Bomb Darwin”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1988-02-19">1988</time>
+        </p>
+
+        <p>Japanese aircraft launch a devastating surprise attack on Darwin on 19 February 1942, the first and largest foreign attack on Australian soil, with 188 aircraft sinking eight ships, killing 243 people, destroying the post office and many key installations, and forcing the evacuation of a ghost town in what Curtin describes as Australia&#39;s first battle.</p>
+
+        <a href="/books/a-day-in-the-life-of-australia/japanese-bomb-darwin/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/darwin/" class="link-secondary">Darwin</a>,
+              
+              <a href="/topic/john-curtin/" class="link-secondary">John Curtin</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/books/a-day-in-the-life-of-australia/hinkler-the-new-lindbergh/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Hinkler &#39;The New Lindbergh&#39;”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1988-02-24">1988</time>
+        </p>
+
+        <p>Bert Hinkler completes the first solo flight from England to Australia in 15 and a half days, arriving in Darwin in a tiny Avro Avian biplane to 400 telegrams and a bottle of beer despite the city&#39;s beer strike, before flying on to Bundaberg where the entire town is taking a holiday and church bells will ring when he passes overhead.</p>
+
+        <a href="/books/a-day-in-the-life-of-australia/hinkler-the-new-lindbergh/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/bert-hinkler/" class="link-secondary">Bert Hinkler</a>,
+              
+              <a href="/topic/bundaberg/" class="link-secondary">Bundaberg</a>,
+              
+              <a href="/topic/darwin/" class="link-secondary">Darwin</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/books/no-brains-on-tuesday/61-hail-to-the-umbrageous-coast/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Hail to the Umbrageous Coast”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1991-01-01">1991</time>
+        </p>
+
+        <p>The postwar Australian cult of the deep tan, recast as reckless now that skin cancer has turned the mandatory brown of an Anglesea or Lorne holiday into a four-in-five gamble with melanoma, leads into a mock tourism pitch ranking every state capital by sunlessness in search of a slogan sunburnt Queensland could never steal, from The Umbrageous Coast down to a frank Pale Skins Paradise.</p>
+
+        <a href="/books/no-brains-on-tuesday/61-hail-to-the-umbrageous-coast/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/alan-bond/" class="link-secondary">Alan Bond</a>,
+              
+              <a href="/topic/bondi/" class="link-secondary">Bondi</a>,
+              
+              <a href="/topic/brisbane/" class="link-secondary">Brisbane</a>,
+              
+              <a href="/topic/coolangatta/" class="link-secondary">Coolangatta</a>,
+              
+              <a href="/topic/darwin/" class="link-secondary">Darwin</a>,
+              
+              <a href="/topic/hobart/" class="link-secondary">Hobart</a>,
+              
+              <a href="/topic/lorne/" class="link-secondary">Lorne</a>,
+              
+              <a href="/topic/perth/" class="link-secondary">Perth</a>
+          </p>
+        
+      </div>
+    
+  </div>
+</div>
+
+
+  <br>
+  <p>See <a href="/search/">all topics</a>.</p>
+
+
+
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>
