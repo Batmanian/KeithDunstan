@@ -12,5 +12,5 @@
   # directory located at the absolute path "root/project/build-output"
   publish = "docs/"
 
-  # Default build command.
-  command = "npm run build"
+  # No build command — docs/ is pre-built locally and committed to the repo.
+  command = ""
