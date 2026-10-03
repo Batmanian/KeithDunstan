@@ -37,6 +37,8 @@ The public website is keithdunstan.org. Readers can browse articles by publicati
 
 Keith Dunstan Literary Archive. Australian English. Preserve Keith's original voice in transcriptions and distinguish editorial introductions from his own writing.
 
+Use an archival, informative voice rather than promotional or sales language. The home page studies were parked on 3 October 2026 because they felt too salesy; review comparable archives before resuming the design.
+
 ## Evidence on Hand
 
 - Books and journalism in `vault/`, including The Bulletin and Walkabout material.
@@ -56,3 +58,5 @@ Keith Dunstan Literary Archive. Australian English. Preserve Keith's original vo
 ## Open Decisions
 
 Specific accessibility requirements beyond accessible web practice have not been established. New editorial claims and the final home page composition remain subject to review.
+
+Home page work is paused. Saved mockups are exploratory references, not approved designs; see `.impeccable/mocks/README.md` and `todo.md` §8 for the review step.

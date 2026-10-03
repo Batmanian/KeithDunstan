@@ -1,5 +1,7 @@
 # Home page revision: a lifetime of writing
 
+**Parked, 3 October 2026.** The user finds the current direction too salesy and wants to review similar archives before continuing. The notes below record the exploration, not approval to implement. See [the saved mockup index](../README.md).
+
 User direction: retain the first revised mockup's large left portrait and right-hand introduction. Replace the personal tribute and memorial emphasis with the breadth and volume of Keith's writing across decades, formats and publications.
 
 Proposed opening: **Keith Dunstan — A lifetime of writing about Australia.**
@@ -12,4 +14,4 @@ Lower-page sequence: a compact editorial guide across decades, publications and 
 
 Snapshot from `src/_data/siteStats.js`, 20 September 2026: 500 article records and 1,323,343 estimated words across linked article and book content. Use “500 articles” and “over 1.3 million words” only as current archive scope, not lifetime production. Word counts include source/citation text and are approximate. The 42 bibliography entries include contributions and dictionary titles and must not be described as 42 full-length authored books. The estimated 6.2 million lifetime words is not sufficiently verified for the home page.
 
-The user has selected the composition and editorial direction; this revised image is still a copy/composition study. Use the original portrait in implementation, never its generated reproduction.
+The user liked the large portrait/split layout and the emphasis on the writing, but has not approved this image or copy for implementation. Use the original portrait in any future implementation, never its generated reproduction.
