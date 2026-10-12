@@ -1,0 +1,1 @@
+../../../../vault/articles/the-courier-mail/1982/1982-08-07-paradise-revisited.md

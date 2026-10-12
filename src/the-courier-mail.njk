@@ -1,0 +1,28 @@
+---
+layout: layouts/default.njk
+title: The Courier-Mail
+summary: Keith Dunstan contributed columns to The Courier-Mail, Brisbane's daily newspaper, including travel and social observation pieces from across Australia.
+---
+<div class="row">
+    <div class="col-12 col-md-3">
+        <img src="{{ '/img/no-cover.svg' | url }}" class="img-fluid" alt="Cover not yet available">
+    </div>
+    <div class="col-12 col-md-9">
+        <p class="lead">Keith Dunstan contributed columns to <a href="https://en.wikipedia.org/wiki/The_Courier-Mail">The Courier-Mail</a>, Brisbane's daily newspaper.</p>
+        <p>The articles held here are transcribed from physical clippings.</p>
+    </div>
+</div>
+<div class="row mt-3">
+<div class="col-12 col-lg-8 offset-lg-2">
+<h4>Articles</h4>
+
+    {% include 'snippets/thecouriermail.njk' %}
+
+    <ul>
+    {%- for article in collections.thecouriermail %}
+      <li><a href="{{ article.url | url }}">{{ article.data.title }}</a> <span class="text-muted small">({{ article.date | readableDate }})</span></li>
+    {%- endfor %}
+    </ul>
+
+</div>
+</div>

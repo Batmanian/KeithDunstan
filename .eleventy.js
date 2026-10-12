@@ -124,6 +124,16 @@ module.exports = function(eleventyConfig) {
       .sort((a, b) => a.date - b.date);
   });
 
+  eleventyConfig.addCollection("thesun", collection => {
+    return collection.getFilteredByGlob("src/articles/the-sun-news-pictorial/**/*.md")
+      .sort((a, b) => a.date - b.date);
+  });
+
+  eleventyConfig.addCollection("thecouriermail", collection => {
+    return collection.getFilteredByGlob("src/articles/the-courier-mail/**/*.md")
+      .sort((a, b) => a.date - b.date);
+  });
+
   // Merges every transcribed article with the full book bibliography
   // (src/_data/books.json) into one date-sorted list for src/timeline.njk.
   // Books only carry a publication year, so they're pinned to 1 January of
