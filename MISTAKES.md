@@ -113,6 +113,24 @@ Collect decision-page answers during an active session; before ending a turn, di
 
 <!-- Newest first. Append new entries directly below this line. -->
 
+### 2026-09-18 — Give the Trove scan downloader a permanent-skip status for dead source URLs
+
+- **Area:** `trove / scan sourcing`
+- **Severity:** low
+- **Count:** 1
+
+**What happened**
+`trove/download_images.py` paused after 5 consecutive HTTP 500 errors. Restarting replayed the exact same failing stubs in the same order and paused again at the same point — twice — instead of making progress.
+
+**Root cause**
+A handful of Trove source records (`nla.obj-` URLs for issues 1974-12-21, 1976-11-27, 1976-12-04) return a genuine, persistent server-side 500 — confirmed with a direct `curl` outside the script entirely, versus a working `302` on an untried URL. The script's resume logic only treats `status == "complete"` as skip-eligible; a dead-at-source URL just stays `error` forever, so every restart retried it and re-accumulated the same 5-consecutive-failure count that had just caused the pause.
+
+**Consequence**
+Two ~10-minute restart cycles burned before the pattern was diagnosed. Fixed by adding a `skipped_broken_source` status (recognized as skip-eligible alongside `complete` in the one-line resume check) and manually marking the 5 confirmed-dead stubs in `trove/download-history.json` with that status and a `reason` recording the independent verification.
+
+**Rule**
+When a rate-limited downloader pauses on consecutive errors, `curl` each failing source URL directly before blindly restarting — if a URL is confirmed to fail independent of the script (not a transient network blip, not 403/429 rate-limiting), record it under a distinct permanent-skip status rather than leaving it as a plain `error`, since plain `error` is retried on every future run and can re-trigger the same pause loop indefinitely.
+
 ### 2026-09-07 — Regex-based frontmatter edits must verify byte-for-byte, not just visually spot-check
 
 - **Area:** `scripts / frontmatter editing`

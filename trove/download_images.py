@@ -208,6 +208,10 @@ def main():
                 if record.get("status") == "complete":
                     state["complete_articles"] += 1
                     continue
+                if record.get("status") == "skipped_broken_source":
+                    # Source URL confirmed to return an error directly (independent of this
+                    # script) on a prior run; not retried automatically. See its "reason".
+                    continue
                 source = re.search(r"https://nla.gov.au/(nla\.obj-\d+)", stub.read_text())
                 if not source:
                     raise ValueError("No NLA object URL in stub")
