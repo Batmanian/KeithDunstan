@@ -1,0 +1,1 @@
+../../../vault/books/a-day-in-the-life-of-australia/supporters-incensed-at-coleman-suspension.md

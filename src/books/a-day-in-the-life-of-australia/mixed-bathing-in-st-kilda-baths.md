@@ -1,0 +1,1 @@
+../../../vault/books/a-day-in-the-life-of-australia/mixed-bathing-in-st-kilda-baths.md

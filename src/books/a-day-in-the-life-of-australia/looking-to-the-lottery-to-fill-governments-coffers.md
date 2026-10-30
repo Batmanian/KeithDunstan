@@ -1,0 +1,1 @@
+../../../vault/books/a-day-in-the-life-of-australia/looking-to-the-lottery-to-fill-governments-coffers.md

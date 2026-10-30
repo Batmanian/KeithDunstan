@@ -1,0 +1,1 @@
+../../../vault/books/a-day-in-the-life-of-australia/collingwood-meets-melbourne-and-supporters-go-beserk.md

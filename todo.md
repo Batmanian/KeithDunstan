@@ -114,9 +114,9 @@ The book's contents page (`src/a-day-in-the-life-of-australia.njk`) lists **258 
 
 | Status | Count | Detail |
 |---|---|---|
-| ✅ Live (`.md`) | 8 | a-brand-new-commonwealth, bridge-disaster-divides-hobart, a-body-blow-to-cricket, a-woman-hanged, clipping-coupons, a-hollow-affair-for-burke-and-wills, duke-makes-sport-in-the-colonies, a-pirate-in-melbourne |
-| 📝 Drafted, wrong extension (`.mx`) | 11 | eighteen-wickets-to-fall, the-garbage-symphony, mad-jack-berry, the-wonder-of-listening-in, oh-woe-a-cash-amateur, victoria-ablaze, plane-travels-faster-than-a-horse-or-automobile, last-ride-for-captain-moonlight, stuart-corsses-the-continent, first-fleet-anchors-in-sydney-cove, man-disappears-during-drunken-freak |
-| ⬜ Known, no file | 239 | Everything else listed in the January–December contents on the book's index page |
+| ✅ Live (`.md`) | 85 entries (+ `introduction.md`, `summary.md`) as of 31 Oct 2026, incl. all 22 September entries — older list below is the original 8 | a-brand-new-commonwealth, bridge-disaster-divides-hobart, a-body-blow-to-cricket, a-woman-hanged, clipping-coupons, a-hollow-affair-for-burke-and-wills, duke-makes-sport-in-the-colonies, a-pirate-in-melbourne |
+| 📝 Drafted, wrong extension (`.mx`) | 0 (resolved — no `.mx` files remain as of 31 Oct 2026; originally 11) | eighteen-wickets-to-fall, the-garbage-symphony, mad-jack-berry, the-wonder-of-listening-in, oh-woe-a-cash-amateur, victoria-ablaze, plane-travels-faster-than-a-horse-or-automobile, last-ride-for-captain-moonlight, stuart-corsses-the-continent, first-fleet-anchors-in-sydney-cove, man-disappears-during-drunken-freak |
+| ⬜ Known, no file | 173 (65 of them scanned and queued for Oct–Dec — see below) | Everything else listed in the January–December contents on the book's index page |
 
 **Data issues found:**
 - The 11 `.mx` files **do** contain real transcribed body text (18–27 lines each), unlike the Wowsers stubs — they just have placeholder frontmatter (`title: XXXX`, `date: 1988-XX-XX`, `tags: - XXX`) and the wrong file extension, so Eleventy never builds them. These are the fastest wins: fill in real title/date/tags, rename to `.md`, and they're publishable.
@@ -124,6 +124,117 @@ The book's contents page (`src/a-day-in-the-life-of-australia.njk`) lists **258 
 - `src/_includes/snippets/theage.njk` contains a master link list of ~280 titles for this book, but every link points at `/articles/bulletin/[slug]` instead of `/books/a-day-in-the-life-of-australia/[slug]`, and every link label is a placeholder (`X.`, date `Y`). This file isn't currently included anywhere live (its usage in `articles.njk` is commented out) but should be fixed or removed rather than left as dead, broken scaffolding.
 - A handful of filename mismatches between the January contents list and the actual `.mx` files exist (e.g. `plane-travels-faster-than-horse-or-automobile` vs file `plane-travels-faster-than-a-horse-or-automobile.mx`; `last-ride-for-captain-moonlite` — the historically correct spelling — vs file `last-ride-for-captain-moonlight.mx`; `stuart-crosses-the-continent` vs file `stuart-corsses-the-continent.mx`; `mace-disappears-during-drunken-freak` vs file `man-disappears-during-drunken-freak.mx`). Reconcile spelling against the original book when transcribing.
 - Source scan images for this book live uncompressed in `src/books/a-day-in-the-life-of-australia/dayinthelifeofaustralia/*.jpg` (committed to the repo, not gitignored like `Scans/`) — worth confirming these are meant to be tracked long-term or should move to the standard `Scans`/`ocr` workflow.
+
+
+### Transcription queue — September–December scans (added 31 Oct 2026)
+
+88 iPhone scans (`scans/IMG_1018`–`IMG_1105`, HEIC, gitignored) cover **1 September to 30 December**, one entry per page. They've been converted, rotated and Tesseract-OCR'd ahead of transcription:
+- Upright PNGs: `scans/rotated/IMG_*.png` (pages alternate left/right, so each was rotated 90° or 270° individually; already correct, don't re-rotate)
+- Raw Tesseract text: `scans/ocr/IMG_*.txt`. Usable as a first pass, but the facing page bleeds into each line's start, so read the image for every line.
+
+**September done (31 Oct 2026).** All 22 September entries (`IMG_1018`–`IMG_1039`) transcribed by reading each page image directly, written to `vault/books/a-day-in-the-life-of-australia/`, linked from the index page, `obsidian_tags` generated, and 133 new `topics.md` descriptions added. Build verified. Points for a proofread against the physical book:
+- **Book's own typos kept verbatim** (consistent with preserving Keith's text as printed): buised, privelege, allowd, labourng, Commisioner, elelction, everbody, tne, stipes, bankcruptcy, astouding, barrells, magnificentlky, contantly, Australiasia, Unquetionably, 'HMAS *Australian*' (Rabaul entry, once; the ship was HMAS Australia). Also a few unclosed quotation marks as printed (Flag entry's *Herald* quote; Tangney's 'Education...' quote).
+- **Tolmer and Norah:** the book has Paxton betting Norah 'couldn't do 16 minutes', but the race that follows is seventeen miles in 55 minutes. Probably a book error for '16 miles'. Kept as printed.
+- **Choosing a Federal Flag:** the book dates it 2 September 1902, but the flag exhibition it describes opened on 3 September 1901. Entry `date:` follows the book (1988-09-02).
+- **Australia's First Railway:** 'Geelong in Melbourne, was an almost unknown province' kept as printed, though the sense is garbled (probably 'Geelong, in Melbourne, was...').
+- **The Pilfering of Parks:** 'Mr Duffy, President of Lands' tagged as Charles Gavan Duffy (who held that office in 1862). An inference, not stated in the text.
+
+Scans map one-to-one onto the index page's Sept/Oct/Nov/Dec contents lists (all 87 entries bar one). Two gaps:
+- **Bicycling on Circuit** (October, between 11 and 13 Oct) has no scan. It needs a rescan.
+- `IMG_1042` and `IMG_1043` are two shots of the same 'Yarra Bursts its Banks' page (1043 is mostly bleed from the facing Monte Bello page). Use whichever reads better.
+
+None of these entries exists in the vault yet. Dates below are only as the OCR read the page heading (some unread). Confirm each date against the image before setting `date:`, which uses the book's 1988 column date (`1988-MM-DD`, following the existing files). The index page's October list also has two merged `<li>`s to fix when linking ('Islands Yana Bursts its Banks' should be 'Atomic Explosion at Monte Bello Islands' plus 'Yarra Bursts its Banks', and 'Hanged Comet Flashes out of the Sky' should be 'A Poisoner Hanged' plus 'Comet Flashes out of the Sky'). For each entry, add the `<a>` link on `src/a-day-in-the-life-of-australia.njk` and run `npm run link:vault`.
+
+| Scan(s) `IMG_` | Date (as OCR'd, unverified) | Entry (index-page title) | Status |
+|---|---|---|---|
+| 1018 | 1 Sep 1934 | Who is the Pyjama Girl? | ✅ Live |
+| 1019 | 2 Sep 1902 | Choosing a Federal Flag | ✅ Live |
+| 1020 | 5 Sep 1951 | Supporters Incensed at Coleman Suspension | ✅ Live |
+| 1021 | 6 Sep 1922 | Magnificent Funeral for Pauper Poet | ✅ Live |
+| 1022 | 7 Sep 1934 | Great Benefactor and Courageous Idealist Dies | ✅ Live |
+| 1023 | 8 Sep 1936 | The Last Tasmanian Tiger | ✅ Live |
+| 1024 | 9 Sep 1834 | Revenge Killing of Barrister | ✅ Live |
+| 1025 | 12 Sep 1917 | War a Hindrance to Sport | ✅ Live |
+| 1026 | 13 Sep 1854 | Australia's First Railway | ✅ Live |
+| 1027 | 14 Sep | Stupendous Conflagration in City | ✅ Live |
+| 1028 | 15 Sep | Navy Captures Rabaul | ✅ Live |
+| 1029 | 16 Sep 1956 | Collingwood Meets Melbourne and Supporters Go Beserk | ✅ Live |
+| 1030 | 19 Sep 1953 | Looking to the Lottery to Fill Government's Coffers | ✅ Live |
+| 1031 | 20 Sep 1949 | Party Accord on Devaluation | ✅ Live |
+| 1032 | 21 Sep 1862 | The Pilfering of Parks | ✅ Live |
+| 1033 | 22 Sep | Wireless Telegraphy will Bring us the News | ✅ Live |
+| 1034 | Sep | Two Women Elected to Federal Parliament | ✅ Live |
+| 1035 | Sep | Pride in the Men who will March to War | ✅ Live |
+| 1036 | 27 Sep 1902 | For Nellie There's No Place Like Home | ✅ Live |
+| 1037 | 28 Sep 1902 | 'Inclement' Wragge Forecasting a Change | ✅ Live |
+| 1038 | Sep | Mixed Bathing in St Kilda Baths | ✅ Live |
+| 1039 | 30 Sep 1846 | Tolmer and Norah Take on All Comers | ✅ Live |
+| 1040 | 3 Oct 1880 | Something for Everyone at International Exhibition | ⬜ Queued |
+| 1041 | 4 Oct 1952 | Atomic Explosion at Monte Bello Islands | ⬜ Queued |
+| 1042, 1043 | 5 Oct 1844 | Yarra Bursts its Banks | ⬜ Queued |
+| 1044 | 6 Oct 1855 | Paddle Steamer Reaches Albury | ⬜ Queued |
+| 1045 | Oct | Alice Meets her Match in Veno | ⬜ Queued |
+| 1046 | 10 Oct 1912 | £5 for Most Mothers | ⬜ Queued |
+| 1047 | 11 Oct 1883 | Judge Flouts Convention | ⬜ Queued |
+| — | Oct | Bicycling on Circuit | ⚠️ No scan |
+| 1048 | Oct | Tasmanian Natives Hunted like Wild Beasts | ⬜ Queued |
+| 1049 | 13 Oct 1946 | Say Something Nice about Canberra | ⬜ Queued |
+| 1050 | 14 Oct 1944 | The Birth of the Liberals | ⬜ Queued |
+| 1051 | 17 Oct 1854 | The First Issue of the Age | ⬜ Queued |
+| 1052 | 18 Oct 1903 | Bombala a Capital Idea | ⬜ Queued |
+| 1053 | 19 Oct 1929 | Prime Minister Loses his Seat | ⬜ Queued |
+| 1054 | Oct | Bushrangers on St Kilda Road | ⬜ Queued |
+| 1055 | 21 Oct 1916 | Prime Minister's Wife Prepared to Shoot | ⬜ Queued |
+| 1056 | 24 Oct 1894 | A Poisoner Hanged | ⬜ Queued |
+| 1057 | 25 Oct 1934 | Comet Flashes out of the Sky | ⬜ Queued |
+| 1058 | 26 Oct 1950 | Frank Hardy Charged with Libel | ⬜ Queued |
+| 1059 | 27 Oct 1940 | Good-bye to the Dear Old Cables | ⬜ Queued |
+| 1060 | Oct | Squizzy Taylor is Dead | ⬜ Queued |
+| 1061 | 31 Oct 1880 | Kelly Sentenced to Death | ⬜ Queued |
+| 1062 | 1 Nov 1916 | Conscripts will Not be Forced into Battle | ⬜ Queued |
+| 1063 | Nov 1965 | Raised Hemline Raises Eyebrows | ⬜ Queued |
+| 1064 | 3 Nov 1903 | Scandal in Collingwood | ⬜ Queued |
+| 1065 | 4 Nov 1923 | Brawling and Looting in Police Strike | ⬜ Queued |
+| 1066 | 7 Nov 1944 | A Portrait or a Caricature? | ⬜ Queued |
+| 1067 | Nov 1861 | Burke and Wills Perish, but Archer Wins the Cup | ⬜ Queued |
+| 1068 | Nov 1917 | Railway Spans the Continent | ⬜ Queued |
+| 1069 | 10 Nov 1920 | Hugh Mahon, as Irish as they Come | ⬜ Queued |
+| 1070 | 11 Nov 1850 | Good Riddance to Sydney | ⬜ Queued |
+| 1071 | 14 Nov 1914 | Sydney Sinks the Emden | ⬜ Queued |
+| 1072 | 15 Nov 1952 | Boxing Hero Wins World Title | ⬜ Queued |
+| 1073 | 16 Nov | Cable Trams Set Melbourne Agog | ⬜ Queued |
+| 1074 | 17 Nov 1932 | Emus V Army | ⬜ Queued |
+| 1075 | 18 Nov 1937 | Luxury Train Makes its Debut | ⬜ Queued |
+| 1076 | 21 Nov 1937 | 'Oppy' Cycles from Fremantle to Sydney | ⬜ Queued |
+| 1077 | 22 Nov 1883 | Adventurer Lucky to be Alive | ⬜ Queued |
+| 1078 | 23 Nov 1923 | Driving Out the Demon Drink | ⬜ Queued |
+| 1079 | 24 Nov 1954 | 'Honest, I was a Riot' | ⬜ Queued |
+| 1080 | 25 Nov 1882 | Electric Lamps Light up the Night | ⬜ Queued |
+| 1081 | 28 Nov 1894 | Hargrave takes Flight | ⬜ Queued |
+| 1082 | 29 Nov 1867 | Free Banquet turns into Free-for-all | ⬜ Queued |
+| 1083 | Nov | No Chance of Saying No | ⬜ Queued |
+| 1084 | 1 Dec 1902 | Swimming is a Delicate Matter | ⬜ Queued |
+| 1085 | Dec | The First Hippy Drop-out | ⬜ Queued |
+| 1086 | 5 Dec 1941 | Sydney Missing, Presumed Lost | ⬜ Queued |
+| 1087 | 6 Dec 1854 | Fearful Affray at Eureka | ⬜ Queued |
+| 1088 | Dec | Oil Strike at Exmouth Gulf | ⬜ Queued |
+| 1089 | Dec | Spofforth our 'Demon' Bowler | ⬜ Queued |
+| 1090 | 9 Dec 1854 | Illegal Fisticuffs | ⬜ Queued |
+| 1091 | 12 Dec 1936 | Shock and Grief greet Abdication | ⬜ Queued |
+| 1092 | 13 Dec 1888 | Indomitable Aeronaut Parachutes Down | ⬜ Queued |
+| 1093 | 14 Dec 1919 | London-Melbourne Flight a Triumph | ⬜ Queued |
+| 1094 | 15 Dec 1901 | Plugger Wins and Retires Richly Rewarded | ⬜ Queued |
+| 1095 | 16 Dec 1903 | Women Revel in Right to Vote | ⬜ Queued |
+| 1096 | 19 Dec 1967 | Prime Minister Feared Drowned | ⬜ Queued |
+| 1097 | 20 Dec 1881 | Fighting Phylloxera | ⬜ Queued |
+| 1098 | 21 Dec 1909 | Not a Drop of Water to Save Burning Homes | ⬜ Queued |
+| 1099 | 22 Dec | Troops silently Steal Away | ⬜ Queued |
+| 1100 | Dec | White Australia, the Law of the Land | ⬜ Queued |
+| 1101 | 26 Dec | Black Fighter Exacts his Revenge | ⬜ Queued |
+| 1102 | Dec | Victoria's Extravagant Victory | ⬜ Queued |
+| 1103 | 28 Dec 1893 | One Survives Steamer Sinking | ⬜ Queued |
+| 1104 | 29 Dec 1870 | Paying Politicians Opens the Door to Riff-raff | ⬜ Queued |
+| 1105 | 30 Dec 1803 | Buckley Makes for the Bush | ⬜ Queued |
 
 ---
 
@@ -342,6 +453,16 @@ For publications not in Trove, physical copies must be sourced and scanned. Foll
 ---
 
 ## 8. Site — Technical
+
+### Build blockers found 31 Oct 2026
+
+- [ ] **Three committed `src/articles/` symlinks point at vault files that don't exist**, and they break the Eleventy build (`ENOENT ... stat`). Added in commit `7bf44adf7`; the targets are in no vault commit. Either add the articles to the vault (perhaps they're on the other computer, uncommitted), or delete the links (`npm run link:vault` removes them automatically as stale):
+  - `src/articles/bulletin/1995/1995-08-22-the-victorian-art-of-columnising.md`
+  - `src/articles/the-courier-mail/1982/1982-08-07-paradise-revisited.md`
+  - `src/articles/the-sun-news-pictorial/1968/1968-01-01-a-place-in-the-sun-brown-bros-milawa.md`
+- [x] Fixed: `vault/articles/bulletin/1969/1969-12-06-batman-s-melbourne-at-last-a-bridge-symbol-of-natural-modesty.md` had an unquoted colon in `title:`, which is invalid YAML. It broke both the build and `npm run set:obsidian-tags`. Title is now quoted; no content changed.
+- [ ] **47 of the 1969 Bulletin articles (recovered 19 Sep 2026) have no `obsidian_tags:`**. `npm run set:obsidian-tags` will add them; it was deliberately not run on them in the 31 Oct session to keep that commit scoped (see `MISTAKES.md`, 2026-10-31).
+- [ ] `vault/topics.md` lists **Maurice Nathan** twice. Merge the two entries.
 
 ### Home page design — parked (3 October 2026)
 

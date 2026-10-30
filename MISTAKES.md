@@ -113,6 +113,24 @@ Collect decision-page answers during an active session; before ending a turn, di
 
 <!-- Newest first. Append new entries directly below this line. -->
 
+### 2026-10-31 — Scope-check vault-wide scripts before running them for new files
+
+- **Area:** `scripts / set-obsidian-tags.js`
+- **Severity:** low
+- **Count:** 1
+
+**What happened**
+Running `npm run set:obsidian-tags` to cover 22 new book entries also added `obsidian_tags:` to 47 unrelated 1969 Bulletin files, then crashed on a pre-existing unquoted-colon `title:` in another 1969 file.
+
+**Root cause**
+The script processes every vault file that lacks the key, not just the files you just wrote.
+
+**Consequence**
+The 47 out-of-scope edits had to be reverted by `git checkout` (twice, after a re-run to read the error) before the session's diff was clean.
+
+**Rule**
+Before running a vault-wide script for new files, run `git -C vault status --short` afterwards and revert any file outside the task's own list before moving on.
+
 ### 2026-09-18 — Give the Trove scan downloader a permanent-skip status for dead source URLs
 
 - **Area:** `trove / scan sourcing`

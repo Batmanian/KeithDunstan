@@ -1,0 +1,1 @@
+../../../vault/books/a-day-in-the-life-of-australia/two-women-elected-to-federal-parliament.md

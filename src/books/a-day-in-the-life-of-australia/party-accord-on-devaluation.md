@@ -1,0 +1,1 @@
+../../../vault/books/a-day-in-the-life-of-australia/party-accord-on-devaluation.md

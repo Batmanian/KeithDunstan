@@ -1,0 +1,1 @@
+../../../vault/books/a-day-in-the-life-of-australia/pride-in-the-men-who-will-march-to-war.md
