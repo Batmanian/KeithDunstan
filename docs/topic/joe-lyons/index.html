@@ -1,0 +1,401 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Topic: Joe Lyons</title>
+<meta name="title" content="Topic: Joe Lyons">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="The collected literary works of Keith Dunstan OAM">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://keithdunstan.org/topic/joe-lyons/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Topic: Joe Lyons">
+<meta property="og:description" content="The collected literary works of Keith Dunstan OAM">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Topic: Joe Lyons">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/topic/joe-lyons/">
+<meta name="twitter:title" content="Topic: Joe Lyons">
+<meta name="twitter:description" content="The collected literary works of Keith Dunstan OAM">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Topic: Joe Lyons">
+<link rel="canonical" href="https://keithdunstan.org/topic/joe-lyons/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-lg-10 col-xl-8">
+          <header>
+      <h1 class="h2 mb-2">Topic: Joe Lyons</h1>
+</header>
+
+
+  
+  
+  <p class="text-muted mb-1">4 items include the topic of Joe Lyons.</p>
+  <p class="fst-italic text-muted mb-5">Joe Lyons was Prime Minister of Australia from 1932 until his death in 1939, leading the United Australia Party, and the husband of Dame Enid Lyons.</p>
+  <div class="row d-flex justify-content-center">
+  <div class="col-12">
+      <div class="py-4 border-bottom">
+        <a href="/books/a-day-in-the-life-of-australia/two-women-elected-to-federal-parliament/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Two Women Elected to Federal Parliament”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1988-09-23">1988</time>
+        </p>
+
+        <p>Dame Enid Lyons and Dorothy Tangney take their seats in September 1943 as the first women elected to the House of Representatives and the Senate, after John Curtin&#39;s Labor Government wins a record 49 seats, and the newspapers report at length on what they wore.</p>
+
+        <a href="/books/a-day-in-the-life-of-australia/two-women-elected-to-federal-parliament/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/canberra/" class="link-secondary">Canberra</a>,
+              
+              <a href="/topic/dorothy-tangney/" class="link-secondary">Dorothy Tangney</a>,
+              
+              <a href="/topic/enid-lyons/" class="link-secondary">Enid Lyons</a>,
+              
+              <a href="/topic/james-scullin/" class="link-secondary">James Scullin</a>,
+              
+              <a href="/topic/joe-lyons/" class="link-secondary">Joe Lyons</a>,
+              
+              <a href="/topic/john-curtin/" class="link-secondary">John Curtin</a>,
+              
+              <a href="/topic/lord-gowrie/" class="link-secondary">Lord Gowrie</a>,
+              
+              <a href="/topic/stanley-bruce/" class="link-secondary">Stanley Bruce</a>,
+              
+              <a href="/topic/tasmania/" class="link-secondary">Tasmania</a>,
+              
+              <a href="/topic/united-australia-party/" class="link-secondary">United Australia Party</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/books/a-day-in-the-life-of-australia/the-birth-of-the-liberals/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“The Birth of the Liberals”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1988-10-14">1988</time>
+        </p>
+
+        <p>Robert Menzies gathers the scattered non-Labor forces in Canberra in October 1944 to found the Liberal Party of Australia from the wreck of the United Australia Party, while Labor&#39;s John Dedman likens its backers to the collaborators of Vichy France.</p>
+
+        <a href="/books/a-day-in-the-life-of-australia/the-birth-of-the-liberals/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/adolf-hitler/" class="link-secondary">Adolf Hitler</a>,
+              
+              <a href="/topic/canberra/" class="link-secondary">Canberra</a>,
+              
+              <a href="/topic/country-party/" class="link-secondary">Country Party</a>,
+              
+              <a href="/topic/joe-lyons/" class="link-secondary">Joe Lyons</a>,
+              
+              <a href="/topic/john-dedman/" class="link-secondary">John Dedman</a>,
+              
+              <a href="/topic/liberal-party-of-australia/" class="link-secondary">Liberal Party of Australia</a>,
+              
+              <a href="/topic/robert-menzies/" class="link-secondary">Robert Menzies</a>,
+              
+              <a href="/topic/united-australia-party/" class="link-secondary">United Australia Party</a>,
+              
+              <a href="/topic/vichy-france/" class="link-secondary">Vichy France</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/books/a-day-in-the-life-of-australia/prime-minister-loses-his-seat/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Prime Minister Loses his Seat”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1988-10-19">1988</time>
+        </p>
+
+        <p>Stanley Melbourne Bruce becomes the first Australian prime minister to lose his own seat at a general election in October 1929, beaten in Flinders by Labor&#39;s Jack Holloway by 327 votes as James Scullin&#39;s Labor Party sweeps the Nationalists from office.</p>
+
+        <a href="/books/a-day-in-the-life-of-australia/prime-minister-loses-his-seat/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/ballarat/" class="link-secondary">Ballarat</a>,
+              
+              <a href="/topic/charles-hawker/" class="link-secondary">Charles Hawker</a>,
+              
+              <a href="/topic/edward-theodore/" class="link-secondary">Edward Theodore</a>,
+              
+              <a href="/topic/flinders/" class="link-secondary">Flinders</a>,
+              
+              <a href="/topic/gallipoli/" class="link-secondary">Gallipoli</a>,
+              
+              <a href="/topic/hotel-canberra/" class="link-secondary">Hotel Canberra</a>,
+              
+              <a href="/topic/jack-holloway/" class="link-secondary">Jack Holloway</a>,
+              
+              <a href="/topic/james-scullin/" class="link-secondary">James Scullin</a>,
+              
+              <a href="/topic/joe-lyons/" class="link-secondary">Joe Lyons</a>,
+              
+              <a href="/topic/the-lodge/" class="link-secondary">The Lodge</a>,
+              
+              <a href="/topic/melbourne-grammar/" class="link-secondary">Melbourne Grammar</a>,
+              
+              <a href="/topic/nationalist-party/" class="link-secondary">Nationalist Party</a>,
+              
+              <a href="/topic/royal-fusiliers/" class="link-secondary">Royal Fusiliers</a>,
+              
+              <a href="/topic/stanley-bruce/" class="link-secondary">Stanley Bruce</a>,
+              
+              <a href="/topic/toorak/" class="link-secondary">Toorak</a>,
+              
+              <a href="/topic/william-mcpherson/" class="link-secondary">William McPherson</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/books/a-day-in-the-life-of-australia/shock-and-grief-greet-abdication/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Shock and Grief greet Abdication”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1988-12-12">1988</time>
+        </p>
+
+        <p>Australia wakes in December 1936 to the news that Edward VIII has abdicated to marry Wallis Simpson, with Prime Minister Joe Lyons bidding him farewell on the wireless, Smith&#39;s Weekly mourning a calamity and the Bulletin dismissing it all as &#39;LUV&#39;.</p>
+
+        <a href="/books/a-day-in-the-life-of-australia/shock-and-grief-greet-abdication/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/the-age/" class="link-secondary">The Age</a>,
+              
+              <a href="/topic/the-bulletin/" class="link-secondary">The Bulletin</a>,
+              
+              <a href="/topic/canberra/" class="link-secondary">Canberra</a>,
+              
+              <a href="/topic/edward-viii/" class="link-secondary">Edward VIII</a>,
+              
+              <a href="/topic/george-pearce/" class="link-secondary">George Pearce</a>,
+              
+              <a href="/topic/the-herald/" class="link-secondary">The Herald</a>,
+              
+              <a href="/topic/joe-lyons/" class="link-secondary">Joe Lyons</a>,
+              
+              <a href="/topic/queen-elizabeth-ii/" class="link-secondary">Queen Elizabeth II</a>,
+              
+              <a href="/topic/smith&#39;s-weekly/" class="link-secondary">Smith&#39;s Weekly</a>,
+              
+              <a href="/topic/wallis-simpson/" class="link-secondary">Wallis Simpson</a>
+          </p>
+        
+      </div>
+    
+  </div>
+</div>
+
+
+  <br>
+  <p>See <a href="/search/">all topics</a>.</p>
+
+
+
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

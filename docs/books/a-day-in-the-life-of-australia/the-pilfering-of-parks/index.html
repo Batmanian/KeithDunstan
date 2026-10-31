@@ -1,0 +1,516 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Pilfering of Parks</title>
+<meta name="title" content="The Pilfering of Parks">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="The Argus rails in September 1862 against a Victorian Government carving up Melbourne&#39;s parklands for cricket grounds, villa allotments along St Kilda Road and a railway terminus on Batman&#39;s Hill, the site of the city&#39;s first settlement, with Lands president Charles Gavan Duffy insisting the city already has parks to spare.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/a-day-in-the-life-of-australia/the-pilfering-of-parks/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="The Pilfering of Parks">
+<meta property="og:description" content="The Argus rails in September 1862 against a Victorian Government carving up Melbourne&#39;s parklands for cricket grounds, villa allotments along St Kilda Road and a railway terminus on Batman&#39;s Hill, the site of the city&#39;s first settlement, with Lands president Charles Gavan Duffy insisting the city already has parks to spare.">
+<meta property="og:image" content="https://keithdunstan.org/img/adayinthelifeofaustralia.jpg">
+<meta property="og:image:alt" content="The Pilfering of Parks">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/a-day-in-the-life-of-australia/the-pilfering-of-parks/">
+<meta name="twitter:title" content="The Pilfering of Parks">
+<meta name="twitter:description" content="The Argus rails in September 1862 against a Victorian Government carving up Melbourne&#39;s parklands for cricket grounds, villa allotments along St Kilda Road and a railway terminus on Batman&#39;s Hill, the site of the city&#39;s first settlement, with Lands president Charles Gavan Duffy insisting the city already has parks to spare.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/adayinthelifeofaustralia.jpg">
+<meta name="twitter:image:alt" content="The Pilfering of Parks">
+<link rel="canonical" href="https://keithdunstan.org/books/a-day-in-the-life-of-australia/the-pilfering-of-parks/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1988-09-21">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="A Day In The Life Of Australia">
+<meta property="article:tag" content="The Argus">
+<meta property="article:tag" content="Batman&#39;s Hill">
+<meta property="article:tag" content="Charles Gavan Duffy">
+<meta property="article:tag" content="Fawkner Park">
+<meta property="article:tag" content="Richmond Paddock">
+<meta property="article:tag" content="St Kilda Road">
+<meta property="article:tag" content="Victorian Railways">
+<meta property="article:tag" content="West Melbourne">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">The Pilfering of Parks</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            3
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1988-09-21">1988</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            The Argus rails in September 1862 against a Victorian Government carving up Melbourne&#39;s parklands for cricket grounds, villa allotments along St Kilda Road and a railway terminus on Batman&#39;s Hill, the site of the city&#39;s first settlement, with Lands president Charles Gavan Duffy insisting the city already has parks to spare.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="A Day In The Life Of Australia">
+         <!--<a href="/tags/the-argus/" class="btn btn-outline-dark btn-sm me-2">The Argus</a><a href="/tags/batman&amp;#39;s-hill/" class="btn btn-outline-dark btn-sm me-2">Batman&#39;s Hill</a><a href="/tags/charles-gavan-duffy/" class="btn btn-outline-dark btn-sm me-2">Charles Gavan Duffy</a><a href="/tags/fawkner-park/" class="btn btn-outline-dark btn-sm me-2">Fawkner Park</a><a href="/tags/richmond-paddock/" class="btn btn-outline-dark btn-sm me-2">Richmond Paddock</a><a href="/tags/st-kilda-road/" class="btn btn-outline-dark btn-sm me-2">St Kilda Road</a><a href="/tags/victorian-railways/" class="btn btn-outline-dark btn-sm me-2">Victorian Railways</a><a href="/tags/west-melbourne/" class="btn btn-outline-dark btn-sm me-2">West Melbourne</a>-->
+
+        
+      </header>
+      <div class="article-body"><p>It is really outrageous. The Government is stealing Melbourne's parkland for any project it wants here and there. The taking of public land is just too convenient.</p>
+<p>The <em>Argus</em> particularly is upset. It says:</p>
+<blockquote>
+<p>We must contrive to save our metropolitan pleasure grounds from further spoilation. If Melbourne of the next generation is to inherit her present noble provision of parks and reserves it is time to rescue them from the process of curtailment and disfigurement.</p>
+<p>There is hardly one of those reserves that has not suffered in this way. Richmond Paddock, indeed, as the most glaring instance, has been so broken up and encroached upon, that it may be fairly regarded as lost for the original purpose.</p>
+</blockquote>
+<p>Then the <em>Argus</em> points out that Batman's Hill used to be a fine reserve. It was the only park available for the residents of West Melbourne. Look what has happened now. The Government has handed it over as a terminus for the railways.</p>
+<p>The <em>Argus</em> thunders:</p>
+<blockquote>
+<p>The public may well question the right to alienate any section of the park lands from their original objects, and they have also reason to complain of even the temporary use of portions of those lands being conceded unconditionally as is the case.</p>
+</blockquote>
+<p>The newspaper explains that a lot of land is going for cricket grounds. True it is important that we should encourage athletic games and we don't want the sort of degeneracy which we hear has become so common in America, but they are putting up the most dreadful enclosures, often 'a hideous wall of stakes' and utterly disfiguring our parkland.</p>
+<blockquote>
+<p>Why does man always have to disfigure? Indeed if a little bit of the original wilderness had been spared, and its main features kept intact, it would constitute a park for which the denizens of a great city would be much more grateful than for any established by man's contrivance.</p>
+</blockquote>
+<p>Particularly disturbing is the proposed sale along St Kilda Road right in the very area of the newly designated Fawkner Park. There was a deputation on Thursday to the President of Lands, Mr Duffy. Unquestionably the idea of a sale caused 'alarm' and the deputation extracted a promise that the land would go only for private villa residences. Mr Duffy said Melbourne already had more parkland than any city in the world.</p>
+<p>The <em>Argus</em> points out this is not true. We are at a disadvantage when compared with the great cities of Europe and America. All the modern portions of London, apart from extensive parks, are dotted over with squares and large gardens attached to public institutions. 'Melbourne is singular in being destitute of squares or other large open spaces. She has no lungs in the civic meaning of the phrase.'</p>
+<p>The deputation complained particularly about Batman's Hill being 'surrendered' to the Railway Department, as this was the site of the first settlement of the city, and it also had the important advantage of being a hill.</p>
+<p>The <em>Argus</em> just could not believe that the Government would persevere with the idea of giving Batman's Hill to the Railways.</p>
+</div>
+      
+      
+        <!-- Desktop-only: right after content, as before. Mobile shows its
+        own copy at the very end of blogsidebar-single.njk, after related
+        topics. -->
+        <footer class="pt-4 mt-4 border-top text-muted small d-none d-md-block">
+          Last updated <time datetime="2026-10-31">31 Oct 2026</time>
+        </footer>
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+
+  <p class="small text-muted fst-italic mb-2">Commissioned by &#39;The Age&#39; newspaper to celebrate Australia&#39;s bicentennial in 1988, Keith wrote a historical account of Australia&#39;s history for each day of the year. This is his column about The Pilfering of Parks.</p>
+  <hr>
+
+  <p class="lead">
+        The Argus rails in September 1862 against a Victorian Government carving up Melbourne&#39;s parklands for cricket grounds, villa allotments along St Kilda Road and a railway terminus on Batman&#39;s Hill, the site of the city&#39;s first settlement, with Lands president Charles Gavan Duffy insisting the city already has parks to spare.
+      </p>
+
+
+<hr>
+<h4 class="h6">Topics in this item</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/batman&#39;s-hill/" class="link-secondary">Batman&#39;s Hill</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Batman&#39;s Hill">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/charles-gavan-duffy/" class="link-secondary">Charles Gavan Duffy</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Charles Gavan Duffy">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/fawkner-park/" class="link-secondary">Fawkner Park</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Fawkner Park">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/richmond-paddock/" class="link-secondary">Richmond Paddock</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Richmond Paddock">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/st-kilda-road/" class="link-secondary">St Kilda Road</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="St Kilda Road">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/the-argus/" class="link-secondary">The Argus</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="The Argus">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/victorian-railways/" class="link-secondary">Victorian Railways</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Victorian Railways">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/west-melbourne/" class="link-secondary">West Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="West Melbourne">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/batman&#39;s-hill/" class="link-secondary">Batman&#39;s Hill</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Batman&#39;s Hill">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/charles-gavan-duffy/" class="link-secondary">Charles Gavan Duffy</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Charles Gavan Duffy">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/fawkner-park/" class="link-secondary">Fawkner Park</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Fawkner Park">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/richmond-paddock/" class="link-secondary">Richmond Paddock</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Richmond Paddock">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/st-kilda-road/" class="link-secondary">St Kilda Road</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="St Kilda Road">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/the-argus/" class="link-secondary">The Argus</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="The Argus">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/victorian-railways/" class="link-secondary">Victorian Railways</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Victorian Railways">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/west-melbourne/" class="link-secondary">West Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="West Melbourne">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+    <p class="text-muted small mt-3 mb-0">
+      Last updated <time datetime="2026-10-31">31 Oct 2026</time>
+    </p>
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>
