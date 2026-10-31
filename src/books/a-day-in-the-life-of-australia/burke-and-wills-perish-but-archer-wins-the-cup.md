@@ -1,0 +1,1 @@
+../../../vault/books/a-day-in-the-life-of-australia/burke-and-wills-perish-but-archer-wins-the-cup.md

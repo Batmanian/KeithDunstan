@@ -1,0 +1,1 @@
+../../../vault/books/a-day-in-the-life-of-australia/hugh-mahon-as-irish-as-they-come.md

@@ -1,0 +1,1 @@
+../../../vault/books/a-day-in-the-life-of-australia/conscripts-will-not-be-forced-into-battle.md

@@ -1,0 +1,1 @@
+../../../vault/books/a-day-in-the-life-of-australia/boxing-hero-wins-world-title.md

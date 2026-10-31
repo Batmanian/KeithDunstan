@@ -113,6 +113,24 @@ Collect decision-page answers during an active session; before ending a turn, di
 
 <!-- Newest first. Append new entries directly below this line. -->
 
+### 2026-10-31 — Tag-clash checks must slug '&' as 'and', like Eleventy does
+
+- **Area:** `tags / topics.md`
+- **Severity:** low
+- **Count:** 1
+
+**What happened**
+A new 'Cobb & Co' tag passed a hand-rolled slug-clash check, then crashed the build with `DuplicatePermalinkOutputError` against an existing 'Cobb and Co' tag.
+
+**Root cause**
+The ad-hoc checker stripped '&' instead of converting it to 'and', so the two spellings looked distinct to it but not to Eleventy's `slug` filter.
+
+**Consequence**
+One failed test build and a rename across two entries and `topics.md`.
+
+**Rule**
+Treat a full Eleventy build as the only authoritative tag-clash check, and when pre-checking, slug '&' to 'and' before comparing.
+
 ### 2026-10-31 — Scope-check vault-wide scripts before running them for new files
 
 - **Area:** `scripts / set-obsidian-tags.js`

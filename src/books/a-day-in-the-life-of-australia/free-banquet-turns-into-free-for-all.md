@@ -1,0 +1,1 @@
+../../../vault/books/a-day-in-the-life-of-australia/free-banquet-turns-into-free-for-all.md

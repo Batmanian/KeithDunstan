@@ -114,9 +114,9 @@ The book's contents page (`src/a-day-in-the-life-of-australia.njk`) lists **258 
 
 | Status | Count | Detail |
 |---|---|---|
-| ✅ Live (`.md`) | 105 entries (+ `introduction.md`, `summary.md`) as of 31 Oct 2026, incl. all 22 September and 20 of 21 October entries — older list below is the original 8 | a-brand-new-commonwealth, bridge-disaster-divides-hobart, a-body-blow-to-cricket, a-woman-hanged, clipping-coupons, a-hollow-affair-for-burke-and-wills, duke-makes-sport-in-the-colonies, a-pirate-in-melbourne |
+| ✅ Live (`.md`) | 127 entries (+ `introduction.md`, `summary.md`) as of 31 Oct 2026, incl. all 22 September, 20 of 21 October and all 22 November entries — older list below is the original 8 | a-brand-new-commonwealth, bridge-disaster-divides-hobart, a-body-blow-to-cricket, a-woman-hanged, clipping-coupons, a-hollow-affair-for-burke-and-wills, duke-makes-sport-in-the-colonies, a-pirate-in-melbourne |
 | 📝 Drafted, wrong extension (`.mx`) | 0 (resolved — no `.mx` files remain as of 31 Oct 2026; originally 11) | eighteen-wickets-to-fall, the-garbage-symphony, mad-jack-berry, the-wonder-of-listening-in, oh-woe-a-cash-amateur, victoria-ablaze, plane-travels-faster-than-a-horse-or-automobile, last-ride-for-captain-moonlight, stuart-corsses-the-continent, first-fleet-anchors-in-sydney-cove, man-disappears-during-drunken-freak |
-| ⬜ Known, no file | 152 (45 scanned and queued for Nov–Dec, plus Kelly Sentenced to Death skipped — see below) | Everything else listed in the January–December contents on the book's index page |
+| ⬜ Known, no file | 130 (23 scanned and queued for December, plus Kelly Sentenced to Death skipped — see below) | Everything else listed in the January–December contents on the book's index page |
 
 **Data issues found:**
 - The 11 `.mx` files **do** contain real transcribed body text (18–27 lines each), unlike the Wowsers stubs — they just have placeholder frontmatter (`title: XXXX`, `date: 1988-XX-XX`, `tags: - XXX`) and the wrong file extension, so Eleventy never builds them. These are the fastest wins: fill in real title/date/tags, rename to `.md`, and they're publishable.
@@ -145,6 +145,13 @@ The book's contents page (`src/a-day-in-the-life-of-australia.njk`) lists **258 
 - **Paddle Steamer:** closing quote from 'Never was so odious...' is unclosed in the book. Kept.
 - **Judge Flouts Convention:** the book attributes the defence first to *Australian Cycling News*, then to *Bicycling News*. Kept both as printed.
 - **£5 for Most Mothers:** file slug is `5-for-most-mothers` (the £ drops out of the slug).
+
+**November done (31 Oct 2026).** All 22 entries transcribed from `IMG_1062`–`IMG_1083`, linked, `obsidian_tags` generated, 116 new `topics.md` descriptions. Build verified. Points to proofread:
+- **'Oppy' Cycles from Fremantle to Sydney:** the book says Opperman broke Billy Read's record 'by better than 5 hours', but its own figures (18 days 18 hours against 13 days 10 hours 11 minutes) make it about 5 *days*. Probably a book error; kept as printed.
+- **Emus V Army:** the book prints the commander's initials as 'G.W.P. Meredith'. Tagged under his real name, Gwynydd Purves Wynne-Aubrey Meredith (G.P.W.).
+- **Hargrave takes Flight:** the closing note says Orville Wright flew at 'Kittyhawk', kept as printed (tag uses Kitty Hawk).
+- **Book typos kept verbatim:** Brithish, Kalmainham, Parliamentian, Goverment, enyoy, 'stationery' (for stationary), 'a might' (for a night), 'Levinksy', stubborness, 'leaves on unpleasant taste', 'words spreads'.
+- **Tag spelling fixes to match the existing site:** 'Cobb and Co' (not 'Cobb & Co', which slugs to the same URL and broke the build) and 'Dupont'.
 
 Scans map one-to-one onto the index page's Sept/Oct/Nov/Dec contents lists (all 87 entries bar one). Two gaps:
 - ~~**Bicycling on Circuit** has no scan~~ Corrected 31 Oct 2026: it isn't a separate entry. It's the second line of the title 'Judge Flouts Convention Bicycling on Circuit' (IMG_1047), wrongly split into two `<li>`s on the index page (now merged). No rescan needed.
@@ -197,28 +204,28 @@ None of these entries exists in the vault yet. Dates below are only as the OCR r
 | 1059 | 27 Oct 1940 | Good-bye to the Dear Old Cables | ✅ Live |
 | 1060 | Oct | Squizzy Taylor is Dead | ✅ Live |
 | 1061 | 31 Oct 1880 | Kelly Sentenced to Death | ⏭️ Skipped. API output filter blocked the transcription (31 Oct 2026); type it in by hand from `scans/rotated/IMG_1061.png` |
-| 1062 | 1 Nov 1916 | Conscripts will Not be Forced into Battle | ⬜ Queued |
-| 1063 | Nov 1965 | Raised Hemline Raises Eyebrows | ⬜ Queued |
-| 1064 | 3 Nov 1903 | Scandal in Collingwood | ⬜ Queued |
-| 1065 | 4 Nov 1923 | Brawling and Looting in Police Strike | ⬜ Queued |
-| 1066 | 7 Nov 1944 | A Portrait or a Caricature? | ⬜ Queued |
-| 1067 | Nov 1861 | Burke and Wills Perish, but Archer Wins the Cup | ⬜ Queued |
-| 1068 | Nov 1917 | Railway Spans the Continent | ⬜ Queued |
-| 1069 | 10 Nov 1920 | Hugh Mahon, as Irish as they Come | ⬜ Queued |
-| 1070 | 11 Nov 1850 | Good Riddance to Sydney | ⬜ Queued |
-| 1071 | 14 Nov 1914 | Sydney Sinks the Emden | ⬜ Queued |
-| 1072 | 15 Nov 1952 | Boxing Hero Wins World Title | ⬜ Queued |
-| 1073 | 16 Nov | Cable Trams Set Melbourne Agog | ⬜ Queued |
-| 1074 | 17 Nov 1932 | Emus V Army | ⬜ Queued |
-| 1075 | 18 Nov 1937 | Luxury Train Makes its Debut | ⬜ Queued |
-| 1076 | 21 Nov 1937 | 'Oppy' Cycles from Fremantle to Sydney | ⬜ Queued |
-| 1077 | 22 Nov 1883 | Adventurer Lucky to be Alive | ⬜ Queued |
-| 1078 | 23 Nov 1923 | Driving Out the Demon Drink | ⬜ Queued |
-| 1079 | 24 Nov 1954 | 'Honest, I was a Riot' | ⬜ Queued |
-| 1080 | 25 Nov 1882 | Electric Lamps Light up the Night | ⬜ Queued |
-| 1081 | 28 Nov 1894 | Hargrave takes Flight | ⬜ Queued |
-| 1082 | 29 Nov 1867 | Free Banquet turns into Free-for-all | ⬜ Queued |
-| 1083 | Nov | No Chance of Saying No | ⬜ Queued |
+| 1062 | 1 Nov 1916 | Conscripts will Not be Forced into Battle | ✅ Live |
+| 1063 | Nov 1965 | Raised Hemline Raises Eyebrows | ✅ Live |
+| 1064 | 3 Nov 1903 | Scandal in Collingwood | ✅ Live |
+| 1065 | 4 Nov 1923 | Brawling and Looting in Police Strike | ✅ Live |
+| 1066 | 7 Nov 1944 | A Portrait or a Caricature? | ✅ Live |
+| 1067 | Nov 1861 | Burke and Wills Perish, but Archer Wins the Cup | ✅ Live |
+| 1068 | Nov 1917 | Railway Spans the Continent | ✅ Live |
+| 1069 | 10 Nov 1920 | Hugh Mahon, as Irish as they Come | ✅ Live |
+| 1070 | 11 Nov 1850 | Good Riddance to Sydney | ✅ Live |
+| 1071 | 14 Nov 1914 | Sydney Sinks the Emden | ✅ Live |
+| 1072 | 15 Nov 1952 | Boxing Hero Wins World Title | ✅ Live |
+| 1073 | 16 Nov | Cable Trams Set Melbourne Agog | ✅ Live |
+| 1074 | 17 Nov 1932 | Emus V Army | ✅ Live |
+| 1075 | 18 Nov 1937 | Luxury Train Makes its Debut | ✅ Live |
+| 1076 | 21 Nov 1937 | 'Oppy' Cycles from Fremantle to Sydney | ✅ Live |
+| 1077 | 22 Nov 1883 | Adventurer Lucky to be Alive | ✅ Live |
+| 1078 | 23 Nov 1923 | Driving Out the Demon Drink | ✅ Live |
+| 1079 | 24 Nov 1954 | 'Honest, I was a Riot' | ✅ Live |
+| 1080 | 25 Nov 1882 | Electric Lamps Light up the Night | ✅ Live |
+| 1081 | 28 Nov 1894 | Hargrave takes Flight | ✅ Live |
+| 1082 | 29 Nov 1867 | Free Banquet turns into Free-for-all | ✅ Live |
+| 1083 | Nov | No Chance of Saying No | ✅ Live |
 | 1084 | 1 Dec 1902 | Swimming is a Delicate Matter | ⬜ Queued |
 | 1085 | Dec | The First Hippy Drop-out | ⬜ Queued |
 | 1086 | 5 Dec 1941 | Sydney Missing, Presumed Lost | ⬜ Queued |
