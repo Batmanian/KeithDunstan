@@ -1,0 +1,1 @@
+../../../vault/books/a-day-in-the-life-of-australia/oil-strike-at-exmouth-gulf.md

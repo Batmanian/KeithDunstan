@@ -1,0 +1,1 @@
+../../../vault/books/a-day-in-the-life-of-australia/not-a-drop-of-water-to-save-burning-homes.md

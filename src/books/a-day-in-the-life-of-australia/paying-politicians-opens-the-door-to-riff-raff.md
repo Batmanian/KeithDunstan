@@ -1,0 +1,1 @@
+../../../vault/books/a-day-in-the-life-of-australia/paying-politicians-opens-the-door-to-riff-raff.md

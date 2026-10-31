@@ -114,9 +114,9 @@ The book's contents page (`src/a-day-in-the-life-of-australia.njk`) lists **258 
 
 | Status | Count | Detail |
 |---|---|---|
-| ✅ Live (`.md`) | 127 entries (+ `introduction.md`, `summary.md`) as of 31 Oct 2026, incl. all 22 September, 20 of 21 October and all 22 November entries — older list below is the original 8 | a-brand-new-commonwealth, bridge-disaster-divides-hobart, a-body-blow-to-cricket, a-woman-hanged, clipping-coupons, a-hollow-affair-for-burke-and-wills, duke-makes-sport-in-the-colonies, a-pirate-in-melbourne |
+| ✅ Live (`.md`) | 149 entries (+ `introduction.md`, `summary.md`) as of 31 Oct 2026, incl. all of September, November and December and 20 of 21 October entries — older list below is the original 8 | a-brand-new-commonwealth, bridge-disaster-divides-hobart, a-body-blow-to-cricket, a-woman-hanged, clipping-coupons, a-hollow-affair-for-burke-and-wills, duke-makes-sport-in-the-colonies, a-pirate-in-melbourne |
 | 📝 Drafted, wrong extension (`.mx`) | 0 (resolved — no `.mx` files remain as of 31 Oct 2026; originally 11) | eighteen-wickets-to-fall, the-garbage-symphony, mad-jack-berry, the-wonder-of-listening-in, oh-woe-a-cash-amateur, victoria-ablaze, plane-travels-faster-than-a-horse-or-automobile, last-ride-for-captain-moonlight, stuart-corsses-the-continent, first-fleet-anchors-in-sydney-cove, man-disappears-during-drunken-freak |
-| ⬜ Known, no file | 130 (23 scanned and queued for December, plus Kelly Sentenced to Death skipped — see below) | Everything else listed in the January–December contents on the book's index page |
+| ⬜ Known, no file | 108 (Jan–Aug entries not yet scanned, plus Kelly Sentenced to Death skipped — see below) | Everything else listed in the January–December contents on the book's index page |
 
 **Data issues found:**
 - The 11 `.mx` files **do** contain real transcribed body text (18–27 lines each), unlike the Wowsers stubs — they just have placeholder frontmatter (`title: XXXX`, `date: 1988-XX-XX`, `tags: - XXX`) and the wrong file extension, so Eleventy never builds them. These are the fastest wins: fill in real title/date/tags, rename to `.md`, and they're publishable.
@@ -152,6 +152,12 @@ The book's contents page (`src/a-day-in-the-life-of-australia.njk`) lists **258 
 - **Hargrave takes Flight:** the closing note says Orville Wright flew at 'Kittyhawk', kept as printed (tag uses Kitty Hawk).
 - **Book typos kept verbatim:** Brithish, Kalmainham, Parliamentian, Goverment, enyoy, 'stationery' (for stationary), 'a might' (for a night), 'Levinksy', stubborness, 'leaves on unpleasant taste', 'words spreads'.
 - **Tag spelling fixes to match the existing site:** 'Cobb and Co' (not 'Cobb & Co', which slugs to the same URL and broke the build) and 'Dupont'.
+
+**December done (31 Oct 2026). Sep–Dec scan batch complete except Kelly.** All 22 December entries transcribed from `IMG_1084`–`IMG_1105`, linked (the index page's split 'Paying Politicians Opens the Door to / Riff-raff' `<li>` is merged), `obsidian_tags` generated, 108 new `topics.md` descriptions. Build verified. The 88 HEIC scans in `scans/` and the `scans/rotated/`, `scans/ocr/` working copies can be deleted once Kelly (IMG_1061) is typed in or rescanned. Points to proofread:
+- **Black Fighter Exacts his Revenge:** the book says Johnson's upper cut 'lifted Johnson off his feet', which should be Burns. Kept as printed.
+- **Women Revel in Right to Vote:** the book mixes reported and quoted *Age* text without clear quote marks; the 85-year-old Scotswoman passage is set as a quotation, as in the book.
+- **Book typos kept verbatim:** dreaful, 'Heaven know', compliment (for complement), Archibishop, 'Lord Major', Eisteddford, 'Europen', 'Bennet'/'Bennett' (both spellings in one entry), Watourong, meansless, restirring, 'Smithsonian Institute', goverment, 'a piece bark', 'in a good order'.
+- **Tag spelling fix:** 'King's Cross' (matching the existing site tag).
 
 Scans map one-to-one onto the index page's Sept/Oct/Nov/Dec contents lists (all 87 entries bar one). Two gaps:
 - ~~**Bicycling on Circuit** has no scan~~ Corrected 31 Oct 2026: it isn't a separate entry. It's the second line of the title 'Judge Flouts Convention Bicycling on Circuit' (IMG_1047), wrongly split into two `<li>`s on the index page (now merged). No rescan needed.
@@ -226,28 +232,28 @@ None of these entries exists in the vault yet. Dates below are only as the OCR r
 | 1081 | 28 Nov 1894 | Hargrave takes Flight | ✅ Live |
 | 1082 | 29 Nov 1867 | Free Banquet turns into Free-for-all | ✅ Live |
 | 1083 | Nov | No Chance of Saying No | ✅ Live |
-| 1084 | 1 Dec 1902 | Swimming is a Delicate Matter | ⬜ Queued |
-| 1085 | Dec | The First Hippy Drop-out | ⬜ Queued |
-| 1086 | 5 Dec 1941 | Sydney Missing, Presumed Lost | ⬜ Queued |
-| 1087 | 6 Dec 1854 | Fearful Affray at Eureka | ⬜ Queued |
-| 1088 | Dec | Oil Strike at Exmouth Gulf | ⬜ Queued |
-| 1089 | Dec | Spofforth our 'Demon' Bowler | ⬜ Queued |
-| 1090 | 9 Dec 1854 | Illegal Fisticuffs | ⬜ Queued |
-| 1091 | 12 Dec 1936 | Shock and Grief greet Abdication | ⬜ Queued |
-| 1092 | 13 Dec 1888 | Indomitable Aeronaut Parachutes Down | ⬜ Queued |
-| 1093 | 14 Dec 1919 | London-Melbourne Flight a Triumph | ⬜ Queued |
-| 1094 | 15 Dec 1901 | Plugger Wins and Retires Richly Rewarded | ⬜ Queued |
-| 1095 | 16 Dec 1903 | Women Revel in Right to Vote | ⬜ Queued |
-| 1096 | 19 Dec 1967 | Prime Minister Feared Drowned | ⬜ Queued |
-| 1097 | 20 Dec 1881 | Fighting Phylloxera | ⬜ Queued |
-| 1098 | 21 Dec 1909 | Not a Drop of Water to Save Burning Homes | ⬜ Queued |
-| 1099 | 22 Dec | Troops silently Steal Away | ⬜ Queued |
-| 1100 | Dec | White Australia, the Law of the Land | ⬜ Queued |
-| 1101 | 26 Dec | Black Fighter Exacts his Revenge | ⬜ Queued |
-| 1102 | Dec | Victoria's Extravagant Victory | ⬜ Queued |
-| 1103 | 28 Dec 1893 | One Survives Steamer Sinking | ⬜ Queued |
-| 1104 | 29 Dec 1870 | Paying Politicians Opens the Door to Riff-raff | ⬜ Queued |
-| 1105 | 30 Dec 1803 | Buckley Makes for the Bush | ⬜ Queued |
+| 1084 | 1 Dec 1902 | Swimming is a Delicate Matter | ✅ Live |
+| 1085 | Dec | The First Hippy Drop-out | ✅ Live |
+| 1086 | 5 Dec 1941 | Sydney Missing, Presumed Lost | ✅ Live |
+| 1087 | 6 Dec 1854 | Fearful Affray at Eureka | ✅ Live |
+| 1088 | Dec | Oil Strike at Exmouth Gulf | ✅ Live |
+| 1089 | Dec | Spofforth our 'Demon' Bowler | ✅ Live |
+| 1090 | 9 Dec 1854 | Illegal Fisticuffs | ✅ Live |
+| 1091 | 12 Dec 1936 | Shock and Grief greet Abdication | ✅ Live |
+| 1092 | 13 Dec 1888 | Indomitable Aeronaut Parachutes Down | ✅ Live |
+| 1093 | 14 Dec 1919 | London-Melbourne Flight a Triumph | ✅ Live |
+| 1094 | 15 Dec 1901 | Plugger Wins and Retires Richly Rewarded | ✅ Live |
+| 1095 | 16 Dec 1903 | Women Revel in Right to Vote | ✅ Live |
+| 1096 | 19 Dec 1967 | Prime Minister Feared Drowned | ✅ Live |
+| 1097 | 20 Dec 1881 | Fighting Phylloxera | ✅ Live |
+| 1098 | 21 Dec 1909 | Not a Drop of Water to Save Burning Homes | ✅ Live |
+| 1099 | 22 Dec | Troops silently Steal Away | ✅ Live |
+| 1100 | Dec | White Australia, the Law of the Land | ✅ Live |
+| 1101 | 26 Dec | Black Fighter Exacts his Revenge | ✅ Live |
+| 1102 | Dec | Victoria's Extravagant Victory | ✅ Live |
+| 1103 | 28 Dec 1893 | One Survives Steamer Sinking | ✅ Live |
+| 1104 | 29 Dec 1870 | Paying Politicians Opens the Door to Riff-raff | ✅ Live |
+| 1105 | 30 Dec 1803 | Buckley Makes for the Bush | ✅ Live |
 
 ---
 
