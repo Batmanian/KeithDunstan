@@ -114,9 +114,9 @@ The book's contents page (`src/a-day-in-the-life-of-australia.njk`) lists **258 
 
 | Status | Count | Detail |
 |---|---|---|
-| ✅ Live (`.md`) | 85 entries (+ `introduction.md`, `summary.md`) as of 31 Oct 2026, incl. all 22 September entries — older list below is the original 8 | a-brand-new-commonwealth, bridge-disaster-divides-hobart, a-body-blow-to-cricket, a-woman-hanged, clipping-coupons, a-hollow-affair-for-burke-and-wills, duke-makes-sport-in-the-colonies, a-pirate-in-melbourne |
+| ✅ Live (`.md`) | 105 entries (+ `introduction.md`, `summary.md`) as of 31 Oct 2026, incl. all 22 September and 20 of 21 October entries — older list below is the original 8 | a-brand-new-commonwealth, bridge-disaster-divides-hobart, a-body-blow-to-cricket, a-woman-hanged, clipping-coupons, a-hollow-affair-for-burke-and-wills, duke-makes-sport-in-the-colonies, a-pirate-in-melbourne |
 | 📝 Drafted, wrong extension (`.mx`) | 0 (resolved — no `.mx` files remain as of 31 Oct 2026; originally 11) | eighteen-wickets-to-fall, the-garbage-symphony, mad-jack-berry, the-wonder-of-listening-in, oh-woe-a-cash-amateur, victoria-ablaze, plane-travels-faster-than-a-horse-or-automobile, last-ride-for-captain-moonlight, stuart-corsses-the-continent, first-fleet-anchors-in-sydney-cove, man-disappears-during-drunken-freak |
-| ⬜ Known, no file | 173 (65 of them scanned and queued for Oct–Dec — see below) | Everything else listed in the January–December contents on the book's index page |
+| ⬜ Known, no file | 152 (45 scanned and queued for Nov–Dec, plus Kelly Sentenced to Death skipped — see below) | Everything else listed in the January–December contents on the book's index page |
 
 **Data issues found:**
 - The 11 `.mx` files **do** contain real transcribed body text (18–27 lines each), unlike the Wowsers stubs — they just have placeholder frontmatter (`title: XXXX`, `date: 1988-XX-XX`, `tags: - XXX`) and the wrong file extension, so Eleventy never builds them. These are the fastest wins: fill in real title/date/tags, rename to `.md`, and they're publishable.
@@ -139,8 +139,15 @@ The book's contents page (`src/a-day-in-the-life-of-australia.njk`) lists **258 
 - **Australia's First Railway:** 'Geelong in Melbourne, was an almost unknown province' kept as printed, though the sense is garbled (probably 'Geelong, in Melbourne, was...').
 - **The Pilfering of Parks:** 'Mr Duffy, President of Lands' tagged as Charles Gavan Duffy (who held that office in 1862). An inference, not stated in the text.
 
+**October done (31 Oct 2026), except one.** 20 of 21 entries transcribed from `IMG_1040`–`IMG_1060` the same way as September, linked, `obsidian_tags` generated, 107 new `topics.md` descriptions. Build verified. The October index list's merged/split `<li>`s are fixed. Points to proofread:
+- **Kelly Sentenced to Death (IMG_1061) is not transcribed.** The API's output content filter blocked it, probably because it's almost entirely the much-reprinted Kelly/Redmond Barry courtroom exchange quoted verbatim. Left unlinked on the index page. Type it in by hand, or retry a session building it from `scans/ocr/IMG_1061.txt`.
+- **Book typos kept verbatim:** distiguished, immerged, unsportmanlike, Represenatatives, poisosner, 'last nigh', riden, westerley, knowns, 'that is coincides', and an unclosed nested quote in Mr Galbally's 'I proclaim 'This is...' (as printed).
+- **Paddle Steamer:** closing quote from 'Never was so odious...' is unclosed in the book. Kept.
+- **Judge Flouts Convention:** the book attributes the defence first to *Australian Cycling News*, then to *Bicycling News*. Kept both as printed.
+- **£5 for Most Mothers:** file slug is `5-for-most-mothers` (the £ drops out of the slug).
+
 Scans map one-to-one onto the index page's Sept/Oct/Nov/Dec contents lists (all 87 entries bar one). Two gaps:
-- **Bicycling on Circuit** (October, between 11 and 13 Oct) has no scan. It needs a rescan.
+- ~~**Bicycling on Circuit** has no scan~~ Corrected 31 Oct 2026: it isn't a separate entry. It's the second line of the title 'Judge Flouts Convention Bicycling on Circuit' (IMG_1047), wrongly split into two `<li>`s on the index page (now merged). No rescan needed.
 - `IMG_1042` and `IMG_1043` are two shots of the same 'Yarra Bursts its Banks' page (1043 is mostly bleed from the facing Monte Bello page). Use whichever reads better.
 
 None of these entries exists in the vault yet. Dates below are only as the OCR read the page heading (some unread). Confirm each date against the image before setting `date:`, which uses the book's 1988 column date (`1988-MM-DD`, following the existing files). The index page's October list also has two merged `<li>`s to fix when linking ('Islands Yana Bursts its Banks' should be 'Atomic Explosion at Monte Bello Islands' plus 'Yarra Bursts its Banks', and 'Hanged Comet Flashes out of the Sky' should be 'A Poisoner Hanged' plus 'Comet Flashes out of the Sky'). For each entry, add the `<a>` link on `src/a-day-in-the-life-of-australia.njk` and run `npm run link:vault`.
@@ -169,28 +176,27 @@ None of these entries exists in the vault yet. Dates below are only as the OCR r
 | 1037 | 28 Sep 1902 | 'Inclement' Wragge Forecasting a Change | ✅ Live |
 | 1038 | Sep | Mixed Bathing in St Kilda Baths | ✅ Live |
 | 1039 | 30 Sep 1846 | Tolmer and Norah Take on All Comers | ✅ Live |
-| 1040 | 3 Oct 1880 | Something for Everyone at International Exhibition | ⬜ Queued |
-| 1041 | 4 Oct 1952 | Atomic Explosion at Monte Bello Islands | ⬜ Queued |
-| 1042, 1043 | 5 Oct 1844 | Yarra Bursts its Banks | ⬜ Queued |
-| 1044 | 6 Oct 1855 | Paddle Steamer Reaches Albury | ⬜ Queued |
-| 1045 | Oct | Alice Meets her Match in Veno | ⬜ Queued |
-| 1046 | 10 Oct 1912 | £5 for Most Mothers | ⬜ Queued |
-| 1047 | 11 Oct 1883 | Judge Flouts Convention | ⬜ Queued |
-| — | Oct | Bicycling on Circuit | ⚠️ No scan |
-| 1048 | Oct | Tasmanian Natives Hunted like Wild Beasts | ⬜ Queued |
-| 1049 | 13 Oct 1946 | Say Something Nice about Canberra | ⬜ Queued |
-| 1050 | 14 Oct 1944 | The Birth of the Liberals | ⬜ Queued |
-| 1051 | 17 Oct 1854 | The First Issue of the Age | ⬜ Queued |
-| 1052 | 18 Oct 1903 | Bombala a Capital Idea | ⬜ Queued |
-| 1053 | 19 Oct 1929 | Prime Minister Loses his Seat | ⬜ Queued |
-| 1054 | Oct | Bushrangers on St Kilda Road | ⬜ Queued |
-| 1055 | 21 Oct 1916 | Prime Minister's Wife Prepared to Shoot | ⬜ Queued |
-| 1056 | 24 Oct 1894 | A Poisoner Hanged | ⬜ Queued |
-| 1057 | 25 Oct 1934 | Comet Flashes out of the Sky | ⬜ Queued |
-| 1058 | 26 Oct 1950 | Frank Hardy Charged with Libel | ⬜ Queued |
-| 1059 | 27 Oct 1940 | Good-bye to the Dear Old Cables | ⬜ Queued |
-| 1060 | Oct | Squizzy Taylor is Dead | ⬜ Queued |
-| 1061 | 31 Oct 1880 | Kelly Sentenced to Death | ⬜ Queued |
+| 1040 | 3 Oct 1880 | Something for Everyone at International Exhibition | ✅ Live |
+| 1041 | 4 Oct 1952 | Atomic Explosion at Monte Bello Islands | ✅ Live |
+| 1042, 1043 | 5 Oct 1844 | Yarra Bursts its Banks | ✅ Live |
+| 1044 | 6 Oct 1855 | Paddle Steamer Reaches Albury | ✅ Live |
+| 1045 | Oct | Alice Meets her Match in Veno | ✅ Live |
+| 1046 | 10 Oct 1912 | £5 for Most Mothers | ✅ Live |
+| 1047 | 11 Oct 1883 | Judge Flouts Convention Bicycling on Circuit | ✅ Live |
+| 1048 | Oct | Tasmanian Natives Hunted like Wild Beasts | ✅ Live |
+| 1049 | 13 Oct 1946 | Say Something Nice about Canberra | ✅ Live |
+| 1050 | 14 Oct 1944 | The Birth of the Liberals | ✅ Live |
+| 1051 | 17 Oct 1854 | The First Issue of the Age | ✅ Live |
+| 1052 | 18 Oct 1903 | Bombala a Capital Idea | ✅ Live |
+| 1053 | 19 Oct 1929 | Prime Minister Loses his Seat | ✅ Live |
+| 1054 | Oct | Bushrangers on St Kilda Road | ✅ Live |
+| 1055 | 21 Oct 1916 | Prime Minister's Wife Prepared to Shoot | ✅ Live |
+| 1056 | 24 Oct 1894 | A Poisoner Hanged | ✅ Live |
+| 1057 | 25 Oct 1934 | Comet Flashes out of the Sky | ✅ Live |
+| 1058 | 26 Oct 1950 | Frank Hardy Charged with Libel | ✅ Live |
+| 1059 | 27 Oct 1940 | Good-bye to the Dear Old Cables | ✅ Live |
+| 1060 | Oct | Squizzy Taylor is Dead | ✅ Live |
+| 1061 | 31 Oct 1880 | Kelly Sentenced to Death | ⏭️ Skipped. API output filter blocked the transcription (31 Oct 2026); type it in by hand from `scans/rotated/IMG_1061.png` |
 | 1062 | 1 Nov 1916 | Conscripts will Not be Forced into Battle | ⬜ Queued |
 | 1063 | Nov 1965 | Raised Hemline Raises Eyebrows | ⬜ Queued |
 | 1064 | 3 Nov 1903 | Scandal in Collingwood | ⬜ Queued |

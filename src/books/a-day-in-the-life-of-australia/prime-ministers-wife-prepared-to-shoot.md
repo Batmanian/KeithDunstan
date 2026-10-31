@@ -1,0 +1,1 @@
+../../../vault/books/a-day-in-the-life-of-australia/prime-ministers-wife-prepared-to-shoot.md

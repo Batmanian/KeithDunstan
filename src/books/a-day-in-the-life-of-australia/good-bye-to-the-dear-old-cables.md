@@ -1,0 +1,1 @@
+../../../vault/books/a-day-in-the-life-of-australia/good-bye-to-the-dear-old-cables.md
