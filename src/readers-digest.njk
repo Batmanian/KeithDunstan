@@ -20,7 +20,7 @@ summary: Keith Dunstan contributed articles to the Australian edition of Reader'
 
     <ul>
     {%- for article in collections.readersdigest %}
-      <li><a href="{{ article.url | url }}">{{ article.data.title }}</a> <span class="text-muted small">({{ article.data.edition }})</span></li>
+      <li><a href="{{ article.url | url }}">{{ article.data.title }}</a> <span class="text-muted small">({{ article.data.edition }})</span>{% if article.data.summary %}<span class="text-muted ms-2" style="font-size: 0.8em;">{{ article.data.summary }}</span>{% endif %}</li>
     {%- endfor %}
     </ul>
 

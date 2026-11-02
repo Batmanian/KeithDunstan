@@ -15,6 +15,9 @@ summary: Keith Dunstan's Walkabout articles are listed here.
       {% if article.date %}
         <span class="text-muted"> — {{ article.date | readableDate }}</span>
       {% endif %}
+      {% if article.data.summary %}
+        <span class="text-muted ms-2" style="font-size: 0.8em;">{{ article.data.summary }}</span>
+      {% endif %}
     </li>
   {% else %}
     <li>No Walkabout articles found yet.</li>
