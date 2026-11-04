@@ -1,7 +1,7 @@
 # Todo — Keith Dunstan Archive
 
 Tracking outstanding work across all active workstreams.
-Last updated: 20 September 2026 (all 43 1970 + 45 1971 Bulletin articles transcribed from Trove scans).
+Last updated: 4 November 2026 (The Paddock That Grew, Chapters 3–11 transcribed from uploaded scans).
 
 **Status legend used throughout this file:**
 
@@ -38,7 +38,7 @@ Last updated: 20 September 2026 (all 43 1970 + 45 1971 Bulletin articles transcr
 | The Store on the Hill | 1979 | ? | 0 | 0 | ❓ | Not started |
 | Knockers | 1972 | 15 chapters | 2 (Foreword + Chapter 1) | 0 | 13 | Foreword (Barry Humphries) and Chapter 1 ('Knockers') transcribed from manually-scanned photos 9 Aug 2026; see §12 for detail |
 | Sports | 1973 | 14 (intro + 13 'passion' chapters) | 8 | 0 | 6 | Year corrected from 1970 (Cassell Australia, 1973, per publisher records — the text itself references 1972 events throughout). Introduction and Chapters 1–7 ('Our Sporting Obsession' through 'The Rowing Passion') transcribed; see §9 for chapter detail. Chapters 6–7 transcribed from 36 new scans (`IMG_9278`–`IMG_9313`) dropped 20 Aug 2026 — no further Sports scans outstanding |
-| The Paddock That Grew | 1962 | ? | 0 | 0 | 📷 | MCG history — 18 scans added to `src/books/the-paddock-that-grew/scans/` 9 Aug 2026, not yet transcribed |
+| The Paddock That Grew | 1962 | 27 (Foreword, Introduction, 21 chapters, 3 appendices, Index) | 12 | 1 | 14 | Foreword, Introduction and Chapters 1–11 transcribed; Chapter 10 awaits prose page 78. Chapters 12–21, appendices and Index await scans. See transcription record below. |
 | Just Jeans: The Story | 1995 | 12 Parts (the book's own front-matter "Introduction" is a foreword by founder Craig Kimberley, not Keith, and is deliberately excluded from the site) | 1 | 0 | 11 | New book, added 14 Aug 2026. Corporate history of the Just Jeans denim chain, commissioned for its 25th anniversary. Part One ('The Humble Uniform') transcribed from manually-scanned photos of the cover and front matter; two small scan gaps (the chapter's opening page, and one page mid-chapter) noted inline with HTML comments rather than guessed at. Cover image, book index page (`src/just-jeans-the-story.njk`) and a `books.njk` accordion entry all added. 28 new `src/_data/topics.md` entries added for people, films and organisations named in Part One (Levi Strauss, Jacob Davis, James Dean, Marlon Brando, Marilyn Monroe, JFK/RFK/MLK, etc.). Parts Two–Twelve await further scans from Jack. |
 
 ---
@@ -886,3 +886,28 @@ New tags logged to `/tmp/new-tags-batch-C.txt` — 30+ new entries for people, p
 - 1970-12-19 — Gone Is the Nudists' Favourite Privacy (Batman's Gold Coast dateline; Surfers Paradise, Marineland killer whale)
 
 **OCR notes:** Two articles had severely degraded OCR. "Would You Believe Tourists for the Quaffing of" (Oct 24) had the first ~175 lines of OCR completely unreadable due to multi-column layout and advertising bleed; body reconstructed from the second-half OCR fragments plus article context. "Camping Among Cairns of Cans at the Gabba" (Dec 12) lost interior detail after the page-footer break; cricket content extrapolated from the readable first section. Both are broadly accurate in subject and voice but may not be verbatim in places — worth checking against the Trove scans if exact text matters.
+
+
+## The Paddock That Grew (1962) — transcription record, 4 November 2026
+
+Source: 85 HEIC photographs in `src/books/the-paddock-that-grew/scans/`, `IMG_1217`–`IMG_1301` (the supplied names include `IMG_1238 2` and `IMG_1277 3`). These capture 84 running-text pages, pp. 16–100 except p. 78, plus the copyright page (`IMG_1301`). Original scans retained. Tesseract extraction was supplemented by local Apple Vision OCR and visual checks of corrupted lines, chapter openings and scorecards. The vault is the source of the nine new Markdown chapters, symlinked into `src/books/`.
+
+| Chapter | Printed pages | Source scans | Status |
+|---|---|---|---|
+| 3. The M.C.G. is Born | 16–20 | IMG_1217–IMG_1221 | Transcribed |
+| 4. Mr. Stephenson's XI v. Melbourne XVIII | 21–26 | IMG_1222–IMG_1227 | Transcribed, scorecard included |
+| 5. 'Terrible Billy' Teaches | 27–35 | IMG_1228–IMG_1236 | Transcribed |
+| 6. The Year of Grace | 36–42 | IMG_1237–IMG_1243 | Transcribed |
+| 7. The First of the Tests | 43–50 | IMG_1244–IMG_1251 | Transcribed, scorecards included |
+| 8. The Roaring 'Eighties | 51–60 | IMG_1252–IMG_1261 | Transcribed |
+| 9. The Return of Grace | 61–70 | IMG_1262–IMG_1271 | Transcribed |
+| 10. The Cricketing 'Nineties | 71–79 | IMG_1272–IMG_1279 | Partial: p. 78 missing |
+| 11. Edwardiana at the M.C.G. | 80–100 | IMG_1280–IMG_1300 | Transcribed |
+
+- **Page 78 is prose, not a photo plate.** It is partly visible to the left of p. 79 in `IMG_1279`, but the beginnings of its lines are outside the photograph. No full-page image of p. 78 was found in this batch. It contains the continuation of the Clem Hill verse and the start of the passage about Ranjitsinhji and M.C.C. honorary memberships. A visible transcription note marks the gap before p. 79; the missing words have not been reconstructed. A full scan is needed to finish Chapter 10.
+- **Printed inconsistencies retained:** Chapter 4's prose gives Melbourne's second innings as 92, while its printed scorecard totals 91. Chapter 7's England first-innings fall-of-wickets line ends at 198, although the printed total is 196; Australia's fall-of-wickets lists also omit entries. These are in the supplied book, not OCR corrections to be silently imposed.
+- **Original historical claims and wording retained:** the book's accounts, dates and retrospective records are transcribed as printed, including the Wills family massacre account and early aviation and cycling stories. They have not been rewritten as modern history.
+- **Topic decisions:** prominent identifiable players, administrators, performers and places receive tags and topic descriptions. Brief scorecard-only names, unnamed officials and unidentified one-off surnames are not expanded into speculative biographical topics.
+- **Build prerequisite:** `link:vault` removed three pre-existing dangling article symlinks whose vault sources were absent (Bulletin 1995 'The Victorian Art of Columnising', Courier-Mail 1982 'Paradise Revisited', Sun News-Pictorial 1968 'A Place in the Sun: Brown Bros Milawa'). No vault article files were deleted.
+
+Validation: `npm run build` passed on 4 November 2026 after the final transcription cleanup, generating 3,956 Eleventy files. All nine chapter pages, eleven scorecard tables, chapter navigation and the visible page-78 gap note were checked in the generated HTML. No deployment performed.

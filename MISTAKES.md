@@ -113,14 +113,35 @@ Collect decision-page answers during an active session; before ending a turn, di
 
 <!-- Newest first. Append new entries directly below this line. -->
 
-### 2026-10-31 — Tag-clash checks must slug '&' as 'and', like Eleventy does
+### 2026-11-04 — Verify decoded HEIC pixels before running batch OCR
 
-- **Area:** `tags / topics.md`
+- **Area:** `OCR tooling`
 - **Severity:** low
 - **Count:** 1
 
 **What happened**
+Sandboxed `sips` returned success but produced a black PNG and an unreadable JPEG from valid iPhone scans. Tesseract also misread the unnormalised PNG orientation.
+
+**Root cause**
+The macOS HEIC decoder required execution outside the sandbox, and converted PNGs retained EXIF orientation that image viewers honoured but OCR did not.
+
+**Consequence**
+One sample had to be decoded again before processing the batch; no source scans or published content were lost.
+
+**Rule**
+Visually verify one decoded HEIC, then normalise EXIF orientation before OCR; if a successful conversion yields black pixels, retry the decoder with the required sandbox access before processing the batch.
+
+
+### 2026-11-04 — Tag-clash checks must slug '&' as 'and', like Eleventy does
+
+- **Area:** `tags / topics.md`
+- **Severity:** low
+- **Count:** 2
+
+**What happened**
 A new 'Cobb & Co' tag passed a hand-rolled slug-clash check, then crashed the build with `DuplicatePermalinkOutputError` against an existing 'Cobb and Co' tag.
+
+On 4 November, a new book tag, Frank Grey Smith, also clashed with the existing Frank Grey-Smith spelling. The existing spelling was in an article tag but absent from the topics catalogue. The new chapter tags and topic name were aligned with it.
 
 **Root cause**
 The ad-hoc checker stripped '&' instead of converting it to 'and', so the two spellings looked distinct to it but not to Eleventy's `slug` filter.

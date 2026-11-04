@@ -1,0 +1,643 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The M.C.G. is Born</title>
+<meta name="title" content="The M.C.G. is Born">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="A railway drives the Melbourne Cricket Club from its old ground to the Police Paddock, where intercolonial cricket takes hold and Tommy Wills emerges as a leading player.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/the-paddock-that-grew/4-the-mcg-is-born/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="The M.C.G. is Born">
+<meta property="og:description" content="A railway drives the Melbourne Cricket Club from its old ground to the Police Paddock, where intercolonial cricket takes hold and Tommy Wills emerges as a leading player.">
+<meta property="og:image" content="https://keithdunstan.org/img/thepaddockthatgrew.jpg">
+<meta property="og:image:alt" content="The M.C.G. is Born">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/the-paddock-that-grew/4-the-mcg-is-born/">
+<meta name="twitter:title" content="The M.C.G. is Born">
+<meta name="twitter:description" content="A railway drives the Melbourne Cricket Club from its old ground to the Police Paddock, where intercolonial cricket takes hold and Tommy Wills emerges as a leading player.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/thepaddockthatgrew.jpg">
+<meta name="twitter:image:alt" content="The M.C.G. is Born">
+<link rel="canonical" href="https://keithdunstan.org/books/the-paddock-that-grew/4-the-mcg-is-born/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1962-01-01">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="The Paddock That Grew">
+<meta property="article:tag" content="Ararat">
+<meta property="article:tag" content="Australian Rules Football">
+<meta property="article:tag" content="Charles La Trobe">
+<meta property="article:tag" content="Emerald Hill">
+<meta property="article:tag" content="George Gilbert">
+<meta property="article:tag" content="George Parr">
+<meta property="article:tag" content="H. C. A. Harrison">
+<meta property="article:tag" content="Melbourne">
+<meta property="article:tag" content="Melbourne Cricket Club">
+<meta property="article:tag" content="Melbourne Cricket Ground">
+<meta property="article:tag" content="New South Wales">
+<meta property="article:tag" content="Port Melbourne">
+<meta property="article:tag" content="Princes Bridge">
+<meta property="article:tag" content="Queensland">
+<meta property="article:tag" content="Richmond">
+<meta property="article:tag" content="Richmond Park">
+<meta property="article:tag" content="Sydney">
+<meta property="article:tag" content="T. W. Wills">
+<meta property="article:tag" content="Victoria">
+<meta property="article:tag" content="William Tunks">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">The M.C.G. is Born</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            11
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1962-01-01">1962</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A railway drives the Melbourne Cricket Club from its old ground to the Police Paddock, where intercolonial cricket takes hold and Tommy Wills emerges as a leading player.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="The Paddock That Grew">
+         <!--<a href="/tags/ararat/" class="btn btn-outline-dark btn-sm me-2">Ararat</a><a href="/tags/australian-rules-football/" class="btn btn-outline-dark btn-sm me-2">Australian Rules Football</a><a href="/tags/charles-la-trobe/" class="btn btn-outline-dark btn-sm me-2">Charles La Trobe</a><a href="/tags/emerald-hill/" class="btn btn-outline-dark btn-sm me-2">Emerald Hill</a><a href="/tags/george-gilbert/" class="btn btn-outline-dark btn-sm me-2">George Gilbert</a><a href="/tags/george-parr/" class="btn btn-outline-dark btn-sm me-2">George Parr</a><a href="/tags/h.-c.-a.-harrison/" class="btn btn-outline-dark btn-sm me-2">H. C. A. Harrison</a><a href="/tags/melbourne/" class="btn btn-outline-dark btn-sm me-2">Melbourne</a><a href="/tags/melbourne-cricket-club/" class="btn btn-outline-dark btn-sm me-2">Melbourne Cricket Club</a><a href="/tags/melbourne-cricket-ground/" class="btn btn-outline-dark btn-sm me-2">Melbourne Cricket Ground</a><a href="/tags/new-south-wales/" class="btn btn-outline-dark btn-sm me-2">New South Wales</a><a href="/tags/port-melbourne/" class="btn btn-outline-dark btn-sm me-2">Port Melbourne</a><a href="/tags/princes-bridge/" class="btn btn-outline-dark btn-sm me-2">Princes Bridge</a><a href="/tags/queensland/" class="btn btn-outline-dark btn-sm me-2">Queensland</a><a href="/tags/richmond/" class="btn btn-outline-dark btn-sm me-2">Richmond</a><a href="/tags/richmond-park/" class="btn btn-outline-dark btn-sm me-2">Richmond Park</a><a href="/tags/sydney/" class="btn btn-outline-dark btn-sm me-2">Sydney</a><a href="/tags/t.-w.-wills/" class="btn btn-outline-dark btn-sm me-2">T. W. Wills</a><a href="/tags/victoria/" class="btn btn-outline-dark btn-sm me-2">Victoria</a><a href="/tags/william-tunks/" class="btn btn-outline-dark btn-sm me-2">William Tunks</a>-->
+
+        
+      </header>
+      <div class="article-body"><p>On September 12, 1854, the first railway train in Australia ran from Melbourne to Sandridge (now Port Melbourne). The engine was a 6-wheeled tubular boiler of 30 horse-power and the newspapers talked of this iron horse that could achieve a speed of 25 m.p.h. It had three carriages. For the inaugural run it also pulled a third class open carriage, which took the band of the 40th Regiment. All the leading citizens of the colony travelled on the first run, and when the train reached Sandridge after travelling at a speed of 15 m.p.h., there was a banquet in the engine shed, a vast affair of zinc. The banquet was particularly noted for the fact that there were 20 speeches. Not one of these speeches mentioned the fact that this remarkable railway line passed right through the middle of the M.C.C. ground.</p>
+<p>It had been a sad shock. The Melbourne Cricket Club in its short career already had suffered one move and the south of the Yarra ground was to be the permanent home. Admittedly it was low-lying and one time the flooding Yarra washed away the players' shed, but the club had spent several thousands of pounds on grading, turfing, fencing, and already there was a small pavilion. As a cricket ground it was something to see.</p>
+<p>Yet there was no question, Melbourne had to keep ahead of Sydney with a railway, and it was only natural that the first stretch of track should go from the city to the port at Sandridge, so the line passed through Melbourne's cricket ground. As compensation Governor La Trobe offered the club two alternative sites in the Police Paddock, and the Committee of Management chose a plot 250 yards in diameter 'in the hollow to the right of the footbridge leading across the paddock.' The secretary of the M.C.C. on August 15, 1853, wrote to the Superintendent, asking for 'permission of His Excellency to erect a cottage as well as to remove such trees as may be necessary. The Committee of Management would further take leave to represent that the ground now in occupation be ceded to the Club, such compensation from the Company for improvements to the Ground to be left there, the removal of which to a new site would entail considerable expense to the Club.'</p>
+<p>On September 23, 1853, His Excellency agreed to the enclosure of the 10 acres in the Government paddock under permissive occupancy for five years. His Excellency would also sanction the erection of such buildings as may be absolutely necessary. It is to be understood that no carriageway to the ground is to be allowed. The exact area enclosed was 9 acres, 1 rood, 37 perches, and was to be used for cricket and no other purpose. This is the present site of the Melbourne Cricket Ground. As the first trees were being chopped at the Police Paddock to make way for the Melbourne Cricket Ground, Melbourne had all the atmosphere of a wild frontier town. The young Lord Cecil had written in his diary that the streets and hotels were 'clamorous with drunken revels which now and again culminated in crimes of audacious violence.' A writer who visited the Queen's Theatre in 1853 wrote that at the end of the performance in place of bouquets for the actors there was a shower of nuggets, some more than half an ounce.</p>
+<p>Immigrants were pouring in, sometimes at the rate of 3000 a week. There was nowhere to house them. By Emerald Hill near the site of the old cricket ground a new town sprang up. It was laid out in streets, but all the shops, houses, and official buildings were of canvas. In 1853 over 5000 people lived there, and judging by the number of empty bottles and gin jars that have been dug up in the area ever since, Canvastown must have had its interesting moments.</p>
+<p>There were still some reminders of the older days. A tribe of aborigines camped not far from Princes Bridge, there was wild duck to be had and there were fish in the Yarra.</p>
+<p>On both sides of the river there were kangaroos and wallabies. The Police Paddock itself was a lovely place, full of wattle, wild-flowers and heath. The Richmond end was thick with timber. A man who was handy as a cut-throat used this timber as a hide-out to catch the travellers as they made their way down to the punt across the river at Punt Road hill.</p>
+<p>The first year was devoted to hard work. It is clear from the records that right from the beginning the committee had one ambition-to make the M.C.G. the finest cricket ground in the colonies. In 1855 Richmond Park was described as 'a delightful promenade which is becoming quite a place of fashionable resort.' The M.C.C. with its picturesque ground and lodge used to invite the Band of the 40th Regiment to go there on Saturday afternoons and the park, invariably, was filled with the gentry.</p>
+<p>The gold rush was very good for the club. Not only did it bring cricketers, but in four months in 1855 the club gained 200 members. The secretary recorded: 'No club in the world ever increased its practical and numerical strength so rapidly as the M.C.C.'</p>
+<p>In the midst of all this confidence the entrance fee to new members went up from one guinea to two guineas. The new members needed entertainment, so in January, 1856, the M.C.C. put advertisements in all the newspapers issuing a challenge to play any eleven in the Australian colonies for nothing or anything up to £1000. New South Wales accepted the challenge and decided to play for nothing on March 27. William Tunks, a great figure in the history of N.S.W. cricket, was the force behind the N.S.W. team. He was a publican, and his hotel was a rendezvous for all the best cricketers of his day. But the story goes that both Tunks and Mrs. Tunks disapproved of cricketers drinking beer, so they always received tea at the hotel. For the intercolonial match at Melbourne a large barrel of tea, complete with a tap, was placed on the ground. This caused considerable astonishment among the Victorians, who were accustomed to drinking beer even for breakfast. It astonished an eagle-eyed police constable, who at once took it for granted that here was beer being sold without a licence. History records that he had a very ugly shock when he tasted the contents of that barrel.</p>
+<p>Admission was 1/-, ladies free. An excellent German band was in attendance; furthermore, there was a printing machine in a marquee which printed cards of the match on the fall of each wicket. Judging by the rate of fall of wickets, the printing machine must have taken an apoplectic fit before the day was done.</p>
+<p>The homely look of the N.S.W. players, plus the dear, old under-arm style of their star bowler, McKone, caused great amusement amongst the spectators. Betting, of course, was one of the chief attractions of cricket at this time and the books were giving 2/1 on Victoria.</p>
+<p>At the start each team nominated an umpire, and these gentlemen tossed for the choice of innings. Victoria's umpire won the toss and at once the Sydney men objected. They said this idea of tossing was absurd. It was accepted everywhere that the visitors always had the choice whether or not to bat first. The Victorian captain, Mr. Philpott, politely agreed; even so, the N.S.W. captain, George Gilbert, sent him in to bat. Back in the eighteen-fifties this was the smart thing to do. You sent in your opponents, noted carefully how they shaped, how many runs they made, then you adapted your play accordingly. This was the situation until 1858, when Tommy Wills, the Victorian captain, who had learned his cricket in England, introduced the tossing of the coin.</p>
+<p>McKone as he went into action with his underarms had to listen to the giggles of the crowd, but he was deadly. He took 4/25 in the first innings and 5/11 in the second. Victoria made 63 and N.S.W. scored 76 in reply. After the first day there was a lavish ball. It is unknown to this day whether it was the superb skill of the Sydney bowling or whether it was a tribute to the gaiety of the ball, but in the second innings next morning Victoria was all out for 28. Then N.S.W. lost seven wickets before the team had the necessary 16 runs required to win. R. Driver top-scored for N.S.W. with 18. He went to Melbourne just to umpire, but as the side was one man short, he stood in as an emergency. Later he was to become the first president of the N.S.W. Cricket Association. After the match there was a row over the cricket ball. The Victorians presented it to Driver as a memento, and Driver kept it. On October 21, 1856, the N.S.W. team passed a resolution that Driver be requested to give up the ball, so that it could be deposited with a suitable description, in some place in the colony. Driver refused, and it wasn't until 1907 that Beatrice Driver, his niece, presented the ball to the N.S.W. Cricket Association.</p>
+<p>So the first Victoria v. N.S.W. match ended with a victory for N.S.W. At the dinner after the match William Tunks said in his speech that there was a probability that the good fellowship arising through the matches would lead to a better understanding between the colonies. After all, it had not been good to date. He could remember when the Victorians refused to give more than 19/- for a Sydney sovereign.</p>
+<p>In 1857 there was a return match against the 'homely' New South Welshmen. Apparently the Victorians thought them homely because they didn't wear correct cricket flannels. They wore drill pants, guernseys and caps, and most incredible of all, they played either in bare feet or socks. Yet they beat Victoria again.</p>
+<p>Scores: Victoria, 63 and 38.</p>
+<p>N.S.W., 80 and 86.</p>
+<p>This match should be remembered because it meant the return of T. W. Wills. He took 6/28 in the first innings and 4/40 in the second, and scored only one run in two excursions to the wicket, but that is immaterial; Wills was to have an incalculable effect on Victorian and Australian cricket.</p>
+<p>His father, Horace Spencer Wills, settled at Ararat in 1839. Obviously he was a very wealthy man. In 1852 he sent young Tommy home to England to be educated at Rugby. Tommy was a sporting natural. He was captain of both cricket and football at Rugby, and at Cambridge he was considered one of the most promising young cricketers in England. He returned to Australia in December 1856. In 1860 his father sold his property at Ararat and bought a station near Moreton Bay in Queensland. Together they set out with 10,000 sheep, and it took them 10 months to get there.</p>
+<p>The aboriginals at Ararat had always been friendly, but at Moreton Bay they were wild, difficult to manage. The great quantities of provisions that the Wills brought with them fascinated the tribesmen. On October 17, 1861, only seven weeks after the expedition arrived, the aboriginals attacked, hiding their weapons under possum skin belts. It was noon, the hottest time of the day. All the station hands were dozing in the subtropical heat. It was a complete surprise. Wills senior had time only to fire one shot from his revolver before he was knocked down and killed. Everyone on the station, employees and their families, all died, 19 in all.</p>
+<p>This is the worst massacre in aboriginal history. The blacks ransacked the camp. They made a total wreck of everything, then vanished.</p>
+<p>Young Tom Wills was the only one to escape. A dray had broken down two days journey off and his father had sent him out to bring it in. He managed the station for several years after this, then he returned to Victoria in time to play against Parr's English XI in 1864.</p>
+<p>It is hard even to guess at his value to cricket in Australia. For years he was the 'Grace' of the colony, and there's no question that his coaching of young players helped put Australia on equal terms with England.</p>
+<p>He was a founder, too, of Australian Rules football. Perhaps he even started it. When he was the 20-year-old secretary of the M.C.C. during 1857-8 he wrote his famous letter to Bell's Life, suggesting that the M.C.C. should form a football club to keep the players fit during the winter. The grounds were too hard for Rugby tackling, therefore new rules were necessary. With his cousin, H. C. A. Harrison, he worked on the rules of a new football game that was to have quite an effect on the M.C.G. He had a tragic end. In later years he became an alcoholic, and in 1880 he committed suicide with a bayonet. Wills, before he set out for Queensland, won back Victoria's reputation at cricket, so much so that by 1860 the score was three matches to Victoria, two to N.S.W. In one match Victoria achieved the score of 238, a massive total, equal to at least 1000 these times. Wills was the hero with 61 not out. Then he followed this by taking 5/25 in the first innings and 3/34 in the second. He was sadly missed when the time came to play the first match against a team from England on January 1, 1862.</p>
+<hr>
+<p class="lead">Previous: <a href="/books/the-paddock-that-grew/3-the-first-cricket-matches/">The First Cricket Matches</a></p>
+<p class="lead">Next: <a href="/books/the-paddock-that-grew/5-mr-stephensons-xi-v-melbourne-xviii/">Mr. Stephenson's XI v. Melbourne XVIII</a></p>
+</div>
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+
+  <p class="lead">
+        A railway drives the Melbourne Cricket Club from its old ground to the Police Paddock, where intercolonial cricket takes hold and Tommy Wills emerges as a leading player.
+      </p>
+
+
+<hr>
+<h4 class="h6">Topics in this item</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/ararat/" class="link-secondary">Ararat</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Ararat">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/australian-rules-football/" class="link-secondary">Australian Rules Football</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Australian Rules Football">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/charles-la-trobe/" class="link-secondary">Charles La Trobe</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Charles La Trobe">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/emerald-hill/" class="link-secondary">Emerald Hill</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Emerald Hill">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/george-gilbert/" class="link-secondary">George Gilbert</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="George Gilbert">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/george-parr/" class="link-secondary">George Parr</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="George Parr">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/h.-c.-a.-harrison/" class="link-secondary">H. C. A. Harrison</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="H. C. A. Harrison">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne-cricket-club/" class="link-secondary">Melbourne Cricket Club</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne Cricket Club">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne-cricket-ground/" class="link-secondary">Melbourne Cricket Ground</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne Cricket Ground">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/new-south-wales/" class="link-secondary">New South Wales</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="New South Wales">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/port-melbourne/" class="link-secondary">Port Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Port Melbourne">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/princes-bridge/" class="link-secondary">Princes Bridge</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Princes Bridge">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/queensland/" class="link-secondary">Queensland</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Queensland">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/richmond/" class="link-secondary">Richmond</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Richmond">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/richmond-park/" class="link-secondary">Richmond Park</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Richmond Park">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/sydney/" class="link-secondary">Sydney</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sydney">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/t.-w.-wills/" class="link-secondary">T. W. Wills</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="T. W. Wills">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/victoria/" class="link-secondary">Victoria</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Victoria">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/william-tunks/" class="link-secondary">William Tunks</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="William Tunks">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/ararat/" class="link-secondary">Ararat</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Ararat">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/australian-rules-football/" class="link-secondary">Australian Rules Football</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Australian Rules Football">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/charles-la-trobe/" class="link-secondary">Charles La Trobe</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Charles La Trobe">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/emerald-hill/" class="link-secondary">Emerald Hill</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Emerald Hill">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/george-gilbert/" class="link-secondary">George Gilbert</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="George Gilbert">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/george-parr/" class="link-secondary">George Parr</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="George Parr">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/h.-c.-a.-harrison/" class="link-secondary">H. C. A. Harrison</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="H. C. A. Harrison">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne-cricket-club/" class="link-secondary">Melbourne Cricket Club</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne Cricket Club">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne-cricket-ground/" class="link-secondary">Melbourne Cricket Ground</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne Cricket Ground">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/new-south-wales/" class="link-secondary">New South Wales</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="New South Wales">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/port-melbourne/" class="link-secondary">Port Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Port Melbourne">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/princes-bridge/" class="link-secondary">Princes Bridge</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Princes Bridge">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/queensland/" class="link-secondary">Queensland</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Queensland">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/richmond/" class="link-secondary">Richmond</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Richmond">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/richmond-park/" class="link-secondary">Richmond Park</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Richmond Park">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/sydney/" class="link-secondary">Sydney</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sydney">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/t.-w.-wills/" class="link-secondary">T. W. Wills</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="T. W. Wills">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/victoria/" class="link-secondary">Victoria</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Victoria">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/william-tunks/" class="link-secondary">William Tunks</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="William Tunks">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>
