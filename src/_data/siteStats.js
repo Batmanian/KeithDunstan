@@ -14,7 +14,8 @@ function walkMarkdownFiles(dir) {
   let results = [];
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     const full = path.join(dir, entry.name);
-    const stat = fs.statSync(full);
+    let stat;
+    try { stat = fs.statSync(full); } catch { continue; } // skip broken symlinks
     if (stat.isDirectory()) {
       results = results.concat(walkMarkdownFiles(full));
     } else if (stat.isFile() && (entry.name.endsWith(".md") || entry.name.endsWith(".njk"))) {

@@ -20,3 +20,6 @@ venv/
 # Downloaded Trove masters and resumable local download state
 /src/trove-scans/
 /trove/output/image-download/
+
+# Image sourcing workflow — local-only project files, records and downloaded assets
+/research/

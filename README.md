@@ -5,6 +5,8 @@ A digital archive of **Keith Dunstan** (1925–2013), Australian journalist and 
 **Live site:** https://keithdunstan.org  
 **Repository:** https://github.com/JackDunstan/KeithDunstan
 
+**Photograph research:** [Historical photograph sourcing methodology](research/photos/README.md) — time/place verification, Creative Commons rights checks, reusable research records and vault-based embedding.
+
 ---
 
 ## Tech Stack
