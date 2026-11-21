@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-07-22-shadows-on-the-sunshine-coast.md

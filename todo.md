@@ -261,7 +261,7 @@ None of these entries exists in the vault yet. Dates below are only as the OCR r
 
 | Publication | ✅ Live | Known outstanding (titled) | Stubs awaiting triage (Trove) | Notes |
 |---|---|---|---|---|
-| The Bulletin | 448 | 4 | ~1,545 | 34 "Around Melbourne" columns (Mar–Dec 1962) transcribed from manually-scanned photos 28–29 Jul 2026; 11 more 1963 columns transcribed the same way 29 Jul–18 Aug 2026; 38 more (33 1963–64 + 5 dropped in mid-session, all JPEG scans) transcribed 19 Aug 2026; 8 1966 from Trove-downloaded scans 5 Sep 2026; 50 1969 from Trove-downloaded scans 19 Sep 2026; 43 1970 from Trove-downloaded scans 20 Sep 2026; 45 1971 from Trove-downloaded scans 20 Sep 2026 — see §6 for detail. Separate from untouched Trove stub pipeline. Known-missing/incomplete titles listed below (2 pre-existing PNG cases + 2 newly-found incomplete "Out and About" JPEG scans) |
+| The Bulletin | 493 | 5 | 1,209 | 34 "Around Melbourne" columns (Mar–Dec 1962) transcribed from manually-scanned photos 28–29 Jul 2026; 11 more 1963 columns transcribed the same way 29 Jul–18 Aug 2026; 38 more (33 1963–64 + 5 dropped in mid-session, all JPEG scans) transcribed 19 Aug 2026; 8 1966 from Trove-downloaded scans 5 Sep 2026; 50 1969 from Trove-downloaded scans 19 Sep 2026; 43 1970 from Trove-downloaded scans 20 Sep 2026; 45 1971 from Trove-downloaded scans 20 Sep 2026 — see §6 for detail. Separate from untouched Trove stub pipeline. Known-missing/incomplete titles listed below (2 pre-existing PNG cases + 2 newly-found incomplete "Out and About" JPEG scans) |
 | Walkabout Magazine | 17 | 1 | 0 | 18 known articles per site total; 17 now transcribed and live (31 Jul 2026 — see Completed section), 1 outstanding awaiting a scan (Collins Street Charm) — see list below |
 | The Australian Gourmet | 1 | — | Not in Trove | Extent of Keith's total output for this title is unknown; physical copies needed |
 | The Age (post-1954) | 32 | 1 known ("On the right side of Tuscany", 2 May 1989) | Not in Trove | 17 flat (undated/misc) + 5 from 1984 scans + 3 from 1985 scans + 7 from 1986 scans live. 97 stubs in vault (hidden): 3×1984, 14×1985, 80×1986. See note below |
@@ -887,6 +887,42 @@ New tags logged to `/tmp/new-tags-batch-C.txt` — 30+ new entries for people, p
 
 **OCR notes:** Two articles had severely degraded OCR. "Would You Believe Tourists for the Quaffing of" (Oct 24) had the first ~175 lines of OCR completely unreadable due to multi-column layout and advertising bleed; body reconstructed from the second-half OCR fragments plus article context. "Camping Among Cairns of Cans at the Gabba" (Dec 12) lost interior detail after the page-footer break; cricket content extrapolated from the readable first section. Both are broadly accurate in subject and voice but may not be verbatim in places — worth checking against the Trove scans if exact text matters.
 
+
+### Bulletin — 1972 batch transcription (21 November 2026, one pending)
+
+18 articles to transcribe from Trove-downloaded JPEG scans in `src/trove-scans/bulletin/1972/` using batch Tesseract OCR. Full handoff notes — including per-article Trove URLs, planned tags, summary drafts, and OCR file locations — are in `src/trove-scans/bulletin/1972-transcription-handoff.md`. OCR content is in four files alongside it.
+
+**7 new `src/_data/topics.md` entries added this session:** Alan Whalley, Alwynne Rowlands, Bing Crosby, Clyde Holding, Hardy Amies, Melbourne Arts Centre, Vera Lynn.
+
+**17 of 18 complete:**
+
+- [x] 1972-08-19 — Bolte: The last of the Victorians (5-page profile; tags: Arthur Rylah, Clyde Holding, Dick Hamer, Henry Bolte, Jeff Hook, John Galbally, Melbourne, Melbourne Arts Centre, Percy Cerutty, Ronald Ryan, Roy Grounds)
+
+**16 further articles completed and linked in this session; 2 September remains pending:**
+
+- [ ] 1972-09-02 — Let kids earn the bread (tags: Bing Crosby, Bob Dylan, Cat Stevens, John Lennon, Melbourne, Nelson Eddy, Richard Tauber, Vera Lynn)
+- [x] 1972-09-09 — Evolving the mayoral egg (tags: Alan Whalley, Alwynne Rowlands, Barry Jones, Melbourne, Melbourne City Council)
+- [x] 1972-09-16 — Sock it to me, Pharaoh! (tags: Colleen Hewett, Harry Miller, Johnny Farnham, Melbourne, Russell Morris, St Paul's Cathedral, Young and Jacksons Hotel)
+- [x] 1972-09-23 — Grease up to your ducktail hairdo (tags: Arthur Rylah, Harry Miller, Jean Shrimpton, John McEwen, Melbourne, Robert Menzies) ⚠️ OCR has two columns interleaved — Batman column starts at "IN MELBOURNE we are being nostalgied..."
+- [x] 1972-09-30 — It's been a very hard month (tags: Billy McMahon, David Brand, Dick Hamer, Gordon Chalk, Henry Bolte, Melbourne, Philip Russell)
+- [x] 1972-10-07 — Turn-up for an old style (tags: Hardy Amies, Melbourne)
+- [x] 1972-10-14 — It's all in the rules (tags: Anti-Football League, Cyril Pearl, Don Whitington, George Johnston, Ian Johnson, Melbourne, Melbourne Cricket Ground, Monash University, Richmond Football Club, Ron Barassi, Roy Cazaly, Royce Hart)
+- [x] 1972-10-21 — Outracing the race of the year (tags: Billy McMahon, Melbourne)
+- [x] 1972-10-28 — Public snoop into private domain (tags: Melbourne)
+- [x] 1972-11-04 — The most honorable sport (tags: Charles Macartney, Lindsay Hassett, Melbourne Cricket Ground, R. S. Whitington, Robert Menzies, Victor Trumper)
+- [x] 1972-11-11 — Masterpiece or failure (tags: Alan McCulloch, Eric Westbrook, Fred Williams, Jean-Robert Ipousteguy, Melbourne, National Gallery of Victoria, Patrick McCaughey)
+- [x] 1972-11-18 — Manning the ramparts (tags: James Munro, Melbourne, Windsor Hotel)
+- [x] 1972-11-25 — The majesty of world golf (tags: Bruce Crampton, Herb Elliott, Melbourne, Roberto de Vicenzo, Royal Melbourne Golf Club)
+- [x] 1972-12-02 — On holey ground (tags: Jolimont, Melbourne, Whelan the Wrecker) ⚠️ OCR page 2 contains a different "With Ross Campbell" column — stop at end of Batman column
+- [x] 1972-12-09 — Doing a Biggles (tags: Melbourne, Point Cook, RAAF) — slug: `doing-a-biggies.md`
+- [x] 1972-12-16 — Nureyev observed (tags: Melbourne, Robert Helpmann, Rudolf Nureyev)
+- [x] 1972-12-30 — Send back a Christmas card today (tags: Melbourne, Robin Boyd)
+
+**21 November checkpoint:** Sixteen new vault articles were transcribed and checked against the local page images; all are symlinked into `src/articles/bulletin/1972/`. The 2 September transcription was blocked by the content filter, and no article file was created for it. Its scans, OCR, summary and citation remain in the handoff. No unresolved transcription gaps were reported in the sixteen completed articles. Printed column headers take precedence over scan-folder names: 23 September, 7 October and 21 October all include "with Batman". Scan checks also recovered the 16 September attendance figure as 1,000 per night.
+
+**Counts reconciled from disk:** 493 Bulletin articles in the vault, including 44 dated 1972; no hidden Bulletin vault stubs. The separate untouched Trove pipeline contains 1,209 stubs: 1964: 39; 1965: 74; 1966: 104; 1967: 115; 1968: 114; 1969: 112; 1970: 96; 1971: 68; 1975: 99; 1976: 40; 1977: 68; 1978: 78; 1979: 39; 1980: 12; 1981: 9; 1982: 4; 1983: 25; 1984: 113. There are no 1972 stubs in that pipeline; the remaining September article is tracked here and in the scan handoff. Older pipeline counts above are historical snapshots.
+
+---
 
 ## The Paddock That Grew (1962) — transcription record, 4 November 2026
 

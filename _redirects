@@ -10,13 +10,29 @@
 /posts/the-australian-uppercrust-book/*    /books/the-australian-uppercrust-book/:splat    301
 /posts/wowsers/*                           /books/wowsers/:splat                           301
 
-# Articles
+# Articles — specific per-article redirects must come before the generic splat rules
+# because Netlify's splat rules can't insert a year subdirectory.
+# These cover every known Google Search Console 404 for flat /posts/bulletin/ and
+# /posts/walkabout-magazine/ URLs that resolve to a year-subdirectory path today.
+/posts/bulletin/when-hoyts-was-hoyts/                              /articles/bulletin/1963/when-hoyts-was-hoyts/                              301
+/posts/bulletin/when-flappers-fluttered-through-the-flames/        /articles/bulletin/1964/when-flappers-fluttered-through-the-flames/        301
+/posts/bulletin/the-ghost-of-the-princess/                         /articles/bulletin/1967/the-ghost-of-the-princess/                         301
+/posts/walkabout-magazine/rough-riding-for-five-minutes-a-year/    /articles/walkabout-magazine/1962/rough-riding-for-five-minutes-a-year/    301
+/posts/walkabout-magazine/summer-madness/                          /articles/walkabout-magazine/1969/summer-madness/                          301
+
+# Generic splat rules — catch any remaining /posts/ URLs not covered above.
+# Note: these cannot insert a year subdirectory, so any bulletin/walkabout slug
+# not listed above will still 404 until a specific rule is added for it.
 /posts/bulletin/*                          /articles/bulletin/:splat                       301
 /posts/walkabout-magazine/*                /articles/walkabout-magazine/:splat             301
 /posts/the-australian-gourmet/*            /articles/the-australian-gourmet/:splat         301
 
 # Keywords renamed to topics
 /keyword/*                                 /topic/:splat                                   301
+
+# Dame Nellie Melba was never a tag — the canonical tag is "Nellie Melba"
+# (/topic/nellie-melba/). Redirect the misread Google variant.
+/topic/dame-nellie-melba/                  /topic/nellie-melba/                            301
 
 # Ratbags and The Paddock That Grew — chapter files renumbered 26 Aug 2026 so
 # a Foreword+Introduction consistently occupy slots 0/1 (matching every other

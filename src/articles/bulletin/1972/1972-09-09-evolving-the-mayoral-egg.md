@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-09-09-evolving-the-mayoral-egg.md

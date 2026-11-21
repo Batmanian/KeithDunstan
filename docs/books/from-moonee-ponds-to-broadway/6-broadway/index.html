@@ -1,0 +1,493 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Broadway</title>
+<meta name="title" content="Broadway">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Follows Dame Edna&#39;s decades-long conquest of international audiences, from her disastrous New York debut in 1977 to her Tony Award-winning triumph in 2000, and surveys Humphries&#39;s private life, his family, his three houses, and his plans for the future.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/from-moonee-ponds-to-broadway/6-broadway/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Broadway">
+<meta property="og:description" content="Follows Dame Edna&#39;s decades-long conquest of international audiences, from her disastrous New York debut in 1977 to her Tony Award-winning triumph in 2000, and surveys Humphries&#39;s private life, his family, his three houses, and his plans for the future.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Broadway">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/from-moonee-ponds-to-broadway/6-broadway/">
+<meta name="twitter:title" content="Broadway">
+<meta name="twitter:description" content="Follows Dame Edna&#39;s decades-long conquest of international audiences, from her disastrous New York debut in 1977 to her Tony Award-winning triumph in 2000, and surveys Humphries&#39;s private life, his family, his three houses, and his plans for the future.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Broadway">
+<link rel="canonical" href="https://keithdunstan.org/books/from-moonee-ponds-to-broadway/6-broadway/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="2006-01-01">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="From Moonee Ponds To Broadway">
+<meta property="article:tag" content="Barry Humphries">
+<meta property="article:tag" content="Edna Everage">
+<meta property="article:tag" content="Gough Whitlam">
+<meta property="article:tag" content="Melbourne">
+<meta property="article:tag" content="Sir Les Patterson">
+<meta property="article:tag" content="University of Melbourne">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">Broadway</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            9
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="2006-01-01">2006</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Follows Dame Edna&#39;s decades-long conquest of international audiences, from her disastrous New York debut in 1977 to her Tony Award-winning triumph in 2000, and surveys Humphries&#39;s private life, his family, his three houses, and his plans for the future.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="From Moonee Ponds To Broadway">
+         <!--<a href="/tags/barry-humphries/" class="btn btn-outline-dark btn-sm me-2">Barry Humphries</a><a href="/tags/edna-everage/" class="btn btn-outline-dark btn-sm me-2">Edna Everage</a><a href="/tags/gough-whitlam/" class="btn btn-outline-dark btn-sm me-2">Gough Whitlam</a><a href="/tags/melbourne/" class="btn btn-outline-dark btn-sm me-2">Melbourne</a><a href="/tags/sir-les-patterson/" class="btn btn-outline-dark btn-sm me-2">Sir Les Patterson</a><a href="/tags/university-of-melbourne/" class="btn btn-outline-dark btn-sm me-2">University of Melbourne</a>-->
+
+        
+      </header>
+      <div class="article-body"><p>Dame Edna in her more frenzied moments sets no limits on her gigastar qualities. She allies herself with the Pope. Indeed in a recent newsletter she expressed disappointment in that 'darling little Polish gentleman'. After all, before he died he had promised her the loan of his Popemobile. That Popemobile would have been so useful when she was greeting her public on a large American tour.</p>
+<p>Or even Jesus. Her mouth wriggles like a drunken snake. 'There are spooky similarities,' she says.</p>
+<p>Then, when visiting Vancouver, Dame Edna naturally stayed at the grandest hotel. Of course she went in to a suite which had been occupied by Her Majesty Queen Elizabeth II. 'I still feel her fragrant presence,' she said. 'I even discovered under the bed, when I was looking for a dropped gem, a little stiff scrunched-up piece of paper — a royal rosette if you will, probably chock-a-block with her royal DNA.'</p>
+<p>Who would dare deny Dame Edna superior royal connections? She hosted the Golden Jubilee celebrations at Buckingham Palace in 2002. Barry said, 'The Queen arrived late. She thought she might miss all that hard metal, the noisy rock and roll. So just before she arrived I called out, &quot;Here comes the Jubilee Girl.&quot; The name was immediately picked up by the Daily Telegraph.' The parallel was obvious: a profession where artists are lucky enough to bloom for 18 months let alone 50 years.</p>
+<p>Edna made her first non-blushing public appearance on 19 December 1955. On that day, of course, she had no titles. She was plain Mrs Norm Everage of Moonee Ponds. The stage set was the Information Bureau at the Melbourne Town Hall. Humphries' friend Noel Ferrier, soon to be famous on Melbourne television, was an Olympic Games official. Considerably puzzled, Ferrier was confronted by this Edna who was offering her lovely home to provide accommodation for visitors who were about to arrive for the Games.</p>
+<p>Des Fennessy, the editor of a small newspaper, the Port Phillip Gazette, was about to cover it. Keith asked Barry: could he write about it? Barry said: 'Look, I wouldn't bother. It's not worthwhile. The Mrs thing is just a one-night stand.'</p>
+<p>It was a one-night stand on which the sun never set, and honours have showered down like leaves in the Treasury Gardens. Humphries received the Order of Australia in 1982. There have been two honorary doctorates, one from Griffith University in Queensland and another from the University of Melbourne. It was nice to parade there in magnificent gown and hat as Doctor of Laws, when as a law student in the 1950s he had hardly ever attended lectures. There was the Sir Peter Ustinov Award for Comedy in Banff in 1997, literary awards for his autobiography More Please, and illustrious awards for his show Dame Edna: The Royal Tour.</p>
+<p>Then in 2005 Humphries' name appeared on the pavement outside St Paul's Church, the actors' church in Covent Garden, London.</p>
+<p>Barry liked this. 'It's in the very area of Pygmalion and My Fair Lady, just where Eliza Doolittle sold her flowers. My star is between those of Sean Connery and Michael Caine.'</p>
+<p>The challenge for Barry and Dame Edna was the United States. It was difficult for people to export the utterly indigenous Edna across the border to Sydney. It took nigh on a decade before the Poms of England recognised their national treasure. How much more difficult it was to transplant her across the Atlantic.</p>
+<p>The first foray with Housewife Superstar! in 1977 was a disaster. In those days the classic thing after a Broadway show was to go to the famous restaurant Sardi's where the autographed photos of those who have been triumphant in the past adorn the walls. It was traditional to wait for the first editions of the newspapers, and particularly the New York Times. If the Times wasn't nice then the show was doomed.</p>
+<p>Barry wrote that the post-show party was 'cautiously ebullient'. However after the notices appeared, the guests disappeared as quickly as water on a hot tin roof and Sardi's was deserted. The news was far from nice. The Times had a temporary critic for the day and he described the show as abysmal. To make matters worse, they had to run a correction the next day: they had misspelled the word abysmal. An Adelaide newspaper carried the headline: 'Bazza Goes Down in New York Like a Jaffa Down the Liftwell of the Empire State.'</p>
+<p>In 2000 he decided to try again, but this time in San Francisco. 'You know San Francisco,' he said. 'I thought I would at least get an all-male audience, and I had been seen in quite a lot of shows on cable television. I was very nervous — would it be like last time?'</p>
+<p>It wasn't. The success was instant and Dame Edna: The Royal Tour ran for four months. With that result there was an invitation — come to New York. No bad reviews this time. His show received a Special Tony Award for a live theatrical event, a Special Achievement Award from the Outer Critics Circle and a Best Play Award from the National Broadway Theatre. The Sardi's gallery of greats had no space for Barry Humphries — it was a different story in 2000 when he was there with Barrymore, Bogart, Jimmy Stewart and other luminaries.</p>
+<p>He toured in city after city all over North America right into 2001. He did it again in 2004.</p>
+<p>Now he believed Edna could get away with anything. There were jokes in New York about Catholics, jokes about blacks, even jokes about Jews. 'That's all right,' he said, 'Edna likes to think she is just a little bit Jewish.' There were gags about President Bush. Oh yes, President Bush was now a close friend — so much so that Edna sent him a gift of an atlas. After this the President called Edna at 4 a.m. and said, 'I've got the atlas and been at the index, but I can't see &quot;Overseas&quot;.'</p>
+<p>The New York Times compared him with great comedians such as Charlie Chaplin, Lenny Bruce and Richard Pryor, and the New Yorker thought he had single-handedly taken the tradition of vaudeville and glorious frivolity into the twenty-first century.</p>
+<p>Just occasionally Edna's brilliant non-use of political correctness caused trouble. Edna was asked if she should learn Spanish. Edna replied: 'Spanish? There's nothing in that language worth reading except Don Quixote. And who speaks it that you are really going to talk to? The help? Your leaf blower?'</p>
+<p>Edna was taking on the well-heeled Americans who hired low-wage Hispanic domestic workers, but the Hispanic community was outraged, the fury went round the globe and Vanity Fair had to publish a full-page apology. Edna said, 'I'm not racist. I love all races, particularly white people. I even like Roman Catholics.'</p>
+<p>Edna is just the start. Lurking under the urbane Humphries exterior is a real desire to release Sir Les Patterson. His American agents have thought differently. 'Don't,' they say. The 'don't' is so vehement it could be like the signs which say 'Don't Even Think of Parking Here.'</p>
+<p>Humphries prefers to rely on his gut instincts. In 2005 after his last show in New York, he gave New Yorkers a touch of Sir Les. 'I chose a little place in the garment district. It was called The Zipper, and I called my show Les Patterson Unzipped. I only did it for one night, but it was a huge success. The place was packed. I am planning to do another show at a burlesque theatre in Los Angeles.'</p>
+<p>There is no evidence he is about to stop. Starting in 2005, he was appearing in ten cities across North America, which would keep him occupied until spring 2006. At 71, Dame Edna showed not the slightest elderly calm. Indeed her dancing was getting better.</p>
+<p>Barry returned to Melbourne briefly in September and Dame Edna, dressed in a gorgeous boat-neck dress with Stetsons plastered down the front, appeared at the football Grand Final at the Melbourne Cricket Ground. She sang to a crowd of 92,000 people and according to the Sunday Age she stole the show. She even helped lead the West Coast Eagles and Sydney Swans football teams waving gladdies.</p>
+<p>His actions shocked some. Here was the man who once hid in the lavatory at Melbourne Grammar rather than play football. He had also won two medals from the Anti-Football League for the manner in which he had expressed his dislike for the game.</p>
+<p>'You must understand,' he said soothingly, 'my actions were entirely venal. The football people paid me to be there. I actually left before the game started and handed my seat to a worthy person. I went down to the National Gallery in St Kilda Road which was absolutely wonderful. Because of the football I was the only one there.'</p>
+<p>Lizzie, his fourth wife, daughter of Sir Stephen and Lady Spender, joins him about every third town. He married first when he was 21. His bride, Brenda Wright, was 19. They were far too young and the marriage was brief. His second wife, Rosalind Tong, was a dancer. They had two daughters, Tessa and Emily. Diane Millstead, an artist, was his third wife. They had two sons, Rupert and Oscar.</p>
+<p>Barry said, 'Rupert is in Edinburgh doing a master's degree in English. He wants to get into film production. Oscar has gone into partnership in a small public relations company. Tessa is looking after the other children and she is getting ready for a new art exhibition. Emily is happily married to a composer.'</p>
+<p>He has three houses: one in Sydney, one in London and another in Switzerland. The Swiss house is only ten minutes walk from a ski run. Lizzie loves skiing.</p>
+<p>So when will he retire? There is no evidence of such a move. He is planning a 'huge show' for Melbourne towards the end of 2006. It will be a 50-year celebration and he thinks he will call it Hear It's an Excellent Show. In 2007 he is booked to perform in London.</p>
+<p>How about spare time for his holiday house in Switzerland? Very little. There are constant press interviews, appearances on TV shows like Parkinson, public speaking engagements, getting ready for his own art shows, doing a cameo appearance in the TV show Kath and Kim, and trying to sort out his library.</p>
+<p>'I have 17,000 books,' he said. 'Too many. I have been getting them put in order and properly catalogued. I try to throw some away. But I went to one box recently, pulled out a book and a pink threepenny tram ticket fell out. It was one I read on the way to school at Melbourne Grammar. The next I pulled out was a prize that I received from the ABC Argonauts' Club.'</p>
+<p>'I didn't throw away anything.'</p>
+</div>
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+
+  <p class="lead">
+        Follows Dame Edna&#39;s decades-long conquest of international audiences, from her disastrous New York debut in 1977 to her Tony Award-winning triumph in 2000, and surveys Humphries&#39;s private life, his family, his three houses, and his plans for the future.
+      </p>
+
+
+<hr>
+<h4 class="h6">Topics in this item</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/barry-humphries/" class="link-secondary">Barry Humphries</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Barry Humphries">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/edna-everage/" class="link-secondary">Edna Everage</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Edna Everage">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/gough-whitlam/" class="link-secondary">Gough Whitlam</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Gough Whitlam">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/sir-les-patterson/" class="link-secondary">Sir Les Patterson</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sir Les Patterson">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/university-of-melbourne/" class="link-secondary">University of Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="University of Melbourne">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/barry-humphries/" class="link-secondary">Barry Humphries</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Barry Humphries">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/edna-everage/" class="link-secondary">Edna Everage</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Edna Everage">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/gough-whitlam/" class="link-secondary">Gough Whitlam</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Gough Whitlam">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/sir-les-patterson/" class="link-secondary">Sir Les Patterson</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sir Les Patterson">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/university-of-melbourne/" class="link-secondary">University of Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="University of Melbourne">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

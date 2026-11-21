@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-03-18-whatever-happened-to-the-old-cricket-fury.md

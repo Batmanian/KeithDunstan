@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-03-25-the-siege-of-rutherglen.md

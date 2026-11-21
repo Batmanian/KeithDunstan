@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-12-02-on-holey-ground.md

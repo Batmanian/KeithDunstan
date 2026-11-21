@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-11-18-manning-the-ramparts.md

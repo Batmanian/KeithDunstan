@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-10-21-outracing-the-race-of-the-year.md

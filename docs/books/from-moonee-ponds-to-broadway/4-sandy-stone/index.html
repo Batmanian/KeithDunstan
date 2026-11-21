@@ -1,0 +1,494 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sandy Stone</title>
+<meta name="title" content="Sandy Stone">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Introduces Sandy Stone, Humphries&#39;s second great character, the gentle and profoundly boring ghost of suburban Glen Iris, and traces his origins to a chance encounter on Bondi Beach before examining the creation of Sir Les Patterson, the slobbering cultural attaché.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/from-moonee-ponds-to-broadway/4-sandy-stone/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Sandy Stone">
+<meta property="og:description" content="Introduces Sandy Stone, Humphries&#39;s second great character, the gentle and profoundly boring ghost of suburban Glen Iris, and traces his origins to a chance encounter on Bondi Beach before examining the creation of Sir Les Patterson, the slobbering cultural attaché.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Sandy Stone">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/from-moonee-ponds-to-broadway/4-sandy-stone/">
+<meta name="twitter:title" content="Sandy Stone">
+<meta name="twitter:description" content="Introduces Sandy Stone, Humphries&#39;s second great character, the gentle and profoundly boring ghost of suburban Glen Iris, and traces his origins to a chance encounter on Bondi Beach before examining the creation of Sir Les Patterson, the slobbering cultural attaché.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Sandy Stone">
+<link rel="canonical" href="https://keithdunstan.org/books/from-moonee-ponds-to-broadway/4-sandy-stone/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="2006-01-01">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="From Moonee Ponds To Broadway">
+<meta property="article:tag" content="Barry Humphries">
+<meta property="article:tag" content="Barry McKenzie">
+<meta property="article:tag" content="Edna Everage">
+<meta property="article:tag" content="Melbourne">
+<meta property="article:tag" content="Robin Boyd">
+<meta property="article:tag" content="Sir Les Patterson">
+<meta property="article:tag" content="Sandy Stone">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">Sandy Stone</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            7
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="2006-01-01">2006</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Introduces Sandy Stone, Humphries&#39;s second great character, the gentle and profoundly boring ghost of suburban Glen Iris, and traces his origins to a chance encounter on Bondi Beach before examining the creation of Sir Les Patterson, the slobbering cultural attaché.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="From Moonee Ponds To Broadway">
+         <!--<a href="/tags/barry-humphries/" class="btn btn-outline-dark btn-sm me-2">Barry Humphries</a><a href="/tags/barry-mckenzie/" class="btn btn-outline-dark btn-sm me-2">Barry McKenzie</a><a href="/tags/edna-everage/" class="btn btn-outline-dark btn-sm me-2">Edna Everage</a><a href="/tags/melbourne/" class="btn btn-outline-dark btn-sm me-2">Melbourne</a><a href="/tags/robin-boyd/" class="btn btn-outline-dark btn-sm me-2">Robin Boyd</a><a href="/tags/sir-les-patterson/" class="btn btn-outline-dark btn-sm me-2">Sir Les Patterson</a><a href="/tags/sandy-stone/" class="btn btn-outline-dark btn-sm me-2">Sandy Stone</a>-->
+
+        
+      </header>
+      <div class="article-body"><p>The name is impressive enough: Alexander Horace Stone, still resident as a ghost at Kiaora, 36 Gallipoli Crescent, Glen Iris. However, he is better known as Sandy, and Sandy Stone is Humphries' second creation, just three years younger than Dame Edna. The difference between the two is spellbinding, and dare one say it, Sandy is the greater.</p>
+<p>Sandy Stone, if he is not there already, will become one of the great characters of Australian folklore. You could compare him with Ginger Mick, the Sentimental Bloke, Dad and Dave or Clancy of the Overflow.</p>
+<p>Sandy is a passive character. He doesn't do anything. He sits there in his Genoa velvet armchair wearing his striped pyjamas and threadbare woollen dressing gown. He is clutching a hot water bottle, his hottie, and he just rambles along on the most humdrum things, mentioning every product, street and place, every piece of useless information you can imagine. Sandy has a character that was so boring the audience would panic. Sandy was the personification of boredom and drear. Think of somebody who was 100 per cent boring and Sandy would be the benchmark. You could classify people as 80 per cent Sandy or 42 per cent Sandy.</p>
+<p>Ah, but Sandy is anything but boring. Humphries has a photographic memory. It's another of his gifts, virtual total recall. He will go into Sandy and fill him with memories. Sandy comes from his memory of the fibro weatherboard and cream brick suburbs of Melbourne. This is what he does and this is what he is.</p>
+<p>Humphries was quite right. When Barry Humphries was in London in 1960 he borrowed a tape recorder from a carnival. He started listing advertising products, places, slogans, anything that came to him from his distant past: Buckley's Canadiol Mixture ... Pix ... Ice! Dixie! Ice! ... Penn-Nestles ... Doctor Morse's Indian Root Pills ... Reckitt's Blue ... Blue Gillette ... Luna Park ... Half Moon Bay ... Wardrop My Tailor ... Rosella Tomato Soup ... Hosie's Hotel ... Young &amp; Jackson's ... The Federal ... Ashburton — Alamein Line ... Flinders Street, East Richmond, Richmond, Burnley, Glenferrie, Hawthorn, Auburn, Camberwell, East Camberwell ... Irish Moss Gum Jubes ... PK ... Spearmint ... Clements Tonic ...</p>
+<p>This was hardly a success at the time, but Barry thought it was one of the best things he ever did. It is now a rare classic and sought after by all Sandy lovers.</p>
+<p>Barry says the idea for Sandy Stone came to him in 1956 when he was working at the Phillip Street Theatre. He was worried that no one in radio or the theatre ever got the Australian accent quite right. He was walking along Bondi Beach when he met a character, about 65 years old, who spoke to him in a cracked falsetto voice, with 'thin sandy hair and rosily capillaried cheeks', wearing a two-toned cardigan and a pair of 'marsupial freckled paws'. He had the right tone of voice, the decent humdrum drawl.</p>
+<p>The first episode of Sandy Stone appeared on a small record, Wild Life in Suburbia. Edna Everage the Olympic Hostess was on one side and Sandy Stone was on the other. Comments on the record sleeve were by our most celebrated architect, Robin Boyd. He said: 'He has the modern Australian way of life stretched out and pinned down with needles. He has us taped in killing caricature: our accent, intonation, vocabulary, the shattered syntax, the activities, accessories, diet — and through it all the ghastly proprieties, the crazily clumsy genteelness of brick-veneer suburbia.'</p>
+<p>This was the kick-start. Robin Boyd was the arbiter of taste. It was important now to see Barry Humphries. His fame was spreading well beyond St Kilda Road.</p>
+<p>In a Sandy Stone monologue, one speaks of the most ordinary suburban activities with such tenderness and nostalgia. 'Melbourne's always a bit below par in the weather. Sandy has performed himself. He has condemned himself. He performed in cabaret. Where there's the St Georges Leagues Club in Sydney.' Like Edna his career improved with amazing speed. He became an official in the Plasterer's Union. He graduated from there into politics where he rose to the lofty office of Minister for Shark Conservation in the Whitlam Government. He was a devoted drinking mate of Sir John Kerr, and from there he picked up a scintillating appointment in London as Australian Cultural Attaché in 1976. In Housewife Superstar! in 1977 he picked up a knighthood and was Sir Les.</p>
+<p>Sandy Stone has preserved certain memories in pickle bottles that used to be on the pantry shelf. So listening to Sandy Stone there is an overwhelming feeling of sadness and nostalgia. Sandy Stone, of course, died in a number of attempts to leave. But finally he went in that year. Yet like most ghosts, he is still performing.</p>
+<h2 id="sandy-and-les">Sandy and Les</h2>
+<p>Sandy's death proved an unsatisfactory affair. As Barry Humphries has pointed out, it is not easy putting Sir Les and Dame Edna on the same programme. Les comes from Sydney, Edna comes from Melbourne. Edna is as lavishingly dressed as a Buckingham Palace chandelier; Les looks as if he has just been thrown out of a Redfern bar. His skin is blotchy, his clothes are food and drink stained, and he has a constantly receding chin and his remarkable protruding teeth.</p>
+<p>On the other hand, Sir Les Patterson has one particular eye-catching feature: the bulge to the right side of his crotch. It is a special piece of padding sewn into the trousers, but it looks the size of a German sausage. Sir Les is so proud of this he makes repeated references to the quality of his manhood. As a further addition to his charm, Les slobbers, and he tends to spray anyone who is sitting in the front row.</p>
+<p>His dialogue frequently goes like this:</p>
+<p>'I've got a confession to make to you and I'm going to make a clean breast of it now: I've had a drink tonight. I've had a couple of drinks as a matter of fact — who hasn't for Christ's sakes. To tell you the truth, I'm as full as a fairy's phone book. I'm as full as a state school hat rack. I'm as full as two race trains. I'm as full as a seaside shithouse on Boxing Day ... Please forgive me.'</p>
+<p>One reason: Sir Les Patterson's favourite expressions include 'Never Trust a Man Who Doesn't Drink', 'The Chunder Song', and 'Poofters in the Arts'.</p>
+<p>Sir Les is overtly, completely and triumphantly sexual. He has a chorus of beautiful girls dancing behind him, 'The Lesettes'. According to Barry, 'The fact that most healthy women are sexually attracted to Sir Les contributes in no small measure to my pleasure in inhabiting him.'</p>
+<p>Sir Alec Guinness did not care for Edna's peculiarities; he loved Sandy Stone and even wanted to play him. But as for Les, he thought he was ghastly.</p>
+<p>Barry does actually live these characters. It is fascinating to be with him when he receives a telephone call. The call may be from a radio station and the situation requires that he be Dame Edna. Instantly he is the overpowering, fanatically sincere character. He seals himself off from the outside world.</p>
+<p>Anyone who meets Humphries finds a master of urbanity. There is something about him that reminds you of a dandy of the 1890s. You could see him with Aubrey Beardsley and Max Beerbohm. His suits come from the very best tailors. He wears Jermyn Street shirts. There is a handkerchief in his fob pocket and he has beautiful hats. He was a little more rakish in the late seventies when he wore a monocle and carried a cane, but after seeing Mr Humphries you would be inclined to feel just a little dowdy.</p>
+<p>One suspects this perfection in dress is a form of defence. He is not really Dame Edna Everage. He is certainly not Sir Les, and forgive him for not really being Sandy Stone. These are other people, nothing to do with him really. Never make the mistake of mixing your characters and saying 'Hello Barry' when Mr Humphries is dressed as Edna. The result is not good.</p>
+</div>
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+
+  <p class="lead">
+        Introduces Sandy Stone, Humphries&#39;s second great character, the gentle and profoundly boring ghost of suburban Glen Iris, and traces his origins to a chance encounter on Bondi Beach before examining the creation of Sir Les Patterson, the slobbering cultural attaché.
+      </p>
+
+
+<hr>
+<h4 class="h6">Topics in this item</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/barry-humphries/" class="link-secondary">Barry Humphries</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Barry Humphries">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/barry-mckenzie/" class="link-secondary">Barry McKenzie</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Barry McKenzie">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/edna-everage/" class="link-secondary">Edna Everage</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Edna Everage">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/robin-boyd/" class="link-secondary">Robin Boyd</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Robin Boyd">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/sandy-stone/" class="link-secondary">Sandy Stone</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sandy Stone">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/sir-les-patterson/" class="link-secondary">Sir Les Patterson</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sir Les Patterson">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/barry-humphries/" class="link-secondary">Barry Humphries</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Barry Humphries">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/barry-mckenzie/" class="link-secondary">Barry McKenzie</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Barry McKenzie">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/edna-everage/" class="link-secondary">Edna Everage</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Edna Everage">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/robin-boyd/" class="link-secondary">Robin Boyd</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Robin Boyd">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/sandy-stone/" class="link-secondary">Sandy Stone</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sandy Stone">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/sir-les-patterson/" class="link-secondary">Sir Les Patterson</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Sir Les Patterson">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

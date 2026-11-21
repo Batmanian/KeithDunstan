@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-06-17-graduates-of-the-money-game.md

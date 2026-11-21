@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-09-23-grease-up-to-your-ducktail-hairdo.md

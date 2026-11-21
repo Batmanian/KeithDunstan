@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-09-30-its-been-a-very-hard-month.md

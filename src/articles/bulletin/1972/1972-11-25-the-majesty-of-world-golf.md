@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-11-25-the-majesty-of-world-golf.md

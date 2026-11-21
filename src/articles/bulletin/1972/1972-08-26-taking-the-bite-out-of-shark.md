@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-08-26-taking-the-bite-out-of-shark.md

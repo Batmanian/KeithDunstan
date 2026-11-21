@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-07-08-stooping-to-the-sin-of-judas.md

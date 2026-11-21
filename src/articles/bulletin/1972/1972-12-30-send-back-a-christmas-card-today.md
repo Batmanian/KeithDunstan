@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-12-30-send-back-a-christmas-card-today.md

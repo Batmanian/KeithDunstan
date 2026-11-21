@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-07-01-the-playing-fields-of-oakleigh-motel.md

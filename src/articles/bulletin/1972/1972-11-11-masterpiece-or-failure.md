@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-11-11-masterpiece-or-failure.md

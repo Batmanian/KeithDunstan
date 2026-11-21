@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-08-19-bazza-arrives-on-the-silver-screen.md

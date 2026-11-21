@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-04-15-a-lovely-war-at-the-werribee-gorge.md

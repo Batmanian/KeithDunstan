@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-03-11-tourists-adore-this-horror.md

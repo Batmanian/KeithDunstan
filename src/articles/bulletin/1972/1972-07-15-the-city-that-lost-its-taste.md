@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-07-15-the-city-that-lost-its-taste.md

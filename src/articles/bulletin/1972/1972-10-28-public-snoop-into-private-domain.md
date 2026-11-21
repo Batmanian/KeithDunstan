@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-10-28-public-snoop-into-private-domain.md

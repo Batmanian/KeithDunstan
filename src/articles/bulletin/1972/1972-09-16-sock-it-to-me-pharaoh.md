@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-09-16-sock-it-to-me-pharaoh.md

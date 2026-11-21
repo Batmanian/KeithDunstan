@@ -1,0 +1,506 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The spawning of a rebel</title>
+<meta name="title" content="The spawning of a rebel">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Traces Barry Humphries&#39;s upbringing in Camberwell, his art education under George Bell, his loathing of sport at Melbourne Grammar, his brief university career, and the Dada provocations and nostalgia-soaked Melbourne campaigns of his early years.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/books/from-moonee-ponds-to-broadway/2-the-spawning-of-a-rebel/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="The spawning of a rebel">
+<meta property="og:description" content="Traces Barry Humphries&#39;s upbringing in Camberwell, his art education under George Bell, his loathing of sport at Melbourne Grammar, his brief university career, and the Dada provocations and nostalgia-soaked Melbourne campaigns of his early years.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="The spawning of a rebel">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/books/from-moonee-ponds-to-broadway/2-the-spawning-of-a-rebel/">
+<meta name="twitter:title" content="The spawning of a rebel">
+<meta name="twitter:description" content="Traces Barry Humphries&#39;s upbringing in Camberwell, his art education under George Bell, his loathing of sport at Melbourne Grammar, his brief university career, and the Dada provocations and nostalgia-soaked Melbourne campaigns of his early years.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="The spawning of a rebel">
+<link rel="canonical" href="https://keithdunstan.org/books/from-moonee-ponds-to-broadway/2-the-spawning-of-a-rebel/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="2006-01-01">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="From Moonee Ponds To Broadway">
+<meta property="article:tag" content="Barry Humphries">
+<meta property="article:tag" content="Camberwell">
+<meta property="article:tag" content="George Bell">
+<meta property="article:tag" content="Melbourne">
+<meta property="article:tag" content="Melbourne Grammar">
+<meta property="article:tag" content="Moonee Ponds">
+<meta property="article:tag" content="Robin Boyd">
+<meta property="article:tag" content="University of Melbourne">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">The spawning of a rebel</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            8
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="2006-01-01">2006</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Traces Barry Humphries&#39;s upbringing in Camberwell, his art education under George Bell, his loathing of sport at Melbourne Grammar, his brief university career, and the Dada provocations and nostalgia-soaked Melbourne campaigns of his early years.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="From Moonee Ponds To Broadway">
+         <!--<a href="/tags/barry-humphries/" class="btn btn-outline-dark btn-sm me-2">Barry Humphries</a><a href="/tags/camberwell/" class="btn btn-outline-dark btn-sm me-2">Camberwell</a><a href="/tags/george-bell/" class="btn btn-outline-dark btn-sm me-2">George Bell</a><a href="/tags/melbourne/" class="btn btn-outline-dark btn-sm me-2">Melbourne</a><a href="/tags/melbourne-grammar/" class="btn btn-outline-dark btn-sm me-2">Melbourne Grammar</a><a href="/tags/moonee-ponds/" class="btn btn-outline-dark btn-sm me-2">Moonee Ponds</a><a href="/tags/robin-boyd/" class="btn btn-outline-dark btn-sm me-2">Robin Boyd</a><a href="/tags/university-of-melbourne/" class="btn btn-outline-dark btn-sm me-2">University of Melbourne</a>-->
+
+        
+      </header>
+      <div class="article-body"><p>John Barry Humphries was born on 17 February 1934 and grew up at 36 Christowel Street, Camberwell. It was a suburb that was middle class, respectable, white, Anglican-Presbyterian, and Protestant as far as the eye could see. Furthermore, it was not far from Burke Road, which some journalists have described as one of the longest stretches of well-stuffed suburbia in the world.</p>
+<p>Camberwell had a narrow escape. When Barry picked on lower middle-class suburb Moonee Ponds for his first Edna Everage sketches he did so fearful that a Camberwell Edna might offend his mother. Like most Camberwellians he had never been to Moonee Ponds.</p>
+<p>Melbourne for the young Humphries was suffocating and had little resemblance to the city of today. The hotels by law closed at 6 p.m., when patrons indulged in the 'six o'clock swill'. There were few restaurants that served edible food and even fewer had licences. Those that did had to order all glasses off the table at 8 p.m. It was a sin to drink after dark. The Melburnian Sunday was so sepulchral it was almost a tourist attraction. No theatres, no movies, no sport, and virtually nowhere to eat. There were no Sunday newspapers because of a belief that newsboys calling out lurid headlines might disturb churchgoers. Politicians were determined to protect tender minds and in 1952 the Customs Department —</p>
+<p>His father was a successful builder, and Barry went on suburban drives looking at architecture. Humphries produced all the classic styles of the period: the Spanish mission style of the 1930s, the dark brick bungalows of the 1940s, and the cream-painted brick veneers of the 1940s. He often wondered whether there were similar bungalows in California.</p>
+<p>The problem was this: here was a young man, unquestionably the cleverest of his generation, and his parents had great difficulty in handling him. Many of the titles of his later works were actual sayings that came from his mother: 'My Gorgeous Life', 'Look at Me When I'm Talking to You', 'Remember You're Out.'</p>
+<p>Barry's parents read little and did not share his cultural interests, but his mother did get him into art lessons from well-known artist George Bell. Barry was 17 at the time and Mr Bell used his studio at the time of Mornington. What I encountered on Saturday mornings were a number of people in corduroy coats, sandals and beards; a strong smell of turpentine, a woodchip stove and a studio in the back garden. And in the middle of the room, sitting on a pedestal, there was a naked woman, pink all down one side, because of the proximity of the woodchip stove, rather blue down the other side. 'I was by far the youngest person there and I thought, &quot;Does my mother know what she's paying for?&quot;'</p>
+<p>'Every morning I drew these pictures of naked women but I decided to leave them at George Bell's studio because my mother inevitably said, &quot;What did you do today, dear? Can I see some of your work?&quot; And I thought if I tell her it is not exactly still life or milk bottles, the course may come to an abrupt end. So somewhere in my archives I am sure there is a large pile of drawings of a Melbourne model, circa 1951, corrected in the hand of George Bell. He didn't think much of the way I drew knees.'</p>
+<p>Barry's parents attended Melbourne Grammar, that illustrious private school, but its devotion to sport was paramount. The school song, a real rabble-rouser, was sung to the tune of 'Men of Harlech', with lines like: 'None our ranks will sunder. Who would shirk or blunder.'</p>
+<p>The young Humphries believed sport was a waste of time and he specialised in shirking. Out on the football field, as soon as a prefect ticked off his name he would vanish into a cubicle in the school lavatories. There with the aid of an accomplice who pushed a Gladstone bag through the door he would do a quick change back into his school clothes and nick off home.</p>
+<p>Eventually he was caught. There was a knock on the door of the lavatory and there was the Neanderthal figure of the school captain. 'The game's up Humphries ...' He had committed the ultimate blasphemy, not wanting to play. From then on he had the nickname 'Queenie' Humphries.</p>
+<p>Humphries attended the University of Melbourne between 1951 and 1953 and, as he put it, yawned his way through Law, rarely attended lectures and did not pass an exam. Not because of any lack of skills — already he had proved himself a brilliant scholar.</p>
+<p>However at university he devoted his time to taking part in revues and staging several now famous Dada exhibitions. Dada was an international movement designed to shock and disturb. Nobody did it better than Humphries.</p>
+<p>He staged a series of exhibitions. There were sculptures made of cake and offal. There were piescapes, forkscapes, shoescapes. One shoescape was a boot full of custard called Pus in Boots. He had sculptures made out of old forks found in a tip. Anyone who can find an original Humphries forkscape would now value it like a Tom Roberts or an Arthur Boyd. At least forks were slightly impermeable, but the others were very different.</p>
+<p>For example, he had an exhibition of pies. He claimed that his piescapes, unlike most modern art, had a wonderful advantage: they could only last two days. One picture was titled 'I Ate a Pie and I Coughed'. At the opening he poured a bottle of Rosella Tomato Sauce over his head and announced that this was his tribute to Australia's national drink.</p>
+<p>He conducted a campaign against the unbearable conformity of suburbia. For example, there was the Ashburton Line incident. He took a seat in the early morning train, non-smoker first class. He had accomplices stationed at stops all along the line. At the first stop an accomplice opened the carriage door and silently passed in grapefruit. At the next stop another passed in some cornflakes, at the next bacon and eggs, and the next toast and finally coffee. There was no pay-off, no reporters present. To have explained the actions would have spoilt everything.</p>
+<p>After failing at university, what was he to do? His parents found him a job at the EMI record company in Flinders Lane. The new long-playing records had just come in and the old 78 rpms were obsolete. 'They put me in a room,' Humphries said, 'with no windows. My job was to break up the old discs. Heartbreak it was —'</p>
+<p>Humphries lived in Melbourne at a time when newspapers had discovered their power, replacing anything from the nineteenth century with concrete and steel. But Humphries had this quirky mind. He loved old advertising signs. He looked upon advertising as the fingerprints, the living marks of a generation. The Greeks left behind marble statues, the Australians left behind Hutton's Hams mirrors and black men in shirts saying 'Mine Tinkit They Fit.'</p>
+<p>During the Melbourne Sun newspaper one day he became very excited. He had found a Dr Morse's Indian Root Pills sign in mint condition, just off Lonsdale Street. He rushed to it and demanded homage to the healing doctor. He opened a bottle of champagne, toasted Dr Morse, and then ordered that glasses be thrown against the wall.</p>
+<p>He fought to save Her Majesty's Theatre and the Princess Theatre from destruction. He stood on the roof of a building at Abbotsford to battle for one of the city's icons, Little Audrey the Skipping Girl, who advertised in neon, Skipping Girl Vinegar. She was more vital than new freeways, thought Barry, and he wrote a poem praying that she would go on skipping forever.</p>
+<p>His nostalgia took the strangest forms. In 1959 he went to London and had a successful season there. He remembered the wartime days when people saved for the war effort and successful communities were allowed to decorate their telegraph poles with a sign: 'This is a War Savings Street.' Humphries put out an appeal and found, sixteen years after the war's end, streets in Hampton, Windsor and Ascot Vale still sporting these signs. Qantas flying him to London, Humphries nailed one of these signs to 10 Downing Street.</p>
+<p>He pointed out that residents in Clayton, Highett, McKinnon and Nunawading might be unhappy they didn't get into the act, but he was preparing signs for them: 'This Might Have Been a War Savings Street.'</p>
+<p>During World War II patriotic Australians sent tins of fat to England, which in some strange manner helped save noble Britons from starvation. From London Humphries wrote a letter to Melbourne's Sun with this request: 'I am most anxious to trace a perfect example of a &quot;Fat for Britain&quot; tin. Those examples in the Society's London Museum are somewhat dented. I understand that there was until recently a &quot;Fat for Britain&quot; depot somewhere in Pascoe Vale, run by an elderly lady who was under the impression that the war was still on.'</p>
+<p>This love of nostalgia and keeping Melbourne the way it is did not die. In 2004 the Victorian Government announced plans for an ugly commercial tower over Camberwell Railway Station. Barry did not want anyone interfering with his beloved Camberwell. He and actor Geoffrey Rush led a march in protest.</p>
+</div>
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+
+  <p class="lead">
+        Traces Barry Humphries&#39;s upbringing in Camberwell, his art education under George Bell, his loathing of sport at Melbourne Grammar, his brief university career, and the Dada provocations and nostalgia-soaked Melbourne campaigns of his early years.
+      </p>
+
+
+<hr>
+<h4 class="h6">Topics in this item</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/barry-humphries/" class="link-secondary">Barry Humphries</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Barry Humphries">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/camberwell/" class="link-secondary">Camberwell</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Camberwell">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/george-bell/" class="link-secondary">George Bell</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="George Bell">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne-grammar/" class="link-secondary">Melbourne Grammar</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne Grammar">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/moonee-ponds/" class="link-secondary">Moonee Ponds</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Moonee Ponds">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/robin-boyd/" class="link-secondary">Robin Boyd</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Robin Boyd">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/university-of-melbourne/" class="link-secondary">University of Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="University of Melbourne">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/barry-humphries/" class="link-secondary">Barry Humphries</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Barry Humphries">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/camberwell/" class="link-secondary">Camberwell</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Camberwell">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/george-bell/" class="link-secondary">George Bell</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="George Bell">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne-grammar/" class="link-secondary">Melbourne Grammar</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne Grammar">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/moonee-ponds/" class="link-secondary">Moonee Ponds</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Moonee Ponds">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/robin-boyd/" class="link-secondary">Robin Boyd</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Robin Boyd">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/university-of-melbourne/" class="link-secondary">University of Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="University of Melbourne">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

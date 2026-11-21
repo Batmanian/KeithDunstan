@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-04-08-how-groceries-went-foreign.md

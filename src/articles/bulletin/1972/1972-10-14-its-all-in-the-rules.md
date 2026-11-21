@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-10-14-its-all-in-the-rules.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-06-24-the-winter-of-their-discontent.md

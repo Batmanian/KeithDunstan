@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-02-05-pioneering-at-50-a-day.md

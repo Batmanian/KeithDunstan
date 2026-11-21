@@ -93,6 +93,36 @@ tags:
 
 ---
 
+## Style and typography
+
+These rules apply when transcribing body text. The archive spans work from the 1960s to the 2000s and some earlier transcriptions are inconsistent — apply these standards to new transcriptions and when editing existing files.
+
+**Honorifics:** `Mr`, `Mrs`, `Dr`, `Sir` — no trailing period (Australian/British style). Some early 1960s Bulletin transcriptions show `Mr.` from original typesetting; normalize to no-period when transcribing unless preserving a quoted passage verbatim.
+
+**Initials:** Spaced with periods — `G. J. Coles`, `W. G. Grace`, `E. W. Tipping`. Every entry in `topics.md` that uses initials follows this pattern; apply it when creating new `topics.md` entries too. This is the canonical form that prevents tag slug collisions — `G.J. Coles` and `G. J. Coles` produce the same URL slug and will crash the build.
+
+**Dialogue:** Single quotes for all speech — `'like this'`. Double quotes only for a quote embedded within a quote, or for a block of quoted text from another publication (e.g. reproducing a passage from *The Bulletin* or the BBC). Never use typographic curly quotes — straight ASCII quotes only.
+
+**Titles:** Markdown italics for all book, film, newspaper, magazine, and television titles — `*The Bulletin*`, `*The Age*`, `*No Brains At All*`. Not HTML `<i>` tags; not "quotation marks". Short works (songs, articles, episodes) may use single quotes if needed but prefer italics.
+
+**Em-dashes:** True em-dash `—` with a space either side — ` — `. Never double-hyphen `--` or en-dash `–`. Exception: `summary` frontmatter must not use em-dashes at all (use a comma instead — see summary rules above).
+
+**Ellipsis:** Three separate full stops `...` with no space before them. Not the Unicode ellipsis character `…`.
+
+**Numbers:** Spell out one through nine in prose (`three weeks`, `five years`); use numerals for 10 and above, and always for statistics, ages, measurements, money, and years (`15 April`, `£500`, `99.7 per cent`, `122,000 capacity`).
+
+**Percentages:** `per cent` — two words. Never `%` or `percent`.
+
+**Dates in body text:** Day Month Year, no ordinal suffix — `15 April 1962`, not `15th April 1962` or `April 15, 1962`. Day of week may precede: `Friday, 15 April 1962`.
+
+**Currency:** Pre-decimal: `£5`, `10 shillings`, `10/6` (ten shillings sixpence), `2d` (pence). No space between symbol and numeral. Decimal: `$5`. Use the form closest to what Keith wrote in the original.
+
+**Ampersands:** `and` in running prose; `&` only in proper names and titles as originally published — company names (`Simon & Schuster`), masthead titles (`Truth & Sportsman`).
+
+**Markdown vs HTML in body text:** Use markdown `*italics*` for titles. Use `<h2 id="slug">` for sub-chapter headings (see above). Avoid inline `<i>`, `<em>`, `<b>`, `<strong>` tags in body prose — markdown is preferred and more portable. `<br>` is acceptable for line breaks inside verse or lists where markdown paragraph spacing is wrong.
+
+---
+
 ## Trove API Pipeline
 
 Scripts in `trove/` fetch Keith Dunstan's articles from the National Library of Australia's Trove database via API v3. Output: `.md` files for Eleventy.

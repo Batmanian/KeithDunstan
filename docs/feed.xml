@@ -8,39 +8,11 @@
   <language>en</language>
   <generator>Eleventy</generator>
   <item>
-    <title>Edwardiana at the M.C.G.</title>
-    <link>https://keithdunstan.org/books/the-paddock-that-grew/12-edwardiana-at-the-mcg/</link>
-    <guid isPermaLink="true">https://keithdunstan.org/books/the-paddock-that-grew/12-edwardiana-at-the-mcg/</guid>
-    <pubDate>Wed, 04 Nov 2026 11:00:00 GMT</pubDate>
-    <description>Edwardian Melbourne fills the M.C.G. for Test cricket, cycling and ambitious flying displays, while Trumper, Trumble, Armstrong and Barnes produce extraordinary performances.</description>
-  </item>
-  <item>
-    <title>The Cricketing &#39;Nineties</title>
-    <link>https://keithdunstan.org/books/the-paddock-that-grew/11-the-cricketing-nineties/</link>
-    <guid isPermaLink="true">https://keithdunstan.org/books/the-paddock-that-grew/11-the-cricketing-nineties/</guid>
-    <pubDate>Wed, 04 Nov 2026 11:00:00 GMT</pubDate>
-    <description>The M.C.C. survives the banking crash through profitable cricket tours, as Albert Trott, Clem Hill, Hugh Trumble and a new generation contest the Ashes.</description>
-  </item>
-  <item>
-    <title>The M.C.G. is Born</title>
-    <link>https://keithdunstan.org/books/the-paddock-that-grew/4-the-mcg-is-born/</link>
-    <guid isPermaLink="true">https://keithdunstan.org/books/the-paddock-that-grew/4-the-mcg-is-born/</guid>
-    <pubDate>Wed, 04 Nov 2026 11:00:00 GMT</pubDate>
-    <description>A railway drives the Melbourne Cricket Club from its old ground to the Police Paddock, where intercolonial cricket takes hold and Tommy Wills emerges as a leading player.</description>
-  </item>
-  <item>
-    <title>The Year of Grace</title>
-    <link>https://keithdunstan.org/books/the-paddock-that-grew/7-the-year-of-grace/</link>
-    <guid isPermaLink="true">https://keithdunstan.org/books/the-paddock-that-grew/7-the-year-of-grace/</guid>
-    <pubDate>Wed, 04 Nov 2026 11:00:00 GMT</pubDate>
-    <description>W. G. Grace&#39;s first Australian tour brings brilliant batting, rough country wickets and a bitter dispute over the treatment of professionals.</description>
-  </item>
-  <item>
-    <title>The First of the Tests</title>
-    <link>https://keithdunstan.org/books/the-paddock-that-grew/8-the-first-of-the-tests/</link>
-    <guid isPermaLink="true">https://keithdunstan.org/books/the-paddock-that-grew/8-the-first-of-the-tests/</guid>
-    <pubDate>Wed, 04 Nov 2026 11:00:00 GMT</pubDate>
-    <description>Charles Bannerman&#39;s 165 and Tom Kendall&#39;s bowling bring Australia victory in the first Test match at the M.C.G. in March 1877.</description>
+    <title>The Pedalling Passion</title>
+    <link>https://keithdunstan.org/books/sports/10-the-pedalling-passion/</link>
+    <guid isPermaLink="true">https://keithdunstan.org/books/sports/10-the-pedalling-passion/</guid>
+    <pubDate>Sun, 08 Nov 2026 11:00:00 GMT</pubDate>
+    <description>Traces Australia&#39;s craze for the bicycle from its 1880s arrival through the golden age of professional racing at the Melbourne Cricket Ground, profiling the scandals of &#39;Plugger&#39; Bill Martin, the dignity of &#39;Major&#39; Taylor, the transcontinental records of Hubert Opperman, and the tragic road death of Russell Mockridge.</description>
   </item>
   <item>
     <title>The Return of Grace</title>
@@ -57,11 +29,18 @@
     <description>England&#39;s first touring eleven arrives in 1861, draws an enormous New Year&#39;s Day crowd to the M.C.G. and rewards its enterprising catering promoters with a handsome profit.</description>
   </item>
   <item>
-    <title>The Roaring &#39;Eighties</title>
-    <link>https://keithdunstan.org/books/the-paddock-that-grew/9-the-roaring-eighties/</link>
-    <guid isPermaLink="true">https://keithdunstan.org/books/the-paddock-that-grew/9-the-roaring-eighties/</guid>
+    <title>The M.C.G. is Born</title>
+    <link>https://keithdunstan.org/books/the-paddock-that-grew/4-the-mcg-is-born/</link>
+    <guid isPermaLink="true">https://keithdunstan.org/books/the-paddock-that-grew/4-the-mcg-is-born/</guid>
     <pubDate>Wed, 04 Nov 2026 11:00:00 GMT</pubDate>
-    <description>Boom-time Melbourne gives its cricket club new pavilions, electric lighting experiments and lavish celebrations, while touring teams and football bring both profits and financial risks.</description>
+    <description>A railway drives the Melbourne Cricket Club from its old ground to the Police Paddock, where intercolonial cricket takes hold and Tommy Wills emerges as a leading player.</description>
+  </item>
+  <item>
+    <title>The Cricketing &#39;Nineties</title>
+    <link>https://keithdunstan.org/books/the-paddock-that-grew/11-the-cricketing-nineties/</link>
+    <guid isPermaLink="true">https://keithdunstan.org/books/the-paddock-that-grew/11-the-cricketing-nineties/</guid>
+    <pubDate>Wed, 04 Nov 2026 11:00:00 GMT</pubDate>
+    <description>The M.C.C. survives the banking crash through profitable cricket tours, as Albert Trott, Clem Hill, Hugh Trumble and a new generation contest the Ashes.</description>
   </item>
   <item>
     <title>&#39;Terrible Billy&#39; Teaches</title>
@@ -69,6 +48,34 @@
     <guid isPermaLink="true">https://keithdunstan.org/books/the-paddock-that-grew/6-terrible-billy-teaches/</guid>
     <pubDate>Wed, 04 Nov 2026 11:00:00 GMT</pubDate>
     <description>William Caffyn coaches colonial cricketers, Tommy Wills brings an Aboriginal team to the M.C.G., and the ground hosts its first combined public schools sports.</description>
+  </item>
+  <item>
+    <title>The First of the Tests</title>
+    <link>https://keithdunstan.org/books/the-paddock-that-grew/8-the-first-of-the-tests/</link>
+    <guid isPermaLink="true">https://keithdunstan.org/books/the-paddock-that-grew/8-the-first-of-the-tests/</guid>
+    <pubDate>Wed, 04 Nov 2026 11:00:00 GMT</pubDate>
+    <description>Charles Bannerman&#39;s 165 and Tom Kendall&#39;s bowling bring Australia victory in the first Test match at the M.C.G. in March 1877.</description>
+  </item>
+  <item>
+    <title>Edwardiana at the M.C.G.</title>
+    <link>https://keithdunstan.org/books/the-paddock-that-grew/12-edwardiana-at-the-mcg/</link>
+    <guid isPermaLink="true">https://keithdunstan.org/books/the-paddock-that-grew/12-edwardiana-at-the-mcg/</guid>
+    <pubDate>Wed, 04 Nov 2026 11:00:00 GMT</pubDate>
+    <description>Edwardian Melbourne fills the M.C.G. for Test cricket, cycling and ambitious flying displays, while Trumper, Trumble, Armstrong and Barnes produce extraordinary performances.</description>
+  </item>
+  <item>
+    <title>The Year of Grace</title>
+    <link>https://keithdunstan.org/books/the-paddock-that-grew/7-the-year-of-grace/</link>
+    <guid isPermaLink="true">https://keithdunstan.org/books/the-paddock-that-grew/7-the-year-of-grace/</guid>
+    <pubDate>Wed, 04 Nov 2026 11:00:00 GMT</pubDate>
+    <description>W. G. Grace&#39;s first Australian tour brings brilliant batting, rough country wickets and a bitter dispute over the treatment of professionals.</description>
+  </item>
+  <item>
+    <title>The Roaring &#39;Eighties</title>
+    <link>https://keithdunstan.org/books/the-paddock-that-grew/9-the-roaring-eighties/</link>
+    <guid isPermaLink="true">https://keithdunstan.org/books/the-paddock-that-grew/9-the-roaring-eighties/</guid>
+    <pubDate>Wed, 04 Nov 2026 11:00:00 GMT</pubDate>
+    <description>Boom-time Melbourne gives its cricket club new pavilions, electric lighting experiments and lavish celebrations, while touring teams and football bring both profits and financial risks.</description>
   </item>
   <item>
     <title>This is a fine state to be in</title>
@@ -85,18 +92,11 @@
     <description>The Senate passes the Fisher Government&#39;s Maternity Allowance in October 1912, a £5 payment for every white mother, wed or not, over the outrage of Senator St Ledger, who called it a sop to sin and adultery.</description>
   </item>
   <item>
-    <title>Adventurer Lucky to be Alive</title>
-    <link>https://keithdunstan.org/books/a-day-in-the-life-of-australia/adventurer-lucky-to-be-alive/</link>
-    <guid isPermaLink="true">https://keithdunstan.org/books/a-day-in-the-life-of-australia/adventurer-lucky-to-be-alive/</guid>
+    <title>A Poisoner Hanged</title>
+    <link>https://keithdunstan.org/books/a-day-in-the-life-of-australia/a-poisoner-hanged/</link>
+    <guid isPermaLink="true">https://keithdunstan.org/books/a-day-in-the-life-of-australia/a-poisoner-hanged/</guid>
     <pubDate>Sat, 31 Oct 2026 11:00:00 GMT</pubDate>
-    <description>George Ernest Morrison, the 21-year-old Geelong walker the Age sponsored to cross New Guinea, reports from Cooktown in November 1883 that he was speared twice by local warriors and survived only because his companion Jack Lyons got him back to the coast.</description>
-  </item>
-  <item>
-    <title>Alice Meets her Match in Veno</title>
-    <link>https://keithdunstan.org/books/a-day-in-the-life-of-australia/alice-meets-her-match-in-veno/</link>
-    <guid isPermaLink="true">https://keithdunstan.org/books/a-day-in-the-life-of-australia/alice-meets-her-match-in-veno/</guid>
-    <pubDate>Sat, 31 Oct 2026 11:00:00 GMT</pubDate>
-    <description>Sydney&#39;s champion Veno beats Victoria&#39;s mare Alice Hawthorne by three lengths in a 1000-sovereign match race at Flemington in October 1857, before up to 20,000 people, deflating a young colony desperate to prove itself superior to New South Wales.</description>
+    <description>Martha Needle, who poisoned her whole family hoping to marry the carpenter Otto Juncken, is hanged at the Melbourne Gaol in October 1894, still protesting her innocence and calling the chaplain a liar on her way to the drop.</description>
   </item>
   <item>
     <title>A Portrait or a Caricature?</title>
@@ -106,20 +106,6 @@
     <description>Justice Roper rules in November 1944 that William Dobell&#39;s Archibald Prize-winning painting of fellow artist Joshua Smith is a portrait and not a caricature, ending a packed Equity Court case billed as the biggest legal smash hit since Ned Kelly.</description>
   </item>
   <item>
-    <title>Australia&#39;s First Railway</title>
-    <link>https://keithdunstan.org/books/a-day-in-the-life-of-australia/australias-first-railway/</link>
-    <guid isPermaLink="true">https://keithdunstan.org/books/a-day-in-the-life-of-australia/australias-first-railway/</guid>
-    <pubDate>Sat, 31 Oct 2026 11:00:00 GMT</pubDate>
-    <description>The Melbourne and Hobson&#39;s Bay Railway opens in September 1854, its locally built 30-horsepower engine hauling Governor Charles Hotham and the colony&#39;s notables to Sandridge for a banquet in a zinc engine shed so noisy no one could hear the speeches.</description>
-  </item>
-  <item>
-    <title>A Poisoner Hanged</title>
-    <link>https://keithdunstan.org/books/a-day-in-the-life-of-australia/a-poisoner-hanged/</link>
-    <guid isPermaLink="true">https://keithdunstan.org/books/a-day-in-the-life-of-australia/a-poisoner-hanged/</guid>
-    <pubDate>Sat, 31 Oct 2026 11:00:00 GMT</pubDate>
-    <description>Martha Needle, who poisoned her whole family hoping to marry the carpenter Otto Juncken, is hanged at the Melbourne Gaol in October 1894, still protesting her innocence and calling the chaplain a liar on her way to the drop.</description>
-  </item>
-  <item>
     <title>Atomic Explosion at Monte Bello Islands</title>
     <link>https://keithdunstan.org/books/a-day-in-the-life-of-australia/atomic-explosion-at-monte-bello-islands/</link>
     <guid isPermaLink="true">https://keithdunstan.org/books/a-day-in-the-life-of-australia/atomic-explosion-at-monte-bello-islands/</guid>
@@ -127,39 +113,18 @@
     <description>Britain explodes its first atomic bomb in the Monte Bello Islands off Western Australia in October 1952, rattling windows in Onslow, delighting a London press crowing about &#39;Our Bomb&#39;, and narrowly losing a race with the birth of the town&#39;s &#39;atomic baby&#39;.</description>
   </item>
   <item>
-    <title>Black Fighter Exacts his Revenge</title>
-    <link>https://keithdunstan.org/books/a-day-in-the-life-of-australia/black-fighter-exacts-his-revenge/</link>
-    <guid isPermaLink="true">https://keithdunstan.org/books/a-day-in-the-life-of-australia/black-fighter-exacts-his-revenge/</guid>
+    <title>Alice Meets her Match in Veno</title>
+    <link>https://keithdunstan.org/books/a-day-in-the-life-of-australia/alice-meets-her-match-in-veno/</link>
+    <guid isPermaLink="true">https://keithdunstan.org/books/a-day-in-the-life-of-australia/alice-meets-her-match-in-veno/</guid>
     <pubDate>Sat, 31 Oct 2026 11:00:00 GMT</pubDate>
-    <description>Jack Johnson takes the world heavyweight title from Tommy Burns at Hugh D. McIntosh&#39;s Rushcutters Bay stadium on Boxing Day 1908, the first world title fight between a black man and a white man, taunting &#39;poor little Tahmmy&#39; for fourteen rounds until police stop the fight.</description>
+    <description>Sydney&#39;s champion Veno beats Victoria&#39;s mare Alice Hawthorne by three lengths in a 1000-sovereign match race at Flemington in October 1857, before up to 20,000 people, deflating a young colony desperate to prove itself superior to New South Wales.</description>
   </item>
   <item>
-    <title>Bombala a Capital Idea</title>
-    <link>https://keithdunstan.org/books/a-day-in-the-life-of-australia/bombala-a-capital-idea/</link>
-    <guid isPermaLink="true">https://keithdunstan.org/books/a-day-in-the-life-of-australia/bombala-a-capital-idea/</guid>
+    <title>Australia&#39;s First Railway</title>
+    <link>https://keithdunstan.org/books/a-day-in-the-life-of-australia/australias-first-railway/</link>
+    <guid isPermaLink="true">https://keithdunstan.org/books/a-day-in-the-life-of-australia/australias-first-railway/</guid>
     <pubDate>Sat, 31 Oct 2026 11:00:00 GMT</pubDate>
-    <description>The House of Representatives picks Tumut and the Senate picks Bombala for the federal capital in October 1903, after members talk up their own electorates&#39; climates, trees and women, and Billy Hughes dismisses Bombala&#39;s famous forests as mere shrubs.</description>
-  </item>
-  <item>
-    <title>Brawling and Looting in Police Strike</title>
-    <link>https://keithdunstan.org/books/a-day-in-the-life-of-australia/brawling-and-looting-in-police-strike/</link>
-    <guid isPermaLink="true">https://keithdunstan.org/books/a-day-in-the-life-of-australia/brawling-and-looting-in-police-strike/</guid>
-    <pubDate>Sat, 31 Oct 2026 11:00:00 GMT</pubDate>
-    <description>With some 800 Melbourne police on strike in November 1923, mobs take over the city block around Bourke and Swanston Streets, smashing 78 shop windows and looting jewellers and outfitters, while Premier Harry Lawson enrols 2000 special constables and refuses to take the strikers back.</description>
-  </item>
-  <item>
-    <title>Bushrangers on St Kilda Road</title>
-    <link>https://keithdunstan.org/books/a-day-in-the-life-of-australia/bushrangers-on-st-kilda-road/</link>
-    <guid isPermaLink="true">https://keithdunstan.org/books/a-day-in-the-life-of-australia/bushrangers-on-st-kilda-road/</guid>
-    <pubDate>Sat, 31 Oct 2026 11:00:00 GMT</pubDate>
-    <description>Five armed bushrangers hold up St Kilda Road for two and a half hours on an October afternoon in 1852, tying a score of travellers together in the wattle scrub within five miles of Melbourne, and the Argus blames Police Superintendent Evelyn Sturt.</description>
-  </item>
-  <item>
-    <title>Buckley Makes for the Bush</title>
-    <link>https://keithdunstan.org/books/a-day-in-the-life-of-australia/buckley-makes-for-the-bush/</link>
-    <guid isPermaLink="true">https://keithdunstan.org/books/a-day-in-the-life-of-australia/buckley-makes-for-the-bush/</guid>
-    <pubDate>Sat, 31 Oct 2026 11:00:00 GMT</pubDate>
-    <description>Giant convict bricklayer William Buckley escapes over Christmas 1803 from David Collins&#39;s short-lived settlement at Sullivan Bay on Port Phillip, and while his companions perish or come back starving, he lives with the Wathaurong people for 32 years.</description>
+    <description>The Melbourne and Hobson&#39;s Bay Railway opens in September 1854, its locally built 30-horsepower engine hauling Governor Charles Hotham and the colony&#39;s notables to Sandridge for a banquet in a zinc engine shed so noisy no one could hear the speeches.</description>
   </item>
   <item>
     <title>Boxing Hero Wins World Title</title>
@@ -176,11 +141,60 @@
     <description>In the week Melbourne learns that Burke and Wills have died, the Victoria Turf Club runs the first Melbourne Cup in November 1861, won by six lengths by the Sydney horse Archer after a fall that killed the mare Medora and broke a jockey&#39;s arm.</description>
   </item>
   <item>
+    <title>Brawling and Looting in Police Strike</title>
+    <link>https://keithdunstan.org/books/a-day-in-the-life-of-australia/brawling-and-looting-in-police-strike/</link>
+    <guid isPermaLink="true">https://keithdunstan.org/books/a-day-in-the-life-of-australia/brawling-and-looting-in-police-strike/</guid>
+    <pubDate>Sat, 31 Oct 2026 11:00:00 GMT</pubDate>
+    <description>With some 800 Melbourne police on strike in November 1923, mobs take over the city block around Bourke and Swanston Streets, smashing 78 shop windows and looting jewellers and outfitters, while Premier Harry Lawson enrols 2000 special constables and refuses to take the strikers back.</description>
+  </item>
+  <item>
+    <title>Bombala a Capital Idea</title>
+    <link>https://keithdunstan.org/books/a-day-in-the-life-of-australia/bombala-a-capital-idea/</link>
+    <guid isPermaLink="true">https://keithdunstan.org/books/a-day-in-the-life-of-australia/bombala-a-capital-idea/</guid>
+    <pubDate>Sat, 31 Oct 2026 11:00:00 GMT</pubDate>
+    <description>The House of Representatives picks Tumut and the Senate picks Bombala for the federal capital in October 1903, after members talk up their own electorates&#39; climates, trees and women, and Billy Hughes dismisses Bombala&#39;s famous forests as mere shrubs.</description>
+  </item>
+  <item>
+    <title>Adventurer Lucky to be Alive</title>
+    <link>https://keithdunstan.org/books/a-day-in-the-life-of-australia/adventurer-lucky-to-be-alive/</link>
+    <guid isPermaLink="true">https://keithdunstan.org/books/a-day-in-the-life-of-australia/adventurer-lucky-to-be-alive/</guid>
+    <pubDate>Sat, 31 Oct 2026 11:00:00 GMT</pubDate>
+    <description>George Ernest Morrison, the 21-year-old Geelong walker the Age sponsored to cross New Guinea, reports from Cooktown in November 1883 that he was speared twice by local warriors and survived only because his companion Jack Lyons got him back to the coast.</description>
+  </item>
+  <item>
+    <title>Black Fighter Exacts his Revenge</title>
+    <link>https://keithdunstan.org/books/a-day-in-the-life-of-australia/black-fighter-exacts-his-revenge/</link>
+    <guid isPermaLink="true">https://keithdunstan.org/books/a-day-in-the-life-of-australia/black-fighter-exacts-his-revenge/</guid>
+    <pubDate>Sat, 31 Oct 2026 11:00:00 GMT</pubDate>
+    <description>Jack Johnson takes the world heavyweight title from Tommy Burns at Hugh D. McIntosh&#39;s Rushcutters Bay stadium on Boxing Day 1908, the first world title fight between a black man and a white man, taunting &#39;poor little Tahmmy&#39; for fourteen rounds until police stop the fight.</description>
+  </item>
+  <item>
+    <title>Buckley Makes for the Bush</title>
+    <link>https://keithdunstan.org/books/a-day-in-the-life-of-australia/buckley-makes-for-the-bush/</link>
+    <guid isPermaLink="true">https://keithdunstan.org/books/a-day-in-the-life-of-australia/buckley-makes-for-the-bush/</guid>
+    <pubDate>Sat, 31 Oct 2026 11:00:00 GMT</pubDate>
+    <description>Giant convict bricklayer William Buckley escapes over Christmas 1803 from David Collins&#39;s short-lived settlement at Sullivan Bay on Port Phillip, and while his companions perish or come back starving, he lives with the Wathaurong people for 32 years.</description>
+  </item>
+  <item>
+    <title>Bushrangers on St Kilda Road</title>
+    <link>https://keithdunstan.org/books/a-day-in-the-life-of-australia/bushrangers-on-st-kilda-road/</link>
+    <guid isPermaLink="true">https://keithdunstan.org/books/a-day-in-the-life-of-australia/bushrangers-on-st-kilda-road/</guid>
+    <pubDate>Sat, 31 Oct 2026 11:00:00 GMT</pubDate>
+    <description>Five armed bushrangers hold up St Kilda Road for two and a half hours on an October afternoon in 1852, tying a score of travellers together in the wattle scrub within five miles of Melbourne, and the Argus blames Police Superintendent Evelyn Sturt.</description>
+  </item>
+  <item>
     <title>Choosing a Federal Flag</title>
     <link>https://keithdunstan.org/books/a-day-in-the-life-of-australia/choosing-a-federal-flag/</link>
     <guid isPermaLink="true">https://keithdunstan.org/books/a-day-in-the-life-of-australia/choosing-a-federal-flag/</guid>
     <pubDate>Sat, 31 Oct 2026 11:00:00 GMT</pubDate>
     <description>The Commonwealth announces the winner of its 1901 flag competition, 32,823 entries strong and shared between five designers, while the Melbourne Herald sulks that its own striped design from 1900 was the better flag.</description>
+  </item>
+  <item>
+    <title>Comet Flashes out of the Sky</title>
+    <link>https://keithdunstan.org/books/a-day-in-the-life-of-australia/comet-flashes-out-of-the-sky/</link>
+    <guid isPermaLink="true">https://keithdunstan.org/books/a-day-in-the-life-of-australia/comet-flashes-out-of-the-sky/</guid>
+    <pubDate>Sat, 31 Oct 2026 11:00:00 GMT</pubDate>
+    <description>C.W.A. Scott and Tom Campbell Black win the 1934 MacRobertson Centenary Air Race from London to Melbourne in their red DH.88 Comet, crossing the line at Flemington in just under three days after limping across the Timor Sea on one engine.</description>
   </item>
   <item>
     <title>Collingwood Meets Melbourne and Supporters Go Beserk</title>
@@ -195,20 +209,6 @@
     <guid isPermaLink="true">https://keithdunstan.org/books/a-day-in-the-life-of-australia/conscripts-will-not-be-forced-into-battle/</guid>
     <pubDate>Sat, 31 Oct 2026 11:00:00 GMT</pubDate>
     <description>Australians narrowly reject Billy Hughes&#39;s first conscription referendum in October 1916, carried by a resounding &#39;No&#39; in New South Wales, after a bitter campaign of egg-pelted meetings, Nellie Melba&#39;s appeal for &#39;Yes&#39; and a march of 10,000 &#39;Hughesiliers&#39; through Sydney.</description>
-  </item>
-  <item>
-    <title>Comet Flashes out of the Sky</title>
-    <link>https://keithdunstan.org/books/a-day-in-the-life-of-australia/comet-flashes-out-of-the-sky/</link>
-    <guid isPermaLink="true">https://keithdunstan.org/books/a-day-in-the-life-of-australia/comet-flashes-out-of-the-sky/</guid>
-    <pubDate>Sat, 31 Oct 2026 11:00:00 GMT</pubDate>
-    <description>C.W.A. Scott and Tom Campbell Black win the 1934 MacRobertson Centenary Air Race from London to Melbourne in their red DH.88 Comet, crossing the line at Flemington in just under three days after limping across the Timor Sea on one engine.</description>
-  </item>
-  <item>
-    <title>Cable Trams Set Melbourne Agog</title>
-    <link>https://keithdunstan.org/books/a-day-in-the-life-of-australia/cable-trams-set-melbourne-agog/</link>
-    <guid isPermaLink="true">https://keithdunstan.org/books/a-day-in-the-life-of-australia/cable-trams-set-melbourne-agog/</guid>
-    <pubDate>Sat, 31 Oct 2026 11:00:00 GMT</pubDate>
-    <description>Melbourne&#39;s first cable trams start running from Spencer Street to the Hawthorn Bridge in November 1885, the reward for twenty years of lobbying by the American Francis Boardman Clapp against every State, city and municipal jealousy.</description>
   </item>
   <item>
     <title>Electric Lamps Light up the Night</title>

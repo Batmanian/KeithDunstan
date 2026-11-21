@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-04-01-take-me-to-your-folk-museum.md

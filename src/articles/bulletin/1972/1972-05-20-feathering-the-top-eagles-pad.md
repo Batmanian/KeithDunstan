@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1972/1972-05-20-feathering-the-top-eagles-pad.md
