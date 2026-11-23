@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1974/1974-01-05-batmans-melbourne-footballers-get-worker-power.md

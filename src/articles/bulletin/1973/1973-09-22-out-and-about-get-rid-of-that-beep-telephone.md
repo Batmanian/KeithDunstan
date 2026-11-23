@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-09-22-out-and-about-get-rid-of-that-beep-telephone.md

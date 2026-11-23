@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1974/1974-09-07-batmans-melbourne-garden-gnomes-in-striped-suits.md

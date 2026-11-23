@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1975/1975-04-12-batmans-melbourne-the-mildura-sculpture-show.md

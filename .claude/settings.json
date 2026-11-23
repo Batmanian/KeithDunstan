@@ -19,6 +19,7 @@
       "Bash(ln -sf /opt/homebrew/opt/libtiff/lib/libtiff.6.dylib /opt/homebrew/opt/libtiff/lib/libtiff.5.dylib)",
       "Bash(python3 *)",
       "Bash(sips *)",
+      "Bash(mkdir *)",
       "Write(*)",
       "Edit(*)",
       "MultiEdit(*)"

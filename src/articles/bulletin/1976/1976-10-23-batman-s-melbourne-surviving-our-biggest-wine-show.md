@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1976/1976-10-23-batman-s-melbourne-surviving-our-biggest-wine-show.md

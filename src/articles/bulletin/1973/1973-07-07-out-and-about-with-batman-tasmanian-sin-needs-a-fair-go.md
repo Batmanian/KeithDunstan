@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-07-07-out-and-about-with-batman-tasmanian-sin-needs-a-fair-go.md

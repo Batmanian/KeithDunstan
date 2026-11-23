@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-01-13-out-and-about-with-batman-a-sport-of-our-own.md

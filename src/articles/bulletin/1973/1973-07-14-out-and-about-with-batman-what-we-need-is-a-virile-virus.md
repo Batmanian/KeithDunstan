@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-07-14-out-and-about-with-batman-what-we-need-is-a-virile-virus.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-06-02-out-and-about-with-batman-the-delights-of-federatus-interuptus.md

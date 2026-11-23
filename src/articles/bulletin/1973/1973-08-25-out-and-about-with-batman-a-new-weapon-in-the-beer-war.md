@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-08-25-out-and-about-with-batman-a-new-weapon-in-the-beer-war.md

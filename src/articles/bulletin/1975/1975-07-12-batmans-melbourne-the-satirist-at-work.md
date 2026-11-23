@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1975/1975-07-12-batmans-melbourne-the-satirist-at-work.md

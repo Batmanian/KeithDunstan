@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-08-11-out-and-about-with-batman-rubbishing-the-brochure-fiends.md

@@ -1,0 +1,533 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Horsetrader Henry</title>
+<meta name="title" content="Horsetrader Henry">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="A review of Peter Blazey&#39;s political biography of Henry Bolte, noting the dearth of Victorian state political biography and assessing Blazey&#39;s account of the premier&#39;s press management strategy, his brusqueness in cabinet, and the agony surrounding the hanging of Ronald Ryan.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/articles/bulletin/1973/1973-01-06-books-horsetrader-henry/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Horsetrader Henry">
+<meta property="og:description" content="A review of Peter Blazey&#39;s political biography of Henry Bolte, noting the dearth of Victorian state political biography and assessing Blazey&#39;s account of the premier&#39;s press management strategy, his brusqueness in cabinet, and the agony surrounding the hanging of Ronald Ryan.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Horsetrader Henry">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/articles/bulletin/1973/1973-01-06-books-horsetrader-henry/">
+<meta name="twitter:title" content="Horsetrader Henry">
+<meta name="twitter:description" content="A review of Peter Blazey&#39;s political biography of Henry Bolte, noting the dearth of Victorian state political biography and assessing Blazey&#39;s account of the premier&#39;s press management strategy, his brusqueness in cabinet, and the agony surrounding the hanging of Ronald Ryan.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Horsetrader Henry">
+<link rel="canonical" href="https://keithdunstan.org/articles/bulletin/1973/1973-01-06-books-horsetrader-henry/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1973-01-06">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="The Bulletin">
+<meta property="article:tag" content="Albert Dunstan">
+<meta property="article:tag" content="Alexander Peacock">
+<meta property="article:tag" content="Arthur Rylah">
+<meta property="article:tag" content="DLP">
+<meta property="article:tag" content="Henry Bolte">
+<meta property="article:tag" content="James Munro">
+<meta property="article:tag" content="Melbourne University">
+<meta property="article:tag" content="Peter Blazey">
+<meta property="article:tag" content="Ronald Ryan">
+<meta property="article:tag" content="The Australian">
+<meta property="article:tag" content="Tommy Bent">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">Horsetrader Henry</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            5
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1973-01-06">06 Jan 1973</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            A review of Peter Blazey&#39;s political biography of Henry Bolte, noting the dearth of Victorian state political biography and assessing Blazey&#39;s account of the premier&#39;s press management strategy, his brusqueness in cabinet, and the agony surrounding the hanging of Ronald Ryan.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="The Bulletin">
+         <!--<a href="/tags/albert-dunstan/" class="btn btn-outline-dark btn-sm me-2">Albert Dunstan</a><a href="/tags/alexander-peacock/" class="btn btn-outline-dark btn-sm me-2">Alexander Peacock</a><a href="/tags/arthur-rylah/" class="btn btn-outline-dark btn-sm me-2">Arthur Rylah</a><a href="/tags/dlp/" class="btn btn-outline-dark btn-sm me-2">DLP</a><a href="/tags/henry-bolte/" class="btn btn-outline-dark btn-sm me-2">Henry Bolte</a><a href="/tags/james-munro/" class="btn btn-outline-dark btn-sm me-2">James Munro</a><a href="/tags/melbourne-university/" class="btn btn-outline-dark btn-sm me-2">Melbourne University</a><a href="/tags/peter-blazey/" class="btn btn-outline-dark btn-sm me-2">Peter Blazey</a><a href="/tags/ronald-ryan/" class="btn btn-outline-dark btn-sm me-2">Ronald Ryan</a><a href="/tags/the-australian/" class="btn btn-outline-dark btn-sm me-2">The Australian</a><a href="/tags/tommy-bent/" class="btn btn-outline-dark btn-sm me-2">Tommy Bent</a>-->
+
+        
+      </header>
+      <div class="article-body"><p>FRANKLY, it was a relief when Sir Henry Bolte retired. It had been like living too close to a regimented sergeant major, an overwhelming school teacher or an absurdly monomaniacal managing director. Every time one opened a newspaper, there was Sir Henry giving quote no. 1,753,872, and his grinning peanut of a face was inevitably in the cartoon.</p>
+<p>I nearly went crazy reading this book. It was three nights of torture. Here was the whole Bolte thing again, the era I had lived through. One received every darned tiny detail about Bolte from his cricket, football and rabbit-skinning exploits to grand gestures like being photographed kissing his 88-year-old mother. Yes, one remembers that event too. It was good for many, many votes.</p>
+<p>Bolte, Bolte, Bolte, it's all too soon. Not that this isn't a good book. Indeed as one who has tried and tried to be a student of Victorian history, I dip my lid in reverence and respect to Peter Blazey. Search the shelves of the Victorian State Library and you will get almost a zero answer regarding good biographical material on state or colonial politicians . . . Tommy Bent, Munro, Albert Dunstan, Alexander Peacock... they didn't rate biographies.</p>
+<p>So they tend to be lost to history. Until Bolte, state politicians (and this goes for almost every state) have been considered too small time for the pen of the political biographer. It just seemed a little too soon for Henry Bolte, that's all. Couldn't he have rested in the vat for a year or two?</p>
+<p>Blazey has been both state roundsman for the <em>Australian</em> and scholar. He was subjected to those Bolte press conferences every day and he has been a research man in the political science department at Melbourne University; an ideal combination.</p>
+<p>His book is at times repetitive, at times laborious like a cricket match, but then he takes off with splendid verve, producing very interesting insights into the Bolte character. It is well documented in a scholarly fashion and the index is complete; an utterly necessary book for the political animal.</p>
+<p>It's interesting to note Blazey's approach. Clearly, he tried very hard to be fair to the man. On one side you could detect an enormous respect for the strength, moral honesty, the basic intellectual ability and the sheer political guts of the man; and on the other, a horror for his arrogance, publicity seeking and total lack of sensitivity.</p>
+<p>He gives a summing up fairly early in the book with these lines: 'For all the premier's political flair, his overcoming of opposition and his financial dexterity, at heart he lacked a developed philosophy of social justice and had little awareness of the problems of the family man. He was, as his original backers had intuited, a very talented small-town horsetrader who would repay their patronage by keeping a conservative government in power and allowing them and their friends to develop their business interests with a minimum of government disturbance . . . The conservative forces innate in Victoria, the weakness of the ALP allied with such political checks as the rural gerrymander and the DLP, and the sheer charismatic egotism of Bolte himself, were too strong for his government to be removed or even threatened with removal.'</p>
+<p>Blazey writes of Bolte's toughness in the party room, how he maintained splendid discipline, how he would frequently dress down errant members . . . 'the backbenchers were the schoolboys, the cabinet the prefects and, as a refugee from Bolte's anger, Arthur Rylah frequently played the role of school matron.'</p>
+<p>There is much on the hanging of Ryan, the big fight that Bolte was so determined to win. Blazey does reveal the agony and strain it actually placed on Bolte himself, plus the arrogance that had to come out.</p>
+<p>There was much speculation at the time as to what Bolte was actually doing at the very moment that Ryan died. Was he comfortably in bed? Was he eating his bacon and eggs? Blazey reports that journalists frequently asked Bolte this question and he always claimed he couldn't remember. But several years later, at the Hotel Canberra, he mused in his bluff way: 'What I should have said was I was having a shit.'</p>
+<p>Part of Bolte's success, says Blazey, was due to the way he handled the press. As soon as he became premier he decided to hold a daily press conference and he did that for 17 years. He never wanted his senior ministers talking to the press. Keep control right in the centre, and the best way to keep them out of the papers was to say everything with that daily conference.</p>
+<p>So that was the reason for the constant, colourful Bolte dialogue and you get a fair bit of it in this book — such as that memorable line in August 1970: 'It's a lot of bloody nonsense this permissiveness . . . Sweden and Denmark are nonentities as countries.'</p>
+<p>There was the time when he was in conflict with the teachers, making lines like 'They can strike until they are black in the face and it won't make any difference.' Then refusing to meet them over pay claims, he said: 'I don't have a doorstep low enough for them to sit on.'</p>
+<p>Blazey writes that Bolte considered that one his best quote of all.</p>
+<hr>
+<p><em>Source: Books: Horsetrader Henry, The Bulletin, 6 January 1973. Accessible via the <a href="https://nla.gov.au/nla.obj-1628029742">National Library of Australia's Trove database</a>.</em></p>
+</div>
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+
+  <p class="lead">
+        A review of Peter Blazey&#39;s political biography of Henry Bolte, noting the dearth of Victorian state political biography and assessing Blazey&#39;s account of the premier&#39;s press management strategy, his brusqueness in cabinet, and the agony surrounding the hanging of Ronald Ryan.
+      </p>
+
+
+<hr>
+<h4 class="h6">Topics in this item</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/albert-dunstan/" class="link-secondary">Albert Dunstan</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Albert Dunstan">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/alexander-peacock/" class="link-secondary">Alexander Peacock</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Alexander Peacock">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/arthur-rylah/" class="link-secondary">Arthur Rylah</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Arthur Rylah">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/dlp/" class="link-secondary">DLP</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="DLP">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Henry Bolte">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/james-munro/" class="link-secondary">James Munro</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="James Munro">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne-university/" class="link-secondary">Melbourne University</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne University">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/peter-blazey/" class="link-secondary">Peter Blazey</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Peter Blazey">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/ronald-ryan/" class="link-secondary">Ronald Ryan</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Ronald Ryan">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/the-australian/" class="link-secondary">The Australian</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="The Australian">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/tommy-bent/" class="link-secondary">Tommy Bent</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Tommy Bent">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/albert-dunstan/" class="link-secondary">Albert Dunstan</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Albert Dunstan">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/alexander-peacock/" class="link-secondary">Alexander Peacock</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Alexander Peacock">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/arthur-rylah/" class="link-secondary">Arthur Rylah</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Arthur Rylah">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/dlp/" class="link-secondary">DLP</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="DLP">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/henry-bolte/" class="link-secondary">Henry Bolte</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Henry Bolte">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/james-munro/" class="link-secondary">James Munro</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="James Munro">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne-university/" class="link-secondary">Melbourne University</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne University">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/peter-blazey/" class="link-secondary">Peter Blazey</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Peter Blazey">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/ronald-ryan/" class="link-secondary">Ronald Ryan</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Ronald Ryan">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/the-australian/" class="link-secondary">The Australian</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="The Australian">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/tommy-bent/" class="link-secondary">Tommy Bent</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Tommy Bent">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

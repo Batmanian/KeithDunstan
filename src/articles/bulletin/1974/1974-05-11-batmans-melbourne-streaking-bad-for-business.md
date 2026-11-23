@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1974/1974-05-11-batmans-melbourne-streaking-bad-for-business.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-06-09-out-and-about-with-batman-we-re-all-so-delighted-obviously.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-05-05-out-and-about-with-batman-sliding-into-corruption.md

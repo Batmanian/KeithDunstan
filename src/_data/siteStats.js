@@ -70,7 +70,7 @@ module.exports = () => {
   // Sun News-Pictorial column (1946–1978, 5 days/week, ~300 words): ~2,400,000
   // The Bulletin column (~1,950 articles, ~700 words each):         ~1,365,000
   // Books: 33 regular (~65,000 words each) + 9 dictionary series
-  //   (~300 words each): ~2,148,000
+  //   (~300 words each — these are genuinely short novelty books): ~2,148,000
   // Other journalism (The Age, Walkabout, Gourmet, etc.):             ~285,000
   // Total:                                                          ~6,200,000
   const estimatedTotalWords = 6200000;

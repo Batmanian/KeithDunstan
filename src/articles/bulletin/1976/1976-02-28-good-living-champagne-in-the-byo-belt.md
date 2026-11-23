@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1976/1976-02-28-good-living-champagne-in-the-byo-belt.md

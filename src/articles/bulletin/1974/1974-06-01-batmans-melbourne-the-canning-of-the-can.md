@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1974/1974-06-01-batmans-melbourne-the-canning-of-the-can.md

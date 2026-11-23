@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-08-18-out-and-about-with-batman-cashing-in-on-kelly.md

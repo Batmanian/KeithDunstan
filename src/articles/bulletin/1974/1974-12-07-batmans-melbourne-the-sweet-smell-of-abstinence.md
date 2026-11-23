@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1974/1974-12-07-batmans-melbourne-the-sweet-smell-of-abstinence.md

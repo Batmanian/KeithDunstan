@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-04-21-out-and-about-with-batman-through-a-tramcar-window.md

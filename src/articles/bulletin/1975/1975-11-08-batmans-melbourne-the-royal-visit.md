@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1975/1975-11-08-batmans-melbourne-the-royal-visit.md

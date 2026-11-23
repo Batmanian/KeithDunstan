@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1974/1974-09-28-batmans-melbourne-it-wouldn-t-have-done-for-harry.md

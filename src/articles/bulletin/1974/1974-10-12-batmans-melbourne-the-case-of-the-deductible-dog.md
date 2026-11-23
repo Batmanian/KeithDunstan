@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1974/1974-10-12-batmans-melbourne-the-case-of-the-deductible-dog.md

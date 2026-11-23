@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-11-17-batmans-melbourne-getting-a-visa-for-ayers-rock.md

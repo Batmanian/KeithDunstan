@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-09-01-out-and-about-with-batman-wrest-point-isn-t-tasmania-s-costliest-joint.md

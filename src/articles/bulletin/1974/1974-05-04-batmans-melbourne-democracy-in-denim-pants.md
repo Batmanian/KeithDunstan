@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1974/1974-05-04-batmans-melbourne-democracy-in-denim-pants.md

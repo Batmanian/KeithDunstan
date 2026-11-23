@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-06-16-out-and-about-with-batman-full-steam-ahead-for-gm-h-boss.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1974/1974-08-17-batmans-melbourne-averting-a-beer-shortage-tragedy.md

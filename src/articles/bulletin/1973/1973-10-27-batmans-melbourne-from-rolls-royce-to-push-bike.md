@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-10-27-batmans-melbourne-from-rolls-royce-to-push-bike.md

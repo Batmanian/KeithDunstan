@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1975/1975-05-03-lifestyle-the-opal-town.md

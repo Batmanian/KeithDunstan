@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1975/1975-11-15-batmans-melbourne-the-crisis-in-literature.md

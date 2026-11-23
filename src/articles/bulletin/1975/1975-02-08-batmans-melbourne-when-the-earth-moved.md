@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1975/1975-02-08-batmans-melbourne-when-the-earth-moved.md

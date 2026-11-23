@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1976/1976-11-20-batman-s-melbourne-just-a-harmless-little-bit-of-blood-and-guts.md

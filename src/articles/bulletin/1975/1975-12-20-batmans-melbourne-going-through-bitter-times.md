@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1975/1975-12-20-batmans-melbourne-going-through-bitter-times.md

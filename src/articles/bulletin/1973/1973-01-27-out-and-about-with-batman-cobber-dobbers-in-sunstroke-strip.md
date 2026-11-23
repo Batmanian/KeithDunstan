@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-01-27-out-and-about-with-batman-cobber-dobbers-in-sunstroke-strip.md

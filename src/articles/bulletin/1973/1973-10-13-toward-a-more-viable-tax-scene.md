@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-10-13-toward-a-more-viable-tax-scene.md

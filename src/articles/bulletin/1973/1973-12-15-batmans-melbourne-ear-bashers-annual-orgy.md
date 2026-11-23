@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-12-15-batmans-melbourne-ear-bashers-annual-orgy.md

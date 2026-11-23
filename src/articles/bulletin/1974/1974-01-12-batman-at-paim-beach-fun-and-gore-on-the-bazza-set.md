@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1974/1974-01-12-batman-at-paim-beach-fun-and-gore-on-the-bazza-set.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1974/1974-10-05-batmans-melbourne-they-stayed-away-in-droves.md

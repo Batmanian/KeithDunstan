@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1975/1975-10-11-batmans-melbourne-men-who-cry.md

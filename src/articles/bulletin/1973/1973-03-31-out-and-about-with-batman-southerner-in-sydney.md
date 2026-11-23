@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-03-31-out-and-about-with-batman-southerner-in-sydney.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1974/1974-07-06-the-cities-urban-butchery-in-brisbane.md

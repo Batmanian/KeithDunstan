@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-06-23-out-and-about-with-batman-color-blind-to-the-grim-facts.md

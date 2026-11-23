@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-05-19-out-and-about-with-batman-too-late-into-nostalgia.md

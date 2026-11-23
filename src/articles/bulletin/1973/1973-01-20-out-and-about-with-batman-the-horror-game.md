@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-01-20-out-and-about-with-batman-the-horror-game.md

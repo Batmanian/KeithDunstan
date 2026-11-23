@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-03-10-out-and-about-with-batman-the-big-statue-wrap-up.md

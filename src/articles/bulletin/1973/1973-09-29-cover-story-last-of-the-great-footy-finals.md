@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-09-29-cover-story-last-of-the-great-footy-finals.md

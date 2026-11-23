@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1975/1975-06-21-batmans-melbourne-the-dentist-turned-crusader.md

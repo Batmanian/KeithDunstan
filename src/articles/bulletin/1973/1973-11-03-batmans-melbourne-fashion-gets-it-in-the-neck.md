@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-11-03-batmans-melbourne-fashion-gets-it-in-the-neck.md

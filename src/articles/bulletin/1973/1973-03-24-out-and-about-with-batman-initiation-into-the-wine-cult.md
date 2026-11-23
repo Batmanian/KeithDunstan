@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-03-24-out-and-about-with-batman-initiation-into-the-wine-cult.md

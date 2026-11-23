@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-09-15-out-and-about-a-man-as-tall-as-a-telegraph-pole.md

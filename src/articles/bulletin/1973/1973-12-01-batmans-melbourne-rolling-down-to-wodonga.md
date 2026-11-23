@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-12-01-batmans-melbourne-rolling-down-to-wodonga.md

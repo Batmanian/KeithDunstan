@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1975/1975-10-18-batmans-melbourne-the-denim-revolution.md

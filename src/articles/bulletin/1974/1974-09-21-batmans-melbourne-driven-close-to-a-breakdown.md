@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1974/1974-09-21-batmans-melbourne-driven-close-to-a-breakdown.md

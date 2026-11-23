@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1975/1975-07-05-batmans-melbourne-women-on-the-warpath.md

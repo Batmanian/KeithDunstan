@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1974/1974-10-19-batmans-melbourne-enough-to-make-a-man-flake-out.md

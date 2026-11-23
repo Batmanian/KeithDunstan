@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1975/1975-07-26-batmans-melbourne-the-first-ashes-test.md

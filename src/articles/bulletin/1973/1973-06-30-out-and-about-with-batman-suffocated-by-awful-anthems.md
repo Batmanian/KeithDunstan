@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-06-30-out-and-about-with-batman-suffocated-by-awful-anthems.md

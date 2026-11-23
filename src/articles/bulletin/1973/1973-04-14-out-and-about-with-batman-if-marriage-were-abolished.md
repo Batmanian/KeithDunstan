@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-04-14-out-and-about-with-batman-if-marriage-were-abolished.md

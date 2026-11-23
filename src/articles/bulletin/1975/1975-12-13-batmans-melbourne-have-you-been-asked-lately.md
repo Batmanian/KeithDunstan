@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1975/1975-12-13-batmans-melbourne-have-you-been-asked-lately.md

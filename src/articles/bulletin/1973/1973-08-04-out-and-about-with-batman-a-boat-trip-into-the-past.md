@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-08-04-out-and-about-with-batman-a-boat-trip-into-the-past.md

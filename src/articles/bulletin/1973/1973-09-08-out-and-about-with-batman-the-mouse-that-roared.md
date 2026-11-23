@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-09-08-out-and-about-with-batman-the-mouse-that-roared.md

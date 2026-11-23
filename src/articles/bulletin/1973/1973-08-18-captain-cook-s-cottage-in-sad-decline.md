@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-08-18-captain-cook-s-cottage-in-sad-decline.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-07-21-out-and-about-with-batman-now-it-s-back-to-square-one.md

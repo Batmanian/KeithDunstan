@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-05-26-out-and-about-with-batman-up-there-cazaly-10-points-daily.md

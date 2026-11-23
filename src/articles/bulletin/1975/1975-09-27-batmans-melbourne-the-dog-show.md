@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1975/1975-09-27-batmans-melbourne-the-dog-show.md

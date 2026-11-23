@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1974/1974-08-03-batmans-melbourne-drink-your-way-round-the-world.md

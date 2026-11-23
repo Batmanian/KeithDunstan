@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-02-24-out-and-about-sacrilegious-identity-crisis.md

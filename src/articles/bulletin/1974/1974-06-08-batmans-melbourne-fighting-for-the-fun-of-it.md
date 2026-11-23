@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1974/1974-06-08-batmans-melbourne-fighting-for-the-fun-of-it.md

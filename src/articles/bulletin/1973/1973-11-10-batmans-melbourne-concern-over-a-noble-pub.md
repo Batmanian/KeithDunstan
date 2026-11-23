@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1973/1973-11-10-batmans-melbourne-concern-over-a-noble-pub.md
