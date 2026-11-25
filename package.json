@@ -10,8 +10,9 @@
   "main": "index.html",
   "scripts": {
     "check-chapter-links": "node scripts/check-chapter-links.js",
-    "build": "npm run photos:validate && npm run check-chapter-links && npm run clean && npm run clean-prod  && npx eleventy && npx pagefind --site dev && gulp sass && gulp minify-css && gulp dist-assets && gulp prod-copy && gulp inject-min-css && gulp purgecss && gulp minify-html",
-    "build-dev": "eleventy && npx pagefind --site dev && gulp dist-assets && gulp sass",
+    "check-tag-slugs": "node scripts/check-tag-slugs.js",
+    "build": "npm run photos:validate && npm run check-chapter-links && npm run check-tag-slugs && npm run clean && npm run clean-prod  && npx eleventy && npx pagefind --site dev && gulp sass && gulp minify-css && gulp dist-assets && gulp prod-copy && gulp inject-min-css && gulp purgecss && gulp minify-html",
+    "build-dev": "node scripts/check-tag-slugs.js && eleventy && npx pagefind --site dev && gulp dist-assets && gulp sass",
     "11ty": "eleventy && gulp inject-css",
     "sync": "gulp browser-sync",
     "watch-dev": "npm run build-dev && npm run sync",
