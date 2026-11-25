@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1977/1977-05-07-batmans-melbourne-the-strike-launched-a-serene-cycle.md

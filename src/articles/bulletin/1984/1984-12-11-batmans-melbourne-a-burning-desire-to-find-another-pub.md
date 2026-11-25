@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1984/1984-12-11-batmans-melbourne-a-burning-desire-to-find-another-pub.md

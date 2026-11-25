@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1977/1977-06-18-batmans-melbourne-a-fight-over-faded-glory.md

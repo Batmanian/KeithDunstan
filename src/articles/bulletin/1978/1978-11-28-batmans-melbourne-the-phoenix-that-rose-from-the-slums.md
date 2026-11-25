@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1978/1978-11-28-batmans-melbourne-the-phoenix-that-rose-from-the-slums.md

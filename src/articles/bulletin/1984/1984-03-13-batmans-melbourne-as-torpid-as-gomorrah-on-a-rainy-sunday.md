@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1984/1984-03-13-batmans-melbourne-as-torpid-as-gomorrah-on-a-rainy-sunday.md

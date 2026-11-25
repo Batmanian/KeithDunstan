@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1978/1978-04-25-batmans-melbourne-making-our-sunday-a-political-football.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1978/1978-05-16-batmans-melbourne-taking-the-doomba-out-of-moomba.md

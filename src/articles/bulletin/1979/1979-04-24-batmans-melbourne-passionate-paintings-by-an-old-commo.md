@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1979/1979-04-24-batmans-melbourne-passionate-paintings-by-an-old-commo.md

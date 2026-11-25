@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1984/1984-07-10-norm-just-won-t-be-in-it.md

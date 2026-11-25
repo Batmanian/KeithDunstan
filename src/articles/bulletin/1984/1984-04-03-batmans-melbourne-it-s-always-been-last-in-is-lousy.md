@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1984/1984-04-03-batmans-melbourne-it-s-always-been-last-in-is-lousy.md

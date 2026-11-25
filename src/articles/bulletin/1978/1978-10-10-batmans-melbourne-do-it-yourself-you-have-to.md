@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1978/1978-10-10-batmans-melbourne-do-it-yourself-you-have-to.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1984/1984-06-05-batmans-melbourne-let-s-move-sunday-to-saturday.md

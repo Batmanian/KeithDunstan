@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1979/1979-05-15-profile-pro-hart-a-painter-as-busy-as-a-bull-ant.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1978/1978-09-19-batmans-melbourne-lets-hear-it-for-the-mini.md

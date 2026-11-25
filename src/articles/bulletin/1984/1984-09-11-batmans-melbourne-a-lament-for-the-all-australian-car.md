@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1984/1984-09-11-batmans-melbourne-a-lament-for-the-all-australian-car.md

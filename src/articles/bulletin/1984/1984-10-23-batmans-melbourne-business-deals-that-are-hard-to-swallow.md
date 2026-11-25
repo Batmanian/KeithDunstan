@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1984/1984-10-23-batmans-melbourne-business-deals-that-are-hard-to-swallow.md

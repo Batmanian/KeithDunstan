@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1979/1979-05-08-batmans-melbourne-how-sinful-sydney-got-melbourne-s-sunday-footy.md

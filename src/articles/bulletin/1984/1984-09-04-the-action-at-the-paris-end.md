@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1984/1984-09-04-the-action-at-the-paris-end.md

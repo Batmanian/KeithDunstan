@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1977/1977-12-10-batmans-melbourne-the-colorful-cloying-of-company-reports.md

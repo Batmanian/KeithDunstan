@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1978/1978-09-12-batmans-melbourne-a-trendy-answer-to-a-burning-question.md

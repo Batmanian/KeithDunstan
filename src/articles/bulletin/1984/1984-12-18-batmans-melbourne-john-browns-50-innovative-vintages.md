@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1984/1984-12-18-batmans-melbourne-john-browns-50-innovative-vintages.md

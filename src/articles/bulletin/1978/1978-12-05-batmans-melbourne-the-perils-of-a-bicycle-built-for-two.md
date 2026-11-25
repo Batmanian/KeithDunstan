@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1978/1978-12-05-batmans-melbourne-the-perils-of-a-bicycle-built-for-two.md

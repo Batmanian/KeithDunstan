@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1979/1979-04-17-batmans-melbourne-a-dinkum-oz-with-a-love-of-the-wilderness.md

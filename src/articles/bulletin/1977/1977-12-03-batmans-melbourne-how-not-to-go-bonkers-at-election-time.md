@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1977/1977-12-03-batmans-melbourne-how-not-to-go-bonkers-at-election-time.md

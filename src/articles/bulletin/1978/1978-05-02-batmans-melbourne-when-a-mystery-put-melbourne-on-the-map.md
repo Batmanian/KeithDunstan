@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1978/1978-05-02-batmans-melbourne-when-a-mystery-put-melbourne-on-the-map.md

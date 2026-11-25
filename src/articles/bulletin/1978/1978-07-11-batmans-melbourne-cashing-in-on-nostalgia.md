@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1978/1978-07-11-batmans-melbourne-cashing-in-on-nostalgia.md

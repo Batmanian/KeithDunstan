@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1984/1984-08-07-batmans-melbourne-i-just-lap-up-this-computer.md

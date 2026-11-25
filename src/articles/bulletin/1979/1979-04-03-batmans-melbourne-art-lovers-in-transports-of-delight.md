@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1979/1979-04-03-batmans-melbourne-art-lovers-in-transports-of-delight.md

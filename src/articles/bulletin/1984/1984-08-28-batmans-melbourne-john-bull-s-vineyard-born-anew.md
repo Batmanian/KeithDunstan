@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1984/1984-08-28-batmans-melbourne-john-bull-s-vineyard-born-anew.md

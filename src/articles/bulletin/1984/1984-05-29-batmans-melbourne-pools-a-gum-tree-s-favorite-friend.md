@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1984/1984-05-29-batmans-melbourne-pools-a-gum-tree-s-favorite-friend.md

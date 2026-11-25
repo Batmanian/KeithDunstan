@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1978/1978-12-12-batmans-melbourne-it-started-with-a-whale-of-an-idea.md

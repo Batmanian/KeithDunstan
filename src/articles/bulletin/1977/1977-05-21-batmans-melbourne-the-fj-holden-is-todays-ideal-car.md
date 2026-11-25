@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1977/1977-05-21-batmans-melbourne-the-fj-holden-is-todays-ideal-car.md

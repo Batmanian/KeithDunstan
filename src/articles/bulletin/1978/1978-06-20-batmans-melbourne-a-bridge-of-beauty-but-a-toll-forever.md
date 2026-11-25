@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1978/1978-06-20-batmans-melbourne-a-bridge-of-beauty-but-a-toll-forever.md

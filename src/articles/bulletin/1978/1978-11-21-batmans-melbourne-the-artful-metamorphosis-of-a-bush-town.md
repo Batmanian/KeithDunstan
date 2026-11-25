@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1978/1978-11-21-batmans-melbourne-the-artful-metamorphosis-of-a-bush-town.md

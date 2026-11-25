@@ -1,0 +1,511 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A festival of light beers</title>
+<meta name="title" content="A festival of light beers">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Courage and Carlton have both launched low-alcohol beers in Melbourne — Dunstan taste-tests both and concludes the random breath-test regime is driving a genuine market revolution, though an anomaly in NSW law keeps them out of Sydney.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/articles/bulletin/1979/1979-03-27-batmans-melbourne-a-festival-of-light-beers/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="A festival of light beers">
+<meta property="og:description" content="Courage and Carlton have both launched low-alcohol beers in Melbourne — Dunstan taste-tests both and concludes the random breath-test regime is driving a genuine market revolution, though an anomaly in NSW law keeps them out of Sydney.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="A festival of light beers">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/articles/bulletin/1979/1979-03-27-batmans-melbourne-a-festival-of-light-beers/">
+<meta name="twitter:title" content="A festival of light beers">
+<meta name="twitter:description" content="Courage and Carlton have both launched low-alcohol beers in Melbourne — Dunstan taste-tests both and concludes the random breath-test regime is driving a genuine market revolution, though an anomaly in NSW law keeps them out of Sydney.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="A festival of light beers">
+<link rel="canonical" href="https://keithdunstan.org/articles/bulletin/1979/1979-03-27-batmans-melbourne-a-festival-of-light-beers/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1979-03-27">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="The Bulletin">
+<meta property="article:tag" content="Carlton Brewery">
+<meta property="article:tag" content="Courage Brewery">
+<meta property="article:tag" content="Carlton Light">
+<meta property="article:tag" content="Frank Sedgman">
+<meta property="article:tag" content="Melbourne">
+<meta property="article:tag" content="Albury">
+<meta property="article:tag" content="Wodonga">
+<meta property="article:tag" content="New South Wales">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">A festival of light beers</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            6
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1979-03-27">27 Mar 1979</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Courage and Carlton have both launched low-alcohol beers in Melbourne — Dunstan taste-tests both and concludes the random breath-test regime is driving a genuine market revolution, though an anomaly in NSW law keeps them out of Sydney.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="The Bulletin">
+         <!--<a href="/tags/carlton-brewery/" class="btn btn-outline-dark btn-sm me-2">Carlton Brewery</a><a href="/tags/courage-brewery/" class="btn btn-outline-dark btn-sm me-2">Courage Brewery</a><a href="/tags/carlton-light/" class="btn btn-outline-dark btn-sm me-2">Carlton Light</a><a href="/tags/frank-sedgman/" class="btn btn-outline-dark btn-sm me-2">Frank Sedgman</a><a href="/tags/melbourne/" class="btn btn-outline-dark btn-sm me-2">Melbourne</a><a href="/tags/albury/" class="btn btn-outline-dark btn-sm me-2">Albury</a><a href="/tags/wodonga/" class="btn btn-outline-dark btn-sm me-2">Wodonga</a><a href="/tags/new-south-wales/" class="btn btn-outline-dark btn-sm me-2">New South Wales</a>-->
+
+        
+      </header>
+      <div class="article-body"><p>SOME VERY strange things are happening in this town. The truth is that I thought the chances were better that Flemington racetrack would be subdivided for the Housing Commission, that Pentridge Jail would become the new Hilton Hotel or even that Henry Bolte would become a nun, before we saw the great breweries in a mighty struggle to give us low-alcohol beers.</p>
+<p>Courage has produced a low-alcohol beer called La Draught and it is on test now at 20 selected hotels around Melbourne. So far Courage has not revealed the precise alcohol content or whether we will receive it in bottles or cans.</p>
+<p>However, on your behalf, I tried the draught at the Jules Club Hotel in South Yarra and found it a good beer. If you blind-folded me and turned me round three times I wouldn't be able to tell the difference from the normal Courage product.</p>
+<p>Carlton, on the other hand, would appear to be far more advanced. They started selling their Carlton Light, the new beer, both in bottles and cans, on March 19.</p>
+<p>Their spokesman, Hugh Bingham, said Carlton started work on this beer 18 months ago. He says it is not just the old beer made lighter. It is a completely new beer.</p>
+<p>He even says, it is a &quot;world break-through.&quot; &quot;Normally,&quot; he announced, &quot;if you make a low-alcohol beer you just reduce the ingredients and you come out with a lighter, thinner beer. We tried that in 1968 and it didn't go. Our low-alcohol beer didn't add up to 1 percent of packaged sales.</p>
+<p>&quot;This time we hired a firm to make an intensive survey. They went to a thousand beer drinkers and asked them exactly what they wanted. Well, they asked for a beer that tasted just like the traditional Carlton, same color, same package too, but with less alcohol and fewer calories. We reckon we've done that.&quot;</p>
+<p>The new beer is 2.75 percent alcohol by weight compared with 3.9 percent for Fosters. Also it has 30 percent fewer calories.</p>
+<p>Once again, devotedly on your behalf, I tried the new product. I found it had a good head, splendid clingability to the side of the glass, smooth abundant flavor and, to be honest, I marginally preferred it to the Courage La Draught.</p>
+<p>Tests have been made, and even drinking ten beers at a slow but majestic social pace you are unlikely to get over .05.</p>
+<p>It is interesting that Carlton and Courage have taken opposite approaches. Courage believes if it is a success on draught, then it is worth the expense of tooling up and producing the new beer in cans and bottles.</p>
+<p>Carlton says: &quot;Look, 70 percent of the market now is in packaged beer. People are drinking at home. So give it to them in bottles and cans!&quot; But there is an even more subtle reason. Many a new beer has died through miserable handling. It gets put on tap in a bar against a big popular seller. The new beer might be pulled only once every 20 or 30 minutes with the result that it is like opening up a cadaver.</p>
+<p>Ah, but if the beer is served only out of bottles and cans Carlton believe it will come to drinkers as good as they can make it and reputation is preserved.</p>
+<p>There is one curious anomaly. Neither of these new light beers can be sold in New South Wales, because under the NSW Pure Foods Act beer must not be less than 3.35 percent alcohol by weight. It is an old law designed to stop publicans putting water in the beer.</p>
+<p>So in the Albury-Wodonga complex you will have a cockeyed situation. The light beer is legal in Wodonga and illegal in Albury. And if you plan to get boozed you can go to .05 in Wodonga, but you can get away with .08 in Albury.</p>
+<p>Well, will the new beers go? Courage at the time of writing is doing this fairly low key, but Carlton has launched a big TV campaign. They are building it round respected and revered sporting characters. Frank Sedgman is the first sport off the rank. There he is looking hunky and thoroughly decent, holding his can of Carlton Light.</p>
+<p>Even 12 months ago I would have said they didn't have a chance with this beer. Beer drinkers are too pig-headed and immovable, but now I am convinced it can't miss.</p>
+<p>Since the No .05 we have gone to a series of parties, and the pattern of them all has been the same. The dear old drinkers that we have known these past 30 years are terrified. Terrified of being caught in Burwood Road, High Street, the Nepean Highway or wherever, and being forced to suffer the humiliation of blowing into a bag.</p>
+<p>The police and their random breath tests are really working in this State and there is no let-up. Sometimes on Saturday night they will call a road block and check, say, every fifth driver. And that's a great idea — the other four go away, scared out of their wits, swearing never to touch a drop again.</p>
+<p>Sometimes the cops wait outside extremely well-known drinking wells and wait for the bon viveurs to come out. At party after party recently I have noticed the same thing happening — my host, in the classic tradition, has got a bath tub full of beer and by midnight almost none of it has been drunk. At the last show it was learned that our local bank manager, the quietest, most respectable gentleman you could imagine, had been hauled up on a .05.</p>
+<p>This was a matter for vast discussion.</p>
+<p>There are alternatives. Naturally the best thing is to share the driving. It's nice if you drive there then get your wife to drive home.</p>
+<p>Hotels around the State, desperate at the lack of sales, are providing a Saturday night, take-em-home bus service, which is known as the booze bus.</p>
+<p>Since Christmas some of our most lovable alcoholics have switched to soda and lemon, straight tonic, soda with a few drops of Angostura bitters, mineral water, non-alcoholic wine and, for Heaven's sake, even plain old barley water.</p>
+<p>After all this, low-alcohol beer is coming like the Relief of Mafeking. The boldest suggestion, of course, is this: if the breweries have reduced the alcohol by 30 percent, then a grateful government should show its enthusiasm with a 30 percent reduction in tax.</p>
+<p>CONCLUSION: It all seems to be working. Victoria is reducing its road toll. Deaths were down 63 in 1978. So far this year, they are down 20.</p>
+<hr>
+<p><em>Source: Batman's Melbourne: A festival of light beers, The Bulletin, 27 March 1979. Accessible via the <a href="https://nla.gov.au/nla.obj-1638988132">National Library of Australia's Trove database</a>.</em></p>
+</div>
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+
+  <p class="lead">
+        Courage and Carlton have both launched low-alcohol beers in Melbourne — Dunstan taste-tests both and concludes the random breath-test regime is driving a genuine market revolution, though an anomaly in NSW law keeps them out of Sydney.
+      </p>
+
+
+<hr>
+<h4 class="h6">Topics in this item</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/albury/" class="link-secondary">Albury</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Albury">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/carlton-brewery/" class="link-secondary">Carlton Brewery</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Carlton Brewery">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/carlton-light/" class="link-secondary">Carlton Light</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Carlton Light">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/courage-brewery/" class="link-secondary">Courage Brewery</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Courage Brewery">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/frank-sedgman/" class="link-secondary">Frank Sedgman</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Frank Sedgman">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/new-south-wales/" class="link-secondary">New South Wales</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="New South Wales">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/wodonga/" class="link-secondary">Wodonga</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Wodonga">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/albury/" class="link-secondary">Albury</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Albury">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/carlton-brewery/" class="link-secondary">Carlton Brewery</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Carlton Brewery">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/carlton-light/" class="link-secondary">Carlton Light</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Carlton Light">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/courage-brewery/" class="link-secondary">Courage Brewery</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Courage Brewery">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/frank-sedgman/" class="link-secondary">Frank Sedgman</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Frank Sedgman">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/new-south-wales/" class="link-secondary">New South Wales</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="New South Wales">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/wodonga/" class="link-secondary">Wodonga</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Wodonga">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

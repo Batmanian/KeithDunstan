@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1978/1978-05-23-batmans-melbourne-from-now-on-horrie-suits-himself.md

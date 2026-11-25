@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1984/1984-11-20-batmans-melbourne-the-full-bottle-on-australian-wine.md

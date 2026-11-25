@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1977/1977-04-09-batmans-melbourne-the-cricket-was-a-booming-success.md

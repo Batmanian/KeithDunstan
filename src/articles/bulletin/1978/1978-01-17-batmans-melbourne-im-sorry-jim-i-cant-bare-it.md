@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1978/1978-01-17-batmans-melbourne-im-sorry-jim-i-cant-bare-it.md

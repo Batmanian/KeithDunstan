@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1978/1978-09-05-batmans-melbourne-living-off-the-fat-of-the-land.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1984/1984-07-03-batmans-melbourne-shhh-i-haven-t-got-a-video-cassette-recorder.md

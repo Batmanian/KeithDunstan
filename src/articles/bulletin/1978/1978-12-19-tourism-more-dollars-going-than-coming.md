@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1978/1978-12-19-tourism-more-dollars-going-than-coming.md

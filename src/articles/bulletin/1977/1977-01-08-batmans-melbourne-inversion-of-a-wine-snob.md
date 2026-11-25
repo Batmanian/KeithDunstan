@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1977/1977-01-08-batmans-melbourne-inversion-of-a-wine-snob.md

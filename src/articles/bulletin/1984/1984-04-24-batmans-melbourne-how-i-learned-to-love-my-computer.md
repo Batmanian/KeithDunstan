@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1984/1984-04-24-batmans-melbourne-how-i-learned-to-love-my-computer.md

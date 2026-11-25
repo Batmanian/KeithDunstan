@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1984/1984-05-22-batmans-melbourne-australia-s-longest-running-election.md

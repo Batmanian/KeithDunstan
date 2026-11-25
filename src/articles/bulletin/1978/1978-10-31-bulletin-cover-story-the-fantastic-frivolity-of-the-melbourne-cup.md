@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1978/1978-10-31-bulletin-cover-story-the-fantastic-frivolity-of-the-melbourne-cup.md

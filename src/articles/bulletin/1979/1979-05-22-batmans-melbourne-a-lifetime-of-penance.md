@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1979/1979-05-22-batmans-melbourne-a-lifetime-of-penance.md

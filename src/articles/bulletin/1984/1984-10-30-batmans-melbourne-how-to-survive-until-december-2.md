@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1984/1984-10-30-batmans-melbourne-how-to-survive-until-december-2.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1978/1978-07-18-batmans-melbourne-drinking-our-way-to-solvency.md

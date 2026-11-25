@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1977/1977-07-23-batmans-melbourne-stagflation-is-not-blowing-up-deer.md

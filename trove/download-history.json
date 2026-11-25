@@ -36330,10 +36330,36 @@
       "folder_created": true
     },
     "trove/output/bulletin/stubs/1983/1983-01-25-crime-the-search-for-adelaide-s-slaughterhouse.md": {
-      "status": "error",
-      "error": "The read operation timed out",
+      "status": "complete",
       "stub": "trove/output/bulletin/stubs/1983/1983-01-25-crime-the-search-for-adelaide-s-slaughterhouse.md",
-      "folder": "src/trove-scans/bulletin/1983/1983-01-25-crime-the-search-for-adelaide-s-slaughterhouse"
+      "folder": "src/trove-scans/bulletin/1983/1983-01-25-crime-the-search-for-adelaide-s-slaughterhouse",
+      "title": "CRIME The search for Adelaide’s slaughterhouse",
+      "creator": "By DICK WOR DLEY*",
+      "issue_date": "Tue, 25 Jan 1983",
+      "source_url": "https://nla.gov.au/nla.obj-1605094095",
+      "rights_statement": "In Copyright",
+      "expected_pages": 2,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1314293382.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1314293382/image?WID=3244",
+          "width": 3244,
+          "height": 4394,
+          "bytes": 2035506,
+          "sha256": "0338cfa7dcca0272dc53e3058d1cd0816c40572142d82da57d3a50a952d21a40",
+          "downloaded_at": "2026-11-23T07:34:24.860671+00:00"
+        },
+        {
+          "file": "page-02-nla.obj-1314293598.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1314293598/image?WID=3244",
+          "width": 3244,
+          "height": 4394,
+          "bytes": 2032991,
+          "sha256": "d2029dfae4651aea2c26e6cbacea905c8ba44ccdc56f4e9c003c2623736d0967",
+          "downloaded_at": "2026-11-23T07:35:26.143555+00:00"
+        }
+      ],
+      "folder_created": true
     },
     "trove/output/bulletin/stubs/1983/1983-02-15-the-election-breaking-ground-in-poll-rationale.md": {
       "title": "THE ELECTION Breaking ground in poll rationale",
@@ -40260,10 +40286,787 @@
       "source_url": "https://nla.gov.au/nla.obj-1768307648",
       "stub": "trove/output/bulletin/stubs/1978/1978-09-05-batman-s-melbourne-living-off-the-fat-of-the-land.md",
       "rights_statement": "In Copyright",
-      "status": "downloading",
+      "status": "complete",
       "expected_pages": 1,
-      "images": [],
+      "images": [
+        {
+          "file": "page-01-nla.obj-1606422992.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1606422992/image?WID=3102",
+          "width": 3102,
+          "height": 4394,
+          "bytes": 2092269,
+          "sha256": "f04173abe89ac2db261a103f33ceadde8bf35de956b30b90ae0c8e1e7dd3c8ed",
+          "downloaded_at": "2026-11-23T06:56:25.341927+00:00"
+        }
+      ],
       "folder": "src/trove-scans/bulletin/1978/1978-09-05-batman-s-melbourne-living-off-the-fat-of-the-land",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1978/1978-09-12-batman-s-melbourne-a-trendy-answer-to-a-burning-question.md": {
+      "title": "BATMAN’S MELBOURNE A trendy answer to a burning question",
+      "creator": "Keith Dunstan",
+      "issue_date": "Tue, 12 Sep 1978",
+      "source_url": "https://nla.gov.au/nla.obj-1768374106",
+      "stub": "trove/output/bulletin/stubs/1978/1978-09-12-batman-s-melbourne-a-trendy-answer-to-a-burning-question.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 1,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1606467423.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1606467423/image?WID=3102",
+          "width": 3102,
+          "height": 4394,
+          "bytes": 1950307,
+          "sha256": "7f4da8621f4782b1929291ea4fabbea38a720181c7323064460cede2f4f49ccb",
+          "downloaded_at": "2026-11-23T06:57:26.272861+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1978/1978-09-12-batman-s-melbourne-a-trendy-answer-to-a-burning-question",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1978/1978-09-19-batman-s-melbourne-let-s-hear-it-for-the-mini.md": {
+      "title": "BATMAN’S MELBOURNE Let’s hear it for the Mini",
+      "creator": "Keith Dunstan",
+      "issue_date": "Tue, 19 Sep 1978",
+      "source_url": "https://nla.gov.au/nla.obj-1768559304",
+      "stub": "trove/output/bulletin/stubs/1978/1978-09-19-batman-s-melbourne-let-s-hear-it-for-the-mini.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 1,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1606511278.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1606511278/image?WID=3102",
+          "width": 3102,
+          "height": 4394,
+          "bytes": 2004253,
+          "sha256": "bad0d49694a7f910f7185226a75de43093deda5c7e3613dcfedecc834973e6a9",
+          "downloaded_at": "2026-11-23T06:58:25.721903+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1978/1978-09-19-batman-s-melbourne-let-s-hear-it-for-the-mini",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1978/1978-09-26-batman-s-melbourne-the-great-tv-screen-in-the-sky.md": {
+      "title": "BATMAN’S MELBOURNE The great TV screen in the sky",
+      "creator": "Keith Dunstan",
+      "issue_date": "Tue, 26 Sep 1978",
+      "source_url": "https://nla.gov.au/nla.obj-1768525384",
+      "stub": "trove/output/bulletin/stubs/1978/1978-09-26-batman-s-melbourne-the-great-tv-screen-in-the-sky.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 1,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1606562316.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1606562316/image?WID=3102",
+          "width": 3102,
+          "height": 4394,
+          "bytes": 2063418,
+          "sha256": "6044bb34e79c92871d3e6da01335f478a7bb63af1c9aa678e6fe5f8cb0533679",
+          "downloaded_at": "2026-11-23T06:59:25.665284+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1978/1978-09-26-batman-s-melbourne-the-great-tv-screen-in-the-sky",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1978/1978-10-03-batman-s-melbourne-for-sale-australia-s-most-magnificent-folly.md": {
+      "title": "BATMAN’S MELBOURNE FOR SALE: Australia’s most magnificent folly",
+      "creator": "Keith Dunstan",
+      "issue_date": "Tue, 03 Oct 1978",
+      "source_url": "https://nla.gov.au/nla.obj-1757561547",
+      "stub": "trove/output/bulletin/stubs/1978/1978-10-03-batman-s-melbourne-for-sale-australia-s-most-magnificent-folly.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 2,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1589854030.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1589854030/image?WID=3102",
+          "width": 3102,
+          "height": 4394,
+          "bytes": 2110317,
+          "sha256": "625ebe03d34f8247ff7147421c33e1c454dd439f7e5bf717ba10a716f940db0b",
+          "downloaded_at": "2026-11-23T07:00:24.343079+00:00"
+        },
+        {
+          "file": "page-02-nla.obj-1589854183.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1589854183/image?WID=3102",
+          "width": 3102,
+          "height": 4394,
+          "bytes": 2366177,
+          "sha256": "6590dc88f550ddcbdc303f6bb4ea3962e3d0120b9bf45ca84e778b00a8c11f65",
+          "downloaded_at": "2026-11-23T07:01:24.720628+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1978/1978-10-03-batman-s-melbourne-for-sale-australia-s-most-magnificent-folly",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1978/1978-10-10-batman-s-melbourne-do-it-yourself-you-have-to.md": {
+      "title": "BATMAN’S MELBOURNE Do it yourself? You have to",
+      "creator": "Keith Dunstan",
+      "issue_date": "Tue, 10 Oct 1978",
+      "source_url": "https://nla.gov.au/nla.obj-1742026485",
+      "stub": "trove/output/bulletin/stubs/1978/1978-10-10-batman-s-melbourne-do-it-yourself-you-have-to.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 1,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1589901556.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1589901556/image?WID=3102",
+          "width": 3102,
+          "height": 4394,
+          "bytes": 1886865,
+          "sha256": "68acdf459bc0835262e622808dc4b2a96870eb4c247feb3526826c0a0a9d880b",
+          "downloaded_at": "2026-11-23T07:02:24.231326+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1978/1978-10-10-batman-s-melbourne-do-it-yourself-you-have-to",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1978/1978-10-17-batman-s-melbourne-knockers-held-in-high-regard.md": {
+      "title": "BATMAN’S MELBOURNE Knockers held in high regard",
+      "creator": "Keith Dunstan",
+      "issue_date": "Tue, 17 Oct 1978",
+      "source_url": "https://nla.gov.au/nla.obj-1742056936",
+      "stub": "trove/output/bulletin/stubs/1978/1978-10-17-batman-s-melbourne-knockers-held-in-high-regard.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 1,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1589940424.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1589940424/image?WID=3102",
+          "width": 3102,
+          "height": 4394,
+          "bytes": 2088030,
+          "sha256": "0358f0c7cb3270e1b24b4db76a320c95d521fd76306a9d7022f407715eedef88",
+          "downloaded_at": "2026-11-23T07:03:24.136908+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1978/1978-10-17-batman-s-melbourne-knockers-held-in-high-regard",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1978/1978-10-31-batman-s-melbourne-lunch-hour-in-a-tippler-s-valhalla.md": {
+      "title": "BATMAN’S MELBOURNE Lunch hour in a tippler’s Valhalla",
+      "creator": "Keith Dunstan",
+      "issue_date": "Tue, 31 Oct 1978",
+      "source_url": "https://nla.gov.au/nla.obj-1758040846",
+      "stub": "trove/output/bulletin/stubs/1978/1978-10-31-batman-s-melbourne-lunch-hour-in-a-tippler-s-valhalla.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 1,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1590016624.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1590016624/image?WID=3102",
+          "width": 3102,
+          "height": 4394,
+          "bytes": 1980693,
+          "sha256": "540c8b88308efcce92091c5e6dd6fccd2e36529cee2cc0842721ff854d18099b",
+          "downloaded_at": "2026-11-23T07:04:23.948895+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1978/1978-10-31-batman-s-melbourne-lunch-hour-in-a-tippler-s-valhalla",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1978/1978-11-07-batman-s-melbourne-the-summer-scent-of-scorched-chops.md": {
+      "title": "BATMAN’S MELBOURNE The summer scent of scorched chops",
+      "creator": "Keith Dunstan",
+      "issue_date": "Tue, 07 Nov 1978",
+      "source_url": "https://nla.gov.au/nla.obj-1742123173",
+      "stub": "trove/output/bulletin/stubs/1978/1978-11-07-batman-s-melbourne-the-summer-scent-of-scorched-chops.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 1,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1590057262.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1590057262/image?WID=3102",
+          "width": 3102,
+          "height": 4394,
+          "bytes": 2150742,
+          "sha256": "d1a983f5e7267c7a152252dc317617c699b9c5c3d2e043d14f82cadc8bf65161",
+          "downloaded_at": "2026-11-23T07:05:24.180720+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1978/1978-11-07-batman-s-melbourne-the-summer-scent-of-scorched-chops",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1978/1978-11-14-batman-s-melbourne-the-great-toorak-paper-war.md": {
+      "title": "BATMAN’S MELBOURNE The great Toorak paper war",
+      "creator": "KEITH DUNSTAN",
+      "issue_date": "Tue, 14 Nov 1978",
+      "source_url": "https://nla.gov.au/nla.obj-1757890806",
+      "stub": "trove/output/bulletin/stubs/1978/1978-11-14-batman-s-melbourne-the-great-toorak-paper-war.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 1,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1590087441.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1590087441/image?WID=3102",
+          "width": 3102,
+          "height": 4394,
+          "bytes": 2148899,
+          "sha256": "fced68b319899ceb215c0409061fba31ffea73ac11bbed1882772b15b9fa8fd6",
+          "downloaded_at": "2026-11-23T07:06:25.809726+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1978/1978-11-14-batman-s-melbourne-the-great-toorak-paper-war",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1978/1978-11-21-batman-s-melbourne-the-artful-metamorphosis-of-a-bush-town.md": {
+      "title": "BATMAN’S MELBOURNE The artful metamorphosis of a bush town",
+      "creator": "KEITH DUNSTAN",
+      "issue_date": "Tue, 21 Nov 1978",
+      "source_url": "https://nla.gov.au/nla.obj-1758002681",
+      "stub": "trove/output/bulletin/stubs/1978/1978-11-21-batman-s-melbourne-the-artful-metamorphosis-of-a-bush-town.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 2,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1590129969.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1590129969/image?WID=3102",
+          "width": 3102,
+          "height": 4394,
+          "bytes": 1865639,
+          "sha256": "2c8f1b9a3de377112cd112838ef6d575a6283d58d018648e692af5f47c9b8037",
+          "downloaded_at": "2026-11-23T07:07:25.200675+00:00"
+        },
+        {
+          "file": "page-02-nla.obj-1590130960.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1590130960/image?WID=3102",
+          "width": 3102,
+          "height": 4394,
+          "bytes": 2138608,
+          "sha256": "1918e2d39b1f00eaa43f0a6f8ef50bfc27d9401124d07e7ac75e68c49109521e",
+          "downloaded_at": "2026-11-23T07:08:25.578725+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1978/1978-11-21-batman-s-melbourne-the-artful-metamorphosis-of-a-bush-town",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1978/1978-11-28-batman-s-melbourne-the-phoenix-that-rose-from-the-slums.md": {
+      "title": "BATMAN’S MELBOURNE The Phoenix that rose from the slums",
+      "creator": "KEITH DUNSTAN",
+      "issue_date": "Tue, 28 Nov 1978",
+      "source_url": "https://nla.gov.au/nla.obj-1758965673",
+      "stub": "trove/output/bulletin/stubs/1978/1978-11-28-batman-s-melbourne-the-phoenix-that-rose-from-the-slums.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 1,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1590170811.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1590170811/image?WID=3102",
+          "width": 3102,
+          "height": 4394,
+          "bytes": 1958294,
+          "sha256": "47191ac66f99645710a273c9a4e912e23df00507355a705a52f563a7ce97dafc",
+          "downloaded_at": "2026-11-23T07:09:24.554272+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1978/1978-11-28-batman-s-melbourne-the-phoenix-that-rose-from-the-slums",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1978/1978-12-05-batman-s-melbourne-the-perils-of-a-bicycle-built-for-two.md": {
+      "title": "BATMAN’S MELBOURNE The perils of a bicycle built for two",
+      "creator": "Keith Dunstan",
+      "issue_date": "Tue, 05 Dec 1978",
+      "source_url": "https://nla.gov.au/nla.obj-1759009134",
+      "stub": "trove/output/bulletin/stubs/1978/1978-12-05-batman-s-melbourne-the-perils-of-a-bicycle-built-for-two.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 1,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1590212456.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1590212456/image?WID=3102",
+          "width": 3102,
+          "height": 4394,
+          "bytes": 2012367,
+          "sha256": "3d9decc649051ac60a17cfb02ab2a328dc087396909d66ab38882aac026bf0d8",
+          "downloaded_at": "2026-11-23T07:10:24.699818+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1978/1978-12-05-batman-s-melbourne-the-perils-of-a-bicycle-built-for-two",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1978/1978-12-12-batman-s-melbourne-it-started-with-a-whale-of-an-idea.md": {
+      "title": "BATMAN’S MELBOURNE It started with a whale of an idea",
+      "creator": "Keith Dunstan",
+      "issue_date": "Tue, 12 Dec 1978",
+      "source_url": "https://nla.gov.au/nla.obj-1758993993",
+      "stub": "trove/output/bulletin/stubs/1978/1978-12-12-batman-s-melbourne-it-started-with-a-whale-of-an-idea.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 1,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1590246336.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1590246336/image?WID=3102",
+          "width": 3102,
+          "height": 4394,
+          "bytes": 1998984,
+          "sha256": "a99d4cbbd2ef6f5abf0eabc86888cd6bbf8102301bbbfafb8a3d03bf6a845eae",
+          "downloaded_at": "2026-11-23T07:11:24.019131+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1978/1978-12-12-batman-s-melbourne-it-started-with-a-whale-of-an-idea",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1979/1979-01-09-batman-s-melbourne-feeling-the-strain-of-the-party-frenzy.md": {
+      "title": "BATMAN’S MELBOURNE Feeling the strain of the party frenzy",
+      "creator": "Keith Dunstan",
+      "issue_date": "Tue, 09 Jan 1979",
+      "source_url": "https://nla.gov.au/nla.obj-1638329746",
+      "stub": "trove/output/bulletin/stubs/1979/1979-01-09-batman-s-melbourne-feeling-the-strain-of-the-party-frenzy.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 1,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1397474170.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1397474170/image?WID=3181",
+          "width": 3181,
+          "height": 4394,
+          "bytes": 1930733,
+          "sha256": "93ada001070fd055ec00d933d644ce9957e977bc47e16e852933df8ed5e7a13e",
+          "downloaded_at": "2026-11-23T07:12:24.278560+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1979/1979-01-09-batman-s-melbourne-feeling-the-strain-of-the-party-frenzy",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1979/1979-01-16-batman-s-melbourne-the-case-for-conserving-the-blowey.md": {
+      "title": "BATMAN’S MELBOURNE The case for conserving the blowey",
+      "creator": "KEITH DUNSTAN",
+      "issue_date": "Tue, 16 Jan 1979",
+      "source_url": "https://nla.gov.au/nla.obj-1638339629",
+      "stub": "trove/output/bulletin/stubs/1979/1979-01-16-batman-s-melbourne-the-case-for-conserving-the-blowey.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 1,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1397508191.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1397508191/image?WID=3181",
+          "width": 3181,
+          "height": 4394,
+          "bytes": 1812017,
+          "sha256": "7b7d24e45688a33bd41098ab9aac75b14fa8d7ad02653b1112099575ee71de68",
+          "downloaded_at": "2026-11-23T07:13:24.522130+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1979/1979-01-16-batman-s-melbourne-the-case-for-conserving-the-blowey",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1979/1979-01-23-batman-s-melbourne-not-just-an-ordinary-run-of-the-mill-academic.md": {
+      "title": "BATMAN’S MELBOURNE Not just an ordinary, run-of-the-mill academic",
+      "creator": "Keith Dunstan",
+      "issue_date": "Tue, 23 Jan 1979",
+      "source_url": "https://nla.gov.au/nla.obj-1638360974",
+      "stub": "trove/output/bulletin/stubs/1979/1979-01-23-batman-s-melbourne-not-just-an-ordinary-run-of-the-mill-academic.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 2,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1397544463.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1397544463/image?WID=3181",
+          "width": 3181,
+          "height": 4394,
+          "bytes": 2132974,
+          "sha256": "b3f74a12f916a229d3449afe97cdb57ee95d95f20bd7e208d04f746998d4b034",
+          "downloaded_at": "2026-11-23T07:14:24.618051+00:00"
+        },
+        {
+          "file": "page-02-nla.obj-1397545040.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1397545040/image?WID=3181",
+          "width": 3181,
+          "height": 4394,
+          "bytes": 2174472,
+          "sha256": "89b4fca35257321816c9790bc7544281de03b548a204a9f437b2918651d7bfaf",
+          "downloaded_at": "2026-11-23T07:15:24.408933+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1979/1979-01-23-batman-s-melbourne-not-just-an-ordinary-run-of-the-mill-academic",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1979/1979-01-30-batman-s-melbourne-let-s-get-back-to-service-with-a-snarl.md": {
+      "title": "BATMAN’S MELBOURNE Let’s get back to service with a snarl",
+      "creator": "Keith Dunstan",
+      "issue_date": "Tue, 30 Jan 1979",
+      "source_url": "https://nla.gov.au/nla.obj-1638764388",
+      "stub": "trove/output/bulletin/stubs/1979/1979-01-30-batman-s-melbourne-let-s-get-back-to-service-with-a-snarl.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 1,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1397642106.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1397642106/image?WID=3181",
+          "width": 3181,
+          "height": 4394,
+          "bytes": 1891750,
+          "sha256": "e018a218a50809248d87146638b962047b1697aff92fd89cc320f76feeffb4da",
+          "downloaded_at": "2026-11-23T07:16:24.320458+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1979/1979-01-30-batman-s-melbourne-let-s-get-back-to-service-with-a-snarl",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1979/1979-02-27-batmans-melbourne-jerilderie-gives-ned-a-fair-go.md": {
+      "title": "BATMAN'S MELBOURNE Jerilderie gives Ned a fair go",
+      "creator": "Keith Dunstan",
+      "issue_date": "Tue, 27 Feb 1979",
+      "source_url": "https://nla.gov.au/nla.obj-1638879543",
+      "stub": "trove/output/bulletin/stubs/1979/1979-02-27-batmans-melbourne-jerilderie-gives-ned-a-fair-go.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 2,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1397819683.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1397819683/image?WID=3181",
+          "width": 3181,
+          "height": 4394,
+          "bytes": 2392061,
+          "sha256": "4bb2ecad185eeb5dedad368a8d6f210fd4f247af6c793be4e705f5d412e4d4ab",
+          "downloaded_at": "2026-11-23T07:17:24.477305+00:00"
+        },
+        {
+          "file": "page-02-nla.obj-1397820013.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1397820013/image?WID=3181",
+          "width": 3181,
+          "height": 4394,
+          "bytes": 2349692,
+          "sha256": "dde033a08431f542bb0c6157314932c4e7eda24dfb8fde34f7273990b6093b53",
+          "downloaded_at": "2026-11-23T07:18:24.359021+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1979/1979-02-27-batmans-melbourne-jerilderie-gives-ned-a-fair-go",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1979/1979-03-13-batmans-melbourne-a-serious-case-of-maladjustment.md": {
+      "title": "BATMAN'S MELBOURNE A serious case of maladjustment",
+      "creator": "KEITH DUNSTAN",
+      "issue_date": "Tue, 13 Mar 1979",
+      "source_url": "https://nla.gov.au/nla.obj-1774714524",
+      "stub": "trove/output/bulletin/stubs/1979/1979-03-13-batmans-melbourne-a-serious-case-of-maladjustment.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 1,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1663438792.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1663438792/image?WID=3181",
+          "width": 3181,
+          "height": 4394,
+          "bytes": 1842121,
+          "sha256": "a711822680cad98728ad7e818d651f956958935af54aefd87aaa89015e26b799",
+          "downloaded_at": "2026-11-23T07:19:24.121443+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1979/1979-03-13-batmans-melbourne-a-serious-case-of-maladjustment",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1979/1979-03-27-batmans-melbourne-a-festival-of-light-beers.md": {
+      "title": "BATMAN'S MELBOURNE A festival of light beers",
+      "creator": "Keith Dunstan",
+      "issue_date": "Tue, 27 Mar 1979",
+      "source_url": "https://nla.gov.au/nla.obj-1638988132",
+      "stub": "trove/output/bulletin/stubs/1979/1979-03-27-batmans-melbourne-a-festival-of-light-beers.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 2,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1397939961.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1397939961/image?WID=3181",
+          "width": 3181,
+          "height": 4394,
+          "bytes": 2033326,
+          "sha256": "cde83ac76dc2549109bde7e6b94b1c8b44db59c7eab7f39fb43e43a2664d7122",
+          "downloaded_at": "2026-11-23T07:20:24.020155+00:00"
+        },
+        {
+          "file": "page-02-nla.obj-1397941267.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1397941267/image?WID=3181",
+          "width": 3181,
+          "height": 4394,
+          "bytes": 2160757,
+          "sha256": "860690ce7644db702a26c878d114221b938bd0f9b96a4b1fb6d55fd841608bf9",
+          "downloaded_at": "2026-11-23T07:21:24.178330+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1979/1979-03-27-batmans-melbourne-a-festival-of-light-beers",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1979/1979-04-03-batmans-melbourne-art-lovers-in-transports-of-delight.md": {
+      "title": "BATMAN'S MELBOURNE Art lovers in transports of delight",
+      "creator": "Keith Dunstan",
+      "issue_date": "Tue, 03 Apr 1979",
+      "source_url": "https://nla.gov.au/nla.obj-1758910508",
+      "stub": "trove/output/bulletin/stubs/1979/1979-04-03-batmans-melbourne-art-lovers-in-transports-of-delight.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 2,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1590917850.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1590917850/image?WID=3181",
+          "width": 3181,
+          "height": 4394,
+          "bytes": 2167927,
+          "sha256": "315242a079c89ef5c5edbdb56267c38e6b7fbe7ecf82fa8af256a6a5df0990e4",
+          "downloaded_at": "2026-11-23T07:22:24.094058+00:00"
+        },
+        {
+          "file": "page-02-nla.obj-1590918092.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1590918092/image?WID=3181",
+          "width": 3181,
+          "height": 4394,
+          "bytes": 2215039,
+          "sha256": "4646db898dc17129deaba5290190bac95d8a95a416d842fb00aad415b4e6d7ae",
+          "downloaded_at": "2026-11-23T07:23:24.384373+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1979/1979-04-03-batmans-melbourne-art-lovers-in-transports-of-delight",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1979/1979-04-10-batmans-melbourne-the-era-of-musical-cohabitants.md": {
+      "title": "BATMAN'S MELBOURNE The era of musical cohabitants",
+      "creator": "Keith Dunstan",
+      "issue_date": "Tue, 10 Apr 1979",
+      "source_url": "https://nla.gov.au/nla.obj-1891795152",
+      "stub": "trove/output/bulletin/stubs/1979/1979-04-10-batmans-melbourne-the-era-of-musical-cohabitants.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 1,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1874890985.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1874890985/image?WID=3181",
+          "width": 3181,
+          "height": 4394,
+          "bytes": 1843146,
+          "sha256": "d37e45238f5dac8533f53eb16761a460180e188d772e11ce6197dcccacc045bd",
+          "downloaded_at": "2026-11-23T07:24:23.960251+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1979/1979-04-10-batmans-melbourne-the-era-of-musical-cohabitants",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1979/1979-04-17-batmans-melbourne-a-dinkum-oz-with-a-love-of-the-wilderness.md": {
+      "title": "BATMAN'S MELBOURNE A dinkum Oz with a love of the wilderness",
+      "creator": "Keith Dunstan",
+      "issue_date": "Tue, 17 Apr 1979",
+      "source_url": "https://nla.gov.au/nla.obj-1891809739",
+      "stub": "trove/output/bulletin/stubs/1979/1979-04-17-batmans-melbourne-a-dinkum-oz-with-a-love-of-the-wilderness.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 1,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1880183725.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1880183725/image?WID=3181",
+          "width": 3181,
+          "height": 4394,
+          "bytes": 2225204,
+          "sha256": "cda52a5a2c2849a2bc3a63ee3b8c066590004f59acb06dd73730e87e08fc8b15",
+          "downloaded_at": "2026-11-23T07:25:24.000332+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1979/1979-04-17-batmans-melbourne-a-dinkum-oz-with-a-love-of-the-wilderness",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1979/1979-04-24-batmans-melbourne-passionate-paintings-by-an-old-commo.md": {
+      "title": "BATMAN'S MELBOURNE Passionate paintings by an old commo",
+      "creator": "KEITH DUNSTAN",
+      "issue_date": "Tue, 24 Apr 1979",
+      "source_url": "https://nla.gov.au/nla.obj-1758843915",
+      "stub": "trove/output/bulletin/stubs/1979/1979-04-24-batmans-melbourne-passionate-paintings-by-an-old-commo.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 1,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1590947760.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1590947760/image?WID=3181",
+          "width": 3181,
+          "height": 4394,
+          "bytes": 2092445,
+          "sha256": "536f7f121c587ed59a3fffe916d9aa4463441155d81030da4fa9f8d161d76efd",
+          "downloaded_at": "2026-11-23T07:26:23.784705+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1979/1979-04-24-batmans-melbourne-passionate-paintings-by-an-old-commo",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1979/1979-05-08-batmans-melbourne-how-sinful-sydney-got-melbourne-s-sunday-footy.md": {
+      "title": "BATMAN'S MELBOURNE How sinful Sydney got Melbourne’s Sunday footy",
+      "creator": "Keith Dunstan",
+      "issue_date": "Tue, 08 May 1979",
+      "source_url": "https://nla.gov.au/nla.obj-1891783066",
+      "stub": "trove/output/bulletin/stubs/1979/1979-05-08-batmans-melbourne-how-sinful-sydney-got-melbourne-s-sunday-footy.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 1,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1880724681.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1880724681/image?WID=3181",
+          "width": 3181,
+          "height": 4394,
+          "bytes": 2080504,
+          "sha256": "50671d6d7a89686a5313f03a30efb99f36a5f8070142ddb6a2613fc943c1a98a",
+          "downloaded_at": "2026-11-23T07:27:23.937278+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1979/1979-05-08-batmans-melbourne-how-sinful-sydney-got-melbourne-s-sunday-footy",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1979/1979-05-22-batmans-melbourne-a-lifetime-of-penance.md": {
+      "title": "BATMAN'S MELBOURNE A lifetime of penance",
+      "creator": "Keith Dunstan",
+      "issue_date": "Tue, 22 May 1979",
+      "source_url": "https://nla.gov.au/nla.obj-1758858471",
+      "stub": "trove/output/bulletin/stubs/1979/1979-05-22-batmans-melbourne-a-lifetime-of-penance.md",
+      "rights_statement": "No known copyright restrictions",
+      "status": "complete",
+      "expected_pages": 1,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1591007358.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1591007358/image?WID=3181",
+          "width": 3181,
+          "height": 4394,
+          "bytes": 1985292,
+          "sha256": "cbbcbde600fe6d2482215e2eb21c7efbb0667c859b7ae2e4e120b5953ec47bc1",
+          "downloaded_at": "2026-11-23T07:28:24.117579+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1979/1979-05-22-batmans-melbourne-a-lifetime-of-penance",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1979/1979-06-05-batmans-melbourne-ail-out-for-nations-strike-day.md": {
+      "title": "BATMAN'S MELBOURNE Ail out for Nations! Strike Day",
+      "creator": "Keith Dunstan",
+      "issue_date": "Tue, 05 Jun 1979",
+      "source_url": "https://nla.gov.au/nla.obj-1758936781",
+      "stub": "trove/output/bulletin/stubs/1979/1979-06-05-batmans-melbourne-ail-out-for-nations-strike-day.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 1,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1591022018.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1591022018/image?WID=3181",
+          "width": 3181,
+          "height": 4394,
+          "bytes": 1964135,
+          "sha256": "8fb11499b377cfa649350b5019abe468ec6a9bfaeeda59b6e99242981d70400d",
+          "downloaded_at": "2026-11-23T07:29:24.013044+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1979/1979-06-05-batmans-melbourne-ail-out-for-nations-strike-day",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1979/1979-06-12-batmans-melbourne-riveting-times-at-the-green-baize.md": {
+      "title": "BATMAN'S MELBOURNE Riveting times at the green baize",
+      "creator": "Keith Dunstan",
+      "issue_date": "Tue, 12 Jun 1979",
+      "source_url": "https://nla.gov.au/nla.obj-1955802753",
+      "stub": "trove/output/bulletin/stubs/1979/1979-06-12-batmans-melbourne-riveting-times-at-the-green-baize.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 1,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1885513642.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1885513642/image?WID=3181",
+          "width": 3181,
+          "height": 4394,
+          "bytes": 1956865,
+          "sha256": "f05248f16f806fd6810be702847e81f956fa1e5e760f5d38988d7f334e99ef95",
+          "downloaded_at": "2026-11-23T07:30:25.085053+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1979/1979-06-12-batmans-melbourne-riveting-times-at-the-green-baize",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1979/1979-06-19-batmans-melbourne-shoulder-shovels-the-horse-is-coming-back.md": {
+      "title": "BATMAN'S MELBOURNE Shoulder shovels the horse is coming back!",
+      "creator": "Keith Dunstan",
+      "issue_date": "Tue, 19 Jun 1979",
+      "source_url": "https://nla.gov.au/nla.obj-1758950867",
+      "stub": "trove/output/bulletin/stubs/1979/1979-06-19-batmans-melbourne-shoulder-shovels-the-horse-is-coming-back.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 1,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1591117150.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1591117150/image?WID=3181",
+          "width": 3181,
+          "height": 4394,
+          "bytes": 2027131,
+          "sha256": "5191fd0f7699295afaa43f729c5f41c956c0c48c6e422d533ece71e3eb7402f0",
+          "downloaded_at": "2026-11-23T07:31:25.487418+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1979/1979-06-19-batmans-melbourne-shoulder-shovels-the-horse-is-coming-back",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1979/1979-06-26-batmans-melbourne-1-2-3-4-he-doesn-t-care-about-your-law.md": {
+      "title": "BATMAN'S MELBOURNE 1, 2, 3, 4, he doesn’t care about your law",
+      "creator": "Keith Dunstan",
+      "issue_date": "Tue, 26 Jun 1979",
+      "source_url": "https://nla.gov.au/nla.obj-1758980334",
+      "stub": "trove/output/bulletin/stubs/1979/1979-06-26-batmans-melbourne-1-2-3-4-he-doesn-t-care-about-your-law.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 1,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1591151319.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1591151319/image?WID=3181",
+          "width": 3181,
+          "height": 4394,
+          "bytes": 1994150,
+          "sha256": "1c289f935d98e1e68c8f20fe963569b50d113196219bf0f49b5444d1085097d0",
+          "downloaded_at": "2026-11-23T07:32:24.819766+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1979/1979-06-26-batmans-melbourne-1-2-3-4-he-doesn-t-care-about-your-law",
+      "folder_created": true
+    },
+    "trove/output/bulletin/stubs/1979/1979-07-03-batmans-melbourne-costs-like-the-arts-centre-s-spire-go-sky-high.md": {
+      "title": "BATMAN'S MELBOURNE Costs – like the Arts Centre’s spire – go sky high",
+      "creator": "Keith Dunstan",
+      "issue_date": "Tue, 03 Jul 1979",
+      "source_url": "https://nla.gov.au/nla.obj-1739169636",
+      "stub": "trove/output/bulletin/stubs/1979/1979-07-03-batmans-melbourne-costs-like-the-arts-centre-s-spire-go-sky-high.md",
+      "rights_statement": "In Copyright",
+      "status": "complete",
+      "expected_pages": 1,
+      "images": [
+        {
+          "file": "page-01-nla.obj-1552850795.jpg",
+          "source_url": "https://nla.gov.au/nla.obj-1552850795/image?WID=3165",
+          "width": 3165,
+          "height": 4394,
+          "bytes": 2079217,
+          "sha256": "a8b74e59004ad54e73284971e76620187fdc7bd4ac79673c54d60ecdbbbe2e29",
+          "downloaded_at": "2026-11-23T07:33:26.219342+00:00"
+        }
+      ],
+      "folder": "src/trove-scans/bulletin/1979/1979-07-03-batmans-melbourne-costs-like-the-arts-centre-s-spire-go-sky-high",
       "folder_created": true
     }
   }

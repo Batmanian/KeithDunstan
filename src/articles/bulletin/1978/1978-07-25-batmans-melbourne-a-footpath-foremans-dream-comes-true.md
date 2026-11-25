@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1978/1978-07-25-batmans-melbourne-a-footpath-foremans-dream-comes-true.md

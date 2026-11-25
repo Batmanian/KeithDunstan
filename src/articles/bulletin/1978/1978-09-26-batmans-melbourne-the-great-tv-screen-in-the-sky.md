@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1978/1978-09-26-batmans-melbourne-the-great-tv-screen-in-the-sky.md

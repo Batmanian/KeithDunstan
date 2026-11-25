@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1978/1978-07-04-batmans-melbourne-hair-today-gone-to-sorrow.md

@@ -1,0 +1,571 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Topic: humour</title>
+<meta name="title" content="Topic: humour">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="The collected literary works of Keith Dunstan OAM">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://keithdunstan.org/topic/humour/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Topic: humour">
+<meta property="og:description" content="The collected literary works of Keith Dunstan OAM">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Topic: humour">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/topic/humour/">
+<meta name="twitter:title" content="Topic: humour">
+<meta name="twitter:description" content="The collected literary works of Keith Dunstan OAM">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Topic: humour">
+<link rel="canonical" href="https://keithdunstan.org/topic/humour/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-lg-10 col-xl-8">
+          <header>
+      <h1 class="h2 mb-2">Topic: humour</h1>
+</header>
+
+
+  
+  
+  <p class="text-muted mb-1">12 items include the topic of humour.</p>
+  <p class="fst-italic text-muted mb-5"></p>
+  <div class="row d-flex justify-content-center">
+  <div class="col-12">
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1984/1984-05-15-batmans-melbourne-a-life-of-domestic-bliss/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“A life of domestic bliss”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1984-05-15">15 May 1984</time>
+        </p>
+
+        <p>Keith Dunstan surveys the security-obsessed miseries of modern Melbourne domestic life — deadlocked out of his own house in dirty jeans, keys locked inside a thief-proof car at the seaside, an RACV man defeated after 45 minutes, and a locksmith who charges $70 to work his way in after dark.</p>
+
+        <a href="/articles/bulletin/1984/1984-05-15-batmans-melbourne-a-life-of-domestic-bliss/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/domestic-life/" class="link-secondary">domestic life</a>,
+              
+              <a href="/topic/security/" class="link-secondary">security</a>,
+              
+              <a href="/topic/humour/" class="link-secondary">humour</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1984/1984-05-22-batmans-melbourne-australia-s-longest-running-election/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Australia&#39;s longest-running election”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1984-05-22">22 May 1984</time>
+        </p>
+
+        <p>The Melbourne Anglican diocese has spent nearly a year trying to elect a new archbishop to replace the departed Archbishop Dann, with two board members themselves candidates, constant leaks splitting the board, and an open letter suggesting Alan Bond — his dedication to causes well known, his media image well managed — as a suitable alternative.</p>
+
+        <a href="/articles/bulletin/1984/1984-05-22-batmans-melbourne-australia-s-longest-running-election/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/anglican-church/" class="link-secondary">Anglican Church</a>,
+              
+              <a href="/topic/religion/" class="link-secondary">Religion</a>,
+              
+              <a href="/topic/david-penman/" class="link-secondary">David Penman</a>,
+              
+              <a href="/topic/humour/" class="link-secondary">humour</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1984/1984-05-29-batmans-melbourne-pools-a-gum-tree-s-favorite-friend/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Pools: a gum tree&#39;s favorite friend”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1984-05-29">29 May 1984</time>
+        </p>
+
+        <p>Domestic Bliss No 2 — Keith Dunstan&#39;s swimming pool, lifted over the house by a crane when first installed, has proved a fountain of misery and expense: pump repairs, chlorine bills, leaves from the liquidambar and the lemon-scented gum, and a pool turned swamp-green while the owners were overseas. A friend in Moorabbin has shown the way — he gave his fibre-glass pool away on a truck and planted roses instead.</p>
+
+        <a href="/articles/bulletin/1984/1984-05-29-batmans-melbourne-pools-a-gum-tree-s-favorite-friend/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/domestic-life/" class="link-secondary">domestic life</a>,
+              
+              <a href="/topic/swimming-pools/" class="link-secondary">Swimming pools</a>,
+              
+              <a href="/topic/humour/" class="link-secondary">humour</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1984/1984-07-03-batmans-melbourne-shhh-i-haven-t-got-a-video-cassette-recorder/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Shhh! I haven&#39;t got a video cassette recorder”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1984-07-03">03 Jul 1984</time>
+        </p>
+
+        <p>Keith Dunstan confesses to being possibly the only person in his street without a video cassette recorder — his wife forbids it, he could not work one anyway, and movie reviewers who send him preview tapes are incredulous. Meanwhile the local petrol station, chemist and Seven-Eleven deli all hire out videos, Victoria has just legalised X-rated tapes, and a friend with the full setup dims the living room after dinner for his private blue-movie screenings.</p>
+
+        <a href="/articles/bulletin/1984/1984-07-03-batmans-melbourne-shhh-i-haven-t-got-a-video-cassette-recorder/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/technology/" class="link-secondary">Technology</a>,
+              
+              <a href="/topic/video/" class="link-secondary">video</a>,
+              
+              <a href="/topic/culture/" class="link-secondary">culture</a>,
+              
+              <a href="/topic/humour/" class="link-secondary">humour</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1984/1984-07-24-batmans-melbourne-minding-your-pees-in-queues/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Minding your pees in queues”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1984-07-24">24 Jul 1984</time>
+        </p>
+
+        <p>Boy George has made gender identification nearly impossible — males wear dresses, girls use male deodorants, shoulders are wider on women than men, and a friend waited five minutes in the wrong lavatory queue at the MCG. Keith Dunstan offers a detective&#39;s guide: check the jeans, the tops, the sneakers, the earring, the handbag, the posture and the newspaper page they start reading from.</p>
+
+        <a href="/articles/bulletin/1984/1984-07-24-batmans-melbourne-minding-your-pees-in-queues/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/culture/" class="link-secondary">culture</a>,
+              
+              <a href="/topic/fashion/" class="link-secondary">Fashion</a>,
+              
+              <a href="/topic/boy-george/" class="link-secondary">Boy George</a>,
+              
+              <a href="/topic/humour/" class="link-secondary">humour</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1984/1984-08-21-batmans-melbourne-the-problem-of-the-woo-factor/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“The problem of the Woo Factor”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1984-08-21">21 Aug 1984</time>
+        </p>
+
+        <p>The Woo Factor — the unnecessary gunk added to products to beguile the buyer — is worst in hotels: bathroom telephones by the dunny, automatic refrigerators that register instantly on your bill, mirrors on the ceiling, 2113 slot machines and four-poster beds as big as a squash court at Caesar&#39;s Palace. Keith Dunstan proposes a hotel that offers only a comfortable bed, adequate light, a working shower, and no refrigerator.</p>
+
+        <a href="/articles/bulletin/1984/1984-08-21-batmans-melbourne-the-problem-of-the-woo-factor/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/hotels/" class="link-secondary">hotels</a>,
+              
+              <a href="/topic/consumer-culture/" class="link-secondary">consumer culture</a>,
+              
+              <a href="/topic/travel/" class="link-secondary">travel</a>,
+              
+              <a href="/topic/humour/" class="link-secondary">humour</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1984/1984-09-25-batmans-melbourne-i-would-like-you-to-meet-my-lisim/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“I would like you to meet my LISIM...”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1984-09-25">25 Sep 1984</time>
+        </p>
+
+        <p>Senator Harradine&#39;s private member&#39;s bill and the ABC&#39;s troubles over benefits for homosexual partners expose a gap in English — there is no good word for a live-in unmarried partner. Keith Dunstan coins LISIM (Living In Sin Illegal Mate), proposes a LISIM column in newspapers alongside Births, Deaths and Engagements, and campaigns for an official two-year &quot;lisimit&quot; before benefits are paid.</p>
+
+        <a href="/articles/bulletin/1984/1984-09-25-batmans-melbourne-i-would-like-you-to-meet-my-lisim/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/language/" class="link-secondary">language</a>,
+              
+              <a href="/topic/social-change/" class="link-secondary">social change</a>,
+              
+              <a href="/topic/humour/" class="link-secondary">humour</a>,
+              
+              <a href="/topic/de-facto-relationships/" class="link-secondary">de facto relationships</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1984/1984-10-09-batmans-melbourne-how-the-colliwobbles-flattened-the-magpies/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“How the Colliwobbles flattened the Magpies”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1984-10-09">09 Oct 1984</time>
+        </p>
+
+        <p>Collingwood, unbeaten since 1958, fell to the Colliwobbles again when Essendon won the preliminary final by 133 points — the greatest preliminary final margin ever — after commentator Lou Richards predicted a great Magpie victory. Coach John Cahill resigned, joining a list of 62 coaches interred since 1973 as club life expectancy drops to 18 months; Dunstan proposes coaches be placed under the protection of the conservation ministry.</p>
+
+        <a href="/articles/bulletin/1984/1984-10-09-batmans-melbourne-how-the-colliwobbles-flattened-the-magpies/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/vfl/" class="link-secondary">VFL</a>,
+              
+              <a href="/topic/collingwood/" class="link-secondary">Collingwood</a>,
+              
+              <a href="/topic/football/" class="link-secondary">football</a>,
+              
+              <a href="/topic/humour/" class="link-secondary">humour</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1984/1984-10-16-batmans-melbourne-the-other-marconis-marvellous-miracle/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“The other Marconi&#39;s marvellous miracle”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1984-10-16">16 Oct 1984</time>
+        </p>
+
+        <p>Joseph Cornelius Marconi of Bulimba, Brisbane, launched Iguana Brand Goanna Salve in 1910, claiming it cured rheumatism, lumbago, sciatica, eczema, catarrh, ulcers, piles and more — the King of Tonga recently wired Brisbane for four dozen bottles after a knee swollen from a stair fall was cured overnight. Current owner Euan Murdoch (&quot;The Great Goanna&quot;) explains how bushies rendered goanna fat on galvanised iron angled at 45 degrees, though today barely a whiff of goanna remains in the tin.</p>
+
+        <a href="/articles/bulletin/1984/1984-10-16-batmans-melbourne-the-other-marconis-marvellous-miracle/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/australian-products/" class="link-secondary">Australian products</a>,
+              
+              <a href="/topic/goanna-salve/" class="link-secondary">goanna salve</a>,
+              
+              <a href="/topic/bush-medicine/" class="link-secondary">bush medicine</a>,
+              
+              <a href="/topic/humour/" class="link-secondary">humour</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1984/1984-10-23-batmans-melbourne-business-deals-that-are-hard-to-swallow/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“Business deals that are hard to swallow”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1984-10-23">23 Oct 1984</time>
+        </p>
+
+        <p>The businessmen&#39;s breakfast is spreading — the American Chamber of Commerce in Australia celebrated its 500th breakfast briefing last month, and Campbell Soups president Gordon McGovern invited press to 7.30am Hilton sessions after rising at 4am. Keith Dunstan resists: breakfast is a time for meditation, the mind is at its most savage, and nothing civilised should ever be decided at that hour. His proposed solution — deal-making at jogging tracks, comparing pulse rates at the end.</p>
+
+        <a href="/articles/bulletin/1984/1984-10-23-batmans-melbourne-business-deals-that-are-hard-to-swallow/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/business-culture/" class="link-secondary">business culture</a>,
+              
+              <a href="/topic/food/" class="link-secondary">food</a>,
+              
+              <a href="/topic/humour/" class="link-secondary">humour</a>,
+              
+              <a href="/topic/american-influence/" class="link-secondary">American influence</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1984/1984-10-30-batmans-melbourne-how-to-survive-until-december-2/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“How to survive until December 2”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1984-10-30">30 Oct 1984</time>
+        </p>
+
+        <p>The eight-week federal election campaign has Keith Dunstan suffering from &quot;Panfophobiabesmdesondeb&quot; — an inability to read large headlines. This is Australia&#39;s 38th election since federation, its ninth legislature, the ALP is spending $5 million on ads, and 663 hours of broadcast time were sold in 1975. His survival kit: throw alien conversation-stoppers at people, tune into ABC FM for Bach cantatas after 7pm, and paste the kit on the refrigerator for all emergencies.</p>
+
+        <a href="/articles/bulletin/1984/1984-10-30-batmans-melbourne-how-to-survive-until-december-2/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/federal-election/" class="link-secondary">federal election</a>,
+              
+              <a href="/topic/politics/" class="link-secondary">Politics</a>,
+              
+              <a href="/topic/humour/" class="link-secondary">humour</a>,
+              
+              <a href="/topic/media/" class="link-secondary">media</a>
+          </p>
+        
+      </div>
+    
+      <div class="py-4 border-bottom">
+        <a href="/articles/bulletin/1984/1984-12-04-batmans-melbourne-the-case-of-the-sulking-cricket-pitch/" class="text-decoration-none text-dark"><h3 class="h4 mb-1">“The case of the sulking cricket pitch”</h3></a>
+        <p class="text-muted small mb-2">Published
+          <time datetime="1984-12-04">04 Dec 1984</time>
+        </p>
+
+        <p>Cricket pitches are as mysterious and unfathomable as old wines — the WACA wicket prompted 500,000 words after the first test. Keith Dunstan proposes a Costigan royal commission to investigate the personalities of pitches: the Gabba uses black soil from Goodna (adjacent to the local mental asylum), the SCG soil from Bulli powders and takes spin, the Adelaide Oval is ultra-right-wing and unyielding. The MCG sold 2000 pewter urns of original 1853–1983 wicket soil at $390 each. The current MCG pitch is sulking — it doesn&#39;t like pyjama cricket and is on strike.</p>
+
+        <a href="/articles/bulletin/1984/1984-12-04-batmans-melbourne-the-case-of-the-sulking-cricket-pitch/" class="link-fancy">Read more...</a>
+
+        
+        
+          <p class="small text-muted mt-3 mb-0">
+            Related topics:
+              
+              <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>,
+              
+              <a href="/topic/cricket/" class="link-secondary">Cricket</a>,
+              
+              <a href="/topic/mcg/" class="link-secondary">MCG</a>,
+              
+              <a href="/topic/humour/" class="link-secondary">humour</a>,
+              
+              <a href="/topic/sport/" class="link-secondary">Sport</a>
+          </p>
+        
+      </div>
+    
+  </div>
+</div>
+
+
+  <br>
+  <p>See <a href="/search/">all topics</a>.</p>
+
+
+
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

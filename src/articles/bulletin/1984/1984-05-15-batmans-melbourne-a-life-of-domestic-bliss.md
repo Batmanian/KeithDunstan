@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1984/1984-05-15-batmans-melbourne-a-life-of-domestic-bliss.md

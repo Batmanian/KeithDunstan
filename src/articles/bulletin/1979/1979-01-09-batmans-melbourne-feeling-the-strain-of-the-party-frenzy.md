@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1979/1979-01-09-batmans-melbourne-feeling-the-strain-of-the-party-frenzy.md

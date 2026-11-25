@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1984/1984-09-18-batmans-melbourne-melbournes-crisis-the-vanishing-herd-instinct.md

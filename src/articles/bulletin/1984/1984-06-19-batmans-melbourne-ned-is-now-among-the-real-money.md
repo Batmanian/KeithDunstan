@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1984/1984-06-19-batmans-melbourne-ned-is-now-among-the-real-money.md

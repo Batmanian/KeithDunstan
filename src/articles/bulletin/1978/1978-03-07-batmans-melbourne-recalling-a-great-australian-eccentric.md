@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1978/1978-03-07-batmans-melbourne-recalling-a-great-australian-eccentric.md

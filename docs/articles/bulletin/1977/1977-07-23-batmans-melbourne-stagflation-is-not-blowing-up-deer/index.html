@@ -1,0 +1,460 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stagflation is NOT blowing up deer</title>
+<meta name="title" content="Stagflation is NOT blowing up deer">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="On the eve of another budget, with 38 percent of economists optimistic, 28 percent predicting ruin and 34 percent waffling, Keith Dunstan offers a seminar in economic vocabulary — spiralling inflation, stagflation, buoyant or rocky outlooks, haemorrhaging reserves, and the vital concept of &quot;viable&quot; — so readers can hold their own at dinner parties.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/articles/bulletin/1977/1977-07-23-batmans-melbourne-stagflation-is-not-blowing-up-deer/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Stagflation is NOT blowing up deer">
+<meta property="og:description" content="On the eve of another budget, with 38 percent of economists optimistic, 28 percent predicting ruin and 34 percent waffling, Keith Dunstan offers a seminar in economic vocabulary — spiralling inflation, stagflation, buoyant or rocky outlooks, haemorrhaging reserves, and the vital concept of &quot;viable&quot; — so readers can hold their own at dinner parties.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Stagflation is NOT blowing up deer">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/articles/bulletin/1977/1977-07-23-batmans-melbourne-stagflation-is-not-blowing-up-deer/">
+<meta name="twitter:title" content="Stagflation is NOT blowing up deer">
+<meta name="twitter:description" content="On the eve of another budget, with 38 percent of economists optimistic, 28 percent predicting ruin and 34 percent waffling, Keith Dunstan offers a seminar in economic vocabulary — spiralling inflation, stagflation, buoyant or rocky outlooks, haemorrhaging reserves, and the vital concept of &quot;viable&quot; — so readers can hold their own at dinner parties.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Stagflation is NOT blowing up deer">
+<link rel="canonical" href="https://keithdunstan.org/articles/bulletin/1977/1977-07-23-batmans-melbourne-stagflation-is-not-blowing-up-deer/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1977-07-23">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="The Bulletin">
+<meta property="article:tag" content="economics">
+<meta property="article:tag" content="budget">
+<meta property="article:tag" content="Satire">
+<meta property="article:tag" content="Melbourne">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">Stagflation is NOT blowing up deer</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            4
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1977-07-23">23 Jul 1977</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            On the eve of another budget, with 38 percent of economists optimistic, 28 percent predicting ruin and 34 percent waffling, Keith Dunstan offers a seminar in economic vocabulary — spiralling inflation, stagflation, buoyant or rocky outlooks, haemorrhaging reserves, and the vital concept of &quot;viable&quot; — so readers can hold their own at dinner parties.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="The Bulletin">
+         <!--<a href="/tags/economics/" class="btn btn-outline-dark btn-sm me-2">economics</a><a href="/tags/budget/" class="btn btn-outline-dark btn-sm me-2">budget</a><a href="/tags/satire/" class="btn btn-outline-dark btn-sm me-2">Satire</a><a href="/tags/melbourne/" class="btn btn-outline-dark btn-sm me-2">Melbourne</a>-->
+
+        
+      </header>
+      <div class="article-body"><p>WE ARE ALMOST on the eve of another budget and I'm worried. Nobody seems to understand economics any more. Our good friends Hamer, Dunstan et al are calling for a lowering of taxes and interest rates as the only possible way to get the economy moving again. Messrs Fraser, Lynch and Co give us reverse information. The economy is balanced on a razor's edge (a new phrase they keep bringing out). Give us one more cent, and away inflation will gallop again.</p>
+<p>Almost every week we get those solemn prognostations on the economy from the great banks, from the business efficiency houses and, of course, the gum economics professors. In our office we have a file labelled &quot;The Economy.&quot; It contains all the newspaper clippings on the subject for the past six months. It stands about as high as a parking meter.</p>
+<p>On your behalf, I have sweated through the lot. Forty percent of our experts think the economy is improving and we are likely to survive. Twenty-eight percent think we are going to ruin and 34 percent tend to waffle on brilliantly and you could put them down as having no opinion at all.</p>
+<p>My belief is that none of them know, least of all Phillip, Mal, Gough, Bill and Bob. The only thing to do is to work it out for yourself. You, too, can be an economist, particularly if you have the right words.</p>
+<p>As I went through that file I made notes of words which might be useful to me at dinner parties and bar room discussions. So would you get out your pen and paper, and we will move straight into the Batman Seminar.</p>
+<p>It is vital for a start that you understand inflation. You have spiralling inflation, galloping inflation and snowballing inflation. You hedge against inflation and you always have a common goal for beating it. When you have a sophisticated audience and you are talking about its spiral galloping rate, then it sounds awfully good if you can work in &quot;single digit&quot; or &quot;double digit&quot; inflation.</p>
+<p>And a real beauty to slip into your conversation is stagflation. I'm not too sure what it means myself, but if anyone asks you can say your inflation is galloping with a crook economy.</p>
+<p>Oh, you don't think that's impressive enough. All right, shoot 'em some real economic meaningless gobbledegook:</p>
+<p>&quot;Yes the explanation is simple. An inadequate economic growth rate coupled with a relatively tight monetary stance leads to an ad hoc stagflation situation.&quot;</p>
+<p>Now the economy doesn't go up or down. You must realise that we have economic upturns and downturns. On the other hand the economy can be buoyant, stagnant, gloomy and it is quite all right to refer to the bumpy or rocky road ahead.</p>
+<p>Growth? Well, you can have real growth, slow growth, corporate growth or excessive growth and when it comes to recovery that is something which is &quot;within our grasp,&quot; &quot;slow,&quot; &quot;tentative&quot; or &quot;may be in the offing.&quot;</p>
+<p>Unemployment? That is usually chronic, and it can even be chronically high. Factors? You always have contributory factors. Signs? You have hopeful signs. Indexation? Always guidelines. Fiscal stimulus? Always a percent.</p>
+<p>Thinking tends to be wishful, forecasts usually are gloomy, outlooks mostly are pessimistic, failure is invariably dismal. Goals are tough and reality is unpleasant.</p>
+<p>Reserves tend to be depleted, but just lately in some of the financial papers I notice there has been a tendency to have them haemorrhaging.</p>
+<p>Hopes can be high, but also they can be dampened. And attitudes are nearly always negative or positive. Attacks have to be blistering.</p>
+<p>Never talk about &quot;sooner&quot; or &quot;later.&quot; It is always &quot;in the long-term&quot; or &quot;the short-term.&quot; You can get structural shake-outs or a deep malaise in the structure. Tariffs usually have a wall, and please don't gabble on about a buying spree. Always say a &quot;resurgency in consumer spending.&quot;</p>
+<p>And please try to use a little feeling about the way you refer to money. Talk about the burgeoning yen, even the propped-up pound, and the ailing or uneasy dollar.</p>
+<p>I like &quot;viable.&quot; It is very nearly at the top of the charts in all economic dialogue coming out of Canberra. So use it whenever you can. It is one of the growth words.</p>
+<p>That's enough for the first session of our seminar. In our next lesson I will show you how to acquire a correct monetary stance, how to adopt a low profile and new methods for halting profit drift. Try to learn six new words every day.</p>
+<hr>
+<p><em>Source: Batman's Melbourne: Stagflation is NOT blowing up deer, The Bulletin, 23 July 1977. Accessible via the <a href="https://nla.gov.au/nla.obj-1728459128">National Library of Australia's Trove database</a>.</em></p>
+</div>
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+
+  <p class="lead">
+        On the eve of another budget, with 38 percent of economists optimistic, 28 percent predicting ruin and 34 percent waffling, Keith Dunstan offers a seminar in economic vocabulary — spiralling inflation, stagflation, buoyant or rocky outlooks, haemorrhaging reserves, and the vital concept of &quot;viable&quot; — so readers can hold their own at dinner parties.
+      </p>
+
+
+<hr>
+<h4 class="h6">Topics in this item</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/budget/" class="link-secondary">budget</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="budget">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/economics/" class="link-secondary">economics</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="economics">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/satire/" class="link-secondary">Satire</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Satire">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/budget/" class="link-secondary">budget</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="budget">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/economics/" class="link-secondary">economics</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="economics">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/melbourne/" class="link-secondary">Melbourne</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Melbourne">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/satire/" class="link-secondary">Satire</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Satire">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

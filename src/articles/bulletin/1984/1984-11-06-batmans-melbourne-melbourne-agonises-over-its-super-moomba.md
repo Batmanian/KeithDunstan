@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1984/1984-11-06-batmans-melbourne-melbourne-agonises-over-its-super-moomba.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1979/1979-03-13-batmans-melbourne-a-serious-case-of-maladjustment.md

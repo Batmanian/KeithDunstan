@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1977/1977-04-02-batmans-melbourne-the-final-passing-of-the-horse.md

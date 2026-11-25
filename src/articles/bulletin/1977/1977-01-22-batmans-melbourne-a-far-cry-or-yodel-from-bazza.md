@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1977/1977-01-22-batmans-melbourne-a-far-cry-or-yodel-from-bazza.md

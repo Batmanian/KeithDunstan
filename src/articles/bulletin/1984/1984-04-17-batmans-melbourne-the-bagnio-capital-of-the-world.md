@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1984/1984-04-17-batmans-melbourne-the-bagnio-capital-of-the-world.md

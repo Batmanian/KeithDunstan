@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1984/1984-10-02-batmans-melbourne-comics-movies-made-with-ink-and-paper.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1979/1979-03-27-batmans-melbourne-a-festival-of-light-beers.md

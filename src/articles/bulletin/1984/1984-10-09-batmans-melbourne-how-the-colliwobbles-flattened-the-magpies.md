@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1984/1984-10-09-batmans-melbourne-how-the-colliwobbles-flattened-the-magpies.md

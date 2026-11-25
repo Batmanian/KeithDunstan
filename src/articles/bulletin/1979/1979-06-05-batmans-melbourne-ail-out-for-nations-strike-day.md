@@ -1,0 +1,1 @@
+../../../../vault/articles/bulletin/1979/1979-06-05-batmans-melbourne-ail-out-for-nations-strike-day.md
