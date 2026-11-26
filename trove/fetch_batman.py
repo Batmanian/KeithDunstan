@@ -4,7 +4,8 @@ fetch_batman.py
 Pass 1 — Search Trove for Keith Dunstan's 'Batman' column in The Bulletin.
 
 Searches for articles containing 'Batman' within The Bulletin across multiple
-search terms to catch all column title variants.
+search terms to catch all column title variants. Covers the full publication
+run: 1960–2008 (The Bulletin's last issue was January 2008).
 
 The Bulletin is indexed in Trove under:
   category:     magazine
@@ -60,7 +61,7 @@ SEARCH_TERMS = [
 ]
 
 DATE_FROM = "1960-01-01"
-DATE_TO   = "1984-12-31"
+DATE_TO   = "2008-12-31"
 
 BASE_URL = "https://api.trove.nla.gov.au/v3/result"
 

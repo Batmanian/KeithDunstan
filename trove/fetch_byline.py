@@ -47,7 +47,7 @@ SEARCH_TERMS = [
 ]
 
 DATE_FROM = "1950-01-01"   # wider range — he wrote before the Batman column started
-DATE_TO   = "1984-12-31"
+DATE_TO   = "2008-12-31"
 
 BASE_URL = "https://api.trove.nla.gov.au/v3/result"
 
