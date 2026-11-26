@@ -473,6 +473,11 @@ For publications not in Trove, physical copies must be sourced and scanned. Foll
 
 ## 8. Site — Technical
 
+### Infrastructure
+
+- [ ] **Stop committing `docs/` to `master` — fix git history bloat.** The built output (currently 126MB) is committed to `master` on every deploy; each commit permanently adds to the repository object store and cannot be undone without a history rewrite. Two options: (a) **orphan `gh-pages` branch** — keep source on `master`, push only the built `docs/` folder to a separate branch with no history (`git checkout --orphan gh-pages && git rm -rf . && npm run build && git add docs && git commit -m "deploy" && git push -f origin gh-pages`), configure GitHub Pages to serve from that branch; or (b) **Netlify CI** — `netlify.toml` is already half-configured, just add `command = "npm run build"` and add `docs/` to `.gitignore`; Netlify builds from source on each push so binary output never enters git history. Option (b) also gives deploy previews. Either way, `docs/` is then gitignored and the master branch shrinks on the next commit.
+- [ ] **Audit Bootstrap JS bundle size** — `docs/js` is 2.4MB. If the site only uses Bootstrap's collapse/accordion components (e.g. the decade-accordion on `/bulletin/`), the full bundle is unnecessary; importing only those modules via ES imports could roughly halve it. Check which Bootstrap JS components are actually used before making any change.
+
 ### Build blockers found 31 Oct 2026
 
 - [ ] **Three committed `src/articles/` symlinks point at vault files that don't exist**, and they break the Eleventy build (`ENOENT ... stat`). Added in commit `7bf44adf7`; the targets are in no vault commit. Either add the articles to the vault (perhaps they're on the other computer, uncommitted), or delete the links (`npm run link:vault` removes them automatically as stale):
