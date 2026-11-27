@@ -1,0 +1,1 @@
+../../../../vault/articles/the-herald/1944/1944-12-16-life-begins-at-seven-ten.md

@@ -90,7 +90,9 @@ def article_pages(html, pid):
 
 
 def select_stubs(before):
-    paths = sorted(STUBS.rglob("*.md"))
+    # Stubs written by deep_search.py are handled by download_scans.py (many are
+    # catalogue-only with no scan link, which would trip this script's error pause).
+    paths = sorted(p for p in STUBS.rglob("*.md") if "<!-- deep_search.py:" not in p.read_text())
     if before is None:
         return paths, len(paths)
     cutoff = datetime.date.fromisoformat(before)

@@ -1,0 +1,23 @@
+---
+eleventyExcludeFromCollections: true
+title: "Film Cheques 'Too Small'"
+date: 1950-02-04
+summary: "First published in Newcastle Morning Herald and Miners' Advocate, 4 February 1950. [Stub — not yet transcribed]"
+categories:
+- Newcastle Morning Herald and Miners' Advocate
+tags:
+---
+
+<!-- deep_search.py: score 0.92 (byline-text: 'by/from Keith Dunstan' in opening lines); lanes np-name, page 5 -->
+
+[Full article text not yet transcribed. Check the byline on the scan before transcribing; the confidence score is heuristic, not proof of authorship. If the scan is illegible, flag it for visual review.]
+
+<details><summary>Uncorrected Trove OCR</summary>
+
+Film Cheques "Too Smal'l" By KEITH DUNSTAN, in New York. Hollywood producers do not want to boycott Eng land or any other country, but they are beginning to ask why they are wasting their time sending pictures to the British market. Under the agreement which ex pires in June, American companies can convert their sterling earnings into 17 million dollars. Ellis Arnall, President of the In dependent Motion Picture Produ cers' Association, says this is only 9.1 per cent. of the total American pictures taken in Britain. Eric Johnston, President of the Motion Pictures Association, puts it a little differently. He says that last year American pictures earned 60 million dollars in Britain and 16 million dollars went to cover expenses there. It does not matter whose figures are right; the film producers know their cheques from England are too small. Mr. Arnall fears that when the agreement expires in June the Bri tish Government may cut 'the al lowable 17 million dollars by 30 per cent. If that happens he feels it would hardly be worth their while exporting pictilres to Britain. Horse Opera The revival of the horse opera on a grand scale has been comning for a long time. It galloped into Broadway with immense ballyhoo. M.G.M.. gave tile premiere of "Ambush," which starred Robert Taylor, and before the show pub licity men gave thie word around that it.was a pretty good movie. Why, they said, on location M.G.M. used 300 men, including 115 real live Indians-the biggest on-location crew sent out for 10 years. Robert Taylor flew his aeroplane to New York to read the previews. The last time Mr. Taylor appeared in a western he had a five o'clock Robert Taylor shadow, two six guns, a 10-gallon hat, and he was tile fam6us outlaw, Billy the Kid. He was a classy cowboy and furthermore he ended up "dead." This time he ends up in a halo of glory and a girl on his arm after slaughtering countless Indians. It's much the same as other horse operas. Mr. Taylor should Iave stuck to Billy the Kid. England may sweep up more Academy Awards this year if the publicity for "The Hasty Heart" can get moving. Unfortunately the film has a dull name and a cast of unknown stars. Richard Todd, an ex-Commando paratrooper captain, is the star, and, at the rate he is going, he will soon be famous. Warners gave the film a sneak preview in Detroit last week and the spectators turned in 826 critiques. Of these, 70 per cent. said Richard Todd should win the best male Actor's Academy Award. The film. is about a lonely man who finds friends in a jungle hos pital. "Beauty Queens" The popular prize for beauty queens the world over is a trip to Hollywood with a chance to visit a studio and mingle with the stars. Film companies 'have announced thlat 64 individual beauty queens from all parts of the U.S. visited Hollywood during 1949 and not one was asked to remain-not even for a test. Add the famous golfer Ben Ho gan to the list of likely screen biographies for 1950. Four major companies are bargaining for the life story. Betty Grable is Insisting that in her next film she trip down a children's slide on her feet. Tihe producer is so worried about it he has taken out a'million dollars ac cident policy. Tie gossip of all the columnists is about Peter Lawvford and attrac tive Sharman Douglas. Several nights ago he took Sharman to Ciro's, where hie refused to be photographed and asked for an out of-sight table. Hoagy Carmichael claims that a Hollywood celebrity is someone who has worked for years to become famous enough to be recognised and then goes round in dark glasses so no one will know who he is. James Mason, at the end of his last film in Hollywood, threw a 3000 dollars party for the cast with four strip teasers. He's learning Hollywood customs fast.
+
+</details>
+
+<hr>
+
+*Source: Film Cheques "Too Small", Newcastle Morning Herald and Miners' Advocate, 4 February 1950. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.news-article140626907).*

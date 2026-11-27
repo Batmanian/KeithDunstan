@@ -1,0 +1,23 @@
+---
+eleventyExcludeFromCollections: true
+title: "America loves the wild West"
+date: 1950-07-29
+summary: "First published in The Herald, 29 July 1950. [Stub — not yet transcribed]"
+categories:
+- The Herald
+tags:
+---
+
+<!-- deep_search.py: score 0.97 (byline-heading: name/column title in the article heading); lanes np-columns, np-name, page 15 -->
+
+[Full article text not yet transcribed. Check the byline on the scan before transcribing; the confidence score is heuristic, not proof of authorship. If the scan is illegible, flag it for visual review.]
+
+<details><summary>Uncorrected Trove OCR</summary>
+
+H, b ' ' _ c ' _ ' . . nmerica toves the mild West Keith Dnnstan's Hollywood Hj i ORK. =— You can bring on your ft l0ng-Iegged dancing girls, black-eyed ftSsters, clarinet players and dance ft j rut there is one character whom the fti»i can't resist — he is the gum- & Sun toting cowboy. vjjfjbwws the Wild ft' Tt, n deatI for TOO . ?.i. fowby luys be- ft "d„ c ua 'antasy all ft li-llnil) salad ,chaps and Kits b'ihtwts, but he is H. wckbone of Holly- "'"ays easy for' Btotand £2 n"icrs to : «? » 7«nithJ West fttaai vvi .nallon for ftfTratlllnS-1 0 the New fttoeat hoi, fart of fe'ltSr rife ta£e and ftfifiren e?Ld'ed. So with ft to WestenTm he 606s Btoi of thi« ? films and WD and nL?''', strength, ft To hJnviHe 0 act like ftfkOM Ko. escape, ftjfila andth.110. Illusions Mint on » « studios are B mf'Hhemte ?£ est- ftThr & oht of the keep pa«e with the demand for levis, -chaps- and frontier garb. Hollywood gunsmiths say they have never been busier, turn ing out those fancy engraved six-shooters with the ivory handles. - They, make many of the Westerns at Sonora, Cali fornia, a town on the western slopes of the Sierra Nevadas." There you can: hire an old- time steam' train for 300 dol lars a day, a western street ,for 25 dollars a day, a- stage- coach for 15 dollars, a covered wagon for 15 dollars, arid a horse for. Ave dollars." Cattle are . different. The locals aren't too pleased at the way -these. -Hollywood tender- feet beat . their cattle - into stampedes. So they charge a fiat rate of 2.50 dollars a head for the cattle "and 20 cents a pound for "shrinkage." That is, they weigh them before and after -.the day's work." It's good .business. .. , In fact, It's good business for everyone. In Hollywood, when an .actor starts to slip, they say: -."Go make a Western, then your, public will remem- : her you again." Almost everybody ' Has made a Western some time or other: Bob Hope. Bing Crosby, Alan, Ladd, Clark Gable, Gregory Feck, Robert Taylor, Ray - Mllland,- Gary Cooper, Spqncer _Traoy, Humphrey Bogart and Betty Button. Well, just", about everybody that, is — it's stUl my ambition to 'see Ronald Coiman shbot- ing bottles oft a bar. . ' Back to 1903 . the - first . film with a story was a Western — "The Great Train Robbery." Nobody -ever . forgot . it and 'they're doing the same thing now . to , 1950. . 1 imagine the situation will "be just, the same tin: 2950." JIMMY. DURANTE -.is. doing - rather' well for- himself . He Is cleaning. up between 400,000 and 500,000 dollars every year. The Copacabana night club here in New York last winter paid 12,000 dollars a week for a three-months engagement. Jimmy has made a fortune out of his nose. He has copy righted the words "Schnozzle" and."Schnozzola.'.' That awful nose, which ; would have wor ried anyone else near to death; he has insured with Lloyds of London for a million dollars. He will "Collect if anything drastic happens to', make it shorter or more beautiful. Jimmy makes a lot of money, but he. never has any. He Is constantly giving it away. Not long ago one of the men who look after his financial affairs warned him that he had over- ' drawn by 1087 dollars Jimmy - got to work, hunting through .his drawers and cupboards arid found 20,000 dollars in mislaid cheques. ' V ' H ' "HOLLYWOOD has been - making Tarzan pictures for a long, long time. Tnere have been nine. different Tar- zans and 26 Tarzan pictures. Edgar: Rice Burroughs never got around to visiting the African jungles that he made faraous.; -Well. -Hollywood) is - going to beat that recdrd. This year Lex Barker'; the latest Tarzan, ...will .make ,','Tarzan's Peril"- , on location in Nairobi, Kenya. THE WEST > as thc movies sce ib, Costiimcs that. hcver saw light outside a Hollywoodystudip. ' Bul: what fun! :And, of course, the girl. Rpy Roger's,:is .the, man at ' the left.
+
+</details>
+
+<hr>
+
+*Source: America loves the wild West Keith Dunstan's Hollywood, The Herald, 29 July 1950. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.news-article244123403).*

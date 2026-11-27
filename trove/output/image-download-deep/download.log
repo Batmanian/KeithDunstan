@@ -1,0 +1,334 @@
+2026-11-27T04:13:22.733382+00:00 Starting 515 stubs; image interval 60s; destination /Users/e37247/GitHub/KeithDunstan/src/trove-scans
+2026-11-27T04:13:24.947338+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26788863/level7
+2026-11-27T04:13:28.667422+00:00 Saved src/trove-scans/the-herald/1944/1944-12-16-life-begins-at-seventen/page-01-nla.news-page26788863.jpg (3095239 bytes)
+2026-11-27T04:13:28.756974+00:00 Saved src/trove-scans/the-herald/1944/1944-12-16-life-begins-at-seventen/article-01.jpg (720289 bytes)
+2026-11-27T04:14:24.951713+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26698918/level7
+2026-11-27T04:14:27.544834+00:00 Saved src/trove-scans/the-herald/1945/1945-01-02-the-herald-short-story-series-obsession/page-01-nla.news-page26698918.jpg (3693585 bytes)
+2026-11-27T04:14:27.611312+00:00 Saved src/trove-scans/the-herald/1945/1945-01-02-the-herald-short-story-series-obsession/article-01.jpg (941467 bytes)
+2026-11-27T04:15:24.953055+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26693555/level7
+2026-11-27T04:15:27.919369+00:00 Saved src/trove-scans/the-herald/1946/1946-03-16-the-herald-magazine-theres-glitter-in-new-hongkong/page-01-nla.news-page26693555.jpg (3990763 bytes)
+2026-11-27T04:15:28.027644+00:00 Saved src/trove-scans/the-herald/1946/1946-03-16-the-herald-magazine-theres-glitter-in-new-hongkong/article-01.jpg (2733558 bytes)
+2026-11-27T04:16:24.959912+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26692087/level7
+2026-11-27T04:16:27.376381+00:00 Saved src/trove-scans/the-herald/1946/1946-06-08-jeep-madness-in-borneo/page-01-nla.news-page26692087.jpg (4025043 bytes)
+2026-11-27T04:16:27.459187+00:00 Saved src/trove-scans/the-herald/1946/1946-06-08-jeep-madness-in-borneo/article-01.jpg (1354332 bytes)
+2026-11-27T04:17:24.963017+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26691059/level7
+2026-11-27T04:17:27.418343+00:00 Saved src/trove-scans/the-herald/1946/1946-09-07-where-a-fellow-finds-a-friend/page-01-nla.news-page26691059.jpg (3787253 bytes)
+2026-11-27T04:17:27.504785+00:00 Saved src/trove-scans/the-herald/1946/1946-09-07-where-a-fellow-finds-a-friend/article-01.jpg (1100491 bytes)
+2026-11-27T04:18:24.964784+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26435932/level7
+2026-11-27T04:18:27.398548+00:00 Saved src/trove-scans/the-herald/1948/1948-07-17-hitch-hike-with-a-cushion/page-01-nla.news-page26435932.jpg (4272166 bytes)
+2026-11-27T04:18:27.478999+00:00 Saved src/trove-scans/the-herald/1948/1948-07-17-hitch-hike-with-a-cushion/article-01.jpg (977530 bytes)
+2026-11-27T04:19:24.965929+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26436044/level7
+2026-11-27T04:19:27.050772+00:00 Saved src/trove-scans/the-herald/1948/1948-07-31-traffic-cops-of-the-air-they-play-safe/page-01-nla.news-page26436044.jpg (3530277 bytes)
+2026-11-27T04:19:27.138265+00:00 Saved src/trove-scans/the-herald/1948/1948-07-31-traffic-cops-of-the-air-they-play-safe/article-01.jpg (1669899 bytes)
+2026-11-27T04:20:24.964401+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26433737/level7
+2026-11-27T04:20:27.432759+00:00 Saved src/trove-scans/the-herald/1948/1948-08-03-300-men-check-your-tax/page-01-nla.news-page26433737.jpg (3484749 bytes)
+2026-11-27T04:20:27.501980+00:00 Saved src/trove-scans/the-herald/1948/1948-08-03-300-men-check-your-tax/article-01.jpg (632665 bytes)
+2026-11-27T04:21:24.972790+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26434338/level7
+2026-11-27T04:21:27.718927+00:00 Saved src/trove-scans/the-herald/1948/1948-10-16-how-to-build-a-bridge/page-01-nla.news-page26434338.jpg (4516559 bytes)
+2026-11-27T04:21:27.803396+00:00 Saved src/trove-scans/the-herald/1948/1948-10-16-how-to-build-a-bridge/article-01.jpg (1759997 bytes)
+2026-11-27T04:22:24.975204+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26434415/level7
+2026-11-27T04:22:27.172093+00:00 Saved src/trove-scans/the-herald/1948/1948-10-26-industry-is-on-the-march-in-australia/page-01-nla.news-page26434415.jpg (3633289 bytes)
+2026-11-27T04:22:27.246742+00:00 Saved src/trove-scans/the-herald/1948/1948-10-26-industry-is-on-the-march-in-australia/article-01.jpg (1212474 bytes)
+2026-11-27T04:23:24.977911+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26434457/level7
+2026-11-27T04:23:27.949722+00:00 Saved src/trove-scans/the-herald/1948/1948-10-30-4-million-dam-for-upper-yarra/page-01-nla.news-page26434457.jpg (4192252 bytes)
+2026-11-27T04:23:28.030056+00:00 Saved src/trove-scans/the-herald/1948/1948-10-30-4-million-dam-for-upper-yarra/article-01.jpg (847055 bytes)
+2026-11-27T04:24:24.980630+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26434557/level7
+2026-11-27T04:24:27.610703+00:00 Saved src/trove-scans/the-herald/1948/1948-11-11-secrets-from-germany-to-aid-industry/page-01-nla.news-page26434557.jpg (3617606 bytes)
+2026-11-27T04:24:27.688604+00:00 Saved src/trove-scans/the-herald/1948/1948-11-11-secrets-from-germany-to-aid-industry/article-01.jpg (1068510 bytes)
+2026-11-27T04:25:24.985269+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26791552/level7
+2026-11-27T04:25:28.062769+00:00 Saved src/trove-scans/the-herald/1949/1949-05-10-famous-murder-cases-in-victoria/page-01-nla.news-page26791552.jpg (3059346 bytes)
+2026-11-27T04:25:28.127609+00:00 Saved src/trove-scans/the-herald/1949/1949-05-10-famous-murder-cases-in-victoria/article-01.jpg (1321555 bytes)
+2026-11-27T04:26:24.983740+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26431305/level7
+2026-11-27T04:26:27.954920+00:00 Saved src/trove-scans/the-herald/1949/1949-06-02-german-scientists-now-help-our-industry/page-01-nla.news-page26431305.jpg (3582068 bytes)
+2026-11-27T04:26:28.039978+00:00 Saved src/trove-scans/the-herald/1949/1949-06-02-german-scientists-now-help-our-industry/article-01.jpg (1753227 bytes)
+2026-11-27T04:27:24.987576+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26799139/level7
+2026-11-27T04:27:28.801111+00:00 Saved src/trove-scans/the-herald/1949/1949-10-10-san-francisco-solves-the-parking-prob-dug-a-hole-f-their-cars/page-01-nla.news-page26799139.jpg (2816746 bytes)
+2026-11-27T04:27:28.895122+00:00 Saved src/trove-scans/the-herald/1949/1949-10-10-san-francisco-solves-the-parking-prob-dug-a-hole-f-their-cars/article-01.jpg (2523798 bytes)
+2026-11-27T04:28:24.988694+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26433152/level7
+2026-11-27T04:28:27.140772+00:00 Saved src/trove-scans/the-herald/1949/1949-11-26-hollywood-does-well-on-scandal/page-01-nla.news-page26433152.jpg (3494142 bytes)
+2026-11-27T04:28:27.205529+00:00 Saved src/trove-scans/the-herald/1949/1949-11-26-hollywood-does-well-on-scandal/article-01.jpg (780063 bytes)
+2026-11-27T04:29:24.995538+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26433279/level7
+2026-11-27T04:29:27.176617+00:00 Saved src/trove-scans/the-herald/1949/1949-12-03-soviet-wants-us-films/page-01-nla.news-page26433279.jpg (2961032 bytes)
+2026-11-27T04:29:27.244465+00:00 Saved src/trove-scans/the-herald/1949/1949-12-03-soviet-wants-us-films/article-01.jpg (728196 bytes)
+2026-11-27T04:30:24.998204+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26433650/level7
+2026-11-27T04:30:27.331471+00:00 Saved src/trove-scans/the-herald/1949/1949-12-24-hollywood-new-life-in-those-old-films/page-01-nla.news-page26433650.jpg (4685049 bytes)
+2026-11-27T04:30:27.421074+00:00 Saved src/trove-scans/the-herald/1949/1949-12-24-hollywood-new-life-in-those-old-films/article-01.jpg (1563469 bytes)
+2026-11-27T04:31:25.004438+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26553003/level7
+2026-11-27T04:31:27.333169+00:00 Saved src/trove-scans/the-herald/1950/1950-03-18-hollywood-discovers-australia/page-01-nla.news-page26553003.jpg (3735112 bytes)
+2026-11-27T04:31:27.423580+00:00 Saved src/trove-scans/the-herald/1950/1950-03-18-hollywood-discovers-australia/article-01.jpg (1088598 bytes)
+2026-11-27T04:32:25.005171+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26553339/level7
+2026-11-27T04:32:27.173286+00:00 Saved src/trove-scans/the-herald/1950/1950-04-08-the-herald-magazine-hollywood-cheers-for-lana/page-01-nla.news-page26553339.jpg (4579512 bytes)
+2026-11-27T04:32:27.250103+00:00 Saved src/trove-scans/the-herald/1950/1950-04-08-the-herald-magazine-hollywood-cheers-for-lana/article-01.jpg (1569288 bytes)
+2026-11-27T04:33:25.010146+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26553641/level7
+2026-11-27T04:33:27.280436+00:00 Saved src/trove-scans/the-herald/1950/1950-04-26-1-mil-cars-in-2-months-new-boom-begins-in-america/page-01-nla.news-page26553641.jpg (3082589 bytes)
+2026-11-27T04:33:27.389957+00:00 Saved src/trove-scans/the-herald/1950/1950-04-26-1-mil-cars-in-2-months-new-boom-begins-in-america/article-01.jpg (2199508 bytes)
+2026-11-27T04:34:25.019280+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26554090/level7
+2026-11-27T04:34:29.201215+00:00 Saved src/trove-scans/the-herald/1950/1950-05-20-watch-these-new-stars-shine/page-01-nla.news-page26554090.jpg (4742724 bytes)
+2026-11-27T04:34:29.289671+00:00 Saved src/trove-scans/the-herald/1950/1950-05-20-watch-these-new-stars-shine/article-01.jpg (1299406 bytes)
+2026-11-27T04:35:25.026276+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26554213/level7
+2026-11-27T04:35:27.504268+00:00 Saved src/trove-scans/the-herald/1950/1950-05-27-hollywoodfrom-keith-dunstan-copycats-these-film-producers/page-01-nla.news-page26554213.jpg (4411568 bytes)
+2026-11-27T04:35:27.618118+00:00 Saved src/trove-scans/the-herald/1950/1950-05-27-hollywoodfrom-keith-dunstan-copycats-these-film-producers/article-01.jpg (1625110 bytes)
+2026-11-27T04:36:25.029476+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26554341/level7
+2026-11-27T04:36:27.423650+00:00 Saved src/trove-scans/the-herald/1950/1950-06-03-no-stars-in-big-films/page-01-nla.news-page26554341.jpg (4349857 bytes)
+2026-11-27T04:36:27.506584+00:00 Saved src/trove-scans/the-herald/1950/1950-06-03-no-stars-in-big-films/article-01.jpg (780575 bytes)
+2026-11-27T04:37:25.028106+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26554453/level7
+2026-11-27T04:37:27.535780+00:00 Saved src/trove-scans/the-herald/1950/1950-06-10-new-jobs-for-old-stars/page-01-nla.news-page26554453.jpg (4403069 bytes)
+2026-11-27T04:37:27.621319+00:00 Saved src/trove-scans/the-herald/1950/1950-06-10-new-jobs-for-old-stars/article-01.jpg (746768 bytes)
+2026-11-27T04:38:25.034632+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26554669/level7
+2026-11-27T04:38:27.513573+00:00 Saved src/trove-scans/the-herald/1950/1950-06-24-us-takes-to-driveins/page-01-nla.news-page26554669.jpg (3738944 bytes)
+2026-11-27T04:38:27.585703+00:00 Saved src/trove-scans/the-herald/1950/1950-06-24-us-takes-to-driveins/article-01.jpg (577672 bytes)
+2026-11-27T04:39:25.032005+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26554779/level7
+2026-11-27T04:39:27.704710+00:00 Saved src/trove-scans/the-herald/1950/1950-07-01-hopalongs-comeback/page-01-nla.news-page26554779.jpg (4722332 bytes)
+2026-11-27T04:39:27.796090+00:00 Saved src/trove-scans/the-herald/1950/1950-07-01-hopalongs-comeback/article-01.jpg (869273 bytes)
+2026-11-27T04:40:25.040035+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26554893/level7
+2026-11-27T04:40:28.185844+00:00 Saved src/trove-scans/the-herald/1950/1950-07-08-lowdown-on-a-great-lover/page-01-nla.news-page26554893.jpg (4095903 bytes)
+2026-11-27T04:40:28.258467+00:00 Saved src/trove-scans/the-herald/1950/1950-07-08-lowdown-on-a-great-lover/article-01.jpg (831717 bytes)
+2026-11-27T04:41:25.044945+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26555007/level7
+2026-11-27T04:41:27.476078+00:00 Saved src/trove-scans/the-herald/1950/1950-07-15-now-british-films-are-the-rage-in-us-from-keith-dunstan/page-01-nla.news-page26555007.jpg (4389790 bytes)
+2026-11-27T04:41:27.566379+00:00 Saved src/trove-scans/the-herald/1950/1950-07-15-now-british-films-are-the-rage-in-us-from-keith-dunstan/article-01.jpg (933345 bytes)
+2026-11-27T04:42:25.047335+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26555113/level7
+2026-11-27T04:42:27.327789+00:00 Saved src/trove-scans/the-herald/1950/1950-07-22-oldtimer-makes-a-new-film-hit/page-01-nla.news-page26555113.jpg (4593052 bytes)
+2026-11-27T04:42:27.428440+00:00 Saved src/trove-scans/the-herald/1950/1950-07-22-oldtimer-makes-a-new-film-hit/article-01.jpg (1627209 bytes)
+2026-11-27T04:43:25.053224+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26555229/level7
+2026-11-27T04:43:27.194227+00:00 Saved src/trove-scans/the-herald/1950/1950-07-29-america-loves-the-wild-west/page-01-nla.news-page26555229.jpg (4424216 bytes)
+2026-11-27T04:43:27.284669+00:00 Saved src/trove-scans/the-herald/1950/1950-07-29-america-loves-the-wild-west/article-01.jpg (1062441 bytes)
+2026-11-27T04:44:25.055337+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26555468/level7
+2026-11-27T04:44:27.360608+00:00 Saved src/trove-scans/the-herald/1950/1950-08-12-magazine-disney-has-done-it-again/page-01-nla.news-page26555468.jpg (3861235 bytes)
+2026-11-27T04:44:27.461515+00:00 Saved src/trove-scans/the-herald/1950/1950-08-12-magazine-disney-has-done-it-again/article-01.jpg (2079022 bytes)
+2026-11-27T04:45:25.057290+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26555873/level7
+2026-11-27T04:45:28.573273+00:00 Saved src/trove-scans/the-herald/1950/1950-09-06-us-losing-faith-in-its-nylons/page-01-nla.news-page26555873.jpg (4158119 bytes)
+2026-11-27T04:45:28.666493+00:00 Saved src/trove-scans/the-herald/1950/1950-09-06-us-losing-faith-in-its-nylons/article-01.jpg (881628 bytes)
+2026-11-27T04:46:25.059318+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26556071/level7
+2026-11-27T04:46:27.663743+00:00 Saved src/trove-scans/the-herald/1950/1950-09-16-in-new-york-they-think-of-everything/page-01-nla.news-page26556071.jpg (3670199 bytes)
+2026-11-27T04:46:27.747333+00:00 Saved src/trove-scans/the-herald/1950/1950-09-16-in-new-york-they-think-of-everything/article-01.jpg (986931 bytes)
+2026-11-27T04:47:25.064476+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26556200/level7
+2026-11-27T04:47:27.702620+00:00 Saved src/trove-scans/the-herald/1950/1950-09-23-kramers-the-boy-in-hollywood/page-01-nla.news-page26556200.jpg (4304781 bytes)
+2026-11-27T04:47:27.798090+00:00 Saved src/trove-scans/the-herald/1950/1950-09-23-kramers-the-boy-in-hollywood/article-01.jpg (1170698 bytes)
+2026-11-27T04:48:25.069235+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26557787/level7
+2026-11-27T04:48:27.062529+00:00 Saved src/trove-scans/the-herald/1950/1950-10-06-satchmo-packs-em-in/page-01-nla.news-page26557787.jpg (4093920 bytes)
+2026-11-27T04:48:27.142858+00:00 Saved src/trove-scans/the-herald/1950/1950-10-06-satchmo-packs-em-in/article-01.jpg (1142467 bytes)
+2026-11-27T04:49:25.076377+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26557814/level7
+2026-11-27T04:49:27.157451+00:00 Saved src/trove-scans/the-herald/1950/1950-10-07-movies-get-more-daring/page-01-nla.news-page26557814.jpg (4491594 bytes)
+2026-11-27T04:49:27.252737+00:00 Saved src/trove-scans/the-herald/1950/1950-10-07-movies-get-more-daring/article-01.jpg (1151020 bytes)
+2026-11-27T04:50:25.079647+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26557952/level7
+2026-11-27T04:50:28.828206+00:00 Saved src/trove-scans/the-herald/1950/1950-10-14-the-new-us-stars-are-britons/page-01-nla.news-page26557952.jpg (4279535 bytes)
+2026-11-27T04:50:28.898630+00:00 Saved src/trove-scans/the-herald/1950/1950-10-14-the-new-us-stars-are-britons/article-01.jpg (1431803 bytes)
+2026-11-27T04:51:25.087652+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26558074/level7
+2026-11-27T04:51:27.388882+00:00 Saved src/trove-scans/the-herald/1950/1950-10-21-us-reports-a-movie-revival/page-01-nla.news-page26558074.jpg (3910698 bytes)
+2026-11-27T04:51:27.481966+00:00 Saved src/trove-scans/the-herald/1950/1950-10-21-us-reports-a-movie-revival/article-01.jpg (1772635 bytes)
+2026-11-27T04:52:25.092987+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26558204/level7
+2026-11-27T04:52:27.440203+00:00 Saved src/trove-scans/the-herald/1950/1950-10-28-magazine-greer-garson-tired-of-it/page-01-nla.news-page26558204.jpg (3869360 bytes)
+2026-11-27T04:52:27.535964+00:00 Saved src/trove-scans/the-herald/1950/1950-10-28-magazine-greer-garson-tired-of-it/article-01.jpg (975425 bytes)
+2026-11-27T04:53:25.094622+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26558326/level7
+2026-11-27T04:53:27.948977+00:00 Saved src/trove-scans/the-herald/1950/1950-11-04-films-in-3-dimensions/page-01-nla.news-page26558326.jpg (3851128 bytes)
+2026-11-27T04:53:28.034867+00:00 Saved src/trove-scans/the-herald/1950/1950-11-04-films-in-3-dimensions/article-01.jpg (578373 bytes)
+2026-11-27T04:54:25.100726+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26558582/level7
+2026-11-27T04:54:27.811397+00:00 Saved src/trove-scans/the-herald/1950/1950-11-18-mrs-minivers-sad-end/page-01-nla.news-page26558582.jpg (4663359 bytes)
+2026-11-27T04:54:27.925108+00:00 Saved src/trove-scans/the-herald/1950/1950-11-18-mrs-minivers-sad-end/article-01.jpg (1417810 bytes)
+2026-11-27T04:55:25.110862+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26558710/level7
+2026-11-27T04:55:27.571470+00:00 Saved src/trove-scans/the-herald/1950/1950-11-25-gable-cultivates-the-rugged-look/page-01-nla.news-page26558710.jpg (4042031 bytes)
+2026-11-27T04:55:27.684385+00:00 Saved src/trove-scans/the-herald/1950/1950-11-25-gable-cultivates-the-rugged-look/article-01.jpg (2246543 bytes)
+2026-11-27T04:56:25.106539+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26572992/level7
+2026-11-27T04:56:27.731226+00:00 Saved src/trove-scans/the-herald/1951/1951-01-13-magazine-orson-gives-macbeth-the-creers/page-01-nla.news-page26572992.jpg (4973082 bytes)
+2026-11-27T04:56:27.872256+00:00 Saved src/trove-scans/the-herald/1951/1951-01-13-magazine-orson-gives-macbeth-the-creers/article-01.jpg (2631699 bytes)
+2026-11-27T04:57:25.113670+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26573017/level7
+2026-11-27T04:57:27.408924+00:00 Saved src/trove-scans/the-herald/1951/1951-01-16-taking-buses-off-new-york-streets/page-01-nla.news-page26573017.jpg (4609480 bytes)
+2026-11-27T04:57:27.517392+00:00 Saved src/trove-scans/the-herald/1951/1951-01-16-taking-buses-off-new-york-streets/article-01.jpg (1854478 bytes)
+2026-11-27T04:58:25.113718+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26573098/level7
+2026-11-27T04:58:27.945828+00:00 Saved src/trove-scans/the-herald/1951/1951-01-20-wild-man-of-filmdom/page-01-nla.news-page26573098.jpg (4750976 bytes)
+2026-11-27T04:58:28.060886+00:00 Saved src/trove-scans/the-herald/1951/1951-01-20-wild-man-of-filmdom/article-01.jpg (988442 bytes)
+2026-11-27T04:59:25.113903+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26573201/level7
+2026-11-27T04:59:27.846749+00:00 Saved src/trove-scans/the-herald/1951/1951-01-27-a-dog-in-the-money/page-01-nla.news-page26573201.jpg (4791837 bytes)
+2026-11-27T04:59:27.950369+00:00 Saved src/trove-scans/the-herald/1951/1951-01-27-a-dog-in-the-money/article-01.jpg (885221 bytes)
+2026-11-27T05:00:25.116831+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26573302/level7
+2026-11-27T05:00:27.807174+00:00 Saved src/trove-scans/the-herald/1951/1951-02-03-she-has-nothing-but-intelligence/page-01-nla.news-page26573302.jpg (4722748 bytes)
+2026-11-27T05:00:27.903239+00:00 Saved src/trove-scans/the-herald/1951/1951-02-03-she-has-nothing-but-intelligence/article-01.jpg (1363359 bytes)
+2026-11-27T05:01:25.128164+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26573398/level7
+2026-11-27T05:01:28.586473+00:00 Saved src/trove-scans/the-herald/1951/1951-02-10-russia-changed-movie-titles/page-01-nla.news-page26573398.jpg (5131443 bytes)
+2026-11-27T05:01:28.703084+00:00 Saved src/trove-scans/the-herald/1951/1951-02-10-russia-changed-movie-titles/article-01.jpg (1390794 bytes)
+2026-11-27T05:02:25.129590+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26573415/level7
+2026-11-27T05:02:27.292478+00:00 Saved src/trove-scans/the-herald/1951/1951-02-12-the-herald-motor-section-every-monday-new-chrysler-motor-sets-record-f/page-01-nla.news-page26573415.jpg (4092349 bytes)
+2026-11-27T05:02:27.406089+00:00 Saved src/trove-scans/the-herald/1951/1951-02-12-the-herald-motor-section-every-monday-new-chrysler-motor-sets-record-f/article-01.jpg (2418965 bytes)
+2026-11-27T05:03:25.131307+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26573502/level7
+2026-11-27T05:03:29.783373+00:00 Saved src/trove-scans/the-herald/1951/1951-02-17-garbo-may-be-afraid/page-01-nla.news-page26573502.jpg (4585531 bytes)
+2026-11-27T05:03:29.890491+00:00 Saved src/trove-scans/the-herald/1951/1951-02-17-garbo-may-be-afraid/article-01.jpg (1574759 bytes)
+2026-11-27T05:04:25.136154+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26573596/level7
+2026-11-27T05:04:27.505843+00:00 Saved src/trove-scans/the-herald/1951/1951-02-24-glamorous-grannies/page-01-nla.news-page26573596.jpg (5086467 bytes)
+2026-11-27T05:04:27.605611+00:00 Saved src/trove-scans/the-herald/1951/1951-02-24-glamorous-grannies/article-01.jpg (1195413 bytes)
+2026-11-27T05:05:25.139559+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26573695/level7
+2026-11-27T05:05:27.506525+00:00 Saved src/trove-scans/the-herald/1951/1951-03-03-248311206/page-01-nla.news-page26573695.jpg (4828929 bytes)
+2026-11-27T05:05:27.597362+00:00 Saved src/trove-scans/the-herald/1951/1951-03-03-248311206/article-01.jpg (332895 bytes)
+2026-11-27T05:06:25.144580+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26573797/level7
+2026-11-27T05:06:27.365615+00:00 Saved src/trove-scans/the-herald/1951/1951-03-10-old-groaner-piles-up-his-millions/page-01-nla.news-page26573797.jpg (5211893 bytes)
+2026-11-27T05:06:27.474527+00:00 Saved src/trove-scans/the-herald/1951/1951-03-10-old-groaner-piles-up-his-millions/article-01.jpg (1221585 bytes)
+2026-11-27T05:07:25.145853+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26573898/level7
+2026-11-27T05:07:28.685981+00:00 Saved src/trove-scans/the-herald/1951/1951-03-17-bad-20s-have-a-bad-echo/page-01-nla.news-page26573898.jpg (5123587 bytes)
+2026-11-27T05:07:28.799366+00:00 Saved src/trove-scans/the-herald/1951/1951-03-17-bad-20s-have-a-bad-echo/article-01.jpg (1340919 bytes)
+2026-11-27T05:08:25.154173+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26573903/level7
+2026-11-27T05:08:29.692152+00:00 Saved src/trove-scans/the-herald/1951/1951-03-17-theyve-found-a-lovely-new-star/page-01-nla.news-page26573903.jpg (4343787 bytes)
+2026-11-27T05:08:29.810150+00:00 Saved src/trove-scans/the-herald/1951/1951-03-17-theyve-found-a-lovely-new-star/article-01.jpg (1584202 bytes)
+2026-11-27T05:09:25.153695+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26573969/level7
+2026-11-27T05:09:28.751249+00:00 Saved src/trove-scans/the-herald/1951/1951-03-24-gangster-parade-in-us-crime-probe/page-01-nla.news-page26573969.jpg (4494791 bytes)
+2026-11-27T05:09:28.883812+00:00 Saved src/trove-scans/the-herald/1951/1951-03-24-gangster-parade-in-us-crime-probe/article-01.jpg (3964260 bytes)
+2026-11-27T05:10:25.162940+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26573969/level7
+2026-11-27T05:10:25.488410+00:00 Saved src/trove-scans/the-herald/1951/1951-03-24-keith-dunstans-hoolywood/page-01-nla.news-page26573969.jpg (4494791 bytes)
+2026-11-27T05:10:25.575648+00:00 Saved src/trove-scans/the-herald/1951/1951-03-24-keith-dunstans-hoolywood/article-01.jpg (610497 bytes)
+2026-11-27T05:11:25.170627+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26574045/level7
+2026-11-27T05:11:27.452267+00:00 Saved src/trove-scans/the-herald/1951/1951-03-31-on-the-edge-of-terror-hollywood-films-real-thriller-reports-keith-duns/page-01-nla.news-page26574045.jpg (4147345 bytes)
+2026-11-27T05:11:27.560784+00:00 Saved src/trove-scans/the-herald/1951/1951-03-31-on-the-edge-of-terror-hollywood-films-real-thriller-reports-keith-duns/article-01.jpg (1729231 bytes)
+2026-11-27T05:12:25.170087+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page27073027/level7
+2026-11-27T05:12:29.588575+00:00 Saved src/trove-scans/the-herald/1951/1951-04-14-case-of-the-dumb-blonde/page-01-nla.news-page27073027.jpg (5190694 bytes)
+2026-11-27T05:12:29.690712+00:00 Saved src/trove-scans/the-herald/1951/1951-04-14-case-of-the-dumb-blonde/article-01.jpg (1568436 bytes)
+2026-11-27T05:13:25.169485+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page27073099/level7
+2026-11-27T05:13:28.068683+00:00 Saved src/trove-scans/the-herald/1951/1951-04-21-british-film-is-a-wow-in-us/page-01-nla.news-page27073099.jpg (4240721 bytes)
+2026-11-27T05:13:28.179051+00:00 Saved src/trove-scans/the-herald/1951/1951-04-21-british-film-is-a-wow-in-us/article-01.jpg (1377477 bytes)
+2026-11-27T05:14:25.175390+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page27073173/level7
+2026-11-27T05:14:28.008496+00:00 Saved src/trove-scans/the-herald/1951/1951-04-28-poor-tired-writer/page-01-nla.news-page27073173.jpg (6066324 bytes)
+2026-11-27T05:14:28.114093+00:00 Saved src/trove-scans/the-herald/1951/1951-04-28-poor-tired-writer/article-01.jpg (1354553 bytes)
+2026-11-27T05:15:25.183838+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page27073243/level7
+2026-11-27T05:15:27.387767+00:00 Saved src/trove-scans/the-herald/1951/1951-05-05-thrill-of-the-brave-bulls/page-01-nla.news-page27073243.jpg (4608194 bytes)
+2026-11-27T05:15:27.492950+00:00 Saved src/trove-scans/the-herald/1951/1951-05-05-thrill-of-the-brave-bulls/article-01.jpg (1408852 bytes)
+2026-11-27T05:16:25.184284+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page27073317/level7
+2026-11-27T05:16:29.659894+00:00 Saved src/trove-scans/the-herald/1951/1951-05-12-he-was-no-1-lover/page-01-nla.news-page27073317.jpg (5352584 bytes)
+2026-11-27T05:16:29.761175+00:00 Saved src/trove-scans/the-herald/1951/1951-05-12-he-was-no-1-lover/article-01.jpg (1269810 bytes)
+2026-11-27T05:17:25.186109+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page27073387/level7
+2026-11-27T05:17:27.334997+00:00 Saved src/trove-scans/the-herald/1951/1951-05-19-246265934/page-01-nla.news-page27073387.jpg (5467855 bytes)
+2026-11-27T05:17:27.426960+00:00 Saved src/trove-scans/the-herald/1951/1951-05-19-246265934/article-01.jpg (477650 bytes)
+2026-11-27T05:18:25.191243+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page27073459/level7
+2026-11-27T05:18:30.067395+00:00 Saved src/trove-scans/the-herald/1951/1951-05-26-246259417/page-01-nla.news-page27073459.jpg (5757318 bytes)
+2026-11-27T05:18:30.160255+00:00 Saved src/trove-scans/the-herald/1951/1951-05-26-246259417/article-01.jpg (358533 bytes)
+2026-11-27T05:19:25.196655+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page27073529/level7
+2026-11-27T05:19:27.578332+00:00 Saved src/trove-scans/the-herald/1951/1951-06-02-tightening-the-belt/page-01-nla.news-page27073529.jpg (5585106 bytes)
+2026-11-27T05:19:27.673732+00:00 Saved src/trove-scans/the-herald/1951/1951-06-02-tightening-the-belt/article-01.jpg (651283 bytes)
+2026-11-27T05:20:25.194128+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page27073601/level7
+2026-11-27T05:20:27.492483+00:00 Saved src/trove-scans/the-herald/1951/1951-06-09-how-danny-does-it/page-01-nla.news-page27073601.jpg (5140656 bytes)
+2026-11-27T05:20:27.574658+00:00 Saved src/trove-scans/the-herald/1951/1951-06-09-how-danny-does-it/article-01.jpg (834529 bytes)
+2026-11-27T05:21:25.195968+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page27073675/level7
+2026-11-27T05:21:27.683821+00:00 Saved src/trove-scans/the-herald/1951/1951-06-16-ava-worlds-most-provocative/page-01-nla.news-page27073675.jpg (4487869 bytes)
+2026-11-27T05:21:27.788898+00:00 Saved src/trove-scans/the-herald/1951/1951-06-16-ava-worlds-most-provocative/article-01.jpg (1318168 bytes)
+2026-11-27T05:22:25.202749+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page27073747/level7
+2026-11-27T05:22:29.167073+00:00 Saved src/trove-scans/the-herald/1951/1951-06-23-rex-challenges-hollywood/page-01-nla.news-page27073747.jpg (4921619 bytes)
+2026-11-27T05:22:29.273084+00:00 Saved src/trove-scans/the-herald/1951/1951-06-23-rex-challenges-hollywood/article-01.jpg (1797068 bytes)
+2026-11-27T05:23:25.207501+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page27073813/level7
+2026-11-27T05:23:27.716936+00:00 Saved src/trove-scans/the-herald/1951/1951-06-30-mr-malik-orders-the-gold-service-at-the-waldorf/page-01-nla.news-page27073813.jpg (4826331 bytes)
+2026-11-27T05:23:27.806500+00:00 Saved src/trove-scans/the-herald/1951/1951-06-30-mr-malik-orders-the-gold-service-at-the-waldorf/article-01.jpg (281186 bytes)
+2026-11-27T05:24:25.210222+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page27073817/level7
+2026-11-27T05:24:27.323104+00:00 Saved src/trove-scans/the-herald/1951/1951-06-30-while-rita-waits/page-01-nla.news-page27073817.jpg (5022603 bytes)
+2026-11-27T05:24:27.430504+00:00 Saved src/trove-scans/the-herald/1951/1951-06-30-while-rita-waits/article-01.jpg (928623 bytes)
+2026-11-27T05:25:25.215043+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26570894/level7
+2026-11-27T05:25:27.682549+00:00 Saved src/trove-scans/the-herald/1951/1951-07-07-tv-brings-color-with-a-jolt/page-01-nla.news-page26570894.jpg (4697305 bytes)
+2026-11-27T05:25:27.791689+00:00 Saved src/trove-scans/the-herald/1951/1951-07-07-tv-brings-color-with-a-jolt/article-01.jpg (2277761 bytes)
+2026-11-27T05:26:25.215989+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26570966/level7
+2026-11-27T05:26:28.851725+00:00 Saved src/trove-scans/the-herald/1951/1951-07-14-alice-in-disneys-wonderland/page-01-nla.news-page26570966.jpg (5073171 bytes)
+2026-11-27T05:26:28.974139+00:00 Saved src/trove-scans/the-herald/1951/1951-07-14-alice-in-disneys-wonderland/article-01.jpg (2692732 bytes)
+2026-11-27T05:27:25.223065+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26571041/level7
+2026-11-27T05:27:27.999769+00:00 Saved src/trove-scans/the-herald/1951/1951-07-21-tragedy-turned-big-business/page-01-nla.news-page26571041.jpg (4603819 bytes)
+2026-11-27T05:27:28.106774+00:00 Saved src/trove-scans/the-herald/1951/1951-07-21-tragedy-turned-big-business/article-01.jpg (1791536 bytes)
+2026-11-27T05:28:25.226712+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26571111/level7
+2026-11-27T05:28:28.379687+00:00 Saved src/trove-scans/the-herald/1951/1951-07-28-animals-beat-actors/page-01-nla.news-page26571111.jpg (5316955 bytes)
+2026-11-27T05:28:28.478763+00:00 Saved src/trove-scans/the-herald/1951/1951-07-28-animals-beat-actors/article-01.jpg (1199058 bytes)
+2026-11-27T05:29:25.232492+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26571185/level7
+2026-11-27T05:29:29.990502+00:00 Saved src/trove-scans/the-herald/1951/1951-08-04-keith-dunstains-film-world-master-of-suspense/page-01-nla.news-page26571185.jpg (5062605 bytes)
+2026-11-27T05:29:30.077166+00:00 Saved src/trove-scans/the-herald/1951/1951-08-04-keith-dunstains-film-world-master-of-suspense/article-01.jpg (965748 bytes)
+2026-11-27T05:30:25.237845+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26571257/level7
+2026-11-27T05:30:28.661305+00:00 Saved src/trove-scans/the-herald/1951/1951-08-11-colossal-they-say/page-01-nla.news-page26571257.jpg (4353486 bytes)
+2026-11-27T05:30:28.752145+00:00 Saved src/trove-scans/the-herald/1951/1951-08-11-colossal-they-say/article-01.jpg (648690 bytes)
+2026-11-27T05:31:25.240403+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26571257/level7
+2026-11-27T05:31:25.636537+00:00 Saved src/trove-scans/the-herald/1951/1951-08-11-whos-really-alice/page-01-nla.news-page26571257.jpg (4353486 bytes)
+2026-11-27T05:31:25.717469+00:00 Saved src/trove-scans/the-herald/1951/1951-08-11-whos-really-alice/article-01.jpg (374193 bytes)
+2026-11-27T05:32:25.246164+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26571402/level7
+2026-11-27T05:32:27.663325+00:00 Saved src/trove-scans/the-herald/1951/1951-08-25-professional-brute/page-01-nla.news-page26571402.jpg (5282328 bytes)
+2026-11-27T05:32:27.778539+00:00 Saved src/trove-scans/the-herald/1951/1951-08-25-professional-brute/article-01.jpg (1837567 bytes)
+2026-11-27T05:33:25.253752+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26571547/level7
+2026-11-27T05:33:28.081454+00:00 Saved src/trove-scans/the-herald/1951/1951-09-08-star-from-the-alley/page-01-nla.news-page26571547.jpg (5749114 bytes)
+2026-11-27T05:33:28.194338+00:00 Saved src/trove-scans/the-herald/1951/1951-09-08-star-from-the-alley/article-01.jpg (1735981 bytes)
+2026-11-27T05:34:25.260076+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26571623/level7
+2026-11-27T05:34:28.705589+00:00 Saved src/trove-scans/the-herald/1951/1951-09-15-hotfoot-hedy/page-01-nla.news-page26571623.jpg (5175852 bytes)
+2026-11-27T05:34:28.810792+00:00 Saved src/trove-scans/the-herald/1951/1951-09-15-hotfoot-hedy/article-01.jpg (1237210 bytes)
+2026-11-27T05:35:25.264575+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26571701/level7
+2026-11-27T05:35:27.727359+00:00 Saved src/trove-scans/the-herald/1951/1951-09-22-blushful-clinches/page-01-nla.news-page26571701.jpg (4901376 bytes)
+2026-11-27T05:35:27.827067+00:00 Saved src/trove-scans/the-herald/1951/1951-09-22-blushful-clinches/article-01.jpg (640835 bytes)
+2026-11-27T05:36:25.269634+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26571775/level7
+2026-11-27T05:36:28.257265+00:00 Saved src/trove-scans/the-herald/1951/1951-09-29-value-of/page-01-nla.news-page26571775.jpg (5322949 bytes)
+2026-11-27T05:36:28.359491+00:00 Saved src/trove-scans/the-herald/1951/1951-09-29-value-of/article-01.jpg (699764 bytes)
+2026-11-27T05:37:25.272297+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26571858/level7
+2026-11-27T05:37:27.280648+00:00 Saved src/trove-scans/the-herald/1951/1951-10-06-she-sings-like-an-angel/page-01-nla.news-page26571858.jpg (4184846 bytes)
+2026-11-27T05:37:27.364539+00:00 Saved src/trove-scans/the-herald/1951/1951-10-06-she-sings-like-an-angel/article-01.jpg (2386245 bytes)
+2026-11-27T05:38:25.274827+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26571930/level7
+2026-11-27T05:38:27.598020+00:00 Saved src/trove-scans/the-herald/1951/1951-10-13-censor-no-prude/page-01-nla.news-page26571930.jpg (4741049 bytes)
+2026-11-27T05:38:27.705660+00:00 Saved src/trove-scans/the-herald/1951/1951-10-13-censor-no-prude/article-01.jpg (1671909 bytes)
+2026-11-27T05:39:25.275925+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26572394/level7
+2026-11-27T05:39:27.655630+00:00 Saved src/trove-scans/the-herald/1951/1951-11-24-old-fox-shocks-the-critics/page-01-nla.news-page26572394.jpg (5205953 bytes)
+2026-11-27T05:39:27.754673+00:00 Saved src/trove-scans/the-herald/1951/1951-11-24-old-fox-shocks-the-critics/article-01.jpg (1281697 bytes)
+2026-11-27T05:40:25.279957+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26572469/level7
+2026-11-27T05:40:28.769759+00:00 Saved src/trove-scans/the-herald/1951/1951-12-01-genuinely-colossal/page-01-nla.news-page26572469.jpg (4520681 bytes)
+2026-11-27T05:40:28.864011+00:00 Saved src/trove-scans/the-herald/1951/1951-12-01-genuinely-colossal/article-01.jpg (1383026 bytes)
+2026-11-27T05:41:25.281731+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26572562/level7
+2026-11-27T05:41:28.913416+00:00 Saved src/trove-scans/the-herald/1951/1951-12-08-gershwin-is-tops/page-01-nla.news-page26572562.jpg (4359571 bytes)
+2026-11-27T05:41:29.012213+00:00 Saved src/trove-scans/the-herald/1951/1951-12-08-gershwin-is-tops/article-01.jpg (1264805 bytes)
+2026-11-27T05:42:25.288021+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26572659/level7
+2026-11-27T05:42:29.152398+00:00 Saved src/trove-scans/the-herald/1951/1951-12-15-restoration-of-her-majesty/page-01-nla.news-page26572659.jpg (5529152 bytes)
+2026-11-27T05:42:29.254833+00:00 Saved src/trove-scans/the-herald/1951/1951-12-15-restoration-of-her-majesty/article-01.jpg (1147783 bytes)
+2026-11-27T05:43:25.289804+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26572750/level7
+2026-11-27T05:43:27.444805+00:00 Saved src/trove-scans/the-herald/1951/1951-12-22-you-cant-sink-a-seadog/page-01-nla.news-page26572750.jpg (4724654 bytes)
+2026-11-27T05:43:27.540498+00:00 Saved src/trove-scans/the-herald/1951/1951-12-22-you-cant-sink-a-seadog/article-01.jpg (1440349 bytes)
+2026-11-27T05:44:25.295163+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26572800/level7
+2026-11-27T05:44:27.428306+00:00 Saved src/trove-scans/the-herald/1951/1951-12-29-monster-forever/page-01-nla.news-page26572800.jpg (4679314 bytes)
+2026-11-27T05:44:27.505542+00:00 Saved src/trove-scans/the-herald/1951/1951-12-29-monster-forever/article-01.jpg (879753 bytes)
+2026-11-27T05:45:25.300569+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26796112/level7
+2026-11-27T05:45:27.594834+00:00 Saved src/trove-scans/the-herald/1952/1952-01-05-no-end-to-the-western-boom/page-01-nla.news-page26796112.jpg (5025256 bytes)
+2026-11-27T05:45:27.706503+00:00 Saved src/trove-scans/the-herald/1952/1952-01-05-no-end-to-the-western-boom/article-01.jpg (1402493 bytes)
+2026-11-27T05:46:25.307180+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26796265/level7
+2026-11-27T05:46:27.541929+00:00 Saved src/trove-scans/the-herald/1952/1952-01-19-a-lot-fewer-bs-now/page-01-nla.news-page26796265.jpg (4790511 bytes)
+2026-11-27T05:46:27.626094+00:00 Saved src/trove-scans/the-herald/1952/1952-01-19-a-lot-fewer-bs-now/article-01.jpg (124323 bytes)
+2026-11-27T05:47:25.309068+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26796341/level7
+2026-11-27T05:47:27.372258+00:00 Saved src/trove-scans/the-herald/1952/1952-01-26-the-stars-pleaded-for-jobs/page-01-nla.news-page26796341.jpg (4664934 bytes)
+2026-11-27T05:47:27.459587+00:00 Saved src/trove-scans/the-herald/1952/1952-01-26-the-stars-pleaded-for-jobs/article-01.jpg (1271201 bytes)
+2026-11-27T05:48:25.314937+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26796379/level7
+2026-11-27T05:48:27.477719+00:00 Saved src/trove-scans/the-herald/1952/1952-01-30-american-women-rule-the-roost/page-01-nla.news-page26796379.jpg (4469397 bytes)
+2026-11-27T05:48:27.588560+00:00 Saved src/trove-scans/the-herald/1952/1952-01-30-american-women-rule-the-roost/article-01.jpg (2013010 bytes)
+2026-11-27T05:49:25.314662+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26796426/level7
+2026-11-27T05:49:27.345416+00:00 Saved src/trove-scans/the-herald/1952/1952-02-02-everybody-loves-bob/page-01-nla.news-page26796426.jpg (4429286 bytes)
+2026-11-27T05:49:27.455485+00:00 Saved src/trove-scans/the-herald/1952/1952-02-02-everybody-loves-bob/article-01.jpg (2068771 bytes)
+2026-11-27T05:50:25.320086+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26796513/level7
+2026-11-27T05:50:28.551181+00:00 Saved src/trove-scans/the-herald/1952/1952-02-09-guns-pay-off/page-01-nla.news-page26796513.jpg (5387897 bytes)
+2026-11-27T05:50:28.647714+00:00 Saved src/trove-scans/the-herald/1952/1952-02-09-guns-pay-off/article-01.jpg (698954 bytes)
+2026-11-27T05:51:25.325118+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26796601/level7
+2026-11-27T05:51:28.069210+00:00 Saved src/trove-scans/the-herald/1952/1952-02-16-son-acts-father/page-01-nla.news-page26796601.jpg (4319131 bytes)
+2026-11-27T05:51:28.165103+00:00 Saved src/trove-scans/the-herald/1952/1952-02-16-son-acts-father/article-01.jpg (873173 bytes)
+2026-11-27T05:52:25.331891+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26796694/level7
+2026-11-27T05:52:27.575736+00:00 Saved src/trove-scans/the-herald/1952/1952-02-23-color-the-thing-for-the-boxoffice/page-01-nla.news-page26796694.jpg (3636974 bytes)
+2026-11-27T05:52:27.646144+00:00 Saved src/trove-scans/the-herald/1952/1952-02-23-color-the-thing-for-the-boxoffice/article-01.jpg (910407 bytes)
+2026-11-27T05:53:25.336433+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26796785/level7
+2026-11-27T05:53:27.420955+00:00 Saved src/trove-scans/the-herald/1952/1952-03-01-keith-dunstans-movie-world-118000-a-picture-for-flynn/page-01-nla.news-page26796785.jpg (4079636 bytes)
+2026-11-27T05:53:27.486809+00:00 Saved src/trove-scans/the-herald/1952/1952-03-01-keith-dunstans-movie-world-118000-a-picture-for-flynn/article-01.jpg (540091 bytes)
+2026-11-27T05:54:25.344151+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26796876/level7
+2026-11-27T05:54:27.950973+00:00 Saved src/trove-scans/the-herald/1952/1952-03-08-humphrey-the-hippo/page-01-nla.news-page26796876.jpg (3798260 bytes)
+2026-11-27T05:54:28.040901+00:00 Saved src/trove-scans/the-herald/1952/1952-03-08-humphrey-the-hippo/article-01.jpg (847859 bytes)
+2026-11-27T05:55:25.345161+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26797074/level7
+2026-11-27T05:55:27.625901+00:00 Saved src/trove-scans/the-herald/1952/1952-03-22-shameless-they-called-her/page-01-nla.news-page26797074.jpg (4668434 bytes)
+2026-11-27T05:55:27.720645+00:00 Saved src/trove-scans/the-herald/1952/1952-03-22-shameless-they-called-her/article-01.jpg (1086189 bytes)
+2026-11-27T05:56:25.349020+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26797170/level7
+2026-11-27T05:56:27.678792+00:00 Saved src/trove-scans/the-herald/1952/1952-03-29-last-of-the-showmen/page-01-nla.news-page26797170.jpg (4475267 bytes)
+2026-11-27T05:56:27.784988+00:00 Saved src/trove-scans/the-herald/1952/1952-03-29-last-of-the-showmen/article-01.jpg (1711809 bytes)
+2026-11-27T05:57:25.353591+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26797262/level7
+2026-11-27T05:57:27.611382+00:00 Saved src/trove-scans/the-herald/1952/1952-04-05-theres-money-in-tears/page-01-nla.news-page26797262.jpg (5486590 bytes)
+2026-11-27T05:57:27.722296+00:00 Saved src/trove-scans/the-herald/1952/1952-04-05-theres-money-in-tears/article-01.jpg (1071248 bytes)
+2026-11-27T05:58:25.358757+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26797333/level7
+2026-11-27T05:58:27.771587+00:00 Saved src/trove-scans/the-herald/1952/1952-04-12-danes-object-to-romance/page-01-nla.news-page26797333.jpg (3830200 bytes)
+2026-11-27T05:58:27.863469+00:00 Saved src/trove-scans/the-herald/1952/1952-04-12-danes-object-to-romance/article-01.jpg (759056 bytes)
+2026-11-27T05:59:25.357443+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26797424/level7
+2026-11-27T05:59:28.684820+00:00 Saved src/trove-scans/the-herald/1952/1952-04-19-watch-out-for-her/page-01-nla.news-page26797424.jpg (4402383 bytes)
+2026-11-27T05:59:28.781773+00:00 Saved src/trove-scans/the-herald/1952/1952-04-19-watch-out-for-her/article-01.jpg (804061 bytes)
+2026-11-27T06:00:25.361565+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26797513/level7
+2026-11-27T06:00:28.099482+00:00 Saved src/trove-scans/the-herald/1952/1952-04-26-reading-like-dickens/page-01-nla.news-page26797513.jpg (4654900 bytes)
+2026-11-27T06:00:28.200606+00:00 Saved src/trove-scans/the-herald/1952/1952-04-26-reading-like-dickens/article-01.jpg (1074980 bytes)
+2026-11-27T06:01:25.366221+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26569288/level7
+2026-11-27T06:01:27.332819+00:00 Saved src/trove-scans/the-herald/1952/1952-05-03-poor-old-frankie/page-01-nla.news-page26569288.jpg (3925395 bytes)
+2026-11-27T06:01:27.419764+00:00 Saved src/trove-scans/the-herald/1952/1952-05-03-poor-old-frankie/article-01.jpg (799055 bytes)
+2026-11-27T06:02:25.367964+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26569468/level7
+2026-11-27T06:02:29.495650+00:00 Saved src/trove-scans/the-herald/1952/1952-05-17-betty-the-bombshell/page-01-nla.news-page26569468.jpg (4746378 bytes)
+2026-11-27T06:02:29.575829+00:00 Saved src/trove-scans/the-herald/1952/1952-05-17-betty-the-bombshell/article-01.jpg (764000 bytes)
+2026-11-27T06:03:25.380195+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26569557/level7
+2026-11-27T06:03:27.554943+00:00 Saved src/trove-scans/the-herald/1952/1952-05-24-earthy-is-the-word/page-01-nla.news-page26569557.jpg (4773147 bytes)
+2026-11-27T06:03:27.647693+00:00 Saved src/trove-scans/the-herald/1952/1952-05-24-earthy-is-the-word/article-01.jpg (1138982 bytes)

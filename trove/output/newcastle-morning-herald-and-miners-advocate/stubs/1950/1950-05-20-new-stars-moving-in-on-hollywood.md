@@ -1,0 +1,23 @@
+---
+eleventyExcludeFromCollections: true
+title: "New Stars Moving In On Hollywood"
+date: 1950-05-20
+summary: "First published in Newcastle Morning Herald and Miners' Advocate, 20 May 1950. [Stub — not yet transcribed]"
+categories:
+- Newcastle Morning Herald and Miners' Advocate
+tags:
+---
+
+<!-- deep_search.py: score 0.92 (byline-text: 'by/from Keith Dunstan' in opening lines); lanes np-name, page 5 -->
+
+[Full article text not yet transcribed. Check the byline on the scan before transcribing; the confidence score is heuristic, not proof of authorship. If the scan is illegible, flag it for visual review.]
+
+<details><summary>Uncorrected Trove OCR</summary>
+
+New Stars Moving In On Hollywood By KEITH DUNSTAN, in New York Hollywood is digging deep, scraping to the bottom of every talent bin, trying to find the stars who will replace the near elderly men and women who "packed 'emn in" befdre the war. Clark Gable, Barbara Stanwyck, Spencer Tracy, Marlene Dietrich, Gary Cooper, Belte Davis and Claudette Colbert are fine actors and actresses, and people still love to see them. But tltey are moving into specialised character parts and, after ail, they can't go on forever. It is foolish to expect women in their mid-forties to play the parts of loving yottng debutantes. Joan Crewford and Marlene Dietricis are still good to look at, but their beauty has acquired a cold hard quality ~lfke polished jade. The job of replacing these people is not easy. A pretty face, a smooth leg, or features like a Greek statue are not enough. They must have a certain amount of acting ability atnd a somewhast unusu.il fascinat ing type of personality which fits in with the fads of the day. Studios are picl.ing up most of their talent from the stage, tele 7'sion and radio. Of course, one still hears the odd publicity story about the famous director who found the rare exotic beauty hid ing her talents behind a milk bar. These stories are rarer now. (It always astonished me how these direcfors ever got into milk bars in the first place.) ' The most obvious of the young stars rushing in to fill the places: of the great are Elizabeth Taylor, Jane Russell, Kirk Douglas, Mont gomery Clift, Jeanne Craine and Richard Todd, the good looking young English ex-commando and paratrooper. Macdoual Carey, with his fashionable crew cut, is another. His fists are tough, too, and he can lay the villair.s on their backs with all the aplomb of a Bogart (Ir Canev S HELLEY WINTERS has taken over the role of Deanna Durbin as first lady at Universal. In re cent pictures she has played the role of a sleezy bar-room blonde who would give tne boys the back of her hand at the drop of a hat. Slne h-s an impudent expressioln, and has made it felt tllhat ie w:nts to run the works at' Unliversal. Jane Greer, desciibed as the type of girl who would snattcr a glass eye at 50 paces, is the most prom ising on the R.K.O. lot, but she has held up her career somewhat during the last two years by hav ing two 'babies. Robert Ryan, who is 6 feet . 2 inches, and starring with Claudette Colbert in "Secret Fury," is a godsend. He looks mn.aner, nas tier and more horrible than James Mason ever did. i'he woman love him. M.G.M.'s Howard Keel looks like another Gary Cooper-a greal striding collosus of 6 feet 4 inches. But instead of drawling he sings. He played the lead in the London pioduction of "Oklahoma." His first film was with Betty Hutton in "Annie Get Your Gun" and now he is making a film with Esther Wil liams in Hawaii. Warner Brothers are banking on Ruth Roman to take the place left empty by the departure of Bette Davis. They say she is such a good actress she can cry out of one eye-the one nearest the camera. She worked her way up from the slums of Boston and she carried an expression sultry enough to make Errol Flynn's hair stand on end. Of course there are many others Ann Blyth. Mel Ferrer, the bril liant young actor of "Lost Boundar ies," Richard Widmark, the red headed Arlene Dahl, described as the girl for whom colour movies were invented ... A new generation of stars is tak ing over in Hollywood. Will you be as enthusiastic about them as youtt were about the last? Broadway's Embassy, the world's first newsreel theatre and one of the last in America to discover that newsreels did not pay, has found a new idea. It will show only films that have won an Academy Award. : It will start off with the early films of the late 20's.
+
+</details>
+
+<hr>
+
+*Source: New Stars Moving In On Hollywood, Newcastle Morning Herald and Miners' Advocate, 20 May 1950. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.news-article135295290).*

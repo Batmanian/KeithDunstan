@@ -1,0 +1,26 @@
+---
+eleventyExcludeFromCollections: true
+title: "'Genuinely colossal'"
+date: 1951-12-01
+summary: "First published in The Herald, 1 December 1951. [Stub — not yet transcribed]"
+categories:
+- The Herald
+tags:
+---
+
+<!-- deep_search.py: score 0.97 (byline-heading: name/column title in the article heading); lanes np-columns, np-correspondent, np-name, np-ocr, page 6 -->
+
+[Full article text not yet transcribed. Check the byline on the scan before transcribing; the confidence score is heuristic, not proof of authorship. If the scan is illegible, flag it for visual review.]
+
+Syndicated copies (alternate scans/OCR for cross-checking):
+- https://nla.gov.au/nla.news-article140328563
+
+<details><summary>Uncorrected Trove OCR</summary>
+
+"Genuinely colossal" Keith Dunsttm's Film World NEW YORK.— My eyes are bloodshot, my head is reeling, my ears are buzzing and there is an ache in my back. I have just seen 'Quo Vadis?' the film which Life magazine described as "the most genu inely colossal film ever made." AND it is colossal. It cost a record eight million dollars. It has more extras, more animals,' more sex, more love, more noise, more color and more ac tion than ever before. It runs for nearly three hours. Really, I'm quite breath less. My mind is full of scenes of Roman soldiers lolling with beautiful i slaves, goblets full of wine, lov'elv ladies bathed in oil of lilies, the triumphant marches of the conquering legioqs, down the Appian Way in a fine technicolor haze and the wife of Nero looking superbly contemp tuous with two cheetahs on leashes. ' ' «/\UO VADIS?" is I 1 proof that the g r e a t days of Hollywood are back and just to show you how colossal this film is here are some of the fig ures: Metro - Goldwyn - Mayer used 5200 yards of material for 32,000 costumes and with 15,000 sandals, ; 13,000 items of jewellery, 4000 brass helmets,— 4000 breastplates, 2000 shields, 200 goblets of Alexandria glass and 21,700 water bottles. They did quite a Job on the reconstruction of the i Circus of Nero, a stadium , large enough to seat 30,000 1 people. Sculptors turned out 500 pieces of statuary i for the shots of ancient 1 Rome. MGM gathered 63 lions ! from' Europe and Africa, ' seven fighting bulls from 1 Portugal, two cheetahs from Africa, 450 horses and no end of oxen, cattle, hogs and dogs. "Quo Vadis?" is the third | film version of the novel i by Henryk ; Sienkiewlcz, a Polish author who won the Nobel Prize for Literature. ; It was published in 1898 , and was a best seller for 25 years; j The first "QUo Vadis?" < came. out in.- 1912 and ran for only 20 ipinutes. But i the second in" 1924 was also " of the colossal variety, with 34 lions. One of them .i broke away during a scene depicting Nero's slaughter c of the Christians and jreated a real-life martyr by killing an extra. The present version was made in Rome, with Robert Taylor in the star ring, role as Marcus Vini- eius, Deborah . Kerr as the beautiful hostage Lygla, Peter Ustinov, well known in England as a writer, director and actor, as Nero, and the English actor Leo Genn as Petronius. . It opened last week in New York at two Broad way theatres with a fuss that was really, something to see. The ushers in the theatres were gorgeously dressed as Roman slaves- They erected the biggest neon sign outside the As- tor Theatre I have seen. It was 50 ft. high, and made to the beautiful shape of Deborah Kerr. She was dressed in a sheer silk neg ligee affair, and chained to a stake with neon tubing, where she ' was waiting, presumably, to be gobbled up by lioiis. The film critics had very different opinions. The Tribune said: . . there is hardly a single credible moment or move ment. 'Quo Vadis?' is both uncommonly spectacular and uncommonly absurd." The London Daily Ex press correspondent wrote home: "It's about . as Roman as bubble gum." . However, they all agreed that "Quo Vadis?" like "Samson and Delilah," would make a great deal of money. Although on many oc casions the story is banal and absurd, some of the scenes are extraordinary, particularly the Burning of Rome. - ? MG-M built four large blocks, as they be lieve R o m 6 . must have looked 2000 years ago. It took three months to get the set ready. Then a crew of 20 men, using great stocks of tanks and piping, prepared 4000 gal lons of fuel oil, 2000 gal lons of petrol, 3000 gallons of alcohol mixture, a ton of naphthalene, , and 1000 gallons of butane gas. This, as you can imagine, was enough to create an astonishing sight, but in technicolor, with , thous ands of people apparently burning to death, it was horrifying. In fact, much of "Quo Vadis?" is horrifying. Rare ly has there been such car nage in a film. You have your choice of ' men and women being . strangled, stabbed, burned alive, poi soned, crucified, torn to pieces by half-starved lions, or lashed with whips. Well, "Quo Vadis?" should be in Australia in three or four months. -Whatever you think about it, there's one thing: you won't be i bored.' Robert Tavlor and Deborah Kerr in "Otto Vadis?"
+
+</details>
+
+<hr>
+
+*Source: "Genuinely colossal" Keith Dunstan's Film World, The Herald, 1 December 1951. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.news-article247837058).*

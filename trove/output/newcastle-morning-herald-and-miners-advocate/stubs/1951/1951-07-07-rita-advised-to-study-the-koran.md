@@ -1,0 +1,23 @@
+---
+eleventyExcludeFromCollections: true
+title: "Rita Advised To Study The Koran"
+date: 1951-07-07
+summary: "First published in Newcastle Morning Herald and Miners' Advocate, 7 July 1951. [Stub — not yet transcribed]"
+categories:
+- Newcastle Morning Herald and Miners' Advocate
+tags:
+---
+
+<!-- deep_search.py: score 0.92 (byline-text: 'by/from Keith Dunstan' in opening lines); lanes np-name, page 5 -->
+
+[Full article text not yet transcribed. Check the byline on the scan before transcribing; the confidence score is heuristic, not proof of authorship. If the scan is illegible, flag it for visual review.]
+
+<details><summary>Uncorrected Trove OCR</summary>
+
+Rita Advised To Study The Koran From KEITH DUNSTAN, in Hollywood. Princess Ali Khan, alias Rita Hayworth, is fast overhauling General MacArthur as the most publicised person in the United States. The General's homecoming was the more dramatic, but Rita's news value has picked up punch in. recent weeks. Like the General, she has her army of reporters and photograph ers followiing her all over the coun try, with the difference that Rita has not General Whitney. She gives ier interviews in person. In fact, interest is at such a pitch that when photographs reached News York of Aly dancing with Joan Fon taine, three gossip columnists, at less than two Ihours' notice, flew to Paris to get the low-down. Meanwhile Rita is taking things quietly at Lake Tahoe (Nevada) where she rented an eight-bedroom house for six weeks at a cost of £800. She has to stay there six weeks to establish her claim as a resident of Nevada for a Reno divorce. The reporters there following her doings say shite is spending her time reading. Last week she bought £12 worth of books. Among them were "A Guide To Competent Living" and "Power Through Constructive Thinking." Her photograph appears in the tabloids every day, but this time it has been a different Rita. No mink coats, no bathing suits, nO strapless evening dresses - for every picture she has worn the same turtle-necked sweater, jeans rolled up to just below the knee, bobby socks and moccasins. Once, this rigout was the standard uniform for the bobby-soxer. Now it has become the fashion for smart vomen. Shops along Broadway and Times Square are making heavy sales. Divorce action is likely to start early this month. The columnists say it will be lively. They believe Rita will charge that Aly was too interested in gambling, casinos and racehorses and she will ask him about Joan.Fontaine. Aly, on the other hand, may call Ritn. a "gold digger." SE LAWYER, Bartley Crum, says Rita has agreed to raise her daughter, Yasmin, aged 17 months, in the Moslem faith. This raises all sorts of complications. The Moslem chief in the U.S., one Shaikh Daoud Ahmed Faisal, laid down the law to reporters, that if Rita wants to raise Yasmin as a Moslem, she must become almost a Moslem herself. According to Mos lem law, never, never must she disi play her legs, never must she wear a bathing suit and never must she kiss in any of her films " "It's immoral for a man to kiss a woman in public," he said. "It is also immoral for a woman to smoke or drink. If Miss Hayworth wants to raise her child as a Mos lcm, she should spend her spare time reading the Koran." Rita has not lost any of her popularity since she married Aly Khan. She received little of the condemnation that hit Ingrid Berg man. The only complaint came from Senator Edwin Johnson, who makes regular speeches attacking film stars. HIe called Rita "an apostle of degradation" and a "powerful influence for evil." But the average film-goer took rather a different view. He remem bered that Rita was born Margarita Carmen Cansino, a girl of Italian Irish descent, who started with no money as a night club dancer at 15. It proved an ordinary American girl was good enough for a Moslem prince. The separation made no differ ence. This proved that she did not want to live in any Oriental palace, but liked America best. As soon as her divorce goes through she will make a film for Columbia. The columnists say she is busy reading through scripts. Some say she wants a slap-up musi cal. Some say she' wants a dig nified film, maybe a Ctraight drama. Whatever it is, it does not mat ter very much, for Columbia is sure to make millions. People will go along out of sheer curiosity to get a good squiz at this girl who captured a fabulously wealthy prtnce.
+
+</details>
+
+<hr>
+
+*Source: Rita Advised To Study The Koran, Newcastle Morning Herald and Miners' Advocate, 7 July 1951. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.news-article134058019).*

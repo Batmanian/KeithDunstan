@@ -1,0 +1,23 @@
+---
+eleventyExcludeFromCollections: true
+title: "CRICKET THE NATIONAL DOSE OF BENZEDRINE BACK PAGE SPORT SPOT"
+date: 1953-08-07
+summary: "First published in The Daily News, 7 August 1953. [Stub — not yet transcribed]"
+categories:
+- The Daily News
+tags:
+---
+
+<!-- deep_search.py: score 0.92 (byline-text: 'by/from Keith Dunstan' in opening lines); lanes np-name, page 16 -->
+
+[Full article text not yet transcribed. Check the byline on the scan before transcribing; the confidence score is heuristic, not proof of authorship. If the scan is illegible, flag it for visual review.]
+
+<details><summary>Uncorrected Trove OCR</summary>
+
+CRICKET THE NATIONAL DOSE OF BENZEDRINE xSr From KEITH DUNSTAN, in London 'JHE Americans do some crazy things during the baseball World Series; the Australians are rather odd over the Davis Cup. But during the Test series the English go absolutely crazy. It's got so bad that Gilbert Harding, a famous English commenta- tor, disgustedly wrote: "It is really time that some of these fanatics got a sense of proportion. "It is the height of imbecile fanaticism for hordes of ordinary people to wait all night in the rain in the hope of getting a hard wooden seat to watch what may turn out to be deadly dull performance." But it goes even worse than that. At Notting ham and Manchester they waited in the rain all night and sometimes all day as well to see no play at all. The cricket grounds themselves are mostly com fortless, with few amenities, but these enthusiasts are prepared to pay in advance for tickets on the third or fourth day when the warning is clear — "NO MONEY WILL BE REFUNDED." TOURING a Test match the crowds in the buses talk of nothing else but cricket, mobs block the footpath looking at the cricket through the windows of television stores, and the news of Hutton's fibrositis before the Third Test earned almost as much newspaper space as the breakdown of Sir Winston Churchill. During one Test I visited the famous Bath Club in London. In the foyer was a machine clicking our ticker tape. I looked at the tape disinterestedly, thinking it would be just the latest quotes from the Stock Ex change, but no, the tape was giving the cricket scores. ssSSSSSSs. Yet a cricket season like this one does some thing to the English man. You know what he is like most times. , He reads Punch tight- lipped and frowning, his laughter at the pic ture theatre is of the quietest kind, and rare ly if ever does he open a conversation in a rail way train. The first time an Eng- lishman did this tor me was on the way to the First Test, and to recall it now the conversation does seem a little fantastic. TTE suddenly lodged me in the eye and said: "Don't you think Keith Miller needs a haircut?" "Why — er — no," I replied, "I never really thought about ..." "It stands to reason," he went on, "He can't see properly and every time he hits the ball his hair flops over and he has to throw it back." Think of the wasted effort, think . . ." , There was an Englishman so obsessed by a thought he had to blurt it out to someone. But the very thought of cricket makes an Englishman gar rulous and friendly. At Nottingham when Bedser completed his mas sacre I saw thousands of normally sober Eng lishmen laughing, smiling, slapping each other on the back; men throwing their hats in the air and one gentleman playing football'with a cigarette tin. f\AN you imagine an Englishman playing football with a cigarette tin? When Willy Watson made his all-day stand in the Second Test one fan from Lancashire roared: "Good on yer Yorkshire boy, I luv yer." Can you imagine a Lancashire man saying he loves any body? But cricket does such things to these people and they go through all the emotions, one moment laughing with each other, the next consoling each other's grief. A Scot during the Second Test claimed: "Cricket has its national appeal to the English because it is food and drink to their natural pleasure in pessi mism. "When England is losing wickets they are happi ly gloomy when fighting a glorious losing battle they are in their seventh heaven of pessimism." THAT is only half the truth. Cricket is the national dose of benzedrine. The Italian lets out his emotions over a bottle of chianti, a Russian sobs and laughs over a dance, but an Englishman has his cricket. Then if sometimes his pessimism does reach enormous depths that's because he has his pride too. He hates to lose at anything for long and the los ing against Australia has gone on far, far too long.
+
+</details>
+
+<hr>
+
+*Source: CRICKET THE NATIONAL DOSE OF BENZEDRINE BACK PAGE SPORT SPOT, The Daily News, 7 August 1953. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.news-article266113463).*

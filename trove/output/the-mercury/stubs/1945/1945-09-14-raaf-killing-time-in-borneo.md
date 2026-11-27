@@ -1,0 +1,23 @@
+---
+eleventyExcludeFromCollections: true
+title: "RAAF KILLING TIME IN BORNEO"
+date: 1945-09-14
+summary: "First published in The Mercury, 14 September 1945. [Stub — not yet transcribed]"
+categories:
+- The Mercury
+tags:
+---
+
+<!-- deep_search.py: score 0.92 (byline-text: 'by/from Keith Dunstan' in opening lines); lanes np-name, page 17 -->
+
+[Full article text not yet transcribed. Check the byline on the scan before transcribing; the confidence score is heuristic, not proof of authorship. If the scan is illegible, flag it for visual review.]
+
+<details><summary>Uncorrected Trove OCR</summary>
+
+RAAF KILLING TIME IN BORNEO By Keith Dunstan, a war correspondent-Special to "The Mercury" gORNEO.-Senior RAAF officers have a new job. In- stead of air operations they are planning football matches and other pastimes to keep the troops here happy, now that the war is over. ll/TANY of the thousands of men 1Ji who were here to fight or assjst the fighting now have;' nothing- to do. The senior officers are trying to solve the problem-they are full of ideas and doing well. I was.-ta4king to the CO of an air- field construction squadron, who said: . "I have 20 bulldozers and I am going to make football grounds for every unit that wants one." His bulldozers are already on the Job. Instead of carving out air strips they are flattening the Jun- gle for football grounds. It's the easiest changeover from wartime, to peacetime production I've heard about. j On Saturday afternoon 1 went to I the football, just like I did fotir years ago, except this time I had to cling to the back of a three-ton truck and not to a strap in a tram. I had visited this ground several weeks back. Then it was thick scrub. All this had been pushed back, leav- ing not green turf like you see at the Melbourne Cricket Ground, but hard, black earth. In the distance were rubber and coconut plantations, and all round the ground were tents with heads peering out of them. The sun was high in the sky, the air thick and warm, like the hottest days of a Brisbane Summer. I thought of Noel Coward's little song "Mad dogs and Englishmen go out in the midday sun." * * * * TpHB first match was Rugby. The players were a little out of practice, but they had muscles toughened: in the .service and they used them.' We watched' the game squatting on our haunches in the mud. The spectators were very loud and force- ful in their opinions. The umpire took as much notice of them as hp would-have done at a league final. Two other teams ran on, and this time they played Australian rules. The same old arguments came up: "There you are> what did I tell you? A real game." . : . . "Don't give me that. In Sydney we . . ." When the Australian rules play- ers had fought it out, another game started. So it went on, until it was too dark to play. .There are too many teams and not enough grounds. But with the bulldozers working there will be enough soon for everybody. \ A swimminc garnival which will be held in a fortnight will be another time-killer. The beautiful beach, the warm, clear waters oí the China Sea-the teams don't have to be herded to the water for training. They can hardly wait to dash in and get away from the heat and dust. * * * * HpHERE are other sports; vol ley ball, basketball, table tennis, and-boxing. We have picture shows every night, but these are in true jungle fashion. We sit on bully beef boxes and watch the open air screen. _ If it rains we don't go home. We just pull out ground sheets and go on watching. Water trickles down our necks and fills our boots, but if it's a warm trickle, and Greer Gar son is there on the screen we don't mind. The Army Education sections are missing all this fun. They are handling scores of applications for correspondence . courses and practical training. The postwar reconstruction scheme is a godsend to those who are impatient to return to their jobs. They are wise men, for few can be sent home together because of in- sufficient shipping. Other men will be delayed even longer, because they will have to stay behind and clear the land of thousands of pounds worth of vajur able equipment. The warus not all over yet. There are still Japanese in Borneo, Java, and the Celebes, but most of all we must think of the POW's. We were reminded of these things when Alosquitoes- and Beaufighters flew over the football ground carry- ing the glad tidings of- surrender (in leaflet form) tb: the. Japanese.
+
+</details>
+
+<hr>
+
+*Source: RAAF KILLING TIME IN BORNEO, The Mercury, 14 September 1945. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.news-article26160865).*

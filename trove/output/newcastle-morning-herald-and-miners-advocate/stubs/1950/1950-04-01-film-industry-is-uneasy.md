@@ -1,0 +1,23 @@
+---
+eleventyExcludeFromCollections: true
+title: "Film Industry Is Uneasy"
+date: 1950-04-01
+summary: "First published in Newcastle Morning Herald and Miners' Advocate, 1 April 1950. [Stub — not yet transcribed]"
+categories:
+- Newcastle Morning Herald and Miners' Advocate
+tags:
+---
+
+<!-- deep_search.py: score 0.92 (byline-text: 'by/from Keith Dunstan' in opening lines); lanes np-correspondent, np-name, page 5 -->
+
+[Full article text not yet transcribed. Check the byline on the scan before transcribing; the confidence score is heuristic, not proof of authorship. If the scan is illegible, flag it for visual review.]
+
+<details><summary>Uncorrected Trove OCR</summary>
+
+H~I~ ~a~st~gr ~ ~easy By KEITH DUNSTAN, in New York. T HE new year with all its Spromises of vast prosperity fbr the second half of the centuity has brought nothing but diisap pointment to Hollywood. The film .industry although 'not badly short of anoney,. is' .uneasy and worried. A lightincrease in box office returns .during 1949 seemed to be, a promise' of better times. But it was' an empty promise. Re venue for-tlie first two months of 1950 was .below' the early 1949 Icvel, which, in. lturn,' was below orevious years. ': ': The first sign, ofi what Hollywood calls "production jitters" came re cently wheni Paramount'began a lay-off of minor: iroduction execur tives and workers.. Then' a terrible rumour went the iounds that War ner Brothers intende?d:.tot sack? 50 per cent. of theii? staff. The Vice president (Mr. Jack L. Warner) soothed ruffled tempers a little by announcing the reduction would be only 5 per cent. That was bad enough. He said the lay-offs were due to reduced production activity. When compnies slow down their output, it is a sure sign of a de clining market. Some of the gloom is undoubt edly to impress the United States Government that its 20 per cent. tax on ticket sales is doing terrible things to the industry, but it goes deeper than that. Some producers feel that television, a tender baby only five years old is starting to strangle them all. Maybe they are right. Eventually Hollywood will heve to play with the baby instead of crossing to the other .side of the street. Amid these worries, Hollywood has done a very fine thing. The Motion Picture Association of Anm erica announcedtl that Hollywood would foot the bill to bring repre sentatives of film industries in for eign countries to America so that they could learn how to sell their products here. Furthermore, the association would set up an advisory unit which would provide them with informa tion about the number of locations of theatres, Customs regulations, listings of distributor organisations andt tle gelleral nmethods of the Imovie business in the U.S. Invita tions have been sent to film com panies in Italy, Fratce, Sweden, Spain, Argentina ansd Mexico. The association considers it un necessary to include Britain in the plan because there is no language difficulty and all thie British com panies have their representatives here. Rough-house, Loss D)ana Andrews in a rough-lhouse scetle for the film "Whlere the Sidlewalk Ends," finished with a smashed nose and two black eyes. For photographic purposes he was ;sint a mess and 1n lotnger a and looking hero. Bob Evans, a for mer heavyweight boxer had made his punch a little too realistic. All this meant a loss of 12 days in the shooting schedule, a loss of 4500 dollars in wages to players and workers, and a total loss of 45,000 dollars to 20th Century Fox in, paying offt cqntract. players and for use of el'uipment. As for Mr. Evans-he, was so upset by all this he went home seriously ill. Worried. For years and years, Metro Gold wyn, Mayer producers have talked wistfully of making a 5 million dollar colossus called "Quo Vadis," on location in Rome. The company has reached the point of no return and much of the produc tion staff is in Italy. The only snag now is the leading lady. The studio wanted Jean Sim mons, but she asked for.too much money. To make matters even more complicated, she insisted that Stewart Granger be her leading man. Now they want Elizabeth Taylor for the part,'but she is scared the film might interfere with her mar riage to Conrad Hilton jun. The leading man is settled. He will be Robert Taylor. "Quo Vadis" is a story of Rome in the days of Nero, and Mr. Tay lor will have to wear a toga. ie is a little worried about this and when they gave him a screen test lie said: "Good heavens! I look like Jane Russell."
+
+</details>
+
+<hr>
+
+*Source: Film Industry Is Uneasy, Newcastle Morning Herald and Miners' Advocate, 1 April 1950. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.news-article140630702).*

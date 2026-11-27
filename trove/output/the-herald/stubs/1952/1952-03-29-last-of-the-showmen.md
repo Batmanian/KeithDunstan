@@ -1,0 +1,23 @@
+---
+eleventyExcludeFromCollections: true
+title: "Last of the showmen"
+date: 1952-03-29
+summary: "First published in The Herald, 29 March 1952. [Stub — not yet transcribed]"
+categories:
+- The Herald
+tags:
+---
+
+<!-- deep_search.py: score 0.97 (byline-heading: name/column title in the article heading); lanes np-columns, np-name, np-ocr, page 13 -->
+
+[Full article text not yet transcribed. Check the byline on the scan before transcribing; the confidence score is heuristic, not proof of authorship. If the scan is illegible, flag it for visual review.]
+
+<details><summary>Uncorrected Trove OCR</summary>
+
+Keith Dunslan's Film World Last of the showmen NEW YORK. — -Howard Hughes, "the boy millionaire," has lost hone of his verve or his gift for showmanship. MR HUGHES is a man who ATA hates to ap pear normal. He likes people to think of him as the perfect example of American courage, vigor and enterprise. His capac- ity for working out new stunts and keeping his name in the paper is re markable. This month he went all out for publicity for his new film, "The Las Vegas Story." He invited 66 columnists to a preview at Las Vegas, .Nevada. He sent for them in chartered Constellations and, when they arrived, he presented each with a mckskin bag containing 50 silver dollars. Just so they could have a crack at the local gamb ling tables, he said. He then booked them Into the best hotels and presented each with a ball point pen. Just so they could sign for anything and every thing they needed, he said. Mr Hughes really put on a show. There was a fire works display, a torchlight parade. Film cuties land ed from helicopters and local citizens put on cow boys' suits. As for the film, it wasn't too good. Its only asset was Jane Russell, and Jane Russell's only film asset is her figure. She arrived during the cele brations with a great black bruise on her cheek, which started a good deal of speculation. "I ran into a door." she said. But for the 66 columnists the bruise, not the film, was the Las Vegas story. NOW that Sid Grauman is dead, Howard Hughes is the last of the showmen. He seems to be the only man who can spend with an amused dis regard for money. . Just- before Christmas Hughes threw Hollywood Boulevard into a state of confusion with the pre miere of "Two Tickets to Broadway." He had a parade, hundreds of danc ing girls, vaudeville acts, and brass bands all in a jostling crowd outside the theatre. It was almost as good as the show for "The Outlaw" In 1946, when Hughes floated a 167 foot blimp, shaped to the rather obvi ous curves of Miss Russell, across Los Angeles. Hughes is a man who started from the top and made good. He inherited his. father's tool business in his teens, and by the time he was 20 he was making two million dollars a year. He made a big name for himself in Hollywood by discovering Jean Harlow, but as an aviator he be came even more notorious. his oiggest acnievemeni was a flight round the world In . three days 19 hours, with a four-man crew in 1936. In New York they judge your popularity by the amount of paper thrown at you in a ticker tape parade. The cleaners weigh it up the next day. When Hughes returned from the 1936 round-the- world flight they threw 1800 tons at him. Only one manias done better. They threw 2850 , tons at General Mac- 1 Arthur last year. 1 His biggest worry now is his flying boat. He says it is the biggest aeroplane in the world, and it probably is. It weighs 200 tons, has eight engines, and a wing span of 300 feet. He started work on it in 1942 with the help of 13 million dollars from the . Onvprnmprit.. Vpnrs wpnf by, and the plane never | flew, until, in 1946. after | Hughes had spent 20 mil- I lion of his own money, it | rose 10 feet off the water. | The Government is now I demanding that Hughes I show some action, and he I has until June 1 to com- I plete his flying tests. I Meanwhile Hughes is I spending money on It at a I rate of 300,000 a month. I Why he is persevering so I hard Is something of a I mystery. I ' It would be no trouble I to him to give the Govern- I ment back its 13 million. | But Mr Hughes Is a man I of surprises, a man not I easily licked. | Several aviation writers 1 here say he has made a deal with the i Atomic Energy Commission to try atomic power in his flying boat. The AEC needs a big aeroplane to carry the weight, and Mr Hughes's plane is the biggest one around. Hughes built this "biggest plune in the world," which some writers say may fly by atom power.
+
+</details>
+
+<hr>
+
+*Source: Keith Dunstan's Film World Last of the showmen, The Herald, 29 March 1952. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.news-article246047209).*

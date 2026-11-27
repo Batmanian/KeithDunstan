@@ -134,6 +134,11 @@ module.exports = function(eleventyConfig) {
       .sort((a, b) => a.date - b.date);
   });
 
+  eleventyConfig.addCollection("theherald", collection => {
+    return collection.getFilteredByGlob("src/articles/the-herald/**/*.md")
+      .sort((a, b) => a.date - b.date);
+  });
+
   // Merges every transcribed article with the full book bibliography
   // (src/_data/books.json) into one date-sorted list for src/timeline.njk.
   // Books only carry a publication year, so they're pinned to 1 January of

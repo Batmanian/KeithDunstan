@@ -1,0 +1,23 @@
+---
+eleventyExcludeFromCollections: true
+title: "Western Films Save Hollywood"
+date: 1950-07-29
+summary: "First published in Newcastle Morning Herald and Miners' Advocate, 29 July 1950. [Stub — not yet transcribed]"
+categories:
+- Newcastle Morning Herald and Miners' Advocate
+tags:
+---
+
+<!-- deep_search.py: score 0.92 (byline-text: 'by/from Keith Dunstan' in opening lines); lanes np-name, page 4 -->
+
+[Full article text not yet transcribed. Check the byline on the scan before transcribing; the confidence score is heuristic, not proof of authorship. If the scan is illegible, flag it for visual review.]
+
+<details><summary>Uncorrected Trove OCR</summary>
+
+Western Films Save Hollywood By KEITH DUNSTAN, in New York. . . You can bring on your long-legged dancing girls, black-eyed gangsters, clarinet players andl dance bands, but there is one character thei Anerican can't resist-the gum-chewing, gun toting cowboy. The wild west has been dead for 100 years. The cowboy has become a delicious fantasy all dressed up in fruit salad shirts, fur lined chaps and silver stud ded boots, biut he is still the backbone of Hollywood. It is not always easy for Aus tralians and others to understand why the west has such a fascin ation for Americans. Yet to the New Yorker rattling along in the subway or eating his lunch astride a drugstore stool, the west is everything that is fine. He knows it is part of Americi's great heri tage and for him it never died. So with the children each week he goes along to western films and 'treams of this drshing, outdoor life filled with strength, courage and men who act like men. To him it is escape. I Hollywood has no illusions about this and the studios are de pending on a flood of westerns to get them out of the red. The Western Costume Company, which provides a good deal of the cow boy gear, is working around the clock to keep pace with the de mand for. levis, chaps ?. ,d frontiet garb. Hollywood gunsmiths say they have never been busier, turn ing out those f.ncy' eneraved six shooters with ivory handles. They make many of the westerns at Sonora, California, a town on the western slopes of the Sierra Nevadas. There you can hire an old-time steam train for £A135 a day, a westeern street for ,AII a day, a stage coach for £A6, s covered waggon for ,A6, and a horse for £A2. Cattle are different. The locals aren't too pleased at the way these Hollywood tenderfeet beat their cattle into stampedes. So they charge a flat rate of ,At a head for the cattle and 20 cents a potnd for "shrinkage." That is they weigh them before and after the day's work. It's good business. In fact, it's good business for everyone. In Hollywood when an actor starts to slip they say: "Go make a Western, then your public will remember you again." Almost everybody has made a Western some time or other-lBob Hope, Bing Crosby, Alan Ladd, Clarke Gable, Gregory Peck, Rob ert Taylor, Ray Milland, Gary1 Cooper, Spencer Tracey, Humphrey Bogart, and Betty Hutton. Well, just about everybody, that. is. It's still my ambition, to seea Ronald Colman shooting bottles oft a bar. Back in 1903 the first film with a story was Western-"The Great Train Robbery." Nobody ever fot got it, and they're doing the same thing now in 1950. I imagine tha sltnation will be just the same in 2950. T IMMY DURANTE is doing rather well for himself. He is cleaningup between £A180.000 and £A225,000 every year. The Copacabana night club here in New York last winter paid £A5400 a week for a three-monthj engagement. Jimmy has made a fortune outt of his nose. He has copyrighted the words Schnozzola and Schnozzle. He has insured that nose, which1 would have worried anyone elsa near to death, withs Lloyds of Lon-, don for ,-A446,000. He will col lect if anything drastic happens to make it shorter or more beautiful. Jimmy makes a lot of money, but he never has any. He is constantly giving it away. Not long ago onet of the men who look after his fin-, ancial affairs warned him that he had overdrawn by 1687.50 dollars. Jimmy got to work hunting through his drawers and cupboards, and found 20,000 dollars in mis laid cheques. H OLLYWOOD has been mak i ing Tarzan pictures for a long, long time. There have been nine Tarzans and 26 Tarzan pictures. Edgar Rice Burroughs nev r aot around to visiting the African jungles that he made famous. Well, Hollywood's going to beat that record. T)lis year Lex Barker, the latest Tarzan, will make "Tar zan's Peril" on location in Nairobi, Kenya.
+
+</details>
+
+<hr>
+
+*Source: Western Films Save Hollywood, Newcastle Morning Herald and Miners' Advocate, 29 July 1950. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.news-article135310313).*

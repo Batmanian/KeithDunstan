@@ -1,0 +1,23 @@
+---
+eleventyExcludeFromCollections: true
+title: "[?]t Power Takes To The Water"
+date: 1953-03-30
+summary: "First published in The Sun News-Pictorial, 30 March 1953. [Stub — not yet transcribed]"
+categories:
+- The Sun News-Pictorial
+tags:
+---
+
+<!-- deep_search.py: score 0.7 (name-at-top: name in first ~120 chars (byline, or a piece about him)); lanes np-name, page 9 -->
+
+[Full article text not yet transcribed. Check the byline on the scan before transcribing; the confidence score is heuristic, not proof of authorship. If the scan is illegible, flag it for visual review.]
+
+<details><summary>Uncorrected Trove OCR</summary>
+
+it Power Takes To The Water Keith Dunstan INDON. - Great Britain is to build the world’s turbo-jet navy, jets will power tile ships, torpedo minesweepers and vessels. The big the cruisers and It carriers will then! as boosters, he extra lash of needed in an jets are gas tur They do on the lat the Comets and eiv Javelins do in r, except they don't a hot jet into the The jet stream a conventional eriments with gas les have been going ;re since 1947 and iritain is Jour years of the rest of the news came at the tone when the sut Engiishman was -S feelings of tor Pnde, dismay and over the fact the Navy was not the even the ut the third power United States, ot ,'ith ™st’ and Rus fith .0 very power iuisers too destroy, ad JoO submarines >nd. Think of those tbmarines - that® »d ‘hg part! E5«»sl r*. t.unn War w iubmarine mena, a«y started the w not with 350 submarines but a mere 57. Nor has Mr Churchill forgotten what it was like to be frightened. This year Britain will spend 70 to 80 times more on anti-submarine and mine counter-work than she did three years The gas turbine will give a lift to this. The increasing use of radar and electrical gear on the little ships has meant a drastic shortage of space. A minsweeper with a turbo-jet engine needs no boilers, and not only does it have more speed but it has more room. The range, too, is better and the time taken to get under way is cut by half. A OR big ships tbe gas turbines don’t have the long life of the ■team and Diesel engines. “Ut as boosters they will 3e ideal. The cruisers and earners from now will use smaller and, lighter conventional engines apable of good cruising ■ ;Peeds only and the gas .urbmes will be there for ■he emergencies. Two fast patrol boats. powered with both con ventional and gas tur bine engines, are now undergoing advanced sea trials. They are the Bold Pioneer and the Bold Pathfinder. Tbe Royal Navy is not depending only on gas turbines. For ex ample. there is the Anti-submarine mor tar.—This is a three barrelied mortar which fires a pattern of large Doihb-shaped projectiles. It has an electronic brain and it is so eiTi cient, so accurate, that, according to the Navy, submarines have little chance once they come within range. Canadian and American experts were astonished when they saw it in action. The Angled Flight Deck. — The live new aircraft carriers build ing for the Royal Navy will all have angled flight decks. Under the system used at present one end of the deck is used for parking and launching aeroplanes. So a badljt judged landing can lead to disaster. But the angled deck sweeps away from the side of the ship at eight degrees. It avoids the parking area, increases the run by a third, so if the pilot misjudges his approach he can take off again. Steam Catapult.—Aus tralia’s new carrier, HMAS Melbourne, will have a steam catapult. It is a British invention of such oower that it will make big changes'in naval tactics. Carriers, to launch their aircraft, must now steam for long periods full into wind. They do this to give the aircraft flying speed, but the steam catapult will change all that. It has such power it can launch the heaviest air craft cross wind or with no wind at all. It can even launch them with the ship stationary at the dockside. These are just a few of the things that will give strength to the Navy. There are other things, possibly far more exciting such as atomic power and guided mis siles, but they are top There is little doubt that Britain has the technical ability /to build a navy of superli Quality. Maybe it won't be the biggest, but Sir Francis Drake gave an excellent account of himself with out having the biggest navy in the world. The first operational warship powered by a gas-turbine engine is the patrol —oat B°ld Pioneer, which, with her sister ship. Bold Pathfinder, has been undergoing advanced sea trials. q 11 ii
+
+</details>
+
+<hr>
+
+*Source: [?]t Power Takes To The Water, The Sun News-Pictorial, 30 March 1953. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.news-article279776458).*
