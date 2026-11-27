@@ -10620,13 +10620,1503 @@
     },
     "trove/output/the-herald/stubs/1952/1952-05-31-kangaroo-called-horse-opera.md": {
       "stub": "trove/output/the-herald/stubs/1952/1952-05-31-kangaroo-called-horse-opera.md",
-      "images": [],
+      "images": [
+        {
+          "file": "page-01-nla.news-page26569650.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26569650/level7",
+          "bytes": 4170253,
+          "sha256": "5876aa125399a8c908bf3e3a7f4d83e75753f028bef20b771c2c2b387d2ba2f3",
+          "downloaded_at": "2026-11-27T06:04:27.327453+00:00",
+          "zones": [
+            [
+              1411,
+              2876,
+              1389,
+              186
+            ],
+            [
+              1411,
+              3062,
+              1389,
+              159
+            ],
+            [
+              1874,
+              3221,
+              926,
+              226
+            ],
+            [
+              1411,
+              3221,
+              463,
+              260
+            ],
+            [
+              1411,
+              3481,
+              463,
+              2193
+            ],
+            [
+              1874,
+              4493,
+              468,
+              2402
+            ],
+            [
+              1874,
+              3447,
+              926,
+              955
+            ],
+            [
+              1874,
+              4402,
+              926,
+              91
+            ]
+          ]
+        },
+        {
+          "file": "article-01.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26569650/level7",
+          "bytes": 1687118,
+          "sha256": "4b0c350c0664a9b4cdfe6cbee906ffae8cb35d7e57d0b5bd4528db042a9f01c2",
+          "downloaded_at": "2026-11-27T06:04:27.402855+00:00",
+          "crop_box": [
+            1371,
+            2836,
+            2840,
+            6935
+          ],
+          "derived_from": "page-01-nla.news-page26569650.jpg"
+        }
+      ],
       "publication": "the-herald",
       "folder": "src/trove-scans/the-herald/1952/1952-05-31-kangaroo-called-horse-opera",
       "kind": "newspaper",
       "folder_created": true,
       "source_url": "https://nla.gov.au/nla.news-article244373890",
       "article_page": "https://trove.nla.gov.au/newspaper/article/244373890",
+      "expected_pages": 1,
+      "status": "complete",
+      "rights_statement": "UNRESOLVED"
+    },
+    "trove/output/the-herald/stubs/1952/1952-06-07-zoom-then-a-blackout.md": {
+      "stub": "trove/output/the-herald/stubs/1952/1952-06-07-zoom-then-a-blackout.md",
+      "images": [
+        {
+          "file": "page-01-nla.news-page26569733.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26569733/level7",
+          "bytes": 4194291,
+          "sha256": "239eaa2836fd4531842a90916d23d6d47c3b1803d157f73c2ab234132bcd9bd4",
+          "downloaded_at": "2026-11-27T06:05:27.381154+00:00",
+          "zones": [
+            [
+              226,
+              235,
+              1903,
+              503
+            ],
+            [
+              226,
+              738,
+              1002,
+              324
+            ],
+            [
+              226,
+              1062,
+              1002,
+              437
+            ],
+            [
+              226,
+              1499,
+              529,
+              349
+            ],
+            [
+              226,
+              1848,
+              523,
+              647
+            ],
+            [
+              226,
+              2495,
+              514,
+              749
+            ],
+            [
+              226,
+              3244,
+              511,
+              438
+            ],
+            [
+              226,
+              3682,
+              513,
+              60
+            ],
+            [
+              755,
+              1499,
+              473,
+              349
+            ],
+            [
+              749,
+              1848,
+              461,
+              647
+            ],
+            [
+              740,
+              2495,
+              459,
+              191
+            ],
+            [
+              740,
+              3003,
+              456,
+              241
+            ],
+            [
+              737,
+              3244,
+              459,
+              438
+            ],
+            [
+              739,
+              3682,
+              452,
+              60
+            ],
+            [
+              1210,
+              1848,
+              452,
+              647
+            ],
+            [
+              1199,
+              2495,
+              463,
+              508
+            ],
+            [
+              1196,
+              3003,
+              466,
+              241
+            ],
+            [
+              1196,
+              3244,
+              466,
+              438
+            ],
+            [
+              1191,
+              3682,
+              467,
+              60
+            ],
+            [
+              2936,
+              188,
+              565,
+              234
+            ],
+            [
+              2129,
+              188,
+              807,
+              550
+            ],
+            [
+              2936,
+              422,
+              565,
+              316
+            ],
+            [
+              1228,
+              738,
+              2273,
+              1110
+            ],
+            [
+              740,
+              2686,
+              459,
+              317
+            ]
+          ]
+        },
+        {
+          "file": "article-01.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26569733/level7",
+          "bytes": 3011149,
+          "sha256": "27c5b63982c729a8fd42faa6f0a2cadde3c2d07a5a2f0a3bab45b1b0c21f73d9",
+          "downloaded_at": "2026-11-27T06:05:27.497728+00:00",
+          "crop_box": [
+            186,
+            148,
+            3541,
+            3782
+          ],
+          "derived_from": "page-01-nla.news-page26569733.jpg"
+        }
+      ],
+      "publication": "the-herald",
+      "folder": "src/trove-scans/the-herald/1952/1952-06-07-zoom-then-a-blackout",
+      "kind": "newspaper",
+      "folder_created": true,
+      "source_url": "https://nla.gov.au/nla.news-article244387979",
+      "article_page": "https://trove.nla.gov.au/newspaper/article/244387979",
+      "expected_pages": 1,
+      "status": "complete",
+      "rights_statement": "UNRESOLVED"
+    },
+    "trove/output/the-herald/stubs/1952/1952-07-26-no-baths-for-many-britons.md": {
+      "stub": "trove/output/the-herald/stubs/1952/1952-07-26-no-baths-for-many-britons.md",
+      "images": [
+        {
+          "file": "page-01-nla.news-page26570342.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26570342/level7",
+          "bytes": 4077368,
+          "sha256": "e8e1d4ba8cec26ab8358bfeaa12175fe8a1ed36f33db463bc9303c28b1de60b8",
+          "downloaded_at": "2026-11-27T06:06:28.811337+00:00",
+          "zones": [
+            [
+              2404,
+              259,
+              1393,
+              494
+            ],
+            [
+              2404,
+              753,
+              1393,
+              87
+            ],
+            [
+              2404,
+              840,
+              1393,
+              350
+            ],
+            [
+              2404,
+              1190,
+              462,
+              696
+            ],
+            [
+              2866,
+              1190,
+              469,
+              696
+            ],
+            [
+              2860,
+              1886,
+              467,
+              848
+            ],
+            [
+              2860,
+              2734,
+              478,
+              980
+            ],
+            [
+              3335,
+              1190,
+              462,
+              696
+            ],
+            [
+              3327,
+              1886,
+              470,
+              848
+            ]
+          ]
+        },
+        {
+          "file": "article-01.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26570342/level7",
+          "bytes": 1301094,
+          "sha256": "33fd20a27b0eea85e7cb66cecc9225023e06a3f7a5e5a2a9ef1b0570a48b98b0",
+          "downloaded_at": "2026-11-27T06:06:28.897998+00:00",
+          "crop_box": [
+            2364,
+            219,
+            3837,
+            3754
+          ],
+          "derived_from": "page-01-nla.news-page26570342.jpg"
+        }
+      ],
+      "publication": "the-herald",
+      "folder": "src/trove-scans/the-herald/1952/1952-07-26-no-baths-for-many-britons",
+      "kind": "newspaper",
+      "folder_created": true,
+      "source_url": "https://nla.gov.au/nla.news-article244387027",
+      "article_page": "https://trove.nla.gov.au/newspaper/article/244387027",
+      "expected_pages": 1,
+      "status": "complete",
+      "rights_statement": "UNRESOLVED"
+    },
+    "trove/output/the-herald/stubs/1952/1952-09-18-wests-forces-flex-their-united-muscles.md": {
+      "stub": "trove/output/the-herald/stubs/1952/1952-09-18-wests-forces-flex-their-united-muscles.md",
+      "images": [
+        {
+          "file": "page-01-nla.news-page26688251.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26688251/level7",
+          "bytes": 3741626,
+          "sha256": "abc17371d0cd1c1a28a645354e9a73e8d111d234e9b1e1cf61f0e32697755d0c",
+          "downloaded_at": "2026-11-27T06:07:28.099746+00:00",
+          "zones": [
+            [
+              1434,
+              176,
+              1858,
+              231
+            ],
+            [
+              1892,
+              407,
+              1400,
+              205
+            ],
+            [
+              1892,
+              612,
+              925,
+              159
+            ],
+            [
+              1892,
+              771,
+              925,
+              121
+            ],
+            [
+              1892,
+              892,
+              925,
+              248
+            ],
+            [
+              1892,
+              1140,
+              925,
+              90
+            ],
+            [
+              1892,
+              1230,
+              463,
+              2000
+            ],
+            [
+              2355,
+              1230,
+              462,
+              2000
+            ]
+          ]
+        },
+        {
+          "file": "article-01.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26688251/level7",
+          "bytes": 1101199,
+          "sha256": "7c47c2cf57804d2a79ed64912c4ba272950cda78ab90b0512c031eb92cc75bd9",
+          "downloaded_at": "2026-11-27T06:07:28.189566+00:00",
+          "crop_box": [
+            1394,
+            136,
+            3332,
+            3270
+          ],
+          "derived_from": "page-01-nla.news-page26688251.jpg"
+        }
+      ],
+      "publication": "the-herald",
+      "folder": "src/trove-scans/the-herald/1952/1952-09-18-wests-forces-flex-their-united-muscles",
+      "kind": "newspaper",
+      "folder_created": true,
+      "source_url": "https://nla.gov.au/nla.news-article245294022",
+      "article_page": "https://trove.nla.gov.au/newspaper/article/245294022",
+      "expected_pages": 1,
+      "status": "complete",
+      "rights_statement": "UNRESOLVED"
+    },
+    "trove/output/the-herald/stubs/1952/1952-11-15-theyre-fighting-for-a-royal-butlers-job.md": {
+      "stub": "trove/output/the-herald/stubs/1952/1952-11-15-theyre-fighting-for-a-royal-butlers-job.md",
+      "images": [
+        {
+          "file": "page-01-nla.news-page26689184.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26689184/level7",
+          "bytes": 4396268,
+          "sha256": "b0f9b30c92bb61b7312d3d3c45d9362d4ae3d4296a15a2fe1c59d49afc0506de",
+          "downloaded_at": "2026-11-27T06:08:27.545878+00:00",
+          "zones": [
+            [
+              1508,
+              3452,
+              1873,
+              226
+            ],
+            [
+              1508,
+              3678,
+              1440,
+              201
+            ],
+            [
+              1508,
+              3879,
+              1440,
+              94
+            ],
+            [
+              1508,
+              3973,
+              1440,
+              219
+            ],
+            [
+              1508,
+              4192,
+              499,
+              328
+            ],
+            [
+              1508,
+              4520,
+              503,
+              1323
+            ],
+            [
+              1508,
+              5843,
+              507,
+              895
+            ],
+            [
+              2007,
+              4192,
+              459,
+              328
+            ],
+            [
+              2011,
+              4520,
+              466,
+              1323
+            ],
+            [
+              2015,
+              5843,
+              462,
+              895
+            ],
+            [
+              2466,
+              4192,
+              482,
+              328
+            ],
+            [
+              2948,
+              3678,
+              433,
+              763
+            ],
+            [
+              2948,
+              4441,
+              433,
+              79
+            ]
+          ]
+        },
+        {
+          "file": "article-01.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26689184/level7",
+          "bytes": 1607726,
+          "sha256": "e99cb5b186f3c9296ff81a134b48e9f10b4b50aa228c75b9cf374d08f2169f5f",
+          "downloaded_at": "2026-11-27T06:08:27.624620+00:00",
+          "crop_box": [
+            1468,
+            3412,
+            3421,
+            6778
+          ],
+          "derived_from": "page-01-nla.news-page26689184.jpg"
+        }
+      ],
+      "publication": "the-herald",
+      "folder": "src/trove-scans/the-herald/1952/1952-11-15-theyre-fighting-for-a-royal-butlers-job",
+      "kind": "newspaper",
+      "folder_created": true,
+      "source_url": "https://nla.gov.au/nla.news-article245289634",
+      "article_page": "https://trove.nla.gov.au/newspaper/article/245289634",
+      "expected_pages": 1,
+      "status": "complete",
+      "rights_statement": "UNRESOLVED"
+    },
+    "trove/output/the-herald/stubs/1952/1952-11-21-museum-gets-1-miles-of-new-books-each-year.md": {
+      "stub": "trove/output/the-herald/stubs/1952/1952-11-21-museum-gets-1-miles-of-new-books-each-year.md",
+      "images": [
+        {
+          "file": "page-01-nla.news-page26689272.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26689272/level7",
+          "bytes": 3509292,
+          "sha256": "318b10f8aded94ab172db318ab0116f24aa3fb77d683ab933bfb1953c78b65a0",
+          "downloaded_at": "2026-11-27T19:02:26.140644+00:00",
+          "zones": [
+            [
+              2399,
+              3720,
+              1828,
+              325
+            ],
+            [
+              2399,
+              4045,
+              1828,
+              118
+            ],
+            [
+              2399,
+              4163,
+              603,
+              103
+            ],
+            [
+              2399,
+              4266,
+              603,
+              528
+            ],
+            [
+              2399,
+              4794,
+              607,
+              205
+            ],
+            [
+              3002,
+              4163,
+              625,
+              631
+            ],
+            [
+              3006,
+              4794,
+              621,
+              205
+            ],
+            [
+              3627,
+              4163,
+              600,
+              560
+            ],
+            [
+              3627,
+              4723,
+              600,
+              71
+            ]
+          ]
+        },
+        {
+          "file": "article-01.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26689272/level7",
+          "bytes": 506385,
+          "sha256": "98a3ea12db5acb66e5505420b69c81e63cf635b5e16fde4262e4c181545d6628",
+          "downloaded_at": "2026-11-27T19:02:26.270594+00:00",
+          "crop_box": [
+            2359,
+            3680,
+            4267,
+            5039
+          ],
+          "derived_from": "page-01-nla.news-page26689272.jpg"
+        }
+      ],
+      "publication": "the-herald",
+      "folder": "src/trove-scans/the-herald/1952/1952-11-21-museum-gets-1-miles-of-new-books-each-year",
+      "kind": "newspaper",
+      "folder_created": true,
+      "source_url": "https://nla.gov.au/nla.news-article245288108",
+      "article_page": "https://trove.nla.gov.au/newspaper/article/245288108",
+      "expected_pages": 1,
+      "status": "complete",
+      "rights_statement": "UNRESOLVED",
+      "failures": 1
+    },
+    "trove/output/the-herald/stubs/1952/1952-12-03-royal-stamp-boo-in-red-goatskin.md": {
+      "stub": "trove/output/the-herald/stubs/1952/1952-12-03-royal-stamp-boo-in-red-goatskin.md",
+      "images": [
+        {
+          "file": "page-01-nla.news-page26689470.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26689470/level7",
+          "bytes": 3240537,
+          "sha256": "1b929a1f0628e5acd832d9c39730a81279d4d6b5fe6ce6689c661518d9a585f6",
+          "downloaded_at": "2026-11-27T19:03:28.224096+00:00",
+          "zones": [
+            [
+              3690,
+              3081,
+              1116,
+              372
+            ],
+            [
+              3690,
+              3453,
+              1116,
+              51
+            ],
+            [
+              3685,
+              3504,
+              1120,
+              286
+            ],
+            [
+              3685,
+              3790,
+              625,
+              1044
+            ],
+            [
+              4310,
+              3790,
+              495,
+              1044
+            ]
+          ]
+        },
+        {
+          "file": "article-01.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26689470/level7",
+          "bytes": 404549,
+          "sha256": "8c69d818238169c68eeb060fb369132379ad8519d84411b0f248a31f70ac22f4",
+          "downloaded_at": "2026-11-27T19:03:28.332204+00:00",
+          "crop_box": [
+            3645,
+            3041,
+            4846,
+            4874
+          ],
+          "derived_from": "page-01-nla.news-page26689470.jpg"
+        }
+      ],
+      "publication": "the-herald",
+      "folder": "src/trove-scans/the-herald/1952/1952-12-03-royal-stamp-boo-in-red-goatskin",
+      "kind": "newspaper",
+      "folder_created": true,
+      "failures": 1,
+      "status": "complete",
+      "source_url": "https://nla.gov.au/nla.news-article245278163",
+      "article_page": "https://trove.nla.gov.au/newspaper/article/245278163",
+      "expected_pages": 1,
+      "rights_statement": "UNRESOLVED"
+    },
+    "trove/output/the-herald/stubs/1952/1952-12-09-2000-mph-rockets-are-ready-for-air-battles.md": {
+      "stub": "trove/output/the-herald/stubs/1952/1952-12-09-2000-mph-rockets-are-ready-for-air-battles.md",
+      "images": [
+        {
+          "file": "page-01-nla.news-page26689588.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26689588/level7",
+          "bytes": 4244804,
+          "sha256": "37cf60b276772d5e45bb77064b46ec5f6c795e1834f4b16ee9aecf8df1fd0843",
+          "downloaded_at": "2026-11-27T19:04:28.062202+00:00",
+          "zones": [
+            [
+              3017,
+              3301,
+              1747,
+              189
+            ],
+            [
+              3017,
+              3490,
+              1242,
+              158
+            ],
+            [
+              3017,
+              3648,
+              1242,
+              104
+            ],
+            [
+              3017,
+              3752,
+              1242,
+              221
+            ],
+            [
+              3017,
+              3973,
+              614,
+              63
+            ],
+            [
+              3017,
+              4036,
+              614,
+              842
+            ],
+            [
+              3017,
+              4878,
+              614,
+              294
+            ],
+            [
+              3631,
+              3973,
+              628,
+              905
+            ],
+            [
+              4259,
+              3490,
+              505,
+              1388
+            ]
+          ]
+        },
+        {
+          "file": "article-01.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26689588/level7",
+          "bytes": 767582,
+          "sha256": "69b6ed6107985cdb886d5f1a8406c557f7fa941fb382694e83c4e0db7b50102b",
+          "downloaded_at": "2026-11-27T19:04:28.189507+00:00",
+          "crop_box": [
+            2977,
+            3261,
+            4804,
+            5212
+          ],
+          "derived_from": "page-01-nla.news-page26689588.jpg"
+        }
+      ],
+      "publication": "the-herald",
+      "folder": "src/trove-scans/the-herald/1952/1952-12-09-2000-mph-rockets-are-ready-for-air-battles",
+      "kind": "newspaper",
+      "folder_created": true,
+      "failures": 1,
+      "status": "complete",
+      "source_url": "https://nla.gov.au/nla.news-article245287202",
+      "article_page": "https://trove.nla.gov.au/newspaper/article/245287202",
+      "expected_pages": 1,
+      "rights_statement": "UNRESOLVED"
+    },
+    "trove/output/the-herald/stubs/1952/1952-12-18-navy-is-flighty-with-helicopters.md": {
+      "stub": "trove/output/the-herald/stubs/1952/1952-12-18-navy-is-flighty-with-helicopters.md",
+      "images": [
+        {
+          "file": "page-01-nla.news-page26689756.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26689756/level7",
+          "bytes": 4539102,
+          "sha256": "88006c5478528499e3572f70f3a6da8384397d0ca4742125c290b7c7cfa54e33",
+          "downloaded_at": "2026-11-27T19:05:27.086727+00:00",
+          "zones": [
+            [
+              1734,
+              117,
+              2510,
+              293
+            ],
+            [
+              1734,
+              410,
+              1241,
+              265
+            ],
+            [
+              1734,
+              675,
+              1241,
+              84
+            ],
+            [
+              1734,
+              759,
+              1241,
+              243
+            ],
+            [
+              1734,
+              1002,
+              626,
+              33
+            ],
+            [
+              1734,
+              1035,
+              626,
+              2204
+            ],
+            [
+              1734,
+              3239,
+              638,
+              597
+            ],
+            [
+              2360,
+              1002,
+              615,
+              1104
+            ]
+          ]
+        },
+        {
+          "file": "article-01.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26689756/level7",
+          "bytes": 2075393,
+          "sha256": "8f7f610818615058a5a302091d2fe102fd49bd24d4abbc18b970bb3f32732aea",
+          "downloaded_at": "2026-11-27T19:05:27.260526+00:00",
+          "crop_box": [
+            1694,
+            77,
+            4284,
+            3876
+          ],
+          "derived_from": "page-01-nla.news-page26689756.jpg"
+        }
+      ],
+      "publication": "the-herald",
+      "folder": "src/trove-scans/the-herald/1952/1952-12-18-navy-is-flighty-with-helicopters",
+      "kind": "newspaper",
+      "folder_created": true,
+      "failures": 1,
+      "status": "complete",
+      "source_url": "https://nla.gov.au/nla.news-article245279669",
+      "article_page": "https://trove.nla.gov.au/newspaper/article/245279669",
+      "expected_pages": 1,
+      "rights_statement": "UNRESOLVED"
+    },
+    "trove/output/the-herald/stubs/1952/1952-12-27-they-cheer-the-gay-dog-from-paris.md": {
+      "stub": "trove/output/the-herald/stubs/1952/1952-12-27-they-cheer-the-gay-dog-from-paris.md",
+      "images": [
+        {
+          "file": "page-01-nla.news-page26689867.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26689867/level7",
+          "bytes": 4113700,
+          "sha256": "a12876915c36ab2e629ee3c0182ed94cbe054b82bec70d440442780a56fa05e2",
+          "downloaded_at": "2026-11-27T19:06:27.760948+00:00",
+          "zones": [
+            [
+              1899,
+              4222,
+              1406,
+              278
+            ],
+            [
+              1899,
+              4500,
+              1406,
+              100
+            ],
+            [
+              1899,
+              4600,
+              473,
+              211
+            ],
+            [
+              1899,
+              4811,
+              473,
+              1099
+            ],
+            [
+              2372,
+              4600,
+              460,
+              1310
+            ],
+            [
+              2832,
+              4600,
+              472,
+              1310
+            ]
+          ]
+        },
+        {
+          "file": "article-01.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26689867/level7",
+          "bytes": 564625,
+          "sha256": "bc00ddcb216f2dfb21b1c0d7f0506584e3cf29f94a632e69728a01f2945fe842",
+          "downloaded_at": "2026-11-27T19:06:27.882062+00:00",
+          "crop_box": [
+            1859,
+            4182,
+            3345,
+            5950
+          ],
+          "derived_from": "page-01-nla.news-page26689867.jpg"
+        }
+      ],
+      "publication": "the-herald",
+      "folder": "src/trove-scans/the-herald/1952/1952-12-27-they-cheer-the-gay-dog-from-paris",
+      "kind": "newspaper",
+      "folder_created": true,
+      "failures": 1,
+      "status": "complete",
+      "source_url": "https://nla.gov.au/nla.news-article245293574",
+      "article_page": "https://trove.nla.gov.au/newspaper/article/245293574",
+      "expected_pages": 1,
+      "rights_statement": "UNRESOLVED"
+    },
+    "trove/output/the-herald/stubs/1952/1952-12-30-they-only-let-out-her-shadow.md": {
+      "stub": "trove/output/the-herald/stubs/1952/1952-12-30-they-only-let-out-her-shadow.md",
+      "images": [
+        {
+          "file": "page-01-nla.news-page26689888.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26689888/level7",
+          "bytes": 3648826,
+          "sha256": "1ba6da770a75ba53c9f326c8dbf61beb0d3e735ef6955971f670a56244a04d49",
+          "downloaded_at": "2026-11-27T19:07:25.993987+00:00",
+          "zones": [
+            [
+              3546,
+              1556,
+              1258,
+              327
+            ],
+            [
+              3546,
+              1883,
+              1258,
+              111
+            ],
+            [
+              3546,
+              1994,
+              1257,
+              227
+            ],
+            [
+              3546,
+              2221,
+              1258,
+              136
+            ],
+            [
+              3546,
+              2357,
+              627,
+              1143
+            ],
+            [
+              3540,
+              3500,
+              624,
+              475
+            ],
+            [
+              4173,
+              2357,
+              631,
+              1143
+            ],
+            [
+              4164,
+              3500,
+              639,
+              187
+            ],
+            [
+              3546,
+              97,
+              1258,
+              1371
+            ],
+            [
+              3546,
+              1468,
+              1258,
+              88
+            ]
+          ]
+        },
+        {
+          "file": "article-01.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26689888/level7",
+          "bytes": 1076856,
+          "sha256": "5172d8632819bcf09a9c13f8071dfd0496a1d5a5b2147ad88370935770c862a6",
+          "downloaded_at": "2026-11-27T19:07:26.136529+00:00",
+          "crop_box": [
+            3500,
+            57,
+            4844,
+            4015
+          ],
+          "derived_from": "page-01-nla.news-page26689888.jpg"
+        }
+      ],
+      "publication": "the-herald",
+      "folder": "src/trove-scans/the-herald/1952/1952-12-30-they-only-let-out-her-shadow",
+      "kind": "newspaper",
+      "folder_created": true,
+      "source_url": "https://nla.gov.au/nla.news-article245290148",
+      "article_page": "https://trove.nla.gov.au/newspaper/article/245290148",
+      "expected_pages": 1,
+      "status": "complete",
+      "rights_statement": "UNRESOLVED"
+    },
+    "trove/output/the-herald/stubs/1953/1953-01-03-something-in-the-wind-its-power.md": {
+      "stub": "trove/output/the-herald/stubs/1953/1953-01-03-something-in-the-wind-its-power.md",
+      "images": [
+        {
+          "file": "page-01-nla.news-page26686591.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26686591/level7",
+          "bytes": 4317892,
+          "sha256": "22afe9574923b74ed786d1d3d7bbe12506635b8793de51385cfe94bfb75c8a67",
+          "downloaded_at": "2026-11-27T19:08:26.708951+00:00",
+          "zones": [
+            [
+              1937,
+              2639,
+              1392,
+              302
+            ],
+            [
+              1937,
+              2941,
+              1392,
+              73
+            ],
+            [
+              1937,
+              3014,
+              1392,
+              172
+            ],
+            [
+              1937,
+              3187,
+              462,
+              67
+            ],
+            [
+              1937,
+              3254,
+              462,
+              427
+            ],
+            [
+              2399,
+              3187,
+              463,
+              494
+            ],
+            [
+              2862,
+              3187,
+              467,
+              494
+            ],
+            [
+              2855,
+              3681,
+              476,
+              1600
+            ],
+            [
+              2863,
+              5281,
+              476,
+              657
+            ],
+            [
+              2402,
+              148,
+              921,
+              2231
+            ],
+            [
+              2402,
+              2379,
+              921,
+              260
+            ]
+          ]
+        },
+        {
+          "file": "article-01.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26686591/level7",
+          "bytes": 1851533,
+          "sha256": "395fd4c9273749a3ae430e26b663b3df5ad0eb983f48b069d3b636960c6ce0e2",
+          "downloaded_at": "2026-11-27T19:08:26.879502+00:00",
+          "crop_box": [
+            1897,
+            108,
+            3379,
+            5978
+          ],
+          "derived_from": "page-01-nla.news-page26686591.jpg"
+        }
+      ],
+      "publication": "the-herald",
+      "folder": "src/trove-scans/the-herald/1953/1953-01-03-something-in-the-wind-its-power",
+      "kind": "newspaper",
+      "folder_created": true,
+      "source_url": "https://nla.gov.au/nla.news-article249188268",
+      "article_page": "https://trove.nla.gov.au/newspaper/article/249188268",
+      "expected_pages": 1,
+      "status": "complete",
+      "rights_statement": "UNRESOLVED"
+    },
+    "trove/output/the-herald/stubs/1953/1953-01-16-fat-gannet-will-dive-on-subs.md": {
+      "stub": "trove/output/the-herald/stubs/1953/1953-01-16-fat-gannet-will-dive-on-subs.md",
+      "images": [
+        {
+          "file": "page-01-nla.news-page26686754.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26686754/level7",
+          "bytes": 3875094,
+          "sha256": "5d7bc1dab8706071293d9f34bc2eb619781b877ec0d98aa88641d950c3a83505",
+          "downloaded_at": "2026-11-27T19:09:27.182435+00:00",
+          "zones": [
+            [
+              3702,
+              1162,
+              1162,
+              388
+            ],
+            [
+              3702,
+              1550,
+              1162,
+              88
+            ],
+            [
+              3702,
+              1638,
+              1162,
+              267
+            ],
+            [
+              3702,
+              1905,
+              613,
+              637
+            ],
+            [
+              4315,
+              1905,
+              549,
+              637
+            ],
+            [
+              4325,
+              2542,
+              539,
+              1350
+            ],
+            [
+              4324,
+              3892,
+              540,
+              1062
+            ],
+            [
+              4329,
+              177,
+              535,
+              314
+            ],
+            [
+              3695,
+              491,
+              1169,
+              604
+            ],
+            [
+              3695,
+              1095,
+              1169,
+              67
+            ]
+          ]
+        },
+        {
+          "file": "article-01.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26686754/level7",
+          "bytes": 1341673,
+          "sha256": "d51ecd19dc024ba12450d3100512940d181e7a1a64e3b7048bd273b3fa872606",
+          "downloaded_at": "2026-11-27T19:09:27.337354+00:00",
+          "crop_box": [
+            3655,
+            137,
+            4904,
+            4994
+          ],
+          "derived_from": "page-01-nla.news-page26686754.jpg"
+        }
+      ],
+      "publication": "the-herald",
+      "folder": "src/trove-scans/the-herald/1953/1953-01-16-fat-gannet-will-dive-on-subs",
+      "kind": "newspaper",
+      "folder_created": true,
+      "source_url": "https://nla.gov.au/nla.news-article249185384",
+      "article_page": "https://trove.nla.gov.au/newspaper/article/249185384",
+      "expected_pages": 1,
+      "status": "complete",
+      "rights_statement": "UNRESOLVED"
+    },
+    "trove/output/the-herald/stubs/1953/1953-01-20-peoples-houses-save-money-and-space.md": {
+      "stub": "trove/output/the-herald/stubs/1953/1953-01-20-peoples-houses-save-money-and-space.md",
+      "images": [
+        {
+          "file": "page-01-nla.news-page26686802.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26686802/level7",
+          "bytes": 3672855,
+          "sha256": "4eb756295dbb783007c907eecdbdd69f3ced66f490dbb7c2e7ae2f395c528464",
+          "downloaded_at": "2026-11-27T19:10:26.358932+00:00",
+          "zones": [
+            [
+              1724,
+              4267,
+              1856,
+              310
+            ],
+            [
+              1724,
+              4577,
+              1856,
+              91
+            ],
+            [
+              1724,
+              4668,
+              1856,
+              167
+            ],
+            [
+              1724,
+              4835,
+              625,
+              117
+            ],
+            [
+              1724,
+              4952,
+              625,
+              111
+            ],
+            [
+              1728,
+              5063,
+              628,
+              907
+            ],
+            [
+              2349,
+              4835,
+              614,
+              133
+            ],
+            [
+              2356,
+              4968,
+              617,
+              1002
+            ],
+            [
+              2963,
+              4835,
+              617,
+              133
+            ],
+            [
+              2973,
+              4968,
+              614,
+              1002
+            ],
+            [
+              2973,
+              5970,
+              617,
+              875
+            ],
+            [
+              1717,
+              5970,
+              1256,
+              774
+            ],
+            [
+              1717,
+              6744,
+              1256,
+              72
+            ],
+            [
+              1724,
+              3297,
+              1856,
+              848
+            ],
+            [
+              1724,
+              4145,
+              1856,
+              122
+            ]
+          ]
+        },
+        {
+          "file": "article-01.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26686802/level7",
+          "bytes": 1652736,
+          "sha256": "2d793734ddf0ab33648fd9d288f4023384c59a81461446a1bdfc7c7e6c5d5952",
+          "downloaded_at": "2026-11-27T19:10:26.550245+00:00",
+          "crop_box": [
+            1677,
+            3257,
+            3630,
+            6885
+          ],
+          "derived_from": "page-01-nla.news-page26686802.jpg"
+        }
+      ],
+      "publication": "the-herald",
+      "folder": "src/trove-scans/the-herald/1953/1953-01-20-peoples-houses-save-money-and-space",
+      "kind": "newspaper",
+      "folder_created": true,
+      "source_url": "https://nla.gov.au/nla.news-article249191168",
+      "article_page": "https://trove.nla.gov.au/newspaper/article/249191168",
+      "expected_pages": 1,
+      "status": "complete",
+      "rights_statement": "UNRESOLVED"
+    },
+    "trove/output/the-herald/stubs/1953/1953-01-24-big-liners-in-the-bathtub.md": {
+      "stub": "trove/output/the-herald/stubs/1953/1953-01-24-big-liners-in-the-bathtub.md",
+      "images": [
+        {
+          "file": "page-01-nla.news-page26686871.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26686871/level7",
+          "bytes": 4017112,
+          "sha256": "239511344bc729e5ef8db7356ca841856d4795d3cb74c1e3c4e09e73968b97f6",
+          "downloaded_at": "2026-11-27T19:11:26.263671+00:00",
+          "zones": [
+            [
+              1441,
+              2222,
+              1391,
+              308
+            ],
+            [
+              1441,
+              2530,
+              1391,
+              75
+            ],
+            [
+              1441,
+              2605,
+              1391,
+              209
+            ],
+            [
+              1441,
+              2814,
+              459,
+              63
+            ],
+            [
+              1441,
+              2877,
+              459,
+              878
+            ],
+            [
+              1432,
+              3755,
+              468,
+              229
+            ],
+            [
+              1900,
+              2814,
+              465,
+              941
+            ],
+            [
+              1900,
+              3755,
+              462,
+              229
+            ],
+            [
+              2365,
+              2814,
+              467,
+              941
+            ],
+            [
+              2362,
+              3755,
+              470,
+              759
+            ]
+          ]
+        },
+        {
+          "file": "article-01.jpg",
+          "source_url": "https://trove.nla.gov.au/ndp/imageservice/nla.news-page26686871/level7",
+          "bytes": 634157,
+          "sha256": "688372c44506b1eb9914b687e0292e50639afbb26da7e8dba94662eec055e07b",
+          "downloaded_at": "2026-11-27T19:11:26.388740+00:00",
+          "crop_box": [
+            1392,
+            2182,
+            2872,
+            4554
+          ],
+          "derived_from": "page-01-nla.news-page26686871.jpg"
+        }
+      ],
+      "publication": "the-herald",
+      "folder": "src/trove-scans/the-herald/1953/1953-01-24-big-liners-in-the-bathtub",
+      "kind": "newspaper",
+      "folder_created": true,
+      "source_url": "https://nla.gov.au/nla.news-article249191686",
+      "article_page": "https://trove.nla.gov.au/newspaper/article/249191686",
+      "expected_pages": 1,
+      "status": "complete",
+      "rights_statement": "UNRESOLVED"
+    },
+    "trove/output/the-herald/stubs/1953/1953-01-28-britains-abadans-winning-oil-war.md": {
+      "stub": "trove/output/the-herald/stubs/1953/1953-01-28-britains-abadans-winning-oil-war.md",
+      "images": [],
+      "publication": "the-herald",
+      "folder": "src/trove-scans/the-herald/1953/1953-01-28-britains-abadans-winning-oil-war",
+      "kind": "newspaper",
+      "folder_created": true,
+      "source_url": "https://nla.gov.au/nla.news-article249192329",
+      "article_page": "https://trove.nla.gov.au/newspaper/article/249192329",
       "expected_pages": 1,
       "status": "downloading",
       "rights_statement": "UNRESOLVED"

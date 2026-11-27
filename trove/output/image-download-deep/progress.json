@@ -1,11 +1,12 @@
 {
   "status": "running",
-  "pid": 35030,
-  "started_at": "2026-11-27T04:13:22.465503+00:00",
-  "total_stubs": 515,
-  "complete_articles": 111,
+  "pid": 6565,
+  "started_at": "2026-11-27T19:02:20.631196+00:00",
+  "total_stubs": 510,
+  "complete_articles": 121,
   "failed_articles": 0,
   "skipped_articles": 0,
-  "current_stub": "trove/output/the-herald/stubs/1952/1952-05-31-kangaroo-called-horse-opera.md",
-  "last_image_request": 1795759405.372169
+  "current_stub": "trove/output/the-herald/stubs/1953/1953-01-28-britains-abadans-winning-oil-war.md",
+  "last_image_request": 1795806683.633564,
+  "updated_at": "2026-11-27T16:47:19.274925+00:00"
 }

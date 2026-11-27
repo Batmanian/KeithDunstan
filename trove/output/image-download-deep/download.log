@@ -332,3 +332,57 @@
 2026-11-27T06:03:25.380195+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26569557/level7
 2026-11-27T06:03:27.554943+00:00 Saved src/trove-scans/the-herald/1952/1952-05-24-earthy-is-the-word/page-01-nla.news-page26569557.jpg (4773147 bytes)
 2026-11-27T06:03:27.647693+00:00 Saved src/trove-scans/the-herald/1952/1952-05-24-earthy-is-the-word/article-01.jpg (1138982 bytes)
+2026-11-27T06:04:25.368360+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26569650/level7
+2026-11-27T06:04:27.327487+00:00 Saved src/trove-scans/the-herald/1952/1952-05-31-kangaroo-called-horse-opera/page-01-nla.news-page26569650.jpg (4170253 bytes)
+2026-11-27T06:04:27.402873+00:00 Saved src/trove-scans/the-herald/1952/1952-05-31-kangaroo-called-horse-opera/article-01.jpg (1687118 bytes)
+2026-11-27T06:05:25.372583+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26569733/level7
+2026-11-27T06:05:27.381205+00:00 Saved src/trove-scans/the-herald/1952/1952-06-07-zoom-then-a-blackout/page-01-nla.news-page26569733.jpg (4194291 bytes)
+2026-11-27T06:05:27.497743+00:00 Saved src/trove-scans/the-herald/1952/1952-06-07-zoom-then-a-blackout/article-01.jpg (3011149 bytes)
+2026-11-27T06:06:25.373566+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26570342/level7
+2026-11-27T06:06:28.811402+00:00 Saved src/trove-scans/the-herald/1952/1952-07-26-no-baths-for-many-britons/page-01-nla.news-page26570342.jpg (4077368 bytes)
+2026-11-27T06:06:28.898017+00:00 Saved src/trove-scans/the-herald/1952/1952-07-26-no-baths-for-many-britons/article-01.jpg (1301094 bytes)
+2026-11-27T06:07:25.380299+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26688251/level7
+2026-11-27T06:07:28.099832+00:00 Saved src/trove-scans/the-herald/1952/1952-09-18-wests-forces-flex-their-united-muscles/page-01-nla.news-page26688251.jpg (3741626 bytes)
+2026-11-27T06:07:28.189582+00:00 Saved src/trove-scans/the-herald/1952/1952-09-18-wests-forces-flex-their-united-muscles/article-01.jpg (1101199 bytes)
+2026-11-27T06:08:25.383059+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26689184/level7
+2026-11-27T06:08:27.545922+00:00 Saved src/trove-scans/the-herald/1952/1952-11-15-theyre-fighting-for-a-royal-butlers-job/page-01-nla.news-page26689184.jpg (4396268 bytes)
+2026-11-27T06:08:27.624636+00:00 Saved src/trove-scans/the-herald/1952/1952-11-15-theyre-fighting-for-a-royal-butlers-job/article-01.jpg (1607726 bytes)
+2026-11-27T06:18:52.139936+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26689272/level7
+2026-11-27T06:18:52.162571+00:00 ERROR 1952-11-21-museum-gets-1-miles-of-new-books-each-year.md: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+2026-11-27T08:09:39.256696+00:00 ERROR 1952-12-03-royal-stamp-boo-in-red-goatskin.md: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+2026-11-27T10:51:04.868620+00:00 ERROR 1952-12-09-2000-mph-rockets-are-ready-for-air-battles.md: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+2026-11-27T13:24:10.560438+00:00 ERROR 1952-12-18-navy-is-flighty-with-helicopters.md: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+2026-11-27T16:47:19.273855+00:00 ERROR 1952-12-27-they-cheer-the-gay-dog-from-paris.md: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+2026-11-27T16:47:19.274202+00:00 Paused after five consecutive errors
+2026-11-27T16:47:19.275455+00:00 Status: paused (116 complete, 0 skipped, 5 failed)
+2026-11-27T19:02:21.202390+00:00 Starting 510 stubs; image interval 60s; destination /Users/e37247/GitHub/KeithDunstan/src/trove-scans
+2026-11-27T19:02:23.581535+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26689272/level7
+2026-11-27T19:02:26.140701+00:00 Saved src/trove-scans/the-herald/1952/1952-11-21-museum-gets-1-miles-of-new-books-each-year/page-01-nla.news-page26689272.jpg (3509292 bytes)
+2026-11-27T19:02:26.270625+00:00 Saved src/trove-scans/the-herald/1952/1952-11-21-museum-gets-1-miles-of-new-books-each-year/article-01.jpg (506385 bytes)
+2026-11-27T19:03:23.588352+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26689470/level7
+2026-11-27T19:03:28.224183+00:00 Saved src/trove-scans/the-herald/1952/1952-12-03-royal-stamp-boo-in-red-goatskin/page-01-nla.news-page26689470.jpg (3240537 bytes)
+2026-11-27T19:03:28.332239+00:00 Saved src/trove-scans/the-herald/1952/1952-12-03-royal-stamp-boo-in-red-goatskin/article-01.jpg (404549 bytes)
+2026-11-27T19:04:23.591748+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26689588/level7
+2026-11-27T19:04:28.062266+00:00 Saved src/trove-scans/the-herald/1952/1952-12-09-2000-mph-rockets-are-ready-for-air-battles/page-01-nla.news-page26689588.jpg (4244804 bytes)
+2026-11-27T19:04:28.189548+00:00 Saved src/trove-scans/the-herald/1952/1952-12-09-2000-mph-rockets-are-ready-for-air-battles/article-01.jpg (767582 bytes)
+2026-11-27T19:05:23.598082+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26689756/level7
+2026-11-27T19:05:27.086821+00:00 Saved src/trove-scans/the-herald/1952/1952-12-18-navy-is-flighty-with-helicopters/page-01-nla.news-page26689756.jpg (4539102 bytes)
+2026-11-27T19:05:27.260557+00:00 Saved src/trove-scans/the-herald/1952/1952-12-18-navy-is-flighty-with-helicopters/article-01.jpg (2075393 bytes)
+2026-11-27T19:06:23.601501+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26689867/level7
+2026-11-27T19:06:27.761014+00:00 Saved src/trove-scans/the-herald/1952/1952-12-27-they-cheer-the-gay-dog-from-paris/page-01-nla.news-page26689867.jpg (4113700 bytes)
+2026-11-27T19:06:27.882091+00:00 Saved src/trove-scans/the-herald/1952/1952-12-27-they-cheer-the-gay-dog-from-paris/article-01.jpg (564625 bytes)
+2026-11-27T19:07:23.607502+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26689888/level7
+2026-11-27T19:07:25.994100+00:00 Saved src/trove-scans/the-herald/1952/1952-12-30-they-only-let-out-her-shadow/page-01-nla.news-page26689888.jpg (3648826 bytes)
+2026-11-27T19:07:26.136556+00:00 Saved src/trove-scans/the-herald/1952/1952-12-30-they-only-let-out-her-shadow/article-01.jpg (1076856 bytes)
+2026-11-27T19:08:23.608658+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26686591/level7
+2026-11-27T19:08:26.708994+00:00 Saved src/trove-scans/the-herald/1953/1953-01-03-something-in-the-wind-its-power/page-01-nla.news-page26686591.jpg (4317892 bytes)
+2026-11-27T19:08:26.879532+00:00 Saved src/trove-scans/the-herald/1953/1953-01-03-something-in-the-wind-its-power/article-01.jpg (1851533 bytes)
+2026-11-27T19:09:23.620670+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26686754/level7
+2026-11-27T19:09:27.182601+00:00 Saved src/trove-scans/the-herald/1953/1953-01-16-fat-gannet-will-dive-on-subs/page-01-nla.news-page26686754.jpg (3875094 bytes)
+2026-11-27T19:09:27.337396+00:00 Saved src/trove-scans/the-herald/1953/1953-01-16-fat-gannet-will-dive-on-subs/article-01.jpg (1341673 bytes)
+2026-11-27T19:10:23.634492+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26686802/level7
+2026-11-27T19:10:26.358986+00:00 Saved src/trove-scans/the-herald/1953/1953-01-20-peoples-houses-save-money-and-space/page-01-nla.news-page26686802.jpg (3672855 bytes)
+2026-11-27T19:10:26.550283+00:00 Saved src/trove-scans/the-herald/1953/1953-01-20-peoples-houses-save-money-and-space/article-01.jpg (1652736 bytes)
+2026-11-27T19:11:23.641601+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26686871/level7
+2026-11-27T19:11:26.263780+00:00 Saved src/trove-scans/the-herald/1953/1953-01-24-big-liners-in-the-bathtub/page-01-nla.news-page26686871.jpg (4017112 bytes)
+2026-11-27T19:11:26.388770+00:00 Saved src/trove-scans/the-herald/1953/1953-01-24-big-liners-in-the-bathtub/article-01.jpg (634157 bytes)
