@@ -1,0 +1,23 @@
+---
+eleventyExcludeFromCollections: true
+title: "THE SUN'S DAILY FEATURE PAGE Horse Factory' Stars Rival Hollywood's"
+date: 1950-03-18
+summary: "First published in The Sun News-Pictorial, 18 March 1950. [Stub — not yet transcribed]"
+categories:
+- The Sun News-Pictorial
+tags:
+---
+
+<!-- deep_search.py: score 0.65 (dateline: overseas dateline during correspondent years + name present); lanes np-name, page 9 -->
+
+[Full article text not yet transcribed. Check the byline on the scan before transcribing; the confidence score is heuristic, not proof of authorship. If the scan is illegible, flag it for visual review.]
+
+<details><summary>Uncorrected Trove OCR</summary>
+
+FEATURE PAGE Horse Factory" Stars Rival Hollywood's - ■ Citation after o n e of his profitable wins. Calumet Farm’s owner, Warren Wright, is at the right. NEW YORK.-t-As a calculated b usi ness project a baking ; po w d er millionaire has put together a “horse factory” that year after year makes every other horse - owner in the country sit down and weep. ■Hie “horse factory” is Calumet Farm, a name to Americans almost as famous as Hollywood. The stars of Calumet make as much money as the stars of Hollywood, their names are as well known and their surroundings equally as fine. It all started in 1928 when Warren Wright sold the Calu met baking powder business for 35 million dollars. Then, in 1931, he took over his father’s racing farm in Ken tucky, and devoted all his . . -FROM . . KEITH DUNSTAN time and amazing business ability to a plan. He said: “The man who puts in the most money de serves to win the most races,” and this is how he did it:— PLAN A.—rGet a string oi the best brood mares possible, Buy or breed them, but get them. PLAN B.—Get one or two truly great stallions to breed to the brood mares. Until you can find your own, breed your mares to the best outside stal PLAN C.—When you have tlie best breeding stable in the land, go out and hire the best horse-handlers alive tc manage tire greatest colts and fillies ever bred. Poured Out Money Everything worked out to perfection and Mr Wright poured out his money to make sure. it would. He chose his horses from the best hr America and Europe. For ex ample, in 1936 he bought the nine-year-old stallion Blen heim II from the Aga Khan for £83,000. The plan took a long time. For several years he had horses running here and there, but nothing sensational. Then in 1939 he put Plan C into action. It all happened when his best mare was hopelessly beaten in an important race. Wright said in a fury: "The man who can beat my mare with a pig like that is the best trainer in the world." Hie man was bulldog-jawed Ben Jones, now- 66, who by common consent was nlready the best trainer in America. He and his son Jimmy, the second best in America, agreed to work for Wright for 12,000 dollars a year each, plus five per cent, each of all winnings. He doesn't waste time with second-rate horses, and when he sees them he usually says: “Trade’m away for a dog; then shoot the dog.” The first of the great horses from Calumet was a “nitwit” named Whirlaway. He was crazy on the track and crazy off. During races he would run wide on the bends and it would take three men to put a saddle on him, but Ben knew he was a great horse. He went to work and for month after month he led Whirlaway around like a dog. He let him sniff at the rail, wander round the starting gate and eye the stands un til the race track was as fam iliar as the stable. Whirlaway began to think It wasn’t such a bad place after all. Soon he became famous as the horse who wore one blinker and he won the Kentucky Derby in 1941 as a two-year-old. Calumet was then on the map and the plan had worked. Greatest Ever? Whirlaway won over half a million dollars in prizes. Now Citation has won 865,000 dol lars, Armed 807,000, Coaltown 380,000, Bewitch 357,000, Ferv ent 329,000, Ponder 322,000 and Faultless 304,000 dollars. Cita tion, now a flve-year-old, would have passed a million dollars but for a leg injury last year. This year may do the trick to make Citation the greatest horse ever. Wright “figures" that the horses must win half a million dollars a year for the farm to break even. Before the Calu met era the record for one year in America was 438,000 dollars, Calumet won over a million in 1947, again in 1948 and way over in 1949.
+
+</details>
+
+<hr>
+
+*Source: THE SUN'S DAILY FEATURE PAGE Horse Factory" Stars Rival Hollywood's, The Sun News-Pictorial, 18 March 1950. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.news-article279596771).*

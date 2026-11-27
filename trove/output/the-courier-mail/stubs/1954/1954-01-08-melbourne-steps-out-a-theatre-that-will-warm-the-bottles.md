@@ -1,0 +1,23 @@
+---
+eleventyExcludeFromCollections: true
+title: "MELBOURNE STEPS OUT A theatre that will warm the bottles"
+date: 1954-01-08
+summary: "First published in The Courier-Mail, 8 January 1954. [Stub — not yet transcribed]"
+categories:
+- The Courier-Mail
+tags:
+---
+
+<!-- deep_search.py: score 0.7 (name-at-top: name in first ~120 chars (byline, or a piece about him)); lanes np-name, page 2 -->
+
+[Full article text not yet transcribed. Check the byline on the scan before transcribing; the confidence score is heuristic, not proof of authorship. If the scan is illegible, flag it for visual review.]
+
+<details><summary>Uncorrected Trove OCR</summary>
+
+MELBOURNE STEPS OUT A theatre that will warm the bottles r.-.-.w. by '?'''''?'?' Keith Dunstan l/k iOVIES under the IVI stars,' the pub licity pamphlet ourrs. 'Come and ao as you please, come in your dressing gown, come in shorts, come in anything, bring the children — relax.' Even staid old Mel bourne is going Amer ican. I picked up this pamphlet at a Collins Street theatre last week. Ecstatically it explains that soon Melbourne will have Australia's first fully - equipped, Ameri can style, drive - in theatre. There will be room for 6^0 cars. Regardless of rain, snow, or heat, Melbournians will be able to park their cars in front of the big screen, watch the films in com fort, and if they wish smoke their heads off. Each car will have its own speaker which the usher will clamp on the window or steering wheel. That is the real advan tage of the drive-in. For no matter how much the baby cries in the back seat, or how much Dad complains about the film, the people in the next car cannot hear. The drive-in iviil open at Bunvaod this year and it will have all the aide - fine refinements, mch n» bottle-warming p?ar for babies, swings and slides for the chil dren, and an open-air restaurant. You may shrug your shoulders but once this drive-in theatre idea catches, they will spread with the speed of the square dance craze, until the slablike, 50 foot high screen with the hundreds of darkened motionless cars parked in front, is a familiar sight wherever you drive. It happened in the U.S. almost overnight. They were so easy to build, the drive-ins took over every vacant lot, in every town from New York to Los Angeles. No baby-sitters THEY were so popu lar, yet they got nothing but the dreariest of Westerns and second run movies. People just liked the idea of car entertainment, and it's freely admitted that but for the drive-ins Hollywood would never have survived the impact of television. So if the movie com panies here are worried about TV they would be well advised to build drive ins double quick. As in America no doubt the moralists will com plain: Many an American preacher called the drive ins 'Passion pits with pix,' places where lovers went for their necking sessions. But more broadminded people replied that the drive-ins weve for the young married couples, who for the first Jime could go out at nighc with the baby sleeping in the back seat and save the cost of a baby-sitter. And the propi'ietor* of Melbourne's drive-in are going all out for the family groups ttith special early shows »'o thiU the man with young children can be home by 9.30 pm. In any country with a comparatively wealthy population and a high proportion of cars per head, drive-ins of all kinds are as inevitable as the football season. So Vic toria now has its first drive-in hotel. It is on the Hume High way and you have to ad mire that superb Ameri can knack for blending names like cocktails— it is called a 'Motel.' Roadside luxury THE 40 bedrooms are shaped in a large U so that the driver can park his car immediately outside his bedroom door. Then he has the luxury of his own bath, aircondi tioning, arid telephone. All for £2/2/ a night. Even as American motels go it is a good one. It has a service station and restaurant. But if you don't want to eat inside, a pretty young thing will bring the meal out to the car. This is the first of the motels, but another is being built at Mt Martha. Like the drive-in theatres they are certain to spread across the country. Perhaps the day may r.ome here, as it is coming iiT the U.S., when you will be able to live your entire life on wheels with drive in \3anks, drive-in restaur ants, drive-in churches, drive - in super mar kets. A time when all the sXrength required of vour tags will be to push the accelerator and the brake.
+
+</details>
+
+<hr>
+
+*Source: MELBOURNE STEPS OUT A theatre that will warm the bottles, The Courier-Mail, 8 January 1954. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.news-article50578517).*

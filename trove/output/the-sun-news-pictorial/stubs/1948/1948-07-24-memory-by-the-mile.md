@@ -1,0 +1,23 @@
+---
+eleventyExcludeFromCollections: true
+title: "MEMORY BY THE MILE"
+date: 1948-07-24
+summary: "First published in The Sun News-Pictorial, 24 July 1948. [Stub — not yet transcribed]"
+categories:
+- The Sun News-Pictorial
+tags:
+---
+
+<!-- deep_search.py: score 0.92 (byline-text: 'by/from Keith Dunstan' in opening lines); lanes np-name, page 3 -->
+
+[Full article text not yet transcribed. Check the byline on the scan before transcribing; the confidence score is heuristic, not proof of authorship. If the scan is illegible, flag it for visual review.]
+
+<details><summary>Uncorrected Trove OCR</summary>
+
+.V I By KEITH DUNSTAN Those "marvels of science" we read about in the American magazines seem to take a long time to reach Melbourne. A relatively small populatwn, the dollar shortage and—to a certain extent—conservatism com bine to keep the Australian way of life relatively un adorned by scientific gadgets. But this time it, is different. A local firm is making for the Australian market the new magnetic wire recorder — a Wellsian appliance with such extra ordinary potentialities that it may eventually become standard equipment in most homes and every industry. rfl?E recording is amazingly simple. An amateur could record the sound of an lomb. explosion or his baby’s ole furthermore, lie could play It imedlatcly - for no processing Is corder and amplifying unit, which a 38ib. box not much bigger than tin, sells at present for £185. rds on stainless steel wire slightly than human hair by passing it a magnetic field varied by the in of quality of the sound. Here are its main features: • Each spool of wire is 7200ft. long — enough to record non-stop for an hour. • Stored recordings will keep for 50 years and can be played back 20,000 times without losing any of their quality. •• Old recordings can be wiped off the wire by passing it through the machine and recording something different on it. In this way the same spool of wire can be used over and over again. • Recordings can be "sub-edited" by cut ting pieces out with snippers and tying the loose ends together. • Wire can give near-perfect sound repro duction. The Melbourne machines give a frequency range of 50 to 8000 cycles, com pared with 50 to 5500 usually reproduced from shellac discs. • There is no needle scratch and sound is reproduced on a silent background. An extraordinary variety of Melbourne people have already bought or ordered wire recorders, including a pathologist who spent his nights on post-mortems — a gruesome business. No stenographer would work with him, so he had to carry his notes- in his head. Now he saves three hours a day because he doesn’t have to dictate after wards to a typist. A recorder does it for him. Bust ness men want them for interviews, publicity p r o grammes, 1 e t ters and meet ings. Two theatre producers r e cordcd their shows from start to finish. They then made the players sit down to listen to tlicir own mistakes. Almost all radio stations have bought one. The bright, energetic morning session man can now give up five o’clock rising and record his physical jerks in the peace ol' the afternoon. A doctor engaged in blue baby experi ments will record heart beats. The recorder will also be used for demonstrations and patients with heart trouble will not .have to be called back for consultations with other doctors. Schools are reported to be rushing them. The day may come when all lectures are recorded. A student who wanted to refresh his mind could then slip dpwn to the library, pick out. say. Engineering Lecture No. 24, take it to a sound-proof room and play it back to himself. Churches have bought them, too," and there is almost no limit to their possibilities in courts. Lengthy depositions and note taking will soon become unnecessary. Juries before giving Jheir decisions could listen again to vital pieces of evidence. All historic speeches may in the near future be recorded and police will find them useful for confessions and interrogations. In- the home of the future you will be able to record your favorite musical pro grammes as soon as they come over the air. •But much of this is anticipation . . . Wire recordings are not likely to replace disc records for some years. There are two reasons. The company which is making magnetic wire recorders in Australia is too busy coping with a huge demand from people who want machines for professional use and recorded wire of famous artists and orchestras is not yet available.
+
+</details>
+
+<hr>
+
+*Source: MEMORY BY THE MILE, The Sun News-Pictorial, 24 July 1948. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.news-article279362333).*

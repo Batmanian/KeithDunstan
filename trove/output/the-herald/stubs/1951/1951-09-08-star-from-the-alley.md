@@ -1,0 +1,23 @@
+---
+eleventyExcludeFromCollections: true
+title: "STAR FROM THE ALLEY"
+date: 1951-09-08
+summary: "First published in The Herald, 8 September 1951. [Stub — not yet transcribed]"
+categories:
+- The Herald
+tags:
+---
+
+<!-- deep_search.py: score 0.97 (byline-heading: name/column title in the article heading); lanes np-columns, np-name, np-ocr, page 6 -->
+
+[Full article text not yet transcribed. Check the byline on the scan before transcribing; the confidence score is heuristic, not proof of authorship. If the scan is illegible, flag it for visual review.]
+
+<details><summary>Uncorrected Trove OCR</summary>
+
+Keith Duns tan's Film World 7 STAR FROM THE ALLEY NEW YORK. — Hollywood has gone crazy this year. So far, three of the most important new stars are not a new Garbo, Gable or Garson, but a mule, a cat, and a dog. TTRST, Universal r found a so-called talking m u Te named Francis, pro duced a picture about nim, and gave him the full- scale star build-up. The film Francis went on to make millions of dollars. ' Now he is valuable pro perty, more valuable than your glamor boys or star lets. He is busy making a whole series of "Francis" films. And, of course, he is allowed to do only the lightest of work. He is watched over constantly by mule doctors. He has at least three stand-ins. After Francis came Rhu barb, and last week, for the first time, I was invited to a Press conference to meet a cat. The cat, Rhubarb, an ill-tempered, overgrown alley cat, is insured for something like 100.000 dol lars; He is making a per sonal appearance tour of 20 American cities. A cat food company held a luncheon and Press con ference for Rhubarb at the Hotel Granada, in Brook lyn. Invitations went out for this "At Home" to meet Rhubarb, "the world's first cat movie star." The .reception-room at the hotel was an extraordi nary sight. The cat food company had invited what they described as "New York's most distinguished cats." which included the Rhubarb Gat Fan Club and cats from the New York Cat Orphanage. In fact, so many cats were there they installed a cat-check room, where people could leave their cats. Best cats The centre of attraction on the table of honor in an elegant transparent cage, looking elegantly bored, was , the ' guest of honor, Rhubarb. His trainer, A1 Yank, explained that the personal appear ance tour was hard on Rhubarb. i "You . can't treat cats that way,'1 he said. "He Was 22 lb. when we left Hollywood. ' Now he's 14. He eats well, though. We give him top rump steak, boiled chicken and' thin cream. But it's too many people, too much fuss all the time." After the guests had finished their cocktails and roast beef, and the cats their, own; food, the klieg lights went on, -newsreel cameramen, press and magazine photographers ran off thousands of feet of film on Rhubarb. The star was made. And don't think they picked any old cat for this job. It all started early this year when. Paramount bought the rights to H. Allen Smith's best seller, "Rhubarb." the story of a cat that inherited a base ball team and 30 million dollars. The cat had to be mean and mangy.\ Yet it had to handle as many tricks as Lassie, put up with tele vision broadcasts, lights, films and the fuss of press- agentry. Paramount searched for six months, interviewed 3000 cats and answered 15,000 queries from most parts of the world. The search received satisfac tory publicity, and Holly wood, with its flair for un derstatement, called it "the greatest casting search since 'Scarlet' lfi 'Gone With the Wind'." Finally, the choice came down to Barrelhouse Dan. a dreadful cat from Brook lyn, and Orangey, a sour- tempered cat from- Cali fornia. They chose Oran gey, re-named him Rhu barb,, and a three-way na tional radio hook-up, with the pressmen as witnesses, watched the signing of the contract. Rhubarb, with the help of five stand-ins, made the film with co-stars Ray Milland and Jan Sterling. If "ou wish to become a Rhubarb fan, Paramount in, New York has photo graphs autographed with a pawprint. JERRY WALD and Norman Krasna have built a film about a disreputable little dog named Archie. He appeai-s in the Farley Grander, Shelley Winters picture called "Behave Yourself." So far, Archie has received far more pub licity than his two co-stars. He, also, is on a personal appearance tour and at the moment he ' is signing "pawtosraphs" for admir- ers in the mid-west. RHUBARB gave a Press conference
+
+</details>
+
+<hr>
+
+*Source: Keith Dunstan's Film World STAR FROM THE ALLEY, The Herald, 8 September 1951. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.news-article244240986).*

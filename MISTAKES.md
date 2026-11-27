@@ -93,6 +93,24 @@ Severity can accelerate this. Anything that touched production data, lost work, 
 
 ## Log
 
+### 2026-11-27 — Don't call a publication "not in Trove" from a date-limited probe
+
+- **Area:** `trove / diagnostics`
+- **Severity:** medium
+- **Count:** 1
+
+**What happened**
+`todo.md` listed The Herald, Courier-Mail and Home Beautiful as "Not in Trove". A whole-of-Trove search for "Keith Dunstan" found 204 Herald hits, 91 Courier-Mail hits and 36 Home Beautiful pieces, including a weekly Herald film column (1950–52) and 1953 Ashes tour reports.
+
+**Root cause**
+`diagnose_all_publications.py` searched only 1960–2005. Most newspaper mastheads on Trove stop at 1954, so the probe tested the one window where they couldn't appear, and the result was recorded as a statement about the whole title.
+
+**Consequence**
+Keith's 1946–54 Herald & Weekly Times output (New York and London correspondent copy, syndicated to around 20 papers) went unsearched. Found by `trove/deep_search.py`.
+
+**Rule**
+Before recording any title as absent from Trove, run an undated facet query (`facet=decade&facet=title`, `n=0`) and record the decades Trove actually holds. Write "not digitised for YYYY–YYYY", never a bare "not in Trove".
+
 ### 2026-09-20 — Service interactive mockup feedback before ending the turn
 
 - **Area:** `Impeccable decision page`

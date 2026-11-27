@@ -1,0 +1,23 @@
+---
+eleventyExcludeFromCollections: true
+title: "A Frenchman's answer to living 'close to the job'"
+date: 1953-03-17
+summary: "First published in The Courier-Mail, 17 March 1953. [Stub — not yet transcribed]"
+categories:
+- The Courier-Mail
+tags:
+---
+
+<!-- deep_search.py: score 0.7 (name-at-top: name in first ~120 chars (byline, or a piece about him)); lanes np-name, page 2 -->
+
+[Full article text not yet transcribed. Check the byline on the scan before transcribing; the confidence score is heuristic, not proof of authorship. If the scan is illegible, flag it for visual review.]
+
+<details><summary>Uncorrected Trove OCR</summary>
+
+A Frenchman's answer to living 'close to the job' ? from ? Keith Dunstan LONDON— The in credible French man, Le Corbusier, the architect- who loathes little houses, little gardens, .and 'abomin- able' great cities like London, has won the ap proval of the British. The Royal Institute of British Architects awarded him the gold medal for 1953. Le Corbusier always has been a believer in the 'verti- cal city,' large, airy, sun absorbing blocks of flats in green parklands. He objects to sprawling cities, the mil lions all living in their cramped, little houses. Cities, he suy», should Itavn grass, sipnce, and light. Ax it is now the lives of nmn are ruined hy 'the devouring mile,' llip wasted hours they spend travelling, dog-tirod be tween house and office. Le Corbusier sees no need for this. According to his plan, the entire population of large cities like Sydney or Melbourne could be pleasantly housed within a circle of two and three-quarter miles di ameter. Office workers would have no distance to travel from the office, yet they would be on the brink of countryside and green fields. A bottle-rack Af ANY Australians, includ ing many Brisbane people, still think flat-living isn't living at all. And neither it is in many flats, but take a look at 'Radiant City' which Le Corbusier has built in Marseilles. ? Le Corbusier followers say it is one of the greatest build ings of the century, a para dise, a style of living the world will adopt within 50 years. But others say it is an eye sore, a hovel, an impossible machine which will drive people mad with too much light, heat, and noise. Le Corbusier himself de scribes the building as a 'gigantic bottle-rack designed to ho!d, prefabricated dwelling units instead of bottles.' It is 17 stories of glass and con crete, and perhaps most astonishing of all, the build ing is raised on 20-foot con crete pylons, as if it were floating in air. Houses 1700 'RADIANT City houses 1700 people and stands in eight acres of gardens. One entire floor is a shop ping centre, which has every thing you would find In your local village— food shops, chemist, laundry, post office, tobacconist, hairdresser, flor ist, and newsagent. On the roof there is a 330 yard running track, a solar ium, gymnasium, swimming pool, and community centre. Mothers don't have to worry about baby-sitters when they want to go for a swim or take a sprint around the track, they can leave their children, at the creche. Each of the flat units or 'bottles in the rack' as Le Corbusier calls them, are 70 feet by 13 feet. They are divided in part horizontally into two floors which give bedrooms 8ft 4in in height. The remaining half with its great wall of glass at the end is a brilliantly lit living room with a lofty ceiling of 16ft 8in. Then outside is a garden terrace with 'sun filters' de signed to give shade in the summer and; sun in the winter. . There are no rubbish tins. Chutes take the rubbish direct from' kitchen to base ment. There are cupboards which open directly out to the public passages so that tradesmen can leave, milk, bread, and groceries, without bringing the housewife to the door. Rent £12 a month TT is a city in a building. . Madame can do her shopping without going out side, and when she feels too tired to cook she has only to call down to the restaurant to have a meal, served in the flat. The rent for five rooms is £12 a month. Le Corbusier claims he gives space, the comforts that come with a large unit, an abund ance of hot water- and air ? conditioning in every flat. He gives a dozen things the small house-holder doesn't have, yet he claims he can build radiant cites at a cheaper price than the equiva lent number of small houses. RADIANT CITY, in Marseilles, was opened last October. RADIANT CITY, in Marseilles, was opened last October.
+
+</details>
+
+<hr>
+
+*Source: A Frenchman's answer to living "close to the job", The Courier-Mail, 17 March 1953. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.news-article50547852).*

@@ -1,0 +1,1 @@
+../../../../vault/articles/the-herald/1945/1945-01-02-obsession.md

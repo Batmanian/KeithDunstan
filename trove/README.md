@@ -147,6 +147,69 @@ complete transcription has been visually verified and published in
 
 ---
 
+## Deep search across all of Trove (`deep_search.py`)
+
+The `fetch_*.py` scripts each target one magazine. `deep_search.py` searches
+**every** Trove title for Keith's writing, with a strategy built around where
+Trove actually has digitised text:
+
+| Where | Why it matters |
+|---|---|
+| Newspapers to ~1954 (Herald, Sun News-Pictorial, Courier-Mail, Advertiser, Newcastle Morning Herald...) | Keith's 1946–54 HWT years, incl. New York (1949–52) and London (1952–54) correspondent copy syndicated across HWT-linked papers. Earlier diagnostics only probed 1960–2005 and missed all of this. |
+| The Canberra Times (digitised to 1995) | Syndicated later columns (1960s–80s). |
+| Magazines (Home Beautiful, Pedal Power / Bicycle Victoria, Hemisphere...) | Titles beyond Bulletin/Walkabout carrying his byline. |
+| Catalogue "Article" records (`category=book`, `l-format=Article`) | Indexed but **not digitised** pieces (Good Weekend, Bulletin post-1984...) — exact title/date leads for physical sourcing. |
+
+```bash
+python deep_search.py survey             # facet counts per lane (~7 requests)
+python deep_search.py harvest            # resumable; raw JSONL in output/deep_search/raw/
+python deep_search.py score              # no API: score, dedupe, cluster → candidates.csv
+python deep_search.py gapfill --dry-run  # list missing weeks of recurring columns
+python deep_search.py gapfill            # one targeted query per missing issue
+python deep_search.py score              # re-rank including gap-fill results
+python deep_search.py stubs --min-score 0.8
+```
+
+- **Lanes** (search queries) live in the `LANES` list: exact name, OCR variants
+  (`Dunslan`, `Duns tan`, `Keifh`...), correspondent datelines, known column
+  titles, magazines, catalogue records. Add new lanes as leads appear.
+- **Scoring** estimates whether Keith *wrote* the piece: column title/byline in
+  the heading (0.97) → "By/From Keith Dunstan" in opening lines (0.92) → name at
+  top (0.7) → overseas dateline in correspondent years (0.65) → mention only
+  (0.3). Pre-1943 hits (another Keith Dunstan; he was born 1925), "Mr Keith
+  Dunstan" notices, St. Dunstan's, advertising and gazettes are pushed down.
+- **Dedupe** skips anything whose Trove ID or (fuzzy title + date) already
+  appears in `vault/articles/`, `trove/output/**` or any `output/*_results.csv`.
+- **Syndication clustering** groups the same piece across papers; the Herald copy
+  is canonical and the others are listed as alternates, which are useful for
+  cross-checking bad OCR while transcribing.
+- **Gap-fill** detects recurring columns (e.g. *Keith Dunstan's Film World*,
+  Saturdays in The Herald 1950–52) and queries each missing week directly,
+  catching issues where OCR destroyed the byline.
+- **Rate limit:** sliding window capped at `--rpm` (default 150, hard cap 190 of
+  the 200/min allowance); honours `Retry-After`; stops after 5 consecutive
+  failures. In practice the limit is never reached. Full-text pages take
+  40–90s for Trove to serve, so pages are kept at 50 records and the request
+  timeout is 180s. Every request is logged to `output/deep_search/requests.log`.
+- **Stubs** land in `output/<publication-slug>/stubs/<year>/` with raw OCR and
+  syndicated alternates attached, and nothing goes into `vault/`. Confidence scores
+  are heuristic, so check the byline on the scan before transcribing.
+- **Scans:** `python3 -u download_scans.py` (system python3, uses Pillow for crops)
+  downloads scans for every deep-search stub into
+  `src/trove-scans/<publication>/<year>/<stub-name>/`, following the same rules as
+  `download_images.py`: 60s between image requests, robots.txt checked (it never
+  touches the disallowed `/newspaper/rendition` service), `source.json` sidecars,
+  permanent history in `trove/download-history-deep.json`, and deleted scans are
+  never re-fetched. Newspaper stubs get the full page (`page-NN-…jpg`, Trove level7,
+  ~4800px) plus `article-NN.jpg` cropped from the article's zone coordinates.
+  Catalogue-only stubs are skipped. Stop with `output/image-download-deep/STOP`;
+  rerun to resume. It shares `download_images.py`'s lock so the two never run at
+  once, and `download_images.py` ignores deep-search stubs.
+- Raw results in `output/deep_search/` fall under the Trove data agreement
+  (delete by 31 Dec 2026 unless renewed).
+
+---
+
 ## Output structure
 
 ```
@@ -193,6 +256,11 @@ Before moving to `vault/articles/bulletin/`, you must:
 | `triage.py` | Interactive review: keep stub / transcribed / reject |
 | `diagnose.py` | Tests Trove API connectivity and surfaces search parameters |
 | `diagnose2.py` | Finds correct response structure and category for The Bulletin |
+| `deep_search.py` | Cross-publication deep search: survey, harvest, score, gap-fill, stubs (see above) |
+| `review_articles.py` | Local review viewer (http://localhost:5051): scan beside editable markdown for `status: for review` articles in the vault; "Approve & publish" makes them live |
+| `download_scans.py` | Downloads scans for deep-search stubs (newspaper pages + article crops, magazine pages) into `src/trove-scans/<publication>/<year>/<stub>/` |
+| `deep_search.py` | Cross-publication deep search: survey, harvest, score, gap-fill, stubs (see above) |
+| `download_scans.py` | Downloads scans for deep-search stubs (newspaper pages + article crops, magazine pages) into `src/trove-scans/<publication>/<year>/<stub>/` |
 
 ### triage.py commands
 

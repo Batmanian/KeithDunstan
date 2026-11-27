@@ -1,0 +1,23 @@
+---
+eleventyExcludeFromCollections: true
+title: "Tragedy turned big business"
+date: 1951-07-21
+summary: "First published in The Herald, 21 July 1951. [Stub — not yet transcribed]"
+categories:
+- The Herald
+tags:
+---
+
+<!-- deep_search.py: score 0.6 (gapfill-column: missing-week issue: New York dateline + film subject, byline unreadable); lanes gapfill, np-columns, page 8 -->
+
+[Full article text not yet transcribed. Check the byline on the scan before transcribing; the confidence score is heuristic, not proof of authorship. If the scan is illegible, flag it for visual review.]
+
+<details><summary>Uncorrected Trove OCR</summary>
+
+THE FILM WORLD Tragedy turned big business NEW YORK. — Floyd Collins, a young ex plorer, edged his way tnrougn - a , narrow passage 100 feet un der the ground near Cave City, Kentucky. Suddenly the walls of the passage col lapsed. Rocks, dust, and sand crashed on him. Floyd was trapped. A l?01b. rock pinned his leg to the ground, . and so' started perhaps one of the famous human ' . interest, stories in the history of journalism. This was in February, 1925. Floyd was trapped in that cave 17 days. Day after day the story built up .and up until It covered the front pages of news papers all over the world. Feature writers flocked to the. old sand caves of Ken tucky from every big news paper in America.- A . Few " people had . ever heard of Floyd Collins. Yet there were special . church thousands sent telegrams to urge . on the .rescue I workers.- But humans In the -mass I can - sometimes be un- i pleasant. Floyd Collins be came a curiosity and tour- I ists flpeked to the Ken tucky caves at the rate of 10.000 a day , The caves had all the I atmosphere of a Jamboree. I While Floyd was dying, down below, men sold soda pop, hamburgers, Indian curios. | Local hotels and coffee bars boosted their prices fivefold and made -a quick fortune. Buses and trains ran special day trips. It was' a callous, vulgar com mercial affair. It was possible to just reach Floyd by making a dangerous, tortuous trip down into the cave. -A Louisville reporter, who' won a Pulitzer Prize for' his stories, did it a number of times. He gave Floyd food apd Floyd said: "It's wonderful to think every body out there is pulling for me — thinking I'm going to live. I believe In God. _ I believe if I don't pull through I'll go to heaven. But I know I'm going to get out of here." They tried to pull Floyd out, but It didn't work — he was in too much pain. There were more falls and finally with expensive mining gear they had to sink a shaft straight down through the rock. Floyd became weaker and delirious. It was now extremely difficult' and dangerous to roach him. At one of the last visits he said: "God/don't leave me, you mustn't. 'No! Come back! God, you can't leave me here to die." One. of his friends called back': "You've got' to hang on, 'Floyd. You've just got to. , We'll have you out of here soon. Hang on with all you've, got. -I'll, be back, in just a few hours." But he didn't come back. Soon after there was an other rock fall and Floyd- was sealed off out of reach. Over - 200 rescue workers worked frantically for another week to reach him. When they got there Floyd had died of starva tion. People all over Am erica cried when' they heard the news. 1 There was talk afterwards that the whole thing was a pub licity stunt, but the tra gedy was true enough., ? The story, now a classic at schools of journalism, is the inspiration for "Ace in the Hole," latest film by director Billy Wilder, who made "Sunset Boulevard." Kirk Douglas plays the part of a down-and-out sneering, cynical reportei who "wants to get his jot back, on a big New York newspaper. He discovers a young explorer, trapped 100 feet down in an old Indian cave in New-Mexico. He takes over the affaii and deliberately . delays rescue operations from 16 hours to a week so that he can make the story a world - wide sensation and sell his' by-line for' 1000 dollars 'a day. Unfortunately, at the finish the film goes madly, off the -rail. But for this it would be certain to take an Academy. Award. The reporter, so callous earlier. Is overcome .by remorse when the trapped explorer dies of pneumonia. Jan Sterling, the victim's trampish, indifferent wife, sticks a knife into Kirk Douglas's stomach and with a great melodramatic fade-out he collapsed dead on his editor's carpet. Kirk Douglas as the reporter in "Ace ih'the Hole", bringing food to the trapped man.
+
+</details>
+
+<hr>
+
+*Source: THE FILM WORLD Tragedy turned big business, The Herald, 21 July 1951. Accessible via the [National Library of Australia's Trove database](https://nla.gov.au/nla.news-article244239477).*
