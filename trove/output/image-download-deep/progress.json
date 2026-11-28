@@ -1,12 +1,12 @@
 {
-  "status": "running",
-  "pid": 6565,
-  "started_at": "2026-11-27T19:02:20.631196+00:00",
-  "total_stubs": 510,
-  "complete_articles": 121,
-  "failed_articles": 0,
-  "skipped_articles": 0,
-  "current_stub": "trove/output/the-herald/stubs/1953/1953-01-28-britains-abadans-winning-oil-war.md",
-  "last_image_request": 1795806683.633564,
-  "updated_at": "2026-11-27T16:47:19.274925+00:00"
+  "status": "finished_with_errors",
+  "pid": 24104,
+  "started_at": "2026-11-27T21:04:33.590650+00:00",
+  "total_stubs": 313,
+  "complete_articles": 311,
+  "failed_articles": 1,
+  "skipped_articles": 1,
+  "current_stub": "trove/output/the-advertiser/stubs/1953/1953-11-14-dieting-craze-sweeping-two-countries.md",
+  "last_image_request": 1795815071.5428731,
+  "updated_at": "2026-11-27T21:31:26.867376+00:00"
 }

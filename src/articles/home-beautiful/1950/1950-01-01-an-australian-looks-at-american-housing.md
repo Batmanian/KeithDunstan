@@ -1,0 +1,1 @@
+../../../../vault/articles/home-beautiful/1950/1950-01-01-an-australian-looks-at-american-housing.md

@@ -1,0 +1,1 @@
+../../../../vault/articles/home-beautiful/1952/1952-10-01-a-mass-adventure-in-housing-is-paying-off.md

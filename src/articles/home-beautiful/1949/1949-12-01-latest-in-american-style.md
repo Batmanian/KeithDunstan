@@ -1,0 +1,1 @@
+../../../../vault/articles/home-beautiful/1949/1949-12-01-latest-in-american-style.md

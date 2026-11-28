@@ -386,3 +386,547 @@
 2026-11-27T19:11:23.641601+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26686871/level7
 2026-11-27T19:11:26.263780+00:00 Saved src/trove-scans/the-herald/1953/1953-01-24-big-liners-in-the-bathtub/page-01-nla.news-page26686871.jpg (4017112 bytes)
 2026-11-27T19:11:26.388770+00:00 Saved src/trove-scans/the-herald/1953/1953-01-24-big-liners-in-the-bathtub/article-01.jpg (634157 bytes)
+2026-11-27T19:38:49.576363+00:00 Starting 36 stubs; image interval 60s; destination /Users/jack2026/Documents/repos/Untitled/KeithDunstan/src/trove-scans
+2026-11-27T19:38:55.172930+00:00 Request image https://nla.gov.au/nla.obj-2981936540/image?WID=4497
+2026-11-27T19:39:00.131023+00:00 Saved src/trove-scans/home-beautiful/1949/1949-12-01-latest-in-american-style/page-01-nla.obj-2981936540.jpg (1817962 bytes)
+2026-11-27T19:39:55.169656+00:00 Request image https://nla.gov.au/nla.obj-2981936675/image?WID=4109
+2026-11-27T19:39:57.305809+00:00 Saved src/trove-scans/home-beautiful/1949/1949-12-01-latest-in-american-style/page-02-nla.obj-2981936675.jpg (2323547 bytes)
+2026-11-27T19:40:55.204850+00:00 Request image https://nla.gov.au/nla.obj-2981943170/image?WID=4074
+2026-11-27T19:40:56.890927+00:00 Saved src/trove-scans/home-beautiful/1949/1949-12-01-latest-in-american-style/page-03-nla.obj-2981943170.jpg (1473542 bytes)
+2026-11-27T19:41:55.170372+00:00 Request image https://nla.gov.au/nla.obj-2981933556/image?WID=4101
+2026-11-27T19:41:56.828878+00:00 Saved src/trove-scans/home-beautiful/1949/1949-12-01-the-australian-home-beautiful/page-01-nla.obj-2981933556.jpg (1322121 bytes)
+2026-11-27T19:42:55.167055+00:00 Request image https://nla.gov.au/nla.obj-2960821761/image?WID=4205
+2026-11-27T19:42:57.052154+00:00 Saved src/trove-scans/home-beautiful/1950/1950-01-01-an-australian-looks-at-american-housing/page-01-nla.obj-2960821761.jpg (1632740 bytes)
+2026-11-27T19:43:55.172530+00:00 Request image https://nla.gov.au/nla.obj-2960821635/image?WID=4085
+2026-11-27T19:43:57.292517+00:00 Saved src/trove-scans/home-beautiful/1950/1950-01-01-an-australian-looks-at-american-housing/page-02-nla.obj-2960821635.jpg (2224040 bytes)
+2026-11-27T19:44:55.175930+00:00 Request image https://nla.gov.au/nla.obj-2960821507/image?WID=4205
+2026-11-27T19:44:56.840312+00:00 Saved src/trove-scans/home-beautiful/1950/1950-01-01-an-australian-looks-at-american-housing/page-03-nla.obj-2960821507.jpg (2230004 bytes)
+2026-11-27T19:45:55.172008+00:00 Request image https://nla.gov.au/nla.obj-2960821372/image?WID=4085
+2026-11-27T19:45:56.952835+00:00 Saved src/trove-scans/home-beautiful/1950/1950-01-01-an-australian-looks-at-american-housing/page-04-nla.obj-2960821372.jpg (1672906 bytes)
+2026-11-27T19:46:55.203432+00:00 Request image https://nla.gov.au/nla.obj-2960823329/image?WID=4095
+2026-11-27T19:46:57.995696+00:00 Saved src/trove-scans/home-beautiful/1950/1950-01-01-no-title/page-01-nla.obj-2960823329.jpg (1244726 bytes)
+2026-11-27T19:47:55.184052+00:00 Request image https://nla.gov.au/nla.obj-2960800300/image?WID=4188
+2026-11-27T19:47:57.670235+00:00 Saved src/trove-scans/home-beautiful/1950/1950-03-01-art-in-your-home-from-keith-dunstan-in-new-york/page-01-nla.obj-2960800300.jpg (2073669 bytes)
+2026-11-27T19:48:55.185433+00:00 Request image https://nla.gov.au/nla.obj-2960800170/image?WID=4443
+2026-11-27T19:48:56.973292+00:00 Saved src/trove-scans/home-beautiful/1950/1950-03-01-art-in-your-home-from-keith-dunstan-in-new-york/page-02-nla.obj-2960800170.jpg (2166632 bytes)
+2026-11-27T19:49:55.190631+00:00 Request image https://nla.gov.au/nla.obj-2960794782/image?WID=4237
+2026-11-27T19:49:57.606149+00:00 Saved src/trove-scans/home-beautiful/1950/1950-03-01-art-in-your-home-from-keith-dunstan-in-new-york/page-03-nla.obj-2960794782.jpg (1619856 bytes)
+2026-11-27T19:50:55.189189+00:00 Request image https://nla.gov.au/nla.obj-2960804339/image?WID=4418
+2026-11-27T19:50:56.575222+00:00 Saved src/trove-scans/home-beautiful/1950/1950-03-01-the-australian-home-beautiful/page-01-nla.obj-2960804339.jpg (1441113 bytes)
+2026-11-27T19:51:55.190185+00:00 Request image https://nla.gov.au/nla.obj-2960782640/image?WID=4359
+2026-11-27T19:51:56.971306+00:00 Saved src/trove-scans/home-beautiful/1950/1950-05-01-one-house-every-14-minutes/page-01-nla.obj-2960782640.jpg (2165777 bytes)
+2026-11-27T19:52:55.193501+00:00 Request image https://nla.gov.au/nla.obj-2960782516/image?WID=4217
+2026-11-27T19:52:58.188099+00:00 Saved src/trove-scans/home-beautiful/1950/1950-05-01-one-house-every-14-minutes/page-02-nla.obj-2960782516.jpg (1968552 bytes)
+2026-11-27T19:53:55.193568+00:00 Request image https://nla.gov.au/nla.obj-2960782385/image?WID=4359
+2026-11-27T19:53:57.454186+00:00 Saved src/trove-scans/home-beautiful/1950/1950-05-01-one-house-every-14-minutes/page-03-nla.obj-2960782385.jpg (2088756 bytes)
+2026-11-27T19:54:55.218861+00:00 Request image https://nla.gov.au/nla.obj-2960782253/image?WID=4217
+2026-11-27T19:54:57.497293+00:00 Saved src/trove-scans/home-beautiful/1950/1950-05-01-one-house-every-14-minutes/page-04-nla.obj-2960782253.jpg (1876835 bytes)
+2026-11-27T19:55:55.195345+00:00 Request image https://nla.gov.au/nla.obj-2960784256/image?WID=4359
+2026-11-27T19:55:56.787364+00:00 Saved src/trove-scans/home-beautiful/1950/1950-05-01-the-australian-home-beautiful/page-01-nla.obj-2960784256.jpg (1432739 bytes)
+2026-11-27T19:56:55.284436+00:00 Request image https://nla.gov.au/nla.obj-2960885934/image?WID=4304
+2026-11-27T19:56:57.204832+00:00 Saved src/trove-scans/home-beautiful/1950/1950-06-01-the-australian-home-beautiful/page-01-nla.obj-2960885934.jpg (1525017 bytes)
+2026-11-27T19:57:55.285703+00:00 Request image https://nla.gov.au/nla.obj-2960884378/image?WID=4304
+2026-11-27T19:57:57.079715+00:00 Saved src/trove-scans/home-beautiful/1950/1950-06-01-these-won-prizes/page-01-nla.obj-2960884378.jpg (1943380 bytes)
+2026-11-27T19:58:55.280775+00:00 Request image https://nla.gov.au/nla.obj-2960884246/image?WID=4290
+2026-11-27T19:58:56.847943+00:00 Saved src/trove-scans/home-beautiful/1950/1950-06-01-these-won-prizes/page-02-nla.obj-2960884246.jpg (1889536 bytes)
+2026-11-27T19:59:55.283615+00:00 Request image https://nla.gov.au/nla.obj-2960884116/image?WID=4304
+2026-11-27T19:59:56.900950+00:00 Saved src/trove-scans/home-beautiful/1950/1950-06-01-these-won-prizes/page-03-nla.obj-2960884116.jpg (2137644 bytes)
+2026-11-27T20:00:55.285471+00:00 Request image https://nla.gov.au/nla.obj-2960883985/image?WID=4290
+2026-11-27T20:00:56.721485+00:00 Saved src/trove-scans/home-beautiful/1950/1950-06-01-these-won-prizes/page-04-nla.obj-2960883985.jpg (1787426 bytes)
+2026-11-27T20:01:55.286372+00:00 Request image https://nla.gov.au/nla.obj-2960876511/image?WID=4382
+2026-11-27T20:01:56.559882+00:00 Saved src/trove-scans/home-beautiful/1950/1950-06-01-these-won-prizes/page-05-nla.obj-2960876511.jpg (1625833 bytes)
+2026-11-27T20:02:41.179796+00:00 Stop requested
+2026-11-27T20:02:41.185154+00:00 Status: paused (10 complete, 0 skipped, 0 failed)
+2026-11-27T20:05:13.663504+00:00 Starting 26 stubs; image interval 5s; destination /Users/jack2026/Documents/repos/Untitled/KeithDunstan/src/trove-scans
+2026-11-27T20:05:17.248589+00:00 Request image https://nla.gov.au/nla.obj-2960871973/image?WID=4382
+2026-11-27T20:05:18.592855+00:00 Saved src/trove-scans/home-beautiful/1950/1950-07-01-americans-like-their-table-lamps/page-01-nla.obj-2960871973.jpg (1772643 bytes)
+2026-11-27T20:05:22.277808+00:00 Request image https://nla.gov.au/nla.obj-2960871840/image?WID=4230
+2026-11-27T20:05:23.786097+00:00 Saved src/trove-scans/home-beautiful/1950/1950-07-01-americans-like-their-table-lamps/page-02-nla.obj-2960871840.jpg (2152698 bytes)
+2026-11-27T20:05:27.442821+00:00 Request image https://nla.gov.au/nla.obj-2960875340/image?WID=4230
+2026-11-27T20:05:28.686454+00:00 Saved src/trove-scans/home-beautiful/1950/1950-07-01-no-title/page-01-nla.obj-2960875340.jpg (1425082 bytes)
+2026-11-27T20:05:32.598235+00:00 Request image https://nla.gov.au/nla.obj-2979146405/image?WID=4165
+2026-11-27T20:05:34.288441+00:00 Saved src/trove-scans/home-beautiful/1951/1951-01-01-no-one-know-anything-about-architecture/page-01-nla.obj-2979146405.jpg (2219197 bytes)
+2026-11-27T20:05:37.608958+00:00 Request image https://nla.gov.au/nla.obj-2979146532/image?WID=4292
+2026-11-27T20:05:39.165964+00:00 Saved src/trove-scans/home-beautiful/1951/1951-01-01-no-one-know-anything-about-architecture/page-02-nla.obj-2979146532.jpg (1946773 bytes)
+2026-11-27T20:05:42.609838+00:00 Request image https://nla.gov.au/nla.obj-2979146799/image?WID=4292
+2026-11-27T20:05:44.298924+00:00 Saved src/trove-scans/home-beautiful/1951/1951-01-01-no-one-know-anything-about-architecture/page-03-nla.obj-2979146799.jpg (1969525 bytes)
+2026-11-27T20:05:47.614942+00:00 Request image https://nla.gov.au/nla.obj-2979150172/image?WID=4326
+2026-11-27T20:05:49.333973+00:00 Saved src/trove-scans/home-beautiful/1951/1951-01-01-no-one-know-anything-about-architecture/page-04-nla.obj-2979150172.jpg (1713230 bytes)
+2026-11-27T20:05:55.818090+00:00 Request image https://nla.gov.au/nla.obj-2979143935/image?WID=4170
+2026-11-27T20:05:57.655057+00:00 Saved src/trove-scans/home-beautiful/1951/1951-01-01-the-australian-home-beautiful/page-01-nla.obj-2979143935.jpg (1543936 bytes)
+2026-11-27T20:06:01.372101+00:00 Request image https://nla.gov.au/nla.obj-2979154207/image?WID=4126
+2026-11-27T20:06:03.566940+00:00 Saved src/trove-scans/home-beautiful/1951/1951-02-01-exit-the-slums/page-01-nla.obj-2979154207.jpg (2414494 bytes)
+2026-11-27T20:06:06.388206+00:00 Request image https://nla.gov.au/nla.obj-2979154335/image?WID=4417
+2026-11-27T20:06:08.406163+00:00 Saved src/trove-scans/home-beautiful/1951/1951-02-01-exit-the-slums/page-02-nla.obj-2979154335.jpg (2008407 bytes)
+2026-11-27T20:06:11.405994+00:00 Request image https://nla.gov.au/nla.obj-2979154590/image?WID=4417
+2026-11-27T20:06:13.422089+00:00 Saved src/trove-scans/home-beautiful/1951/1951-02-01-exit-the-slums/page-03-nla.obj-2979154590.jpg (2167490 bytes)
+2026-11-27T20:06:16.395925+00:00 Request image https://nla.gov.au/nla.obj-2979158768/image?WID=4432
+2026-11-27T20:06:18.172506+00:00 Saved src/trove-scans/home-beautiful/1951/1951-02-01-exit-the-slums/page-04-nla.obj-2979158768.jpg (1956784 bytes)
+2026-11-27T20:06:24.543482+00:00 Request image https://nla.gov.au/nla.obj-2979153291/image?WID=4417
+2026-11-27T20:06:26.005786+00:00 Saved src/trove-scans/home-beautiful/1951/1951-02-01-in-this-issue/page-01-nla.obj-2979153291.jpg (2055196 bytes)
+2026-11-27T20:06:32.266196+00:00 Request image https://nla.gov.au/nla.obj-2979162661/image?WID=4368
+2026-11-27T20:06:33.750284+00:00 Saved src/trove-scans/home-beautiful/1951/1951-03-01-no-title/page-01-nla.obj-2979162661.jpg (1695494 bytes)
+2026-11-27T20:06:37.533672+00:00 Request image https://nla.gov.au/nla.obj-2979166563/image?WID=4355
+2026-11-27T20:06:39.103743+00:00 Saved src/trove-scans/home-beautiful/1951/1951-03-01-these-products-now-on-show-hi-europe-are-new-in-america/page-01-nla.obj-2979166563.jpg (1997252 bytes)
+2026-11-27T20:06:42.536787+00:00 Request image https://nla.gov.au/nla.obj-2979166694/image?WID=4154
+2026-11-27T20:06:43.867952+00:00 Saved src/trove-scans/home-beautiful/1951/1951-03-01-these-products-now-on-show-hi-europe-are-new-in-america/page-02-nla.obj-2979166694.jpg (1742600 bytes)
+2026-11-27T20:06:47.538986+00:00 Request image https://nla.gov.au/nla.obj-2979169290/image?WID=4099
+2026-11-27T20:06:48.979007+00:00 Saved src/trove-scans/home-beautiful/1951/1951-03-01-these-products-now-on-show-hi-europe-are-new-in-america/page-03-nla.obj-2979169290.jpg (1769110 bytes)
+2026-11-27T20:06:52.769433+00:00 Request image https://nla.gov.au/nla.obj-2979175143/image?WID=4288
+2026-11-27T20:06:54.405046+00:00 Saved src/trove-scans/home-beautiful/1951/1951-04-01-new-skyscrapers-that-breathe/page-01-nla.obj-2979175143.jpg (1973522 bytes)
+2026-11-27T20:06:57.771271+00:00 Request image https://nla.gov.au/nla.obj-2979175402/image?WID=4288
+2026-11-27T20:06:59.471236+00:00 Saved src/trove-scans/home-beautiful/1951/1951-04-01-new-skyscrapers-that-breathe/page-02-nla.obj-2979175402.jpg (1950547 bytes)
+2026-11-27T20:07:03.198016+00:00 Request image https://nla.gov.au/nla.obj-2979172028/image?WID=4349
+2026-11-27T20:07:05.393115+00:00 Saved src/trove-scans/home-beautiful/1951/1951-04-01-the-australian-home-beautiful-in-this-issue/page-01-nla.obj-2979172028.jpg (2124615 bytes)
+2026-11-27T20:07:09.115486+00:00 Request image https://nla.gov.au/nla.obj-2979183333/image?WID=4132
+2026-11-27T20:07:10.964777+00:00 Saved src/trove-scans/home-beautiful/1951/1951-05-01-furniture-america-likes/page-01-nla.obj-2979183333.jpg (1686931 bytes)
+2026-11-27T20:07:14.119767+00:00 Request image https://nla.gov.au/nla.obj-2979183461/image?WID=4305
+2026-11-27T20:07:15.640859+00:00 Saved src/trove-scans/home-beautiful/1951/1951-05-01-furniture-america-likes/page-02-nla.obj-2979183461.jpg (1936724 bytes)
+2026-11-27T20:07:22.059302+00:00 Request image https://nla.gov.au/nla.obj-2979180868/image?WID=4288
+2026-11-27T20:07:23.609710+00:00 Saved src/trove-scans/home-beautiful/1951/1951-05-01-in-this-issue/page-01-nla.obj-2979180868.jpg (1521600 bytes)
+2026-11-27T20:07:30.029346+00:00 Request image https://nla.gov.au/nla.obj-2979192696/image?WID=4121
+2026-11-27T20:07:31.977839+00:00 Saved src/trove-scans/home-beautiful/1951/1951-06-01-glassware-for-kings/page-01-nla.obj-2979192696.jpg (1576066 bytes)
+2026-11-27T20:07:35.037308+00:00 Request image https://nla.gov.au/nla.obj-2979192820/image?WID=4296
+2026-11-27T20:07:36.781882+00:00 Saved src/trove-scans/home-beautiful/1951/1951-06-01-glassware-for-kings/page-02-nla.obj-2979192820.jpg (2201890 bytes)
+2026-11-27T20:07:40.037378+00:00 Request image https://nla.gov.au/nla.obj-2979193089/image?WID=4296
+2026-11-27T20:07:41.549103+00:00 Saved src/trove-scans/home-beautiful/1951/1951-06-01-glassware-for-kings/page-03-nla.obj-2979193089.jpg (1943277 bytes)
+2026-11-27T20:07:45.212368+00:00 Request image https://nla.gov.au/nla.obj-2979190223/image?WID=4296
+2026-11-27T20:07:46.741236+00:00 Saved src/trove-scans/home-beautiful/1951/1951-06-01-in-this-issue/page-01-nla.obj-2979190223.jpg (1379090 bytes)
+2026-11-27T20:07:50.424528+00:00 Request image https://nla.gov.au/nla.obj-2979220078/image?WID=4219
+2026-11-27T20:07:52.540483+00:00 Saved src/trove-scans/home-beautiful/1951/1951-08-01-heliolaboratory/page-01-nla.obj-2979220078.jpg (2191179 bytes)
+2026-11-27T20:07:55.434269+00:00 Request image https://nla.gov.au/nla.obj-2979220216/image?WID=4207
+2026-11-27T20:07:57.473523+00:00 Saved src/trove-scans/home-beautiful/1951/1951-08-01-heliolaboratory/page-02-nla.obj-2979220216.jpg (2241661 bytes)
+2026-11-27T20:08:00.437760+00:00 Request image https://nla.gov.au/nla.obj-2979223598/image?WID=4207
+2026-11-27T20:08:02.613686+00:00 Saved src/trove-scans/home-beautiful/1951/1951-08-01-heliolaboratory/page-03-nla.obj-2979223598.jpg (1970472 bytes)
+2026-11-27T20:08:06.330966+00:00 Request image https://nla.gov.au/nla.obj-2979213775/image?WID=4227
+2026-11-27T20:08:09.698599+00:00 Saved src/trove-scans/home-beautiful/1951/1951-08-01-in-this-issue/page-01-nla.obj-2979213775.jpg (1461999 bytes)
+2026-11-27T20:08:13.443421+00:00 Request image https://nla.gov.au/nla.obj-2979237419/image?WID=4274
+2026-11-27T20:08:16.229157+00:00 Saved src/trove-scans/home-beautiful/1951/1951-10-01-best-hotels-in-the-world/page-01-nla.obj-2979237419.jpg (2198382 bytes)
+2026-11-27T20:08:18.670201+00:00 Request image https://nla.gov.au/nla.obj-2979237548/image?WID=4197
+2026-11-27T20:08:20.905262+00:00 Saved src/trove-scans/home-beautiful/1951/1951-10-01-best-hotels-in-the-world/page-02-nla.obj-2979237548.jpg (2215433 bytes)
+2026-11-27T20:08:23.455394+00:00 Request image https://nla.gov.au/nla.obj-2979237801/image?WID=4197
+2026-11-27T20:08:25.130183+00:00 Saved src/trove-scans/home-beautiful/1951/1951-10-01-best-hotels-in-the-world/page-03-nla.obj-2979237801.jpg (2212399 bytes)
+2026-11-27T20:08:28.457814+00:00 Request image https://nla.gov.au/nla.obj-2979237933/image?WID=4333
+2026-11-27T20:08:29.918355+00:00 Saved src/trove-scans/home-beautiful/1951/1951-10-01-best-hotels-in-the-world/page-04-nla.obj-2979237933.jpg (1760223 bytes)
+2026-11-27T20:08:33.630510+00:00 Request image https://nla.gov.au/nla.obj-2979236507/image?WID=4197
+2026-11-27T20:08:35.090521+00:00 Saved src/trove-scans/home-beautiful/1951/1951-10-01-in-this-issue/page-01-nla.obj-2979236507.jpg (1579112 bytes)
+2026-11-27T20:08:41.769684+00:00 Request image https://nla.gov.au/nla.obj-2974393118/image?WID=3385
+2026-11-27T20:08:43.470429+00:00 Saved src/trove-scans/home-beautiful/1952/1952-03-01-eero-saarinen-architect/page-01-nla.obj-2974393118.jpg (1934460 bytes)
+2026-11-27T20:08:46.776217+00:00 Request image https://nla.gov.au/nla.obj-2974393243/image?WID=3352
+2026-11-27T20:08:48.852813+00:00 Saved src/trove-scans/home-beautiful/1952/1952-03-01-eero-saarinen-architect/page-02-nla.obj-2974393243.jpg (2512005 bytes)
+2026-11-27T20:08:51.778083+00:00 Request image https://nla.gov.au/nla.obj-2974393500/image?WID=3340
+2026-11-27T20:08:54.092957+00:00 Saved src/trove-scans/home-beautiful/1952/1952-03-01-eero-saarinen-architect/page-03-nla.obj-2974393500.jpg (2445999 bytes)
+2026-11-27T20:08:56.802652+00:00 Request image https://nla.gov.au/nla.obj-2974395069/image?WID=3359
+2026-11-27T20:08:58.752452+00:00 Saved src/trove-scans/home-beautiful/1952/1952-03-01-eero-saarinen-architect/page-04-nla.obj-2974395069.jpg (2262826 bytes)
+2026-11-27T20:09:02.771110+00:00 Request image https://nla.gov.au/nla.obj-2974390111/image?WID=3412
+2026-11-27T20:09:04.568975+00:00 Saved src/trove-scans/home-beautiful/1952/1952-03-01-the-australian-home-beautiful/page-01-nla.obj-2974390111.jpg (1962218 bytes)
+2026-11-27T20:09:11.226888+00:00 Request image https://nla.gov.au/nla.obj-2974402867/image?WID=4317
+2026-11-27T20:09:13.249771+00:00 Saved src/trove-scans/home-beautiful/1952/1952-04-01-saarinen-furniture/page-01-nla.obj-2974402867.jpg (1442629 bytes)
+2026-11-27T20:09:16.230730+00:00 Request image https://nla.gov.au/nla.obj-2974402993/image?WID=4165
+2026-11-27T20:09:18.050432+00:00 Saved src/trove-scans/home-beautiful/1952/1952-04-01-saarinen-furniture/page-02-nla.obj-2974402993.jpg (1660649 bytes)
+2026-11-27T20:09:24.511527+00:00 Request image https://nla.gov.au/nla.obj-2974399496/image?WID=4190
+2026-11-27T20:09:26.019483+00:00 Saved src/trove-scans/home-beautiful/1952/1952-04-01-the-australian-home-beautiful/page-01-nla.obj-2974399496.jpg (1342186 bytes)
+2026-11-27T20:09:30.058364+00:00 Request image https://nla.gov.au/nla.obj-2974418359/image?WID=3425
+2026-11-27T20:09:31.998573+00:00 Saved src/trove-scans/home-beautiful/1952/1952-06-01-no-title/page-01-nla.obj-2974418359.jpg (2143156 bytes)
+2026-11-27T20:09:38.495708+00:00 Request image https://nla.gov.au/nla.obj-2974420564/image?WID=3368
+2026-11-27T20:09:40.208411+00:00 Saved src/trove-scans/home-beautiful/1952/1952-06-01-where-modern-design-lives/page-01-nla.obj-2974420564.jpg (2509133 bytes)
+2026-11-27T20:09:43.509726+00:00 Request image https://nla.gov.au/nla.obj-2974420697/image?WID=3349
+2026-11-27T20:09:45.166311+00:00 Saved src/trove-scans/home-beautiful/1952/1952-06-01-where-modern-design-lives/page-02-nla.obj-2974420697.jpg (2506470 bytes)
+2026-11-27T20:09:48.510447+00:00 Request image https://nla.gov.au/nla.obj-2974421214/image?WID=3364
+2026-11-27T20:09:49.915999+00:00 Saved src/trove-scans/home-beautiful/1952/1952-06-01-where-modern-design-lives/page-03-nla.obj-2974421214.jpg (2369910 bytes)
+2026-11-27T20:09:53.604587+00:00 Request image https://nla.gov.au/nla.obj-2974454420/image?WID=3413
+2026-11-27T20:09:54.918895+00:00 Saved src/trove-scans/home-beautiful/1952/1952-10-01-a-mass-adventure-in-housing-is-paying-off/page-01-nla.obj-2974454420.jpg (2529680 bytes)
+2026-11-27T20:09:58.609334+00:00 Request image https://nla.gov.au/nla.obj-2974454559/image?WID=3379
+2026-11-27T20:09:59.921160+00:00 Saved src/trove-scans/home-beautiful/1952/1952-10-01-a-mass-adventure-in-housing-is-paying-off/page-02-nla.obj-2974454559.jpg (2197448 bytes)
+2026-11-27T20:10:03.612068+00:00 Request image https://nla.gov.au/nla.obj-2974454689/image?WID=3396
+2026-11-27T20:10:05.068357+00:00 Saved src/trove-scans/home-beautiful/1952/1952-10-01-a-mass-adventure-in-housing-is-paying-off/page-03-nla.obj-2974454689.jpg (2081224 bytes)
+2026-11-27T20:10:08.615236+00:00 Request image https://nla.gov.au/nla.obj-2974454814/image?WID=3391
+2026-11-27T20:10:10.008783+00:00 Saved src/trove-scans/home-beautiful/1952/1952-10-01-a-mass-adventure-in-housing-is-paying-off/page-04-nla.obj-2974454814.jpg (2006044 bytes)
+2026-11-27T20:10:16.376834+00:00 Request image https://nla.gov.au/nla.obj-2974446202/image?WID=3371
+2026-11-27T20:10:17.660272+00:00 Saved src/trove-scans/home-beautiful/1952/1952-10-01-the-australian-home-beautiful/page-01-nla.obj-2974446202.jpg (1652695 bytes)
+2026-11-27T20:10:17.666738+00:00 Status: complete (26 complete, 0 skipped, 0 failed)
+2026-11-27T21:04:33.936909+00:00 Starting 313 stubs; image interval 5s; destination /Users/jack2026/Documents/repos/Untitled/KeithDunstan/src/trove-scans
+2026-11-27T21:04:34.060126+00:00 SKIP DELETED 1953-01-28-britains-abadans-winning-oil-war.md: Article folder deleted during review
+2026-11-27T21:04:36.453151+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26687009/level7
+2026-11-27T21:04:38.060308+00:00 Saved src/trove-scans/the-herald/1953/1953-02-03-tragedies-in-wake-of-essex-floods/page-01-nla.news-page26687009.jpg (3785504 bytes)
+2026-11-27T21:04:41.466055+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26687008/level7
+2026-11-27T21:04:42.760851+00:00 Saved src/trove-scans/the-herald/1953/1953-02-03-your-lunch-may-be-fresh-for-days/page-01-nla.news-page26687008.jpg (4048079 bytes)
+2026-11-27T21:04:46.460268+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26687320/level7
+2026-11-27T21:04:48.200270+00:00 Saved src/trove-scans/the-herald/1953/1953-02-21-he-despises-the-little-house/page-01-nla.news-page26687320.jpg (3865199 bytes)
+2026-11-27T21:04:51.582348+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26687310/level7
+2026-11-27T21:04:53.950658+00:00 Saved src/trove-scans/the-herald/1953/1953-02-21-lords-they-can-scarcely-wait-to-get-at-us-england-eager-for-ashes/page-01-nla.news-page26687310.jpg (3314537 bytes)
+2026-11-27T21:04:56.498349+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26687431/level7
+2026-11-27T21:04:59.074842+00:00 Saved src/trove-scans/the-herald/1953/1953-02-28-this-poet-is-finding-that-obscurity-sells-by-the-thousand/page-01-nla.news-page26687431.jpg (4534492 bytes)
+2026-11-27T21:05:01.499623+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26687667/level7
+2026-11-27T21:05:04.039626+00:00 Saved src/trove-scans/the-herald/1953/1953-03-14-marines-have-taken-to-skis/page-01-nla.news-page26687667.jpg (3781637 bytes)
+2026-11-27T21:05:06.525210+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26687801/level7
+2026-11-27T21:05:09.881861+00:00 Saved src/trove-scans/the-herald/1953/1953-03-21-ships-that-belong-to-glasgow/page-01-nla.news-page26687801.jpg (3977630 bytes)
+2026-11-27T21:05:12.187950+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26687850/level7
+2026-11-27T21:05:14.643365+00:00 Saved src/trove-scans/the-herald/1953/1953-03-25-glasgow-defended/page-01-nla.news-page26687850.jpg (3548616 bytes)
+2026-11-27T21:05:17.190903+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26687933/level7
+2026-11-27T21:05:19.110369+00:00 Saved src/trove-scans/the-herald/1953/1953-03-28-butlers-prefer-aristocrats/page-01-nla.news-page26687933.jpg (4015106 bytes)
+2026-11-27T21:05:22.192370+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26684985/level7
+2026-11-27T21:05:24.609504+00:00 Saved src/trove-scans/the-herald/1953/1953-04-04-keith-dunstan-from-a-lifeboat-sees-terror-sands-of-goodwins/page-01-nla.news-page26684985.jpg (4046276 bytes)
+2026-11-27T21:05:27.237974+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26685054/level7
+2026-11-27T21:05:32.852967+00:00 Saved src/trove-scans/the-herald/1953/1953-04-09-tv-in-camp-for-these-diggers/page-01-nla.news-page26685054.jpg (4648470 bytes)
+2026-11-27T21:05:35.245798+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26685345/level7
+2026-11-27T21:05:40.412950+00:00 Saved src/trove-scans/the-herald/1953/1953-04-25-londoners-love-our-flowers/page-01-nla.news-page26685345.jpg (3728549 bytes)
+2026-11-27T21:05:42.873608+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26685353/level7
+2026-11-27T21:05:47.276348+00:00 Saved src/trove-scans/the-herald/1953/1953-04-27-bighitter-tells-the-story-to-the-duke-6ftlong-miller-was-6-ft-short-of/page-01-nla.news-page26685353.jpg (4209990 bytes)
+2026-11-27T21:05:49.733935+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26685409/level7
+2026-11-27T21:05:53.910581+00:00 Saved src/trove-scans/the-herald/1953/1953-04-30-locals-exult-over-battered-australia/page-01-nla.news-page26685409.jpg (4130685 bytes)
+2026-11-27T21:05:56.300416+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26685433/level7
+2026-11-27T21:05:59.833763+00:00 Saved src/trove-scans/the-herald/1953/1953-05-01-jet-man-got-our-test-aces/page-01-nla.news-page26685433.jpg (3650475 bytes)
+2026-11-27T21:06:02.124066+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26685671/level7
+2026-11-27T21:06:07.720984+00:00 Saved src/trove-scans/the-herald/1953/1953-05-14-exams-my-foot-the-crickets-on/page-01-nla.news-page26685671.jpg (3720043 bytes)
+2026-11-27T21:06:10.120119+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26685767/level7
+2026-11-27T21:06:13.459457+00:00 Saved src/trove-scans/the-herald/1953/1953-05-20-he-passed-the-test/page-01-nla.news-page26685767.jpg (3576056 bytes)
+2026-11-27T21:06:15.868066+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26685861/level7
+2026-11-27T21:06:19.330399+00:00 Saved src/trove-scans/the-herald/1953/1953-05-25-theyre-so-civilised/page-01-nla.news-page26685861.jpg (3919678 bytes)
+2026-11-27T21:06:21.675515+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26686159/level7
+2026-11-27T21:06:24.968328+00:00 Saved src/trove-scans/the-herald/1953/1953-06-09-craig-wont-be-on-the-field/page-01-nla.news-page26686159.jpg (3368756 bytes)
+2026-11-27T21:06:27.567829+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26686264/level7
+2026-11-27T21:06:31.140868+00:00 Saved src/trove-scans/the-herald/1953/1953-06-13-he-finds-recording-absolute-hell/page-01-nla.news-page26686264.jpg (3573258 bytes)
+2026-11-27T21:06:33.504919+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26686245/level7
+2026-11-27T21:06:38.720291+00:00 Saved src/trove-scans/the-herald/1953/1953-06-13-lind-wall-shatters-englands-hopes/page-01-nla.news-page26686245.jpg (3441367 bytes)
+2026-11-27T21:06:41.081274+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26686305/level7
+2026-11-27T21:06:44.319892+00:00 Saved src/trove-scans/the-herald/1953/1953-06-17-wicket-cover-rule-spoiled-test/page-01-nla.news-page26686305.jpg (3283432 bytes)
+2026-11-27T21:06:46.649914+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26686453/level7
+2026-11-27T21:06:50.163945+00:00 Saved src/trove-scans/the-herald/1953/1953-06-25-second-test-chances-5050bradnab-back-page-langley-and-ring-picked/page-01-nla.news-page26686453.jpg (3608298 bytes)
+2026-11-27T21:06:52.787780+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26695619/level7
+2026-11-27T21:06:58.520027+00:00 Saved src/trove-scans/the-herald/1953/1953-07-04-nerve-war-has-got-ian-craig-down/page-01-nla.news-page26695619.jpg (3143058 bytes)
+2026-11-27T21:07:01.044615+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26695655/level7
+2026-11-27T21:07:04.609323+00:00 Saved src/trove-scans/the-herald/1953/1953-07-07-archer-looks-set-for-test/page-01-nla.news-page26695655.jpg (3257306 bytes)
+2026-11-27T21:07:07.021512+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26695719/level7
+2026-11-27T21:07:11.042724+00:00 Saved src/trove-scans/the-herald/1953/1953-07-10-what-a-game-this-cricket/page-01-nla.news-page26695719.jpg (3789920 bytes)
+2026-11-27T21:07:13.378930+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26695739/level7
+2026-11-27T21:07:17.611154+00:00 Saved src/trove-scans/the-herald/1953/1953-07-11-harveys-missed-no-chances-test-fine-now-but-rain-likely/page-01-nla.news-page26695739.jpg (4127845 bytes)
+2026-11-27T21:07:20.108154+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26695993/level7
+2026-11-27T21:07:24.311373+00:00 Saved src/trove-scans/the-herald/1953/1953-07-25-in-england-hes-alec-the-great/page-01-nla.news-page26695993.jpg (3337305 bytes)
+2026-11-27T21:07:26.727186+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26696027/level7
+2026-11-27T21:07:30.197491+00:00 Saved src/trove-scans/the-herald/1953/1953-07-28-england-seem-too-slow-to-win/page-01-nla.news-page26696027.jpg (4000518 bytes)
+2026-11-27T21:07:32.627313+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26696260/level7
+2026-11-27T21:07:36.233303+00:00 Saved src/trove-scans/the-herald/1953/1953-08-08-chesters-illness-was-timely/page-01-nla.news-page26696260.jpg (4698947 bytes)
+2026-11-27T21:07:38.593416+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26696415/level7
+2026-11-27T21:07:42.680718+00:00 Saved src/trove-scans/the-herald/1953/1953-08-19-whole-country-is-test-happy-but-theres-one-still-small-voice/page-01-nla.news-page26696415.jpg (3035659 bytes)
+2026-11-27T21:07:45.081452+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26696443/level7
+2026-11-27T21:07:49.404101+00:00 Saved src/trove-scans/the-herald/1953/1953-08-20-the-bitter-end-just-a-little/page-01-nla.news-page26696443.jpg (4052700 bytes)
+2026-11-27T21:07:52.293105+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page26682202/level7
+2026-11-27T21:07:55.805091+00:00 Saved src/trove-scans/the-herald/1953/1953-11-18-want-to-took-like-a-telegraph-pole/page-01-nla.news-page26682202.jpg (3780816 bytes)
+2026-11-27T21:07:58.346736+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2031012/level7
+2026-11-27T21:08:04.117796+00:00 Saved src/trove-scans/the-courier-mail/1951/1951-04-02-america-produces-coal-quickly/page-01-nla.news-page2031012.jpg (5811955 bytes)
+2026-11-27T21:08:06.641881+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2034143/level7
+2026-11-27T21:08:13.120743+00:00 Saved src/trove-scans/the-courier-mail/1952/1952-02-06-men-havent-a-chance-in-usa/page-01-nla.news-page2034143.jpg (5281361 bytes)
+2026-11-27T21:08:15.859390+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2036232/level7
+2026-11-27T21:08:21.981395+00:00 Saved src/trove-scans/the-courier-mail/1952/1952-08-29-the-fastest-earth-tries-water/page-01-nla.news-page2036232.jpg (5488306 bytes)
+2026-11-27T21:08:24.699219+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2036312/level7
+2026-11-27T21:08:30.488652+00:00 Saved src/trove-scans/the-courier-mail/1952/1952-09-05-britains-best-kept-secret-since-radar-guided-missiles-will-replace-the/page-01-nla.news-page2036312.jpg (5550235 bytes)
+2026-11-27T21:08:33.019403+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2036841/level7
+2026-11-27T21:08:39.801889+00:00 Saved src/trove-scans/the-courier-mail/1952/1952-10-25-they-want-to-save-the-cutty-sark/page-01-nla.news-page2036841.jpg (5589977 bytes)
+2026-11-27T21:08:42.261959+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2036929/level7
+2026-11-27T21:08:48.201225+00:00 Saved src/trove-scans/the-courier-mail/1952/1952-11-03-it-is-a-race-against-starvation-starvation/page-01-nla.news-page2036929.jpg (4928437 bytes)
+2026-11-27T21:08:50.576959+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2036982/level7
+2026-11-27T21:08:55.830605+00:00 Saved src/trove-scans/the-courier-mail/1952/1952-11-07-britain-is-losing-her-treasures/page-01-nla.news-page2036982.jpg (5433173 bytes)
+2026-11-27T21:08:58.124678+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2037254/level7
+2026-11-27T21:09:03.224990+00:00 Saved src/trove-scans/the-courier-mail/1952/1952-12-01-britain-steals-the-thunder-in-rising-aircraft-sales/page-01-nla.news-page2037254.jpg (5846396 bytes)
+2026-11-27T21:09:05.497405+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2037542/level7
+2026-11-27T21:09:09.776473+00:00 Saved src/trove-scans/the-courier-mail/1952/1952-12-26-the-ballerina-they-wont-let-out/page-01-nla.news-page2037542.jpg (4844002 bytes)
+2026-11-27T21:09:12.248698+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2037676/level7
+2026-11-27T21:09:18.984243+00:00 Saved src/trove-scans/the-courier-mail/1953/1953-01-10-a-tower-thats-awed-the-world-for-900-years-saddest-spot-on-earth-will/page-01-nla.news-page2037676.jpg (5851702 bytes)
+2026-11-27T21:09:21.278775+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2038011/level7
+2026-11-27T21:09:26.841565+00:00 Saved src/trove-scans/the-courier-mail/1953/1953-02-10-mt-everest-it-may-be-britains-last-chance/page-01-nla.news-page2038011.jpg (5670237 bytes)
+2026-11-27T21:09:29.125994+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2038341/level7
+2026-11-27T21:09:33.704450+00:00 Saved src/trove-scans/the-courier-mail/1953/1953-03-10-hes-putting-the-magic-into-the-coronation/page-01-nla.news-page2038341.jpg (4424722 bytes)
+2026-11-27T21:09:36.744290+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2038423/level7
+2026-11-27T21:09:42.581770+00:00 Saved src/trove-scans/the-courier-mail/1953/1953-03-17-a-frenchmans-answer-to-living-close-to-the-job/page-01-nla.news-page2038423.jpg (5694499 bytes)
+2026-11-27T21:09:44.909203+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2038733/level7
+2026-11-27T21:09:50.506759+00:00 Saved src/trove-scans/the-courier-mail/1953/1953-04-11-meeting-the-challenge-of-australian-roads-where-new-cars-are-tortured/page-01-nla.news-page2038733.jpg (6129722 bytes)
+2026-11-27T21:09:52.944136+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2039004/level7
+2026-11-27T21:10:00.367678+00:00 Saved src/trove-scans/the-courier-mail/1953/1953-05-04-he-scored-23-but-ian-craig-woke-up-crowd/page-01-nla.news-page2039004.jpg (5207530 bytes)
+2026-11-27T21:10:02.670911+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2039104/level7
+2026-11-27T21:10:10.294546+00:00 Saved src/trove-scans/the-courier-mail/1953/1953-05-11-archers-big-feast-on-surreys-timid-batting/page-01-nla.news-page2039104.jpg (6412961 bytes)
+2026-11-27T21:10:13.095151+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2039128/level7
+2026-11-27T21:10:19.249379+00:00 Saved src/trove-scans/the-courier-mail/1953/1953-05-13-bananabender-shocked-the-oval/page-01-nla.news-page2039128.jpg (4864580 bytes)
+2026-11-27T21:10:21.588161+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2039175/level7
+2026-11-27T21:10:27.646877+00:00 Saved src/trove-scans/the-courier-mail/1953/1953-05-16-the-aust-steamroller-cricketers-crunch-on/page-01-nla.news-page2039175.jpg (5076739 bytes)
+2026-11-27T21:10:30.325452+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2039245/level7
+2026-11-27T21:10:37.018214+00:00 Saved src/trove-scans/the-courier-mail/1953/1953-05-22-de-courcy-luck-was-appreciated/page-01-nla.news-page2039245.jpg (5861632 bytes)
+2026-11-27T21:10:40.115338+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2039458/level7
+2026-11-27T21:10:44.865821+00:00 Saved src/trove-scans/the-courier-mail/1953/1953-06-06-dancing-lindsay-still-captain/page-01-nla.news-page2039458.jpg (5871122 bytes)
+2026-11-27T21:10:47.154129+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2039832/level7
+2026-11-27T21:10:52.821202+00:00 Saved src/trove-scans/the-courier-mail/1953/1953-07-06-exile-could-walk-into-team/page-01-nla.news-page2039832.jpg (5981233 bytes)
+2026-11-27T21:10:55.267248+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2042269/level7
+2026-11-27T21:11:01.713577+00:00 Saved src/trove-scans/the-courier-mail/1953/1953-12-23-where-the-davis-cup-will-be-decided-the-biggest-bathtub-in-the-world/page-01-nla.news-page2042269.jpg (6236850 bytes)
+2026-11-27T21:11:04.047495+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2042408/level7
+2026-11-27T21:11:08.965484+00:00 Saved src/trove-scans/the-courier-mail/1954/1954-01-06-the-australian-accent-letters-to-the-editor/page-01-nla.news-page2042408.jpg (4797159 bytes)
+2026-11-27T21:11:11.283450+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2042423/level7
+2026-11-27T21:11:15.541414+00:00 Saved src/trove-scans/the-courier-mail/1954/1954-01-07-the-queen-here-in-nine-weeks-its-time-we-got-busy/page-01-nla.news-page2042423.jpg (5232272 bytes)
+2026-11-27T21:11:17.893720+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2042440/level7
+2026-11-27T21:11:23.252249+00:00 Saved src/trove-scans/the-courier-mail/1954/1954-01-08-melbourne-steps-out-a-theatre-that-will-warm-the-bottles/page-01-nla.news-page2042440.jpg (5722344 bytes)
+2026-11-27T21:11:25.694789+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2042519/level7
+2026-11-27T21:11:30.710516+00:00 Saved src/trove-scans/the-courier-mail/1954/1954-01-14-an-englishman-looks-at-england-britains-only-chancean-export-trade-in/page-01-nla.news-page2042519.jpg (4848027 bytes)
+2026-11-27T21:11:33.088223+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2042692/level7
+2026-11-27T21:11:38.515450+00:00 Saved src/trove-scans/the-courier-mail/1954/1954-01-27-our-transport-muddle2-itll-cost-big-money-to-put-things-right/page-01-nla.news-page2042692.jpg (5316661 bytes)
+2026-11-27T21:11:40.960185+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2043298/level7
+2026-11-27T21:11:45.846265+00:00 Saved src/trove-scans/the-courier-mail/1954/1954-03-10-it-was-a-relaxed-uninhibited-welcome-march-9-the-day-that-went-without/page-01-nla.news-page2043298.jpg (4582868 bytes)
+2026-11-27T21:11:48.259993+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2044194/level7
+2026-11-27T21:11:53.054636+00:00 Saved src/trove-scans/the-courier-mail/1954/1954-05-12-during-the-last-test-series-bill-johnston-sent-a-note-to-the-bowler/page-01-nla.news-page2044194.jpg (5246420 bytes)
+2026-11-27T21:11:55.428894+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2044378/level7
+2026-11-27T21:12:00.696973+00:00 Saved src/trove-scans/the-courier-mail/1954/1954-05-22-some-men-have-a-passion-for-the-pure-sporting-car-they-dont-like-ducoe/page-01-nla.news-page2044378.jpg (5462310 bytes)
+2026-11-27T21:12:02.978362+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2044814/level7
+2026-11-27T21:12:07.762157+00:00 Saved src/trove-scans/the-courier-mail/1954/1954-06-22-tea-experts-are-horrified-its-truepeople-dont-know-how-to-boil-water/page-01-nla.news-page2044814.jpg (5652876 bytes)
+2026-11-27T21:12:10.173501+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2044993/level7
+2026-11-27T21:12:16.888447+00:00 Saved src/trove-scans/the-courier-mail/1954/1954-07-03-wimbledon-theres-something-about-the-atmosphere/page-01-nla.news-page2044993.jpg (5584779 bytes)
+2026-11-27T21:12:20.706838+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2045602/level7
+2026-11-27T21:12:26.749061+00:00 Saved src/trove-scans/the-courier-mail/1954/1954-08-11-his-war-dance-worried-the-englishmen/page-01-nla.news-page2045602.jpg (5707010 bytes)
+2026-11-27T21:12:29.429038+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2045837/level7
+2026-11-27T21:12:34.876385+00:00 Saved src/trove-scans/the-courier-mail/1954/1954-08-26-were-the-old-comedy-films-really-funny-you-could-never-throw-pies-at-a/page-01-nla.news-page2045837.jpg (5156713 bytes)
+2026-11-27T21:12:37.212055+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2046141/level7
+2026-11-27T21:12:41.944687+00:00 Saved src/trove-scans/the-courier-mail/1954/1954-09-14-emotion-is-good-for/page-01-nla.news-page2046141.jpg (4689242 bytes)
+2026-11-27T21:12:44.347274+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page2046272/level7
+2026-11-27T21:12:49.415486+00:00 Saved src/trove-scans/the-courier-mail/1954/1954-09-22-they-prefer-old-bombs-to-blondes/page-01-nla.news-page2046272.jpg (5877100 bytes)
+2026-11-27T21:12:51.745446+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page31423295/level7
+2026-11-27T21:12:53.904901+00:00 Saved src/trove-scans/the-sun-news-pictorial/1946/1946-03-16-black-market-city/page-01-nla.news-page31423295.jpg (2245245 bytes)
+2026-11-27T21:12:56.734151+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page31495284/level7
+2026-11-27T21:12:58.836876+00:00 Saved src/trove-scans/the-sun-news-pictorial/1948/1948-07-24-memory-by-the-mile/page-01-nla.news-page31495284.jpg (1974141 bytes)
+2026-11-27T21:13:01.742759+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page31475462/level7
+2026-11-27T21:13:03.804609+00:00 Saved src/trove-scans/the-sun-news-pictorial/1950/1950-01-06-learning-the-hard-way-can-expensive-in-new-york/page-01-nla.news-page31475462.jpg (2288243 bytes)
+2026-11-27T21:13:06.740624+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page31450043/level7
+2026-11-27T21:13:08.595193+00:00 Saved src/trove-scans/the-sun-news-pictorial/1950/1950-03-18-the-suns-daily-feature-page-horse-factory-stars-rival-hollywoods/page-01-nla.news-page31450043.jpg (1945027 bytes)
+2026-11-27T21:13:11.745985+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page31494236/level7
+2026-11-27T21:13:15.359066+00:00 Saved src/trove-scans/the-sun-news-pictorial/1950/1950-12-01-ngle-spartans-and-the-man-named-kennedy/page-01-nla.news-page31494236.jpg (2320317 bytes)
+2026-11-27T21:13:17.673162+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page31485378/level7
+2026-11-27T21:13:19.678076+00:00 Saved src/trove-scans/the-sun-news-pictorial/1952/1952-06-28-a-weeper-and-his-widgies/page-01-nla.news-page31485378.jpg (2445141 bytes)
+2026-11-27T21:13:22.680655+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page31480461/level7
+2026-11-27T21:13:25.230487+00:00 Saved src/trove-scans/the-sun-news-pictorial/1952/1952-09-18-re-novels-on-way-out/page-01-nla.news-page31480461.jpg (1988282 bytes)
+2026-11-27T21:13:27.681506+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page31480931/level7
+2026-11-27T21:13:29.666618+00:00 Saved src/trove-scans/the-sun-news-pictorial/1952/1952-10-07-athletics-is-no-way-to-slim-reviewed-by-keith-dunstan-in-london/page-01-nla.news-page31480931.jpg (1994551 bytes)
+2026-11-27T21:13:32.680320+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page31480954/level7
+2026-11-27T21:13:36.376608+00:00 Saved src/trove-scans/the-sun-news-pictorial/1952/1952-10-08-castles-cheap/page-01-nla.news-page31480954.jpg (2011518 bytes)
+2026-11-27T21:13:38.651878+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page31481245/level7
+2026-11-27T21:13:40.929868+00:00 Saved src/trove-scans/the-sun-news-pictorial/1952/1952-10-20-nobody-wants-the-princess/page-01-nla.news-page31481245.jpg (2366072 bytes)
+2026-11-27T21:13:43.656801+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page31456695/level7
+2026-11-27T21:13:46.010841+00:00 Saved src/trove-scans/the-sun-news-pictorial/1952/1952-11-20-women-just-hate-to-be-thirty-the-first-half-of-samplings-of-the-1951-c/page-01-nla.news-page31456695.jpg (1968330 bytes)
+2026-11-27T21:13:48.657117+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page31456951/level7
+2026-11-27T21:13:53.098617+00:00 Saved src/trove-scans/the-sun-news-pictorial/1952/1952-11-29-even-vodka-for-christmas/page-01-nla.news-page31456951.jpg (2021958 bytes)
+2026-11-27T21:13:55.393737+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page31462927/level7
+2026-11-27T21:13:57.800203+00:00 Saved src/trove-scans/the-sun-news-pictorial/1953/1953-02-18-genius-who-thinks-in-the-bath/page-01-nla.news-page31462927.jpg (2154851 bytes)
+2026-11-27T21:14:00.394852+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page31466766/level7
+2026-11-27T21:14:04.611042+00:00 Saved src/trove-scans/the-sun-news-pictorial/1953/1953-03-30-t-power-takes-to-the-water/page-01-nla.news-page31466766.jpg (2049679 bytes)
+2026-11-27T21:14:06.941989+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page31488041/level7
+2026-11-27T21:14:08.851352+00:00 Saved src/trove-scans/the-sun-news-pictorial/1953/1953-06-15-his-greatest-moment/page-01-nla.news-page31488041.jpg (2137587 bytes)
+2026-11-27T21:14:11.946419+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page31488128/level7
+2026-11-27T21:14:14.390894+00:00 Saved src/trove-scans/the-sun-news-pictorial/1953/1953-06-17-all-alec-did-was-sit-and-sign/page-01-nla.news-page31488128.jpg (1920420 bytes)
+2026-11-27T21:14:16.946911+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page31488373/level7
+2026-11-27T21:14:18.885086+00:00 Saved src/trove-scans/the-sun-news-pictorial/1953/1953-06-27-no-palate-for-our-water/page-01-nla.news-page31488373.jpg (1990070 bytes)
+2026-11-27T21:14:21.951235+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page31470148/level7
+2026-11-27T21:14:24.043400+00:00 Saved src/trove-scans/the-sun-news-pictorial/1953/1953-07-14-lets-have-no-more-tests-at-manchester/page-01-nla.news-page31470148.jpg (2091784 bytes)
+2026-11-27T21:14:26.950279+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page31445282/level7
+2026-11-27T21:14:28.866483+00:00 Saved src/trove-scans/the-sun-news-pictorial/1953/1953-10-23-give-em-muck-theatre/page-01-nla.news-page31445282.jpg (2291454 bytes)
+2026-11-27T21:14:31.955298+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15249689/level7
+2026-11-27T21:14:36.656030+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1950/1950-02-04-film-cheques-too-small/page-01-nla.news-page15249689.jpg (6890194 bytes)
+2026-11-27T21:14:39.268074+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15249811/level7
+2026-11-27T21:14:45.179891+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1950/1950-02-18-hamlet-coins-dollars/page-01-nla.news-page15249811.jpg (6897114 bytes)
+2026-11-27T21:14:48.051689+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15249890/level7
+2026-11-27T21:14:53.810999+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1950/1950-02-25-hollywood-finishes-with-child-stars/page-01-nla.news-page15249890.jpg (6308784 bytes)
+2026-11-27T21:14:56.323883+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15249952/level7
+2026-11-27T21:15:02.006676+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1950/1950-03-04-hughes-has-two-controversial-films/page-01-nla.news-page15249952.jpg (6703395 bytes)
+2026-11-27T21:15:05.322195+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15250206/level7
+2026-11-27T21:15:11.249164+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1950/1950-04-01-film-industry-is-uneasy/page-01-nla.news-page15250206.jpg (5975981 bytes)
+2026-11-27T21:15:13.826399+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15250332/level7
+2026-11-27T21:15:19.725945+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1950/1950-04-15-senators-attacks-anger-filmdom/page-01-nla.news-page15250332.jpg (6047769 bytes)
+2026-11-27T21:15:22.127888+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15250394/level7
+2026-11-27T21:15:28.434855+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1950/1950-04-22-movie-violence-draws-protests/page-01-nla.news-page15250394.jpg (7208670 bytes)
+2026-11-27T21:15:30.802907+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10138165/level7
+2026-11-27T21:15:36.934096+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1950/1950-05-06-hollywood-approach-to-public/page-01-nla.news-page10138165.jpg (7614382 bytes)
+2026-11-27T21:15:39.232383+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10138237/level7
+2026-11-27T21:15:45.907325+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1950/1950-05-13-big-names-mean-less-in-films/page-01-nla.news-page10138237.jpg (6704106 bytes)
+2026-11-27T21:15:48.227218+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10138299/level7
+2026-11-27T21:15:53.851690+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1950/1950-05-20-new-stars-moving-in-on-hollywood/page-01-nla.news-page10138299.jpg (6938943 bytes)
+2026-11-27T21:15:56.284529+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10138371/level7
+2026-11-27T21:16:02.174361+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1950/1950-05-27-originality-rare-in-hollywood/page-01-nla.news-page10138371.jpg (7977589 bytes)
+2026-11-27T21:16:04.592723+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10138439/level7
+2026-11-27T21:16:09.608966+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1950/1950-06-03-washedup-stars-swallow-pride/page-01-nla.news-page10138439.jpg (7039094 bytes)
+2026-11-27T21:16:11.999720+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10138584/level7
+2026-11-27T21:16:16.487392+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1950/1950-06-17-annies-gun-was-loaded/page-01-nla.news-page10138584.jpg (6339870 bytes)
+2026-11-27T21:16:18.831390+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10138787/level7
+2026-11-27T21:16:24.000203+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1950/1950-07-08-valentino-story-film-begun/page-01-nla.news-page10138787.jpg (7141602 bytes)
+2026-11-27T21:16:26.357235+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10138857/level7
+2026-11-27T21:16:31.914347+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1950/1950-07-15-british-films-at-peak-in-us/page-01-nla.news-page10138857.jpg (6402072 bytes)
+2026-11-27T21:16:34.250126+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10138925/level7
+2026-11-27T21:16:40.306232+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1950/1950-07-22-gloria-swanson-bees-knees/page-01-nla.news-page10138925.jpg (6915670 bytes)
+2026-11-27T21:16:42.641926+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10138990/level7
+2026-11-27T21:16:49.399835+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1950/1950-07-29-western-films-save-hollywood/page-01-nla.news-page10138990.jpg (6541405 bytes)
+2026-11-27T21:16:51.815088+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10139061/level7
+2026-11-27T21:16:58.512108+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1950/1950-08-05-disney-makes-1950-his-film-year/page-01-nla.news-page10139061.jpg (7115318 bytes)
+2026-11-27T21:17:00.913440+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10092842/level7
+2026-11-27T21:17:09.113308+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1950/1950-09-23-heartthrobs-for-australia/page-01-nla.news-page10092842.jpg (10551669 bytes)
+2026-11-27T21:17:11.478506+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10092916/level7
+2026-11-27T21:17:19.379012+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1950/1950-09-30-hollywoods-great-white-hope/page-01-nla.news-page10092916.jpg (11969105 bytes)
+2026-11-27T21:17:21.735939+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10092988/level7
+2026-11-27T21:17:29.365730+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1950/1950-10-07-new-film-likely-winner/page-01-nla.news-page10092988.jpg (12443400 bytes)
+2026-11-27T21:17:31.810688+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10093070/level7
+2026-11-27T21:17:40.596047+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1950/1950-10-14-travel-bored-fitzpatrick/page-01-nla.news-page10093070.jpg (10451616 bytes)
+2026-11-27T21:17:42.925914+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10093436/level7
+2026-11-27T21:17:49.567231+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1950/1950-11-18-filmlands-way-to-kill/page-01-nla.news-page10093436.jpg (6084133 bytes)
+2026-11-27T21:17:51.912721+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10093728/level7
+2026-11-27T21:17:56.793904+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1950/1950-12-16-action-films-to-restore-income/page-01-nla.news-page10093728.jpg (5895843 bytes)
+2026-11-27T21:17:59.166253+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10093800/level7
+2026-11-27T21:18:03.665910+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1950/1950-12-23-oscar-time-in-hollywood/page-01-nla.news-page10093800.jpg (6007409 bytes)
+2026-11-27T21:18:06.009048+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10093846/level7
+2026-11-27T21:18:12.275409+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1950/1950-12-30-new-greatest-show-yet/page-01-nla.news-page10093846.jpg (5300572 bytes)
+2026-11-27T21:18:14.655580+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15213810/level7
+2026-11-27T21:18:19.684984+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-01-06-mickey-rooney-in-new-role/page-01-nla.news-page15213810.jpg (5820043 bytes)
+2026-11-27T21:18:22.056420+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15213872/level7
+2026-11-27T21:18:27.604150+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-01-13-hollywood-to-go-sentimental/page-01-nla.news-page15213872.jpg (6111910 bytes)
+2026-11-27T21:18:29.909347+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15213940/level7
+2026-11-27T21:18:35.405159+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-01-20-welles-macbeth-may-flop/page-01-nla.news-page15213940.jpg (6865786 bytes)
+2026-11-27T21:18:37.767548+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15214122/level7
+2026-11-27T21:18:42.717114+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-02-10-oscar-may-go-to-bette-davis/page-01-nla.news-page15214122.jpg (6352340 bytes)
+2026-11-27T21:18:45.112363+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15214174/level7
+2026-11-27T21:18:50.653333+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-02-17-sentimental-us-booms-crosby/page-01-nla.news-page15214174.jpg (6489443 bytes)
+2026-11-27T21:18:52.970901+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15214226/level7
+2026-11-27T21:18:58.752213+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-02-24-all-hollywood-not-crazy/page-01-nla.news-page15214226.jpg (6112478 bytes)
+2026-11-27T21:19:01.074857+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15214382/level7
+2026-11-27T21:19:07.230902+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-03-17-anniversary-for-bing-boom/page-01-nla.news-page15214382.jpg (7087725 bytes)
+2026-11-27T21:19:09.530097+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15214476/level7
+2026-11-27T21:19:15.528868+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-03-31-south-pacific-to-go-on-forever/page-01-nla.news-page15214476.jpg (7267151 bytes)
+2026-11-27T21:19:17.853396+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15214580/level7
+2026-11-27T21:19:23.043302+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-04-14-broadway-falls-to-josephine-baker/page-01-nla.news-page15214580.jpg (6227672 bytes)
+2026-11-27T21:19:25.439504+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15214634/level7
+2026-11-27T21:19:30.643639+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-04-21-all-lovely-blondes-not-dumb/page-01-nla.news-page15214634.jpg (6480401 bytes)
+2026-11-27T21:19:33.011313+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15214688/level7
+2026-11-27T21:19:37.709426+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-04-28-film-enchanted-the-censors/page-01-nla.news-page15214688.jpg (6135946 bytes)
+2026-11-27T21:19:40.132686+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10074312/level7
+2026-11-27T21:19:45.652264+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-05-05-heads-may-roll-in-hollywood/page-01-nla.news-page10074312.jpg (5427610 bytes)
+2026-11-27T21:19:48.025662+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10074364/level7
+2026-11-27T21:19:55.107206+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-05-12-bullfighting-new-film-craze/page-01-nla.news-page10074364.jpg (10096904 bytes)
+2026-11-27T21:19:57.494927+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10074416/level7
+2026-11-27T21:20:06.320919+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-05-19-valentino-film-not-swooner/page-01-nla.news-page10074416.jpg (12086104 bytes)
+2026-11-27T21:20:08.693605+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10074468/level7
+2026-11-27T21:20:17.327624+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-05-26-film-bonanza-for-lanza/page-01-nla.news-page10074468.jpg (11646576 bytes)
+2026-11-27T21:20:19.704681+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10074624/level7
+2026-11-27T21:20:30.032499+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-06-16-kaye-best-paid-buffoon/page-01-nla.news-page10074624.jpg (11673067 bytes)
+2026-11-27T21:20:32.374307+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10074728/level7
+2026-11-27T21:20:41.145520+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-06-30-his-convict-suit-was-tailormade/page-01-nla.news-page10074728.jpg (11961126 bytes)
+2026-11-27T21:20:43.573627+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10074780/level7
+2026-11-27T21:20:48.885711+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-07-07-rita-advised-to-study-the-koran/page-01-nla.news-page10074780.jpg (5418839 bytes)
+2026-11-27T21:20:51.261898+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10074832/level7
+2026-11-27T21:20:56.472814+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-07-14-television-deals-blow-to-films/page-01-nla.news-page10074832.jpg (4855733 bytes)
+2026-11-27T21:20:58.823450+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10074884/level7
+2026-11-27T21:21:03.293271+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-07-21-walt-disney-brings-alice-to-screen/page-01-nla.news-page10074884.jpg (6141708 bytes)
+2026-11-27T21:21:05.637037+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10075040/level7
+2026-11-27T21:21:09.634236+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-08-11-master-of-mystery-plans-new-film/page-01-nla.news-page10075040.jpg (4544377 bytes)
+2026-11-27T21:21:12.088139+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10075092/level7
+2026-11-27T21:21:16.226027+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-08-18-gay-musicals-give-hollywood-heart/page-01-nla.news-page10075092.jpg (4774097 bytes)
+2026-11-27T21:21:18.735407+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10075144/level7
+2026-11-27T21:21:23.048707+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-08-25-barrymore-family-tradition-broken/page-01-nla.news-page10075144.jpg (4782238 bytes)
+2026-11-27T21:21:25.378820+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15239174/level7
+2026-11-27T21:21:31.659645+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-09-08-martin-lewis-top-comedians-in-us/page-01-nla.news-page15239174.jpg (7298558 bytes)
+2026-11-27T21:21:33.992835+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15239226/level7
+2026-11-27T21:21:39.958506+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-09-15-rhubarb-the-cat-gives-reception/page-01-nla.news-page15239226.jpg (6953006 bytes)
+2026-11-27T21:21:42.568231+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15239330/level7
+2026-11-27T21:21:50.482520+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-09-29-awardchasing-season-opens/page-01-nla.news-page15239330.jpg (7072140 bytes)
+2026-11-27T21:21:52.817315+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15239382/level7
+2026-11-27T21:21:57.103650+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-10-06-hollywood-under-fire-again/page-01-nla.news-page15239382.jpg (6095353 bytes)
+2026-11-27T21:21:59.399893+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15239436/level7
+2026-11-27T21:22:07.096726+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-10-13-famous-opera-film-for-australia/page-01-nla.news-page15239436.jpg (7410519 bytes)
+2026-11-27T21:22:09.405238+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15239490/level7
+2026-11-27T21:22:14.849533+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-10-20-streetcar-film-something-new/page-01-nla.news-page15239490.jpg (6592094 bytes)
+2026-11-27T21:22:17.173631+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15239936/level7
+2026-11-27T21:22:22.174378+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-12-15-mary-pickford-to-come-back/page-01-nla.news-page15239936.jpg (6843042 bytes)
+2026-11-27T21:22:24.520259+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15239996/level7
+2026-11-27T21:22:29.807003+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-12-22-hollywood-falls-for-horatio/page-01-nla.news-page15239996.jpg (6413658 bytes)
+2026-11-27T21:22:32.132915+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page15240034/level7
+2026-11-27T21:22:37.586830+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1951/1951-12-29-karloff-monster-must-remain/page-01-nla.news-page15240034.jpg (7033799 bytes)
+2026-11-27T21:22:40.030651+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10035993/level7
+2026-11-27T21:22:45.697651+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1952/1952-01-05-wild-westerns-never-fail/page-01-nla.news-page10035993.jpg (6426115 bytes)
+2026-11-27T21:22:48.048119+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10036043/level7
+2026-11-27T21:22:53.430018+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1952/1952-01-12-miller-tragedy-for-australia/page-01-nla.news-page10036043.jpg (6256919 bytes)
+2026-11-27T21:22:55.775831+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10036097/level7
+2026-11-27T21:23:06.204338+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1952/1952-01-19-hollywood-beams-about-its-future/page-01-nla.news-page10036097.jpg (7382417 bytes)
+2026-11-27T21:23:10.557776+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10036151/level7
+2026-11-27T21:23:16.787433+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1952/1952-01-26-gershwin-music-booming/page-01-nla.news-page10036151.jpg (6576685 bytes)
+2026-11-27T21:23:19.276407+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10036203/level7
+2026-11-27T21:23:25.836497+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1952/1952-02-02-greatest-show-is-exactly-that/page-01-nla.news-page10036203.jpg (6035918 bytes)
+2026-11-27T21:23:28.254815+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10036257/level7
+2026-11-27T21:23:34.458951+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1952/1952-02-09-second-popular-vote-to-wayne/page-01-nla.news-page10036257.jpg (7110804 bytes)
+2026-11-27T21:23:37.045905+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10036313/level7
+2026-11-27T21:23:43.440942+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1952/1952-02-16-son-agrees-to-rogers-film/page-01-nla.news-page10036313.jpg (7153512 bytes)
+2026-11-27T21:23:45.829929+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10036423/level7
+2026-11-27T21:23:51.964083+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1952/1952-03-01-stars-118000-for-one-film/page-01-nla.news-page10036423.jpg (7585560 bytes)
+2026-11-27T21:23:54.401838+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10036537/level7
+2026-11-27T21:24:00.313156+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1952/1952-03-15-bogart-in-wild-african-film/page-01-nla.news-page10036537.jpg (6502456 bytes)
+2026-11-27T21:24:02.839222+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10036593/level7
+2026-11-27T21:24:09.929779+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1952/1952-03-22-australia-new-film-theme/page-01-nla.news-page10036593.jpg (7273366 bytes)
+2026-11-27T21:24:12.522337+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10036649/level7
+2026-11-27T21:24:19.442022+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1952/1952-03-29-boy-millionaire-great-showman/page-01-nla.news-page10036649.jpg (6304021 bytes)
+2026-11-27T21:24:22.015956+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10036743/level7
+2026-11-27T21:24:26.762904+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1952/1952-04-12-old-world-rival-for-hollywood/page-01-nla.news-page10036743.jpg (6125826 bytes)
+2026-11-27T21:24:29.180787+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10036797/level7
+2026-11-27T21:24:33.601372+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1952/1952-04-19-andersen-film-angers-danes/page-01-nla.news-page10036797.jpg (6791716 bytes)
+2026-11-27T21:24:36.121713+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10046600/level7
+2026-11-27T21:24:42.541512+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1952/1952-05-03-new-star-once-cheesecake/page-01-nla.news-page10046600.jpg (5210539 bytes)
+2026-11-27T21:24:45.548129+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10046658/level7
+2026-11-27T21:24:53.230434+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1952/1952-05-10-betty-huttons-new-explosion/page-01-nla.news-page10046658.jpg (10129131 bytes)
+2026-11-27T21:24:55.927985+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10046714/level7
+2026-11-27T21:25:04.359382+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1952/1952-05-17-new-starand-hes-british/page-01-nla.news-page10046714.jpg (9833186 bytes)
+2026-11-27T21:25:07.453222+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10046770/level7
+2026-11-27T21:25:16.273014+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1952/1952-05-24-hollywood-finds-tears-trumps/page-01-nla.news-page10046770.jpg (10262394 bytes)
+2026-11-27T21:25:19.706120+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10046884/level7
+2026-11-27T21:25:31.291728+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1952/1952-06-07-kangaroo-film-horse-opera/page-01-nla.news-page10046884.jpg (11562087 bytes)
+2026-11-27T21:25:35.241124+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10047000/level7
+2026-11-27T21:25:42.693265+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1952/1952-06-21-dietrich-backat-a-lazy-50/page-01-nla.news-page10047000.jpg (9647549 bytes)
+2026-11-27T21:25:46.449710+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10047230/level7
+2026-11-27T21:25:52.951402+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1952/1952-07-19-scots-sad-sack-for-androcles/page-01-nla.news-page10047230.jpg (5957236 bytes)
+2026-11-27T21:25:56.032785+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10047352/level7
+2026-11-27T21:26:00.909274+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1952/1952-08-02-musical-without-plot-words/page-01-nla.news-page10047352.jpg (5276776 bytes)
+2026-11-27T21:26:05.133389+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10047611/level7
+2026-11-27T21:26:09.491562+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1952/1952-08-30-two-angles-on-uk-efficiency-makes-britain-happier-than-it-knows/page-01-nla.news-page10047611.jpg (3383540 bytes)
+2026-11-27T21:26:12.079993+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10031636/level7
+2026-11-27T21:26:19.990578+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1952/1952-11-08-500-a-night-at-factory-fair/page-01-nla.news-page10031636.jpg (5458171 bytes)
+2026-11-27T21:26:24.078519+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10031667/level7
+2026-11-27T21:26:28.583736+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1952/1952-11-12-flying-princess-has-nowhere-to-go/page-01-nla.news-page10031667.jpg (5488605 bytes)
+2026-11-27T21:26:31.616557+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10031798/level7
+2026-11-27T21:26:37.302474+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1952/1952-11-25-women-just-hate-to-be-30/page-01-nla.news-page10031798.jpg (4946087 bytes)
+2026-11-27T21:26:40.241103+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10031970/level7
+2026-11-27T21:26:44.897443+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1952/1952-12-11-rockets-ready-for-battle/page-01-nla.news-page10031970.jpg (4666379 bytes)
+2026-11-27T21:26:47.741448+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10119206/level7
+2026-11-27T21:26:57.004869+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1953/1953-02-07-billys-niche-in-st-pauls/page-01-nla.news-page10119206.jpg (10398021 bytes)
+2026-11-27T21:26:59.564245+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10119536/level7
+2026-11-27T21:27:04.198808+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1953/1953-03-14-monster-liners-in-bathtub/page-01-nla.news-page10119536.jpg (5254301 bytes)
+2026-11-27T21:27:06.603196+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10119727/level7
+2026-11-27T21:27:10.909220+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1953/1953-04-03-genius-thinks-in-his-bath/page-01-nla.news-page10119727.jpg (4390271 bytes)
+2026-11-27T21:27:13.695880+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page10119741/level7
+2026-11-27T21:27:17.536855+00:00 Saved src/trove-scans/newcastle-morning-herald-and-miners-advocate/1953/1953-04-06-kentish-coast-terror-sands/page-01-nla.news-page10119741.jpg (4467815 bytes)
+2026-11-27T21:27:19.904805+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page3192943/level7
+2026-11-27T21:27:25.779062+00:00 Saved src/trove-scans/the-advertiser/1950/1950-09-30-canada-is-tourist-conscious/page-01-nla.news-page3192943.jpg (5700391 bytes)
+2026-11-27T21:27:28.121823+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page3185872/level7
+2026-11-27T21:27:36.764832+00:00 Saved src/trove-scans/the-advertiser/1952/1952-02-02-americans-dont-use-their-legs/page-01-nla.news-page3185872.jpg (7349376 bytes)
+2026-11-27T21:27:39.392769+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page3179941/level7
+2026-11-27T21:27:45.417666+00:00 Saved src/trove-scans/the-advertiser/1952/1952-03-29-parkomats-for-parking-problems/page-01-nla.news-page3179941.jpg (6920556 bytes)
+2026-11-27T21:27:47.807904+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page3203833/level7
+2026-11-27T21:27:54.372309+00:00 Saved src/trove-scans/the-advertiser/1952/1952-11-26-its-to-be-englands-best-christmas-since-1939-london-nov-25/page-01-nla.news-page3203833.jpg (7377339 bytes)
+2026-11-27T21:27:56.838747+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page3198583/level7
+2026-11-27T21:28:04.776361+00:00 Saved src/trove-scans/the-advertiser/1953/1953-01-27-new-abadans-on-british-oilfields-london-jan-26/page-01-nla.news-page3198583.jpg (8430642 bytes)
+2026-11-27T21:28:07.880508+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page3962422/level7
+2026-11-27T21:28:14.113070+00:00 Saved src/trove-scans/the-advertiser/1953/1953-02-04-aftermath-in-three-flood-areas-london-feb-3/page-01-nla.news-page3962422.jpg (5162634 bytes)
+2026-11-27T21:28:16.597425+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page3962141/level7
+2026-11-27T21:28:23.742038+00:00 Saved src/trove-scans/the-advertiser/1953/1953-02-10-why-not-a-fivedayold-sandwich/page-01-nla.news-page3962141.jpg (6546142 bytes)
+2026-11-27T21:28:30.375926+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page3962331/level7
+2026-11-27T21:28:33.294535+00:00 ERROR 1953-02-16-first-australian-to-be-honored-in-st-pauls.md: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+2026-11-27T21:29:36.742863+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page3962227/level7
+2026-11-27T21:29:44.660665+00:00 Saved src/trove-scans/the-advertiser/1953/1953-02-28-hell-put-the-color-and-magic-into-the-coronation-route-a-minister-with/page-01-nla.news-page3962227.jpg (5195224 bytes)
+2026-11-27T21:29:47.544879+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page3963267/level7
+2026-11-27T21:29:55.201462+00:00 Saved src/trove-scans/the-advertiser/1953/1953-03-02-memorial-for-lost-airmen/page-01-nla.news-page3963267.jpg (6729902 bytes)
+2026-11-27T21:29:57.954064+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page3963145/level7
+2026-11-27T21:30:02.211084+00:00 Saved src/trove-scans/the-advertiser/1953/1953-03-19-boom-is-ending-on-the-clyde/page-01-nla.news-page3963145.jpg (5184236 bytes)
+2026-11-27T21:30:04.734007+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page3963291/level7
+2026-11-27T21:30:19.869280+00:00 Saved src/trove-scans/the-advertiser/1953/1953-03-21-points-from-letters-eve-bank/page-01-nla.news-page3963291.jpg (5386872 bytes)
+2026-11-27T21:30:22.651149+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page3963369/level7
+2026-11-27T21:30:47.816585+00:00 Saved src/trove-scans/the-advertiser/1953/1953-03-24-where-the-lazy-man-is-best-soldier-cairngorm-mountains-inverness/page-01-nla.news-page3963369.jpg (5813538 bytes)
+2026-11-27T21:30:50.791823+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page3963778/level7
+2026-11-27T21:31:05.014886+00:00 Saved src/trove-scans/the-advertiser/1953/1953-04-04-the-bubble-gum-maestra-scores/page-01-nla.news-page3963778.jpg (5456591 bytes)
+2026-11-27T21:31:11.543147+00:00 Request image https://trove.nla.gov.au/ndp/imageservice/nla.news-page3970152/level7
+2026-11-27T21:31:26.832206+00:00 Saved src/trove-scans/the-advertiser/1953/1953-11-14-dieting-craze-sweeping-two-countries/page-01-nla.news-page3970152.jpg (5034582 bytes)
+2026-11-27T21:31:26.868908+00:00 Status: finished_with_errors (311 complete, 1 skipped, 1 failed)

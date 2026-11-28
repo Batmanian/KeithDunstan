@@ -1,0 +1,1 @@
+../../../../vault/articles/home-beautiful/1951/1951-01-01-no-one-know-anything-about-architecture.md

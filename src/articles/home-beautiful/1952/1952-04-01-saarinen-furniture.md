@@ -1,0 +1,1 @@
+../../../../vault/articles/home-beautiful/1952/1952-04-01-saarinen-furniture.md

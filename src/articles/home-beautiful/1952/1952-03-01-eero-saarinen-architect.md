@@ -1,0 +1,1 @@
+../../../../vault/articles/home-beautiful/1952/1952-03-01-eero-saarinen-architect.md

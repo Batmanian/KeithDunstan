@@ -268,10 +268,10 @@ def robots_for(url):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--only", action="append", help="publication folder slug (repeatable)")
-    ap.add_argument("--interval", type=int, default=60, help="seconds between image requests (min 30)")
+    ap.add_argument("--interval", type=int, default=5, help="seconds between image requests (min 5)")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
-    interval = max(30, args.interval)
+    interval = max(5, args.interval)
 
     stubs = select_stubs(set(args.only or []))
     history = json.loads(HISTORY.read_text()) if HISTORY.exists() else {"version": 1, "stubs": {}}

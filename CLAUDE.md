@@ -68,7 +68,7 @@
   - The voice to match — a genuine entry from `src/_data/topics.md`: `"The six o'clock swill was the mad rush to down as many beers as possible before hotel bars shut at 6pm, a wartime austerity measure that lingered in Victoria until 1966 and which Keith Dunstan remembered as a defining, faintly absurd feature of 1950s Melbourne drinking."` — definitional, specific, a little wry, ties back to Keith only where it's earned.
   - Applied to an article's `summary` (real example, `src/articles/bulletin/batmans-melbourne-this-is-a-fine-state-to-be-in.md`): `A survey of the deteriorating relations between Victoria and New South Wales, arguing Melbourne's case for its rightful place in the international air network via the new Tullamarine airport.`
   - Bad: `First published in the Bulletin Magazine, 1962.` — says nothing about the piece; this exact boilerplate is what `trove/fetch_batman.py`, `fetch_byline.py`, and `fetch_walkabout.py` write into every stub's `summary` field as a placeholder (correctly marked `[Stub — not yet transcribed]`) — **replacing it with a real summary is part of finishing the transcription, not an optional polish pass.** Don't move a file out of `stubs/`/`transcribed/` into `src/articles/` with that placeholder still in place.
-  - avoid Em-dashes, use commas. We need this look to read unlike an AI generated summary.
+  - No em-dashes. Use a comma (or restructure the clause) instead.
 
 **Frontmatter example — article:**
 ```yaml
@@ -112,7 +112,7 @@ These rules apply when transcribing body text. The archive spans work from the 1
 
 **Titles:** Markdown italics for all book, film, newspaper, magazine, and television titles — `*The Bulletin*`, `*The Age*`, `*No Brains At All*`. Not HTML `<i>` tags; not "quotation marks". Short works (songs, articles, episodes) may use single quotes if needed but prefer italics.
 
-**Em-dashes:** True em-dash `—` with a space either side — ` — `. Never double-hyphen `--` or en-dash `–`. Exception: `summary` frontmatter must not use em-dashes at all (use a comma instead — see summary rules above).
+**Em-dashes:** True em-dash `—` with a space either side — ` — `. Never double-hyphen `--` or en-dash `–`. **`summary` frontmatter must never use em-dashes** — use a comma or restructure the clause instead (a summary with em-dashes reads as AI-generated).
 
 **Ellipsis:** Three separate full stops `...` with no space before them. Not the Unicode ellipsis character `…`.
 

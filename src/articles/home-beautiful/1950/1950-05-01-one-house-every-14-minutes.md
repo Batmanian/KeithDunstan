@@ -1,0 +1,1 @@
+../../../../vault/articles/home-beautiful/1950/1950-05-01-one-house-every-14-minutes.md

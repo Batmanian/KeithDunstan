@@ -1,0 +1,1 @@
+../../../../vault/articles/home-beautiful/1952/1952-06-01-where-modern-design-lives.md

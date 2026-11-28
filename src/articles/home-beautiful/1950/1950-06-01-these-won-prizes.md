@@ -1,0 +1,1 @@
+../../../../vault/articles/home-beautiful/1950/1950-06-01-these-won-prizes.md

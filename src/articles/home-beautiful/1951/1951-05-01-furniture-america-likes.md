@@ -1,0 +1,1 @@
+../../../../vault/articles/home-beautiful/1951/1951-05-01-furniture-america-likes.md

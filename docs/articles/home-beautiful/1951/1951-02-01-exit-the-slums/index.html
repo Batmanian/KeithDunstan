@@ -1,0 +1,494 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Exit the Slums</title>
+<meta name="title" content="Exit the Slums">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Examines two contrasting approaches to large-scale housing in America, the New York Life Insurance Company&#39;s Fresh Meadows development on Long Island, praised as the best-looking piece of architecture in the New York metropolitan area, and the proposed Lake Meadows skyscraper project for Chicago&#39;s South Side slums.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/articles/home-beautiful/1951/1951-02-01-exit-the-slums/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="Exit the Slums">
+<meta property="og:description" content="Examines two contrasting approaches to large-scale housing in America, the New York Life Insurance Company&#39;s Fresh Meadows development on Long Island, praised as the best-looking piece of architecture in the New York metropolitan area, and the proposed Lake Meadows skyscraper project for Chicago&#39;s South Side slums.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="Exit the Slums">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/articles/home-beautiful/1951/1951-02-01-exit-the-slums/">
+<meta name="twitter:title" content="Exit the Slums">
+<meta name="twitter:description" content="Examines two contrasting approaches to large-scale housing in America, the New York Life Insurance Company&#39;s Fresh Meadows development on Long Island, praised as the best-looking piece of architecture in the New York metropolitan area, and the proposed Lake Meadows skyscraper project for Chicago&#39;s South Side slums.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="Exit the Slums">
+<link rel="canonical" href="https://keithdunstan.org/articles/home-beautiful/1951/1951-02-01-exit-the-slums/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1951-02-01">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="The Australian Home Beautiful">
+<meta property="article:tag" content="Housing">
+<meta property="article:tag" content="New York">
+<meta property="article:tag" content="Slum Clearance">
+<meta property="article:tag" content="Fresh Meadows">
+<meta property="article:tag" content="Lake Meadows">
+<meta property="article:tag" content="New York Life Insurance Company">
+<meta property="article:tag" content="Skidmore Owings and Merrill">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">Exit the Slums</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            6
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1951-02-01">01 Feb 1951</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Examines two contrasting approaches to large-scale housing in America, the New York Life Insurance Company&#39;s Fresh Meadows development on Long Island, praised as the best-looking piece of architecture in the New York metropolitan area, and the proposed Lake Meadows skyscraper project for Chicago&#39;s South Side slums.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="The Australian Home Beautiful">
+         <!--<a href="/tags/housing/" class="btn btn-outline-dark btn-sm me-2">Housing</a><a href="/tags/new-york/" class="btn btn-outline-dark btn-sm me-2">New York</a><a href="/tags/slum-clearance/" class="btn btn-outline-dark btn-sm me-2">Slum Clearance</a><a href="/tags/fresh-meadows/" class="btn btn-outline-dark btn-sm me-2">Fresh Meadows</a><a href="/tags/lake-meadows/" class="btn btn-outline-dark btn-sm me-2">Lake Meadows</a><a href="/tags/new-york-life-insurance-company/" class="btn btn-outline-dark btn-sm me-2">New York Life Insurance Company</a><a href="/tags/skidmore-owings-and-merrill/" class="btn btn-outline-dark btn-sm me-2">Skidmore Owings and Merrill</a>-->
+
+        
+      </header>
+      <div class="article-body"><p>The United States is faced with two long-range housing problems: how to do away with the slums that already exist, and how to house thousands of people in buildings which will not become the slums of the future.</p>
+<p>Many thousands of young Americans have been caught up in schemes. Their house, except for the fact the roof may be turned round the wrong way, is exactly the same as 300 others in the area. They have the same wretched little plot as everybody else, even with their garden arrangement designed for them by some horticultural expert at scheme headquarters.</p>
+<p>Americans particularly have a fear of schemes, and much of the post-war housing has been carried out by insurance companies. Many of them are as dull and uninspiring as all the others, but there is one in particular which is winning the praise of the critics in New York. This is the New York Life Insurance Fresh Meadows project on Long Island.</p>
+<p>New York Life bought up the Fresh Meadows Country Club golf course which covered 188 acres not far from Manhattan. Instead of building four or five hundred ugly little houses, they used the land to build 139 residential buildings containing 3008 apartments. Most of them are two-storey and three-storey buildings scattered in informal groups across the 188 acres.</p>
+<p>There are no private plots of land or fences, but the buildings are so placed that they form large playing fields and gardens with more open space than the average New Yorker even dreams about. For once, he can look out his side window without seeing his neighbour cleaning his teeth or arguing with his wife.</p>
+<p>There are sand pits and jungle gyms for the children, and benches under the trees. There is even one large forest of oaks. The architects, when they originally planned Fresh Meadows, hadn't considered existing trees, but when the time came to put up the buildings they hadn't the heart to cut the trees down, and they built around them. A more unofficial act one can hardly imagine.</p>
+<p>Most of the buildings are low, except two great 13-storey apartment buildings. These seem rather unnecessary, but living in large buildings and at great heights has a peculiar fascination for New Yorkers. In this way, New York Life has catered for all tastes.</p>
+<p>None of the buildings is attractive in itself but the overall effect is beautiful. Lewis Mumford in <em>The New Yorker</em> described the Fresh Meadows scheme as &quot;probably the best-looking piece of architecture in the metropolitan area and perhaps the most positive and stimulating piece of large-scale planning in the country.&quot;</p>
+<p>The planners have a cunning traffic system. The idea was to make Fresh Meadows a haven from the dreadful stream of traffic that pours through Long Island, so they made the traffic system so complicated that no one could possibly go through faster than the residents. The streets are crescents; they put one thoroughfare through, but only because the local authorities told them to do so.</p>
+<p>Yet to the resident motorists, the planners have been particularly kind. There is space for every motorist to leave his car at his front door. There are four fire-proof, centrally heated garages within walking distance. But best of all, at the main shopping centre there is parking space for 1000 cars and at the two smaller neighbourhood centres there is space for 400 more. New York Life realised when they designed the large air-conditioned shopping units that any building which couldn't provide its own shopping space, in these modern times, was quite useless.</p>
+<p>The project provides all sorts of other facilities such as a nursery school, an elementary school, a bowling alley, recreation rooms, and every kind of club from photography and table tennis to ceramics.</p>
+<p>It is the kind of project that in 50 years time will still be a delightful part of New York and not a dreary over-populated slum.</p>
+<p>New York Life is now anxious to go to work in Chicago. This time with a slum clearance project and plans for two of the most spectacular skyscraper apartments ever designed. The plan is this: the Chicago Land Clearance Commission will clear the land at a cost of three dollars a sq. ft. and the insurance companies will buy it back at 50 cents a sq. ft. New York Life will build, on an area of 43 acres, two 23-storey buildings, eleven two-storey garden apartments and a large shopping centre.</p>
+<p>The 23-storey buildings will be a third of a mile long and so narrow they will be like &quot;skyscrapers on edge,&quot; only one apartment wide, like a series of houses laid one on top of the other. Each will have the maximum share of light, air and window space. There will be no enclosed hallways, but long open-air galleries will run along the side of each building at every floor.</p>
+<p>The galleries will open every room to cross ventilation and they will give each apartment &quot;a backyard in the sky.&quot; Children will be able to play outside in the galleries without their mothers worrying that at any moment they will be run over by a motor car. The buildings were designed by Skidmore, Owings and Merrill so that every apartment would have a view of Lake Michigan.</p>
+<p>For congestion and squalor, Chicago's South Side beats anything Melbourne, Sydney or Brisbane has to offer. The <em>Architectural Forum</em> described it this way: &quot;Mentally, it's always raining on the South Side. No matter how sunny and clear the day, a grey mist of depression must cloud the mind of anyone who makes a pilgrimage through this dying area.&quot;</p>
+<p>At present, 3500 families live in the Lake Meadows area. If this project goes through only 1400 will live there and buildings will cover only eight per cent. of the area. The rest will be gardens, playgrounds and trees. The idea is to turn slums into inhabitable parkland — and all within one minute of the city of Chicago.</p>
+<p>Not everybody will be able to afford the apartments and many families will have to move elsewhere. As one journal said: &quot;It is a drastic but necessary piece of surgery.&quot; As cities progress these areas which once were smart and select slowly turn the full cycle into shocking slums. Every big city has the same problem and projects such as the one at Lake Meadows should be going on all the time.</p>
+<p>Unfortunately such ideas are rare even in the US. One of the organisers, when pleading for this plan, said: &quot;A city must keep up with its suburbs.&quot;</p>
+<p>That is true. How many cities do you know which appear as nothing more than great mechanised, neon-lit rubbish dumps.</p>
+<hr>
+<p><em>Source: Exit the Slums, The Australian Home Beautiful, February 1951. Accessible via the <a href="https://nla.gov.au/nla.obj-2985576967">National Library of Australia's Trove database</a>.</em></p>
+</div>
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+
+  <p class="lead">
+        Examines two contrasting approaches to large-scale housing in America, the New York Life Insurance Company&#39;s Fresh Meadows development on Long Island, praised as the best-looking piece of architecture in the New York metropolitan area, and the proposed Lake Meadows skyscraper project for Chicago&#39;s South Side slums.
+      </p>
+
+
+<hr>
+<h4 class="h6">Topics in this item</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/fresh-meadows/" class="link-secondary">Fresh Meadows</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Fresh Meadows">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/housing/" class="link-secondary">Housing</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Housing">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/lake-meadows/" class="link-secondary">Lake Meadows</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Lake Meadows">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/new-york/" class="link-secondary">New York</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="New York">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/new-york-life-insurance-company/" class="link-secondary">New York Life Insurance Company</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="New York Life Insurance Company">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/skidmore-owings-and-merrill/" class="link-secondary">Skidmore Owings and Merrill</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Skidmore Owings and Merrill">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/slum-clearance/" class="link-secondary">Slum Clearance</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Slum Clearance">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/fresh-meadows/" class="link-secondary">Fresh Meadows</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Fresh Meadows">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/housing/" class="link-secondary">Housing</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Housing">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/lake-meadows/" class="link-secondary">Lake Meadows</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Lake Meadows">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/new-york/" class="link-secondary">New York</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="New York">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/new-york-life-insurance-company/" class="link-secondary">New York Life Insurance Company</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="New York Life Insurance Company">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/skidmore-owings-and-merrill/" class="link-secondary">Skidmore Owings and Merrill</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Skidmore Owings and Merrill">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/slum-clearance/" class="link-secondary">Slum Clearance</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Slum Clearance">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

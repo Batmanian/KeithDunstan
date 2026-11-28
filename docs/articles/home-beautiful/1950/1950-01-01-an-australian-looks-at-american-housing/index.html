@@ -1,0 +1,496 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <script>
+    // Runs synchronously, before first paint, to avoid a flash of the wrong
+    // theme. Toggle click handling lives in snippets/navbar.njk.
+    (function () {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-bs-theme', theme);
+    })();
+  </script>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>An Australian Looks at American Housing</title>
+<meta name="title" content="An Australian Looks at American Housing">
+<meta name="author" content="Keith Dunstan">
+<meta name="description" content="Examines New York&#39;s post-war housing crisis and two contrasting responses, the government-subsidised towers of Stuyvesant Town and the mass-produced suburban sameness of Levittown on Long Island, asking what Australia might learn from each.">
+<meta name="generator" content="11straps">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://keithdunstan.org/articles/home-beautiful/1950/1950-01-01-an-australian-looks-at-american-housing/">
+<meta property="og:site_name" content="Keith Dunstan">
+<meta property="og:locale" content="en_AU">
+<meta property="og:title" content="An Australian Looks at American Housing">
+<meta property="og:description" content="Examines New York&#39;s post-war housing crisis and two contrasting responses, the government-subsidised towers of Stuyvesant Town and the mass-produced suburban sameness of Levittown on Long Island, asking what Australia might learn from each.">
+<meta property="og:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta property="og:image:alt" content="An Australian Looks at American Housing">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:url" content="https://keithdunstan.org/articles/home-beautiful/1950/1950-01-01-an-australian-looks-at-american-housing/">
+<meta name="twitter:title" content="An Australian Looks at American Housing">
+<meta name="twitter:description" content="Examines New York&#39;s post-war housing crisis and two contrasting responses, the government-subsidised towers of Stuyvesant Town and the mass-produced suburban sameness of Levittown on Long Island, asking what Australia might learn from each.">
+<meta name="twitter:image" content="https://keithdunstan.org/img/keith-square.png">
+<meta name="twitter:image:alt" content="An Australian Looks at American Housing">
+<link rel="canonical" href="https://keithdunstan.org/articles/home-beautiful/1950/1950-01-01-an-australian-looks-at-american-housing/">
+<meta name="geo.placename" content="Melbourne, Australia">
+<meta name="geo.region" content="AU-VIC">
+<meta property="article:published_time" content="1950-01-01">
+<meta property="article:author" content="Keith Dunstan">
+<meta property="article:section" content="The Australian Home Beautiful">
+<meta property="article:tag" content="Housing">
+<meta property="article:tag" content="New York">
+<meta property="article:tag" content="Levittown">
+<meta property="article:tag" content="Stuyvesant Town">
+<meta property="article:tag" content="Slum Clearance">
+<meta property="article:tag" content="Metropolitan Life Insurance Company">
+<meta property="article:tag" content="William J Levitt">
+
+  <link rel="alternate" type="application/rss+xml" title="Keith Dunstan — new pages" href="/feed.xml">
+  <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon.png">
+  <meta name="HandheldFriendly" content="true"/>
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="manifest" href="/img/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138874430-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-138874430-2');
+</script>
+  <!-- Global site tag (gtag.js) - Google Analytics end-->
+  <link rel="stylesheet" href="/css/theme.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-0">
+  <div class="container">
+    <a class="navbar-brand mb-0 py-4 px-3 pt-5 text-center text-white bg-success" href="/">Keith Dunstan<br> <small class="text-muted">Literary Archive</small></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item me-1 d-flex align-items-center">
+          <button id="theme-toggle" type="button" class="nav-link btn btn-link p-0 border-0 lh-1" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg id="theme-toggle-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="4"></circle>
+              <line x1="12" y1="2" x2="12" y2="4"></line>
+              <line x1="12" y1="20" x2="12" y2="22"></line>
+              <line x1="4.93" y1="4.93" x2="6.34" y2="6.34"></line>
+              <line x1="17.66" y1="17.66" x2="19.07" y2="19.07"></line>
+              <line x1="2" y1="12" x2="4" y2="12"></line>
+              <line x1="20" y1="12" x2="22" y2="12"></line>
+              <line x1="4.93" y1="19.07" x2="6.34" y2="17.66"></line>
+              <line x1="17.66" y1="6.34" x2="19.07" y2="4.93"></line>
+            </svg>
+            <svg id="theme-toggle-moon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" aria-current="page" href="/">Home</a>
+        </li>
+    <li class="nav-item me-1">
+          <a class="nav-link" href="/articles">Articles</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/books">Books</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/timeline/">Timeline</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/topics/">Topics</a>
+        </li>
+        <li class="nav-item me-1">
+          <a class="nav-link" href="/search.html">Search</a>
+        </li>
+
+
+       <!-- <li class="nav-item me-1">
+        <a class="nav-link" href="/blog">Sample Blog</a>
+        </li>-->
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('theme-toggle');
+    var sunIcon = document.getElementById('theme-toggle-sun');
+    var moonIcon = document.getElementById('theme-toggle-moon');
+    if (!toggle || !sunIcon || !moonIcon) return;
+
+    var themeColorMeta = document.querySelector('meta[name="theme-color"]');
+
+    function applyIcons(theme) {
+      // Sun is shown in dark mode (click to go light); moon in light mode (click to go dark).
+      sunIcon.style.display = theme === 'dark' ? '' : 'none';
+      moonIcon.style.display = theme === 'dark' ? 'none' : '';
+      if (themeColorMeta) {
+        themeColorMeta.setAttribute('content', theme === 'dark' ? '#212529' : '#ffffff');
+      }
+    }
+
+    applyIcons(document.documentElement.getAttribute('data-bs-theme') || 'light');
+
+    toggle.addEventListener('click', function () {
+      var next = document.documentElement.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-bs-theme', next);
+      localStorage.setItem('theme', next);
+      applyIcons(next);
+    });
+  });
+</script>
+
+
+    <main class="container py-vh-5" data-pagefind-body>
+      <div class="row d-flex justify-content-between">
+        <div class="col-12 col-md-7">
+          <article>
+      <!-- Header is a flex column so its pieces can be reordered per
+      breakpoint with order-*/order-md-* utilities: desktop keeps the
+      original title/time-to-read/published order, mobile reflows to
+      title/published/summary/time-to-read (summary is duplicated from
+      blogsidebar-single.njk here, mobile-only, since it needs to sit near
+      the top on small screens but stays in the sidebar box on desktop). -->
+      <header class="border-bottom pb-4 mb-4 d-flex flex-column">
+        <h1 class="display-3">An Australian Looks at American Housing</h1>
+        
+          
+          
+          <aside class="fw-bold order-3 order-md-1">
+            7
+            min read.
+          </aside>
+          <p class="order-1 order-md-2">First published
+            <time data-pagefind-meta="date" datetime="1950-01-01">01 Jan 1950</time>
+          </p>
+          <p class="lead order-2 d-md-none">
+            Examines New York&#39;s post-war housing crisis and two contrasting responses, the government-subsidised towers of Stuyvesant Town and the mass-produced suburban sameness of Levittown on Long Island, asking what Australia might learn from each.
+          </p>
+          
+          <meta data-pagefind-meta="publication[content]" content="The Australian Home Beautiful">
+         <!--<a href="/tags/housing/" class="btn btn-outline-dark btn-sm me-2">Housing</a><a href="/tags/new-york/" class="btn btn-outline-dark btn-sm me-2">New York</a><a href="/tags/levittown/" class="btn btn-outline-dark btn-sm me-2">Levittown</a><a href="/tags/stuyvesant-town/" class="btn btn-outline-dark btn-sm me-2">Stuyvesant Town</a><a href="/tags/slum-clearance/" class="btn btn-outline-dark btn-sm me-2">Slum Clearance</a><a href="/tags/metropolitan-life-insurance-company/" class="btn btn-outline-dark btn-sm me-2">Metropolitan Life Insurance Company</a><a href="/tags/william-j-levitt/" class="btn btn-outline-dark btn-sm me-2">William J Levitt</a>-->
+
+        
+      </header>
+      <div class="article-body"><p>While the United States pours out billions of dollars to nations all over the world, New York has slums that beat anything Australia has to offer.</p>
+<p>In Manhattan's &quot;Hell's Kitchen,&quot; jammed incongruously alongside shiny skyscrapers are filthy tenements, packed with vermin and humanity. In New York, with high cost of living and bloated cosmopolitan population, it is almost impossible to avoid having slums. For example, there are 350,000 Puerto Ricans here and they're coming in at the rate of 500 a week. The authorities cannot keep them out because they are American citizens. They have no money and most of them live under disgusting conditions.</p>
+<p>Yet Americans are self-conscious about their cities and they have slum clearance projects which would be ideal for Australia. We could well copy their ideas, because the schemes are not grandiose. American cities are not nearly as wealthy as many people imagine.</p>
+<p>Baltimore, which is about as big as Melbourne, has some of the worst slums in America and not a great deal of money. However, in Baltimore they have a plan. Housing inspectors go block by block through the slum area and they give the landlords 70 days to clean up. If nothing is done the landlord is fined — in Australian terms, £99/10/- for a first offence and in which no work has then started, another £22/10/- fine that follows. This policy of &quot;cleaning up,&quot; the authorities mean the removal of dilapidated fences, the repair of all broken plumbing and the spreading of sunshine from the rear — that is, the removal of rear porches and the repair of outside walls and leaking roofs. They also demand that slum owners remove outside toilets and install modern equipment inside.</p>
+<p>The plan has been in operation for some time now. The difference it has been able to make in that time is staggering. Where there had been open broken-down fencing, rotting timber and broken concrete slabs, there are now strips of shining lawn, plenty of sunshine, a weapon against disease.</p>
+<p>This is a stop-gap measure until the big slum clearance projects can be erected. At the state level, the New York State Housing is pouring money into slum clearance. The Department has a £195 million fund which will be used to build 31,000 apartments. More than 14,000 of these have been built already. This is another typical New York situation: the city provides many amenities and 150 apartments to those persons first eligible. The department is fighting to keep the rents down.</p>
+<p>Let us look at a few of these projects. The first post-war housing settlement in New York City was the Elliott project, which cost £35 million. The buildings, made of fireproof steel and concrete, are 12 storeys high with automatic elevators. They cover five acres and between the buildings there is light and air with large areas of playing space for children. A few years ago it was the dirtiest part of &quot;Hell's Kitchen&quot; and now it can cater for twice as many people.</p>
+<p>The rents are held down to an average of 43/- a week for the large modern apartments and this includes gas, electricity and heat. The average Manhattan rent for a similar apartment is £18/7/- a week. The state subsidises each apartment at the rate of 38/- a week. Only poor people can live in Elliott Town and once their annual income goes above £1134 a year (and that is by no means a high salary in America) they have to move elsewhere.</p>
+<p>Another way the Government tackles slum clearance is to tie in with private companies. New York City can condemn slum areas for companies interested in putting up new housing. For 25 years it charges them taxes based only on the old slum values. In return, the companies promise to limit profits to 6 per cent.</p>
+<p>Stuyvesant Town — a £36 million city built by the Metropolitan Life Insurance Company — is one of these projects. The area on lower East Side by the river was once a wretched slum known as the &quot;Gas House District,&quot; a smutty collection of 19th century tenements that ruined the approach to Manhattan. Now 85 fire-proof buildings (12 and 13 storeys high) house 8755 people. It has a three-acre park, lawns, gardens, trees and 10 large playing areas for children. Rents range from £5/8/- to £9/18/- a week. These rents may sound high, but most poorly-paid white collar workers can afford them. The apartments are large with modern, streamlined kitchens and bathrooms. Further Stuyvesant Towns, subsidised by the Government, are now going up all over New York for the low-wage earner.</p>
+<p>On Long Island, New York, as full-page newspaper advertisements tell you, the biggest small-house housing project in the world is taking place. A new town of 10,000 houses with a population of 30,000 people has suddenly sprung into being, all built by an American promoter William J. Levitt in aptly-named Levittown.</p>
+<p>It is a perfect illustration of the old joke about Bill Brown who comes home from work, strides into the kitchen and kisses his wife only to find he has kissed the wrong wife. Mrs. Smith replies happily: &quot;That was very nice, Mr. Brown, but you live three houses further down the street.&quot;</p>
+<p>The joke sizes up Levittown. For mile after mile, except for minor changes in colour or position of the windows, every house is exactly the same — a dead-pan sameness. Each house is the same distance back from the roadway, each house faces the same direction, each has the same square plot of a back garden, the same position for a chimney and same concrete path.</p>
+<p>Levittown is the kind of atrocity that makes one wonder where we are heading in this world of machines. This type of mass production where everybody buys the same mass-produced motor car, the same house, the same tinned groceries and the same radio set, is setting the pace for Aldous Huxley's <em>Brave New World</em>.</p>
+<p>Mass production is making up for world-wide shortages, is inevitable and probably a sign of the times. The housing shortage here is just as bad as in Australia and Levittown is certainly giving ex-servicemen their houses. They are going up at the rate of nearly 30 a day and like everything else mass-produced, the price is lower. A Levitt house sells for £3596 Australian or £26/2/- Australian a month with no deposit required. It would cost you as much to build a similar house for yourself in New York State for much less than £6,750 Australian.</p>
+<p>I am not suggesting that Levittowns should be built in Australia — that would be an abomination — but our architects could learn something from the design of these small houses.</p>
+<p>They have two bedrooms, a bathroom and a living room downstairs, with a large attic upstairs. This can be converted into two more bedrooms and another bathroom later on if the ex-serviceman needs the space.</p>
+<p>The living room is at the rear of the house where it belongs. One living room wall is a 16 ft. view window with glass from floor to ceiling. This gives a view on to the rear garden instead of the street where the owner has no privacy. The kitchen is in the front where the ex-serviceman's wife has only a step to answer calls at the front door.</p>
+<p>The bathroom, also in the front, is alongside so all the plumbing can be conveniently plugged in from the street without having to pass under the house.</p>
+<p>A unique idea is the massive brick fireplace which is open on both sides into the kitchen and living room. It is attractively equipped with pots, hooks and irons for steak roasts and barbecues.</p>
+<p>Built-in cupboard space is everywhere and the modern streamlined kitchen is equipped with dinette, refrigerator, fully automatic washing machine, electric stove, exhaust fan, and oil central heating system. All this goes with the house at no extra charge.</p>
+<p>All-in-all the Levitt house is a house any couple would be glad to have — anywhere but in Levittown.</p>
+<hr>
+<p><em>Source: An Australian Looks at American Housing, The Australian Home Beautiful, January 1950. Accessible via the <a href="https://nla.gov.au/nla.obj-2971958469">National Library of Australia's Trove database</a>.</em></p>
+</div>
+      
+      
+    </article>
+
+        </div>
+
+        <div class="col-12 col-md-4">
+          
+
+
+
+<!-- Desktop only — unchanged from before. Mobile gets its own, differently
+ordered version below (see postcontent.njk for the mobile summary, which
+moves up into the article header there instead of appearing here). -->
+<div class="bg-light p-4 rounded d-none d-md-block">
+
+  <p class="lead">
+        Examines New York&#39;s post-war housing crisis and two contrasting responses, the government-subsidised towers of Stuyvesant Town and the mass-produced suburban sameness of Levittown on Long Island, asking what Australia might learn from each.
+      </p>
+
+
+<hr>
+<h4 class="h6">Topics in this item</h4>
+
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/housing/" class="link-secondary">Housing</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Housing">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/levittown/" class="link-secondary">Levittown</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Levittown">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/metropolitan-life-insurance-company/" class="link-secondary">Metropolitan Life Insurance Company</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Metropolitan Life Insurance Company">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/new-york/" class="link-secondary">New York</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="New York">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/slum-clearance/" class="link-secondary">Slum Clearance</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Slum Clearance">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/stuyvesant-town/" class="link-secondary">Stuyvesant Town</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Stuyvesant Town">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/william-j-levitt/" class="link-secondary">William J Levitt</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="William J Levitt">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+
+
+<br>
+<hr>
+<small><a href="/search/" >View all topics</a></small>
+
+</div>
+
+<!-- Mobile only — related topics + view all topics, positioned after the
+article content; last updated trails at the very end. -->
+<div class="d-md-none">
+  
+  
+  <h4 class="h6">Related topics</h4>
+  
+  <ul class="topic-jump-list list-unstyled small text-muted mb-3">
+    
+    <li class="topic-jump-item">
+      <a href="/topic/housing/" class="link-secondary">Housing</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Housing">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/levittown/" class="link-secondary">Levittown</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Levittown">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/metropolitan-life-insurance-company/" class="link-secondary">Metropolitan Life Insurance Company</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Metropolitan Life Insurance Company">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/new-york/" class="link-secondary">New York</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="New York">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/slum-clearance/" class="link-secondary">Slum Clearance</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Slum Clearance">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/stuyvesant-town/" class="link-secondary">Stuyvesant Town</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="Stuyvesant Town">Jump to &rarr;</a>
+    </li>
+    
+    <li class="topic-jump-item">
+      <a href="/topic/william-j-levitt/" class="link-secondary">William J Levitt</a>
+      <a href="#" class="topic-jump-link" data-topic-jump="William J Levitt">Jump to &rarr;</a>
+    </li>
+  </ul>
+
+  
+  <small><a href="/search/">View all topics</a></small>
+
+  
+  
+</div>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var articleBody = document.querySelector('.article-body');
+    if (!articleBody) return;
+
+    // Every topic's first occurrence is located and wrapped once up front
+    // (settled/invisible, see .topic-jump-highlight--settled) rather than
+    // per click. This lets a topic with no literal match in this article's
+    // text — a tag's canonical spelling doesn't always match Keith
+    // Dunstan's prose verbatim, e.g. tag "6 Oclock swill" vs body text
+    // "six o'clock swill" — have its "Jump to" link hidden instead of
+    // sitting there doing nothing when clicked.
+    var marksByTopic = {};
+    document.querySelectorAll('[data-topic-jump]').forEach(function (link) {
+      var topic = link.getAttribute('data-topic-jump');
+      if (!(topic in marksByTopic)) {
+        marksByTopic[topic] = wrapFirstMatch(topic);
+        if (marksByTopic[topic]) {
+          marksByTopic[topic].classList.add('topic-jump-highlight--settled');
+        }
+      }
+
+      var mark = marksByTopic[topic];
+      if (!mark) {
+        link.remove();
+        return;
+      }
+
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        mark.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        flash(mark);
+      });
+    });
+
+    // Re-triggers the fade-out animation on repeat clicks by removing the
+    // settled state, forcing a reflow, then re-adding it.
+    function flash(mark) {
+      mark.classList.remove('topic-jump-highlight--settled');
+      void mark.offsetWidth;
+      setTimeout(function () {
+        mark.classList.add('topic-jump-highlight--settled');
+      }, 50);
+    }
+
+    // Finds the first case-insensitive occurrence of the topic text in the
+    // article body and wraps it in a <mark> so it can be scrolled to and
+    // highlighted, without disturbing surrounding markup. Returns null if
+    // the topic's exact text doesn't appear in the body.
+    function wrapFirstMatch(topic) {
+      var needle = topic.toLowerCase();
+      var walker = document.createTreeWalker(articleBody, NodeFilter.SHOW_TEXT, {
+        acceptNode: function (node) {
+          var parentTag = node.parentElement && node.parentElement.tagName;
+          if (parentTag === 'SCRIPT' || parentTag === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          if (!node.nodeValue || node.nodeValue.toLowerCase().indexOf(needle) === -1) {
+            return NodeFilter.FILTER_SKIP;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      });
+
+      var textNode = walker.nextNode();
+      if (!textNode) return null;
+
+      var text = textNode.nodeValue;
+      var index = text.toLowerCase().indexOf(needle);
+      if (index === -1) return null;
+
+      var before = document.createTextNode(text.slice(0, index));
+      var after = document.createTextNode(text.slice(index + topic.length));
+      var mark = document.createElement('mark');
+      mark.className = 'topic-jump-highlight';
+      mark.setAttribute('data-topic', topic);
+      mark.textContent = text.slice(index, index + topic.length);
+
+      var parent = textNode.parentNode;
+      parent.insertBefore(before, textNode);
+      parent.insertBefore(mark, textNode);
+      parent.insertBefore(after, textNode);
+      parent.removeChild(textNode);
+
+      return mark;
+    }
+  });
+</script>
+
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row border-top py-5">
+  <div class="col-12">
+    <p class="text-center text-muted"><img src="/img/keith.png" alt="Image of Keith Dunstan" width="60" height="60" class="mt-1 me-3 rounded-circle mb-3">
+    <br><small><a href="/about/">About this site, content and reuse</a></small>
+<br>
+    <br>&copy; Copyright - The literary estate of Keith Dunstan.
+<br><small>Works by Keith Dunstan are published under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">Creative Commons Attribution&ndash;NonCommercial&ndash;NoDerivatives 4.0 International Licence</a>. <a href="/licence/">Licence and reuse &rarr;</a></small></p>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const yearElement = document.getElementById('copyright-year');
+    if (yearElement) {
+      const currentYear = new Date().getFullYear();
+      yearElement.textContent = '1962-' + currentYear;
+    }
+  });
+</script>
+<script>
+  // Site-wide link behaviour: external links open in a new tab, internal
+  // links stay in the current tab. Runs on every rendered anchor rather than
+  // requiring target="_blank" to be hand-added to templates and the ~170
+  // markdown content files (including the Trove source link appended to
+  // every transcribed article), so new content gets correct behaviour
+  // automatically.
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('a[href]').forEach(function (link) {
+      const href = link.getAttribute('href');
+      if (!href || href.charAt(0) === '#' || /^(mailto|tel|javascript):/i.test(href)) {
+        return;
+      }
+      let url;
+      try {
+        url = new URL(href, window.location.href);
+      } catch (e) {
+        return;
+      }
+      if (url.hostname && url.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        const rel = new Set((link.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+        rel.add('noopener');
+        link.setAttribute('rel', Array.from(rel).join(' '));
+      } else {
+        link.removeAttribute('target');
+      }
+    });
+  });
+</script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+
+    </footer>
+
+  </body>
+
+</html>

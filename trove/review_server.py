@@ -1,23 +1,25 @@
 #!/usr/bin/env python3
 """
-review_server.py — Side-by-side scan + stub review tool for Bulletin triage.
+review_server.py — Side-by-side scan + stub review tool for Trove triage.
 
 Opens at http://localhost:5050
 
 Usage:
     cd /path/to/KeithDunstan
-    python trove/review_server.py                  # review all years
-    python trove/review_server.py --year 1972      # start at 1972
+    python trove/review_server.py                               # bulletin, all years
+    python trove/review_server.py --year 1972                   # start at 1972
+    python trove/review_server.py --publication home-beautiful  # different publication
 
 Actions:
-    K / "Keith's"    — move stub to output/bulletin/transcribed/
-    R / "Reject"     — move stub to output/bulletin/rejected/
+    K / "Keith's"    — move stub to output/<pub>/transcribed/
+    R / "Reject"     — move stub to output/<pub>/rejected/
     S / "Skip"       — leave in stubs/, come back later
 
 Progress is remembered: stubs in transcribed/ and rejected/ show their status
 in the article list so you can see what's done at a glance.
 """
 
+import argparse
 import os
 import sys
 import json
@@ -30,13 +32,15 @@ from pathlib import Path
 
 # ---------------------------------------------------------------------------
 # Paths — all relative to the repo root (one level up from trove/)
+# Set at startup by --publication arg; functions reference these as globals.
 # ---------------------------------------------------------------------------
 TROVE_DIR    = Path(__file__).resolve().parent
 REPO_ROOT    = TROVE_DIR.parent
-SCANS_BASE   = REPO_ROOT / "src" / "trove-scans" / "bulletin"
-STUBS_BASE   = TROVE_DIR / "output" / "bulletin" / "stubs"
-TRANS_BASE   = TROVE_DIR / "output" / "bulletin" / "transcribed"
-REJECT_BASE  = TROVE_DIR / "output" / "bulletin" / "rejected"
+SCANS_BASE   = None
+STUBS_BASE   = None
+TRANS_BASE   = None
+REJECT_BASE  = None
+PUB_LABEL    = "Bulletin"
 PORT         = 5050
 
 # ---------------------------------------------------------------------------
@@ -148,7 +152,7 @@ HTML = r"""<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bulletin Triage Viewer</title>
+<title>__PUB_LABEL__ Triage Viewer</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: system-ui, sans-serif; background: #1a1a1a; color: #e0e0e0; height: 100vh; display: flex; flex-direction: column; }
@@ -211,7 +215,7 @@ HTML = r"""<!DOCTYPE html>
 <body>
 
 <div id="header">
-  <h1>Bulletin Triage</h1>
+  <h1>__PUB_LABEL__ Triage</h1>
   <select id="year-select"><option value="">— year —</option></select>
   <span id="status-bar"></span>
 </div>
@@ -465,6 +469,11 @@ class Handler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(body)
 
+    @staticmethod
+    def _titled_html():
+        label = PUB_LABEL
+        return HTML.replace("__PUB_LABEL__", label)
+
     def serve_file(self, path: Path, mime: str):
         if not path.exists():
             self.send_error(404)
@@ -482,7 +491,7 @@ class Handler(BaseHTTPRequestHandler):
         qs     = urllib.parse.parse_qs(parsed.query)
 
         if path == "/":
-            self.send_html(HTML)
+            self.send_html(self._titled_html())
 
         elif path == "/api/years":
             self.send_json(list_years())
@@ -549,16 +558,34 @@ class Handler(BaseHTTPRequestHandler):
 # Main
 # ---------------------------------------------------------------------------
 if __name__ == "__main__":
-    year_arg = None
-    for i, arg in enumerate(sys.argv):
-        if arg == "--year" and i + 1 < len(sys.argv):
-            year_arg = sys.argv[i + 1]
+    parser = argparse.ArgumentParser(description="Trove stub triage viewer")
+    parser.add_argument("--publication", default="bulletin",
+                        help="Publication slug (e.g. bulletin, home-beautiful)")
+    parser.add_argument("--year", default=None,
+                        help="Jump straight to this year")
+    args = parser.parse_args()
+
+    pub = args.publication
+    PUB_LABEL = pub.replace("-", " ").title()
+
+    SCANS_BASE  = REPO_ROOT / "src"  / "trove-scans" / pub
+    STUBS_BASE  = TROVE_DIR / "output" / pub / "stubs"
+    TRANS_BASE  = TROVE_DIR / "output" / pub / "transcribed"
+    REJECT_BASE = TROVE_DIR / "output" / pub / "rejected"
+
+    # Inject into module globals so the helper functions see the right paths
+    import __main__ as _main
+    _main.SCANS_BASE  = SCANS_BASE
+    _main.STUBS_BASE  = STUBS_BASE
+    _main.TRANS_BASE  = TRANS_BASE
+    _main.REJECT_BASE = REJECT_BASE
+    _main.PUB_LABEL   = PUB_LABEL
 
     url = f"http://localhost:{PORT}"
-    if year_arg:
-        url += f"?year={year_arg}"
+    if args.year:
+        url += f"?year={args.year}"
 
-    print(f"Bulletin Triage Viewer")
+    print(f"{PUB_LABEL} Triage Viewer")
     print(f"  {url}")
     print(f"  K = Keith's  |  R = Reject  |  S = Skip  |  ← → = navigate")
     print(f"  Ctrl-C to stop\n")

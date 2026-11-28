@@ -1,0 +1,1 @@
+../../../../vault/articles/home-beautiful/1951/1951-02-01-exit-the-slums.md
