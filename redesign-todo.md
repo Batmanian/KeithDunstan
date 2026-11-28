@@ -93,6 +93,7 @@ Support fields for:
 - [ ] **Permanent URL**
 - [ ] **Rights** — Literary Estate of Keith Dunstan
 - [ ] **Cite this item**
+- [ ] Create a mailto 'report and error or issue on this page' with autocompleted subject line for email
 
 Implementation:
 
